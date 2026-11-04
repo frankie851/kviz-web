@@ -1,37 +1,37 @@
 # HANDOFF – Kvízová webová aplikace
-datum: 2026-11-04 · předává: prompt 00 (příprava dat, prostředí B) · přebírá: prompt 01 (Fáze 1, prostředí A – Claude Code v cloudu)
+datum: 2026-11-04 · předává: prompt 01 (Fáze 1, prostředí A) · přebírá: prompt 01 (Fáze 2, prostředí A – Claude Code v cloudu)
 
 ## Stav jednou větou
-Fáze 0 je hotová: Excel má sloupec Web (hned za Shorts), v repozitáři jsou dokumenty, exportní nástroj s testem, data 4 českých témat v režimu „web“ a zástupná stránka; další je Fáze 1 – návrhy značky.
+Fáze 1 je hotová: David vybral značku **A „Oho!“** (D-009); další je Fáze 2 – stavba aplikace v této značce na ostrých datech, která už v `data/` jsou.
 
 ## Stav dat
 - 2026-11-04 – 35 otázek, 1 téma (T001 Chobotnice a další hlavonožci), režim vzorek
-- 2026-11-04 – 120 otázek, 4 témata (T146 České pohádky, T172 Praha – domovní znamení, T204 Československo 1918–1992, T254 Čeští sportovci), režim web (nahrazuje vzorek T001)
+- 2026-11-04 – 120 otázek, 4 témata (T146 České pohádky, T172 Praha – domovní znamení, T204 Československo 1918–1992, T254 Čeští sportovci), režim web (nahrazuje vzorek T001) – pro Fázi 2 stačí (všechna 4 témata mají 10/10/10 otázek)
 
 ## Hotovo
-- Repozitář: `CLAUDE.md` (s příkazy a adresou webu), `docs/` (SPEC, PLAN, DECISIONS, HANDOFF), `tools/export_otazky.py`, `tools/test_export.py`, `data/` (vzorek), `index.html` („Připravujeme…“).
-- `Kvizy/nastroje/kviz_db.py`: nový sloupec **Web** (na Davidův pokyn sloupec D hned za Shorts na všech listech s otázkami, rozbalovací seznam Ano/Ne, oranžová hlavička jako u ručních voleb, ukotvení E2) a příkaz `web Ano T146 …` (D-007). `sync` ho převezme do `otazky.json` (`q["web"]`), list bez sloupce Web hodnotu nemaže; `pridat`, `prestavet`, `stav`, `ohraniceni` hodnoty zachovávají, nové řádky mají Web prázdné (ověřeno na kopii). Zálohy skriptu: `nastroje/kviz_db_zaloha_2026-11-04_pred_web.py` (před sloupcem Web) a `…_pred_web_za_shorts.py` (Web ještě na konci).
-- Přesun Web za Shorts: `prestavet` 2026-11-04 22:43 UTC (záloha `kviz_otazky_zaloha_20261104_224349.xlsx`), ověření proti záloze prošlo; pak `web Ano T146 T172 T204 T254` (záloha `…_224442_pred_web.xlsx`) – proti záloze se liší jen těch 120 buněk Web.
-- První `prestavet` proběhl 2026-11-04 21:41 (UTC); záloha Excelu `kviz_otazky_zaloha_20261104_214116.xlsx`. Ověření proti záloze prošlo: všech 12 535 řádků na 7 listech, shodné hodnoty Použít / Shorts / Poznámka i všech ostatních sloupců, list Témata shodný včetně vzorců, list YouTube shodný.
-- Export a test vyzkoušené v obou režimech; test odhalí změněnou správnou odpověď, chybějící otázku i prázdnou možnost.
-- Rozhodnutí D-003 (ikony = emoji + ID kategorie), D-004 (formát dat), D-005 (vzorek T001, nahrazeno), D-006 (4 česká témata, režim web), D-007 (Web za Shorts, příkaz `web`).
+- Fáze 0 (prompt 00, prostředí B): dokumenty, export a test dat, ostrá data, zástupná stránka – podrobnosti v PLAN a DECISIONS D-003 až D-007.
+- Fáze 1 (2026-11-04): `design/index.html` se 3 variantami (A Oho!, B Kvark, C Hop), loga `design/logo-*.svg`, písma OFL v `design/fonts/` (Baloo 2, Nunito, Unbounded, Inter, Rubik – z npm `@fontsource-variable/*`, u každého `OFL-*.txt`). Screenshoty v `docs/nahledy/faze1-*.png`. Rešerše názvů a ověření písem a kontrastu v D-008. Volba David: **A Oho!** (D-009).
+- Náhledová stránka nemá konzolové chyby ani požadavky mimo vlastní adresu a nepřetéká na 320 / 390 / 1280 px (ověřeno Playwrightem přes Node – `require('playwright')` v prostředí A funguje, Chromium je předinstalované; pythonový balíček playwright ale nainstalovaný není).
 
 ## Rozpracováno
-- **GitHub Pages zatím nejsou zapnuté.** Agent v prostředí B je zapnout nemohl (rozhraní GitHubu pro nastavení Pages je pro něj zablokované a ve vestavěném prohlížeči není David na GitHubu přihlášený). Zapne je David ručně: github.com → repozitář kviz-web → Settings → Pages → Build and deployment → Source „Deploy from a branch“ → Branch „main“ a „/ (root)“ → Save. Za 1–2 minuty má běžet https://frankie851.github.io/kviz-web/ se stránkou „Připravujeme…“. Prompt 01 na začátku ověří, že adresa odpovídá (jinak Davida upozorní).
+- **GitHub Pages:** zda už běží, se z prostředí A ověřit nedá – cloudová síť nepustí `frankie851.github.io` (WebFetch i curl odmítnuty). Pokud David Pages ještě nezapnul: github.com → repozitář kviz-web → Settings → Pages → Build and deployment → Source „Deploy from a branch“ → Branch „main“ a „/ (root)“ → Save. Ověření online ve Fázi 2 bude potřeba udělat přes Davida (nebo povolit doménu `frankie851.github.io` v síťovém nastavení cloudového prostředí).
 
 ## Další krok
-0. David zapne GitHub Pages (viz Rozpracováno).
-1. Fáze 1 – prompt 01 v Claude Code (Cloud environment, repozitář kviz-web): 3 varianty značky s ukázkou na otázkách z `data/`.
+1. Fáze 2 – prompt 01 v Claude Code (Cloud environment, repozitář kviz-web): design systém značky Oho! v CSS (hodnoty z `design/index.html`, třída `.v-a`), písma Baloo 2 + Nunito přesunout do `assets/fonts/`, obrazovky 1–9, logika, `tools/pruchod.py`.
+   - Pro `tools/pruchod.py` (Python) bude potřeba `pip install playwright`; Chromium je v `/opt/pw-browsers` – při rozdílné verzi spouštět s `executable_path='/opt/pw-browsers/chromium...'` (najít skutečnou cestu), `playwright install` nespouštět, pokud to jde bez něj.
+2. Prompt 03 (prostředí B) jen tehdy, když David v Excelu označí další otázky Web = Ano.
 
 ## Připomínky Davida (k zapracování)
 - zatím žádné
 
 ## Otevřené otázky a rizika
-- Skill kviz-generator má vlastní kopii `kviz_db.py` (Příloha A, byla starší než skript ve složce). David dostal návrh aktualizace skillu (Příloha A = aktuální skript se sloupcem Web za Shorts a příkazem `web`; kopie návrhu i v `KvizWeb\web-aplikace\navrh_kviz-generator_SKILL.md`). Dokud ho neuloží, mohla by výměna skriptu ze skillu sloupec Web odstranit.
+- Skill kviz-generator má vlastní kopii `kviz_db.py` (Příloha A). Dokud David neuloží navržený update, mohla by výměna skriptu ze skillu sloupec Web odstranit.
 - David chce na web hlavně otázky, které nebudou na YouTube (D-006) – při dalším výběru na to pamatuj.
+- Název „Oho!“: rešerše jen přes webové vyhledávání, ochranné známky neověřené.
+- Pro hezký tvar loga „Oho!“ v Baloo 2: ve wordmarku je „!“ v barvě Malina.
 
 ## Nápady na později (nestavět bez zadání)
-- (sem agent zapisuje nápady mimo rozsah 1. verze)
+- (zatím nic)
 
 ## Jak navázat
-Nejdřív `git pull`. Pak přečti v tomto pořadí: `CLAUDE.md` → `docs/HANDOFF.md` → `docs/PLAN.md` → `docs/SPEC.md` → `docs/DECISIONS.md`. Zvolenou značku (DECISIONS) a strukturu dat neměň bez souhlasu Davida.
+Nejdřív `git fetch origin main` (+ `git merge origin/main`). Pak přečti v tomto pořadí: `CLAUDE.md` → `docs/HANDOFF.md` → `docs/PLAN.md` → `docs/SPEC.md` → `docs/DECISIONS.md`. Zvolenou značku (D-009) a strukturu dat neměň bez souhlasu Davida.

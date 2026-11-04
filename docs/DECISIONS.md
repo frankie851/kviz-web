@@ -1,6 +1,11 @@
 # DECISIONS – Kvízová webová aplikace
 Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový záznam s odkazem na původní.
 
+## D-009 · 2026-11-04 · Zvolená značka: A „Oho!“
+- **Rozhodnutí:** David vybral variantu **A Oho!** beze změn: název „Oho!“, logo `design/logo-a-oho.svg` (bublina s vykřičníkem a jiskrou), paleta Malina #C2255C (hlavní tlačítka, bílý text), Slunce #FFC53D, Krém #FFF6EA (pozadí), Švestka #2B1630 (text), tlumený text #6E5466, překlad #7A5F70, Správně #1E9E5A / #DDF5E6, Špatně #D9363E / #FDE2E2; písma Baloo 2 (nadpisy, tlačítka) + Nunito (texty); zaoblená „pilulková“ tlačítka, karty s poloměrem 22 px, dekorativní kruhy v rozích. Přesné hodnoty jsou v `design/index.html` (třída `.v-a`).
+- **Pro Fázi 2:** písma Baloo 2 a Nunito (i s licencemi OFL) přesunout do `assets/fonts/`; ostatní písma z `design/fonts/` aplikace nepoužívá.
+- **Kdo:** David (volba v relaci prompt 01)
+
 ## D-008 · 2026-11-04 · Návrhy značky: názvy, písma, rešerše
 - **Rozhodnutí:** tři varianty v `design/index.html`: **A Oho!** (malina + slunce na krému, písma Baloo 2 + Nunito), **B Kvark** (tmavá noční, limetka + fialová + růžová, Unbounded + Inter), **C Hop** (moře + pomeranč + námořní modrá, „mačkací“ tlačítka, Rubik). Loga jako SVG v `design/logo-*.svg`, písma (OFL, z npm `@fontsource-variable/*`, i s licencemi) v `design/fonts/`. Po volbě se písma zvolené varianty přesunou do `assets/fonts/`.
 - **Ověřeno:** všechna použitá písma mají česká písmena (kontrola znakové sady nástrojem fontTools); kontrast barev textu ≥ 4,5 : 1 (WCAG AA, výpočtem).

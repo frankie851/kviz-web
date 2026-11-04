@@ -17,7 +17,7 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☑ (2026-11-04) Krátká rešerše názvů na webu (D-008): „Aha“ zamítnuto (existuje Aha Quiz); Oho, Kvark, Hop – žádná známá kvízová aplikace stejného jména.
 - ☑ (2026-11-04) Screenshoty variant na telefonu (390 px) ukázány Davidovi (i v `docs/nahledy/faze1-*`) + odkaz na `…/kviz-web/design/`.
 
-**⏸ Kontrolní bod:** David vybere variantu – odpoví v téže relaci (zapsat do DECISIONS.md, commit). Pak v Excelu označí Web = Ano aspoň u 3–5 témat a v prostředí B spustí prompt 03 (ostrá data). → HANDOFF, konec sezení.
+**⏸ Kontrolní bod:** ☑ (2026-11-04) David vybral variantu **A Oho!** (D-009). Ostrá data (4 témata, režim „web“) už v `data/` jsou, takže prompt 03 je potřeba jen pro další témata. → HANDOFF, konec sezení.
 
 ## Mezikrok – Ostrá data (prompt 03, prostředí B)
 - ☑ (2026-11-04, už v promptu 00) `data/` obsahuje Davidův výběr (`"rezim": "web"`: T146, T172, T204, T254 – 120 otázek), test s `--zdroj` prošel. Prompt 03 je potřeba až ve chvíli, kdy David v Excelu označí další otázky.
@@ -52,4 +52,4 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☐ Závěrečná zpráva Davidovi + zaškrtnout kritéria přijetí ve SPEC.
 
 ## Stav
-Poslední aktualizace: 2026-11-04 · Aktuální fáze: 1 – čeká se na Davidovu volbu značky (⏸) · Blokováno: GitHub Pages zapíná David ručně; z cloudu nejde web ověřit (síť ho nepustí)
+Poslední aktualizace: 2026-11-04 · Aktuální fáze: 2 (Fáze 1 hotová, značka Oho!) · Blokováno: nic (ostrá data jsou v `data/`); GitHub Pages zapíná David ručně, z cloudu web ověřit nejde
