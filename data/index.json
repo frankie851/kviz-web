@@ -1,0 +1,40 @@
+{
+ "verze": 1,
+ "rezim": "vzorek",
+ "exportovano": "2026-11-04T22:44:31+01:00",
+ "jazyky": [
+  "cs",
+  "en"
+ ],
+ "pocet_temat": 1,
+ "pocet_otazek": 35,
+ "kategorie": [
+  {
+   "id": "priroda-a-zvirata",
+   "nazev": {
+    "cs": "Příroda a zvířata",
+    "en": "Nature & Animals"
+   },
+   "ikona": "🐾",
+   "temata": [
+    {
+     "id": "T001",
+     "nazev": {
+      "cs": "Chobotnice a další hlavonožci",
+      "en": "Octopuses and Other Cephalopods"
+     },
+     "otazek": {
+      "1": 15,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 35,
+     "soubor": "topics/T001.json"
+    }
+   ]
+  }
+ ],
+ "vzorek_temata": [
+  "T001"
+ ]
+}

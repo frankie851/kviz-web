@@ -1,0 +1,53 @@
+# Kvízová webová aplikace – pravidla pro Clauda
+Veřejná dvojjazyčná (CZ/EN) kvízová aplikace z Davidových ověřených otázek. Statický web na GitHub Pages, bez serveru. Co a proč: `docs/SPEC.md` · postup: `docs/PLAN.md` · kde se skončilo: `docs/HANDOFF.md` · rozhodnutí: `docs/DECISIONS.md`.
+
+Web: https://frankie851.github.io/kviz-web/
+
+David není programátor: piš mu česky, bez žargonu, a výsledky ukazuj (screenshoty, odkaz), nepopisuj kód.
+
+## Dvě prostředí
+- **A – Claude Code, Cloud environment:** vidí jen tento repozitář. Staví aplikaci (prompt 01).
+- **B – úkol v aplikaci Claude propojený s Davidovým počítačem:** vidí Excel a `otazky.json` ve složce Kvizy. Připravuje a aktualizuje data (prompty 00 a 03) a dělá nezávislou kontrolu (prompt 02). Repozitář, export, testy a Playwright běží v jeho kontejneru; Excel a `kviz_db.py` na počítači přes `device_bash`.
+- Předávají si práci přes větev `main` tohoto repozitáře. Na začátku sezení vždy stáhni nejnovější `main` (`git fetch origin main` + případně `git merge origin/main`).
+
+## Struktura
+- `index.html`, `assets/css/`, `assets/js/` (ES moduly), `assets/fonts/`, `assets/img/` – aplikace
+- `assets/i18n/cs.json`, `assets/i18n/en.json` – všechny texty rozhraní
+- `data/index.json`, `data/topics/<ID tématu>.json` – otázky; generuje je `tools/export_otazky.py` v prostředí B. **Ručně je needituj.** `"rezim"` v indexu říká, jestli jde o ukázková data („vzorek“), nebo o Davidův výběr („web“).
+- `tools/` – export dat, testy, průchod hrou a screenshoty (nejsou součástí aplikace)
+- `design/` – náhledy variant značky (Fáze 1)
+- `docs/` – SPEC, PLAN, DECISIONS, HANDOFF, KONTROLA_*, `nahledy/` (screenshoty pro Davida), `kontrola-img/` (screenshoty kontroly)
+
+## Příkazy
+- Lokální server: `python3 -m http.server 8000` (v kořeni repozitáře)
+- Export dat (jen prostředí B): nejdřív na počítači `cd $HOME/mnt/Kvizy && python3 nastroje/kviz_db.py sync` (převezme sloupec Web z Excelu do `otazky.json`; Excel musí být zavřený), pak `otazky.json` přenést do kontejneru (`device_stage_files`) a v kořeni repozitáře:
+  - ostrá data: `python3 tools/export_otazky.py /mnt/user-data/uploads/Kvizy/otazky.json`
+  - ukázková data: `python3 tools/export_otazky.py /mnt/user-data/uploads/Kvizy/otazky.json --vzorek T001`
+  Export vždy nejdřív vyprázdní `data/`; když nic nevybráno, skončí chybou a `data/` nechá být.
+- Test dat: `python3 tools/test_export.py` (prostředí A – kontrola struktury) · `python3 tools/test_export.py --zdroj /mnt/user-data/uploads/Kvizy/otazky.json` (prostředí B – navíc porovnání se zdrojem; výběr podle `"rezim"` v indexu, volitelně `--vzorek T001`). Nenulový návratový kód = chyba.
+- Průchod hrou a screenshoty: `<doplní prompt 01 ve Fázi 2>`
+
+## Technické konvence
+- Čisté HTML + CSS + JavaScript, bez frameworku a bez build kroku – GitHub Pages servíruje soubory přímo a každé další sezení je snadno upraví.
+- Všechny cesty relativní – web běží v podsložce `/kviz-web/`, absolutní cesty `/assets/...` by se rozbily.
+- Navigace přes hash (`#/kategorie/...`) – GitHub Pages neumí přesměrování na jednu stránku.
+- Žádné požadavky na cizí servery: písma (licence OFL) a případné knihovny (MIT apod.) ulož do `assets/` i s licenčním souborem. Písma lze získat přes npm balíček `@fontsource/<písmo>`.
+- Texty z dat vkládej jako text (`textContent`), nikdy jako HTML.
+- Žádné texty rozhraní natvrdo v kódu – vše přes i18n soubory.
+- localStorage jen přes jeden modul s try/catch a verzovaným klíčem (`kviz.v1.*`).
+- Data jsou po jazycích (`{"cs": …, "en": …}`); kde to nic nestojí, nepředpokládej natvrdo jen dva jazyky.
+- Playwright s Chromiem: v prostředí B je předinstalovaný (`playwright install` tam nespouštěj). V prostředí A ho podle potřeby nainstaluj (`pip install playwright`, `python3 -m playwright install chromium`).
+
+## Pracovní pravidla (při stavbě)
+- Na začátku sezení stáhni nejnovější `main`, pak přečti `docs/HANDOFF.md` a `docs/PLAN.md`; hotový krok v PLAN odškrtni.
+- Rozhodnutí, která nejsou ve SPEC, zapiš do `docs/DECISIONS.md`.
+- Na konci sezení (i při hrozícím vyčerpání limitů – raději dřív) aktualizuj `docs/HANDOFF.md`, commitni a pushni do `main`. Když prostředí dovolí jen vlastní větev, otevři pull request do `main` a požádej Davida o sloučení.
+- Commity malé, popis česky: co a proč.
+
+## Při kontrole (prompt 02)
+- Kód neupravuj. Výstupem je jen `docs/KONTROLA_RRRR-MM-DD.md` (+ screenshoty v `docs/kontrola-img/`), odškrtnutí Fáze 4 v PLAN a „Další krok“ v HANDOFF. Opravy dělá stavitel ve Fázi 5.
+
+## Nikdy bez Davidova souhlasu
+- `git push --force`, mazání historie nebo větví, změna viditelnosti repozitáře.
+- Zápis do Davidových složek Kvizy a KvizWeb mimo pravidla v promptu (Excel jen přes `nastroje/kviz_db.py`, nic nemazat).
+- Cokoli placeného (doména, služby), registrace u cizích služeb, analytika.
