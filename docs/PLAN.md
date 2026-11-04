@@ -13,9 +13,9 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☑ (2026-11-04) Doplnit příkazy do `CLAUDE.md`, commit + push do `main`.
 
 ## Fáze 1 – Značka (prompt 01, prostředí A)
-- ☐ 3 varianty značky podle SPEC (název, paleta, písmo, logo SVG, ukázka obrazovek Domů a Otázka s otázkami z `data/`) v `design/index.html`.
-- ☐ Krátká rešerše názvů na webu: nekolidují se známou kvízovou aplikací nebo značkou (máš-li webové vyhledávání; jinak to Davidovi napiš jako neověřené).
-- ☐ Screenshoty variant na telefonu (390 px) ukázat Davidovi + odkaz na `…/kviz-web/design/`.
+- ☑ (2026-11-04) 3 varianty značky podle SPEC (název, paleta, písmo, logo SVG, ukázka obrazovek Domů a Otázka s otázkami z `data/`) v `design/index.html` – A Oho!, B Kvark, C Hop.
+- ☑ (2026-11-04) Krátká rešerše názvů na webu (D-008): „Aha“ zamítnuto (existuje Aha Quiz); Oho, Kvark, Hop – žádná známá kvízová aplikace stejného jména.
+- ☑ (2026-11-04) Screenshoty variant na telefonu (390 px) ukázány Davidovi (i v `docs/nahledy/faze1-*`) + odkaz na `…/kviz-web/design/`.
 
 **⏸ Kontrolní bod:** David vybere variantu – odpoví v téže relaci (zapsat do DECISIONS.md, commit). Pak v Excelu označí Web = Ano aspoň u 3–5 témat a v prostředí B spustí prompt 03 (ostrá data). → HANDOFF, konec sezení.
 
@@ -52,4 +52,4 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☐ Závěrečná zpráva Davidovi + zaškrtnout kritéria přijetí ve SPEC.
 
 ## Stav
-Poslední aktualizace: 2026-11-04 · Aktuální fáze: 1 (Fáze 0 hotová) · Blokováno: nic
+Poslední aktualizace: 2026-11-04 · Aktuální fáze: 1 – čeká se na Davidovu volbu značky (⏸) · Blokováno: GitHub Pages zapíná David ručně; z cloudu nejde web ověřit (síť ho nepustí)

@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Návrhy značky – 3 varianty</title>
+<meta name="robots" content="noindex">
+<style>
+/* ---------- Písma (OFL, uložená v design/fonts) ---------- */
+@font-face { font-family: "Baloo 2"; font-weight: 400 800; font-display: swap; src: url(fonts/baloo-2-latin-wght-normal.woff2) format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Baloo 2"; font-weight: 400 800; font-display: swap; src: url(fonts/baloo-2-latin-ext-wght-normal.woff2) format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Nunito"; font-weight: 200 1000; font-display: swap; src: url(fonts/nunito-latin-wght-normal.woff2) format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Nunito"; font-weight: 200 1000; font-display: swap; src: url(fonts/nunito-latin-ext-wght-normal.woff2) format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Unbounded"; font-weight: 200 900; font-display: swap; src: url(fonts/unbounded-latin-wght-normal.woff2) format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Unbounded"; font-weight: 200 900; font-display: swap; src: url(fonts/unbounded-latin-ext-wght-normal.woff2) format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Inter"; font-weight: 100 900; font-display: swap; src: url(fonts/inter-latin-wght-normal.woff2) format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Inter"; font-weight: 100 900; font-display: swap; src: url(fonts/inter-latin-ext-wght-normal.woff2) format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Rubik"; font-weight: 300 900; font-display: swap; src: url(fonts/rubik-latin-wght-normal.woff2) format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Rubik"; font-weight: 300 900; font-display: swap; src: url(fonts/rubik-latin-ext-wght-normal.woff2) format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+
+/* ---------- Stránka s návrhy (neutrální rámeček) ---------- */
+:root { --page: #F2F1F5; --page-ink: #1D1B22; --page-muted: #5B5866; --page-card: #FFFFFF; --page-line: #E1DFE7; }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--page); color: var(--page-ink); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; overflow-x: hidden; }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 24px 16px 64px; }
+.intro h1 { font-size: clamp(26px, 6vw, 40px); line-height: 1.15; margin: 8px 0 8px; letter-spacing: -0.01em; }
+.intro p { margin: 6px 0; color: var(--page-muted); max-width: 70ch; }
+.jump { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0 8px; padding: 0; list-style: none; }
+.jump a { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 6px 14px 6px 8px; border-radius: 999px; background: var(--page-card); border: 1px solid var(--page-line); color: inherit; text-decoration: none; font-weight: 600; }
+.jump img { width: 30px; height: 30px; }
+.variant { margin-top: 40px; padding-top: 8px; border-top: 1px solid var(--page-line); scroll-margin-top: 8px; }
+.vhead { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.vhead .tag { font-weight: 800; font-size: 14px; letter-spacing: .08em; text-transform: uppercase; color: var(--page-muted); }
+.vhead h2 { margin: 0; font-size: clamp(24px, 5vw, 32px); }
+.vhead .vibe { color: var(--page-muted); margin: 0; }
+.board { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 24px; margin-top: 16px; align-items: start; }
+.brand { background: var(--page-card); border: 1px solid var(--page-line); border-radius: 20px; padding: 20px; min-width: 0; }
+.brand .logo { display: flex; align-items: center; gap: 16px; padding: 20px; border-radius: 16px; }
+.brand .logo .mark { width: 84px; height: 84px; flex: none; }
+.brand .logo .mark svg { width: 100%; height: 100%; display: block; }
+.brand .logo .word { font-size: 52px; line-height: 1; }
+.brand h3 { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--page-muted); margin: 20px 0 8px; }
+.brand ul.why { margin: 0; padding-left: 20px; }
+.brand ul.why li { margin: 4px 0; }
+.swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 8px; }
+.sw { border-radius: 12px; overflow: hidden; border: 1px solid var(--page-line); font-size: 12px; }
+.sw i { display: block; height: 44px; }
+.sw span { display: block; padding: 4px 8px; line-height: 1.3; }
+.sw b { display: block; font-size: 12px; }
+.spec { border: 1px solid var(--page-line); border-radius: 12px; padding: 12px 14px; }
+.spec .big { font-size: 26px; line-height: 1.15; overflow-wrap: anywhere; }
+.spec .small { font-size: 16px; margin-top: 6px; overflow-wrap: anywhere; }
+.spec .who { font-size: 12px; color: var(--page-muted); margin-top: 8px; }
+.cap { font-size: 13px; color: var(--page-muted); text-align: center; margin: 8px 0 0; max-width: 360px; }
+.phone { width: 360px; border: 9px solid #17151C; border-radius: 42px; overflow: hidden; box-shadow: 0 18px 40px rgba(20, 16, 40, .18); background: #000; }
+.note { margin-top: 48px; padding: 16px 20px; border-radius: 16px; background: var(--page-card); border: 1px solid var(--page-line); }
+.note h2 { margin: 0 0 8px; font-size: 20px; }
+.err { padding: 16px; border-radius: 12px; background: #FDE2E2; color: #7A1616; }
+@media (max-width: 1100px) { .board { grid-template-columns: 1fr 1fr; } .brand { grid-column: 1 / -1; } }
+@media (max-width: 760px) {
+  .board { grid-template-columns: minmax(0, 1fr); }
+  .phone { width: 100%; border: 0; border-radius: 22px; box-shadow: 0 6px 18px rgba(20, 16, 40, .14); }
+  .cap { max-width: none; }
+  .brand .logo { padding: 16px; gap: 12px; }
+  .brand .logo .mark { width: 64px; height: 64px; }
+  .brand .logo .word { font-size: clamp(34px, 11vw, 44px); }
+}
+
+/* ---------- Společná kostra obrazovek aplikace ---------- */
+.scr { background: var(--bg); color: var(--ink); font-family: var(--font-t); padding: 16px 16px 24px; min-height: 720px; position: relative; overflow: hidden; }
+@media (max-width: 760px) { .scr { min-height: 0; } }
+:where(.scr button) { font: inherit; color: inherit; border: 0; background: none; cursor: pointer; }
+.scr .h { font-family: var(--font-h); }
+.toprow { display: flex; justify-content: space-between; align-items: center; gap: 8px; position: relative; }
+.pill { display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 6px 14px; border-radius: 999px; background: var(--surface); font-weight: 700; font-size: 15px; }
+.iconbtn { width: 48px; height: 48px; border-radius: 16px; display: grid; place-items: center; background: var(--surface); font-size: 22px; flex: none; }
+.hero { text-align: center; margin: 28px 0 20px; position: relative; }
+.hero .mark { width: 112px; height: 112px; margin: 0 auto 6px; }
+.hero .mark svg { width: 100%; height: 100%; display: block; }
+.hero .word { font-family: var(--font-h); font-size: 56px; line-height: 1; }
+.hero .tagline { margin: 10px auto 0; color: var(--muted); font-size: 16px; max-width: 26ch; }
+.stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin: 0 0 20px; position: relative; }
+.stat { background: var(--surface); border-radius: var(--r-card); padding: 10px 6px; text-align: center; }
+.stat b { display: block; font-family: var(--font-h); font-size: 24px; line-height: 1.1; }
+.stat span { font-size: 13px; color: var(--muted); }
+.cta { display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; min-height: 60px; border-radius: var(--r-btn); background: var(--primary) !important; color: var(--on-primary) !important; font-family: var(--font-h) !important; font-weight: 800; font-size: 24px; position: relative; }
+.row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 12px; position: relative; }
+.sec { min-height: 52px; border-radius: var(--r-btn); background: var(--surface) !important; font-weight: 700; font-size: 16px; display: flex; align-items: center; justify-content: center; gap: 8px; }
+.peek { margin-top: 24px; position: relative; }
+.peek .lbl { font-family: var(--font-h); font-weight: 700; font-size: 18px; margin: 0 0 10px; }
+.tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.tile { border-radius: var(--r-card); padding: 14px; min-height: 120px; display: flex; flex-direction: column; justify-content: space-between; }
+.tile .emo { font-size: 30px; line-height: 1; }
+.tile b { font-family: var(--font-h); font-size: 18px; line-height: 1.15; display: block; margin-top: 8px; }
+.tile small { font-size: 13px; font-weight: 600; display: block; }
+
+.qtop { display: grid; grid-template-columns: 48px minmax(0, 1fr) auto; gap: 10px; align-items: center; }
+.qtitle { font-weight: 700; font-size: 15px; line-height: 1.25; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+.qcount { font-family: var(--font-h); font-weight: 800; font-size: 17px; white-space: nowrap; }
+.bar { height: 10px; border-radius: 99px; background: var(--track); margin: 14px 0 10px; overflow: hidden; }
+.bar i { display: block; height: 100%; width: 30%; border-radius: inherit; background: var(--progress); }
+.streak { display: inline-flex; align-items: center; gap: 6px; font-weight: 800; font-size: 14px; padding: 4px 12px; border-radius: 999px; background: var(--streak-bg); color: var(--streak-ink); }
+.qcard { margin: 12px 0 14px; }
+.qtext { font-family: var(--font-h); font-weight: 700; font-size: 22px; line-height: 1.25; margin: 0; overflow-wrap: anywhere; }
+.tr { color: var(--tr); font-size: .82em; font-weight: 500; margin-top: 4px; display: block; font-family: var(--font-t); line-height: 1.35; }
+.qtext .tr { font-size: 16px; margin-top: 8px; }
+.trbtn { display: inline-flex; align-items: center; gap: 6px; min-height: 40px; margin-top: 10px; padding: 6px 14px; border-radius: 999px; font-weight: 700; font-size: 14px; background: var(--surface) !important; color: var(--ink) !important; }
+.trbtn[aria-pressed="true"] { outline: 2px solid var(--tr); }
+.answers { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.ans { width: 100%; display: grid; grid-template-columns: 36px minmax(0, 1fr) 24px; gap: 12px; align-items: center; text-align: left; min-height: 60px; padding: 10px 14px 10px 10px; border-radius: var(--r-ans); background: var(--surface) !important; border: 2px solid var(--line) !important; font-weight: 700; font-size: 17px; line-height: 1.25; }
+.ans .l { width: 36px; height: 36px; border-radius: var(--r-letter); display: grid; place-items: center; background: var(--letter-bg); color: var(--letter-ink); font-family: var(--font-h); font-weight: 800; font-size: 17px; }
+.ans .t { overflow-wrap: anywhere; }
+.ans .s { font-size: 20px; font-weight: 900; text-align: center; }
+.ans.ok { background: var(--ok-bg) !important; border-color: var(--ok) !important; color: var(--ok-ink) !important; }
+.ans.ok .l { background: var(--ok); color: var(--ok-on); }
+.ans.bad { background: var(--bad-bg) !important; border-color: var(--bad) !important; color: var(--bad-ink) !important; }
+.ans.bad .l { background: var(--bad); color: var(--bad-on); }
+.ans.ok .tr, .ans.bad .tr { color: inherit; opacity: .85; }
+.explain { margin-top: 14px; padding: 14px 16px; border-radius: var(--r-card); background: var(--explain-bg); color: var(--explain-ink); }
+.explain h4 { margin: 0 0 6px; font-family: var(--font-h); font-size: 17px; display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.explain h4 span { font-family: var(--font-t); font-weight: 600; font-size: 13px; opacity: .8; }
+.explain p { margin: 0; font-size: 15px; line-height: 1.45; }
+.explain .tr { color: inherit; opacity: .78; }
+.next { margin-top: 14px; }
+
+/* ---------- Varianta A – Oho! (teplá, světlá, zaoblená) ---------- */
+.v-a { --bg: #FFF6EA; --surface: #FFFFFF; --ink: #2B1630; --muted: #6E5466; --line: #F1E2D3; --primary: #C2255C; --on-primary: #FFFFFF; --sun: #FFC53D;
+  --tr: #7A5F70; --track: #F6E3CF; --progress: linear-gradient(90deg, #FFC53D, #C2255C); --streak-bg: #FFE9B0; --streak-ink: #6B3A00;
+  --letter-bg: #FFF0DD; --letter-ink: #C2255C; --ok: #1E9E5A; --ok-bg: #DDF5E6; --ok-ink: #146C3C; --ok-on: #fff; --bad: #D9363E; --bad-bg: #FDE2E2; --bad-ink: #A61E1E; --bad-on: #fff;
+  --explain-bg: #FFE9B0; --explain-ink: #3D2400; --r-btn: 999px; --r-card: 22px; --r-ans: 20px; --r-letter: 50%;
+  --font-h: "Baloo 2", system-ui, sans-serif; --font-t: "Nunito", system-ui, sans-serif; }
+.v-a .hero .word, .v-a.word { font-weight: 800; letter-spacing: -0.01em; }
+.v-a .word em { font-style: normal; color: var(--primary); }
+.v-a.scr::before { content: ""; position: absolute; width: 260px; height: 260px; border-radius: 50%; background: #FFE3A1; top: -110px; right: -90px; }
+.v-a.scr::after { content: ""; position: absolute; width: 180px; height: 180px; border-radius: 50%; background: #FFD9E5; bottom: -70px; left: -70px; }
+.v-a .scr-in { position: relative; z-index: 1; }
+.v-a .cta { box-shadow: 0 10px 22px rgba(194, 37, 92, .32); }
+.v-a .pill, .v-a .iconbtn, .v-a .stat, .v-a .sec { box-shadow: 0 2px 0 #F1E2D3; }
+.v-a .ans { box-shadow: 0 3px 0 #F1E2D3; }
+.v-a .t1 { background: #FFC53D; color: #2B1630; } .v-a .t2 { background: #C2255C; color: #fff; }
+
+/* ---------- Varianta B – Kvark (noční, elektrická, sebevědomá) ---------- */
+.v-b { --bg: #100D2E; --surface: #1D1946; --ink: #F4F2FF; --muted: #B9B2E8; --line: #2F2A66; --primary: #C8F542; --on-primary: #100D2E;
+  --tr: #A39CD6; --track: #2A2560; --progress: linear-gradient(90deg, #8B5CF6, #FF6B8B); --streak-bg: #3A1F4D; --streak-ink: #FFB4C6;
+  --letter-bg: #2A2560; --letter-ink: #C8F542; --ok: #34E3A0; --ok-bg: #0F3B33; --ok-ink: #B8FFE2; --ok-on: #100D2E; --bad: #FF6B8B; --bad-bg: #44162B; --bad-ink: #FFD0DA; --bad-on: #100D2E;
+  --explain-bg: #2A2560; --explain-ink: #F4F2FF; --r-btn: 16px; --r-card: 18px; --r-ans: 14px; --r-letter: 10px;
+  --font-h: "Unbounded", system-ui, sans-serif; --font-t: "Inter", system-ui, sans-serif; }
+.v-b .hero .word, .v-b.word { font-weight: 800; letter-spacing: -0.03em; font-size: 50px; }
+.v-b .word em { font-style: normal; color: var(--primary); }
+.v-b.scr { background: radial-gradient(120% 60% at 100% 0%, #2B1F6B 0%, rgba(16,13,46,0) 60%), radial-gradient(90% 50% at 0% 100%, #3A1442 0%, rgba(16,13,46,0) 60%), #100D2E; }
+.v-b.scr::before { content: ""; position: absolute; inset: 0; background-image: linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px); background-size: 28px 28px; pointer-events: none; }
+.v-b .scr-in { position: relative; z-index: 1; }
+.v-b .cta { text-transform: uppercase; letter-spacing: .06em; font-size: 20px; box-shadow: 0 0 0 4px rgba(200,245,66,.18), 0 12px 30px rgba(200,245,66,.25); }
+.v-b .stat, .v-b .pill, .v-b .iconbtn, .v-b .sec, .v-b .ans { border: 1px solid #2F2A66; }
+.v-b .qtext { font-size: 20px; font-weight: 600; line-height: 1.3; }
+.v-b .stat b { font-size: 20px; }
+.v-b .tile { border: 1px solid rgba(255,255,255,.12); }
+.v-b .t1 { background: linear-gradient(135deg, #8B5CF6, #5B32D6); color: #fff; } .v-b .t2 { background: linear-gradient(135deg, #FF6B8B, #C2366A); color: #fff; }
+.v-b .explain { border-left: 4px solid var(--primary); }
+
+/* ---------- Varianta C – Hop (svěží, sportovní, „mačkací“ tlačítka) ---------- */
+.v-c { --bg: #E9F6F3; --surface: #FFFFFF; --ink: #0F2C4C; --muted: #4E6680; --line: #CFE5E0; --primary: #FF9A3D; --on-primary: #0F2C4C; --deep: #D8701A;
+  --tr: #4E6680; --track: #CFE5E0; --progress: #0B7D73; --streak-bg: #FFE3C7; --streak-ink: #7A3A00;
+  --letter-bg: #E1F2EE; --letter-ink: #0B7D73; --ok: #18A058; --ok-bg: #D9F7E5; --ok-ink: #0E6B3A; --ok-on: #fff; --bad: #E5484D; --bad-bg: #FFE1DC; --bad-ink: #A3271E; --bad-on: #fff;
+  --explain-bg: #0F2C4C; --explain-ink: #FFFFFF; --r-btn: 18px; --r-card: 18px; --r-ans: 16px; --r-letter: 12px;
+  --font-h: "Rubik", system-ui, sans-serif; --font-t: "Rubik", system-ui, sans-serif; }
+.v-c .hero .word, .v-c.word { font-weight: 800; letter-spacing: -0.02em; }
+.v-c .word em { font-style: normal; color: var(--primary); }
+.v-c.scr.home { padding-top: 0; }
+.v-c .band { margin: 0 -16px 0; padding: 16px 16px 64px; background: #0B7D73; color: #fff; border-radius: 0 0 50% 50% / 0 0 36px 36px; }
+.v-c .band .pill, .v-c .band .iconbtn { background: rgba(255,255,255,.16); color: #fff; }
+.v-c .band .hero { margin: 18px 0 0; }
+.v-c .band .hero .tagline { color: #E3FFFA; }
+.v-c .band .hero .mark { background: #fff; border-radius: 28px; padding: 8px; width: 104px; height: 104px; box-shadow: 0 6px 0 #075D55; }
+.v-c .stats { margin-top: -44px; }
+.v-c .stat { box-shadow: 0 4px 0 #CFE5E0; }
+.v-c .cta { box-shadow: 0 6px 0 var(--deep); margin-bottom: 6px; }
+.v-c .sec, .v-c .ans { box-shadow: 0 4px 0 #CFE5E0; }
+.v-c .ans.ok { box-shadow: 0 4px 0 #18A058; }
+.v-c .pill, .v-c .iconbtn { box-shadow: 0 3px 0 #CFE5E0; }
+.v-c .band .pill, .v-c .band .iconbtn { box-shadow: none; }
+.v-c .t1 { background: #FF9A3D; color: #0F2C4C; box-shadow: 0 5px 0 #D8701A; } .v-c .t2 { background: #0F2C4C; color: #fff; box-shadow: 0 5px 0 #071A2F; }
+.v-c .explain h4 { color: #FFC48A; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="intro">
+    <h1>Tři návrhy značky</h1>
+    <p>Každá varianta má název, logo, barvy, písmo a ukázku dvou obrazovek v telefonu – <b>Domů</b> a <b>Otázka</b> (po odpovědi). Otázky jsou skutečné z webového výběru; čísla hvězd a série jsou jen pro ukázku.</p>
+    <p>Vyber jednu variantu, nebo kombinaci (např. „název A, barvy C“).</p>
+    <ul class="jump" id="jump"></ul>
+  </header>
+  <main id="variants"></main>
+  <section class="note">
+    <h2>Co je u všech variant stejné</h2>
+    <p>Tlačítka aspoň 48 px vysoká, kontrast textu podle WCAG AA (ověřeno výpočtem), písma uložená přímo na webu (licence OFL, nic se nestahuje z cizích serverů) a všechna umí česká písmena s háčky i čárkami. Ikony kategorií zůstávají emoji (rozhodnutí D-003).</p>
+  </section>
+</div>
+
+<script type="module">
+const VARIANTS = [
+  {
+    key: "a", name: "Oho!", word: 'Oho<em>!</em>', logo: "logo-a-oho.svg",
+    vibe: "Teplá, světlá a přátelská – jako „aha“ moment u kafe.",
+    why: [
+      "„Oho!“ říká Čech i Angličan, když se dozví něco nového – přesně ten pocit má kvíz vyvolat.",
+      "Krátké, snadno se vyslovuje v obou jazycích, funguje i jako zvuk/oslava v aplikaci.",
+      "Logo: bublina s vykřičníkem a jiskrou – překvapení a radost z poznání.",
+    ],
+    tagline: "Ověřené otázky. Česky i anglicky.",
+    palette: [["Malina", "#C2255C"], ["Slunce", "#FFC53D"], ["Krém", "#FFF6EA"], ["Švestka", "#2B1630"], ["Správně", "#1E9E5A"], ["Špatně", "#D9363E"]],
+    fonts: { h: "Baloo 2", t: "Nunito", note: "Nadpisy Baloo 2 (buclaté, hravé) · texty Nunito (zaoblené, dobře čitelné)" },
+    q: { topic: "T146", id: "T146-02", pick: 2, qlang: "cs", mode: "vzdy" },
+    modeNote: "Režim „Obě řeči najednou“ – překlad je pořád vidět pod otázkou, možnostmi i vysvětlením.",
+    streak: 3, count: 3,
+  },
+  {
+    key: "b", name: "Kvark", word: 'kvark<em>.</em>', logo: "logo-b-kvark.svg",
+    vibe: "Noční, elektrická a sebevědomá – pro ty, kdo chtějí vypadat chytře.",
+    why: [
+      "Kvark je nejmenší částice hmoty – kvíz o malých kouscích vědění; česky „kvark“, anglicky „quark“, zní stejně.",
+      "Začíná na „kv“ jako kvíz, je jedinečné a dobře se pamatuje.",
+      "Logo: atom se dvěma drahami v barvách obou jazyků a zářícím jádrem.",
+    ],
+    tagline: "Malé otázky. Velké vědění.",
+    palette: [["Limetka", "#C8F542"], ["Fialová", "#8B5CF6"], ["Růžová", "#FF6B8B"], ["Noc", "#100D2E"], ["Správně", "#34E3A0"], ["Špatně", "#FF6B8B"]],
+    fonts: { h: "Unbounded", t: "Inter", note: "Nadpisy Unbounded (široké, výrazné) · texty Inter (moderní, velmi čitelné)" },
+    q: { topic: "T204", id: "T204-08", pick: 0, qlang: "en", mode: "tuk" },
+    modeNote: "Režim „Učím se angličtinu“ – otázka je anglicky, hráč ťukl na „Přeložit“; u vysvětlení překlad ještě neotevřel.",
+    streak: 0, count: 7,
+  },
+  {
+    key: "c", name: "Hop", word: 'hop<em>!</em>', logo: "logo-c-hop.svg",
+    vibe: "Svěží, sportovní a hravá – tlačítka, která se chtějí mačkat.",
+    why: [
+      "„Hop!“ je česky i anglicky skok – skok do další otázky i mezi jazyky.",
+      "Nejkratší a nejsnáz vyslovitelný název; dobře se k němu hodí animace poskakování.",
+      "Logo: míček skáče z CZ do EN – dvojjazyčnost na první pohled.",
+    ],
+    tagline: "Skoč do kvízu – česky i anglicky.",
+    palette: [["Moře", "#0B7D73"], ["Pomeranč", "#FF9A3D"], ["Námořní", "#0F2C4C"], ["Máta", "#E9F6F3"], ["Správně", "#18A058"], ["Špatně", "#E5484D"]],
+    fonts: { h: "Rubik", t: "Rubik", note: "Vše jedním písmem Rubik (mírně zaoblené rohy, sportovní, čitelné)" },
+    q: { topic: "T254", id: "T254-08", pick: 1, qlang: "cs", mode: "off" },
+    modeNote: "Režim „Hrát v mém jazyce“ – otázky česky, bez překladu. Tady hráč odpověděl správně.",
+    streak: 5, count: 6,
+  },
+];
+
+const T = { // texty ukázkových obrazovek (aplikace je později bude mít v i18n souborech)
+  play: "Hrát", badges: "Odznaky", settings: "Nastavení", stars: "hvězd", days: "dní v řadě", badgesOf: "odznaků",
+  cats: "Kategorie", topics: (n) => n === 1 ? "1 téma" : (n >= 2 && n <= 4 ? `${n} témata` : `${n} témat`),
+  dyk: "Věděli jste?", dykEn: "Did you know?", next: "Další", translate: "Přeložit", translated: "Přeloženo",
+  inRow: "v řadě", back: "Zpět",
+};
+
+function h(tag, attrs = {}, ...kids) {
+  const el = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === "class") el.className = v; else if (k === "text") el.textContent = v; else el.setAttribute(k, v);
+  }
+  for (const kid of kids.flat()) if (kid != null) el.append(kid instanceof Node ? kid : document.createTextNode(String(kid)));
+  return el;
+}
+const svgCache = {};
+async function svg(file) {
+  if (!svgCache[file]) svgCache[file] = await (await fetch(file)).text();
+  const box = h("div", { class: "mark", "aria-hidden": "true" });
+  box.innerHTML = svgCache[file]; // vlastní soubor loga z repozitáře, ne data
+  return box;
+}
+function word(v, cls = "word") { const w = h("div", { class: cls }); w.innerHTML = v.word; return w; } // statický text z tohoto souboru
+
+async function homeScreen(v, index) {
+  const top = h("div", { class: "toprow" }, h("span", { class: "pill" }, "🔥 4 ", T.days), h("button", { class: "iconbtn", "aria-label": T.settings }, "⚙️"));
+  const hero = h("div", { class: "hero" }, await svg(v.logo), word(v), h("p", { class: "tagline", text: v.tagline }));
+  const stats = h("div", { class: "stats" },
+    h("div", { class: "stat" }, h("b", { text: "★ 23" }), h("span", { text: T.stars })),
+    h("div", { class: "stat" }, h("b", { text: "🔥 4" }), h("span", { text: T.days })),
+    h("div", { class: "stat" }, h("b", { text: "3/12" }), h("span", { text: T.badgesOf })));
+  const cta = h("button", { class: "cta" }, "▶ ", T.play);
+  const row = h("div", { class: "row2" }, h("button", { class: "sec" }, "🏅 ", T.badges), h("button", { class: "sec" }, "⚙️ ", T.settings));
+  const demoStars = [5, 18];
+  const tiles = h("div", { class: "tiles" }, ...index.kategorie.slice(0, 2).map((k, i) =>
+    h("div", { class: `tile t${i + 1}` }, h("span", { class: "emo", text: k.ikona }),
+      h("div", {}, h("b", { text: k.nazev.cs }), h("small", { text: `${T.topics(k.temata.length)} · ${demoStars[i] % (k.temata.length * 9 + 1)} / ${k.temata.length * 9} ★` })))));
+  const peek = h("div", { class: "peek" }, h("p", { class: "lbl", text: T.cats }), tiles);
+  const inner = v.key === "c"
+    ? [h("div", { class: "band" }, top, hero), stats, cta, row, peek]
+    : [top, hero, stats, cta, row, peek];
+  return h("div", { class: `scr home v-${v.key}` }, h("div", { class: "scr-in" }, ...inner));
+}
+
+function questionScreen(v, topic) {
+  const q = topic.otazky.find((x) => x.id === v.q.id);
+  const L = v.q.qlang, O = L === "cs" ? "en" : "cs";
+  const showQ = v.q.mode === "vzdy" || v.q.mode === "tuk";
+  const showE = v.q.mode === "vzdy";
+  const top = h("div", { class: "qtop" }, h("button", { class: "iconbtn", "aria-label": T.back }, "←"),
+    h("div", { class: "qtitle", text: topic.nazev.cs }), h("div", { class: "qcount", text: `${v.count} / 10` }));
+  const bar = h("div", { class: "bar" }, h("i", { style: `width:${v.count * 10}%` }));
+  const correctNow = v.q.pick === q.spravne;
+  const streakN = correctNow ? v.streak + 1 : 0;
+  const streak = streakN >= 2 ? h("span", { class: "streak" }, `🔥 ${streakN} `, T.inRow) : null;
+  const qt = h("p", { class: "qtext", lang: L }, q.otazka[L]);
+  if (showQ) qt.append(h("span", { class: "tr", lang: O, text: q.otazka[O] }));
+  const card = h("div", { class: "qcard" }, qt);
+  if (v.q.mode === "tuk") card.append(h("button", { class: "trbtn", "aria-pressed": "true" }, "🌐 ", T.translated));
+  const answers = h("ol", { class: "answers" }, ...q.moznosti[L].map((txt, i) => {
+    const state = i === q.spravne ? "ok" : (i === v.q.pick ? "bad" : "");
+    const t = h("span", { class: "t", lang: L }, txt);
+    if (showQ && q.moznosti[O][i] !== txt) t.append(h("span", { class: "tr", lang: O, text: q.moznosti[O][i] }));
+    return h("li", {}, h("button", { class: `ans ${state}` }, h("span", { class: "l", text: "ABCD"[i] }), t,
+      h("span", { class: "s", "aria-hidden": "true", text: state === "ok" ? "✓" : state === "bad" ? "✗" : "" })));
+  }));
+  const ex = h("div", { class: "explain" }, h("h4", {}, L === "cs" ? T.dyk : T.dykEn, h("span", { text: L === "cs" ? T.dykEn : T.dyk })),
+    h("p", { lang: L }, q.vysvetleni[L]));
+  if (showE) ex.append(h("p", { class: "tr", lang: O, text: q.vysvetleni[O] }));
+  if (v.q.mode === "tuk") ex.append(h("button", { class: "trbtn", "aria-pressed": "false" }, "🌐 ", T.translate));
+  const next = h("button", { class: "cta next" }, T.next, " →");
+  return h("div", { class: `scr q v-${v.key}` }, h("div", { class: "scr-in" }, top, bar, streak, card, answers, ex, next));
+}
+
+function brandCard(v, markEl) {
+  const logo = h("div", { class: `logo v-${v.key}`, style: `background:var(--bg);color:var(--ink)` }, markEl, word(v, `word v-${v.key}`));
+  logo.querySelector(".word").style.fontFamily = "var(--font-h)";
+  const sw = h("div", { class: "swatches" }, ...v.palette.map(([n, c]) => h("div", { class: "sw" }, h("i", { style: `background:${c}` }), h("span", {}, h("b", { text: n }), c))));
+  const spec = h("div", { class: `spec v-${v.key}` },
+    h("div", { class: "big", style: "font-family:var(--font-h);font-weight:800" }, "Příliš žluťoučký kůň úpěl ďábelské ódy"),
+    h("div", { class: "small", style: "font-family:var(--font-t)" }, "Ťuk! Ověřené otázky – česky i anglicky. Úžasně! Kůň, řeřicha, ďolíček. The quick brown fox jumps."),
+    h("div", { class: "who", text: v.fonts.note }));
+  return h("div", { class: "brand" }, logo,
+    h("h3", { text: "Proč tento název a logo" }), h("ul", { class: "why" }, ...v.why.map((x) => h("li", { text: x }))),
+    h("h3", { text: "Barvy" }), sw, h("h3", { text: "Písmo" }), spec);
+}
+
+async function main() {
+  const root = document.getElementById("variants");
+  try {
+    const index = await (await fetch("../data/index.json")).json();
+    const topics = {};
+    for (const v of VARIANTS) {
+      const t = index.kategorie.flatMap((k) => k.temata).find((t) => t.id === v.q.topic);
+      topics[v.q.topic] = await (await fetch("../data/" + t.soubor)).json();
+    }
+    for (const v of VARIANTS) {
+      const jump = h("li", {}, h("a", { href: `#varianta-${v.key}` }, h("img", { src: v.logo, alt: "" }), `${v.key.toUpperCase()} · ${v.name}`));
+      document.getElementById("jump").append(jump);
+      const sec = h("section", { class: "variant", id: `varianta-${v.key}` },
+        h("div", { class: "vhead" }, h("span", { class: "tag", text: `Varianta ${v.key.toUpperCase()}` }), h("h2", { text: v.name }), h("p", { class: "vibe", text: v.vibe })),
+        h("div", { class: "board" },
+          brandCard(v, await svg(v.logo)),
+          h("figure", { style: "margin:0" }, h("div", { class: "phone" }, await homeScreen(v, index)), h("figcaption", { class: "cap", text: "Obrazovka Domů" })),
+          h("figure", { style: "margin:0" }, h("div", { class: "phone" }, questionScreen(v, topics[v.q.topic])), h("figcaption", { class: "cap", text: "Otázka po odpovědi · " + v.modeNote }))));
+      root.append(sec);
+    }
+    document.documentElement.dataset.ready = "1";
+  } catch (e) {
+    root.append(h("p", { class: "err", text: "Ukázku se nepodařilo načíst (otevři stránku přes webovou adresu, ne jako soubor): " + e.message }));
+    document.documentElement.dataset.ready = "1";
+  }
+}
+main();
+</script>
+</body>
+</html>

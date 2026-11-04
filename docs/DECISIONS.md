@@ -1,6 +1,13 @@
 # DECISIONS – Kvízová webová aplikace
 Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový záznam s odkazem na původní.
 
+## D-008 · 2026-11-04 · Návrhy značky: názvy, písma, rešerše
+- **Rozhodnutí:** tři varianty v `design/index.html`: **A Oho!** (malina + slunce na krému, písma Baloo 2 + Nunito), **B Kvark** (tmavá noční, limetka + fialová + růžová, Unbounded + Inter), **C Hop** (moře + pomeranč + námořní modrá, „mačkací“ tlačítka, Rubik). Loga jako SVG v `design/logo-*.svg`, písma (OFL, z npm `@fontsource-variable/*`, i s licencemi) v `design/fonts/`. Po volbě se písma zvolené varianty přesunou do `assets/fonts/`.
+- **Ověřeno:** všechna použitá písma mají česká písmena (kontrola znakové sady nástrojem fontTools); kontrast barev textu ≥ 4,5 : 1 (WCAG AA, výpočtem).
+- **Rešerše názvů (WebSearch 2026-11-04):** „Aha“ zamítnuto – existuje iOS aplikace „Aha Quiz“. „Oho“, „Kvark“ a „Hop“ – žádná známá kvízová aplikace stejného jména (je jen „Quiz Hopper!“ a hospodský „Hop Quiz“). „Fakt“ zamítnuto – známý polský deník. Ochranné známky ověřené nejsou.
+- **Zamítnuté alternativy:** písmo Fredoka (nemá ř, ě, ů, ď, ť, ň – v češtině by se míchala písma).
+- **Kdo:** prompt 01 (návrh), David vybere
+
 ## D-007 · 2026-11-04 · Sloupec Web hned za Shorts + příkaz `web`
 - **Rozhodnutí:** sloupec Web je v Excelu sloupec **D** (ID · Použít · Shorts · **Web** · Téma …), ukotvení listu je za ním (E2), takže ruční volby jsou vidět i při posunu doprava. Nový příkaz `python3 nastroje/kviz_db.py web Ano T146 T172 …` nastaví Web u všech otázek tématu (nebo u jednotlivých otázek `T146-05`); hodnoty Ano / Ne / prazdne. Upravuje Excel i `otazky.json` zároveň a předtím udělá zálohu Excelu.
 - **Proč:** Davidův pokyn (sloupec za Shorts). Posun je bezpečný: vzorce listu Témata odkazují jen na sloupce A–C a ostatní skripty (kviz_video, kviz_shorts) hledají sloupce podle názvu hlavičky. Příkaz `web` vznikl, protože ruční zápis do Excelu je zakázaný a `prestavet` by ruční úpravu JSON přepsal hodnotami z Excelu.
