@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T146",
+ "nazev": {
+  "cs": "České pohádky na plátně i obrazovce",
+  "en": "Czech Fairy Tales on Film and TV"
+ },
+ "kategorie": {
+  "id": "cesko",
+  "nazev": {
+   "cs": "Česko",
+   "en": "Czechia"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T146-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo hrála Popelku ve filmu Tři oříšky pro Popelku (1973)?",
+    "en": "Who played Cinderella in the film Three Wishes for Cinderella (1973)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jana Preissová",
+     "Libuše Šafránková",
+     "Helena Vondráčková",
+     "Alena Vránová"
+    ],
+    "en": [
+     "Jana Preissová",
+     "Libuše Šafránková",
+     "Helena Vondráčková",
+     "Alena Vránová"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Popelku hrála Libuše Šafránková. Roli měla původně dostat Jana Preissová, ta ji ale odmítla, protože byla těhotná.",
+    "en": "Cinderella was played by Libuše Šafránková. The role was first offered to Jana Preissová, who turned it down because she was pregnant."
+   }
+  },
+  {
+   "id": "T146-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co ukrýval třetí, poslední oříšek, který Popelka rozlouskla ve filmu Tři oříšky pro Popelku?",
+    "en": "What was hidden in the third and final hazelnut that Cinderella cracks in Three Wishes for Cinderella?"
+   },
+   "moznosti": {
+    "cs": [
+     "Svatební šaty",
+     "Plesové šaty",
+     "Lovecký oděv",
+     "Zlatý střevíček"
+    ],
+    "en": [
+     "A wedding dress",
+     "A ball gown",
+     "A hunting outfit",
+     "A golden slipper"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "První oříšek skrýval lovecký oděv, druhý plesové šaty a třetí svatební šaty. Kostýmy hlavních postav navrhl Theodor Pištěk.",
+    "en": "The first nut held a hunting outfit, the second a ball gown and the third a wedding dress. The main characters' costumes were designed by Theodor Pištěk."
+   }
+  },
+  {
+   "id": "T146-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se jmenuje Popelčin milovaný kůň ve filmu Tři oříšky pro Popelku?",
+    "en": "What is the name of Cinderella's beloved horse in Three Wishes for Cinderella?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bělouš",
+     "Jurášek",
+     "Šemík",
+     "Vraník"
+    ],
+    "en": [
+     "Bělouš",
+     "Jurášek",
+     "Šemík",
+     "Vraník"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Popelčin kůň se jmenuje Jurášek. Libuše Šafránková jezdila tak dobře, že dublérku potřebovala jen na skok přes padlý strom.",
+    "en": "Cinderella's horse is called Jurášek. Libuše Šafránková rode so well that she needed a stunt double only for the jump over a fallen tree."
+   }
+  },
+  {
+   "id": "T146-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi stojí zámek Moritzburg, kde se natáčely scény Tří oříšků pro Popelku?",
+    "en": "In which country is Moritzburg Castle, where scenes of Three Wishes for Cinderella were filmed?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Polsku",
+     "Na Slovensku",
+     "V Rakousku",
+     "V Německu"
+    ],
+    "en": [
+     "Poland",
+     "Slovakia",
+     "Austria",
+     "Germany"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Moritzburg leží v Sasku. Natáčelo se tam, protože film vznikl v koprodukci s východoněmeckým studiem DEFA. Od roku 2009 zámek pořádá výstavu kostýmů z filmu včetně Popelčina střevíčku.",
+    "en": "Moritzburg is in Saxony. The film was shot there because it was co-produced with the East German studio DEFA. Since 2009 the castle has hosted an exhibition of the film's costumes, including Cinderella's slipper."
+   }
+  },
+  {
+   "id": "T146-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak moc má podle pohádky Byl jednou jeden král… (1954) ráda svého otce princezna Maruška?",
+    "en": "According to the fairy tale Once Upon a Time, There Was a King… (1954), how much does Princess Maruška love her father?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jako zlato",
+     "Jako slunce",
+     "Jako sůl",
+     "Jako chléb"
+    ],
+    "en": [
+     "Like gold",
+     "Like the sun",
+     "Like salt",
+     "Like bread"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Uražený král dá zničit všechnu sůl v zemi a království pak zjistí, jak je nepostradatelná. Film volně vychází z pohádky Boženy Němcové Sůl nad zlato.",
+    "en": "The offended king has all the salt in the realm destroyed, and the kingdom soon learns how essential it is. The film is loosely based on Božena Němcová's tale Salt Above Gold."
+   }
+  },
+  {
+   "id": "T146-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterého panovníka hraje Jan Werich ve filmu Císařův pekař – Pekařův císař (1951)?",
+    "en": "Which monarch does Jan Werich play in the film The Emperor's Baker – The Baker's Emperor (1951)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ferdinanda I.",
+     "Karla IV.",
+     "Rudolfa II.",
+     "Josefa II."
+    ],
+    "en": [
+     "Ferdinand I",
+     "Charles IV",
+     "Rudolf II",
+     "Joseph II"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Werich hraje dvojroli: císaře Rudolfa II., který touží po elixíru mládí, a jemu podobného pekaře Matěje. Film vychází z hry Golem, kterou Voskovec a Werich uváděli v Osvobozeném divadle.",
+    "en": "Werich plays a double role: Emperor Rudolf II, who longs for an elixir of youth, and his look-alike, the baker Matěj. The film grew out of the play Golem, staged by Voskovec and Werich at the Liberated Theatre."
+   }
+  },
+  {
+   "id": "T146-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která zpěvačka hrála princeznu Helenu ve filmu Šíleně smutná princezna (1968)?",
+    "en": "Which singer played Princess Helena in the film The Incredibly Sad Princess (1968)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Marta Kubišová",
+     "Eva Pilarová",
+     "Hana Zagorová",
+     "Helena Vondráčková"
+    ],
+    "en": [
+     "Marta Kubišová",
+     "Eva Pilarová",
+     "Hana Zagorová",
+     "Helena Vondráčková"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Princeznu hrála Helena Vondráčková, prince Václava zpěvák Václav Neckář. Princezna předstírá smutek, aby se vyhnula sňatku s princem, kterého nikdy neviděla.",
+    "en": "The princess was played by Helena Vondráčková and Prince Václav by singer Václav Neckář. The princess pretends to be sad to escape marrying a prince she has never met."
+   }
+  },
+  {
+   "id": "T146-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co mají obyvatelé Půlnočního království v pohádce Pyšná princezna (1952) zakázáno?",
+    "en": "What are the inhabitants of the Midnight Kingdom forbidden to do in the fairy tale The Proud Princess (1952)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chodit ven po setmění",
+     "Smát se",
+     "Zpívat",
+     "Tančit"
+    ],
+    "en": [
+     "Go out after dark",
+     "Laugh",
+     "Sing",
+     "Dance"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "V Půlnočním království je zakázáno zpívat, a tak lidé chodí zpívat do sousední země krále Miroslava. Jediným „kouzlem“ filmu je kvítek, který zpívá.",
+    "en": "Singing is banned in the Midnight Kingdom, so people go to sing in King Miroslav's neighbouring country. The film's only bit of 'magic' is a flower that sings."
+   }
+  },
+  {
+   "id": "T146-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo hrál nešikovného anděla Petronela ve filmu Anděl Páně (2005)?",
+    "en": "Who played the bumbling angel Petronel in the film Angel of the Lord (2005)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ivan Trojan",
+     "Ondřej Vetchý",
+     "David Švehlík",
+     "Jiří Dvořák"
+    ],
+    "en": [
+     "Ivan Trojan",
+     "Ondřej Vetchý",
+     "David Švehlík",
+     "Jiří Dvořák"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Petronela hrál Ivan Trojan, Jiří Dvořák mu jako čert Uriáš dělal společnost. Petronel byl za trest poslán na Zemi, kde musí zachránit duši hříšníka, jinak skončí v pekle.",
+    "en": "Petronel was played by Ivan Trojan, with Jiří Dvořák as his companion, the devil Uriáš. Petronel is sent to Earth as punishment and must save a sinner's soul or end up in Hell."
+   }
+  },
+  {
+   "id": "T146-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo hrál hlavního hrdinu Petra Máchala v pohádce S čerty nejsou žerty (1984)?",
+    "en": "Who played the hero Petr Máchal in the fairy tale Give the Devil His Due (1984)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ondřej Vetchý",
+     "Vladimír Dlouhý",
+     "Jan Hrušínský",
+     "Pavel Trávníček"
+    ],
+    "en": [
+     "Ondřej Vetchý",
+     "Vladimír Dlouhý",
+     "Jan Hrušínský",
+     "Pavel Trávníček"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Petra hrál Vladimír Dlouhý, kterého diváci znali i jako Petra Majera z Arabely. Ondřej Vetchý ve filmu hrál čerta Vraníka.",
+    "en": "Petr was played by Vladimír Dlouhý, whom viewers also knew as Petr Majer in Arabela. Ondřej Vetchý played the devil Vraník."
+   }
+  },
+  {
+   "id": "T146-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který režisér natočil Pyšnou princeznu, Byl jednou jeden král… i Šíleně smutnou princeznu?",
+    "en": "Which director made The Proud Princess, Once Upon a Time, There Was a King… and The Incredibly Sad Princess?"
+   },
+   "moznosti": {
+    "cs": [
+     "Karel Zeman",
+     "Martin Frič",
+     "Václav Vorlíček",
+     "Bořivoj Zeman"
+    ],
+    "en": [
+     "Karel Zeman",
+     "Martin Frič",
+     "Václav Vorlíček",
+     "Bořivoj Zeman"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Všechny tři pohádky režíroval Bořivoj Zeman (1952, 1954 a 1968). Natočil také oblíbené komedie Dovolená s Andělem a Anděl na horách.",
+    "en": "All three fairy tales were directed by Bořivoj Zeman (1952, 1954 and 1968). He also made the popular comedies Dovolená s Andělem and Anděl na horách."
+   }
+  },
+  {
+   "id": "T146-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak si říká král, kterého hraje Jan Werich ve filmu Byl jednou jeden král…?",
+    "en": "What does the king played by Jan Werich in Once Upon a Time, There Was a King… call himself?"
+   },
+   "moznosti": {
+    "cs": [
+     "Miroslav",
+     "Kazisvět VI.",
+     "Já I.",
+     "Dobromysl"
+    ],
+    "en": [
+     "Miroslav",
+     "Kazisvět VI",
+     "Myself the First",
+     "Dobromysl"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Werichův král si říká Já I. Jeho rádce Atakdále hraje Vlasta Burian, takže se ve filmu potkali dva velmi populární komici.",
+    "en": "Werich's king calls himself Myself the First. His counsellor Atakdále ('Et cetera') is played by Vlasta Burian, bringing together two hugely popular comedians."
+   }
+  },
+  {
+   "id": "T146-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co se po natáčení Pyšné princezny stalo mezi představiteli princezny Krasomily a krále Miroslava, Alenou Vránovou a Vladimírem Rážem?",
+    "en": "What happened after filming The Proud Princess between the actors playing Princess Krasomila and King Miroslav, Alena Vránová and Vladimír Ráž?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vzali se",
+     "Založili spolu divadlo",
+     "Už spolu nikdy nepromluvili",
+     "Společně emigrovali"
+    ],
+    "en": [
+     "They got married",
+     "They founded a theatre together",
+     "They never spoke to each other again",
+     "They emigrated together"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vránová byla v době natáčení vdaná za básníka Pavla Kohouta, ale zamilovala se do Ráže a po natáčení se vzali. Plánované pokračování Pyšná princezna královnou se nikdy nenatočilo.",
+    "en": "During filming Vránová was married to the poet Pavel Kohout, but she fell in love with Ráž and they married after the shoot. A planned sequel, The Proud Princess as Queen, was never made."
+   }
+  },
+  {
+   "id": "T146-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "K čemu nakonec pekař Matěj použije golema ve filmu Císařův pekař – Pekařův císař?",
+    "en": "What does the baker Matěj finally use the Golem for in The Emperor's Baker – The Baker's Emperor?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ke stavbě mostu přes Vltavu",
+     "K pečení chleba pro lid",
+     "K orání císařských polí",
+     "K těžbě stříbra v Kutné Hoře"
+    ],
+    "en": [
+     "Building a bridge over the Vltava",
+     "Baking bread for the people",
+     "Ploughing the emperor's fields",
+     "Mining silver in Kutná Hora"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Poctivý pekař Matěj využije golema k pečení chleba pro lid. Golem ve filmu ožije, když se mu do otvoru v čele vloží šém, a navrhl ho sochař Jaroslav Horejc.",
+    "en": "The honest baker Matěj puts the Golem to work baking bread for the people. In the film the Golem comes alive when a shem is placed in its forehead; it was designed by sculptor Jaroslav Horejc."
+   }
+  },
+  {
+   "id": "T146-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "O co se píchne princezna Růženka ve Vorlíčkově filmu Jak se budí princezny (1977), čímž se naplní kletba?",
+    "en": "What does Princess Růženka prick herself on in Vorlíček's film How to Wake a Princess (1977), fulfilling the curse?"
+   },
+   "moznosti": {
+    "cs": [
+     "O trn šípkového keře v zahradě",
+     "O vřeteno",
+     "O jehlu při vyšívání",
+     "O trn v kytici růží"
+    ],
+    "en": [
+     "A thorn on a rosehip bush in the garden",
+     "A spindle",
+     "A needle while embroidering",
+     "A thorn in a bouquet of roses"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Místo tradičního vřetena ji zlá teta Melánie přiměje píchnout se o trnitou kytici růží a celý dvůr usne. Exteriéry Růženčina hradu se natáčely na Pernštejně.",
+    "en": "Instead of the traditional spindle, her wicked aunt Melánie tricks her into pricking herself on a thorny bouquet of roses, and the whole court falls asleep. Exteriors of Růženka's castle were shot at Pernštejn."
+   }
+  },
+  {
+   "id": "T146-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Koho odnese mladý čert Vraník v pohádce S čerty nejsou žerty omylem do pekla místo zlé macechy Doroty?",
+    "en": "In Give the Devil His Due, whom does the young devil Vraník mistakenly carry off to Hell instead of the wicked stepmother Dorota?"
+   },
+   "moznosti": {
+    "cs": [
+     "Petrova otce",
+     "Hraběte Josefa",
+     "Petrovu babičku",
+     "Hraběnku Adélku"
+    ],
+    "en": [
+     "Petr's father",
+     "Count Josef",
+     "Petr's grandmother",
+     "Countess Adélka"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Nezkušený čert Vraník odnesl omylem Petrovu babičku. Film volně vychází z pohádky Boženy Němcové Čertův švagr a písně k němu napsali Zdeněk Svěrák a Jaroslav Uhlíř.",
+    "en": "The inexperienced Vraník takes Petr's grandmother by mistake. The film is loosely based on Božena Němcová's tale The Devil's Brother-in-Law, with songs by Zdeněk Svěrák and Jaroslav Uhlíř."
+   }
+  },
+  {
+   "id": "T146-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které dvě pohádkové hrdinky kromě Marušky potkají bratři ve filmu Tři bratři (2014) Jana Svěráka?",
+    "en": "Which two fairy-tale heroines, besides Maruška, do the brothers meet in Jan Svěrák's film Three Brothers (2014)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sněhurku a Zlatovlásku",
+     "Šípkovou Růženku a Červenou Karkulku",
+     "Sněhurku a Princeznu na hrášku",
+     "Zlatovlásku a Princeznu na hrášku"
+    ],
+    "en": [
+     "Snow White and Goldilocks",
+     "Sleeping Beauty and Little Red Riding Hood",
+     "Snow White and the Princess and the Pea",
+     "Goldilocks and the Princess and the Pea"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jan probudí Šípkovou Růženku, Matěj zachrání Karkulku a babičku před vlkem a Pepa si vezme Marušku. Scénář napsal Zdeněk Svěrák, otec režiséra.",
+    "en": "Jan wakes Sleeping Beauty, Matěj saves Little Red Riding Hood and her grandmother from the wolf, and Pepa marries Maruška. The screenplay was written by Zdeněk Svěrák, the director's father."
+   }
+  },
+  {
+   "id": "T146-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který herec hrál Pana Tau v původním seriálu?",
+    "en": "Which actor played Pan Tau in the original series?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jiří Sovák",
+     "Vlastimil Brodský",
+     "Otto Šimánek",
+     "Vladimír Menšík"
+    ],
+    "en": [
+     "Jiří Sovák",
+     "Vlastimil Brodský",
+     "Otto Šimánek",
+     "Vladimír Menšík"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pana Tau hrál Otto Šimánek, který se v roli většinou dorozumíval pantomimou. Seriál vznikal se západoněmeckou stanicí WDR a byl populární na obou stranách železné opony.",
+    "en": "Pan Tau was played by Otto Šimánek, who mostly communicated in the role through pantomime. The series was co-produced with West Germany's WDR and was popular on both sides of the Iron Curtain."
+   }
+  },
+  {
+   "id": "T146-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik dílů měl původní seriál Arabela (premiéra 1980)?",
+    "en": "How many episodes did the original Arabela series (premiered 1980) have?"
+   },
+   "moznosti": {
+    "cs": [
+     "6",
+     "13",
+     "26",
+     "52"
+    ],
+    "en": [
+     "6",
+     "13",
+     "26",
+     "52"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Západoněmecká WDR objednala u Václava Vorlíčka seriál o 13 dílech. Pokračování Arabela se vrací z 90. let jich mělo dvakrát víc, 26.",
+    "en": "West Germany's WDR commissioned a 13-episode series from Václav Vorlíček. The 1990s sequel, Arabela Returns, had twice as many, 26."
+   }
+  },
+  {
+   "id": "T146-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Podle pohádek kterého spisovatele vznikl film Lotrando a Zubejda (1997)?",
+    "en": "The film Lotrando a Zubejda (Ruffiano and Sweeteeth, 1997) is based on fairy tales by which writer?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jana Wericha",
+     "Jana Drdy",
+     "Karla Čapka",
+     "Boženy Němcové"
+    ],
+    "en": [
+     "Jan Werich",
+     "Jan Drda",
+     "Karel Čapek",
+     "Božena Němcová"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Film spojuje Čapkovu Velkou doktorskou a Velkou loupežnickou pohádku z knihy Devatero pohádek. Scénář napsal Zdeněk Svěrák s režisérem Karlem Smyczkem.",
+    "en": "The film combines Čapek's Doctors' Tale and Highwaymen's Tale from his book Nine Fairy Tales. The screenplay was by Zdeněk Svěrák and director Karel Smyczek."
+   }
+  },
+  {
+   "id": "T146-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč prince ve Třech oříšcích pro Popelku Pavla Trávníčka nadaboval Petr Svojtka?",
+    "en": "Why was the Prince in Three Wishes for Cinderella, Pavel Trávníček, dubbed by Petr Svojtka?"
+   },
+   "moznosti": {
+    "cs": [
+     "Své repliky natáčel v němčině",
+     "Režisérovi vadil jeho moravský přízvuk",
+     "Nestihl postsynchrony kvůli jinému filmu",
+     "Při natáčení přišel o hlas"
+    ],
+    "en": [
+     "He recorded his lines in German",
+     "The director disliked his Moravian accent",
+     "He missed the dubbing because of another film",
+     "He lost his voice during filming"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Václav Vorlíček si Trávníčka, čerstvého absolventa konzervatoře, vybral, ale nelíbil se mu jeho moravský přízvuk. Prince proto mluví hlasem Petra Svojtky.",
+    "en": "Václav Vorlíček picked Trávníček, a fresh conservatory graduate, but disliked his Moravian accent. The Prince therefore speaks with Petr Svojtka's voice."
+   }
+  },
+  {
+   "id": "T146-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Z čeho se při natáčení Tří oříšků pro Popelku v Německu vyráběl umělý sníh?",
+    "en": "What was the artificial snow made of during the German shoot of Three Wishes for Cinderella?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z drceného mramoru",
+     "Z bramborového škrobu",
+     "Z mýdlových vloček",
+     "Z rozemletých rybích kostí"
+    ],
+    "en": [
+     "Crushed marble",
+     "Potato starch",
+     "Soap flakes",
+     "Ground fish bones"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Film se měl původně točit v létě, ale studio DEFA mělo nejvíce volných pracovníků v prosinci a lednu, a sníh tehdy chyběl. Sníh z rybích kostí podle pamětníků zapáchal a do druhého dne se rozložil.",
+    "en": "The film was originally planned for summer, but DEFA had the most staff available in December and January, and there was little snow. According to witnesses, the fish-bone snow smelled and had decomposed by the next day."
+   }
+  },
+  {
+   "id": "T146-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Hudbu k Šíleně smutné princezně (1968) složil mladý Jan Hammer. Čím se později proslavil v USA?",
+    "en": "The music for The Incredibly Sad Princess (1968) was composed by the young Jan Hammer. What later made him famous in the USA?"
+   },
+   "moznosti": {
+    "cs": [
+     "Znělkou seriálu Miami Vice",
+     "Znělkou seriálu Twin Peaks",
+     "Znělkou seriálu Dallas",
+     "Hudbou k filmu Top Gun"
+    ],
+    "en": [
+     "The Miami Vice theme",
+     "The Twin Peaks theme",
+     "The Dallas theme",
+     "The music for Top Gun"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jan Hammer po srpnu 1968 emigroval a v USA jeho Miami Vice Theme získala v roce 1986 dvě ceny Grammy. Soundtrack seriálu se dostal na první místo americké hitparády alb Billboard.",
+    "en": "Jan Hammer emigrated after August 1968, and in the USA his Miami Vice Theme won two Grammy Awards in 1986. The show's soundtrack reached number one on the US Billboard album chart."
+   }
+  },
+  {
+   "id": "T146-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Která pozdější světoznámá osobnost se jako mladá objevila v jednom dílu seriálu Pan Tau?",
+    "en": "Which later world-famous personality appeared as a young woman in one episode of the series Pan Tau?"
+   },
+   "moznosti": {
+    "cs": [
+     "Martina Navrátilová",
+     "Paulina Porizkova",
+     "Eva Herzigová",
+     "Ivana Trumpová"
+    ],
+    "en": [
+     "Martina Navratilova",
+     "Paulina Porizkova",
+     "Eva Herzigová",
+     "Ivana Trump"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Ivana Zelníčková, později Trumpová, se objevila ve 3. dílu první řady Pan Tau na horách a byla to její první televizní role. Pan Tau v seriálu pomáhá dětem a dospělí ho většinou nevidí.",
+    "en": "Ivana Zelníčková, later Trump, appeared in season 1, episode 3, 'Pan Tau na horách' (Pan Tau in the Mountains), her first television role. In the series Pan Tau helps children and is mostly invisible to adults."
+   }
+  },
+  {
+   "id": "T146-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Křídla, na nichž létá švec Jíra ve filmu O princezně Jasněnce a létajícím ševci (1987), vycházela z nákresu…",
+    "en": "The wings on which the shoemaker Jíra flies in Princess Jasnenka and the Flying Shoemaker (1987) were based on a drawing by…"
+   },
+   "moznosti": {
+    "cs": [
+     "Leonarda da Vinciho",
+     "Jana Kašpara",
+     "Otto Lilienthala",
+     "Albrechta Dürera"
+    ],
+    "en": [
+     "Leonardo da Vinci",
+     "Jan Kašpar",
+     "Otto Lilienthal",
+     "Albrecht Dürer"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jírova kožená křídla vycházela z Leonardova nákresu z 15. století. Film natočil Zdeněk Troška podle pohádky Jana Drdy a Jíru hrál Jan Potměšil.",
+    "en": "Jíra's leather wings were based on a 15th-century drawing by Leonardo. Zdeněk Troška made the film from a tale by Jan Drda, with Jan Potměšil as Jíra."
+   }
+  },
+  {
+   "id": "T146-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Představitel loupežníka Lotranda ve filmu Lotrando a Zubejda (1997) se později proslavil jako režisér pohádek, například Anděla Páně. Kdo to je?",
+    "en": "The actor who played the robber Lotrando in Lotrando a Zubejda (1997) later became famous as a director of fairy tales such as Angel of the Lord. Who is he?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jiří Strach",
+     "Zdeněk Troška",
+     "Karel Janák",
+     "Jan Svěrák"
+    ],
+    "en": [
+     "Jiří Strach",
+     "Zdeněk Troška",
+     "Karel Janák",
+     "Jan Svěrák"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Lotranda hrál Jiří Strach, který o osm let později režíroval Anděla Páně (2005) a v roce 2016 i jeho pokračování. Zubejdu hrála Barbora Seidlová.",
+    "en": "Lotrando was played by Jiří Strach, who eight years later directed Angel of the Lord (2005) and its 2016 sequel. Zubejda was played by Barbora Seidlová."
+   }
+  },
+  {
+   "id": "T146-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Film Císařův pekař – Pekařův císař začal natáčet Jiří Krejčík. Kdo ho po jeho sporech s Werichem dokončil?",
+    "en": "The Emperor's Baker – The Baker's Emperor was started by director Jiří Krejčík. Who completed it after his disputes with Werich?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bořivoj Zeman",
+     "Otakar Vávra",
+     "Karel Zeman",
+     "Martin Frič"
+    ],
+    "en": [
+     "Bořivoj Zeman",
+     "Otakar Vávra",
+     "Karel Zeman",
+     "Martin Frič"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Po neshodách Wericha s Krejčíkem převzal režii Martin Frič a část scén se přetáčela s novými herci. Kostýmy k filmu navrhl Jiří Trnka.",
+    "en": "After disagreements between Werich and Krejčík, Martin Frič took over, and some scenes were reshot with new actors. The costumes were designed by Jiří Trnka."
+   }
+  },
+  {
+   "id": "T146-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím byl ve skutečnosti mlýn z Troškovy pohádky Princezna ze mlejna (1994)?",
+    "en": "What was the mill in Troška's fairy tale Princess from the Mill (1994) in reality?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přestavěnou hájovnou",
+     "Kulisou z lepenky a dřevotřísky",
+     "Zmenšeným modelem v ateliéru",
+     "Funkčním vodním mlýnem z 18. století"
+    ],
+    "en": [
+     "A converted gamekeeper's lodge",
+     "A set made of cardboard and chipboard",
+     "A scale model in the studio",
+     "A working 18th-century watermill"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Mlýn byla kulisa z lepenky, kartonů a dřevotřísky u rybníka nedaleko Bavorova; ožíraly ji husy. Před druhým dílem ji zasáhla povodeň, a tak ji štáb postavil na piloty.",
+    "en": "The mill was a set of cardboard and chipboard by a pond near Bavorov, and geese kept nibbling it. Before the sequel it was hit by a flood, so the crew rebuilt it on stilts."
+   }
+  },
+  {
+   "id": "T146-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jméno Arabela si tvůrci seriálu vypůjčili z jednoho slavného románu. Ze kterého?",
+    "en": "The creators of the series took the name Arabela from a famous novel. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tři mušketýři",
+     "Bídníci",
+     "Kronika Pickwickova klubu",
+     "Pýcha a předsudek"
+    ],
+    "en": [
+     "The Three Musketeers",
+     "Les Misérables",
+     "The Pickwick Papers",
+     "Pride and Prejudice"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Arabela se objevuje na několika stránkách Dickensovy Kroniky Pickwickova klubu. Princeznu hrála Slovenka Jana Nagyová, kterou nadabovala Libuše Šafránková.",
+    "en": "An Arabella appears on a few pages of Dickens's The Pickwick Papers. The princess was played by Slovak actress Jana Nagyová, dubbed by Libuše Šafránková."
+   }
+  },
+  {
+   "id": "T146-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč se rodina v Arabele jmenuje Majerovi, ne třeba Novákovi, a bydlí ve vile, ne v paneláku?",
+    "en": "Why is the family in Arabela called Majer rather than, say, Novák, and why do they live in a villa instead of a panel block?"
+   },
+   "moznosti": {
+    "cs": [
+     "Západoněmečtí koproducenti nechtěli, aby bylo poznat, že děj je na Východě",
+     "Vila patřila režisérovi Vorlíčkovi, takže štáb ušetřil za pronájem",
+     "Rodina měla navazovat na postavy ze západoněmeckého seriálu",
+     "Scenárista Macourek tak vzpomínal na vlastní dětství ve vile"
+    ],
+    "en": [
+     "The West German co-producers did not want it obvious that the story is set in the East",
+     "The villa belonged to director Vorlíček, so the crew saved on rent",
+     "The family was meant to link to characters from a West German series",
+     "Screenwriter Macourek was recalling his own childhood in a villa"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Koproducent WDR chtěl, aby západní diváci nepoznali, že se děj odehrává ve východním bloku. Podobně má i Vladimír Dlouhý na tehdejší dobu delší vlasy.",
+    "en": "Co-producer WDR wanted Western viewers not to realise the story was set in the Eastern Bloc. Likewise, Vladimír Dlouhý wears his hair longer than was usual at the time."
+   }
+  }
+ ]
+}

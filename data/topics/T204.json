@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T204",
+ "nazev": {
+  "cs": "Československo 1918–1992",
+  "en": "Czechoslovakia 1918–1992"
+ },
+ "kategorie": {
+  "id": "cesko",
+  "nazev": {
+   "cs": "Česko",
+   "en": "Czechia"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T204-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterého dne roku 1918 převzali čeští politici v Praze moc a vyhlásili samostatný československý stát?",
+    "en": "On which day in 1918 did Czech politicians take power in Prague and proclaim an independent Czechoslovak state?"
+   },
+   "moznosti": {
+    "cs": [
+     "1. ledna",
+     "8. května",
+     "28. října",
+     "17. listopadu"
+    ],
+    "en": [
+     "1 January",
+     "8 May",
+     "28 October",
+     "17 November"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Převzetí moci v Praze 28. října 1918 proběhlo pokojně a tento den byl později prohlášen za den vzniku Československa. Samotné prohlášení nezávislosti (tzv. Washingtonskou deklaraci) zveřejnila prozatímní vláda sídlící v Paříži už 18. října.",
+    "en": "The takeover in Prague on 28 October 1918 was peaceful, and the date was later declared the birthday of Czechoslovakia. The declaration of independence itself (the Washington Declaration) had been published on 18 October by the provisional government based in Paris."
+   }
+  },
+  {
+   "id": "T204-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který politik stál v čele Komunistické strany Československa během Pražského jara 1968?",
+    "en": "Which politician led the Communist Party of Czechoslovakia during the Prague Spring of 1968?"
+   },
+   "moznosti": {
+    "cs": [
+     "Gustáv Husák",
+     "Klement Gottwald",
+     "Antonín Novotný",
+     "Alexander Dubček"
+    ],
+    "en": [
+     "Gustáv Husák",
+     "Klement Gottwald",
+     "Antonín Novotný",
+     "Alexander Dubček"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Dubček byl prvním tajemníkem zvolen 5. ledna 1968 místo Antonína Novotného. V dubnu 1968 představil program označovaný jako „socialismus s lidskou tváří“.",
+    "en": "Dubček was elected First Secretary on 5 January 1968, replacing Antonín Novotný. In April 1968 he presented a programme known as \"socialism with a human face\"."
+   }
+  },
+  {
+   "id": "T204-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kde se student Jan Palach 16. ledna 1969 na protest upálil?",
+    "en": "Where in Prague did the student Jan Palach set himself on fire in protest on 16 January 1969?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Karlově mostě",
+     "Na Václavském náměstí",
+     "Na Hradčanském náměstí",
+     "Na Staroměstském náměstí"
+    ],
+    "en": [
+     "On Charles Bridge",
+     "In Wenceslas Square",
+     "In Hradčany Square",
+     "In Old Town Square"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Palach se upálil na Václavském náměstí na protest proti potlačování svobody projevu po okupaci a 19. ledna 1969 zraněním podlehl. Studoval na Filozofické fakultě Univerzity Karlovy.",
+    "en": "Palach set himself on fire in Wenceslas Square to protest the suppression of free speech after the 1968 invasion, and died of his burns on 19 January 1969. He was a student at the Faculty of Arts of Charles University."
+   }
+  },
+  {
+   "id": "T204-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která obec byla v červnu 1942 vypálena a srovnána se zemí jako odveta za atentát na zastupujícího říšského protektora Reinharda Heydricha?",
+    "en": "Which Czech village was burned and razed to the ground in June 1942 as a reprisal for the assassination of Nazi official Reinhard Heydrich?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lidice",
+     "Slapy",
+     "Lány",
+     "Terezín"
+    ],
+    "en": [
+     "Lidice",
+     "Slapy",
+     "Lány",
+     "Terezín"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Nacisté v Lidicích 10. června 1942 zastřelili 173 mužů a chlapců ve věku od 15 let, ženy odvlekli do koncentračního tábora Ravensbrück a většinu dětí zavraždili. Jméno Lidic dnes nesou i místa v zahraničí, například čtvrť San Jerónimo Lídice v Ciudad de México.",
+    "en": "In Lidice on 10 June 1942 the Nazis shot 173 men and boys aged 15 and over, deported the women to Ravensbrück concentration camp and murdered most of the children. Places abroad were named after Lidice, such as San Jerónimo Lídice in Mexico City."
+   }
+  },
+  {
+   "id": "T204-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo byl 29. prosince 1989 zvolen prezidentem Československa?",
+    "en": "Who was elected President of Czechoslovakia on 29 December 1989?"
+   },
+   "moznosti": {
+    "cs": [
+     "Gustáv Husák",
+     "Václav Havel",
+     "Václav Klaus",
+     "Alexander Dubček"
+    ],
+    "en": [
+     "Gustáv Husák",
+     "Václav Havel",
+     "Václav Klaus",
+     "Alexander Dubček"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Dramatika a disidenta Václava Havla zvolilo Federální shromáždění jednomyslně. Jeho předchůdce Gustáv Husák odstoupil 10. prosince 1989.",
+    "en": "The playwright and dissident Václav Havel was elected unanimously by the Federal Assembly. His predecessor, Gustáv Husák, had resigned on 10 December 1989."
+   }
+  },
+  {
+   "id": "T204-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývalo pohraničí s převahou německy mluvícího obyvatelstva, které muselo Československo po Mnichovské dohodě v roce 1938 přenechat Německu?",
+    "en": "What was the name of the largely German-speaking border region that Czechoslovakia had to hand over to Germany after the Munich Agreement of 1938?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sudety",
+     "Sársko",
+     "Halič",
+     "Porýní"
+    ],
+    "en": [
+     "Sudetenland",
+     "Saarland",
+     "Galicia",
+     "Rhineland"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Název je odvozen od pohoří Sudety na severu českých zemí, oblast ale zasahovala daleko za ně. Německo pohraničí obsadilo mezi 1. a 10. říjnem 1938.",
+    "en": "The name comes from the Sudeten Mountains along the northern Czech border, although the region reached far beyond them. Germany occupied it between 1 and 10 October 1938."
+   }
+  },
+  {
+   "id": "T204-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která strana převzala v únoru 1948 v Československu moc?",
+    "en": "Which party seized power in Czechoslovakia in February 1948?"
+   },
+   "moznosti": {
+    "cs": [
+     "Československá strana lidová",
+     "Československá sociální demokracie",
+     "Československá strana národně socialistická",
+     "Komunistická strana Československa"
+    ],
+    "en": [
+     "The Czechoslovak People's Party",
+     "The Czechoslovak Social Democratic Party",
+     "The Czechoslovak National Social Party",
+     "The Communist Party of Czechoslovakia"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Krize začala 20. února 1948 demisí dvanácti nekomunistických ministrů. Prezident Beneš ji 25. února přijal a jmenoval vládu Klementa Gottwalda podle požadavků KSČ.",
+    "en": "The crisis began on 20 February 1948 when twelve non-Communist ministers resigned. On 25 February President Beneš accepted their resignations and appointed a government under Klement Gottwald that met the Communists' demands."
+   }
+  },
+  {
+   "id": "T204-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím lidé na demonstracích v listopadu 1989 hromadně cinkali na znamení podpory změn?",
+    "en": "What did crowds at the November 1989 demonstrations in Czechoslovakia jingle en masse as a sign of support for change?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mincemi",
+     "Lžícemi",
+     "Sklenicemi",
+     "Klíči"
+    ],
+    "en": [
+     "Coins",
+     "Spoons",
+     "Glasses",
+     "Keys"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Cinkání klíči symbolizovalo odemykání dveří a zároveň vzkaz komunistům: „Sbohem, je čas jít domů.“",
+    "en": "Jingling keys symbolised unlocking doors and was also a message to the Communists: \"Goodbye, it's time to go home.\""
+   }
+  },
+  {
+   "id": "T204-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se jmenoval útvar, který nacistické Německo zřídilo v březnu 1939 na okupovaném území Čech a Moravy?",
+    "en": "What was the name of the entity that Nazi Germany set up in March 1939 on the occupied territory of Bohemia and Moravia?"
+   },
+   "moznosti": {
+    "cs": [
+     "Slovenský štát",
+     "Generální gouvernement",
+     "Říšská župa Sudety",
+     "Protektorát Čechy a Morava"
+    ],
+    "en": [
+     "The Slovak State",
+     "The General Government",
+     "The Reichsgau Sudetenland",
+     "The Protectorate of Bohemia and Moravia"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Protektorát (německy Protektorat Böhmen und Mähren) vznikl 16. března 1939, den po vstupu německých vojsk. Jeho státním prezidentem byl Emil Hácha, předtím prezident tzv. druhé republiky.",
+    "en": "The Protectorate (German: Protektorat Böhmen und Mähren) was established on 16 March 1939, a day after German troops marched in. Its state president was Emil Hácha, previously president of the so-called Second Republic."
+   }
+  },
+  {
+   "id": "T204-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ke kterému vojenskému paktu patřily armády, které v noci z 20. na 21. srpna 1968 vtrhly do Československa?",
+    "en": "Which military alliance did the armies that invaded Czechoslovakia on the night of 20–21 August 1968 belong to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Severoatlantická aliance (NATO)",
+     "Varšavská smlouva",
+     "Balkánský pakt",
+     "Bagdádský pakt"
+    ],
+    "en": [
+     "The North Atlantic Treaty Organization (NATO)",
+     "The Warsaw Pact",
+     "The Balkan Pact",
+     "The Baghdad Pact"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Vpád provedly Sovětský svaz, Polsko, Maďarsko a Bulharsko, přičemž sovětská vojska tvořila naprostou většinu sil. Československo samo bylo členem Varšavské smlouvy.",
+    "en": "The invasion was carried out by the Soviet Union, Poland, Hungary and Bulgaria, with Soviet troops making up the vast majority of the force. Czechoslovakia itself was a member of the Warsaw Pact."
+   }
+  },
+  {
+   "id": "T204-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo z této čtveřice patřil k tzv. mužům 28. října, kteří v Praze vyhlásili samostatný stát?",
+    "en": "The \"Men of 28 October\" proclaimed the independent Czechoslovak state in Prague in 1918. Which of these four was one of them?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tomáš Garrigue Masaryk",
+     "Milan Rastislav Štefánik",
+     "Edvard Beneš",
+     "Alois Rašín"
+    ],
+    "en": [
+     "Tomáš Garrigue Masaryk",
+     "Milan Rastislav Štefánik",
+     "Edvard Beneš",
+     "Alois Rašín"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Muži 28. října byli Alois Rašín, Antonín Švehla, Jiří Stříbrný, František Soukup a Slovák Vavro Šrobár; Masaryk a Beneš tehdy působili v zahraničním odboji. Rašín se stal prvním ministrem financí a v roce 1923 zemřel po atentátu.",
+    "en": "The Men of 28 October were Alois Rašín, Antonín Švehla, Jiří Stříbrný, František Soukup and the Slovak Vavro Šrobár; Masaryk and Beneš were working for independence abroad at the time. Rašín became the first finance minister and died after an assassination attempt in 1923."
+   }
+  },
+  {
+   "id": "T204-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Podkarpatská Rus byla v letech 1919–1939 nejvýchodnější částí Československa. Ke kterému státu dnes patří?",
+    "en": "Subcarpathian Ruthenia was the easternmost part of Czechoslovakia from 1919 to 1939. Which country is it part of today?"
+   },
+   "moznosti": {
+    "cs": [
+     "K Maďarsku",
+     "K Polsku",
+     "K Rumunsku",
+     "K Ukrajině"
+    ],
+    "en": [
+     "Hungary",
+     "Poland",
+     "Romania",
+     "Ukraine"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Československo území postoupilo Sovětskému svazu smlouvou z 29. června 1945. Dnes leží převážně v Zakarpatské oblasti Ukrajiny.",
+    "en": "Czechoslovakia ceded the region to the Soviet Union by a treaty of 29 June 1945. Today it lies mostly within Ukraine's Zakarpattia Oblast."
+   }
+  },
+  {
+   "id": "T204-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Odkud pochází prostřední jméno Garrigue, které T. G. Masaryk používal?",
+    "en": "Where does the middle name Garrigue, used by Czechoslovakia's first president Tomáš G. Masaryk, come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Je to rodné příjmení jeho manželky",
+     "Je to krycí jméno z doby exilu",
+     "Je to jméno jeho kmotra z Hodonína",
+     "Je to rodné příjmení jeho matky"
+    ],
+    "en": [
+     "It was his wife's maiden name",
+     "It was his code name while in exile",
+     "It was the name of his godfather from Hodonín",
+     "It was his mother's maiden name"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Masaryk přijal příjmení své manželky Charlotty Garrigue jako prostřední jméno. Narodila se v Brooklynu v New Yorku v protestantské rodině s hugenotskými předky.",
+    "en": "Masaryk adopted the surname of his wife, Charlotte Garrigue, as his middle name. She was born in Brooklyn, New York, into a Protestant family of French Huguenot descent."
+   }
+  },
+  {
+   "id": "T204-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Hromadná tělovýchovná vystoupení zvaná spartakiády se na pražském Strahově konala až do roku 1985. Jak často se zpravidla pořádala?",
+    "en": "The Spartakiads, mass gymnastics displays in communist Czechoslovakia, were held at Prague's Strahov Stadium until 1985. How often were they usually held?"
+   },
+   "moznosti": {
+    "cs": [
+     "Každý rok",
+     "Každé dva roky",
+     "Každých pět let",
+     "Každých deset let"
+    ],
+    "en": [
+     "Every year",
+     "Every two years",
+     "Every five years",
+     "Every ten years"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Spartakiády se na Strahově konaly zhruba jednou za pět let, naposledy v roce 1985. Stadion s kapacitou asi 250 000 diváků hostil také všesokolské slety, naposledy v roce 1994.",
+    "en": "The Spartakiads were held at Strahov roughly every five years, the last one in 1985. The stadium, with a capacity of about 250,000 spectators, also hosted Sokol slets, most recently in 1994."
+   }
+  },
+  {
+   "id": "T204-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Vznik Charty 77 podnítilo mimo jiné zatčení a soud se členy které hudební skupiny?",
+    "en": "The founding of Charter 77, a Czechoslovak human rights declaration, was prompted in part by the arrest and trial of members of which band?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pražský výběr",
+     "Banjo Band Ivana Mládka",
+     "Spirituál kvintet",
+     "The Plastic People of the Universe"
+    ],
+    "en": [
+     "Pražský výběr",
+     "Ivan Mládek's Banjo Band",
+     "Spirituál kvintet",
+     "The Plastic People of the Universe"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Členové kapely a další lidé z undergroundu byli v roce 1976 odsouzeni za „výtržnictví“ k trestům od 8 do 18 měsíců vězení. Charta 77 byla zveřejněna 6. ledna 1977 s podpisy 242 signatářů.",
+    "en": "Members of the band and other people from the underground scene were convicted in 1976 of \"organised disturbance of the peace\" and sentenced to 8 to 18 months in prison. Charter 77 was published on 6 January 1977 with 242 signatures."
+   }
+  },
+  {
+   "id": "T204-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo 17. dubna 1969 nahradil Alexandra Dubčeka v čele KSČ, čímž začalo období tzv. normalizace?",
+    "en": "Who replaced Alexander Dubček as head of the Czechoslovak Communist Party on 17 April 1969, starting the period known as \"normalization\"?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vasil Biľak",
+     "Ludvík Svoboda",
+     "Gustáv Husák",
+     "Lubomír Štrougal"
+    ],
+    "en": [
+     "Vasil Biľak",
+     "Ludvík Svoboda",
+     "Gustáv Husák",
+     "Lubomír Štrougal"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Gustáv Husák vedl stranu do prosince 1987, kdy ho vystřídal Miloš Jakeš. Od roku 1975 byl také prezidentem a z této funkce odstoupil 10. prosince 1989, v den, kdy jmenoval první vládu od roku 1948 bez komunistické většiny.",
+    "en": "Gustáv Husák led the party until December 1987, when he was succeeded by Miloš Jakeš. From 1975 he was also president, and he resigned from that office on 10 December 1989, the day he appointed the first government since 1948 without a Communist majority."
+   }
+  },
+  {
+   "id": "T204-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "O co se na jaře 1990 vedla mezi českými a slovenskými politiky tzv. pomlčková válka?",
+    "en": "What was the so-called \"Hyphen War\" between Czech and Slovak politicians in spring 1990 about?"
+   },
+   "moznosti": {
+    "cs": [
+     "O podobu státní vlajky",
+     "O text státní hymny",
+     "O název státu",
+     "O sídlo federální vlády"
+    ],
+    "en": [
+     "The design of the state flag",
+     "The lyrics of the national anthem",
+     "The name of the country",
+     "The seat of the federal government"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Slovenští politici chtěli psát název s pomlčkou (Česko-Slovensko), čeští namítali, že tvar připomíná pomnichovské období. Od 20. dubna 1990 se stát jmenoval Česká a Slovenská Federativní Republika (ČSFR).",
+    "en": "Slovak politicians wanted the name spelled with a hyphen (Czecho-Slovakia), while Czech politicians objected that the form recalled the period after Munich in 1938. From 20 April 1990 the country was called the Czech and Slovak Federative Republic (ČSFR)."
+   }
+  },
+  {
+   "id": "T204-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jakým způsobem bylo rozhodnuto o rozdělení Československa k 1. lednu 1993?",
+    "en": "How was the decision to dissolve Czechoslovakia as of 1 January 1993 made?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rozhodnutím mezinárodní konference",
+     "Ústavním zákonem Federálního shromáždění",
+     "Dekretem prezidenta republiky",
+     "Referendem v obou republikách"
+    ],
+    "en": [
+     "By a decision of an international conference",
+     "By a constitutional act of the Federal Assembly",
+     "By a decree of the president",
+     "By referendums in both republics"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Federální shromáždění přijalo 25. listopadu 1992 ústavní zákon č. 542/1992 Sb. o zániku federace. Referendum se nekonalo; podle průzkumu ze září 1992 rozdělení podporovalo 37 % Slováků a 36 % Čechů.",
+    "en": "On 25 November 1992 the Federal Assembly passed Constitutional Act No. 542/1992 on the dissolution of the federation. No referendum was held; a September 1992 poll found that 37% of Slovaks and 36% of Czechs favoured the split."
+   }
+  },
+  {
+   "id": "T204-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Měnová reforma, která vstoupila v platnost 1. června 1953, vyvolala vlnu protestů. Ve kterém městě byly demonstrace největší?",
+    "en": "The currency reform that took effect in Czechoslovakia on 1 June 1953 triggered a wave of protests. In which city were the demonstrations largest?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Plzni",
+     "V Bratislavě",
+     "V Ostravě",
+     "V Brně"
+    ],
+    "en": [
+     "Plzeň (Pilsen)",
+     "Bratislava",
+     "Ostrava",
+     "Brno"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Při protestech v Plzni vyšlo do ulic asi 20 000 lidí a demonstranti vnikli do radnice. Hotovost nad 300 korun se při reformě měnila v poměru 50 : 1.",
+    "en": "In Plzeň about 20,000 people took to the streets and demonstrators forced their way into the town hall. In the reform, cash above 300 korunas was exchanged at 50 to 1."
+   }
+  },
+  {
+   "id": "T204-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se událostem listopadu 1989, česky sametové revoluci, obvykle říká slovensky?",
+    "en": "What is the usual Slovak name for the events of November 1989 known in English as the Velvet Revolution?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nežná revolúcia",
+     "Kvetinová revolúcia",
+     "Pokojná revolúcia",
+     "Tichá revolúcia"
+    ],
+    "en": [
+     "Nežná revolúcia (Gentle Revolution)",
+     "Kvetinová revolúcia (Flower Revolution)",
+     "Pokojná revolúcia (Peaceful Revolution)",
+     "Tichá revolúcia (Quiet Revolution)"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Slovenský název znamená „něžná revoluce“. Na Slovensku ji vedlo hnutí Verejnosť proti násiliu (VPN), protějšek českého Občanského fóra.",
+    "en": "The Slovak name means \"gentle revolution\". In Slovakia it was led by the movement Public Against Violence (VPN), the counterpart of the Czech Civic Forum."
+   }
+  },
+  {
+   "id": "T204-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který člen Varšavské smlouvy se v srpnu 1968 odmítl podílet na vojenském vpádu do Československa?",
+    "en": "Which Warsaw Pact member refused to take part in the military invasion of Czechoslovakia in August 1968?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bulharsko",
+     "Polsko",
+     "Rumunsko",
+     "Maďarsko"
+    ],
+    "en": [
+     "Bulgaria",
+     "Poland",
+     "Romania",
+     "Hungary"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Zbylé tři státy se vpádu zúčastnily spolu se Sovětským svazem. Připravené jednotky NDR dostaly těsně před invazí z Moskvy rozkaz hranici nepřekročit, s výjimkou malého počtu specialistů.",
+    "en": "The other three countries took part in the invasion alongside the Soviet Union. East German units were readied but, shortly before the invasion, Moscow ordered them not to cross the border, apart from a small number of specialists."
+   }
+  },
+  {
+   "id": "T204-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co se pokazilo v rozhodující chvíli atentátu na Reinharda Heydricha 27. května 1942 v Praze?",
+    "en": "What went wrong at the decisive moment of the assassination attempt on Nazi official Reinhard Heydrich in Prague on 27 May 1942 (Operation Anthropoid)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Gabčíkovi se zasekl samopal",
+     "Heydrichův vůz projel bez zpomalení",
+     "Kubišova bomba nevybuchla",
+     "Výsadkáři se spletli ve voze"
+    ],
+    "en": [
+     "Gabčík's submachine gun jammed",
+     "Heydrich's car drove past without slowing",
+     "Kubiš's bomb failed to explode",
+     "The paratroopers targeted the wrong car"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Když se Jozefu Gabčíkovi zasekl samopal Sten, hodil Jan Kubiš bombu, která Heydricha zranila; zemřel 4. června 1942. Výsadkáři později zahynuli v chrámu sv. Cyrila a Metoděje v Resslově ulici.",
+    "en": "When Jozef Gabčík's Sten submachine gun jammed, Jan Kubiš threw a bomb that wounded Heydrich; he died on 4 June 1942. The paratroopers later died in the Church of Saints Cyril and Methodius in Resslova Street."
+   }
+  },
+  {
+   "id": "T204-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Po Lidicích byla v červnu 1942 vyhlazena ještě jedna obec, kde gestapo našlo vysílačku spojenou s výsadkáři. Která?",
+    "en": "After Lidice, one more Czech village was wiped out in June 1942 after the Gestapo found a radio transmitter linked to the paratroopers there. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lány",
+     "Ležáky",
+     "Lomnice",
+     "Lochovice"
+    ],
+    "en": [
+     "Lány",
+     "Ležáky",
+     "Lomnice",
+     "Lochovice"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ležáky byly zničeny zhruba dva týdny po Lidicích. Všech 33 dospělých obyvatel bylo zastřeleno a děti odvlečeny do táborů nebo na poněmčení.",
+    "en": "Ležáky was destroyed about two weeks after Lidice. All 33 adult inhabitants were shot and the children were sent to camps or for Germanisation."
+   }
+  },
+  {
+   "id": "T204-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Při měnové reformě 1953 se prvních 300 starých korun hotovosti měnilo v poměru 5 : 1. V jakém poměru se měnila hotovost nad tuto částku?",
+    "en": "In Czechoslovakia's 1953 currency reform, the first 300 old korunas of cash were exchanged at 5 to 1. At what rate was cash above that amount exchanged?"
+   },
+   "moznosti": {
+    "cs": [
+     "10 : 1",
+     "20 : 1",
+     "50 : 1",
+     "100 : 1"
+    ],
+    "en": [
+     "10 to 1",
+     "20 to 1",
+     "50 to 1",
+     "100 to 1"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Za 50 starých korun hotovosti se dostala jedna nová koruna. Vklady v bance se přepočítávaly výhodněji, do 5 000 korun v poměru 5 : 1. Reforma vstoupila v platnost 1. června 1953.",
+    "en": "Fifty old korunas in cash bought one new koruna. Bank deposits were converted more favourably, at 5 to 1 up to 5,000 korunas. The reform took effect on 1 June 1953."
+   }
+  },
+  {
+   "id": "T204-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaký jazyk označil jazykový zákon z 29. února 1920 za státní, oficiální jazyk Československa?",
+    "en": "Which language did the Language Act of 29 February 1920 declare the state, official language of Czechoslovakia?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jazyk československý",
+     "Český a slovenský jako dva rovnocenné jazyky",
+     "Český, slovenský a německý",
+     "Jazyk český"
+    ],
+    "en": [
+     "The Czechoslovak language",
+     "Czech and Slovak as two equal languages",
+     "Czech, Slovak and German",
+     "The Czech language"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pojem „jazyk československý“ se používal v letech 1920–1938; v praxi jeho roli plnila hlavně čeština. Jazyky menšin bylo možné úředně používat tam, kde tvořily aspoň 20 % obyvatel.",
+    "en": "The concept of a \"Czechoslovak language\" was used from 1920 to 1938; in practice its role was mostly played by Czech. Minority languages could be used officially where speakers made up at least 20% of the local population."
+   }
+  },
+  {
+   "id": "T204-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolikrát byl Tomáš Garrigue Masaryk zvolen prezidentem Československa?",
+    "en": "How many times was Tomáš Garrigue Masaryk elected President of Czechoslovakia?"
+   },
+   "moznosti": {
+    "cs": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "en": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Masaryk byl zvolen v letech 1918, 1920, 1927 a 1934. Z úřadu odstoupil kvůli věku a zdraví 14. prosince 1935 a zemřel 14. září 1937 v Lánech.",
+    "en": "Masaryk was elected in 1918, 1920, 1927 and 1934. He resigned because of age and ill health on 14 December 1935 and died on 14 September 1937 at Lány."
+   }
+  },
+  {
+   "id": "T204-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co se v českých zemích v roce 1939 v souvislosti s německou okupací změnilo v silniční dopravě?",
+    "en": "What changed in road traffic in the Czech lands in 1939 in connection with the German occupation?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přešlo se z jízdy vpravo na jízdu vlevo",
+     "Přešlo se z jízdy vlevo na jízdu vpravo",
+     "Zavedly se první poznávací značky aut",
+     "Zavedly se první světelné semafory"
+    ],
+    "en": [
+     "Traffic switched from the right to the left side",
+     "Traffic switched from the left to the right side",
+     "The first car number plates were introduced",
+     "The first traffic lights were introduced"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Vláda v listopadu 1938 rozhodla o přechodu na jízdu vpravo od začátku května 1939; okupanti termín uspíšili. Mimo Prahu se vpravo jezdilo od 17. března, v Praze od 26. března 1939.",
+    "en": "In November 1938 the government decided to switch to right-hand traffic in early May 1939; the occupiers brought the date forward. Outside Prague traffic moved to the right on 17 March, in Prague on 26 March 1939."
+   }
+  },
+  {
+   "id": "T204-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který student se 25. února 1969, asi měsíc po Janu Palachovi, upálil v průchodu domu na Václavském náměstí?",
+    "en": "Which student set himself on fire in a passageway off Prague's Wenceslas Square on 25 February 1969, about a month after Jan Palach?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jan Kavan",
+     "Luboš Dobrovský",
+     "Jiří Müller",
+     "Jan Zajíc"
+    ],
+    "en": [
+     "Jan Kavan",
+     "Luboš Dobrovský",
+     "Jiří Müller",
+     "Jan Zajíc"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jan Zajíc, student průmyslové školy v Šumperku pocházející z Vítkova, se upálil v průchodu domu č. 39 v horní části Václavského náměstí a zemřel na místě. Po sametové revoluci bylo Palachovi na počest pojmenováno náměstí v centru Prahy.",
+    "en": "Jan Zajíc, a technical-school student from Vítkov who studied in Šumperk, set himself on fire in the passageway of the building at No. 39 in the upper part of Wenceslas Square and died at the scene. After the Velvet Revolution, a square in central Prague was named in Palach's honour."
+   }
+  },
+  {
+   "id": "T204-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo byl prezidentem Československa v okamžiku jeho zániku 31. prosince 1992?",
+    "en": "Who was President of Czechoslovakia when the country ceased to exist on 31 December 1992?"
+   },
+   "moznosti": {
+    "cs": [
+     "Alexander Dubček",
+     "Úřad byl neobsazený",
+     "Václav Havel",
+     "Václav Klaus"
+    ],
+    "en": [
+     "Alexander Dubček",
+     "The office was vacant",
+     "Václav Havel",
+     "Václav Klaus"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Václav Havel odstoupil 20. července 1992 se slovy, že nebude předsedat rozpadu země, a nástupce zvolen nebyl. Část prezidentských pravomocí do konce roku vykonával poslední federální premiér Jan Stráský.",
+    "en": "Václav Havel resigned on 20 July 1992, saying he would not preside over the country's breakup, and no successor was elected. Some presidential powers were exercised until the end of the year by the last federal prime minister, Jan Stráský."
+   }
+  },
+  {
+   "id": "T204-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jakou funkci získal Alexander Dubček 28. prosince 1989, den před zvolením Václava Havla prezidentem?",
+    "en": "What position did Alexander Dubček, the leader of the 1968 Prague Spring, take up on 28 December 1989, the day before Václav Havel was elected president?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ministr zahraničních věcí",
+     "Generální tajemník KSČ",
+     "Předseda Federálního shromáždění",
+     "Předseda federální vlády"
+    ],
+    "en": [
+     "Minister of foreign affairs",
+     "General Secretary of the Communist Party",
+     "Chairman of the Federal Assembly (parliament)",
+     "Federal prime minister"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Dubček vedl federální parlament až do voleb v červnu 1992. Zemřel 7. listopadu 1992 na následky autonehody na dálnici D1 u Humpolce.",
+    "en": "Dubček chaired the federal parliament until the June 1992 elections. He died on 7 November 1992 from injuries suffered in a car crash on the D1 motorway near Humpolec."
+   }
+  }
+ ]
+}

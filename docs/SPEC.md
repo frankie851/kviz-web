@@ -67,12 +67,12 @@ Veřejná webová aplikace, ve které kdokoli hraje kvízy z Davidových ověře
 
 ## Data
 - **Zdroj pravdy:** `C:\Users\mlcoc\Desktop\AIProjekty\Kvizy\otazky.json`, který spravuje skript `Kvizy\nastroje\kviz_db.py`. `kviz_otazky.xlsx` je jeho přehled, ve kterém David ručně vybírá.
-- **Výběr pro web:** nový sloupec **„Web“** (hodnota „Ano“) na všech listech s otázkami. Přidá se rozšířením `kviz_db.py` (Fáze 0); do JSON se převezme příkazem `kviz_db.py sync`. Vybírá se po jednotlivých otázkách; téma se na webu ukáže, když má aspoň jednu obtížnost se 3 a více vybranými otázkami.
+- **Výběr pro web:** nový sloupec **„Web“** (hodnota „Ano“, hned za sloupcem Shorts) na všech listech s otázkami. Přidá se rozšířením `kviz_db.py` (Fáze 0); do JSON se převezme příkazem `kviz_db.py sync`. Vybírá se po jednotlivých otázkách; téma se na webu ukáže, když má aspoň jednu obtížnost se 3 a více vybranými otázkami.
 - **Do aplikace jdou jen otázky** s Web = Ano a stavem ověření „Ověřeno“ nebo „Opraveno po ověření“. Neověřené se přeskočí a vypíšou v hlášení exportu.
 - **Na web jdou jen pole:** ID otázky, ID a název tématu (CZ/EN), kategorie (CZ/EN), obtížnost (1–3), otázka, 4 možnosti, správná možnost, vysvětlení – vše v CZ i EN. Zdroje, stavy ověření, poznámky, sloupce Použít/Shorts ani stav videí ne.
 - **Kategorie:** český název je v datech, anglický název a ikonu doplní mapovací tabulka v exportním nástroji – hned pro všechny kategorie, které se v `otazky.json` vyskytují (včetně např. „Obecné“, „Česko“). Neznámá kategorie = export skončí srozumitelnou chybou, aby se nic tiše neztratilo.
 - **Struktura v repozitáři:** `data/index.json` (kategorie → témata → počty otázek po obtížnostech, datum exportu, `"rezim"`: „vzorek“ nebo „web“) a `data/topics/<ID tématu>.json` (otázky tématu).
-- **Ukázková data:** než David vybere otázky, je v `data/` vzorek 2–3 témat, jejichž otázky už jsou ve zveřejněných videích (repozitář je veřejný). Prvním ostrým exportem (prompt 03) se nahradí. Aplikace načte nejdřív jen index, otázky tématu až po jeho výběru – kvůli rychlosti na mobilu i při tisících otázek.
+- **Ukázková data:** než David vybere otázky, je v `data/` vzorek 2–3 témat, jejichž otázky už jsou ve zveřejněných videích (repozitář je veřejný). Prvním ostrým exportem (prompt 03) se nahradí. *Změna 2026-11-04 (DECISIONS D-006): David na web chce hlavně otázky, které nebudou na YouTube; v `data/` jsou rovnou 4 česká témata s Web = Ano v režimu „web“.* Aplikace načte nejdřív jen index, otázky tématu až po jeho výběru – kvůli rychlosti na mobilu i při tisících otázek.
 - Listy Excelu (Otázky, Mezinárodní, Pro ženy, Rafinovaná, České, Aktuální, Obecné…) hráč nevidí, třídí se jen podle kategorií.
 
 ## Vzhled a značka

@@ -1,40 +1,89 @@
 {
  "verze": 1,
- "rezim": "vzorek",
- "exportovano": "2026-11-04T22:44:31+01:00",
+ "rezim": "web",
+ "exportovano": "2026-11-04T23:45:28+01:00",
  "jazyky": [
   "cs",
   "en"
  ],
- "pocet_temat": 1,
- "pocet_otazek": 35,
+ "pocet_temat": 4,
+ "pocet_otazek": 120,
  "kategorie": [
   {
-   "id": "priroda-a-zvirata",
+   "id": "sport",
    "nazev": {
-    "cs": "Příroda a zvířata",
-    "en": "Nature & Animals"
+    "cs": "Sport",
+    "en": "Sport"
    },
-   "ikona": "🐾",
+   "ikona": "⚽",
    "temata": [
     {
-     "id": "T001",
+     "id": "T254",
      "nazev": {
-      "cs": "Chobotnice a další hlavonožci",
-      "en": "Octopuses and Other Cephalopods"
+      "cs": "Čeští sportovci a olympijští vítězové",
+      "en": "Czech Athletes and Olympic Champions"
      },
      "otazek": {
-      "1": 15,
+      "1": 10,
       "2": 10,
       "3": 10
      },
-     "celkem": 35,
-     "soubor": "topics/T001.json"
+     "celkem": 30,
+     "soubor": "topics/T254.json"
+    }
+   ]
+  },
+  {
+   "id": "cesko",
+   "nazev": {
+    "cs": "Česko",
+    "en": "Czechia"
+   },
+   "ikona": "🏰",
+   "temata": [
+    {
+     "id": "T146",
+     "nazev": {
+      "cs": "České pohádky na plátně i obrazovce",
+      "en": "Czech Fairy Tales on Film and TV"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T146.json"
+    },
+    {
+     "id": "T172",
+     "nazev": {
+      "cs": "Praha: domovní znamení, legendy a skryté příběhy",
+      "en": "Prague: House Signs, Legends and Hidden Stories"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T172.json"
+    },
+    {
+     "id": "T204",
+     "nazev": {
+      "cs": "Československo 1918–1992",
+      "en": "Czechoslovakia 1918–1992"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T204.json"
     }
    ]
   }
- ],
- "vzorek_temata": [
-  "T001"
  ]
 }

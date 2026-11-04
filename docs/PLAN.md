@@ -8,7 +8,7 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☑ (2026-11-04) Rozšířit `Kvizy/nastroje/kviz_db.py` o sloupec Web (záloha skriptu předem) a spustit `prestavet`; ověřit proti záloze, že počty řádků, volby Použít / Shorts / Poznámka a list Témata zůstaly beze změny.
 - ☑ (2026-11-04) Navrhnout aktualizaci skillu kviz-generator (jeho kopie `kviz_db.py` v Příloze A + zmínka o sloupci Web).
 - ☑ (2026-11-04) Exportní nástroj `tools/export_otazky.py` (režimy „web“ a „vzorek“) a test `tools/test_export.py` (s `--zdroj` i bez něj).
-- ☑ (2026-11-04) Ukázková data v `data/` (režim „vzorek“) jen z témat, jejichž video už je na YouTube (pravidlo v promptu 00, krok 8).
+- ☑ (2026-11-04) Ukázková data v `data/` – na Davidův pokyn místo vzorku rovnou 4 česká témata s Web = Ano v režimu „web“ (DECISIONS D-006).
 - ◐ (2026-11-04) Zástupná stránka `index.html` („Připravujeme…“) je v repozitáři; **GitHub Pages musí zapnout David** (postup v HANDOFF – agent k nastavení repozitáře nemá přístup). Ověření adresy udělá prompt 01 na začátku Fáze 1.
 - ☑ (2026-11-04) Doplnit příkazy do `CLAUDE.md`, commit + push do `main`.
 
@@ -20,7 +20,7 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 **⏸ Kontrolní bod:** David vybere variantu – odpoví v téže relaci (zapsat do DECISIONS.md, commit). Pak v Excelu označí Web = Ano aspoň u 3–5 témat a v prostředí B spustí prompt 03 (ostrá data). → HANDOFF, konec sezení.
 
 ## Mezikrok – Ostrá data (prompt 03, prostředí B)
-- ☐ `data/` obsahuje Davidův výběr (`"rezim": "web"`), test s `--zdroj` prošel. (Odškrtne prompt 03; kdyby to nestihl, odškrtne ho prompt 01 podle `"rezim": "web"`.)
+- ☑ (2026-11-04, už v promptu 00) `data/` obsahuje Davidův výběr (`"rezim": "web"`: T146, T172, T204, T254 – 120 otázek), test s `--zdroj` prošel. Prompt 03 je potřeba až ve chvíli, kdy David v Excelu označí další otázky.
 
 ## Fáze 2 – Základ aplikace (prompt 01, prostředí A)
 - ☐ Ověřit ostrá data (`"rezim": "web"`, aspoň 3 témata s obtížností o 3+ otázkách); jinak ⏸ a požádat o prompt 03.

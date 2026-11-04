@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T254",
+ "nazev": {
+  "cs": "Čeští sportovci a olympijští vítězové",
+  "en": "Czech Athletes and Olympic Champions"
+ },
+ "kategorie": {
+  "id": "sport",
+  "nazev": {
+   "cs": "Sport",
+   "en": "Sport"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T254-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém sportu získala Martina Sáblíková tři olympijská zlata (2010 a 2014)?",
+    "en": "In which sport did Martina Sáblíková win three Olympic gold medals (2010 and 2014)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rychlobruslení",
+     "Short track",
+     "Běh na lyžích",
+     "Biatlon"
+    ],
+    "en": [
+     "Speed skating",
+     "Short track",
+     "Cross-country skiing",
+     "Biathlon"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Sáblíková vyhrála ve Vancouveru 2010 závody na 3 000 a 5 000 m a v Soči 2014 obhájila pětikilometrovou trať. Uspěla, přestože Česko nemá žádný rychlobruslařský ovál.",
+    "en": "Sáblíková won the 3,000 m and 5,000 m in Vancouver 2010 and defended her 5,000 m title in Sochi 2014. She succeeded even though the Czech Republic has no speed skating oval."
+   }
+  },
+  {
+   "id": "T254-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který grandslamový turnaj vyhrála Petra Kvitová v letech 2011 a 2014?",
+    "en": "Which Grand Slam tournament did Petra Kvitová win in 2011 and 2014?"
+   },
+   "moznosti": {
+    "cs": [
+     "US Open",
+     "Australian Open",
+     "Wimbledon",
+     "French Open"
+    ],
+    "en": [
+     "US Open",
+     "Australian Open",
+     "Wimbledon",
+     "French Open"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kvitová vyhrála na wimbledonské trávě dvakrát, v letech 2011 a 2014. Levačka z Bílovce byla na svém maximu světovou dvojkou a v Riu 2016 získala olympijský bronz.",
+    "en": "Kvitová won on the Wimbledon grass twice, in 2011 and 2014. The left-hander from Bílovec peaked at world No. 2 and won Olympic bronze in Rio 2016."
+   }
+  },
+  {
+   "id": "T254-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "V jaké disciplíně získal Roman Šebrle olympijské zlato v Athénách 2004?",
+    "en": "In which event did Roman Šebrle win Olympic gold in Athens 2004?"
+   },
+   "moznosti": {
+    "cs": [
+     "Skok o tyči",
+     "Desetiboj",
+     "Skok do výšky",
+     "Hod oštěpem"
+    ],
+    "en": [
+     "Pole vault",
+     "Decathlon",
+     "High jump",
+     "Javelin throw"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Šebrle vyhrál v Athénách desetiboj výkonem 8 893 bodů, což byl olympijský rekord. Vítězi desetiboje se tradičně přezdívá „největší atlet světa“.",
+    "en": "Šebrle won the Athens decathlon with 8,893 points, an Olympic record. The decathlon champion is traditionally called the 'world's greatest athlete'."
+   }
+  },
+  {
+   "id": "T254-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém sportu vyhrála Kateřina Neumannová na zimní olympiádě v Turíně 2006 zlatou medaili?",
+    "en": "In which sport did Kateřina Neumannová win a gold medal at the 2006 Winter Olympics in Turin?"
+   },
+   "moznosti": {
+    "cs": [
+     "Biatlon",
+     "Běh na lyžích",
+     "Rychlobruslení",
+     "Alpské lyžování"
+    ],
+    "en": [
+     "Biathlon",
+     "Cross-country skiing",
+     "Speed skating",
+     "Alpine skiing"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Neumannová vyhrála v Turíně závod na 30 km volně a stala se jeho nejstarší vítězkou. V roce 2003 se jí narodila dcera Lucie, takže zlato získala jako matka.",
+    "en": "Neumannová won the 30 km freestyle in Turin, becoming the event's oldest winner. Her daughter Lucie was born in 2003, so she won the gold as a mother."
+   }
+  },
+  {
+   "id": "T254-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které disciplíně vybojovala Barbora Špotáková olympijské zlato v Pekingu 2008 i v Londýně 2012?",
+    "en": "In which event did Barbora Špotáková win Olympic gold in both Beijing 2008 and London 2012?"
+   },
+   "moznosti": {
+    "cs": [
+     "Skok do dálky",
+     "Hod diskem",
+     "Vrh koulí",
+     "Hod oštěpem"
+    ],
+    "en": [
+     "Long jump",
+     "Discus throw",
+     "Shot put",
+     "Javelin throw"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Špotáková je oštěpařka a v září 2008 ve Stuttgartu hodila světový rekord 72,28 m. Podle Wikipedie (2026) je stále jeho držitelkou.",
+    "en": "Špotáková is a javelin thrower, and in September 2008 in Stuttgart she set the world record of 72.28 m (237.1 ft). According to Wikipedia (2026) she still holds it."
+   }
+  },
+  {
+   "id": "T254-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Martina Navrátilová v roce 1975 emigrovala z Československa. Občankou které země se v roce 1981 stala?",
+    "en": "Martina Navratilova defected from Czechoslovakia in 1975. Which country's citizen did she become in 1981?"
+   },
+   "moznosti": {
+    "cs": [
+     "Velké Británie",
+     "Spojených států",
+     "Kanady",
+     "Švýcarska"
+    ],
+    "en": [
+     "The United Kingdom",
+     "The United States",
+     "Canada",
+     "Switzerland"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Navrátilová požádala o azyl v New Yorku v září 1975, po prohraném semifinále US Open s Chris Evertovou. Americkou občankou se stala v roce 1981.",
+    "en": "Navratilova asked for asylum in New York in September 1975, after losing the US Open semi-final to Chris Evert. She became a US citizen in 1981."
+   }
+  },
+  {
+   "id": "T254-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč fotbalový brankář Petr Čech od roku 2007 nastupoval k zápasům s ochrannou přilbou?",
+    "en": "Why did football goalkeeper Petr Čech play in a protective headguard from 2007 onwards?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kvůli sázce, kterou prohrál se spoluhráči",
+     "Na radu lékaře po operaci očí",
+     "Kvůli otřesům mozku, které si přivodil při hokeji",
+     "Po zlomenině lebky, kterou utrpěl v zápase v roce 2006"
+    ],
+    "en": [
+     "Because of a bet he lost to his teammates",
+     "On a doctor's advice after eye surgery",
+     "Because of concussions he got playing ice hockey",
+     "After a skull fracture he suffered in a match in 2006"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "V říjnu 2006 ho v zápase Chelsea s Readingem zasáhl kolenem do hlavy Stephen Hunt a Čech musel na operaci s promáčknutou zlomeninou lebky. Přilbu pak nosil až do konce kariéry; po ní začal chytat lední hokej.",
+    "en": "In October 2006, in Chelsea's match against Reading, Stephen Hunt's knee struck his head and Čech needed surgery for a depressed skull fracture. He wore the headguard for the rest of his career, and after retiring he took up ice hockey as a goaltender."
+   }
+  },
+  {
+   "id": "T254-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co si snowboardistka Eva Samková (dnes Adamczyková), olympijská vítězka ve snowboardcrossu ze Soči 2014, malovala před závody na obličej?",
+    "en": "What did snowboarder Eva Samková (now Adamczyková), the 2014 Sochi snowboard cross champion, paint on her face before races?"
+   },
+   "moznosti": {
+    "cs": [
+     "Českou vlajku",
+     "Knír",
+     "Tygří pruhy",
+     "Srdíčko"
+    ],
+    "en": [
+     "A Czech flag",
+     "A moustache",
+     "Tiger stripes",
+     "A heart"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Namalovaný knírek pod nosem byl jejím poznávacím znamením a podle ní nosil štěstí. Měla ho i ve čtvrtfinále, semifinále a finále v Soči, kde získala první české zlato těch her.",
+    "en": "A painted moustache on her upper lip was her trademark, and she said it brought her luck. She wore it in the quarter-final, semi-final and final in Sochi, where she won the Czech team's first gold of those Games."
+   }
+  },
+  {
+   "id": "T254-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém městě se v roce 1972 narodil hokejista Jaromír Jágr?",
+    "en": "In which town was ice hockey player Jaromír Jágr born in 1972?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Pardubicích",
+     "V Plzni",
+     "V Litvínově",
+     "V Kladně"
+    ],
+    "en": [
+     "Pardubice",
+     "Plzeň",
+     "Litvínov",
+     "Kladno"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jágr se narodil 15. února 1972 v Kladně. Je majitelem kladenského klubu Rytíři Kladno, kde hokejově začínal.",
+    "en": "Jágr was born in Kladno on 15 February 1972. He owns the Kladno club Rytíři Kladno, where he started playing hockey."
+   }
+  },
+  {
+   "id": "T254-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "V jakém sportu získal Lukáš Krpálek olympijské zlato v Riu 2016 i v Tokiu (hry se konaly v roce 2021)?",
+    "en": "In which sport did Lukáš Krpálek win Olympic gold in both Rio 2016 and Tokyo (Games held in 2021)?"
+   },
+   "moznosti": {
+    "cs": [
+     "V boxu",
+     "V taekwondu",
+     "V zápase",
+     "V judu"
+    ],
+    "en": [
+     "Boxing",
+     "Taekwondo",
+     "Wrestling",
+     "Judo"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Krpálek je judista. V Riu vyhrál kategorii do 100 kg a v Tokiu těžkou váhu nad 100 kg, takže má olympijská zlata ze dvou různých hmotnostních kategorií.",
+    "en": "Krpálek is a judoka. He won the under-100 kg category in Rio and the over-100 kg heavyweight class in Tokyo, so his Olympic golds come from two different weight categories."
+   }
+  },
+  {
+   "id": "T254-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který grandslamový turnaj ve dvouhře Ivan Lendl přes dvě finálové účasti nikdy nevyhrál?",
+    "en": "Which Grand Slam singles title did Ivan Lendl never win, despite reaching two finals there?"
+   },
+   "moznosti": {
+    "cs": [
+     "French Open",
+     "US Open",
+     "Wimbledon",
+     "Australian Open"
+    ],
+    "en": [
+     "French Open",
+     "US Open",
+     "Wimbledon",
+     "Australian Open"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Lendl získal osm grandslamových titulů (3× French Open, 3× US Open, 2× Australian Open), ale ve wimbledonských finále 1986 a 1987 prohrál. Americkým občanem se stal v roce 1992.",
+    "en": "Lendl won eight majors (3 French Opens, 3 US Opens, 2 Australian Opens) but lost the Wimbledon finals of 1986 and 1987. He became a US citizen in 1992."
+   }
+  },
+  {
+   "id": "T254-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kterého tenistu dovedl Ivan Lendl jako trenér k titulům ve Wimbledonu 2013 a 2016?",
+    "en": "Which tennis player did Ivan Lendl coach to Wimbledon titles in 2013 and 2016?"
+   },
+   "moznosti": {
+    "cs": [
+     "Novaka Djokoviće",
+     "Rogera Federera",
+     "Tomáše Berdycha",
+     "Andyho Murrayho"
+    ],
+    "en": [
+     "Novak Djokovic",
+     "Roger Federer",
+     "Tomáš Berdych",
+     "Andy Murray"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pod Lendlovým vedením vyhrál Murray tři grandslamy (US Open 2012, Wimbledon 2013 a 2016) a dostal se až na post světové jedničky. Lendl tak Murraymu pomohl k titulu, který sám nikdy nezískal.",
+    "en": "Under Lendl, Murray won three majors (2012 US Open, Wimbledon 2013 and 2016) and reached world No. 1. Lendl thus helped Murray win the title he himself never won."
+   }
+  },
+  {
+   "id": "T254-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo jako hlavní trenér dovedl české hokejisty k olympijskému zlatu v Naganu 1998?",
+    "en": "Who, as head coach, led the Czech ice hockey team to Olympic gold in Nagano 1998?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ivan Hlinka",
+     "Slavomír Lener",
+     "Alois Hadamczik",
+     "Vladimír Růžička"
+    ],
+    "en": [
+     "Ivan Hlinka",
+     "Slavomír Lener",
+     "Alois Hadamczik",
+     "Vladimír Růžička"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Ivan Hlinka vedl tým k nejslavnějšímu úspěchu českého hokeje. Později trénoval v NHL Pittsburgh Penguins a v roce 2004 zahynul při autonehodě u Karlových Varů.",
+    "en": "Ivan Hlinka led the team to Czech hockey's most famous triumph. He later coached the Pittsburgh Penguins in the NHL and died in a car crash near Karlovy Vary in 2004."
+   }
+  },
+  {
+   "id": "T254-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "V jaké běžecké disciplíně drží Jarmila Kratochvílová světový rekord z roku 1983, který podle stavu z roku 2026 stále platí?",
+    "en": "In which running event does Jarmila Kratochvílová hold a world record from 1983 that still stands as of 2026?"
+   },
+   "moznosti": {
+    "cs": [
+     "200 m",
+     "400 m",
+     "800 m",
+     "1 500 m"
+    ],
+    "en": [
+     "200 m",
+     "400 m",
+     "800 m",
+     "1,500 m"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Čas 1:53,28 zaběhla 26. července 1983 v Mnichově a jde o nejdéle platný samostatný rekord na atletické dráze. Téhož roku zaběhla i světový rekord na 400 m (47,99 s), ten však v roce 1985 překonala Marita Kochová.",
+    "en": "She ran 1:53.28 in Munich on 26 July 1983, the longest-standing unshared track record in athletics. That year she also set a 400 m world record (47.99 s), but Marita Koch broke it in 1985."
+   }
+  },
+  {
+   "id": "T254-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Roman Šebrle se v roce 2001 v rakouském Götzisu stal prvním desetibojařem, který překonal hranici kolika bodů?",
+    "en": "In 2001 in Götzis, Austria, Roman Šebrle became the first decathlete to exceed how many points?"
+   },
+   "moznosti": {
+    "cs": [
+     "8 500",
+     "8 800",
+     "9 000",
+     "9 500"
+    ],
+    "en": [
+     "8,500",
+     "8,800",
+     "9,000",
+     "9,500"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Šebrle nasbíral 9 026 bodů a jako první prolomil magickou hranici 9 000. O tři roky později vyhrál olympijský desetiboj v Athénách.",
+    "en": "Šebrle scored 9,026 points, becoming the first to break the magic 9,000 barrier. Three years later he won the Olympic decathlon in Athens."
+   }
+  },
+  {
+   "id": "T254-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč si Ester Ledecká po senzačním vítězství v olympijském super-G v roce 2018 nesundala na tiskové konferenci lyžařské brýle?",
+    "en": "Why did Ester Ledecká keep her ski goggles on at the press conference after her sensational Olympic super-G win in 2018?"
+   },
+   "moznosti": {
+    "cs": [
+     "Plakala dojetím a nechtěla, aby to bylo vidět",
+     "Měla po pádu v tréninku monokl",
+     "Nebyla nalíčená, protože nečekala, že vyhraje",
+     "Oslňovaly ji reflektory kamer"
+    ],
+    "en": [
+     "She was crying with emotion and didn't want it to show",
+     "She had a black eye from a training crash",
+     "She wasn't wearing make-up because she hadn't expected to win",
+     "The camera lights were dazzling her"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ledecká, která jela hlavně jako snowboardistka, vyhrála super-G o jedinou setinu před obhájkyní Annou Veithovou. Brýle podle svých slov nesundala, protože nebyla nalíčená – s vítězstvím nepočítala.",
+    "en": "Ledecká, mainly known as a snowboarder, won the super-G by a single hundredth of a second ahead of defending champion Anna Veith. She said she kept the goggles on because she wasn't wearing make-up, as she hadn't expected to win."
+   }
+  },
+  {
+   "id": "T254-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která česká tenistka se v červenci 2017 stala světovou jedničkou ve dvouhře?",
+    "en": "Which Czech tennis player became world No. 1 in singles in July 2017?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lucie Šafářová",
+     "Karolína Plíšková",
+     "Barbora Strýcová",
+     "Petra Kvitová"
+    ],
+    "en": [
+     "Lucie Šafářová",
+     "Karolína Plíšková",
+     "Barbora Strýcová",
+     "Petra Kvitová"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Karolína Plíšková z Loun se dostala do čela žebříčku 17. července 2017. Grandslam nevyhrála, prohrála finále US Open 2016 a Wimbledonu 2021.",
+    "en": "Karolína Plíšková from Louny reached the top of the rankings on 17 July 2017. She never won a major, losing the finals of the 2016 US Open and 2021 Wimbledon."
+   }
+  },
+  {
+   "id": "T254-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co udělala Věra Čáslavská v Mexiku ještě během olympijských her 1968?",
+    "en": "What did Věra Čáslavská do in Mexico while the 1968 Olympic Games were still on?"
+   },
+   "moznosti": {
+    "cs": [
+     "Požádala o politický azyl",
+     "Byla zvolena do Mezinárodního olympijského výboru",
+     "Provdala se za běžce Josefa Odložila",
+     "Získala mexické občanství"
+    ],
+    "en": [
+     "She asked for political asylum",
+     "She was elected to the International Olympic Committee",
+     "She married runner Josef Odložil",
+     "She obtained Mexican citizenship"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Krátce před koncem her se v mexické katedrále provdala za běžce Josefa Odložila a svatba přilákala tisíce lidí. Čáslavská má celkem 11 olympijských medailí.",
+    "en": "Shortly before the end of the Games she married runner Josef Odložil at the Mexico City Cathedral, and the wedding drew thousands of people. Čáslavská won 11 Olympic medals in total."
+   }
+  },
+  {
+   "id": "T254-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaromír Jágr se v roce 2005 stal členem Triple Gold Club. Které tři trofeje k tomu hokejista musí získat?",
+    "en": "Jaromír Jágr joined the Triple Gold Club in 2005. Which three trophies must a hockey player win to join?"
+   },
+   "moznosti": {
+    "cs": [
+     "Olympijské zlato, titul mistra světa a Kanadský pohár",
+     "Stanley Cup, olympijské zlato a Světový pohár",
+     "Stanley Cup, Hart Trophy a Art Ross Trophy",
+     "Stanley Cup, olympijské zlato a titul mistra světa"
+    ],
+    "en": [
+     "Olympic gold, a World Championship title and the Canada Cup",
+     "The Stanley Cup, Olympic gold and the World Cup",
+     "The Stanley Cup, the Hart Trophy and the Art Ross Trophy",
+     "The Stanley Cup, Olympic gold and a World Championship title"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jágr měl Stanley Cup z let 1991 a 1992 s Pittsburghem a olympijské zlato z Nagana 1998; do klubu ho dovedl titul mistra světa v roce 2005.",
+    "en": "Jágr had Stanley Cups from 1991 and 1992 with Pittsburgh and Olympic gold from Nagano 1998; the 2005 World Championship title completed the set."
+   }
+  },
+  {
+   "id": "T254-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co měli Emil a Dana Zátopkovi společné kromě sportu?",
+    "en": "Apart from sport, what did Emil and Dana Zátopek have in common?"
+   },
+   "moznosti": {
+    "cs": [
+     "Oba se narodili v Kopřivnici",
+     "Narodili se ve stejný den",
+     "Oba vyhráli olympijské zlato v Melbourne 1956",
+     "Oba závodili v hodu oštěpem"
+    ],
+    "en": [
+     "Both were born in Kopřivnice",
+     "They were born on the same day",
+     "Both won Olympic gold in Melbourne 1956",
+     "Both competed in the javelin"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Oba se narodili 19. září 1922 – Emil v Kopřivnici, Dana ve Fryštátu (dnes součást Karviné). Dana byla oštěpařka a v Helsinkách 1952 vyhrála zlato.",
+    "en": "Both were born on 19 September 1922 – Emil in Kopřivnice and Dana in Fryštát (now part of Karviná). Dana was a javelin thrower and won gold in Helsinki 1952."
+   }
+  },
+  {
+   "id": "T254-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaroslav Drobný, mistr světa v ledním hokeji z roku 1947, vyhrál v roce 1954 Wimbledon. Kterou zemi tehdy reprezentoval?",
+    "en": "Jaroslav Drobný, a 1947 ice hockey world champion, won Wimbledon in 1954. Which country did he represent at the time?"
+   },
+   "moznosti": {
+    "cs": [
+     "Československo",
+     "Švýcarsko",
+     "Velkou Británii",
+     "Egypt"
+    ],
+    "en": [
+     "Czechoslovakia",
+     "Switzerland",
+     "Great Britain",
+     "Egypt"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Drobný po emigraci z Československa startoval v letech 1950–1959 za Egypt, přestože žil v Anglii. Jako hokejista získal i olympijské stříbro v roce 1948.",
+    "en": "After defecting from Czechoslovakia, Drobný played for Egypt from 1950 to 1959, although he lived in England. As a hockey player he also won Olympic silver in 1948."
+   }
+  },
+  {
+   "id": "T254-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím byl zvláštní Wimbledon 1973, který vyhrál Jan Kodeš?",
+    "en": "What was special about the 1973 Wimbledon, which Jan Kodeš won?"
+   },
+   "moznosti": {
+    "cs": [
+     "Turnaj bojkotovala většina nejlepších hráčů",
+     "Finále se kvůli dešti dohrávalo v hale",
+     "Poprvé se na něm hrálo se žlutými míčky",
+     "Soupeř ve finále odstoupil pro zranění"
+    ],
+    "en": [
+     "Most of the top players boycotted the tournament",
+     "The final was finished indoors due to rain",
+     "It was the first to be played with yellow balls",
+     "His opponent in the final retired injured"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hráči turnaj bojkotovali na protest proti zákazu startu Nikoly Piliće. Kodeš ve finále porazil Alexe Metreveliho ve třech setech; předtím vyhrál i French Open 1970 a 1971.",
+    "en": "Players boycotted the event in protest at the ban on Nikola Pilić. Kodeš beat Alex Metreveli in straight sets in the final; he had also won the French Open in 1970 and 1971."
+   }
+  },
+  {
+   "id": "T254-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Komu daroval Emil Zátopek v roce 1966 svou zlatou olympijskou medaili z běhu na 10 000 m z Helsinek 1952?",
+    "en": "To whom did Emil Zátopek give his 1952 Helsinki Olympic 10,000 m gold medal in 1966?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ronu Clarkovi",
+     "Vladimiru Kucovi",
+     "Paavu Nurmimu",
+     "Alainu Mimounovi"
+    ],
+    "en": [
+     "Ron Clarke",
+     "Vladimir Kuts",
+     "Paavo Nurmi",
+     "Alain Mimoun"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Australan Ron Clarke vytvořil 17 světových rekordů, ale olympijské zlato nikdy nezískal. Zátopek ho pozval do Československa a medaili mu dal na rozloučenou se slovy, že ji nedává z přátelství, ale proto, že si ji zaslouží.",
+    "en": "Australian Ron Clarke set 17 world records but never won Olympic gold. Zátopek invited him to Czechoslovakia and gave him the medal as a parting gift, saying it was not out of friendship but because he deserved it."
+   }
+  },
+  {
+   "id": "T254-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém sportu startovala lyžařka Kateřina Neumannová na letních olympijských hrách 1996 v Atlantě?",
+    "en": "In which sport did skier Kateřina Neumannová compete at the 1996 Summer Olympics in Atlanta?"
+   },
+   "moznosti": {
+    "cs": [
+     "V jízdě na horském kole",
+     "Ve veslování na skifu",
+     "V silniční cyklistice",
+     "V maratonském běhu"
+    ],
+    "en": [
+     "Mountain biking",
+     "Single sculls rowing",
+     "Road cycling",
+     "The marathon"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Neumannová jezdila i na horském kole a v Atlantě startovala v cross-country. Na začátku závodu spadla, pak předjela asi 15 soupeřek, ale přišla krize: podle svých slov „už nezávodila, jen chtěla dojet“.",
+    "en": "Neumannová also raced mountain bikes and competed in cross-country in Atlanta. She fell early in the race, then overtook about 15 riders before a terrible crisis hit; in her words, she 'did not race anymore, just wanted to finish'."
+   }
+  },
+  {
+   "id": "T254-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co si oštěpař Jan Železný vyzkoušel v roce 1996, čtyři dny po olympijském zlatu v Atlantě?",
+    "en": "What did javelin thrower Jan Železný try in 1996, four days after winning Olympic gold in Atlanta?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nábor hráčů basketbalového klubu Atlanta Hawks",
+     "Nábor quarterbacků klubu amerického fotbalu Atlanta Falcons",
+     "Nábor nadhazovačů (bowlerů) anglického kriketového klubu",
+     "Nábor nadhazovačů baseballového klubu Atlanta Braves"
+    ],
+    "en": [
+     "A tryout with the Atlanta Hawks basketball club",
+     "A quarterback tryout with the Atlanta Falcons American football club",
+     "A bowling tryout with an English cricket club",
+     "A pitching tryout with the Atlanta Braves baseball club"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Železný si na stadionu Fulton County Stadium zkusil nadhazovat pro Atlanta Braves, přestože baseball znal jen z házení míčku se synem doma. Obě strany to braly vážně, ne jako reklamní kousek.",
+    "en": "Železný tried out as a pitcher for the Atlanta Braves at Fulton County Stadium, though his baseball experience was limited to throwing a ball with his son at home. Both sides took it seriously rather than as a publicity stunt."
+   }
+  },
+  {
+   "id": "T254-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo získal v roce 1968 v Grenoblu vůbec první zlatou medaili pro Československo ze zimních olympijských her?",
+    "en": "Who won Czechoslovakia's first-ever Winter Olympic gold medal, in Grenoble in 1968?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hana Mašková",
+     "Jiří Raška",
+     "Josef Matouš",
+     "Ondrej Nepela"
+    ],
+    "en": [
+     "Hana Mašková",
+     "Jiří Raška",
+     "Josef Matouš",
+     "Ondrej Nepela"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Skokan na lyžích Jiří Raška vyhrál v Grenoblu závod na středním můstku a na velkém můstku přidal stříbro. Krasobruslař Ondrej Nepela vyhrál olympiádu až v roce 1972.",
+    "en": "Ski jumper Jiří Raška won the normal hill in Grenoble and added silver on the large hill. Figure skater Ondrej Nepela did not win his Olympic title until 1972."
+   }
+  },
+  {
+   "id": "T254-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Sportovní střelkyně Kateřina Emmons získala v Pekingu 2008 vůbec první zlatou medaili celých her. V jaké disciplíně?",
+    "en": "Sport shooter Kateřina Emmons won the very first gold medal of the Beijing 2008 Games. In which event?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sportovní pistole na 25 m",
+     "Trap",
+     "Vzduchová puška na 10 m",
+     "Vzduchová pistole na 10 m"
+    ],
+    "en": [
+     "25 m pistol",
+     "Trap",
+     "10 m air rifle",
+     "10 m air pistol"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Emmons v kvalifikaci vyrovnala světový rekord plným počtem 400 bodů a ve finále vytvořila olympijský rekord 503,5 bodu. Jejím manželem je americký střelec Matthew Emmons.",
+    "en": "Emmons equalled the world record with a perfect 400 in qualifying and set an Olympic record of 503.5 points in the final. She is married to American shooter Matthew Emmons."
+   }
+  },
+  {
+   "id": "T254-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik es nastřílela Kristýna Plíšková v jednom zápase na Australian Open 2016, což je podle stavu z roku 2026 rekord okruhu WTA?",
+    "en": "How many aces did Kristýna Plíšková serve in a single match at the 2016 Australian Open, a WTA Tour record as of 2026?"
+   },
+   "moznosti": {
+    "cs": [
+     "21",
+     "26",
+     "31",
+     "36"
+    ],
+    "en": [
+     "21",
+     "26",
+     "31",
+     "36"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Levačka Kristýna Plíšková zahrála 31 es ve druhém kole proti Monice Puigové. Je dvojčetem Karolíny Plíškové, bývalé světové jedničky.",
+    "en": "Left-hander Kristýna Plíšková hit 31 aces in the second round against Monica Puig. She is the identical twin of Karolína Plíšková, a former world No. 1."
+   }
+  },
+  {
+   "id": "T254-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo proměnil jediný nájezd v semifinále olympijského turnaje v Naganu 1998, ve kterém Češi vyřadili Kanadu?",
+    "en": "Who scored the only shootout goal in the 1998 Nagano Olympic semi-final in which the Czechs knocked out Canada?"
+   },
+   "moznosti": {
+    "cs": [
+     "Robert Reichel",
+     "Jiří Šlégr",
+     "Martin Straka",
+     "Pavel Patera"
+    ],
+    "en": [
+     "Robert Reichel",
+     "Jiří Šlégr",
+     "Martin Straka",
+     "Pavel Patera"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Robert Reichel dal jediný gól nájezdů a Dominik Hašek zastavil všech pět kanadských střelců. Ve finále pak Češi porazili Rusko 1:0.",
+    "en": "Robert Reichel scored the only shootout goal, and Dominik Hašek stopped all five Canadian shooters. In the final the Czechs beat Russia 1–0."
+   }
+  },
+  {
+   "id": "T254-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve které zemi leží cesta Silence, kterou Adam Ondra v roce 2017 přelezl jako vůbec první cestu navržené obtížnosti 9c?",
+    "en": "In which country is the route Silence, which Adam Ondra climbed in 2017 as the first-ever route with a proposed grade of 9c?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Norsku",
+     "Ve Švýcarsku",
+     "V Itálii",
+     "Ve Španělsku"
+    ],
+    "en": [
+     "Norway",
+     "Switzerland",
+     "Italy",
+     "Spain"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Silence vede v jeskyni Hanshelleren u Flatangeru v Norsku. Brněnský rodák Ondra skončil na olympijských hrách 2020 i 2024 šestý.",
+    "en": "Silence is in the Hanshelleren Cave near Flatanger, Norway. Brno-born Ondra finished sixth at both the 2020 and 2024 Olympics."
+   }
+  }
+ ]
+}

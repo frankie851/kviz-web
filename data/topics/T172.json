@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T172",
+ "nazev": {
+  "cs": "Praha: domovní znamení, legendy a skryté příběhy",
+  "en": "Prague: House Signs, Legends and Hidden Stories"
+ },
+ "kategorie": {
+  "id": "cesko",
+  "nazev": {
+   "cs": "Česko",
+   "en": "Czechia"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T172-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Bulvár, který Karel IV. vyměřil roku 1348 při zakládání Nového Města, nesl celých pět století jméno podle zboží, jež se tu prodávalo. Roku 1848 ho Karel Havlíček Borovský navrhl pojmenovat po zemském patronovi. Čím se tu obchodovalo?",
+    "en": "The boulevard that Charles IV laid out in 1348 when founding Prague's New Town bore for five centuries a name taken from the goods sold there. In 1848 Karel Havlíček Borovský proposed renaming it after the patron saint of Bohemia. What was traded there?"
+   },
+   "moznosti": {
+    "cs": [
+     "Koňmi",
+     "Obilím",
+     "Dřevem",
+     "Rybami"
+    ],
+    "en": [
+     "Horses",
+     "Grain",
+     "Timber",
+     "Fish"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Dnešní Václavské náměstí se od založení Nového Města jmenovalo Koňský trh (německy Rossmarkt). Je asi 750 m dlouhé a 60 m široké, takže připomíná spíš širokou třídu než náměstí.",
+    "en": "Today's Wenceslas Square was called the Horse Market (Koňský trh, German Rossmarkt) from the founding of the New Town. It is about 750 m (2,460 ft) long and 60 m (200 ft) wide, so it resembles a broad boulevard more than a square."
+   }
+  },
+  {
+   "id": "T172-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Roku 1618 přežili místodržící Martinic a Slavata i písař Fabricius pád z okna Pražského hradu. Katolíci mluvili o zásahu andělů či Panny Marie. Čím jejich přežití vysvětlovaly pozdější protestantské letáky?",
+    "en": "In 1618 the imperial governors Martinic and Slavata and the secretary Fabricius survived being thrown from a window of Prague Castle. Catholics spoke of angels or the Virgin Mary intervening. How did later Protestant pamphlets explain their survival?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zachytili se o větve vinné révy",
+     "Spadli do plachty napnuté stráží",
+     "Dopadli na hromadu hnoje",
+     "Dopadli do hluboké závěje sněhu"
+    ],
+    "en": [
+     "They caught hold of grapevine branches",
+     "They fell into a sheet held by guards",
+     "They landed on a dung heap",
+     "They landed in a deep snowdrift"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Historka o hnojišti se objevila až v pozdějších protestantských pamfletech a současníkům byla neznámá – šlo spíš o posměšnou odpověď na katolické „zázraky“. Fabricius byl později povýšen do šlechtického stavu s přídomkem „von Hohenfall“, tedy „z Vysokého pádu“.",
+    "en": "The dung-heap story appeared only in later Protestant pamphlets and was unknown to contemporaries – it was more a mocking reply to the Catholic 'miracle' claims. Fabricius was later ennobled with the title 'von Hohenfall', meaning 'of the High Fall'."
+   }
+  },
+  {
+   "id": "T172-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "V dlažbě Staroměstského náměstí u radnice je vsazeno 27 bílých křížů a mnozí Pražané je z úcty nepřekračují. Co připomínají?",
+    "en": "Twenty-seven white crosses are set into the paving of Old Town Square by the Town Hall, and many Praguers avoid stepping on them out of respect. What do they commemorate?"
+   },
+   "moznosti": {
+    "cs": [
+     "Popravu vůdců stavovského povstání",
+     "Padlé v Pražském povstání 1945",
+     "Oběti morové epidemie z roku 1680",
+     "Husity popravené po bitvě u Lipan"
+    ],
+    "en": [
+     "The execution of the Bohemian Revolt's leaders",
+     "Those killed in the 1945 Prague Uprising",
+     "Victims of the 1680 plague epidemic",
+     "Hussites executed after the Battle of Lipany"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Dne 21. června 1621 tu bylo po bitvě na Bílé hoře popraveno 27 vůdců stavovského povstání – tři páni, sedm rytířů a 17 měšťanů, mezi nimi lékař Jan Jesenius. Kříže byly do dlažby vsazeny až při opravách radnice po druhé světové válce.",
+    "en": "On 21 June 1621, after the Battle of White Mountain, 27 leaders of the Bohemian Revolt were executed here – three lords, seven knights and 17 burghers, among them the physician Jan Jesenius. The crosses were set into the paving only during repairs of the Town Hall after the Second World War."
+   }
+  },
+  {
+   "id": "T172-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Budova na Rašínově nábřeží od Vlada Miluniće a Franka Gehryho z roku 1996 připomíná taneční pár: prosklená věž se zužuje jako dámské šaty, sousední pevná věž ji „vede“. Podle které dvojice dostala přezdívku?",
+    "en": "A 1996 building on Prague's Rašín Embankment by Vlado Milunić and Frank Gehry resembles a dancing couple: a glass tower narrows like a woman's dress while the solid tower beside it 'leads'. After which pair was it nicknamed?"
+   },
+   "moznosti": {
+    "cs": [
+     "Johnny a Baby",
+     "Gene a Debbie",
+     "Danny a Sandy",
+     "Ginger a Fred"
+    ],
+    "en": [
+     "Johnny and Baby",
+     "Gene and Debbie",
+     "Danny and Sandy",
+     "Ginger and Fred"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Tančící dům se podle Ginger Rogersové a Freda Astaira přezdívá „Ginger a Fred“ – takto ho původně nazýval sám Gehry. Dům byl navržen v roce 1992 na proluce po americkém bombardování Prahy v únoru 1945.",
+    "en": "The Dancing House (Tančící dům) is nicknamed 'Ginger and Fred' after Ginger Rogers and Fred Astaire – the name Gehry himself originally used. It was designed in 1992 for a riverside gap left by the US bombing of Prague in February 1945."
+   }
+  },
+  {
+   "id": "T172-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Bedřich Smetana, Antonín Dvořák, Karel Čapek i Alfons Mucha odpočívají na stejném pražském hřbitově, jehož dominantou je společná hrobka Slavín. O který hřbitov jde?",
+    "en": "Bedřich Smetana, Antonín Dvořák, Karel Čapek and Alfons Mucha all rest in the same Prague cemetery, whose centrepiece is the shared tomb called Slavín. Which cemetery is it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vyšehradský hřbitov",
+     "Malostranský hřbitov",
+     "Olšanské hřbitovy",
+     "Břevnovský hřbitov"
+    ],
+    "en": [
+     "Vyšehrad Cemetery (Vyšehradský hřbitov)",
+     "Malá Strana Cemetery (Malostranský hřbitov)",
+     "Olšany Cemetery (Olšanské hřbitovy)",
+     "Břevnov Cemetery (Břevnovský hřbitov)"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hřbitov u kostela sv. Petra a Pavla na Vyšehradě se roku 1869 proměnil v národní pohřebiště významných osobností. Hrobku Slavín navrhl architekt Antonín Wiehl; Mucha je pohřben přímo v ní.",
+    "en": "The cemetery by the Church of Saints Peter and Paul at Vyšehrad became a national burial ground for notable figures in 1869. The Slavín tomb was designed by architect Antonín Wiehl; Mucha is buried inside it."
+   }
+  },
+  {
+   "id": "T172-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Dánský hvězdář Tycho Brahe zemřel v Praze roku 1601, jedenáct dní po jedné hostině. Podle slavné pověsti ho zabila dvorská etiketa. Jak?",
+    "en": "The Danish astronomer Tycho Brahe died in Prague in 1601, eleven days after a banquet. According to a famous legend, court etiquette killed him. How?"
+   },
+   "moznosti": {
+    "cs": [
+     "Při úklonách couval a spadl ze schodiště",
+     "Nesměl se posadit a zkolaboval vyčerpáním",
+     "Ze slušnosti neodešel od stolu a praskl mu měchýř",
+     "Musel vypít přípitek z otráveného poháru"
+    ],
+    "en": [
+     "He backed away bowing and fell down the stairs",
+     "He was not allowed to sit and collapsed from exhaustion",
+     "Out of politeness he stayed at table and his bladder burst",
+     "He had to drink a toast from a poisoned cup"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pověst vychází z Keplerova svědectví: Tycho odmítl od hostiny odejít, protože by to bylo porušení etikety, a poté nemohl močit. Podle tradice si Tycho sám složil epitaf: „Žil jako mudrc a zemřel jako blázen.“",
+    "en": "The legend is based on Kepler's account: Tycho refused to leave the banquet because it would have breached etiquette, and afterwards could not urinate. According to tradition, Tycho wrote his own epitaph: 'He lived like a sage and died like a fool.'"
+   }
+  },
+  {
+   "id": "T172-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Dřevěnou sošku s voskovým povrchem dostala Polyxena z Lobkovic jako svatební dar ze španělské rodiny a roku 1628 ji věnovala malostranským karmelitánům. Řeholnice ji dodnes převlékají do šatů v barvách církevního roku. O kterou sošku jde?",
+    "en": "Polyxena of Lobkowicz received a small wooden statue with a wax surface as a wedding gift from her Spanish family and in 1628 gave it to the Carmelites of Malá Strana. The nuns still dress it in robes matching the colours of the church year. Which statue is it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zbraslavská madona",
+     "Pražské Jezulátko",
+     "Palladium země české",
+     "Michelská madona"
+    ],
+    "en": [
+     "The Zbraslav Madonna (Zbraslavská madona)",
+     "The Infant Jesus of Prague (Pražské Jezulátko)",
+     "The Palladium of Bohemia (Palladium země české)",
+     "The Michle Madonna (Michelská madona)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pražské Jezulátko v kostele Panny Marie Vítězné měří jen 47 cm a věřící mu darovali asi sto oblečků. Jeho kopie a zasvěcené oltáře najdeme ve stovkách kostelů po celém světě.",
+    "en": "The Infant Jesus of Prague in the Church of Our Lady of Victories is just 47 cm (18.5 inches) tall, and the faithful have donated around a hundred robes for it. Copies and altars dedicated to it exist in hundreds of churches worldwide."
+   }
+  },
+  {
+   "id": "T172-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Od listopadu 1916 do března 1917 psal v domku č. 22 v úzké uličce na Pražském hradě, který mu zajistila sestra Ottla, většinu povídek sbírky Venkovský lékař. Kdo to byl?",
+    "en": "From November 1916 to March 1917, in house No. 22 in a narrow lane at Prague Castle, arranged for him by his sister Ottla, he wrote most of the stories of the collection A Country Doctor. Who was he?"
+   },
+   "moznosti": {
+    "cs": [
+     "Gustav Meyrink",
+     "Rainer Maria Rilke",
+     "Jaroslav Hašek",
+     "Franz Kafka"
+    ],
+    "en": [
+     "Gustav Meyrink",
+     "Rainer Maria Rilke",
+     "Jaroslav Hašek",
+     "Franz Kafka"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Franz Kafka tu psal ve Zlaté uličce, jejíž domky jsou přilepené k hradbám. V domku č. 12 se později scházeli básníci Seifert, Halas a Nezval.",
+    "en": "Franz Kafka wrote here in Golden Lane (Zlatá ulička), whose tiny houses cling to the castle walls. Later, poets Seifert, Halas and Nezval used to meet in house No. 12."
+   }
+  },
+  {
+   "id": "T172-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Pražské metro zahájilo provoz 9. května 1974 úsekem Kačerov – Sokolovská (dnes Florenc). Jakou barvou je na plánech značena linka, na které tento první úsek leží?",
+    "en": "The Prague Metro opened on 9 May 1974 with the Kačerov – Sokolovská (today Florenc) section. What colour is the line on which this first section lies shown on maps?"
+   },
+   "moznosti": {
+    "cs": [
+     "Modrou",
+     "Zelenou",
+     "Červenou",
+     "Žlutou"
+    ],
+    "en": [
+     "Blue",
+     "Green",
+     "Red",
+     "Yellow"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "První úsek patří lince C, která je na plánech červená (A je zelená, B žlutá). Roku 1990 se 13 stanic s ideologickými názvy přejmenovalo – ze Sokolovské se stala Florenc, z Leninovy Dejvická.",
+    "en": "The first section belongs to line C, shown in red (A is green, B yellow). In 1990, 13 stations with ideological names were renamed – Sokolovská became Florenc and Leninova became Dejvická."
+   }
+  },
+  {
+   "id": "T172-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Gotickou katedrálu na Pražském hradě začali stavět roku 1344. Práce přerušily husitské války a slavnostně dokončena byla až k tehdy předpokládanému tisícímu výročí smrti svatého Václava. Ve kterém roce?",
+    "en": "Construction of the Gothic cathedral at Prague Castle began in 1344. Work was halted by the Hussite Wars, and it was ceremonially completed only for what was then believed to be the 1,000th anniversary of St Wenceslas's death. In which year?"
+   },
+   "moznosti": {
+    "cs": [
+     "1848",
+     "1883",
+     "1929",
+     "1968"
+    ],
+    "en": [
+     "1848",
+     "1883",
+     "1929",
+     "1968"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Katedrála sv. Víta, Václava a Vojtěcha byla dokončena roku 1929, téměř 600 let po zahájení; celá západní část s lodí a dvouvěžovým průčelím je novogotická dostavba z let 1873–1929. Prvním stavitelem byl Francouz Matyáš z Arrasu († 1352); roku 1356 převzal stavbu teprve asi třiadvacetiletý Petr Parléř.",
+    "en": "St Vitus Cathedral was completed in 1929, nearly 600 years after work began; the entire western part with the nave and twin-towered façade is a Neo-Gothic addition from 1873–1929. The first master builder was the Frenchman Matthias of Arras († 1352); in 1356 the roughly 23-year-old Peter Parler took over the works."
+   }
+  },
+  {
+   "id": "T172-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Arménský kupec z Damašku Jiří Deodat nejprve roznášel horký nápoj po pražských ulicích a pak v domě v Karlově ulici otevřel podle tradice roku 1714 první pražskou kavárnu. Jaké znamení ten dům dnes nese?",
+    "en": "Jiří Deodat, an Armenian merchant from Damascus, first sold a hot drink in Prague's streets and then, traditionally in 1714, opened Prague's first café in a house on Karlova Street. What sign does that house bear today?"
+   },
+   "moznosti": {
+    "cs": [
+     "U Zlatého jednorožce",
+     "U Zlatého hada",
+     "U Zlatého tygra",
+     "U Zlaté studně"
+    ],
+    "en": [
+     "At the Golden Unicorn (U Zlatého jednorožce)",
+     "At the Golden Snake (U Zlatého hada)",
+     "At the Golden Tiger (U Zlatého tygra)",
+     "At the Golden Well (U Zlaté studně)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Káva se tehdy v Praze prodávala jen v lékárnách. Deodat (Georgius Deodatus Damascenus) díky oblibě získal měšťanské právo a otevřel kavárnu v domě na rohu s Liliovou ulicí, dnes zvaném U Zlatého hada. Část pramenů ale klade jeho první kavárnu do domu U Tří pštrosů u Karlova mostu.",
+    "en": "At the time, coffee in Prague was sold only in pharmacies. Thanks to his success Deodat (Georgius Deodatus Damascenus) gained burgher rights and opened his café in the corner house by Liliová Street, now called At the Golden Snake. Some sources, however, place his first café in the house At the Three Ostriches (U Tří pštrosů) by Charles Bridge."
+   }
+  },
+  {
+   "id": "T172-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolem roku 1700 umístili na malostranský dům znamení se třemi strunnými nástroji na paměť tří generací mistrů, kteří tu provozovali své řemeslo. Jakým řemeslem se tu živili?",
+    "en": "Around 1700, a sign with three string instruments was put up on a Malá Strana house to honour three generations of masters who had practised their craft there. What was their craft?"
+   },
+   "moznosti": {
+    "cs": [
+     "Odléváním kostelních zvonů",
+     "Výrobou houslí a louten",
+     "Výrobou varhanních píšťal",
+     "Tiskem hudebních not"
+    ],
+    "en": [
+     "Casting church bells",
+     "Making violins and lutes",
+     "Making organ pipes",
+     "Printing sheet music"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Dům U Tří housliček připomíná houslaře, kteří tu působili po tři generace; dílna přecházela sňatky a dědictvím, až ji roku 1729 převzal Jáchym Jan Edlinger po otci Tomášovi. Housle, loutny a mandolíny Edlingerů byly známé doma i v cizině.",
+    "en": "The house U Tří housliček (At the Three Little Fiddles) commemorates the violin makers who worked there for three generations; the workshop passed on through marriage and inheritance until Joachim Johann Edlinger took it over from his father Thomas in 1729. The Edlingers' violins, lutes and mandolins were known at home and abroad."
+   }
+  },
+  {
+   "id": "T172-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "V malostranském domě U Dvou slunců bydlel v letech 1845–1857 s rodiči mladík, který později své malostranské sousedy proměnil v literární postavy. Dnes nese jeho jméno celá ulice, v níž dům stojí. Kdo to byl?",
+    "en": "In the Malá Strana house U Dvou slunců (At the Two Suns), a young man lived with his parents from 1845 to 1857 who later turned his Malá Strana neighbours into literary characters. Today the whole street the house stands on bears his name. Who was he?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jakub Arbes",
+     "Vítězslav Hálek",
+     "Jan Neruda",
+     "Karel Hynek Mácha"
+    ],
+    "en": [
+     "Jakub Arbes",
+     "Vítězslav Hálek",
+     "Jan Neruda",
+     "Karel Hynek Mácha"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jan Neruda bydlel s otcem a matkou v malé světnici s oknem do dvora; z malostranského prostředí vytěžil Povídky malostranské. V přízemí domu dnes funguje hostinec U Dvou slunců.",
+    "en": "Jan Neruda lived with his father and mother in a small room overlooking the courtyard; the Malá Strana milieu inspired his Tales of the Little Quarter. The ground floor now houses the U Dvou slunců pub."
+   }
+  },
+  {
+   "id": "T172-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Roku 1770 dostaly domy v českých zemích na příkaz Marie Terezie plošně svá čísla. V Litomyšli je prý obyvatelé hned zamazávali hnojem nebo vyrývali železnou tyčí. K čemu čísla sloužila?",
+    "en": "In 1770, on Maria Theresa's orders, houses across the Czech lands were numbered. In Litomyšl, residents reportedly smeared them with dung or gouged them out with an iron bar. What were the numbers for?"
+   },
+   "moznosti": {
+    "cs": [
+     "K soupisu mužů pro vojenské odvody",
+     "K doručování poštovních zásilek",
+     "K rozmístění pouličních lamp",
+     "K evidenci požárního pojištění"
+    ],
+    "en": [
+     "Registering men for army service",
+     "Delivering letters and parcels",
+     "Positioning new street lamps",
+     "Recording fire insurance policies"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Šlo o konskripci, soupis obyvatel pro odvody do armády; čísla přidělovali vojáci postupně, jak procházeli obcí. Odpor je pochopitelný – čísla usnadňovala odvody do armády.",
+    "en": "It was a conscription, a census of inhabitants for army recruitment; soldiers assigned the numbers one by one as they walked through each settlement. The resistance is understandable – the numbers made army recruitment easier."
+   }
+  },
+  {
+   "id": "T172-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na mnoha pražských domech visí vedle sebe dvě tabulky s čísly – jedna červená a jedna modrá. Co tradičně udává ta červená?",
+    "en": "Many Prague houses display two number plates side by side – one red and one blue. What does the red one traditionally show?"
+   },
+   "moznosti": {
+    "cs": [
+     "Číslo domu v celé čtvrti",
+     "Číslo volebního okrsku",
+     "Pořadí domu v dané ulici",
+     "Číslo kulturní památky"
+    ],
+    "en": [
+     "The house's number in the whole district",
+     "The number of its voting district",
+     "The house's position in its street",
+     "The house's heritage register number"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Červená tabulka nese číslo popisné, jedinečné v celé části obce (třeba na Malé Straně), modrá číslo orientační, které určuje pořadí v ulici. Od roku 2000 barvy žádný předpis nenařizuje – je to jen pražská tradice.",
+    "en": "The red plate shows the descriptive number (číslo popisné), unique within the whole district such as Malá Strana; the blue one shows the orientation number, the house's order in the street. Since 2000 no regulation prescribes the colours – it is simply a Prague tradition."
+   }
+  },
+  {
+   "id": "T172-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Opevnění, které dal Karel IV. v letech 1360–1362 postavit na kopci nad Malou Stranou, se původně jmenovalo Zubatá. Proč se mu dnes říká Hladová zeď?",
+    "en": "The fortification that Charles IV had built in 1360–1362 on the hill above Malá Strana was originally called 'the Toothed Wall'. Why is it now called the Hunger Wall (Hladová zeď)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Obránci za ní při obléhání hladověli",
+     "Při hladomoru 1361 dávala stavba práci chudým",
+     "Kámen se lámal v lomu zvaném Hladovka",
+     "Dělníci za práci dostávali jen vodu"
+    ],
+    "en": [
+     "Its defenders starved behind it during a siege",
+     "During the 1361 famine its building gave the poor work",
+     "Its stone came from a quarry called Hladovka",
+     "The workers were paid only in water"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Přívlastek se ujal až po hladomoru roku 1361, kdy na stavbě našla obživu městská chudina; vedle jména Zubatá se jí říkalo také „Chlebová“. Pověst dodává, že na zdi denně několik hodin pracoval sám císař.",
+    "en": "The name caught on after the famine of 1361, when the city's poor found a livelihood on the construction; besides 'Toothed' it was also known as the 'Bread Wall'. Legend adds that the emperor himself worked on it for several hours every day."
+   }
+  },
+  {
+   "id": "T172-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na židovském hřbitově v pražském Josefově stojí náhrobky natěsnané těsně vedle sebe a nakloněné, terén je místy výš než okolní ulice. Proč tomu tak je?",
+    "en": "In the Jewish cemetery in Prague's Josefov, tombstones stand crammed together and tilted, and the ground is in places higher than the surrounding streets. Why?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pohřbívalo se vestoje, aby se ušetřilo místo",
+     "Náhrobky sem svezli ze zrušených hřbitovů",
+     "Kameníci tu skladovali náhrobky na prodej",
+     "Hroby se nerušily a navážela se na ně zemina"
+    ],
+    "en": [
+     "The dead were buried upright to save space",
+     "Tombstones were brought here from closed cemeteries",
+     "Stonemasons stored tombstones here for sale",
+     "Graves were never removed and new soil was heaped on"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Židovská tradice nedovoluje staré hroby rušit a obec jen zřídka směla hřbitov rozšířit, proto se navážela nová zemina – místy je až dvanáct vrstev. Poslední náhrobek pochází z roku 1787; Josef II. pohřby uvnitř města zakázal.",
+    "en": "Jewish tradition forbids removing old graves and the community was rarely allowed to expand, so new soil was heaped up – in places there are up to twelve layers. The last tombstone dates from 1787; Joseph II had banned burials inside the city."
+   }
+  },
+  {
+   "id": "T172-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Podle legendy leží tělo hliněného obra rabiho Löwa na půdě synagogy, která ze všech v Evropě slouží bohoslužbám nejdéle. Spodní tři metry venkovního schodiště, které na půdu vede, byly odstraněny. Jak se tato synagoga jmenuje?",
+    "en": "According to legend, the body of Rabbi Loew's clay giant lies in the attic of the synagogue that has served worship longer than any other in Europe. The lowest three metres (10 ft) of the outer staircase leading to the attic have been removed. What is this synagogue called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Španělská synagoga",
+     "Maiselova synagoga",
+     "Staronová synagoga",
+     "Pinkasova synagoga"
+    ],
+    "en": [
+     "Spanish Synagogue (Španělská synagoga)",
+     "Maisel Synagogue (Maiselova synagoga)",
+     "Old New Synagogue (Staronová synagoga)",
+     "Pinkas Synagogue (Pinkasova synagoga)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Staronová synagoga byla dokončena kolem roku 1270 a patří k nejstarším gotickým stavbám Prahy. Na půdě je uložena genizah obce; oprava v roce 1883 ani průzkum v roce 2014 po golemovi žádnou stopu nenašly.",
+    "en": "The Old New Synagogue was completed around 1270 and is among Prague's earliest Gothic buildings. The attic holds the community's genizah; neither the 1883 renovation nor the 2014 survey found any trace of the golem."
+   }
+  },
+  {
+   "id": "T172-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Pivovar v Křemencově ulici se hlásí k roku 1499 a podle pamětní desky v jeho pivnici vznikl nápad založit fotbalový klub Hajduk Split, který si studenti ze Splitu odnesli domů roku 1911. Jak se podnik jmenuje?",
+    "en": "A brewery on Křemencova Street traces itself back to 1499, and according to a plaque in its pub, the idea of founding the Hajduk Split football club was born there – students from Split took it home in 1911. What is the place called?"
+   },
+   "moznosti": {
+    "cs": [
+     "U Zlatého tygra",
+     "U Fleků",
+     "U Pinkasů",
+     "U Medvídků"
+    ],
+    "en": [
+     "U Zlatého tygra (At the Golden Tiger)",
+     "U Fleků (At the Fleks')",
+     "U Pinkasů (At the Pinkases)",
+     "U Medvídků (At the Little Bears)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jméno U Fleků pochází od Jakuba Flekovského, který pivovar koupil roku 1762. Vaří se tu jen třináctistupňový ležák, tmavý a světlý, a jinde se neprodává.",
+    "en": "The name U Fleků comes from Jakub Flekovský, who bought the brewery in 1762. It brews only a 13° lager, dark and light, which is not sold anywhere else."
+   }
+  },
+  {
+   "id": "T172-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co spojuje lezoucí batolata na žižkovském vysílači, kinetickou hlavu ze 42 otáčejících se ocelových plátů u centra Quadrio a dvě čůrající bronzové postavy u Vltavy na Malé Straně? Kdo je autorem všech tří?",
+    "en": "What links the crawling babies on the Žižkov TV tower, the kinetic head of 42 rotating steel layers by the Quadrio centre and two urinating bronze figures by the Vltava in Malá Strana? Who created all three?"
+   },
+   "moznosti": {
+    "cs": [
+     "David Černý",
+     "Jaroslav Róna",
+     "Olbram Zoubek",
+     "Kurt Gebauer"
+    ],
+    "en": [
+     "David Černý",
+     "Jaroslav Róna",
+     "Olbram Zoubek",
+     "Kurt Gebauer"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Miminka umístil David Černý na vysílač roku 2000 a o rok později natrvalo; deník The Guardian je roku 2007 spolu s Čůrajícími postavami označil za největší atrakci Prahy. Otáčející se hlavu instaloval roku 2014.",
+    "en": "David Černý attached the Babies to the tower in 2000, permanently a year later; in 2007 The Guardian named them, together with Piss, Prague's greatest attraction. The rotating head was installed in 2014."
+   }
+  },
+  {
+   "id": "T172-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kamenný předchůdce Karlova mostu z let 1158–1172 byl tehdy jedním z mála kamenných mostů ve střední Evropě; v únoru 1342 ho strhla povodeň. Po které panovnici, jež jeho stavbu finančně podpořila, nesl jméno?",
+    "en": "The stone predecessor of Charles Bridge, built 1158–1172, was one of the few stone bridges in Central Europe at the time; a flood swept it away in February 1342. Which queen, who helped finance it, was it named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Judita Durynská",
+     "Anna Svídnická",
+     "Eliška Rejčka",
+     "Kunhuta Uherská"
+    ],
+    "en": [
+     "Judith of Thuringia",
+     "Anne of Schweidnitz",
+     "Elizabeth Richeza",
+     "Kunigunde of Hungary"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Juditin most nesl jméno Judity Durynské, manželky Vladislava II. Tehdy ve střední Evropě stály jen dva starší kamenné mosty, v Řezně a Drážďanech; jeho druhý oblouk je dodnes součástí jednoho malostranského domu.",
+    "en": "The Judith Bridge (Juditin most) was named after Judith of Thuringia, wife of Vladislaus II. At that time only two other stone bridges stood in Central Europe, in Regensburg and Dresden; its second arch still forms part of a house in Malá Strana."
+   }
+  },
+  {
+   "id": "T172-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V neděli 30. července 1419 vtrhl průvod vedený kazatelem Janem Želivským do budovy, odkud vyházel z oken protihusitské konšely. Tím podle historiků začaly husitské války. O kterou budovu šlo?",
+    "en": "On Sunday 30 July 1419, a procession led by the preacher Jan Želivský stormed a building and threw anti-Hussite councillors out of its windows. Historians see this as the start of the Hussite Wars. Which building was it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Novoměstská radnice",
+     "Arcibiskupský palác",
+     "Staroměstská radnice",
+     "Betlémská kaple"
+    ],
+    "en": [
+     "New Town Hall (Novoměstská radnice)",
+     "Archbishop's Palace (Arcibiskupský palác)",
+     "Old Town Hall (Staroměstská radnice)",
+     "Bethlehem Chapel (Betlémská kaple)"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "První pražská defenestrace se odehrála na Novoměstské radnici na Karlově náměstí. Želivský byl předtím vypuzen od sv. Štěpána a kázal v kostele Panny Marie Sněžné, odkud průvod vyšel.",
+    "en": "The First Defenestration of Prague took place at the New Town Hall on Charles Square. Želivský had earlier been expelled from St Stephen's and preached at the Church of Our Lady of the Snows, where the procession set out."
+   }
+  },
+  {
+   "id": "T172-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Barokní palác na Karlově náměstí opřádají pověsti o učenci, kterého si ďábel odnesl dírou ve stropě. Který učenec z okruhu Rudolfa II. dům skutečně vlastnil a podle tradice v něm prováděl pokusy?",
+    "en": "A Baroque palace on Charles Square (Karlovo náměstí) is wrapped in legends about a scholar whom the devil carried off through a hole in the ceiling. Which scholar from Rudolf II's circle actually owned the house and, according to tradition, carried out experiments there?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tadeáš Hájek z Hájku",
+     "Johannes Kepler",
+     "Michał Sędziwój",
+     "Edward Kelley"
+    ],
+    "en": [
+     "Tadeáš Hájek of Hájek",
+     "Johannes Kepler",
+     "Michał Sędziwój",
+     "Edward Kelley"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Anglický alchymista Edward Kelley získal Faustův dům kolem roku 1587; výbuchy v jeho laboratoři prý prorazily strop. Historický doktor Faust v domě nikdy nebydlel a v Praze patrně vůbec nebyl; Kelley, kterého Rudolf II. nejprve povýšil na rytíře, zemřel jako vězeň na hradě Hněvín.",
+    "en": "The English alchemist Edward Kelley acquired the Faust House (Faustův dům) around 1587; explosions in his laboratory reportedly blew holes in the ceiling. The historical Doctor Faust never lived in the house and probably never even visited Prague; Kelley, first knighted by Rudolf II, died a prisoner in Hněvín Castle."
+   }
+  },
+  {
+   "id": "T172-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V listopadu 2010 byl v Týnském chrámu otevřen hrob Tychona Brahe, protože starší rozbory vousů naznačovaly, že mohl být otráven rtutí, a podezření padalo i na Keplera. K jakému závěru vědci roku 2012 došli?",
+    "en": "In November 2010, Tycho Brahe's tomb in the Church of Our Lady before Týn was opened, because earlier analyses of his beard suggested mercury poisoning, with even Kepler under suspicion. What did scientists conclude in 2012?"
+   },
+   "moznosti": {
+    "cs": [
+     "V hrobě ležel úplně jiný muž",
+     "Potvrdili smrtelnou dávku rtuti",
+     "Místo rtuti v kostech našli arsen",
+     "Rtuti bylo na otravu příliš málo"
+    ],
+    "en": [
+     "A completely different man lay in the tomb",
+     "They confirmed a lethal dose of mercury",
+     "They found arsenic instead of mercury",
+     "There was too little mercury for poisoning"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Dánsko-český tým odebral vzorky kostí, vousů a oděvu a oznámil, že hladina rtuti na vraždu nestačí – Tycho zemřel přirozenou smrtí. Rozbor také ukázal, že jeho slavná nosní protéza byla z mosazi, ne ze zlata a stříbra.",
+    "en": "The Danish-Czech team sampled bones, beard and clothing and reported that the mercury level was too low for murder – Tycho died naturally. The analysis also showed that his famous nose prosthesis was made of brass, not gold and silver."
+   }
+  },
+  {
+   "id": "T172-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Pražská lanovka z Újezdu, otevřená roku 1891, neměla zpočátku žádný motor ani pohon z elektrárny. Co tehdy vozy pohánělo?",
+    "en": "Prague's funicular from Újezd, opened in 1891, originally had no motor and no power-station drive. What powered its cars at the time?"
+   },
+   "moznosti": {
+    "cs": [
+     "Koně chodící v žentouru nahoře",
+     "Parní stroj ukrytý v horní stanici",
+     "Ruční rumpál točený obsluhou",
+     "Voda napouštěná do nádrže horního vozu"
+    ],
+    "en": [
+     "Horses walking a capstan at the top",
+     "A steam engine hidden in the upper station",
+     "A hand winch turned by the crew",
+     "Water filled into the upper car's tank"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Šlo o systém vodní převahy: nádrž vozu v horní stanici se naplnila vodou, těžší vůz sjel dolů a lanem vytáhl lehčí. Protože voda na trati v mrazu zamrzala, jezdila lanovka v zimě jen omezeně.",
+    "en": "It used water-balance propulsion: the tank of the car at the top was filled with water, so the heavier car descended and hauled the lighter one up by cable. Because water froze on the track, the funicular ran only limited service in winter."
+   }
+  },
+  {
+   "id": "T172-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Žižkovský vysílač postavený v letech 1985–1992 kritizovali kvůli megalomanii a zásahu do panoramatu Prahy, ale i kvůli tomu, co muselo ustoupit jeho základům. Co na jeho místě stálo?",
+    "en": "The Žižkov Television Tower, built in 1985–1992, was criticised for megalomania and for spoiling Prague's skyline, but also for what had to make way for its foundations. What stood on its site?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zbytky husitského opevnění",
+     "Část starého židovského hřbitova",
+     "Barokní vinařská usedlost",
+     "Středověké městské popraviště"
+    ],
+    "en": [
+     "Remains of Hussite fortifications",
+     "Part of an old Jewish cemetery",
+     "A Baroque vineyard estate",
+     "A medieval town execution ground"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Vysílač stojí v Mahlerových sadech na místě Starého olšanského židovského hřbitova. Dohled Židovské obce a přenesení ostatků na Nový židovský hřbitov stavitel nedodržel a část hrobů a náhrobků byla nenávratně zničena. V anketě serveru VirtualTourist skončil jako druhá nejošklivější stavba světa.",
+    "en": "The tower stands in Mahler Gardens on the site of the old Olšany Jewish cemetery. The agreed supervision by the Jewish community and reburial of remains at the New Jewish Cemetery were not respected by the builders, and many graves and tombstones were irreversibly destroyed. A VirtualTourist poll ranked it the world's second ugliest building."
+   }
+  },
+  {
+   "id": "T172-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na zeď na malostranském Velkopřevorském náměstí, naproti francouzskému velvyslanectví, psali lidé po roce 1980 texty písní zavražděného Beatla a protirežimní hesla. Komu zeď patří?",
+    "en": "After 1980, people covered a wall on Malá Strana's Grand Priory Square (Velkopřevorské náměstí), opposite the French Embassy, with lyrics by the murdered Beatle and anti-regime slogans. Who owns the wall?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pražské arcidiecézi",
+     "Francouzské republice",
+     "Hlavnímu městu Praze",
+     "Maltézskému řádu"
+    ],
+    "en": [
+     "The Archdiocese of Prague",
+     "The French Republic",
+     "The City of Prague",
+     "The Order of Malta"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Lennonova zeď patří Suverénnímu řádu maltézských rytířů, s jehož komendou je celé náměstí spjato – odtud i jméno sousedního Velkopřevorského paláce. Až do roku 2019 řád graffiti zcela toleroval.",
+    "en": "The Lennon Wall belongs to the Sovereign Military Order of Malta, whose commandery the whole square is linked with – hence the name of the neighbouring Grand Priory Palace. Until 2019 the Order tolerated all graffiti."
+   }
+  },
+  {
+   "id": "T172-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Sochař pracoval na jezdeckém pomníku na horním konci Václavského náměstí přes třicet let a jedné z postav sousoší propůjčil vlastní tvář. Které?",
+    "en": "The sculptor worked on the equestrian monument at the top of Wenceslas Square for more than thirty years and gave one of the figures in the group his own face. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Svatému Vojtěchovi",
+     "Svatému Prokopovi",
+     "Svatému Václavovi",
+     "Svatému Ivanovi"
+    ],
+    "en": [
+     "Saint Adalbert",
+     "Saint Procopius",
+     "Saint Wenceslas",
+     "Saint Ivan"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Josef Václav Myslbek dal podle tradice svou tvář sv. Prokopovi, sv. Vojtěch nese rysy arcibiskupa Františka Schönborna. Modelem pro koně byl černý oldenburský hřebec Ardo; sv. Ivan byl v plánech, ale nahradila ho sv. Anežka.",
+    "en": "According to tradition, Josef Václav Myslbek gave his own face to St Procopius, while St Adalbert bears the features of Archbishop František Schönborn. The horse was modelled on a black Oldenburg stallion named Ardo; St Ivan was planned but replaced by St Agnes."
+   }
+  },
+  {
+   "id": "T172-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Gotický dům vedle paláce Kinských na Staroměstském náměstí sloužil podle historiků jako dočasné sídlo Elišky Přemyslovny a Jana Lucemburského; možná se zde roku 1316 narodil jejich syn. Jaké znamení dům nese?",
+    "en": "A Gothic house next to the Kinský Palace on Old Town Square served, according to historians, as a temporary residence of Elizabeth of Bohemia and John of Luxembourg; their son may have been born there in 1316. What sign does the house bear?"
+   },
+   "moznosti": {
+    "cs": [
+     "U Kamenného beránka",
+     "U Bílého jednorožce",
+     "U Kamenného zvonu",
+     "U Zlatého slona"
+    ],
+    "en": [
+     "At the Stone Lamb (U Kamenného beránka)",
+     "At the White Unicorn (U Bílého jednorožce)",
+     "At the Stone Bell (U Kamenného zvonu)",
+     "At the Golden Elephant (U Zlatého slona)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kamenný zvon je zasazen do nároží a možná připomíná vstup Jana Lucemburského do Prahy roku 1310. Gotické průčelí bylo odkryto pod barokní fasádou až při regotizaci v letech 1975–1987.",
+    "en": "The stone bell is set into the corner of the building and may commemorate John of Luxembourg's entry into Prague in 1310. The Gothic façade was uncovered beneath a Baroque one only during restoration in 1975–1987."
+   }
+  },
+  {
+   "id": "T172-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Při asanaci židovského města v letech 1893–1913 proťala starou čtvrť nová reprezentativní třída, zprvu pojmenovaná Mikulášská podle kostela na rohu Staroměstského náměstí. Jak se jmenuje dnes?",
+    "en": "During the clearance of the Jewish Town in 1893–1913, a grand new avenue was cut through the old quarter, first named Mikulášská after the church at the corner of Old Town Square. What is it called today?"
+   },
+   "moznosti": {
+    "cs": [
+     "Národní",
+     "Revoluční",
+     "Pařížská",
+     "Dlouhá"
+    ],
+    "en": [
+     "Národní (National Avenue)",
+     "Revoluční (Revolution Street)",
+     "Pařížská (Paris Avenue)",
+     "Dlouhá (Long Street)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pařížská třída nese jméno od roku 1926 a připomíná pařížské bulváry, jimiž se asanace inspirovala. Z původní čtvrti zůstalo jen šest synagog, starý hřbitov a židovská radnice; dnes patří Pařížská k nejdražším nákupním ulicím v Česku i ve světě.",
+    "en": "Pařížská has borne its name since 1926, recalling the Paris boulevards that inspired the clearance. Only six synagogues, the old cemetery and the Jewish Town Hall survived from the original quarter; today Pařížská ranks among the most expensive shopping streets in Czechia and the world."
+   }
+  }
+ ]
+}

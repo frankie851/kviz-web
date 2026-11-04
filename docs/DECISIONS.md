@@ -1,7 +1,18 @@
 # DECISIONS – Kvízová webová aplikace
 Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový záznam s odkazem na původní.
 
-## D-005 · 2026-11-04 · Ukázková data jen z tématu T001
+## D-007 · 2026-11-04 · Sloupec Web hned za Shorts + příkaz `web`
+- **Rozhodnutí:** sloupec Web je v Excelu sloupec **D** (ID · Použít · Shorts · **Web** · Téma …), ukotvení listu je za ním (E2), takže ruční volby jsou vidět i při posunu doprava. Nový příkaz `python3 nastroje/kviz_db.py web Ano T146 T172 …` nastaví Web u všech otázek tématu (nebo u jednotlivých otázek `T146-05`); hodnoty Ano / Ne / prazdne. Upravuje Excel i `otazky.json` zároveň a předtím udělá zálohu Excelu.
+- **Proč:** Davidův pokyn (sloupec za Shorts). Posun je bezpečný: vzorce listu Témata odkazují jen na sloupce A–C a ostatní skripty (kviz_video, kviz_shorts) hledají sloupce podle názvu hlavičky. Příkaz `web` vznikl, protože ruční zápis do Excelu je zakázaný a `prestavet` by ruční úpravu JSON přepsal hodnotami z Excelu.
+- **Mění:** umístění z D-005 / prvního běhu promptu 00 (Web byl poslední sloupec AB).
+- **Kdo:** David (umístění), prompt 00 (příkaz)
+
+## D-006 · 2026-11-04 · Data na webu: 4 náhodná česká témata s Web = Ano (nahrazuje D-005)
+- **Rozhodnutí:** místo vzorku T001 jsou v `data/` 4 náhodně vybraná témata z listu „České“: T146 České pohádky na plátně i obrazovce, T172 Praha: domovní znamení, legendy a skryté příběhy, T204 Československo 1918–1992, T254 Čeští sportovci a olympijští vítězové (120 otázek). V Excelu mají Web = Ano a export běžel v režimu **„web“** (`"rezim": "web"`) – jde tedy už o Davidův skutečný výběr, ne o vzorek.
+- **Proč:** David na web chce hlavně otázky, které **nebudou** na YouTube, takže pravidlo „jen zveřejněná videa“ (prompt 00, krok 8) přestalo dávat smysl. Témata se vybírala jen z těch, která nemají žádnou otázku ve videu ani v Shortu.
+- **Kdo:** David (pokyn), náhodný výběr prompt 00
+
+## D-005 · 2026-11-04 · Ukázková data jen z tématu T001 (nahrazeno D-006)
 - **Rozhodnutí:** vzorek v `data/` = celé téma T001 (Chobotnice, 35 ověřených otázek: 15 lehkých, 10 středních, 10 těžkých). Podle zadání se do vzorku bere celé téma bez ohledu na sloupec Web, tedy i 20 otázek, které ve videu nebyly.
 - **Proč:** na listu „YouTube“ v Excelu nemá k 4. 11. 2026 žádné video stav „YouTube“ a žádná otázka nemá Použít = „YouTube“; jisté zveřejnění je jen u T001 (od října 2026, podle zadání). Ostatní videa (T002, T004, T006…) mají stav „Vytvořeno+kontrola“, zveřejnění tedy z Excelu jisté není.
 - **Zamítnuté alternativy:** přidat T002/T004 (stav YouTube v Excelu chybí); vzít jen 15 otázek T001 z videa (zadání definuje vzorek jako celé téma).
