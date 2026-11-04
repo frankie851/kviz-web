@@ -15,9 +15,10 @@ Fáze 0 je hotová: Excel má sloupec Web, v repozitáři jsou dokumenty, export
 - Rozhodnutí D-003 (ikony = emoji + ID kategorie), D-004 (formát dat), D-005 (vzorek jen T001).
 
 ## Rozpracováno
-- nic
+- **GitHub Pages zatím nejsou zapnuté.** Agent v prostředí B je zapnout nemohl (rozhraní GitHubu pro nastavení Pages je pro něj zablokované a ve vestavěném prohlížeči není David na GitHubu přihlášený). Zapne je David ručně: github.com → repozitář kviz-web → Settings → Pages → Build and deployment → Source „Deploy from a branch“ → Branch „main“ a „/ (root)“ → Save. Za 1–2 minuty má běžet https://frankie851.github.io/kviz-web/ se stránkou „Připravujeme…“. Prompt 01 na začátku ověří, že adresa odpovídá (jinak Davida upozorní).
 
 ## Další krok
+0. David zapne GitHub Pages (viz Rozpracováno).
 1. Fáze 1 – prompt 01 v Claude Code (Cloud environment, repozitář kviz-web): 3 varianty značky s ukázkou na otázkách z `data/`.
 
 ## Připomínky Davida (k zapracování)
@@ -25,7 +26,7 @@ Fáze 0 je hotová: Excel má sloupec Web, v repozitáři jsou dokumenty, export
 
 ## Otevřené otázky a rizika
 - `kviz_db.py prestavet` přesouvá list „YouTube“ na konec sešitu (za „Témata“). Dělal to už původní skript, nejde o novinku; obsah listu je stejný.
-- Skill kviz-generator má vlastní kopii `kviz_db.py` – David dostal návrh aktualizace skillu; dokud ho neuloží, mohla by výměna skriptu ze skillu sloupec Web odstranit.
+- Skill kviz-generator má vlastní kopii `kviz_db.py` (Příloha A, byla starší než skript ve složce). David dostal návrh aktualizace skillu (Příloha A = aktuální skript se sloupcem Web; kopie návrhu i v `KvizWeb\web-aplikace\navrh_kviz-generator_SKILL.md`). Dokud ho neuloží, mohla by výměna skriptu ze skillu sloupec Web odstranit.
 - Ukázková data T001 obsahují i 20 otázek, které ve videu nebyly (D-005).
 
 ## Nápady na později (nestavět bez zadání)

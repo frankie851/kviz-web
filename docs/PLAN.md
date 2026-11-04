@@ -9,7 +9,7 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☑ (2026-11-04) Navrhnout aktualizaci skillu kviz-generator (jeho kopie `kviz_db.py` v Příloze A + zmínka o sloupci Web).
 - ☑ (2026-11-04) Exportní nástroj `tools/export_otazky.py` (režimy „web“ a „vzorek“) a test `tools/test_export.py` (s `--zdroj` i bez něj).
 - ☑ (2026-11-04) Ukázková data v `data/` (režim „vzorek“) jen z témat, jejichž video už je na YouTube (pravidlo v promptu 00, krok 8).
-- ☐ Zástupná stránka `index.html` („Připravujeme…“) a zapnutí GitHub Pages; ověřit, že adresa běží.  ← doplní se níže
+- ◐ (2026-11-04) Zástupná stránka `index.html` („Připravujeme…“) je v repozitáři; **GitHub Pages musí zapnout David** (postup v HANDOFF – agent k nastavení repozitáře nemá přístup). Ověření adresy udělá prompt 01 na začátku Fáze 1.
 - ☑ (2026-11-04) Doplnit příkazy do `CLAUDE.md`, commit + push do `main`.
 
 ## Fáze 1 – Značka (prompt 01, prostředí A)
