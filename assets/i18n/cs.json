@@ -2,7 +2,8 @@
   "app": {
     "nazev": "Oho!",
     "nazevZaklad": "Oho",
-    "podtitul": "Ověřené otázky. Česky i anglicky."
+    "podtitul": "Ověřené otázky. Česky i anglicky.",
+    "nacitam": "Načítám…"
   },
   "nav": {
     "zpet": "Zpět"

@@ -20,10 +20,6 @@ export function zmen(zmeny) {
   return nastaveni;
 }
 
-export function znovuNacti() {
-  nastaveni = nacti("nastaveni", null);
-}
-
 /** Druhý jazyk k danému (v 1. verzi CZ ↔ EN). */
 export function druhyJazyk(j, dostupne = JAZYKY_ROZHRANI) {
   return dostupne.find((x) => x !== j) || j;

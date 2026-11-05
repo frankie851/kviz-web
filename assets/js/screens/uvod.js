@@ -71,7 +71,7 @@ function krok2(app) {
           zmen({ ui: zvoleny, zvuky: nast().zvuky ?? true, vibrace: nast().vibrace ?? true, ...ZPUSOBY[klic](zvoleny) });
           zvoleny = null;
           krok = 1;
-          app.jdi("#/", { nahradit: true });
+          app.poUvodu(); // Domů, nebo na odkaz, se kterým hráč přišel
         },
       },
       h("span", { class: "choice-emo", "aria-hidden": "true", text: emo }),

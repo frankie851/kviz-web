@@ -35,27 +35,6 @@ export function uloz(klic, hodnota) {
   }
 }
 
-export function smaz(klic) {
-  pamet.delete(klic);
-  try {
-    if (lzeUkladat) localStorage.removeItem(PREFIX + klic);
-  } catch { /* nic */ }
-}
-
-/** Smaže všechno, co aplikace uložila (jen klíče kviz.v1.*). */
-export function smazVse() {
-  pamet.clear();
-  if (!lzeUkladat) return;
-  try {
-    const klice = [];
-    for (let i = 0; i < localStorage.length; i++) {
-      const k = localStorage.key(i);
-      if (k && k.startsWith(PREFIX)) klice.push(k);
-    }
-    klice.forEach((k) => localStorage.removeItem(k));
-  } catch { /* nic */ }
-}
-
 export function ukladaniFunguje() {
   return lzeUkladat;
 }

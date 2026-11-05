@@ -38,6 +38,8 @@ let minulaHloubka = null;
 let uklid = null;
 let poradi = 0;
 let minulaCesta = null;
+let cilPoUvodu = null; // adresa, kterou nový hráč otevřel před prvním spuštěním (KONTROLA D-5)
+const ZPOZDENI_NACITANI = 300; // ms – kratší čekání hráč nepostřehne, delší dostane „Načítám…“ (KONTROLA D-2)
 
 function cesta() {
   return decodeURIComponent(location.hash.replace(/^#/, "")) || "/";
@@ -58,7 +60,10 @@ export function jdi(hash, { nahradit = false } = {}) {
 export async function vykresli() {
   const moje = ++poradi;
   const c = cesta();
-  if (!jeNastaveno() && c !== "/vitej") return jdi("#/vitej", { nahradit: true });
+  if (!jeNastaveno() && c !== "/vitej") {
+    if (c !== "/") cilPoUvodu = location.hash;
+    return jdi("#/vitej", { nahradit: true });
+  }
 
   let obrazovka = null;
   let param = [];
@@ -79,13 +84,21 @@ export async function vykresli() {
   }
 
   let vysl;
+  const casovac = setTimeout(() => ukazNacitani(moje), ZPOZDENI_NACITANI);
   try {
-    vysl = await obrazovka.vykresli(param, { jdi, prekresli: vykresli });
+    vysl = await obrazovka.vykresli(param, { jdi, prekresli: vykresli, poUvodu });
   } catch (e) {
     console.error(e);
     vysl = { el: chyba(), titulek: t("chyba.nadpis") };
+  } finally {
+    clearTimeout(casovac);
+    if (moje === poradi) schovejNacitani();
   }
-  if (moje !== poradi || !vysl) return; // mezitím se šlo jinam
+  if (moje !== poradi || !vysl) {
+    // mezitím se šlo jinam: zahozená obrazovka nesmí nechat viset posluchače (klávesy) – KONTROLA D-6
+    try { vysl?.uklid?.(); } catch { /* nic */ }
+    return;
+  }
   if (vysl.presmeruj) return jdi(vysl.presmeruj, { nahradit: true });
 
   // překreslení téže obrazovky (např. změna jazyka v Nastavení): zachovat posun i fokus
@@ -124,6 +137,27 @@ export async function vykresli() {
     if (!nadpis.hasAttribute("tabindex")) nadpis.setAttribute("tabindex", "-1");
     nadpis.focus({ preventScroll: true });
   }
+}
+
+/** Po prvním spuštění: na adresu, kterou hráč původně otevřel (odkaz na téma), jinak Domů. */
+function poUvodu() {
+  const cil = cilPoUvodu;
+  cilPoUvodu = null;
+  jdi(cil || "#/", { nahradit: true });
+}
+
+let nacitani = null;
+function ukazNacitani(moje) {
+  if (moje !== poradi || nacitani) return;
+  nacitani = h("div", { class: "nacitam", role: "status" },
+    h("span", { class: "nacitam-tecka", "aria-hidden": "true" }), t("app.nacitam"));
+  koren.setAttribute("aria-busy", "true");
+  document.body.append(nacitani);
+}
+function schovejNacitani() {
+  koren.removeAttribute("aria-busy");
+  nacitani?.remove();
+  nacitani = null;
 }
 
 function chyba() {

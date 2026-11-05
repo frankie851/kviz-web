@@ -69,5 +69,5 @@ export function vykresli(_param, app) {
       ukladaniFunguje() ? null : h("p", { class: "notice", text: t("domu.bezUkladani") }),
       h("p", { class: "muted", text: t("nastaveni.oHreData", { n: idx().pocet_otazek || 0, datum }) }))
   );
-  return { el, titulek: t("nastaveni.nadpis"), bezFokusu: false };
+  return { el, titulek: t("nastaveni.nadpis") };
 }
