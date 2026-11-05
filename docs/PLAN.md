@@ -47,9 +47,9 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☑ (2026-11-05) `docs/KONTROLA_2026-11-05.md` s verdiktem a nálezy – **Připraveno po opravách**: 0 zásadních, 1 střední, 7 drobných, 5 k zvážení; screenshoty v `docs/kontrola-img/`.
 
 ## Fáze 5 – Opravy a dokončení (prompt 01, prostředí A)
-- ☐ Přečíst nejnovější `docs/KONTROLA_*.md`; každý zásadní a střední nález nejdřív zopakovat, pak opravit; drobné podle uvážení, neopravené zapsat do HANDOFF.
-- ☐ Kompletní ověření a nasazení.
-- ☐ Závěrečná zpráva Davidovi + zaškrtnout kritéria přijetí ve SPEC.
+- ☑ (2026-11-05) Přečíst nejnovější `docs/KONTROLA_*.md`; každý zásadní a střední nález nejdřív zopakovat, pak opravit; drobné podle uvážení, neopravené zapsat do HANDOFF. – S-1 zopakován a opraven, D-1 až D-7 opraveny (D-016); „K zvážení“ 1–5 čekají na Davida.
+- ◐ (2026-11-05) Kompletní ověření a nasazení. – `test_export.py` prošel, `pruchod.py` 2× za sebou 113 kontrol, 7 obrazovek × 5 šířek bez přetékání; změny jsou v pull requestu do `main` – web se aktualizuje po sloučení Davidem, pak ověřit online.
+- ☑ (2026-11-05) Závěrečná zpráva Davidovi + zaškrtnout kritéria přijetí ve SPEC (všech 10).
 
 ## Stav
-Poslední aktualizace: 2026-11-05 (kontrola) · Aktuální fáze: 5 – opravy a dokončení (prompt 01, prostředí A); Fáze 4 hotová · Blokováno: nic; online ověření z cloudu jde jen přes WebFetch (síť nepustí github.io)
+Poslední aktualizace: 2026-11-05 (Fáze 5) · Aktuální fáze: 5 – opravy hotové, čeká se na sloučení pull requestu Davidem; 1. verze tím splní všechna kritéria přijetí · Blokováno: nic; online ověření z cloudu jde jen přes WebFetch (síť nepustí github.io)

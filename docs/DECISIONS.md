@@ -1,6 +1,18 @@
 # DECISIONS – Kvízová webová aplikace
 Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový záznam s odkazem na původní.
 
+## D-016 · 2026-11-05 · Opravy po kontrole (Fáze 5, KONTROLA_2026-11-05)
+- **S-1 dlouhé slovo / adresa:** `overflow-wrap: anywhere` na panelu Věděli jste? (`.explain`) a na kartách přehledu (`.review`); navíc celá stránka `overflow-wrap: break-word` jako pojistka pro ostatní texty. Zopakováno před opravou (320 px: stránka 1024 px, přehled 1076 px), po opravě nic nepřetéká. `pruchod.py` má trvalou kontrolu: prohlížeči podstrčí kopii tématu s 80znakovým slovem a dlouhou adresou v otázce, možnostech i vysvětlení (data v repozitáři se nemění).
+- **D-1 preload písem:** odstraněn `<link rel="preload">` z `index.html` (zdroj náhodného varování v konzoli). Písma mají 28–40 kB a CSS si je řekne hned; `font-display: swap` zajistí, že text je vidět i před jejich načtením. Varování v testu se **neignoruje** – zmizela jeho příčina.
+- **D-2 pomalá síť:** obrazovka Obtížnost stahuje otázky tématu na pozadí už při otevření (stahování se sdílí se začátkem kola, nepovedené se zapomene a zkusí znovu). Když se jakákoli obrazovka chystá déle než 0,3 s, dole se ukáže tmavá pilulka „Načítám… / Loading…“ (`app.js`, text v i18n `app.nacitam`).
+- **D-3 vypínače:** Zvuky a Vibrace 80 × 48 px (dřív 60 × 36) – podle SPEC „aspoň 48 px“.
+- **D-4 kontrast:** písmeno správné odpovědi na tmavší zelené `--ok-ink` (#146C3C, bílá 6,8 : 1 místo 3,45 : 1).
+- **D-5 odkaz u nového hráče:** adresa, se kterou nový hráč přišel (např. `#/tema/T146`), se zapamatuje a po prvním spuštění se na ni přejde (místo Domů).
+- **D-6 klávesy po rychlém odchodu:** když se obrazovka dočte až po odchodu jinam, `app.js` zavolá její úklid (odebere posluchač kláves). Test v `pruchod.py` chybu bez opravy zachytí.
+- **D-7 mrtvý kód:** odstraněny `smaz()`, `smazVse()`, `znovuNacti()`, `.btn-danger*`, zdvojené `grid-template-columns` u `.diff`, `bezFokusu: false`. `.screen-vysledek .hint` ponechán (je omezený na obrazovku Výsledek, neškodí).
+- **„K zvážení“ 1–5 z kontroly** se nestavěly – čekají na Davidovo rozhodnutí (HANDOFF).
+- **Kdo:** prompt 01
+
 ## D-015 · 2026-11-05 · Chytlavost (Fáze 3): animace, konfety, zvuky, upozornění, náhled odkazu
 - **Přechody mezi obrazovkami:** nová obrazovka přijede zprava, když jde hráč „hlouběji“ (Domů → Kategorie → Téma → Obtížnost → Otázka → Výsledek), a zleva, když se vrací. Mapa hloubek je v `app.js` (`HLOUBKA`). Překreslení téže obrazovky (např. změna jazyka) se neanimuje.
 - **Mikroanimace:** dlaždice, karty, obtížnosti a odznaky naskakují postupně; logo na Domů se při příchodu zavrtí a jiskra občas zajiskří; každá otázka přijede a možnosti naskočí jedna po druhé; ✓/✗ naskočí; série 🔥 poskočí při každé další správné odpovědi.

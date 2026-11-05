@@ -90,16 +90,17 @@ Veřejná webová aplikace, ve které kdokoli hraje kvízy z Davidových ověře
 - Hosting: GitHub Pages zdarma, adresa `https://<GitHub účet>.github.io/kviz-web/`.
 
 ## Kritéria přijetí (hotovo pro 1. verzi)
-- [ ] Web běží na GitHub Pages a otevře se na mobilu i PC.
-- [ ] Na šířkách 320, 360, 390, 768 a 1280 px nic nepřetéká do stran a vše je čitelné (ověřeno screenshoty).
-- [ ] Celá cesta funguje: první spuštění → kategorie → téma → obtížnost → otázky → výsledek → hvězdy → odemčení další obtížnosti.
-- [ ] Všechny tři režimy překladu fungují u otázky, možností i vysvětlení; rozhraní je kompletně v CZ i EN (žádný chybějící text).
-- [ ] Pokrok (hvězdy, odemčení, série dní, odznaky, nastavení) přežije zavření a znovuotevření prohlížeče.
-- [ ] Na webu jsou přesně otázky s Web = Ano a ověřeným stavem; správné odpovědi souhlasí se zdrojem (automatický test).
-- [ ] Zvuky i vibrace jdou vypnout; s „omezit pohyb“ se nespouštějí velké animace.
-- [ ] Prohlížeč nestahuje nic z cizích serverů (ověřeno sledováním síťových požadavků).
-- [ ] Postup aktualizace otázek (prompt 03) proběhl aspoň jednou celý: na webu jsou ostrá data (`"rezim": "web"`).
-- [ ] Kontrola v čistém kontextu (prompt 02) nenašla zásadní chybu, nebo jsou zásadní a střední nálezy opravené.
+Zaškrtnuto 2026-11-05 (Fáze 5) – důkazy v `docs/KONTROLA_2026-11-05.md` a v běhu `tools/pruchod.py` (113 kontrol, 2× za sebou); bod 10: zásadní nález žádný, střední S-1 opravený (D-016).
+- [x] Web běží na GitHub Pages a otevře se na mobilu i PC.
+- [x] Na šířkách 320, 360, 390, 768 a 1280 px nic nepřetéká do stran a vše je čitelné (ověřeno screenshoty).
+- [x] Celá cesta funguje: první spuštění → kategorie → téma → obtížnost → otázky → výsledek → hvězdy → odemčení další obtížnosti.
+- [x] Všechny tři režimy překladu fungují u otázky, možností i vysvětlení; rozhraní je kompletně v CZ i EN (žádný chybějící text).
+- [x] Pokrok (hvězdy, odemčení, série dní, odznaky, nastavení) přežije zavření a znovuotevření prohlížeče.
+- [x] Na webu jsou přesně otázky s Web = Ano a ověřeným stavem; správné odpovědi souhlasí se zdrojem (automatický test).
+- [x] Zvuky i vibrace jdou vypnout; s „omezit pohyb“ se nespouštějí velké animace.
+- [x] Prohlížeč nestahuje nic z cizích serverů (ověřeno sledováním síťových požadavků).
+- [x] Postup aktualizace otázek (prompt 03) proběhl aspoň jednou celý: na webu jsou ostrá data (`"rezim": "web"`).
+- [x] Kontrola v čistém kontextu (prompt 02) nenašla zásadní chybu, nebo jsou zásadní a střední nálezy opravené.
 
 ## Otevřené otázky
 - (agent sem zapisuje otázky, které vyžadují Davidovo rozhodnutí)
