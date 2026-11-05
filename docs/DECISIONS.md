@@ -1,6 +1,12 @@
 # DECISIONS – Kvízová webová aplikace
 Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový záznam s odkazem na původní.
 
+## D-018 · 2026-11-05 · Domů: úspěšnost v % místo druhé série dní (KONTROLA – K zvážení 4, Davidovo rozhodnutí)
+- **Rozhodnutí:** prostřední dlaždice na Domů už neukazuje „1 den v řadě“ (série dní zůstává jen v pilulce 🔥 vlevo nahoře), ale **úspěšnost** = správné odpovědi / všechny otázky ve všech dohraných kolech, zaokrouhleno na celá procenta („80 %“ / „80%“). Dokud hráč nic nedohrál, ukazuje „–“. Rozehraná kola se nepočítají.
+- **Kde:** `progress.js` `uspesnost()`, `screens/domu.js`, texty `domu.uspesnost` a `domu.procent` (v češtině s nezlomitelnou mezerou). Nepoužívané texty `domu.serieDni` odstraněny. `pruchod.py` kontroluje „–“ na začátku a 80 % po kole s 2 chybami.
+- **Ostatní body „K zvážení“:** K1 – David témata doplní (prompt 03); K2, K3 – David nic nežádal, zůstávají beze změny; K5 – jen informace.
+- **Kdo:** David (volba), prompt 01 (provedení)
+
 ## D-017 · 2026-11-05 · Sloupec Web i na listu Témata (výběr celého tématu)
 - **Rozhodnutí:** list „Témata“ má dva nové sloupce za „Shorts“: **Web** (rozbalovací seznam Ano / Ne, oranžová hlavička = ruční volba) a **Na webu** (vzorec: kolik otázek tématu má Web = Ano). „List“ se posunul na konec (sloupec P). Když David u tématu změní Web na **Ano** (nebo **Ne**), skript při nejbližším běhu (`sync`, `pridat`, `stav`, `web`, `ohraniceni`, `export`, `prestavet`) nastaví stejnou hodnotu Web u **všech otázek tématu** – v `otazky.json` i v Excelu. Vymazání volby u tématu otázky nemění. Volba tématu je uložená v `otazky.json` jako `t["web"]`, takže přežije přestavbu listu Témata.
 - Otázky se přepisují jen při **změně** volby tématu. Potom jde u jednotlivé otázky Web ručně změnit (např. jednu vyřadit) a další `sync` to nepřepíše.

@@ -57,10 +57,8 @@
       "other": "{n} days"
     },
     "hvezd": "stars",
-    "serieDni": {
-      "one": "day streak",
-      "other": "day streak"
-    },
+    "uspesnost": "correct",
+    "procent": "{n}%",
     "odznaku": "badges",
     "hrat": "Play",
     "bezUkladani": "This browser doesn't allow saving – your progress will be lost when you close the page."

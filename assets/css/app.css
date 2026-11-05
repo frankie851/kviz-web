@@ -97,7 +97,7 @@ p { margin: 0; }
 .btn-sec { background: var(--surface); color: var(--ink); box-shadow: var(--shadow-soft); }
 .btn-sec:hover { background: #FFFBF5; }
 .btn-big { width: 100%; min-height: 58px; font-size: 20px; }
-.btn-cta { width: 100%; min-height: 64px; font-size: 26px; font-weight: 800; box-shadow: 0 10px 22px rgba(194, 37, 92, .32); }
+.btn-cta { width: 100%; min-height: 64px; font-size: 26px; font-weight: 800; box-shadow: 0 6px 8px -6px rgba(194, 37, 92, .5); }
 .cta-ico { font-size: 18px; }
 
 .iconbtn {

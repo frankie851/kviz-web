@@ -1,7 +1,7 @@
-// 2. Domů – logo, Hrát, hvězdy celkem, série dní, Odznaky a Nastavení.
+// 2. Domů – logo, Hrát, hvězdy celkem, série dní (nahoře), úspěšnost v %, Odznaky a Nastavení.
 import { t } from "../i18n.js";
 import { h, logo, wordmark, cislo } from "../ui.js";
-import { hvezdyCelkem, serieDni, pokrok } from "../progress.js";
+import { hvezdyCelkem, serieDni, pokrok, uspesnost } from "../progress.js";
 import { ODZNAKY } from "../badges.js";
 import { ukladaniFunguje } from "../storage.js";
 
@@ -10,6 +10,7 @@ export const ID = "domu";
 export function vykresli() {
   const hv = hvezdyCelkem();
   const dny = serieDni();
+  const usp = uspesnost(); // série dní je jen v pilulce nahoře, dlaždice ukazuje úspěšnost (D-018)
   const odz = Object.keys(pokrok().odznaky).filter((id) => ODZNAKY.some((o) => o.id === id)).length;
 
   const stat = (hodnota, popis, test) =>
@@ -36,7 +37,7 @@ export function vykresli() {
       "div",
       { class: "stats" },
       stat(`${cislo(hv.pul / 2)} / ${cislo(hv.max / 2)}`, t("domu.hvezd"), "hvezdy-celkem"),
-      stat(String(dny), t("domu.serieDni", { n: dny }), "dny"),
+      stat(usp == null ? "–" : t("domu.procent", { n: usp }), t("domu.uspesnost"), "uspesnost"),
       stat(`${odz} / ${ODZNAKY.length}`, t("domu.odznaku"), "odznaky")
     ),
     h("a", { class: "btn btn-primary btn-cta", href: "#/kategorie", "data-test": "hrat" },

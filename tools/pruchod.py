@@ -280,6 +280,7 @@ def scenar_hry(page, zaklad, otazky, temata):
     page.wait_for_selector("[data-test=hrat]")
     over(page.url.endswith("#/"), "po 2 krocích je hráč Domů")
     over(page.inner_text("[data-test=hvezdy-celkem]").startswith("0"), "na začátku 0 hvězd")
+    over(page.inner_text("[data-test=uspesnost]").startswith("–"), "na začátku úspěšnost „–“")
     bez_chybejicich_textu(page, "Domů")
 
     print("Kategorie → téma → Lehká:")
@@ -319,7 +320,11 @@ def scenar_hry(page, zaklad, otazky, temata):
     over(page.inner_text("[data-test=skore]").startswith(f"{s} / {n}"), "výsledek po obnovení zůstal")
     jdi(page, zaklad, "#/")
     over(page.inner_text("[data-test=hvezdy-celkem]").startswith(f"{ocekavane(s, n)[0]} /"), "Domů: hvězdy celkem i po obnovení")
-    over(page.inner_text("[data-test=dny]").startswith("1"), "série dní = 1")
+    over("1" in page.inner_text("[data-test=serie-dni]"), "série dní = 1 (pilulka nahoře)")
+    usp = round(s / n * 100)
+    over(page.inner_text("[data-test=uspesnost]").startswith(f"{usp}\u00a0%") or page.inner_text("[data-test=uspesnost]").startswith(f"{usp} %"),
+         f"Domů: úspěšnost {usp} % místo série dní")
+    over(page.locator("[data-test=dny]").count() == 0, "série dní není na Domů dvakrát")
     jdi(page, zaklad, f"#/tema/{T}")
     over([stav_obtiznosti(page, o) for o in "123"] == ["dohrano", "otevreno", "zamceno"], "Lehká dohraná, Střední otevřená")
     jdi(page, zaklad, f"#/hra/{T}/1")
