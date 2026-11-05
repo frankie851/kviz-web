@@ -1,10 +1,18 @@
 // 7. Výsledek kola – skóre, 0–5 hvězd (po půlkách), odemčení, nové odznaky.
 // Tlačítka: Další obtížnost (když se odemkla) / Prohlédnout odpovědi / Zpět na témata. Kolo se neopakuje (D-013).
+// Oslava jen při prvním zobrazení (cerstvy): hvězdy naskakují se zvukem jedna po druhé, pak zvuk
+// podle výsledku, nové odznaky a při 100 % (5 ★) konfety. Obnovení stránky už oslavu neopakuje.
 import { t, jazyk } from "../i18n.js";
-import { h, hvezdicky } from "../ui.js";
+import { h, hvezdicky, prefersReducedMotion } from "../ui.js";
 import { najdiTema, txt } from "../data.js";
-import { nacti } from "../storage.js";
+import { nacti, uloz } from "../storage.js";
 import { odznak } from "../badges.js";
+import { zvuk, vibrace } from "../feedback.js";
+import { konfety, zastavKonfety } from "../oslavy.js";
+
+// časování musí sedět s CSS (.stars-big .star: začátek --res-d0, rozestup --res-krok)
+const ZACATEK = 0.3;
+const KROK = 0.16;
 
 export const ID = "vysledek";
 
@@ -61,5 +69,38 @@ export function vykresli() {
         h("span", { "aria-hidden": "true", text: "📖 " }), t("vysledek.prehled")),
       h("a", { class: "btn btn-sec btn-big", href: `#/kategorie/${kategorie.id}`, "data-test": "zpet-temata" }, t("vysledek.zpetTemata")))
   );
-  return { el, titulek: t("vysledek.titulek") };
+  const casovace = [];
+  if (v.cerstvy) {
+    uloz("posledni", { ...v, cerstvy: false });
+    casovace.push(...oslava(v, nove.length));
+  }
+  return {
+    el,
+    titulek: t("vysledek.titulek"),
+    uklid: () => {
+      casovace.forEach(clearTimeout);
+      zastavKonfety();
+    },
+  };
+}
+
+/** Zvuky, vibrace a konfety k čerstvému výsledku. Vrátí časovače (zruší se při odchodu z obrazovky). */
+function oslava(v, noveOdznaky) {
+  const plnych = Math.floor(v.pul / 2);
+  const pul = v.pul % 2 === 1;
+  const hvezd = plnych + (pul ? 1 : 0);
+  const rychle = prefersReducedMotion(); // bez animace hvězd zazní jen závěrečný zvuk
+  if (!rychle) {
+    for (let i = 0; i < hvezd; i++) zvuk("hvezda", { i, pul: i === plnych }, ZACATEK + i * KROK + 0.25);
+  }
+  const konec = rychle ? 0 : ZACATEK + hvezd * KROK + 0.3;
+  const druh = v.pul >= 10 ? "fanfara" : v.pul >= 7 ? "dobre" : "slabe";
+  zvuk(druh, {}, konec);
+  const casovace = [setTimeout(() => vibrace(druh), konec * 1000)];
+  if (noveOdznaky) {
+    casovace.push(setTimeout(() => vibrace("odznak"), (konec + 0.8) * 1000));
+    zvuk("odznak", {}, konec + 0.8);
+  }
+  if (v.pul >= 10) casovace.push(setTimeout(() => konfety(), Math.max(0, konec - 0.2) * 1000));
+  return casovace;
 }

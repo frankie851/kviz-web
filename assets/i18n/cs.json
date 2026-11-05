@@ -145,7 +145,8 @@
     "nadpis": "Odznaky",
     "pocet": "Získáno {n} z {z}",
     "ziskano": "Získáno {datum}",
-    "zamceno": "Zatím nezískáno"
+    "zamceno": "Zatím nezískáno",
+    "novy": "Nový!"
   },
   "odznak": {
     "prvni-kolo": {
@@ -224,5 +225,8 @@
     "nadpis": "Historie",
     "popis": "Dohraná kola – ťukni a projdi si otázky i odpovědi.",
     "prazdna": "Zatím nemáš dohrané žádné kolo."
+  },
+  "oslavy": {
+    "novyOdznak": "Nový odznak!"
   }
 }

@@ -11,8 +11,10 @@ výsledek, hvězdy (5, po půlkách), odemčení Střední od 70 %; obnovení st
 dohrané kolo nejde hrát znovu, jen prohlédnout; rozehrané kolo přežije odchod i obnovení;
 pod 70 % zůstane další obtížnost zamčená natrvalo; historie; ovládání klávesnicí;
 všechny tři režimy překladu u otázky, možností, vysvětlení i v přehledu odpovědí; jazyk otázek;
-přepnutí rozhraní CZ ↔ EN bez chybějících textů; žádné chyby v konzoli; žádný síťový požadavek
-mimo vlastní adresu. Pak screenshoty 7 obrazovek na šířkách 320, 360, 390, 768 a 1280 px
+přepnutí rozhraní CZ ↔ EN bez chybějících textů; zvuky a vibrace se ozvou a jdou vypnout;
+upozornění na nový odznak během kola; konfety jen při 100 % a jen poprvé (ne po obnovení);
+s „omezit pohyb“ žádné animace ani konfety; náhled odkazu (Open Graph) a ikony; žádné chyby
+v konzoli; žádný síťový požadavek mimo vlastní adresu. Pak screenshoty 7 obrazovek na šířkách 320, 360, 390, 768 a 1280 px
 a kontrola, že nic nepřetéká do stran. Potřebuje aspoň 3 témata se všemi obtížnostmi.
 
 Návratový kód 0 = vše prošlo, 1 = něco selhalo (vypíše co).
@@ -141,6 +143,32 @@ class Hlidac:
         page.on("request", lambda r: None if r.url.startswith(self.zaklad) or r.url.startswith("data:") else self.cizi.append(r.url))
 
 
+# Počítadla pro kontroly, které nejdou vidět ani slyšet: tóny Web Audio, vibrace, upozornění, konfety.
+# (Prohlížeč se jen „odposlouchává“ – zvuk se dál vytváří normálně, vibrace se jen započítá.)
+SLEDOVANI = """
+(() => {
+  window.__osc = 0; window.__vib = 0; window.__toasty = []; window.__konfety = 0;
+  const AC = window.AudioContext;
+  if (AC) {
+    const puvodni = AC.prototype.createOscillator;
+    AC.prototype.createOscillator = function () { window.__osc++; return puvodni.call(this); };
+  }
+  navigator.vibrate = () => { window.__vib++; return true; };
+  new MutationObserver((zmeny) => {
+    for (const z of zmeny) for (const n of z.addedNodes) {
+      if (n.nodeType !== 1) continue;
+      if (n.matches('.toast')) window.__toasty.push(n.dataset.odznak);
+      if (n.matches('.konfety')) window.__konfety++;
+    }
+  }).observe(document, { childList: true, subtree: true });
+})();
+"""
+
+
+def pocty(page):
+    return page.evaluate("() => ({ osc: window.__osc, vib: window.__vib, toasty: window.__toasty.slice(), konfety: window.__konfety })")
+
+
 def jdi(page, zaklad, hash_):
     page.goto(zaklad + hash_)
     page.wait_for_selector("#app main", timeout=10000)
@@ -264,6 +292,12 @@ def scenar_hry(page, zaklad, otazky, temata):
     over(page.locator("[data-test=odemceno]").count() == 1, "„Odemčeno: Střední“ (od 70 %)")
     over(page.locator("[data-test=nove-odznaky]").count() == 1 and "První kolo" in page.inner_text("[data-test=nove-odznaky]"), "nový odznak První kolo")
     over(page.locator("[data-test=znovu]").count() == 0, "tlačítko Znovu není")
+    c = pocty(page)
+    over("rada-5" in c["toasty"], "během kola upozornění „Nový odznak: Rozjetý“ (5 správně za sebou)")
+    over("Rozjetý" in page.inner_text("[data-test=nove-odznaky]"), "odznak získaný během kola je i mezi novými na výsledku")
+    over(c["osc"] > 0 and c["vib"] > 0, f"zvuky ({c['osc']} tónů) a vibrace ({c['vib']}×) se ozvaly")
+    page.wait_for_timeout(1800)
+    over(pocty(page)["konfety"] == 0, "při 80 % žádné konfety")
     bez_chybejicich_textu(page, "Výsledek")
 
     print("Obnovení stránky a zákaz opakování:")
@@ -305,6 +339,18 @@ def scenar_hry(page, zaklad, otazky, temata):
     over(page.inner_text("[data-test=pocitadlo]").startswith("4 /"), "znovu otevřené kolo pokračuje 4. otázkou")
     n3 = zahraj_kolo(page, otazky, spatnych=0)
     over(hvezdy_vysledku(page) == (5, 0), "bez chyby = 5 hvězd")
+    over("rada-10" in pocty(page)["toasty"], "během kola upozornění „Nový odznak: Neomylný“ (10 za sebou)")
+    try:
+        page.wait_for_function("window.__konfety > 0", timeout=4000)
+        ok("při 100 % (5 ★) padají konfety")
+    except Exception:
+        chyba("při 100 % (5 ★) nejsou konfety")
+    page.wait_for_selector(".pul-10 .stars-big")
+    page.reload()
+    page.wait_for_selector("[data-test=skore]")
+    page.wait_for_timeout(2500)
+    c = pocty(page)
+    over(c["konfety"] == 0 and c["osc"] == 0, "po obnovení stránky se oslava (konfety, zvuky) neopakuje")
     nove = page.inner_text("[data-test=nove-odznaky]")
     over("Bez chyby" in nove and "Na vrcholu" in nove and "Neomylný" in nove, "odznaky Bez chyby, Na vrcholu a Neomylný")
     over(page.locator("[data-test=dalsi-obtiznost]").count() == 0, "po Těžké už není další obtížnost")
@@ -433,11 +479,79 @@ def zodpovez_libovolne(page):
     page.wait_for_selector("[data-test=vysvetleni]")
 
 
+def scenar_zvuku(page, zaklad, otazky, T):
+    print("Zvuky a vibrace jdou vypnout:")
+    zacni_kolo(page, zaklad, T)
+    c0 = pocty(page)
+    zodpovez(page, otazky)
+    c1 = pocty(page)
+    over(c1["osc"] > c0["osc"] and c1["vib"] > c0["vib"], "zapnuto: odpověď má zvuk i vibraci")
+    ukonci_kolo(page)
+    jdi(page, zaklad, "#/nastaveni")
+    page.click("#nast-zvuky")
+    page.click("#nast-vibrace")
+    over(page.get_attribute("#nast-zvuky", "aria-checked") == "false" and page.get_attribute("#nast-vibrace", "aria-checked") == "false", "vypínače Zvuky a Vibrace vypnuté")
+    zacni_kolo(page, zaklad, T)
+    c0 = pocty(page)
+    zodpovez(page, otazky, spravne=False)
+    c1 = pocty(page)
+    over(c1["osc"] == c0["osc"] and c1["vib"] == c0["vib"], "vypnuto: odpověď bez zvuku i vibrace")
+    ukonci_kolo(page)
+    jdi(page, zaklad, "#/nastaveni")
+    c0 = pocty(page)
+    page.click("#nast-zvuky")
+    page.click("#nast-vibrace")
+    c1 = pocty(page)
+    over(c1["osc"] > c0["osc"] and c1["vib"] > c0["vib"], "po zapnutí zazní ukázka zvuku a vibrace")
+    page.reload()
+    page.wait_for_selector("#nast-zvuky")
+    over(page.get_attribute("#nast-zvuky", "aria-checked") == "true", "nastavení zvuků přežije obnovení stránky")
+
+
+def scenar_omezit_pohyb(browser, zaklad, hlidac, otazky, T):
+    print("„Omezit pohyb“ (prefers-reduced-motion):")
+    ctx = browser.new_context(viewport={"width": 390, "height": 844}, locale="cs-CZ", reduced_motion="reduce")
+    ctx.add_init_script(SLEDOVANI)
+    page = ctx.new_page()
+    page.set_default_timeout(8000)
+    hlidac.pripoj(page)
+    page.goto(zaklad)
+    page.evaluate("s => localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(s))",
+                  {"ui": "cs", "otazky": "cs", "preklad": "vypnuto", "zvuky": True, "vibrace": True})
+    page.reload()
+    zacni_kolo(page, zaklad, T)
+    over(page.evaluate("getComputedStyle(document.querySelector('.qcard')).animationName") == "none", "otázka přijede bez animace")
+    zahraj_kolo(page, otazky, spatnych=0)
+    over(hvezdy_vysledku(page) == (5, 0), "kolo bez chyby = 5 ★")
+    page.wait_for_timeout(2000)
+    c = pocty(page)
+    over(c["konfety"] == 0, "při 100 % se konfety nespustí")
+    over(page.evaluate("getComputedStyle(document.querySelector('.stars-big .star.on')).animationName") == "none"
+         and page.evaluate("getComputedStyle(document.querySelector('.stars-big'), '::before').animationName") == "none",
+         "hvězdy a paprsky bez animace")
+    over(c["osc"] > 0, "zvuk (ne pohyb) zůstává")
+    ctx.close()
+
+
+def kontrola_nahledu_odkazu():
+    print("Náhled odkazu (Open Graph) a ikony:")
+    html = (KOREN / "index.html").read_text(encoding="utf-8")
+    meta = dict(re.findall(r'<meta (?:property|name)="([\w:]+)" content="([^"]*)"', html))
+    over(all(k in meta for k in ("og:title", "og:type", "og:url", "og:image", "og:image:alt", "og:description")), "index.html má og:title, og:type, og:url, og:image, og:image:alt, og:description")
+    over(meta.get("og:image", "").startswith("https://") and meta["og:image"].endswith("/assets/img/og.png"), "og:image je absolutní adresa na assets/img/og.png")
+    png = (KOREN / "assets/img/og.png").read_bytes()
+    w, h = int.from_bytes(png[16:20], "big"), int.from_bytes(png[20:24], "big")
+    over((w, h) == (int(meta.get("og:image:width", 0)), int(meta.get("og:image:height", 0))) == (1200, 630), f"og.png má {w}×{h} px a souhlasí s og:image:width/height")
+    for f in re.findall(r'<link rel="(?:icon|apple-touch-icon)" href="([^"]+)"', html):
+        over((KOREN / f).exists() and not f.startswith("/"), f"ikona {f} existuje (relativní cesta)")
+
+
 def scenar_odznaku_a_nastaveni(page, zaklad):
     print("Odznaky a Nastavení:")
     jdi(page, zaklad, "#/odznaky")
     over(page.locator(".bcard").count() >= 10, f"{page.locator('.bcard').count()} odznaků na obrazovce Odznaky")
     over(page.locator(".bcard.earned").count() >= 5, f"{page.locator('.bcard.earned').count()} získaných odznaků je označených")
+    over(page.locator(".bcard.is-new .bcard-new").count() == page.locator(".bcard.earned").count(), "dnes získané odznaky mají štítek „Nový!“")
     bez_chybejicich_textu(page, "Odznaky")
     jdi(page, zaklad, "#/nastaveni")
     txt = text_stranky(page)
@@ -471,7 +585,7 @@ def screenshoty(browser, zaklad, hlidac, otazky, T, vystup):
                 zodpovez(page, otazky, spravne=False)
                 page.mouse.move(0, 0)
                 page.wait_for_timeout(400)
-            page.wait_for_timeout(900)  # animace hvězd
+            page.wait_for_timeout(2000 if nazev == "4-vysledek" else 900)  # animace hvězd a výsledku
             pretek = page.evaluate("""() => {
                 const W = document.documentElement.clientWidth, out = [];
                 if (document.documentElement.scrollWidth > W + 1) out.push('stránka ' + document.documentElement.scrollWidth + ' > ' + W);
@@ -504,6 +618,7 @@ def main():
         return 2
 
     kontrola_textu()
+    kontrola_nahledu_odkazu()
     index, otazky, temata = nacti_data()
     if len(temata) < 3:
         print("Průchod potřebuje aspoň 3 témata se všemi třemi obtížnostmi (3+ otázek).")
@@ -521,6 +636,7 @@ def main():
     with sync_playwright() as p:
         browser = spust_prohlizec(p)
         ctx = browser.new_context(viewport={"width": 390, "height": 844}, locale="cs-CZ")
+        ctx.add_init_script(SLEDOVANI)
         page = ctx.new_page()
         page.set_default_timeout(8000)
         hlidac.pripoj(page)
@@ -529,6 +645,8 @@ def main():
             lambda: scenar_prekladu(page, zaklad, otazky, tema3["id"], tema["id"]),
             lambda: scenar_jazyka(page, zaklad, tema3["id"], tema["id"], kat["id"]),
             lambda: scenar_odznaku_a_nastaveni(page, zaklad),
+            lambda: scenar_zvuku(page, zaklad, otazky, tema3["id"]),
+            lambda: scenar_omezit_pohyb(browser, zaklad, hlidac, otazky, tema["id"]),
         ]
         for krok in kroky:
             try:
