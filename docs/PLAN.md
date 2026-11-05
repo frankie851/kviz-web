@@ -39,9 +39,9 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☑ (2026-11-05) Zvuky (generované ve Web Audio, vypínatelné) a vibrace (kde je prohlížeč podporuje; jinde potichu nic). – D-015
 - ☑ (2026-11-05) Odznaky (finální seznam do DECISIONS.md), obrazovka Odznaky, upozornění na nový odznak. – D-014, D-015
 - ☑ (2026-11-05) Favicon, titulek stránky, náhled pro sdílení odkazu (Open Graph obrázek v barvách značky). – `assets/img/og.png`, `tools/og_obrazek.py`
-- ◐ (2026-11-05) Kompletní ověření (prompt 01, část „Ověření“) a nasazení. – `test_export.py` i `pruchod.py` (106 kontrol, 7 obrazovek × 5 šířek) prošly; změny čekají v pull requestu na sloučení Davidem; online ověření z cloudu nejde (síť nepustí github.io).
+- ☑ (2026-11-05) Kompletní ověření (prompt 01, část „Ověření“) a nasazení. – `test_export.py` i `pruchod.py` (106 kontrol, 7 obrazovek × 5 šířek) prošly; pull request #1 sloučený do `main`; nasazenou verzi David vyzkoušel na mobilu – bez připomínek (z cloudu online ověření nejde, síť nepustí github.io).
 
-**⏸ Kontrolní bod:** napiš Davidovi, ať v prostředí B spustí prompt 02 (kontrola). → HANDOFF, konec sezení.
+**⏸ Kontrolní bod:** ☑ (2026-11-05) David sloučil změny a vyzkoušel Fázi 3 na mobilu: „bez připomínek“. Další: prompt 02 (kontrola) v prostředí B. → HANDOFF, konec sezení.
 
 ## Fáze 4 – Kontrola (prompt 02, prostředí B)
 - ☐ `docs/KONTROLA_RRRR-MM-DD.md` s verdiktem a nálezy (zapisuje a odškrtává kontrolor; kdyby to nestihl, odškrtne prompt 01 podle existence zprávy).
@@ -52,4 +52,4 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☐ Závěrečná zpráva Davidovi + zaškrtnout kritéria přijetí ve SPEC.
 
 ## Stav
-Poslední aktualizace: 2026-11-05 · Aktuální fáze: 3 hotová → kontrolní bod (David sloučí pull request, vyzkouší na mobilu, pak prompt 02 v prostředí B) · Blokováno: nic; online ověření z cloudu nejde (síť nepustí github.io)
+Poslední aktualizace: 2026-11-05 · Aktuální fáze: 4 – kontrola (prompt 02, prostředí B); Fáze 3 i její kontrolní bod uzavřené · Blokováno: nic; online ověření z cloudu nejde (síť nepustí github.io)
