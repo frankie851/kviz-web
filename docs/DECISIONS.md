@@ -1,6 +1,27 @@
 # DECISIONS – Kvízová webová aplikace
 Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový záznam s odkazem na původní.
 
+## D-012 · 2026-11-05 · Co z „chytlavosti“ je už ve Fázi 2
+- **Rozhodnutí:** Fáze 2 obsahuje i jednoduché verze věcí, které PLAN řadí do Fáze 3, protože bez nich by obrazovky 6–9 nefungovaly celé: obrazovka Odznaky a vyhodnocování odznaků (seznam D-011), krátké zvuky generované ve Web Audio (správně / špatně / konec kola), vibrace (`navigator.vibrate`, kde ho prohlížeč má), vypínače v Nastavení, drobné animace (hvězdy na výsledku, „zatřesení“ u špatné odpovědi) a logo jako ikona v záložce. Všechny animace vypíná systémové „omezit pohyb“.
+- **Pro Fázi 3 zůstává:** konfety při ★★★, výraznější přechody mezi obrazovkami a animace, vyladění zvuků, upozornění na nový odznak během hry, Open Graph obrázek a náhled odkazu, finální kontrola seznamu odznaků s Davidem.
+- **Proč:** David má na kontrolním bodě Fáze 2 vyzkoušet celou hru, jak ji SPEC popisuje (obrazovky 1–9), ne polotovar.
+- **Kdo:** prompt 01
+
+## D-011 · 2026-11-05 · Seznam odznaků (12)
+- **Rozhodnutí:** 🎉 První kolo · 💎 Bez chyby (★★★ v kole) · 🔥 Rozjetý (5 správně za sebou v kole) · ⚡ Neomylný (10 za sebou) · 🏔️ Na vrcholu (★★ v Těžké) · 🧭 Objevitel (3 dohraná témata) · 🌟 Hvězda tématu (všechny hvězdy v tématu) · 👑 Král kategorie (všechny hvězdy v kategorii) · 📅 Tři dny v řadě · 🗓️ Celý týden (7 dní) · 🌍 Polyglot (kolo v jiném jazyce, než je můj) · 🦉 Bez nápovědy (kolo v cizím jazyce za ★★+, překlad na ťuknutí, ani jednou neotevřený). Definice v `assets/js/badges.js`, názvy a popisy v i18n (`odznak.<id>`).
+- **Proč:** inspirace ze SPEC; „5 dohraných témat“ změněno na **3**, protože na webu jsou zatím jen 4 témata. Přidán „Na vrcholu“, aby měla smysl i Těžká obtížnost.
+- **Kdo:** prompt 01 (Fáze 3 může seznam s Davidem doladit)
+
+## D-010 · 2026-11-05 · Technické řešení aplikace (Fáze 2)
+- **Struktura:** jedna stránka `index.html`, ES moduly v `assets/js/` (jedna obrazovka = jeden soubor v `screens/`), styl `assets/css/app.css`, písma Baloo 2 + Nunito v `assets/fonts/` i s licencemi OFL, logo `assets/img/logo.svg`. Bez frameworku a bez build kroku.
+- **Adresy (hash):** `#/` Domů · `#/vitej` první spuštění · `#/kategorie` · `#/kategorie/<id>` témata · `#/tema/<ID>` obtížnost · `#/hra/<ID>/<1–3>` kolo · `#/vysledek` · `#/odznaky` · `#/nastaveni`. Rozehrané kolo se při obnovení stránky začne znovu (jednoduché, kolo je krátké). Na výsledek se jde „bez záznamu v historii“, takže tlačítko Zpět z výsledku nevrací do dohraného kola.
+- **Ukládání (localStorage):** `kviz.v1.nastaveni` (jazyk rozhraní, jazyk otázek, překlad, zvuky, vibrace), `kviz.v1.pokrok` (nejlepší výsledek po tématech a obtížnostech, série dní, statistiky, odznaky s datem), `kviz.v1.posledni` (poslední výsledek – aby obrazovka Výsledek přežila obnovení). „Smazat pokrok“ maže pokrok a poslední výsledek, nastavení nechá.
+- **Jazyky:** jazyk prohlížeče předvyplní češtinu u českých a slovenských prohlížečů, jinak angličtinu. Jazyk překladu = můj jazyk, když otázky běží v jiném, jinak druhý jazyk. Názvy kategorií a témat se ukazují v jazyce rozhraní. Nadpis „Věděli jste?“ je v jazyce rozhraní.
+- **Nejlepší výsledek:** víc hvězd, při shodě vyšší podíl správných. Hvězdy se počítají celočíselně (`správně × 10 ≥ počet × 9` atd.), aby nevznikla chyba zaokrouhlení.
+- **Mezipaměť:** index se načítá s `cache: no-cache`, soubory témat s `?v=<datum exportu>` – po aktualizaci otázek hráči uvidí nová data.
+- **Ověření:** `tools/pruchod.py` (Playwright v Pythonu, vlastní server) – příkaz v `CLAUDE.md`.
+- **Kdo:** prompt 01
+
 ## D-009 · 2026-11-04 · Zvolená značka: A „Oho!“
 - **Rozhodnutí:** David vybral variantu **A Oho!** beze změn: název „Oho!“, logo `design/logo-a-oho.svg` (bublina s vykřičníkem a jiskrou), paleta Malina #C2255C (hlavní tlačítka, bílý text), Slunce #FFC53D, Krém #FFF6EA (pozadí), Švestka #2B1630 (text), tlumený text #6E5466, překlad #7A5F70, Správně #1E9E5A / #DDF5E6, Špatně #D9363E / #FDE2E2; písma Baloo 2 (nadpisy, tlačítka) + Nunito (texty); zaoblená „pilulková“ tlačítka, karty s poloměrem 22 px, dekorativní kruhy v rozích. Přesné hodnoty jsou v `design/index.html` (třída `.v-a`).
 - **Pro Fázi 2:** písma Baloo 2 a Nunito (i s licencemi OFL) přesunout do `assets/fonts/`; ostatní písma z `design/fonts/` aplikace nepoužívá.

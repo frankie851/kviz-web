@@ -23,13 +23,13 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☑ (2026-11-04, už v promptu 00) `data/` obsahuje Davidův výběr (`"rezim": "web"`: T146, T172, T204, T254 – 120 otázek), test s `--zdroj` prošel. Prompt 03 je potřeba až ve chvíli, kdy David v Excelu označí další otázky.
 
 ## Fáze 2 – Základ aplikace (prompt 01, prostředí A)
-- ☐ Ověřit ostrá data (`"rezim": "web"`, aspoň 3 témata s obtížností o 3+ otázkách); jinak ⏸ a požádat o prompt 03.
-- ☐ Design systém zvolené značky v CSS (barvy, písmo, tlačítka, karty, rozestupy); písmo uložené v repozitáři.
-- ☐ Obrazovky 1–9 podle SPEC, navigace přes hash, texty rozhraní CZ/EN.
-- ☐ Logika kola, hvězd, odemykání, série, série dní; ukládání pokroku a nastavení.
-- ☐ Jazyková nastavení (3 režimy překladu) včetně vysvětlení.
-- ☐ Automatický průchod hrou a screenshoty 5 šířek jako opakovatelný nástroj `tools/pruchod.py` (Playwright); příkaz doplnit do `CLAUDE.md` (spoléhá na něj i prompt 03 a kontrola). Opravit nálezy.
-- ☐ Nasadit (push do `main`, případně pull request ke sloučení) a ověřit online.
+- ☑ (2026-11-05) Ověřit ostrá data (`"rezim": "web"`, aspoň 3 témata s obtížností o 3+ otázkách); jinak ⏸ a požádat o prompt 03. – 4 témata po 10/10/10, `test_export.py` prošel.
+- ☑ (2026-11-05) Design systém zvolené značky v CSS (barvy, písmo, tlačítka, karty, rozestupy); písmo uložené v repozitáři. – `assets/css/app.css`, Baloo 2 + Nunito v `assets/fonts/`.
+- ☑ (2026-11-05) Obrazovky 1–9 podle SPEC, navigace přes hash, texty rozhraní CZ/EN.
+- ☑ (2026-11-05) Logika kola, hvězd, odemykání, série, série dní; ukládání pokroku a nastavení. (Navíc už základ odznaků, zvuků a vibrací – D-012.)
+- ☑ (2026-11-05) Jazyková nastavení (3 režimy překladu) včetně vysvětlení.
+- ☑ (2026-11-05) Automatický průchod hrou a screenshoty 5 šířek jako opakovatelný nástroj `tools/pruchod.py` (Playwright); příkaz doplnit do `CLAUDE.md` (spoléhá na něj i prompt 03 a kontrola). Opravit nálezy. – 65 kontrol prošlo, nic nepřetéká.
+- ◐ (2026-11-05) Nasadit (push do `main`, případně pull request ke sloučení) a ověřit online. – kód je v `main`; online ověření z cloudu nejde (síť nepustí github.io), ověří David na mobilu.
 
 **⏸ Kontrolní bod:** David vyzkouší aplikaci na svém mobilu a připomínky napíše v téže relaci (nebo pod prompt v příští relaci); zapsat je do HANDOFF a zapracovat na začátku Fáze 3. → HANDOFF, konec sezení.
 
@@ -52,4 +52,4 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☐ Závěrečná zpráva Davidovi + zaškrtnout kritéria přijetí ve SPEC.
 
 ## Stav
-Poslední aktualizace: 2026-11-04 · Aktuální fáze: 2 (Fáze 1 hotová, značka Oho!) · Blokováno: nic (ostrá data jsou v `data/`); GitHub Pages zapíná David ručně, z cloudu web ověřit nejde
+Poslední aktualizace: 2026-11-05 · Aktuální fáze: 2 hotová → ⏸ kontrolní bod (David zkouší aplikaci na mobilu) · Blokováno: nic; online ověření z cloudu nejde (síť nepustí github.io)
