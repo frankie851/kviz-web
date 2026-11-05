@@ -1,8 +1,8 @@
 # HANDOFF – Kvízová webová aplikace
-datum: 2026-11-05 · předává: prompt 01 (Fáze 2, prostředí A) · přebírá: prompt 01 (Fáze 3, prostředí A – Claude Code v cloudu)
+datum: 2026-11-05 · předává: prompt 01 (Fáze 3, prostředí A) · přebírá: prompt 02 (Fáze 4 – kontrola, prostředí B), pak prompt 01 (Fáze 5, prostředí A)
 
 ## Stav jednou větou
-Fáze 2 je hotová a první Davidovy připomínky jsou zapracované (nová pravidla D-013: 5 hvězd po půlkách, každá obtížnost jen jednou, přehled odpovědí a Historie, odemčení od 70 %, bez Smazat pokrok); David novou verzi vyzkoušel „bez připomínek“ – kontrolní bod je uzavřený, další je Fáze 3.
+Fáze 3 (chytlavost) je hotová a ověřená automatickým průchodem (106 kontrol); změny jsou v pull requestu do `main`, který musí David sloučit – pak vyzkouší na mobilu a spustí kontrolu (prompt 02) v prostředí B.
 
 ## Stav dat
 - 2026-11-04 – 35 otázek, 1 téma (T001 Chobotnice a další hlavonožci), režim vzorek
@@ -11,33 +11,41 @@ Fáze 2 je hotová a první Davidovy připomínky jsou zapracované (nová pravi
 ## Hotovo
 - Fáze 0 (prompt 00, prostředí B): dokumenty, export a test dat, ostrá data, zástupná stránka – podrobnosti v PLAN a DECISIONS D-003 až D-007.
 - Fáze 1 (2026-11-04): 3 návrhy značky v `design/`, David vybral **A Oho!** (D-009).
-- Fáze 2 (2026-11-05):
-  - Aplikace: `index.html`, `assets/css/app.css`, `assets/js/` (moduly, mapa v `CLAUDE.md`), texty `assets/i18n/cs.json` + `en.json` (129 klíčů, oba stejné), písma a logo v `assets/`. Technické volby D-010, odznaky D-011, co je už z Fáze 3 hotové D-012.
-  - `tools/pruchod.py` – 65 kontrol prošlo (celá cesta, obnovení stránky, klávesnice, 3 režimy překladu, jazyk otázek, CZ ↔ EN, smazání pokroku, konzole bez chyb, žádné cizí požadavky); screenshoty 5 obrazovek × 5 šířek bez přetékání. `python3 tools/test_export.py` prošel.
-  - Náhledy pro Davida: `docs/nahledy/faze2-*.png`.
-  - Připomínky Davida (2026-11-05) zapracované – D-013: nové `screens/prehled.js` a `screens/historie.js`, pravidla v `game.js`, pokrok verze 2 v `progress.js` (výsledky s odpověďmi, rozehraná kola). `tools/pruchod.py` přepsaný na nová pravidla: 82 kontrol prošlo, 7 obrazovek × 5 šířek bez přetékání.
+- Fáze 2 (2026-11-05): aplikace (obrazovky 1–9 + Přehled a Historie), pravidla D-013 (5 hvězd po půlkách, každá obtížnost jen jednou, odemčení od 70 %), `tools/pruchod.py`. David: „bez připomínek“.
+- Fáze 3 (2026-11-05) – D-014 (finální odznaky), D-015 (vše ostatní):
+  - přechody mezi obrazovkami podle směru, postupné naskakování seznamů, animace otázek, ✓/✗, série 🔥;
+  - výsledek: hvězdy se zvukem jedna po druhé, zvuk podle výsledku, při 100 % konfety a zlaté paprsky; oslava jen při prvním zobrazení (`assets/js/oslavy.js`, `screens/vysledek.js`);
+  - zvuky přepracované (`feedback.js`): kompresor, stoupající tón se sérií, měkčí „vedle“, ukázka po zapnutí v Nastavení;
+  - odznaky Rozjetý a Neomylný se udělí hned během kola s upozorněním nahoře; štítek „Nový!“ na obrazovce Odznaky;
+  - náhled odkazu: `assets/img/og.png` + značky Open Graph v `index.html`, ikony `apple-touch-icon.png` a `icon-32.png` (vyrábí `tools/og_obrazek.py`);
+  - `tools/pruchod.py` rozšířený: zvuky/vibrace jdou vypnout, upozornění na odznak, konfety jen při 100 % a ne po obnovení, „omezit pohyb“, značky náhledu odkazu → **106 kontrol prošlo**, 7 obrazovek × 5 šířek bez přetékání; `test_export.py` prošel;
+  - náhledy pro Davida: `docs/nahledy/faze3-*.png`.
 
 ## Rozpracováno
-- **Online ověření:** z cloudu nejde – síť prostředí A nepustí `frankie851.github.io` (curl 403, WebFetch „ENOTFOUND“). Ověří David na mobilu. Pokud by to šlo povolit: síťové nastavení cloudového prostředí → přidat doménu `frankie851.github.io`; pak `python3 tools/pruchod.py --url https://frankie851.github.io/kviz-web/` projde i nasazený web.
-- **Vlastní zařízení:** zvuky a vibrace se v Chromiu bez hlavy nedají slyšet/cítit – ověří David na telefonu (iPhone vibrace v prohlížeči nemá vůbec; to je v pořádku, „potichu nic“).
+- **Pull request do `main`** z větve `claude/happy-cannon-9g2ef0` – web se aktualizuje až po sloučení Davidem.
+- **Online ověření:** z cloudu nejde – síť prostředí A nepustí `frankie851.github.io` (ani ogp.me). Ověří David na mobilu; prompt 02 může spustit `python3 tools/pruchod.py --url https://frankie851.github.io/kviz-web/`.
+- **Vlastní zařízení:** zvuky a vibrace v Chromiu bez hlavy nejde slyšet/cítit (test jen počítá, že se spustily) – poslech ověří David na telefonu. iPhone vibrace v prohlížeči nemá (je to v pořádku, „potichu nic“).
+- **Náhled odkazu** ověří až sdílení nasazené adresy (např. poslat si odkaz ve WhatsAppu/Messengeru). Sítě si náhled pamatují – kdyby ukazovaly starou zástupnou stránku, chce to chvíli počkat.
 
 ## Další krok
-1. Fáze 3 – prompt 01 v Claude Code (Cloud environment). Připomínky z Fáze 2 jsou hotové (D-013). Zbývá: konfety při 5 ★ (100 %), přechody mezi obrazovkami, animace hvězd (teď 5 a půlky), vyladění zvuků, upozornění na nový odznak během hry, Open Graph obrázek a náhled odkazu; finální seznam odznaků (D-011 + změny D-013) zapsat do DECISIONS. Pozor: SPEC mluví o „konfetách při ★★★“ – podle D-013 to znamená 100 % (5 ★). Favicon (logo) už je.
-2. Při ověření spouštět `python3 tools/pruchod.py` (82 kontrol) – při změnách pravidel ho upravit.
-3. Prompt 03 (prostředí B) jen tehdy, když David v Excelu označí další otázky Web = Ano. Po exportu má prompt 03 spustit `python3 tools/pruchod.py`.
+1. **David:** sloučit pull request (tlačítko „Merge pull request“), za 1–2 minuty otevřít web na mobilu a vyzkoušet (hlavně zvuky, vibrace, konfety při 10/10). Připomínky napsat (do relace nebo pod prompt příště).
+2. **Prompt 02 (kontrola)** v prostředí B – až po sloučení pull requestu. Výstup `docs/KONTROLA_RRRR-MM-DD.md`.
+3. **Fáze 5** – prompt 01 v Claude Code (Cloud environment): přečíst nejnovější `docs/KONTROLA_*.md`, opravit nálezy, ověřit, nasadit, zaškrtnout kritéria přijetí ve SPEC.
+4. Prompt 03 (prostředí B) jen tehdy, když David v Excelu označí další otázky Web = Ano. Po exportu spustit `python3 tools/pruchod.py`.
 
 ## Připomínky Davida (k zapracování)
-- 2026-11-05 – po vyzkoušení nové verze: **bez připomínek**.
-- 2026-11-05 (po Fázi 2) – **zapracováno** (D-013): 5 hvězd místo 3, ½ ★ za každých 10 %; obtížnost nejde opakovat, ale jde procházet historii odpovědí; Smazat pokrok zrušit; odemykat od 70 %; v „O hře“ vynechat text o ověření faktů a o reklamách. Na dotaz zvolil: pod 70 % zůstane další obtížnost zamčená natrvalo.
+- 2026-11-05 – po vyzkoušení verze z Fáze 2: **bez připomínek**.
+- 2026-11-05 (po Fázi 2) – **zapracováno** (D-013).
 
 ## Otevřené otázky a rizika
 - Skill kviz-generator má vlastní kopii `kviz_db.py` (Příloha A). Dokud David neuloží navržený update, mohla by výměna skriptu ze skillu sloupec Web odstranit.
 - David chce na web hlavně otázky, které nebudou na YouTube (D-006) – při dalším výběru na to pamatuj.
 - Název „Oho!“: rešerše jen přes webové vyhledávání, ochranné známky neověřené.
-- Pro hezký tvar loga „Oho!“ v Baloo 2: ve wordmarku je „!“ v barvě Malina.
+- Odznaky Hvězda tématu a Král kategorie vyžadují 100 % ve všech obtížnostech – při pravidle „každá obtížnost jen jednou“ jsou hodně těžké (záměr: vzácné odznaky). Kdyby to Davidovi přišlo moc, jde snížit.
 
 ## Nápady na později (nestavět bez zadání)
 - „Pokračovat v posledním tématu“ na obrazovce Domů.
+- Tečka u tlačítka Odznaky na Domů, dokud si hráč nový odznak neprohlédne.
 
 ## Jak navázat
-Nejdřív `git fetch origin main` (+ `git merge origin/main`). Pak přečti v tomto pořadí: `CLAUDE.md` → `docs/HANDOFF.md` → `docs/PLAN.md` → `docs/SPEC.md` → `docs/DECISIONS.md`. Zvolenou značku (D-009) a strukturu dat neměň bez souhlasu Davida.
+Nejdřív `git fetch origin main` (+ `git merge origin/main`). Pak přečti v tomto pořadí: `CLAUDE.md` → `docs/HANDOFF.md` → `docs/PLAN.md` → `docs/SPEC.md` → `docs/DECISIONS.md` (+ nejnovější `docs/KONTROLA_*.md`, je-li na řadě Fáze 5). Zvolenou značku (D-009) a strukturu dat neměň bez souhlasu Davida.

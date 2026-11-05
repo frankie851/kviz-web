@@ -35,11 +35,11 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 
 ## Fáze 3 – Chytlavost (prompt 01, prostředí A)
 - ☑ (2026-11-05, ještě v relaci Fáze 2) Připomínky Davida z Fáze 2 – D-013.
-- ☐ Mikroanimace a přechody, animace hvězd, konfety při ★★★.
-- ☐ Zvuky (generované ve Web Audio, vypínatelné) a vibrace (kde je prohlížeč podporuje; jinde potichu nic).
-- ☐ Odznaky (finální seznam do DECISIONS.md), obrazovka Odznaky, upozornění na nový odznak.
-- ☐ Favicon, titulek stránky, náhled pro sdílení odkazu (Open Graph obrázek v barvách značky).
-- ☐ Kompletní ověření (prompt 01, část „Ověření“) a nasazení.
+- ☑ (2026-11-05) Mikroanimace a přechody, animace hvězd, konfety při ★★★ (= 100 %, 5 ★ podle D-013). – D-015
+- ☑ (2026-11-05) Zvuky (generované ve Web Audio, vypínatelné) a vibrace (kde je prohlížeč podporuje; jinde potichu nic). – D-015
+- ☑ (2026-11-05) Odznaky (finální seznam do DECISIONS.md), obrazovka Odznaky, upozornění na nový odznak. – D-014, D-015
+- ☑ (2026-11-05) Favicon, titulek stránky, náhled pro sdílení odkazu (Open Graph obrázek v barvách značky). – `assets/img/og.png`, `tools/og_obrazek.py`
+- ◐ (2026-11-05) Kompletní ověření (prompt 01, část „Ověření“) a nasazení. – `test_export.py` i `pruchod.py` (106 kontrol, 7 obrazovek × 5 šířek) prošly; změny čekají v pull requestu na sloučení Davidem; online ověření z cloudu nejde (síť nepustí github.io).
 
 **⏸ Kontrolní bod:** napiš Davidovi, ať v prostředí B spustí prompt 02 (kontrola). → HANDOFF, konec sezení.
 
@@ -52,4 +52,4 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☐ Závěrečná zpráva Davidovi + zaškrtnout kritéria přijetí ve SPEC.
 
 ## Stav
-Poslední aktualizace: 2026-11-05 · Aktuální fáze: 3 (Fáze 2 i její kontrolní bod uzavřené, David bez dalších připomínek) · Blokováno: nic; online ověření z cloudu nejde (síť nepustí github.io)
+Poslední aktualizace: 2026-11-05 · Aktuální fáze: 3 hotová → kontrolní bod (David sloučí pull request, vyzkouší na mobilu, pak prompt 02 v prostředí B) · Blokováno: nic; online ověření z cloudu nejde (síť nepustí github.io)

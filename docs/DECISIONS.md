@@ -1,6 +1,36 @@
 # DECISIONS – Kvízová webová aplikace
 Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový záznam s odkazem na původní.
 
+## D-015 · 2026-11-05 · Chytlavost (Fáze 3): animace, konfety, zvuky, upozornění, náhled odkazu
+- **Přechody mezi obrazovkami:** nová obrazovka přijede zprava, když jde hráč „hlouběji“ (Domů → Kategorie → Téma → Obtížnost → Otázka → Výsledek), a zleva, když se vrací. Mapa hloubek je v `app.js` (`HLOUBKA`). Překreslení téže obrazovky (např. změna jazyka) se neanimuje.
+- **Mikroanimace:** dlaždice, karty, obtížnosti a odznaky naskakují postupně; logo na Domů se při příchodu zavrtí a jiskra občas zajiskří; každá otázka přijede a možnosti naskočí jedna po druhé; ✓/✗ naskočí; série 🔥 poskočí při každé další správné odpovědi.
+- **Výsledek:** nadpis „vyskočí“, hvězdy (i půlky) naskakují jedna po druhé a každá má svůj tón (stoupá po pentatonice), pak závěrečný zvuk podle výsledku (100 % fanfára, od 70 % „dobře“, jinak měkký tón), nové odznaky se zvukem. **Konfety jen při 100 % (5 ★)** – SPEC říká „při ★★★“, po D-013 to znamená 5 ★. Při 100 % se za hvězdami navíc točí zlaté paprsky. Oslava (zvuky, vibrace, konfety) jen při **prvním** zobrazení výsledku (`posledni.cerstvy`), po obnovení stránky už ne.
+- **Konfety:** vlastní kód v `assets/js/oslavy.js` (canvas, barvy značky, ~3 s, neblokují ťuknutí), žádná knihovna.
+- **Zvuky (Web Audio, žádné soubory):** přes kompresor, aby se souběžné tóny nepřebíjely; správná odpověď je s každou další správnou v řadě o půltón výš (nejvýš +6); špatná je měkké klesající „bum-bum“ místo tvrdého bzučáku; po zapnutí Zvuků / Vibrací v Nastavení zazní krátká ukázka.
+- **Upozornění na nový odznak během hry:** odznaky Rozjetý (5 za sebou) a Neomylný (10 za sebou) se udělí **hned** v okamžiku série – nahoře vyjede tmavá lišta „Nový odznak!“ se zvukem; na výsledku jsou pak i mezi novými odznaky (kolo si je pamatuje v `ziskaneBehem`, takže to přežije i obnovení stránky). Ostatní odznaky závisí na výsledku celého kola, proto se ukazují až na výsledku. Na obrazovce Odznaky mají dnes získané odznaky štítek „Nový!“.
+- **Omezit pohyb:** všechny animace, přechody, paprsky i konfety se vypnou; zvuky a vibrace zůstávají (řídí je vlastní vypínače).
+- **Náhled odkazu (Open Graph):** `assets/img/og.png` 1200×630 v barvách značky, vyrábí ho `tools/og_obrazek.py` (Playwright + vlastní písma) spolu s `apple-touch-icon.png` (180×180, ikona na iPhonu) a `icon-32.png` (záložní ikona pro prohlížeče bez SVG). `og:image` a `og:url` jsou **absolutní adresy** `https://frankie851.github.io/kviz-web/…` – sociální sítě relativní cesty neberou; prohlížeč hráče je nestahuje, takže to neporušuje pravidlo „žádné cizí požadavky“. Ověřeno 2026-11-05 vyhledáním (stránka ogp.me sama z cloudu není dostupná): `og:image` má být absolutní URL, k obrázku patří `og:image:alt`, locale ve tvaru `cs_CZ` / `en_GB`.
+- **Ověření:** `tools/pruchod.py` nově kontroluje i zvuky a vibrace (počítá tóny a vibrace – zapnuto se ozvou, vypnuto ne), upozornění na odznak, konfety jen při 100 % a ne po obnovení, „omezit pohyb“ a značky náhledu odkazu.
+- **Kdo:** prompt 01
+
+## D-014 · 2026-11-05 · Finální seznam odznaků (12, nahrazuje D-011 a podmínky z D-013)
+| | Odznak | Jak ho získat | Kdy se udělí |
+|---|---|---|---|
+| 🎉 | První kolo | dohraj první kolo | výsledek |
+| 💎 | Bez chyby | kolo na 100 % (5 ★) | výsledek |
+| 🔥 | Rozjetý | 5 správně za sebou v jednom kole | **hned během kola** |
+| ⚡ | Neomylný | 10 správně za sebou v jednom kole | **hned během kola** |
+| 🏔️ | Na vrcholu | aspoň 70 % v Těžké | výsledek |
+| 🧭 | Objevitel | 3 témata dohraná až po Těžkou (všechny zobrazené obtížnosti odehrané) | výsledek |
+| 🌟 | Hvězda tématu | všechny hvězdy v jednom tématu | výsledek |
+| 👑 | Král kategorie | všechny hvězdy v celé kategorii | výsledek |
+| 📅 | Tři dny v řadě | hraj 3 dny po sobě | výsledek |
+| 🗓️ | Celý týden | hraj 7 dní po sobě | výsledek |
+| 🌍 | Polyglot | kolo s otázkami v jiném jazyce, než je tvůj | výsledek |
+| 🦉 | Bez nápovědy | kolo v cizím jazyce za 70 %+, překlad „na ťuknutí“ ani jednou neotevřený | výsledek |
+- Definice v `assets/js/badges.js`, názvy a popisy v i18n (`odznak.<id>`). David seznam viděl na kontrolním bodě Fáze 2 bez připomínek; další změny jen na jeho přání.
+- **Kdo:** prompt 01
+
 ## D-013 · 2026-11-05 · Nová pravidla: 5 hvězd po půlkách, každá obtížnost jen jednou (mění SPEC)
 - **Rozhodnutí (David, připomínky po Fázi 2):**
   - **5 hvězd místo 3:** každých celých 10 % správně = půl hvězdy (10 % = ½ ★, 20 % = ★, … 90 % = 4½ ★, 100 % = 5 ★). Počítá se celočíselně `⌊správně × 10 / počet⌋` půlhvězd, bez zaokrouhlování nahoru.
