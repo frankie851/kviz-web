@@ -2,7 +2,7 @@
 datum: 2026-11-05 · předává: prompt 01 (Fáze 3, prostředí A) · přebírá: prompt 02 (Fáze 4 – kontrola, prostředí B), pak prompt 01 (Fáze 5, prostředí A)
 
 ## Stav jednou větou
-Fáze 3 (chytlavost) je hotová a ověřená automatickým průchodem (106 kontrol); změny jsou v pull requestu do `main`, který musí David sloučit – pak vyzkouší na mobilu a spustí kontrolu (prompt 02) v prostředí B.
+Fáze 3 (chytlavost) je hotová, v `main` a nasazená; David ji vyzkoušel na mobilu „bez připomínek“ – na řadě je nezávislá kontrola (prompt 02) v prostředí B.
 
 ## Stav dat
 - 2026-11-04 – 35 otázek, 1 téma (T001 Chobotnice a další hlavonožci), režim vzorek
@@ -22,18 +22,17 @@ Fáze 3 (chytlavost) je hotová a ověřená automatickým průchodem (106 kontr
   - náhledy pro Davida: `docs/nahledy/faze3-*.png`.
 
 ## Rozpracováno
-- **Pull request do `main`** z větve `claude/happy-cannon-9g2ef0` – web se aktualizuje až po sloučení Davidem.
 - **Online ověření:** z cloudu nejde – síť prostředí A nepustí `frankie851.github.io` (ani ogp.me). Ověří David na mobilu; prompt 02 může spustit `python3 tools/pruchod.py --url https://frankie851.github.io/kviz-web/`.
 - **Vlastní zařízení:** zvuky a vibrace v Chromiu bez hlavy nejde slyšet/cítit (test jen počítá, že se spustily) – poslech ověří David na telefonu. iPhone vibrace v prohlížeči nemá (je to v pořádku, „potichu nic“).
 - **Náhled odkazu** ověří až sdílení nasazené adresy (např. poslat si odkaz ve WhatsAppu/Messengeru). Sítě si náhled pamatují – kdyby ukazovaly starou zástupnou stránku, chce to chvíli počkat.
 
 ## Další krok
-1. **David:** sloučit pull request (tlačítko „Merge pull request“), za 1–2 minuty otevřít web na mobilu a vyzkoušet (hlavně zvuky, vibrace, konfety při 10/10). Připomínky napsat (do relace nebo pod prompt příště).
-2. **Prompt 02 (kontrola)** v prostředí B – až po sloučení pull requestu. Výstup `docs/KONTROLA_RRRR-MM-DD.md`.
-3. **Fáze 5** – prompt 01 v Claude Code (Cloud environment): přečíst nejnovější `docs/KONTROLA_*.md`, opravit nálezy, ověřit, nasadit, zaškrtnout kritéria přijetí ve SPEC.
-4. Prompt 03 (prostředí B) jen tehdy, když David v Excelu označí další otázky Web = Ano. Po exportu spustit `python3 tools/pruchod.py`.
+1. **Prompt 02 (kontrola)** v prostředí B (úkol v aplikaci Claude propojený s počítačem) – až je v `main` i tento zápis (pull request s HANDOFF/PLAN). Výstup `docs/KONTROLA_RRRR-MM-DD.md`.
+2. **Fáze 5** – prompt 01 v Claude Code (Cloud environment): přečíst nejnovější `docs/KONTROLA_*.md`, opravit nálezy, ověřit, nasadit, zaškrtnout kritéria přijetí ve SPEC.
+3. Prompt 03 (prostředí B) jen tehdy, když David v Excelu označí další otázky Web = Ano. Po exportu spustit `python3 tools/pruchod.py`.
 
 ## Připomínky Davida (k zapracování)
+- 2026-11-05 – po sloučení a vyzkoušení Fáze 3 na mobilu: **bez připomínek**.
 - 2026-11-05 – po vyzkoušení verze z Fáze 2: **bez připomínek**.
 - 2026-11-05 (po Fázi 2) – **zapracováno** (D-013).
 
