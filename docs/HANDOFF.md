@@ -1,8 +1,8 @@
 # HANDOFF – Kvízová webová aplikace
-datum: 2026-11-05 · předává: prompt 01 (Fáze 3, prostředí A) · přebírá: prompt 02 (Fáze 4 – kontrola, prostředí B), pak prompt 01 (Fáze 5, prostředí A)
+datum: 2026-11-05 · předává: prompt 02 (Fáze 4 – kontrola, prostředí B) · přebírá: prompt 01 (Fáze 5 – opravy a dokončení, prostředí A)
 
 ## Stav jednou větou
-Fáze 3 (chytlavost) je hotová, v `main` a nasazená; David ji vyzkoušel na mobilu „bez připomínek“ – na řadě je nezávislá kontrola (prompt 02) v prostředí B.
+Nezávislá kontrola (Fáze 4) je hotová – verdikt **Připraveno po opravách** (`docs/KONTROLA_2026-11-05.md`): žádná zásadní chyba, 1 střední (dlouhé slovo ve vysvětlení přetéká) a 7 drobných; na řadě je Fáze 5 (opravy) v prostředí A.
 
 ## Stav dat
 - 2026-11-04 – 35 otázek, 1 téma (T001 Chobotnice a další hlavonožci), režim vzorek
@@ -27,9 +27,13 @@ Fáze 3 (chytlavost) je hotová, v `main` a nasazená; David ji vyzkoušel na mo
 - **Náhled odkazu** ověří až sdílení nasazené adresy (např. poslat si odkaz ve WhatsAppu/Messengeru). Sítě si náhled pamatují – kdyby ukazovaly starou zástupnou stránku, chce to chvíli počkat.
 
 ## Další krok
-1. **Prompt 02 (kontrola)** v prostředí B (úkol v aplikaci Claude propojený s počítačem) – až je v `main` i tento zápis (pull request s HANDOFF/PLAN). Výstup `docs/KONTROLA_RRRR-MM-DD.md`.
-2. **Fáze 5** – prompt 01 v Claude Code (Cloud environment): přečíst nejnovější `docs/KONTROLA_*.md`, opravit nálezy, ověřit, nasadit, zaškrtnout kritéria přijetí ve SPEC.
-3. Prompt 03 (prostředí B) jen tehdy, když David v Excelu označí další otázky Web = Ano. Po exportu spustit `python3 tools/pruchod.py`.
+1. **Fáze 5 – prompt 01 v Claude Code (Cloud environment, repozitář kviz-web):** přečíst `docs/KONTROLA_2026-11-05.md`; nález **S-1** (přetékání dlouhého slova/odkazu ve vysvětlení) nejdřív zopakovat (320 px, uměle dlouhé slovo ve vysvětlení), pak opravit; drobné D-1 až D-7 podle uvážení (D-1 – náhodné selhání `pruchod.py` na varování o preload – opravit určitě, jinak nepůjde spolehlivě ověřovat); body „K zvážení“ jen předložit Davidovi, nestavět bez jeho rozhodnutí. Pak kompletní ověření (`test_export.py`, `pruchod.py` 2× za sebou), nasazení, zaškrtnout kritéria přijetí ve SPEC (kritérium 10 po opravě S-1) a závěrečná zpráva Davidovi.
+2. Prompt 03 (prostředí B) jen tehdy, když David v Excelu označí další otázky Web = Ano – kontrola doporučuje víc témat před širším sdílením (K zvážení 1). Po exportu spustit `python3 tools/pruchod.py`.
+
+## Z kontroly 2026-11-05 (prompt 02)
+- Data: `otazky.json` ↔ `data/` ↔ Excel 100 % shodné (120 otázek, vlastní skript v příloze KONTROLA).
+- Online verze odpovídá `main` (ověřeno přes WebFetch; z kontejneru `github.io` nejde ani v prostředí B).
+- `tools/pruchod.py`: 1. běh selhal na varování o preload písem, 2. běh prošel – viz nález D-1.
 
 ## Připomínky Davida (k zapracování)
 - 2026-11-05 – po sloučení a vyzkoušení Fáze 3 na mobilu: **bez připomínek**.

@@ -44,7 +44,7 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 **⏸ Kontrolní bod:** ☑ (2026-11-05) David sloučil změny a vyzkoušel Fázi 3 na mobilu: „bez připomínek“. Další: prompt 02 (kontrola) v prostředí B. → HANDOFF, konec sezení.
 
 ## Fáze 4 – Kontrola (prompt 02, prostředí B)
-- ☐ `docs/KONTROLA_RRRR-MM-DD.md` s verdiktem a nálezy (zapisuje a odškrtává kontrolor; kdyby to nestihl, odškrtne prompt 01 podle existence zprávy).
+- ☑ (2026-11-05) `docs/KONTROLA_2026-11-05.md` s verdiktem a nálezy – **Připraveno po opravách**: 0 zásadních, 1 střední, 7 drobných, 5 k zvážení; screenshoty v `docs/kontrola-img/`.
 
 ## Fáze 5 – Opravy a dokončení (prompt 01, prostředí A)
 - ☐ Přečíst nejnovější `docs/KONTROLA_*.md`; každý zásadní a střední nález nejdřív zopakovat, pak opravit; drobné podle uvážení, neopravené zapsat do HANDOFF.
@@ -52,4 +52,4 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☐ Závěrečná zpráva Davidovi + zaškrtnout kritéria přijetí ve SPEC.
 
 ## Stav
-Poslední aktualizace: 2026-11-05 · Aktuální fáze: 4 – kontrola (prompt 02, prostředí B); Fáze 3 i její kontrolní bod uzavřené · Blokováno: nic; online ověření z cloudu nejde (síť nepustí github.io)
+Poslední aktualizace: 2026-11-05 (kontrola) · Aktuální fáze: 5 – opravy a dokončení (prompt 01, prostředí A); Fáze 4 hotová · Blokováno: nic; online ověření z cloudu jde jen přes WebFetch (síť nepustí github.io)
