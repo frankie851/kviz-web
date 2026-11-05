@@ -1,0 +1,141 @@
+{
+  "app": {
+    "nazev": "Oho!",
+    "nazevZaklad": "Oho",
+    "podtitul": "Verified questions. In Czech and English."
+  },
+  "nav": { "zpet": "Back" },
+  "chyba": {
+    "nadpis": "Something went wrong",
+    "text": "We couldn't load the questions. Check your internet connection and try again.",
+    "znovu": "Try again"
+  },
+  "hvezdy": { "aria": "Stars: {n} of {max}" },
+  "jazyky": {
+    "cs": { "kod": "CZ", "vlastni": "Čeština", "akuzativ": "Czech", "prislovce": "in Czech" },
+    "en": { "kod": "EN", "vlastni": "English", "akuzativ": "English", "prislovce": "in English" }
+  },
+  "uvod": {
+    "titulek": "Welcome",
+    "krok": "Step {n} of {z}",
+    "mujJazyk": "My language",
+    "mujJazykText": "Which language should we use? You can change it any time in Settings.",
+    "pokracovat": "Continue",
+    "jakHrat": "How do you want to play?",
+    "jakHratText": "Every question is in Czech and English – choose how you want to see them.",
+    "zpusob": {
+      "muj": "Play in my language",
+      "ucim": "I'm learning {jazyk}",
+      "obe": "Both languages at once"
+    },
+    "zpusobPopis": {
+      "muj": "Questions {jazyk}, no translation.",
+      "ucim": "Questions {jazyk}, translation on tap.",
+      "obe": "Questions {jazyk}, always with a translation {druhy} below."
+    },
+    "lzeZmenit": "You can change this any time in Settings."
+  },
+  "domu": {
+    "serieDniTitulek": "How many days in a row you have finished at least one round",
+    "dni": { "one": "{n} day", "other": "{n} days" },
+    "hvezd": "stars",
+    "serieDni": { "one": "day streak", "other": "day streak" },
+    "odznaku": "badges",
+    "hrat": "Play",
+    "bezUkladani": "This browser doesn't allow saving – your progress will be lost when you close the page."
+  },
+  "kategorie": {
+    "nadpis": "Categories",
+    "temat": { "one": "{n} topic", "other": "{n} topics" }
+  },
+  "temata": { "vyberTema": "Pick a topic" },
+  "obtiznost": {
+    "1": "Easy",
+    "2": "Medium",
+    "3": "Hard",
+    "lokal": { "1": "in Easy", "2": "in Medium", "3": "in Hard" },
+    "zamceno": "Locked",
+    "nejlepe": "Best: {s} of {c}",
+    "nehrano": "Not played yet",
+    "odemkne": "Get ★★ {predchozi} to unlock",
+    "vyber": "Choose a difficulty. A round has up to 10 questions."
+  },
+  "hra": {
+    "ukoncit": "Quit round",
+    "opustitNadpis": "Quit this round?",
+    "opustitText": "A round you don't finish won't count.",
+    "opustitAno": "Quit",
+    "opustitNe": "Keep playing",
+    "prelozit": "Translate ({jazyk})",
+    "pocitadlo": "{i} / {n}",
+    "moznosti": "Answer options",
+    "spravnaOdpoved": "(correct answer)",
+    "tvojeOdpoved": "(your answer)",
+    "spravne": "Correct!",
+    "spatne": "Not quite!",
+    "vedeliJste": "Did you know?",
+    "dalsi": "Next",
+    "vysledek": "Results",
+    "serie": { "one": "{n} in a row", "other": "{n} in a row" }
+  },
+  "vysledek": {
+    "titulek": "Results",
+    "hodnoceni": {
+      "0": "Not this time",
+      "1": "Good start!",
+      "2": "Great job!",
+      "3": "Perfect!"
+    },
+    "spravne": "{p}% correct",
+    "rekord": "New personal best!",
+    "odemceno": "Unlocked: {obtiznost}",
+    "proDalsi": "Get ★★ to unlock {obtiznost}.",
+    "noveOdznaky": { "one": "New badge", "other": "New badges" },
+    "dalsiObtiznost": "Play: {obtiznost}",
+    "znovu": "Play again",
+    "zpetTemata": "Back to topics"
+  },
+  "odznaky": {
+    "nadpis": "Badges",
+    "pocet": "{n} of {z} earned",
+    "ziskano": "Earned {datum}",
+    "zamceno": "Not earned yet"
+  },
+  "odznak": {
+    "prvni-kolo": { "nazev": "First Round", "popis": "Finish your first round." },
+    "bez-chyby": { "nazev": "Flawless", "popis": "Get ★★★ in a round." },
+    "rada-5": { "nazev": "On a Roll", "popis": "Answer 5 in a row correctly in one round." },
+    "rada-10": { "nazev": "Unstoppable", "popis": "Answer 10 in a row correctly in one round." },
+    "tezka": { "nazev": "Summit", "popis": "Get at least ★★ on Hard." },
+    "temata-3": { "nazev": "Explorer", "popis": "Complete 3 topics (every difficulty with at least ★)." },
+    "tema-hvezdy": { "nazev": "Topic Star", "popis": "Get every star in one topic." },
+    "kategorie-hvezdy": { "nazev": "Category King", "popis": "Get every star in a whole category." },
+    "dny-3": { "nazev": "Three-Day Streak", "popis": "Play 3 days in a row." },
+    "dny-7": { "nazev": "Full Week", "popis": "Play 7 days in a row." },
+    "polyglot": { "nazev": "Polyglot", "popis": "Finish a round with questions in a language other than yours." },
+    "bez-napovedy": { "nazev": "No Hints", "popis": "Get ★★ or more in a foreign-language round with translation on tap – without opening it once." }
+  },
+  "nastaveni": {
+    "nadpis": "Settings",
+    "jazyky": "Language",
+    "mujJazyk": "My language (app)",
+    "jazykOtazek": "Question language",
+    "preklad": "Translation ({jazyk})",
+    "prekladVzdy": "Always",
+    "prekladTuknuti": "On tap",
+    "prekladVypnuto": "Off",
+    "prekladNapoveda": "The translation appears for the question, the answers and the explanation.",
+    "zvukyVibrace": "Sounds and vibration",
+    "zvuky": "Sounds",
+    "vibrace": "Vibration",
+    "oHre": "About",
+    "oHreOtazky": "Every question has been fact-checked and comes with a short explanation.",
+    "oHreSoukromi": "Your progress is stored only on this device. We don't track anything – no accounts, no ads.",
+    "oHreData": "Questions in the game: {n} · updated {datum}",
+    "smazat": "Reset progress",
+    "smazatNadpis": "Reset all progress?",
+    "smazatText": "All stars, badges and day streaks will be deleted. Your language settings stay. This can't be undone.",
+    "smazatAno": "Reset",
+    "smazatNe": "Cancel"
+  }
+}

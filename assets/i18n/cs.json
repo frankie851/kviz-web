@@ -1,0 +1,222 @@
+{
+  "app": {
+    "nazev": "Oho!",
+    "nazevZaklad": "Oho",
+    "podtitul": "Ověřené otázky. Česky i anglicky."
+  },
+  "nav": {
+    "zpet": "Zpět"
+  },
+  "chyba": {
+    "nadpis": "Něco se nepovedlo",
+    "text": "Otázky se nepodařilo načíst. Zkontroluj připojení k internetu a zkus to znovu.",
+    "znovu": "Zkusit znovu"
+  },
+  "hvezdy": {
+    "aria": "Hvězdy: {n} ze {max}"
+  },
+  "jazyky": {
+    "cs": {
+      "kod": "CZ",
+      "vlastni": "Čeština",
+      "akuzativ": "češtinu",
+      "prislovce": "česky"
+    },
+    "en": {
+      "kod": "EN",
+      "vlastni": "English",
+      "akuzativ": "angličtinu",
+      "prislovce": "anglicky"
+    }
+  },
+  "uvod": {
+    "titulek": "Vítej",
+    "krok": "Krok {n} ze {z}",
+    "mujJazyk": "Můj jazyk",
+    "mujJazykText": "V jakém jazyce ti máme psát? Jde kdykoli změnit v Nastavení.",
+    "pokracovat": "Pokračovat",
+    "jakHrat": "Jak chceš hrát?",
+    "jakHratText": "Otázky jsou česky i anglicky – vyber si, jak je chceš vidět.",
+    "zpusob": {
+      "muj": "Hrát v mém jazyce",
+      "ucim": "Učím se {jazyk}",
+      "obe": "Obě řeči najednou"
+    },
+    "zpusobPopis": {
+      "muj": "Otázky {jazyk}, bez překladu.",
+      "ucim": "Otázky {jazyk}, překlad na ťuknutí.",
+      "obe": "Otázky {jazyk}, pod nimi vždy {druhy}."
+    },
+    "lzeZmenit": "Volbu můžeš kdykoli změnit v Nastavení."
+  },
+  "domu": {
+    "serieDniTitulek": "Kolik dní po sobě máš za sebou aspoň jedno kolo",
+    "dni": {
+      "one": "{n} den",
+      "few": "{n} dny",
+      "many": "{n} dne",
+      "other": "{n} dní"
+    },
+    "hvezd": "hvězd",
+    "serieDni": {
+      "one": "den v řadě",
+      "few": "dny v řadě",
+      "many": "dne v řadě",
+      "other": "dní v řadě"
+    },
+    "odznaku": "odznaků",
+    "hrat": "Hrát",
+    "bezUkladani": "Tento prohlížeč nedovoluje ukládat – pokrok se po zavření stránky ztratí."
+  },
+  "kategorie": {
+    "nadpis": "Kategorie",
+    "temat": {
+      "one": "{n} téma",
+      "few": "{n} témata",
+      "many": "{n} tématu",
+      "other": "{n} témat"
+    }
+  },
+  "temata": {
+    "vyberTema": "Vyber si téma"
+  },
+  "obtiznost": {
+    "1": "Lehká",
+    "2": "Střední",
+    "3": "Těžká",
+    "lokal": {
+      "1": "v Lehké",
+      "2": "ve Střední",
+      "3": "v Těžké"
+    },
+    "zamceno": "Zamčeno",
+    "nejlepe": "Nejlépe: {s} z {c}",
+    "nehrano": "Ještě nehráno",
+    "odemkne": "Odemkneš za ★★ {predchozi}",
+    "vyber": "Vyber obtížnost. Kolo má až 10 otázek."
+  },
+  "hra": {
+    "ukoncit": "Ukončit kolo",
+    "opustitNadpis": "Ukončit kolo?",
+    "opustitText": "Rozehrané kolo se nezapočítá.",
+    "opustitAno": "Ukončit",
+    "opustitNe": "Hrát dál",
+    "prelozit": "Přeložit ({jazyk})",
+    "pocitadlo": "{i} / {n}",
+    "moznosti": "Možnosti odpovědí",
+    "spravnaOdpoved": "(správná odpověď)",
+    "tvojeOdpoved": "(tvoje odpověď)",
+    "spravne": "Správně!",
+    "spatne": "Vedle!",
+    "vedeliJste": "Věděli jste?",
+    "dalsi": "Další",
+    "vysledek": "Výsledek",
+    "serie": {
+      "one": "{n} v řadě",
+      "few": "{n} v řadě",
+      "many": "{n} v řadě",
+      "other": "{n} v řadě"
+    }
+  },
+  "vysledek": {
+    "titulek": "Výsledek",
+    "hodnoceni": {
+      "0": "Tentokrát to nevyšlo",
+      "1": "Dobrý začátek!",
+      "2": "Výborně!",
+      "3": "Perfektní!"
+    },
+    "spravne": "{p} % správně",
+    "rekord": "Nový osobní rekord!",
+    "odemceno": "Odemčeno: {obtiznost}",
+    "proDalsi": "Za ★★ odemkneš obtížnost {obtiznost}.",
+    "noveOdznaky": {
+      "one": "Nový odznak",
+      "few": "Nové odznaky",
+      "many": "Nové odznaky",
+      "other": "Nové odznaky"
+    },
+    "dalsiObtiznost": "Hrát: {obtiznost}",
+    "znovu": "Znovu",
+    "zpetTemata": "Zpět na témata"
+  },
+  "odznaky": {
+    "nadpis": "Odznaky",
+    "pocet": "Získáno {n} z {z}",
+    "ziskano": "Získáno {datum}",
+    "zamceno": "Zatím nezískáno"
+  },
+  "odznak": {
+    "prvni-kolo": {
+      "nazev": "První kolo",
+      "popis": "Dohraj své první kolo."
+    },
+    "bez-chyby": {
+      "nazev": "Bez chyby",
+      "popis": "Získej v kole ★★★."
+    },
+    "rada-5": {
+      "nazev": "Rozjetý",
+      "popis": "Odpověz v jednom kole správně 5× za sebou."
+    },
+    "rada-10": {
+      "nazev": "Neomylný",
+      "popis": "Odpověz v jednom kole správně 10× za sebou."
+    },
+    "tezka": {
+      "nazev": "Na vrcholu",
+      "popis": "Získej aspoň ★★ v Těžké obtížnosti."
+    },
+    "temata-3": {
+      "nazev": "Objevitel",
+      "popis": "Dohraj 3 témata (všechny obtížnosti aspoň za ★)."
+    },
+    "tema-hvezdy": {
+      "nazev": "Hvězda tématu",
+      "popis": "Získej všechny hvězdy v jednom tématu."
+    },
+    "kategorie-hvezdy": {
+      "nazev": "Král kategorie",
+      "popis": "Získej všechny hvězdy v celé kategorii."
+    },
+    "dny-3": {
+      "nazev": "Tři dny v řadě",
+      "popis": "Hraj 3 dny po sobě."
+    },
+    "dny-7": {
+      "nazev": "Celý týden",
+      "popis": "Hraj 7 dní po sobě."
+    },
+    "polyglot": {
+      "nazev": "Polyglot",
+      "popis": "Dohraj kolo s otázkami v jiném jazyce, než je tvůj."
+    },
+    "bez-napovedy": {
+      "nazev": "Bez nápovědy",
+      "popis": "Kolo v cizím jazyce za ★★ a víc – s překladem na ťuknutí, ale ani jednou ho neotevři."
+    }
+  },
+  "nastaveni": {
+    "nadpis": "Nastavení",
+    "jazyky": "Jazyk",
+    "mujJazyk": "Můj jazyk (aplikace)",
+    "jazykOtazek": "Jazyk otázek",
+    "preklad": "Překlad ({jazyk})",
+    "prekladVzdy": "Vždy",
+    "prekladTuknuti": "Na ťuknutí",
+    "prekladVypnuto": "Vypnuto",
+    "prekladNapoveda": "Překlad se ukáže u otázky, možností i vysvětlení.",
+    "zvukyVibrace": "Zvuky a vibrace",
+    "zvuky": "Zvuky",
+    "vibrace": "Vibrace",
+    "oHre": "O hře",
+    "oHreOtazky": "Všechny otázky prošly ověřením faktů a každá má krátké vysvětlení.",
+    "oHreSoukromi": "Pokrok se ukládá jen v tomto zařízení. Nic nesledujeme, nemáme účty ani reklamu.",
+    "oHreData": "Otázek ve hře: {n} · aktualizováno {datum}",
+    "smazat": "Smazat pokrok",
+    "smazatNadpis": "Smazat celý pokrok?",
+    "smazatText": "Zmizí všechny hvězdy, odznaky a série dní. Nastavení jazyka zůstane. Vrátit to nejde.",
+    "smazatAno": "Smazat",
+    "smazatNe": "Zrušit"
+  }
+}
