@@ -7,11 +7,13 @@
   python3 tools/pruchod.py --url https://frankie851.github.io/kviz-web/   # projde nasazený web
 
 Ověří: první spuštění, kategorie, téma, Lehká, kolo s částí správných i špatných odpovědí,
-výsledek, hvězdy, odemčení Střední; obnovení stránky → pokrok zůstal; ovládání klávesnicí;
-všechny tři režimy překladu u otázky, možností i vysvětlení; jazyk otázek; přepnutí rozhraní
-CZ ↔ EN bez chybějících textů; smazání pokroku; žádné chyby v konzoli; žádný síťový požadavek
-mimo vlastní adresu. Pak screenshoty 5 obrazovek na šířkách 320, 360, 390, 768 a 1280 px
-a kontrola, že nic nepřetéká do stran.
+výsledek, hvězdy (5, po půlkách), odemčení Střední od 70 %; obnovení stránky → pokrok zůstal;
+dohrané kolo nejde hrát znovu, jen prohlédnout; rozehrané kolo přežije odchod i obnovení;
+pod 70 % zůstane další obtížnost zamčená natrvalo; historie; ovládání klávesnicí;
+všechny tři režimy překladu u otázky, možností, vysvětlení i v přehledu odpovědí; jazyk otázek;
+přepnutí rozhraní CZ ↔ EN bez chybějících textů; žádné chyby v konzoli; žádný síťový požadavek
+mimo vlastní adresu. Pak screenshoty 7 obrazovek na šířkách 320, 360, 390, 768 a 1280 px
+a kontrola, že nic nepřetéká do stran. Potřebuje aspoň 3 témata se všemi obtížnostmi.
 
 Návratový kód 0 = vše prošlo, 1 = něco selhalo (vypíše co).
 Potřebuje: pip install playwright (v prostředí B je předinstalovaný). Chromium se hledá
@@ -118,11 +120,10 @@ def nacti_data():
             d = json.loads((KOREN / "data" / tema["soubor"]).read_text(encoding="utf-8"))
             for q in d["otazky"]:
                 otazky[q["id"]] = q
-    # téma pro průchod: první s aspoň 3 viditelnými obtížnostmi (jinak první vůbec)
+    # témata pro průchod: ta s aspoň 3 viditelnými obtížnostmi (potřeba jsou 3)
     kandidati = [(k, t) for k in index["kategorie"] for t in k["temata"]]
     plna = [(k, t) for k, t in kandidati if all(t["otazek"].get(o, 0) >= 3 for o in ("1", "2", "3"))]
-    kat, tema = (plna or kandidati)[0]
-    return index, otazky, kat, tema
+    return index, otazky, (plna or kandidati)
 
 
 # ---------------------------------------------------------------- pomocníci pro stránku
@@ -187,15 +188,17 @@ def dalsi(page, klavesnice=False):
     page.wait_for_timeout(60)
 
 
-def zahraj_kolo(page, otazky, spatnych=0, klavesnice=False, kontroly=False):
-    """Zahraje celé kolo; posledních `spatnych` otázek odpoví špatně. Vrátí počet otázek."""
-    n = int(page.inner_text("[data-test=pocitadlo]").split("/")[1])
-    for i in range(n):
+def zahraj_kolo(page, otazky, spatnych=0, klavesnice=False, kontroly=False, zastav_po=None):
+    """Hraje kolo od aktuální otázky; posledních `spatnych` otázek kola odpoví špatně.
+    zastav_po = po kolika odpovědích v tomto volání přestat (rozehrané kolo). Vrátí počet otázek kola."""
+    i0, n = (int(x) for x in page.inner_text("[data-test=pocitadlo]").split("/"))
+    for k, i in enumerate(range(i0 - 1, n)):
+        if zastav_po is not None and k >= zastav_po:
+            return n
         spravne = i < n - spatnych
         qid, volba, sp = zodpovez(page, otazky, spravne, klavesnice, zkus_druhe=kontroly and i == 0)
         if kontroly and i in (0, n - 1):
-            ok_bunka = page.get_attribute(f'.ans[data-index="{sp}"]', "class")
-            over("ok" in ok_bunka, f"otázka {i + 1}: správná odpověď je zelená")
+            over("ok" in page.get_attribute(f'.ans[data-index="{sp}"]', "class"), f"otázka {i + 1}: správná odpověď je zelená")
             if not spravne:
                 over("bad" in page.get_attribute(f'.ans[data-index="{volba}"]', "class"), f"otázka {i + 1}: špatná volba je červená")
             over(page.is_visible("[data-test=vysvetleni]"), f"otázka {i + 1}: panel Věděli jste? je vidět")
@@ -208,10 +211,24 @@ def zahraj_kolo(page, otazky, spatnych=0, klavesnice=False, kontroly=False):
     return n
 
 
+def hvezdy_vysledku(page):
+    """(celé, půlky) na obrazovce Výsledek."""
+    return page.locator(".stars-big .star.on").count(), page.locator(".stars-big .star.half").count()
+
+
+def ocekavane(spravne, n):
+    pul = (spravne * 10) // n
+    return pul // 2, pul % 2
+
+
+def stav_obtiznosti(page, o):
+    return page.get_attribute(f'.diff[data-obtiznost="{o}"]', "data-stav")
+
+
 # ---------------------------------------------------------------- scénáře
-def scenar_hry(page, zaklad, otazky, kat, tema):
-    T = tema["id"]
-    max_hvezd = None
+def scenar_hry(page, zaklad, otazky, temata):
+    (kat, tema), (kat2, tema2) = temata[0], temata[1]
+    T, T2 = tema["id"], tema2["id"]
     print("První spuštění:")
     jdi(page, zaklad, "")
     over(page.url.endswith("#/vitej"), "bez nastavení se otevře první spuštění")
@@ -221,7 +238,6 @@ def scenar_hry(page, zaklad, otazky, kat, tema):
     page.click('[data-zpusob="muj"]')
     page.wait_for_selector("[data-test=hrat]")
     over(page.url.endswith("#/"), "po 2 krocích je hráč Domů")
-    max_hvezd = page.inner_text("[data-test=hvezdy-celkem]").split("/")[1].strip()
     over(page.inner_text("[data-test=hvezdy-celkem]").startswith("0"), "na začátku 0 hvězd")
     bez_chybejicich_textu(page, "Domů")
 
@@ -235,44 +251,85 @@ def scenar_hry(page, zaklad, otazky, kat, tema):
     page.click(f'.topic[data-tema="{T}"]')
     page.wait_for_selector(".diff")
     bez_chybejicich_textu(page, "Obtížnost")
-    over(page.locator('a.diff[data-obtiznost="1"]').count() == 1, "Lehká je otevřená")
-    over(page.locator('.diff.locked[data-obtiznost="2"]').count() == 1, "Střední je zamčená")
-    over(page.locator('.diff.locked[data-obtiznost="3"]').count() == 1, "Těžká je zamčená")
+    over([stav_obtiznosti(page, o) for o in "123"] == ["otevreno", "zamceno", "zamceno"], "Lehká otevřená, Střední a Těžká zamčené")
     page.click('a.diff[data-obtiznost="1"]')
     page.wait_for_selector(".qcard")
     bez_chybejicich_textu(page, "Otázka")
 
-    print("Kolo s 2 špatnými odpověďmi:")
+    print("Lehká: kolo se 2 špatnými odpověďmi (80 %):")
     n = zahraj_kolo(page, otazky, spatnych=2, kontroly=True)
-    ocek = n - 2
-    over(page.inner_text("[data-test=skore]").startswith(f"{ocek} / {n}"), f"výsledek {ocek} / {n}")
-    hv = page.locator(".stars-big .star.on").count()
-    ocek_h = 3 if ocek * 10 >= n * 9 else 2 if ocek * 10 >= n * 7 else 1 if ocek * 10 >= n * 5 else 0
-    over(hv == ocek_h, f"hvězdy za kolo: {hv} (očekávám {ocek_h})")
-    over(page.locator("[data-test=odemceno]").count() == (1 if ocek_h >= 2 else 0), "„Odemčeno: Střední“ se ukáže")
+    s = n - 2
+    over(page.inner_text("[data-test=skore]").startswith(f"{s} / {n}"), f"výsledek {s} / {n}")
+    over(hvezdy_vysledku(page) == ocekavane(s, n), f"hvězdy {hvezdy_vysledku(page)} (celé, půlky) = očekávané {ocekavane(s, n)}")
+    over(page.locator("[data-test=odemceno]").count() == 1, "„Odemčeno: Střední“ (od 70 %)")
     over(page.locator("[data-test=nove-odznaky]").count() == 1 and "První kolo" in page.inner_text("[data-test=nove-odznaky]"), "nový odznak První kolo")
+    over(page.locator("[data-test=znovu]").count() == 0, "tlačítko Znovu není")
     bez_chybejicich_textu(page, "Výsledek")
 
-    print("Obnovení stránky:")
+    print("Obnovení stránky a zákaz opakování:")
     page.reload()
     page.wait_for_selector("[data-test=skore]")
-    over(page.inner_text("[data-test=skore]").startswith(f"{ocek} / {n}"), "výsledek po obnovení zůstal")
+    over(page.inner_text("[data-test=skore]").startswith(f"{s} / {n}"), "výsledek po obnovení zůstal")
     jdi(page, zaklad, "#/")
-    over(page.inner_text("[data-test=hvezdy-celkem]").startswith(f"{ocek_h} /"), f"Domů: {ocek_h} hvězdy celkem i po obnovení")
+    over(page.inner_text("[data-test=hvezdy-celkem]").startswith(f"{ocekavane(s, n)[0]} /"), "Domů: hvězdy celkem i po obnovení")
     over(page.inner_text("[data-test=dny]").startswith("1"), "série dní = 1")
     jdi(page, zaklad, f"#/tema/{T}")
-    over(page.locator('a.diff[data-obtiznost="2"]').count() == 1, "Střední zůstala odemčená")
+    over([stav_obtiznosti(page, o) for o in "123"] == ["dohrano", "otevreno", "zamceno"], "Lehká dohraná, Střední otevřená")
+    jdi(page, zaklad, f"#/hra/{T}/1")
+    page.wait_for_timeout(300)
+    over(page.url.endswith(f"#/prehled/{T}/1"), "dohraná Lehká nejde hrát znovu – otevře se přehled odpovědí")
+    over(page.locator(".review").count() == n and page.locator(".review.is-bad").count() == 2, f"přehled: {n} otázek, 2 špatně")
+    over(page.locator(".review .ans.ok").count() == n, "v přehledu je u každé otázky vyznačená správná odpověď")
+    bez_chybejicich_textu(page, "Přehled odpovědí")
 
-    print("Střední celá klávesnicí (1–4 / A–D, Enter):")
-    page.click('a.diff[data-obtiznost="2"]')
+    print("Střední klávesnicí (1–4 / A–D, Enter), 3 špatně = 70 % → půlhvězda:")
+    jdi(page, zaklad, f"#/hra/{T}/2")
     page.wait_for_selector(".qcard")
-    zahraj_kolo(page, otazky, spatnych=0, klavesnice=True)
-    over(page.locator(".stars-big .star.on").count() == 3, "bez chyby = ★★★")
-    over("Těžká" in page.inner_text("[data-test=odemceno]"), "odemčena Těžká")
-    over(page.locator("[data-test=dalsi-obtiznost]").count() == 1, "tlačítko Další obtížnost")
+    n2 = zahraj_kolo(page, otazky, spatnych=3, klavesnice=True)
+    over(hvezdy_vysledku(page) == ocekavane(n2 - 3, n2), f"hvězdy {hvezdy_vysledku(page)} = {ocekavane(n2 - 3, n2)} (půlhvězda)")
+    over(page.locator("[data-test=odemceno]").count() == 1 and "Těžká" in page.inner_text("[data-test=odemceno]"), "70 % odemklo Těžkou")
+
+    print("Těžká: rozehrané kolo přežije odchod i obnovení:")
+    page.click("[data-test=dalsi-obtiznost]")
+    page.wait_for_selector(".qcard")
+    zahraj_kolo(page, otazky, spatnych=0, zastav_po=3)
+    page.reload()
+    page.wait_for_selector(".qcard")
+    over(page.inner_text("[data-test=pocitadlo]").startswith("4 /"), "po obnovení pokračuje 4. otázkou")
+    page.click(".qtop .iconbtn")
+    page.wait_for_selector(".diff")
+    over(page.locator(".dialog").count() == 0, "zpět bez dotazu (kolo počká)")
+    over("3 z" in page.inner_text('.diff[data-obtiznost="3"]'), "Těžká ukazuje „Rozehráno: 3 z …“")
+    page.click('a.diff[data-obtiznost="3"]')
+    page.wait_for_selector(".qcard")
+    over(page.inner_text("[data-test=pocitadlo]").startswith("4 /"), "znovu otevřené kolo pokračuje 4. otázkou")
+    n3 = zahraj_kolo(page, otazky, spatnych=0)
+    over(hvezdy_vysledku(page) == (5, 0), "bez chyby = 5 hvězd")
     nove = page.inner_text("[data-test=nove-odznaky]")
-    over("Bez chyby" in nove and "Neomylný" in nove, "odznaky Bez chyby a Neomylný")
-    return max_hvezd
+    over("Bez chyby" in nove and "Na vrcholu" in nove and "Neomylný" in nove, "odznaky Bez chyby, Na vrcholu a Neomylný")
+    over(page.locator("[data-test=dalsi-obtiznost]").count() == 0, "po Těžké už není další obtížnost")
+
+    print(f"Pod 70 % = další obtížnost zamčená natrvalo ({T2}):")
+    jdi(page, zaklad, f"#/hra/{T2}/1")
+    page.wait_for_selector(".qcard")
+    n4 = zahraj_kolo(page, otazky, spatnych=6)
+    over(hvezdy_vysledku(page) == ocekavane(n4 - 6, n4), f"{n4 - 6}/{n4}: hvězdy {hvezdy_vysledku(page)}")
+    over(page.locator("[data-test=natrvalo]").count() == 1 and page.locator("[data-test=dalsi-obtiznost]").count() == 0, "výsledek hlásí, že Střední zůstává zamčená")
+    jdi(page, zaklad, f"#/tema/{T2}")
+    over(stav_obtiznosti(page, "2") == "natrvalo" and stav_obtiznosti(page, "3") == "zamceno", "Střední zamčená natrvalo")
+    jdi(page, zaklad, f"#/hra/{T2}/2")
+    page.wait_for_timeout(300)
+    over(page.url.endswith(f"#/tema/{T2}"), "zamčenou obtížnost nejde otevřít ani adresou")
+
+    print("Historie:")
+    jdi(page, zaklad, "#/")
+    page.click("[data-test=historie]")
+    page.wait_for_selector(".hist")
+    over(page.locator(".hist").count() == 4, f"{page.locator('.hist').count()} dohraná kola v historii")
+    bez_chybejicich_textu(page, "Historie")
+    page.click(f'.hist[data-tema="{T2}"]')
+    page.wait_for_selector(".review")
+    over(page.url.endswith(f"#/prehled/{T2}/1"), "z historie se otevře přehled odpovědí")
 
 
 def nastav(page, zaklad, skupina, hodnota):
@@ -287,31 +344,30 @@ def zacni_kolo(page, zaklad, T, obt="1"):
 
 
 def ukonci_kolo(page):
-    """Zpět z kola; po první odpovědi se aplikace zeptá (dialog uvnitř aplikace)."""
-    rozehrano = page.locator("[data-test=vysvetleni]").count() > 0
+    """Zpět z kola – kolo zůstane rozehrané a příště pokračuje."""
     page.click(".qtop .iconbtn")
-    if rozehrano:
-        page.wait_for_selector(".dialog")
-        page.click(".dialog .btn-primary")
     page.wait_for_selector(".diff")
 
 
-def scenar_prekladu(page, zaklad, otazky, T):
+def scenar_prekladu(page, zaklad, otazky, T, T_prehled):
+    """T = téma s otevřenou Lehkou (hraje se v něm jedno rozehrané kolo), T_prehled = téma s dohranou Lehkou."""
     print("Překlad – vždy:")
     nastav(page, zaklad, "nast-preklad", "vzdy")
     zacni_kolo(page, zaklad, T)
     q = otazky[page.get_attribute(".qcard", "data-qid")]
     over(page.is_visible(".qtext .tr") and page.inner_text(".qtext .tr") == q["otazka"]["en"], "otázka má viditelný anglický překlad")
     lisi = [i for i in range(4) if q["moznosti"]["cs"][i] != q["moznosti"]["en"][i]]
-    vid = [page.is_visible(f'.ans[data-index="{i}"] .tr') for i in lisi]
-    over(all(vid), f"možnosti mají viditelný překlad ({len(lisi)} ze 4 se liší)")
+    over(all(page.is_visible(f'.ans[data-index="{i}"] .tr') for i in lisi), f"možnosti mají viditelný překlad ({len(lisi)} ze 4 se liší)")
     zodpovez(page, otazky)
     over(page.is_visible(".explain .tr") and page.inner_text(".explain .tr") == q["vysvetleni"]["en"], "vysvětlení má viditelný překlad")
     ukonci_kolo(page)
+    jdi(page, zaklad, f"#/prehled/{T_prehled}/1")
+    over(page.is_visible(".review .qtext .tr") and page.is_visible(".review .explain-t .tr"), "přehled odpovědí: překlad vidět")
 
     print("Překlad – na ťuknutí:")
     nastav(page, zaklad, "nast-preklad", "tuknuti")
     zacni_kolo(page, zaklad, T)
+    over(page.inner_text("[data-test=pocitadlo]").startswith("2 /"), "rozehrané kolo pokračuje další otázkou")
     q = otazky[page.get_attribute(".qcard", "data-qid")]
     over(not page.is_visible(".qtext .tr"), "překlad otázky je schovaný")
     page.click(".qcard [data-test=prelozit]")
@@ -324,6 +380,10 @@ def scenar_prekladu(page, zaklad, otazky, T):
     page.click(".explain [data-test=prelozit]")
     over(page.is_visible(".explain .tr"), "po ťuknutí je přeložené i vysvětlení")
     ukonci_kolo(page)
+    jdi(page, zaklad, f"#/prehled/{T_prehled}/1")
+    over(not page.is_visible(".review .qtext .tr"), "přehled: překlad schovaný")
+    page.click(".review [data-test=prelozit] >> nth=0")
+    over(page.is_visible(".review .qtext .tr >> nth=0"), "přehled: po ťuknutí je překlad vidět")
 
     print("Překlad – vypnuto:")
     nastav(page, zaklad, "nast-preklad", "vypnuto")
@@ -344,22 +404,22 @@ def scenar_prekladu(page, zaklad, otazky, T):
     nastav(page, zaklad, "nast-otazky", "cs")
 
 
-def scenar_jazyka(page, zaklad, T, kat_id):
+def scenar_jazyka(page, zaklad, T_hra, T_hotovo, kat_id):
     print("Rozhraní anglicky (všechny obrazovky):")
     nastav(page, zaklad, "nast-ui", "en")
     over(page.get_attribute("html", "lang") == "en", "html lang = en")
-    obrazovky = [("#/", "Play"), ("#/kategorie", "Categories"), (f"#/kategorie/{kat_id}", "Pick a topic"), (f"#/tema/{T}", "Easy"),
-                 (f"#/hra/{T}/1", "Quit"), ("#/vysledek", "Play again"), ("#/odznaky", "Badges"), ("#/nastaveni", "Settings")]
+    obrazovky = [("#/", "Play"), ("#/kategorie", "Categories"), (f"#/kategorie/{kat_id}", "Pick a topic"), (f"#/tema/{T_hotovo}", "See your answers"),
+                 (f"#/hra/{T_hra}/1", "Did you know?"), ("#/vysledek", "See your answers"), (f"#/prehled/{T_hotovo}/1", "Your answers"),
+                 ("#/historie", "History"), ("#/odznaky", "Badges"), ("#/nastaveni", "Settings")]
     for h_, slovo in obrazovky:
         jdi(page, zaklad, h_)
+        obsah = h_.startswith("#/hra") or h_.startswith("#/prehled")  # otázky jsou česky (jazyk otázek)
         if h_.startswith("#/hra"):
             page.wait_for_selector(".qcard")
             zodpovez_libovolne(page)
-            txt = text_stranky(page) + (page.get_attribute(".qtop .iconbtn", "aria-label") or "")
-        else:
-            txt = text_stranky(page)
+        txt = text_stranky(page)
         bez_chybejicich_textu(page, f"EN {h_}")
-        cesky = [w for w in ("Nastavení", "Hrát", "Kategorie", "Lehká", "Odznaky", "Další", "Znovu", "Věděli") if w in txt]
+        cesky = [] if obsah else [w for w in ("Nastavení", "Hrát", "Kategorie", "Lehká", "Odznaky", "Další", "Historie", "Věděli", "Prohlédnout") if w in txt]
         over(slovo in txt and not cesky, f"EN {h_}: anglické texty" + (f" (česky zůstalo: {cesky})" if cesky else ""))
     jdi(page, zaklad, "#/vitej")
     page.wait_for_timeout(100)
@@ -373,23 +433,16 @@ def zodpovez_libovolne(page):
     page.wait_for_selector("[data-test=vysvetleni]")
 
 
-def scenar_odznaku_a_smazani(page, zaklad):
-    print("Odznaky a smazání pokroku:")
+def scenar_odznaku_a_nastaveni(page, zaklad):
+    print("Odznaky a Nastavení:")
     jdi(page, zaklad, "#/odznaky")
     over(page.locator(".bcard").count() >= 10, f"{page.locator('.bcard').count()} odznaků na obrazovce Odznaky")
-    over(page.locator(".bcard.earned").count() >= 3, "získané odznaky jsou označené")
+    over(page.locator(".bcard.earned").count() >= 5, f"{page.locator('.bcard.earned').count()} získaných odznaků je označených")
     bez_chybejicich_textu(page, "Odznaky")
     jdi(page, zaklad, "#/nastaveni")
-    page.click("[data-test=smazat]")
-    page.wait_for_selector(".dialog")
-    over(page.locator(".dialog").count() == 1, "potvrzení uvnitř aplikace")
-    page.click(".dialog .btn-sec")
-    over(page.locator(".dialog").count() == 0, "Zrušit dialog zavře")
-    page.click("[data-test=smazat]")
-    page.click(".dialog .btn-danger")
-    page.wait_for_selector("[data-test=hvezdy-celkem]")
-    over(page.inner_text("[data-test=hvezdy-celkem]").startswith("0"), "po smazání 0 hvězd")
-    over(not page.url.endswith("#/vitej"), "nastavení po smazání pokroku zůstalo")
+    txt = text_stranky(page)
+    over(page.locator("[data-test=smazat]").count() == 0 and "Smazat" not in txt, "Smazat pokrok v Nastavení není")
+    over("ověř" not in txt.lower() and "reklam" not in txt.lower(), "O hře: bez textu o ověření faktů a o reklamě")
 
 
 # ---------------------------------------------------------------- screenshoty
@@ -400,15 +453,17 @@ def screenshoty(browser, zaklad, hlidac, otazky, T, vystup):
     for w in SIRKY:
         ctx = browser.new_context(viewport={"width": w, "height": VYSKY[w]}, locale="cs-CZ", device_scale_factor=1)
         page = ctx.new_page()
+        page.set_default_timeout(8000)
         hlidac.pripoj(page)
         page.goto(zaklad)
         page.evaluate("s => localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(s))", stav_nast)
         page.reload()
-        # rychlé kolo, aby byl výsledek a nějaké hvězdy
+        # kolo s 3 špatnými (70 % = 3,5 ★), aby byl výsledek s půlhvězdou a otevřená Střední
         zacni_kolo(page, zaklad, T)
-        zahraj_kolo(page, otazky, spatnych=2, klavesnice=True)
-        snimky = [("1-domu", "#/", None), ("2-kategorie", "#/kategorie", None), ("3-otazka", f"#/hra/{T}/1", "odpoved"),
-                  ("4-vysledek", "#/vysledek", None), ("5-nastaveni", "#/nastaveni", None)]
+        zahraj_kolo(page, otazky, spatnych=3, klavesnice=True)
+        snimky = [("1-domu", "#/", None), ("2-kategorie", "#/kategorie", None), ("3-otazka", f"#/hra/{T}/2", "odpoved"),
+                  ("4-vysledek", "#/vysledek", None), ("5-nastaveni", "#/nastaveni", None), ("6-prehled", f"#/prehled/{T}/1", None),
+                  ("7-obtiznost", f"#/tema/{T}", None)]
         for nazev, h_, akce in snimky:
             jdi(page, zaklad, h_)
             if akce == "odpoved":
@@ -416,7 +471,7 @@ def screenshoty(browser, zaklad, hlidac, otazky, T, vystup):
                 zodpovez(page, otazky, spravne=False)
                 page.mouse.move(0, 0)
                 page.wait_for_timeout(400)
-            page.wait_for_timeout(700)  # animace hvězd
+            page.wait_for_timeout(900)  # animace hvězd
             pretek = page.evaluate("""() => {
                 const W = document.documentElement.clientWidth, out = [];
                 if (document.documentElement.scrollWidth > W + 1) out.push('stránka ' + document.documentElement.scrollWidth + ' > ' + W);
@@ -430,7 +485,7 @@ def screenshoty(browser, zaklad, hlidac, otazky, T, vystup):
             if pretek:
                 chyba(f"{w} px {nazev}: přetéká – {pretek}")
             page.screenshot(path=str(vystup / f"{nazev}-{w}.png"), full_page=True)
-        ok(f"{w} px: 5 screenshotů" + ("" if not any(str(w) in c for c in chyby) else " (s nálezy výše)"))
+        ok(f"{w} px: {len(snimky)} screenshotů" + ("" if not any(f"{w} px" in c for c in chyby) else " (s nálezy výše)"))
         ctx.close()
 
 
@@ -449,8 +504,12 @@ def main():
         return 2
 
     kontrola_textu()
-    index, otazky, kat, tema = nacti_data()
-    print(f"Data: režim {index.get('rezim')}, {len(otazky)} otázek; průchod tématem {tema['id']} ({kat['id']})")
+    index, otazky, temata = nacti_data()
+    if len(temata) < 3:
+        print("Průchod potřebuje aspoň 3 témata se všemi třemi obtížnostmi (3+ otázek).")
+        return 2
+    (kat, tema), (_, tema2), (_, tema3) = temata[:3]
+    print(f"Data: režim {index.get('rezim')}, {len(otazky)} otázek; témata pro průchod {tema['id']}, {tema2['id']}, {tema3['id']}")
 
     httpd = None
     if args.url:
@@ -466,10 +525,10 @@ def main():
         page.set_default_timeout(8000)
         hlidac.pripoj(page)
         kroky = [
-            lambda: scenar_hry(page, zaklad, otazky, kat, tema),
-            lambda: scenar_prekladu(page, zaklad, otazky, tema["id"]),
-            lambda: scenar_jazyka(page, zaklad, tema["id"], kat["id"]),
-            lambda: scenar_odznaku_a_smazani(page, zaklad),
+            lambda: scenar_hry(page, zaklad, otazky, temata),
+            lambda: scenar_prekladu(page, zaklad, otazky, tema3["id"], tema["id"]),
+            lambda: scenar_jazyka(page, zaklad, tema3["id"], tema["id"], kat["id"]),
+            lambda: scenar_odznaku_a_nastaveni(page, zaklad),
         ]
         for krok in kroky:
             try:
