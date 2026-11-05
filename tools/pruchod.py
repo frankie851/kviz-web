@@ -13,7 +13,10 @@ pod 70 % zůstane další obtížnost zamčená natrvalo; historie; ovládání 
 všechny tři režimy překladu u otázky, možností, vysvětlení i v přehledu odpovědí; jazyk otázek;
 přepnutí rozhraní CZ ↔ EN bez chybějících textů; zvuky a vibrace se ozvou a jdou vypnout;
 upozornění na nový odznak během kola; konfety jen při 100 % a jen poprvé (ne po obnovení);
-s „omezit pohyb“ žádné animace ani konfety; náhled odkazu (Open Graph) a ikony; žádné chyby
+s „omezit pohyb“ žádné animace ani konfety; odkaz na téma u nového hráče vede po prvním spuštění
+na téma; při pomalém stažení tématu hned „Načítám…“; klávesy po rychlém odchodu z načítané otázky
+nic nezodpoví; dlouhé slovo a adresa v otázce, možnostech a vysvětlení nic neroztáhnou (320 px);
+náhled odkazu (Open Graph) a ikony; žádné chyby
 v konzoli; žádný síťový požadavek mimo vlastní adresu. Pak screenshoty 7 obrazovek na šířkách 320, 360, 390, 768 a 1280 px
 a kontrola, že nic nepřetéká do stran. Potřebuje aspoň 3 témata se všemi obtížnostmi.
 
@@ -30,6 +33,7 @@ import re
 import socketserver
 import sys
 import threading
+import time
 from pathlib import Path
 
 KOREN = Path(__file__).resolve().parent.parent
@@ -87,10 +91,19 @@ def kontrola_textu():
 
 
 # ---------------------------------------------------------------- server
+ZPOMALENI = {}  # část cesty → zpoždění v sekundách (napodobení pomalé sítě pro vybraný soubor)
+
+
 def spust_server():
     class Tichy(http.server.SimpleHTTPRequestHandler):
         def log_message(self, *a):
             pass
+
+        def do_GET(self):
+            for cast, s in list(ZPOMALENI.items()):
+                if cast in self.path:
+                    time.sleep(s)
+            super().do_GET()
 
     handler = functools.partial(Tichy, directory=str(KOREN))
     class Server(socketserver.ThreadingTCPServer):
@@ -533,6 +546,115 @@ def scenar_omezit_pohyb(browser, zaklad, hlidac, otazky, T):
     ctx.close()
 
 
+DLOUHE_SLOVO = "Pneumonoultramicroscopicsilicovolcanoconiosis-Donaudampfschifffahrtsgesellschaft"
+DLOUHA_ADRESA = "https://cs.wikipedia.org/wiki/Seznam_nejdel%C5%A1%C3%ADch_slov_v_%C4%8De%C5%A1tin%C4%9B_a_angli%C4%8Dtin%C4%9B"
+
+
+def pretekani(page):
+    """Seznam přetékajících prvků (prázdný = nic nepřetéká do stran)."""
+    return page.evaluate("""() => {
+        const W = document.documentElement.clientWidth, out = [];
+        if (document.documentElement.scrollWidth > W + 1) out.push('stránka ' + document.documentElement.scrollWidth + ' > ' + W);
+        for (const el of document.querySelectorAll('#app *:not(.sr-only)')) {
+          const r = el.getBoundingClientRect();
+          if (r.width && (r.right > W + 1 || r.left < -1)) out.push((el.className || el.tagName) + ' ' + Math.round(r.left) + '–' + Math.round(r.right));
+          if (el.scrollWidth > el.clientWidth + 1 && getComputedStyle(el).overflowX !== 'visible' && el.clientWidth) out.push('ořez: ' + (el.className || el.tagName));
+        }
+        return out.slice(0, 5);
+    }""")
+
+
+def scenar_dlouhych_slov(browser, zaklad, hlidac, otazky, T, vystup=None):
+    """Nález S-1 z kontroly: velmi dlouhé slovo nebo adresa v otázce, možnostech i vysvětlení nesmí
+    roztáhnout stránku do šířky. Data se nemění – prohlížeč dostane upravenou kopii souboru tématu."""
+    print("Dlouhá slova a adresy (320 px, překlad vždy):")
+    ctx = browser.new_context(viewport={"width": 320, "height": 640}, locale="cs-CZ")
+    page = ctx.new_page()
+    page.set_default_timeout(8000)
+    hlidac.pripoj(page)
+    soubor = KOREN / "data" / "topics" / f"{T}.json"
+    data = json.loads(soubor.read_text(encoding="utf-8"))
+    for q in data["otazky"]:
+        for j in q["otazka"]:
+            q["otazka"][j] += f" {DLOUHE_SLOVO}"
+            q["moznosti"][j] = [m + f" {DLOUHE_SLOVO}" for m in q["moznosti"][j]]
+            q["vysvetleni"][j] += f" {DLOUHE_SLOVO} {DLOUHA_ADRESA}"
+    telo = json.dumps(data, ensure_ascii=False)
+    page.route(f"**/data/topics/{T}.json*", lambda r: r.fulfill(status=200, content_type="application/json", body=telo))
+    page.goto(zaklad)
+    page.evaluate("s => localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(s))",
+                  {"ui": "cs", "otazky": "cs", "preklad": "vzdy", "zvuky": False, "vibrace": False})
+    page.reload()
+    zacni_kolo(page, zaklad, T)
+    zodpovez(page, otazky, spravne=False)
+    page.wait_for_timeout(400)
+    p = pretekani(page)
+    over(not p, "otázka a vysvětlení s dlouhým slovem a adresou nepřetékají" + (f": {p}" if p else ""))
+    if vystup:
+        vystup.mkdir(parents=True, exist_ok=True)
+        page.screenshot(path=str(vystup / "dlouhe-slovo-otazka-320.png"), full_page=True)
+    dalsi(page)
+    zahraj_kolo(page, otazky, spatnych=0)
+    jdi(page, zaklad, f"#/prehled/{T}/1")
+    page.wait_for_timeout(400)
+    p = pretekani(page)
+    over(not p, "přehled odpovědí s dlouhým slovem a adresou nepřetéká" + (f": {p}" if p else ""))
+    if vystup:
+        page.screenshot(path=str(vystup / "dlouhe-slovo-prehled-320.png"), full_page=True)
+    ctx.close()
+
+
+def scenar_navigace(browser, zaklad, hlidac, T, lokalni=True):
+    """Nálezy D-5, D-2 a D-6 z kontroly: odkaz na téma u nového hráče, odezva při pomalém
+    stažení tématu, klávesy po rychlém odchodu z načítané otázky."""
+    print("Odkaz na téma u nového hráče, pomalá síť, rychlý odchod:")
+    ctx = browser.new_context(viewport={"width": 390, "height": 844}, locale="cs-CZ")
+    page = ctx.new_page()
+    page.set_default_timeout(8000)
+    hlidac.pripoj(page)
+    jdi(page, zaklad, f"#/tema/{T}")
+    over(page.url.endswith("#/vitej"), "odkaz na téma u nového hráče nejdřív otevře první spuštění")
+    page.click("[data-test=pokracovat]")
+    page.click('[data-zpusob="muj"]')
+    page.wait_for_selector(".diff")
+    over(page.url.endswith(f"#/tema/{T}"), "po prvním spuštění je hráč na tématu z odkazu (ne Domů)")
+
+    if not lokalni:  # zpomalit jde jen vlastní server
+        ctx.close()
+        return
+    # pomalé stažení souboru tématu (1,5 s) – po ťuknutí na obtížnost se musí hned něco stát
+    ZPOMALENI[f"/data/topics/{T}.json"] = 1.5
+    cdp = ctx.new_cdp_session(page)  # bez mezipaměti prohlížeče, jinak by se soubor nestahoval znovu
+    cdp.send("Network.enable")
+    cdp.send("Network.setCacheDisabled", {"cacheDisabled": True})
+    page.goto(zaklad + "#/")  # nové načtení stránky = prázdná paměť otázek
+    page.reload()
+    page.wait_for_selector("[data-test=hrat]")
+    page.evaluate(f"location.hash = '#/tema/{T}'")
+    page.wait_for_selector(".diff")
+    page.click('a.diff[data-obtiznost="1"]')
+    page.wait_for_selector(".nacitam", timeout=1000)
+    over(page.is_visible(".nacitam") and page.inner_text(".nacitam").strip() == "Načítám…", "pomalá síť: po ťuknutí na obtížnost hned „Načítám…“")
+    page.wait_for_selector(".qcard", timeout=8000)
+    over(page.locator(".nacitam").count() == 0 and page.get_attribute("#app", "aria-busy") is None, "po načtení otázky „Načítám…“ zmizí")
+
+    # rychlý odchod: otázka se ještě načítá, hráč jde Domů → klávesa 1 už nesmí nic zodpovědět
+    page.goto(zaklad + "#/")
+    page.reload()
+    page.wait_for_selector("[data-test=hrat]")
+    page.evaluate(f"location.hash = '#/hra/{T}/1'")
+    page.wait_for_timeout(200)
+    page.evaluate("location.hash = '#/'")
+    page.wait_for_timeout(2200)  # zahozené kolo se mezitím dočetlo
+    pred = page.evaluate("JSON.stringify(localStorage)")
+    page.keyboard.press("1")
+    page.wait_for_timeout(200)
+    over(page.evaluate("JSON.stringify(localStorage)") == pred and page.locator(".qcard").count() == 0,
+         "klávesa 1 po odchodu z načítané otázky nic nezodpoví")
+    ZPOMALENI.clear()
+    ctx.close()
+
+
 def kontrola_nahledu_odkazu():
     print("Náhled odkazu (Open Graph) a ikony:")
     html = (KOREN / "index.html").read_text(encoding="utf-8")
@@ -586,16 +708,7 @@ def screenshoty(browser, zaklad, hlidac, otazky, T, vystup):
                 page.mouse.move(0, 0)
                 page.wait_for_timeout(400)
             page.wait_for_timeout(2000 if nazev == "4-vysledek" else 900)  # animace hvězd a výsledku
-            pretek = page.evaluate("""() => {
-                const W = document.documentElement.clientWidth, out = [];
-                if (document.documentElement.scrollWidth > W + 1) out.push('stránka ' + document.documentElement.scrollWidth + ' > ' + W);
-                for (const el of document.querySelectorAll('#app *:not(.sr-only)')) {
-                  const r = el.getBoundingClientRect();
-                  if (r.width && (r.right > W + 1 || r.left < -1)) out.push((el.className || el.tagName) + ' ' + Math.round(r.left) + '–' + Math.round(r.right));
-                  if (el.scrollWidth > el.clientWidth + 1 && getComputedStyle(el).overflowX !== 'visible' && el.clientWidth) out.push('ořez: ' + (el.className || el.tagName));
-                }
-                return out.slice(0, 5);
-            }""")
+            pretek = pretekani(page)
             if pretek:
                 chyba(f"{w} px {nazev}: přetéká – {pretek}")
             page.screenshot(path=str(vystup / f"{nazev}-{w}.png"), full_page=True)
@@ -647,6 +760,8 @@ def main():
             lambda: scenar_odznaku_a_nastaveni(page, zaklad),
             lambda: scenar_zvuku(page, zaklad, otazky, tema3["id"]),
             lambda: scenar_omezit_pohyb(browser, zaklad, hlidac, otazky, tema["id"]),
+            lambda: scenar_navigace(browser, zaklad, hlidac, tema2["id"], lokalni=httpd is not None),
+            lambda: scenar_dlouhych_slov(browser, zaklad, hlidac, otazky, tema2["id"], None if args.bez_screenshotu else Path(args.vystup)),
         ]
         for krok in kroky:
             try:
