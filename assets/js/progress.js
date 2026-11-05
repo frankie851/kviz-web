@@ -103,8 +103,19 @@ export function ulozRozehrane(temaId, obt, kolo) {
 }
 
 /**
+ * Udělí odznak hned během kola (série 5 a 10 správně za sebou). Vrátí true, když je nový.
+ * Na výsledku kola se pak ukáže mezi novými odznaky (kolo si ho pamatuje v `ziskaneBehem`).
+ */
+export function udelOdznak(id) {
+  if (p.odznaky[id] || !ODZNAKY.some((o) => o.id === id)) return false;
+  p.odznaky[id] = dnes();
+  ulozit();
+  return true;
+}
+
+/**
  * Zapíše dohrané kolo. kolo = { temaId, obt, odpovedi: [[id, volba, spravne?]], spravne, celkem,
- * nejdelsiRada, jazykOtazek, jazykUi, preklad, prekladOtevren }. Vrátí shrnutí pro obrazovku Výsledek.
+ * nejdelsiRada, jazykOtazek, jazykUi, preklad, prekladOtevren, ziskaneBehem }. Vrátí shrnutí pro obrazovku Výsledek.
  */
 export function zapisKolo(kolo) {
   const { temaId, obt, spravne, celkem } = kolo;
@@ -128,7 +139,8 @@ export function zapisKolo(kolo) {
   p.stat.nejdelsiRada = Math.max(p.stat.nejdelsiRada, kolo.nejdelsiRada || 0);
 
   const ctx = { kolo: { ...kolo, pul, odemyka: odemyka(spravne, celkem) }, info, pokrok: p, api: { jeDohrane, pocetDohranych, hvezdyTematu, hvezdyKategorie } };
-  const nove = [];
+  // odznaky získané už během kola patří taky mezi „nové“ na výsledku
+  const nove = ODZNAKY.filter((o) => (kolo.ziskaneBehem || []).includes(o.id) && p.odznaky[o.id]).map((o) => o.id);
   for (const o of ODZNAKY) {
     if (!p.odznaky[o.id] && o.splneno(ctx)) {
       p.odznaky[o.id] = d;

@@ -6,13 +6,17 @@ import { t, jazyk } from "../i18n.js";
 import { h } from "../ui.js";
 import { najdiTema, nactiTema, idx, txt } from "../data.js";
 import { sestavKolo } from "../game.js";
-import { stav as stavObt, zapisKolo, rozehrane, ulozRozehrane } from "../progress.js";
+import { stav as stavObt, zapisKolo, rozehrane, ulozRozehrane, udelOdznak } from "../progress.js";
 import { nast, jazykPrekladu, PREKLAD } from "../settings.js";
 import { uloz as ulozStorage } from "../storage.js";
-import { odezva } from "../feedback.js";
+import { odezva, zvuk } from "../feedback.js";
+import { odznak } from "../badges.js";
+import { oznameniOdznaku, schovejOznameni } from "../oslavy.js";
 
 export const ID = "hra";
 const PISMENA = ["A", "B", "C", "D", "E", "F"];
+// odznaky, které se dají získat už během kola (série správných odpovědí) – upozornění hned
+const ODZNAKY_SERIE = { 5: "rada-5", 10: "rada-10" };
 
 export async function vykresli([temaId, obt], app) {
   const info = najdiTema(temaId);
@@ -28,7 +32,7 @@ export async function vykresli([temaId, obt], app) {
   let otazky = ulozene ? ulozene.poradi.map((id) => podleId.get(id)).filter(Boolean) : [];
   if (!ulozene || otazky.length !== ulozene.poradi.length) {
     otazky = sestavKolo(data, obt);
-    ulozene = { poradi: otazky.map((q) => q.id), odpovedi: [], rada: 0, nejdelsiRada: 0, prekladOtevren: false };
+    ulozene = { poradi: otazky.map((q) => q.id), odpovedi: [], rada: 0, nejdelsiRada: 0, prekladOtevren: false, ziskaneBehem: [] };
   }
   if (!otazky.length) return { presmeruj: `#/tema/${temaId}` };
 
@@ -45,10 +49,12 @@ export async function vykresli([temaId, obt], app) {
     nejdelsiRada: ulozene.nejdelsiRada || 0,
     odpovezeno: false,
     prekladOtevren: !!ulozene.prekladOtevren,
+    ziskaneBehem: Array.isArray(ulozene.ziskaneBehem) ? ulozene.ziskaneBehem : [],
     hotovo: false,
   };
   const uloz = () => ulozRozehrane(temaId, obt, {
     poradi: otazky.map((q) => q.id), odpovedi, rada: stav.rada, nejdelsiRada: stav.nejdelsiRada, prekladOtevren: stav.prekladOtevren,
+    ziskaneBehem: stav.ziskaneBehem,
   });
 
   // --- kostra obrazovky ---
@@ -147,6 +153,8 @@ export async function vykresli([temaId, obt], app) {
       stav.rada = 0;
     }
     odpovedi.push([q.id, k]);
+    const novyOdznak = ok && ODZNAKY_SERIE[stav.rada] && udelOdznak(ODZNAKY_SERIE[stav.rada]) ? ODZNAKY_SERIE[stav.rada] : null;
+    if (novyOdznak) stav.ziskaneBehem.push(novyOdznak);
     uloz();
     stav.tlacitka.forEach((b, j) => {
       b.setAttribute("aria-disabled", "true");
@@ -164,7 +172,11 @@ export async function vykresli([temaId, obt], app) {
     });
     if (ok) stav.tlacitka[k].classList.add("pop");
     else stav.tlacitka[k].classList.add("shake");
-    odezva(ok ? "spravne" : "spatne");
+    odezva(ok ? "spravne" : "spatne", { rada: stav.rada });
+    if (novyOdznak) {
+      oznameniOdznaku(odznak(novyOdznak));
+      zvuk("odznak", {}, 0.3);
+    }
     ukazatel.style.width = `${((stav.i + 1) / otazky.length) * 100}%`;
     obnovSerii();
 
@@ -193,10 +205,18 @@ export async function vykresli([temaId, obt], app) {
     requestAnimationFrame(() => dalsi.scrollIntoView({ block: "nearest", behavior: reduce ? "auto" : "smooth" }));
   }
 
+  let minulaRada = stav.rada;
   function obnovSerii() {
     const zobraz = stav.rada >= 2;
     serie.classList.toggle("on", zobraz);
     serie.textContent = zobraz ? `🔥 ${t("hra.serie", { n: stav.rada })}` : "";
+    if (zobraz && stav.rada > minulaRada) {
+      // „poskočení“ série při každé další správné odpovědi
+      serie.classList.remove("bump");
+      void serie.offsetWidth;
+      serie.classList.add("bump");
+    }
+    minulaRada = stav.rada;
   }
 
   function pokracuj() {
@@ -221,10 +241,12 @@ export async function vykresli([temaId, obt], app) {
       jazykUi: s.ui,
       preklad: rezim,
       prekladOtevren: stav.prekladOtevren,
+      ziskaneBehem: stav.ziskaneBehem,
     });
     if (!souhrn) return app.jdi(`#/prehled/${temaId}/${obt}`, { nahradit: true }); // dohráno už dřív (jiná karta)
-    ulozStorage("posledni", { temaId, obt, spravne: stav.spravne, celkem: otazky.length, ...souhrn });
-    odezva("konec");
+    // cerstvy = výsledek se ukazuje poprvé → zvuky, vibrace a konfety (po obnovení stránky už ne)
+    schovejOznameni(); // výsledek nové odznaky ukáže sám
+    ulozStorage("posledni", { temaId, obt, spravne: stav.spravne, celkem: otazky.length, ...souhrn, cerstvy: true });
     app.jdi("#/vysledek", { nahradit: true });
   }
 

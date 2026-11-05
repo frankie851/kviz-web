@@ -3,6 +3,7 @@ import { t, jazyk } from "../i18n.js";
 import { h, lista } from "../ui.js";
 import { ODZNAKY } from "../badges.js";
 import { pokrok } from "../progress.js";
+import { dnes } from "../game.js";
 
 export const ID = "odznaky";
 
@@ -21,9 +22,11 @@ export function vykresli() {
   const pocet = ODZNAKY.filter((o) => ziskane[o.id]).length;
   const karty = ODZNAKY.map((o) => {
     const ma = !!ziskane[o.id];
+    const novy = ma && ziskane[o.id] === dnes(); // získaný dnes → štítek „Nový“
     return h(
       "li",
-      { class: `bcard ${ma ? "earned" : "locked"}`, "data-odznak": o.id },
+      { class: `bcard ${ma ? "earned" : "locked"}${novy ? " is-new" : ""}`, "data-odznak": o.id },
+      novy ? h("span", { class: "bcard-new", text: t("odznaky.novy") }) : null,
       h("span", { class: "bcard-ico", "aria-hidden": "true", text: ma ? o.ikona : "🔒" }),
       h("span", { class: "bcard-name", text: t(`odznak.${o.id}.nazev`) }),
       h("span", { class: "bcard-desc", text: t(`odznak.${o.id}.popis`) }),

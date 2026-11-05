@@ -29,7 +29,12 @@ const TRASY = [
   [/^\/nastaveni$/, nastaveni],
 ];
 
+// „hloubka“ obrazovky pro směr přechodu: hlouběji = příjezd zprava, zpět = zleva
+const HLOUBKA = new Map([[domu, 0], [uvod, 0], [kategorie, 1], [historie, 1], [odznaky, 1], [nastaveni, 1],
+  [temata, 2], [obtiznost, 3], [hra, 4], [vysledek, 5], [prehled, 5]]);
+
 const koren = document.getElementById("app");
+let minulaHloubka = null;
 let uklid = null;
 let poradi = 0;
 let minulaCesta = null;
@@ -107,6 +112,12 @@ export async function vykresli() {
     return;
   }
   window.scrollTo(0, 0);
+  // přechod: nová obrazovka přijede ze strany podle směru (CSS .screen-in-*; „omezit pohyb“ ho vypne)
+  const hloubka = HLOUBKA.get(obrazovka) ?? 0;
+  if (minulaHloubka !== null) {
+    vysl.el.classList.add(hloubka < minulaHloubka ? "screen-in-zpet" : hloubka > minulaHloubka ? "screen-in-vpred" : "screen-in");
+  }
+  minulaHloubka = hloubka;
   // čtečkám obrazovky oznámit novou obrazovku: fokus na nadpis
   const nadpis = koren.querySelector("h1");
   if (nadpis && !vysl.bezFokusu) {

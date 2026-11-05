@@ -135,7 +135,8 @@
     "nadpis": "Badges",
     "pocet": "{n} of {z} earned",
     "ziskano": "Earned {datum}",
-    "zamceno": "Not earned yet"
+    "zamceno": "Not earned yet",
+    "novy": "New!"
   },
   "odznak": {
     "prvni-kolo": {
@@ -214,5 +215,8 @@
     "nadpis": "History",
     "popis": "Finished rounds – tap one to go through the questions and answers.",
     "prazdna": "You haven't finished any rounds yet."
+  },
+  "oslavy": {
+    "novyOdznak": "New badge!"
   }
 }

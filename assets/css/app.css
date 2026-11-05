@@ -339,19 +339,108 @@ a.diff:active { transform: translateY(2px); }
 
 .screen-error { text-align: center; padding-top: 48px; display: grid; gap: 14px; }
 
-/* ---------- Mikroanimace (Fáze 3 je rozšíří) ---------- */
-@keyframes pop { 0% { transform: scale(1); } 40% { transform: scale(1.04); } 100% { transform: scale(1); } }
-@keyframes shake { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-6px); } 50% { transform: translateX(5px); } 75% { transform: translateX(-3px); } }
-@keyframes star-in { 0% { transform: scale(0) rotate(-30deg); opacity: 0; } 70% { transform: scale(1.25) rotate(8deg); opacity: 1; } 100% { transform: scale(1) rotate(0); } }
-@keyframes fade-up { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
-.ans.pop { animation: pop .3s ease; }
-.ans.shake { animation: shake .35s ease; }
-.explain { animation: fade-up .25s ease both; }
-.stars-big .star.on, .stars-big .star.half { display: inline-block; animation: star-in .5s cubic-bezier(.2, .9, .3, 1.3) both; }
-.stars-big .star:nth-child(2) { animation-delay: .14s; }
-.stars-big .star:nth-child(3) { animation-delay: .28s; }
-.stars-big .star:nth-child(4) { animation-delay: .42s; }
-.stars-big .star:nth-child(5) { animation-delay: .56s; }
+/* ---------- Mikroanimace a přechody (Fáze 3, DECISIONS D-015) ---------- */
+@keyframes pop { 0% { transform: scale(1); } 40% { transform: scale(1.045); } 100% { transform: scale(1); } }
+@keyframes shake { 0%, 100% { transform: translateX(0); } 20% { transform: translateX(-7px); } 40% { transform: translateX(6px); } 60% { transform: translateX(-4px); } 80% { transform: translateX(2px); } }
+@keyframes star-in { 0% { transform: scale(0) rotate(-40deg); opacity: 0; } 60% { transform: scale(1.35) rotate(10deg); opacity: 1; } 100% { transform: scale(1) rotate(0); opacity: 1; } }
+@keyframes star-ghost { from { opacity: 0; transform: scale(.6); } to { opacity: 1; transform: none; } }
+@keyframes fade-up { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes in-vpred { from { opacity: 0; transform: translateX(18px); } to { opacity: 1; transform: none; } }
+@keyframes in-zpet { from { opacity: 0; transform: translateX(-18px); } to { opacity: 1; transform: none; } }
+@keyframes pop-in { 0% { opacity: 0; transform: scale(.6); } 70% { opacity: 1; transform: scale(1.08); } 100% { opacity: 1; transform: scale(1); } }
+@keyframes bump { 0% { transform: scale(1); } 35% { transform: scale(1.22) rotate(-3deg); } 100% { transform: scale(1); } }
+@keyframes check-in { from { transform: scale(0) rotate(-45deg); } 70% { transform: scale(1.3); } to { transform: scale(1); } }
+@keyframes twinkle { 0%, 82%, 100% { transform: scale(1) rotate(0); } 88% { transform: scale(1.25) rotate(20deg); } 94% { transform: scale(.92) rotate(-6deg); } }
+@keyframes wiggle { 0%, 100% { transform: rotate(0); } 30% { transform: rotate(-6deg); } 60% { transform: rotate(4deg); } }
+@keyframes rays { from { transform: translate(-50%, -50%) rotate(0); } to { transform: translate(-50%, -50%) rotate(360deg); } }
+@keyframes glow { from { opacity: 0; transform: translate(-50%, -50%) scale(.4); } to { opacity: 1; transform: translate(-50%, -50%) scale(1); } }
+@keyframes toast-in { from { opacity: 0; transform: translateY(-24px) scale(.9); } to { opacity: 1; transform: none; } }
+@keyframes toast-out { to { opacity: 0; transform: translateY(-16px) scale(.95); } }
+
+/* přechody mezi obrazovkami (třídu dává app.js podle směru) */
+.screen-in-vpred { animation: in-vpred .26s cubic-bezier(.2, .8, .3, 1) both; }
+.screen-in-zpet { animation: in-zpet .26s cubic-bezier(.2, .8, .3, 1) both; }
+.screen-in { animation: fade-in .22s ease both; }
+
+/* seznamy naskakují postupně */
+.tiles > *, .cards > *, .diffs > *, .badges > *, .stats > *, .choices > * { animation: fade-up .32s cubic-bezier(.2, .8, .3, 1) both; }
+.tiles > :nth-child(2), .cards > :nth-child(2), .diffs > :nth-child(2), .badges > :nth-child(2), .stats > :nth-child(2), .choices > :nth-child(2) { animation-delay: .04s; }
+.tiles > :nth-child(3), .cards > :nth-child(3), .diffs > :nth-child(3), .badges > :nth-child(3), .stats > :nth-child(3), .choices > :nth-child(3) { animation-delay: .08s; }
+.tiles > :nth-child(4), .cards > :nth-child(4), .badges > :nth-child(4) { animation-delay: .12s; }
+.tiles > :nth-child(5), .cards > :nth-child(5), .badges > :nth-child(5) { animation-delay: .16s; }
+.tiles > :nth-child(n+6), .cards > :nth-child(n+6), .badges > :nth-child(n+6) { animation-delay: .2s; }
+
+/* Domů: logo se při příchodu zavrtí, jiskra občas zajiskří */
+.logo-hero { animation: wiggle .6s ease .15s both; }
+.logo-hero .jiskra, .logo-uvod .jiskra { transform-box: fill-box; transform-origin: center; animation: twinkle 4s ease-in-out 1s infinite; }
+.btn-cta { animation: pop-in .4s cubic-bezier(.2, .9, .3, 1.2) .12s both; }
+
+/* Otázka: každá nová otázka přijede, možnosti naskočí jedna po druhé */
+.qcard { animation: in-vpred .28s cubic-bezier(.2, .8, .3, 1) both; }
+.answers > li { animation: fade-up .3s cubic-bezier(.2, .8, .3, 1) both; }
+.answers > li:nth-child(1) { animation-delay: .06s; }
+.answers > li:nth-child(2) { animation-delay: .1s; }
+.answers > li:nth-child(3) { animation-delay: .14s; }
+.answers > li:nth-child(4) { animation-delay: .18s; }
+.answers-review > li { animation: none; }
+.ans.pop { animation: pop .32s ease; }
+.ans.shake { animation: shake .4s ease; }
+.ans.ok .ans-s, .ans.bad .ans-s { display: inline-block; animation: check-in .3s cubic-bezier(.2, .9, .3, 1.3) both; }
+.answers-review .ans-s { animation: none !important; }
+.streak.on { animation: pop-in .3s ease both; }
+.streak.bump { animation: bump .36s ease; }
+.explain { animation: fade-up .28s ease both; }
+.next { animation: fade-up .28s ease .08s both; }
+
+/* Výsledek: nadpis, hvězdy jedna po druhé (časování sedí se zvuky ve vysledek.js), pak zbytek */
+.screen-vysledek { --res-d0: .3s; --res-krok: .16s; }
+.res-title { animation: pop-in .45s cubic-bezier(.2, .9, .3, 1.2) .05s both; }
+.stars-big { position: relative; }
+.stars-big .star { display: inline-block; position: relative; z-index: 1; animation: star-ghost .3s ease both; animation-delay: var(--res-d0); }
+.stars-big .star.on, .stars-big .star.half { animation: star-in .5s cubic-bezier(.2, .9, .3, 1.3) both; animation-delay: var(--res-d0); }
+.stars-big .star:nth-child(2) { animation-delay: calc(var(--res-d0) + var(--res-krok)); }
+.stars-big .star:nth-child(3) { animation-delay: calc(var(--res-d0) + 2 * var(--res-krok)); }
+.stars-big .star:nth-child(4) { animation-delay: calc(var(--res-d0) + 3 * var(--res-krok)); }
+.stars-big .star:nth-child(5) { animation-delay: calc(var(--res-d0) + 4 * var(--res-krok)); }
+.res-score { animation: fade-up .35s ease .7s both; }
+.screen-vysledek .badge-line, .screen-vysledek .hint { animation: pop-in .4s cubic-bezier(.2, .9, .3, 1.2) .9s both; }
+.new-badges { animation: fade-up .35s ease .95s both; }
+.new-badge { animation: pop-in .4s cubic-bezier(.2, .9, .3, 1.3) 1.1s both; }
+.new-badge:nth-child(2) { animation-delay: 1.2s; }
+.new-badge:nth-child(3) { animation-delay: 1.3s; }
+.new-badge:nth-child(n+4) { animation-delay: 1.4s; }
+.res-btns { animation: fade-up .35s ease .8s both; }
+/* 100 % = 5 ★: za hvězdami se točí paprsky a svítí záře */
+.screen-vysledek > :not(.stars-big) { position: relative; z-index: 1; }
+.pul-10 .stars-big::before, .pul-10 .stars-big::after { content: ""; position: absolute; left: 50%; top: 50%; pointer-events: none; z-index: 0; border-radius: 50%; }
+.pul-10 .stars-big::before {
+  width: 300px; height: 300px; max-width: 92vw; max-height: 92vw;
+  background: repeating-conic-gradient(from 0deg, rgba(255, 197, 61, .32) 0 9deg, transparent 9deg 24deg);
+  -webkit-mask: radial-gradient(circle, #000 25%, transparent 68%); mask: radial-gradient(circle, #000 25%, transparent 68%);
+  animation: glow .6s ease 1s both, rays 18s linear 1s infinite;
+}
+.pul-10 .stars-big::after { width: 180px; height: 90px; background: radial-gradient(closest-side, rgba(255, 197, 61, .45), transparent); animation: glow .6s ease 1s both; }
+
+/* Odznaky: štítek „Nový“ u odznaků získaných dnes */
+.bcard { position: relative; }
+.bcard-new { position: absolute; top: 8px; right: 8px; padding: 2px 8px; border-radius: 999px; background: var(--primary); color: var(--on-primary); font-size: 12px; font-weight: 800; animation: pop-in .4s ease .3s both; }
+.bcard.is-new { box-shadow: 0 0 0 2px var(--sun), var(--shadow-soft); }
+.bcard.is-new .bcard-ico { animation: wiggle .6s ease .4s both; }
+
+/* Konfety a upozornění na nový odznak (oslavy.js) */
+.konfety { position: fixed; inset: 0; z-index: 50; pointer-events: none; }
+.toasts { position: fixed; z-index: 60; top: calc(10px + env(safe-area-inset-top)); left: 50%; transform: translateX(-50%); width: min(calc(100% - 24px), 420px); display: grid; gap: 8px; pointer-events: none; }
+.toast {
+  pointer-events: auto; display: flex; align-items: center; gap: 12px; width: 100%; min-height: 60px; padding: 10px 16px;
+  border: 0; border-radius: 20px; background: var(--ink); color: #fff; text-align: left; cursor: pointer;
+  box-shadow: 0 12px 28px rgba(43, 22, 48, .3); animation: toast-in .4s cubic-bezier(.2, .9, .3, 1.2) both;
+}
+.toast.odchod { animation: toast-out .25s ease forwards; }
+.toast-ico { font-size: 32px; line-height: 1; flex: none; animation: wiggle .6s ease .3s both; }
+.toast-body { display: flex; flex-direction: column; min-width: 0; }
+.toast-h { font-size: 13px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; color: var(--sun); }
+.toast-name { font-family: var(--font-h); font-weight: 800; font-size: 20px; line-height: 1.15; overflow-wrap: anywhere; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }

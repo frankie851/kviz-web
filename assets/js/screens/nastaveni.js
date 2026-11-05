@@ -4,6 +4,7 @@ import { h, lista, prepinac, vypinac } from "../ui.js";
 import { nast, zmen, jazykPrekladu, PREKLAD } from "../settings.js";
 import { idx } from "../data.js";
 import { ukladaniFunguje } from "../storage.js";
+import { zvuk, vibrace } from "../feedback.js";
 
 export const ID = "nastaveni";
 
@@ -59,8 +60,8 @@ export function vykresli(_param, app) {
       h("p", { class: "field-hint", text: t("nastaveni.prekladNapoveda") })),
     h("section", { class: "card settings" },
       h("h2", { class: "settings-h", text: t("nastaveni.zvukyVibrace") }),
-      vypinac({ id: "nast-zvuky", popis: t("nastaveni.zvuky"), zapnuto: s.zvuky, zmena: (v) => zmen({ zvuky: v }) }),
-      vypinac({ id: "nast-vibrace", popis: t("nastaveni.vibrace"), zapnuto: s.vibrace, zmena: (v) => zmen({ vibrace: v }) })),
+      vypinac({ id: "nast-zvuky", popis: t("nastaveni.zvuky"), zapnuto: s.zvuky, zmena: (v) => { zmen({ zvuky: v }); if (v) zvuk("ukazka"); } }),
+      vypinac({ id: "nast-vibrace", popis: t("nastaveni.vibrace"), zapnuto: s.vibrace, zmena: (v) => { zmen({ vibrace: v }); if (v) vibrace("ukazka"); } })),
     h("section", { class: "card settings about" },
       h("h2", { class: "settings-h", text: t("nastaveni.oHre") }),
       h("p", { text: t("nastaveni.oHrePravidla") }),
