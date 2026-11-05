@@ -2,7 +2,7 @@
 // dohraná vede na přehled odpovědí, další se odemkne od 70 %, pod 70 % zůstane zamčená natrvalo.
 import { t, jazyk } from "../i18n.js";
 import { h, lista, hvezdicky } from "../ui.js";
-import { najdiTema, viditelneObtiznosti, txt } from "../data.js";
+import { najdiTema, viditelneObtiznosti, txt, predNactiTema } from "../data.js";
 import { vysledek, stav, rozehrane } from "../progress.js";
 
 export const ID = "obtiznost";
@@ -13,6 +13,7 @@ export function vykresli([temaId]) {
   if (!info) return { presmeruj: "#/kategorie" };
   const { tema, kategorie } = info;
   const vid = viditelneObtiznosti(tema);
+  predNactiTema(tema.id); // otázky se stahují, zatímco hráč vybírá – kolo pak začne hned (KONTROLA D-2)
 
   const tlacitka = vid.map((o, i) => {
     const s = stav(tema, o);

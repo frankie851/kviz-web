@@ -2,7 +2,8 @@
   "app": {
     "nazev": "Oho!",
     "nazevZaklad": "Oho",
-    "podtitul": "Verified questions. In Czech and English."
+    "podtitul": "Verified questions. In Czech and English.",
+    "nacitam": "Loading…"
   },
   "nav": {
     "zpet": "Back"

@@ -18,16 +18,25 @@ export function idx() {
   return index;
 }
 
-export async function nactiTema(id) {
+/** Otázky tématu. Pamatuje si i rozběhnuté stahování, takže předběžné stažení (obrazovka Obtížnost)
+ *  a začátek kola sdílejí jeden požadavek. Nepovedené stažení se zapomene a příště se zkusí znovu. */
+export function nactiTema(id) {
   if (temata.has(id)) return temata.get(id);
   const info = najdiTema(id);
-  if (!info) throw new Error(`Neznámé téma ${id}`);
+  if (!info) return Promise.reject(new Error(`Neznámé téma ${id}`));
   // verze exportu v adrese = po aktualizaci dat se nevezme stará kopie z mezipaměti
-  const r = await fetch(`data/${info.tema.soubor}?v=${encodeURIComponent(index.exportovano || "")}`);
-  if (!r.ok) throw new Error(`téma ${id}: HTTP ${r.status}`);
-  const data = await r.json();
-  temata.set(id, data);
-  return data;
+  const slib = fetch(`data/${info.tema.soubor}?v=${encodeURIComponent(index.exportovano || "")}`).then((r) => {
+    if (!r.ok) throw new Error(`téma ${id}: HTTP ${r.status}`);
+    return r.json();
+  });
+  temata.set(id, slib);
+  slib.catch(() => temata.delete(id));
+  return slib;
+}
+
+/** Stáhne otázky tématu na pozadí (bez chyb v konzoli, když to nevyjde). */
+export function predNactiTema(id) {
+  nactiTema(id).catch(() => {});
 }
 
 export function kategorie(id) {

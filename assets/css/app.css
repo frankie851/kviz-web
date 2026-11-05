@@ -45,6 +45,7 @@ body {
   background: var(--bg); color: var(--ink);
   font: 500 17px/1.45 var(--font-t);
   overflow-x: hidden;
+  overflow-wrap: break-word; /* pojistka: dlouhé slovo nebo adresa nesmí roztáhnout stránku (KONTROLA S-1) */
   -webkit-tap-highlight-color: transparent;
 }
 /* dekorativní kruhy v rozích */
@@ -71,6 +72,16 @@ p { margin: 0; }
 /* ---------- Načítání (před startem aplikace) ---------- */
 .boot { min-height: 70vh; display: grid; place-items: center; text-align: center; color: var(--muted); }
 .boot svg { width: 72px; height: 72px; }
+.nacitam {
+  position: fixed; z-index: 50; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom)); transform: translateX(-50%);
+  display: flex; align-items: center; gap: 10px; padding: 10px 18px; border-radius: 999px;
+  background: var(--ink); color: #fff; font-weight: 800; font-size: 16px; box-shadow: 0 8px 20px rgba(43, 22, 48, .25);
+  animation: nacitam-in .2s ease both;
+}
+@keyframes nacitam-in { from { opacity: 0; } to { opacity: 1; } }
+.nacitam-tecka { width: 14px; height: 14px; border-radius: 50%; border: 3px solid var(--sun); border-right-color: transparent; animation: tocit .8s linear infinite; }
+@keyframes tocit { to { transform: rotate(360deg); } }
+[aria-busy="true"] .diff, [aria-busy="true"] a { cursor: progress; }
 
 /* ---------- Tlačítka ---------- */
 .btn {
@@ -86,8 +97,6 @@ p { margin: 0; }
 .btn-sec { background: var(--surface); color: var(--ink); box-shadow: var(--shadow-soft); }
 .btn-sec:hover { background: #FFFBF5; }
 .btn-big { width: 100%; min-height: 58px; font-size: 20px; }
-.btn-danger { background: var(--bad); color: #fff; }
-.btn-danger-outline { width: 100%; background: transparent; color: var(--bad-ink); border: 2px solid var(--bad); }
 .btn-cta { width: 100%; min-height: 64px; font-size: 26px; font-weight: 800; box-shadow: 0 10px 22px rgba(194, 37, 92, .32); }
 .cta-ico { font-size: 18px; }
 
@@ -197,7 +206,7 @@ p { margin: 0; }
 /* ---------- 5. Obtížnost ---------- */
 .diffs { display: grid; gap: 14px; }
 .diff {
-  display: grid; grid-template-columns: 44px minmax(0, 1fr) auto; align-items: center; gap: 12px;
+  display: grid; grid-template-columns: 44px minmax(0, 1fr); align-items: center; gap: 12px;
   min-height: 84px; padding: 14px 16px; border-radius: var(--r-card); background: var(--surface);
   box-shadow: 0 4px 0 var(--line); text-decoration: none; border: 2px solid transparent; transition: transform .12s ease, border-color .12s ease;
 }
@@ -206,7 +215,6 @@ a.diff:active { transform: translateY(2px); }
 .diff-ico { font-size: 30px; line-height: 1; text-align: center; }
 .diff-body { display: flex; flex-direction: column; min-width: 0; }
 .diff-name { font-family: var(--font-h); font-weight: 800; font-size: 24px; line-height: 1.1; }
-.diff { grid-template-columns: 44px minmax(0, 1fr); }
 .diff-desc { color: var(--muted); font-size: 15px; font-weight: 600; }
 .diff-body .stars-diff { margin: 2px 0; }
 .diff-link { color: var(--primary); font-weight: 800; font-size: 15px; margin-top: 2px; }
@@ -253,11 +261,11 @@ a.diff:active { transform: translateY(2px); }
 .ans-t .orig { display: block; }
 .ans-s { font-size: 20px; font-weight: 900; text-align: center; }
 .ans.ok { background: var(--ok-bg); border-color: var(--ok); color: var(--ok-ink); box-shadow: 0 3px 0 #A9E2C1; }
-.ans.ok .ans-l { background: var(--ok); color: var(--ok-on); }
+.ans.ok .ans-l { background: var(--ok-ink); color: var(--ok-on); }
 .ans.bad { background: var(--bad-bg); border-color: var(--bad); color: var(--bad-ink); box-shadow: 0 3px 0 #F5B5B5; }
 .ans.bad .ans-l { background: var(--bad); color: var(--bad-on); }
 .ans.ok .tr, .ans.bad .tr { color: inherit; opacity: .85; }
-.explain { margin-top: 16px; padding: 14px 16px; border-radius: var(--r-card); background: var(--explain-bg); color: var(--explain-ink); }
+.explain { margin-top: 16px; padding: 14px 16px; border-radius: var(--r-card); background: var(--explain-bg); color: var(--explain-ink); overflow-wrap: anywhere; min-width: 0; }
 .explain-h { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 10px; margin-bottom: 6px; font-size: 20px; }
 .explain.is-ok .verdict { color: var(--ok-ink); }
 .explain.is-bad .verdict { color: var(--bad-ink); }
@@ -307,16 +315,16 @@ a.diff:active { transform: translateY(2px); }
 .seg { display: grid; grid-auto-columns: minmax(0, 1fr); grid-auto-flow: column; gap: 4px; padding: 4px; border-radius: 999px; background: var(--bg); }
 .seg-btn { min-height: 44px; padding: 6px 8px; border: 0; border-radius: 999px; background: transparent; font-weight: 800; font-size: 15px; line-height: 1.15; cursor: pointer; color: var(--muted); overflow-wrap: anywhere; }
 .seg-btn[aria-checked="true"] { background: var(--primary); color: var(--on-primary); box-shadow: 0 3px 8px rgba(194, 37, 92, .25); }
-.switch { position: relative; flex: none; width: 60px; height: 36px; border: 0; border-radius: 999px; background: #9C7F8E; cursor: pointer; transition: background-color .15s ease; }
-.switch-knob { position: absolute; top: 4px; left: 4px; width: 28px; height: 28px; border-radius: 50%; background: #fff; box-shadow: 0 1px 3px rgba(0, 0, 0, .25); transition: transform .15s ease; }
+.switch { position: relative; flex: none; width: 80px; height: 48px; border: 0; border-radius: 999px; background: #9C7F8E; cursor: pointer; transition: background-color .15s ease; }
+.switch-knob { position: absolute; top: 5px; left: 5px; width: 38px; height: 38px; border-radius: 50%; background: #fff; box-shadow: 0 1px 3px rgba(0, 0, 0, .25); transition: transform .15s ease; }
 .switch[aria-checked="true"] { background: var(--ok); }
-.switch[aria-checked="true"] .switch-knob { transform: translateX(24px); }
+.switch[aria-checked="true"] .switch-knob { transform: translateX(32px); }
 .about p + p { margin-top: 8px; }
 
 /* ---------- Přehled odpovědí a Historie ---------- */
 .review-sum { text-align: center; margin-bottom: 14px; }
 .review-score { font-weight: 800; color: var(--muted); }
-.review { border: 2px solid transparent; }
+.review { border: 2px solid transparent; min-width: 0; overflow-wrap: anywhere; }
 .review-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 6px; font-size: 14px; font-weight: 800; }
 .review-n { color: var(--muted); }
 .review-verdict.ok { color: var(--ok-ink); }
