@@ -48,7 +48,7 @@ datum: 2026-11-05 · předává: prompt 01 (Fáze 5 + Davidova volba D-018, pros
 - `tools/pruchod.py`: 1. běh selhal na varování o preload písem, 2. běh prošel – viz nález D-1.
 
 ## Připomínky Davida (k zapracování)
-- 2026-11-05 – „mírně zmenši stín pod Hrát“ → **zapracováno** (`.btn-cta` stín 0 6px 14px / 24 % místo 0 10px 22px / 32 %).
+- 2026-11-05 – „mírně zmenši stín pod Hrát“, upřesněno „užší stín, zasahoval do tlačítek Odznaky a Historie“ → **zapracováno**: `.btn-cta` stín `0 6px 8px -6px` (sahá ~8 px pod tlačítko, mezera k řadě Odznaky/Historie je 12 px).
 - 2026-11-05 – ke „K zvážení“: „témata budou doplněna. Série ‚1 den v řadě‘ nahraď úspěšností v %“ → **zapracováno** (D-018); témata = prompt 03.
 - 2026-11-05 – po kontrole: zadání „podívej se na to podle promptu“ → Fáze 5 (opravy nálezů); ke „K zvážení“ zatím bez rozhodnutí.
 - 2026-11-05 – po sloučení a vyzkoušení Fáze 3 na mobilu: **bez připomínek**.
