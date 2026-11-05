@@ -90,6 +90,17 @@ export function serieDni() {
   return posledni === dnes() || posledni === vcera() ? serie : 0;
 }
 
+/** Úspěšnost ze všech dohraných kol v % (celé číslo); null, dokud hráč nic nedohrál. */
+export function uspesnost() {
+  let s = 0, c = 0;
+  for (const obt of Object.values(p.vysledky)) {
+    for (const v of Object.values(obt || {})) {
+      if (v && v.c > 0) { s += v.s; c += v.c; }
+    }
+  }
+  return c ? Math.round((s / c) * 100) : null;
+}
+
 // ---------- rozehrané kolo (uloží se po každé odpovědi – odchod ani obnovení stránky ho nezahodí)
 const klic = (temaId, obt) => `${temaId}|${obt}`;
 

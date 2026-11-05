@@ -59,12 +59,8 @@
       "other": "{n} dní"
     },
     "hvezd": "hvězd",
-    "serieDni": {
-      "one": "den v řadě",
-      "few": "dny v řadě",
-      "many": "dne v řadě",
-      "other": "dní v řadě"
-    },
+    "uspesnost": "úspěšnost",
+    "procent": "{n} %",
     "odznaku": "odznaků",
     "hrat": "Hrát",
     "bezUkladani": "Tento prohlížeč nedovoluje ukládat – pokrok se po zavření stránky ztratí."
