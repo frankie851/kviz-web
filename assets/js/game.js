@@ -1,15 +1,21 @@
 // Pravidla hry – čisté funkce bez DOM, aby šly snadno ověřit a později rozšířit.
+// Pravidla podle Davida (DECISIONS D-013): 5 hvězd, každých 10 % = půl hvězdy,
+// každou obtížnost lze zahrát jen jednou, další obtížnost se odemkne od 70 %.
 import { viditelneObtiznosti } from "./data.js";
 
 export const OTAZEK_V_KOLE = 10;
+export const MAX_HVEZD = 5;
+export const ODEMCENI_PULHVEZD = 7; // 70 % = 3,5 ★
 
-/** Hvězdy za kolo: ★ od 50 %, ★★ od 70 %, ★★★ od 90 % (bez zaokrouhlování, celočíselně). */
-export function hvezdy(spravne, celkem) {
+/** Půlhvězdy za kolo (0–10): každých celých 10 % = 1 půlhvězda. Celočíselně, bez zaokrouhlování nahoru. */
+export function pulhvezdy(spravne, celkem) {
   if (!celkem) return 0;
-  if (spravne * 10 >= celkem * 9) return 3;
-  if (spravne * 10 >= celkem * 7) return 2;
-  if (spravne * 10 >= celkem * 5) return 1;
-  return 0;
+  return Math.min(MAX_HVEZD * 2, Math.floor((spravne * 10) / celkem));
+}
+
+/** Odemyká výsledek další obtížnost? (aspoň 70 % správně) */
+export function odemyka(spravne, celkem) {
+  return !!celkem && spravne * 10 >= celkem * 7;
 }
 
 export function zamichej(pole) {
@@ -28,15 +34,17 @@ export function sestavKolo(tema, obtiznost) {
 }
 
 /**
- * Je obtížnost odemčená? První zobrazená je vždy otevřená, každá další po ★★ v předchozí zobrazené.
- * nejlepsi(o) vrací nejlepší počet hvězd v obtížnosti o.
+ * Stav obtížnosti: "otevreno" | "zamceno" (předchozí ještě nehrána) | "natrvalo" (předchozí pod 70 %).
+ * vysledek(o) vrací uložený výsledek { s, c } dohrané obtížnosti, nebo null.
  */
-export function odemceno(temaInfo, obtiznost, nejlepsi) {
+export function stavObtiznosti(temaInfo, obtiznost, vysledek) {
   const vid = viditelneObtiznosti(temaInfo);
   const i = vid.indexOf(String(obtiznost));
-  if (i < 0) return false;
-  if (i === 0) return true;
-  return nejlepsi(vid[i - 1]) >= 2;
+  if (i < 0) return "zamceno";
+  if (i === 0) return "otevreno";
+  const pred = vysledek(vid[i - 1]);
+  if (!pred) return "zamceno";
+  return odemyka(pred.s, pred.c) ? "otevreno" : "natrvalo";
 }
 
 /** Další zobrazená obtížnost po dané (nebo null). */

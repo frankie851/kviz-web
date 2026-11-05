@@ -1,8 +1,7 @@
-// 9. Nastavení – jazyky, překlad, zvuky, vibrace, O hře, Smazat pokrok.
+// 9. Nastavení – jazyky, překlad, zvuky, vibrace, O hře. (Smazat pokrok zrušeno – D-013: každé kolo se hraje jen jednou.)
 import { t, nastavJazyk, JAZYKY_ROZHRANI } from "../i18n.js";
-import { h, lista, prepinac, vypinac, potvrd } from "../ui.js";
+import { h, lista, prepinac, vypinac } from "../ui.js";
 import { nast, zmen, jazykPrekladu, PREKLAD } from "../settings.js";
-import { smazatPokrok } from "../progress.js";
 import { idx } from "../data.js";
 import { ukladaniFunguje } from "../storage.js";
 
@@ -64,30 +63,10 @@ export function vykresli(_param, app) {
       vypinac({ id: "nast-vibrace", popis: t("nastaveni.vibrace"), zapnuto: s.vibrace, zmena: (v) => zmen({ vibrace: v }) })),
     h("section", { class: "card settings about" },
       h("h2", { class: "settings-h", text: t("nastaveni.oHre") }),
-      h("p", { text: t("nastaveni.oHreOtazky") }),
+      h("p", { text: t("nastaveni.oHrePravidla") }),
       h("p", { text: t("nastaveni.oHreSoukromi") }),
       ukladaniFunguje() ? null : h("p", { class: "notice", text: t("domu.bezUkladani") }),
-      h("p", { class: "muted", text: t("nastaveni.oHreData", { n: idx().pocet_otazek || 0, datum }) })),
-    h("section", { class: "card settings danger-zone" },
-      h("button", {
-        type: "button",
-        class: "btn btn-danger-outline",
-        "data-test": "smazat",
-        text: t("nastaveni.smazat"),
-        onclick: async () => {
-          const ano = await potvrd({
-            nadpis: t("nastaveni.smazatNadpis"),
-            text: t("nastaveni.smazatText"),
-            ano: t("nastaveni.smazatAno"),
-            ne: t("nastaveni.smazatNe"),
-            nebezpecne: true,
-          });
-          if (ano) {
-            smazatPokrok();
-            app.jdi("#/", { nahradit: true });
-          }
-        },
-      }))
+      h("p", { class: "muted", text: t("nastaveni.oHreData", { n: idx().pocet_otazek || 0, datum }) }))
   );
   return { el, titulek: t("nastaveni.nadpis"), bezFokusu: false };
 }

@@ -1,6 +1,6 @@
 // 2. Domů – logo, Hrát, hvězdy celkem, série dní, Odznaky a Nastavení.
 import { t } from "../i18n.js";
-import { h, logo, wordmark } from "../ui.js";
+import { h, logo, wordmark, cislo } from "../ui.js";
 import { hvezdyCelkem, serieDni, pokrok } from "../progress.js";
 import { ODZNAKY } from "../badges.js";
 import { ukladaniFunguje } from "../storage.js";
@@ -35,7 +35,7 @@ export function vykresli() {
     h(
       "div",
       { class: "stats" },
-      stat(`${hv.ziskano} / ${hv.max}`, t("domu.hvezd"), "hvezdy-celkem"),
+      stat(`${cislo(hv.pul / 2)} / ${cislo(hv.max / 2)}`, t("domu.hvezd"), "hvezdy-celkem"),
       stat(String(dny), t("domu.serieDni", { n: dny }), "dny"),
       stat(`${odz} / ${ODZNAKY.length}`, t("domu.odznaku"), "odznaky")
     ),
@@ -45,7 +45,7 @@ export function vykresli() {
       "div",
       { class: "row2" },
       h("a", { class: "btn btn-sec", href: "#/odznaky" }, h("span", { "aria-hidden": "true", text: "🏅" }), t("odznaky.nadpis")),
-      h("a", { class: "btn btn-sec", href: "#/nastaveni" }, h("span", { "aria-hidden": "true", text: "⚙️" }), t("nastaveni.nadpis"))
+      h("a", { class: "btn btn-sec", href: "#/historie", "data-test": "historie" }, h("span", { "aria-hidden": "true", text: "📖" }), t("historie.nadpis"))
     ),
     ukladaniFunguje() ? null : h("p", { class: "notice", role: "status", text: t("domu.bezUkladani") })
   );

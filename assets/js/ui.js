@@ -46,11 +46,28 @@ export function wordmark(trida = "word") {
   return h("span", { class: trida, translate: "no" }, t("app.nazevZaklad"), h("em", { text: "!" }));
 }
 
-/** Řada hvězd ★★☆ (počet ze 3). */
-export function hvezdicky(pocet, max = 3, trida = "stars") {
-  const el = h("span", { class: trida, role: "img", "aria-label": t("hvezdy.aria", { n: pocet, max }) });
-  for (let i = 0; i < max; i++) el.append(h("span", { class: i < pocet ? "star on" : "star", "aria-hidden": "true", text: "★" }));
+/** Řada hvězd z půlhvězd (0–10): celé, půlky a prázdné. */
+export function hvezdicky(pul, max = 5, trida = "stars") {
+  const el = h("span", { class: trida, role: "img", "aria-label": t("hvezdy.aria", { pocet: cislo(pul / 2), max }) });
+  for (let i = 0; i < max; i++) {
+    const stav = pul >= (i + 1) * 2 ? "star on" : pul === i * 2 + 1 ? "star half" : "star";
+    el.append(h("span", { class: stav, "aria-hidden": "true", text: "★" }));
+  }
   return el;
+}
+
+/** Číslo v jazyce rozhraní (3,5 / 3.5). */
+export function cislo(n) {
+  try {
+    return new Intl.NumberFormat(document.documentElement.lang || "cs", { maximumFractionDigits: 1 }).format(n);
+  } catch {
+    return String(n);
+  }
+}
+
+/** Hvězdy jako text „3,5 / 15 ★“ z půlhvězd. */
+export function hvezdyText(pul, maxPul) {
+  return `${cislo(pul / 2)} / ${cislo(maxPul / 2)} ★`;
 }
 
 /** Horní lišta obrazovky: tlačítko zpět + nadpis (+ volitelně něco vpravo). */
@@ -102,43 +119,6 @@ export function vypinac({ popis, zapnuto, zmena, id }) {
     },
   }, h("span", { class: "switch-knob", "aria-hidden": "true" }));
   return h("div", { class: "field field-row" }, h("label", { class: "field-label", for: id, text: popis }), btn);
-}
-
-/** Potvrzení uvnitř aplikace (ne systémový dialog prohlížeče). Vrátí Promise<boolean>. */
-export function potvrd({ nadpis, text, ano, ne, nebezpecne = false }) {
-  return new Promise((resolve) => {
-    const predtim = document.activeElement;
-    const zavri = (vysledek) => {
-      document.removeEventListener("keydown", klavesy, true);
-      okno.remove();
-      if (predtim && typeof predtim.focus === "function") predtim.focus({ preventScroll: true });
-      resolve(vysledek);
-    };
-    const klavesy = (e) => {
-      if (e.key === "Escape") {
-        e.preventDefault();
-        zavri(false);
-      } else if (e.key === "Tab") {
-        // fokus zůstane v okně
-        e.preventDefault();
-        (document.activeElement === tlNe ? tlAno : tlNe).focus();
-      }
-      e.stopPropagation();
-    };
-    const tlNe = h("button", { type: "button", class: "btn btn-sec", text: ne, onclick: () => zavri(false) });
-    const tlAno = h("button", { type: "button", class: nebezpecne ? "btn btn-danger" : "btn btn-primary", text: ano, onclick: () => zavri(true) });
-    const okno = h(
-      "div",
-      { class: "dialog-wrap", onclick: (e) => e.target === okno && zavri(false) },
-      h("div", { class: "dialog", role: "alertdialog", "aria-modal": "true", "aria-labelledby": "dlg-t", "aria-describedby": "dlg-d" },
-        h("h2", { id: "dlg-t", text: nadpis }),
-        h("p", { id: "dlg-d", text }),
-        h("div", { class: "dialog-btns" }, tlNe, tlAno))
-    );
-    document.addEventListener("keydown", klavesy, true);
-    document.body.append(okno);
-    tlNe.focus();
-  });
 }
 
 export function prefersReducedMotion() {

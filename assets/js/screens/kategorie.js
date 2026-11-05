@@ -1,6 +1,6 @@
 // 3. Kategorie – mřížka barevných dlaždic s ikonou, názvem, počtem témat a hvězdami.
 import { t, jazyk } from "../i18n.js";
-import { h, lista } from "../ui.js";
+import { h, lista, hvezdyText } from "../ui.js";
 import { viditelneKategorie, viditelnaTemata, txt } from "../data.js";
 import { hvezdyKategorie } from "../progress.js";
 
@@ -19,7 +19,7 @@ export function vykresli() {
       h("span", { class: "tile-name", text: txt(k.nazev, jazyk()) }),
       h("span", { class: "tile-meta" },
         h("span", { text: t("kategorie.temat", { n }) }),
-        h("span", { class: "tile-stars", text: `${hv.ziskano} / ${hv.max} ★` }))
+        h("span", { class: "tile-stars", text: hvezdyText(hv.pul, hv.max) }))
     );
   });
   const el = h(

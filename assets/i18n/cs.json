@@ -13,7 +13,7 @@
     "znovu": "Zkusit znovu"
   },
   "hvezdy": {
-    "aria": "Hvězdy: {n} ze {max}"
+    "aria": "Hvězdy: {pocet} z {max}"
   },
   "jazyky": {
     "cs": {
@@ -78,7 +78,8 @@
     }
   },
   "temata": {
-    "vyberTema": "Vyber si téma"
+    "vyberTema": "Vyber si téma",
+    "hraj": "Hraj"
   },
   "obtiznost": {
     "1": "Lehká",
@@ -90,17 +91,16 @@
       "3": "v Těžké"
     },
     "zamceno": "Zamčeno",
-    "nejlepe": "Nejlépe: {s} z {c}",
-    "nehrano": "Ještě nehráno",
-    "odemkne": "Odemkneš za ★★ {predchozi}",
-    "vyber": "Vyber obtížnost. Kolo má až 10 otázek."
+    "odemkne": "Odemkneš za 70 % {predchozi}",
+    "vyber": "Každou obtížnost hraješ jen jednou. Od 70 % správně se odemkne další.",
+    "natrvalo": "Zamčeno natrvalo – {predchozi} chybělo 70 %",
+    "zamcenoNatrvalo": "Zamčeno natrvalo",
+    "hotovo": "Dohráno: {s} z {c}",
+    "rozehrano": "Rozehráno: {i} z {n} – pokračuj",
+    "jednou": "Hraješ jen jednou – soustřeď se!",
+    "prohlednout": "Prohlédnout odpovědi →"
   },
   "hra": {
-    "ukoncit": "Ukončit kolo",
-    "opustitNadpis": "Ukončit kolo?",
-    "opustitText": "Rozehrané kolo se nezapočítá.",
-    "opustitAno": "Ukončit",
-    "opustitNe": "Hrát dál",
     "prelozit": "Přeložit ({jazyk})",
     "pocitadlo": "{i} / {n}",
     "moznosti": "Možnosti odpovědí",
@@ -116,7 +116,8 @@
       "few": "{n} v řadě",
       "many": "{n} v řadě",
       "other": "{n} v řadě"
-    }
+    },
+    "zpet": "Zpět (kolo počká)"
   },
   "vysledek": {
     "titulek": "Výsledek",
@@ -127,9 +128,7 @@
       "3": "Perfektní!"
     },
     "spravne": "{p} % správně",
-    "rekord": "Nový osobní rekord!",
     "odemceno": "Odemčeno: {obtiznost}",
-    "proDalsi": "Za ★★ odemkneš obtížnost {obtiznost}.",
     "noveOdznaky": {
       "one": "Nový odznak",
       "few": "Nové odznaky",
@@ -137,8 +136,10 @@
       "other": "Nové odznaky"
     },
     "dalsiObtiznost": "Hrát: {obtiznost}",
-    "znovu": "Znovu",
-    "zpetTemata": "Zpět na témata"
+    "zpetTemata": "Zpět na témata",
+    "natrvalo": "{obtiznost} zůstává zamčená – na odemčení bylo potřeba 70 %.",
+    "temaHotovo": "Téma máš dohrané celé.",
+    "prehled": "Prohlédnout odpovědi"
   },
   "odznaky": {
     "nadpis": "Odznaky",
@@ -153,7 +154,7 @@
     },
     "bez-chyby": {
       "nazev": "Bez chyby",
-      "popis": "Získej v kole ★★★."
+      "popis": "Odpověz v kole všechno správně (5 ★)."
     },
     "rada-5": {
       "nazev": "Rozjetý",
@@ -165,11 +166,11 @@
     },
     "tezka": {
       "nazev": "Na vrcholu",
-      "popis": "Získej aspoň ★★ v Těžké obtížnosti."
+      "popis": "Získej aspoň 70 % v Těžké obtížnosti."
     },
     "temata-3": {
       "nazev": "Objevitel",
-      "popis": "Dohraj 3 témata (všechny obtížnosti aspoň za ★)."
+      "popis": "Dohraj 3 témata až po Těžkou."
     },
     "tema-hvezdy": {
       "nazev": "Hvězda tématu",
@@ -193,7 +194,7 @@
     },
     "bez-napovedy": {
       "nazev": "Bez nápovědy",
-      "popis": "Kolo v cizím jazyce za ★★ a víc – s překladem na ťuknutí, ale ani jednou ho neotevři."
+      "popis": "Kolo v cizím jazyce za 70 % a víc – s překladem na ťuknutí, ale ani jednou ho neotevři."
     }
   },
   "nastaveni": {
@@ -210,13 +211,18 @@
     "zvuky": "Zvuky",
     "vibrace": "Vibrace",
     "oHre": "O hře",
-    "oHreOtazky": "Všechny otázky prošly ověřením faktů a každá má krátké vysvětlení.",
-    "oHreSoukromi": "Pokrok se ukládá jen v tomto zařízení. Nic nesledujeme, nemáme účty ani reklamu.",
+    "oHreSoukromi": "Pokrok se ukládá jen v tomto zařízení a nic nesledujeme.",
     "oHreData": "Otázek ve hře: {n} · aktualizováno {datum}",
-    "smazat": "Smazat pokrok",
-    "smazatNadpis": "Smazat celý pokrok?",
-    "smazatText": "Zmizí všechny hvězdy, odznaky a série dní. Nastavení jazyka zůstane. Vrátit to nejde.",
-    "smazatAno": "Smazat",
-    "smazatNe": "Zrušit"
+    "oHrePravidla": "Každou obtížnost hraješ jen jednou. Za každých 10 % správných odpovědí získáš půl hvězdy (až 5 ★) a od 70 % se odemkne další obtížnost."
+  },
+  "prehled": {
+    "nadpis": "Tvoje odpovědi",
+    "otazka": "Otázka {i} z {n}",
+    "skore": "{s} z {c} správně"
+  },
+  "historie": {
+    "nadpis": "Historie",
+    "popis": "Dohraná kola – ťukni a projdi si otázky i odpovědi.",
+    "prazdna": "Zatím nemáš dohrané žádné kolo."
   }
 }

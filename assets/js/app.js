@@ -12,6 +12,8 @@ import * as hra from "./screens/hra.js";
 import * as vysledek from "./screens/vysledek.js";
 import * as odznaky from "./screens/odznaky.js";
 import * as nastaveni from "./screens/nastaveni.js";
+import * as prehled from "./screens/prehled.js";
+import * as historie from "./screens/historie.js";
 
 const TRASY = [
   [/^\/?$/, domu],
@@ -21,6 +23,8 @@ const TRASY = [
   [/^\/tema\/([\w-]+)$/, obtiznost],
   [/^\/hra\/([\w-]+)\/([1-9])$/, hra],
   [/^\/vysledek$/, vysledek],
+  [/^\/prehled\/([\w-]+)\/([1-9])$/, prehled],
+  [/^\/historie$/, historie],
   [/^\/odznaky$/, odznaky],
   [/^\/nastaveni$/, nastaveni],
 ];

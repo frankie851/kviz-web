@@ -1,12 +1,14 @@
 // 6. Otázka – kolo až 10 otázek. Překlad podle nastavení (vždy / na ťuknutí / vypnuto).
 // Na PC: klávesy 1–4 nebo A–D = odpověď, Enter = Další.
+// Každá obtížnost se hraje jen jednou (D-013): kolo se ukládá po každé odpovědi, takže odchod
+// nebo obnovení stránky ho nezahodí (pokračuje se další otázkou) a dohrané kolo nejde hrát znovu.
 import { t, jazyk } from "../i18n.js";
-import { h, potvrd } from "../ui.js";
+import { h } from "../ui.js";
 import { najdiTema, nactiTema, idx, txt } from "../data.js";
 import { sestavKolo } from "../game.js";
-import { jeOdemceno, zapisKolo } from "../progress.js";
+import { stav as stavObt, zapisKolo, rozehrane, ulozRozehrane } from "../progress.js";
 import { nast, jazykPrekladu, PREKLAD } from "../settings.js";
-import { uloz } from "../storage.js";
+import { uloz as ulozStorage } from "../storage.js";
 import { odezva } from "../feedback.js";
 
 export const ID = "hra";
@@ -15,10 +17,19 @@ const PISMENA = ["A", "B", "C", "D", "E", "F"];
 export async function vykresli([temaId, obt], app) {
   const info = najdiTema(temaId);
   if (!info) return { presmeruj: "#/kategorie" };
-  if (!jeOdemceno(info.tema, obt)) return { presmeruj: `#/tema/${temaId}` };
+  const s0 = stavObt(info.tema, obt);
+  if (s0 === "dohrano") return { presmeruj: `#/prehled/${temaId}/${obt}` };
+  if (s0 !== "otevreno") return { presmeruj: `#/tema/${temaId}` };
 
   const data = await nactiTema(temaId);
-  const otazky = sestavKolo(data, obt);
+  const podleId = new Map(data.otazky.map((q) => [q.id, q]));
+  // rozehrané kolo: stejné otázky ve stejném pořadí, pokračuje se první nezodpovězenou
+  let ulozene = rozehrane(temaId, obt);
+  let otazky = ulozene ? ulozene.poradi.map((id) => podleId.get(id)).filter(Boolean) : [];
+  if (!ulozene || otazky.length !== ulozene.poradi.length) {
+    otazky = sestavKolo(data, obt);
+    ulozene = { poradi: otazky.map((q) => q.id), odpovedi: [], rada: 0, nejdelsiRada: 0, prekladOtevren: false };
+  }
   if (!otazky.length) return { presmeruj: `#/tema/${temaId}` };
 
   const s = nast();
@@ -26,7 +37,19 @@ export async function vykresli([temaId, obt], app) {
   const jp = jazykPrekladu(s, idx().jazyky || undefined); // jazyk překladu
   const rezim = s.preklad;
 
-  const stav = { i: 0, spravne: 0, rada: 0, nejdelsiRada: 0, odpovezeno: false, prekladOtevren: false, hotovo: false };
+  const odpovedi = ulozene.odpovedi.filter(([id]) => podleId.has(id));
+  const stav = {
+    i: odpovedi.length,
+    spravne: odpovedi.filter(([id, v]) => podleId.get(id).spravne === v).length,
+    rada: ulozene.rada || 0,
+    nejdelsiRada: ulozene.nejdelsiRada || 0,
+    odpovezeno: false,
+    prekladOtevren: !!ulozene.prekladOtevren,
+    hotovo: false,
+  };
+  const uloz = () => ulozRozehrane(temaId, obt, {
+    poradi: otazky.map((q) => q.id), odpovedi, rada: stav.rada, nejdelsiRada: stav.nejdelsiRada, prekladOtevren: stav.prekladOtevren,
+  });
 
   // --- kostra obrazovky ---
   const pocitadlo = h("span", { class: "qcount", "data-test": "pocitadlo" });
@@ -35,7 +58,7 @@ export async function vykresli([temaId, obt], app) {
   const serie = h("span", { class: "streak", "data-test": "serie", "aria-live": "polite" });
   const telo = h("div", { class: "qbody" });
 
-  const zpet = h("button", { type: "button", class: "iconbtn", "aria-label": t("hra.ukoncit"), onclick: () => opustit() },
+  const zpet = h("a", { class: "iconbtn", href: `#/tema/${temaId}`, "aria-label": t("hra.zpet"), title: t("hra.zpet") },
     h("span", { "aria-hidden": "true", text: "←" }));
 
   const el = h(
@@ -50,14 +73,6 @@ export async function vykresli([temaId, obt], app) {
     h("div", { class: "qprogress" }, postup, serie),
     telo
   );
-
-  async function opustit() {
-    if (stav.i > 0 || stav.odpovezeno) {
-      const ano = await potvrd({ nadpis: t("hra.opustitNadpis"), text: t("hra.opustitText"), ano: t("hra.opustitAno"), ne: t("hra.opustitNe") });
-      if (!ano) return;
-    }
-    app.jdi(`#/tema/${temaId}`);
-  }
 
   /** Text v jazyce otázek + případný překlad pod ním. */
   function dvojice(obj, trida, ukazPreklad) {
@@ -80,6 +95,7 @@ export async function vykresli([temaId, obt], app) {
         btn.setAttribute("aria-pressed", "true");
         cil().forEach((e) => (e.hidden = false));
         stav.prekladOtevren = true;
+        uloz();
         onOpen?.();
       },
     }, h("span", { "aria-hidden": "true", text: "🌐" }), t("hra.prelozit", { jazyk: t(`jazyky.${jp}.kod`) }));
@@ -130,6 +146,8 @@ export async function vykresli([temaId, obt], app) {
     } else {
       stav.rada = 0;
     }
+    odpovedi.push([q.id, k]);
+    uloz();
     stav.tlacitka.forEach((b, j) => {
       b.setAttribute("aria-disabled", "true");
       b.classList.add("done");
@@ -195,6 +213,7 @@ export async function vykresli([temaId, obt], app) {
     const souhrn = zapisKolo({
       temaId,
       obt,
+      odpovedi,
       spravne: stav.spravne,
       celkem: otazky.length,
       nejdelsiRada: stav.nejdelsiRada,
@@ -203,7 +222,8 @@ export async function vykresli([temaId, obt], app) {
       preklad: rezim,
       prekladOtevren: stav.prekladOtevren,
     });
-    uloz("posledni", { temaId, obt, spravne: stav.spravne, celkem: otazky.length, ...souhrn });
+    if (!souhrn) return app.jdi(`#/prehled/${temaId}/${obt}`, { nahradit: true }); // dohráno už dřív (jiná karta)
+    ulozStorage("posledni", { temaId, obt, spravne: stav.spravne, celkem: otazky.length, ...souhrn });
     odezva("konec");
     app.jdi("#/vysledek", { nahradit: true });
   }
@@ -222,6 +242,14 @@ export async function vykresli([temaId, obt], app) {
     }
   }
 
+  if (stav.i >= otazky.length) {
+    // všechny otázky zodpovězené, jen se nestihl zapsat výsledek
+    stav.odpovezeno = true;
+    stav.i = otazky.length - 1;
+    pokracuj();
+    return null;
+  }
+  uloz();
   otazka();
   document.addEventListener("keydown", klavesy);
   return { el, titulek: txt(info.tema.nazev, jazyk()), uklid: () => document.removeEventListener("keydown", klavesy) };

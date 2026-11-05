@@ -1,10 +1,12 @@
-// 5. Obtížnost – tři velká tlačítka, zámky, nejlepší výsledek.
+// 5. Obtížnost – tři velká tlačítka. Každá obtížnost se hraje jen jednou (D-013):
+// dohraná vede na přehled odpovědí, další se odemkne od 70 %, pod 70 % zůstane zamčená natrvalo.
 import { t, jazyk } from "../i18n.js";
 import { h, lista, hvezdicky } from "../ui.js";
 import { najdiTema, viditelneObtiznosti, txt } from "../data.js";
-import { nejlepsi, jeOdemceno } from "../progress.js";
+import { vysledek, stav, rozehrane } from "../progress.js";
 
 export const ID = "obtiznost";
+const IKONY = { 1: "🌱", 2: "🌿", 3: "🌳" };
 
 export function vykresli([temaId]) {
   const info = najdiTema(temaId);
@@ -13,23 +15,29 @@ export function vykresli([temaId]) {
   const vid = viditelneObtiznosti(tema);
 
   const tlacitka = vid.map((o, i) => {
-    const otevreno = jeOdemceno(tema, o);
-    const nej = nejlepsi(tema.id, o);
-    const popis = otevreno
-      ? nej
-        ? t("obtiznost.nejlepe", { s: nej.s, c: nej.c })
-        : t("obtiznost.nehrano")
-      : t("obtiznost.odemkne", { predchozi: t(`obtiznost.lokal.${vid[i - 1]}`) });
+    const s = stav(tema, o);
+    const v = vysledek(tema.id, o);
+    const predchozi = i > 0 ? t(`obtiznost.lokal.${vid[i - 1]}`) : "";
+    const roz = rozehrane(tema.id, o);
+    const popis = {
+      dohrano: v ? t("obtiznost.hotovo", { s: v.s, c: v.c }) : "",
+      otevreno: roz?.odpovedi?.length ? t("obtiznost.rozehrano", { i: roz.odpovedi.length, n: roz.poradi.length }) : t("obtiznost.jednou"),
+      zamceno: t("obtiznost.odemkne", { predchozi }),
+      natrvalo: t("obtiznost.natrvalo", { predchozi }),
+    }[s];
+    const ikona = s === "dohrano" ? "✅" : s === "otevreno" ? IKONY[o] || "⭐" : s === "natrvalo" ? "⛔" : "🔒";
     const obsah = [
-      h("span", { class: "diff-ico", "aria-hidden": "true", text: otevreno ? ["🌱", "🌿", "🌳"][Number(o) - 1] || "⭐" : "🔒" }),
+      h("span", { class: "diff-ico", "aria-hidden": "true", text: ikona }),
       h("span", { class: "diff-body" },
         h("span", { class: "diff-name", text: t(`obtiznost.${o}`) }),
-        h("span", { class: "diff-desc", text: popis })),
-      otevreno ? hvezdicky(nej?.h || 0, 3, "stars stars-diff") : null,
+        s === "dohrano" ? hvezdicky(v.pul, 5, "stars stars-diff") : null,
+        h("span", { class: "diff-desc", text: popis }),
+        s === "dohrano" ? h("span", { class: "diff-link", text: t("obtiznost.prohlednout") }) : null),
     ];
-    return otevreno
-      ? h("a", { class: `diff diff-${o}`, href: `#/hra/${tema.id}/${o}`, "data-obtiznost": o }, obsah)
-      : h("div", { class: `diff diff-${o} locked`, "aria-disabled": "true", "data-obtiznost": o }, obsah);
+    const tr = `diff diff-${o} diff-${s}`;
+    if (s === "dohrano") return h("a", { class: tr, href: `#/prehled/${tema.id}/${o}`, "data-obtiznost": o, "data-stav": s }, obsah);
+    if (s === "otevreno") return h("a", { class: tr, href: `#/hra/${tema.id}/${o}`, "data-obtiznost": o, "data-stav": s }, obsah);
+    return h("div", { class: `${tr} locked`, "aria-disabled": "true", "data-obtiznost": o, "data-stav": s }, obsah);
   });
 
   const el = h(
