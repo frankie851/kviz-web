@@ -1,8 +1,8 @@
 # HANDOFF – Kvízová webová aplikace
-datum: 2026-11-05 · předává: prompt 01 (Fáze 5 – opravy po kontrole, prostředí A) · přebírá: David (sloučit pull request a vyzkoušet), pak podle jeho rozhodnutí prompt 01 nebo 03
+datum: 2026-11-05 · předává: prompt 01 (Fáze 5 + Davidova volba D-018, prostředí A) · přebírá: David (sloučit pull request), pak prompt 03 (prostředí B) s novými tématy
 
 ## Stav jednou větou
-Všechny nálezy z kontroly jsou opravené (S-1 a D-1 až D-7, DECISIONS D-016) a ověřené (`pruchod.py` 2× za sebou, 113 kontrol); všech 10 kritérií přijetí ve SPEC je zaškrtnutých – **1. verze je hotová, jakmile David sloučí pull request do `main`**.
+1. verze je hotová a online (opravy z kontroly D-016 sloučené a ověřené na webu, všech 10 kritérií přijetí splněno); navíc je v pull requestu Davidova volba D-018 (na Domů úspěšnost v % místo druhé série dní) – čeká na sloučení; další krok je doplnění témat (prompt 03).
 
 ## Stav dat
 - 2026-11-04 – 35 otázek, 1 téma (T001 Chobotnice a další hlavonožci), režim vzorek
@@ -27,23 +27,20 @@ Všechny nálezy z kontroly jsou opravené (S-1 a D-1 až D-7, DECISIONS D-016) 
   - **D-1** odstraněn preload písem (příčina náhodného varování) → `pruchod.py` prošel 2× za sebou bez chyby;
   - **D-2** Obtížnost stahuje otázky na pozadí + pilulka „Načítám…“ po 0,3 s čekání (test se zpomaleným serverem);
   - **D-3** vypínače 48 px vysoké · **D-4** písmeno správné odpovědi na tmavší zelené (6,8 : 1) · **D-5** odkaz na téma vede nového hráče po prvním spuštění na téma · **D-6** úklid kláves u zahozené obrazovky (test chybu bez opravy zachytí) · **D-7** mrtvý kód pryč;
-  - náhledy pro Davida: `docs/nahledy/faze5-*.png`.
+  - náhledy pro Davida: `docs/nahledy/faze5-*.png`;
+  - pull request #3 sloučený, nasazená verze ověřena přes WebFetch.
+- D-018 (2026-11-05, Davidova volba): Domů – prostřední dlaždice ukazuje úspěšnost v % (série dní jen v pilulce nahoře); `pruchod.py` 116 kontrol; náhled `docs/nahledy/faze5-5-domu-uspesnost-390.png`.
 
 ## Rozpracováno
-- **Pull request Fáze 5 čeká na sloučení** – web se aktualizuje až potom. Po sloučení ověřit online (WebFetch `…/kviz-web/?v=<hash>` nebo David na mobilu) a v PLAN odškrtnout „Kompletní ověření a nasazení“.
+- **Pull request s D-018 čeká na sloučení** – po sloučení ověřit online (WebFetch `…/kviz-web/assets/js/screens/domu.js?v=<hash>` – obsahuje `uspesnost`).
 - **Online ověření:** z cloudu nejde – síť prostředí A nepustí `frankie851.github.io` (ani ogp.me). Ověří David na mobilu; prompt 02 může spustit `python3 tools/pruchod.py --url https://frankie851.github.io/kviz-web/`.
 - **Vlastní zařízení:** zvuky a vibrace v Chromiu bez hlavy nejde slyšet/cítit (test jen počítá, že se spustily) – poslech ověří David na telefonu. iPhone vibrace v prohlížeči nemá (je to v pořádku, „potichu nic“).
 - **Náhled odkazu** ověří až sdílení nasazené adresy (např. poslat si odkaz ve WhatsAppu/Messengeru). Sítě si náhled pamatují – kdyby ukazovaly starou zástupnou stránku, chce to chvíli počkat.
 
 ## Další krok
-1. **David:** sloučit pull request (tlačítko „Merge pull request“), po 1–2 minutách vyzkoušet web na mobilu.
-2. **David rozhodne o bodech „K zvážení“** z kontroly (nic z toho se nestavělo):
-   - K1 – víc témat před širším sdílením (dnes 4 témata = 12 kol, ~25 minut hry) → označit v Excelu Web = Ano (u celého tématu stačí na listu Témata) a spustit **prompt 03** v úkolu propojeném s počítačem;
-   - K2 – trvalý zámek pod 70 % je se 4 tématy přísný (odznak Objevitel může být navždy nedosažitelný) – nechat / zmírnit (např. zámek do přidání nového tématu nebo „druhá šance“ po pár dnech);
-   - K3 – odznaky Hvězda tématu a Král kategorie (100 % všude bez opakování) – nechat vzácné / zmírnit;
-   - K4 – série dní je na Domů dvakrát (pilulka i dlaždice) – nechat / pilulku nahradit „Pokračovat: téma · obtížnost“;
-   - K5 – v režimu „Obě řeči najednou“ se shodné texty (jména) nepřekládají – je to záměr, jen pro informaci.
-   Úpravy podle K2–K4 udělá **prompt 01** (prostředí A) – rozhodnutí napsat pod prompt.
+1. **David:** sloučit pull request s D-018 (tlačítko „Merge pull request“).
+2. **David doplní témata:** v Excelu označit Web = Ano (u celého tématu stačí list Témata, D-017), uložit, zavřít; pak **prompt 03** v úkolu propojeném s počítačem (prostředí B). Prompt 03 po exportu spustí `python3 tools/pruchod.py`.
+3. Body „K zvážení“ z kontroly: K4 hotovo (D-018), K1 = krok 2, K2 a K3 beze změny (David nic nežádal), K5 jen informace. Kdyby David chtěl K2/K3 přece změnit, udělá to prompt 01.
 
 ## Z kontroly 2026-11-05 (prompt 02)
 - Data: `otazky.json` ↔ `data/` ↔ Excel 100 % shodné (120 otázek, vlastní skript v příloze KONTROLA).
@@ -51,6 +48,7 @@ Všechny nálezy z kontroly jsou opravené (S-1 a D-1 až D-7, DECISIONS D-016) 
 - `tools/pruchod.py`: 1. běh selhal na varování o preload písem, 2. běh prošel – viz nález D-1.
 
 ## Připomínky Davida (k zapracování)
+- 2026-11-05 – ke „K zvážení“: „témata budou doplněna. Série ‚1 den v řadě‘ nahraď úspěšností v %“ → **zapracováno** (D-018); témata = prompt 03.
 - 2026-11-05 – po kontrole: zadání „podívej se na to podle promptu“ → Fáze 5 (opravy nálezů); ke „K zvážení“ zatím bez rozhodnutí.
 - 2026-11-05 – po sloučení a vyzkoušení Fáze 3 na mobilu: **bez připomínek**.
 - 2026-11-05 – po vyzkoušení verze z Fáze 2: **bez připomínek**.
