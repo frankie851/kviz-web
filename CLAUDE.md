@@ -12,6 +12,7 @@ David není programátor: piš mu česky, bez žargonu, a výsledky ukazuj (scre
 
 ## Struktura
 - `index.html`, `assets/css/`, `assets/js/` (ES moduly), `assets/fonts/`, `assets/img/` – aplikace
+  - `assets/js/app.js` start a navigace · `screens/*.js` jedna obrazovka = jeden soubor · `game.js` pravidla (hvězdy, odemykání) · `progress.js` pokrok · `badges.js` odznaky · `settings.js` nastavení · `storage.js` jediný přístup k localStorage · `i18n.js` texty · `data.js` načítání otázek · `feedback.js` zvuk a vibrace · `ui.js` stavební kameny
 - `assets/i18n/cs.json`, `assets/i18n/en.json` – všechny texty rozhraní
 - `data/index.json`, `data/topics/<ID tématu>.json` – otázky; generuje je `tools/export_otazky.py` v prostředí B. **Ručně je needituj.** `"rezim"` v indexu říká, jestli jde o ukázková data („vzorek“), nebo o Davidův výběr („web“).
 - `tools/` – export dat, testy, průchod hrou a screenshoty (nejsou součástí aplikace)
@@ -26,7 +27,7 @@ David není programátor: piš mu česky, bez žargonu, a výsledky ukazuj (scre
   - ukázková data (celá uvedená témata bez ohledu na Web): `python3 tools/export_otazky.py /mnt/user-data/uploads/Kvizy/otazky.json --vzorek T146,T172`
   Export vždy nejdřív vyprázdní `data/`; když nic nevybráno, skončí chybou a `data/` nechá být.
 - Test dat: `python3 tools/test_export.py` (prostředí A – kontrola struktury) · `python3 tools/test_export.py --zdroj /mnt/user-data/uploads/Kvizy/otazky.json` (prostředí B – navíc porovnání se zdrojem; výběr podle `"rezim"` v indexu, volitelně `--vzorek T146,T172`). Nenulový návratový kód = chyba.
-- Průchod hrou a screenshoty: `<doplní prompt 01 ve Fázi 2>`
+- Průchod hrou a screenshoty: `python3 tools/pruchod.py` (spustí vlastní server; projde celou hru, 3 režimy překladu, CZ ↔ EN, obnovení stránky, konzoli a síť; screenshoty 5 obrazovek × 320/360/390/768/1280 px do `tools/vystup/`, který není v gitu). Volby: `--bez-screenshotu`, `--vystup DIR`, `--url https://frankie851.github.io/kviz-web/` (nasazený web). Nenulový návratový kód = chyba. Potřebuje `pip install playwright`; Chromium hledá standardně, pak v `/opt/pw-browsers` (v prostředí A stačí `pip install playwright==<verze z node playwright>`, `playwright install` není potřeba).
 
 ## Technické konvence
 - Čisté HTML + CSS + JavaScript, bez frameworku a bez build kroku – GitHub Pages servíruje soubory přímo a každé další sezení je snadno upraví.
