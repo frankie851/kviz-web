@@ -47,6 +47,8 @@ Veřejná webová aplikace, ve které kdokoli hraje kvízy z Davidových ověře
 9. **Nastavení** – Můj jazyk (rozhraní), Jazyk otázek, Překlad (vždy / na ťuknutí / vypnuto), Zvuky, Vibrace, „O hře“ (krátce: otázky jsou ověřené, pokrok se ukládá jen v tomto zařízení, nic se nesleduje), Smazat pokrok (potvrzení uvnitř aplikace, ne systémovým dialogem prohlížeče).
 
 ## Pravidla hry
+> **Změna 2026-11-05 (DECISIONS D-013, Davidovo rozhodnutí) – platí místo starších bodů níže:** hvězd je **5**, každých celých 10 % správně = **půl hvězdy** (100 % = 5 ★). **Každou obtížnost lze zahrát jen jednou**; dohrané kolo jde jen **prohlédnout** (otázky, tvoje a správná odpověď, vysvětlení) – z výsledku, z obrazovky Obtížnost a z nové obrazovky **Historie**. Další obtížnost se odemkne **od 70 %**; pod 70 % zůstane v tématu **zamčená natrvalo**. Rozehrané kolo se ukládá průběžně a pokračuje se v něm. **Smazat pokrok** v Nastavení **není**. „O hře“ neobsahuje text o ověření faktů ani o reklamě.
+
 - **Kolo** = až 10 otázek jedné obtížnosti jednoho tématu. Má-li obtížnost víc než 10 otázek, vyber náhodně 10. Pořadí otázek v kole je náhodné, **pořadí možností A–D zůstává jako v datech** (např. čísla jsou v datech seřazená a přeházení by působilo zmateně).
 - **Hvězdy za kolo:** ★ od 50 %, ★★ od 70 %, ★★★ od 90 % správně (procento = správně / počet otázek v kole, bez zaokrouhlování; u kratších kol to znamená přísnější hodnocení – např. ze 3 otázek dá ★★ až 3/3). Ukládá se nejlepší výsledek.
 - **Odemykání:** Střední po ★★ v Lehké, Těžká po ★★ ve Střední, vždy v rámci tématu.

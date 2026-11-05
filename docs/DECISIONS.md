@@ -1,6 +1,20 @@
 # DECISIONS – Kvízová webová aplikace
 Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový záznam s odkazem na původní.
 
+## D-013 · 2026-11-05 · Nová pravidla: 5 hvězd po půlkách, každá obtížnost jen jednou (mění SPEC)
+- **Rozhodnutí (David, připomínky po Fázi 2):**
+  - **5 hvězd místo 3:** každých celých 10 % správně = půl hvězdy (10 % = ½ ★, 20 % = ★, … 90 % = 4½ ★, 100 % = 5 ★). Počítá se celočíselně `⌊správně × 10 / počet⌋` půlhvězd, bez zaokrouhlování nahoru.
+  - **Každou obtížnost lze zahrát jen jednou.** Dohrané kolo nejde opakovat – jinak by šlo snadno sbírat odznaky a odemykat obtížnosti. Místo „Znovu“ je **Prohlédnout odpovědi**: přehled všech otázek kola s tvou a správnou odpovědí a vysvětlením (i s překladem podle nastavení), plus nová obrazovka **Historie** (z Domů) se všemi dohranými koly.
+  - **Odemčení další obtížnosti od 70 %** (dřív ★★). **Pod 70 % zůstane další obtížnost v tématu zamčená natrvalo** (Davidova volba z nabídnutých možností „konec tématu / jedna druhá šance / odemknout vždy“).
+  - **Smazat pokrok zrušeno** – šlo by jím pravidlo „jen jednou“ obejít.
+  - **O hře:** bez textu o ověření faktů a bez zmínky o reklamě. Nově tam je krátké vysvětlení pravidel.
+- **Dopočteno agentem:**
+  - Rozehrané kolo se ukládá po každé odpovědi (`kviz.v1.pokrok` → `rozehrano`). Odchod ani obnovení stránky ho nezahodí, pokračuje se stejnými otázkami – jinak by šlo kolo po chybě opustit a začít znovu. Proto zmizel i dotaz „Ukončit kolo?“.
+  - Ukládá se, jak hráč na každou otázku odpověděl (pro přehled). Starý formát pokroku (verze 1, 3 hvězdy) se zahodí – hrál jen David při testu.
+  - „Dohrané téma“ = všechny zobrazené obtížnosti odehrané (dřív „aspoň ★ ve všech“). Odznaky: Bez chyby = 100 %, Na vrcholu = 70 % v Těžké, Objevitel = 3 témata dohraná až po Těžkou, Bez nápovědy = 70 %+.
+- **Mění:** SPEC (Obrazovky 5, 7, 9; Pravidla hry), D-010 (klíč `posledni`, mazání pokroku), D-011 (podmínky odznaků).
+- **Kdo:** David (pravidla), prompt 01 (doplnění)
+
 ## D-012 · 2026-11-05 · Co z „chytlavosti“ je už ve Fázi 2
 - **Rozhodnutí:** Fáze 2 obsahuje i jednoduché verze věcí, které PLAN řadí do Fáze 3, protože bez nich by obrazovky 6–9 nefungovaly celé: obrazovka Odznaky a vyhodnocování odznaků (seznam D-011), krátké zvuky generované ve Web Audio (správně / špatně / konec kola), vibrace (`navigator.vibrate`, kde ho prohlížeč má), vypínače v Nastavení, drobné animace (hvězdy na výsledku, „zatřesení“ u špatné odpovědi) a logo jako ikona v záložce. Všechny animace vypíná systémové „omezit pohyb“.
 - **Pro Fázi 3 zůstává:** konfety při ★★★, výraznější přechody mezi obrazovkami a animace, vyladění zvuků, upozornění na nový odznak během hry, Open Graph obrázek a náhled odkazu, finální kontrola seznamu odznaků s Davidem.
