@@ -1,8 +1,8 @@
 # HANDOFF – Kvízová webová aplikace
-datum: 2026-11-05 · předává: prompt 01 (Fáze 2, prostředí A) · přebírá: prompt 01 (Fáze 3, prostředí A – Claude Code v cloudu) po Davidově vyzkoušení
+datum: 2026-11-05 · předává: prompt 01 (Fáze 2, prostředí A) · přebírá: prompt 01 (Fáze 3, prostředí A – Claude Code v cloudu)
 
 ## Stav jednou větou
-Fáze 2 je hotová a první Davidovy připomínky jsou zapracované (nová pravidla D-013: 5 hvězd po půlkách, každá obtížnost jen jednou, přehled odpovědí a Historie, odemčení od 70 %, bez Smazat pokrok); čeká se, až David vyzkouší novou verzi na mobilu (⏸ kontrolní bod Fáze 2 trvá).
+Fáze 2 je hotová a první Davidovy připomínky jsou zapracované (nová pravidla D-013: 5 hvězd po půlkách, každá obtížnost jen jednou, přehled odpovědí a Historie, odemčení od 70 %, bez Smazat pokrok); David novou verzi vyzkoušel „bez připomínek“ – kontrolní bod je uzavřený, další je Fáze 3.
 
 ## Stav dat
 - 2026-11-04 – 35 otázek, 1 téma (T001 Chobotnice a další hlavonožci), režim vzorek
@@ -22,11 +22,12 @@ Fáze 2 je hotová a první Davidovy připomínky jsou zapracované (nová pravi
 - **Vlastní zařízení:** zvuky a vibrace se v Chromiu bez hlavy nedají slyšet/cítit – ověří David na telefonu (iPhone vibrace v prohlížeči nemá vůbec; to je v pořádku, „potichu nic“).
 
 ## Další krok
-1. ⏸ David vyzkouší https://frankie851.github.io/kviz-web/ na mobilu (novou verzi s 5 hvězdami) a napíše další připomínky (v relaci, nebo pod prompt 01 v příští relaci) → zapsat níže do „Připomínky Davida“. Bez dalších připomínek → Fáze 3.
-2. Fáze 3 – prompt 01 v Claude Code (Cloud environment): nejdřív připomínky, pak konfety při ★★★, přechody, vyladění zvuků, upozornění na nový odznak během hry, Open Graph obrázek; finální seznam odznaků (D-011) potvrdit s Davidem.
+1. Fáze 3 – prompt 01 v Claude Code (Cloud environment). Připomínky z Fáze 2 jsou hotové (D-013). Zbývá: konfety při 5 ★ (100 %), přechody mezi obrazovkami, animace hvězd (teď 5 a půlky), vyladění zvuků, upozornění na nový odznak během hry, Open Graph obrázek a náhled odkazu; finální seznam odznaků (D-011 + změny D-013) zapsat do DECISIONS. Pozor: SPEC mluví o „konfetách při ★★★“ – podle D-013 to znamená 100 % (5 ★). Favicon (logo) už je.
+2. Při ověření spouštět `python3 tools/pruchod.py` (82 kontrol) – při změnách pravidel ho upravit.
 3. Prompt 03 (prostředí B) jen tehdy, když David v Excelu označí další otázky Web = Ano. Po exportu má prompt 03 spustit `python3 tools/pruchod.py`.
 
 ## Připomínky Davida (k zapracování)
+- 2026-11-05 – po vyzkoušení nové verze: **bez připomínek**.
 - 2026-11-05 (po Fázi 2) – **zapracováno** (D-013): 5 hvězd místo 3, ½ ★ za každých 10 %; obtížnost nejde opakovat, ale jde procházet historii odpovědí; Smazat pokrok zrušit; odemykat od 70 %; v „O hře“ vynechat text o ověření faktů a o reklamách. Na dotaz zvolil: pod 70 % zůstane další obtížnost zamčená natrvalo.
 
 ## Otevřené otázky a rizika

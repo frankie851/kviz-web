@@ -31,10 +31,10 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☑ (2026-11-05) Automatický průchod hrou a screenshoty 5 šířek jako opakovatelný nástroj `tools/pruchod.py` (Playwright); příkaz doplnit do `CLAUDE.md` (spoléhá na něj i prompt 03 a kontrola). Opravit nálezy. – 65 kontrol prošlo, nic nepřetéká.
 - ◐ (2026-11-05) Nasadit (push do `main`, případně pull request ke sloučení) a ověřit online. – kód je v `main`; online ověření z cloudu nejde (síť nepustí github.io), ověří David na mobilu.
 
-**⏸ Kontrolní bod:** ◐ (2026-11-05) 1. kolo připomínek zapracované (D-013 – nová pravidla hvězd a jedné hry na obtížnost); čeká se na vyzkoušení nové verze. David vyzkouší aplikaci na svém mobilu a připomínky napíše v téže relaci (nebo pod prompt v příští relaci); zapsat je do HANDOFF a zapracovat na začátku Fáze 3. → HANDOFF, konec sezení.
+**⏸ Kontrolní bod:** ☑ (2026-11-05) 1. kolo připomínek zapracované (D-013 – nová pravidla hvězd a jedné hry na obtížnost); novou verzi David vyzkoušel: „bez připomínek“. David vyzkouší aplikaci na svém mobilu a připomínky napíše v téže relaci (nebo pod prompt v příští relaci); zapsat je do HANDOFF a zapracovat na začátku Fáze 3. → HANDOFF, konec sezení.
 
 ## Fáze 3 – Chytlavost (prompt 01, prostředí A)
-- ☐ Připomínky Davida z Fáze 2.
+- ☑ (2026-11-05, ještě v relaci Fáze 2) Připomínky Davida z Fáze 2 – D-013.
 - ☐ Mikroanimace a přechody, animace hvězd, konfety při ★★★.
 - ☐ Zvuky (generované ve Web Audio, vypínatelné) a vibrace (kde je prohlížeč podporuje; jinde potichu nic).
 - ☐ Odznaky (finální seznam do DECISIONS.md), obrazovka Odznaky, upozornění na nový odznak.
@@ -52,4 +52,4 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☐ Závěrečná zpráva Davidovi + zaškrtnout kritéria přijetí ve SPEC.
 
 ## Stav
-Poslední aktualizace: 2026-11-05 · Aktuální fáze: 2 hotová, připomínky D-013 zapracované → ⏸ kontrolní bod (David zkouší novou verzi na mobilu) · Blokováno: nic; online ověření z cloudu nejde (síť nepustí github.io)
+Poslední aktualizace: 2026-11-05 · Aktuální fáze: 3 (Fáze 2 i její kontrolní bod uzavřené, David bez dalších připomínek) · Blokováno: nic; online ověření z cloudu nejde (síť nepustí github.io)
