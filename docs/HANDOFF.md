@@ -10,6 +10,7 @@ Všechny nálezy z kontroly jsou opravené (S-1 a D-1 až D-7, DECISIONS D-016) 
 
 ## Hotovo
 - Fáze 0 (prompt 00, prostředí B): dokumenty, export a test dat, ostrá data, zástupná stránka – podrobnosti v PLAN a DECISIONS D-003 až D-007.
+- 2026-11-05 (prostředí B, Davidův pokyn – D-017): list **Témata** v Excelu má sloupce **Web** (volba pro celé téma – skript ji při dalším `sync` promítne do všech otázek tématu) a **Na webu** (počet otázek s Web = Ano). Listy s otázkami ani data na webu se nezměnily; T146, T172, T204, T254 mají Web = Ano i na listu Témata.
 - Fáze 1 (2026-11-04): 3 návrhy značky v `design/`, David vybral **A Oho!** (D-009).
 - Fáze 2 (2026-11-05): aplikace (obrazovky 1–9 + Přehled a Historie), pravidla D-013 (5 hvězd po půlkách, každá obtížnost jen jednou, odemčení od 70 %), `tools/pruchod.py`. David: „bez připomínek“.
 - Fáze 3 (2026-11-05) – D-014 (finální odznaky), D-015 (vše ostatní):
@@ -37,7 +38,7 @@ Všechny nálezy z kontroly jsou opravené (S-1 a D-1 až D-7, DECISIONS D-016) 
 ## Další krok
 1. **David:** sloučit pull request (tlačítko „Merge pull request“), po 1–2 minutách vyzkoušet web na mobilu.
 2. **David rozhodne o bodech „K zvážení“** z kontroly (nic z toho se nestavělo):
-   - K1 – víc témat před širším sdílením (dnes 4 témata = 12 kol, ~25 minut hry) → označit v Excelu Web = Ano a spustit **prompt 03** v úkolu propojeném s počítačem;
+   - K1 – víc témat před širším sdílením (dnes 4 témata = 12 kol, ~25 minut hry) → označit v Excelu Web = Ano (u celého tématu stačí na listu Témata) a spustit **prompt 03** v úkolu propojeném s počítačem;
    - K2 – trvalý zámek pod 70 % je se 4 tématy přísný (odznak Objevitel může být navždy nedosažitelný) – nechat / zmírnit (např. zámek do přidání nového tématu nebo „druhá šance“ po pár dnech);
    - K3 – odznaky Hvězda tématu a Král kategorie (100 % všude bez opakování) – nechat vzácné / zmírnit;
    - K4 – série dní je na Domů dvakrát (pilulka i dlaždice) – nechat / pilulku nahradit „Pokračovat: téma · obtížnost“;

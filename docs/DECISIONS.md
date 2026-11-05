@@ -1,6 +1,14 @@
 # DECISIONS – Kvízová webová aplikace
 Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový záznam s odkazem na původní.
 
+## D-017 · 2026-11-05 · Sloupec Web i na listu Témata (výběr celého tématu)
+- **Rozhodnutí:** list „Témata“ má dva nové sloupce za „Shorts“: **Web** (rozbalovací seznam Ano / Ne, oranžová hlavička = ruční volba) a **Na webu** (vzorec: kolik otázek tématu má Web = Ano). „List“ se posunul na konec (sloupec P). Když David u tématu změní Web na **Ano** (nebo **Ne**), skript při nejbližším běhu (`sync`, `pridat`, `stav`, `web`, `ohraniceni`, `export`, `prestavet`) nastaví stejnou hodnotu Web u **všech otázek tématu** – v `otazky.json` i v Excelu. Vymazání volby u tématu otázky nemění. Volba tématu je uložená v `otazky.json` jako `t["web"]`, takže přežije přestavbu listu Témata.
+- Otázky se přepisují jen při **změně** volby tématu. Potom jde u jednotlivé otázky Web ručně změnit (např. jednu vyřadit) a další `sync` to nepřepíše.
+- Excel bez maker neumí zaškrtnout otázky hned po kliknutí; proto to dělá skript při dalším běhu (pro export na web se `sync` spouští vždy). Když je Excel při promítání otevřený, skript skončí chybou a nic neuloží, aby se JSON a Excel nerozešly.
+- Příkaz `web Ano T146` u celého tématu vyplní i sloupec Web na listu Témata.
+- **Proč:** Davidův pokyn – nechce u tématu odklikávat 30 otázek jednotlivě.
+- **Kdo:** David (pokyn), prompt 00 (provedení)
+
 ## D-016 · 2026-11-05 · Opravy po kontrole (Fáze 5, KONTROLA_2026-11-05)
 - **S-1 dlouhé slovo / adresa:** `overflow-wrap: anywhere` na panelu Věděli jste? (`.explain`) a na kartách přehledu (`.review`); navíc celá stránka `overflow-wrap: break-word` jako pojistka pro ostatní texty. Zopakováno před opravou (320 px: stránka 1024 px, přehled 1076 px), po opravě nic nepřetéká. `pruchod.py` má trvalou kontrolu: prohlížeči podstrčí kopii tématu s 80znakovým slovem a dlouhou adresou v otázce, možnostech i vysvětlení (data v repozitáři se nemění).
 - **D-1 preload písem:** odstraněn `<link rel="preload">` z `index.html` (zdroj náhodného varování v konzoli). Písma mají 28–40 kB a CSS si je řekne hned; `font-display: swap` zajistí, že text je vidět i před jejich načtením. Varování v testu se **neignoruje** – zmizela jeho příčina.
@@ -89,14 +97,6 @@ Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový z�
 - **Rešerše názvů (WebSearch 2026-11-04):** „Aha“ zamítnuto – existuje iOS aplikace „Aha Quiz“. „Oho“, „Kvark“ a „Hop“ – žádná známá kvízová aplikace stejného jména (je jen „Quiz Hopper!“ a hospodský „Hop Quiz“). „Fakt“ zamítnuto – známý polský deník. Ochranné známky ověřené nejsou.
 - **Zamítnuté alternativy:** písmo Fredoka (nemá ř, ě, ů, ď, ť, ň – v češtině by se míchala písma).
 - **Kdo:** prompt 01 (návrh), David vybere
-
-## D-008 · 2026-11-05 · Sloupec Web i na listu Témata (výběr celého tématu)
-- **Rozhodnutí:** list „Témata“ má dva nové sloupce za „Shorts“: **Web** (rozbalovací seznam Ano / Ne, oranžová hlavička = ruční volba) a **Na webu** (vzorec: kolik otázek tématu má Web = Ano). „List“ se posunul na konec (sloupec P). Když David u tématu změní Web na **Ano** (nebo **Ne**), skript při nejbližším běhu (`sync`, `pridat`, `stav`, `web`, `ohraniceni`, `export`, `prestavet`) nastaví stejnou hodnotu Web u **všech otázek tématu** – v `otazky.json` i v Excelu. Vymazání volby u tématu otázky nemění. Volba tématu je uložená v `otazky.json` jako `t["web"]`, takže přežije přestavbu listu Témata.
-- Otázky se přepisují jen při **změně** volby tématu. Potom jde u jednotlivé otázky Web ručně změnit (např. jednu vyřadit) a další `sync` to nepřepíše.
-- Excel bez maker neumí zaškrtnout otázky hned po kliknutí; proto to dělá skript při dalším běhu (pro export na web se `sync` spouští vždy). Když je Excel při promítání otevřený, skript skončí chybou a nic neuloží, aby se JSON a Excel nerozešly.
-- Příkaz `web Ano T146` u celého tématu vyplní i sloupec Web na listu Témata.
-- **Proč:** Davidův pokyn – nechce u tématu odklikávat 30 otázek jednotlivě.
-- **Kdo:** David (pokyn), prompt 00 (provedení)
 
 ## D-007 · 2026-11-04 · Sloupec Web hned za Shorts + příkaz `web`
 - **Rozhodnutí:** sloupec Web je v Excelu sloupec **D** (ID · Použít · Shorts · **Web** · Téma …), ukotvení listu je za ním (E2), takže ruční volby jsou vidět i při posunu doprava. Nový příkaz `python3 nastroje/kviz_db.py web Ano T146 T172 …` nastaví Web u všech otázek tématu (nebo u jednotlivých otázek `T146-05`); hodnoty Ano / Ne / prazdne. Upravuje Excel i `otazky.json` zároveň a předtím udělá zálohu Excelu.
