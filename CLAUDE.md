@@ -21,7 +21,7 @@ David není programátor: piš mu česky, bez žargonu, a výsledky ukazuj (scre
 
 ## Příkazy
 - Lokální server: `python3 -m http.server 8000` (v kořeni repozitáře)
-- Výběr otázek pro web (jen prostředí B, na počítači): David je označuje v Excelu ve sloupci Web (sloupec D); na jeho pokyn je jde označit i příkazem `cd $HOME/mnt/Kvizy && python3 nastroje/kviz_db.py web Ano T146 T172` (celá témata nebo jednotlivé otázky `T146-05`; hodnoty Ano / Ne / prazdne). Do Excelu nikdy nezapisuj jinak.
+- Výběr otázek pro web (jen prostředí B, na počítači): David je označuje v Excelu ve sloupci Web (sloupec D) u jednotlivých otázek, nebo u celého tématu ve sloupci Web na listu Témata (skript to při dalším `sync` promítne do všech otázek tématu, viz DECISIONS D-008); na jeho pokyn je jde označit i příkazem `cd $HOME/mnt/Kvizy && python3 nastroje/kviz_db.py web Ano T146 T172` (celá témata nebo jednotlivé otázky `T146-05`; hodnoty Ano / Ne / prazdne). Do Excelu nikdy nezapisuj jinak.
 - Export dat (jen prostředí B): nejdřív na počítači `cd $HOME/mnt/Kvizy && python3 nastroje/kviz_db.py sync` (převezme sloupec Web z Excelu do `otazky.json`; Excel musí být zavřený), pak `otazky.json` přenést do kontejneru (`device_stage_files`) a v kořeni repozitáře:
   - ostrá data: `python3 tools/export_otazky.py /mnt/user-data/uploads/Kvizy/otazky.json`
   - ukázková data (celá uvedená témata bez ohledu na Web): `python3 tools/export_otazky.py /mnt/user-data/uploads/Kvizy/otazky.json --vzorek T146,T172`

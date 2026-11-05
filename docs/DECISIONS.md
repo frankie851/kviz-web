@@ -90,6 +90,14 @@ Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový z�
 - **Zamítnuté alternativy:** písmo Fredoka (nemá ř, ě, ů, ď, ť, ň – v češtině by se míchala písma).
 - **Kdo:** prompt 01 (návrh), David vybere
 
+## D-008 · 2026-11-05 · Sloupec Web i na listu Témata (výběr celého tématu)
+- **Rozhodnutí:** list „Témata“ má dva nové sloupce za „Shorts“: **Web** (rozbalovací seznam Ano / Ne, oranžová hlavička = ruční volba) a **Na webu** (vzorec: kolik otázek tématu má Web = Ano). „List“ se posunul na konec (sloupec P). Když David u tématu změní Web na **Ano** (nebo **Ne**), skript při nejbližším běhu (`sync`, `pridat`, `stav`, `web`, `ohraniceni`, `export`, `prestavet`) nastaví stejnou hodnotu Web u **všech otázek tématu** – v `otazky.json` i v Excelu. Vymazání volby u tématu otázky nemění. Volba tématu je uložená v `otazky.json` jako `t["web"]`, takže přežije přestavbu listu Témata.
+- Otázky se přepisují jen při **změně** volby tématu. Potom jde u jednotlivé otázky Web ručně změnit (např. jednu vyřadit) a další `sync` to nepřepíše.
+- Excel bez maker neumí zaškrtnout otázky hned po kliknutí; proto to dělá skript při dalším běhu (pro export na web se `sync` spouští vždy). Když je Excel při promítání otevřený, skript skončí chybou a nic neuloží, aby se JSON a Excel nerozešly.
+- Příkaz `web Ano T146` u celého tématu vyplní i sloupec Web na listu Témata.
+- **Proč:** Davidův pokyn – nechce u tématu odklikávat 30 otázek jednotlivě.
+- **Kdo:** David (pokyn), prompt 00 (provedení)
+
 ## D-007 · 2026-11-04 · Sloupec Web hned za Shorts + příkaz `web`
 - **Rozhodnutí:** sloupec Web je v Excelu sloupec **D** (ID · Použít · Shorts · **Web** · Téma …), ukotvení listu je za ním (E2), takže ruční volby jsou vidět i při posunu doprava. Nový příkaz `python3 nastroje/kviz_db.py web Ano T146 T172 …` nastaví Web u všech otázek tématu (nebo u jednotlivých otázek `T146-05`); hodnoty Ano / Ne / prazdne. Upravuje Excel i `otazky.json` zároveň a předtím udělá zálohu Excelu.
 - **Proč:** Davidův pokyn (sloupec za Shorts). Posun je bezpečný: vzorce listu Témata odkazují jen na sloupce A–C a ostatní skripty (kviz_video, kviz_shorts) hledají sloupce podle názvu hlavičky. Příkaz `web` vznikl, protože ruční zápis do Excelu je zakázaný a `prestavet` by ruční úpravu JSON přepsal hodnotami z Excelu.
