@@ -9,6 +9,7 @@ datum: 2026-11-05 · předává: prompt 01 (Fáze 5 + Davidova volba D-018, pros
 - 2026-11-04 – 120 otázek, 4 témata (T146 České pohádky, T172 Praha – domovní znamení, T204 Československo 1918–1992, T254 Čeští sportovci), režim web (nahrazuje vzorek T001)
 
 ## Hotovo
+- 2026-11-06 (Davidův pokyn – D-019): export v režimu „web“ bere jen otázky, které prošly nezávislou revizí (skill kviz-revize, sloupec Revize v Excelu = OK / Opraveno / Drobná). **Před příštím exportem** (prompt 03) nejdřív na počítači `python3 nastroje/kviz_db.py revize-kontrola --web` a nezrevidované otázky (zatím všechny, i T146, T172, T204, T254) nech zrevidovat skillem kviz-revize – jinak je export přeskočí. Data na webu se touto změnou nezměnila.
 - Fáze 0 (prompt 00, prostředí B): dokumenty, export a test dat, ostrá data, zástupná stránka – podrobnosti v PLAN a DECISIONS D-003 až D-007.
 - 2026-11-05 (prostředí B, Davidův pokyn – D-017): list **Témata** v Excelu má sloupce **Web** (volba pro celé téma – skript ji při dalším `sync` promítne do všech otázek tématu) a **Na webu** (počet otázek s Web = Ano). Listy s otázkami ani data na webu se nezměnily; T146, T172, T204, T254 mají Web = Ano i na listu Témata.
 - Fáze 1 (2026-11-04): 3 návrhy značky v `design/`, David vybral **A Oho!** (D-009).
