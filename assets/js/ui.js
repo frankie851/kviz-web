@@ -65,9 +65,24 @@ export function cislo(n) {
   }
 }
 
-/** Hvězdy jako text „3,5 / 15 ★“ z půlhvězd. */
+/** Celé hvězdy z půlhvězd pro součty (Domů, kategorie, témata): půlky se zaokrouhlí dolů (D-020). */
+export function celeHvezdy(pul) {
+  return Math.floor(pul / 2);
+}
+
+/** Součet hvězd jako text „3 / 15 ★“ z půlhvězd (půlky dolů, D-020). */
 export function hvezdyText(pul, maxPul) {
-  return `${cislo(pul / 2)} / ${cislo(maxPul / 2)} ★`;
+  return `${celeHvezdy(pul)} / ${celeHvezdy(maxPul)} ★`;
+}
+
+// Kategorie, které místo emoji z dat ukazují vlastní obrázek (D-020). Emoji vlajky Windows neumí, proto SVG.
+const OBRAZKY_KATEGORII = { cesko: "assets/img/vlajka-cz.svg" };
+
+/** Ikona kategorie: vlastní obrázek, nebo emoji z dat. */
+export function ikonaKategorie(kat, trida = "tile-emo") {
+  const obr = OBRAZKY_KATEGORII[kat.id];
+  if (obr) return h("span", { class: `${trida} kat-obr`, "aria-hidden": "true" }, h("img", { src: obr, alt: "", width: "3", height: "2", draggable: "false" }));
+  return h("span", { class: trida, "aria-hidden": "true", text: kat.ikona || "❓" });
 }
 
 /** Horní lišta obrazovky: tlačítko zpět + nadpis (+ volitelně něco vpravo). */

@@ -325,6 +325,13 @@ def scenar_hry(page, zaklad, otazky, temata):
     over(page.inner_text("[data-test=uspesnost]").startswith(f"{usp}\u00a0%") or page.inner_text("[data-test=uspesnost]").startswith(f"{usp} %"),
          f"Domů: úspěšnost {usp} % místo série dní")
     over(page.locator("[data-test=dny]").count() == 0, "série dní není na Domů dvakrát")
+    jdi(page, zaklad, "#/kategorie")
+    soucty = page.locator(".tile-stars").all_inner_texts()
+    over(soucty and all(re.fullmatch(r"\d+ / \d+ ★", x.strip()) for x in soucty), f"součty hvězd u kategorií jen celé (půlky dolů, D-020): {soucty}")
+    if page.locator('.tile[data-kategorie="cesko"]').count():
+        over(page.locator('.tile[data-kategorie="cesko"] img[src$="vlajka-cz.svg"]').count() == 1
+             and page.evaluate("document.querySelector('.tile[data-kategorie=\"cesko\"] img').naturalWidth") > 0,
+             "kategorie Česko má českou vlajku (D-020)")
     jdi(page, zaklad, f"#/tema/{T}")
     over([stav_obtiznosti(page, o) for o in "123"] == ["dohrano", "otevreno", "zamceno"], "Lehká dohraná, Střední otevřená")
     jdi(page, zaklad, f"#/hra/{T}/1")
