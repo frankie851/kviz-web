@@ -8,6 +8,8 @@ Použití (prostředí B – úkol propojený s Davidovým počítačem):
 
 V obou režimech jdou na web jen otázky se stavem ověření „Ověřeno“ nebo „Opraveno po ověření“
 a se správnou strukturou (4 neprázdné možnosti v CZ i EN, platná správná odpověď, neprázdné texty).
+V režimu „web“ navíc jen otázky, které prošly nezávislou revizí (skill kviz-revize): sloupec Revize = OK, Opraveno
+nebo Drobná a platný otisk (text se od revize nezměnil). Nezrevidované otázky export přeskočí a vypíše.
 Téma se exportuje, jen když má aspoň jednu obtížnost se 3 a více otázkami (méně aplikace nezobrazí).
 
 Výstup:
@@ -17,6 +19,7 @@ Výstup:
 Před zápisem se složka data/ vyprázdní. Na konci se vypíše hlášení (počty a přeskočené otázky s důvodem).
 Neznámá kategorie (chybí v tabulce KATEGORIE níže) = export skončí chybou a nic nezapíše.
 """
+import hashlib
 import json
 import shutil
 import sys
@@ -32,6 +35,10 @@ PISMENA = "ABCD"
 OBTIZNOSTI = (1, 2, 3)
 MIN_OTAZEK_OBTIZNOSTI = 3        # obtížnost s méně otázkami aplikace nezobrazí (SPEC, obrazovka Obtížnost)
 VYCHOZI_LIST = "Otázky"          # list Excelu, když téma nemá pole "list" (jen do hlášení)
+# Nezávislá revize (Davidův pokyn 6. 11. 2026): na web jen otázky, které revizí prošly.
+# Otisk musí počítat stejně jako kviz_db.py (otisk, stav_revize) ve složce Kvizy – při změně uprav oba.
+REVIZE_PROJDE = {"OK", "Opraveno", "Drobná"}
+POLE_OTISKU = ["otazka_cz", "moznosti_cz", "otazka_en", "moznosti_en", "spravne", "vysvetleni_cz", "vysvetleni_en"]
 
 # Český název kategorie (jak je v otazky.json) → stálé ID, anglický název, ikona.
 # Ikona je emoji (rozhodnutí D-003 v docs/DECISIONS.md); ID je stálé a aplikace podle něj může
@@ -68,8 +75,20 @@ def text(v):
     return v.strip() if isinstance(v, str) else ""
 
 
-def proc_preskocit(q):
-    """Důvod, proč otázka nesmí na web (None = je v pořádku)."""
+def otisk(q):
+    data = json.dumps({k: q.get(k) for k in POLE_OTISKU}, ensure_ascii=False, sort_keys=True)
+    return hashlib.sha1(data.encode("utf-8")).hexdigest()[:12]
+
+
+def stav_revize(q):
+    """Platný výsledek revize, nebo "" (nerevidováno, nebo se text otázky od revize změnil)."""
+    return q.get("revize", "") if q.get("revize") and q.get("revize_otisk") == otisk(q) else ""
+
+
+def proc_preskocit(q, revize=True):
+    """Důvod, proč otázka nesmí na web (None = je v pořádku). revize=False v režimu vzorek."""
+    if revize and stav_revize(q) not in REVIZE_PROJDE:
+        return f"revize „{stav_revize(q) or 'nerevidováno'}“ (spusť skill kviz-revize)"
     if q.get("overeni") not in STAVY_OVERENI:
         return f"stav ověření „{q.get('overeni') or 'prázdný'}“"
     if q.get("obtiznost") not in OBTIZNOSTI:
@@ -138,7 +157,7 @@ def main():
         for q in t["otazky"]:
             if not vzorek and q.get("web") != "Ano":
                 continue
-            duvod = proc_preskocit(q)
+            duvod = proc_preskocit(q, revize=not vzorek)
             if duvod:
                 preskocene.append((q.get("id", "?"), lst, duvod))
                 continue
@@ -153,7 +172,7 @@ def main():
         vystup.append((t, [otazka_pro_web(q) for q in vybrane]))
 
     if not vystup:
-        chyba(f"režim „{rezim}“: žádná otázka k exportu (v Excelu nejsou otázky s Web = Ano a ověřeným stavem?). "
+        chyba(f"režim „{rezim}“: žádná otázka k exportu (v Excelu nejsou otázky s Web = Ano, ověřeným stavem a prošlou revizí?). "
               "Složka data/ zůstala beze změny.")
 
     # index: kategorie v pořadí tabulky KATEGORIE, témata v pořadí databáze

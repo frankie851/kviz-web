@@ -1,6 +1,13 @@
 # DECISIONS – Kvízová webová aplikace
 Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový záznam s odkazem na původní.
 
+## D-019 · 2026-11-06 · Na web jen otázky po nezávislé revizi
+- **Rozhodnutí:** export v režimu „web“ bere jen otázky, které prošly nezávislou revizí (skill kviz-revize ve složce Kvizy): pole `revize` v `otazky.json` = **OK, Opraveno nebo Drobná** a `revize_otisk` sedí s aktuálním textem otázky (jinak se text od revize změnil a otázka se musí zrevidovat znovu). Ostatní (nerevidované, Střední, Závažná) export přeskočí s důvodem v hlášení. Režim „vzorek“ revizi nehlídá (ukázková data).
+- **Kde:** `tools/export_otazky.py` (`otisk`, `stav_revize`, `proc_preskocit`), `tools/test_export.py` (`revize_ok`). Otisk se počítá stejně jako v `Kvizy/nastroje/kviz_db.py` – při změně uprav oba.
+- **Před exportem:** `cd $HOME/mnt/Kvizy && python3 nastroje/kviz_db.py revize-kontrola --web` ukáže otázky s Web = Ano, které revizí neprošly; zrevidují se skillem kviz-revize („zreviduj T146“).
+- **Proč:** Davidův pokyn – chyba na veřejném webu poškodí důvěru; každá otázka má mít druhý, nezávislý pohled.
+- **Kdo:** David (pokyn), návrh skillu kviz-revize (provedení)
+
 ## D-018 · 2026-11-05 · Domů: úspěšnost v % místo druhé série dní (KONTROLA – K zvážení 4, Davidovo rozhodnutí)
 - **Rozhodnutí:** prostřední dlaždice na Domů už neukazuje „1 den v řadě“ (série dní zůstává jen v pilulce 🔥 vlevo nahoře), ale **úspěšnost** = správné odpovědi / všechny otázky ve všech dohraných kolech, zaokrouhleno na celá procenta („80 %“ / „80%“). Dokud hráč nic nedohrál, ukazuje „–“. Rozehraná kola se nepočítají.
 - **Kde:** `progress.js` `uspesnost()`, `screens/domu.js`, texty `domu.uspesnost` a `domu.procent` (v češtině s nezlomitelnou mezerou). Nepoužívané texty `domu.serieDni` odstraněny. `pruchod.py` kontroluje „–“ na začátku a 80 % po kole s 2 chybami.

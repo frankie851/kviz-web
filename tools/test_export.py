@@ -163,6 +163,14 @@ def otazka_ok(q):
     return True
 
 
+def revize_ok(q):
+    """Stejná podmínka jako export: nezávislá revize OK / Opraveno / Drobná a text se od revize nezměnil."""
+    import hashlib
+    pole = ["otazka_cz", "moznosti_cz", "otazka_en", "moznosti_en", "spravne", "vysvetleni_cz", "vysvetleni_en"]
+    o = hashlib.sha1(json.dumps({k: q.get(k) for k in pole}, ensure_ascii=False, sort_keys=True).encode("utf-8")).hexdigest()[:12]
+    return q.get("revize") in ("OK", "Opraveno", "Drobná") and q.get("revize_otisk") == o
+
+
 def test_zdroje(index, temata, zdroj, vzorek):
     db = json.loads(Path(zdroj).read_text(encoding="utf-8"))
     rezim = index.get("rezim")
@@ -180,7 +188,7 @@ def test_zdroje(index, temata, zdroj, vzorek):
     for t in db["temata"]:
         if vzorek is not None and t["id"] not in vzorek:
             continue
-        qs = [q for q in t["otazky"] if (vzorek is not None or q.get("web") == "Ano") and otazka_ok(q)]
+        qs = [q for q in t["otazky"] if (vzorek is not None or (q.get("web") == "Ano" and revize_ok(q))) and otazka_ok(q)]
         if not any(sum(1 for q in qs if q["obtiznost"] == u) >= 3 for u in (1, 2, 3)):
             continue
         for q in qs:
