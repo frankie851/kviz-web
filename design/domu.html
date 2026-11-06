@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Návrhy obrazovky Domů – 4 varianty</title>
+<meta name="robots" content="noindex">
+<style>
+/* Písma aplikace (OFL) – stejné soubory jako v assets/fonts */
+@font-face { font-family: "Baloo 2"; font-weight: 400 800; font-display: swap; src: url(../assets/fonts/baloo-2-latin-wght-normal.woff2) format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Baloo 2"; font-weight: 400 800; font-display: swap; src: url(../assets/fonts/baloo-2-latin-ext-wght-normal.woff2) format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: "Nunito"; font-weight: 200 1000; font-display: swap; src: url(../assets/fonts/nunito-latin-wght-normal.woff2) format("woff2"); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: "Nunito"; font-weight: 200 1000; font-display: swap; src: url(../assets/fonts/nunito-latin-ext-wght-normal.woff2) format("woff2"); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+
+:root {
+  --bg: #FFF6EA; --surface: #FFFFFF; --ink: #2B1630; --muted: #6E5466; --line: #F1E2D3;
+  --primary: #C2255C; --primary-dark: #A01C4B; --sun: #FFC53D; --ok: #1E9E5A; --ok-ink: #146C3C;
+  --track: #F6E3CF; --streak-bg: #FFE9B0; --streak-ink: #6B3A00; --explain-bg: #FFE9B0; --explain-ink: #3D2400;
+  --font-h: "Baloo 2", system-ui, sans-serif; --font-t: "Nunito", system-ui, sans-serif;
+  --r: 22px; --soft: 0 2px 0 #F1E2D3;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: #ECE8EF; color: #1D1B22; font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; overflow-x: hidden; }
+.wrap { max-width: 1760px; margin: 0 auto; padding: 24px 16px 64px; }
+.intro h1 { font-size: clamp(24px, 5vw, 36px); line-height: 1.15; margin: 6px 0; }
+.intro p { margin: 6px 0; color: #5B5866; max-width: 80ch; }
+.grid { display: flex; flex-wrap: wrap; gap: 28px; justify-content: center; margin-top: 24px; }
+.varianta { width: 390px; max-width: 100%; }
+.varianta > h2 { font-size: 20px; margin: 0 0 4px; }
+.varianta > p { margin: 0 0 12px; color: #5B5866; font-size: 15px; min-height: 4.5em; }
+
+/* ---------- telefon ---------- */
+.phone {
+  position: relative; overflow: hidden; width: 390px; max-width: 100%; min-height: 844px; padding: 16px 16px 28px;
+  border-radius: 34px; background: var(--bg); color: var(--ink); font: 500 17px/1.45 var(--font-t);
+  box-shadow: 0 20px 50px rgba(43, 22, 48, .18);
+}
+.phone::before, .phone::after { content: ""; position: absolute; border-radius: 50%; z-index: 0; pointer-events: none; }
+.phone::before { width: 300px; height: 300px; background: #FFE3A1; top: -140px; right: -110px; }
+.phone::after { width: 220px; height: 220px; background: #FFD9E5; bottom: -100px; left: -90px; }
+.phone > * { position: relative; z-index: 1; }
+.phone h3, .phone b.h { font-family: var(--font-h); }
+
+/* společné díly (jako v aplikaci) */
+.toprow { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.pill { display: inline-flex; align-items: center; gap: 6px; min-height: 40px; padding: 6px 14px; border-radius: 999px; background: var(--surface); box-shadow: var(--soft); font-weight: 800; font-size: 15px; }
+.iconbtn { width: 48px; height: 48px; border-radius: 16px; display: grid; place-items: center; background: var(--surface); box-shadow: var(--soft); font-size: 22px; }
+.word { font-family: var(--font-h); font-weight: 800; line-height: 1; letter-spacing: -.01em; }
+.word em { font-style: normal; color: var(--primary); }
+.btn { display: flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 10px 18px; border-radius: 999px; font-family: var(--font-h); font-weight: 700; font-size: 18px; line-height: 1.1; text-decoration: none; }
+.btn-primary { background: var(--primary); color: #fff; box-shadow: 0 6px 8px -6px rgba(194, 37, 92, .5); }
+.btn-sec { background: var(--surface); color: var(--ink); box-shadow: var(--soft); }
+.btn-cta { width: 100%; min-height: 64px; font-size: 26px; font-weight: 800; }
+.row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 12px; }
+.stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.stat { background: var(--surface); border-radius: var(--r); padding: 10px 6px; text-align: center; box-shadow: var(--soft); }
+.stat b { display: block; font-family: var(--font-h); font-size: 24px; line-height: 1.1; }
+.stat span { font-size: 13px; color: var(--muted); font-weight: 700; }
+.card { background: var(--surface); border-radius: var(--r); padding: 16px; box-shadow: var(--soft); }
+.label { font-size: 13px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); }
+.bar { height: 10px; border-radius: 999px; background: var(--track); overflow: hidden; }
+.bar i { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, #FFC53D, #C2255C); }
+.flag { display: inline-block; width: 1.5em; height: 1em; border-radius: .12em; vertical-align: -.12em; box-shadow: 0 0 0 1px rgba(43, 22, 48, .18);
+  background: linear-gradient(to bottom, #fff 50%, #D7141A 50%); position: relative; overflow: hidden; }
+.flag::before { content: ""; position: absolute; inset: 0; background: #11457E; clip-path: polygon(0 0, 50% 50%, 0 100%); }
+.sm { font-size: 14px; color: var(--muted); font-weight: 700; }
+
+/* ---------- A: Pokračuj ---------- */
+.a-hero { display: flex; align-items: center; gap: 12px; margin: 22px 0 18px; }
+.a-hero svg { width: 64px; height: 64px; flex: none; }
+.a-hero .word { font-size: 44px; }
+.a-hero p { margin: 2px 0 0; color: var(--muted); font-size: 15px; line-height: 1.3; }
+.cont { background: var(--ink); color: #fff; border-radius: 26px; padding: 18px; box-shadow: 0 10px 24px rgba(43, 22, 48, .22); }
+.cont .label { color: #FFC53D; }
+.cont h3 { font-size: 23px; line-height: 1.15; margin: 6px 0 2px; }
+.cont .sm { color: #E9D9E4; }
+.cont .bar { background: rgba(255, 255, 255, .16); margin: 12px 0 14px; }
+.cont .btn { background: var(--sun); color: var(--ink); width: 100%; font-size: 21px; font-weight: 800; min-height: 56px; }
+.a-mid { margin: 14px 0; }
+
+/* ---------- B: Týden a cíle ---------- */
+.b-hero { text-align: center; margin: 10px 0 16px; }
+.b-hero svg { width: 84px; height: 84px; display: block; margin: 0 auto 4px; }
+.b-hero .word { font-size: 50px; }
+.week { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; margin: 10px 0 8px; text-align: center; }
+.day { display: grid; gap: 4px; justify-items: center; font-size: 12px; font-weight: 800; color: var(--muted); }
+.day i { width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; font-style: normal; font-size: 18px; background: var(--bg); border: 2px dashed #E5CDB7; }
+.day.on i { background: var(--streak-bg); border: 2px solid #FFC53D; }
+.day.today i { border: 2px solid var(--primary); background: #fff; color: var(--primary); font-weight: 900; }
+.goal { display: grid; grid-template-columns: 52px 1fr; gap: 12px; align-items: center; }
+.goal .ico { width: 52px; height: 52px; border-radius: 16px; display: grid; place-items: center; font-size: 28px; background: var(--streak-bg); }
+.goal h3 { font-size: 19px; line-height: 1.15; margin: 0; }
+.goal .bar { margin-top: 8px; }
+
+/* ---------- C: Rovnou do kategorií ---------- */
+.c-head { display: flex; align-items: center; gap: 10px; }
+.c-head svg { width: 44px; height: 44px; }
+.c-head .word { font-size: 34px; }
+.c-head .grow { flex: 1; }
+.c-hello { margin: 18px 0 12px; }
+.c-hello h3 { font-size: 28px; line-height: 1.1; margin: 0; }
+.c-hello p { margin: 4px 0 0; color: var(--muted); font-size: 15px; }
+.strip { display: flex; justify-content: space-between; gap: 6px; padding: 10px 14px; border-radius: 999px; background: var(--surface); box-shadow: var(--soft); font-weight: 800; font-size: 15px; margin-bottom: 14px; }
+.tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 10px 0 14px; }
+.tile { min-height: 118px; padding: 14px; border-radius: var(--r); display: flex; flex-direction: column; justify-content: space-between; gap: 6px; box-shadow: 0 4px 0 rgba(43, 22, 48, .12); }
+.tile .emo { font-size: 30px; line-height: 1; }
+.tile b { font-family: var(--font-h); font-size: 20px; line-height: 1.1; }
+.tile .meta { display: flex; justify-content: space-between; font-size: 13px; font-weight: 800; }
+.t-cz { background: #C2255C; color: #fff; }
+.t-sp { background: #FFC53D; color: #2B1630; }
+.t-new { background: #fff; color: var(--muted); border: 2px dashed #E5CDB7; box-shadow: none; grid-column: 1 / -1; min-height: 0; flex-direction: row; align-items: center; justify-content: flex-start; gap: 12px; font-weight: 800; font-size: 15px; }
+.fact { background: var(--explain-bg); color: var(--explain-ink); border-radius: var(--r); padding: 14px 16px; }
+.fact .label { color: #8A5A00; }
+.fact p { margin: 4px 0 0; font-size: 16px; line-height: 1.45; }
+
+/* ---------- D: Kombinace ---------- */
+.d-hero { display: flex; align-items: center; justify-content: center; gap: 10px; margin: 14px 0 14px; }
+.d-hero svg { width: 56px; height: 56px; }
+.d-hero .word { font-size: 46px; }
+.d-cont { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; align-items: center; background: var(--surface); border-radius: var(--r); padding: 14px 16px; box-shadow: 0 0 0 2px var(--primary) inset, var(--soft); margin-bottom: 12px; }
+.d-cont h3 { font-size: 19px; line-height: 1.15; margin: 2px 0 0; }
+.d-cont .go { grid-row: 1 / span 3; grid-column: 2; width: 52px; height: 52px; border-radius: 50%; display: grid; place-items: center; background: var(--primary); color: #fff; font-size: 22px; }
+.d-cont .bar { grid-column: 1; height: 8px; margin-top: 6px; }
+.d-week { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.d-week .week { margin: 0; gap: 4px; flex: 1; max-width: 230px; }
+.d-week .day i { width: 26px; height: 26px; font-size: 13px; }
+.d-week b { font-family: var(--font-h); font-size: 18px; line-height: 1.1; display: block; }
+.d-goal { display: flex; gap: 10px; align-items: center; margin-top: 12px; padding-top: 12px; border-top: 2px solid var(--line); }
+.d-goal .ico { font-size: 24px; }
+.d-goal .grow { flex: 1; }
+.d-goal .bar { height: 8px; margin-top: 4px; }
+
+@media (max-width: 420px) { .phone { border-radius: 24px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="intro">
+    <h1>Obrazovka Domů – 4 návrhy</h1>
+    <p>Dnes je spodní polovina obrazovky prázdná a Domů hráči neříká, co má udělat dál ani proč se vrátit zítra. Každý návrh to řeší jinak. Hráč v ukázce má za sebou 3 kola, rozehrané téma a 2 dny v řadě. Jde o náhled, aplikace se zatím nezměnila. Vybrat můžeš i kombinaci (např. „B, ale s kartou Pokračuj z A“).</p>
+  </header>
+
+  <div class="grid">
+
+  <!-- ===================== A ===================== -->
+  <section class="varianta" id="a">
+    <h2>A · Pokračuj</h2>
+    <p>Hlavní je velká tmavá karta „Pokračuj“: jedním ťuknutím zpět do rozehraného kola (nebo na další obtížnost). Logo je menší, nahoře zůstává místo pro to podstatné.</p>
+    <div class="phone" data-varianta="a">
+      <div class="toprow"><span class="pill">🔥 2 dny</span><span class="iconbtn">⚙️</span></div>
+      <div class="a-hero">
+        <svg viewBox="0 0 96 96" aria-hidden="true"><path d="M48 8a38 38 0 1 1-19.6 70.6L12 86l5.2-15.4A38 38 0 0 1 48 8z" fill="#C2255C"/><rect x="42" y="22" width="12" height="34" rx="6" fill="#fff"/><circle cx="48" cy="68" r="6.5" fill="#fff"/><path d="M80 4l3.4 9.6L93 17l-9.6 3.4L80 30l-3.4-9.6L67 17l9.6-3.4z" fill="#FFC53D"/></svg>
+        <div><span class="word">Oho<em>!</em></span><p>Ověřené otázky. Česky i&nbsp;anglicky.</p></div>
+      </div>
+      <div class="cont">
+        <span class="label">Pokračuj, kde jsi skončil</span>
+        <h3>Praha: domovní znamení, legendy a skryté příběhy</h3>
+        <span class="sm"><span class="flag"></span>&nbsp; Střední · otázka 5 z 10</span>
+        <div class="bar"><i style="width:40%"></i></div>
+        <span class="btn">Pokračovat ▶</span>
+      </div>
+      <div class="a-mid stats">
+        <div class="stat"><b>7 / 60</b><span>hvězd</span></div>
+        <div class="stat"><b>76 %</b><span>úspěšnost</span></div>
+        <div class="stat"><b>3 / 12</b><span>odznaků</span></div>
+      </div>
+      <span class="btn btn-primary btn-cta">Nové téma ▶</span>
+      <div class="row2"><span class="btn btn-sec">🏅 Odznaky</span><span class="btn btn-sec">📖 Historie</span></div>
+    </div>
+  </section>
+
+  <!-- ===================== B ===================== -->
+  <section class="varianta" id="b">
+    <h2>B · Týden a cíle</h2>
+    <p>Pod logem je týden s plamínky za odehrané dny a „nejbližší odznak“ s ukazatelem, kolik zbývá. Dává důvod přijít zítra znovu. Série dní se tím vrací na Domů jako obrázek, ne jako číslo navíc.</p>
+    <div class="phone" data-varianta="b">
+      <div class="toprow"><span class="pill">🔥 2 dny</span><span class="iconbtn">⚙️</span></div>
+      <div class="b-hero">
+        <svg viewBox="0 0 96 96" aria-hidden="true"><path d="M48 8a38 38 0 1 1-19.6 70.6L12 86l5.2-15.4A38 38 0 0 1 48 8z" fill="#C2255C"/><rect x="42" y="22" width="12" height="34" rx="6" fill="#fff"/><circle cx="48" cy="68" r="6.5" fill="#fff"/><path d="M80 4l3.4 9.6L93 17l-9.6 3.4L80 30l-3.4-9.6L67 17l9.6-3.4z" fill="#FFC53D"/></svg>
+        <span class="word">Oho<em>!</em></span>
+      </div>
+      <div class="card">
+        <span class="label">Tvůj týden</span>
+        <div class="week">
+          <span class="day"><i>·</i>Po</span><span class="day"><i>·</i>Út</span><span class="day on"><i>🔥</i>St</span><span class="day on"><i>🔥</i>Čt</span>
+          <span class="day today"><i>?</i>Pá</span><span class="day"><i>·</i>So</span><span class="day"><i>·</i>Ne</span>
+        </div>
+        <span class="sm">Dnes ještě nemáš kolo – zahraj si a budou to 3 dny v řadě.</span>
+      </div>
+      <div style="height:12px"></div>
+      <div class="stats">
+        <div class="stat"><b>7 / 60</b><span>hvězd</span></div>
+        <div class="stat"><b>76 %</b><span>úspěšnost</span></div>
+        <div class="stat"><b>3 / 12</b><span>odznaků</span></div>
+      </div>
+      <div style="height:16px"></div>
+      <span class="btn btn-primary btn-cta">Hrát ▶</span>
+      <div style="height:12px"></div>
+      <div class="card goal">
+        <span class="ico">📅</span>
+        <div><span class="label">Nejbližší odznak</span><h3>Tři dny v řadě</h3><div class="bar"><i style="width:66%"></i></div><span class="sm">2 ze 3 dnů</span></div>
+      </div>
+      <div class="row2"><span class="btn btn-sec">🏅 Odznaky</span><span class="btn btn-sec">📖 Historie</span></div>
+    </div>
+  </section>
+
+  <!-- ===================== C ===================== -->
+  <section class="varianta" id="c">
+    <h2>C · Rovnou do kategorií</h2>
+    <p>Kategorie jsou přímo na Domů, takže hra začíná o ťuknutí dřív. Dole je „Věděli jste?“ – zajímavost z otázky, kterou hráč už má za sebou (nic neprozradí). Logo je jen malé v záhlaví.</p>
+    <div class="phone" data-varianta="c">
+      <div class="c-head">
+        <svg viewBox="0 0 96 96" aria-hidden="true"><path d="M48 8a38 38 0 1 1-19.6 70.6L12 86l5.2-15.4A38 38 0 0 1 48 8z" fill="#C2255C"/><rect x="42" y="22" width="12" height="34" rx="6" fill="#fff"/><circle cx="48" cy="68" r="6.5" fill="#fff"/><path d="M80 4l3.4 9.6L93 17l-9.6 3.4L80 30l-3.4-9.6L67 17l9.6-3.4z" fill="#FFC53D"/></svg>
+        <span class="word grow">Oho<em>!</em></span>
+        <span class="iconbtn">⚙️</span>
+      </div>
+      <div class="c-hello"><h3>Co si dnes zahraješ?</h3><p>Ověřené otázky. Česky i anglicky.</p></div>
+      <div class="strip"><span>🔥 2 dny</span><span>★ 7 / 60</span><span>🎯 76 %</span><span>🏅 3 / 12</span></div>
+      <div class="tiles">
+        <div class="tile t-cz"><span class="emo"><span class="flag"></span></span><b>Česko</b><span class="meta"><span>3 témata</span><span>6 / 45 ★</span></span></div>
+        <div class="tile t-sp"><span class="emo">⚽</span><b>Sport</b><span class="meta"><span>1 téma</span><span>1 / 15 ★</span></span></div>
+        <div class="tile t-new"><span class="emo">✨</span>Další kategorie brzy přibudou</div>
+      </div>
+      <div class="fact">
+        <span class="label">💡 Věděli jste?</span>
+        <p>Popelku hrála Libuše Šafránková. Roli měla původně dostat Jana Preissová, ta ji ale odmítla, protože byla těhotná.</p>
+        <span class="sm" style="color:#8A5A00">České pohádky na plátně i obrazovce</span>
+      </div>
+      <div class="row2"><span class="btn btn-sec">🏅 Odznaky</span><span class="btn btn-sec">📖 Historie</span></div>
+    </div>
+  </section>
+
+  <!-- ===================== D ===================== -->
+  <section class="varianta" id="d">
+    <h2>D · Kombinace (doporučuji)</h2>
+    <p>To nejlepší z A a B na jedné obrazovce: karta „Pokračuj“, pod ní velké Hrát a jedna karta s týdnem a nejbližším odznakem. Vejde se na telefon bez posouvání.</p>
+    <div class="phone" data-varianta="d">
+      <div class="toprow"><span class="pill">🔥 2 dny</span><span class="iconbtn">⚙️</span></div>
+      <div class="d-hero">
+        <svg viewBox="0 0 96 96" aria-hidden="true"><path d="M48 8a38 38 0 1 1-19.6 70.6L12 86l5.2-15.4A38 38 0 0 1 48 8z" fill="#C2255C"/><rect x="42" y="22" width="12" height="34" rx="6" fill="#fff"/><circle cx="48" cy="68" r="6.5" fill="#fff"/><path d="M80 4l3.4 9.6L93 17l-9.6 3.4L80 30l-3.4-9.6L67 17l9.6-3.4z" fill="#FFC53D"/></svg>
+        <span class="word">Oho<em>!</em></span>
+      </div>
+      <div class="stats" style="margin-bottom:14px">
+        <div class="stat"><b>7 / 60</b><span>hvězd</span></div>
+        <div class="stat"><b>76 %</b><span>úspěšnost</span></div>
+        <div class="stat"><b>3 / 12</b><span>odznaků</span></div>
+      </div>
+      <div class="d-cont">
+        <span class="label">Pokračuj</span>
+        <span class="go">▶</span>
+        <h3>Praha: domovní znamení, legendy…</h3>
+        <span class="sm"><span class="flag"></span>&nbsp; Střední · 5 z 10</span>
+        <div class="bar"><i style="width:40%"></i></div>
+      </div>
+      <span class="btn btn-primary btn-cta">Hrát ▶</span>
+      <div style="height:12px"></div>
+      <div class="card">
+        <div class="d-week">
+          <div><b>2 dny v řadě</b><span class="sm">Dnes ještě ne</span></div>
+          <div class="week">
+            <span class="day"><i>·</i>Po</span><span class="day"><i>·</i>Út</span><span class="day on"><i>🔥</i>St</span><span class="day on"><i>🔥</i>Čt</span>
+            <span class="day today"><i>?</i>Pá</span><span class="day"><i>·</i>So</span><span class="day"><i>·</i>Ne</span>
+          </div>
+        </div>
+        <div class="d-goal">
+          <span class="ico">📅</span>
+          <div class="grow"><span class="sm">Nejbližší odznak: <b style="color:var(--ink)">Tři dny v řadě</b></span><div class="bar"><i style="width:66%"></i></div></div>
+          <span class="sm">2/3</span>
+        </div>
+      </div>
+      <div class="row2"><span class="btn btn-sec">🏅 Odznaky</span><span class="btn btn-sec">📖 Historie</span></div>
+    </div>
+  </section>
+
+  </div>
+</div>
+</body>
+</html>

@@ -1,6 +1,6 @@
 // Historie – všechna dohraná kola (nejnovější nahoře); každé vede na přehled odpovědí (D-013).
 import { t, jazyk } from "../i18n.js";
-import { h, lista, hvezdicky } from "../ui.js";
+import { h, lista, hvezdicky, ikonaKategorie } from "../ui.js";
 import { najdiTema, txt } from "../data.js";
 import { pokrok } from "../progress.js";
 
@@ -18,7 +18,7 @@ export function vykresli() {
   const obsah = polozky.length
     ? h("div", { class: "cards" }, polozky.map(({ info, obt, v }) =>
         h("a", { class: "card hist", href: `#/prehled/${info.tema.id}/${obt}`, "data-tema": info.tema.id, "data-obtiznost": obt },
-          h("span", { class: "hist-ico", "aria-hidden": "true", text: info.kategorie.ikona || "❓" }),
+          ikonaKategorie(info.kategorie, "hist-ico"),
           h("span", { class: "hist-body" },
             h("span", { class: "hist-name", text: txt(info.tema.nazev, jazyk()) }),
             h("span", { class: "hist-meta", text: `${t(`obtiznost.${obt}`)} · ${t("prehled.skore", { s: v.s, c: v.c })}` }),

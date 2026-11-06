@@ -179,6 +179,11 @@ p { margin: 0; }
 }
 .tile:active { transform: translateY(2px); }
 .tile-emo { font-size: 34px; line-height: 1; }
+.kat-obr img { display: block; width: 1.5em; height: 1em; border-radius: .12em; box-shadow: 0 0 0 1px rgba(43, 22, 48, .18), 0 2px 4px rgba(43, 22, 48, .15); }
+.tile-emo.kat-obr, .hist-ico.kat-obr { display: flex; justify-content: center; }
+.tile-emo.kat-obr { justify-content: flex-start; }
+.lead-ikona { display: flex; justify-content: center; align-items: center; gap: 8px; }
+.lead-ico { line-height: 1; }
 .tile-name { font-family: var(--font-h); font-weight: 800; font-size: 20px; line-height: 1.15; overflow-wrap: anywhere; }
 .tile-meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 8px; font-size: 14px; font-weight: 700; }
 .tile-stars { white-space: nowrap; }

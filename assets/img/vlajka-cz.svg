@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <!-- Vlajka České republiky (poměr 2 : 3, klín do poloviny délky). Vlastní kresba, bez licence třetí strany. -->
+  <rect width="900" height="600" fill="#D7141A"/>
+  <rect width="900" height="300" fill="#FFFFFF"/>
+  <path d="M0 0 450 300 0 600Z" fill="#11457E"/>
+</svg>

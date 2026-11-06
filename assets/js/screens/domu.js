@@ -1,6 +1,6 @@
 // 2. Domů – logo, Hrát, hvězdy celkem, série dní (nahoře), úspěšnost v %, Odznaky a Nastavení.
 import { t } from "../i18n.js";
-import { h, logo, wordmark, cislo } from "../ui.js";
+import { h, logo, wordmark, celeHvezdy } from "../ui.js";
 import { hvezdyCelkem, serieDni, pokrok, uspesnost } from "../progress.js";
 import { ODZNAKY } from "../badges.js";
 import { ukladaniFunguje } from "../storage.js";
@@ -36,7 +36,7 @@ export function vykresli() {
     h(
       "div",
       { class: "stats" },
-      stat(`${cislo(hv.pul / 2)} / ${cislo(hv.max / 2)}`, t("domu.hvezd"), "hvezdy-celkem"),
+      stat(`${celeHvezdy(hv.pul)} / ${celeHvezdy(hv.max)}`, t("domu.hvezd"), "hvezdy-celkem"),
       stat(usp == null ? "–" : t("domu.procent", { n: usp }), t("domu.uspesnost"), "uspesnost"),
       stat(`${odz} / ${ODZNAKY.length}`, t("domu.odznaku"), "odznaky")
     ),

@@ -1,6 +1,6 @@
 // 4. Témata v kategorii – karty témat, u každé tři malé ukazatele hvězd (Lehká / Střední / Těžká).
 import { t, jazyk } from "../i18n.js";
-import { h, lista, hvezdicky, hvezdyText } from "../ui.js";
+import { h, lista, hvezdicky, hvezdyText, ikonaKategorie } from "../ui.js";
 import { kategorie, viditelnaTemata, viditelneObtiznosti, txt } from "../data.js";
 import { pulV, stav, hvezdyTematu } from "../progress.js";
 
@@ -36,7 +36,7 @@ export function vykresli([katId]) {
     "main",
     { class: "screen" },
     lista({ zpet: "#/kategorie", nadpis: txt(kat.nazev, jazyk()) }),
-    h("p", { class: "lead lead-center" }, h("span", { "aria-hidden": "true", text: `${kat.ikona} ` }), t("temata.vyberTema")),
+    h("p", { class: "lead lead-center lead-ikona" }, ikonaKategorie(kat, "lead-ico"), h("span", { text: t("temata.vyberTema") })),
     h("div", { class: "cards" }, karty)
   );
   return { el, titulek: txt(kat.nazev, jazyk()) };
