@@ -1,6 +1,12 @@
 # DECISIONS – Kvízová webová aplikace
 Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový záznam s odkazem na původní.
 
+## D-020 · 2026-11-06 · Součty hvězd bez půlek, česká vlajka u kategorie Česko (Davidův pokyn)
+- **Hvězdy:** výsledek kola dál ukazuje půlhvězdy podle D-013 (70 % = 3,5 ★). **Součty** na Domů („3 / 60“), u kategorií a u témat („3 / 15 ★“) se zaokrouhlí **dolů na celé hvězdy** (`ui.js` `celeHvezdy`, `hvezdyText`). Uložený pokrok a odznaky počítají dál s půlkami. David vybral tuto variantu z nabídky (druhá možnost byla zrušit půlky úplně).
+- **Vlajka:** kategorie `cesko` ukazuje místo emoji 🏰 z dat českou vlajku jako vlastní SVG `assets/img/vlajka-cz.svg` (emoji vlajky Windows nezobrazí – ukázalo by jen písmena „CZ“). Mapa `OBRAZKY_KATEGORII` v `ui.js`, použito na Kategoriích, u nadpisu Témat a v Historii. Data ani exportní nástroj se nemění.
+- **Ověření:** `pruchod.py` kontroluje celé součty u kategorií a načtenou vlajku.
+- **Kdo:** David (pokyn a volba), prompt 01 (provedení)
+
 ## D-019 · 2026-11-06 · Na web jen otázky po nezávislé revizi
 - **Rozhodnutí:** export v režimu „web“ bere jen otázky, které prošly nezávislou revizí (skill kviz-revize ve složce Kvizy): pole `revize` v `otazky.json` = **OK, Opraveno nebo Drobná** a `revize_otisk` sedí s aktuálním textem otázky (jinak se text od revize změnil a otázka se musí zrevidovat znovu). Ostatní (nerevidované, Střední, Závažná) export přeskočí s důvodem v hlášení. Režim „vzorek“ revizi nehlídá (ukázková data).
 - **Kde:** `tools/export_otazky.py` (`otisk`, `stav_revize`, `proc_preskocit`), `tools/test_export.py` (`revize_ok`). Otisk se počítá stejně jako v `Kvizy/nastroje/kviz_db.py` – při změně uprav oba.

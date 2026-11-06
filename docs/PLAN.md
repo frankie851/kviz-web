@@ -52,5 +52,11 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☑ (2026-11-05) Davidova volba z „K zvážení“: na Domů úspěšnost v % místo druhé série dní (D-018); `pruchod.py` 116 kontrol; pull request ke sloučení.
 - ☑ (2026-11-05) Závěrečná zpráva Davidovi + zaškrtnout kritéria přijetí ve SPEC (všech 10).
 
+## Po 1. verzi (úpravy podle Davida, prompt 01)
+- ☑ (2026-11-05) D-018 úspěšnost v % na Domů, menší stín pod Hrát.
+- ☑ (2026-11-06) D-020 součty hvězd bez půlek, česká vlajka u kategorie Česko.
+- ☑ (2026-11-06) 4 návrhy obrazovky Domů v `design/domu.html`.
+- **⏸ Kontrolní bod:** ☐ David vybere variantu Domů → postavit, ověřit `pruchod.py`, nasadit.
+
 ## Stav
-Poslední aktualizace: 2026-11-05 (Fáze 5 + D-018) · 1. verze hotová, všechna kritéria přijetí splněná · Čeká se: sloučení pull requestu s D-018 (David), pak doplnění témat promptem 03 (prostředí B) · Blokováno: nic
+Poslední aktualizace: 2026-11-06 · 1. verze hotová a online · Čeká se: Davidova volba varianty Domů a sloučení pull requestu s D-020; pak doplnění témat promptem 03 (prostředí B) · Blokováno: nic

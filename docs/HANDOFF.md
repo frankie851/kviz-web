@@ -1,8 +1,8 @@
 # HANDOFF – Kvízová webová aplikace
-datum: 2026-11-05 · předává: prompt 01 (Fáze 5 + Davidova volba D-018, prostředí A) · přebírá: David (sloučit pull request), pak prompt 03 (prostředí B) s novými tématy
+datum: 2026-11-06 · předává: prompt 01 (D-020 a návrhy Domů, prostředí A) · přebírá: David (vybrat variantu Domů, sloučit pull request), pak prompt 01 (stavba vybrané varianty) a prompt 03 s novými tématy
 
 ## Stav jednou větou
-1. verze je hotová a online (opravy z kontroly D-016 sloučené a ověřené na webu, všech 10 kritérií přijetí splněno); navíc je v pull requestu Davidova volba D-018 (na Domů úspěšnost v % místo druhé série dní) – čeká na sloučení; další krok je doplnění témat (prompt 03).
+1. verze je online (D-016, D-018 sloučené a ověřené). V pull requestu čeká D-020: součty hvězd bez půlek a česká vlajka u kategorie Česko. Navíc jsou v `design/domu.html` **4 návrhy obrazovky Domů** (A Pokračuj, B Týden a cíle, C Rovnou do kategorií, D Kombinace). Čeká se, kterou variantu David vybere.
 
 ## Stav dat
 - 2026-11-04 – 35 otázek, 1 téma (T001 Chobotnice a další hlavonožci), režim vzorek
@@ -32,14 +32,18 @@ datum: 2026-11-05 · předává: prompt 01 (Fáze 5 + Davidova volba D-018, pros
   - pull request #3 sloučený, nasazená verze ověřena přes WebFetch.
 - D-018 (2026-11-05, Davidova volba): Domů – prostřední dlaždice ukazuje úspěšnost v % (série dní jen v pilulce nahoře); `pruchod.py` 116 kontrol; náhled `docs/nahledy/faze5-5-domu-uspesnost-390.png`.
 
+- D-018 sloučené (pull request #4) – nasazení ověřit při příštím sezení přes WebFetch.
+- D-020 (2026-11-06): součty hvězd zaokrouhlené dolů (výsledek kola s půlkami zůstává), česká vlajka u kategorie Česko (Kategorie, Témata, Historie); `pruchod.py` 118 kontrol; náhled `docs/nahledy/d020-hvezdy-vlajka-390.png`.
+
 ## Rozpracováno
-- **Pull request s D-018 čeká na sloučení** – po sloučení ověřit online (WebFetch `…/kviz-web/assets/js/screens/domu.js?v=<hash>` – obsahuje `uspesnost`).
+- **⏸ Volba obrazovky Domů:** `design/domu.html` (online `…/kviz-web/design/domu.html` po sloučení), screenshoty `docs/nahledy/domu-varianta-a…d.png`. Každá varianta potřebuje i logiku: A/D karta „Pokračuj“ = poslední rozehrané kolo, jinak další otevřená obtížnost naposledy hraného tématu; B/D týden = dny s dohraným kolem v aktuálním týdnu (dnes se ukládá jen poslední den a délka série, takže je potřeba ukládat i data hraní); B/D nejbližší odznak = nezískaný odznak s největším podílem splnění; C dlaždice kategorií + „Věděli jste?“ jen z už zodpovězených otázek. Po volbě: zapsat do DECISIONS, postavit, rozšířit `pruchod.py`.
 - **Online ověření:** z cloudu nejde – síť prostředí A nepustí `frankie851.github.io` (ani ogp.me). Ověří David na mobilu; prompt 02 může spustit `python3 tools/pruchod.py --url https://frankie851.github.io/kviz-web/`.
 - **Vlastní zařízení:** zvuky a vibrace v Chromiu bez hlavy nejde slyšet/cítit (test jen počítá, že se spustily) – poslech ověří David na telefonu. iPhone vibrace v prohlížeči nemá (je to v pořádku, „potichu nic“).
 - **Náhled odkazu** ověří až sdílení nasazené adresy (např. poslat si odkaz ve WhatsAppu/Messengeru). Sítě si náhled pamatují – kdyby ukazovaly starou zástupnou stránku, chce to chvíli počkat.
 
 ## Další krok
-1. **David:** sloučit pull request s D-018 (tlačítko „Merge pull request“).
+1. **David:** vybrat variantu Domů (A–D nebo kombinaci), sloučit pull request s D-020 a návrhy.
+1b. **Prompt 01 (prostředí A):** postavit vybranou variantu Domů.
 2. **David doplní témata:** v Excelu označit Web = Ano (u celého tématu stačí list Témata, D-017), uložit, zavřít; pak **prompt 03** v úkolu propojeném s počítačem (prostředí B). Prompt 03 po exportu spustí `python3 tools/pruchod.py`.
 3. Body „K zvážení“ z kontroly: K4 hotovo (D-018), K1 = krok 2, K2 a K3 beze změny (David nic nežádal), K5 jen informace. Kdyby David chtěl K2/K3 přece změnit, udělá to prompt 01.
 
@@ -49,6 +53,7 @@ datum: 2026-11-05 · předává: prompt 01 (Fáze 5 + Davidova volba D-018, pros
 - `tools/pruchod.py`: 1. běh selhal na varování o preload písem, 2. běh prošel – viz nález D-1.
 
 ## Připomínky Davida (k zapracování)
+- 2026-11-06 – „Půlky hvězdiček zaokrouhli dolů“ (upřesněno: jen součty), „u českých místo současného obrázku česká vlajka“ → **zapracováno** (D-020). „Navrhni možnosti vylepšení úvodní stránky, více variant, něco tomu chybí“ → 4 návrhy v `design/domu.html`, **čeká na volbu**.
 - 2026-11-05 – „mírně zmenši stín pod Hrát“, upřesněno „užší stín, zasahoval do tlačítek Odznaky a Historie“ → **zapracováno**: `.btn-cta` stín `0 6px 8px -6px` (sahá ~8 px pod tlačítko, mezera k řadě Odznaky/Historie je 12 px).
 - 2026-11-05 – ke „K zvážení“: „témata budou doplněna. Série ‚1 den v řadě‘ nahraď úspěšností v %“ → **zapracováno** (D-018); témata = prompt 03.
 - 2026-11-05 – po kontrole: zadání „podívej se na to podle promptu“ → Fáze 5 (opravy nálezů); ke „K zvážení“ zatím bez rozhodnutí.
