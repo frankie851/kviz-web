@@ -26,7 +26,7 @@ export function vykresli() {
           h("span", { class: "hist-go", "aria-hidden": "true", text: "→" }))))
     : h("div", { class: "empty" },
         h("p", { text: t("historie.prazdna") }),
-        h("a", { class: "btn btn-primary btn-big", href: "#/kategorie", text: t("domu.hrat") }));
+        h("a", { class: "btn btn-primary btn-big", href: "#/", text: t("statistiky.hrat") }));
 
   const el = h(
     "main",
