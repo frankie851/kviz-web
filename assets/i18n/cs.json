@@ -2,7 +2,7 @@
   "app": {
     "nazev": "Oho!",
     "nazevZaklad": "Oho",
-    "podtitul": "Ověřené otázky. Česky i anglicky.",
+    "podtitul": "Vědomostní kvíz. Česky i anglicky.",
     "nacitam": "Načítám…"
   },
   "nav": {
@@ -62,8 +62,9 @@
     "uspesnost": "úspěšnost",
     "procent": "{n} %",
     "odznaku": "odznaků",
-    "hrat": "Hrát",
-    "bezUkladani": "Tento prohlížeč nedovoluje ukládat – pokrok se po zavření stránky ztratí."
+    "bezUkladani": "Tento prohlížeč nedovoluje ukládat – pokrok se po zavření stránky ztratí.",
+    "otazka": "Co si dnes zahraješ?",
+    "vsechnyKategorie": "Všechny kategorie ({n})"
   },
   "kategorie": {
     "nadpis": "Kategorie",
@@ -72,7 +73,8 @@
       "few": "{n} témata",
       "many": "{n} tématu",
       "other": "{n} témat"
-    }
+    },
+    "dohrano": "Dohráno {x} / {n}"
   },
   "temata": {
     "vyberTema": "Vyber si téma",
@@ -225,5 +227,38 @@
   },
   "oslavy": {
     "novyOdznak": "Nový odznak!"
+  },
+  "statistiky": {
+    "nadpis": "Statistiky",
+    "prazdne": "Zatím nemáš dohrané žádné kolo. Statistiky se ukážou po prvním.",
+    "hrat": "Vybrat kategorii",
+    "uspesnost": "Celková úspěšnost",
+    "spravneZ": "{s} správně z {c} odpovědí",
+    "kol": {
+      "one": "dohrané kolo",
+      "few": "dohraná kola",
+      "many": "dohraného kola",
+      "other": "dohraných kol"
+    },
+    "temat": "témat dohráno",
+    "podleObtiznosti": "Podle obtížnosti",
+    "podleKategorii": "Podle kategorií",
+    "kolaMeta": {
+      "one": "{n} kolo · {s} z {c} správně",
+      "few": "{n} kola · {s} z {c} správně",
+      "many": "{n} kola · {s} z {c} správně",
+      "other": "{n} kol · {s} z {c} správně"
+    },
+    "nehrano": "zatím nehráno",
+    "hvezdy": "Jak dopadla kola",
+    "kolaPlna": "bez chyby",
+    "kolaOdemyka": "od 70 %",
+    "kolaPod": "pod 70 %",
+    "rekordy": "Rekordy",
+    "nejdelsiRada": "Nejdelší série správných odpovědí",
+    "nejdelsiSerieDni": "Nejdelší série dní",
+    "dniSHrou": "Dní s aspoň jedním kolem",
+    "nejlepsiTema": "Nejlepší téma",
+    "jazykOtazek": "Podle jazyka otázek"
   }
 }

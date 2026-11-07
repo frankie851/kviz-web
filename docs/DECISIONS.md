@@ -1,6 +1,16 @@
 # DECISIONS – Kvízová webová aplikace
 Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový záznam s odkazem na původní.
 
+## D-021 · 2026-11-07 · Nová obrazovka Domů (varianta C s úpravami), Statistiky, „dohráno x / t“ (Davidova volba, mění SPEC – obrazovka 2)
+- **Domů** (návrh C z `design/domu.html`, David): malé záhlaví (logo, Oho!, Nastavení), nadpis „Co si dnes zahraješ?“, podtitul **„Vědomostní kvíz. Česky i anglicky.“** (místo „Ověřené otázky…“, platí i pro titulek stránky), pruh 🔥 série dní · ★ hvězdy · 🎯 úspěšnost · 🏅 odznaky, **dlaždice kategorií přímo na Domů** (tlačítko Hrát odpadá), dole **Odznaky · Historie · Statistiky**. Okno „Věděli jste?“ z návrhu **není** (David: byla by to nápověda).
+- **Hodně kategorií:** na Domů nejvýš 6 dlaždic (3 plné řady), při víc kategoriích pod nimi široké tlačítko **„Všechny kategorie (n)“** → obrazovka Kategorie se všemi. Domů tak zůstane krátké; Kategorie se posouvá svisle jako běžná stránka (žádný vodorovný posuvník – na mobilu se špatně objevuje a hůř ovládá jednou rukou).
+- **„Dohráno x / t“** u kategorií (Domů i Kategorie): x = témata, ve kterých hráč **už nemůže pokračovat** – všechny obtížnosti odehrané, nebo další zamčená natrvalo (pod 70 %); t = všechna zobrazená témata kategorie (`progress.js` `jeUzavrene`, `uzavrenaVKategorii`). Odznak Objevitel dál počítá „dohrané“ podle SPEC (všechny obtížnosti odehrané) – beze změny.
+- **Statistiky** (`#/statistiky`, `screens/statistiky.js`): celková úspěšnost (správně z odpovědí), dohraná kola, hvězdy, dohraná témata; úspěšnost **podle obtížnosti** a **podle kategorií** (s hvězdami a dohráno x / t); **jak dopadla kola** (bez chyby / od 70 % / pod 70 %); **rekordy** (nejdelší série správných odpovědí, nejdelší série dní, dny s aspoň jedním kolem, nejlepší téma); **podle jazyka otázek**. Bez dohraného kola výzva ke hraní. Počítá se jen z dohraných kol témat, která jsou na webu.
+- **Ukládání:** výsledek kola nově obsahuje `j` (jazyk otázek) a `r` (nejdelší série v kole); starší výsledky je nemají – jazyková část je ukazuje jen z nových kol. Verze pokroku se nemění.
+- **Zpět z Témat** vede na Domů. Nepoužívané styly staré Domů (hero, Hrát, pilulka) odstraněny.
+- **Ověření:** `pruchod.py` – Domů (podtitul, bez Věděli jste?, dlaždice, Statistiky), Statistiky z připraveného pokroku (86 %, 80/100/90 % podle obtížnosti, 21 hvězd, rozdělení kol, rekordy, dohráno x / t), 9 kategorií (6 + Všechny kategorie), EN texty, screenshot Statistik na 5 šířkách.
+- **Kdo:** David (volba a úpravy), prompt 01 (provedení, vlastní nápady ve Statistikách)
+
 ## D-020 · 2026-11-06 · Součty hvězd bez půlek, česká vlajka u kategorie Česko (Davidův pokyn)
 - **Hvězdy:** výsledek kola dál ukazuje půlhvězdy podle D-013 (70 % = 3,5 ★). **Součty** na Domů („3 / 60“), u kategorií a u témat („3 / 15 ★“) se zaokrouhlí **dolů na celé hvězdy** (`ui.js` `celeHvezdy`, `hvezdyText`). Uložený pokrok a odznaky počítají dál s půlkami. David vybral tuto variantu z nabídky (druhá možnost byla zrušit půlky úplně).
 - **Vlajka:** kategorie `cesko` ukazuje místo emoji 🏰 z dat českou vlajku jako vlastní SVG `assets/img/vlajka-cz.svg` (emoji vlajky Windows nezobrazí – ukázalo by jen písmena „CZ“). Mapa `OBRAZKY_KATEGORII` v `ui.js`, použito na Kategoriích, u nadpisu Témat a v Historii. Data ani exportní nástroj se nemění.

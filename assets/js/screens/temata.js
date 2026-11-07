@@ -35,7 +35,7 @@ export function vykresli([katId]) {
   const el = h(
     "main",
     { class: "screen" },
-    lista({ zpet: "#/kategorie", nadpis: txt(kat.nazev, jazyk()) }),
+    lista({ zpet: "#/", nadpis: txt(kat.nazev, jazyk()) }),
     h("p", { class: "lead lead-center lead-ikona" }, ikonaKategorie(kat, "lead-ico"), h("span", { text: t("temata.vyberTema") })),
     h("div", { class: "cards" }, karty)
   );

@@ -17,7 +17,7 @@ s „omezit pohyb“ žádné animace ani konfety; odkaz na téma u nového hrá
 na téma; při pomalém stažení tématu hned „Načítám…“; klávesy po rychlém odchodu z načítané otázky
 nic nezodpoví; dlouhé slovo a adresa v otázce, možnostech a vysvětlení nic neroztáhnou (320 px);
 náhled odkazu (Open Graph) a ikony; žádné chyby
-v konzoli; žádný síťový požadavek mimo vlastní adresu. Pak screenshoty 7 obrazovek na šířkách 320, 360, 390, 768 a 1280 px
+v konzoli; žádný síťový požadavek mimo vlastní adresu. Pak screenshoty 8 obrazovek na šířkách 320, 360, 390, 768 a 1280 px
 a kontrola, že nic nepřetéká do stran. Potřebuje aspoň 3 témata se všemi obtížnostmi.
 
 Návratový kód 0 = vše prošlo, 1 = něco selhalo (vypíše co).
@@ -267,7 +267,7 @@ def stav_obtiznosti(page, o):
 
 
 # ---------------------------------------------------------------- scénáře
-def scenar_hry(page, zaklad, otazky, temata):
+def scenar_hry(page, zaklad, otazky, temata, index):
     (kat, tema), (kat2, tema2) = temata[0], temata[1]
     T, T2 = tema["id"], tema2["id"]
     print("První spuštění:")
@@ -277,16 +277,19 @@ def scenar_hry(page, zaklad, otazky, temata):
     page.click("[data-test=pokracovat]")
     over(page.locator("[data-zpusob]").count() == 3, "3 způsoby hraní")
     page.click('[data-zpusob="muj"]')
-    page.wait_for_selector("[data-test=hrat]")
+    page.wait_for_selector("[data-test=domu]")
     over(page.url.endswith("#/"), "po 2 krocích je hráč Domů")
-    over(page.inner_text("[data-test=hvezdy-celkem]").startswith("0"), "na začátku 0 hvězd")
-    over(page.inner_text("[data-test=uspesnost]").startswith("–"), "na začátku úspěšnost „–“")
+    over(page.inner_text("[data-test=hvezdy-celkem] b").startswith("0"), "na začátku 0 hvězd")
+    over(page.inner_text("[data-test=uspesnost] b").startswith("–"), "na začátku úspěšnost „–“")
     bez_chybejicich_textu(page, "Domů")
 
-    print("Kategorie → téma → Lehká:")
-    page.click("[data-test=hrat]")
-    page.wait_for_selector(".tile")
-    bez_chybejicich_textu(page, "Kategorie")
+    txt_domu = text_stranky(page)
+    over("Vědomostní kvíz" in txt_domu and "Věděli" not in txt_domu, "Domů: podtitul „Vědomostní kvíz“, bez okna Věděli jste? (D-021)")
+    over(page.locator("[data-test=kategorie-domu] .tile[data-kategorie]").count() == min(len(index["kategorie"]), 6)
+         and page.locator("[data-test=statistiky]").count() == 1, "Domů: dlaždice kategorií a tlačítko Statistiky")
+    over(all(x.startswith("Dohráno 0 /") for x in page.locator("[data-test=dohrano]").all_inner_texts()), "kategorie na Domů: Dohráno 0 / t")
+
+    print("Kategorie (na Domů) → téma → Lehká:")
     page.click(f'.tile[data-kategorie="{kat["id"]}"]')
     page.wait_for_selector(f'.topic[data-tema="{T}"]')
     bez_chybejicich_textu(page, "Témata")
@@ -319,12 +322,12 @@ def scenar_hry(page, zaklad, otazky, temata):
     page.wait_for_selector("[data-test=skore]")
     over(page.inner_text("[data-test=skore]").startswith(f"{s} / {n}"), "výsledek po obnovení zůstal")
     jdi(page, zaklad, "#/")
-    over(page.inner_text("[data-test=hvezdy-celkem]").startswith(f"{ocekavane(s, n)[0]} /"), "Domů: hvězdy celkem i po obnovení")
-    over("1" in page.inner_text("[data-test=serie-dni]"), "série dní = 1 (pilulka nahoře)")
+    over(page.inner_text("[data-test=hvezdy-celkem] b").startswith(f"{ocekavane(s, n)[0]} /"), "Domů: hvězdy celkem i po obnovení")
+    over("1" in page.inner_text("[data-test=serie-dni] b"), "série dní = 1 (pruh na Domů)")
     usp = round(s / n * 100)
-    over(page.inner_text("[data-test=uspesnost]").startswith(f"{usp}\u00a0%") or page.inner_text("[data-test=uspesnost]").startswith(f"{usp} %"),
+    over(page.inner_text("[data-test=uspesnost] b").startswith(f"{usp}\u00a0%") or page.inner_text("[data-test=uspesnost] b").startswith(f"{usp} %"),
          f"Domů: úspěšnost {usp} % místo série dní")
-    over(page.locator("[data-test=dny]").count() == 0, "série dní není na Domů dvakrát")
+    over(page.locator("[data-test=serie-dni]").count() == 1, "série dní je na Domů jen jednou")
     jdi(page, zaklad, "#/kategorie")
     soucty = page.locator(".tile-stars").all_inner_texts()
     over(soucty and all(re.fullmatch(r"\d+ / \d+ ★", x.strip()) for x in soucty), f"součty hvězd u kategorií jen celé (půlky dolů, D-020): {soucty}")
@@ -479,7 +482,7 @@ def scenar_jazyka(page, zaklad, T_hra, T_hotovo, kat_id):
     print("Rozhraní anglicky (všechny obrazovky):")
     nastav(page, zaklad, "nast-ui", "en")
     over(page.get_attribute("html", "lang") == "en", "html lang = en")
-    obrazovky = [("#/", "Play"), ("#/kategorie", "Categories"), (f"#/kategorie/{kat_id}", "Pick a topic"), (f"#/tema/{T_hotovo}", "See your answers"),
+    obrazovky = [("#/", "What will you play"), ("#/statistiky", "By difficulty"), ("#/kategorie", "Categories"), (f"#/kategorie/{kat_id}", "Pick a topic"), (f"#/tema/{T_hotovo}", "See your answers"),
                  (f"#/hra/{T_hra}/1", "Did you know?"), ("#/vysledek", "See your answers"), (f"#/prehled/{T_hotovo}/1", "Your answers"),
                  ("#/historie", "History"), ("#/odznaky", "Badges"), ("#/nastaveni", "Settings")]
     for h_, slovo in obrazovky:
@@ -641,7 +644,7 @@ def scenar_navigace(browser, zaklad, hlidac, T, lokalni=True):
     cdp.send("Network.setCacheDisabled", {"cacheDisabled": True})
     page.goto(zaklad + "#/")  # nové načtení stránky = prázdná paměť otázek
     page.reload()
-    page.wait_for_selector("[data-test=hrat]")
+    page.wait_for_selector("[data-test=domu]")
     page.evaluate(f"location.hash = '#/tema/{T}'")
     page.wait_for_selector(".diff")
     page.click('a.diff[data-obtiznost="1"]')
@@ -653,7 +656,7 @@ def scenar_navigace(browser, zaklad, hlidac, T, lokalni=True):
     # rychlý odchod: otázka se ještě načítá, hráč jde Domů → klávesa 1 už nesmí nic zodpovědět
     page.goto(zaklad + "#/")
     page.reload()
-    page.wait_for_selector("[data-test=hrat]")
+    page.wait_for_selector("[data-test=domu]")
     page.evaluate(f"location.hash = '#/hra/{T}/1'")
     page.wait_for_timeout(200)
     page.evaluate("location.hash = '#/'")
@@ -664,6 +667,90 @@ def scenar_navigace(browser, zaklad, hlidac, T, lokalni=True):
     over(page.evaluate("JSON.stringify(localStorage)") == pred and page.locator(".qcard").count() == 0,
          "klávesa 1 po odchodu z načítané otázky nic nezodpoví")
     ZPOMALENI.clear()
+    ctx.close()
+
+
+def scenar_statistik(browser, zaklad, hlidac, temata):
+    """D-021: obrazovka Statistiky a „dohráno x / t“ u kategorií z připraveného pokroku."""
+    print("Statistiky a dohraná témata (D-021):")
+    (k1, A), (k2, B), (k3, C) = temata[:3]
+    ctx = browser.new_context(viewport={"width": 390, "height": 844}, locale="cs-CZ")
+    page = ctx.new_page()
+    page.set_default_timeout(8000)
+    hlidac.pripoj(page)
+    nast = {"ui": "cs", "otazky": "cs", "preklad": "vypnuto", "zvuky": False, "vibrace": False}
+    page.goto(zaklad)
+    page.evaluate("s => localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(s))", nast)
+    page.reload()
+    jdi(page, zaklad, "#/statistiky")
+    over(page.locator("[data-test=stat-prazdne]").count() == 1, "bez dohraného kola: Statistiky ukážou výzvu ke hraní")
+    v = lambda s_, pul: {"s": s_, "c": 10, "pul": pul, "odpovedi": [], "datum": "2026-11-01", "j": "cs", "r": s_}
+    # A: všechny obtížnosti dohrané (uzavřené), B: Lehká 60 % → dál nejde (uzavřené), C: Lehká 80 % → hraje se dál
+    pokrok = {"verze": 2, "vysledky": {A["id"]: {"1": v(10, 10), "2": v(10, 10), "3": v(9, 9)}, B["id"]: {"1": v(6, 6)}, C["id"]: {"1": v(8, 8)}},
+              "rozehrano": {}, "dny": {"posledni": "2026-11-01", "serie": 1, "nejdelsi": 4}, "stat": {"kol": 5, "nejdelsiRada": 10}, "odznaky": {}}
+    page.evaluate("p => localStorage.setItem('kviz.v1.pokrok', JSON.stringify(p))", pokrok)
+    page.reload()
+    jdi(page, zaklad, "#/statistiky")
+    over(page.inner_text("[data-test=stat-celkem] .stat-big").strip() == "86\u00a0%", "celková úspěšnost 43 z 50 = 86 %")
+    over([page.inner_text(f"[data-test=stat-obt-{o}] .srow-pct").strip() for o in "123"] == ["80\u00a0%", "100\u00a0%", "90\u00a0%"], "úspěšnost podle obtížnosti 80 / 100 / 90 %")
+    over(page.inner_text("[data-test=stat-kol] b") == "5" and page.inner_text("[data-test=stat-hvezdy] b").startswith("21 /"), "5 kol, 21 hvězd (43 půlek dolů)")
+    over([page.inner_text(f"[data-test=stat-{x}] b") for x in ("plna", "odemyka", "pod")] == ["2", "2", "1"], "kola: 2 za 5 ★, 2 od 70 %, 1 pod 70 %")
+    over(page.inner_text("[data-test=stat-rada] b").endswith("10") and page.inner_text("[data-test=stat-dny] b") == "4 dny", "rekordy: série 10, nejdelší série dní 4")
+    over(page.locator("[data-test^=stat-kat-]").count() >= 1 and page.locator("[data-test=stat-jazyk-cs]").count() == 1, "úspěšnost podle kategorií a podle jazyka otázek")
+    bez_chybejicich_textu(page, "Statistiky")
+    p = pretekani(page)
+    over(not p, "Statistiky nepřetékají" + (f": {p}" if p else ""))
+    # dohráno x / t: A a B jsou uzavřené, C ne
+    ocek = {}
+    for k, t_ in temata[:3]:
+        ocek[k["id"]] = ocek.get(k["id"], 0) + (1 if t_["id"] in (A["id"], B["id"]) else 0)
+    jdi(page, zaklad, "#/")
+    for kid, x in ocek.items():
+        kat = next(k for k, _ in temata if k["id"] == kid)
+        n = sum(1 for t_ in kat["temata"] if any(t_["otazek"].get(o, 0) >= 3 for o in "123"))
+        txt_ = page.inner_text(f'.tile[data-kategorie="{kid}"] [data-test=dohrano]').strip()
+        over(txt_ == f"Dohráno {x} / {n}", f"kategorie {kid}: {txt_} (očekáváno {x} / {n})")
+    ctx.close()
+
+
+def scenar_mnoho_kategorii(browser, zaklad, hlidac, index, vystup=None):
+    """D-021: víc než 6 kategorií → na Domů 5 dlaždic + „Všechny kategorie (n)“. Prohlížeč dostane
+    upravenou kopii indexu (kategorie zkopírované pod jinými ID), data v repozitáři se nemění."""
+    print("Mnoho kategorií na Domů (D-021):")
+    kopie = json.loads(json.dumps(index))
+    vzor = kopie["kategorie"]
+    nove = []
+    for i in range(9):
+        k = json.loads(json.dumps(vzor[i % len(vzor)]))
+        k["id"] = f"{k['id']}-{i}"
+        k["nazev"] = {j: f"{v} {i + 1}" for j, v in k["nazev"].items()}
+        nove.append(k)
+    kopie["kategorie"] = nove
+    telo = json.dumps(kopie, ensure_ascii=False)
+    ctx = browser.new_context(viewport={"width": 390, "height": 844}, locale="cs-CZ")
+    page = ctx.new_page()
+    page.set_default_timeout(8000)
+    hlidac.pripoj(page)
+    page.route("**/data/index.json*", lambda r: r.fulfill(status=200, content_type="application/json", body=telo))
+    page.goto(zaklad)
+    page.evaluate("s => localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(s))",
+                  {"ui": "cs", "otazky": "cs", "preklad": "vypnuto", "zvuky": False, "vibrace": False})
+    page.reload()
+    jdi(page, zaklad, "#/")
+    over(page.locator("[data-test=kategorie-domu] .tile[data-kategorie]").count() == 6
+         and "(9)" in page.inner_text("[data-test=vsechny-kategorie]"), "9 kategorií: na Domů 6 dlaždic + „Všechny kategorie (9)“")
+    p = pretekani(page)
+    over(not p, "Domů s mnoha kategoriemi nepřetéká" + (f": {p}" if p else ""))
+    if vystup:
+        vystup.mkdir(parents=True, exist_ok=True)
+        page.wait_for_timeout(900)  # dlaždice naskakují postupně
+        page.screenshot(path=str(vystup / "mnoho-kategorii-domu-390.png"), full_page=True)
+    page.click("[data-test=vsechny-kategorie]")
+    page.wait_for_selector(".bar-title")
+    over(page.locator(".tiles .tile[data-kategorie]").count() == 9, "„Všechny kategorie“ ukáže všech 9")
+    if vystup:
+        page.wait_for_timeout(600)
+        page.screenshot(path=str(vystup / "mnoho-kategorii-vse-390.png"), full_page=True)
     ctx.close()
 
 
@@ -709,7 +796,7 @@ def screenshoty(browser, zaklad, hlidac, otazky, T, vystup):
         # kolo s 3 špatnými (70 % = 3,5 ★), aby byl výsledek s půlhvězdou a otevřená Střední
         zacni_kolo(page, zaklad, T)
         zahraj_kolo(page, otazky, spatnych=3, klavesnice=True)
-        snimky = [("1-domu", "#/", None), ("2-kategorie", "#/kategorie", None), ("3-otazka", f"#/hra/{T}/2", "odpoved"),
+        snimky = [("1-domu", "#/", None), ("2-kategorie", "#/kategorie", None), ("8-statistiky", "#/statistiky", None), ("3-otazka", f"#/hra/{T}/2", "odpoved"),
                   ("4-vysledek", "#/vysledek", None), ("5-nastaveni", "#/nastaveni", None), ("6-prehled", f"#/prehled/{T}/1", None),
                   ("7-obtiznost", f"#/tema/{T}", None)]
         for nazev, h_, akce in snimky:
@@ -766,12 +853,14 @@ def main():
         page.set_default_timeout(8000)
         hlidac.pripoj(page)
         kroky = [
-            lambda: scenar_hry(page, zaklad, otazky, temata),
+            lambda: scenar_hry(page, zaklad, otazky, temata, index),
             lambda: scenar_prekladu(page, zaklad, otazky, tema3["id"], tema["id"]),
             lambda: scenar_jazyka(page, zaklad, tema3["id"], tema["id"], kat["id"]),
             lambda: scenar_odznaku_a_nastaveni(page, zaklad),
             lambda: scenar_zvuku(page, zaklad, otazky, tema3["id"]),
             lambda: scenar_omezit_pohyb(browser, zaklad, hlidac, otazky, tema["id"]),
+            lambda: scenar_statistik(browser, zaklad, hlidac, temata),
+            lambda: scenar_mnoho_kategorii(browser, zaklad, hlidac, index, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_navigace(browser, zaklad, hlidac, tema2["id"], lokalni=httpd is not None),
             lambda: scenar_dlouhych_slov(browser, zaklad, hlidac, otazky, tema2["id"], None if args.bez_screenshotu else Path(args.vystup)),
         ]

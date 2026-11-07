@@ -84,6 +84,23 @@ export function pocetDohranych() {
   return vsechnaTemata().filter(jeDohrane).length;
 }
 
+/** Uzavřené téma = hráč v něm už nemůže pokračovat: každá zobrazená obtížnost je odehraná,
+ *  nebo zamčená natrvalo (předchozí pod 70 %). Pro „dohráno x / t“ u kategorií (D-021). */
+export function jeUzavrene(temaInfo) {
+  for (const o of viditelneObtiznosti(temaInfo)) {
+    const s = stav(temaInfo, o);
+    if (s === "natrvalo") return true; // tahle i všechny další obtížnosti jsou nedosažitelné
+    if (s !== "dohrano") return false; // ještě jde hrát (otevřená, nebo se teprve odemkne)
+  }
+  return true;
+}
+
+/** { x, t } – uzavřená témata kategorie / všechna zobrazená témata kategorie. */
+export function uzavrenaVKategorii(kat) {
+  const vsech = viditelnaTemata(kat);
+  return { x: vsech.filter(jeUzavrene).length, t: vsech.length };
+}
+
 /** Aktuální série dní (když hráč včera ani dnes nehrál, je přerušená = 0). */
 export function serieDni() {
   const { posledni, serie } = p.dny;
@@ -137,7 +154,8 @@ export function zapisKolo(kolo) {
 
   p.vysledky[temaId] = {
     ...(p.vysledky[temaId] || {}),
-    [String(obt)]: { s: spravne, c: celkem, pul, odpovedi: kolo.odpovedi.map(([id, v]) => [id, v]), datum: d },
+    // j = jazyk otázek, r = nejdelší série správných odpovědí v kole (pro Statistiky, D-021)
+    [String(obt)]: { s: spravne, c: celkem, pul, odpovedi: kolo.odpovedi.map(([id, v]) => [id, v]), datum: d, j: kolo.jazykOtazek, r: kolo.nejdelsiRada || 0 },
   };
   delete p.rozehrano[klic(temaId, obt)];
 

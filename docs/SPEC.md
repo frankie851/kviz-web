@@ -35,7 +35,7 @@ Veřejná webová aplikace, ve které kdokoli hraje kvízy z Davidových ověře
    - „Učím se angličtinu“ / „I'm learning Czech“ – otázky ve druhém jazyce, překlad na ťuknutí,
    - „Obě řeči najednou“ – otázky v mém jazyce, překlad pořád viditelný.
    Volbu jde kdykoli změnit v Nastavení.
-2. **Domů** – logo a název značky, velké tlačítko **Hrát** (→ Kategorie), celkem hvězd, série dní, vstup do Odznaků a Nastavení.
+2. *(Změna 2026-11-07, D-021: Domů = záhlaví, „Co si dnes zahraješ?“, pruh se sérií dní / hvězdami / úspěšností / odznaky, dlaždice kategorií přímo na Domů, Odznaky · Historie · Statistiky.)* **Domů** – logo a název značky, velké tlačítko **Hrát** (→ Kategorie), celkem hvězd, série dní, vstup do Odznaků a Nastavení.
 3. **Kategorie** – mřížka barevných dlaždic s ikonou, názvem, počtem témat a získanými hvězdami (např. „12 / 45 ★“).
 4. **Témata v kategorii** – karty témat; u každé tři malé ukazatele hvězd (Lehká / Střední / Těžká).
 5. **Obtížnost** – tři velká tlačítka. Lehká je vždy otevřená, Střední a Těžká mají zámek, dokud hráč nezíská ★★ v předchozí obtížnosti. U každé je nejlepší výsledek. Obtížnost s méně než 3 otázkami se nezobrazí. Pokud by lehká obtížnost chyběla, zamčení se počítá od nejnižší zobrazené.

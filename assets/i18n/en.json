@@ -2,7 +2,7 @@
   "app": {
     "nazev": "Oho!",
     "nazevZaklad": "Oho",
-    "podtitul": "Verified questions. In Czech and English.",
+    "podtitul": "A trivia quiz. In Czech and English.",
     "nacitam": "Loading…"
   },
   "nav": {
@@ -60,15 +60,17 @@
     "uspesnost": "correct",
     "procent": "{n}%",
     "odznaku": "badges",
-    "hrat": "Play",
-    "bezUkladani": "This browser doesn't allow saving – your progress will be lost when you close the page."
+    "bezUkladani": "This browser doesn't allow saving – your progress will be lost when you close the page.",
+    "otazka": "What will you play today?",
+    "vsechnyKategorie": "All categories ({n})"
   },
   "kategorie": {
     "nadpis": "Categories",
     "temat": {
       "one": "{n} topic",
       "other": "{n} topics"
-    }
+    },
+    "dohrano": "Done {x} / {n}"
   },
   "temata": {
     "vyberTema": "Pick a topic",
@@ -217,5 +219,34 @@
   },
   "oslavy": {
     "novyOdznak": "New badge!"
+  },
+  "statistiky": {
+    "nadpis": "Statistics",
+    "prazdne": "You haven't finished a round yet. Your statistics will show up after the first one.",
+    "hrat": "Pick a category",
+    "uspesnost": "Overall score",
+    "spravneZ": "{s} correct out of {c} answers",
+    "kol": {
+      "one": "round played",
+      "other": "rounds played"
+    },
+    "temat": "topics done",
+    "podleObtiznosti": "By difficulty",
+    "podleKategorii": "By category",
+    "kolaMeta": {
+      "one": "{n} round · {s} of {c} correct",
+      "other": "{n} rounds · {s} of {c} correct"
+    },
+    "nehrano": "not played yet",
+    "hvezdy": "How your rounds went",
+    "kolaPlna": "no mistakes",
+    "kolaOdemyka": "70 % or more",
+    "kolaPod": "below 70 %",
+    "rekordy": "Records",
+    "nejdelsiRada": "Longest streak of correct answers",
+    "nejdelsiSerieDni": "Longest day streak",
+    "dniSHrou": "Days with at least one round",
+    "nejlepsiTema": "Best topic",
+    "jazykOtazek": "By question language"
   }
 }
