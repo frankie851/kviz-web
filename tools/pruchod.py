@@ -686,16 +686,22 @@ def scenar_statistik(browser, zaklad, hlidac, temata):
     over(page.locator("[data-test=stat-prazdne]").count() == 1, "bez dohraného kola: Statistiky ukážou výzvu ke hraní")
     v = lambda s_, pul: {"s": s_, "c": 10, "pul": pul, "odpovedi": [], "datum": "2026-11-01", "j": "cs", "r": s_}
     # A: všechny obtížnosti dohrané (uzavřené), B: Lehká 60 % → dál nejde (uzavřené), C: Lehká 80 % → hraje se dál
+    # + rozehrané kolo C/Střední: 1 správně, 1 špatně, série 12 (D-022: počítá se do úspěšnosti a rekordu)
+    dataC = json.loads((KOREN / "data" / C["soubor"]).read_text(encoding="utf-8"))
+    q1, q2 = [q for q in dataC["otazky"] if str(q["obtiznost"]) == "2"][:2]
+    roz = {f'{C["id"]}|2': {"poradi": [q1["id"], q2["id"]], "odpovedi": [[q1["id"], q1["spravne"]], [q2["id"], (q2["spravne"] + 1) % 4]],
+                             "rada": 0, "nejdelsiRada": 12, "prekladOtevren": False, "ziskaneBehem": [], "j": "cs"}}
     pokrok = {"verze": 2, "vysledky": {A["id"]: {"1": v(10, 10), "2": v(10, 10), "3": v(9, 9)}, B["id"]: {"1": v(6, 6)}, C["id"]: {"1": v(8, 8)}},
-              "rozehrano": {}, "dny": {"posledni": "2026-11-01", "serie": 1, "nejdelsi": 4}, "stat": {"kol": 5, "nejdelsiRada": 10}, "odznaky": {}}
+              "rozehrano": roz, "dny": {"posledni": "2026-11-01", "serie": 1, "nejdelsi": 4}, "stat": {"kol": 5, "nejdelsiRada": 10}, "odznaky": {}}
     page.evaluate("p => localStorage.setItem('kviz.v1.pokrok', JSON.stringify(p))", pokrok)
     page.reload()
     jdi(page, zaklad, "#/statistiky")
-    over(page.inner_text("[data-test=stat-celkem] .stat-big").strip() == "86\u00a0%", "celková úspěšnost 43 z 50 = 86 %")
-    over([page.inner_text(f"[data-test=stat-obt-{o}] .srow-pct").strip() for o in "123"] == ["80\u00a0%", "100\u00a0%", "90\u00a0%"], "úspěšnost podle obtížnosti 80 / 100 / 90 %")
+    over(page.inner_text("[data-test=stat-celkem] .stat-big").strip() == "85\u00a0%" and page.locator("[data-test=stat-vcetne]").count() == 1,
+         "celková úspěšnost 44 z 52 = 85 % (i s rozehraným kolem, D-022)")
+    over([page.inner_text(f"[data-test=stat-obt-{o}] .srow-pct").strip() for o in "123"] == ["80\u00a0%", "92\u00a0%", "90\u00a0%"], "úspěšnost podle obtížnosti 80 / 92 (11 z 12 s rozehraným) / 90 %")
     over(page.inner_text("[data-test=stat-kol] b") == "5" and page.inner_text("[data-test=stat-hvezdy] b").startswith("21 /"), "5 kol, 21 hvězd (43 půlek dolů)")
     over([page.inner_text(f"[data-test=stat-{x}] b") for x in ("plna", "odemyka", "pod")] == ["2", "2", "1"], "kola: 2 za 5 ★, 2 od 70 %, 1 pod 70 %")
-    over(page.inner_text("[data-test=stat-rada] b").endswith("10") and page.inner_text("[data-test=stat-dny] b") == "4 dny", "rekordy: série 10, nejdelší série dní 4")
+    over(page.inner_text("[data-test=stat-rada] b").endswith("12") and page.inner_text("[data-test=stat-dny] b") == "4 dny", "rekordy: série 12 (z rozehraného kola), nejdelší série dní 4")
     over(page.locator("[data-test^=stat-kat-]").count() >= 1 and page.locator("[data-test=stat-jazyk-cs]").count() == 1, "úspěšnost podle kategorií a podle jazyka otázek")
     bez_chybejicich_textu(page, "Statistiky")
     p = pretekani(page)
@@ -751,6 +757,39 @@ def scenar_mnoho_kategorii(browser, zaklad, hlidac, index, vystup=None):
     if vystup:
         page.wait_for_timeout(600)
         page.screenshot(path=str(vystup / "mnoho-kategorii-vse-390.png"), full_page=True)
+    ctx.close()
+
+
+def scenar_postupu(browser, zaklad, hlidac, otazky, T):
+    """D-022: ukazatel postupu (zeleně správné, za nimi barevně špatné) a tlačítko Další vidět
+    po odpovědi i s rezervou nad spodní lištou prohlížeče (telefon s nízkým oknem, překlad vždy)."""
+    print("Ukazatel postupu a tlačítko Další po odpovědi (D-022):")
+    ctx = browser.new_context(viewport={"width": 390, "height": 600}, locale="cs-CZ", has_touch=True, is_mobile=True)
+    page = ctx.new_page()
+    page.set_default_timeout(8000)
+    hlidac.pripoj(page)
+    page.goto(zaklad)
+    page.evaluate("s => localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(s))",
+                  {"ui": "cs", "otazky": "cs", "preklad": "vzdy", "zvuky": False, "vibrace": False})
+    page.reload()
+    zacni_kolo(page, zaklad, T)
+    sirky = lambda: page.evaluate("""() => { const c = document.querySelector('.progress').getBoundingClientRect().width;
+        const w = s => document.querySelector(s).getBoundingClientRect().width / c * 100;
+        return [Math.round(w('[data-test=postup-ok]')), Math.round(w('[data-test=postup-bad]'))]; }""")
+    vidno = []
+    for i, spravne in enumerate((True, False, True)):
+        zodpovez(page, otazky, spravne=spravne)
+        page.wait_for_timeout(900)
+        vidno.append(page.evaluate("""() => { const b = document.querySelector('[data-test=dalsi]').getBoundingClientRect();
+            return b.top >= 0 && b.bottom + 60 <= innerHeight; }"""))
+        if i == 1:
+            n = int(page.inner_text("[data-test=pocitadlo]").split("/")[1])
+            ocek = [round(100 / n), round(100 / n)]
+            over(sirky() == ocek, f"po 1 správné a 1 špatné: zelená {sirky()[0]} %, barevná {sirky()[1]} % (očekáváno {ocek})")
+        dalsi(page)
+    over(all(vidno), f"po každé odpovědi je tlačítko Další vidět s rezervou nad spodní lištou: {vidno}")
+    n = int(page.inner_text("[data-test=pocitadlo]").split("/")[1])
+    over(sirky() == [round(200 / n), round(100 / n)], f"po 3 odpovědích (2 správně): {sirky()}")
     ctx.close()
 
 
@@ -860,6 +899,7 @@ def main():
             lambda: scenar_zvuku(page, zaklad, otazky, tema3["id"]),
             lambda: scenar_omezit_pohyb(browser, zaklad, hlidac, otazky, tema["id"]),
             lambda: scenar_statistik(browser, zaklad, hlidac, temata),
+            lambda: scenar_postupu(browser, zaklad, hlidac, otazky, tema2["id"]),
             lambda: scenar_mnoho_kategorii(browser, zaklad, hlidac, index, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_navigace(browser, zaklad, hlidac, tema2["id"], lokalni=httpd is not None),
             lambda: scenar_dlouhych_slov(browser, zaklad, hlidac, otazky, tema2["id"], None if args.bez_screenshotu else Path(args.vystup)),
