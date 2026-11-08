@@ -1,8 +1,8 @@
 # HANDOFF – Kvízová webová aplikace
-datum: 2026-11-08 · předává: prompt 01 (D-023 vč. Davidovy volby barev B, prostředí A) · přebírá: David (sloučit pull request #8, vyzkoušet), pak prompt 03 s novými tématy
+datum: 2026-11-08 · předává: prompt 01 (D-025 řazení kategorií ve Statistikách, prostředí A) · přebírá: David (sloučit pull request, vyzkoušet)
 
 ## Stav jednou větou
-1. verze je online včetně D-021 a D-022. V pull requestu #8 čeká D-023: menší posun k tlačítku Další a pruhy úspěšnosti v plné zelené a červené (David vybral variantu B). Pak doplnění témat (prompt 03).
+Web je online s 3480 otázkami ve 116 tématech a 17 kategoriích (D-023 a D-024 sloučené). V pull requestu čeká D-025: kategorie ve Statistikách seřazené od nejúspěšnější.
 
 ## Stav dat
 - 2026-11-04 – 35 otázek, 1 téma (T001 Chobotnice a další hlavonožci), režim vzorek
@@ -40,18 +40,19 @@ datum: 2026-11-08 · předává: prompt 01 (D-023 vč. Davidovy volby barev B, p
 - D-022 (2026-11-08): ukazatel postupu zeleně/barevně, posun k Další s rezervou nad lištou prohlížeče, statistiky i z rozehraných kol; `pruchod.py` 138 kontrol; náhledy `docs/nahledy/d022-*.png`.
 - D-023 (2026-11-08): menší posun k Další, pruhy ve Statistikách zeleně/barevně, barvy pruhů v proměnných `--bar-ok` / `--bar-bad`; `pruchod.py` 139 kontrol; porovnání barev `docs/nahledy/d023-barvy-*.png`.
 
+- D-025 (2026-11-08): Statistiky – kategorie od nejúspěšnější, nehrané na konci; `pruchod.py` 140 kontrol (s novými daty); náhled `docs/nahledy/d025-razeni-kategorii-390.png`.
+
 ## Rozpracováno
 - ~~Volba barev pruhů~~ – David vybral B (plná zelená a červená), nastaveno (D-023).
-- **Posun k Další na skutečném telefonu** ověří David (v emulaci prošlo; rezerva pro lištu prohlížeče je odhad 14 % výšky / max 96 px – kdyby nestačila, zvětšit v `hra.js` `ukazDalsi`).
+- **Posun k Další na skutečném telefonu** ověří David (v emulaci prošlo; rezerva po D-023 je 6 % výšky / max 40 px – kdyby nestačila nebo byla moc, upravit v `hra.js` `ukazDalsi`).
 - ~~Volba obrazovky Domů~~ – vyřešeno (D-021). Původní poznámka: `design/domu.html` (online `…/kviz-web/design/domu.html` po sloučení), screenshoty `docs/nahledy/domu-varianta-a…d.png`. Každá varianta potřebuje i logiku: A/D karta „Pokračuj“ = poslední rozehrané kolo, jinak další otevřená obtížnost naposledy hraného tématu; B/D týden = dny s dohraným kolem v aktuálním týdnu (dnes se ukládá jen poslední den a délka série, takže je potřeba ukládat i data hraní); B/D nejbližší odznak = nezískaný odznak s největším podílem splnění; C dlaždice kategorií + „Věděli jste?“ jen z už zodpovězených otázek. Po volbě: zapsat do DECISIONS, postavit, rozšířit `pruchod.py`.
 - **Online ověření:** z cloudu nejde – síť prostředí A nepustí `frankie851.github.io` (ani ogp.me). Ověří David na mobilu; prompt 02 může spustit `python3 tools/pruchod.py --url https://frankie851.github.io/kviz-web/`.
 - **Vlastní zařízení:** zvuky a vibrace v Chromiu bez hlavy nejde slyšet/cítit (test jen počítá, že se spustily) – poslech ověří David na telefonu. iPhone vibrace v prohlížeči nemá (je to v pořádku, „potichu nic“).
 - **Náhled odkazu** ověří až sdílení nasazené adresy (např. poslat si odkaz ve WhatsAppu/Messengeru). Sítě si náhled pamatují – kdyby ukazovaly starou zástupnou stránku, chce to chvíli počkat.
 
 ## Další krok
-1. **David:** sloučit pull request #8 (D-023) a vyzkoušet na mobilu posun k Další a nové barvy pruhů.
-2. Až budou připravená další témata: **prompt 03** v úkolu propojeném s počítačem.
-2. **David doplní témata:** v Excelu označit Web = Ano (u celého tématu stačí list Témata, D-017), uložit, zavřít; pak **prompt 03** v úkolu propojeném s počítačem (prostředí B). Prompt 03 po exportu spustí `python3 tools/pruchod.py`.
+1. **David:** sloučit pull request s D-025 a vyzkoušet Statistiky (a na mobilu posun k Další a barvy pruhů z D-023).
+2. **Další témata (kdykoli):** v Excelu označit Web = Ano (u celého tématu stačí list Témata, D-017), uložit, zavřít; pak **prompt 03** v úkolu propojeném s počítačem (prostředí B). Prompt 03 po exportu spustí `python3 tools/pruchod.py`.
 3. Body „K zvážení“ z kontroly: K4 hotovo (D-018), K1 = krok 2, K2 a K3 beze změny (David nic nežádal), K5 jen informace. Kdyby David chtěl K2/K3 přece změnit, udělá to prompt 01.
 
 ## Z kontroly 2026-11-05 (prompt 02)
@@ -60,6 +61,7 @@ datum: 2026-11-08 · předává: prompt 01 (D-023 vč. Davidovy volby barev B, p
 - `tools/pruchod.py`: 1. běh selhal na varování o preload písem, 2. běh prošel – viz nález D-1.
 
 ## Připomínky Davida (k zapracování)
+- 2026-11-08 – „u statistik kategorií seřazení od nejúspěšnější sestupně“ → **zapracováno** (D-025).
 - 2026-11-08 – „odskok je zbytečně velký“, pruh ve Statistikách zeleně jako u otázek → **zapracováno** (D-023); ukázat variantu A (i zelená s přechodem) a B (obě bez přechodu) → David vybral **B** (obě bez přechodu) → **zapracováno**.
 - 2026-11-08 – ukazatel u otázek zeleně správné + za nimi špatné v současné barvě; po odpovědi automaticky posunout dolů k Další (na telefonu musel posouvat ručně); statistiky započítávat i nedokončená kola, kde je to vhodné → **zapracováno** (D-022).
 - 2026-11-07 – „Nejvíc se mi líbí C, ale s úpravami“: podtitul „Vědomostní kvíz.“, u kategorií x / t (dohraná do okamžiku, kdy nejde pokračovat), bez okna Věděli jste?, tlačítko Statistiky (celkem, podle obtížnosti, podle kategorií, hvězdy + vlastní nápady), dotaz na hodně kategorií → **zapracováno** (D-021).
