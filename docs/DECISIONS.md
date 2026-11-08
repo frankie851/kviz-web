@@ -1,6 +1,11 @@
 # DECISIONS – Kvízová webová aplikace
 Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový záznam s odkazem na původní.
 
+## D-025 · 2026-11-08 · Statistiky: kategorie seřazené od nejúspěšnější (Davidův pokyn)
+- **Rozhodnutí:** v části „Podle kategorií“ jsou kategorie seřazené sestupně podle úspěšnosti (i s odpovědmi z rozehraných kol, D-022); při shodě je výš kategorie s víc odpověďmi; kategorie bez jediné odpovědi jsou na konci v původním pořadí (jako na Domů).
+- **Ověření:** `pruchod.py` scénář `scenar_razeni_kategorii` – tři kategorie s 50 / 90 / 70 % se seřadí 90 → 70 → 50, za nimi nehrané v původním pořadí.
+- **Kdo:** David (pokyn), prompt 01 (provedení)
+
 ## D-024 · 2026-11-08 · Barvy dlaždic kategorií (Davidův pokyn)
 - **Rozhodnutí:** černá (švestková) dlaždice pryč; Sport a Příroda a zvířata zeleně (`.tile-zelena`), Kuriozity modře (`.tile-modra`); bílá nahrazena šedou (`.tile-4`). Ostatní kategorie střídají žlutou, malinovou, růžovou a šedou. Pevné barvy jsou v `kategorie.js` (`PEVNE`).
 - **Kdo:** David (pokyn), prompt 03 session

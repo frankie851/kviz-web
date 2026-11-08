@@ -706,6 +706,10 @@ def scenar_statistik(browser, zaklad, hlidac, temata):
     over([page.inner_text(f"[data-test=stat-{x}] b") for x in ("plna", "odemyka", "pod")] == ["2", "2", "1"], "kola: 2 za 5 ★, 2 od 70 %, 1 pod 70 %")
     over(page.inner_text("[data-test=stat-rada] b").endswith("12") and page.inner_text("[data-test=stat-dny] b") == "4 dny", "rekordy: série 12 (z rozehraného kola), nejdelší série dní 4")
     over(page.locator("[data-test^=stat-kat-]").count() >= 1 and page.locator("[data-test=stat-jazyk-cs]").count() == 1, "úspěšnost podle kategorií a podle jazyka otázek")
+    proc = [x.strip().replace("\u00a0%", "") for x in page.locator("[data-test^=stat-kat-] .srow-pct").all_inner_texts()]
+    hrane = [int(x) for x in proc if x != "–"]
+    over(hrane == sorted(hrane, reverse=True) and "–" not in proc[:len(hrane)] and len(hrane) >= 1,
+         f"kategorie ve Statistikách seřazené od nejúspěšnější, nehrané na konci (D-025): {proc[:6]}…")
     bez_chybejicich_textu(page, "Statistiky")
     p = pretekani(page)
     over(not p, "Statistiky nepřetékají" + (f": {p}" if p else ""))
@@ -793,6 +797,40 @@ def scenar_postupu(browser, zaklad, hlidac, otazky, T):
     over(all(vidno), f"po každé odpovědi je tlačítko Další vidět (rezerva aspoň 20 px): {vidno}")
     n = int(page.inner_text("[data-test=pocitadlo]").split("/")[1])
     over(sirky() == [round(200 / n), round(100 / n)], f"po 3 odpovědích (2 správně): {sirky()}")
+    ctx.close()
+
+
+def scenar_razeni_kategorii(browser, zaklad, hlidac, index, vystup=None):
+    """D-025: kategorie ve Statistikách od nejúspěšnější; nehrané na konci v původním pořadí."""
+    print("Řazení kategorií ve Statistikách (D-025):")
+    viditelne = [k for k in index["kategorie"] if any(any(t_["otazek"].get(o, 0) >= 3 for o in "123") for t_ in k["temata"])]
+    if len(viditelne) < 4:
+        ok("méně než 4 kategorie – řazení se nekontroluje")
+        return
+    vyber = viditelne[-3:]  # poslední tři: bez řazení by byly až na konci
+    skore = [5, 9, 7]       # 50 %, 90 %, 70 % → očekávané pořadí 2., 3., 1.
+    v = lambda s_: {"s": s_, "c": 10, "pul": s_, "odpovedi": [], "datum": "2026-11-01", "j": "cs", "r": 0}
+    vysl = {}
+    for k, s_ in zip(vyber, skore):
+        tema = next(t_ for t_ in k["temata"] if t_["otazek"].get("1", 0) >= 3)
+        vysl[tema["id"]] = {"1": v(s_)}
+    pokrok = {"verze": 2, "vysledky": vysl, "rozehrano": {}, "dny": {"posledni": "2026-11-01", "serie": 1, "nejdelsi": 1}, "stat": {"kol": 3, "nejdelsiRada": 3}, "odznaky": {}}
+    ctx = browser.new_context(viewport={"width": 390, "height": 844}, locale="cs-CZ")
+    page = ctx.new_page()
+    page.set_default_timeout(8000)
+    hlidac.pripoj(page)
+    page.goto(zaklad)
+    page.evaluate("""([n, p]) => { localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(n)); localStorage.setItem('kviz.v1.pokrok', JSON.stringify(p)); }""",
+                  [{"ui": "cs", "otazky": "cs", "preklad": "vypnuto", "zvuky": False, "vibrace": False}, pokrok])
+    page.reload()
+    jdi(page, zaklad, "#/statistiky")
+    poradi = [x.replace("stat-kat-", "") for x in page.eval_on_selector_all("[data-test^=stat-kat-]", "els => els.map(e => e.dataset.test)")]
+    ocek = [vyber[1]["id"], vyber[2]["id"], vyber[0]["id"]] + [k["id"] for k in viditelne if k not in vyber]
+    over(poradi == ocek, f"pořadí 90 % → 70 % → 50 % → nehrané v původním pořadí ({poradi[:4]}…)")
+    if vystup:
+        vystup.mkdir(parents=True, exist_ok=True)
+        page.wait_for_timeout(600)
+        page.locator("[data-test^=stat-kat-]").first.locator("xpath=..").screenshot(path=str(vystup / "razeni-kategorii-390.png"))
     ctx.close()
 
 
@@ -902,6 +940,7 @@ def main():
             lambda: scenar_zvuku(page, zaklad, otazky, tema3["id"]),
             lambda: scenar_omezit_pohyb(browser, zaklad, hlidac, otazky, tema["id"]),
             lambda: scenar_statistik(browser, zaklad, hlidac, temata),
+            lambda: scenar_razeni_kategorii(browser, zaklad, hlidac, index, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_postupu(browser, zaklad, hlidac, otazky, tema2["id"]),
             lambda: scenar_mnoho_kategorii(browser, zaklad, hlidac, index, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_navigace(browser, zaklad, hlidac, tema2["id"], lokalni=httpd is not None),

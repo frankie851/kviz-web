@@ -114,14 +114,19 @@ export async function vykresli() {
   // 3. podle kategorií
   const kategorie = h("section", { class: "card sgroup" },
     h("h2", { class: "sgroup-h", text: t("statistiky.podleKategorii") }),
-    kats.map((kat) => {
-      const ids = new Set(viditelnaTemata(kat).map((x) => x.id));
-      const s = sum(vse.filter((x) => ids.has(x.info.tema.id)));
-      const hk = hvezdyKategorie(kat);
-      const u = uzavrenaVKategorii(kat);
-      return radek({ ikona: ikonaKategorie(kat, "srow-ico"), nazev: txt(kat.nazev, jazyk()), s: s.s, c: s.c, test: `stat-kat-${kat.id}`,
-        meta: `${celeHvezdy(hk.pul)} / ${celeHvezdy(hk.max)} ★ · ${t("kategorie.dohrano", { x: u.x, n: u.t })}` });
-    }));
+    // seřazeno od nejúspěšnější (D-025); při shodě víc odpovědí výš, nehrané kategorie na konci v původním pořadí
+    kats
+      .map((kat, poradi) => {
+        const ids = new Set(viditelnaTemata(kat).map((x) => x.id));
+        return { kat, poradi, ...sum(vse.filter((x) => ids.has(x.info.tema.id))) };
+      })
+      .sort((a, b) => (!a.c || !b.c ? !a.c - !b.c || a.poradi - b.poradi : b.s / b.c - a.s / a.c || b.c - a.c || a.poradi - b.poradi))
+      .map(({ kat, s, c }) => {
+        const hk = hvezdyKategorie(kat);
+        const u = uzavrenaVKategorii(kat);
+        return radek({ ikona: ikonaKategorie(kat, "srow-ico"), nazev: txt(kat.nazev, jazyk()), s, c, test: `stat-kat-${kat.id}`,
+          meta: `${celeHvezdy(hk.pul)} / ${celeHvezdy(hk.max)} ★ · ${t("kategorie.dohrano", { x: u.x, n: u.t })}` });
+      }));
 
   // 4. hvězdy – kolik kol skončilo jak
   const bezChyby = kola.filter((k) => k.v.pul >= MAX_HVEZD * 2).length;
