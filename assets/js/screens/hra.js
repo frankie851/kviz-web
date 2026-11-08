@@ -219,7 +219,7 @@ export async function vykresli([temaId, obt], app) {
     const posun = () => {
       if (!btn.isConnected) return;
       const vyska = window.visualViewport?.height || window.innerHeight;
-      const rezerva = Math.min(96, vyska * 0.14);
+      const rezerva = Math.min(40, vyska * 0.06); // malá rezerva nad spodní lištou prohlížeče (D-023: 96 px bylo moc)
       const navic = btn.getBoundingClientRect().bottom + rezerva - vyska;
       if (navic > 1) window.scrollTo({ top: window.scrollY + navic, behavior: reduce ? "auto" : "smooth" });
     };

@@ -58,6 +58,8 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☑ (2026-11-06) 4 návrhy obrazovky Domů v `design/domu.html`.
 - **⏸ Kontrolní bod:** ☑ (2026-11-07) David vybral C s úpravami → postaveno (D-021), `pruchod.py` 135 kontrol; čeká se na sloučení a vyzkoušení.
 - ☑ (2026-11-08) D-022 ukazatel postupu podle správnosti, posun k Další, statistiky i z rozehraných kol.
+- ☑ (2026-11-08) D-023 menší posun k Další, pruhy ve Statistikách zeleně/barevně.
+- **⏸ Kontrolní bod:** ☑ (2026-11-08) David vybral barvy pruhů B (plná zelená a červená) → nastaveno.
 
 ## Stav
-Poslední aktualizace: 2026-11-08 · 1. verze online (vč. D-021) · Čeká se: sloučení D-022 a vyzkoušení Davidem, pak doplnění témat promptem 03 (prostředí B) · Blokováno: nic
+Poslední aktualizace: 2026-11-08 · 1. verze online (vč. D-022) · Čeká se: sloučení pull requestu #8 (D-023, barvy B); pak doplnění témat promptem 03 (prostředí B) · Blokováno: nic
