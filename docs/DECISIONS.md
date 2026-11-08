@@ -4,7 +4,7 @@ Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový z�
 ## D-023 · 2026-11-08 · Menší posun k Další, pruhy ve Statistikách zeleně/barevně, barvy pruhů v proměnných (Davidovy připomínky)
 - **Posun k Další:** rezerva nad spodním okrajem zmenšena z 14 % / max 96 px na **6 % / max 40 px**, místo pod obrazovkou otázky z 72 na 40 px (David: „odskok je zbytečně velký“). Kontrola v `pruchod.py`: tlačítko vidět s rezervou aspoň 20 px.
 - **Statistiky:** každý pruh úspěšnosti je jako u otázky – zeleně správné, za nimi barevně špatné (`statistiky.js` `pruh`).
-- **Barvy pruhů** jsou v CSS proměnných `--bar-ok` (dnes plná zelená `--ok`) a `--bar-bad` (dnes oranžovo-červený přechod `--progress`), aby šla varianta změnit na jednom místě. Davidovi ukázány dvě další varianty (`docs/nahledy/d023-barvy-porovnani.png`): **A** obě s přechodem (zelená `#B4E05A → #1E9E5A`), **B** obě bez přechodu (zelená `#1E9E5A`, červená `#D9363E`). **Čeká na volbu.**
+- **Barvy pruhů** jsou v CSS proměnných `--bar-ok` (dnes plná zelená `--ok`) a `--bar-bad` (dnes oranžovo-červený přechod `--progress`), aby šla varianta změnit na jednom místě. Davidovi ukázány dvě další varianty (`docs/nahledy/d023-barvy-porovnani.png`): **A** obě s přechodem (zelená `#B4E05A → #1E9E5A`), **B** obě bez přechodu (zelená `#1E9E5A`, červená `#D9363E`). **David vybral B** – `--bar-ok: var(--ok)`, `--bar-bad: var(--bad)`. Oranžovo-červený přechod `--progress` zůstává jen u ozdob (např. Načítám…), ne u pruhů úspěšnosti.
 - **Kdo:** David (připomínky), prompt 01 (provedení)
 
 ## D-022 · 2026-11-08 · Ukazatel postupu podle správnosti, posun k Další, statistiky i z rozehraných kol (Davidovy připomínky)
