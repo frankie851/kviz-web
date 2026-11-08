@@ -57,6 +57,7 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☑ (2026-11-06) D-020 součty hvězd bez půlek, česká vlajka u kategorie Česko.
 - ☑ (2026-11-06) 4 návrhy obrazovky Domů v `design/domu.html`.
 - **⏸ Kontrolní bod:** ☑ (2026-11-07) David vybral C s úpravami → postaveno (D-021), `pruchod.py` 135 kontrol; čeká se na sloučení a vyzkoušení.
+- ☑ (2026-11-08) D-022 ukazatel postupu podle správnosti, posun k Další, statistiky i z rozehraných kol.
 
 ## Stav
-Poslední aktualizace: 2026-11-07 · 1. verze online; D-021 (nová Domů, Statistiky) v pull requestu · Čeká se: sloučení a vyzkoušení Davidem, pak doplnění témat promptem 03 (prostředí B) · Blokováno: nic
+Poslední aktualizace: 2026-11-08 · 1. verze online (vč. D-021) · Čeká se: sloučení D-022 a vyzkoušení Davidem, pak doplnění témat promptem 03 (prostředí B) · Blokováno: nic

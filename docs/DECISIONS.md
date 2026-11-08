@@ -1,6 +1,13 @@
 # DECISIONS – Kvízová webová aplikace
 Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový záznam s odkazem na původní.
 
+## D-022 · 2026-11-08 · Ukazatel postupu podle správnosti, posun k Další, statistiky i z rozehraných kol (Davidovy připomínky)
+- **Ukazatel postupu u otázky:** dva úseky – **zeleně** správné odpovědi, **za nimi** v dosavadní oranžovo-červené barvě špatné (pořadí není chronologické, jde o poměr). `hra.js` `obnovPostup`, CSS `.p-ok` / `.p-bad`.
+- **Posun k tlačítku Další:** dřív `scrollIntoView({ block: "nearest" })` – tlačítko skončilo přesně u spodního okraje okna, kde ho na telefonu překryje lišta prohlížeče nebo systémová navigace (v emulaci Chromia to vypadalo v pořádku). Nově se stránka posune tak, aby nad spodním okrajem zbyla rezerva (14 % výšky, nejvýš 96 px, měřeno z `visualViewport`), zkusí se to hned a ještě jednou po 450 ms (po animacích); obrazovka otázky má dole 72 px místa navíc, aby se tlačítko dalo vysunout. Když je tlačítko vidět, nic se neposouvá.
+- **Statistiky i z rozehraných kol:** úspěšnost celkem, podle obtížnosti, kategorií a jazyka, nejlepší téma (nově aspoň 5 odpovědí) a nejdelší série správných odpovědí počítají i odpovědi z rozehraných kol (správnost se zjistí z otázek tématu). Hvězdy, „Jak dopadla kola“, dohraná kola/témata a dny hraní zůstávají jen z dohraných kol (rozehrané kolo hvězdy nemá). Pod celkovou úspěšností je „včetně odpovědí z n rozehraných kol“, u řádků „x dohraných · y rozehraných · s z c správně“. Rozehrané kolo nově ukládá jazyk otázek (`j`).
+- **Ověření:** `pruchod.py` – šířky zeleného a barevného úseku, tlačítko Další vidět s rezervou 60 px na okně 390 × 600 (kontrola starou chybu zachytí), statistiky s rozehraným kolem (85 %, Střední 92 %, série 12).
+- **Kdo:** David (připomínky), prompt 01 (provedení)
+
 ## D-021 · 2026-11-07 · Nová obrazovka Domů (varianta C s úpravami), Statistiky, „dohráno x / t“ (Davidova volba, mění SPEC – obrazovka 2)
 - **Domů** (návrh C z `design/domu.html`, David): malé záhlaví (logo, Oho!, Nastavení), nadpis „Co si dnes zahraješ?“, podtitul **„Vědomostní kvíz. Česky i anglicky.“** (místo „Ověřené otázky…“, platí i pro titulek stránky), pruh 🔥 série dní · ★ hvězdy · 🎯 úspěšnost · 🏅 odznaky, **dlaždice kategorií přímo na Domů** (tlačítko Hrát odpadá), dole **Odznaky · Historie · Statistiky**. Okno „Věděli jste?“ z návrhu **není** (David: byla by to nápověda).
 - **Hodně kategorií:** na Domů nejvýš 6 dlaždic (3 plné řady), při víc kategoriích pod nimi široké tlačítko **„Všechny kategorie (n)“** → obrazovka Kategorie se všemi. Domů tak zůstane krátké; Kategorie se posouvá svisle jako běžná stránka (žádný vodorovný posuvník – na mobilu se špatně objevuje a hůř ovládá jednou rukou).

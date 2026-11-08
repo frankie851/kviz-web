@@ -233,10 +233,6 @@
     "temat": "topics done",
     "podleObtiznosti": "By difficulty",
     "podleKategorii": "By category",
-    "kolaMeta": {
-      "one": "{n} round · {s} of {c} correct",
-      "other": "{n} rounds · {s} of {c} correct"
-    },
     "nehrano": "not played yet",
     "hvezdy": "How your rounds went",
     "kolaPlna": "no mistakes",
@@ -247,6 +243,19 @@
     "nejdelsiSerieDni": "Longest day streak",
     "dniSHrou": "Days with at least one round",
     "nejlepsiTema": "Best topic",
-    "jazykOtazek": "By question language"
+    "jazykOtazek": "By question language",
+    "dohranych": {
+      "one": "{n} round played",
+      "other": "{n} rounds played"
+    },
+    "rozehranych": {
+      "one": "{n} round in progress",
+      "other": "{n} rounds in progress"
+    },
+    "spravneKratce": "{s} of {c} correct",
+    "vcetneRozehranych": {
+      "one": "including answers from {n} round in progress",
+      "other": "including answers from {n} rounds in progress"
+    }
   }
 }

@@ -243,12 +243,6 @@
     "temat": "témat dohráno",
     "podleObtiznosti": "Podle obtížnosti",
     "podleKategorii": "Podle kategorií",
-    "kolaMeta": {
-      "one": "{n} kolo · {s} z {c} správně",
-      "few": "{n} kola · {s} z {c} správně",
-      "many": "{n} kola · {s} z {c} správně",
-      "other": "{n} kol · {s} z {c} správně"
-    },
     "nehrano": "zatím nehráno",
     "hvezdy": "Jak dopadla kola",
     "kolaPlna": "bez chyby",
@@ -259,6 +253,25 @@
     "nejdelsiSerieDni": "Nejdelší série dní",
     "dniSHrou": "Dní s aspoň jedním kolem",
     "nejlepsiTema": "Nejlepší téma",
-    "jazykOtazek": "Podle jazyka otázek"
+    "jazykOtazek": "Podle jazyka otázek",
+    "dohranych": {
+      "one": "{n} dohrané kolo",
+      "few": "{n} dohraná kola",
+      "many": "{n} dohraného kola",
+      "other": "{n} dohraných kol"
+    },
+    "rozehranych": {
+      "one": "{n} rozehrané kolo",
+      "few": "{n} rozehraná kola",
+      "many": "{n} rozehraného kola",
+      "other": "{n} rozehraných kol"
+    },
+    "spravneKratce": "{s} z {c} správně",
+    "vcetneRozehranych": {
+      "one": "včetně odpovědí z {n} rozehraného kola",
+      "few": "včetně odpovědí ze {n} rozehraných kol",
+      "many": "včetně odpovědí z {n} rozehraného kola",
+      "other": "včetně odpovědí z {n} rozehraných kol"
+    }
   }
 }

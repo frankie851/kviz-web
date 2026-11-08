@@ -241,8 +241,12 @@ a.diff:active { transform: translateY(2px); }
 .qdiff { font-size: 13px; font-weight: 700; color: var(--muted); }
 .qcount { font-family: var(--font-h); font-weight: 800; font-size: 18px; white-space: nowrap; }
 .qprogress { display: flex; align-items: center; gap: 10px; margin: 12px 0 6px; min-height: 30px; }
-.progress { flex: 1; height: 10px; border-radius: 99px; background: var(--track); overflow: hidden; }
-.progress i { display: block; height: 100%; width: 0; border-radius: inherit; background: var(--progress); transition: width .35s ease; }
+.progress { flex: 1; display: flex; height: 10px; border-radius: 99px; background: var(--track); overflow: hidden; }
+.progress i { display: block; flex: none; height: 100%; width: 0; transition: width .35s ease; }
+.progress .p-ok { background: var(--ok); }
+.progress .p-bad { background: var(--progress); }
+/* místo pod tlačítkem Další, aby šlo vysunout nad spodní lištu prohlížeče na telefonu (D-022) */
+.screen-hra { padding-bottom: calc(72px + env(safe-area-inset-bottom)); }
 .streak { display: inline-flex; align-items: center; gap: 4px; font-weight: 800; font-size: 14px; padding: 4px 12px; border-radius: 999px; background: var(--streak-bg); color: var(--streak-ink); white-space: nowrap; }
 .streak:not(.on) { display: none; }
 .qcard { margin: 12px 0 16px; }

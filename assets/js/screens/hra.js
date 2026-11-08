@@ -54,13 +54,20 @@ export async function vykresli([temaId, obt], app) {
   };
   const uloz = () => ulozRozehrane(temaId, obt, {
     poradi: otazky.map((q) => q.id), odpovedi, rada: stav.rada, nejdelsiRada: stav.nejdelsiRada, prekladOtevren: stav.prekladOtevren,
-    ziskaneBehem: stav.ziskaneBehem,
+    ziskaneBehem: stav.ziskaneBehem, j: jo, // j = jazyk otázek (Statistiky, D-022)
   });
 
   // --- kostra obrazovky ---
   const pocitadlo = h("span", { class: "qcount", "data-test": "pocitadlo" });
-  const ukazatel = h("i");
-  const postup = h("div", { class: "progress", role: "progressbar", "aria-valuemin": "0", "aria-valuemax": String(otazky.length) }, ukazatel);
+  // ukazatel postupu: zeleně správné odpovědi, za nimi barevně špatné (D-022)
+  const pruhOk = h("i", { class: "p-ok", "data-test": "postup-ok" });
+  const pruhBad = h("i", { class: "p-bad", "data-test": "postup-bad" });
+  const postup = h("div", { class: "progress", role: "progressbar", "aria-valuemin": "0", "aria-valuemax": String(otazky.length) }, pruhOk, pruhBad);
+  function obnovPostup(zodpovezeno) {
+    const n = otazky.length;
+    pruhOk.style.width = `${(stav.spravne / n) * 100}%`;
+    pruhBad.style.width = `${((zodpovezeno - stav.spravne) / n) * 100}%`;
+  }
   const serie = h("span", { class: "streak", "data-test": "serie", "aria-live": "polite" });
   const telo = h("div", { class: "qbody" });
 
@@ -114,7 +121,7 @@ export async function vykresli([temaId, obt], app) {
     pocitadlo.textContent = t("hra.pocitadlo", { i: stav.i + 1, n: otazky.length });
     postup.setAttribute("aria-valuenow", String(stav.i));
     postup.setAttribute("aria-label", t("hra.pocitadlo", { i: stav.i + 1, n: otazky.length }));
-    ukazatel.style.width = `${(stav.i / otazky.length) * 100}%`;
+    obnovPostup(stav.i);
     obnovSerii();
 
     const vzdy = rezim === PREKLAD.VZDY;
@@ -177,7 +184,7 @@ export async function vykresli([temaId, obt], app) {
       oznameniOdznaku(odznak(novyOdznak));
       zvuk("odznak", {}, 0.3);
     }
-    ukazatel.style.width = `${((stav.i + 1) / otazky.length) * 100}%`;
+    obnovPostup(stav.i + 1);
     obnovSerii();
 
     const posledni = stav.i === otazky.length - 1;
@@ -201,8 +208,23 @@ export async function vykresli([temaId, obt], app) {
     }, posledni ? t("hra.vysledek") : t("hra.dalsi"), h("span", { "aria-hidden": "true", text: " →" }));
     telo.append(panel, dalsi);
     dalsi.focus({ preventScroll: true });
+    ukazDalsi(dalsi);
+  }
+
+  /** Posune stránku tak, aby tlačítko Další bylo vidět i s rezervou nad spodní lištou prohlížeče
+   *  (na telefonu ji často překrývá adresní řádek nebo navigace systému – D-022). Zkusí to hned
+   *  a ještě jednou po doběhnutí animací; když už je tlačítko vidět, nic nedělá. */
+  function ukazDalsi(btn) {
     const reduce = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
-    requestAnimationFrame(() => dalsi.scrollIntoView({ block: "nearest", behavior: reduce ? "auto" : "smooth" }));
+    const posun = () => {
+      if (!btn.isConnected) return;
+      const vyska = window.visualViewport?.height || window.innerHeight;
+      const rezerva = Math.min(96, vyska * 0.14);
+      const navic = btn.getBoundingClientRect().bottom + rezerva - vyska;
+      if (navic > 1) window.scrollTo({ top: window.scrollY + navic, behavior: reduce ? "auto" : "smooth" });
+    };
+    requestAnimationFrame(() => requestAnimationFrame(posun));
+    setTimeout(posun, 450);
   }
 
   let minulaRada = stav.rada;
