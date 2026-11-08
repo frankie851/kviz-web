@@ -197,9 +197,10 @@ p { margin: 0; }
 .tile-stars { white-space: nowrap; }
 .tile-0 { background: #FFC53D; color: #2B1630; }
 .tile-1 { background: #C2255C; color: #FFFFFF; }
-.tile-2 { background: #2B1630; color: #FFFFFF; }
 .tile-3 { background: #FFD9E5; color: #2B1630; }
-.tile-4 { background: #FFFFFF; color: #2B1630; }
+.tile-4 { background: #D9D3DC; color: #2B1630; }   /* šedá místo bílé (D-024) */
+.tile-zelena { background: #178A4E; color: #FFFFFF; }
+.tile-modra { background: #1F6FCB; color: #FFFFFF; }
 
 /* ---------- 4. Témata ---------- */
 .cards { display: grid; gap: 12px; }

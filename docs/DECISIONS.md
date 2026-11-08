@@ -1,6 +1,10 @@
 # DECISIONS – Kvízová webová aplikace
 Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový záznam s odkazem na původní.
 
+## D-024 · 2026-11-08 · Barvy dlaždic kategorií (Davidův pokyn)
+- **Rozhodnutí:** černá (švestková) dlaždice pryč; Sport a Příroda a zvířata zeleně (`.tile-zelena`), Kuriozity modře (`.tile-modra`); bílá nahrazena šedou (`.tile-4`). Ostatní kategorie střídají žlutou, malinovou, růžovou a šedou. Pevné barvy jsou v `kategorie.js` (`PEVNE`).
+- **Kdo:** David (pokyn), prompt 03 session
+
 ## D-023 · 2026-11-08 · Menší posun k Další, pruhy ve Statistikách zeleně/barevně, barvy pruhů v proměnných (Davidovy připomínky)
 - **Posun k Další:** rezerva nad spodním okrajem zmenšena z 14 % / max 96 px na **6 % / max 40 px**, místo pod obrazovkou otázky z 72 na 40 px (David: „odskok je zbytečně velký“). Kontrola v `pruchod.py`: tlačítko vidět s rezervou aspoň 20 px.
 - **Statistiky:** každý pruh úspěšnosti je jako u otázky – zeleně správné, za nimi barevně špatné (`statistiky.js` `pruh`).

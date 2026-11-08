@@ -6,7 +6,11 @@ import { viditelneKategorie, txt } from "../data.js";
 import { hvezdyKategorie, uzavrenaVKategorii } from "../progress.js";
 
 export const ID = "kategorie";
-const BARVY = 5; // počet barevných stylů dlaždic v CSS (.tile-0 … .tile-4)
+// Barvy dlaždic (D-024): vybrané kategorie mají pevnou barvu, ostatní střídají žlutou, malinovou, růžovou a šedou.
+// Černá se nepoužívá. Styly jsou v CSS (.tile-0 … .tile-4, .tile-zelena, .tile-modra).
+const PEVNE = { sport: "zelena", "priroda-a-zvirata": "zelena", kuriozity: "modra" };
+const STRIDANI = [0, 1, 3, 4]; // žlutá, malinová, růžová, šedá
+const barvaDlazdice = (k, i) => PEVNE[k.id] ?? STRIDANI[i % STRIDANI.length];
 
 /** Dlaždice kategorie: x / t = témata, ve kterých už nejde pokračovat / všechna témata kategorie. */
 export function dlazdiceKategorie(k, i) {
@@ -14,7 +18,7 @@ export function dlazdiceKategorie(k, i) {
   const u = uzavrenaVKategorii(k);
   return h(
     "a",
-    { class: `tile tile-${i % BARVY}`, href: `#/kategorie/${k.id}`, "data-kategorie": k.id },
+    { class: `tile tile-${barvaDlazdice(k, i)}`, href: `#/kategorie/${k.id}`, "data-kategorie": k.id },
     ikonaKategorie(k),
     h("span", { class: "tile-name", text: txt(k.nazev, jazyk()) }),
     h("span", { class: "tile-meta" },
