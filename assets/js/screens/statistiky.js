@@ -1,8 +1,9 @@
 // Statistiky (D-021) – úspěšnost celkem, podle obtížnosti a podle kategorií, hvězdy, rekordy a jazyk otázek.
-// Počítá se jen z dohraných kol témat, která jsou na webu (rozehraná kola se nepočítají).
+// Úspěšnost (celkem, obtížnost, kategorie, jazyk), nejlepší téma a nejdelší série počítají i odpovědi
+// z rozehraných kol (D-022); hvězdy, „jak dopadla kola“ a dny hraní jen dohraná kola. Jen témata na webu.
 import { t, jazyk } from "../i18n.js";
 import { h, lista, celeHvezdy, ikonaKategorie } from "../ui.js";
-import { najdiTema, viditelneKategorie, viditelnaTemata, OBTIZNOSTI, txt } from "../data.js";
+import { najdiTema, nactiTema, viditelneKategorie, viditelnaTemata, OBTIZNOSTI, txt } from "../data.js";
 import { pokrok, hvezdyCelkem, hvezdyKategorie, uzavrenaVKategorii } from "../progress.js";
 import { ODEMCENI_PULHVEZD, MAX_HVEZD } from "../game.js";
 
@@ -27,17 +28,47 @@ function dlazdice(hodnota, popis, test) {
   return h("div", { class: "stat", "data-test": test }, h("b", { text: hodnota }), h("span", { text: popis }));
 }
 
-export function vykresli() {
-  // všechna dohraná kola témat, která jsou na webu
+/** Rozehraná kola s aspoň jednou odpovědí: { info, obt, v: { s, c, j, r } }. Správnost se zjistí z otázek tématu. */
+async function rozehranaKola() {
+  const vysl = [];
+  const polozky = Object.entries(pokrok().rozehrano || {})
+    .map(([klic, kolo]) => { const [temaId, obt] = klic.split("|"); return { info: najdiTema(temaId), obt, kolo }; })
+    .filter((x) => x.info && x.kolo?.odpovedi?.length);
+  await Promise.all(polozky.map(async ({ info, obt, kolo }) => {
+    try {
+      const data = await nactiTema(info.tema.id);
+      const spravna = new Map(data.otazky.map((q) => [q.id, q.spravne]));
+      const odp = kolo.odpovedi.filter(([id]) => spravna.has(id));
+      if (!odp.length) return;
+      const s = odp.filter(([id, k]) => spravna.get(id) === k).length;
+      vysl.push({ info, obt, rozehrane: true, v: { s, c: odp.length, j: kolo.j, r: kolo.nejdelsiRada || 0 } });
+    } catch { /* téma se nenačetlo – rozehrané kolo se jen nezapočítá */ }
+  }));
+  return vysl;
+}
+
+export async function vykresli() {
+  // dohraná kola témat, která jsou na webu
   const kola = [];
   for (const [temaId, obtiznosti] of Object.entries(pokrok().vysledky)) {
     const info = najdiTema(temaId);
     if (!info) continue;
     for (const [obt, v] of Object.entries(obtiznosti || {})) if (v && v.c > 0) kola.push({ info, obt, v });
   }
+  const roz = await rozehranaKola();
+  const vse = [...kola, ...roz]; // pro úspěšnost: dohraná i rozehraná kola
   const sum = (seznam) => seznam.reduce((a, k) => ({ s: a.s + k.v.s, c: a.c + k.v.c }), { s: 0, c: 0 });
+  /** „2 dohraná kola · 1 rozehrané kolo · 17 z 25 správně“ */
+  const meta = (seznam) => {
+    const n = seznam.filter((x) => !x.rozehrane).length;
+    const m = seznam.length - n;
+    const s = sum(seznam);
+    if (!seznam.length) return t("statistiky.nehrano");
+    return [n ? t("statistiky.dohranych", { n }) : null, m ? t("statistiky.rozehranych", { n: m }) : null, t("statistiky.spravneKratce", { s: s.s, c: s.c })]
+      .filter(Boolean).join(" · ");
+  };
 
-  if (!kola.length) {
+  if (!vse.length) {
     const el = h("main", { class: "screen" },
       lista({ zpet: "#/", nadpis: t("statistiky.nadpis") }),
       h("div", { class: "empty", "data-test": "stat-prazdne" },
@@ -46,7 +77,7 @@ export function vykresli() {
     return { el, titulek: t("statistiky.nadpis") };
   }
 
-  const celkem = sum(kola);
+  const celkem = sum(vse);
   const hv = hvezdyCelkem();
   const kats = viditelneKategorie();
   const uzavrenych = kats.reduce((a, k) => { const u = uzavrenaVKategorii(k); return { x: a.x + u.x, t: a.t + u.t }; }, { x: 0, t: 0 });
@@ -57,7 +88,8 @@ export function vykresli() {
     h("p", { class: "label", text: t("statistiky.uspesnost") }),
     h("b", { class: "stat-big", text: pct(procent(celkem.s, celkem.c)) }),
     h("div", { class: "meter meter-big" }, h("i", { style: { width: `${procent(celkem.s, celkem.c)}%` } })),
-    h("p", { class: "srow-meta", text: t("statistiky.spravneZ", { s: celkem.s, c: celkem.c }) }));
+    h("p", { class: "srow-meta", text: t("statistiky.spravneZ", { s: celkem.s, c: celkem.c }) }),
+    roz.length ? h("p", { class: "srow-meta", "data-test": "stat-vcetne", text: t("statistiky.vcetneRozehranych", { n: roz.length }) }) : null);
   const tri = h("div", { class: "stats stats-3" },
     dlazdice(String(kola.length), t("statistiky.kol", { n: kola.length }), "stat-kol"),
     dlazdice(`${celeHvezdy(hv.pul)} / ${celeHvezdy(hv.max)}`, t("domu.hvezd"), "stat-hvezdy"),
@@ -67,10 +99,9 @@ export function vykresli() {
   const obtiznosti = h("section", { class: "card sgroup" },
     h("h2", { class: "sgroup-h", text: t("statistiky.podleObtiznosti") }),
     OBTIZNOSTI.map((o) => {
-      const k = kola.filter((x) => String(x.obt) === o);
+      const k = vse.filter((x) => String(x.obt) === o);
       const s = sum(k);
-      return radek({ nazev: t(`obtiznost.${o}`), s: s.s, c: s.c, test: `stat-obt-${o}`,
-        meta: k.length ? t("statistiky.kolaMeta", { n: k.length, s: s.s, c: s.c }) : t("statistiky.nehrano") });
+      return radek({ nazev: t(`obtiznost.${o}`), s: s.s, c: s.c, test: `stat-obt-${o}`, meta: meta(k) });
     }));
 
   // 3. podle kategorií
@@ -78,7 +109,7 @@ export function vykresli() {
     h("h2", { class: "sgroup-h", text: t("statistiky.podleKategorii") }),
     kats.map((kat) => {
       const ids = new Set(viditelnaTemata(kat).map((x) => x.id));
-      const s = sum(kola.filter((x) => ids.has(x.info.tema.id)));
+      const s = sum(vse.filter((x) => ids.has(x.info.tema.id)));
       const hk = hvezdyKategorie(kat);
       const u = uzavrenaVKategorii(kat);
       return radek({ ikona: ikonaKategorie(kat, "srow-ico"), nazev: txt(kat.nazev, jazyk()), s: s.s, c: s.c, test: `stat-kat-${kat.id}`,
@@ -88,7 +119,7 @@ export function vykresli() {
   // 4. hvězdy – kolik kol skončilo jak
   const bezChyby = kola.filter((k) => k.v.pul >= MAX_HVEZD * 2).length;
   const odemyka = kola.filter((k) => k.v.pul >= ODEMCENI_PULHVEZD && k.v.pul < MAX_HVEZD * 2).length;
-  const hvezdy = h("section", { class: "card sgroup" },
+  const hvezdy = !kola.length ? null : h("section", { class: "card sgroup" },
     h("h2", { class: "sgroup-h", text: t("statistiky.hvezdy") }),
     h("div", { class: "stats stats-3 stats-in" },
       dlazdice(String(bezChyby), t("statistiky.kolaPlna"), "stat-plna"),
@@ -97,31 +128,35 @@ export function vykresli() {
 
   // 5. rekordy
   const dniSHrou = new Set(kola.map((k) => k.v.datum).filter(Boolean)).size;
-  const nejlepsi = kola
+  const nejlepsi = vse
     .reduce((m, k) => {
       const id = k.info.tema.id;
       m.set(id, { info: k.info, s: (m.get(id)?.s || 0) + k.v.s, c: (m.get(id)?.c || 0) + k.v.c });
       return m;
     }, new Map());
-  const top = [...nejlepsi.values()].sort((a, b) => b.s / b.c - a.s / a.c || b.c - a.c)[0];
+  // nejlepší téma: aspoň 5 odpovědí (aby jedna šťastná odpověď nebyla „100 %“), jinak z čehokoli
+  const temata = [...nejlepsi.values()];
+  const kandidati = temata.some((x) => x.c >= 5) ? temata.filter((x) => x.c >= 5) : temata;
+  const top = kandidati.sort((a, b) => b.s / b.c - a.s / a.c || b.c - a.c)[0];
+  const nejdelsiRada = Math.max(p.stat.nejdelsiRada || 0, ...roz.map((x) => x.v.r));
   const zaznam = (popis, hodnota, test, tr = "rec") => h("li", { class: tr, "data-test": test }, h("span", { text: popis }), h("b", { text: hodnota }));
   const rekordy = h("section", { class: "card sgroup" },
     h("h2", { class: "sgroup-h", text: t("statistiky.rekordy") }),
     h("ul", { class: "recs" },
-      zaznam(t("statistiky.nejdelsiRada"), `🔥 ${p.stat.nejdelsiRada || 0}`, "stat-rada"),
+      zaznam(t("statistiky.nejdelsiRada"), `🔥 ${nejdelsiRada}`, "stat-rada"),
       zaznam(t("statistiky.nejdelsiSerieDni"), t("domu.dni", { n: p.dny.nejdelsi || 0 }), "stat-dny"),
       zaznam(t("statistiky.dniSHrou"), String(dniSHrou), "stat-dni-hra"),
       top ? zaznam(t("statistiky.nejlepsiTema"), `${txt(top.info.tema.nazev, jazyk())} · ${pct(procent(top.s, top.c))}`, "stat-top", "rec rec-col") : null));
 
   // 6. jazyk otázek (jen kola, u kterých se jazyk ukládá – od D-021)
-  const jazyky = [...new Set(kola.map((k) => k.v.j).filter(Boolean))].sort();
+  const jazyky = [...new Set(vse.map((k) => k.v.j).filter(Boolean))].sort();
   const jazykSekce = jazyky.length
     ? h("section", { class: "card sgroup" },
         h("h2", { class: "sgroup-h", text: t("statistiky.jazykOtazek") }),
         jazyky.map((j) => {
-          const k = kola.filter((x) => x.v.j === j);
+          const k = vse.filter((x) => x.v.j === j);
           const s = sum(k);
-          return radek({ nazev: t(`jazyky.${j}.vlastni`), s: s.s, c: s.c, test: `stat-jazyk-${j}`, meta: t("statistiky.kolaMeta", { n: k.length, s: s.s, c: s.c }) });
+          return radek({ nazev: t(`jazyky.${j}.vlastni`), s: s.s, c: s.c, test: `stat-jazyk-${j}`, meta: meta(k) });
         }))
     : null;
 
