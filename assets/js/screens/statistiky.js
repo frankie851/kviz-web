@@ -12,6 +12,13 @@ export const ID = "statistiky";
 const procent = (s, c) => (c ? Math.round((s / c) * 100) : null);
 const pct = (n) => (n == null ? "–" : t("domu.procent", { n }));
 
+/** Pruh jako u otázky: zeleně správné, za nimi barevně špatné (D-023). */
+function pruh(s, c, trida = "meter") {
+  const w = (x) => ({ width: `${c ? (x / c) * 100 : 0}%` });
+  return h("div", { class: trida, role: "img", "aria-label": pct(procent(s, c)) },
+    h("i", { class: "m-ok", style: w(s) }), h("i", { class: "m-bad", style: w(c - s) }));
+}
+
 /** Ukazatel s popiskem: název vlevo, procenta vpravo, pod tím pruh a doplňující řádek. */
 function radek({ ikona, nazev, s, c, meta, test }) {
   const p = procent(s, c);
@@ -20,7 +27,7 @@ function radek({ ikona, nazev, s, c, meta, test }) {
       ikona || null,
       h("span", { class: "srow-name", text: nazev }),
       h("b", { class: "srow-pct", text: pct(p) })),
-    h("div", { class: "meter", role: "img", "aria-label": pct(p) }, h("i", { style: { width: `${p || 0}%` } })),
+    pruh(s, c),
     h("span", { class: "srow-meta", text: meta }));
 }
 
@@ -87,7 +94,7 @@ export async function vykresli() {
   const souhrn = h("section", { class: "card stat-hero", "data-test": "stat-celkem" },
     h("p", { class: "label", text: t("statistiky.uspesnost") }),
     h("b", { class: "stat-big", text: pct(procent(celkem.s, celkem.c)) }),
-    h("div", { class: "meter meter-big" }, h("i", { style: { width: `${procent(celkem.s, celkem.c)}%` } })),
+    pruh(celkem.s, celkem.c, "meter meter-big"),
     h("p", { class: "srow-meta", text: t("statistiky.spravneZ", { s: celkem.s, c: celkem.c }) }),
     roz.length ? h("p", { class: "srow-meta", "data-test": "stat-vcetne", text: t("statistiky.vcetneRozehranych", { n: roz.length }) }) : null);
   const tri = h("div", { class: "stats stats-3" },

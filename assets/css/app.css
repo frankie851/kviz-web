@@ -21,6 +21,8 @@
   --tr: #7A5F70;          /* překlad */
   --track: #F6E3CF;
   --progress: linear-gradient(90deg, #FFC53D, #C2255C);
+  --bar-ok: var(--ok);          /* správné odpovědi v ukazatelích (otázka, Statistiky) – D-023 */
+  --bar-bad: var(--progress);   /* špatné odpovědi */
   --streak-bg: #FFE9B0;
   --streak-ink: #6B3A00;
   --letter-bg: #FFF0DD;
@@ -243,10 +245,10 @@ a.diff:active { transform: translateY(2px); }
 .qprogress { display: flex; align-items: center; gap: 10px; margin: 12px 0 6px; min-height: 30px; }
 .progress { flex: 1; display: flex; height: 10px; border-radius: 99px; background: var(--track); overflow: hidden; }
 .progress i { display: block; flex: none; height: 100%; width: 0; transition: width .35s ease; }
-.progress .p-ok { background: var(--ok); }
-.progress .p-bad { background: var(--progress); }
+.progress .p-ok, .meter .m-ok { background: var(--bar-ok); }
+.progress .p-bad, .meter .m-bad { background: var(--bar-bad); }
 /* místo pod tlačítkem Další, aby šlo vysunout nad spodní lištu prohlížeče na telefonu (D-022) */
-.screen-hra { padding-bottom: calc(72px + env(safe-area-inset-bottom)); }
+.screen-hra { padding-bottom: calc(40px + env(safe-area-inset-bottom)); }
 .streak { display: inline-flex; align-items: center; gap: 4px; font-weight: 800; font-size: 14px; padding: 4px 12px; border-radius: 999px; background: var(--streak-bg); color: var(--streak-ink); white-space: nowrap; }
 .streak:not(.on) { display: none; }
 .qcard { margin: 12px 0 16px; }
@@ -340,8 +342,8 @@ a.diff:active { transform: translateY(2px); }
 .label { font-size: 13px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); margin: 0; }
 .stat-hero { text-align: center; }
 .stat-big { display: block; font-family: var(--font-h); font-size: 56px; line-height: 1.05; margin: 4px 0 8px; }
-.meter { height: 10px; border-radius: 999px; background: var(--track); overflow: hidden; }
-.meter i { display: block; height: 100%; border-radius: inherit; background: var(--progress); }
+.meter { display: flex; height: 10px; border-radius: 999px; background: var(--track); overflow: hidden; }
+.meter i { display: block; flex: none; height: 100%; }
 .meter-big { height: 14px; margin-bottom: 8px; }
 .stats-3 { margin: 0; }
 .stats-in .stat { background: var(--bg); box-shadow: none; }

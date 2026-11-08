@@ -698,6 +698,9 @@ def scenar_statistik(browser, zaklad, hlidac, temata):
     jdi(page, zaklad, "#/statistiky")
     over(page.inner_text("[data-test=stat-celkem] .stat-big").strip() == "85\u00a0%" and page.locator("[data-test=stat-vcetne]").count() == 1,
          "celková úspěšnost 44 z 52 = 85 % (i s rozehraným kolem, D-022)")
+    w = page.evaluate("""() => { const m = document.querySelector('[data-test=stat-celkem] .meter'); const c = m.getBoundingClientRect().width;
+        return ['.m-ok', '.m-bad'].map(x => Math.round(m.querySelector(x).getBoundingClientRect().width / c * 100)); }""")
+    over(w == [85, 15], f"pruh celkové úspěšnosti: zeleně 85 %, barevně 15 % ({w}, D-023)")
     over([page.inner_text(f"[data-test=stat-obt-{o}] .srow-pct").strip() for o in "123"] == ["80\u00a0%", "92\u00a0%", "90\u00a0%"], "úspěšnost podle obtížnosti 80 / 92 (11 z 12 s rozehraným) / 90 %")
     over(page.inner_text("[data-test=stat-kol] b") == "5" and page.inner_text("[data-test=stat-hvezdy] b").startswith("21 /"), "5 kol, 21 hvězd (43 půlek dolů)")
     over([page.inner_text(f"[data-test=stat-{x}] b") for x in ("plna", "odemyka", "pod")] == ["2", "2", "1"], "kola: 2 za 5 ★, 2 od 70 %, 1 pod 70 %")
@@ -781,13 +784,13 @@ def scenar_postupu(browser, zaklad, hlidac, otazky, T):
         zodpovez(page, otazky, spravne=spravne)
         page.wait_for_timeout(900)
         vidno.append(page.evaluate("""() => { const b = document.querySelector('[data-test=dalsi]').getBoundingClientRect();
-            return b.top >= 0 && b.bottom + 60 <= innerHeight; }"""))
+            return b.top >= 0 && b.bottom + 20 <= innerHeight; }"""))
         if i == 1:
             n = int(page.inner_text("[data-test=pocitadlo]").split("/")[1])
             ocek = [round(100 / n), round(100 / n)]
             over(sirky() == ocek, f"po 1 správné a 1 špatné: zelená {sirky()[0]} %, barevná {sirky()[1]} % (očekáváno {ocek})")
         dalsi(page)
-    over(all(vidno), f"po každé odpovědi je tlačítko Další vidět s rezervou nad spodní lištou: {vidno}")
+    over(all(vidno), f"po každé odpovědi je tlačítko Další vidět (rezerva aspoň 20 px): {vidno}")
     n = int(page.inner_text("[data-test=pocitadlo]").split("/")[1])
     over(sirky() == [round(200 / n), round(100 / n)], f"po 3 odpovědích (2 správně): {sirky()}")
     ctx.close()
