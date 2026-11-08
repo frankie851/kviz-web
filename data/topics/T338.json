@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T338",
+ "nazev": {
+  "cs": "Trávení: cesta potravy tělem",
+  "en": "Digestion: the Journey of Food Through the Body"
+ },
+ "kategorie": {
+  "id": "lidske-telo",
+  "nazev": {
+   "cs": "Lidské tělo",
+   "en": "Human Body"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T338-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se jmenuje svalová trubice, která vede spolknuté sousto z hltanu do žaludku?",
+    "en": "What is the muscular tube that carries swallowed food from the throat to the stomach called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dvanáctník",
+     "Jícen",
+     "Hrtan",
+     "Průdušnice"
+    ],
+    "en": [
+     "Duodenum",
+     "Oesophagus",
+     "Larynx",
+     "Trachea"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jícen měří u dospělého asi 25 cm. Průdušnice, která vede vzduch do plic, je jiná trubice – při polykání ji shora kryje hrtanová příklopka.",
+    "en": "The adult oesophagus is about 25 cm (10 in) long. The trachea, which carries air to the lungs, is a separate tube – during swallowing the epiglottis covers its entrance."
+   }
+  },
+  {
+   "id": "T338-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterou kyselinu vylučuje žaludek do žaludeční šťávy?",
+    "en": "Which acid does the stomach secrete into gastric juice?"
+   },
+   "moznosti": {
+    "cs": [
+     "Citronovou",
+     "Sírovou",
+     "Chlorovodíkovou",
+     "Octovou"
+    ],
+    "en": [
+     "Citric",
+     "Sulphuric",
+     "Hydrochloric",
+     "Acetic"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kyselinu chlorovodíkovou (solnou) tvoří takzvané krycí (parietální) buňky žaludečních žláz. Dospělý žaludek vyloučí denně asi 1,5 litru žaludeční šťávy.",
+    "en": "Hydrochloric acid is produced by parietal cells in the gastric glands. A typical adult stomach secretes about 1.5 litres (1.6 US quarts) of gastric juice a day."
+   }
+  },
+  {
+   "id": "T338-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který orgán je nejtěžším vnitřním orgánem lidského těla?",
+    "en": "Which organ is the heaviest internal organ of the human body?"
+   },
+   "moznosti": {
+    "cs": [
+     "Játra",
+     "Plíce",
+     "Srdce",
+     "Mozek"
+    ],
+    "en": [
+     "Liver",
+     "Lungs",
+     "Heart",
+     "Brain"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Játra dospělého člověka váží obvykle asi 1,5 kg a jsou zároveň největší žlázou v těle. Obvykle se jim připisuje kolem 500 různých funkcí.",
+    "en": "An adult human liver normally weighs about 1.5 kg (3.3 lb), and it is also the largest gland in the body. It is generally credited with around 500 different functions."
+   }
+  },
+  {
+   "id": "T338-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kde se mezi jídly ukládá žluč, než ji tělo potřebuje k trávení?",
+    "en": "Where is bile stored between meals until the body needs it for digestion?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve žlučníku",
+     "Ve slezině",
+     "Ve slinivce břišní",
+     "V močovém měchýři"
+    ],
+    "en": [
+     "In the gallbladder",
+     "In the spleen",
+     "In the pancreas",
+     "In the urinary bladder"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Žluč tvoří játra, žlučník ji skladuje a zahušťuje; pojme asi 50 ml. Po tučném jídle se stáhne a vypudí žluč do tenkého střeva.",
+    "en": "Bile is made by the liver; the gallbladder stores and concentrates it and holds about 50 mL (1.7 fl oz). After a fatty meal it contracts and squeezes the bile into the small intestine."
+   }
+  },
+  {
+   "id": "T338-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které části trávicí soustavy se vstřebává většina živin?",
+    "en": "In which part of the digestive system are most nutrients absorbed?"
+   },
+   "moznosti": {
+    "cs": [
+     "V tenkém střevě",
+     "V žaludku",
+     "V jícnu",
+     "V tlustém střevě"
+    ],
+    "en": [
+     "In the small intestine",
+     "In the stomach",
+     "In the oesophagus",
+     "In the large intestine"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Většina živin se vstřebá v tenkém střevě, hlavně v jeho střední části, lačníku (jejunum). Výjimkou je například vitamin B12, který se vstřebává až na konci kyčelníku (ileum).",
+    "en": "Most nutrients are absorbed in the small intestine, mainly in its middle section, the jejunum. One exception is vitamin B12, which is absorbed only at the very end of the ileum."
+   }
+  },
+  {
+   "id": "T338-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou hlavní úlohu má v trávení tlusté střevo?",
+    "en": "What is the main role of the large intestine in digestion?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vstřebává vodu a soli",
+     "Štěpí bílkoviny kyselinou",
+     "Vyrábí žluč",
+     "Tvoří sliny pro ústa"
+    ],
+    "en": [
+     "It absorbs water and salts",
+     "It breaks down proteins with acid",
+     "It produces bile",
+     "It makes saliva for the mouth"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Do tlustého střeva přitéká denně asi 1,5 litru tekutiny; vstřebá z ní vodu a soli a zbytky zahustí ve stolici. Jeho bakterie navíc tvoří vitaminy, hlavně vitamin K a biotin.",
+    "en": "About 1.5 litres (1.6 US quarts) of fluid reaches the colon each day; it absorbs water and salts and thickens the remains into stool. Its bacteria also produce vitamins, especially vitamin K and biotin."
+   }
+  },
+  {
+   "id": "T338-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Slepé střevo je vak na začátku tlustého střeva. Jak se jmenuje úzká, slepě zakončená trubička, která z něj odstupuje a při zánětu se často musí chirurgicky odstranit?",
+    "en": "The caecum is a pouch at the start of the large intestine. What is the narrow, dead-end tube attached to it that often has to be surgically removed when it becomes inflamed?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dvanáctník (duodenum)",
+     "Červovitý přívěsek (apendix)",
+     "Žlučník (vesica fellea)",
+     "Konečník (rektum)"
+    ],
+    "en": [
+     "The duodenum",
+     "The appendix",
+     "The gallbladder",
+     "The rectum"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Červovitý přívěsek odstupuje ze slepého střeva, proto se jeho zánětu (apendicitidě) česky lidově říká „zánět slepého střeva“, i když zanícený je přívěsek. Odstranění (apendektomie) se obvykle provádí akutně.",
+    "en": "The appendix is attached to the caecum. Its removal (appendectomy) is usually performed as an emergency operation."
+   }
+  },
+  {
+   "id": "T338-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co způsobuje pálení žáhy?",
+    "en": "What causes heartburn?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nedostatek slin v ústech",
+     "Podrážděný srdeční sval",
+     "Zánět průdušnice",
+     "Žaludeční kyselina stoupá zpět vzhůru"
+    ],
+    "en": [
+     "A lack of saliva in the mouth",
+     "An irritated heart muscle",
+     "Inflammation of the windpipe",
+     "Stomach acid flowing back upwards"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Svěrač na vstupu do žaludku normálně brání návratu obsahu. Když nedomyká, kyselina stoupá vzhůru a dráždí sliznici nad ním (takzvaný reflux). Se srdcem pálení žáhy nesouvisí, přestože se mu anglicky říká heartburn.",
+    "en": "A sphincter at the entrance to the stomach normally prevents backflow. When it fails, acid rises and irritates the lining above it (acid reflux). Despite its name, heartburn has nothing to do with the heart."
+   }
+  },
+  {
+   "id": "T338-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co způsobuje kručení v břiše?",
+    "en": "What causes a rumbling tummy?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kyselina leptající prázdný žaludek",
+     "Pohyb plynů a tekutin v trávicím traktu",
+     "Praskání kloubů páteře",
+     "Stahy bránice"
+    ],
+    "en": [
+     "Acid eating away at an empty stomach",
+     "Gas and fluid moving through the gut",
+     "Cracking joints in the spine",
+     "Contractions of the diaphragm"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Zvuk vzniká, když stahy stěny trávicí trubice posouvají obsah promíchaný s plyny; ozývá se většinou ze střev, ne ze žaludku samotného. Kručí i bez hladu, hlad zvuk jen zesílí.",
+    "en": "The sound arises as contractions of the gut wall push contents mixed with gas along; it usually comes from the intestines rather than the stomach itself. It happens without hunger too – hunger just makes it louder."
+   }
+  },
+  {
+   "id": "T338-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč dokáže člověk spolknout sousto, i když stojí na hlavě?",
+    "en": "Why can a person swallow food even while standing on their head?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jazyk sousto dotlačí až do žaludku",
+     "Nedokáže, sousto mu zůstane v krku",
+     "Sousto posouvají stahy svalů",
+     "Žaludek sousto nasaje podtlakem"
+    ],
+    "en": [
+     "The tongue pushes it all the way to the stomach",
+     "They can't – the food stays in the throat",
+     "Muscle contractions push it along",
+     "The stomach sucks it in by suction"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vlnovité svalové stahy, takzvaná peristaltika, posouvají sousto rychlostí asi 3–5 cm za sekundu. Gravitace hraje při polykání jen malou roli.",
+    "en": "Wave-like muscle contractions, known as peristalsis, push the food along at about 3–5 cm (1–2 in) per second. Gravity plays only a minor role in swallowing."
+   }
+  },
+  {
+   "id": "T338-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který enzym ve slinách začíná štěpit škrob už v ústech?",
+    "en": "Which enzyme in saliva starts breaking down starch while food is still in the mouth?"
+   },
+   "moznosti": {
+    "cs": [
+     "Amyláza",
+     "Lipáza",
+     "Trypsin",
+     "Lysozym"
+    ],
+    "en": [
+     "Amylase",
+     "Lipase",
+     "Trypsin",
+     "Lysozyme"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Slinná amyláza (ptyalin) rozkládá škrob na jednodušší cukry, jako je maltóza. Sliny jsou přitom z 99,5 % voda a odhaduje se, že jich vytvoříme asi 1,5 litru denně.",
+    "en": "Salivary amylase (ptyalin) breaks starch down into simpler sugars such as maltose. Saliva is 99.5% water, and daily production is estimated at about 1.5 litres (1.6 US quarts)."
+   }
+  },
+  {
+   "id": "T338-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaké pH mívá žaludeční kyselina člověka?",
+    "en": "What is the typical pH of human gastric acid?"
+   },
+   "moznosti": {
+    "cs": [
+     "1–3",
+     "6–7",
+     "9–10",
+     "12–13"
+    ],
+    "en": [
+     "1–3",
+     "6–7",
+     "9–10",
+     "12–13"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Žaludeční kyselina má pH mezi 1 a 3, což je mnohem kyselejší prostředí než u většiny jiných živočichů; podobně kyselý žaludek mají mrchožravé šelmy. Pro srovnání: čistá voda má pH 7.",
+    "en": "Human gastric acid has a pH between 1 and 3, much more acidic than in most other animals; carrion-eating carnivores have similarly acidic stomachs. For comparison, pure water has a pH of 7."
+   }
+  },
+  {
+   "id": "T338-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč žaludeční kyselina nenaleptá stěnu samotného žaludku?",
+    "en": "Why doesn't gastric acid eat away the wall of the stomach itself?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na živou tkáň je kyselina příliš slabá",
+     "Chrání ji vrstva hlenu a hydrogenuhličitanu",
+     "Stěnu kryje vrstva tuku",
+     "Kyselina vzniká až ve dvanáctníku"
+    ],
+    "en": [
+     "The acid is too weak to harm living tissue",
+     "It is protected by a layer of mucus and bicarbonate",
+     "The wall is covered by a layer of fat",
+     "The acid is only produced in the duodenum"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Buňky žaludeční sliznice vylučují vazký hlen a zásaditý hydrogenuhličitan, které ji od kyseliny oddělují. Když ochrana selže, může vzniknout vřed; většinu vředů způsobuje infekce bakterií Helicobacter pylori.",
+    "en": "Cells of the stomach lining secrete viscous mucus and alkaline bicarbonate that shield it from the acid. When this protection fails, an ulcer can form; most ulcers are caused by Helicobacter pylori infection."
+   }
+  },
+  {
+   "id": "T338-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se jmenují drobné prstovité výběžky sliznice tenkého střeva, které mnohonásobně zvětšují její povrch?",
+    "en": "What are the tiny finger-like projections of the small intestine's lining that greatly increase its surface area called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Klky",
+     "Papily",
+     "Sklípky",
+     "Řasinky"
+    ],
+    "en": [
+     "Villi",
+     "Papillae",
+     "Alveoli",
+     "Cilia"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Střevní klky (villi) nesou na povrchu buňky s ještě drobnějšími výběžky, mikroklky. Sklípky (alveoly) najdeme v plicích, papily třeba na jazyku.",
+    "en": "Intestinal villi are covered with cells bearing even tinier projections called microvilli. Alveoli are found in the lungs, and papillae on the tongue, for example."
+   }
+  },
+  {
+   "id": "T338-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Podle čeho dostal jméno dvanáctník (duodenum), první úsek tenkého střeva?",
+    "en": "Why is the duodenum, the first section of the small intestine, named after the number twelve?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ústí do něj dvanáct vývodů žláz",
+     "Je dlouhý asi dvanáct šířek prstu",
+     "Potrava v něm zůstává asi dvanáct hodin",
+     "Je dvanáctým úsekem trávicí trubice"
+    ],
+    "en": [
+     "Twelve gland ducts open into it",
+     "It is about twelve finger-widths long",
+     "Food stays in it for about twelve hours",
+     "It is the twelfth section of the digestive tract"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jméno mu dal řecký lékař Hérofilos podle délky asi dvanácti šířek prstu (latinsky intestinum duodenum digitorum). Dvanáctník měří asi 25–38 cm.",
+    "en": "It was named by the Greek physician Herophilus for its length of about twelve fingers' breadth (Latin intestinum duodenum digitorum). The duodenum is about 25–38 cm (10–15 in) long."
+   }
+  },
+  {
+   "id": "T338-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Australský lékař Barry Marshall chtěl v roce 1984 dokázat, že záněty žaludku způsobuje bakterie Helicobacter pylori. Co udělal?",
+    "en": "In 1984 Australian physician Barry Marshall wanted to prove that the bacterium Helicobacter pylori causes stomach inflammation. What did he do?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sám vypil její kulturu",
+     "Nechal si operovat žaludek",
+     "Nakazil s ní laboratorní psy",
+     "Půl roku jedl jen pálivá jídla"
+    ],
+    "en": [
+     "He drank a culture of it himself",
+     "He had his own stomach operated on",
+     "He infected laboratory dogs with it",
+     "He ate only spicy food for six months"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Po vypití vývaru s bakteriemi dostal nevolnost a zvracel a endoskopie osmý den ukázala silný zánět žaludku. Spolu s patologem Robinem Warrenem získal v roce 2005 Nobelovu cenu za fyziologii nebo lékařství.",
+    "en": "After drinking a broth of cultured bacteria he developed nausea and vomiting, and an endoscopy on day eight showed massive gastritis. He shared the 2005 Nobel Prize in Physiology or Medicine with pathologist Robin Warren."
+   }
+  },
+  {
+   "id": "T338-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč mnoho dospělých špatně tráví mléčný cukr (laktózu)?",
+    "en": "Why do many adults digest milk sugar (lactose) poorly?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jejich žaludek tvoří málo kyseliny",
+     "S věkem jim ubývá enzymu laktázy",
+     "Játra jim přestanou tvořit žluč",
+     "Mají alergii na mléčnou bílkovinu"
+    ],
+    "en": [
+     "Their stomach makes too little acid",
+     "They make less lactase as they age",
+     "Their liver stops making bile",
+     "They are allergic to milk protein"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Nestrávená laktóza putuje do tlustého střeva, kde ji zkvasí bakterie a vzniklé plyny způsobí nadýmání. Špatné vstřebávání laktózy postihuje celosvětově asi 65 % dospělých, ze severních Evropanů však jen asi 5 %.",
+    "en": "Undigested lactose travels to the colon, where bacteria ferment it and the resulting gas causes bloating. Lactose malabsorption affects around 65% of adults worldwide, but as few as 5% of northern Europeans."
+   }
+  },
+  {
+   "id": "T338-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Americký armádní lékař William Beaumont zkoumal od roku 1825 trávení na Kanaďanovi Alexisi St. Martinovi, zaměstnanci obchodní společnosti s kožešinami. Čím byl St. Martin pro tento výzkum výjimečný?",
+    "en": "From 1825, US Army surgeon William Beaumont studied digestion in Alexis St. Martin, a Canadian employed by a fur-trading company. What made St. Martin exceptional for this research?"
+   },
+   "moznosti": {
+    "cs": [
+     "Roky přežíval bez pevné stravy",
+     "Měl orgány zrcadlově obráceně",
+     "Dokázal na povel zvracet",
+     "Postřelení mu zanechalo otvor do žaludku"
+    ],
+    "en": [
+     "He lived for years without solid food",
+     "His organs were mirror-reversed",
+     "He could vomit on command",
+     "A gunshot left a hole into his stomach"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "St. Martin byl v roce 1822 na ostrově Mackinac omylem postřelen a rána se nikdy úplně nezacelila. Beaumont vkládal otvorem do žaludku jídlo na niti a odebíral žaludeční šťávu, která natrávila jídlo i v nádobce mimo tělo. Ukázal tak, že trávení je hlavně chemický proces; výsledky vydal v roce 1833.",
+    "en": "St. Martin was accidentally shot on Mackinac Island in 1822 and the wound never fully closed. Beaumont inserted food on a string through the opening and drew off gastric juice, which digested food even in cups outside the body. This showed that digestion is mainly chemical; he published his results in 1833."
+   }
+  },
+  {
+   "id": "T338-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve které části trávicí trubice se potrava zdrží nejdéle?",
+    "en": "In which part of the digestive tract does food spend the longest time?"
+   },
+   "moznosti": {
+    "cs": [
+     "V jícnu",
+     "V žaludku",
+     "V tlustém střevě",
+     "V tenkém střevě"
+    ],
+    "en": [
+     "In the oesophagus",
+     "In the stomach",
+     "In the large intestine",
+     "In the small intestine"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Podle Mayo Clinic projde potrava žaludkem a tenkým střevem v průměru asi za šest hodin, tlustým střevem ale až za 36–48 hodin. Strávení jídla tak trvá v průměru zhruba dva dny.",
+    "en": "According to the Mayo Clinic, food passes through the stomach and small intestine in about six hours on average, but the colon can take 36 to 48 hours. Digesting a meal therefore takes about two days on average."
+   }
+  },
+  {
+   "id": "T338-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Díky čemu lze transplantovat část jater od žijícího dárce?",
+    "en": "What makes it possible to transplant part of a liver from a living donor?"
+   },
+   "moznosti": {
+    "cs": [
+     "Práci jater převezmou ledviny",
+     "Člověk má dvoje játra",
+     "Játra dokážou dorůst",
+     "Bez jater se dá dlouho žít"
+    ],
+    "en": [
+     "The kidneys take over the liver's work",
+     "Humans have two livers",
+     "The liver can regrow",
+     "People can live for a long time without a liver"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Játra dokážou dorůst do plné velikosti i z pouhé čtvrtiny původní tkáně. Odebrané laloky se přitom neobnoví – zvětší se zbytek orgánu (takzvaný kompenzační růst).",
+    "en": "A liver can grow back to full size from as little as 25% of its tissue. The removed lobes do not regrow, though – the remaining tissue enlarges instead (so-called compensatory growth)."
+   }
+  },
+  {
+   "id": "T338-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jakou plochu má podle novějších měření vnitřní povrch (sliznice) tenkého střeva dospělého člověka, započteme-li všechny jeho záhyby a výběžky?",
+    "en": "According to more recent measurements, what is the area of the inner surface (mucosa) of an adult's small intestine, counting all its folds and projections?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 0,3 m²",
+     "Asi 3 m²",
+     "Asi 30 m²",
+     "Asi 3 000 m²"
+    ],
+    "en": [
+     "About 0.3 m² (3.2 sq ft)",
+     "About 3 m² (32 sq ft)",
+     "About 30 m² (320 sq ft)",
+     "About 3,000 m² (32,000 sq ft)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Sliznice tenkého střeva měří i se všemi řasami a výběžky v průměru asi 30 m², zhruba jako podlaha menšího bytu. Vnitřní povrch celé trávicí trubice se dříve odhadoval na 180–300 m² (jako tenisový kurt), což se ukázalo jako přehnané. Samotné tenké střevo je v živém těle dlouhé jen několik metrů (zhruba 3–5 m).",
+    "en": "Counting all its folds and projections, the small intestine's mucosa averages about 30 m² (320 sq ft), roughly the floor area of a small flat. The inner surface of the whole digestive tract was long estimated at 180–300 m² (1,940–3,230 sq ft, the size of a tennis court), which proved to be an overestimate. In a living person the small intestine itself is only a few metres long (roughly 3–5 m, or 10–16 ft)."
+   }
+  },
+  {
+   "id": "T338-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Američan Charles Osborne figuroval v Guinnessově knize rekordů jako člověk s nejdelším záchvatem škytavky. Jak dlouho podle záznamu škytal?",
+    "en": "American Charles Osborne was listed by Guinness World Records as having the longest attack of hiccups. According to the record, how long did he hiccup?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 6 měsíců",
+     "8 let",
+     "28 let",
+     "68 let"
+    ],
+    "en": [
+     "About 6 months",
+     "8 years",
+     "28 years",
+     "68 years"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Škytal od roku 1922 do roku 1990, odhadem asi 430 milionkrát. Typické „hic“ vzniká, když se zhruba 35 milisekund po stahu bránice prudce zavře hlasivková štěrbina.",
+    "en": "He hiccupped from 1922 to 1990, an estimated 430 million times. The typical 'hic' sound comes from the glottis snapping shut about 35 milliseconds after the diaphragm contracts."
+   }
+  },
+  {
+   "id": "T338-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se odborně nazývá kručení v břiše?",
+    "en": "What is the scientific term for a rumbling stomach?"
+   },
+   "moznosti": {
+    "cs": [
+     "Eruktace",
+     "Singultus",
+     "Meteorismus",
+     "Borborygmus"
+    ],
+    "en": [
+     "Eructation",
+     "Singultus",
+     "Meteorism",
+     "Borborygmus"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Slovo pochází z řečtiny a je nejspíš zvukomalebné, napodobuje samotné kručení. Singultus je naproti tomu odborný název škytavky.",
+    "en": "The word comes from Greek and is probably onomatopoeic, imitating the rumbling itself. Singultus, by contrast, is the medical name for hiccups."
+   }
+  },
+  {
+   "id": "T338-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Serotonin je známý hlavně jako nervový přenašeč v mozku. Kde se ho ale vytváří asi 90 %?",
+    "en": "Serotonin is best known as a neurotransmitter in the brain. Where, however, is about 90% of it produced?"
+   },
+   "moznosti": {
+    "cs": [
+     "V mozku",
+     "V nadledvinách",
+     "V trávicím traktu",
+     "Ve štítné žláze"
+    ],
+    "en": [
+     "In the brain",
+     "In the adrenal glands",
+     "In the digestive tract",
+     "In the thyroid gland"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Asi 90 % serotoninu tvoří enterochromafinní buňky ve výstelce trávicího traktu, kde mimo jiné řídí pohyby střev. Zhruba 8 % serotoninu v těle je uloženo v krevních destičkách.",
+    "en": "About 90% of serotonin is made by enterochromaffin cells in the lining of the digestive tract, where it helps regulate intestinal movements. Around 8% of the body's serotonin is stored in platelets."
+   }
+  },
+  {
+   "id": "T338-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čemu vděčí lidská stolice za svou typickou hnědou barvu?",
+    "en": "What gives human faeces their typical brown colour?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zbytkům nestrávených bílkovin",
+     "Chlorofylu z rostlinné stravy",
+     "Železu oxidovanému ve střevě",
+     "Barvivům z rozpadu červených krvinek"
+    ],
+    "en": [
+     "Remnants of undigested protein",
+     "Chlorophyll from plant foods",
+     "Iron oxidised in the gut",
+     "Pigments from broken-down red blood cells"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Bilirubin z odbouraných červených krvinek se dostává se žlučí do střeva a mění se na sterkobilin a urobilin. Když žluč do střeva nepřitéká, je stolice bílá nebo šedá.",
+    "en": "Bilirubin from dead red blood cells reaches the gut in bile and is converted into stercobilin and urobilin. When no bile reaches the intestine, faeces turn white or grey."
+   }
+  },
+  {
+   "id": "T338-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kterou opakující se střevní infekci lze léčit transplantací stolice (fekální mikrobioty) od zdravého dárce, když selžou antibiotika?",
+    "en": "Which recurrent intestinal infection can be treated with a stool (faecal microbiota) transplant from a healthy donor when antibiotics fail?"
+   },
+   "moznosti": {
+    "cs": [
+     "Choleru (Vibrio cholerae)",
+     "Úplavici (šigelózu)",
+     "Salmonelózu (Salmonella)",
+     "Infekci C. difficile"
+    ],
+    "en": [
+     "Cholera (Vibrio cholerae)",
+     "Dysentery (shigellosis)",
+     "Salmonellosis (Salmonella)",
+     "C. difficile infection"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "U pacientů s infekcí bakterií Clostridioides difficile, kterým nepomohla antibiotika, je léčba účinná asi v 85–90 % případů. Nejstarší záznam o léčbě stolicí dárce, a to při otravě jídlem a průjmu, pochází z Číny 4. století od Ke Chunga (Ge Hong).",
+    "en": "In patients with Clostridioides difficile infection for whom antibiotics have failed, the treatment is about 85–90% effective. The earliest record of using donor faeces, for food poisoning and diarrhoea, comes from 4th-century China, by Ge Hong."
+   }
+  },
+  {
+   "id": "T338-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Pacient Williama Beaumonta Alexis St. Martin zemřel v roce 1880. Proč rodina odkládala jeho pohřeb, dokud se tělo nezačalo rozkládat?",
+    "en": "William Beaumont's patient Alexis St. Martin died in 1880. Why did his family delay his burial until the body had begun to decompose?"
+   },
+   "moznosti": {
+    "cs": [
+     "Čekala, až rozmrzne zamrzlá půda",
+     "Vyžadoval to tamní pohřební zvyk",
+     "Čekala na příbuzné ze vzdálených zemí",
+     "Aby se těla nezmocnili lékaři k pitvě"
+    ],
+    "en": [
+     "They were waiting for the frozen ground to thaw",
+     "Local funeral custom required it",
+     "They were waiting for relatives from distant countries",
+     "So that doctors could not take the body for an autopsy"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Někteří lékaři o jeho tělo stáli kvůli pitvě a rodina tomu chtěla zabránit. Zemřel v Saint-Thomas a pochován je na farním hřbitově v Joliette v Québecu.",
+    "en": "Some doctors wanted his body for an autopsy, and his family wanted to prevent that. He died in Saint-Thomas and is buried in the parish cemetery in Joliette, Quebec."
+   }
+  },
+  {
+   "id": "T338-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Slinivka břišní vylučuje své trávicí enzymy v neaktivní podobě (jako zymogeny) a zapnou se až ve střevě. Proč?",
+    "en": "The pancreas releases its digestive enzymes in an inactive form (as zymogens), and they are switched on only in the intestine. Why?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aby je cestou nerozložila žluč",
+     "Aby nedráždily nervy v břiše",
+     "Aby prošly úzkým vývodem",
+     "Aby nestrávily slinivku samotnou"
+    ],
+    "en": [
+     "So bile doesn't break them down on the way",
+     "So they don't irritate nerves in the abdomen",
+     "So they can pass through a narrow duct",
+     "So they don't digest the pancreas itself"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Aktivní enzymy štěpící bílkoviny by natrávily tkáň slinivky. Slinivka denně vyloučí asi 1,5–3 litry šťávy bohaté na hydrogenuhličitan, který neutralizuje kyselinu přicházející ze žaludku.",
+    "en": "Active protein-splitting enzymes would digest the pancreatic tissue. The pancreas secretes about 1.5–3 litres (1.6–3.2 US quarts) of bicarbonate-rich juice a day, which neutralises the acid arriving from the stomach."
+   }
+  },
+  {
+   "id": "T338-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co doslova znamená řecké slovo pankreas, z něhož pochází latinský název slinivky břišní?",
+    "en": "What does the Greek word pankreas, from which the name of the pancreas comes, literally mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sladká žláza",
+     "Celé maso",
+     "Žlutá šťáva",
+     "Skrytý orgán"
+    ],
+    "en": [
+     "Sweet gland",
+     "All flesh",
+     "Yellow juice",
+     "Hidden organ"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pan znamená „vše“ a kreas „maso“; název zřejmě vystihuje masitou konzistenci orgánu. Asi 99 % slinivky tvoří tkáň vylučující trávicí šťávy, hormony tvoří jen zhruba 1 %.",
+    "en": "Pan means 'all' and kreas 'flesh'; the name probably refers to the organ's fleshy consistency. About 99% of the pancreas is tissue that secretes digestive juices; only about 1% produces hormones."
+   }
+  },
+  {
+   "id": "T338-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který enzym žaludeční šťávy objevil a pojmenoval v roce 1836 Theodor Schwann?",
+    "en": "Which enzyme of gastric juice was discovered and named by Theodor Schwann in 1836?"
+   },
+   "moznosti": {
+    "cs": [
+     "Trypsin",
+     "Lipázu",
+     "Pepsin",
+     "Chymotrypsin"
+    ],
+    "en": [
+     "Trypsin",
+     "Lipase",
+     "Pepsin",
+     "Chymotrypsin"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Název vychází z řeckého pepsis, tedy trávení. Pepsin vzniká z neaktivního předchůdce pepsinogenu teprve v kyselém prostředí žaludku a rozkládá bílkoviny na kratší peptidy.",
+    "en": "The name comes from the Greek pepsis, meaning digestion. Pepsin forms from its inactive precursor, pepsinogen, only in the acidic environment of the stomach, and breaks proteins down into shorter peptides."
+   }
+  }
+ ]
+}

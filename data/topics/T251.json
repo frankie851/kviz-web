@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T251",
+ "nazev": {
+  "cs": "Chemie všedního dne",
+  "en": "Everyday Chemistry"
+ },
+ "kategorie": {
+  "id": "veda-a-technika",
+  "nazev": {
+   "cs": "Věda a technika",
+   "en": "Science & Technology"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T251-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaké pH má čistá voda při teplotě 25 °C?",
+    "en": "What is the pH of pure water at 25 °C (77 °F)?"
+   },
+   "moznosti": {
+    "cs": [
+     "0",
+     "7",
+     "10",
+     "14"
+    ],
+    "en": [
+     "0",
+     "7",
+     "10",
+     "14"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Čistá voda je neutrální a má pH 7. Nižší hodnoty znamenají kyselé prostředí (ocet, citron), vyšší zásadité (mýdlo, jedlá soda).",
+    "en": "Pure water is neutral, with a pH of 7. Lower values mean acidic (vinegar, lemon), higher values mean alkaline (soap, baking soda)."
+   }
+  },
+  {
+   "id": "T251-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který plyn vytváří bublinky v perlivé vodě a limonádách?",
+    "en": "Which gas forms the bubbles in sparkling water and soft drinks?"
+   },
+   "moznosti": {
+    "cs": [
+     "Oxid dusný",
+     "Oxid uhličitý",
+     "Dusík",
+     "Kyslík"
+    ],
+    "en": [
+     "Nitrous oxide",
+     "Carbon dioxide",
+     "Nitrogen",
+     "Oxygen"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Oxid uhličitý se do nápoje vtlačí pod tlakem a po otevření lahve uniká v bublinkách. Čím nižší teplota a vyšší tlak, tím víc plynu se ve vodě rozpustí, proto teplá limonáda rychleji vyčpí.",
+    "en": "Carbon dioxide is forced into the drink under pressure and escapes as bubbles once the bottle is opened. Lower temperature and higher pressure let more gas dissolve, which is why a warm soda goes flat faster."
+   }
+  },
+  {
+   "id": "T251-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Rez je oxid kterého kovu?",
+    "en": "Rust is an oxide of which metal?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zinku",
+     "Železa",
+     "Hliníku",
+     "Mědi"
+    ],
+    "en": [
+     "Zinc",
+     "Iron",
+     "Aluminium",
+     "Copper"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Rez vzniká, když železo reaguje s kyslíkem za přítomnosti vody nebo vlhkosti. Chemicky jde o směs hydratovaných oxidů a oxid-hydroxidů železitých.",
+    "en": "Rust forms when iron reacts with oxygen in the presence of water or moisture. Chemically it is a mixture of hydrated iron(III) oxides and oxide-hydroxides."
+   }
+  },
+  {
+   "id": "T251-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která kyselina dává octu jeho kyselou chuť a pronikavou vůni?",
+    "en": "Which acid gives vinegar its sour taste and pungent smell?"
+   },
+   "moznosti": {
+    "cs": [
+     "Citronová",
+     "Mravenčí",
+     "Octová",
+     "Mléčná"
+    ],
+    "en": [
+     "Citric",
+     "Formic",
+     "Acetic",
+     "Lactic"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ocet je zředěný vodný roztok kyseliny octové, obvykle se 4 až 18 % kyseliny. Protože je kyselý, rozpouští i minerální usazeniny na skle.",
+    "en": "Vinegar is a dilute aqueous solution of acetic acid, typically containing 4 to 18% acid. Because it is acidic, it also dissolves mineral deposits on glass."
+   }
+  },
+  {
+   "id": "T251-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který plyn tvoří zhruba 78 % objemu vzduchu, který dýcháme?",
+    "en": "Which gas makes up roughly 78% of the volume of the air we breathe?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dusík",
+     "Oxid uhličitý",
+     "Argon",
+     "Kyslík"
+    ],
+    "en": [
+     "Nitrogen",
+     "Carbon dioxide",
+     "Argon",
+     "Oxygen"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Suchý vzduch tvoří asi 78 % dusíku a 21 % kyslíku. Třetí v pořadí je argon (necelé 1 %), oxidu uhličitého je jen asi 0,04 %.",
+    "en": "Dry air is about 78% nitrogen and 21% oxygen. Third comes argon (just under 1%), while carbon dioxide makes up only about 0.04%."
+   }
+  },
+  {
+   "id": "T251-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se chemicky jmenuje kuchyňská sůl?",
+    "en": "What is the chemical name of table salt?"
+   },
+   "moznosti": {
+    "cs": [
+     "Síran měďnatý",
+     "Dusičnan draselný",
+     "Uhličitan vápenatý",
+     "Chlorid sodný"
+    ],
+    "en": [
+     "Copper(II) sulfate",
+     "Potassium nitrate",
+     "Calcium carbonate",
+     "Sodium chloride"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kuchyňská sůl je chlorid sodný (NaCl). Jeho čisté krystaly jsou bezbarvé a mají tvar krychliček.",
+    "en": "Table salt is sodium chloride (NaCl). Its pure crystals are colourless and cube-shaped."
+   }
+  },
+  {
+   "id": "T251-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která látka tvoří zhruba 70 % hmotnosti běžného skla na okna a lahve?",
+    "en": "Which compound makes up roughly 70% of the weight of ordinary window and bottle glass?"
+   },
+   "moznosti": {
+    "cs": [
+     "Oxid olovnatý",
+     "Uhličitan sodný",
+     "Oxid křemičitý",
+     "Oxid hlinitý"
+    ],
+    "en": [
+     "Lead(II) oxide",
+     "Sodium carbonate",
+     "Silicon dioxide",
+     "Aluminium oxide"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Běžné sodnovápenaté sklo tvoří ze 70–74 % hmotnosti oxid křemičitý. Soda (uhličitan sodný) slouží jako tavidlo, které snižuje teplotu měknutí skla, a vápno zvyšuje jeho chemickou odolnost, protože samotný křemičitan sodný je rozpustný ve vodě.",
+    "en": "Ordinary soda-lime glass is 70–74% silicon dioxide by weight. Soda (sodium carbonate) acts as a flux that lowers the temperature at which the glass softens, and lime improves its chemical durability, since sodium silicate alone is water-soluble."
+   }
+  },
+  {
+   "id": "T251-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na pánvi vzplane olej. Proč ho nikdy nehasíme vodou?",
+    "en": "Oil in a pan catches fire. Why should you never put it out with water?"
+   },
+   "moznosti": {
+    "cs": [
+     "Voda hořící olej rozstříkne a oheň se rozšíří",
+     "Voda oheň uhasí, ale zničí pánev",
+     "Voda se v horkém oleji rozloží na vodík",
+     "Voda s olejem vytvoří jedovatý plyn"
+    ],
+    "en": [
+     "Water splatters the burning oil and spreads the fire",
+     "Water puts out the fire but ruins the pan",
+     "Water breaks down into hydrogen in the hot oil",
+     "Water and oil form a poisonous gas"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Voda hořící tuk rozmetá a plameny se rozšíří. Správné je přikrýt pánev poklicí nebo jiným pevným předmětem, který k ohni nepustí vzduch.",
+    "en": "Water scatters the burning fat and spreads the flames. The right move is to cover the pan with a lid or another solid object that cuts the fire off from the air."
+   }
+  },
+  {
+   "id": "T251-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaké jmenovité napětí má nová alkalická tužková baterie (AA)?",
+    "en": "What is the nominal voltage of a new alkaline AA battery?"
+   },
+   "moznosti": {
+    "cs": [
+     "1,5 V",
+     "3 V",
+     "4,5 V",
+     "9 V"
+    ],
+    "en": [
+     "1.5 V",
+     "3 V",
+     "4.5 V",
+     "9 V"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Nový alkalický článek má podle norem výrobců jmenovité napětí 1,5 V. Zápornou elektrodu v něm tvoří zinek a kladnou oxid manganičitý.",
+    "en": "By manufacturer standards, a fresh alkaline cell has a nominal voltage of 1.5 V. Its negative electrode is zinc and its positive electrode is manganese dioxide."
+   }
+  },
+  {
+   "id": "T251-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč se v zimě silnice sypou kamennou solí?",
+    "en": "Why is rock salt spread on roads in winter?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sůl vytlačí vodu z povrchu silnice",
+     "Sůl pohlcuje sluneční záření a hřeje",
+     "Slaná voda zamrzá při nižší teplotě než čistá",
+     "Sůl se při rozpouštění zahřívá a led roztaví"
+    ],
+    "en": [
+     "Salt pushes water off the road surface",
+     "Salt absorbs sunlight and warms up",
+     "Salt water freezes at a lower temperature than pure water",
+     "Salt heats up as it dissolves and melts the ice"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Rozpuštěná sůl snižuje bod tuhnutí vody, takže led taje i pod nulou. V silných mrazech ale přestává pomáhat: v praxi je posyp solí zhruba pod −10 °C neúčinný.",
+    "en": "Dissolved salt lowers the freezing point of water, so ice melts even below 0 °C (32 °F). In hard frosts, though, it stops helping: in practice, salting becomes ineffective below about −10 °C (14 °F)."
+   }
+  },
+  {
+   "id": "T251-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jedlá soda, kterou se kypří perník i drhne připálený hrnec, je chemicky…",
+    "en": "Baking soda, used to raise gingerbread and to scour a burnt pot, is chemically…"
+   },
+   "moznosti": {
+    "cs": [
+     "Uhličitan sodný",
+     "Chlorid sodný",
+     "Uhličitan vápenatý",
+     "Hydrogenuhličitan sodný"
+    ],
+    "en": [
+     "Sodium carbonate",
+     "Sodium chloride",
+     "Calcium carbonate",
+     "Sodium bicarbonate"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jedlá soda je hydrogenuhličitan sodný (NaHCO₃). Malý požár tuku jí lze udusit, do fritézy se ale sypat nemá: uvolněný plyn by mohl tuk rozstříknout.",
+    "en": "Baking soda is sodium bicarbonate (NaHCO₃). It can smother a small grease fire, but you should not pour it into a deep fryer: the released gas may splatter the fat."
+   }
+  },
+  {
+   "id": "T251-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Při jaké teplotě má kapalná voda největší hustotu?",
+    "en": "At what temperature does liquid water have its greatest density?"
+   },
+   "moznosti": {
+    "cs": [
+     "0 °C",
+     "4 °C",
+     "10 °C",
+     "20 °C"
+    ],
+    "en": [
+     "0 °C (32 °F)",
+     "4 °C (39 °F)",
+     "10 °C (50 °F)",
+     "20 °C (68 °F)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Voda je nejhustší kolem 4 °C, chladnější voda proto zůstává u hladiny a zamrzá shora. Na dně hlubokých jezer se tak drží asi 4 °C po celý rok a ryby v zimě přežijí.",
+    "en": "Water is densest at about 4 °C (39 °F), so colder water stays near the surface and freezes from the top. The bottom of deep lakes therefore stays at about 4 °C (39 °F) all year round, letting fish survive the winter."
+   }
+  },
+  {
+   "id": "T251-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na lahvi chlorového bělidla (chlornanu sodného) stojí: nemíchat s kyselými čisticími prostředky. Co by se při smíchání stalo?",
+    "en": "A bottle of chlorine bleach (sodium hypochlorite) warns: do not mix with acidic cleaners. What would happen if you did?"
+   },
+   "moznosti": {
+    "cs": [
+     "Uvolnil by se jedovatý plynný chlor",
+     "Začal by se uvolňovat výbušný vodík",
+     "Bělidlo by v lahvi ztuhlo v hustý gel",
+     "Směs by se během chvíle sama vznítila"
+    ],
+    "en": [
+     "Toxic chlorine gas would be released",
+     "Explosive hydrogen would start to form",
+     "The bleach would set into a thick gel in the bottle",
+     "The mixture would soon catch fire by itself"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Chlornan sodný s kyselinou, třeba s octem nebo kyselinou chlorovodíkovou, uvolňuje jedovatý chlor. Se čpavkem zase vznikají nebezpečně jedovaté chloraminy.",
+    "en": "Sodium hypochlorite mixed with an acid, such as vinegar or hydrochloric acid, releases toxic chlorine gas. With ammonia it forms chloramines, which are also dangerously toxic."
+   }
+  },
+  {
+   "id": "T251-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak mýdlo umyje mastnotu, kterou samotná voda nesmyje?",
+    "en": "How does soap wash away grease that water alone cannot remove?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rozloží tuk na vodu a oxid uhličitý",
+     "Ohřeje vodu a tuk se v ní roztaví",
+     "Molekula má konec pro vodu a konec pro tuk",
+     "Tuk zahustí, takže se odloupne od kůže"
+    ],
+    "en": [
+     "It breaks fat down into water and carbon dioxide",
+     "It warms the water so the fat melts",
+     "Its molecule has an end for water and one for fat",
+     "It thickens the fat so it peels off the skin"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Molekuly mýdla se tukovými konci zanoří do mastnoty a vodomilnými konci míří ven. Vzniknou drobné kuličky (micely), které voda snadno odplaví.",
+    "en": "Soap molecules bury their fat-loving ends in the grease while their water-loving ends face outward. This forms tiny spheres (micelles) that water easily rinses away."
+   }
+  },
+  {
+   "id": "T251-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Šťáva z červeného zelí funguje jako indikátor pH. Jakou barvu dostane, když do ní kápnete ocet?",
+    "en": "Red cabbage juice works as a pH indicator. What colour does it turn when you add vinegar?"
+   },
+   "moznosti": {
+    "cs": [
+     "Modrozelenou",
+     "Růžovočervenou",
+     "Tmavě modrou",
+     "Žlutozelenou"
+    ],
+    "en": [
+     "Blue-green",
+     "Pinkish red",
+     "Dark blue",
+     "Yellow-green"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Barvivo antokyan je v kyselém prostředí červené až růžové, v neutrálním fialové a v zásaditém přechází přes modrou a zelenou až do žluté. S jedlou sodou tedy šťáva zmodrá až zezelená.",
+    "en": "The anthocyanin pigment is red to pink in acids, purple when neutral, and shifts through blue and green to yellow in alkaline solutions. With baking soda, the juice turns blue to green."
+   }
+  },
+  {
+   "id": "T251-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Z čeho se převážně skládá vodní kámen v rychlovarné konvici?",
+    "en": "What is the limescale in an electric kettle mainly made of?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z oxidu železitého",
+     "Ze síranu měďnatého",
+     "Z chloridu sodného",
+     "Z uhličitanu vápenatého"
+    ],
+    "en": [
+     "Iron(III) oxide",
+     "Copper(II) sulfate",
+     "Sodium chloride",
+     "Calcium carbonate"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vodní kámen je hlavně uhličitan vápenatý. Tvrdá voda obsahuje rozpuštěný hydrogenuhličitan vápenatý a při ohřevu se z ní uhličitan vylučuje, proto se usazuje hlavně v konvicích, bojlerech a potrubí s teplou vodou.",
+    "en": "Limescale consists mainly of calcium carbonate. Hard water contains dissolved calcium bicarbonate, and heating makes the carbonate precipitate, which is why scale builds up mostly in kettles, boilers and hot-water pipes."
+   }
+  },
+  {
+   "id": "T251-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Svodidla u silnic chrání před korozí tenký povlak kovu, který koroduje dřív než ocel, a tak ji chrání i tam, kde je poškrábaný. Který kov to je?",
+    "en": "Roadside crash barriers are protected from corrosion by a thin coating of a metal that corrodes before the steel does, protecting it even where scratched. Which metal is it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zinek",
+     "Olovo",
+     "Cín",
+     "Měď"
+    ],
+    "en": [
+     "Zinc",
+     "Lead",
+     "Tin",
+     "Copper"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Zinek je reaktivnější než železo, takže se „obětuje“ a koroduje místo oceli. Tomuto pokovení se říká žárové zinkování (anglicky galvanizing), ochrana ale vydrží jen do spotřebování zinku.",
+    "en": "Zinc is more reactive than iron, so it 'sacrifices' itself and corrodes instead of the steel. This coating is called galvanizing, but the protection lasts only until the zinc is used up."
+   }
+  },
+  {
+   "id": "T251-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Nepřilnavý teflon (PTFE) na pánvích se skládá jen z uhlíku a kterého dalšího prvku?",
+    "en": "Non-stick Teflon (PTFE) on frying pans consists only of carbon and which other element?"
+   },
+   "moznosti": {
+    "cs": [
+     "Fluoru",
+     "Křemíku",
+     "Síry",
+     "Chloru"
+    ],
+    "en": [
+     "Fluorine",
+     "Silicon",
+     "Sulfur",
+     "Chlorine"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Polytetrafluorethylen tvoří jen uhlík a fluor. Je velmi kluzký (koeficient tření jen 0,05–0,10) a odpuzuje vodu, takže se k němu jídlo nepřichytí. Objevil ho náhodou roku 1938 Roy Plunkett z firmy DuPont.",
+    "en": "Polytetrafluoroethylene consists only of carbon and fluorine. It is very slippery (a friction coefficient of just 0.05–0.10) and water-repellent, so food does not stick to it. It was discovered by accident in 1938 by Roy Plunkett of DuPont."
+   }
+  },
+  {
+   "id": "T251-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která látka dává ohňostrojům sytě červenou barvu?",
+    "en": "Which substance gives fireworks their deep red colour?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sloučeniny mědi",
+     "Sloučeniny stroncia",
+     "Sloučeniny sodíku",
+     "Sloučeniny barya"
+    ],
+    "en": [
+     "Copper compounds",
+     "Strontium compounds",
+     "Sodium compounds",
+     "Barium compounds"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Červenou dávají sloučeniny stroncia. Baryum barví plamen zeleně, sodík žlutě a měď modře – sytá modrá je přitom pro pyrotechniky pověstně obtížná.",
+    "en": "Red comes from strontium compounds. Barium colours a flame green, sodium yellow and copper blue – and a deep blue is notoriously difficult for pyrotechnicians."
+   }
+  },
+  {
+   "id": "T251-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ozon (O₃) pojmenoval chemik Christian Friedrich Schönbein podle řeckého slova ozein. Které vlastnosti plynu se název týká?",
+    "en": "Ozone (O₃) was named by the chemist Christian Friedrich Schönbein after the Greek word ozein. Which property of the gas does the name refer to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Výbušnosti",
+     "Pachu",
+     "Jedovatosti",
+     "Barvy"
+    ],
+    "en": [
+     "Its explosiveness",
+     "Its smell",
+     "Its toxicity",
+     "Its colour"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ozein znamená „vonět, páchnout“. Schönbein v něm poznal pach, který se často line vzduchem po úderu blesku.",
+    "en": "Ozein means 'to smell'. Schönbein recognised the odour as the smell that often follows a lightning strike."
+   }
+  },
+  {
+   "id": "T251-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Stupnici pH zavedl roku 1909 dánský chemik Søren P. L. Sørensen. Kde tehdy pracoval?",
+    "en": "The pH scale was introduced in 1909 by the Danish chemist Søren P. L. Sørensen. Where was he working at the time?"
+   },
+   "moznosti": {
+    "cs": [
+     "V kodaňské městské nemocnici",
+     "V porcelánce Royal Copenhagen",
+     "V mýdlárně v Odense",
+     "V laboratoři pivovaru Carlsberg"
+    ],
+    "en": [
+     "At Copenhagen's municipal hospital",
+     "At the Royal Copenhagen porcelain factory",
+     "At a soap works in Odense",
+     "At the Carlsberg brewery's laboratory"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Sørensen tehdy pracoval v Carlsbergově laboratoři (Carlsberg Laboratory). Jeho pojetí bylo roku 1924 upraveno na dnešní pH.",
+    "en": "Sørensen was working at the Carlsberg Laboratory at the time. His concept was revised in 1924 into today's pH."
+   }
+  },
+  {
+   "id": "T251-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Při výrobě mýdla z tuku a louhu vzniká vedle mýdla ještě jedna látka. Někteří výrobci ji v mýdle nechávají, protože ho změkčuje. Která?",
+    "en": "When soap is made from fat and lye, one other substance forms alongside the soap. Some makers leave it in the bar as a softening agent. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vazelína",
+     "Parafín",
+     "Lanolin",
+     "Glycerol"
+    ],
+    "en": [
+     "Petroleum jelly",
+     "Paraffin",
+     "Lanolin",
+     "Glycerol"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Louh při zmýdelnění rozštěpí tuky na soli mastných kyselin (mýdlo) a glycerol. S hydroxidem sodným vzniká tuhé mýdlo, s hydroxidem draselným měkké nebo tekuté.",
+    "en": "During saponification, lye splits fats into fatty acid salts (soap) and glycerol. Sodium hydroxide gives a firm soap, potassium hydroxide a soft or liquid one."
+   }
+  },
+  {
+   "id": "T251-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Varné a laboratorní sklo snese prudké změny teplot díky malé tepelné roztažnosti. Oxid kterého prvku je v něm klíčovou přísadou?",
+    "en": "Cooking and laboratory glass withstands sudden temperature changes thanks to its low thermal expansion. The oxide of which element is its key added ingredient?"
+   },
+   "moznosti": {
+    "cs": [
+     "Olova",
+     "Chromu",
+     "Kobaltu",
+     "Boru"
+    ],
+    "en": [
+     "Lead",
+     "Chromium",
+     "Cobalt",
+     "Boron"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jde o borosilikátové sklo, které obvykle obsahuje 12–13 % oxidu boritého. Tepelný šok snáší lépe než kterékoli jiné běžné sklo; vyrábí ho například česká firma Kavalierglass pod značkou Simax.",
+    "en": "It is borosilicate glass, which typically contains 12–13% boron trioxide. It resists thermal shock better than any other common glass."
+   }
+  },
+  {
+   "id": "T251-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Tabule ve starých oknech bývají dole silnější než nahoře. Proč?",
+    "en": "Panes in old windows are often thicker at the bottom than at the top. Why?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sklo za staletí pomalu steklo dolů",
+     "Dole se do skla vsákla vlhkost",
+     "Už se tak nerovnoměrně vyrobily",
+     "Spodek skla zesílily usazeniny prachu"
+    ],
+    "en": [
+     "Over centuries the glass slowly flowed downward",
+     "Moisture soaked into the glass at the bottom",
+     "They were made uneven to begin with",
+     "Dust deposits thickened the bottom of the glass"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Populární představa, že sklo je pomalu tekoucí kapalina, neplatí: ztuhlé sklo neteče. Nerovnosti ve starém skle tam byly už v den, kdy bylo vyrobeno, protože tehdejší výroba nedávala rovnoměrně silné tabule.",
+    "en": "The popular idea that glass is a slowly flowing liquid is wrong: once solidified, glass does not flow. The sags in old glass were there the day it was made, because the manufacturing methods of the time could not produce panes of even thickness."
+   }
+  },
+  {
+   "id": "T251-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kostku ledu z těžké vody (D₂O) hodíte do sklenice obyčejné vody. Co udělá?",
+    "en": "You drop an ice cube made of heavy water (D₂O) into a glass of ordinary water. What does it do?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vznáší se uprostřed",
+     "Okamžitě se rozpustí",
+     "Plave jako běžný led",
+     "Klesne ke dnu"
+    ],
+    "en": [
+     "It hovers in the middle",
+     "It melts instantly",
+     "It floats like ordinary ice",
+     "It sinks to the bottom"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Těžká voda je asi o 10,6 % hustší než obyčejná a i její led je těžší než běžná voda, takže klesne. Taje navíc až při zhruba 3,8 °C.",
+    "en": "Heavy water is about 10.6% denser than ordinary water, and even its ice is heavier than normal water, so it sinks. It also melts only at about 3.8 °C (38.8 °F)."
+   }
+  },
+  {
+   "id": "T251-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč plamen svíčky svítí žlutě?",
+    "en": "Why does a candle flame glow yellow?"
+   },
+   "moznosti": {
+    "cs": [
+     "Páry vosku svítí svou vlastní barvou",
+     "Hoří v něm vodík uvolněný z vosku",
+     "Září v něm rozžhavené částečky sazí",
+     "Kyslík ze vzduchu se v teple rozzáří"
+    ],
+    "en": [
+     "Wax vapour glows with its own colour",
+     "Hydrogen released from the wax burns in it",
+     "Glowing hot soot particles shine in it",
+     "Oxygen from the air lights up in the heat"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Žluté světlo vyzařují rozžhavené částečky sazí, tedy drobounká zrnka uhlíku. Modrá spodní část plamene vzniká jinak, chemiluminiscencí. Svíčce věnoval Michael Faraday slavné přednášky (The Chemical History of a Candle).",
+    "en": "The yellow light comes from hot soot particles, tiny grains of carbon. The blue base of the flame arises differently, through chemiluminescence. Michael Faraday devoted his famous lectures The Chemical History of a Candle to it."
+   }
+  },
+  {
+   "id": "T251-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kde je u bezpečnostních zápalek červený fosfor?",
+    "en": "Where is the red phosphorus in safety matches?"
+   },
+   "moznosti": {
+    "cs": [
+     "V hlavičce každé zápalky",
+     "V laku na povrchu hlavičky",
+     "Na škrtací ploše krabičky",
+     "V napuštěném dřevěném dřívku"
+    ],
+    "en": [
+     "In the head of each match",
+     "In the varnish on the head",
+     "On the box's striking surface",
+     "In the impregnated wooden stick"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hlavním vylepšením bezpečnostních zápalek bylo přesunout červený fosfor na zvláštní škrtací plochu. Nápad přišel roku 1844 od Švéda Gustafa Erika Pasche, který si ho nechal patentovat, a velkovýrobu zápalek v Jönköpingu rozjeli bratři Lundströmové.",
+    "en": "The key innovation of safety matches was moving red phosphorus onto a separate striking surface. The idea came in 1844 from the Swede Gustaf Erik Pasch, who patented it, and the Lundström brothers launched large-scale match production in Jönköping."
+   }
+  },
+  {
+   "id": "T251-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Anglický duchovní a přírodovědec roku 1767 v Leedsu umístil misku s vodou nad kádí s pivem v pivovaru a získal vodu sycenou plynem. Kdo to byl?",
+    "en": "In 1767 in Leeds, an English clergyman and natural philosopher placed a bowl of water above a beer vat at a brewery and obtained water charged with gas. Who was he?"
+   },
+   "moznosti": {
+    "cs": [
+     "Humphry Davy",
+     "Johann Jacob Schweppe",
+     "Henry Cavendish",
+     "Joseph Priestley"
+    ],
+    "en": [
+     "Humphry Davy",
+     "Johann Jacob Schweppe",
+     "Henry Cavendish",
+     "Joseph Priestley"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Priestley tak sodovku objevil náhodou a nezávisle na jiných. Na jeho objev navázal Johann Jacob Schweppe, který roku 1783 v Ženevě založil firmu Schweppes na lahvovanou sodovou vodu.",
+    "en": "Priestley discovered soda water this way, by accident and independently of others. His discovery was taken up by Johann Jacob Schweppe, who founded Schweppes in Geneva in 1783 to sell bottled soda water."
+   }
+  },
+  {
+   "id": "T251-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co označují dvě šestky v názvu nylon 66 (nylon 6,6)?",
+    "en": "What do the two sixes in the name nylon 66 (nylon 6,6) stand for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Počet uhlíků v každé výchozí látce",
+     "Šestou verzi receptury firmy DuPont",
+     "Den a měsíc, kdy nylon poprvé vznikl",
+     "Počet atomů dusíku v článku řetězce"
+    ],
+    "en": [
+     "Carbon atoms in each of its two monomers",
+     "DuPont's sixth successful recipe version",
+     "The day and month it was first produced",
+     "Nitrogen atoms in each repeating chain unit"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Nylon 66 vzniká ze dvou monomerů se šesti atomy uhlíku: hexamethylendiaminu a kyseliny adipové. Výrobní postup patentoval Wallace Carothers pro firmu DuPont.",
+    "en": "Nylon 66 is made from two monomers with six carbon atoms each: hexamethylenediamine and adipic acid. The production method was patented by Wallace Carothers for DuPont."
+   }
+  },
+  {
+   "id": "T251-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Alkalická baterie vděčí za své jméno chemické povaze jedné ze svých součástí. Které?",
+    "en": "The alkaline battery owes its name to the chemical nature of one of its components. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Elektrolytu",
+     "Lithiové elektrody",
+     "Uhlíkové tyčinky",
+     "Zinkového pláště"
+    ],
+    "en": [
+     "Its electrolyte",
+     "Its lithium electrode",
+     "Its carbon rod",
+     "Its zinc casing"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Alkalická baterie se jmenuje podle zásaditého (alkalického) elektrolytu, hydroxidu draselného (KOH). Ten se při reakci zinku s oxidem manganičitým nespotřebovává.",
+    "en": "The alkaline battery is named after its alkaline electrolyte, potassium hydroxide (KOH). The electrolyte is not consumed as the zinc reacts with the manganese dioxide."
+   }
+  }
+ ]
+}

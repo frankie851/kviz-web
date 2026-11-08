@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T358",
+ "nazev": {
+  "cs": "Plíce, dýchání a hlas",
+  "en": "Lungs, Breathing and the Voice"
+ },
+ "kategorie": {
+  "id": "lidske-telo",
+  "nazev": {
+   "cs": "Lidské tělo",
+   "en": "Human Body"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T358-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč je levá plíce menší než pravá?",
+    "en": "Why is the left lung smaller than the right one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Část místa v hrudníku zabírá srdce",
+     "Má jen jeden lalok",
+     "Pod ní leží játra",
+     "Nad ní leží štítná žláza"
+    ],
+    "en": [
+     "The heart takes up part of the space in the chest",
+     "It has only one lobe",
+     "The liver lies beneath it",
+     "The thyroid gland sits above it"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Levá plíce se dělí o místo v hrudníku se srdcem, proto je menší a lehčí. Obě plíce dohromady váží zhruba 1,3 kg.",
+    "en": "The left lung shares space in the chest with the heart, so it is smaller and lighter. Together the two lungs weigh about 1.3 kg (2.9 lb)."
+   }
+  },
+  {
+   "id": "T358-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kde v dýchací soustavě přechází kyslík ze vzduchu do krve?",
+    "en": "Where in the respiratory system does oxygen pass from the air into the blood?"
+   },
+   "moznosti": {
+    "cs": [
+     "V plicních sklípcích",
+     "V pohrudniční dutině",
+     "Ve sliznici průdušnice",
+     "V hlavních průduškách"
+    ],
+    "en": [
+     "In the alveoli",
+     "In the pleural cavity",
+     "In the lining of the trachea",
+     "In the main bronchi"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Výměna plynů probíhá v plicních sklípcích (alveolech), obalených hustou sítí vlásečnic. Jeden sklípek má průměr jen asi 0,2–0,5 mm.",
+    "en": "Gas exchange takes place in the alveoli, which are wrapped in a dense network of capillaries. A single alveolus is only about 0.2–0.5 mm (0.008–0.02 in) across."
+   }
+  },
+  {
+   "id": "T358-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolikrát za minutu se zhruba nadechne zdravý dospělý člověk v klidu?",
+    "en": "Roughly how many breaths per minute does a healthy adult take at rest?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 3–5krát",
+     "Asi 12–20krát",
+     "Asi 40–50krát",
+     "Asi 80–100krát"
+    ],
+    "en": [
+     "About 3–5",
+     "About 12–20",
+     "About 40–50",
+     "About 80–100"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Klidová dechová frekvence zdravého dospělého se uvádí zhruba 12–20 nádechů za minutu, některé zdroje píší 12–18. Kojenci do půl roku dýchají asi 30–60krát za minutu.",
+    "en": "The resting breathing rate of a healthy adult is given as roughly 12–20 breaths per minute, with some sources saying 12–18. Babies up to six months old breathe about 30–60 times a minute."
+   }
+  },
+  {
+   "id": "T358-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterého plynu je ve vydechovaném vzduchu výrazně víc než ve vdechovaném?",
+    "en": "Which gas is present in much greater amounts in exhaled air than in inhaled air?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vzácného plynu argonu",
+     "Oxidu uhličitého",
+     "Dusíku",
+     "Kyslíku"
+    ],
+    "en": [
+     "The noble gas argon",
+     "Carbon dioxide",
+     "Nitrogen",
+     "Oxygen"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Vzduch, který vdechujeme, obsahuje jen stopy oxidu uhličitého, kdežto vydechovaný vzduch ho má asi 4–5 %. Je to odpadní produkt buněčného dýchání.",
+    "en": "The air we breathe in contains only a trace of carbon dioxide, while exhaled air contains about 4–5%. It is a waste product of cellular respiration."
+   }
+  },
+  {
+   "id": "T358-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím je zívání proslulé?",
+    "en": "What is yawning well known for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vyskytuje se jen u lidí",
+     "Trvá obvykle přes minutu",
+     "Vyvolává ho pouze únava",
+     "Je nakažlivé"
+    ],
+    "en": [
+     "It occurs only in humans",
+     "It usually lasts over a minute",
+     "It is caused only by tiredness",
+     "It is contagious"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Když někdo zívne, často tím „nakazí“ i ostatní; vědci to spojují s empatií a citovou blízkostí, ale spor není uzavřený. Zívá téměř každý obratlovec, od savců přes ptáky až po ryby.",
+    "en": "When one person yawns, it often sets off others; scientists link this to empathy and emotional closeness, though the debate is unresolved. Almost all vertebrates yawn, from mammals and birds to fish."
+   }
+  },
+  {
+   "id": "T358-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá trubice, která vede vzduch z hrtanu do průdušek?",
+    "en": "What is the name of the tube that carries air from the larynx to the bronchi?"
+   },
+   "moznosti": {
+    "cs": [
+     "Průdušnice",
+     "Jícen",
+     "Hltan",
+     "Nosohltan"
+    ],
+    "en": [
+     "Trachea (windpipe)",
+     "Oesophagus",
+     "Pharynx",
+     "Nasopharynx"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Průdušnice (trachea) je u dospělého asi 10–11 cm dlouhá a drží ji otevřenou 16–20 chrupavčitých prstenců otevřených dozadu jako podkova. Řasinky v její výstelce posouvají hlen se zachyceným prachem nahoru a ven.",
+    "en": "The trachea (windpipe) is about 10–11 cm (4–4.3 in) long in adults and is held open by 16–20 C-shaped rings of cartilage. Cilia in its lining move mucus and trapped particles up and out."
+   }
+  },
+  {
+   "id": "T358-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které části dýchacích cest jsou uloženy hlasivky?",
+    "en": "In which part of the airway are the vocal cords located?"
+   },
+   "moznosti": {
+    "cs": [
+     "V průdušnici",
+     "V hrtanu",
+     "V nosní dutině",
+     "V průduškách"
+    ],
+    "en": [
+     "In the trachea",
+     "In the larynx",
+     "In the nasal cavity",
+     "In the bronchi"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Hlasivky leží v hrtanu. Štěrbina mezi nimi se nazývá hlasivková štěrbina (rima glottidis).",
+    "en": "The vocal cords sit in the larynx. The gap between them is called the rima glottidis."
+   }
+  },
+  {
+   "id": "T358-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá prohloubení hlasu chlapců v pubertě?",
+    "en": "What is the deepening of boys' voices during puberty called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rezonance",
+     "Transpozice",
+     "Mutace",
+     "Modulace"
+    ],
+    "en": [
+     "Voice resonance",
+     "Voice transposition",
+     "Voice mutation",
+     "Voice modulation"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vlivem testosteronu roste hrtan a hlasivky se prodlužují a zesilují, takže mužský hlas obvykle klesne asi o oktávu. Definitivně se hlas ustálí až kolem 21–25 let.",
+    "en": "Under the influence of testosterone the larynx grows and the vocal folds get longer and thicker, so the male voice typically drops by about an octave. It does not fully stabilise until around age 21–25."
+   }
+  },
+  {
+   "id": "T358-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá nejvyšší ženský hlasový obor?",
+    "en": "What is the highest female voice type called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mezzosoprán",
+     "Kontraalt",
+     "Soprán",
+     "Alt"
+    ],
+    "en": [
+     "Mezzo-soprano",
+     "Contralto",
+     "Soprano",
+     "Alto"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Soprán má ze všech hlasových oborů nejvyšší rozsah. Název pochází z italského sopra – nad, navrchu.",
+    "en": "The soprano has the highest range of all voice types. The name comes from the Italian sopra – above, on top."
+   }
+  },
+  {
+   "id": "T358-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se jmenuje přístroj, do kterého člověk dýchá při vyšetření, kolik vzduchu dokáže vdechnout a vydechnout?",
+    "en": "What is the name of the device a person breathes into during a test of how much air they can breathe in and out?"
+   },
+   "moznosti": {
+    "cs": [
+     "Audiometr",
+     "Glukometr",
+     "Tlakoměr",
+     "Spirometr"
+    ],
+    "en": [
+     "Audiometer",
+     "Glucometer",
+     "Blood pressure monitor",
+     "Spirometer"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Spirometr měří objemy a rychlost proudění vdechovaného a vydechovaného vzduchu, například vitální kapacitu plic. Název pochází z latinského spirare – dýchat.",
+    "en": "A spirometer measures the volume and flow of air breathed in and out, for example the vital capacity of the lungs. The name comes from the Latin spirare – to breathe."
+   }
+  },
+  {
+   "id": "T358-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik laloků má pravá plíce?",
+    "en": "How many lobes does the right lung have?"
+   },
+   "moznosti": {
+    "cs": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "en": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pravá plíce má tři laloky – horní, střední a dolní. Je také větší a těžší než levá.",
+    "en": "The right lung has three lobes – upper, middle and lower. It is also bigger and heavier than the left one."
+   }
+  },
+  {
+   "id": "T358-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co udělá bránice při nádechu?",
+    "en": "What does the diaphragm do when you breathe in?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nehýbe se, plíce se roztahují samy",
+     "Zvedne se a stlačí plíce",
+     "Uvolní se a vtlačí vzduch do plic",
+     "Stáhne se a zvětší prostor hrudníku"
+    ],
+    "en": [
+     "It stays still while the lungs expand on their own",
+     "It rises and squeezes the lungs",
+     "It relaxes and pushes air into the lungs",
+     "It contracts and enlarges the chest cavity"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Stah klenuté bránice zvětší hrudní dutinu, tlak v ní klesne a vzduch proudí do plic. Klidný výdech je pasivní: bránice povolí a pružné plíce se smrští.",
+    "en": "Contraction of the dome-shaped diaphragm enlarges the chest cavity, lowering the pressure inside so that air flows into the lungs. Quiet exhalation is passive: the diaphragm relaxes and the elastic lungs recoil."
+   }
+  },
+  {
+   "id": "T358-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik vzduchu zhruba vdechne dospělý člověk při jednom klidném nádechu?",
+    "en": "Roughly how much air does an adult take in with one quiet breath?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 0,05 l",
+     "Asi 0,5 l",
+     "Asi 2 l",
+     "Asi 5 l"
+    ],
+    "en": [
+     "About 0.05 L (1.7 US fl oz)",
+     "About 0.5 L (1 US pint)",
+     "About 2 L (2.1 US quarts)",
+     "About 5 L (1.3 US gallons)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Klidový dechový objem je obvykle asi 500–750 ml. Celková kapacita plic přitom činí zhruba 4–6 litrů podle věku, výšky a pohlaví.",
+    "en": "The resting tidal volume is normally about 500–750 mL (17–25 US fl oz). Total lung capacity is about 4–6 L (4.2–6.3 US quarts), depending on age, height and sex."
+   }
+  },
+  {
+   "id": "T358-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Vdechovaný vzduch obsahuje asi 21 % kyslíku. Kolik kyslíku zhruba zůstává ve vzduchu, který vydechujeme?",
+    "en": "Inhaled air contains about 21% oxygen. Roughly how much oxygen is left in the air we breathe out?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 1 %",
+     "Asi 5 %",
+     "Asi 16 %",
+     "Asi 20,9 %"
+    ],
+    "en": [
+     "About 1%",
+     "About 5%",
+     "About 16%",
+     "About 20.9%"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Do krve přejde jen menší část vdechnutého kyslíku, takže vydechovaný vzduch ho má stále asi 14–16 %.",
+    "en": "Only a small part of the inhaled oxygen passes into the blood, so exhaled air still contains about 14–16%."
+   }
+  },
+  {
+   "id": "T358-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co je pneumotorax?",
+    "en": "What is a pneumothorax?"
+   },
+   "moznosti": {
+    "cs": [
+     "Křeč průdušek při astmatu",
+     "Sraženina v plicní tepně",
+     "Vzduch mezi plící a hrudní stěnou",
+     "Zánět plicních sklípků"
+    ],
+    "en": [
+     "Spasm of the bronchi in asthma",
+     "A blood clot in the pulmonary artery",
+     "Air between the lung and the chest wall",
+     "Inflammation of the alveoli"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Při pneumotoraxu se nahromadí vzduch v pohrudniční (pleurální) dutině a plíce částečně nebo úplně splaskne. Typicky se ohlásí náhlou ostrou bolestí na jedné straně hrudníku a dušností.",
+    "en": "In a pneumothorax, air collects in the pleural space and the lung partly or fully collapses. It typically announces itself with sudden, sharp, one-sided chest pain and shortness of breath."
+   }
+  },
+  {
+   "id": "T358-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím se šepot liší od běžné řeči?",
+    "en": "How does whispering differ from normal speech?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hlasivky při něm kmitají rychleji",
+     "Hlasivky při něm nekmitají",
+     "Vzduch při něm proudí jen nosem",
+     "Mluví se při něm během nádechu"
+    ],
+    "en": [
+     "The vocal cords vibrate faster",
+     "The vocal cords do not vibrate",
+     "The air flows only through the nose",
+     "It is spoken while breathing in"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Při šepotu jsou hlasivky od sebe a zvuk vzniká jen šuměním vzduchu, který hrtanem proudí. Hlasivky to přitom u některých lidí namáhá víc než běžná řeč.",
+    "en": "When whispering, the vocal cords are held apart and the sound comes only from turbulent air rushing through the larynx. In some people this actually strains the vocal cords more than normal speech."
+   }
+  },
+  {
+   "id": "T358-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč se na vrcholu Mount Everestu tak těžko dýchá?",
+    "en": "Why is it so hard to breathe on the summit of Mount Everest?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vzduch je řidší, podíl kyslíku je ale stejný",
+     "Kyslík tvoří jen asi 7 % tamního vzduchu",
+     "Mráz tam zúží průdušky asi na polovinu",
+     "Vzduch tam má mnohem víc oxidu uhličitého"
+    ],
+    "en": [
+     "The air is thinner, but the share of oxygen is the same",
+     "Oxygen makes up only about 7% of the air there",
+     "The cold narrows the bronchi to about half",
+     "The air there has much more carbon dioxide"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kyslík tvoří i ve velké výšce prakticky stejných asi 21 % vzduchu jako u moře, ale vzduch je řidší, takže každý nádech přinese do plic méně kyslíku. Horská nemoc se obvykle objevuje nad 2 500 m.",
+    "en": "Even at high altitude oxygen makes up practically the same 21% of the air as at sea level, but the air is thinner, so each breath brings less oxygen into the lungs. Altitude sickness usually appears above 2,500 m (8,200 ft)."
+   }
+  },
+  {
+   "id": "T358-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve které části mozku leží dýchací centrum, které udává rytmus dýchání?",
+    "en": "In which part of the brain is the respiratory centre that sets the rhythm of breathing?"
+   },
+   "moznosti": {
+    "cs": [
+     "V týlním laloku",
+     "V mozečku",
+     "V prodloužené míše",
+     "V hypofýze"
+    ],
+    "en": [
+     "In the occipital lobe",
+     "In the cerebellum",
+     "In the medulla oblongata",
+     "In the pituitary gland"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Dýchací centrum leží v mozkovém kmeni, v prodloužené míše a Varolově mostě. Vytváří a udržuje rytmus dýchání a podle potřeb těla mění jeho frekvenci i hloubku.",
+    "en": "The respiratory centre lies in the brainstem, in the medulla oblongata and the pons. It generates and maintains the rhythm of breathing and adjusts its rate and depth to the body's needs."
+   }
+  },
+  {
+   "id": "T358-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co se podle doporučení většiny organizací (např. americké AHA či britské NHS) dělá u dušícího se dospělého, který nedokáže sousto vykašlat, ještě před Heimlichovým manévrem?",
+    "en": "According to most organisations (e.g. the American Heart Association or the UK's NHS), what is done for a choking adult who cannot cough the object out, before the Heimlich manoeuvre?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zahájí se dýchání z úst do úst",
+     "Podá se mu napít vody",
+     "Položí se na záda se zvednutýma nohama",
+     "Udeří se silně několikrát do zad"
+    ],
+    "en": [
+     "Start mouth-to-mouth breathing",
+     "Give them a drink of water",
+     "Lay them on their back with legs raised",
+     "Give several firm blows to the back"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Postižený se nejdřív povzbudí ke kašli, pak následují silné údery do zad. Když nepomohou, přichází stlačení nadbřišku (Heimlichův manévr); obojí se provádí po pěti a opakuje.",
+    "en": "The person is first encouraged to cough, followed by firm back blows. If these fail, abdominal thrusts (the Heimlich manoeuvre) follow; each is done five times and the cycle is repeated."
+   }
+  },
+  {
+   "id": "T358-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Traduje se, že s otevřenýma očima nelze kýchnout. Jak to ve skutečnosti je?",
+    "en": "It is often said that you cannot sneeze with your eyes open. What is the truth?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nejde to – víčka a bránici ovládá týž nerv",
+     "Jde to – tvrzení, že to nelze, je mýtus",
+     "Nejde to – tlak by poškodil oční bulvy",
+     "Jde to jen ve tmě, na světle nikdy"
+    ],
+    "en": [
+     "You cannot – the eyelids and diaphragm are controlled by the same nerve",
+     "You can – the claim that it is impossible is a myth",
+     "You cannot – the pressure would damage the eyeballs",
+     "You can only in the dark, never in the light"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Oči se při kýchnutí obvykle reflexně zavřou, ale tvrzení, že s otevřenýma očima kýchnout nelze, je nepřesné. Ve spánku se naopak nekýchá – dostatečně silné podráždění člověka nejdřív probudí.",
+    "en": "The eyes usually close reflexively during a sneeze, but the claim that sneezing with open eyes is impossible is inaccurate. In sleep, on the other hand, we do not sneeze – a strong enough irritation wakes us up first."
+   }
+  },
+  {
+   "id": "T358-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Předčasně narozené děti často trpí syndromem dechové tísně, protože jejich plíce ještě netvoří dost surfaktantu. K čemu tato látka slouží?",
+    "en": "Premature babies often suffer from respiratory distress syndrome because their lungs do not yet produce enough surfactant. What does this substance do?"
+   },
+   "moznosti": {
+    "cs": [
+     "Snižuje povrchové napětí, aby sklípky nesplaskly",
+     "Zvlhčuje a ohřívá vdechovaný vzduch",
+     "Ničí bakterie, které proniknou do průdušek",
+     "Váže kyslík podobně jako hemoglobin"
+    ],
+    "en": [
+     "It lowers surface tension so the alveoli do not collapse",
+     "It moistens and warms the inhaled air",
+     "It destroys bacteria that get into the bronchi",
+     "It binds oxygen in a similar way to haemoglobin"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Surfaktant je tenký film fosfolipidů ze sklípkových buněk II. typu; bez něj by sklípky splaskly. Dostatečně se tvoří až kolem 35. týdne těhotenství.",
+    "en": "Surfactant is a thin film of phospholipids released by type II alveolar cells; without it the alveoli would collapse. Adequate amounts are not produced until about the 35th week of pregnancy."
+   }
+  },
+  {
+   "id": "T358-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Dánský lékař Christian Bohr, otec fyzika Nielse Bohra, popsal roku 1904 jev dnes nazývaný Bohrův efekt. Co popisuje?",
+    "en": "In 1904 the Danish physician Christian Bohr, father of the physicist Niels Bohr, described what is now called the Bohr effect. What does it describe?"
+   },
+   "moznosti": {
+    "cs": [
+     "CO₂ a kyselé prostředí pomáhají hemoglobinu uvolnit kyslík",
+     "V kyselém prostředí se hemoglobin rozpadá na železo a bílkovinu",
+     "Zadržený dech zrychluje vstřebávání kyslíku v plicích",
+     "Čím víc CO₂ je v krvi, tím víc kyslíku hemoglobin váže"
+    ],
+    "en": [
+     "CO₂ and acidity help haemoglobin release oxygen",
+     "In acidic conditions haemoglobin breaks down into iron and protein",
+     "Holding your breath speeds up oxygen uptake in the lungs",
+     "The more CO₂ in the blood, the more oxygen haemoglobin binds"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Oxid uhličitý a vodíkové ionty snižují afinitu hemoglobinu ke kyslíku. V pracujících svalech, kde se tyto látky hromadí, tak hemoglobin snáz odevzdá kyslík. Bohrovými syny byli fyzik Niels a matematik Harald.",
+    "en": "Carbon dioxide and hydrogen ions lower haemoglobin's affinity for oxygen. In active muscles, where these substances build up, haemoglobin therefore releases oxygen more easily. Bohr's sons included the physicist Niels and the mathematician Harald."
+   }
+  },
+  {
+   "id": "T358-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč je nebezpečné před potápěním na nádech několikrát rychle a zhluboka dýchat (hyperventilovat)?",
+    "en": "Why is it dangerous to breathe rapidly and deeply (hyperventilate) several times before a breath-hold dive?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přesytí krev kyslíkem a hrozí otrava kyslíkem",
+     "Vysuší sliznici plic a zhorší výměnu plynů",
+     "Oddálí nutkání k nádechu a hrozí náhlé bezvědomí",
+     "Vytvoří v krvi bublinky dusíku jako u kesonové nemoci"
+    ],
+    "en": [
+     "It oversaturates the blood with oxygen, risking oxygen toxicity",
+     "It dries out the lining of the lungs and impairs gas exchange",
+     "It delays the urge to breathe, risking sudden blackout",
+     "It creates nitrogen bubbles in the blood as in decompression sickness"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Nutkání nadechnout se spouští stoupající oxid uhličitý, ne úbytek kyslíku. Hyperventilace sníží CO₂, aniž by kyslíku znatelně přidala, takže kyslík může klesnout pod hranici bezvědomí dřív, než se ozve potřeba vynořit se.",
+    "en": "The urge to breathe is triggered by rising carbon dioxide, not by falling oxygen. Hyperventilation lowers CO₂ without adding meaningful oxygen, so oxygen can drop to blackout levels before the diver feels any need to surface."
+   }
+  },
+  {
+   "id": "T358-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Varianta genu EPAS1, díky níž mnoho Tibeťanů dobře snáší život ve velké výšce, se k předkům dnešních lidí podle všeho dostala křížením s…",
+    "en": "The variant of the EPAS1 gene that helps many Tibetans cope with life at high altitude apparently reached the ancestors of modern humans through interbreeding with…"
+   },
+   "moznosti": {
+    "cs": [
+     "Člověkem vzpřímeným (Homo erectus)",
+     "Člověkem floreským (Homo floresiensis)",
+     "Neandertálci",
+     "Denisovany"
+    ],
+    "en": [
+     "Homo erectus",
+     "Homo floresiensis",
+     "Neanderthals",
+     "Denisovans"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Stejná výhodná varianta byla nalezena v genomu vyhynulých denisovanů, takže nejspíš vznikla u nich. Tibeťané s ní mají ve výšce relativně málo hemoglobinu a vyhnou se potížím z nadbytku červených krvinek.",
+    "en": "The same beneficial variant was found in the genome of the extinct Denisovans, suggesting it arose in them. Tibetans who carry it have relatively low haemoglobin at altitude, avoiding problems caused by too many red blood cells."
+   }
+  },
+  {
+   "id": "T358-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Dlouho se tvrdilo, že zíváme kvůli nedostatku kyslíku. Co ukázaly pokusy, v nichž lidé dýchali vzduch s více kyslíkem nebo s méně oxidem uhličitým?",
+    "en": "It was long claimed that we yawn because of a lack of oxygen. What did experiments show in which people breathed air with more oxygen or less carbon dioxide?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zívali zhruba o polovinu méně",
+     "Lidé přestali zívat úplně",
+     "Zívání ubylo jen u dětí",
+     "Zívání to nijak neomezilo"
+    ],
+    "en": [
+     "They yawned about half as often",
+     "People stopped yawning completely",
+     "Yawning decreased only in children",
+     "It did not reduce yawning at all"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Častost zívání se přidáním kyslíku ani snížením CO₂ nezmenšila, takže „kyslíková“ teorie neobstála. Jedna z novějších hypotéz (Gordon Gallup) naopak tvrdí, že zívání pomáhá ochlazovat mozek.",
+    "en": "Yawning frequency did not decrease when oxygen was added or carbon dioxide reduced, so the 'oxygen' theory did not hold up. One newer hypothesis (Gordon Gallup) instead proposes that yawning helps to cool the brain."
+   }
+  },
+  {
+   "id": "T358-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Od 17. století soudní lékaři vkládali plíce zemřelého novorozence do vody (tzv. plovací neboli hydrostatická zkouška). Co tím chtěli zjistit?",
+    "en": "From the 17th century, forensic doctors placed the lungs of a dead newborn in water (the so-called lung float or hydrostatic test). What were they trying to find out?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zda dítě zemřelo na zápal plic",
+     "Zda matka v těhotenství kouřila",
+     "Zda se dítě po porodu nadechlo",
+     "Jak dlouho bylo dítě mrtvé"
+    ],
+    "en": [
+     "Whether the baby had died of pneumonia",
+     "Whether the mother had smoked during pregnancy",
+     "Whether the baby had breathed after birth",
+     "How long the baby had been dead"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Plíce, které se nadechly, obsahují vzduch a plavou, kdežto nevzdušné klesnou ke dnu; zkouška se užívala při podezření na vraždu novorozence. Popsal ji v 70. letech 17. století Károly Rayger, spolehlivá ale není – plyny z rozkladu mohou nadnést i nevzdušné plíce.",
+    "en": "Lungs that have breathed contain air and float, while unaerated ones sink; the test was used in suspected infanticide cases. It was described in the 1670s by Károly Rayger, but it is not reliable – gases from decomposition can make even unaerated lungs float."
+   }
+  },
+  {
+   "id": "T358-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se podle Americké kardiologické asociace (AHA) liší první pomoc při dušení u kojence mladšího než jeden rok?",
+    "en": "According to the American Heart Association (AHA), how does first aid for choking differ for an infant under one year old?"
+   },
+   "moznosti": {
+    "cs": [
+     "Místo stlačování nadbřišku se stlačuje hrudník",
+     "Provede se stejný manévr na nadbřišku, jen jednou rukou a menší silou",
+     "Dítěti se podá trochu vody, aby uvízlé sousto spláchlo do žaludku",
+     "Dítě se uchopí za kotníky hlavou dolů a opakovaně se protřepe"
+    ],
+    "en": [
+     "Chest thrusts are used instead of abdominal thrusts",
+     "The same abdominal manoeuvre is done, just with one hand and less force",
+     "The baby is given a little water to wash the object down into the stomach",
+     "The baby is held upside down by the ankles and shaken repeatedly"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "U kojenců se stlačení nadbřišku nedoporučuje, protože může poškodit játra. Místo něj se opakovaně stlačuje hrudník.",
+    "en": "Abdominal thrusts are not recommended for infants because they can damage the liver. Instead, repeated chest thrusts are used."
+   }
+  },
+  {
+   "id": "T358-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Když zadržíte dech a ponoříte obličej do studené vody, spustí se potápěčský reflex. Co udělá se srdcem?",
+    "en": "When you hold your breath and put your face into cold water, the diving reflex kicks in. What does it do to your heart?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zastaví ho až na půl minuty",
+     "Tep nezmění, jen zesílí stahy",
+     "Zrychlí jeho tep",
+     "Zpomalí jeho tep"
+    ],
+    "en": [
+     "It stops the heart for up to half a minute",
+     "It leaves the rate unchanged and only strengthens the beats",
+     "It speeds up the heart rate",
+     "It slows the heart rate"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "U člověka tep klesne asi o 10–25 % a cévy v kůži, svalech a útrobách se zúží, aby okysličená krev zůstala pro životně důležité orgány. Reflex spouští chlad a voda na obličeji a v nose (trojklanný nerv), samotné ponoření končetin ne.",
+    "en": "In humans the heart rate drops by about 10–25% and blood vessels in the skin, muscles and viscera constrict to keep oxygenated blood for the vital organs. The reflex is triggered by cold water on the face and nose (trigeminal nerve); immersing the limbs alone does not trigger it."
+   }
+  },
+  {
+   "id": "T358-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jakou nejvyšší rychlost proudu vzduchu při kýchnutí odvodila studie z roku 2013, která kýchání dobrovolníků natáčela vysokorychlostní kamerou?",
+    "en": "What maximum sneeze airflow speed was derived by a 2013 study that filmed volunteers' sneezes with a high-speed camera?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 4,5 m/s (16 km/h)",
+     "Asi 20 m/s (72 km/h)",
+     "Asi 50 m/s (180 km/h)",
+     "Asi 100 m/s (360 km/h)"
+    ],
+    "en": [
+     "About 4.5 m/s (10 mph)",
+     "About 20 m/s (45 mph)",
+     "About 50 m/s (112 mph)",
+     "About 100 m/s (224 mph)"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Tým Juliana Tanga natočil kýchání šesti dobrovolníků rychlostí 2 000 snímků za sekundu. Často citovaných 100 m/s podle autorů u lidí nikdo nenaměřil – šlo jen o teoretický odhad ze zjednodušeného modelu.",
+    "en": "Julian Tang's team filmed the sneezes of six volunteers at 2,000 frames per second. According to the authors, the often-quoted 100 m/s was never measured in humans – it was only a theoretical inference from a simplified model."
+   }
+  },
+  {
+   "id": "T358-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Hlasivky dospělého muže při řeči kmitají v průměru zhruba kolikrát za sekundu?",
+    "en": "On average, roughly how many times per second do an adult man's vocal cords vibrate during speech?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 12krát",
+     "Asi 125krát",
+     "Asi 1 250krát",
+     "Asi 12 500krát"
+    ],
+    "en": [
+     "About 12",
+     "About 125",
+     "About 1,250",
+     "About 12,500"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Základní frekvence mužského hlasu je v průměru asi 125 Hz, u žen asi 210 Hz a u dětí přes 300 Hz. Mužské hlasivky jsou delší a silnější: měří asi 1,75–2,5 cm, ženské 1,25–1,75 cm.",
+    "en": "The fundamental frequency of the male voice averages about 125 Hz, compared with about 210 Hz in women and over 300 Hz in children. Male vocal folds are longer and thicker: about 1.75–2.5 cm (0.7–1 in) versus 1.25–1.75 cm (0.5–0.7 in) in women."
+   }
+  }
+ ]
+}

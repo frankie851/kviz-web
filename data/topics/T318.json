@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T318",
+ "nazev": {
+  "cs": "Féničané a Kartágo: Hannibal, purpur a abeceda",
+  "en": "The Phoenicians and Carthage: Hannibal, Purple Dye and the Alphabet"
+ },
+ "kategorie": {
+  "id": "historie",
+  "nazev": {
+   "cs": "Historie",
+   "en": "History"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T318-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém dnešním státě leží ruiny starověkého Kartága?",
+    "en": "In which present-day country are the ruins of ancient Carthage?"
+   },
+   "moznosti": {
+    "cs": [
+     "Alžírsko",
+     "Libye",
+     "Egypt",
+     "Tunisko"
+    ],
+    "en": [
+     "Algeria",
+     "Libya",
+     "Egypt",
+     "Tunisia"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kartágo leželo na pobřeží dnešního Tuniska, nedaleko hlavního města Tunisu. Jeho ruiny jsou od roku 1979 na seznamu světového dědictví UNESCO.",
+    "en": "Carthage stood on the coast of present-day Tunisia, near the capital Tunis. Its ruins have been a UNESCO World Heritage Site since 1979."
+   }
+  },
+  {
+   "id": "T318-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterou významnou věc převzali starověcí Řekové od Féničanů?",
+    "en": "Which important thing did the ancient Greeks adopt from the Phoenicians?"
+   },
+   "moznosti": {
+    "cs": [
+     "Abecední písmo",
+     "Porcelán",
+     "Kompas",
+     "Střelný prach"
+    ],
+    "en": [
+     "The alphabet",
+     "Porcelain",
+     "The compass",
+     "Gunpowder"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Fénické písmo mělo 22 znaků, které zapisovaly jen souhlásky. Řekové ho převzali a doplnili o samohlásky; z řecké alfabety pak přes staroitalická písma vznikla i latinka. Porcelán, kompas i střelný prach pocházejí z Číny.",
+    "en": "The Phoenician script had 22 letters that recorded only consonants. The Greeks adopted it and added vowels; the Greek alphabet in turn gave rise, via the Old Italic scripts, to the Latin alphabet. Porcelain, the compass and gunpowder all come from China."
+   }
+  },
+  {
+   "id": "T318-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik punských válek proběhlo mezi Římem a Kartágem?",
+    "en": "How many Punic Wars were fought between Rome and Carthage?"
+   },
+   "moznosti": {
+    "cs": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "en": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Byly tři: první (264–241 př. n. l.), druhá (218–201 př. n. l.) s Hannibalovým tažením do Itálie a třetí (149–146 př. n. l.). Dohromady se v nich bojovalo asi 43 let.",
+    "en": "There were three: the First (264–241 BC), the Second (218–201 BC) with Hannibal's invasion of Italy, and the Third (149–146 BC). Altogether they involved about 43 years of fighting."
+   }
+  },
+  {
+   "id": "T318-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Féničané proslavili drahé barvivo, které se stalo symbolem moci – ve 4. století n. l. ho směl nosit už jen římský císař. Jakou mělo barvu?",
+    "en": "The Phoenicians made famous a costly dye that became a symbol of power – by the 4th century AD only the Roman emperor was allowed to wear it. What colour was it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Smaragdově zelenou",
+     "Blankytně modrou",
+     "Purpurovou",
+     "Šafránově žlutou"
+    ],
+    "en": [
+     "Emerald green",
+     "Sky blue",
+     "Purple",
+     "Saffron yellow"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Tyrský purpur měl červenofialový odstín, který na slunci nevybledl, ale naopak zjasnil. Dítě narozené vládnoucímu byzantskému císaři se nazývalo porfyrogennétos (porphyrogennetos) – „zrozený v purpuru“.",
+    "en": "Tyrian purple was a reddish-purple that did not fade in sunlight but actually grew brighter. A child born to a reigning Byzantine emperor was called porphyrogennetos, 'born in the purple'."
+   }
+  },
+  {
+   "id": "T318-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém dnešním státě leží někdejší fénická města Týros, Sidón a Byblos?",
+    "en": "In which present-day country are the former Phoenician cities of Tyre, Sidon and Byblos?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Libanonu",
+     "V Turecku",
+     "V Egyptě",
+     "V Řecku"
+    ],
+    "en": [
+     "Lebanon",
+     "Turkey",
+     "Egypt",
+     "Greece"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jádro Fénicie leželo převážně na pobřeží dnešního Libanonu. Nejbohatším a nejmocnějším fénickým městem se v 10. století př. n. l. stal Týros, zvlášť za vlády krále Chírama I. (Hiram I).",
+    "en": "The Phoenician heartland lay mostly on the coast of present-day Lebanon. By the 10th century BC Tyre had become the richest and most powerful Phoenician city, especially under King Hiram I."
+   }
+  },
+  {
+   "id": "T318-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který římský vojevůdce porazil Hannibala roku 202 př. n. l. v bitvě u Zamy?",
+    "en": "Which Roman general defeated Hannibal at the Battle of Zama in 202 BC?"
+   },
+   "moznosti": {
+    "cs": [
+     "Julius Caesar",
+     "Marcus Antonius",
+     "Scipio",
+     "Pompeius"
+    ],
+    "en": [
+     "Julius Caesar",
+     "Mark Antony",
+     "Scipio",
+     "Pompey"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Publius Cornelius Scipio za vítězství ukončující druhou punskou válku získal triumf a čestné přízvisko Africanus. Caesar, Pompeius i Antonius působili až v 1. století př. n. l.",
+    "en": "Publius Cornelius Scipio was awarded a triumph and the honorary name Africanus for the victory that ended the Second Punic War. Caesar, Pompey and Antony were active only in the 1st century BC."
+   }
+  },
+  {
+   "id": "T318-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo podle legendy založil Kartágo?",
+    "en": "Who, according to legend, founded Carthage?"
+   },
+   "moznosti": {
+    "cs": [
+     "Královna Zenobie",
+     "Královna Semiramis",
+     "Královna Kleopatra",
+     "Královna Dido"
+    ],
+    "en": [
+     "Queen Zenobia",
+     "Queen Semiramis",
+     "Queen Cleopatra",
+     "Queen Dido"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Dido (řecky Elissa) podle pověsti uprchla před svým bratrem Pygmalionem a koupila si tolik země, kolik obepne volská kůže. Kůži nařezala na tenké proužky a obehnala jimi celý pahorek, nazvaný Byrsa (řecky „kůže“).",
+    "en": "According to legend, Dido (Elissa in Greek) fled from her brother Pygmalion and bought as much land as an oxhide could enclose. She cut the hide into thin strips and encircled a whole hill with them, which was named Byrsa (Greek for 'oxhide')."
+   }
+  },
+  {
+   "id": "T318-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Hannibal roku 218 př. n. l. vytáhl s válečnými slony z Hispánie do Itálie. Přes které velké pohoří se slavně přepravil?",
+    "en": "In 218 BC Hannibal marched with war elephants from Hispania to Italy. Which great mountain range did he famously cross?"
+   },
+   "moznosti": {
+    "cs": [
+     "Alpy",
+     "Karpaty",
+     "Ural",
+     "Kavkaz"
+    ],
+    "en": [
+     "The Alps",
+     "The Carpathians",
+     "The Urals",
+     "The Caucasus"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Cestou nejprve překonal Pyreneje a pak Alpy. Kterým průsmykem přesně šel, se historici přou dodnes – ve hře je například Col de la Traversette nebo Malý Svatý Bernard.",
+    "en": "On the way he first crossed the Pyrenees and then the Alps. Historians still argue about the exact pass – candidates include the Col de la Traversette and the Little St Bernard."
+   }
+  },
+  {
+   "id": "T318-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které dřevo z hor v zázemí fénických měst bylo pro Féničany patrně nejstarším a nejvýnosnějším zdrojem bohatství?",
+    "en": "Which wood from the mountains behind the Phoenician cities was probably the Phoenicians' earliest and most lucrative source of wealth?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ebenové",
+     "Mahagonové",
+     "Teakové",
+     "Cedrové"
+    ],
+    "en": [
+     "Ebony",
+     "Mahogany",
+     "Teak",
+     "Cedar"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kromě cedrového dřeva postrádala Fénicie významnější přírodní bohatství. Faraon Thutmose IV. osobně navštívil Sidón, kde byl sjednán nákup tamního dřeva.",
+    "en": "Apart from its cedar wood, Phoenicia lacked significant natural resources. Pharaoh Thutmose IV personally visited Sidon, where the purchase of local timber was arranged."
+   }
+  },
+  {
+   "id": "T318-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaký tvar měl vojenský přístav Kartága, v němž mohlo kotvit až 220 válečných lodí?",
+    "en": "What shape was Carthage's military harbour, which could hold up to 220 warships?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kruhový",
+     "Trojúhelníkový",
+     "Šestiúhelníkový",
+     "Hvězdicovitý"
+    ],
+    "en": [
+     "Circular",
+     "Triangular",
+     "Hexagonal",
+     "Star-shaped"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vnitřní vojenský přístav (cothon) byl kruhový a uprostřed měl ostrov s vyvýšenou stavbou, odkud velící admirál přehlédl celý přístav. Vedle něj leželo ještě samostatné obchodní přístaviště.",
+    "en": "The inner military harbour (cothon) was circular, with an island in the middle carrying a raised structure from which the admiral in command could oversee the whole harbour. A separate commercial harbour lay next to it."
+   }
+  },
+  {
+   "id": "T318-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve které bitvě roku 216 př. n. l. Hannibal obklíčil a zničil mnohem početnější římské vojsko?",
+    "en": "In which battle in 216 BC did Hannibal encircle and destroy a much larger Roman army?"
+   },
+   "moznosti": {
+    "cs": [
+     "U Kynoskefal",
+     "U Alesie",
+     "U Kann",
+     "U Pydny"
+    ],
+    "en": [
+     "Cynoscephalae",
+     "Alesia",
+     "Cannae",
+     "Pydna"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Římské legie prorazily Hannibalův slabý střed, ale libyjská pěchota na křídlech je sevřela a jízda vpadla do týlu. Zemřelo nebo bylo zajato nejméně 67 500 Římanů – podle historika Richarda Milese šlo o největší vojenskou katastrofu Říma.",
+    "en": "The Roman legions pushed through Hannibal's weak centre, but Libyan infantry on the wings closed in and cavalry struck from behind. At least 67,500 Romans were killed or captured – historian Richard Miles calls it Rome's greatest military disaster."
+   }
+  },
+  {
+   "id": "T318-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které fénické město založilo Kartágo jako svou kolonii?",
+    "en": "Which Phoenician city founded Carthage as its colony?"
+   },
+   "moznosti": {
+    "cs": [
+     "Týros",
+     "Damašek",
+     "Ugarit",
+     "Byblos"
+    ],
+    "en": [
+     "Tyre",
+     "Damascus",
+     "Ugarit",
+     "Byblos"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kartágo založili osadníci z Týru. Řecký historik Timaios kladl založení do roku 814 př. n. l. a toto datum moderní historici většinou přijímají.",
+    "en": "Carthage was founded by settlers from Tyre. The Greek historian Timaeus dated the founding to 814 BC, a date most modern historians accept."
+   }
+  },
+  {
+   "id": "T318-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které dnešní španělské město založili Féničané pod jménem Gadir a Římané mu říkali Gades?",
+    "en": "Which present-day Spanish city was founded by the Phoenicians under the name Gadir, and called Gades by the Romans?"
+   },
+   "moznosti": {
+    "cs": [
+     "Cádiz",
+     "Tarragona",
+     "Valencie",
+     "Cartagena"
+    ],
+    "en": [
+     "Cádiz",
+     "Tarragona",
+     "Valencia",
+     "Cartagena"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Gadir znamenalo „hradba“, „ohrazené místo“, přeneseně „pevnost“. Cádiz je považován za jedno z nejstarších nepřetržitě obývaných měst západní Evropy; tradice ho klade do doby kolem roku 1100 př. n. l., archeologické vrstvy však nejsou starší než 9. století př. n. l.",
+    "en": "Gadir meant 'wall', 'compound' or, by extension, 'stronghold'. Cádiz is regarded as one of the oldest continuously inhabited cities in Western Europe; tradition dates it to around 1100 BC, but no archaeological strata are older than the 9th century BC."
+   }
+  },
+  {
+   "id": "T318-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Traduje se, že Římané po zničení Kartága posypali jeho půdu solí, aby tam už nic nerostlo. Co je na tom pravdy?",
+    "en": "It is often said that after destroying Carthage the Romans sowed its soil with salt so that nothing would grow there again. How much truth is there in this?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sůl v tamní půdě prokázaly rozbory archeologů",
+     "Popsal to Polybios, který byl u dobytí města osobně",
+     "Zmiňuje to Livius v popisu Scipionova triumfu",
+     "Žádný antický pramen to neuvádí, jde o pozdější výmysl"
+    ],
+    "en": [
+     "Archaeologists' soil analyses have confirmed the salt",
+     "Polybius described it, having witnessed the city's fall",
+     "Livy mentions it in his account of Scipio's triumph",
+     "No ancient source mentions it; it is a later invention"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Nejstarší známý doklad příběhu pochází z roku 1863 a mezi historiky se rozšířil hlavně díky Cambridge Ancient History z roku 1930. Dnes je považován za apokryfní, nejspíš podle biblického vyprávění o Šekemu (Shechem, Sd 9,45).",
+    "en": "The earliest known attestation of the story dates from 1863, and it spread among historians mainly through the Cambridge Ancient History of 1930. It is now considered apocryphal, probably modelled on the biblical account of Shechem (Judges 9:45)."
+   }
+  },
+  {
+   "id": "T318-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč dostal římský vojevůdce Quintus Fabius Maximus přízvisko Cunctator?",
+    "en": "Why was the Roman general Quintus Fabius Maximus given the nickname Cunctator?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jako první Říman porazil Hannibala v otevřené bitvě",
+     "Vyhýbal se otevřené bitvě s Hannibalem a vyčerpával ho",
+     "Vyjednal s Hannibalem dlouhé příměří",
+     "Dlouho se zdráhal přijmout úřad diktátora"
+    ],
+    "en": [
+     "He was the first Roman to beat Hannibal in open battle",
+     "He avoided open battle with Hannibal and wore him down",
+     "He negotiated a long truce with Hannibal",
+     "He long refused to accept the office of dictator"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Cunctator znamená „zdržovatel“ a zpočátku to byla urážka. Když však Římané od jeho taktiky upustili a utrpěli zdrcující porážku, začali si jí cenit; podle ní se dnes mluví o fabiánské strategii a jméno po něm nese i britská Fabiánská společnost.",
+    "en": "Cunctator means 'the delayer', and at first it was an insult. But after the Romans abandoned his tactics and suffered a crushing defeat, they came to value them; the term 'Fabian strategy' and the British Fabian Society are named after him."
+   }
+  },
+  {
+   "id": "T318-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co podle antických autorů musel malý Hannibal přísahat svému otci Hamilkarovi, než ho vzal na tažení do Hispánie?",
+    "en": "According to ancient authors, what did the young Hannibal have to swear to his father Hamilcar before being taken on campaign to Hispania?"
+   },
+   "moznosti": {
+    "cs": [
+     "Že nikdy nebude bojovat proti Řekům",
+     "Že se nikdy nevrátí do Kartága",
+     "Že nikdy nebude Římu přítelem",
+     "Že získá Sicílii zpět pro Kartágo"
+    ],
+    "en": [
+     "That he would never fight the Greeks",
+     "That he would never return to Carthage",
+     "That he would never be a friend of Rome",
+     "That he would win Sicily back for Carthage"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Podle Polybia to Hannibal sám vyprávěl po letech. Jedna verze uvádí, že mu bylo devět let a otec ho při přísaze držel nad obětním ohněm.",
+    "en": "According to Polybius, Hannibal told the story himself years later. One version says he was nine and that his father held him over a sacrificial fire as he swore."
+   }
+  },
+  {
+   "id": "T318-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "O který ostrov se hlavně vedla první punská válka (264–241 př. n. l.)?",
+    "en": "Which island was the First Punic War (264–241 BC) mainly fought over?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kypr",
+     "Sicílii",
+     "Rhodos",
+     "Krétu"
+    ],
+    "en": [
+     "Cyprus",
+     "Sicily",
+     "Rhodes",
+     "Crete"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Válka začala sporem o sicilské město Messana a skončila porážkou Kartága. Sicílie se pak stala vůbec první římskou provincií.",
+    "en": "The war began over the Sicilian city of Messana and ended in Carthage's defeat. Sicily then became the very first Roman province."
+   }
+  },
+  {
+   "id": "T318-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč se válkám Říma s Kartágem říká punské?",
+    "en": "Why are Rome's wars with Carthage called the Punic Wars?"
+   },
+   "moznosti": {
+    "cs": [
+     "Římané nazývali Kartagince Poeni, tedy Féničané",
+     "Podle zlaté mince punis, o jejíž ražbu se vedl spor",
+     "Podle řeky Punus, u níž se svedla první bitva",
+     "Podle rodu Punů, který tehdy v Kartágu vládl"
+    ],
+    "en": [
+     "The Romans called the Carthaginians Poeni, meaning Phoenicians",
+     "After the gold coin punis, whose minting was disputed",
+     "After the river Punus, where the first battle was fought",
+     "After the Pun family, who ruled Carthage at the time"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Latinské poenus a punicus pocházejí z řeckého Phoinix (Féničan). Kartágo totiž založili féničtí osadníci a mluvilo se v něm punštinou, varietou féničtiny.",
+    "en": "The Latin poenus and punicus come from the Greek Phoinix (Phoenician). Carthage had been founded by Phoenician settlers, and its people spoke Punic, a variety of Phoenician."
+   }
+  },
+  {
+   "id": "T318-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Z čeho Féničané z Týru získávali své proslulé a vzácné barvivo?",
+    "en": "What did the Phoenicians of Tyre obtain their famous and precious dye from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z kořenů rostliny mořeny barvířské",
+     "Z výměšku mořských plžů (ostranek)",
+     "Ze sušených a rozemletých mořských řas",
+     "Z rozdrcených samiček hmyzu (červců)"
+    ],
+    "en": [
+     "The roots of the madder plant",
+     "A secretion of sea snails (murex)",
+     "Dried and ground seaweed",
+     "Crushed female insects (scale insects)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Barvivo vylučuje žláza pod pláštěm dravých mořských plžů z čeledi Muricidae. Podle pokusu z roku 1908 dá 12 000 plžů jen 1,4 gramu čistého barviva – sotva na lem jednoho oděvu.",
+    "en": "The dye is secreted by a gland under the mantle of predatory sea snails of the family Muricidae. According to a 1908 experiment, 12,000 snails yield only 1.4 grams (0.049 oz) of pure dye – barely enough for the trim of one garment."
+   }
+  },
+  {
+   "id": "T318-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak podle římských historiků Livia a Cornelia Nepota zemřel Hannibal?",
+    "en": "According to the Roman historians Livy and Cornelius Nepos, how did Hannibal die?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vzal jed, aby ho nevydali Římanům",
+     "Byl popraven po triumfu v Římě",
+     "Zemřel na mor při obléhání Syrakus",
+     "Padl v čele vojska v bitvě u Zamy"
+    ],
+    "en": [
+     "He took poison to avoid being handed to the Romans",
+     "He was executed after a triumph in Rome",
+     "He died of plague during the siege of Syracuse",
+     "He fell leading his army at the Battle of Zama"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hannibal našel útočiště u bithýnského krále Prúsia I. (Prusias I). Když Řím vymáhal jeho vydání a vojáci obklíčili jeho sídlo, otrávil se (kolem let 183–181 př. n. l.). Hrob mu antičtí autoři kladou do Libyssy u Marmarského moře.",
+    "en": "Hannibal had taken refuge with King Prusias I of Bithynia. When Rome demanded his surrender and soldiers surrounded his residence, he poisoned himself (around 183–181 BC). Ancient writers place his tomb at Libyssa on the Sea of Marmara."
+   }
+  },
+  {
+   "id": "T318-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který numidský král velel u Zamy jízdě na straně Římanů a jehož pozdější spory s Kartágem vedly k poslední punské válce?",
+    "en": "Which Numidian king commanded cavalry on the Roman side at Zama and whose later disputes with Carthage led to the last Punic War?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jugurtha",
+     "Micipsa",
+     "Masinissa",
+     "Juba I."
+    ],
+    "en": [
+     "Jugurtha",
+     "Micipsa",
+     "Masinissa",
+     "Juba I"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Masinissa nejprve bojoval za Kartágo, pak přešel k Římu. Když Kartágo roku 151 př. n. l. proti jeho nájezdům vytáhlo do zbraně, porušilo tím mírovou smlouvu, což Řím využil jako záminku k válce. Vládl 54 let a zemřel kolem devadesátky roku 148 př. n. l., ještě před pádem Kartága.",
+    "en": "Masinissa first fought for Carthage, then switched to Rome. When Carthage took up arms against his raids in 151 BC, it broke its peace treaty, which Rome used as a pretext for war. He reigned for 54 years and died at about 90 in 148 BC, before Carthage fell."
+   }
+  },
+  {
+   "id": "T318-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak roku 332 př. n. l. Alexandr Veliký dobyl Týros, který tehdy ležel na ostrově?",
+    "en": "How did Alexander the Great capture Tyre in 332 BC, when the city stood on an island?"
+   },
+   "moznosti": {
+    "cs": [
+     "Podplatil kněze, kteří mu otevřeli brány",
+     "Dal z pevniny k ostrovu navršit kamennou hráz",
+     "Vyhladověl ho dvouletou námořní blokádou",
+     "Nechal pod mořským dnem vykopat tunel"
+    ],
+    "en": [
+     "He bribed priests who opened the gates for him",
+     "He had a stone causeway built from the mainland",
+     "He starved it out with a two-year naval blockade",
+     "He had a tunnel dug beneath the seabed"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Obléhání trvalo asi sedm měsíců. Hráz pak zachytávala písek, takže vznikla písčitá šíje (tombolo) a z ostrovního Týru je dodnes poloostrov.",
+    "en": "The siege lasted about seven months. The causeway then trapped sand, forming a sandy isthmus (tombolo), so the former island of Tyre is still a peninsula today."
+   }
+  },
+  {
+   "id": "T318-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kartaginský mořeplavec Hannón (Hanno, asi 5. stol. př. n. l.) popsal na plavbě podél západní Afriky divoké chlupaté lidi, jejichž jméno mu sdělili tlumočníci. Roku 1847 si ho vypůjčili přírodovědci. Pro kterého živočicha?",
+    "en": "The Carthaginian navigator Hanno (c. 5th century BC) described wild hairy people on his voyage along West Africa, whose name he learned from his interpreters. In 1847 naturalists borrowed it. For which animal?"
+   },
+   "moznosti": {
+    "cs": [
+     "Paviána",
+     "Orangutana",
+     "Gorilu",
+     "Šimpanze"
+    ],
+    "en": [
+     "The baboon",
+     "The orangutan",
+     "The gorilla",
+     "The chimpanzee"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Tlumočníci jim říkali Gorillai. Zda šlo skutečně o gorily, nevíme – autoři popisu z roku 1847 to netvrdili. Hannón se podle zprávy vydal na výpravu se 60 loďmi zakládat osady.",
+    "en": "The interpreters called them Gorillai. Whether they really were gorillas is unknown – the authors of the 1847 description did not claim so. According to the account, Hanno set out with 60 ships to found settlements."
+   }
+  },
+  {
+   "id": "T318-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo velel římskému vojsku, které roku 146 př. n. l. dobylo a zničilo Kartágo?",
+    "en": "Who commanded the Roman army that captured and destroyed Carthage in 146 BC?"
+   },
+   "moznosti": {
+    "cs": [
+     "Gaius Marius",
+     "Cato starší",
+     "Scipio Africanus",
+     "Scipio Aemilianus"
+    ],
+    "en": [
+     "Gaius Marius",
+     "Cato the Elder",
+     "Scipio Africanus",
+     "Scipio Aemilianus"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Závěrečný útok trval šest dní. Nezaměňovat se slavnějším Scipionem Africanem, jehož byl Aemilianus adoptivním vnukem; Scipiona Aemiliana v Africe doprovázel jeho přítel, historik Polybios.",
+    "en": "The final assault lasted six days. He should not be confused with the more famous Scipio Africanus, whose adoptive grandson he was; Scipio Aemilianus was accompanied in Africa by his friend, the historian Polybius."
+   }
+  },
+  {
+   "id": "T318-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Fénický bůh Melkart (Melqart), ochránce Týru a jeho obchodníků, byl Řeky a Římany ztotožňován s kterou postavou?",
+    "en": "Melqart, the Phoenician god who protected Tyre and its traders, was identified by the Greeks and Romans with which figure?"
+   },
+   "moznosti": {
+    "cs": [
+     "S Areem",
+     "S Poseidónem",
+     "S Héraklem",
+     "S Hermem"
+    ],
+    "en": [
+     "Ares",
+     "Poseidon",
+     "Heracles",
+     "Hermes"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jméno podle jednoho výkladu znamená „král města“. V jeho chrámu u Gadesu stály podle Strabóna dva bronzové sloupy, o nichž mnozí tvrdili, že jsou to pravé Héraklovy sloupy.",
+    "en": "According to one interpretation the name means 'king of the city'. According to Strabo, his temple near Gades held two bronze pillars that many claimed were the true Pillars of Heracles."
+   }
+  },
+  {
+   "id": "T318-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Anglické slovo Bible pochází v konečném důsledku z řeckého jména fénického přístavu Byblos. Proč?",
+    "en": "The English word Bible ultimately comes from the Greek name of the Phoenician port of Byblos. Why?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Byblu byly sepsány první knihy Bible",
+     "Přes Byblos proudil do Řecka papyrus",
+     "V Byblu se našla nejstarší vázaná kniha",
+     "Byblos byl prvním křesťanským biskupstvím"
+    ],
+    "en": [
+     "The first books of the Bible were written there",
+     "Papyrus reached Greece through Byblos",
+     "The oldest bound book was found there",
+     "Byblos was the first Christian bishopric"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Byblos byl důležitým překladištěm egyptského papyru, takže „byblos“ začalo v řečtině znamenat přímo papyrus. Féničané sami město nazývali Gebal.",
+    "en": "Byblos was an important hub for importing Egyptian papyrus, so 'byblos' came to mean papyrus itself in Greek. The Phoenicians themselves called the city Gebal."
+   }
+  },
+  {
+   "id": "T318-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Hérodotos píše, že Féničané na příkaz faraona Necha II. obepluli Afriku. Kterému údaji z jejich vyprávění sám nevěřil, ačkoli dnes naznačuje, že se opravdu dostali za rovník?",
+    "en": "Herodotus writes that Phoenicians sailed around Africa on the orders of Pharaoh Necho II. Which detail of their story did he himself disbelieve, although today it suggests they really got south of the equator?"
+   },
+   "moznosti": {
+    "cs": [
+     "Že plavba trvala jen tři měsíce",
+     "Že moře na jihu zamrzalo",
+     "Že potkali lidi se psími hlavami",
+     "Že měli slunce po pravé ruce"
+    ],
+    "en": [
+     "That the voyage took only three months",
+     "That the sea froze in the south",
+     "That they met dog-headed people",
+     "That the sun was on their right"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Při plavbě kolem Afriky po směru hodinových ručiček mají plavci jižně od rovníku polední slunce po pravici. Výprava podle Hérodota trvala tři roky a cestou námořníci na podzim zaseli obilí a čekali na sklizeň.",
+    "en": "Sailing clockwise around Africa, south of the equator the midday sun is on the sailors' right. According to Herodotus the voyage took three years, and each autumn the crew went ashore to sow grain and wait for the harvest."
+   }
+  },
+  {
+   "id": "T318-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak Římané v první punské válce vyrovnali převahu zkušeného kartaginského loďstva?",
+    "en": "How did the Romans offset the superiority of the experienced Carthaginian navy in the First Punic War?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zápalnými směsmi metanými z trubic na nepřátelské lodě",
+     "Palubním můstkem s hrotem, po kterém přešli na loď nepřítele",
+     "Loděmi pobitými bronzem, které odolaly nárazu klounů",
+     "Najatým loďstvem egyptských Ptolemaiovců s posádkami"
+    ],
+    "en": [
+     "Incendiary mixtures sprayed from tubes at enemy ships",
+     "A spiked boarding bridge to cross onto the enemy ship",
+     "Bronze-clad ships that could withstand ramming",
+     "A hired Ptolemaic Egyptian fleet with its crews"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Můstek corvus (krkavec) byl asi 11 m dlouhý a 1,2 m široký, s těžkým hrotem, který se zaklesl do paluby. Námořní bitva se tak změnila v boj muže proti muži, v němž měli převahu římští vojáci; později od něj Římané upustili.",
+    "en": "The corvus ('raven') was about 11 m (36 ft) long and 1.2 m (3.9 ft) wide, with a heavy spike that lodged in the enemy deck. It turned a sea battle into hand-to-hand fighting where Roman soldiers had the edge; the Romans later abandoned it."
+   }
+  },
+  {
+   "id": "T318-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Hannibalovo dobytí kterého města v Hispánii po zhruba osmiměsíčním obléhání vedlo k vypuknutí druhé punské války?",
+    "en": "Hannibal's capture of which city in Hispania, after a siege of about eight months, led to the outbreak of the Second Punic War?"
+   },
+   "moznosti": {
+    "cs": [
+     "Gadesu",
+     "Saguntu",
+     "Emporionu",
+     "Numantie"
+    ],
+    "en": [
+     "Gades",
+     "Saguntum",
+     "Emporion",
+     "Numantia"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Saguntum (u dnešního Sagunta v provincii Valencie) marně žádal Řím o pomoc. Hannibal ho dobyl roku 219 př. n. l. a Řím na jaře 218 př. n. l. vyhlásil válku.",
+    "en": "Saguntum (near modern Sagunto in the province of Valencia) asked Rome for help in vain. Hannibal took it in 219 BC, and Rome declared war in the spring of 218 BC."
+   }
+  },
+  {
+   "id": "T318-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co znamená fénické jméno Kartága, Qart-ḥadašt?",
+    "en": "What does Carthage's Phoenician name, Qart-hadasht, mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nové město",
+     "Bílá pevnost",
+     "Město bohů",
+     "Královský přístav"
+    ],
+    "en": [
+     "New City",
+     "White Fortress",
+     "City of the Gods",
+     "Royal Harbour"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Po zničení roku 146 př. n. l. dal na stejném místě Julius Caesar (49–44 př. n. l.) založit nové město a římské Kartágo se stalo druhým největším městem západní části říše.",
+    "en": "After its destruction in 146 BC, Julius Caesar had a new city founded on the same site (49–44 BC), and Roman Carthage became the second-largest city in the western half of the Empire."
+   }
+  }
+ ]
+}

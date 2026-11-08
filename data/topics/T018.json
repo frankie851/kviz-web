@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T018",
+ "nazev": {
+  "cs": "Filmové triky a zákulisí slavných filmů",
+  "en": "Film Tricks and Behind-the-Scenes Stories"
+ },
+ "kategorie": {
+  "id": "film-a-tv",
+  "nazev": {
+   "cs": "Film a TV",
+   "en": "Film & TV"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T018-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co ve slavné scéně ve sprše z filmu Psycho (1960) hrálo roli krve?",
+    "en": "What stood in for blood in the famous shower scene of Psycho (1960)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Čokoládový sirup",
+     "Rajčatová šťáva",
+     "Červené víno",
+     "Kečup"
+    ],
+    "en": [
+     "Chocolate syrup",
+     "Tomato juice",
+     "Red wine",
+     "Ketchup"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hitchcock použil čokoládový sirup Hershey's, který na černobílém filmu vypadal věrohodněji než divadelní krev. Zvuk bodnutí nožem vznikl zabodáváním nože do melounu.",
+    "en": "Hitchcock used Hershey's chocolate syrup, which looked more convincing than stage blood on black-and-white film. The sound of the knife was made by stabbing a melon."
+   }
+  },
+  {
+   "id": "T018-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč je žralok ve filmu Čelisti (Jaws, 1975) na plátně vidět tak málo?",
+    "en": "Why is the shark seen so little on screen in Jaws (1975)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na další triky už nezbyly peníze",
+     "Spielberg chtěl nižší věkovou přístupnost",
+     "Mechanický žralok se často porouchal",
+     "Cenzura nedovolila ukázat celé zvíře"
+    ],
+    "en": [
+     "There was no money left for more effects",
+     "Spielberg wanted a lower age rating",
+     "The mechanical shark often broke down",
+     "Censors would not allow the whole animal"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Mechaničtí žraloci kvůli řadě potíží včetně špatného počasí často selhávali, a tak Spielberg žraloka většinou jen naznačoval. Tahle vynucená zdrženlivost podle všeobecného názoru zvýšila napětí – sám Spielberg řekl, že porucha byla „dar z nebes“.",
+    "en": "The mechanical sharks often failed due to a series of problems including bad weather, so Spielberg mostly only hinted at the shark. This forced restraint is widely thought to have heightened the suspense – Spielberg himself called the malfunction 'a godsend'."
+   }
+  },
+  {
+   "id": "T018-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak vzniká animace technikou stop-motion?",
+    "en": "How is stop-motion animation made?"
+   },
+   "moznosti": {
+    "cs": [
+     "Herec se natočí a jeho pohyb se pak obkreslí",
+     "Postavy se modelují rovnou v počítači",
+     "Loutka se posouvá po malých krocích a každá poloha se vyfotí",
+     "Loutky na nitích se natáčejí v reálném čase"
+    ],
+    "en": [
+     "An actor is filmed and their movement is then traced",
+     "The characters are modelled directly in a computer",
+     "A puppet is moved in small steps and each pose is photographed",
+     "Puppets on strings are filmed in real time"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Při stop-motion se předmět mezi jednotlivými snímky nepatrně posune; při promítání pak splynou v plynulý pohyb. Technikou se proslavil třeba King Kong (1933).",
+    "en": "In stop motion an object is moved slightly between individually photographed frames, which blend into smooth movement when projected. The technique made films such as King Kong (1933) famous."
+   }
+  },
+  {
+   "id": "T018-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který film je považován za první celovečerní film vytvořený celý počítačovou animací?",
+    "en": "Which film is considered the first feature-length film made entirely with computer animation?"
+   },
+   "moznosti": {
+    "cs": [
+     "Doba ledová (Ice Age, 2002)",
+     "Hledá se Nemo (Finding Nemo, 2003)",
+     "Toy Story: Příběh hraček (Toy Story, 1995)",
+     "Shrek (Shrek, 2001)"
+    ],
+    "en": [
+     "Ice Age (2002)",
+     "Finding Nemo (2003)",
+     "Toy Story (1995)",
+     "Shrek (2001)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Toy Story: Příběh hraček z roku 1995 byl prvním zcela počítačově animovaným celovečerním filmem. Byl to zároveň první celovečerní film studia Pixar.",
+    "en": "Toy Story (1995) was the first entirely computer-animated feature film. It was also the first feature film made by Pixar."
+   }
+  },
+  {
+   "id": "T018-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který herec ztvárnil Gluma (Gollum) ve filmové trilogii Pán prstenů (The Lord of the Rings) pomocí snímání pohybu (motion capture)?",
+    "en": "Which actor played Gollum in The Lord of the Rings film trilogy using motion capture?"
+   },
+   "moznosti": {
+    "cs": [
+     "Viggo Mortensen",
+     "Andy Serkis",
+     "Ian McKellen",
+     "Elijah Wood"
+    ],
+    "en": [
+     "Viggo Mortensen",
+     "Andy Serkis",
+     "Ian McKellen",
+     "Elijah Wood"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Glum je počítačová postava, ale pohyby, hlas i mimiku mu dal Andy Serkis. Animátoři postavu dokonce stavěli na rysech jeho obličeje.",
+    "en": "Gollum is a computer-generated character, but Andy Serkis provided his movement, voice and expressions. The animators even built the character around Serkis's facial features."
+   }
+  },
+  {
+   "id": "T018-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kam v ikonickém záběru z filmu Georgese Mélièse Cesta na Měsíc (Le Voyage dans la Lune, 1902) dopadne vesmírné plavidlo?",
+    "en": "In the iconic shot from Georges Méliès's A Trip to the Moon (Le Voyage dans la Lune, 1902), where does the spacecraft land?"
+   },
+   "moznosti": {
+    "cs": [
+     "Měsíci na nos",
+     "Měsíci do úst",
+     "Měsíci do ucha",
+     "Měsíci do oka"
+    ],
+    "en": [
+     "On the Moon's nose",
+     "In the Moon's mouth",
+     "In the Moon's ear",
+     "In the Moon's eye"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kabina vystřelená obřím dělem trefí tvář Měsíce přímo do oka. Méliès byl původně divadelní kouzelník a vlastnil pařížské Théâtre Robert-Houdin, což se odrazilo v jeho trikových filmech.",
+    "en": "The capsule, fired from a giant cannon, hits the Man in the Moon right in the eye. Méliès was originally a stage magician who owned the Théâtre Robert-Houdin in Paris, which shaped his trick films."
+   }
+  },
+  {
+   "id": "T018-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč by herec natáčející před zeleným plátnem neměl mít na sobě zelené oblečení?",
+    "en": "Why shouldn't an actor filming in front of a green screen wear green clothes?"
+   },
+   "moznosti": {
+    "cs": [
+     "Místo oblečení by bylo vidět pozadí",
+     "Kamera by herce nedokázala zaostřit",
+     "Oblečení by v záběru zčernalo",
+     "Herec by v záběru vypadal mnohem tlustší"
+    ],
+    "en": [
+     "The background would show in place of the clothes",
+     "The camera would be unable to focus on the actor",
+     "The clothes would turn black on screen",
+     "The actor would look much fatter on screen"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Technika klíčování (chroma key) nahradí vše v klíčové barvě jiným obrazem, takže by herec v místech oblečení „zmizel“. Zelená a modrá se volí proto, že mají nejdál k barvě lidské kůže.",
+    "en": "Chroma keying replaces everything in the key colour with another image, so the actor would seem to vanish wherever the clothes are. Green and blue are chosen because they are furthest from human skin tones."
+   }
+  },
+  {
+   "id": "T018-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co je Wilhelmův výkřik?",
+    "en": "What is the Wilhelm scream?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přezdívka pro nejhlasitější scénu v historii",
+     "Cena udělovaná za nejlepší zvuk v hororu",
+     "Bojový pokřik ze slavného válečného filmu",
+     "Zvukový efekt výkřiku použitý v mnoha filmech"
+    ],
+    "en": [
+     "A nickname for the loudest scene in history",
+     "An award for the best sound in a horror film",
+     "A battle cry from a famous war film",
+     "A scream sound effect used in many films"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Je to archivní zvukový efekt, který zazní, když je postava zastřelena nebo padá z výšky. Zvukař Ben Burtt ho použil ve Hvězdných válkách (Star Wars, 1977) a udělal z něj svůj podpis.",
+    "en": "It is a stock sound effect heard when a character is shot or falls from a height. Sound designer Ben Burtt used it in Star Wars (1977) and made it his personal signature."
+   }
+  },
+  {
+   "id": "T018-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém městě stojí Barrandovské ateliéry, kde se natáčely i scény pro Amadea (Amadeus) nebo Casino Royale?",
+    "en": "In which city are the Barrandov Studios, where scenes for Amadeus and Casino Royale were also shot?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Bratislavě",
+     "V Brně",
+     "V Praze",
+     "Ve Zlíně"
+    ],
+    "en": [
+     "Bratislava",
+     "Brno",
+     "Prague",
+     "Zlín"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Barrandovské ateliéry stojí v Praze a začaly se stavět v roce 1931. Zahraniční štáby sem přijely natáčet například Amadea (1984), Mission: Impossible (1996) nebo Casino Royale (2006).",
+    "en": "Barrandov Studios are in Prague; construction began in 1931. Foreign crews have shot films there such as Amadeus (1984), Mission: Impossible (1996) and Casino Royale (2006)."
+   }
+  },
+  {
+   "id": "T018-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který český filmař proslul spojováním hraných scén s animací a triky ve filmech Cesta do pravěku a Vynález zkázy?",
+    "en": "Which Czech filmmaker became famous for combining live action with animation and effects in Journey to Prehistory and Invention for Destruction?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jiří Trnka",
+     "Jiří Menzel",
+     "Karel Zeman",
+     "Miloš Forman"
+    ],
+    "en": [
+     "Jiří Trnka",
+     "Jiří Menzel",
+     "Karel Zeman",
+     "Miloš Forman"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Karel Zeman natočil Cestu do pravěku (1955) i Vynález zkázy (1958). Terry Gilliam o něm řekl, že dělal to, o co se on sám pořád snaží – spojit hraný film s animací.",
+    "en": "Karel Zeman made Journey to Prehistory (1955) and Invention for Destruction (1958). Terry Gilliam said Zeman did what he himself is still trying to do – combine live action with animation."
+   }
+  },
+  {
+   "id": "T018-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co se ve filmové výrobě označuje slovem foley?",
+    "en": "In filmmaking, what does the term Foley refer to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rozmístění zvuku do prostorového formátu",
+     "Skládání hudby přesně podle střihu filmu",
+     "Nahrávání dialogů znovu po skončení natáčení",
+     "Nahrávání běžných zvuků, jako jsou kroky, ve studiu"
+    ],
+    "en": [
+     "Placing sound into a surround format",
+     "Composing music to match the film's edit exactly",
+     "Re-recording dialogue after filming has ended",
+     "Recording everyday sounds such as footsteps in a studio"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Foley jsou běžné zvuky přidávané v postprodukci, pojmenované po zvukaři Jacku Foleym ze studia Universal. Koňská kopyta se dají napodobit půlkami kokosových ořechů a vrzání sněhu kukuřičným škrobem v koženém sáčku.",
+    "en": "Foley is the reproduction of everyday sounds added in post-production, named after Universal sound-effects artist Jack Foley. Halved coconut shells can imitate horse hooves, and cornstarch in a leather pouch can sound like crunching snow."
+   }
+  },
+  {
+   "id": "T018-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak byl ve filmu Matrix (The Matrix, 1999) natočen efekt bullet time, kdy se děj téměř zastaví a kamera kolem herce krouží?",
+    "en": "How was the bullet time effect in The Matrix (1999) – where the action almost freezes while the camera circles the actor – filmed?"
+   },
+   "moznosti": {
+    "cs": [
+     "Řadou fotoaparátů kolem herce, spouštěných rychle po sobě",
+     "Vysokorychlostní kamerou na kolejích kolem herce",
+     "Kompletně počítačovou animací obou herců",
+     "Jedinou kamerou na rychle kroužícím jeřábu"
+    ],
+    "en": [
+     "With a row of still cameras around the actor, fired in quick succession",
+     "With a high-speed camera on a track around the actor",
+     "With fully computer-animated versions of both actors",
+     "With a single camera on a rapidly circling crane"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Fotoaparáty stály na zakřivené dráze kolem herce a byly spouštěny těsně po sobě, takže se pohled posouvá, zatímco děj je extrémně zpomalený. Matrix efekt i jeho název bullet time proslavil.",
+    "en": "The still cameras were set along a curved track around the actor and triggered at very close intervals, so the viewpoint moves while the action is in extreme slow motion. The Matrix popularised both the effect and the term bullet time."
+   }
+  },
+  {
+   "id": "T018-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak vysoké byly modely, kterými byl animován King Kong v původním filmu z roku 1933?",
+    "en": "How tall were the models used to animate King Kong in the original 1933 film?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 5 cm",
+     "Asi 40 cm",
+     "Asi 2 m",
+     "Asi 6 m"
+    ],
+    "en": [
+     "About 5 cm (2 inches)",
+     "About 40 cm (16 inches)",
+     "About 2 m (6.6 ft)",
+     "About 6 m (20 ft)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Kong byl animován metodou stop-motion pomocí modelů vysokých zhruba 36–46 cm. Pro detailní záběry vznikla mechanická hlava s rameny v životní velikosti, kterou ovládalo šest lidí.",
+    "en": "Kong was brought to life with stop-motion models about 36–46 cm (14–18 inches) tall. For close-ups a full-size mechanical head and shoulders was built, operated by six people."
+   }
+  },
+  {
+   "id": "T018-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kamerový trik dolly zoom, kdy kamera jede k postavě a objektiv přitom zoomuje opačným směrem, vymyslel kameraman Irmin Roberts pro Hitchcockův film…",
+    "en": "The dolly zoom camera trick, in which the camera moves towards a character while the lens zooms the opposite way, was devised by cameraman Irmin Roberts for Hitchcock's film…"
+   },
+   "moznosti": {
+    "cs": [
+     "Psycho (Psycho, 1960)",
+     "Vertigo (Vertigo, 1958)",
+     "Ptáci (The Birds, 1963)",
+     "Okno do dvora (Rear Window, 1954)"
+    ],
+    "en": [
+     "Psycho (1960)",
+     "Vertigo (1958)",
+     "The Birds (1963)",
+     "Rear Window (1954)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Trik navozuje pocit závratě, proto se mu říká i „záběr Vertigo“. Slavně ho použil také Spielberg v Čelistech (Jaws), když šerif Brody na pláži zahlédne žraloka.",
+    "en": "The trick creates a sense of vertigo, which is why it is also called the 'Vertigo shot'. Spielberg famously used it in Jaws when Chief Brody spots the shark at the beach."
+   }
+  },
+  {
+   "id": "T018-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Herci Froda a Gandalfa se ve skutečnosti liší výškou jen asi o 13 cm. Jak se jmenuje technika, díky níž hobiti v Pánovi prstenů (The Lord of the Rings) vypadají mnohem menší, protože herci stojí různě daleko od kamery?",
+    "en": "The actors playing Frodo and Gandalf actually differ in height by only about 13 cm (5.1 inches). What is the technique that makes the hobbits in The Lord of the Rings look much smaller by placing the actors at different distances from the camera?"
+   },
+   "moznosti": {
+    "cs": [
+     "Klíčování (chroma key)",
+     "Rotoskopie (obkreslování záběrů)",
+     "Bullet time (zmrazení času)",
+     "Vynucená perspektiva (forced perspective)"
+    ],
+    "en": [
+     "Chroma keying (green screen)",
+     "Rotoscoping (tracing footage)",
+     "Bullet time (frozen moment)",
+     "Forced perspective"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vynucená perspektiva využívá toho, že vzdálenější předmět vypadá menší. Pečlivě postavené dekorace a rekvizity pak divákovi vnutí dojem, že obě postavy stojí vedle sebe.",
+    "en": "Forced perspective exploits the fact that a more distant object looks smaller. Carefully built sets and props then trick the viewer into seeing both characters side by side."
+   }
+  },
+  {
+   "id": "T018-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kterou trikovou společnost založil v roce 1975 George Lucas kvůli filmu Hvězdné války (Star Wars, 1977)?",
+    "en": "Which visual effects company did George Lucas found in 1975 for the film Star Wars (1977)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Weta Digital",
+     "Sony Pictures Imageworks",
+     "Industrial Light & Magic",
+     "Rhythm & Hues Studios"
+    ],
+    "en": [
+     "Weta Digital",
+     "Sony Pictures Imageworks",
+     "Industrial Light & Magic",
+     "Rhythm & Hues Studios"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Industrial Light & Magic (ILM) vznikla 26. května 1975 právě kvůli trikům pro Hvězdné války. Později vytvořila například počítačové dinosaury pro Jurský park (Jurassic Park).",
+    "en": "Industrial Light & Magic (ILM) was founded on 26 May 1975 specifically for the effects of Star Wars. It later created, for example, the computer-generated dinosaurs of Jurassic Park."
+   }
+  },
+  {
+   "id": "T018-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak byla ve filmu Počátek (Inception, 2010) natočena rvačka v hotelové chodbě, která se otáčí?",
+    "en": "How was the fight in the rotating hotel corridor in Inception (2010) filmed?"
+   },
+   "moznosti": {
+    "cs": [
+     "Natáčelo se ve stavu beztíže v letadle",
+     "Celá scéna vznikla počítačovou animací",
+     "Herci viseli na lanech před zeleným plátnem",
+     "Ve skutečné chodbě, která se otáčela kolem své osy"
+    ],
+    "en": [
+     "It was filmed in zero gravity aboard a plane",
+     "The whole scene was computer-animated",
+     "The actors hung on wires in front of a green screen",
+     "In a real corridor that rotated around its axis"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "V bývalém hangáru pro vzducholodě v anglickém Cardingtonu postavili 30 metrů dlouhou chodbu zavěšenou v osmi obřích prstencích, kterou otáčely dva elektromotory. Joseph Gordon-Levitt se v ní několik týdnů učil bojovat.",
+    "en": "A 30-metre (98 ft) corridor hung in eight giant rings and turned by two electric motors was built in a former airship hangar in Cardington, England. Joseph Gordon-Levitt spent several weeks learning to fight in it."
+   }
+  },
+  {
+   "id": "T018-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jiří Trnka byl přezdíván „Walt Disney východní Evropy“. Jakou technikou animace se proslavil především?",
+    "en": "Jiří Trnka was nicknamed 'the Walt Disney of Eastern Europe'. Which animation technique was he best known for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kreslenou animací",
+     "Počítačovou animací",
+     "Siluetovou animací",
+     "Loutkovou animací"
+    ],
+    "en": [
+     "Hand-drawn animation",
+     "Computer animation",
+     "Silhouette animation",
+     "Puppet animation"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Trnka se loutkové animaci věnoval od roku 1946 a natočil například Staré pověsti české (1953). Za své nejlepší dílo považoval krátký film Ruka (1965), který byl po jeho smrti na dvě desetiletí zakázán.",
+    "en": "Trnka worked in puppet animation from 1946 and made films such as Old Czech Legends (1953). He considered the short film The Hand (1965) his best work; it was banned for two decades after his death."
+   }
+  },
+  {
+   "id": "T018-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Barrandovské ateliéry založil Miloš Havel. Kým byl budoucímu prezidentovi Václavu Havlovi?",
+    "en": "Barrandov Studios were founded by Miloš Havel. How was he related to the future president Václav Havel?"
+   },
+   "moznosti": {
+    "cs": [
+     "Strýcem",
+     "Otcem",
+     "Dědečkem",
+     "Bratrancem"
+    ],
+    "en": [
+     "Uncle",
+     "Father",
+     "Grandfather",
+     "Cousin"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Miloš Havel navrhl doplnit filmové ateliéry do čtvrti, kterou na Barrandově plánoval jeho bratr Václav Maria Havel – otec pozdějšího prezidenta. Stavba ateliérů začala v roce 1931.",
+    "en": "Miloš Havel suggested adding film studios to the Barrandov district being planned by his brother Václav Maria Havel – the future president's father. Construction of the studios began in 1931."
+   }
+  },
+  {
+   "id": "T018-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak vznikly soustředné vlnky ve sklenici vody, které v Jurském parku (Jurassic Park, 1993) ohlašují blížícího se tyranosaura?",
+    "en": "How were the concentric ripples in a glass of water that announce the approaching T. rex in Jurassic Park (1993) created?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sklenici rozechvěl reproduktor s hlubokými basy",
+     "Člověk na podlaze auta brnkal na kytarové struny",
+     "Do sklenice kapala voda z tenké hadičky",
+     "Vlnky byly dodatečně dokresleny počítačem"
+    ],
+    "en": [
+     "A loudspeaker with deep bass shook the glass",
+     "A person on the car floor plucked guitar strings",
+     "Water dripped into the glass from a thin tube",
+     "The ripples were added later by computer"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Spielberga inspirovalo, jak se mu v autě chvělo vše od basů písně Earth, Wind & Fire. Trikař Michael Lantieri zkusil postavit sklenici na kytaru, a pak vedli struny autem a člověk ležící na podlaze auta na ně brnkal.",
+    "en": "Spielberg was inspired by how the bass of an Earth, Wind & Fire song made things vibrate in his car. Effects supervisor Michael Lantieri tried a glass on his guitar, then guitar strings were run through the car and a man lying on the car floor plucked them."
+   }
+  },
+  {
+   "id": "T018-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Podle koho dostal jméno Wilhelmův výkřik?",
+    "en": "Who is the Wilhelm scream named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Podle vojína z westernu z roku 1953",
+     "Podle pohádkáře Wilhelma Grimma",
+     "Podle fyzika Wilhelma Röntgena",
+     "Podle německého císaře Viléma II."
+    ],
+    "en": [
+     "A private in a 1953 Western",
+     "Fairy-tale collector Wilhelm Grimm",
+     "Physicist Wilhelm Röntgen",
+     "German Emperor Wilhelm II"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jméno má podle vojína Wilhelma z westernu The Charge at Feather River (1953), kterého zasáhne šíp do stehna. Pojmenoval ho Ben Burtt; původně ho nejspíš namluvil herec Sheb Wooley.",
+    "en": "It is named after Private Wilhelm in the Western The Charge at Feather River (1953), who is hit in the thigh by an arrow. Ben Burtt gave it the name; it was probably first voiced by actor Sheb Wooley."
+   }
+  },
+  {
+   "id": "T018-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Z čeho zvukař Ben Burtt složil bzukot světelného meče ve Hvězdných válkách (Star Wars)?",
+    "en": "What did sound designer Ben Burtt combine to create the hum of the lightsaber in Star Wars?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z elektrické kytary a šumu krátkovlnného rádia",
+     "Z brumu motoru promítačky a rušení z televize",
+     "Ze zpomaleného bzučení včel a hukotu vysavače",
+     "Z hukotu transformátoru a cvrkotu cikád"
+    ],
+    "en": [
+     "An electric guitar and shortwave radio static",
+     "Projector motor hum and television interference",
+     "Slowed-down bee buzzing and a vacuum cleaner",
+     "Transformer hum and the chirping of cicadas"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Burtt smíchal brum motorů starých promítaček běžících naprázdno s rušením, které náhodou zachytil mikrofon u televize. Záři čepelí v původní trilogii animátoři dokreslovali do záběrů rotoskopií.",
+    "en": "Burtt blended the hum of idling motors in old film projectors with interference a microphone picked up by chance from a television. In the original trilogy the glow of the blades was added to the footage by rotoscoping."
+   }
+  },
+  {
+   "id": "T018-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Pro Jurský park (Jurassic Park) měl dinosaury původně animovat Phil Tippett technikou go-motion. Co prý řekl, když viděl test počítačové animace?",
+    "en": "Phil Tippett was originally meant to animate the dinosaurs in Jurassic Park using go-motion. What did he reportedly say when he saw the computer animation test?"
+   },
+   "moznosti": {
+    "cs": [
+     "„Nikdo to nepozná.“",
+     "„Právě jsem vyhynul.“",
+     "„Tohle je konec loutek.“",
+     "„Dinosauři jsou zpátky.“"
+    ],
+    "en": [
+     "\"Nobody will notice.\"",
+     "\"I've just become extinct.\"",
+     "\"This is the end of puppets.\"",
+     "\"The dinosaurs are back.\""
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Spielberg Tippettovu repliku použil přímo ve filmu. Tippett zůstal jako „supervizor dinosaurů“ pro zhruba 50 záběrů a získal za to svého druhého Oscara.",
+    "en": "Spielberg used Tippett's line in the film itself. Tippett stayed on as 'dinosaur supervisor' for about 50 shots and won his second Oscar for it."
+   }
+  },
+  {
+   "id": "T018-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Schüfftanův proces, díky němuž se herci ve filmu Metropolis (1927) ocitli mezi modely mrakodrapů, je založen na…",
+    "en": "The Schüfftan process, which placed actors among skyscraper models in Metropolis (1927), is based on…"
+   },
+   "moznosti": {
+    "cs": [
+     "dvojí expozici filmu",
+     "promítání pozadí zezadu",
+     "modrém plátně za herci",
+     "zrcadle šikmo před kamerou"
+    ],
+    "en": [
+     "double exposure of the film",
+     "projecting the background from behind",
+     "a blue screen behind the actors",
+     "a mirror angled in front of the camera"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Zrcadlo pod úhlem 45° odráželo modely a v místech, kde měli být herci, se z něj odstranila odrazná vrstva, takže kamera skrz sklo viděla herce opodál. Metodu zdokonalil a proslavil kameraman Eugen Schüfftan, mimo jiné pro Metropolis Fritze Langa.",
+    "en": "A mirror at 45 degrees reflected the models, and the reflective coating was removed where the actors were to appear, so the camera saw them through the glass. Cinematographer Eugen Schüfftan refined and popularised the method, including for Fritz Lang's Metropolis."
+   }
+  },
+  {
+   "id": "T018-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Rotoskop, přístroj pro obkreslování hraných záběrů políčko po políčku, vyvinul v roce 1915…",
+    "en": "The rotoscope, a device for tracing live-action footage frame by frame, was developed in 1915 by…"
+   },
+   "moznosti": {
+    "cs": [
+     "Max Fleischer",
+     "Winsor McCay",
+     "Walt Disney",
+     "Ub Iwerks"
+    ],
+    "en": [
+     "Max Fleischer",
+     "Winsor McCay",
+     "Walt Disney",
+     "Ub Iwerks"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Rotoskop vyvinul polsko-americký animátor Max Fleischer. Disney ho později využil, aby se lidské postavy ve Sněhurce a sedmi trpaslících (Snow White and the Seven Dwarfs, 1937) pohybovaly věrohodněji.",
+    "en": "The rotoscope was developed by Polish-American animator Max Fleischer. Disney later used it to make the human characters in Snow White and the Seven Dwarfs (1937) move more realistically."
+   }
+  },
+  {
+   "id": "T018-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve filmu Mladý Sherlock Holmes (Young Sherlock Holmes, 1985) se objevila postava považovaná za první plně počítačově vytvořenou fotorealistickou postavu. Co to bylo?",
+    "en": "Young Sherlock Holmes (1985) featured a character considered the first fully computer-generated photorealistic character. What was it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Postava utvořená z vody",
+     "Rytíř složený z kousků vitráže",
+     "Drak vytvořený z kouře",
+     "Ožívající kamenná socha"
+    ],
+    "en": [
+     "A figure formed from water",
+     "A knight made of pieces of stained glass",
+     "A dragon made of smoke",
+     "A stone statue that comes to life"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Rytíře složeného z kousků vitráže vytvořil John Lasseter s týmem Pixaru, tehdy ještě součástí Lucasfilmu. O deset let později Pixar natočil Toy Story: Příběh hraček (Toy Story).",
+    "en": "The knight made of stained-glass pieces was created by John Lasseter and Pixar, then still a division of Lucasfilm. Ten years later Pixar made Toy Story."
+   }
+  },
+  {
+   "id": "T018-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co napodobuje výtvarný styl českého trikového filmu Vynález zkázy (1958)?",
+    "en": "What does the visual style of the Czech effects film Invention for Destruction (1958) imitate?"
+   },
+   "moznosti": {
+    "cs": [
+     "Americké komiksy z 50. let",
+     "Rytiny z původních vydání Verneových románů",
+     "Ilustrace Josefa Lady k Švejkovi",
+     "Japonské dřevořezy z období Edo"
+    ],
+    "en": [
+     "American comic books of the 1950s",
+     "Engravings from the original editions of Verne's novels",
+     "Josef Lada's illustrations for Švejk",
+     "Japanese woodblock prints from the Edo period"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Tvůrci šrafováním na kulisách i kostýmech napodobili rytiny Édouarda Rioua, Léona Benetta a dalších ilustrátorů Verneových knih. Film získal hlavní cenu na filmovém festivalu v Bruselu během Expa 58 a promítal se ve 72 zemích.",
+    "en": "The filmmakers used engraving-like hatching on sets and costumes to imitate the work of Édouard Riou, Léon Benett and other illustrators of Verne's books. The film won the Grand Prix at the Brussels film festival during Expo 58 and was distributed in 72 countries."
+   }
+  },
+  {
+   "id": "T018-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Podle které Shakespearovy hry natočil Jiří Trnka svůj poslední celovečerní film (1959)?",
+    "en": "Which Shakespeare play did Jiří Trnka adapt for his last feature film (1959)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Romeo a Julie",
+     "Bouře",
+     "Večer tříkrálový",
+     "Sen noci svatojánské"
+    ],
+    "en": [
+     "Romeo and Juliet",
+     "The Tempest",
+     "Twelfth Night",
+     "A Midsummer Night's Dream"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Trnkův Sen noci svatojánské stavěl na baletní stylizaci a hudbě Václava Trojana a zaujal i v zahraničí – Time ho zařadil mezi 10 nejlepších zahraničních filmů roku 1961. Byl to jeho poslední celovečerní film.",
+    "en": "Trnka's A Midsummer Night's Dream relied on ballet-like stylisation and music by Václav Trojan and won acclaim abroad – Time included it among the top 10 foreign films of 1961. It was his last feature film."
+   }
+  },
+  {
+   "id": "T018-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Georges Méliès podle svých pamětí objevil trik náhlé proměny (stop trick) náhodou. Co se stalo?",
+    "en": "According to his memoirs, Georges Méliès discovered the stop trick (sudden transformation) by accident. What happened?"
+   },
+   "moznosti": {
+    "cs": [
+     "Při natáčení se mu na chvíli zasekla kamera",
+     "Asistent omylem dvakrát exponoval týž film",
+     "Film se v laboratoři roztrhl a špatně slepil",
+     "Promítač omylem pustil dva filmy najednou"
+    ],
+    "en": [
+     "His camera jammed for a moment during filming",
+     "An assistant accidentally exposed the same film twice",
+     "The film tore in the lab and was spliced badly",
+     "A projectionist accidentally ran two films at once"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Když se kamera zasekla a znovu rozběhla, scéna na ulici se mezitím změnila – na plátně se pak omnibus proměnil v pohřební vůz a ženy v muže. Trik náhlé záměny se stal základem jeho filmových kouzel.",
+    "en": "When the camera jammed and restarted, the street scene had changed in the meantime – on screen a bus turned into a hearse and women into men. The substitution trick became the basis of his film magic."
+   }
+  },
+  {
+   "id": "T018-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Štáb filmu Čelisti (Jaws) přezdíval mechanickému žralokovi Bruce. Po kom?",
+    "en": "The Jaws crew nicknamed the mechanical shark Bruce. Who was it named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Po konstruktérovi žraloka",
+     "Po herci Bruci Leem",
+     "Po Spielbergově právníkovi",
+     "Po kaskadérovi z natáčení"
+    ],
+    "en": [
+     "The shark's designer",
+     "Actor Bruce Lee",
+     "Spielberg's lawyer",
+     "A stuntman on the shoot"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Žraloci dostali přezdívku po Spielbergově právníkovi Bruci Ramerovi. Pro natáčení vznikli tři pneumaticky pohánění žraloci v životní velikosti, jejichž stavbu vedl Bob Mattey.",
+    "en": "The sharks were named after Spielberg's lawyer, Bruce Ramer. Three full-size, pneumatically powered sharks were built for the shoot, with construction overseen by Bob Mattey."
+   }
+  }
+ ]
+}

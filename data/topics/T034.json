@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T034",
+ "nazev": {
+  "cs": "Velcí objevitelé a cestovatelé",
+  "en": "Great Explorers and Travellers"
+ },
+ "kategorie": {
+  "id": "zemepis",
+  "nazev": {
+   "cs": "Zeměpis",
+   "en": "Geography"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T034-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který mořeplavec přeplul roku 1492 ve službách španělských panovníků Atlantik a doplul k ostrovům u břehů Ameriky?",
+    "en": "Which navigator crossed the Atlantic in 1492 in the service of the Spanish monarchs and reached islands off the coast of the Americas?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kryštof Kolumbus",
+     "Amerigo Vespucci",
+     "Vasco da Gama",
+     "Fernão de Magalhães"
+    ],
+    "en": [
+     "Christopher Columbus",
+     "Amerigo Vespucci",
+     "Vasco da Gama",
+     "Ferdinand Magellan"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kolumbovu plavbu financovali Ferdinand Aragonský a Isabela Kastilská. Kolumbus byl přesvědčen, že doplul do Asie, a místní obyvatele proto nazval „Indios“ – indiáni.",
+    "en": "Columbus's voyage was funded by Ferdinand of Aragon and Isabella of Castile. He was convinced he had reached Asia, which is why he called the local people 'Indios' – Indians."
+   }
+  },
+  {
+   "id": "T034-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ze kterého italského města pocházel kupec a cestovatel Marco Polo?",
+    "en": "Which Italian city did the merchant and traveller Marco Polo come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Benátek",
+     "Z Neapole",
+     "Z Janova",
+     "Z Florencie"
+    ],
+    "en": [
+     "Venice",
+     "Naples",
+     "Genoa",
+     "Florence"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Marco Polo byl Benátčan; z cesty do Asie se vrátil roku 1295 po 24 letech. Janov hrál v jeho životě jinou roli – skončil tam ve vězení jako zajatec z benátsko-janovské války.",
+    "en": "Marco Polo was a Venetian who returned from Asia in 1295 after 24 years. Genoa played a different role in his life – he ended up in prison there as a captive of the Venetian–Genoese war."
+   }
+  },
+  {
+   "id": "T034-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který mongolský vládce Číny přijal na svém dvoře Marca Pola?",
+    "en": "Which Mongol ruler of China received Marco Polo at his court?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ögedej (Ögedei)",
+     "Čingischán (Genghis Khan)",
+     "Kublaj chán (Kublai Khan)",
+     "Tamerlán (Timur)"
+    ],
+    "en": [
+     "Ögedei",
+     "Genghis Khan",
+     "Kublai Khan",
+     "Tamerlane"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kublaj chán si mladého cestovatele oblíbil a vysílal ho jako svého vyslance. Polo strávil v jeho službách řadu let, než se vrátil domů.",
+    "en": "Kublai Khan took a liking to the young traveller and used him as a foreign emissary. Polo spent many years in his service before returning home."
+   }
+  },
+  {
+   "id": "T034-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který seveřan je považován za prvního Evropana, který kolem roku 1000 vstoupil na pevninu Severní Ameriky?",
+    "en": "Which Norseman is thought to have been the first European to set foot on mainland North America, around the year 1000?"
+   },
+   "moznosti": {
+    "cs": [
+     "Erik Rudý",
+     "Olaf Tryggvason",
+     "Harald Hardrada",
+     "Leif Eriksson"
+    ],
+    "en": [
+     "Erik the Red",
+     "Olaf Tryggvason",
+     "Harald Hardrada",
+     "Leif Erikson"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Leif byl synem Erika Rudého, který založil první severskou osadu v Grónsku; podle ság pak Leif založil osadu ve Vinlandu. Neznámé pobřeží před ním zahlédl Bjarni Herjólfsson, jeho posádka však na břeh nevystoupila.",
+    "en": "Leif was the son of Erik the Red, who founded the first Norse settlement in Greenland; according to the sagas, Leif then established a settlement in Vinland. Bjarni Herjólfsson had sighted the unknown coast before him, but his crew did not go ashore."
+   }
+  },
+  {
+   "id": "T034-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo spolu s Novozélanďanem Edmundem Hillarym jako první prokazatelně stanul 29. května 1953 na vrcholu Mount Everestu?",
+    "en": "Who, together with New Zealander Edmund Hillary, became the first confirmed to stand on the summit of Mount Everest, on 29 May 1953?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tenzing Norgay",
+     "Reinhold Messner",
+     "Robert Peary",
+     "Roald Amundsen"
+    ],
+    "en": [
+     "Tenzing Norgay",
+     "Reinhold Messner",
+     "Robert Peary",
+     "Roald Amundsen"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Šerpa Tenzing Norgay a Hillary byli členy britské výpravy vedené Johnem Huntem. Hillary byl původním povoláním včelař.",
+    "en": "The Sherpa Tenzing Norgay and Hillary were members of the British expedition led by John Hunt. Hillary was a beekeeper by profession."
+   }
+  },
+  {
+   "id": "T034-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Komu se připisuje slavný pozdrav „Doktor Livingstone, předpokládám?“, kterým měl v Africe oslovit pohřešovaného cestovatele?",
+    "en": "Who is credited with the famous greeting 'Dr. Livingstone, I presume?', said to have been used to address the missing explorer in Africa?"
+   },
+   "moznosti": {
+    "cs": [
+     "Richardu Burtonovi",
+     "Johnu Spekeovi",
+     "Cecilu Rhodesovi",
+     "Henrymu Mortonu Stanleymu"
+    ],
+    "en": [
+     "Richard Burton",
+     "John Speke",
+     "Cecil Rhodes",
+     "Henry Morton Stanley"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Novinář Stanley, vyslaný listem New York Herald, našel Livingstona 10. listopadu 1871 v Udžidži u jezera Tanganika. Zda větu skutečně pronesl, je nejisté – v Livingstonově vlastním záznamu chybí.",
+    "en": "Journalist Stanley, sent by the New York Herald, found Livingstone at Ujiji on Lake Tanganyika on 10 November 1871. Whether he really said the line is uncertain – it is missing from Livingstone's own account."
+   }
+  },
+  {
+   "id": "T034-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "K jakému oceánu dorazila v listopadu 1805 výprava Lewise a Clarka napříč Severní Amerikou?",
+    "en": "Which ocean did the Lewis and Clark Expedition across North America reach in November 1805?"
+   },
+   "moznosti": {
+    "cs": [
+     "K Severnímu ledovému",
+     "K Indickému",
+     "K Tichému",
+     "K Atlantskému"
+    ],
+    "en": [
+     "The Arctic",
+     "The Indian",
+     "The Pacific",
+     "The Atlantic"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Výpravu vyslal prezident Thomas Jefferson po koupi Louisiany (1803). Zimu 1805–1806 strávila ve Fort Clatsop u ústí řeky Columbie v dnešním Oregonu.",
+    "en": "The expedition was sent by President Thomas Jefferson after the Louisiana Purchase (1803). It spent the winter of 1805–1806 at Fort Clatsop near the mouth of the Columbia River in today's Oregon."
+   }
+  },
+  {
+   "id": "T034-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která výprava jako první obeplula celou Zemi?",
+    "en": "Which expedition was the first to sail all the way around the Earth?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kolumbova výprava",
+     "Výprava Marca Pola",
+     "Magalhãesova výprava",
+     "Výprava Vasca da Gamy"
+    ],
+    "en": [
+     "Columbus's expedition",
+     "Marco Polo's expedition",
+     "Magellan's expedition",
+     "Vasco da Gama's expedition"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Výprava vyplula roku 1519 s pěti loděmi a asi 270 muži. Sám Magalhães cestu nedokončil; domů ji roku 1522 dovedl Juan Sebastián Elcano.",
+    "en": "The expedition set out in 1519 with five ships and about 270 men. Magellan himself did not complete it; Juan Sebastián Elcano led it home in 1522."
+   }
+  },
+  {
+   "id": "T034-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Pro kterou zemi podnikl Vasco da Gama svou plavbu kolem Afriky do Indie?",
+    "en": "For which country did Vasco da Gama make his voyage around Africa to India?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pro Španělsko",
+     "Pro Anglii",
+     "Pro Portugalsko",
+     "Pro Nizozemsko"
+    ],
+    "en": [
+     "Spain",
+     "England",
+     "Portugal",
+     "the Netherlands"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Da Gama vyplul z Lisabonu 8. července 1497 a do Indie dorazil v květnu 1498. Zemřel roku 1524 v indickém Cochinu (dnes Kochi), krátce poté, co byl jmenován místokrálem Indie.",
+    "en": "Da Gama sailed from Lisbon on 8 July 1497 and reached India in May 1498. He died in 1524 in Cochin (today Kochi), India, shortly after being appointed Viceroy of India."
+   }
+  },
+  {
+   "id": "T034-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou profesi měl Emil Holub z Holic, cestovatel po jižní Africe?",
+    "en": "What was the profession of Emil Holub from Holice, the explorer of southern Africa?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lékař",
+     "Kněz-misionář",
+     "Námořní důstojník",
+     "Železniční inženýr"
+    ],
+    "en": [
+     "Physician",
+     "Missionary priest",
+     "Naval officer",
+     "Railway engineer"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Holub získal roku 1872 doktorát medicíny na pražské univerzitě a brzy nato odjel do jižní Afriky, kde se usadil jako lékař v Dutoitspanu u Kimberley. Své rozsáhlé sbírky později postupně prodal nebo rozdal muzeím, vědeckým institucím a školám.",
+    "en": "Holub obtained his medical degree at Prague University in 1872 and soon left for southern Africa, where he settled in Dutoitspan near Kimberley to practise medicine. He later gradually sold or gave away his large collections to museums, scientific institutions and schools."
+   }
+  },
+  {
+   "id": "T034-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "S jakým vozem vyrazili Jiří Hanzelka a Miroslav Zikmund roku 1947 na cestu Afrikou a Latinskou Amerikou?",
+    "en": "Which car did Jiří Hanzelka and Miroslav Zikmund set out in in 1947 on their journey through Africa and Latin America?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aero 30",
+     "Praga Piccolo",
+     "Tatra 87",
+     "Škoda 1101 Tudor"
+    ],
+    "en": [
+     "Aero 30",
+     "Praga Piccolo",
+     "Tatra 87",
+     "Škoda 1101 Tudor"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Stříbrnou aerodynamickou Tatrou 87 najeli za tři a půl roku asi 111 000 km a projeli 44 zemí. Na druhou cestu (1959–1964) vyrazili se dvěma prototypy nákladní Tatry 805.",
+    "en": "In the silver streamlined Tatra 87 they covered about 111,000 km (69,000 mi) and 44 countries in three and a half years. For their second journey (1959–1964) they used two prototypes of the Tatra 805 truck."
+   }
+  },
+  {
+   "id": "T034-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím se proslavil český cestovatel a botanik Alberto Vojtěch Frič?",
+    "en": "What is the Czech traveller and botanist Alberto Vojtěch Frič famous for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Šlechtěním orchidejí",
+     "Sběrem a popisem kaktusů",
+     "Objevem pramene Amazonky",
+     "Výstupem na Aconcaguu"
+    ],
+    "en": [
+     "Breeding orchids",
+     "Collecting and describing cacti",
+     "Discovering the source of the Amazon",
+     "Climbing Aconcagua"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Frič podnikl osm cest do Ameriky a objevil a popsal řadu druhů kaktusů; v Evropě se mu říkalo „lovec kaktusů“. Jihoameričtí indiáni mu přezdívali Karaí Pukú – „dlouhý muž“.",
+    "en": "Frič made eight voyages to the Americas and discovered and described many cactus species; in Europe he was known as the 'Cactus Hunter'. South American Indians called him Karaí Pukú – 'Long Man'."
+   }
+  },
+  {
+   "id": "T034-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se jmenovala loď, na které se Juan Sebastián Elcano v září 1522 vrátil do Španělska?",
+    "en": "What was the name of the ship in which Juan Sebastián Elcano returned to Spain in September 1522?"
+   },
+   "moznosti": {
+    "cs": [
+     "Golden Hind",
+     "Santa María",
+     "Victoria",
+     "Trinidad"
+    ],
+    "en": [
+     "Golden Hind",
+     "Santa María",
+     "Victoria",
+     "Trinidad"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Victoria připlula 6. září 1522 s 18 muži z původních asi 270. Z ostatních čtyř lodí výpravy se San Antonio odpojila a už roku 1521 se vrátila domů, Trinidad zajali Portugalci, Santiago ztroskotala a Concepción posádka spálila.",
+    "en": "The Victoria arrived on 6 September 1522 with 18 men out of the original crew of about 270. Of the expedition's other four ships, the San Antonio deserted and sailed home in 1521, the Trinidad was captured by the Portuguese, the Santiago was wrecked and the Concepción was burned by the crew."
+   }
+  },
+  {
+   "id": "T034-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč Magalhães pojmenoval Tichý oceán „Mar Pacífico“?",
+    "en": "Why did Magellan name the Pacific Ocean 'Mar Pacífico'?"
+   },
+   "moznosti": {
+    "cs": [
+     "Protože na něm nepotkal nepřátelské lodě",
+     "Protože byl při jeho plavbě nečekaně klidný",
+     "Na počest mírové smlouvy s Portugalskem",
+     "Protože tam uzavřel mír s domorodci"
+    ],
+    "en": [
+     "Because he met no enemy ships on it",
+     "Because it was unexpectedly calm during his voyage",
+     "In honour of a peace treaty with Portugal",
+     "Because he made peace with the local people there"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Po bouřlivém průjezdu úžinou na jihu Ameriky působil oceán jako pokojné moře. Ve skutečnosti ale Tichý oceán zdaleka není vždy klidný.",
+    "en": "After the stormy passage through the strait at the tip of South America, the ocean seemed a peaceful sea. In reality the Pacific is far from always calm."
+   }
+  },
+  {
+   "id": "T034-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kde zahynul kapitán James Cook roku 1779?",
+    "en": "Where was Captain James Cook killed in 1779?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Austrálii",
+     "Na Tahiti",
+     "Na Novém Zélandu",
+     "Na Havajských ostrovech"
+    ],
+    "en": [
+     "Australia",
+     "Tahiti",
+     "New Zealand",
+     "the Hawaiian Islands"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Cook zahynul 14. února 1779 v zátoce Kealakekua na Havaji během své třetí plavby. Na druhé plavbě jeho posádky v roce 1773 jako první zaznamenaní Evropané překročily jižní polární kruh.",
+    "en": "Cook was killed on 14 February 1779 at Kealakekua Bay, Hawaii, during his third voyage. On his second voyage, in 1773, his crews became the first recorded Europeans to cross the Antarctic Circle."
+   }
+  },
+  {
+   "id": "T034-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Asi o kolik dní později než Amundsen dorazil na jižní pól Robert F. Scott?",
+    "en": "About how many days after Amundsen did Robert F. Scott reach the South Pole?"
+   },
+   "moznosti": {
+    "cs": [
+     "3 dny",
+     "34 dní",
+     "120 dní",
+     "365 dní"
+    ],
+    "en": [
+     "3 days",
+     "34 days",
+     "120 days",
+     "365 days"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Scottova pětice stanula na pólu 17. ledna 1912 a našla tam norský stan. Všech pět mužů zahynulo na zpáteční cestě; poslední tábor ležel jen 18 km od skladiště zásob One Ton Depot.",
+    "en": "Scott's party of five reached the pole on 17 January 1912 and found the Norwegian tent there. All five died on the return journey; their last camp was only 18 km (11 mi) from One Ton Depot."
+   }
+  },
+  {
+   "id": "T034-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co táhlo saně Amundsenovy výpravy k jižnímu pólu?",
+    "en": "What pulled the sledges of Amundsen's expedition to the South Pole?"
+   },
+   "moznosti": {
+    "cs": [
+     "Motorové saně",
+     "Psi",
+     "Poníci",
+     "Sobi"
+    ],
+    "en": [
+     "Motor sledges",
+     "Dogs",
+     "Ponies",
+     "Reindeer"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Na cestu k pólu vyrazilo 19. října 1911 se Nory 52 psů a muži jeli na lyžích. Scott naproti tomu sázel na poníky a motorové saně – saně brzy selhaly a poníci byli zastřeleni, takže jeho muži nakonec táhli náklad sami.",
+    "en": "Fifty-two dogs set out with the Norwegians on 19 October 1911, and the men travelled on skis. Scott relied on ponies and motor sledges instead – the sledges soon failed and the ponies were shot, so his men ended up hauling the loads themselves."
+   }
+  },
+  {
+   "id": "T034-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "S jakým původním cílem se marocký cestovatel Ibn Battúta roku 1325 vydal z rodného Tangeru na cestu?",
+    "en": "With what original aim did the Moroccan traveller Ibn Battuta set out from his native Tangier in 1325?"
+   },
+   "moznosti": {
+    "cs": [
+     "Najít mořskou cestu do Číny",
+     "Sloužit jako vyslanec u mongolského chána",
+     "Obchodovat s kořením v Indii",
+     "Vykonat pouť do Mekky"
+    ],
+    "en": [
+     "To find a sea route to China",
+     "To serve as an envoy to the Mongol khan",
+     "To trade in spices in India",
+     "To make the pilgrimage to Mecca"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Z pouti do Mekky (hadždž) se vyklubalo asi 30 let cestování a zhruba 117 000 km – mnohem víc, než urazil Marco Polo. Vyprávění o cestách nadiktoval učenci Ibn Džuzajjovi (Ibn Juzayy).",
+    "en": "The hajj to Mecca turned into about 30 years of travel and roughly 117,000 km (73,000 mi) – far more than Marco Polo covered. He dictated his account to the scholar Ibn Juzayy."
+   }
+  },
+  {
+   "id": "T034-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se jmenovala šošonská (Shoshone) žena, která výpravě Lewise a Clarka pomáhala jako tlumočnice?",
+    "en": "What was the name of the Shoshone woman who helped the Lewis and Clark Expedition as an interpreter?"
+   },
+   "moznosti": {
+    "cs": [
+     "Malinche",
+     "Pocahontas",
+     "Kateri Tekakwitha",
+     "Sacagawea"
+    ],
+    "en": [
+     "Malinche",
+     "Pocahontas",
+     "Kateri Tekakwitha",
+     "Sacagawea"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Sacagawea se k výpravě přidala se svým manželem Toussaintem Charbonneauem a pomáhala zmírňovat napětí při setkáních s indiánskými náčelníky. Na rozdíl od populární legendy nebyla průvodkyní výpravy.",
+    "en": "Sacagawea joined the expedition with her husband, Toussaint Charbonneau, and helped ease tensions in meetings with Native American chiefs. Contrary to popular legend, she was not the expedition's guide."
+   }
+  },
+  {
+   "id": "T034-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Do kterého indického přístavu doplul Vasco da Gama v květnu 1498?",
+    "en": "Which Indian port did Vasco da Gama reach in May 1498?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bombaj (Mumbai)",
+     "Kalikat (Kozhikode)",
+     "Goa",
+     "Kalkata (Kolkata)"
+    ],
+    "en": [
+     "Bombay (Mumbai)",
+     "Calicut (Kozhikode)",
+     "Goa",
+     "Calcutta (Kolkata)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Da Gama připlul do Kalikatu na Malabarském pobřeží 20. května 1498; místním vládcem byl zamorin. Přes Indický oceán flotilu vedl gudžarátský lodivod, který znal monzunové větry.",
+    "en": "Da Gama arrived at Calicut on the Malabar Coast on 20 May 1498; the local ruler was the Zamorin. A Gujarati pilot who knew the monsoon winds guided the fleet across the Indian Ocean."
+   }
+  },
+  {
+   "id": "T034-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Komu byl adresován dopis, který Amundsen nechal ve stanu Polheim na jižním pólu a Scotta požádal, aby ho doručil?",
+    "en": "To whom was the letter addressed that Amundsen left in the Polheim tent at the South Pole, asking Scott to deliver it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Britskému králi Jiřímu V.",
+     "Norskému králi Haakonovi VII.",
+     "Norskému parlamentu",
+     "Fridtjofu Nansenovi"
+    ],
+    "en": [
+     "King George V of Britain",
+     "King Haakon VII of Norway",
+     "the Norwegian parliament",
+     "Fridtjof Nansen"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Amundsen nechal ve stanu kromě vybavení i vzkaz pro Scotta s prosbou o doručení dopisu norskému králi. Scott tak po příchodu na pól dostal za úkol doručit zprávu o vítězství svého soupeře.",
+    "en": "Besides equipment, Amundsen left a note for Scott asking him to deliver a letter to the King of Norway. On reaching the pole, Scott was thus asked to carry news of his rival's victory."
+   }
+  },
+  {
+   "id": "T034-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který člen Scottovy skupiny odešel v březnu 1912 ze stanu na smrt se slovy „Jdu jen ven a možná se chvíli zdržím“?",
+    "en": "Which member of Scott's party walked out of the tent to his death in March 1912 with the words 'I am just going outside and may be some time'?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lawrence Oates",
+     "Edgar Evans",
+     "Henry Bowers",
+     "Edward Wilson"
+    ],
+    "en": [
+     "Lawrence Oates",
+     "Edgar Evans",
+     "Henry Bowers",
+     "Edward Wilson"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Oates trpěl omrzlinami a gangrénou a odešel ze stanu 16. nebo 17. března 1912 (Scott si datem nebyl jistý), aby druhy nezdržoval. Scott, Wilson a Bowers zemřeli ve stanu asi o dva týdny později; pátrací skupina je našla v listopadu 1912.",
+    "en": "Suffering from frostbite and gangrene, Oates walked out on 16 or 17 March 1912 (Scott was unsure of the date) so as not to hold back his companions. Scott, Wilson and Bowers died in their tent about two weeks later; a search party found them in November 1912."
+   }
+  },
+  {
+   "id": "T034-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který americký lékař a polárník tvrdil, že stanul na severním pólu už v dubnu 1908, tedy rok před Robertem Pearym?",
+    "en": "Which American physician and polar explorer claimed to have stood at the North Pole as early as April 1908, a year before Robert Peary?"
+   },
+   "moznosti": {
+    "cs": [
+     "Frederick Cook",
+     "Richard Byrd",
+     "Lincoln Ellsworth",
+     "Matthew Henson"
+    ],
+    "en": [
+     "Frederick Cook",
+     "Richard Byrd",
+     "Lincoln Ellsworth",
+     "Matthew Henson"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Komise Kodaňské univerzity v prosinci 1909 shledala, že Cookovy záznamy dosažení pólu neprokazují, a jeho tvrzení se považuje za neprokázané dodnes; zpochybňováno je i Pearyho prvenství z roku 1909. Někteří badatelé proto za první ověřené dosažení pólu považují přelet vzducholodi Norge v roce 1926.",
+    "en": "In December 1909 a University of Copenhagen commission ruled that Cook's records did not prove he had reached the pole, and his claim is still considered unproven; Peary's 1909 claim is disputed too. Some therefore regard the 1926 overflight by the airship Norge as the first verified trip to the pole."
+   }
+  },
+  {
+   "id": "T034-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím byly naplněny velké nádrže plováku batyskafu Trieste, které ho nadnášely při sestupu do Marianského příkopu?",
+    "en": "What were the large float tanks of the bathyscaphe Trieste filled with to keep it buoyant on its descent into the Mariana Trench?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vodíkem",
+     "Stlačeným vzduchem",
+     "Héliem",
+     "Benzínem"
+    ],
+    "en": [
+     "Hydrogen",
+     "Compressed air",
+     "Helium",
+     "Petrol (gasoline)"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Benzín je lehčí než voda a jako kapalina se pod tlakem prakticky nestlačuje, takže nádrže mohly mít tenké stěny. Batyskaf navrhl Auguste Piccard, otec Jacquese Piccarda.",
+    "en": "Petrol is lighter than water and, like any liquid, practically incompressible, so the tanks could be very lightly built. The bathyscaphe was designed by Auguste Piccard, Jacques Piccard's father."
+   }
+  },
+  {
+   "id": "T034-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kterou astronomickou událost měla v roce 1769 na Tahiti pozorovat první Cookova výprava?",
+    "en": "Which astronomical event was Cook's first expedition meant to observe from Tahiti in 1769?"
+   },
+   "moznosti": {
+    "cs": [
+     "Úplné zatmění Měsíce",
+     "Návrat Halleyovy komety",
+     "Přechod Venuše přes Slunce",
+     "Úplné zatmění Slunce"
+    ],
+    "en": [
+     "A total lunar eclipse",
+     "The return of Halley's Comet",
+     "The transit of Venus across the Sun",
+     "A total solar eclipse"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Přechody Venuše pozorované z různých míst Země umožňovaly vypočítat vzdálenost Země od Slunce; výsledky z roku 1769 k tomu skutečně posloužily. Kromě Cooka pozorovali tentýž přechod astronomové po celém světě.",
+    "en": "Transits of Venus observed from different places on Earth made it possible to calculate the distance from the Earth to the Sun, and the 1769 results were indeed used for this. Besides Cook, astronomers around the world observed the same transit."
+   }
+  },
+  {
+   "id": "T034-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik členů výpravy Lewise a Clarka (1804–1806) během ní zemřelo?",
+    "en": "How many members of the Lewis and Clark Expedition (1804–1806) died during it?"
+   },
+   "moznosti": {
+    "cs": [
+     "1",
+     "6",
+     "15",
+     "33"
+    ],
+    "en": [
+     "1",
+     "6",
+     "15",
+     "33"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jedinou obětí byl seržant Charles Floyd, který zemřel v srpnu 1804 nejspíš na zánět slepého střeva. Celou cestu absolvoval i Lewisův novofundlandský pes Seaman.",
+    "en": "The only death was Sergeant Charles Floyd, who died in August 1804, apparently of appendicitis. Lewis's Newfoundland dog, Seaman, completed the whole journey too."
+   }
+  },
+  {
+   "id": "T034-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co udělali průvodci Davida Livingstona s jeho srdcem po jeho smrti roku 1873?",
+    "en": "What did David Livingstone's companions do with his heart after his death in 1873?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pohřbili ho pod stromem v Africe",
+     "Poslali ho jeho rodině do Skotska",
+     "Uložili ho ve Westminsterském opatství",
+     "Uložili ho v misii na Zanzibaru"
+    ],
+    "en": [
+     "Buried it under a tree in Africa",
+     "Sent it to his family in Scotland",
+     "Placed it in Westminster Abbey",
+     "Placed it in a mission on Zanzibar"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Srdce pohřbili u místa jeho smrti v dnešní Zambii. Tělo pak Chuma a Susi nesli asi 63 dní na pobřeží do Bagamoya, odkud bylo převezeno do Británie a pohřbeno ve Westminsterském opatství.",
+    "en": "His heart was buried near the place he died, in today's Zambia. Chuma and Susi then carried his body for about 63 days to Bagamoyo on the coast, from where it was shipped to Britain and buried in Westminster Abbey."
+   }
+  },
+  {
+   "id": "T034-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Zpráva o zdolání Mount Everestu (29. 5. 1953) byla v Londýně zveřejněna ráno v den významné události. Které?",
+    "en": "News of the first ascent of Mount Everest (29 May 1953) was released in London on the morning of a major event. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Konce války v Koreji",
+     "Korunovace Alžběty II.",
+     "Zahájení olympijských her",
+     "Pohřbu krále Jiřího VI."
+    ],
+    "en": [
+     "The end of the Korean War",
+     "The coronation of Elizabeth II",
+     "The opening of the Olympic Games",
+     "The funeral of King George VI"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Korunovace Alžběty II. se konala 2. června 1953 a britský úspěch na Everestu se stal jejím symbolickým dárkem. Výpravu vedl plukovník John Hunt.",
+    "en": "Elizabeth II's coronation took place on 2 June 1953, and the British success on Everest became a symbolic gift for it. The expedition was led by Colonel John Hunt."
+   }
+  },
+  {
+   "id": "T034-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo zapsal vyprávění Marca Pola o jeho cestách, když spolu seděli v janovském vězení?",
+    "en": "Who wrote down Marco Polo's account of his travels while the two were held in a Genoese prison?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rustichello z Pisy",
+     "Dante Alighieri",
+     "Francesco Petrarca",
+     "Giovanni Boccaccio"
+    ],
+    "en": [
+     "Rustichello da Pisa",
+     "Dante Alighieri",
+     "Francesco Petrarca",
+     "Giovanni Boccaccio"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Rustichello byl profesionální autor rytířských románů a Polo mu své zážitky vyprávěl. Kniha je v Itálii známá jako Il Milione (Milion), podle Polovy přezdívky.",
+    "en": "Rustichello was a professional writer of romances, and Polo related his experiences to him orally. In Italy the book is known as Il Milione ('The Million'), after Polo's nickname."
+   }
+  },
+  {
+   "id": "T034-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čeho jako první pořídil Emil Holub podrobnou mapu?",
+    "en": "What did Emil Holub make the first detailed map of?"
+   },
+   "moznosti": {
+    "cs": [
+     "Okolí Kilimandžára",
+     "Pramenné oblasti Nilu",
+     "Delty Okavanga",
+     "Okolí Viktoriiných vodopádů"
+    ],
+    "en": [
+     "The area around Kilimanjaro",
+     "The source region of the Nile",
+     "The Okavango Delta",
+     "The area around Victoria Falls"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "K řece Zambezi a Viktoriiným vodopádům se Holub dostal na své třetí výpravě roku 1875. Na pozdější výpravu z Kapského Města směrem k Egyptu (1883) vzal i svou manželku Rosu, musel se však roku 1886 vrátit.",
+    "en": "Holub reached the Zambezi and Victoria Falls on his third expedition in 1875. He took his wife Rosa on a later expedition from Cape Town towards Egypt (1883), but had to turn back in 1886."
+   }
+  }
+ ]
+}

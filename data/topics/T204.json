@@ -240,13 +240,13 @@
     "cs": [
      "Slovenský štát",
      "Generální gouvernement",
-     "Říšská župa Sudety",
+     "Nezávislý stát Chorvatsko",
      "Protektorát Čechy a Morava"
     ],
     "en": [
      "The Slovak State",
      "The General Government",
-     "The Reichsgau Sudetenland",
+     "The Independent State of Croatia",
      "The Protectorate of Bohemia and Moravia"
     ]
    },
@@ -279,16 +279,16 @@
    },
    "spravne": 1,
    "vysvetleni": {
-    "cs": "Vpád provedly Sovětský svaz, Polsko, Maďarsko a Bulharsko, přičemž sovětská vojska tvořila naprostou většinu sil. Československo samo bylo členem Varšavské smlouvy.",
-    "en": "The invasion was carried out by the Soviet Union, Poland, Hungary and Bulgaria, with Soviet troops making up the vast majority of the force. Czechoslovakia itself was a member of the Warsaw Pact."
+    "cs": "Vpád vedl Sovětský svaz, jehož vojska tvořila naprostou většinu invazních sil. Československo samo bylo členem Varšavské smlouvy.",
+    "en": "The invasion was led by the Soviet Union, whose troops made up the vast majority of the invading force. Czechoslovakia itself was a member of the Warsaw Pact."
    }
   },
   {
    "id": "T204-11",
    "obtiznost": 2,
    "otazka": {
-    "cs": "Kdo z této čtveřice patřil k tzv. mužům 28. října, kteří v Praze vyhlásili samostatný stát?",
-    "en": "The \"Men of 28 October\" proclaimed the independent Czechoslovak state in Prague in 1918. Which of these four was one of them?"
+    "cs": "Kdo z této čtveřice patřil k pětici politiků, kteří v roce 1918 převzali v Praze moc a vyhlásili samostatný československý stát?",
+    "en": "Which of these four belonged to the group of five politicians who took power in Prague in 1918 and proclaimed the independent Czechoslovak state?"
    },
    "moznosti": {
     "cs": [
@@ -306,8 +306,8 @@
    },
    "spravne": 3,
    "vysvetleni": {
-    "cs": "Muži 28. října byli Alois Rašín, Antonín Švehla, Jiří Stříbrný, František Soukup a Slovák Vavro Šrobár; Masaryk a Beneš tehdy působili v zahraničním odboji. Rašín se stal prvním ministrem financí a v roce 1923 zemřel po atentátu.",
-    "en": "The Men of 28 October were Alois Rašín, Antonín Švehla, Jiří Stříbrný, František Soukup and the Slovak Vavro Šrobár; Masaryk and Beneš were working for independence abroad at the time. Rašín became the first finance minister and died after an assassination attempt in 1923."
+    "cs": "Pětici tvořili Alois Rašín, Antonín Švehla, Jiří Stříbrný, František Soukup a Slovák Vavro Šrobár; Masaryk, Štefánik a Beneš tehdy působili v zahraničním odboji. Rašín se stal prvním ministrem financí a v roce 1923 zemřel po atentátu.",
+    "en": "The five were Alois Rašín, Antonín Švehla, Jiří Stříbrný, František Soukup and the Slovak Vavro Šrobár; Masaryk, Štefánik and Beneš were working for independence abroad at the time. Rašín became the first finance minister and died after being shot in an assassination attempt in 1923."
    }
   },
   {
@@ -422,8 +422,8 @@
    "id": "T204-16",
    "obtiznost": 2,
    "otazka": {
-    "cs": "Kdo 17. dubna 1969 nahradil Alexandra Dubčeka v čele KSČ, čímž začalo období tzv. normalizace?",
-    "en": "Who replaced Alexander Dubček as head of the Czechoslovak Communist Party on 17 April 1969, starting the period known as \"normalization\"?"
+    "cs": "Kdo se 17. dubna 1969 stal prvním tajemníkem ÚV KSČ, čímž začalo období tzv. normalizace?",
+    "en": "Who became First Secretary of the Czechoslovak Communist Party on 17 April 1969, starting the period known as \"normalization\"?"
    },
    "moznosti": {
     "cs": [
@@ -522,8 +522,8 @@
    },
    "spravne": 0,
    "vysvetleni": {
-    "cs": "Při protestech v Plzni vyšlo do ulic asi 20 000 lidí a demonstranti vnikli do radnice. Hotovost nad 300 korun se při reformě měnila v poměru 50 : 1.",
-    "en": "In Plzeň about 20,000 people took to the streets and demonstrators forced their way into the town hall. In the reform, cash above 300 korunas was exchanged at 50 to 1."
+    "cs": "Při protestech v Plzni vyšlo do ulic asi 20 000 lidí a demonstranti vnikli do radnice. Reforma připravila mnoho lidí o velkou část úspor.",
+    "en": "In Plzeň about 20,000 people took to the streets and demonstrators forced their way into the town hall. The reform wiped out a large part of many people's savings."
    }
   },
   {
@@ -557,8 +557,8 @@
    "id": "T204-21",
    "obtiznost": 3,
    "otazka": {
-    "cs": "Který člen Varšavské smlouvy se v srpnu 1968 odmítl podílet na vojenském vpádu do Československa?",
-    "en": "Which Warsaw Pact member refused to take part in the military invasion of Czechoslovakia in August 1968?"
+    "cs": "Která z těchto zemí východního bloku se v srpnu 1968 odmítla podílet na vojenském vpádu do Československa?",
+    "en": "Which of these Eastern Bloc countries refused to take part in the military invasion of Czechoslovakia in August 1968?"
    },
    "moznosti": {
     "cs": [
@@ -611,8 +611,8 @@
    "id": "T204-23",
    "obtiznost": 3,
    "otazka": {
-    "cs": "Po Lidicích byla v červnu 1942 vyhlazena ještě jedna obec, kde gestapo našlo vysílačku spojenou s výsadkáři. Která?",
-    "en": "After Lidice, one more Czech village was wiped out in June 1942 after the Gestapo found a radio transmitter linked to the paratroopers there. Which one?"
+    "cs": "Která obec byla 24. června 1942 vyhlazena poté, co v ní gestapo našlo vysílačku spojenou s výsadkáři z Londýna?",
+    "en": "Which Czech village was wiped out on 24 June 1942 after the Gestapo found a radio transmitter there linked to paratroopers sent from London?"
    },
    "moznosti": {
     "cs": [
@@ -630,8 +630,8 @@
    },
    "spravne": 1,
    "vysvetleni": {
-    "cs": "Ležáky byly zničeny zhruba dva týdny po Lidicích. Všech 33 dospělých obyvatel bylo zastřeleno a děti odvlečeny do táborů nebo na poněmčení.",
-    "en": "Ležáky was destroyed about two weeks after Lidice. All 33 adult inhabitants were shot and the children were sent to camps or for Germanisation."
+    "cs": "Vysílačka patřila výsadku Silver A. Všech 33 dospělých obyvatel Ležáků bylo zastřeleno; ze 13 dětí byly dvě dívky vybrány k poněmčení a zbylých 11 bylo zavražděno plynem ve vyhlazovacím táboře Chełmno.",
+    "en": "The transmitter belonged to the Silver A paratroop group. All 33 adult inhabitants of Ležáky were shot; of the 13 children, two girls were selected for Germanisation and the other 11 were gassed at the Chełmno extermination camp."
    }
   },
   {
@@ -746,8 +746,8 @@
    "id": "T204-28",
    "obtiznost": 3,
    "otazka": {
-    "cs": "Který student se 25. února 1969, asi měsíc po Janu Palachovi, upálil v průchodu domu na Václavském náměstí?",
-    "en": "Which student set himself on fire in a passageway off Prague's Wenceslas Square on 25 February 1969, about a month after Jan Palach?"
+    "cs": "Který student se 25. února 1969, asi měsíc po Janu Palachovi, upálil v průchodu domu v centru Prahy?",
+    "en": "Which student set himself on fire in a building passageway in central Prague on 25 February 1969, about a month after Jan Palach?"
    },
    "moznosti": {
     "cs": [
@@ -765,8 +765,8 @@
    },
    "spravne": 3,
    "vysvetleni": {
-    "cs": "Jan Zajíc, student průmyslové školy v Šumperku pocházející z Vítkova, se upálil v průchodu domu č. 39 v horní části Václavského náměstí a zemřel na místě. Po sametové revoluci bylo Palachovi na počest pojmenováno náměstí v centru Prahy.",
-    "en": "Jan Zajíc, a technical-school student from Vítkov who studied in Šumperk, set himself on fire in the passageway of the building at No. 39 in the upper part of Wenceslas Square and died at the scene. After the Velvet Revolution, a square in central Prague was named in Palach's honour."
+    "cs": "Jan Zajíc, student průmyslové školy v Šumperku pocházející z Vítkova, se upálil v průchodu domu v centru Prahy a zemřel na místě. Po sametové revoluci bylo Palachovi na počest pojmenováno náměstí v centru Prahy.",
+    "en": "Jan Zajíc, a technical-school student from Vítkov who studied in Šumperk, set himself on fire in a building passageway in central Prague and died at the scene. After the Velvet Revolution, a square in central Prague was named in Palach's honour."
    }
   },
   {
@@ -792,16 +792,16 @@
    },
    "spravne": 1,
    "vysvetleni": {
-    "cs": "Václav Havel odstoupil 20. července 1992 se slovy, že nebude předsedat rozpadu země, a nástupce zvolen nebyl. Část prezidentských pravomocí do konce roku vykonával poslední federální premiér Jan Stráský.",
-    "en": "Václav Havel resigned on 20 July 1992, saying he would not preside over the country's breakup, and no successor was elected. Some presidential powers were exercised until the end of the year by the last federal prime minister, Jan Stráský."
+    "cs": "Poslední prezident federace odstoupil 20. července 1992 se slovy, že nebude předsedat rozpadu země, a nástupce zvolen nebyl. Část prezidentských pravomocí do konce roku vykonával poslední federální premiér Jan Stráský.",
+    "en": "The federation's last president resigned on 20 July 1992, saying he would not preside over the country's breakup, and no successor was elected. Some presidential powers were exercised until the end of the year by the last federal prime minister, Jan Stráský."
    }
   },
   {
    "id": "T204-30",
    "obtiznost": 3,
    "otazka": {
-    "cs": "Jakou funkci získal Alexander Dubček 28. prosince 1989, den před zvolením Václava Havla prezidentem?",
-    "en": "What position did Alexander Dubček, the leader of the 1968 Prague Spring, take up on 28 December 1989, the day before Václav Havel was elected president?"
+    "cs": "Jakou funkci získal Alexander Dubček 28. prosince 1989?",
+    "en": "What position did Alexander Dubček take up on 28 December 1989?"
    },
    "moznosti": {
     "cs": [

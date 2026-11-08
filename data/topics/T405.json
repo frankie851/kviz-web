@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T405",
+ "nazev": {
+  "cs": "Včely a med: život úlu",
+  "en": "Bees and Honey: Life in the Hive"
+ },
+ "kategorie": {
+  "id": "priroda-a-zvirata",
+  "nazev": {
+   "cs": "Příroda a zvířata",
+   "en": "Nature & Animals"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T405-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývají samci včely medonosné?",
+    "en": "What are male honey bees called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vojáci",
+     "Dělnice",
+     "Trubci",
+     "Strážci"
+    ],
+    "en": [
+     "Soldiers",
+     "Workers",
+     "Drones",
+     "Guards"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Samcům se říká trubci. Nesbírají potravu a jejich hlavním úkolem je spářit se s mladou královnou; obrovské oči jim pomáhají zahlédnout ji ve vzduchu.",
+    "en": "Male honey bees are called drones. They do not gather food; their main job is to mate with a young queen, and their huge eyes help them spot her in the air."
+   }
+  },
+  {
+   "id": "T405-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč včelaři při prohlídce úlu používají kouř z dýmáku?",
+    "en": "Why do beekeepers puff smoke from a smoker when they open a hive?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přehluší poplachový pach a včely zklidní",
+     "Zabíjí roztoče, kteří žijí na včelách",
+     "Uspí včely na několik hodin",
+     "Ochladí úl, aby se včely nepřehřály"
+    ],
+    "en": [
+     "It masks the alarm scent and calms the bees",
+     "It kills the mites that live on the bees",
+     "It puts the bees to sleep for hours",
+     "It cools the hive so the bees don't overheat"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kouř přehluší poplachový feromon, kterým strážkyně svolávají ostatní k obraně. Zároveň vyvolá reakci jako při požáru: včely se začnou cpát medem do zásoby a jsou pak méně útočné. Na hodiny je ale neuspí, proto včelaři při prohlídce kouří opakovaně.",
+    "en": "Smoke masks the alarm pheromone that guard bees release to call others to defend the hive. It also triggers a fire-survival response that makes them gorge on honey, which leaves them less defensive. It does not put them to sleep for hours, which is why beekeepers keep puffing smoke during an inspection."
+   }
+  },
+  {
+   "id": "T405-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik křídel má včela medonosná?",
+    "en": "How many wings does a honey bee have?"
+   },
+   "moznosti": {
+    "cs": [
+     "2",
+     "4",
+     "6",
+     "8"
+    ],
+    "en": [
+     "2",
+     "4",
+     "6",
+     "8"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Včela má dva páry křídel. Za letu je drží spojené řadou drobných háčků (hamuli) na okraji zadního křídla, takže každá strana pracuje jako jedno křídlo.",
+    "en": "A bee has two pairs of wings. In flight it locks them together with a row of tiny hooks (hamuli) on the edge of the hind wing, so each side works as a single wing."
+   }
+  },
+  {
+   "id": "T405-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Pyl je pro včelstvo hlavním zdrojem čeho?",
+    "en": "Pollen is a honey bee colony's main source of what?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vosku",
+     "Bílkovin",
+     "Cukru",
+     "Vody"
+    ],
+    "en": [
+     "Wax",
+     "Protein",
+     "Sugar",
+     "Water"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pyl slouží včelám hlavně jako zdroj bílkovin a dalších živin pro larvy, kdežto nektar dodává sacharidy jako palivo pro dospělce. Uskladněný pyl smíchaný s nektarem se nazývá včelí chléb.",
+    "en": "Bees use pollen mainly as a source of protein and other nutrients for their larvae, while nectar supplies carbohydrates as fuel for the adults. Stored pollen mixed with nectar is called bee bread."
+   }
+  },
+  {
+   "id": "T405-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kde nosí včela medonosná pyl domů do úlu?",
+    "en": "Where does a honey bee carry pollen back to the hive?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve vole spolu s nektarem",
+     "V košíčcích na zadních nohách",
+     "V kusadlech",
+     "V chloupcích pod křídly"
+    ],
+    "en": [
+     "In its crop, along with nectar",
+     "In baskets on its hind legs",
+     "In its mandibles",
+     "In the hairs under its wings"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Na zadních nohách má včela košíčky (corbiculae) – prohlubně lemované tuhými chloupky. Pyl v nich navlhčí nektarem a slisuje do barevných pylových rousek, které jsou u vracejících se včel dobře vidět.",
+    "en": "On its hind legs a bee has pollen baskets (corbiculae), hollows fringed with stiff hairs. It moistens the pollen with nectar and packs it into coloured pellets that are easy to see on returning bees."
+   }
+  },
+  {
+   "id": "T405-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč se správně uložený med prakticky nekazí?",
+    "en": "Why does properly stored honey practically never spoil?"
+   },
+   "moznosti": {
+    "cs": [
+     "Obsahuje hodně tuku, který ho chrání",
+     "Obsahuje přírodní alkohol z kvašení",
+     "Včely do něj přidávají sůl",
+     "Obsahuje velmi málo vody a mnoho cukru"
+    ],
+    "en": [
+     "It contains a lot of protective fat",
+     "It contains natural alcohol from fermentation",
+     "Bees add salt to it",
+     "It contains very little water and a lot of sugar"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "V tak hustém a sladkém prostředí bakterie a plísně nemají dost vody a vlastně z nich vodu vysává; med je navíc kyselý. Med vydrží bez zkažení i desítky let, pokud do něj nepronikne vlhkost; zprávy o jedlém medu z egyptských hrobek se ale nepotvrdily.",
+    "en": "In such a thick, sugary environment bacteria and moulds lack water and are in fact dried out; honey is also acidic. Honey can keep for decades if moisture is kept out, but reports of edible honey from Egyptian tombs have not been confirmed."
+   }
+  },
+  {
+   "id": "T405-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč med časem zhoustne a zrnitě ztuhne?",
+    "en": "Why does honey thicken and turn grainy over time?"
+   },
+   "moznosti": {
+    "cs": [
+     "Krystalizuje v něm glukóza",
+     "Zkazil se a začal kvasit",
+     "Zmrzla v něm voda",
+     "Včely do něj přidaly vosk"
+    ],
+    "en": [
+     "The glucose in it crystallises",
+     "It has spoiled and started to ferment",
+     "The water in it has frozen",
+     "The bees added wax to it"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Ztuhnutí je přirozený děj: glukóza vytváří krystalky, zatímco fruktóza zůstává tekutá. Medy s nízkým podílem glukózy, například kaštanový, téměř nekrystalizují; ztuhlý med se mírným ohřátím opět zkapalní a zkažený není.",
+    "en": "Crystallisation is natural: glucose forms crystals while fructose stays liquid. Honeys low in glucose, such as chestnut honey, hardly crystallise at all; crystallised honey turns liquid again with gentle warming and has not gone bad."
+   }
+  },
+  {
+   "id": "T405-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Když se na jaře včelstvo poprvé vyrojí, kdo opouští úl spolu s tisíci dělnic?",
+    "en": "When a honey bee colony sends out its first swarm in spring, who leaves the hive along with thousands of workers?"
+   },
+   "moznosti": {
+    "cs": [
+     "Právě vylíhlá mladá královna",
+     "Nikdo, dělnice letí bez královny",
+     "Královna ze sousedního úlu",
+     "Stará královna"
+    ],
+    "en": [
+     "A newly hatched young queen",
+     "No one, the workers leave without a queen",
+     "A queen from a neighbouring hive",
+     "The old queen"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Rojení je způsob, jak se včelstvo rozmnožuje: stará královna (včelaři říkají matka) odletí zhruba s polovinou až dvěma třetinami dělnic a v úlu zůstanou zavíčkované matečníky, z nichž se brzy vylíhne nová matka. Roj obvykle visí jako hrozen na větvi, než průzkumnice najdou nový domov.",
+    "en": "Swarming is how a colony reproduces: the old queen flies off with roughly half to two-thirds of the workers, and capped queen cells stay behind, from which a new queen soon emerges. The swarm usually hangs in a cluster on a branch until scout bees find a new home."
+   }
+  },
+  {
+   "id": "T405-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Do stejného řádu hmyzu jako včely (blanokřídlí) patří také…",
+    "en": "Bees belong to the same insect order (Hymenoptera) as…"
+   },
+   "moznosti": {
+    "cs": [
+     "Mouchy",
+     "Motýli",
+     "Mravenci",
+     "Brouci"
+    ],
+    "en": [
+     "Flies",
+     "Butterflies",
+     "Ants",
+     "Beetles"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Blanokřídlí zahrnují včely, vosy a mravence. Včely se vyvinuly z dravých vos, které přešly z lovu hmyzu na krmení pylem, pravděpodobně už ve spodní křídě asi před 124 miliony let.",
+    "en": "The order Hymenoptera includes bees, wasps and ants. Bees evolved from predatory wasps that switched from hunting insects to feeding on pollen, probably in the Early Cretaceous about 124 million years ago."
+   }
+  },
+  {
+   "id": "T405-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Podle známého mýtu „věda dokázala“, že by podle zákonů aerodynamiky nemělo umět létat jedno zvíře. Které?",
+    "en": "According to a famous myth, 'science proved' that by the laws of aerodynamics one animal should not be able to fly. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vážka",
+     "Moucha domácí",
+     "Čmelák",
+     "Slunéčko sedmitečné"
+    ],
+    "en": [
+     "Dragonfly",
+     "Housefly",
+     "Bumblebee",
+     "Seven-spot ladybird"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Mýtus se odvozuje od knihy francouzského entomologa Antoina Magnana o letu hmyzu z roku 1934, v níž výpočet počítal s tuhými hladkými křídly jako u letadla. Skutečná křídla hmyzu se ale ohýbají a kroutí a vytvářejí víry, které dávají dostatečný vztlak.",
+    "en": "The myth goes back to a 1934 book on insect flight by French entomologist Antoine Magnan, in which the calculation assumed rigid, smooth wings like an aircraft's. Real insect wings bend and twist and create eddies that provide enough lift."
+   }
+  },
+  {
+   "id": "T405-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik očí má včela medonosná?",
+    "en": "How many eyes does a honey bee have?"
+   },
+   "moznosti": {
+    "cs": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "en": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Má dvě velké složené oči po stranách hlavy a tři drobná jednoduchá očka (ocelli) na temeni. Očka nevytvářejí obraz, ale vnímají intenzitu světla a pomáhají udržet stabilní let.",
+    "en": "It has two large compound eyes on the sides of its head and three tiny simple eyes (ocelli) on top. The ocelli do not form images but sense light intensity and help keep flight stable."
+   }
+  },
+  {
+   "id": "T405-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Odkud berou dělnice včely medonosné vosk na stavbu plástů?",
+    "en": "Where do honey bee workers get the wax they build comb from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Seškrabují ho z listů rostlin",
+     "Vylučují ho žlázy na zadečku",
+     "Rozžvýkají dřevo na kaši",
+     "Získávají ho z rozkousaného pylu"
+    ],
+    "en": [
+     "They scrape it off plant leaves",
+     "Glands on their abdomen secrete it",
+     "They chew wood into a pulp",
+     "They extract it from chewed pollen"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Dělnice mají na spodní straně zadečku osm voskových žláz, z nichž vystupují drobné šupinky vosku; na jeden gram vosku je jich potřeba asi 1 100. Rozžvýkané dřevo naopak používají na hnízda sociální vosy.",
+    "en": "Workers have eight wax glands on the underside of the abdomen that release tiny flakes of wax; about 1,100 flakes make one gram of wax. Chewed wood pulp is what social wasps use for their nests."
+   }
+  },
+  {
+   "id": "T405-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Z čeho včely vyrábějí propolis, „včelí tmel“, kterým utěsňují škvíry v úlu?",
+    "en": "What do bees make propolis from, the 'bee glue' they use to seal cracks in the hive?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z bláta smíchaného se slinami",
+     "Ze zaschlého nektaru",
+     "Z pryskyřice z pupenů a kůry stromů",
+     "Z rozdrcených těl mrtvých včel"
+    ],
+    "en": [
+     "Mud mixed with saliva",
+     "Dried nectar",
+     "Resin from tree buds and bark",
+     "Crushed bodies of dead bees"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Propolis je směs rostlinných pryskyřic s voskem a slinami včel. Když v úlu uhyne myš či ještěrka, kterou včely nedokážou vynést, zalijí ji propolisem, čímž ji v podstatě mumifikují.",
+    "en": "Propolis is a mixture of plant resins with beeswax and bee saliva. If a mouse or lizard dies in the hive and is too big to carry out, the bees seal it in propolis, essentially mummifying it."
+   }
+  },
+  {
+   "id": "T405-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak dlouho obvykle žije dělnice včely medonosné vylíhlá v létě?",
+    "en": "How long does a honey bee worker that emerges in summer usually live?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 1 týden",
+     "Asi 6 týdnů",
+     "Asi 6 měsíců",
+     "Asi 2 roky"
+    ],
+    "en": [
+     "About 1 week",
+     "About 6 weeks",
+     "About 6 months",
+     "About 2 years"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Letní dělnice žijí zhruba 5–7 týdnů, protože se v rušné sezóně rychle upracují. Zimní dělnice se dožívají několika měsíců a královna až pěti let.",
+    "en": "Summer workers live for about 5–7 weeks because they wear themselves out quickly in the busy season. Winter workers live for several months, and a queen up to five years."
+   }
+  },
+  {
+   "id": "T405-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik medu vyrobí jedna dělnice včely medonosné za celý svůj život?",
+    "en": "How much honey does a single honey bee worker make in her whole lifetime?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 1/12 čajové lžičky",
+     "Asi 1 čajovou lžičku",
+     "Asi 1 polévkovou lžíci",
+     "Asi 1 hrnek"
+    ],
+    "en": [
+     "About 1/12 of a teaspoon",
+     "About 1 teaspoon",
+     "About 1 tablespoon",
+     "About 1 cup"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jedna včela vyrobí jen asi dvanáctinu čajové lžičky. Na zhruba 450 g medu musí včelstvo navštívit zhruba dva miliony květů.",
+    "en": "One bee makes only about a twelfth of a teaspoon. To produce about 450 g (1 lb) of honey, a colony has to visit roughly two million flowers."
+   }
+  },
+  {
+   "id": "T405-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Z jakých vajíček se líhnou samci včely medonosné?",
+    "en": "What kind of eggs do male honey bees hatch from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z oplozených vajíček kladených na podzim",
+     "Z oplozených vajíček, z nichž larvy změní pohlaví",
+     "Z oplozených vajíček krmených jen medem",
+     "Z neoplozených vajíček"
+    ],
+    "en": [
+     "Fertilised eggs laid in autumn",
+     "Fertilised eggs whose larvae change sex",
+     "Fertilised eggs fed only on honey",
+     "Unfertilised eggs"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Z neoplozených vajíček vznikají samci, z oplozených samice; samec tak má matku, ale nemá otce. Objevil to v roce 1835 slezský kněz a včelař Jan Dzierżon.",
+    "en": "Unfertilised eggs develop into males and fertilised eggs into females, so a male has a mother but no father. The Silesian priest and beekeeper Jan Dzierżon discovered this in 1835."
+   }
+  },
+  {
+   "id": "T405-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kterou práci vykonává dělnice včely medonosné obvykle až na konci svého života?",
+    "en": "Which job does a honey bee worker usually do last in her life?"
+   },
+   "moznosti": {
+    "cs": [
+     "Čištění buněk plástů",
+     "Stavba nových plástů",
+     "Krmení larev",
+     "Sběr nektaru a pylu"
+    ],
+    "en": [
+     "Cleaning the comb cells",
+     "Building new comb",
+     "Feeding the larvae",
+     "Gathering nectar and pollen"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Úkoly se mění s věkem: mladé dělnice nejprve čistí úl a krmí larvy, později staví plásty a ukládají zásoby. Nakonec začnou létat ven a sběračkami už zůstanou až do smrti.",
+    "en": "Tasks change with age: young workers first clean the hive and feed the larvae, and later build comb and store food. Finally they start flying out and remain foragers for the rest of their lives."
+   }
+  },
+  {
+   "id": "T405-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč se ve sklenících k opylování rajčat používají čmeláci?",
+    "en": "Why are bumblebees used to pollinate tomatoes in greenhouses?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vibracemi z květů vytřesou pyl",
+     "Jen čmeláci létají pod umělým světlem",
+     "Čmeláci požírají i škůdce rajčat",
+     "Nektar rajčat včelám škodí"
+    ],
+    "en": [
+     "They shake pollen loose by vibrating",
+     "Only bumblebees fly under artificial light",
+     "Bumblebees also eat tomato pests",
+     "Tomato nectar is harmful to honey bees"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Květy rajčat drží pyl v prašnících s malými otvory. Čmelák se zakousne do květu a rozvibruje letové svaly (bzučivé opylování), což včela medonosná neumí; dřív pěstitelé květy rozechvívali elektrickými vibrátory.",
+    "en": "Tomato flowers keep their pollen inside anthers with small pores. A bumblebee grips the flower and vibrates its flight muscles (buzz pollination), which honey bees cannot do; growers used to shake the flowers with electric vibrators."
+   }
+  },
+  {
+   "id": "T405-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kterou z těchto barev včely medonosné NEVIDÍ?",
+    "en": "Which of these colours can honey bees NOT see?"
+   },
+   "moznosti": {
+    "cs": [
+     "Červenou",
+     "Ultrafialovou",
+     "Modrou",
+     "Žlutou"
+    ],
+    "en": [
+     "Red",
+     "Ultraviolet",
+     "Blue",
+     "Yellow"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Zrak včel je posunutý ke kratším vlnovým délkám: červená jim připadá černá, zato vidí ultrafialové světlo. Mnoho květů má ultrafialové kresby, které jim ukazují cestu k nektaru.",
+    "en": "Bee vision is shifted toward shorter wavelengths: red looks black to them, but they can see ultraviolet light. Many flowers carry ultraviolet patterns that guide bees to the nectar."
+   }
+  },
+  {
+   "id": "T405-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak žije většina z přibližně 20 000 známých druhů včel?",
+    "en": "How do most of the roughly 20,000 known bee species live?"
+   },
+   "moznosti": {
+    "cs": [
+     "Samotářsky, každá samice má vlastní hnízdo",
+     "Ve velkých koloniích s jedinou královnou",
+     "Uvnitř podzemních hnízd mravenců",
+     "Jako paraziti v hnízdech jiných druhů včel"
+    ],
+    "en": [
+     "Solitarily, each female builds her own nest",
+     "In large colonies ruled by a single queen",
+     "Inside the underground nests of ants",
+     "As parasites in the nests of other bee species"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Více než 90 % druhů včel žije samotářsky bez královny a dělnic; mnohé hnízdí v zemi nebo v dutých stoncích. Medonosné včely a čmeláci se svými koloniemi tvoří jen malou menšinu.",
+    "en": "More than 90% of bee species are solitary, with no queen or workers; many nest in the ground or in hollow stems. Honey bees and bumblebees with their colonies are only a small minority."
+   }
+  },
+  {
+   "id": "T405-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na svislé plástvi znamená přímý úsek vrtivého tance směřující svisle vzhůru, že potrava leží…",
+    "en": "On a vertical comb, a bee's waggle run pointing straight up means the food lies…"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve směru ke slunci",
+     "Na sever od úlu",
+     "Těsně u úlu",
+     "Přímo nad úlem"
+    ],
+    "en": [
+     "In the direction of the sun",
+     "To the north of the hive",
+     "Right next to the hive",
+     "Directly above the hive"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Úhel přímého úseku tance od svislice odpovídá úhlu mezi směrem k potravě a sluncem; směr dolů znamená opačný směr. Vzdálenost včela sděluje délkou trvání přímého úseku tance.",
+    "en": "The angle of the waggle run from vertical matches the angle between the food and the sun; a run straight down means the opposite direction. The bee conveys distance by how long the waggle run lasts."
+   }
+  },
+  {
+   "id": "T405-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Matematik Thomas Hales v roce 1999 dokázal „domněnku o včelí plástvi“ známou už od antiky. Co tvrdí?",
+    "en": "In 1999 mathematician Thomas Hales proved the 'honeycomb conjecture', known since antiquity. What does it state?"
+   },
+   "moznosti": {
+    "cs": [
+     "Šestiúhelník je jediný mnohoúhelník, kterým lze vydláždit rovinu",
+     "Šestiúhelníky rozdělí plochu na stejné buňky s nejkratšími stěnami",
+     "Plástev ze šestiúhelníků je nejpevnější možnou stavbou z vosku",
+     "Včely nedokážou postavit buňky jiného tvaru než šestiúhelník"
+    ],
+    "en": [
+     "The hexagon is the only polygon that can tile a flat plane",
+     "Hexagons divide a plane into equal cells with the shortest total walls",
+     "A comb of hexagons is the strongest possible structure made of wax",
+     "Bees are unable to build cells of any shape other than a hexagon"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pravidelná šestiúhelníková síť dělí rovinu na buňky stejné plochy s nejmenším celkovým obvodem, a proto je takové uspořádání pro včely úsporné na vosk. Domněnku zaznamenal už římský učenec Marcus Terentius Varro v roce 36 př. n. l.",
+    "en": "A regular hexagonal grid divides the plane into cells of equal area with the least total perimeter, which is why this layout saves the bees wax. The idea was recorded by the Roman scholar Marcus Terentius Varro in 36 BC."
+   }
+  },
+  {
+   "id": "T405-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Lorenzo Langstroth si v roce 1852 patentoval úl s vyjímatelnými rámky, které včely nepřilepí ke stěnám. Na jakém pozorování byl založen?",
+    "en": "In 1852 Lorenzo Langstroth patented a hive with removable frames that the bees do not glue to the walls. What observation was it based on?"
+   },
+   "moznosti": {
+    "cs": [
+     "Včely nepřipevní plást k natřenému dřevu",
+     "Včely staví plásty jen rovnoběžně se zemí",
+     "Včely nechávají mezery určité šířky volné",
+     "Včely nevstupují do míst, kde cítí kouř"
+    ],
+    "en": [
+     "Bees won't attach comb to painted wood",
+     "Bees build comb only parallel to the ground",
+     "Bees leave gaps of a certain width open",
+     "Bees avoid places where they smell smoke"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Tzv. včelí mezeru, zhruba 6,4–9,5 mm, včely nechávají volnou jako chodbičku; menší škvíry zatmelí a větší zastaví plástem. Langstroth, původně duchovní, proto nechal mezi rámky a stěnou úlu právě takovou mezeru; patent získal 5. října 1852.",
+    "en": "Bees leave a 'bee space' of about 6.4–9.5 mm (0.25–0.375 inches) open as a passage; they seal smaller gaps and fill larger ones with comb. Langstroth, originally a clergyman, left exactly this gap between the frames and the hive walls; his patent was issued on 5 October 1852."
+   }
+  },
+  {
+   "id": "T405-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak japonské včely (Apis cerana japonica) zabíjejí obří sršeň druhu Vespa mandarinia, která zaútočí na jejich úl?",
+    "en": "How do Japanese honey bees (Apis cerana japonica) kill a giant hornet (Vespa mandarinia) that attacks their hive?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zalepí jí dýchací otvory voskem",
+     "Ubodají ji stovkami žihadel naráz",
+     "Upečou ji v klubku teplem těl",
+     "Vylákají ji tancem daleko od úlu"
+    ],
+    "en": [
+     "They seal its breathing holes with wax",
+     "They sting it with hundreds of stings at once",
+     "They cook it in a ball of bodies",
+     "They lure it far from the hive with a dance"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Stovky včel sršeň obalí do klubka, teplota uvnitř stoupne asi na 46 °C a nahromadí se oxid uhličitý; sršeň tuto kombinaci nevydrží, včely snesou až 50 °C. Včela medonosná (Apis mellifera) proti těmto sršním nemá vrozenou obranu.",
+    "en": "Hundreds of bees engulf the hornet in a ball; the temperature inside rises to about 46 °C (115 °F) and carbon dioxide builds up; the hornet cannot survive this combination, while the bees tolerate up to 50 °C (122 °F). Western honey bees (Apis mellifera) have no innate defence against these hornets."
+   }
+  },
+  {
+   "id": "T405-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Wallaceova obří včela (Megachile pluto), považovaná za největší včelu světa, byla v roce 2019 znovu nalezena po desítkách let. V které zemi?",
+    "en": "Wallace's giant bee (Megachile pluto), regarded as the world's largest bee, was rediscovered in 2019 after decades. In which country?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Austrálii",
+     "Na Madagaskaru",
+     "V Brazílii",
+     "V Indonésii"
+    ],
+    "en": [
+     "Australia",
+     "Madagascar",
+     "Brazil",
+     "Indonesia"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Samici našla výprava, kterou vedli fotograf Clay Bolt a entomolog Eli Wyman, na ostrovech Severní Moluky; předtím ji vědci naposledy viděli v roce 1981. Rozpětí jejích křídel je asi 6,4 cm a hnízdí uvnitř obývaných termitišť na stromech.",
+    "en": "A female was found by an expedition co-led by photographer Clay Bolt and entomologist Eli Wyman in the North Moluccas; scientists had last seen the species in 1981. Its wingspan is about 6.4 cm (2.5 inches), and it nests inside active termite mounds in trees."
+   }
+  },
+  {
+   "id": "T405-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Mayové po staletí chovali v dutých kmenech včelu Melipona beecheii. Čím se zásadně liší od včely medonosné?",
+    "en": "For centuries the Maya kept the bee Melipona beecheii in hollow logs. What is the key difference between it and the honey bee?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nemá funkční žihadlo",
+     "Žije pouze samotářsky",
+     "Je aktivní jen v noci",
+     "Sbírá jen pyl, nikoli nektar"
+    ],
+    "en": [
+     "It has no functional sting",
+     "It lives only solitarily",
+     "It is active only at night",
+     "It collects only pollen, not nectar"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Melipona patří k bezžihadlým včelám: žihadlo má tak zakrnělé, že ho k obraně použít nemůže. Mayové jí říkají xunan kab („vznešená paní včela“) a její chov býval spojen s náboženskými obřady.",
+    "en": "Melipona belongs to the stingless bees: its sting is so reduced that it cannot be used for defence. The Maya call it xunan kab ('royal lady bee'), and keeping it was once tied to religious ceremonies."
+   }
+  },
+  {
+   "id": "T405-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Afrikanizované včely, přezdívané „zabijácké“, se začaly šířit Amerikou poté, co v roce 1957 unikly z pokusného včelína. V které zemi?",
+    "en": "Africanised bees, nicknamed 'killer bees', began spreading through the Americas after escaping from an experimental apiary in 1957. In which country?"
+   },
+   "moznosti": {
+    "cs": [
+     "V USA",
+     "V Brazílii",
+     "V Mexiku",
+     "V Argentině"
+    ],
+    "en": [
+     "USA",
+     "Brazil",
+     "Mexico",
+     "Argentina"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Genetik Warwick Kerr křížil africké včely s evropskými, aby získal včelu dávající v tropech víc medu; v říjnu 1957 uniklo z včelína u Rio Claro 26 rojů africké včely. Jejich potomci se rozšířili po Jižní a Střední Americe a v roce 1990 dorazili do Texasu.",
+    "en": "Geneticist Warwick Kerr crossed African and European bees to get a bee that would yield more honey in the tropics; in October 1957, 26 swarms of the African bees escaped from the apiary near Rio Claro. Their descendants spread across South and Central America and reached Texas in 1990."
+   }
+  },
+  {
+   "id": "T405-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Za nejstarší dosud nalezený med (k roku 2026) se považuje med starý asi 5 500 let, objevený v roce 2003 v keramických nádobách v hrobce šlechtičny. V které zemi?",
+    "en": "The oldest honey found so far (as of 2026) is considered to be about 5,500 years old, discovered in 2003 in clay jars in a noblewoman's tomb. In which country?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Španělsku",
+     "V Egyptě",
+     "V Číně",
+     "V Gruzii"
+    ],
+    "en": [
+     "Spain",
+     "Egypt",
+     "China",
+     "Georgia"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Našli ho při stavbě ropovodu asi 170 km západně od Tbilisi; šlo o několik druhů medu: lipový, z lesních plodů a z lučních květů.",
+    "en": "It was found during construction of an oil pipeline about 170 km (106 mi) west of Tbilisi and included several kinds of honey: linden, berry and meadow-flower."
+   }
+  },
+  {
+   "id": "T405-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Gregor Mendel byl i vášnivý včelař. Zkřížil žlutou kyperskou královnu s místními samci a výsledné včelstvo sledoval téměř tři roky. Jaké bylo?",
+    "en": "Gregor Mendel was also a keen beekeeper. He crossed a yellow Cyprian queen with local males and watched the resulting colony for almost three years. What was it like?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bylo velmi mírné, ale medu dávalo málo",
+     "Hned první zimu celé vyhynulo",
+     "Dávalo hodně medu, ale bylo velmi útočné",
+     "Odmítalo stavět plásty v rámcích"
+    ],
+    "en": [
+     "It was very gentle but gave little honey",
+     "The whole colony died in its first winter",
+     "It gave a lot of honey but was very aggressive",
+     "It refused to build comb in the frames"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kříženci byli dobří producenti medu, ale pro další chov se nehodili kvůli útočnosti. Šlechtění včel Mendelovi komplikovalo i to, že se královna páří s mnoha samci; jeho včelín v Brně byl obnoven a stojí dodnes.",
+    "en": "The hybrids were good honey producers but too aggressive for further breeding. Mendel's bee breeding was also complicated by the fact that a queen mates with many males; his bee house in Brno has been restored and still stands."
+   }
+  },
+  {
+   "id": "T405-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Studie v časopise Science z roku 2018 ukázala, že včely medonosné chápou matematický pojem, který byl předtím doložen jen u několika zvířat, třeba u opic a ptáků. Který?",
+    "en": "A 2018 study in Science showed that honey bees grasp a mathematical concept previously shown in only a few animals, such as monkeys and birds. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Prvočísla",
+     "Záporná čísla",
+     "Číslo pí",
+     "Nula"
+    ],
+    "en": [
+     "Prime numbers",
+     "Negative numbers",
+     "Pi",
+     "Zero"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Včely naučené vybírat obrázek s menším počtem tvarů volily i prázdný obrázek jako „méně než jedna“; chápaly tedy nic jako číselnou hodnotu. Studii vedla RMIT University v Austrálii spolu s vědci z Toulouse; včelí mozek má přitom méně než milion neuronů.",
+    "en": "Bees trained to choose the image with fewer shapes also chose a blank image as 'less than one', treating nothing as a numerical value. The study was led by RMIT University in Australia with researchers from Toulouse; a bee brain has fewer than a million neurons."
+   }
+  }
+ ]
+}

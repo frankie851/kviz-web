@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T403",
+ "nazev": {
+  "cs": "Knihtisk a knihy: od Gutenberga po e-čtečky",
+  "en": "Printing and Books: From Gutenberg to E-Readers"
+ },
+ "kategorie": {
+  "id": "vynalezy",
+  "nazev": {
+   "cs": "Vynálezy",
+   "en": "Inventions"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T403-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "V jakém jazyce je vytištěna Gutenbergova bible?",
+    "en": "In which language is the Gutenberg Bible printed?"
+   },
+   "moznosti": {
+    "cs": [
+     "V řečtině",
+     "V hebrejštině",
+     "V latině",
+     "V němčině"
+    ],
+    "en": [
+     "Greek",
+     "Hebrew",
+     "Latin",
+     "German"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Gutenbergova bible je vydáním latinské Vulgáty, překladu Bible od svatého Jeronýma. Zhruba tři čtvrtiny výtisků byly na papíře, zbytek na pergamenu.",
+    "en": "The Gutenberg Bible is an edition of the Latin Vulgate, St Jerome's translation of the Bible. About three-quarters of the copies were printed on paper and the rest on vellum."
+   }
+  },
+  {
+   "id": "T403-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která firma uvedla v listopadu 2007 na trh čtečku elektronických knih Kindle?",
+    "en": "Which company launched the Kindle e-reader in November 2007?"
+   },
+   "moznosti": {
+    "cs": [
+     "Apple",
+     "Google",
+     "Amazon",
+     "Sony"
+    ],
+    "en": [
+     "Apple",
+     "Google",
+     "Amazon",
+     "Sony"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "První Kindle se začal prodávat 19. listopadu 2007 za 399 dolarů. Knihy do něj šlo stahovat bezdrátově bez počítače a bez měsíčních poplatků přes síť Whispernet.",
+    "en": "The first Kindle went on sale on 19 November 2007 for US$399. Books could be downloaded wirelessly, without a computer and with no monthly fee, over Amazon's Whispernet network."
+   }
+  },
+  {
+   "id": "T403-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čí teze z roku 1517, kritizující odpustky, se díky tisku rychle rozšířily po Německu?",
+    "en": "Whose theses of 1517, criticizing indulgences, spread rapidly across Germany thanks to printing?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jana Husa",
+     "Jana Kalvína",
+     "Martina Luthera",
+     "Erasma Rotterdamského"
+    ],
+    "en": [
+     "Jan Hus's",
+     "John Calvin's",
+     "Martin Luther's",
+     "Erasmus's"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Luther sepsal 95 tezí v roce 1517 a ještě téhož roku vyšly tiskem jako brožura v Basileji a jako plakáty v Lipsku a Norimberku. Jeho Kázání o odpustcích a milosti (1518) bylo přetištěno dvacetkrát.",
+    "en": "Luther wrote the Ninety-five Theses in 1517, and that same year they were printed as a pamphlet in Basel and as placards in Leipzig and Nuremberg. His Sermon on Indulgences and Grace (1518) was reprinted twenty times."
+   }
+  },
+  {
+   "id": "T403-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Šikmé písmo kurzívu (anglicky italic) poprvé použil roku 1500 tiskař Aldus Manutius. Ve kterém městě měl svou tiskárnu?",
+    "en": "Italic type was first used in 1500 by the printer Aldus Manutius. In which city was his press?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Florencii",
+     "V Římě",
+     "V Benátkách",
+     "V Miláně"
+    ],
+    "en": [
+     "Florence",
+     "Rome",
+     "Venice",
+     "Milan"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Manutius vedl v Benátkách tiskárnu Aldine Press. Kurzívu pro něj vyřezal Francesco Griffo a zprvu se jí nesázelo zdůraznění, ale celé knihy, třeba Vergilius z roku 1501.",
+    "en": "Manutius ran the Aldine Press in Venice. His italic type was cut by Francesco Griffo, and at first it was used not for emphasis but to set whole books, such as a 1501 edition of Virgil."
+   }
+  },
+  {
+   "id": "T403-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč byly knihy v některých starých knihovnách připoutané řetězy?",
+    "en": "Why were books chained up in some old libraries?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aby nepadaly z polic",
+     "Aby je neokousaly myši",
+     "Aby se nezkroutily vlhkem",
+     "Aby je nikdo neukradl"
+    ],
+    "en": [
+     "To keep them from falling off shelves",
+     "To keep mice from gnawing them",
+     "To stop them warping in damp",
+     "To stop them being stolen"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Knihy byly drahé, a tak se řetězily hlavně ty nejcennější. Řetěz býval připevněn k desce, ne ke hřbetu, a knihy stály na policích hřbetem dovnitř, aby se řetěz při čtení nezamotal.",
+    "en": "Books were costly, so mainly the most valuable ones were chained. The chain was fixed to the cover rather than the spine, and books were shelved spine inward so the chain would not tangle when a reader took one down."
+   }
+  },
+  {
+   "id": "T403-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které dnešní zemi stála slavná antická Alexandrijská knihovna?",
+    "en": "In which present-day country did the famous ancient Library of Alexandria stand?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Řecku",
+     "V Turecku",
+     "V Itálii",
+     "V Egyptě"
+    ],
+    "en": [
+     "Greece",
+     "Turkey",
+     "Italy",
+     "Egypt"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Alexandrie leží na egyptském pobřeží Středozemního moře a knihovna tam vzkvétala za vlády dynastie Ptolemaiovců. Patřila k největším a nejvýznamnějším knihovnám starověku.",
+    "en": "Alexandria lies on Egypt's Mediterranean coast, and its library flourished under the Ptolemaic dynasty. It was one of the largest and most significant libraries of the ancient world."
+   }
+  },
+  {
+   "id": "T403-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "K čemu slouží Deweyho desetinné třídění, které používá mnoho knihoven?",
+    "en": "What is the Dewey Decimal Classification, used by many libraries, for?"
+   },
+   "moznosti": {
+    "cs": [
+     "K evidenci výpůjček čtenářů",
+     "K řazení knih podle oboru",
+     "K číslování stránek rukopisů",
+     "K odhadu ceny starých knih"
+    ],
+    "en": [
+     "Tracking readers' loans",
+     "Arranging books by subject",
+     "Numbering manuscript pages",
+     "Valuing antique books"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Melvil Dewey systém zveřejnil v roce 1876 a rozdělil v něm vědění do deseti hlavních tříd s čísly. Například 500 jsou přírodní vědy a matematika, 800 literatura.",
+    "en": "Melvil Dewey published the system in 1876, dividing knowledge into ten numbered main classes. For example, 500 is natural sciences and mathematics and 800 is literature."
+   }
+  },
+  {
+   "id": "T403-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaké řemeslo se Benjamin Franklin naučil jako dvanáctiletý učeň u svého staršího bratra Jamese?",
+    "en": "Which trade did Benjamin Franklin learn as a 12-year-old apprentice to his older brother James?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kovář",
+     "Lodní tesař",
+     "Knihtiskař",
+     "Hodinář"
+    ],
+    "en": [
+     "Blacksmith",
+     "Shipwright",
+     "Printer",
+     "Clockmaker"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Franklin se u bratra vyučil tiskařem a od roku 1732 vydával pod pseudonymem Richard Saunders úspěšný Almanach chudého Richarda. I jako slavný státník se často podepisoval „B. Franklin, Printer“.",
+    "en": "Franklin trained as a printer under his brother and from 1732 published the popular Poor Richard's Almanack under the pseudonym Richard Saunders. Even when famous, he habitually signed his letters \"B. Franklin, Printer\"."
+   }
+  },
+  {
+   "id": "T403-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co nabízí Projekt Gutenberg, který v roce 1971 založil Michael Hart?",
+    "en": "What does Project Gutenberg, founded by Michael Hart in 1971, offer?"
+   },
+   "moznosti": {
+    "cs": [
+     "Online kurzy krásného písma",
+     "Bezplatné e-knihy volných děl",
+     "Repliky starých tiskařských lisů",
+     "Placené audioknihy bestsellerů"
+    ],
+    "en": [
+     "Online calligraphy courses",
+     "Free e-books of public-domain works",
+     "Replicas of old printing presses",
+     "Paid audiobooks of bestsellers"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Projekt Gutenberg zdarma zpřístupňuje digitální knihy, většinou díla, na něž už se v USA nevztahují autorská práva. Prvním textem, který Hart přepsal, byla americká Deklarace nezávislosti.",
+    "en": "Project Gutenberg offers free digital books, mostly works in the public domain under US copyright law. The first text Hart digitized was the US Declaration of Independence."
+   }
+  },
+  {
+   "id": "T403-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč vydrží čtečka s displejem z elektronického papíru (E Ink) na jedno nabití i několik týdnů?",
+    "en": "Why can an e-reader with an electronic paper (E Ink) display last for weeks on a single charge?"
+   },
+   "moznosti": {
+    "cs": [
+     "Písmo se kreslí v nízkém rozlišení",
+     "Displej bere proud jen při změně stránky",
+     "Stránky se ukládají předem jako obrázky",
+     "Displej se dobíjí z okolního světla"
+    ],
+    "en": [
+     "The text is drawn at a low resolution",
+     "The display draws power only when the page changes",
+     "Pages are stored in advance as images",
+     "The display recharges itself from ambient light"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Elektronický papír je bistabilní: hotový obraz drží i bez napájení a energii spotřebuje jen při překreslení. Za první čtečku s displejem E Ink se považuje Sony Librié, vydaná v Japonsku roku 2004.",
+    "en": "Electronic paper is bistable: it holds a finished image without power and uses energy only when the image is redrawn. The Sony Librié, released in Japan in 2004, is regarded as the first e-reader with an E Ink display."
+   }
+  },
+  {
+   "id": "T403-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Diamantová sútra z jeskyní u Tun-chuangu, datovaná rokem 868, je považována za nejstarší známou datovanou tištěnou knihu. Jakou technikou vznikla?",
+    "en": "The Diamond Sutra from the caves near Dunhuang, dated 868, is regarded as the oldest known dated printed book. How was it printed?"
+   },
+   "moznosti": {
+    "cs": [
+     "Otiskem z rytého kamene",
+     "Deskotiskem z dřevěných desek",
+     "Tiskem z rytých měděných desek",
+     "Pohyblivými hliněnými literami"
+    ],
+    "en": [
+     "Rubbings from carved stone",
+     "Woodblock printing",
+     "Copperplate engraving",
+     "Movable clay type"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jde o zhruba pět metrů dlouhý svitek tištěný z vyřezávaných dřevěných desek. Badatel Aurel Stein ho v roce 1907 získal od mnicha střežícího jeskyně Mo-kao a dnes je v Britské knihovně.",
+    "en": "It is a scroll about 5 m (16 ft) long, printed from carved wooden blocks. Aurel Stein acquired it in 1907 from a monk guarding the Mogao Caves, and it is now in the British Library."
+   }
+  },
+  {
+   "id": "T403-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Gutenbergův tiskařský lis vycházel z konstrukce šroubových lisů, které se tehdy běžně používaly k čemu?",
+    "en": "Gutenberg's printing press was based on the screw presses commonly used at the time for what?"
+   },
+   "moznosti": {
+    "cs": [
+     "K ražbě stříbrných mincí",
+     "K lisování hroznů a oliv",
+     "K drcení obilí na mouku",
+     "K tkaní vlněných látek"
+    ],
+    "en": [
+     "Striking silver coins",
+     "Pressing grapes and olives",
+     "Crushing grain into flour",
+     "Weaving woollen cloth"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Gutenberg převzal základní konstrukci šroubového lisu na víno a olej; inspirovat ho mohly i lisy v papírnách. K jeho klíčovým novinkám patřila také tiskařská barva na olejové bázi.",
+    "en": "Gutenberg adopted the basic design of the screw press used for wine and olive oil, and may also have been inspired by paper-mill presses. Another of his key innovations was oil-based printing ink."
+   }
+  },
+  {
+   "id": "T403-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Podle legendy, kterou zaznamenal Plinius starší, začali pergamen vyrábět v Pergamonu. Proč?",
+    "en": "According to a legend recorded by Pliny the Elder, parchment began to be made in Pergamon. Why?"
+   },
+   "moznosti": {
+    "cs": [
+     "Soupeřící Alexandrie ovládala papyrus",
+     "Papyrus se v tamní vlhkosti rozpadal",
+     "Král chtěl knihy odolné proti ohni",
+     "V okolí se chovalo nejvíc ovcí a koz"
+    ],
+    "en": [
+     "Rival Alexandria controlled papyrus",
+     "Papyrus rotted in the local damp",
+     "The king wanted fireproof books",
+     "The area raised the most sheep and goats"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Podle Plinia měl pergamen nahradit papyrus, jehož dodávky ovládala Alexandrie. Legenda je ale téměř jistě nepravdivá, protože pergamen se v Anatolii používal dávno předtím; jméno ovšem dostal právě po Pergamonu, velkém středisku jeho výroby.",
+    "en": "Pliny says parchment was meant to replace papyrus, which Alexandria had come to control. The story is almost certainly false, since parchment was used in Anatolia long before, but the material is indeed named after Pergamon, a major centre of its production."
+   }
+  },
+  {
+   "id": "T403-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které londýnské noviny se od 29. listopadu 1814 tiskly na nových parních lisech Friedricha Koeniga?",
+    "en": "Which London newspaper was printed on Friedrich Koenig's new steam-powered presses from 29 November 1814?"
+   },
+   "moznosti": {
+    "cs": [
+     "The Times",
+     "The Observer",
+     "The Morning Chronicle",
+     "The Daily Telegraph"
+    ],
+    "en": [
+     "The Times",
+     "The Observer",
+     "The Morning Chronicle",
+     "The Daily Telegraph"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Koenigovy stroje poháněla pára a využívaly rotační pohyb válce. Zvládly zhruba 1 100 archů za hodinu, mnohem víc než ruční lis.",
+    "en": "Koenig's machines were driven by steam and used the rotary motion of a cylinder. They printed about 1,100 sheets an hour, far more than a hand press."
+   }
+  },
+  {
+   "id": "T403-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Stroj Linotype Ottmara Mergenthalera (1886) zrychlil sazbu novin. Co odléval?",
+    "en": "Ottmar Mergenthaler's Linotype machine (1886) sped up newspaper typesetting. What did it cast?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kovové štočky pro obrázky",
+     "Jednotlivá písmena jedno po druhém",
+     "Celé řádky textu z jednoho kusu",
+     "Celé novinové stránky najednou"
+    ],
+    "en": [
+     "Metal blocks for pictures",
+     "Individual letters one at a time",
+     "Whole lines of text in one piece",
+     "Entire newspaper pages at once"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Linotype odléval z roztaveného kovu celý řádek jako jeden kus, takzvaný slug, odtud jméno „line o' type“. Po tisku se řádky znovu roztavily a kov se použil znovu.",
+    "en": "The Linotype cast a whole line of type from molten metal as a single piece called a slug, hence the name \"line o' type\". After printing, the slugs were melted down and the metal reused."
+   }
+  },
+  {
+   "id": "T403-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik číslic má ISBN knih, kterým bylo přiděleno od 1. ledna 2007?",
+    "en": "How many digits does an ISBN assigned on or after 1 January 2007 have?"
+   },
+   "moznosti": {
+    "cs": [
+     "9",
+     "10",
+     "12",
+     "13"
+    ],
+    "en": [
+     "9",
+     "10",
+     "12",
+     "13"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Od roku 2007 má ISBN 13 číslic, dřívější knihy mají desetimístné ISBN zavedené normou ISO 2108 z roku 1970. Jeho předchůdcem byl devítimístný britský kód SBN z roku 1966.",
+    "en": "Since 2007 the ISBN has had 13 digits; earlier books have the 10-digit ISBN set out in the ISO 2108 standard of 1970. Its predecessor was the 9-digit British SBN of 1966."
+   }
+  },
+  {
+   "id": "T403-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "První brožované knihy nakladatelství Penguin (1935) stály šest pencí. S čím se tato cena tradičně srovnává?",
+    "en": "Penguin's first paperbacks (1935) cost sixpence. What is the price traditionally compared with?"
+   },
+   "moznosti": {
+    "cs": [
+     "S krabičkou cigaret",
+     "S týdenním nájmem bytu",
+     "S dálkovou jízdenkou na vlak",
+     "S večeří v restauraci"
+    ],
+    "en": [
+     "A packet of cigarettes",
+     "A week's rent",
+     "A long-distance train ticket",
+     "A restaurant dinner"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Allen Lane chtěl, aby kvalitní literatura byla dostupná každému. Nápad na levné a pěkně navržené knihy prý dostal na nádraží v Exeteru, kde nenašel nic dobrého ke čtení.",
+    "en": "Allen Lane wanted quality literature to be affordable for everyone. He reportedly got the idea for cheap, well-designed books at Exeter St Davids station, where he could find nothing good to read."
+   }
+  },
+  {
+   "id": "T403-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Britové v roce 1814 vypálili ve Washingtonu Kongresovou knihovnu. Čí soukromou knihovnu Kongres pak koupil, aby ji obnovil?",
+    "en": "In 1814 the British burned the Library of Congress in Washington. Whose personal library did Congress then buy to restore it?"
+   },
+   "moznosti": {
+    "cs": [
+     "George Washingtona",
+     "Thomase Jeffersona",
+     "Johna Adamse",
+     "Benjamina Franklina"
+    ],
+    "en": [
+     "George Washington's",
+     "Thomas Jefferson's",
+     "John Adams's",
+     "Benjamin Franklin's"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "V lednu 1815 Kongres koupil Jeffersonových 6 487 svazků za 23 950 dolarů. Při požáru knihovna přišla o více než 3 000 svazků.",
+    "en": "In January 1815 Congress bought Jefferson's 6,487 books for $23,950. The library had lost more than 3,000 volumes in the fire."
+   }
+  },
+  {
+   "id": "T403-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč mnoho knih z konce 19. a z 20. století žloutne a křehne rychleji než mnohem starší tisky?",
+    "en": "Why do many books from the late 19th and the 20th century yellow and turn brittle faster than much older prints?"
+   },
+   "moznosti": {
+    "cs": [
+     "Starší tisky se pravidelně voskovaly",
+     "Vázaly se syntetickým lepidlem",
+     "Tiskařská čerň s olovem rozkládá papír",
+     "Papír ze dřevoviny obsahuje kyseliny"
+    ],
+    "en": [
+     "Older prints were regularly waxed",
+     "They were bound with synthetic glue",
+     "Lead-based ink breaks down the paper",
+     "Wood-pulp paper contains acids"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Levný papír ze dřevoviny, rozšířený od konce 19. století, obsahuje kyseliny a lignin, které ho pomalu rozkládají; mluví se o „pomalém ohni“. Proto se dnes pro trvanlivé dokumenty používá nekyselý papír.",
+    "en": "Cheap wood-pulp paper, common from the late 19th century, contains acids and lignin that slowly break it down, a process called \"slow fire\". That is why acid-free paper is now used for documents meant to last."
+   }
+  },
+  {
+   "id": "T403-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Alois Senefelder vynalezl roku 1796 litografii, když hledal levný způsob, jak vydávat své divadelní hry. Z čeho se tisklo?",
+    "en": "Alois Senefelder invented lithography in 1796 while looking for a cheap way to publish his plays. What did it print from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z vápencové desky",
+     "Z měděné desky",
+     "Z dřevěného špalku",
+     "Z olověných liter"
+    ],
+    "en": [
+     "A limestone slab",
+     "A copper plate",
+     "A wooden block",
+     "Lead type"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Senefelder kreslil mastnou barvou na hladký solnhofenský vápenec. Název litografie pochází z řeckého lithos, tedy kámen.",
+    "en": "Senefelder drew with greasy ink on smooth Solnhofen limestone. The name lithography comes from the Greek lithos, meaning stone."
+   }
+  },
+  {
+   "id": "T403-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Korejský buddhistický text Jikji z roku 1377 je podle UNESCO nejstarší dochovanou knihou tištěnou pohyblivými kovovými literami. Kde je uložen jediný dochovaný svazek tohoto kovového tisku?",
+    "en": "The Korean Buddhist text Jikji of 1377 is, according to UNESCO, the oldest surviving book printed with movable metal type. Where is the only surviving volume of this metal-type edition kept?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Paříži",
+     "Ve Washingtonu",
+     "V Londýně",
+     "V Soulu"
+    ],
+    "en": [
+     "Paris",
+     "Washington",
+     "London",
+     "Seoul"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Druhý svazek koupil v Soulu francouzský diplomat Victor Collin de Plancy. V roce 1911 ho za 180 franků získal sběratel Henri Véver a odkázal ho Francouzské národní knihovně.",
+    "en": "The second volume was bought in Seoul by the French diplomat Victor Collin de Plancy. In 1911 the collector Henri Véver acquired it for 180 francs and bequeathed it to the National Library of France."
+   }
+  },
+  {
+   "id": "T403-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Podle tradičního výkladu obsahovala slitina, z níž Gutenberg odléval litery, olovo, cín a ještě jeden prvek. Který?",
+    "en": "Traditionally, the alloy Gutenberg cast his type from is said to have contained lead, tin and one more element. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Antimon",
+     "Stříbro",
+     "Železo",
+     "Zinek"
+    ],
+    "en": [
+     "Antimony",
+     "Silver",
+     "Iron",
+     "Zinc"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Směs olova, cínu a antimonu taje při poměrně nízké teplotě, takže odlévání bylo rychlé a levné; Gutenbergův přesný postup ale zůstává nejasný. Podobné písmoviny se v tiskárnách používaly ještě ve 20. století.",
+    "en": "A mix of lead, tin and antimony melts at a fairly low temperature, which made casting quick and cheap, though Gutenberg's exact technique remains unclear. Similar type metals were still used in print shops in the 20th century."
+   }
+  },
+  {
+   "id": "T403-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Gutenbergově bibli se někdy říká Mazarinova bible. Proč?",
+    "en": "The Gutenberg Bible is sometimes called the Mazarin Bible. Why?"
+   },
+   "moznosti": {
+    "cs": [
+     "Její tisk financoval kardinál Mazarin",
+     "Proslavil ji výtisk z Mazarinovy knihovny",
+     "Mazarin vlastnil všechny dochované výtisky",
+     "Mazarin ji dal přeložit do francouzštiny"
+    ],
+    "en": [
+     "Cardinal Mazarin paid for its printing",
+     "A Mazarin Library copy made it famous",
+     "Mazarin owned every surviving copy",
+     "Mazarin had it translated into French"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Kolem roku 1760 našel Guillaume-François Debure výtisk v pařížské Bibliothèque Mazarine, která vznikla ze sbírky kardinála Mazarina ze 17. století. Vytištěno bylo asi 160 až 185 výtisků.",
+    "en": "Around 1760 Guillaume-François Debure found a copy in the Bibliothèque Mazarine in Paris, which grew out of Cardinal Mazarin's 17th-century collection. An estimated 160 to 185 copies were printed."
+   }
+  },
+  {
+   "id": "T403-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Výtisk knihy Bay Psalm Book z roku 1640 se v roce 2013 vydražil za 14,2 milionu dolarů, což byl tehdy rekord pro tištěnou knihu. Čím je kniha výjimečná?",
+    "en": "In 2013 a copy of the Bay Psalm Book of 1640 sold at auction for $14.2 million, then a record for a printed book. What makes the book special?"
+   },
+   "moznosti": {
+    "cs": [
+     "První kniha tištěná v Britské Severní Americe",
+     "Vytiskla se na palubě lodi Mayflower",
+     "První úplný anglický překlad Bible",
+     "První kniha v jazyce amerických indiánů"
+    ],
+    "en": [
+     "The first book printed in British North America",
+     "It was printed aboard the Mayflower",
+     "The first complete English translation of the Bible",
+     "The first book in a Native American language"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Žaltář byl vytištěn v Cambridge v kolonii Massachusetts Bay. Z prvního vydání je známo jen 11 výtisků a úplných je z nich pět.",
+    "en": "The psalter was printed in Cambridge in the Massachusetts Bay Colony. Only 11 copies of the first edition are known, and just five of them are complete."
+   }
+  },
+  {
+   "id": "T403-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Technologie elektronického inkoustu E Ink, kterou používá většina čteček e-knih (k roku 2026), vzešla z prostředí které instituce?",
+    "en": "The E Ink electronic ink technology used in most e-readers (as of 2026) grew out of which institution?"
+   },
+   "moznosti": {
+    "cs": [
+     "Stanfordova univerzita",
+     "IBM Research",
+     "Bell Labs",
+     "MIT Media Lab"
+    ],
+    "en": [
+     "Stanford University",
+     "IBM Research",
+     "Bell Labs",
+     "MIT Media Lab"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Mezi zakladateli firmy E Ink (1997) byli studenti MIT J. D. Albert a Barrett Comiskey a profesor Media Labu Joseph Jacobson. Displej tvoří mikrokapsle s kladně nabitými bílými a záporně nabitými černými pigmenty v čirém oleji.",
+    "en": "E Ink's co-founders in 1997 included MIT undergraduates J. D. Albert and Barrett Comiskey and Media Lab professor Joseph Jacobson. The display uses microcapsules of positively charged white and negatively charged black pigment in clear oil."
+   }
+  },
+  {
+   "id": "T403-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Podle lékaře Galéna musely lodě připlouvající do Alexandrie odevzdat knihy, které vezly. Co se s nimi stalo?",
+    "en": "According to the physician Galen, ships arriving in Alexandria had to hand over any books they carried. What happened to them?"
+   },
+   "moznosti": {
+    "cs": [
+     "Knihy se opsaly a originály se vrátily majitelům",
+     "Knihovna je vykoupila za předem stanovenou cenu",
+     "Knihy, které nebyly řecky, se spálily",
+     "Originály si nechala, majitelé dostali opisy"
+    ],
+    "en": [
+     "They were copied and the originals returned",
+     "The library bought them at a fixed price",
+     "Books not in Greek were burned",
+     "The library kept them; owners got copies"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Opisy pořizovali úřední písaři. Podobně podle Galéna knihovna získala originální rukopisy Aischyla, Sófokla a Eurípida: vypůjčila si je z Athén proti záloze 15 talentů, vrátila jen drahé opisy a zálohu oželela.",
+    "en": "Official scribes made the copies. Galen also says the library obtained the original manuscripts of Aeschylus, Sophocles and Euripides by borrowing them from Athens against a deposit of 15 talents, sending back only fine copies and forfeiting the deposit."
+   }
+  },
+  {
+   "id": "T403-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "První kniha vytištěná v angličtině, Recuyell of the Historyes of Troye (kolem roku 1473), vyšla z tiskárny Williama Caxtona. Kde?",
+    "en": "The first book printed in English, the Recuyell of the Historyes of Troye (around 1473), came from William Caxton's press. Where?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Paříži",
+     "V Bruggách",
+     "V Oxfordu",
+     "Ve Westminsteru"
+    ],
+    "en": [
+     "Paris",
+     "Bruges",
+     "Oxford",
+     "Westminster"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Caxton se s tiskem seznámil v Kolíně nad Rýnem a první knihy vydal ve Flandrech. Tiskárnu v Anglii založil až v roce 1476 ve Westminsteru a první známou knihou, kterou tam vytiskl, byly Chaucerovy Canterburské povídky.",
+    "en": "Caxton learned about printing in Cologne and produced his first books in Flanders. He set up a press in England only in 1476, at Westminster, where the first book known to have been printed was Chaucer's Canterbury Tales."
+   }
+  },
+  {
+   "id": "T403-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Knihy vytištěné v Evropě do roku 1500 se nazývají inkunábule neboli prvotisky. Co znamenalo latinské slovo incunabula?",
+    "en": "Books printed in Europe up to 1500 are called incunabula. What did the Latin word incunabula mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Olověná písmena",
+     "První plody",
+     "Plenky, kolébka",
+     "Černé písmo"
+    ],
+    "en": [
+     "Lead letters",
+     "First fruits",
+     "Swaddling clothes, a cradle",
+     "Black letters"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Obrazně slovo znamenalo i počátky něčeho; v tiskařském smyslu ho poprvé použil nizozemský humanista Hadrianus Junius. Známo je asi 30 000 různých vydání inkunábulí (k roku 2026).",
+    "en": "Figuratively the word also meant the earliest stages of something; the Dutch humanist Hadrianus Junius first used it in the printing sense. About 30,000 distinct incunable editions are known (as of 2026)."
+   }
+  },
+  {
+   "id": "T403-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Renesančního tiskaře Alda Manutia historici často považují za předchůdce kapesních brožovaných knih. Proč?",
+    "en": "Historians often see the Renaissance printer Aldus Manutius as a forerunner of the pocket paperback. Why?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jako první tiskl na obě strany listu",
+     "Zavedl lepenou vazbu místo šité",
+     "Vydával klasiky v malém formátu oktávu",
+     "Prodával knihy ve stáncích u přístavů"
+    ],
+    "en": [
+     "He was first to print on both sides of the page",
+     "He introduced glued instead of sewn bindings",
+     "He published classics in small octavo format",
+     "He sold books from stalls by the harbour"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Manutius své knížky bez komentářů nazýval libelli portatiles, tedy přenosné knížky. Vergilia z roku 1501 vytiskl v nákladu 1 000 výtisků místo obvyklých 200 až 500.",
+    "en": "Manutius called his small books without commentary libelli portatiles, portable little books. He printed his 1501 Virgil in a run of 1,000 copies instead of the usual 200 to 500."
+   }
+  },
+  {
+   "id": "T403-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Katolický Index zakázaných knih (Index librorum prohibitorum), poprvé vydaný roku 1559, byl zrušen ve kterém desetiletí?",
+    "en": "The Catholic Index of Forbidden Books (Index Librorum Prohibitorum), first issued in 1559, was abolished in which decade?"
+   },
+   "moznosti": {
+    "cs": [
+     "V 90. letech 18. století",
+     "V 70. letech 19. století",
+     "Ve 20. letech 20. století",
+     "V 60. letech 20. století"
+    ],
+    "en": [
+     "The 1790s",
+     "The 1870s",
+     "The 1920s",
+     "The 1960s"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Papež Pavel VI. Index zrušil 14. června 1966. Poslední, 20. vydání z roku 1948 obsahovalo asi 4 000 titulů, mimo jiné díla Descarta, Kanta či Victora Huga.",
+    "en": "Pope Paul VI abolished the Index on 14 June 1966. Its last, 20th edition of 1948 listed about 4,000 titles, including works by Descartes, Kant and Victor Hugo."
+   }
+  }
+ ]
+}

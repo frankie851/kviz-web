@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T004",
+ "nazev": {
+  "cs": "Měsíc a mise Apollo",
+  "en": "The Moon and the Apollo Missions"
+ },
+ "kategorie": {
+  "id": "vesmir",
+  "nazev": {
+   "cs": "Vesmír",
+   "en": "Space"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T004-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo se jako první člověk prošel po Měsíci?",
+    "en": "Who was the first person to walk on the Moon?"
+   },
+   "moznosti": {
+    "cs": [
+     "Michael Collins",
+     "Jurij Gagarin",
+     "Buzz Aldrin",
+     "Neil Armstrong"
+    ],
+    "en": [
+     "Michael Collins",
+     "Yuri Gagarin",
+     "Buzz Aldrin",
+     "Neil Armstrong"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Neil Armstrong vystoupil na povrch Měsíce během mise Apollo 11. Jurij Gagarin byl první člověk ve vesmíru, na Měsíci ale nikdy nebyl.",
+    "en": "Neil Armstrong was the first to step onto the lunar surface, during the Apollo 11 mission. Yuri Gagarin was the first human in space but never went to the Moon."
+   }
+  },
+  {
+   "id": "T004-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém roce přistáli první lidé na Měsíci?",
+    "en": "In which year did the first humans land on the Moon?"
+   },
+   "moznosti": {
+    "cs": [
+     "1965",
+     "1967",
+     "1969",
+     "1971"
+    ],
+    "en": [
+     "1965",
+     "1967",
+     "1969",
+     "1971"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Apollo 11 přistálo na Měsíci 20. července 1969. Přímý přenos výstupu na povrch sledovalo odhadem 600 milionů lidí, zhruba pětina tehdejšího lidstva.",
+    "en": "Apollo 11 touched down on 20 July 1969. An estimated 600 million people, roughly a fifth of humanity at the time, watched the moonwalk live on TV."
+   }
+  },
+  {
+   "id": "T004-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo se stal druhým člověkem na Měsíci, necelých dvacet minut po prvním?",
+    "en": "Who became the second person on the Moon, less than twenty minutes after the first?"
+   },
+   "moznosti": {
+    "cs": [
+     "John Glenn",
+     "Michael Collins",
+     "Alan Shepard",
+     "Buzz Aldrin"
+    ],
+    "en": [
+     "John Glenn",
+     "Michael Collins",
+     "Alan Shepard",
+     "Buzz Aldrin"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Buzz Aldrin vystoupil na povrch asi 19 minut po svém veliteli. Jeho skutečné křestní jméno bylo Edwin; jméno Buzz si nechal úředně zapsat až v roce 1988.",
+    "en": "Buzz Aldrin followed his commander onto the surface about 19 minutes later. His real first name was Edwin; he legally changed it to Buzz in 1988."
+   }
+  },
+  {
+   "id": "T004-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik astronautů letělo v jedné misi Apollo k Měsíci?",
+    "en": "How many astronauts flew on a single Apollo mission to the Moon?"
+   },
+   "moznosti": {
+    "cs": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "en": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Posádku tvořili vždy tři muži. Při přistávacích misích sestoupili dva v lunárním modulu na povrch a třetí zůstal na oběžné dráze ve velitelském modulu.",
+    "en": "Every crew had three men. On the landing missions two descended to the surface in the lunar module while the third stayed in orbit in the command module."
+   }
+  },
+  {
+   "id": "T004-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Se kterým státem soupeřily Spojené státy ve vesmírných závodech o Měsíc?",
+    "en": "Which country did the United States compete with in the Space Race to the Moon?"
+   },
+   "moznosti": {
+    "cs": [
+     "S Velkou Británií",
+     "S Čínou",
+     "S Francií",
+     "Se Sovětským svazem"
+    ],
+    "en": [
+     "The United Kingdom",
+     "China",
+     "France",
+     "The Soviet Union"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vesmírné závody byly součástí studené války mezi USA a SSSR. Sověti vedli na začátku – měli první družici i prvního člověka ve vesmíru – ale lidi na Měsíc dopravili jen Američané (k roku 2026).",
+    "en": "The Space Race was part of the Cold War between the USA and the USSR. The Soviets led early on, with the first satellite and the first human in space, but only the Americans have landed people on the Moon (as of 2026)."
+   }
+  },
+  {
+   "id": "T004-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který jev na Zemi způsobuje hlavně gravitace Měsíce?",
+    "en": "Which phenomenon on Earth is caused mainly by the Moon's gravity?"
+   },
+   "moznosti": {
+    "cs": [
+     "Příliv a odliv",
+     "Polární záře",
+     "Střídání dne a noci",
+     "Roční období"
+    ],
+    "en": [
+     "Ocean tides",
+     "The aurorae",
+     "Day and night",
+     "The seasons"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Měsíc přitahuje oceány a vytváří na Zemi dvě vzdutí vody, proto bývá příliv většinou dvakrát denně. Slunce k slapům také přispívá, ale zhruba jen polovičním vlivem.",
+    "en": "The Moon pulls on the oceans and creates two bulges of water, which is why most places get two high tides a day. The Sun contributes too, but with only about half the Moon's effect."
+   }
+  },
+  {
+   "id": "T004-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolikrát přibližně je gravitace na povrchu Měsíce slabší než na Zemi?",
+    "en": "Roughly how many times weaker is gravity on the Moon's surface than on Earth?"
+   },
+   "moznosti": {
+    "cs": [
+     "2×",
+     "3×",
+     "6×",
+     "10×"
+    ],
+    "en": [
+     "2×",
+     "3×",
+     "6×",
+     "10×"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Měsíční gravitace má asi šestinu síly té zemské, takže astronaut s těžkým skafandrem vážil na Měsíci méně než on sám bez skafandru na Zemi. Kvůli tuhým skafandrům a nízké gravitaci byly poskoky nejsnazší způsob pohybu.",
+    "en": "Lunar gravity is about one-sixth of Earth's, so an astronaut in a heavy spacesuit weighed less on the Moon than he did on Earth without the suit. Bulky suits and low gravity made hopping the easiest way to move."
+   }
+  },
+  {
+   "id": "T004-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaká je přibližná průměrná vzdálenost Měsíce od Země?",
+    "en": "What is the approximate average distance from the Earth to the Moon?"
+   },
+   "moznosti": {
+    "cs": [
+     "38 400 km",
+     "384 000 km",
+     "3 840 000 km",
+     "38 400 000 km"
+    ],
+    "en": [
+     "38,400 km (23,900 mi)",
+     "384,000 km (239,000 mi)",
+     "3,840,000 km (2,390,000 mi)",
+     "38,400,000 km (23,900,000 mi)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Měsíc obíhá ve vzdálenosti asi 384 000 km; světlo ji urazí zhruba za 1,3 sekundy. Posádkám Apolla cesta trvala asi tři dny.",
+    "en": "The Moon orbits about 384,000 km (239,000 mi) away; light covers that in roughly 1.3 seconds. The Apollo crews took about three days to get there."
+   }
+  },
+  {
+   "id": "T004-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč stopy astronautů zůstanou na Měsíci možná miliony let?",
+    "en": "Why could the astronauts' footprints stay on the Moon for millions of years?"
+   },
+   "moznosti": {
+    "cs": [
+     "Měsíc nemá prakticky žádnou atmosféru, vítr ani déšť",
+     "Povrch Měsíce je z měkkého jílu, který ztvrdl",
+     "Měsíční prach je zmrzlý na kámen",
+     "Stopy chrání vrstva ledu"
+    ],
+    "en": [
+     "The Moon has practically no atmosphere, wind or rain",
+     "The surface is made of soft clay that hardened",
+     "Lunar dust is frozen solid",
+     "A layer of ice protects them"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Bez vzduchu a vody na Měsíci nic nefouká ani neteče, takže stopy pomalu ničí hlavně dopady mikrometeoritů a částice slunečního větru. Ostrý měsíční prach navíc drží tvar podrážky velmi dobře.",
+    "en": "With no air or water, nothing blows or flows on the Moon, so footprints are only slowly erased, mainly by micrometeorite impacts and solar-wind particles. The sharp-edged lunar dust also holds the shape of a boot very well."
+   }
+  },
+  {
+   "id": "T004-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím jsou způsobeny měsíční fáze (nov, úplněk, čtvrtě)?",
+    "en": "What causes the phases of the Moon (new moon, full moon, quarters)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tím, že Měsíc během měsíce mění svou vzdálenost od Slunce",
+     "Mraky v zemské atmosféře",
+     "Stínem Země, který padá na Měsíc",
+     "Měnícím se úhlem, pod kterým ze Země vidíme osvětlenou polovinu Měsíce"
+    ],
+    "en": [
+     "The Moon changing its distance from the Sun during the month",
+     "Clouds in the Earth's atmosphere",
+     "The Earth's shadow falling on the Moon",
+     "The changing angle at which we see the Moon's sunlit half from Earth"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Slunce osvětluje vždy polovinu Měsíce a my během oběhu vidíme větší či menší část té osvětlené poloviny. Stín Země dopadá na Měsíc jen při zatmění Měsíce.",
+    "en": "The Sun always lights half of the Moon, and as it orbits we see more or less of that lit half. The Earth's shadow falls on the Moon only during a lunar eclipse."
+   }
+  },
+  {
+   "id": "T004-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který člen posádky Apolla 11 na Měsíc nevstoupil, protože zůstal na oběžné dráze?",
+    "en": "Which Apollo 11 crew member did not set foot on the Moon because he stayed in orbit?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jim Lovell",
+     "Michael Collins",
+     "Richard Gordon",
+     "Ken Mattingly"
+    ],
+    "en": [
+     "Jim Lovell",
+     "Michael Collins",
+     "Richard Gordon",
+     "Ken Mattingly"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Michael Collins obíhal Měsíc ve velitelském modulu, zatímco jeho kolegové přistáli. Pokaždé, když prolétal za odvrácenou stranou, byl bez rádiového spojení se Zemí – osamělý se ale podle svých slov necítil.",
+    "en": "Michael Collins orbited the Moon in the command module while his crewmates landed. Each time he passed behind the far side he had no radio contact with Earth – yet, by his own account, he never felt lonely."
+   }
+  },
+  {
+   "id": "T004-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se jmenoval lunární modul Apolla 11?",
+    "en": "What was the name of the Apollo 11 lunar module?"
+   },
+   "moznosti": {
+    "cs": [
+     "Eagle",
+     "Intrepid",
+     "Columbia",
+     "Falcon"
+    ],
+    "en": [
+     "Eagle",
+     "Intrepid",
+     "Columbia",
+     "Falcon"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Lunární modul se jmenoval Eagle (Orel) podle orla ze znaku mise – odtud věta „The Eagle has landed“. Columbia byl velitelský modul, ve kterém se posádka vrátila na Zemi.",
+    "en": "The lunar module was called Eagle, after the eagle on the mission insignia – hence the line 'The Eagle has landed'. Columbia was the command module that brought the crew home."
+   }
+  },
+  {
+   "id": "T004-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která raketa vynášela posádky Apolla k Měsíci?",
+    "en": "Which rocket launched the Apollo crews to the Moon?"
+   },
+   "moznosti": {
+    "cs": [
+     "Saturn V",
+     "Sojuz",
+     "Titan II",
+     "Atlas"
+    ],
+    "en": [
+     "Saturn V",
+     "Soyuz",
+     "Titan II",
+     "Atlas"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Saturn V vysoký přibližně 110 metrů navrhl tým Wernhera von Brauna. Ze všech jeho startů nepřišel ani jeden o posádku ani o náklad.",
+    "en": "The roughly 110-metre (360 ft) Saturn V was designed by Wernher von Braun's team. None of its launches ever lost a crew or a payload."
+   }
+  },
+  {
+   "id": "T004-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik lidí celkem chodilo po Měsíci (k roku 2026)?",
+    "en": "How many people in total have walked on the Moon (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "6",
+     "9",
+     "12",
+     "18"
+    ],
+    "en": [
+     "6",
+     "9",
+     "12",
+     "18"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Šest úspěšných přistání Apolla (11, 12, 14, 15, 16 a 17) vždy se dvěma astronauty na povrchu dává dvanáct mužů, všichni Američané. Od roku 1972 na Měsíc nikdo nevstoupil.",
+    "en": "Six successful Apollo landings (11, 12, 14, 15, 16 and 17), each with two astronauts on the surface, give twelve men, all Americans. No one has set foot on the Moon since 1972."
+   }
+  },
+  {
+   "id": "T004-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který americký prezident v roce 1961 vyhlásil cíl dopravit člověka na Měsíc do konce desetiletí?",
+    "en": "Which US president announced in 1961 the goal of landing a man on the Moon before the end of the decade?"
+   },
+   "moznosti": {
+    "cs": [
+     "John F. Kennedy",
+     "Dwight D. Eisenhower",
+     "Richard Nixon",
+     "Lyndon B. Johnson"
+    ],
+    "en": [
+     "John F. Kennedy",
+     "Dwight D. Eisenhower",
+     "Richard Nixon",
+     "Lyndon B. Johnson"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kennedy cíl vyhlásil v projevu před Kongresem v květnu 1961 a v roce 1962 ho zopakoval slavnou větou „We choose to go to the Moon“. Přistání se už nedožil; astronautům na Měsíc telefonoval prezident Nixon.",
+    "en": "Kennedy set the goal in an address to Congress in May 1961 and repeated it in 1962 with the famous 'We choose to go to the Moon'. He did not live to see the landing; it was President Nixon who phoned the astronauts on the Moon."
+   }
+  },
+  {
+   "id": "T004-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co se stalo posádce mise Apollo 1 v lednu 1967?",
+    "en": "What happened to the crew of Apollo 1 in January 1967?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přežila nouzové přistání do oceánu",
+     "Zahynula při požáru kabiny během pozemního testu",
+     "Zahynula při návratu do atmosféry",
+     "Zahynula při výbuchu rakety po startu"
+    ],
+    "en": [
+     "They survived an emergency splashdown",
+     "They died in a cabin fire during a ground test",
+     "They died during re-entry",
+     "They died when the rocket exploded after launch"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Gus Grissom, Ed White a Roger Chaffee zahynuli, když v kabině plné čistého kyslíku vypukl požár. NASA pak loď přepracovala, mimo jiné přidala poklop otevíratelný ven.",
+    "en": "Gus Grissom, Ed White and Roger Chaffee died when fire broke out in a cabin filled with pure oxygen. NASA then redesigned the spacecraft, including an outward-opening hatch."
+   }
+  },
+  {
+   "id": "T004-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak podle dnes nejuznávanější teorie vznikl Měsíc?",
+    "en": "According to today's most widely accepted theory, how did the Moon form?"
+   },
+   "moznosti": {
+    "cs": [
+     "Země zachytila putující planetku",
+     "Odtrhl se od rychle rotující Země",
+     "Zformoval se samostatně vedle Země z prachu a plynu",
+     "Vznikl ze srážky mladé Země s tělesem velikosti Marsu"
+    ],
+    "en": [
+     "The Earth captured a passing asteroid",
+     "It split off from a fast-spinning Earth",
+     "It formed separately next to the Earth from dust and gas",
+     "It formed from a collision between the young Earth and a Mars-sized body"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Hypotéza velkého impaktu předpokládá srážku s tělesem nazývaným Theia. Podporuje ji například malé železné jádro Měsíce nebo vzorky z Apolla, podle kterých byl povrch Měsíce kdysi roztavený.",
+    "en": "The giant-impact hypothesis proposes a collision with a body called Theia. It is supported, for example, by the Moon's small iron core and by Apollo samples showing that the lunar surface was once molten."
+   }
+  },
+  {
+   "id": "T004-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč ze Země vidíme stále stejnou stranu Měsíce?",
+    "en": "Why do we always see the same side of the Moon from Earth?"
+   },
+   "moznosti": {
+    "cs": [
+     "Měsíc se otočí kolem osy za stejnou dobu, za jakou oběhne Zemi",
+     "Odvrácená strana neodráží světlo, a proto ji nevidíme",
+     "Odvrácenou stranu Měsíce trvale zakrývá stín Země",
+     "Měsíc se kolem své osy vůbec neotáčí, jen obíhá Zemi"
+    ],
+    "en": [
+     "The Moon rotates once on its axis in the same time it takes to orbit the Earth",
+     "The other side reflects no light, so we cannot see it",
+     "The Earth's shadow permanently covers the Moon's other side",
+     "The Moon does not rotate on its axis at all; it only orbits the Earth"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jde o vázanou rotaci: v rané historii Měsíce zpomalily slapové síly Země jeho otáčení, až jedna otočka trvala stejně dlouho jako jeden oběh. Odvrácenou stranu poprvé vyfotografovala sovětská sonda Luna 3 v roce 1959.",
+    "en": "This is tidal locking: early in its history, Earth's tides slowed the Moon's spin until one rotation took as long as one orbit. The far side was first photographed by the Soviet probe Luna 3 in 1959."
+   }
+  },
+  {
+   "id": "T004-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve které oblasti Měsíce přistálo Apollo 11?",
+    "en": "In which region of the Moon did Apollo 11 land?"
+   },
+   "moznosti": {
+    "cs": [
+     "Oceán bouří (Oceanus Procellarum)",
+     "Moře hojnosti (Mare Fecunditatis)",
+     "Moře klidu (Mare Tranquillitatis)",
+     "Moře dešťů (Mare Imbrium)"
+    ],
+    "en": [
+     "Ocean of Storms (Oceanus Procellarum)",
+     "Sea of Fecundity (Mare Fecunditatis)",
+     "Sea of Tranquility (Mare Tranquillitatis)",
+     "Sea of Rains (Mare Imbrium)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Lunární modul přistál v Moři klidu (Mare Tranquillitatis), proto Armstrong hlásil „Houston, Tranquility Base here“. Měsíční „moře“ nejsou vodní, jsou to pláně ztuhlé čedičové lávy.",
+    "en": "The lunar module touched down in the Sea of Tranquility (Mare Tranquillitatis), hence Armstrong's 'Houston, Tranquility Base here'. The lunar 'seas' hold no water; they are plains of solidified basalt lava."
+   }
+  },
+  {
+   "id": "T004-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co posloužilo posádce Apolla 13 po výbuchu kyslíkové nádrže jako „záchranný člun“?",
+    "en": "What served as a 'lifeboat' for the Apollo 13 crew after an oxygen tank exploded?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sovětská loď Sojuz",
+     "Nafukovací záchranná kapsle",
+     "Lunární modul",
+     "Třetí stupeň rakety"
+    ],
+    "en": [
+     "A Soviet Soyuz spacecraft",
+     "An inflatable rescue capsule",
+     "The lunar module",
+     "The rocket's third stage"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Lunární modul, určený pro dva muže na dva dny, udržel tři astronauty naživu zhruba čtyři dny při obletu Měsíce a návratu. Přistání na Měsíci se muselo zrušit.",
+    "en": "The lunar module, built for two men for two days, kept three astronauts alive for about four days as they looped around the Moon and returned. The Moon landing had to be cancelled."
+   }
+  },
+  {
+   "id": "T004-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na které misi astronauti poprvé jezdili po Měsíci lunárním vozítkem (Lunar Roving Vehicle)?",
+    "en": "On which mission did astronauts first drive the Lunar Roving Vehicle on the Moon?"
+   },
+   "moznosti": {
+    "cs": [
+     "Apollo 12",
+     "Apollo 14",
+     "Apollo 15",
+     "Apollo 17"
+    ],
+    "en": [
+     "Apollo 12",
+     "Apollo 14",
+     "Apollo 15",
+     "Apollo 17"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vozítko poprvé použili David Scott a James Irwin na Apollu 15 v roce 1971; jezdilo i na Apollu 16 a 17. Všechna tři vozítka zůstala stát na Měsíci.",
+    "en": "David Scott and James Irwin first used the rover on Apollo 15 in 1971; it also drove on Apollo 16 and 17. All three rovers were left on the Moon."
+   }
+  },
+  {
+   "id": "T004-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Které zařízení zanechané posádkami Apolla vědci využívají dodnes?",
+    "en": "Which equipment left by the Apollo crews do scientists still use today?"
+   },
+   "moznosti": {
+    "cs": [
+     "Solární panely napájející kameru",
+     "Rádiový maják pro navigaci sond",
+     "Seismometry, které stále vysílají data",
+     "Koutové odražeče pro laserové měření vzdálenosti"
+    ],
+    "en": [
+     "Solar panels powering a camera",
+     "A radio beacon for probe navigation",
+     "Seismometers that still transmit data",
+     "Corner-cube retroreflectors for laser distance measurement"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Odražeče z Apolla 11, 14 a 15 vracejí laserové pulzy ze Země a umožňují měřit vzdálenost Měsíce s přesností na milimetry. Příjem dat ze seismometrů Apolla NASA ukončila už v roce 1977.",
+    "en": "Retroreflectors from Apollo 11, 14 and 15 bounce back laser pulses from Earth, letting us measure the Moon's distance to within millimetres. NASA stopped receiving data from the Apollo seismometers back in 1977."
+   }
+  },
+  {
+   "id": "T004-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "O kolik se Měsíc každý rok vzdálí od Země?",
+    "en": "By how much does the Moon move away from Earth each year?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi o 3,8 mm",
+     "Asi o 3,8 cm",
+     "Asi o 38 cm",
+     "Asi o 3,8 m"
+    ],
+    "en": [
+     "About 3.8 mm (0.15 inches)",
+     "About 3.8 cm (1.5 inches)",
+     "About 38 cm (15 inches)",
+     "About 3.8 m (12 ft)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Přesná měření vzdálenosti Měsíce ukazují vzdalování asi 3,8 cm ročně. Způsobují ho slapy, které zároveň brzdí rotaci Země a pomalu prodlužují den.",
+    "en": "Precise measurements of the Moon's distance show it receding by about 3.8 cm (1.5 inches) a year. Tides cause it, and at the same time they slow Earth's rotation and gradually lengthen the day."
+   }
+  },
+  {
+   "id": "T004-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím byl výjimečný Harrison Schmitt z Apolla 17?",
+    "en": "What made Harrison Schmitt of Apollo 17 exceptional?"
+   },
+   "moznosti": {
+    "cs": [
+     "Byl nejmladším člověkem, který kdy chodil po Měsíci",
+     "Byl jediným vědcem-geologem, který chodil po Měsíci",
+     "Jako jediný ze všech astronautů letěl k Měsíci dvakrát",
+     "Byl nejstarším člověkem, který kdy chodil po Měsíci"
+    ],
+    "en": [
+     "He was the youngest person ever to walk on the Moon",
+     "He was the only scientist-geologist to walk on the Moon",
+     "He was the only astronaut to fly to the Moon twice",
+     "He was the oldest person ever to walk on the Moon"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ostatní astronauti Apolla byli převážně vojenští a zkušební piloti, Schmitt byl geolog s doktorátem z Harvardu. Nejmladší na Měsíci byl Charles Duke, nejstarší Alan Shepard a k Měsíci letěli dvakrát tři muži (Lovell, Young a Cernan).",
+    "en": "The other Apollo astronauts were mostly military and test pilots, while Schmitt was a geologist with a Harvard PhD. The youngest moonwalker was Charles Duke, the oldest Alan Shepard, and three men flew to the Moon twice (Lovell, Young and Cernan)."
+   }
+  },
+  {
+   "id": "T004-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo je zatím posledním člověkem, který stál na Měsíci (k roku 2026)?",
+    "en": "Who is so far the last person to have stood on the Moon (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Charles Duke",
+     "Harrison Schmitt",
+     "Eugene Cernan",
+     "John Young"
+    ],
+    "en": [
+     "Charles Duke",
+     "Harrison Schmitt",
+     "Eugene Cernan",
+     "John Young"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Velitel Apolla 17 Eugene Cernan nastoupil do lunárního modulu až po Schmittovi, 14. prosince 1972. Do měsíčního prachu prý napsal iniciály své dcery.",
+    "en": "Apollo 17 commander Eugene Cernan climbed into the lunar module after Schmitt on 14 December 1972. He reportedly wrote his daughter's initials in the lunar dust."
+   }
+  },
+  {
+   "id": "T004-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co zvláštního udělala posádka Apolla 12 na Měsíci?",
+    "en": "What unusual thing did the Apollo 12 crew do on the Moon?"
+   },
+   "moznosti": {
+    "cs": [
+     "Navštívila sondu Surveyor 3 a odmontovala z ní díly",
+     "Uskutečnila první výstup během měsíční noci",
+     "Našla v jednom z kráterů kapalnou vodu",
+     "Zasadila do měsíční půdy první semena rostlin"
+    ],
+    "en": [
+     "They visited the Surveyor 3 probe and removed parts from it",
+     "They made the first moonwalk during the lunar night",
+     "They found liquid water in one of the craters",
+     "They planted the first plant seeds in the lunar soil"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pete Conrad a Alan Bean přistáli necelých 200 m od sondy, která tam stála od roku 1967, a přivezli její kameru na Zemi. Vědci tak mohli zkoumat, jak materiálům uškodil dlouhý pobyt na Měsíci.",
+    "en": "Pete Conrad and Alan Bean landed less than 200 m (660 ft) from the probe, which had stood there since 1967, and brought its camera back to Earth. Scientists could then study how long exposure on the Moon had affected the materials."
+   }
+  },
+  {
+   "id": "T004-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaké volací znaky dostaly velitelský a lunární modul Apolla 10, generální zkoušky na přistání?",
+    "en": "What call signs were given to the command and lunar modules of Apollo 10, the dress rehearsal for the landing?"
+   },
+   "moznosti": {
+    "cs": [
+     "Odyssey a Aquarius",
+     "Kitty Hawk a Antares",
+     "Gumdrop a Spider",
+     "Charlie Brown a Snoopy"
+    ],
+    "en": [
+     "Odyssey and Aquarius",
+     "Kitty Hawk and Antares",
+     "Gumdrop and Spider",
+     "Charlie Brown and Snoopy"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Moduly nesly jména postaviček z komiksu Peanuts. Lunární modul Snoopy sestoupil asi na 14 km nad povrch, ale přistát neměl a vrátil se k Charliemu Brownovi na oběžnou dráhu.",
+    "en": "The modules were named after characters from the Peanuts comic strip. The lunar module Snoopy descended to about 14 km (8.7 mi) above the surface but was not meant to land, and rejoined Charlie Brown in orbit."
+   }
+  },
+  {
+   "id": "T004-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak podle astronautů Apolla voněl měsíční prach, který si zanesli do kabiny?",
+    "en": "According to the Apollo astronauts, what did the moondust they brought into the cabin smell like?"
+   },
+   "moznosti": {
+    "cs": [
+     "Neměl žádný pach",
+     "Jako mokrý písek",
+     "Jako spálený střelný prach",
+     "Jako síra a zkažená vejce"
+    ],
+    "en": [
+     "It had no smell",
+     "Wet sand",
+     "Spent gunpowder",
+     "Sulphur and rotten eggs"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Několik astronautů nezávisle popsalo pach vystřeleného střelného prachu, i když chemicky s ním měsíční prach nemá nic společného. Na Zemi přivezené vzorky už tak nevoní – zřejmě proto, že prach mezitím reagoval se vzduchem a vlhkostí.",
+    "en": "Several astronauts independently described the smell of spent gunpowder, even though moondust is chemically nothing like it. Samples brought to Earth no longer smell that way, probably because the dust has since reacted with air and moisture."
+   }
+  },
+  {
+   "id": "T004-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč může Měsíc při úplném zatmění Slunce zakrýt sluneční kotouč téměř přesně?",
+    "en": "Why can the Moon cover the Sun's disc almost exactly during a total solar eclipse?"
+   },
+   "moznosti": {
+    "cs": [
+     "Měsíc je při každém zatmění v bodě dráhy nejblíže Zemi",
+     "Slunce je asi 400× větší než Měsíc, ale také asi 400× dál",
+     "Měsíc a Slunce mají ve skutečnosti stejný průměr",
+     "Zemská atmosféra opticky zvětšuje obraz Měsíce na obloze"
+    ],
+    "en": [
+     "The Moon is always at the point of its orbit closest to Earth during an eclipse",
+     "The Sun is about 400 times larger than the Moon but also about 400 times farther away",
+     "The Moon and the Sun actually have the same diameter",
+     "Earth's atmosphere optically magnifies the Moon's image in the sky"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Díky této shodě mají oba kotouče na obloze téměř stejnou úhlovou velikost. Protože se Měsíc vzdaluje, zhruba za 650 milionů až 1,4 miliardy let už úplná zatmění nebudou možná.",
+    "en": "Thanks to this coincidence both discs have almost the same apparent size in the sky. Because the Moon is receding, total eclipses will no longer be possible in roughly 650 million to 1.4 billion years."
+   }
+  },
+  {
+   "id": "T004-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve které měsíční fázi je odvrácená strana Měsíce celá osvětlená Sluncem?",
+    "en": "In which lunar phase is the far side of the Moon fully lit by the Sun?"
+   },
+   "moznosti": {
+    "cs": [
+     "Při novu",
+     "Nikdy, je trvale ve tmě",
+     "Při úplňku",
+     "Při první čtvrti"
+    ],
+    "en": [
+     "At new moon",
+     "Never – it is permanently dark",
+     "At full moon",
+     "At first quarter"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Při novu stojí Měsíc mezi Zemí a Sluncem, takže Slunce svítí právě na stranu odvrácenou od nás. Označení „temná strana Měsíce“ je tedy zavádějící – myslí se jí jen strana pro nás neviditelná.",
+    "en": "At new moon the Moon lies between the Earth and the Sun, so sunlight falls on the side facing away from us. The phrase 'dark side of the Moon' is therefore misleading – it only means the side we cannot see."
+   }
+  }
+ ]
+}

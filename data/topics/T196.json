@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T196",
+ "nazev": {
+  "cs": "Železnice a slavné vlaky",
+  "en": "Railways and Famous Trains"
+ },
+ "kategorie": {
+  "id": "vynalezy",
+  "nazev": {
+   "cs": "Vynálezy",
+   "en": "Inventions"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T196-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi stojí nádraží Antwerpen-Centraal, kterému se kvůli mohutné kupoli nad čekárnou přezdívá „železniční katedrála“?",
+    "en": "In which country is Antwerpen-Centraal station, nicknamed the 'railway cathedral' because of the huge dome over its waiting hall?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Francii",
+     "V Nizozemsku",
+     "V Belgii",
+     "V Lucembursku"
+    ],
+    "en": [
+     "France",
+     "The Netherlands",
+     "Belgium",
+     "Luxembourg"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hlavní nádraží belgických Antverp navrhl Louis Delacenserie a postaveno bylo v letech 1895–1905. Dnes má koleje i ve dvou podzemních patrech, z nichž od roku 2007 vede železniční tunel pod městem.",
+    "en": "The main station of Antwerp, Belgium, was designed by Louis Delacenserie and built in 1895–1905. Today it also has tracks on two underground levels, from which a railway tunnel under the city has run since 2007."
+   }
+  },
+  {
+   "id": "T196-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Mezi kterými dvěma městy jezdil slavný Orient Express na své nejznámější trase?",
+    "en": "Between which two cities did the famous Orient Express run on its best-known route?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vídeň – Atény",
+     "Paříž – Istanbul",
+     "Londýn – Řím",
+     "Berlín – Moskva"
+    ],
+    "en": [
+     "Vienna – Athens",
+     "Paris – Istanbul",
+     "London – Rome",
+     "Berlin – Moscow"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Orient Express společnosti Wagons-Lits vyjel z Paříže poprvé v roce 1883 a jeho cílem byla Konstantinopol (Istanbul). Proslavila ho i detektivka Agathy Christie Vražda v Orient-expresu (1934), v níž vlak uvízne ve sněhové závěji.",
+    "en": "The Orient Express, run by the Wagons-Lits company, first left Paris in 1883, bound for Constantinople (Istanbul). Agatha Christie's Murder on the Orient Express (1934), in which the train is stuck in a snowdrift, made it even more famous."
+   }
+  },
+  {
+   "id": "T196-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které dvě země spojuje Eurotunel, otevřený v roce 1994?",
+    "en": "Which two countries does the Channel Tunnel, opened in 1994, connect?"
+   },
+   "moznosti": {
+    "cs": [
+     "Velkou Británii a Francii",
+     "Velkou Británii a Belgii",
+     "Velkou Británii a Nizozemsko",
+     "Francii a Itálii"
+    ],
+    "en": [
+     "Great Britain and France",
+     "Great Britain and Belgium",
+     "Great Britain and the Netherlands",
+     "France and Italy"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Eurotunel vede pod průlivem La Manche z Folkestone v Anglii do Coquelles u Calais. Slavnostně ho 6. května 1994 otevřeli královna Alžběta II. a prezident François Mitterrand.",
+    "en": "The Channel Tunnel runs beneath the English Channel from Folkestone in England to Coquelles near Calais. Queen Elizabeth II and President François Mitterrand formally opened it on 6 May 1994."
+   }
+  },
+  {
+   "id": "T196-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém městě končí Transsibiřská magistrála, která začíná v Moskvě?",
+    "en": "In which city does the Trans-Siberian Railway, which starts in Moscow, end?"
+   },
+   "moznosti": {
+    "cs": [
+     "Novosibirsk",
+     "Chabarovsk",
+     "Vladivostok",
+     "Irkutsk"
+    ],
+    "en": [
+     "Novosibirsk",
+     "Khabarovsk",
+     "Vladivostok",
+     "Irkutsk"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Magistrála měří z Moskvy do Vladivostoku 9 289 km a projíždí osmi časovými pásmy. Irkutsk, Novosibirsk i Chabarovsk jsou jen stanice po cestě.",
+    "en": "The line runs 9,289 km (5,772 mi) from Moscow to Vladivostok and crosses eight time zones. Irkutsk, Novosibirsk and Khabarovsk are only stations along the way."
+   }
+  },
+  {
+   "id": "T196-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které pařížské muzeum sídlí v budově bývalého nádraží postaveného pro světovou výstavu v roce 1900?",
+    "en": "Which Paris museum is housed in a former railway station built for the 1900 World's Fair?"
+   },
+   "moznosti": {
+    "cs": [
+     "Musée Rodin",
+     "Louvre",
+     "Musée d'Orsay",
+     "Centre Pompidou"
+    ],
+    "en": [
+     "Musée Rodin",
+     "The Louvre",
+     "Musée d'Orsay",
+     "Centre Pompidou"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Nádraží Gare d'Orsay ve stylu Beaux-Arts vzniklo v letech 1898–1900 a stihlo se dokončit na Světovou výstavu 1900. Muzeum v něm otevřeli v prosinci 1986 a proslulo díly impresionistů a postimpresionistů.",
+    "en": "The Beaux-Arts Gare d'Orsay was built in 1898–1900 and finished in time for the 1900 Exposition Universelle. The museum opened in it in December 1986 and is famous for its Impressionist and Post-Impressionist works."
+   }
+  },
+  {
+   "id": "T196-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím se vlaky typu maglev liší od běžných vlaků?",
+    "en": "How do maglev trains differ from ordinary trains?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vznášejí se nad tratí díky magnetům",
+     "Jezdí ve vzduchoprázdné trubici",
+     "Jezdí bez kolejí po silnici",
+     "Pohání je proudové motory"
+    ],
+    "en": [
+     "They float above the track thanks to magnets",
+     "They travel in a vacuum tube",
+     "They run on roads without rails",
+     "They are powered by jet engines"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Maglev je zkratka z anglického magnetic levitation (magnetická levitace): vozidla se nevalí po kolech, ale nadnáší je magnety. Díky tomu nevzniká tření mezi koly a kolejnicí.",
+    "en": "Maglev is short for magnetic levitation: the vehicles do not roll on wheels but are lifted by magnets, so there is no friction between wheels and rails."
+   }
+  },
+  {
+   "id": "T196-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém americkém městě dodnes jezdí historické lanové tramvaje (cable cars), které se na konečných otáčejí na ručně poháněných točnách?",
+    "en": "In which American city do historic cable cars still run, being turned around at the termini on manually powered turntables?"
+   },
+   "moznosti": {
+    "cs": [
+     "V San Francisku",
+     "Ve Filadelfii",
+     "V Baltimoru",
+     "V Chicagu"
+    ],
+    "en": [
+     "San Francisco",
+     "Philadelphia",
+     "Baltimore",
+     "Chicago"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "První trať zahájila provoz v roce 1873 podle nápadu Andrewa Hallidieho a z 23 linek postavených do roku 1890 zbyly jen tři. Od roku 1964 je systém národní historickou památkou USA (National Historic Landmark).",
+    "en": "The first line opened in 1873, based on Andrew Hallidie's idea, and of the 23 lines built by 1890 only three remain. Since 1964 the system has been a U.S. National Historic Landmark."
+   }
+  },
+  {
+   "id": "T196-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ze které země pocházejí vysokorychlostní vlaky TGV?",
+    "en": "Which country do TGV high-speed trains come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Francie",
+     "Ze Španělska",
+     "Z Německa",
+     "Z Itálie"
+    ],
+    "en": [
+     "France",
+     "Spain",
+     "Germany",
+     "Italy"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "TGV znamená train à grande vitesse, tedy „vysokorychlostní vlak“. První linka Paříž–Lyon začala sloužit 27. září 1981.",
+    "en": "TGV stands for train à grande vitesse, French for 'high-speed train'. The first line, Paris–Lyon, opened on 27 September 1981."
+   }
+  },
+  {
+   "id": "T196-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá souprava Českých drah řady 680, jejíž vozy se v obloucích naklánějí?",
+    "en": "What is the name of the Czech Railways Class 680 trainset whose cars tilt on curves?"
+   },
+   "moznosti": {
+    "cs": [
+     "ICE",
+     "Railjet",
+     "Talgo",
+     "Pendolino"
+    ],
+    "en": [
+     "ICE",
+     "Railjet",
+     "Talgo",
+     "Pendolino"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Sedm souprav Pendolino vyrobil Alstom (původně Fiat Ferroviaria) a pravidelně jezdí od prosince 2005. V listopadu 2004 jedna z nich mezi Břeclaví a Brnem dosáhla českého rychlostního rekordu 237 km/h.",
+    "en": "The seven Pendolino sets were built by Alstom (originally Fiat Ferroviaria) and entered regular service in December 2005. In November 2004 one of them set the Czech speed record of 237 km/h (147 mph) between Břeclav and Brno."
+   }
+  },
+  {
+   "id": "T196-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Po kterém americkém prezidentovi se za první republiky jmenovalo pražské hlavní nádraží?",
+    "en": "After which American president was Prague's main railway station named during the First Czechoslovak Republic?"
+   },
+   "moznosti": {
+    "cs": [
+     "Po Theodoru Rooseveltovi",
+     "Po George Washingtonovi",
+     "Po Abrahamu Lincolnovi",
+     "Po Woodrowu Wilsonovi"
+    ],
+    "en": [
+     "Theodore Roosevelt",
+     "George Washington",
+     "Abraham Lincoln",
+     "Woodrow Wilson"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Nádraží původně neslo jméno císaře Františka Josefa I. Jeho secesní budovu s halou navrhl architekt Josef Fanta.",
+    "en": "The station was originally named after Emperor Franz Joseph I. Its Art Nouveau building and hall were designed by architect Josef Fanta."
+   }
+  },
+  {
+   "id": "T196-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo sestrojil parní lokomotivu, s níž 21. února 1804 ve velšském Merthyr Tydfilu proběhla vůbec první jízda vlaku taženého lokomotivou po kolejích?",
+    "en": "Who built the steam locomotive that made the very first locomotive-hauled railway journey on 21 February 1804 in Merthyr Tydfil, Wales?"
+   },
+   "moznosti": {
+    "cs": [
+     "Richard Trevithick",
+     "Matthew Murray",
+     "James Watt",
+     "George Stephenson"
+    ],
+    "en": [
+     "Richard Trevithick",
+     "Matthew Murray",
+     "James Watt",
+     "George Stephenson"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Lokomotiva odvezla po dráze železáren Penydarren 10 tun železa, pět vozů a 70 mužů a cesta trvala asi čtyři hodiny. Majitel železáren Samuel Homfray se o 500 guinejí vsadil, že takový náklad uveze. Litinové kolejnice ji však neunesly a na dráhu se vrátili koně.",
+    "en": "The locomotive hauled 10 tons of iron, five wagons and 70 men along the Penydarren Ironworks line in about four hours. Ironworks owner Samuel Homfray had bet 500 guineas that it could haul such a load. However, it broke the cast-iron plates and the line went back to horses."
+   }
+  },
+  {
+   "id": "T196-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která trať otevřená v roce 1830 je považována za první meziměstskou železnici na světě, na níž jezdily výhradně parní lokomotivy podle jízdního řádu?",
+    "en": "Which line, opened in 1830, is considered the world's first inter-city railway, with only steam locomotives running to a timetable?"
+   },
+   "moznosti": {
+    "cs": [
+     "Stockton – Darlington",
+     "Norimberk – Fürth",
+     "Londýn – Birmingham",
+     "Liverpool – Manchester"
+    ],
+    "en": [
+     "Stockton – Darlington",
+     "Nuremberg – Fürth",
+     "London – Birmingham",
+     "Liverpool – Manchester"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Trať Liverpool–Manchester zahájila provoz 15. září 1830 a jako první nepovolila koňskou trakci. Starší Stockton–Darlington (1825) používala na některých úsecích lanový tah a lokomotivy tam vozily jen uhlí.",
+    "en": "The Liverpool and Manchester Railway opened on 15 September 1830 and was the first to ban horse-drawn traffic. The older Stockton and Darlington (1825) used cable haulage on some sections, and its locomotives hauled only coal."
+   }
+  },
+  {
+   "id": "T196-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co udělá na konci každé minuty červená sekundová ručička švýcarských nádražních hodin?",
+    "en": "What does the red second hand of the Swiss railway clock do at the end of every minute?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na okamžik se celá rozsvítí",
+     "Poskočí o jednu sekundu zpátky",
+     "Krátce se zastaví nahoře na dvanáctce",
+     "Rychle oběhne celý ciferník ještě jednou"
+    ],
+    "en": [
+     "It lights up for a moment",
+     "It jumps back by one second",
+     "It briefly stops at the top, at twelve",
+     "It quickly goes round the whole face once more"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ručička oběhne ciferník asi za 58,5 sekundy a pak se nahoře krátce zastaví. Hodiny navrhl roku 1944 Hans Hilfiker ze Švýcarských spolkových drah (SBB) a červenou ručičku ve tvaru výpravky přidal v roce 1953.",
+    "en": "The hand circles the face in about 58.5 seconds and then pauses briefly at the top. Hans Hilfiker of Swiss Federal Railways (SBB) designed the clock in 1944 and added the red hand, shaped like a train dispatcher's baton, in 1953."
+   }
+  },
+  {
+   "id": "T196-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kam jezdí šanghajský maglev, první komerčně provozovaný vysokorychlostní maglev na světě?",
+    "en": "Where does the Shanghai maglev, the world's first commercially operated high-speed maglev, run to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Do Nankingu",
+     "Do Pekingu",
+     "Na letiště Pchu-tung (Pudong)",
+     "Do Chang-čou (Hangzhou)"
+    ],
+    "en": [
+     "To Nanjing",
+     "To Beijing",
+     "To Pudong Airport",
+     "To Hangzhou"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Asi 30 km dlouhá trať spojuje stanici Longyang Road s mezinárodním letištěm Pudong. Využívá německou technologii Transrapid a původně jezdila rychlostí 431 km/h, od roku 2021 jen 300 km/h.",
+    "en": "The roughly 30 km (19 mi) line links Longyang Road station with Pudong International Airport. It uses German Transrapid technology and originally ran at 431 km/h (268 mph), reduced to 300 km/h (186 mph) since 2021."
+   }
+  },
+  {
+   "id": "T196-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ze kterého českého města vedla do rakouského Lince koněspřežná železnice, slavnostně otevřená v roce 1832?",
+    "en": "From which Czech town did the horse-drawn railway to Linz in Austria, officially opened in 1832, run?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Plzně",
+     "Z Českého Krumlova",
+     "Z Českých Budějovic",
+     "Z Tábora"
+    ],
+    "en": [
+     "Plzeň",
+     "Český Krumlov",
+     "České Budějovice",
+     "Tábor"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Stavbu koněspřežky zahájil roku 1825 František Antonín Gerstner, dokončil ji Matthias Schönerer. Celá trať do Lince byla otevřena 1. srpna 1832 a vozila hlavně sůl z hornorakouské Solné komory (Salzkammergut) do Čech.",
+    "en": "Construction was started in 1825 by Franz Anton von Gerstner and completed by Matthias Schönerer. The whole line to Linz opened on 1 August 1832 and mainly carried salt from the Upper Austrian Salzkammergut to Bohemia."
+   }
+  },
+  {
+   "id": "T196-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím je výjimečná železniční trať Tanvald – Kořenov v Jizerských horách, otevřená v roce 1902?",
+    "en": "What makes the Tanvald – Kořenov railway in the Jizera Mountains, opened in 1902, exceptional?"
+   },
+   "moznosti": {
+    "cs": [
+     "Má největší sklon ze všech železničních tratí v Česku",
+     "Jezdí po ní výhradně parní lokomotivy",
+     "Je to nejdelší úzkorozchodná trať v Česku",
+     "Je to nejstarší elektrifikovaná trať v Česku"
+    ],
+    "en": [
+     "It has the steepest gradient of any railway line in Czechia",
+     "Only steam locomotives run on it",
+     "It is the longest narrow-gauge line in Czechia",
+     "It is the oldest electrified line in Czechia"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Trať stoupá až o 58 ‰, tedy 58 metrů na kilometr. Na nejstrmějších úsecích leží uprostřed koleje ozubnice, moderní vlaky ale stoupání zvládnou i bez ní. Trať vede také 940 m dlouhým Polubenským tunelem.",
+    "en": "The line climbs at up to 58‰, i.e. 58 metres per kilometre. The steepest sections have a rack between the rails, although modern trains can manage the climb without it. The line also passes through the 940 m (3,084 ft) Polubenský Tunnel."
+   }
+  },
+  {
+   "id": "T196-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Rakouský železniční inženýr Alois Negrelli, který stavěl i tratě v Čechách, se podílel na přípravě které světové stavby?",
+    "en": "Austrian railway engineer Alois Negrelli, who also built lines in Bohemia, was involved in planning which world-famous structure?"
+   },
+   "moznosti": {
+    "cs": [
+     "Korintského průplavu",
+     "Suezského průplavu",
+     "Kielského průplavu",
+     "Panamského průplavu"
+    ],
+    "en": [
+     "The Corinth Canal",
+     "The Suez Canal",
+     "The Kiel Canal",
+     "The Panama Canal"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Negrelli působil od roku 1846 ve Společnosti pro studium Suezského průplavu a v mezinárodní komisi se prosadila jeho myšlenka průplavu bez zdymadel. Stavbu pražského viaduktu vedl v letech 1846–1849, zemřel roku 1858.",
+    "en": "From 1846 Negrelli worked in the Society for the Study of the Suez Canal, and in the international commission his idea of a canal without locks prevailed. He led construction of the Prague viaduct in 1846–1849 and died in 1858."
+   }
+  },
+  {
+   "id": "T196-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se s nadsázkou přezdívá švýcarskému vlaku Glacier Express mezi Zermattem a Svatým Mořicem?",
+    "en": "What tongue-in-cheek nickname is given to the Swiss Glacier Express between Zermatt and St. Moritz?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vlak tisíce tunelů",
+     "Nejpomalejší rychlík světa",
+     "Alpský šíp",
+     "Nejvýše jezdící vlak Evropy"
+    ],
+    "en": [
+     "The train of a thousand tunnels",
+     "The slowest express train in the world",
+     "The Alpine Arrow",
+     "The highest train in Europe"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Cesta dlouhá 291 km trvá asi osm hodin. Vlak přejede přes 291 mostů, projede 91 tunely a nejvýš vystoupá na průsmyk Oberalp (2 033 m).",
+    "en": "The 291 km (181 mi) journey takes about eight hours. The train crosses 291 bridges, passes through 91 tunnels and reaches its highest point at the Oberalp Pass (2,033 m / 6,670 ft)."
+   }
+  },
+  {
+   "id": "T196-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Přes které jezero se zpočátku převážely vlaky a cestující Transsibiřské magistrály trajektem, než byl roku 1904 dokončen úsek kolem jeho břehu?",
+    "en": "Across which lake were Trans-Siberian passengers and trains originally carried by ferry, before a line around its shore was completed in 1904?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ladožské jezero",
+     "Oněžské jezero",
+     "Balchaš",
+     "Bajkal"
+    ],
+    "en": [
+     "Lake Ladoga",
+     "Lake Onega",
+     "Balkhash",
+     "Baikal"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Než byla roku 1904 dokončena Krugobajkalská železnice (Circum-Baikal Railway), končila trať na obou stranách jezera. Od roku 1900 je spojoval ledoborný trajekt Bajkal a plavba trvala asi čtyři hodiny.",
+    "en": "Until the Circum-Baikal Railway was completed in 1904, the line ended on either side of the lake. From 1900 the icebreaking train ferry SS Baikal linked the two railheads in a crossing of about four hours."
+   }
+  },
+  {
+   "id": "T196-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kterou rakouskou železnici, postavenou v letech 1848–1854 podle projektu Carla von Ghegy, mnozí považují za první skutečnou horskou železnici světa?",
+    "en": "Which Austrian railway, built in 1848–1854 to a design by Carl von Ghega, is widely regarded as the world's first true mountain railway?"
+   },
+   "moznosti": {
+    "cs": [
+     "Semmeringskou dráhu (Semmeringbahn)",
+     "Taurskou dráhu (Tauernbahn)",
+     "Brennerskou dráhu (Brennerbahn)",
+     "Arlberskou dráhu (Arlbergbahn)"
+    ],
+    "en": [
+     "The Semmering Railway",
+     "The Tauern Railway",
+     "The Brenner Railway",
+     "The Arlberg Railway"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Trať z Gloggnitzu do Mürzzuschlagu měří 41 km a má 14 tunelů a 16 viaduktů. Stavělo ji asi 20 000 dělníků a od roku 1998 je na seznamu světového dědictví UNESCO.",
+    "en": "The 41 km (25 mi) line from Gloggnitz to Mürzzuschlag has 14 tunnels and 16 viaducts. Some 20,000 workers built it, and it has been a UNESCO World Heritage Site since 1998."
+   }
+  },
+  {
+   "id": "T196-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaká nehoda poznamenala slavnostní otevření trati Liverpool – Manchester?",
+    "en": "What accident marred the opening ceremony of the Liverpool and Manchester Railway?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vlak vykolejil a zranil několik ministrů vlády",
+     "Lokomotiva Rocket přejela poslance Williama Huskissona",
+     "Vybuchl kotel lokomotivy na nádraží v Liverpoolu",
+     "Zřítil se most přes kanál a vlak spadl do vody"
+    ],
+    "en": [
+     "A train derailed and injured several government ministers",
+     "The Rocket locomotive ran over MP William Huskisson",
+     "A locomotive boiler exploded at the Liverpool station",
+     "A canal bridge collapsed and a train fell into the water"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Liverpoolský poslanec Huskisson vystoupil z vlaku v Parksidu a Rocket mu přejela nohu. Lokomotiva Northumbrian ho pak odvezla do Eccles, kde zranění podlehl.",
+    "en": "Liverpool MP William Huskisson stepped out of the train at Parkside and the Rocket ran over his leg. The locomotive Northumbrian then rushed him to Eccles, where he died."
+   }
+  },
+  {
+   "id": "T196-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak v září 1845 zahynul Jan Perner, stavitel železnice z Prahy do Pardubic a Olomouce?",
+    "en": "How did Jan Perner, builder of the railway from Prague to Pardubice and Olomouc, die in September 1845?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zasáhl ho výbuch kotle zkušební lokomotivy",
+     "Vyklonil se z jedoucího vlaku a narazil hlavou do sloupu",
+     "Spadl z lešení rozestavěného železničního viaduktu",
+     "Utonul při stavbě železničního mostu přes Labe"
+    ],
+    "en": [
+     "He was caught in a test locomotive's boiler explosion",
+     "He leaned out of a moving train and hit his head on a pole",
+     "He fell from the scaffolding of a viaduct under construction",
+     "He drowned while building a railway bridge over the Elbe"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Při návratu z inspekční cesty se u Chocně vyklonil z vlaku, druhý den v Pardubicích zemřel a je uváděn jako první oběť železniční nehody v Čechách. Nese jeho jméno Dopravní fakulta Jana Pernera Univerzity Pardubice.",
+    "en": "Returning from an inspection trip, he leaned out of the train near Choceň and died the next day in Pardubice; he is reported as the first railway accident victim in Bohemia. The Jan Perner Transport Faculty of the University of Pardubice bears his name."
+   }
+  },
+  {
+   "id": "T196-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který belgický podnikatel založil společnost Wagons-Lits, jež od roku 1883 provozovala Orient Express?",
+    "en": "Which Belgian entrepreneur founded the Wagons-Lits company, which ran the Orient Express from 1883?"
+   },
+   "moznosti": {
+    "cs": [
+     "George Pullman",
+     "Georges Nagelmackers",
+     "Ferdinand de Lesseps",
+     "Thomas Cook"
+    ],
+    "en": [
+     "George Pullman",
+     "Georges Nagelmackers",
+     "Ferdinand de Lesseps",
+     "Thomas Cook"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Georges Nagelmackers, syn belgického bankéře, založil Compagnie Internationale des Wagons-Lits zaměřenou na luxusní spací a jídelní vozy. Američan George Pullman proslul podobnými vozy v USA.",
+    "en": "Georges Nagelmackers, the son of a Belgian banker, founded the Compagnie Internationale des Wagons-Lits, specialising in luxury sleeping and dining cars. American George Pullman was famous for similar cars in the USA."
+   }
+  },
+  {
+   "id": "T196-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se cestující Orient Expressu v roce 1883 dostávali na poslední úsek cesty do cílového města?",
+    "en": "How did Orient Express passengers in 1883 cover the final leg of the journey to its destination?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dostavníkem ze Sofie",
+     "Na koních přes Balkánské pohoří",
+     "Vlakem přes Bělehrad a Sofii",
+     "Lodí z bulharské Varny"
+    ],
+    "en": [
+     "By stagecoach from Sofia",
+     "On horseback across the Balkan Mountains",
+     "By train via Belgrade and Sofia",
+     "By ship from Varna in Bulgaria"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vlak tehdy končil v rumunském Giurgiu, odkud cestující přepluli Dunaj do Ruse, vlakem dojeli do Varny a zbytek cesty urazili lodí. Přímý vlak až do cíle vyjel poprvé 1. června 1889.",
+    "en": "The train then ended at Giurgiu in Romania; passengers crossed the Danube to Ruse, took a train to Varna and completed the journey by ship. The first direct train all the way to the destination left only on 1 June 1889."
+   }
+  },
+  {
+   "id": "T196-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jakou rychlost dosáhl japonský maglev řady L0 s posádkou při rekordní jízdě 21. dubna 2015?",
+    "en": "What speed did Japan's crewed L0 Series maglev reach on its record run on 21 April 2015?"
+   },
+   "moznosti": {
+    "cs": [
+     "443 km/h",
+     "501 km/h",
+     "574,8 km/h",
+     "603 km/h"
+    ],
+    "en": [
+     "443 km/h (275 mph)",
+     "501 km/h (311 mph)",
+     "574.8 km/h (357.2 mph)",
+     "603 km/h (375 mph)"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Rekordu 603 km/h dosáhl L0 na zkušební trati v prefektuře Jamanaši. Zkušební trať je součástí budované trati Čúó Šinkansen, která má spojit Tokio s Nagojí.",
+    "en": "The L0 set the 603 km/h (375 mph) record on the Yamanashi test track. The test track is part of the Chūō Shinkansen line under construction, which is to link Tokyo and Nagoya."
+   }
+  },
+  {
+   "id": "T196-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kterému tunelu sebral Gotthardský úpatní tunel v roce 2016 titul nejdelšího železničního tunelu světa?",
+    "en": "From which tunnel did the Gotthard Base Tunnel take the title of the world's longest railway tunnel in 2016?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tunelu Seikan v Japonsku",
+     "Simplonskému tunelu",
+     "Lötschberskému úpatnímu tunelu",
+     "Eurotunelu pod La Manche"
+    ],
+    "en": [
+     "The Seikan Tunnel in Japan",
+     "The Simplon Tunnel",
+     "The Lötschberg Base Tunnel",
+     "The Channel Tunnel"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Tunel Seikan (53,85 km, otevřen 1988) spojuje pod Cugarským průlivem ostrovy Honšú a Hokkaidó a nejdelším byl v letech 1988–2016. Je nejhlubším železničním tunelem pod hladinou moře (k roku 2026).",
+    "en": "The Seikan Tunnel (53.85 km / 33.46 mi, opened 1988) links Honshu and Hokkaido beneath the Tsugaru Strait and held the record from 1988 to 2016. It is the deepest railway tunnel below sea level (as of 2026)."
+   }
+  },
+  {
+   "id": "T196-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Eurotunel má nejdelší podmořský úsek ze všech tunelů na světě (k roku 2026). Kolik kilometrů zhruba vede pod mořem?",
+    "en": "The Channel Tunnel has the longest undersea section of any tunnel in the world (as of 2026). Roughly how many kilometres run under the sea?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 18 km",
+     "Asi 28 km",
+     "Asi 38 km",
+     "Asi 48 km"
+    ],
+    "en": [
+     "About 18 km (11 mi)",
+     "About 28 km (17 mi)",
+     "About 38 km (24 mi)",
+     "About 48 km (30 mi)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Z celkových 50,46 km vede pod mořem 37,9 km, v průměru asi 45 m pod mořským dnem. Tvoří ho dva železniční tubusy a mezi nimi servisní tunel.",
+    "en": "Of its total 50.46 km (31.35 mi), 37.9 km (23.5 mi) lie under the sea, on average about 45 m (148 ft) below the seabed. It consists of two rail tunnels with a service tunnel between them."
+   }
+  },
+  {
+   "id": "T196-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím se může pochlubit japonský Šinkansen za více než 60 let provozu od roku 1964?",
+    "en": "What can Japan's Shinkansen boast of after more than 60 years of operation since 1964?"
+   },
+   "moznosti": {
+    "cs": [
+     "Provoz nikdy nepřerušilo žádné zemětřesení",
+     "Žádný jeho vlak nikdy nevykolejil",
+     "Jeho vlaky jezdí zcela bez strojvedoucích",
+     "Při vykolejení ani srážce nezahynul žádný cestující"
+    ],
+    "en": [
+     "No earthquake has ever interrupted service",
+     "None of its trains has ever derailed",
+     "Its trains run entirely without drivers",
+     "No passenger has died in a derailment or collision"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Za víc než 10 miliard přepravených cestujících nikdo nezahynul při vykolejení či srážce. Vykolejení se přitom stala, například v letech 2004 a 2013, nikdo z cestujících ale nezemřel.",
+    "en": "Among more than 10 billion passengers, no one has died in a derailment or collision. Derailments did happen, for example in 2004 and 2013, but no passengers were killed."
+   }
+  },
+  {
+   "id": "T196-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak úzkorozchodná Dárdžilinská himálajská železnice (Darjeeling Himalayan Railway) v Indii, zapsaná roku 1999 na seznam UNESCO, zdolává výškový rozdíl asi 2 100 metrů?",
+    "en": "How does India's narrow-gauge Darjeeling Himalayan Railway, inscribed on the UNESCO list in 1999, overcome a height difference of about 2,100 metres (6,900 ft)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lanovým tahem",
+     "Pomocí ozubnice",
+     "Pomocí hydraulických zdvihadel",
+     "Smyčkami a úvratěmi"
+    ],
+    "en": [
+     "By cable haulage",
+     "With a rack",
+     "With hydraulic lifts",
+     "With loops and zig-zags"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Trať s rozchodem jen 610 mm stoupá z New Jalpaiguri (asi 100 m n. m.) do Dárdžilingu pomocí tří smyček a šesti úvratí. Přezdívá se jí „Toy Train“ a stanice Ghum (2 258 m) je nejvýše položenou železniční stanicí Indie (k roku 2026).",
+    "en": "The 610 mm (2 ft) gauge line climbs from New Jalpaiguri (about 100 m / 330 ft) to Darjeeling using three loops and six zig-zags. It is nicknamed the 'Toy Train', and Ghum station (2,258 m / 7,408 ft) is India's highest railway station (as of 2026)."
+   }
+  },
+  {
+   "id": "T196-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Které pražské nádraží přijalo v srpnu 1845 jako první ve městě parní vlaky?",
+    "en": "Which Prague station was the first in the city to receive steam trains, in August 1845?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nádraží Praha-Bubny",
+     "Masarykovo nádraží",
+     "Smíchovské nádraží",
+     "Hlavní nádraží"
+    ],
+    "en": [
+     "Prague-Bubny Station",
+     "Masaryk Station",
+     "Smíchov Station",
+     "Main Station"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Nádraží bylo otevřeno 20. srpna 1845 a do roku 1862 se jmenovalo prostě Praha (Prag). Ještě starší je nádraží Praha-Dejvice, původně stanice Bruska na lánské koněspřežce.",
+    "en": "The station opened on 20 August 1845 and until 1862 was simply called Praha (Prag). Even older is Praha-Dejvice station, originally Bruska on the Lány horse-drawn railway."
+   }
+  }
+ ]
+}

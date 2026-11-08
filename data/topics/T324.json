@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T324",
+ "nazev": {
+  "cs": "Jihovýchodní Asie: Thajsko, Vietnam, Indonésie a další",
+  "en": "Southeast Asia: Thailand, Vietnam, Indonesia and More"
+ },
+ "kategorie": {
+  "id": "zemepis",
+  "nazev": {
+   "cs": "Zeměpis",
+   "en": "Geography"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T324-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které město je hlavním městem Vietnamu?",
+    "en": "Which city is the capital of Vietnam?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hanoj",
+     "Da Nang",
+     "Ho Či Minovo Město",
+     "Hue"
+    ],
+    "en": [
+     "Hanoi",
+     "Da Nang",
+     "Ho Chi Minh City",
+     "Huế"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hlavním městem Vietnamu je Hanoj na severu země. Největším vietnamským městem je ale Ho Či Minovo Město na jihu.",
+    "en": "Hanoi, in the north, is the capital of Vietnam. The country's largest city, however, is Ho Chi Minh City in the south."
+   }
+  },
+  {
+   "id": "T324-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi leží zátoka Ha Long s téměř dvěma tisíci vápencových ostrůvků?",
+    "en": "In which country is Ha Long Bay, with nearly two thousand limestone islets?"
+   },
+   "moznosti": {
+    "cs": [
+     "Filipíny",
+     "Vietnam",
+     "Thajsko",
+     "Indonésie"
+    ],
+    "en": [
+     "The Philippines",
+     "Vietnam",
+     "Thailand",
+     "Indonesia"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Zátoka Ha Long leží v provincii Quảng Ninh na severovýchodě Vietnamu a od roku 1994 je na seznamu UNESCO. Hạ Long znamená „sestupující drak“ – podle legendy ostrůvky vznikly z drahokamů a nefritu, které vyplivla dračí rodina seslaná bohy na ochranu země před nájezdníky.",
+    "en": "Ha Long Bay lies in Quảng Ninh province in north-eastern Vietnam and has been a UNESCO World Heritage Site since 1994. Hạ Long means 'descending dragon' – legend says the islets formed from jewels and jade spat out by a family of dragons sent by the gods to protect the land from invaders."
+   }
+  },
+  {
+   "id": "T324-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co je phở, jedno z nejznámějších jídel vietnamské kuchyně?",
+    "en": "What is phở, one of the best-known dishes of Vietnamese cuisine?"
+   },
+   "moznosti": {
+    "cs": [
+     "Smažená rýže s vejcem",
+     "Polévka s rýžovými nudlemi",
+     "Jarní závitky z rýžového papíru",
+     "Dušené maso v kokosovém mléce"
+    ],
+    "en": [
+     "Fried rice with egg",
+     "A soup with rice noodles",
+     "Spring rolls in rice paper",
+     "Meat stewed in coconut milk"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Phở je vývar s plochými rýžovými nudlemi, bylinkami a tenkými plátky masa, nejčastěji hovězího (phở bò). Vznikla na severu Vietnamu mezi lety 1900 a 1907.",
+    "en": "Phở is a broth with flat rice noodles, herbs and thin slices of meat, most often beef (phở bò). It emerged in northern Vietnam between 1900 and 1907."
+   }
+  },
+  {
+   "id": "T324-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Merlion, symbol Singapuru, má hlavu lva. Jaké má tělo?",
+    "en": "The Merlion, the symbol of Singapore, has the head of a lion. What kind of body does it have?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tělo hada",
+     "Tělo orla",
+     "Tělo draka",
+     "Tělo ryby"
+    ],
+    "en": [
+     "A snake's body",
+     "An eagle's body",
+     "A dragon's body",
+     "A fish's body"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Rybí tělo připomíná minulost Singapuru jako rybářské vesnice Temasek, lví hlava odkazuje na jméno Singapura („lví město“). Slavná socha vznikla v letech 1971–1972 a původně stála u ústí řeky Singapore; v roce 2002 byla přemístěna asi o 120 metrů.",
+    "en": "The fish body recalls Singapore's past as the fishing village of Temasek, while the lion's head refers to the name Singapura ('lion city'). The famous statue was built in 1971–1972 and originally stood at the mouth of the Singapore River; in 2002 it was moved about 120 metres (390 ft)."
+   }
+  },
+  {
+   "id": "T324-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Do kterého státu patří ostrov Bali?",
+    "en": "Which country does the island of Bali belong to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Indonésie",
+     "Thajsko",
+     "Filipíny",
+     "Malajsie"
+    ],
+    "en": [
+     "Indonesia",
+     "Thailand",
+     "The Philippines",
+     "Malaysia"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Bali je jednou z provincií Indonésie. Indonésané mu přezdívají Pulau Dewata – Ostrov bohů.",
+    "en": "Bali is one of Indonesia's provinces. Indonesians nickname it Pulau Dewata – the Island of the Gods."
+   }
+  },
+  {
+   "id": "T324-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na kterých dvou ostrovech dnes žijí orangutani ve volné přírodě?",
+    "en": "On which two islands do orangutans live in the wild today?"
+   },
+   "moznosti": {
+    "cs": [
+     "Borneo a Sumatra",
+     "Jáva a Bali",
+     "Nová Guinea a Sulawesi",
+     "Luzon a Mindanao"
+    ],
+    "en": [
+     "Borneo and Sumatra",
+     "Java and Bali",
+     "New Guinea and Sulawesi",
+     "Luzon and Mindanao"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Orangutani dnes přežívají jen na části Bornea a Sumatry. Rozlišují se tři druhy; třetí z nich, orangutan z oblasti Tapanuli na Sumatře (Pongo tapanuliensis), byl potvrzen až v roce 2017.",
+    "en": "Orangutans now survive only in parts of Borneo and Sumatra. There are three species; the third, the Tapanuli orangutan of Sumatra (Pongo tapanuliensis), was confirmed only in 2017."
+   }
+  },
+  {
+   "id": "T324-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které město je hlavním městem Filipín?",
+    "en": "Which city is the capital of the Philippines?"
+   },
+   "moznosti": {
+    "cs": [
+     "Davao",
+     "Manila",
+     "Cebu",
+     "Zamboanga"
+    ],
+    "en": [
+     "Davao",
+     "Manila",
+     "Cebu",
+     "Zamboanga"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Hlavním městem Filipín je Manila. Země leží na souostroví, které tvoří asi 7 641 ostrovů (k roku 2026).",
+    "en": "Manila is the capital of the Philippines. The country lies on an archipelago of about 7,641 islands (as of 2026)."
+   }
+  },
+  {
+   "id": "T324-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se jmenuje thajská měna?",
+    "en": "What is the name of Thailand's currency?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dong",
+     "Ringgit",
+     "Kip",
+     "Baht"
+    ],
+    "en": [
+     "Dong",
+     "Ringgit",
+     "Kip",
+     "Baht"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Thajskou měnou je baht se značkou ฿ (kód THB). Ostatní možnosti jsou měny jiných zemí regionu: ringgit je malajsijský, dong vietnamský a kip laoský.",
+    "en": "Thailand's currency is the baht, symbol ฿ (code THB). The other options are currencies of other countries in the region: the ringgit is Malaysian, the dong Vietnamese and the kip Lao."
+   }
+  },
+  {
+   "id": "T324-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se do roku 1976 jmenovalo dnešní Ho Či Minovo Město?",
+    "en": "What was today's Ho Chi Minh City called until 1976?"
+   },
+   "moznosti": {
+    "cs": [
+     "Saigon",
+     "Malakka",
+     "Batavia",
+     "Rangún"
+    ],
+    "en": [
+     "Saigon",
+     "Malacca",
+     "Batavia",
+     "Rangoon"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Saigon byl přejmenován na počest Ho Či Mina po sjednocení Vietnamu v roce 1976, rok po pádu Saigonu, který ukončil vietnamskou válku.",
+    "en": "Saigon was renamed in honour of Ho Chi Minh after Vietnam's reunification in 1976, a year after the Fall of Saigon ended the Vietnam War."
+   }
+  },
+  {
+   "id": "T324-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které náboženství vyznává naprostá většina obyvatel Thajska?",
+    "en": "Which religion is followed by the vast majority of Thailand's population?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hinduismus",
+     "Křesťanství",
+     "Islám",
+     "Buddhismus"
+    ],
+    "en": [
+     "Hinduism",
+     "Christianity",
+     "Islam",
+     "Buddhism"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Podle sčítání z roku 2018 se k buddhismu hlásí 93,46 % obyvatel Thajska. Podle buddhistické éry se v Thajsku dokonce oficiálně počítají i roky.",
+    "en": "According to the 2018 census, 93.46% of Thailand's population is Buddhist. Thailand even officially counts its years in the Buddhist Era."
+   }
+  },
+  {
+   "id": "T324-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která země jihovýchodní Asie jako jediná nikdy nebyla kolonií západní mocnosti?",
+    "en": "Which Southeast Asian country is the only one never to have been colonised by a Western power?"
+   },
+   "moznosti": {
+    "cs": [
+     "Myanmar",
+     "Malajsie",
+     "Thajsko",
+     "Vietnam"
+    ],
+    "en": [
+     "Myanmar",
+     "Malaysia",
+     "Thailand",
+     "Vietnam"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Thajsko (dříve Siam) je jediným státem jihovýchodní Asie, který nikdy nekolonizovala západní mocnost. Británie a Francie se v roce 1896 dohodly, že jádro Siamu zůstane nárazníkovým státem mezi jejich koloniemi; Siam ale musel nerovnými smlouvami postoupit část území.",
+    "en": "Thailand (formerly Siam) is the only Southeast Asian state never colonised by a Western power. In 1896 Britain and France agreed to keep Siam's heartland as a buffer state between their colonies, although Siam had to cede territory through unequal treaties."
+   }
+  },
+  {
+   "id": "T324-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kterou zemi jihovýchodní Asie neomývá žádné moře?",
+    "en": "Which Southeast Asian country has no coastline on any sea?"
+   },
+   "moznosti": {
+    "cs": [
+     "Thajsko",
+     "Kambodža",
+     "Myanmar",
+     "Laos"
+    ],
+    "en": [
+     "Thailand",
+     "Cambodia",
+     "Myanmar",
+     "Laos"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Laos je jediným vnitrozemským státem jihovýchodní Asie. Část jeho západní hranice s Thajskem tvoří řeka Mekong.",
+    "en": "Laos is the only landlocked country in Southeast Asia. Part of its western border with Thailand is formed by the Mekong River."
+   }
+  },
+  {
+   "id": "T324-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik ostrovů zhruba tvoří Indonésii podle současných údajů?",
+    "en": "According to current figures, roughly how many islands make up Indonesia?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kolem 170",
+     "Kolem 1 700",
+     "Přes 13 000",
+     "Přes 130 000"
+    ],
+    "en": [
+     "About 170",
+     "About 1,700",
+     "Over 13,000",
+     "Over 130,000"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Publikované počty (k roku 2026) se liší podle metodiky: od 13 466 pojmenovaných ostrovů po více než 17 500. Trvale obydlených je jen asi 922 z nich.",
+    "en": "Published figures (as of 2026) vary with the method used, from 13,466 named islands to more than 17,500. Only about 922 of them are permanently inhabited."
+   }
+  },
+  {
+   "id": "T324-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který ostrov je považován za nejlidnatější ostrov světa?",
+    "en": "Which island is considered the most populous island in the world?"
+   },
+   "moznosti": {
+    "cs": [
+     "Luzon",
+     "Velká Británie",
+     "Jáva",
+     "Honšú"
+    ],
+    "en": [
+     "Luzon",
+     "Great Britain",
+     "Java",
+     "Honshu"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Indonéská Jáva je nejlidnatějším ostrovem světa – v polovině roku 2025 na ní (včetně Madury) žilo asi 158 milionů lidí, víc než polovina obyvatel Indonésie. Leží na ní i největší indonéské město Jakarta.",
+    "en": "Indonesia's Java is the world's most populous island – in mid-2025 it (including Madura) had about 158 million people, more than half of Indonesia's population. It is also home to Indonesia's largest city, Jakarta."
+   }
+  },
+  {
+   "id": "T324-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím se ostrov Bali nábožensky liší od zbytku země, ke které patří?",
+    "en": "How does the island of Bali differ in religion from the rest of the country it belongs to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Většina obyvatel vyznává hinduismus",
+     "Většina obyvatel je bez vyznání",
+     "Většina obyvatel je katolická",
+     "Většina obyvatel vyznává buddhismus"
+    ],
+    "en": [
+     "Most people practise Hinduism",
+     "Most people have no religion",
+     "Most people are Catholic",
+     "Most people practise Buddhism"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Na Bali vyznává asi 86 % obyvatel (2024) balijský hinduismus. Je to jediná část své země s hinduistickou většinou.",
+    "en": "About 86% of Bali's people follow Balinese Hinduism (2024). It is the only Hindu-majority part of its country."
+   }
+  },
+  {
+   "id": "T324-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém městě bylo v roce 1967 založeno Sdružení národů jihovýchodní Asie (ASEAN)?",
+    "en": "In which city was the Association of Southeast Asian Nations (ASEAN) founded in 1967?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jakarta",
+     "Manila",
+     "Singapur",
+     "Bangkok"
+    ],
+    "en": [
+     "Jakarta",
+     "Manila",
+     "Singapore",
+     "Bangkok"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "ASEAN vzniklo 8. srpna 1967, kdy ministři zahraničí pěti zemí podepsali v Bangkoku deklaraci ASEAN; zakládajícími členy byly Indonésie, Malajsie, Filipíny, Singapur a Thajsko. Sídlo organizace je v Jakartě.",
+    "en": "ASEAN was founded on 8 August 1967, when the foreign ministers of five countries signed the ASEAN Declaration in Bangkok: Indonesia, Malaysia, the Philippines, Singapore and Thailand. The organisation is headquartered in Jakarta."
+   }
+  },
+  {
+   "id": "T324-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak získal Singapur v roce 1965 nezávislost?",
+    "en": "How did Singapore gain independence in 1965?"
+   },
+   "moznosti": {
+    "cs": [
+     "Odkoupil se od Nizozemska",
+     "Vybojoval ji ve válce proti Británii",
+     "Byl vyloučen z Malajsijské federace",
+     "Odtrhl se od Indonésie po referendu"
+    ],
+    "en": [
+     "It bought itself out from the Netherlands",
+     "It won it in a war against Britain",
+     "It was expelled from the Malaysian federation",
+     "It broke away from Indonesia after a referendum"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Singapur se k Malajsii připojil 16. září 1963 a ideologické a politické spory vedly o necelé dva roky později k jeho vyloučení: 9. srpna 1965 malajsijský parlament odhlasoval jeho oddělení poměrem 126 : 0.",
+    "en": "Singapore joined Malaysia on 16 September 1963, and ideological and political disputes led to its expulsion less than two years later: on 9 August 1965 the Malaysian Parliament voted 126 to 0 to separate it."
+   }
+  },
+  {
+   "id": "T324-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve které zemi leží starobylé město Bagan, kde se na pláni u řeky Iravádí dochovalo přes 2 000 buddhistických chrámů a pagod?",
+    "en": "In which country is the ancient city of Bagan, where more than 2,000 Buddhist temples and pagodas survive on a plain by the Irrawaddy River?"
+   },
+   "moznosti": {
+    "cs": [
+     "Laos",
+     "Kambodža",
+     "Myanmar",
+     "Thajsko"
+    ],
+    "en": [
+     "Laos",
+     "Cambodia",
+     "Myanmar",
+     "Thailand"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Bagan byl od 9. do 13. století hlavním městem říše Pagan; v době rozkvětu tu vzniklo přes 10 000 sakrálních staveb, dochovalo se jich 2 229. Na seznam UNESCO byl zapsán v roce 2019.",
+    "en": "Bagan was the capital of the Pagan Kingdom from the 9th to the 13th century; more than 10,000 religious structures were built at its peak and 2,229 remain. It was inscribed as a UNESCO World Heritage Site in 2019."
+   }
+  },
+  {
+   "id": "T324-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jakým písmem se dnes píše vietnamština?",
+    "en": "What script is Vietnamese written in today?"
+   },
+   "moznosti": {
+    "cs": [
+     "Čínskými znaky",
+     "Latinkou",
+     "Cyrilicí",
+     "Písmem odvozeným z indického"
+    ],
+    "en": [
+     "Chinese characters",
+     "The Latin alphabet",
+     "Cyrillic",
+     "A script derived from Indian writing"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Vietnamská abeceda (chữ Quốc ngữ) je latinka s množstvím diakritiky, kterou v 17. století vytvořil portugalský misionář Francisco de Pina s dalšími jezuity; Alexandre de Rhodes s ní roku 1651 vydal slovník. Dřív se psalo čínskými znaky a z nich odvozeným písmem chữ Nôm.",
+    "en": "The Vietnamese alphabet (chữ Quốc ngữ) is a Latin script with many diacritics, developed in the 17th century by the Portuguese missionary Francisco de Pina and other Jesuits; Alexandre de Rhodes published a dictionary using it in 1651. Earlier, Vietnamese was written in Chinese characters and the derived chữ Nôm script."
+   }
+  },
+  {
+   "id": "T324-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které zemi postoupilo Španělsko v roce 1898 Filipíny?",
+    "en": "To which country did Spain cede the Philippines in 1898?"
+   },
+   "moznosti": {
+    "cs": [
+     "Japonsku",
+     "Nizozemsku",
+     "Velké Británii",
+     "Spojeným státům"
+    ],
+    "en": [
+     "Japan",
+     "The Netherlands",
+     "Great Britain",
+     "The United States"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Po prohrané španělsko-americké válce postoupilo Španělsko Pařížskou smlouvou z prosince 1898 Filipíny Spojeným státům spolu s Portorikem a Guamem. Angličtina je dodnes vedle filipínštiny úředním jazykem Filipín.",
+    "en": "After losing the Spanish–American War, Spain ceded the Philippines to the United States, along with Puerto Rico and Guam, by the Treaty of Paris in December 1898. English remains an official language of the Philippines alongside Filipino."
+   }
+  },
+  {
+   "id": "T324-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Thajsko oficiálně počítá roky podle vlastního letopočtu. Který rok v něm odpovídá gregoriánskému roku 2026?",
+    "en": "Thailand officially counts years in its own era. Which year in it corresponds to the Gregorian year 2026?"
+   },
+   "moznosti": {
+    "cs": [
+     "2483",
+     "2526",
+     "2569",
+     "2612"
+    ],
+    "en": [
+     "2483",
+     "2526",
+     "2569",
+     "2612"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Thajský letopočet je o 543 let napřed před gregoriánským, takže roku 2026 odpovídá rok 2569. Král Ráma VI. na něj přešel v roce 1912 a od roku 1941 začíná thajský rok 1. ledna.",
+    "en": "The Thai era is 543 years ahead of the Gregorian calendar, so 2026 corresponds to 2569. King Rama VI switched year counting to it in 1912, and since 1941 the Thai year has begun on 1 January."
+   }
+  },
+  {
+   "id": "T324-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím je zvláštní řeka Tonle Sap v Kambodži?",
+    "en": "What is special about the Tonlé Sap river in Cambodia?"
+   },
+   "moznosti": {
+    "cs": [
+     "V období sucha úplně vysychá a mizí",
+     "Její voda je kvůli minerálům zbarvená do růžova",
+     "V období dešťů teče opačným směrem než v období sucha",
+     "Část roku teče pod zemí krasovými jeskyněmi"
+    ],
+    "en": [
+     "In the dry season it dries up completely and disappears",
+     "Its water is tinted pink by minerals",
+     "In the rainy season it flows the opposite way to the dry season",
+     "For part of the year it flows underground through karst caves"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Monzunové vody rozvodněného Mekongu řeku obrátí a jezero Tonle Sap se zvětší z asi 2 500–3 000 km² až na 16 000 km². Na konci období dešťů teče řeka zpět do Mekongu; jezero je největším sladkovodním jezerem jihovýchodní Asie.",
+    "en": "Monsoon floodwaters of the Mekong reverse the river, and Tonlé Sap lake swells from about 2,500–3,000 km² (970–1,160 sq mi) to as much as 16,000 km² (6,200 sq mi). At the end of the rainy season the river flows back into the Mekong; the lake is the largest freshwater lake in Southeast Asia."
+   }
+  },
+  {
+   "id": "T324-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se v Malajsii určuje král (Yang di-Pertuan Agong)?",
+    "en": "How is the king of Malaysia (Yang di-Pertuan Agong) chosen?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na sedm let ho volí obě komory parlamentu",
+     "Na pět let ho volí ze svého středu vládci devíti států",
+     "Trůn dědí nejstarší syn v jediné královské dynastii",
+     "Losem se vybírá z guvernérů všech třinácti států"
+    ],
+    "en": [
+     "Both houses of parliament elect him for seven years",
+     "The rulers of nine states elect one of themselves for five years",
+     "The eldest son of a single royal dynasty inherits the throne",
+     "He is drawn by lot from the governors of all thirteen states"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Krále volí ze svého středu tajným hlasováním devět vládců malajských států na Konferenci vládců a úřad mezi nimi de facto koluje v ustáleném pořadí. Od roku 2024 je 17. králem Ibrahim Iskandar, sultán Johoru (k roku 2026).",
+    "en": "The king is elected by secret ballot from among the nine rulers of the Malay states at the Conference of Rulers, and the office de facto rotates among them in an established order. Since 2024 the 17th king has been Ibrahim Iskandar, Sultan of Johor (as of 2026)."
+   }
+  },
+  {
+   "id": "T324-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V jakém jazyce se zpívá státní hymna Singapuru?",
+    "en": "In what language is the national anthem of Singapore sung?"
+   },
+   "moznosti": {
+    "cs": [
+     "V malajštině",
+     "V mandarínské čínštině",
+     "V angličtině",
+     "V tamilštině"
+    ],
+    "en": [
+     "Malay",
+     "Mandarin Chinese",
+     "English",
+     "Tamil"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hymna Majulah Singapura („Kupředu, Singapure“) se podle zákona smí zpívat jen s malajským textem; malajština je národním jazykem Singapuru. Úředními jazyky jsou vedle ní angličtina, mandarínština a tamilština, do nichž existují jen schválené překlady textu.",
+    "en": "By law, the anthem Majulah Singapura ('Onward Singapore') must be sung with its Malay lyrics; Malay is Singapore's national language. English, Mandarin and Tamil are the other official languages, with only authorised translations of the lyrics."
+   }
+  },
+  {
+   "id": "T324-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím jsou proslulí rybáři z národa Intha na jezeře Inle v Myanmaru?",
+    "en": "What are the Intha fishermen of Inle Lake in Myanmar famous for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Loví ryby s pomocí cvičených kormoránů",
+     "Loví ryby holýma rukama při potápění",
+     "Rybaří vsedě na kůlech zaražených do dna",
+     "Veslují vestoje s veslem omotaným kolem nohy"
+    ],
+    "en": [
+     "They fish with the help of trained cormorants",
+     "They catch fish with bare hands while diving",
+     "They fish sitting on poles driven into the lake bed",
+     "They row standing up with the oar wrapped around one leg"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Muži stojí na zádi na jedné noze a druhou obtáčejí veslo, aby viděli přes rákosí a plovoucí rostliny. Ženy veslují rukama vsedě se zkříženýma nohama. Na jezeře se pěstuje i na plovoucích záhonech ukotvených bambusovými tyčemi.",
+    "en": "The men stand at the stern on one leg and wrap the other around the oar so they can see over the reeds and floating plants. Women row with their hands, sitting cross-legged. Crops are also grown on floating beds anchored with bamboo poles."
+   }
+  },
+  {
+   "id": "T324-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se jmenuje tradiční balijský systém zavlažování rýžových polí, propojený s vodními chrámy a zapsaný od roku 2012 na seznam UNESCO?",
+    "en": "What is the name of Bali's traditional rice-field irrigation system, linked to water temples and on the UNESCO list since 2012?"
+   },
+   "moznosti": {
+    "cs": [
+     "Qanat",
+     "Kecak",
+     "Chinampa",
+     "Subak"
+    ],
+    "en": [
+     "Qanat",
+     "Kecak",
+     "Chinampa",
+     "Subak"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Subak vznikl v 9. století: terasovitá rýžová pole se družstevně dělí o vodu prostřednictvím sítě vodních chrámů. Vychází z filozofie Tri Hita Karana – vztahu mezi lidmi, přírodou a bohy. Kecak je naopak slavný balijský tanec.",
+    "en": "Subak was developed in the 9th century: terraced rice fields share water cooperatively through a network of water temples. It is based on the Tri Hita Karana philosophy of the relationship between people, nature and the gods. Kecak, by contrast, is a famous Balinese dance."
+   }
+  },
+  {
+   "id": "T324-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím je zvláštní území sultanátu Brunej?",
+    "en": "What is special about the territory of the Sultanate of Brunei?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nemá pobřeží a k moři se dostává jen po řece",
+     "Skládá se ze dvou částí oddělených malajsijským územím",
+     "Ze všech stran ho obklopuje indonéský Kalimantan",
+     "Polovinu jeho rozlohy tvoří umělé ostrovy"
+    ],
+    "en": [
+     "It has no coastline and reaches the sea only by river",
+     "It consists of two parts separated by Malaysian territory",
+     "It is surrounded on all sides by Indonesian Kalimantan",
+     "Half of its area consists of artificial islands"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Brunej na severu Bornea rozděluje na dvě části malajsijský okres Limbang ve státě Sarawak. Tato absolutní monarchie v čele se sultánem je plně nezávislá od 1. ledna 1984.",
+    "en": "Brunei, on the north of Borneo, is split in two by the Malaysian district of Limbang in Sarawak. This absolute monarchy ruled by a sultan has been fully sovereign since 1 January 1984."
+   }
+  },
+  {
+   "id": "T324-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Která země se v říjnu 2025 stala jedenáctým členem ASEAN?",
+    "en": "Which country became the eleventh member of ASEAN in October 2025?"
+   },
+   "moznosti": {
+    "cs": [
+     "Papua-Nová Guinea",
+     "Východní Timor",
+     "Srí Lanka",
+     "Bangladéš"
+    ],
+    "en": [
+     "Papua New Guinea",
+     "Timor-Leste (East Timor)",
+     "Sri Lanka",
+     "Bangladesh"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Východní Timor (Timor-Leste) byl přijat 26. října 2025 na 47. summitu ASEAN. Organizace, kterou v roce 1967 zakládalo pět států, má tak jedenáct členů (k roku 2026).",
+    "en": "Timor-Leste was admitted on 26 October 2025 at the 47th ASEAN Summit. The organisation, founded by five countries in 1967, now has eleven members (as of 2026)."
+   }
+  },
+  {
+   "id": "T324-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Anak Krakatau je sopečný ostrov, který se od roku 1927 vynořuje z kaldery po slavném výbuchu Krakatoy. Co doslova znamená jeho indonéské jméno?",
+    "en": "Anak Krakatau is a volcanic island that has been emerging since 1927 from the caldera left by Krakatoa's famous eruption. What does its Indonesian name literally mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Duch Krakatoy",
+     "Dítě Krakatoy",
+     "Popel Krakatoy",
+     "Hněv Krakatoy"
+    ],
+    "en": [
+     "Spirit of Krakatoa",
+     "Child of Krakatoa",
+     "Ash of Krakatoa",
+     "Wrath of Krakatoa"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ostrov se poprvé vynořil 29. prosince 1927 a trvale nad hladinou je od roku 1930. V prosinci 2018 se zřítila velká část sopky, vyvolala smrtící tsunami a sopka přišla o víc než dvě třetiny objemu.",
+    "en": "The island first emerged on 29 December 1927 and has been permanently above sea level since 1930. In December 2018 a large part of the volcano collapsed, triggering a deadly tsunami, and it lost more than two-thirds of its volume."
+   }
+  },
+  {
+   "id": "T324-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Celé ceremoniální jméno Bangkoku je zapsáno v Guinnessově knize rekordů. Jako co?",
+    "en": "Bangkok's full ceremonial name is listed in Guinness World Records. As what?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nejdelší název místa na světě",
+     "Nejčastěji měněný název hlavního města",
+     "Nejstarší dosud užívaný název hlavního města",
+     "Název města přeložený do nejvíce jazyků"
+    ],
+    "en": [
+     "The world's longest place name",
+     "The most frequently changed capital-city name",
+     "The oldest capital-city name still in use",
+     "The city name translated into the most languages"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Ceremoniální jméno Bangkoku má podle Guinnessovy knihy 168 písmen a je složeno z pálijských a sanskrtských kořenů. Thajci sami používají jeho krátkou podobu Krung Thep.",
+    "en": "According to Guinness World Records, Bangkok's ceremonial name has 168 letters and is built from Pali and Sanskrit roots. Thais themselves use its short form, Krung Thep."
+   }
+  }
+ ]
+}

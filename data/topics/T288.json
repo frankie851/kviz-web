@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T288",
+ "nazev": {
+  "cs": "Pavouci, štíři a další členovci",
+  "en": "Spiders, Scorpions and Other Arthropods"
+ },
+ "kategorie": {
+  "id": "priroda-a-zvirata",
+  "nazev": {
+   "cs": "Příroda a zvířata",
+   "en": "Nature & Animals"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T288-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik nohou má pavouk?",
+    "en": "How many legs does a spider have?"
+   },
+   "moznosti": {
+    "cs": [
+     "4",
+     "6",
+     "8",
+     "10"
+    ],
+    "en": [
+     "4",
+     "6",
+     "8",
+     "10"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pavouci mají čtyři páry nohou, tedy osm. Všechny vyrůstají z přední části těla, hlavohrudi.",
+    "en": "Spiders have four pairs of legs, eight in total. All of them grow from the front body section, the cephalothorax."
+   }
+  },
+  {
+   "id": "T288-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá iracionální strach z pavouků?",
+    "en": "What is an irrational fear of spiders called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Arachnofobie",
+     "Akrofobie",
+     "Agorafobie",
+     "Klaustrofobie"
+    ],
+    "en": [
+     "Arachnophobia",
+     "Acrophobia",
+     "Agoraphobia",
+     "Claustrophobia"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Název vychází z řeckého arachné, pavouk. Od stejného slova je odvozen i vědecký název pavoukovců, Arachnida.",
+    "en": "The name comes from the Greek arachne, spider. The same word gives the scientific name of arachnids, Arachnida."
+   }
+  },
+  {
+   "id": "T288-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou barvu získá rak nebo humr při vaření?",
+    "en": "What colour does a crayfish or lobster turn when cooked?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zelenou",
+     "Modrou",
+     "Červenou",
+     "Černou"
+    ],
+    "en": [
+     "Green",
+     "Blue",
+     "Red",
+     "Black"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Červené barvivo astaxanthin je v krunýři živého korýše navázané na bílkovinu. Při vaření se bílkovina denaturuje, barvivo se uvolní a krunýř zčervená.",
+    "en": "In a live crustacean's shell, the red pigment astaxanthin is bound to a protein. When cooked, the protein denatures, freeing the pigment, and the shell turns red."
+   }
+  },
+  {
+   "id": "T288-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Při osvětlení kterým druhem světla štíři nápadně svítí?",
+    "en": "Under which kind of light do scorpions glow conspicuously?"
+   },
+   "moznosti": {
+    "cs": [
+     "Infračerveným",
+     "Červeným laserovým",
+     "Ultrafialovým",
+     "Polarizovaným"
+    ],
+    "en": [
+     "Infrared",
+     "Red laser",
+     "Ultraviolet",
+     "Polarized"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "V UV světle štíři září modrozeleně díky fluorescenčním látkám, například beta-karbolinu, v kutikule. Záře sílí s každým dalším svlékáním, jak kutikula tvrdne.",
+    "en": "Under UV light scorpions glow blue-green thanks to fluorescent chemicals such as beta-carboline in their cuticle. The glow grows stronger with each moult as the cuticle hardens."
+   }
+  },
+  {
+   "id": "T288-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Podle čeho dostal jméno křižák obecný (Araneus diadematus)?",
+    "en": "What gave the cross spider (Araneus diadematus) its name?"
+   },
+   "moznosti": {
+    "cs": [
+     "Podle nohou zkřížených v klidu do X",
+     "Podle kříže utkaného uprostřed sítě",
+     "Podle křížících se vláken pod sítí",
+     "Podle bílé kresby kříže na zadečku"
+    ],
+    "en": [
+     "Legs crossed into an X at rest",
+     "A cross woven into the centre of the web",
+     "Threads crossing beneath the web",
+     "A white cross-shaped marking on the abdomen"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Na hřbetní straně zadečku má skvrnitou bílou kresbu, jejíž části tvoří kříž. Proto se mu anglicky říká také cross orbweaver.",
+    "en": "It has mottled white markings on the upper side of the abdomen, several of which form a cross. That is why it is called the cross spider or cross orbweaver."
+   }
+  },
+  {
+   "id": "T288-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Podle čeho se pozná samice černé vdovy (Latrodectus mactans)?",
+    "en": "How can you recognise a female black widow (Latrodectus mactans)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Podle žlutých pruhů na nohou",
+     "Podle oranžového pruhu podél hřbetu",
+     "Podle modrého lesklého štítu na hlavohrudi",
+     "Podle červených přesýpacích hodin na břiše"
+    ],
+    "en": [
+     "By yellow stripes on its legs",
+     "By an orange stripe along its back",
+     "By a shiny blue shield on its cephalothorax",
+     "By a red hourglass mark on its belly"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Samice je lesklá černá s červenou skvrnou ve tvaru přesýpacích hodin na spodní straně zadečku. Samci jsou mnohem menší (3–6 mm proti 8–13 mm) a samice je jen příležitostně po páření sežere.",
+    "en": "The female is glossy black with a red hourglass mark on the underside of its abdomen. Males are much smaller (3–6 mm / 0.12–0.24 inches versus 8–13 mm / 0.31–0.51 inches), and females only occasionally eat them after mating."
+   }
+  },
+  {
+   "id": "T288-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Do které skupiny živočichů patří klíšťata?",
+    "en": "Which group of animals do ticks belong to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kroužkovci",
+     "Pavoukovci",
+     "Hmyz",
+     "Korýši"
+    ],
+    "en": [
+     "Annelids",
+     "Arachnids",
+     "Insects",
+     "Crustaceans"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Klíšťata jsou parazitičtí pavoukovci z řádu Ixodida, příbuzní roztočů. Přenášejí řadu nemocí, například lymskou boreliózu.",
+    "en": "Ticks are parasitic arachnids of the order Ixodida, related to mites. They transmit many diseases, such as Lyme disease."
+   }
+  },
+  {
+   "id": "T288-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakým způsobem dokáže mnoho krabů rychle utíkat?",
+    "en": "In what way can many crabs run fast?"
+   },
+   "moznosti": {
+    "cs": [
+     "Skákáním po zadních nohou",
+     "Kutálením, stočeni do klubíčka",
+     "Bokem",
+     "Vzpřímeně po dvou nohou"
+    ],
+    "en": [
+     "Hopping on their hind legs",
+     "Rolling curled up into a ball",
+     "Sideways",
+     "Upright on two legs"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Mnoho krabů umí svižně běhat do strany, jiné druhy ale chodí dopředu. Podle paleobiologa Matthewa Willse se stavba těla krabů, včetně schopnosti pohybovat se bokem, osvědčila v moři mezi štěrbinami a ve vlnobití.",
+    "en": "Many crabs can run swiftly sideways, though other species walk forwards. Palaeobiologist Matthew Wills links the crab body plan, including the ability to scuttle sideways, to marine life in crevices and wave-swept places."
+   }
+  },
+  {
+   "id": "T288-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která postava ze série o Harrym Potterovi má panický strach z pavouků?",
+    "en": "Which character from the Harry Potter series is terrified of spiders?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ron Weasley",
+     "Harry Potter",
+     "Neville Longbottom",
+     "Hermiona Grangerová"
+    ],
+    "en": [
+     "Ron Weasley",
+     "Harry Potter",
+     "Neville Longbottom",
+     "Hermione Granger"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "V Tajemné komnatě musí Ron s Harrym jít za pavouky do Zapovězeného lesa. Obří pavouci je málem sežerou a zachrání je až začarované auto.",
+    "en": "In the Chamber of Secrets, Ron and Harry have to follow spiders into the Forbidden Forest. Giant spiders nearly devour them until the enchanted car rescues them."
+   }
+  },
+  {
+   "id": "T288-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co musejí pavouci, raci a další členovci udělat, aby mohli vyrůst?",
+    "en": "What must spiders, crayfish and other arthropods do in order to grow?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přezimovat zahrabaní v zemi",
+     "Jíst vápník, aby krunýř změkl",
+     "Svléknout starou kutikulu (krunýř)",
+     "Odhodit staré nohy, aby narostly delší"
+    ],
+    "en": [
+     "Overwinter buried in the ground",
+     "Eat calcium to soften their shell",
+     "Shed their old cuticle (exoskeleton)",
+     "Shed their old legs so longer ones grow"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kutikula tvoří téměř nepružnou vnější kostru, a tak ji členovci při růstu svlékají a vytvoří si větší. Hned po svlékání jsou bledí, měkcí a zranitelní, než nová kutikula ztvrdne.",
+    "en": "The cuticle forms an almost inelastic exoskeleton, so arthropods shed it as they grow and form a larger one. Right after moulting they are pale, soft and vulnerable until the new cuticle hardens."
+   }
+  },
+  {
+   "id": "T288-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik očí má většina pavouků?",
+    "en": "How many eyes do most spiders have?"
+   },
+   "moznosti": {
+    "cs": [
+     "2",
+     "4",
+     "6",
+     "8"
+    ],
+    "en": [
+     "2",
+     "4",
+     "6",
+     "8"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Většina pavouků má čtyři páry očí v přední horní části hlavohrudi. Nejostřejší zrak mají skákavky: u některých druhů až desetkrát ostřejší než u vážek.",
+    "en": "Most spiders have four pairs of eyes on the top front of the cephalothorax. Jumping spiders see best: in some species visual acuity is up to ten times that of dragonflies."
+   }
+  },
+  {
+   "id": "T288-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Vodouch stříbřitý (Argyroneta aquatica) tráví téměř celý život pod hladinou. Jak tam dýchá?",
+    "en": "The water spider (Argyroneta aquatica) spends almost its whole life underwater. How does it breathe there?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ze vzduchového zvonu upředeného z vlákna",
+     "Celým povrchem těla přímo z vody",
+     "Žábrami na spodní straně zadečku",
+     "Dutým vláknem nataženým k hladině"
+    ],
+    "en": [
+     "From an air bell spun out of silk",
+     "Through its whole body surface straight from the water",
+     "With gills on the underside of its abdomen",
+     "Through a hollow thread stretched to the surface"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vodouch si pod vodou upřede zvon a plní ho vzduchem, který přinese v chloupcích na těle. Zvon funguje jako fyzikální žábra, ale pomalu se zmenšuje, takže ho musí doplňovat. Neobvyklé je, že samci jsou větší než samice.",
+    "en": "The spider spins an underwater bell and fills it with air carried down in the hairs on its body. The bell works as a physical gill but slowly shrinks, so it must be refilled. Unusually, males are larger than females."
+   }
+  },
+  {
+   "id": "T288-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Mladí pavouci se umějí přemístit až na stovky kilometrů. Jak to dělají?",
+    "en": "Young spiders can travel up to hundreds of kilometres. How do they do it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přichytí se k srsti putujících savců",
+     "Svezou se v peří tažných ptáků",
+     "Plují po řekách na spadaném listí",
+     "Vypustí vlákna a nechají se unášet větrem"
+    ],
+    "en": [
+     "They cling to the fur of roaming mammals",
+     "They ride in the feathers of migrating birds",
+     "They float down rivers on fallen leaves",
+     "They release silk threads and let the wind carry them"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pavouček vyleze co nejvýš a vypustí několik vláken, která ho jako padák zvednou do vzduchu; vztlak může dodat i elektrické pole Země. Pavouky zachytily i balony ve výšce téměř 5 km.",
+    "en": "The spiderling climbs as high as it can and releases several threads that lift it like a parachute; Earth's electric field can also provide lift. Spiders have been caught by balloons almost 5 km (3.1 mi) up."
+   }
+  },
+  {
+   "id": "T288-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Do které skupiny živočichů patří stínky, které žijí pod kameny a ležícím dřevem?",
+    "en": "Which group of animals do woodlice, found under stones and logs, belong to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Korýši",
+     "Pavoukovci",
+     "Mnohonožky",
+     "Hmyz"
+    ],
+    "en": [
+     "Crustaceans",
+     "Arachnids",
+     "Millipedes",
+     "Insects"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Stínky jsou suchozemští stejnonožci (Isopoda: Oniscidea), tedy korýši bližší krabům a humrům než hmyzu. Rychle ztrácejí vodu, a proto vyhledávají vlhká a tmavá místa.",
+    "en": "Woodlice are terrestrial isopods (Isopoda: Oniscidea), crustaceans more closely related to crabs and lobsters than to insects. They lose water quickly, which is why they seek damp, dark places."
+   }
+  },
+  {
+   "id": "T288-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který živočich je považován za největšího suchozemského členovce?",
+    "en": "Which animal is considered the largest land-living arthropod?"
+   },
+   "moznosti": {
+    "cs": [
+     "Krab palmový (Birgus latro)",
+     "Sklípkan Theraphosa blondi",
+     "Mnohonožka Archispirostreptus gigas",
+     "Stonožka Scolopendra gigantea"
+    ],
+    "en": [
+     "The coconut crab (Birgus latro)",
+     "The tarantula Theraphosa blondi",
+     "The millipede Archispirostreptus gigas",
+     "The centipede Scolopendra gigantea"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Krab palmový, odvozený rak poustevník, má rozpětí nohou až kolem 1 m a silnými klepety prorazí i kokosový ořech. Dospělci neumějí plavat, a když zůstanou ve vodě déle než hodinu, utopí se.",
+    "en": "The coconut crab, a derived hermit crab, has a leg span of up to about 1 m (3.3 ft) and can cut into coconuts with its strong claws. Adults cannot swim and drown if left in water for over an hour."
+   }
+  },
+  {
+   "id": "T288-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co dělají mláďata štíra hned po narození?",
+    "en": "What do baby scorpions do right after birth?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rozlezou se do okolí",
+     "Zahrabou se do písku",
+     "Vylezou matce na záda",
+     "Zůstanou v zakopaných vajíčkách"
+    ],
+    "en": [
+     "They scatter into the surroundings",
+     "They burrow into the sand",
+     "They climb onto their mother's back",
+     "They stay inside buried eggs"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Všechny známé druhy štírů rodí živá mláďata. Ta zůstávají matce na zádech nejméně do prvního svlékání, dokud jim neztvrdne kutikula.",
+    "en": "All known scorpion species give live birth. The young stay on their mother's back at least until their first moult, while their exoskeletons harden."
+   }
+  },
+  {
+   "id": "T288-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím se mnoho amerických sklípkanů brání dřív, než kousnou?",
+    "en": "How do many American tarantulas defend themselves before resorting to biting?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zbarví se výstražně do červena",
+     "Zabalí se do kokonu z vláken",
+     "Vymršťují žahavé chloupky ze zadečku",
+     "Stříkají jed z kusadel do očí"
+    ],
+    "en": [
+     "They turn a warning red",
+     "They wrap themselves in a silk cocoon",
+     "They flick irritating hairs off their abdomen",
+     "They spray venom from their fangs into the eyes"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Zadníma nohama setřou ze zadečku ostnaté chloupky, které dráždí kůži a mohou proniknout i do rohovky. Sklípkani ze Starého světa je nemají a spíš rovnou zaútočí.",
+    "en": "They kick barbed hairs off their abdomen with their hind legs; the hairs irritate the skin and can even penetrate the cornea. Old World tarantulas lack them and are more likely to attack."
+   }
+  },
+  {
+   "id": "T288-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak bývá popisováno kousnutí zápřednice jedovaté (Cheiracanthium punctorium), pavouka žijícího i ve střední Evropě?",
+    "en": "How is the bite of Cheiracanthium punctorium, a spider that also lives in Central Europe, usually described?"
+   },
+   "moznosti": {
+    "cs": [
+     "Je bezbolestné, jen svědí",
+     "Lidskou kůži vůbec neprokousne",
+     "Pro dospělého bývá smrtelné",
+     "Přirovnává se k bodnutí vosy"
+    ],
+    "en": [
+     "It is painless and only itches",
+     "It cannot pierce human skin at all",
+     "It is often fatal to adults",
+     "It is compared to a wasp sting"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Dokáže prokousnout lidskou kůži; citlivější lidé mohou mít i silnější reakci, třeba nevolnost. Samice si staví asi 4 cm velké kokony ve vysoké trávě.",
+    "en": "It can pierce human skin; sensitive people may react more strongly, for example with nausea. Females build egg sacs about 4 cm (1.6 inches) across in tall grass."
+   }
+  },
+  {
+   "id": "T288-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak lze nejsnáze rozeznat mnohonožku od stonožky?",
+    "en": "What is the easiest way to tell a millipede from a centipede?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mnohonožka má na hlavě jedová klepítka",
+     "Mnohonožka má na většině článků dva páry nohou",
+     "Mnohonožka má nohy jen na zadní polovině těla",
+     "Mnohonožka nemá tykadla"
+    ],
+    "en": [
+     "A millipede has venomous claws on its head",
+     "A millipede has two pairs of legs on most segments",
+     "A millipede has legs only on the rear half of its body",
+     "A millipede has no antennae"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Stonožky mají na každém článku jeden pár nohou, mnohonožky mají na většině článků (tzv. diplosegmentů) dva páry. Jedová klepítka jsou naopak výsadou dravých stonožek; mnohonožky se živí hlavně tlejícím rostlinným materiálem.",
+    "en": "Centipedes have one pair of legs per segment, while millipedes have two pairs on most segments (diplosegments). Venomous claws belong to predatory centipedes; millipedes mostly feed on decaying plant matter."
+   }
+  },
+  {
+   "id": "T288-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak rak nejčastěji prchá před nebezpečím?",
+    "en": "How does a crayfish usually flee from danger?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rychle odplave dopředu",
+     "Vypustí oblak inkoustu",
+     "Švihnutím zadečku vystřelí pozpátku",
+     "Odskočí dopředu odrazem nohou"
+    ],
+    "en": [
+     "It swims quickly away forwards",
+     "It releases a cloud of ink",
+     "It flicks its tail and shoots backwards",
+     "It leaps forwards by pushing off with its legs"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Prudké ohnutí zadečku ho vymrští dozadu; reflex se spustí zhruba za dvě setiny sekundy. Stejně unikají humři, krevety i kril a anglicky se tomu říká tail-flipping.",
+    "en": "A sudden flex of the abdomen propels it backwards; the reflex fires within about two hundredths of a second. Lobsters, shrimp and krill escape the same way, known as tail-flipping."
+   }
+  },
+  {
+   "id": "T288-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Skákavky skáčou daleko, přestože nemají v nohou mohutné svaly jako kobylky. Jak to dělají?",
+    "en": "Jumping spiders jump far even though they lack the large leg muscles of grasshoppers. How do they do it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vystřelí vlákno a přitáhnou se po něm",
+     "Prudce zvýší tlak tělní tekutiny v nohou",
+     "Odrazí se švihem zadečku o podklad",
+     "Odrazí se pružným kloubem jako blecha"
+    ],
+    "en": [
+     "They shoot a thread and pull themselves along it",
+     "They sharply raise the pressure of their body fluid in their legs",
+     "They push off by flicking their abdomen against the ground",
+     "They spring off an elastic joint like a flea"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Nohy jim natáhne hydraulika: náhlé zvýšení tlaku tělní tekutiny, hlavně v zadních nohou. Před skokem si připevní jisticí vlákno, po kterém při nezdaru vyšplhají zpět.",
+    "en": "Their legs are extended hydraulically, by a sudden rise in body-fluid pressure, mainly in the rear legs. Before jumping they attach a safety dragline and climb back up it if the jump fails."
+   }
+  },
+  {
+   "id": "T288-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kde staví své sítě madagaskarský pavouk Caerostris darwini, objevený v roce 2009?",
+    "en": "Where does the Madagascan spider Caerostris darwini, discovered in 2009, build its webs?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nad řekami a jezery",
+     "Ve vchodech do vápencových jeskyní",
+     "V korunách nejvyšších stromů pralesa",
+     "Mezi útesy na mořském pobřeží"
+    ],
+    "en": [
+     "Over rivers and lakes",
+     "In the entrances of limestone caves",
+     "In the crowns of the tallest rainforest trees",
+     "Among cliffs on the sea coast"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jeho kruhové sítě visí přímo nad vodou a nosná vlákna se pnou až 25 m. Jeho vlákno je asi dvakrát houževnatější než jakékoli jiné známé pavoučí vlákno.",
+    "en": "Its orb webs hang directly over water, with bridge lines spanning up to 25 m (82 ft). Its silk is about twice as tough as any other known spider silk."
+   }
+  },
+  {
+   "id": "T288-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který jedinec australského pavouka Atrax robustus (anglicky Sydney funnel-web) je pro člověka nejnebezpečnější?",
+    "en": "In the Australian Sydney funnel-web spider (Atrax robustus), which is the most dangerous to humans?"
+   },
+   "moznosti": {
+    "cs": [
+     "Čerstvě vylíhlé mládě",
+     "Dospělý samec",
+     "Dospělá samice",
+     "Samice hlídající kokon"
+    ],
+    "en": [
+     "A newly hatched spiderling",
+     "The adult male",
+     "The adult female",
+     "A female guarding her egg sac"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jed samců je silnější než jed samic a samci se navíc v teplých měsících toulají za samicemi, takže na lidi narazí častěji. Od zavedení protijedu v roce 1981 nebylo zaznamenáno žádné úmrtí.",
+    "en": "Male venom is more potent than female venom, and males wander in warm months looking for mates, so they meet people more often. Since the antivenom became available in 1981, no deaths have been recorded."
+   }
+  },
+  {
+   "id": "T288-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím je proslulé páření australské snovačky Latrodectus hasselti (anglicky redback)?",
+    "en": "What is mating in the Australian redback spider (Latrodectus hasselti) famous for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Samec zabalí samici do vlákna, aby ho nekousla",
+     "Samec přinese samici jako dar zabalenou kořist",
+     "Samice omráčí samce jedem a uloží si ho do zásoby",
+     "Samec udělá přemet a nastaví samici zadeček k ústům"
+    ],
+    "en": [
+     "The male wraps the female in silk so she cannot bite him",
+     "The male brings the female wrapped prey as a gift",
+     "The female stuns the male with venom and stores him as food",
+     "The male somersaults and places his abdomen at the female's mouthparts"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Samice samce zhruba ve dvou případech ze tří během páření sežere. Páření se tím prodlouží, oplodí se víc vajíček a nasycená samice spíš odmítne další nápadníky.",
+    "en": "In about two out of three cases the female eats the male while mating continues. This prolongs copulation, fertilises more eggs, and a female that has eaten a male is more likely to reject later suitors."
+   }
+  },
+  {
+   "id": "T288-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik nohou má čerstvě vylíhlá larva klíštěte?",
+    "en": "How many legs does a newly hatched tick larva have?"
+   },
+   "moznosti": {
+    "cs": [
+     "4",
+     "6",
+     "8",
+     "10"
+    ],
+    "en": [
+     "4",
+     "6",
+     "8",
+     "10"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Larva klíštěte se líhne se šesti nohama a čtvrtý pár jí přibude až poté, co se nasaje krve a svlékne se v nymfu.",
+    "en": "Tick larvae hatch with six legs and gain the fourth pair only after a blood meal and moulting into nymphs."
+   }
+  },
+  {
+   "id": "T288-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kde na většině lidí žije roztoč trudník tukový (Demodex folliculorum)?",
+    "en": "Where on most people does the mite Demodex folliculorum live?"
+   },
+   "moznosti": {
+    "cs": [
+     "V matracích a polštářích",
+     "Pod nehty na rukou",
+     "V zubním plaku",
+     "Ve vlasových váčcích na obličeji"
+    ],
+    "en": [
+     "In mattresses and pillows",
+     "Under the fingernails",
+     "In dental plaque",
+     "In hair follicles on the face"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Měří jen 0,3–0,4 mm, živí se kožním mazem a nejvíc ho je na tvářích, nose a čele. Po kůži se přesouvá hlavně v noci; téměř všichni starší lidé ho hostí.",
+    "en": "It is only 0.3–0.4 mm long, feeds on sebum and is most abundant on the cheeks, nose and forehead. It moves around mainly at night, and nearly all elderly people host it."
+   }
+  },
+  {
+   "id": "T288-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč žádná stonožka nemá přesně 100 nohou?",
+    "en": "Why does no centipede have exactly 100 legs?"
+   },
+   "moznosti": {
+    "cs": [
+     "Žádná stonožka nemá víc než 60 nohou",
+     "Počet párů nohou je vždy lichý",
+     "Poslední pár nohou jim vždy odpadne",
+     "Počet nohou je vždy dělitelný třemi"
+    ],
+    "en": [
+     "No centipede has more than 60 legs",
+     "The number of leg pairs is always odd",
+     "Their last pair of legs always falls off",
+     "The number of legs is always divisible by three"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Stonožky mají 15 až 191 párů nohou a počet párů je vždy lichý, takže 50 párů nemají nikdy. Jméno stonožka je tedy jen přibližné, stejně jako latinské centipeda.",
+    "en": "Centipedes have between 15 and 191 pairs of legs, always an odd number, so never exactly 50 pairs. The name centipede, from Latin for 'hundred feet', is therefore only approximate."
+   }
+  },
+  {
+   "id": "T288-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím se téměř všechny druhy krilu liší od většiny ostatních korýšů?",
+    "en": "What sets almost all krill species apart from most other crustaceans?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nemají žádné oči",
+     "Dokážou vyzařovat světlo",
+     "Dýchají vzduch nad hladinou",
+     "Mají jen čtyři páry nohou"
+    ],
+    "en": [
+     "They have no eyes",
+     "They can emit light",
+     "They breathe air at the surface",
+     "They have only four pairs of legs"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Kromě druhu Bentheuphausia amblyops má kril orgány zvané fotofory, které vyzařují světlo; k čemu přesně slouží, zatím není jisté. Samo slovo krill pochází z norštiny a znamená drobný rybí potěr.",
+    "en": "Except for Bentheuphausia amblyops, krill have light-emitting organs called photophores; their exact purpose is still unknown. The word krill comes from Norwegian and means 'small fry of fish'."
+   }
+  },
+  {
+   "id": "T288-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Z krve ostrorepa Limulus polyphemus se vyrábí test LAL. K čemu slouží?",
+    "en": "The LAL test is made from the blood of the horseshoe crab Limulus polyphemus. What is it used for?"
+   },
+   "moznosti": {
+    "cs": [
+     "K odhalení bakteriálních endotoxinů v lécích",
+     "K určování krevních skupin",
+     "K výrobě protijedů proti hadímu uštknutí",
+     "K měření hladiny cukru v krvi"
+    ],
+    "en": [
+     "Detecting bacterial endotoxins in medicines",
+     "Determining blood groups",
+     "Producing antivenoms for snakebites",
+     "Measuring blood sugar levels"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Test z krvinek ostrorepa odhalí bakteriální endotoxiny v injekčních lécích a zdravotnických prostředcích. Ostrorepi mají modrou krev s hemocyaninem a navzdory anglickému jménu horseshoe crab nejsou krabi, ale jsou blíž pavoukovcům.",
+    "en": "The test, made from horseshoe crab blood cells, detects bacterial endotoxins in injectable drugs and medical devices. Horseshoe crabs have blue, haemocyanin-based blood and, despite the name, are not crabs but closer relatives of arachnids."
+   }
+  },
+  {
+   "id": "T288-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Mnohonožka Eumillipes persephone, popsaná roku 2021 jako první známá mnohonožka s více než tisícem nohou, byla objevena na nečekaném místě. Kde?",
+    "en": "The millipede Eumillipes persephone, described in 2021 as the first known millipede with more than a thousand legs, was found in an unexpected place. Where?"
+   },
+   "moznosti": {
+    "cs": [
+     "V hlubokomořském bahně u Japonska",
+     "Ve vrtech hluboko pod zemí v Austrálii",
+     "V korunách stromů amazonského pralesa",
+     "V jeskyni pod ledovcem na Islandu"
+    ],
+    "en": [
+     "In deep-sea mud off Japan",
+     "In drill holes deep underground in Australia",
+     "In the treetops of the Amazon rainforest",
+     "In a cave beneath a glacier in Iceland"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Našli ji ve vrtech 15 až 60 m hluboko v Západní Austrálii. Je slepá, při délce necelých 10 cm má průměr jen asi 1 mm a rekordní samice měla 1 306 nohou.",
+    "en": "It was found in drill holes 15 to 60 m (49 to 197 ft) deep in Western Australia. It is blind, nearly 10 cm (3.9 inches) long but only about 1 mm (0.04 inches) thick, and the record female had 1,306 legs."
+   }
+  }
+ ]
+}

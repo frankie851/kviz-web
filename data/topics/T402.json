@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T402",
+ "nazev": {
+  "cs": "Interpunkce a symboly: od zavináče po hashtag",
+  "en": "Punctuation and Symbols: From the @ Sign to the Hashtag"
+ },
+ "kategorie": {
+  "id": "jazyk-a-slova",
+  "nazev": {
+   "cs": "Jazyk a slova",
+   "en": "Language & Words"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T402-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím je zvláštní zápis otázek ve španělštině?",
+    "en": "What is special about how questions are written in Spanish?"
+   },
+   "moznosti": {
+    "cs": [
+     "Otázka začíná obráceným otazníkem ¿",
+     "Otazník se píše dvakrát na konci věty",
+     "Otazník se píše jen na začátek věty",
+     "Otazník se píše nad poslední slovo"
+    ],
+    "en": [
+     "Questions open with an inverted mark (¿)",
+     "The question mark is doubled at the end",
+     "The question mark goes only at the start",
+     "The question mark is written above the last word"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Španělská otázka začíná obráceným ¿ a končí běžným ?, aby čtenář od začátku věděl, jakou intonaci použít. Obrácená znaménka (i ¡ u zvolání) doporučila Španělská královská akademie v roce 1754.",
+    "en": "A Spanish question opens with an inverted ¿ and closes with a normal ?, so the reader knows the intonation from the start. The Royal Spanish Academy recommended the inverted marks (and ¡ for exclamations) in 1754."
+   }
+  },
+  {
+   "id": "T402-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které rozložení klávesnice je standardem ve Francii?",
+    "en": "Which keyboard layout is the standard in France?"
+   },
+   "moznosti": {
+    "cs": [
+     "QWERTZ",
+     "AZERTY",
+     "QWERTY",
+     "Dvorak"
+    ],
+    "en": [
+     "QWERTZ",
+     "AZERTY",
+     "QWERTY",
+     "Dvorak"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Francouzská klávesnice AZERTY prohazuje oproti QWERTY písmena A a Q a také Z a W; používá se i v Belgii. Česká klávesnice vychází z německého QWERTZ, kde jsou prohozena Y a Z.",
+    "en": "The French AZERTY keyboard swaps A with Q and Z with W compared with QWERTY, and it is also used in Belgium. Germany uses QWERTZ, where Y and Z trade places."
+   }
+  },
+  {
+   "id": "T402-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč mají klávesy F a J na většině klávesnic malý výstupek?",
+    "en": "Why do the F and J keys on most keyboards have small raised bumps?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pomáhají výrobcům při kalibraci kláves",
+     "Aby je pisatel našel hmatem bez dívání",
+     "Označují nejčastěji používaná písmena",
+     "Zpevňují klávesy, které se nejvíc opotřebují"
+    ],
+    "en": [
+     "They help manufacturers calibrate the keys",
+     "So touch typists can find them without looking",
+     "They mark the most frequently used letters",
+     "They strengthen the keys that wear out fastest"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Na F a J spočívají ukazováčky v základní poloze psaní všemi deseti, takže hmatem poznáte, že máte ruce správně. Po každém přesunu se tak prsty rychle vrátí na výchozí řadu.",
+    "en": "The index fingers rest on F and J in the touch-typing home position, so the bumps let you feel that your hands are in place. It lets fingers return to the home row after every reach."
+   }
+  },
+  {
+   "id": "T402-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co vyjadřuje znak ‰?",
+    "en": "What does the ‰ sign mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Setinu",
+     "Tisícinu",
+     "Desetitisícinu",
+     "Miliontinu"
+    ],
+    "en": [
+     "Per hundred",
+     "Per thousand",
+     "Per ten thousand",
+     "Per million"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Znak ‰ (promile) znamená „na tisíc“, tedy desetinu procenta. V Česku ho zná každý řidič z měření alkoholu v krvi.",
+    "en": "The ‰ (per mille) sign means 'per thousand', a tenth of a percent. Some countries use it for blood alcohol limits, such as 0.5‰."
+   }
+  },
+  {
+   "id": "T402-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "K čemu se nejčastěji používá znak §?",
+    "en": "What is the § sign most commonly used for?"
+   },
+   "moznosti": {
+    "cs": [
+     "K odkazům na oddíly zákonů",
+     "K označení registrované ochranné známky",
+     "K označení měny",
+     "K oddělení slok v básni"
+    ],
+    "en": [
+     "Citing sections of laws",
+     "Marking a registered trademark",
+     "Denoting a currency",
+     "Separating stanzas of a poem"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Znak § (v češtině paragraf) odkazuje na číslované oddíly dokumentu, nejčastěji právních předpisů. Zdvojený §§ znamená „oddíly“ v množném čísle.",
+    "en": "The section sign § refers to numbered sections of a document, most often of a legal code. Doubled, §§ means 'sections' in the plural."
+   }
+  },
+  {
+   "id": "T402-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Anglický název znaku * – asterisk – pochází z řečtiny. Co znamená?",
+    "en": "The name 'asterisk' for the * symbol comes from Greek. What does it mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Malé slunce",
+     "Malá vločka",
+     "Malý květ",
+     "Malá hvězda"
+    ],
+    "en": [
+     "Little sun",
+     "Little snowflake",
+     "Little flower",
+     "Little star"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Řecké asteriskos je zdrobnělina slova astér (hvězda); český název hvězdička je vlastně přímý překlad. Řecký badatel Aristarchos ze Samothráky jím podle tradice značil v Homérových eposech verše opakované jinde.",
+    "en": "Greek asteriskos is a diminutive of aster, 'star'. The Greek scholar Aristarchus of Samothrace reportedly used it in Homer's epics to mark lines repeated elsewhere."
+   }
+  },
+  {
+   "id": "T402-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Interrobang, typografický znak navržený v roce 1962, spojuje do jednoho dvě interpunkční znaménka. Která?",
+    "en": "The interrobang, a typographic mark proposed in 1962, merges two punctuation marks into one. Which two?"
+   },
+   "moznosti": {
+    "cs": [
+     "Čárku a tečku",
+     "Otazník a vykřičník",
+     "Dvojtečku a pomlčku",
+     "Otazník a uvozovky"
+    ],
+    "en": [
+     "Comma and full stop",
+     "Question mark and exclamation mark",
+     "Colon and dash",
+     "Question mark and quotation mark"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Znak ‽ vyjadřuje užaslou otázku typu „Cože‽“ místo zápisu „?!“. Název spojuje latinské interrogatio (řečnická otázka) a „bang“, tiskařskou přezdívku vykřičníku.",
+    "en": "The ‽ expresses an incredulous question such as 'You did what‽' instead of '?!'. Its name blends Latin interrogatio (rhetorical question) with 'bang', printers' slang for the exclamation mark."
+   }
+  },
+  {
+   "id": "T402-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který znak se na sociálních sítích, jako je X nebo Instagram, píše před uživatelské jméno, když chcete někoho zmínit?",
+    "en": "On social networks such as X or Instagram, which symbol do you put before a username to mention someone?"
+   },
+   "moznosti": {
+    "cs": [
+     "& (et)",
+     "# (mřížka)",
+     "@ (zavináč)",
+     "* (hvězdička)"
+    ],
+    "en": [
+     "& (ampersand)",
+     "# (hash)",
+     "@ (at sign)",
+     "* (asterisk)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Na Twitteru začali uživatelé psát @jmeno spontánně, aby oslovili konkrétního člověka; od května 2008 z něj služba dělá odkaz na profil.",
+    "en": "Twitter users started writing @name on their own to address a specific person; from May 2008 the service turned it into a link to that profile."
+   }
+  },
+  {
+   "id": "T402-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co v klasickém emotikonu :-) představuje znak „-“?",
+    "en": "In the classic emoticon :-), what does the '-' character represent?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ústa",
+     "Nos",
+     "Obočí",
+     "Jazyk"
+    ],
+    "en": [
+     "Mouth",
+     "Nose",
+     "Eyebrow",
+     "Tongue"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Emotikon se čte bokem: dvojtečka jsou oči, spojovník nos a závorka ústa. Častá je i kratší varianta :) bez nosu.",
+    "en": "The emoticon is read sideways: the colon is the eyes, the hyphen the nose and the parenthesis the mouth. A shorter version without a nose, :), is also common."
+   }
+  },
+  {
+   "id": "T402-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co v textových editorech, jako je Microsoft Word, zobrazí tlačítko se znakem ¶?",
+    "en": "In word processors such as Microsoft Word, what does the ¶ button show?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kontrolu pravopisu",
+     "Sledované změny",
+     "Počet slov v dokumentu",
+     "Skryté formátovací značky"
+    ],
+    "en": [
+     "The spell check",
+     "Tracked changes",
+     "The document's word count",
+     "Hidden formatting marks"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Tlačítko ¶ zviditelní netisknutelné znaky: konce odstavců, mezery (jako tečky) či tabulátory. Hodí se, když se dokument „rozsype“ a nevíte proč.",
+    "en": "The ¶ button reveals non-printing characters: paragraph breaks, spaces (shown as dots) and tabs. It helps when a layout misbehaves for no visible reason."
+   }
+  },
+  {
+   "id": "T402-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak vypadá otazník v řečtině?",
+    "en": "What does the question mark look like in Greek?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jako malé kolečko",
+     "Jako zrcadlově otočený otazník",
+     "Jako středník (;)",
+     "Jako dvojtečka (:)"
+    ],
+    "en": [
+     "Like a small circle",
+     "Like a mirror-image question mark",
+     "Like a semicolon (;)",
+     "Like a colon (:)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Řecký otazník vypadá stejně jako latinkový středník: „Τι είναι;“ znamená „Co to je?“. Unicode pro něj má dokonce samostatný kód, který se ale normalizuje na obyčejný středník.",
+    "en": "The Greek question mark looks exactly like a Latin semicolon: 'Τι είναι;' means 'What is it?'. Unicode even gives it a separate code point, though it is normalised to the ordinary semicolon."
+   }
+  },
+  {
+   "id": "T402-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Podle známé anekdoty se Victor Hugo po vydání Bídníků (1862) zeptal nakladatele, jak se kniha prodává, telegramem obsahujícím jen „?“. Co mu nakladatel odpověděl?",
+    "en": "According to a famous anecdote, after Les Misérables came out in 1862, Victor Hugo asked his publisher how it was selling in a telegram containing only '?'. What was the reply?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pomlčka „–“",
+     "Tečka „.“",
+     "Tři tečky „…“",
+     "Vykřičník „!“"
+    ],
+    "en": [
+     "A dash '–'",
+     "A full stop '.'",
+     "An ellipsis '…'",
+     "An exclamation mark '!'"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Nakladatel odpověděl jediným „!“ na znamení velkého úspěchu. Výměna bývá uváděna jako nejkratší korespondence v dějinách, i když jde nejspíš o smyšlený příběh.",
+    "en": "The publisher replied with a single '!' to signal a great success. The exchange is often called the shortest correspondence in history, though it is most likely apocryphal."
+   }
+  },
+  {
+   "id": "T402-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Mnoho starých psacích strojů nemělo klávesu pro vykřičník. Jak si s tím písaři poradili?",
+    "en": "Many older typewriters had no exclamation-mark key. How did typists get around it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Napsali tečku, vrátili se o znak a přes ni napsali apostrof",
+     "Napsali dvojtečku, vrátili se o znak a přes ni napsali spojovník",
+     "Napsali tečku, vrátili se o znak a přes ni napsali čárku",
+     "Napsali velké I, vrátili se o znak a podtrhli ho"
+    ],
+    "en": [
+     "They typed a full stop, backspaced and typed an apostrophe over it",
+     "They typed a colon, backspaced and typed a hyphen over it",
+     "They typed a full stop, backspaced and typed a comma over it",
+     "They typed a capital I, backspaced and underlined it"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Apostrof nad tečkou dal dohromady vykřičník. Chyběl hlavně na starších a přenosných strojích.",
+    "en": "An apostrophe over a full stop made an exclamation mark. The key was missing mainly on older and portable machines."
+   }
+  },
+  {
+   "id": "T402-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Znak % se vyvinul ze zkratky výrazu ve kterém jazyce?",
+    "en": "The % sign evolved from an abbreviation of a phrase in which language?"
+   },
+   "moznosti": {
+    "cs": [
+     "V řečtině",
+     "V němčině",
+     "V arabštině",
+     "V italštině"
+    ],
+    "en": [
+     "Greek",
+     "German",
+     "Arabic",
+     "Italian"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Základem je italské per cento („ze sta“). V dodatcích k rukopisu z roku 1425 (psaných asi kolem roku 1435) písař zkrátil per cento jako „pc“ s kličkou, z níž se do roku 1650 vyvinul znak připomínající zlomek.",
+    "en": "It comes from Italian per cento, 'for a hundred'. In pages added around 1435 to a 1425 manuscript, a scribe abbreviated it as 'pc' with a loop, which by 1650 had turned into a fraction-like sign."
+   }
+  },
+  {
+   "id": "T402-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Podle nejrozšířenějšího výkladu se znak # vyvinul ze zkratky jaké jednotky?",
+    "en": "According to the most widely held theory, the # sign developed from an abbreviation of which unit?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lokte",
+     "Hodiny",
+     "Libry",
+     "Stopy"
+    ],
+    "en": [
+     "The cubit",
+     "The hour",
+     "The pound",
+     "The foot"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Podle převládajícího výkladu se římské libra pondo („libra váhy“) zkracovalo jako lb s vodorovnou čarou (℔) a spěšným psaním z něj zřejmě vznikly dvě a dvě zkřížené čáry. Proto se # v USA a Kanadě dodnes říká „pound sign“.",
+    "en": "By the prevailing account, Roman libra pondo ('a pound by weight') was abbreviated as lb with a stroke through it (℔), and hurried handwriting most likely reduced it to two pairs of crossed lines. That is why Americans and Canadians still call # the 'pound sign'."
+   }
+  },
+  {
+   "id": "T402-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Typografické názvy pomlček „en dash“ a „em dash“ podle tradičního výkladu odkazují na co?",
+    "en": "According to the traditional explanation, what do the typographic names 'en dash' and 'em dash' refer to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na pozici kláves na prvních psacích strojích",
+     "Na šířku odpovídající písmenům N a M",
+     "Na iniciály tiskařů, kteří je zavedli",
+     "Na latinská slova pro krátkou a dlouhou pauzu"
+    ],
+    "en": [
+     "Their key positions on early typewriters",
+     "Widths matching the letters N and M",
+     "The initials of the printers who introduced them",
+     "Latin words for a short and a long pause"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Em je typografická jednotka rovná velikosti písma a en je polovina; jejich šířka se tradičně přirovnávala k písmenům M a N. V angličtině odděluje vsuvky delší em dash (čeština k tomu používá krátkou pomlčku s mezerami), kratší en dash značí rozsahy jako 1914–1918.",
+    "en": "An em is a typographic unit equal to the font size and an en is half of it; their widths were traditionally likened to the letters M and N. The longer em dash sets off asides, the shorter en dash marks ranges such as 1914–1918."
+   }
+  },
+  {
+   "id": "T402-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Pro jakou firmu nakreslil Harvey Ball v roce 1963 slavného žlutého smajlíka?",
+    "en": "For what kind of company did Harvey Ball draw the famous yellow smiley face in 1963?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pro pojišťovnu",
+     "Pro výrobce hraček",
+     "Pro výrobce zubní pasty",
+     "Pro řetězec rychlého občerstvení"
+    ],
+    "en": [
+     "An insurance company",
+     "A toy maker",
+     "A toothpaste maker",
+     "A fast-food chain"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pojišťovna State Mutual Life Assurance z Worcesteru chtěla zvednout náladu zaměstnanců. Ball dostal za kresbu, která mu trvala asi 10 minut, 45 dolarů a ochrannou známku na ni nikdy nezískal.",
+    "en": "State Mutual Life Assurance of Worcester, Massachusetts, wanted to boost staff morale. Ball was paid $45 for a drawing that took about 10 minutes, and he was never able to trademark it."
+   }
+  },
+  {
+   "id": "T402-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč zvolil velšský matematik Robert Recorde v roce 1557 jako znak rovnosti dvě rovnoběžné čáry?",
+    "en": "Why did Welsh mathematician Robert Recorde choose two parallel lines for the equals sign in 1557?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vycházely z římské číslice II",
+     "Připomínaly misky vah",
+     "Šly snadno vyřezat do tiskařské štočky",
+     "Žádné dvě věci nemohou být rovnější"
+    ],
+    "en": [
+     "They came from the Roman numeral II",
+     "They resembled the pans of a balance",
+     "They were easy to carve into a printing block",
+     "No two things can be more equal"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Recorde napsal, že volí „dvojici rovnoběžek“, protože „žádné dvě věci nemohou být rovnější“. Chtěl si tak ušetřit neustálé vypisování slov „se rovná“.",
+    "en": "Recorde wrote that he chose 'a pair of parallels' because 'no two things can be more equal'. He wanted to avoid tediously repeating the words 'is equal to'."
+   }
+  },
+  {
+   "id": "T402-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která americká básnířka je proslulá hojným používáním pomlček ve svých básních?",
+    "en": "Which American poet is famous for her heavy use of dashes in her poems?"
+   },
+   "moznosti": {
+    "cs": [
+     "Edna St. Vincent Millayová",
+     "Maya Angelou",
+     "Sylvia Plathová",
+     "Emily Dickinsonová"
+    ],
+    "en": [
+     "Edna St. Vincent Millay",
+     "Maya Angelou",
+     "Sylvia Plath",
+     "Emily Dickinson"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pomlčky jsou poznávacím znamením rukopisů Emily Dickinsonové. První vydání z roku 1890 interpunkci „učesalo“ podle tehdejších norem; pomlčky obnovilo až vydání Thomase Johnsona z roku 1955.",
+    "en": "Dashes are a hallmark of Emily Dickinson's manuscripts. The first edition of 1890 tidied her punctuation to the norms of the day; Thomas Johnson's 1955 edition restored the dashes."
+   }
+  },
+  {
+   "id": "T402-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Za jaké písmeno vlnovka nad španělským ñ původně stála?",
+    "en": "The tilde over the Spanish ñ originally stood for which letter?"
+   },
+   "moznosti": {
+    "cs": [
+     "N",
+     "E",
+     "M",
+     "A"
+    ],
+    "en": [
+     "N",
+     "E",
+     "M",
+     "A"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Písaři zkracovali zdvojené „nn“ tak, že druhé n nahradili vlnovkou nad prvním. Proto španělské año (rok) pochází z latinského annus a ve staré španělštině se psalo anno.",
+    "en": "Scribes abbreviated a doubled 'nn' by replacing the second n with a tilde over the first. That is why Spanish año ('year') comes from Latin annus and was spelled anno in Old Spanish."
+   }
+  },
+  {
+   "id": "T402-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím se živil Martin Speckter, který v roce 1962 navrhl interrobang?",
+    "en": "What did Martin Speckter, who proposed the interrobang in 1962, do for a living?"
+   },
+   "moznosti": {
+    "cs": [
+     "Konstruoval psací stroje",
+     "Byl lingvistou",
+     "Byl matematikem",
+     "Vedl reklamní agenturu"
+    ],
+    "en": [
+     "He designed typewriters",
+     "He was a linguist",
+     "He was a mathematician",
+     "He ran an advertising agency"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Věřil, že reklamy by vypadaly lépe, kdyby textaři mohli určitý druh řečnických otázek zapsat jediným znakem; nápad představil v časopise TYPEtalks. Firma Remington pak v roce 1968 nabídla na některých psacích strojích samostatnou klávesu pro nový znak.",
+    "en": "He believed ads would look better if copywriters could write a certain kind of rhetorical question with a single mark, and he presented the idea in the magazine TYPEtalks. Remington offered a dedicated key for the new mark on some typewriters in 1968."
+   }
+  },
+  {
+   "id": "T402-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Název „octothorpe“ pro znak # podle všeho vymysleli v 60. letech zaměstnanci které instituce?",
+    "en": "The name 'octothorpe' for the # sign was apparently coined in the 1960s by staff at which organization?"
+   },
+   "moznosti": {
+    "cs": [
+     "Xerox PARC",
+     "MIT",
+     "Bell Labs",
+     "IBM"
+    ],
+    "en": [
+     "Xerox PARC",
+     "MIT",
+     "Bell Labs",
+     "IBM"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Inženýři Bell Telephone Laboratories potřebovali pojmenovat nové klávesy telefonu. „Octo“ odkazuje na osm konců čar; původ „thorpe“ je sporný, jedna verze ho spojuje s olympionikem Jimem Thorpem.",
+    "en": "Bell Telephone Laboratories engineers needed names for new keys on the telephone keypad. 'Octo' refers to the eight line ends; the origin of 'thorpe' is disputed, with one account linking it to Olympian Jim Thorpe."
+   }
+  },
+  {
+   "id": "T402-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Aristofanés Byzantský je považován za tvůrce raného systému interpunkce: teček umisťovaných v různé výšce řádku. Kterou institucí řídil?",
+    "en": "Aristophanes of Byzantium is credited with an early punctuation system of dots placed at different heights on the line. Which institution did he head?"
+   },
+   "moznosti": {
+    "cs": [
+     "Platónovu Akademii",
+     "Alexandrijskou knihovnu",
+     "Aristotelovo Lykeion",
+     "Pergamonskou knihovnu"
+    ],
+    "en": [
+     "Plato's Academy",
+     "The Library of Alexandria",
+     "Aristotle's Lyceum",
+     "The Library of Pergamon"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Tečky v různé výšce značily délku nádechu při hlasitém čtení. Tečka uprostřed označovala krátký úsek zvaný komma, od něhož má název dnešní čárka v angličtině (comma).",
+    "en": "The dots at different heights marked the length of a breathing pause when reading aloud. The mid-level dot marked a short section called a komma, which gave the modern comma its name."
+   }
+  },
+  {
+   "id": "T402-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Antické texty se často psaly bez mezer mezi slovy. V rukopisech Bible a evangelií jakého původu se mezery mezi slovy podle obecně přijímaného názoru poprvé objevily v 7. a 8. století?",
+    "en": "Ancient texts were often written without spaces between words. According to the generally accepted view, in Bibles and Gospels of what origin did word spaces first appear, in the 7th and 8th centuries?"
+   },
+   "moznosti": {
+    "cs": [
+     "Papežských z Říma",
+     "Byzantských",
+     "Vizigótských ze Španělska",
+     "Irských a anglosaských"
+    ],
+    "en": [
+     "Papal Roman",
+     "Byzantine",
+     "Visigothic Spanish",
+     "Irish and Anglo-Saxon"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Souvislému psaní bez mezer se říká scriptio continua. Podle paleografů mohou mezery mozku usnadnit rychlejší porozumění textu; ve 13. a 14. století už je používaly všechny evropské texty.",
+    "en": "Unbroken writing without spaces is called scriptio continua. Paleographers argue that spaces may help the brain take in text faster, and by the 13th and 14th centuries all European texts used them."
+   }
+  },
+  {
+   "id": "T402-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Než se obelus (dnes ÷) stal znakem dělení (Johann Rahn, 1659), k čemu ho učenci používali v antických rukopisech Homéra?",
+    "en": "Before the obelus (today ÷) became a division sign (Johann Rahn, 1659), what did scholars use it for in ancient manuscripts of Homer?"
+   },
+   "moznosti": {
+    "cs": [
+     "K označení řečí bohů",
+     "K označení veršů určených ke zpěvu",
+     "K označení pochybných veršů",
+     "K označení konce zpěvu"
+    ],
+    "en": [
+     "To mark the speeches of gods",
+     "To mark lines meant to be sung",
+     "To mark doubtful lines",
+     "To mark the end of a book"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Editorskou značku zavedl podle všeho homérovský badatel Zénodotos; původně šlo o prostou vodorovnou čárku. Řecké obelos znamená rožeň či špičatý kůl a je příbuzné se slovem obelisk.",
+    "en": "The editorial mark is thought to have been devised by the Homeric scholar Zenodotus; originally it was a simple horizontal stroke. Greek obelos means a spit or pointed stake and shares its root with 'obelisk'."
+   }
+  },
+  {
+   "id": "T402-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Znak ¶ (pilcrow) se vyvinul ze stylizovaného písmene. Kterého?",
+    "en": "The ¶ sign (pilcrow) developed from a stylized letter. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "C",
+     "P",
+     "Q",
+     "D"
+    ],
+    "en": [
+     "C",
+     "P",
+     "Q",
+     "D"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Písaři označovali nový oddíl písmenem C jako zkratkou latinského capitulum („hlavička“). Rubrikátoři k němu přidávali svislé čáry a vyplňovali jeho oblouk, takže podoba s P je jen náhodná.",
+    "en": "Scribes marked a new section with C, short for Latin capitulum ('little head'). Rubricators added vertical strokes and filled in its bowl, so the resemblance to a P is incidental."
+   }
+  },
+  {
+   "id": "T402-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Lomené uvozovky « » se nazývají guillemets. Po kom jsou podle obvyklého výkladu pojmenovány?",
+    "en": "Angle quotation marks « » are called guillemets. According to the usual explanation, who are they named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Po tiskaři Guillaumovi Le Bé",
+     "Po králi Vilému Dobyvateli",
+     "Po mořském ptáku alkounovi",
+     "Po lékaři Josephu Guillotinovi"
+    ],
+    "en": [
+     "The printer Guillaume Le Bé",
+     "King William the Conqueror",
+     "The seabird called the guillemot",
+     "The physician Joseph Guillotin"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Guillemet je zdrobnělina jména Guillaume, nejspíš na počest tiskaře a rytce písma Guillauma Le Bé (1525–1598). Znaky ale sám nevymyslel: poprvé se objevují v knize, kterou roku 1527 vytiskl Josse Bade.",
+    "en": "Guillemet is a diminutive of the name Guillaume, probably honouring the printer and punchcutter Guillaume Le Bé (1525–1598). He did not invent them, though: they first appear in a book printed by Josse Bade in 1527."
+   }
+  },
+  {
+   "id": "T402-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který tiskař vytiskl nejstarší doložený středník, a to v roce 1496 ve spisu De Aetna od Pietra Bemba?",
+    "en": "Which printer produced the earliest attested printed semicolon, in Pietro Bembo's De Aetna of 1496?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aldus Manutius",
+     "William Caxton",
+     "Christophe Plantin",
+     "Johannes Gutenberg"
+    ],
+    "en": [
+     "Aldus Manutius",
+     "William Caxton",
+     "Christophe Plantin",
+     "Johannes Gutenberg"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Benátský tiskař Aldus Manutius vydal Bembovo vyprávění o výstupu na Etnu; podle benátského kalendáře je tisk datován únorem 1495. Gutenberg byl v té době téměř 30 let po smrti.",
+    "en": "The Venetian printer Aldus Manutius published Bembo's account of climbing Mount Etna; by the Venetian calendar the printing is dated February 1495. Gutenberg had been dead for almost 30 years by then."
+   }
+  },
+  {
+   "id": "T402-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém jazyce se uprostřed slov jako „cel·la“ (buňka) píše tečka ve výšce středu řádku?",
+    "en": "In which language is a raised middle dot written inside words such as 'cel·la' (cell)?"
+   },
+   "moznosti": {
+    "cs": [
+     "V rumunštině",
+     "V baskičtině",
+     "V katalánštině",
+     "V portugalštině"
+    ],
+    "en": [
+     "Romanian",
+     "Basque",
+     "Catalan",
+     "Portuguese"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Katalánská „létající tečka“ (punt volat) odlišuje dlouhé l·l od spřežky ll, která zní jako měkké „lj“. Díky ní se nespletou cel·la (buňka) a cella (obočí).",
+    "en": "The Catalan 'flying point' (punt volat) distinguishes a long l·l from the digraph ll, which sounds like the 'lli' in 'million'. It keeps cel·la ('cell') apart from cella ('eyebrow')."
+   }
+  },
+  {
+   "id": "T402-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Scott Fahlman v roce 1982 navrhl značit vtipy symbolem :-). Jaký symbol ve stejné zprávě doporučil pro příspěvky, které vtipem NEJSOU?",
+    "en": "In 1982 Scott Fahlman proposed marking jokes with :-). Which symbol did he suggest in the same message for posts that are NOT jokes?"
+   },
+   "moznosti": {
+    "cs": [
+     ";-) (mrkající)",
+     ":-| (neutrální)",
+     ":-( (zamračený)",
+     ":-/ (rozpačitý)"
+    ],
+    "en": [
+     ";-) (winking)",
+     ":-| (neutral)",
+     ":-( (frowning)",
+     ":-/ (skeptical)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Fahlman dodal, že vzhledem k tehdejším poměrům by asi bylo úspornější označovat to, co vtip NENÍ, a navrhl :-(. Zamračený obličej ale brzy začal vyjadřovat nespokojenost či zlost.",
+    "en": "Fahlman added that, given current trends, it would probably be more economical to mark things that are NOT jokes, and proposed :-(. The frown, however, soon came to signal displeasure or anger instead."
+   }
+  }
+ ]
+}

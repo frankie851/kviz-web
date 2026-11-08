@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T336",
+ "nazev": {
+  "cs": "Pád Říma a stěhování národů: Hunové, Gótové a Vandalové",
+  "en": "The Fall of Rome and the Migration Period: Huns, Goths and Vandals"
+ },
+ "kategorie": {
+  "id": "historie",
+  "nazev": {
+   "cs": "Historie",
+   "en": "History"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T336-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Slovo vandalismus pochází ze jména germánského kmene Vandalů. Které město Vandalové roku 455 dva týdny plenili?",
+    "en": "The word vandalism comes from the name of the Germanic Vandals. Which city did the Vandals plunder for two weeks in 455?"
+   },
+   "moznosti": {
+    "cs": [
+     "Řím",
+     "Athény",
+     "Konstantinopol",
+     "Alexandrii"
+    ],
+    "en": [
+     "Rome",
+     "Athens",
+     "Constantinople",
+     "Alexandria"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vandalové krále Geisericha připluli ze severní Afriky a v červnu 455 Řím vyplenili. Do zajetí s sebou odvezli i císařovnu Licinii Eudoxii a její dcery Eudokii a Placidii.",
+    "en": "King Gaiseric's Vandals sailed from North Africa and sacked Rome in June 455. They carried off Empress Licinia Eudoxia and her daughters Eudocia and Placidia as captives."
+   }
+  },
+  {
+   "id": "T336-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterému vládci z doby stěhování národů se přezdívá „Bič boží“?",
+    "en": "Which ruler of the Migration Period is nicknamed the \"Scourge of God\"?"
+   },
+   "moznosti": {
+    "cs": [
+     "Attilovi",
+     "Geiserichovi",
+     "Alarichovi",
+     "Theodorichovi"
+    ],
+    "en": [
+     "Attila",
+     "Gaiseric",
+     "Alaric",
+     "Theodoric"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Přezdívka Bič boží patří hunskému vládci Attilovi. Mezi pozdější uherské autory ji uvedl kronikář Jan Thuróczy ve své Kronice Uhrů.",
+    "en": "The nickname Scourge of God belongs to the Hunnic ruler Attila. The chronicler Johannes Thuróczy introduced it to later Hungarian writers in his Chronicle of the Hungarians."
+   }
+  },
+  {
+   "id": "T336-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který dnešní stát nese jméno po germánském kmeni Franků?",
+    "en": "Which present-day country is named after the Germanic Franks?"
+   },
+   "moznosti": {
+    "cs": [
+     "Belgie",
+     "Francie",
+     "Německo",
+     "Nizozemsko"
+    ],
+    "en": [
+     "Belgium",
+     "France",
+     "Germany",
+     "Netherlands"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Latinské Franci se postupně začalo vztahovat hlavně na obyvatele Francouzského království. Po Francích se původně jmenují i Franky (Franken), oblast v dnešním Německu.",
+    "en": "The Latin Franci came to refer mainly to the people of the Kingdom of France. The region of Franconia in present-day Germany is also named after the Franks."
+   }
+  },
+  {
+   "id": "T336-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím byli Hunové jako válečníci nejvíc proslulí?",
+    "en": "What were the Huns most famous for as warriors?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bojem z válečných slonů",
+     "Námořními nájezdy na rychlých lodích",
+     "Těžkou pěchotou sevřenou ve falanze",
+     "Střelbou z luku z koňského hřbetu"
+    ],
+    "en": [
+     "Fighting from war elephants",
+     "Naval raids in fast ships",
+     "Heavy infantry in a tight phalanx",
+     "Shooting bows from horseback"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Hlavní hunskou taktikou byla jízdní lukostřelba: podle Ammiana Marcellina útočili z dálky a záměrně se rozptylovali do skupin, Zósimos a Agathiás zmiňují i předstíraný útěk. Používali kompozitní luky dlouhé asi 120–150 cm.",
+    "en": "Mounted archery was the Huns' main method of warfare: according to Ammianus Marcellinus they fought from a distance and deliberately scattered into bands, while Zosimus and Agathias mention feigned retreats. They used composite bows about 120–150 cm (4–5 ft) long."
+   }
+  },
+  {
+   "id": "T336-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Římská vojska kolem roku 410 opustila provincii, kterou pak postupně osídlili Anglové a Sasové. Kterou?",
+    "en": "Around 410 Roman forces left a province that was then gradually settled by Angles and Saxons. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Británii",
+     "Dácii",
+     "Hispánii",
+     "Galii"
+    ],
+    "en": [
+     "Britain",
+     "Dacia",
+     "Hispania",
+     "Gaul"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kolem roku 410 skončila římská správa Británie a podle Prokopia ji Římané už nikdy nezískali zpět. Římské mince jsou tam od té doby vzácné, římská keramika mizí do roku 425.",
+    "en": "Roman rule in Britain ended around 410, and according to Procopius the Romans never recovered it. Roman coins become rare there by 410 and Roman pottery by 425."
+   }
+  },
+  {
+   "id": "T336-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Odkud podle převažujícího názoru historiků přišli Hunové, kteří se kolem roku 370 objevili v Evropě?",
+    "en": "According to the prevailing view of historians, where did the Huns, who appeared in Europe around 370, come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ze Skandinávie",
+     "Ze severní Afriky",
+     "Z Arabského poloostrova",
+     "Ze Střední Asie"
+    ],
+    "en": [
+     "From Scandinavia",
+     "From North Africa",
+     "From the Arabian Peninsula",
+     "From Central Asia"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Badatelé se obecně shodují, že Hunové pocházeli ze Střední Asie, jejich přesnější původ je ale sporný. Kolem roku 370 dorazili k Volze, vytlačili na západ Góty a Alany a možná tím dali podnět ke stěhování národů.",
+    "en": "Scholars generally agree that the Huns originated in Central Asia, though their exact origins are disputed. By 370 they had reached the Volga, pushing the Goths and Alans westward, and may have set off the Migration Period."
+   }
+  },
+  {
+   "id": "T336-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který germánský národ pod vedením krále Alaricha roku 410 vyplenil Řím?",
+    "en": "Which Germanic people, led by King Alaric, sacked Rome in 410?"
+   },
+   "moznosti": {
+    "cs": [
+     "Frankové",
+     "Vizigóti",
+     "Vandalové",
+     "Langobardi"
+    ],
+    "en": [
+     "Franks",
+     "Visigoths",
+     "Vandals",
+     "Lombards"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Vizigóti vstoupili do Říma branou Porta Salaria 24. srpna 410. Bylo to poprvé po téměř 800 letech, kdy Řím padl do rukou cizího nepřítele.",
+    "en": "The Visigoths entered Rome through the Salarian Gate on 24 August 410. It was the first time in almost 800 years that Rome had fallen to a foreign enemy."
+   }
+  },
+  {
+   "id": "T336-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Západořímská říše zanikla v 5. století. Zhruba o kolik let ji přežila východní polovina říše se sídlem v Konstantinopoli?",
+    "en": "The Western Roman Empire fell in the 5th century. Roughly how many years did the eastern half, based in Constantinople, outlive it?"
+   },
+   "moznosti": {
+    "cs": [
+     "100 let",
+     "300 let",
+     "600 let",
+     "1 000 let"
+    ],
+    "en": [
+     "100 years",
+     "300 years",
+     "600 years",
+     "1,000 years"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Východořímská (Byzantská) říše trvala až do dobytí Konstantinopole Osmany roku 1453. Její obyvatelé se celou dobu nazývali Římany; název Byzantská říše se rozšířil až po jejím zániku.",
+    "en": "The Eastern Roman (Byzantine) Empire lasted until Constantinople fell to the Ottomans in 1453. Its people called themselves Romans throughout; the name Byzantine Empire came into wide use only after its demise."
+   }
+  },
+  {
+   "id": "T336-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Theodorich Veliký, který vládl Itálii z Ravenny, byl králem kterého národa?",
+    "en": "Theodoric the Great, who ruled Italy from Ravenna, was king of which people?"
+   },
+   "moznosti": {
+    "cs": [
+     "Franků",
+     "Ostrogótů",
+     "Langobardů",
+     "Vandalů"
+    ],
+    "en": [
+     "Franks",
+     "Ostrogoths",
+     "Lombards",
+     "Vandals"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Theodorich vládl Ostrogótům v letech 471–526 a jeho sídlem byla Ravenna. Jeho jméno v gótštině znamená zhruba „král lidu“.",
+    "en": "Theodoric ruled the Ostrogoths from 471 to 526, with Ravenna as his capital. His name means roughly \"people-king\" in Gothic."
+   }
+  },
+  {
+   "id": "T336-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který anglický historik 18. století napsal monumentální dílo Úpadek a pád římské říše?",
+    "en": "Which 18th-century English historian wrote the monumental History of the Decline and Fall of the Roman Empire?"
+   },
+   "moznosti": {
+    "cs": [
+     "Edward Gibbon",
+     "David Hume",
+     "Catharine Macaulay",
+     "Edmund Burke"
+    ],
+    "en": [
+     "Edward Gibbon",
+     "David Hume",
+     "Catharine Macaulay",
+     "Edmund Burke"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Edward Gibbon vydal první svazek v únoru 1776 a šest svazků vycházelo až do roku 1789. Dílo nabízí vlastní vysvětlení toho, proč Římská říše padla.",
+    "en": "Edward Gibbon published the first volume in February 1776, and the six volumes appeared until 1789. The work offers his own explanation of why the Roman Empire fell."
+   }
+  },
+  {
+   "id": "T336-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který papež byl roku 452 členem poselstva, jež se setkalo s Attilou, a podle tradice ho přiměl odtáhnout od Říma?",
+    "en": "Which pope was a member of the embassy that met Attila in 452 and, according to tradition, persuaded him to turn away from Rome?"
+   },
+   "moznosti": {
+    "cs": [
+     "Inocenc I.",
+     "Silvestr I.",
+     "Lev I. Veliký",
+     "Řehoř I. Veliký"
+    ],
+    "en": [
+     "Innocent I",
+     "Sylvester I",
+     "Leo I (the Great)",
+     "Gregory I (the Great)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Lev I. se s Attilou setkal spolu s úředníky Gennadiem Avienem a Trigetiem u řeky Mincio poblíž Mantovy a Attila pak z Itálie odtáhl. Prameny ale zmiňují i hlad a nemoci v hunském vojsku, takže papežova osobní role je sporná.",
+    "en": "Leo I, together with the officials Gennadius Avienus and Trigetius, met Attila at the Mincio near Mantua, after which Attila withdrew from Italy. Sources also mention famine and disease in the Hunnic army, so the pope's personal role is debated."
+   }
+  },
+  {
+   "id": "T336-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve které bitvě roku 451 zastavila koalice Římanů a Vizigótů vedená Aetiem Attilovo tažení do Galie?",
+    "en": "In which battle in 451 did a coalition of Romans and Visigoths led by Aetius halt Attila's campaign in Gaul?"
+   },
+   "moznosti": {
+    "cs": [
+     "U Pollentie",
+     "Na Katalaunských polích",
+     "U Milvijského mostu",
+     "V Teutoburském lese"
+    ],
+    "en": [
+     "Battle of Pollentia",
+     "Battle of the Catalaunian Plains",
+     "Battle of the Milvian Bridge",
+     "Battle of the Teutoburg Forest"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Bitva na Katalaunských polích se obvykle považuje za strategické vítězství římsko-vizigótské aliance. Padl v ní vizigótský král Theodorich I.",
+    "en": "The Battle of the Catalaunian Plains is commonly considered a strategic victory for the Roman–Visigothic alliance. The Visigothic king Theodoric I was killed in it."
+   }
+  },
+  {
+   "id": "T336-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který římský císař padl roku 378 v bitvě u Adrianopole proti Gótům?",
+    "en": "Which Roman emperor was killed fighting the Goths at the Battle of Adrianople in 378?"
+   },
+   "moznosti": {
+    "cs": [
+     "Valens",
+     "Julianus",
+     "Gratianus",
+     "Theodosius I."
+    ],
+    "en": [
+     "Valens",
+     "Julian",
+     "Gratian",
+     "Theodosius I"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Gótové vedení Fritigernem zničili asi dvě třetiny Valentova vojska; císařovo tělo se nikdy nenašlo. Bitva bývá považována za začátek řetězu událostí, které vedly k pádu Západořímské říše.",
+    "en": "The Goths under Fritigern destroyed roughly two-thirds of Valens's army, and the emperor's body was never found. The battle is often seen as the start of the chain of events leading to the fall of the Western Empire."
+   }
+  },
+  {
+   "id": "T336-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Po vyplenění Říma roku 410 vinili mnozí pohané z katastrofy odklon od starých bohů. Které dílo začal svatý Augustin psát jako obhajobu křesťanství?",
+    "en": "After the sack of Rome in 410, many pagans blamed the disaster on the abandonment of the old gods. Which work did Saint Augustine begin writing as a defence of Christianity?"
+   },
+   "moznosti": {
+    "cs": [
+     "Getica",
+     "Vyznání",
+     "O obci Boží",
+     "Zlatá legenda"
+    ],
+    "en": [
+     "Getica",
+     "Confessions",
+     "The City of God",
+     "The Golden Legend"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Útoky na křesťanství po roce 410 podnítily Augustina k sepsání obhajoby O obci Boží. Vyznání napsal už dříve, koncem 90. let 4. století.",
+    "en": "Attacks on Christianity after 410 spurred Augustine to write his defence, The City of God. His Confessions were written earlier, in the late 390s."
+   }
+  },
+  {
+   "id": "T336-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které město dobyli Vandalové v říjnu 439 bez boje, zatímco většina obyvatel byla na závodech v hippodromu?",
+    "en": "Which city did the Vandals take without a fight in October 439, while most of its inhabitants were at the races in the hippodrome?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kyréné",
+     "Kartágo",
+     "Alexandrii",
+     "Leptis Magnu"
+    ],
+    "en": [
+     "Cyrene",
+     "Carthage",
+     "Alexandria",
+     "Leptis Magna"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Geiserich dobyl Kartágo 19. října 439 a udělal z něj hlavní město vandalského království. To zaniklo až ve válce let 533–534, kdy Kartágo dobyl východořímský vojevůdce Belisar.",
+    "en": "Gaiseric captured Carthage on 19 October 439 and made it the capital of the Vandal kingdom. The kingdom lasted until the war of 533–534, when the Eastern Roman general Belisarius took Carthage."
+   }
+  },
+  {
+   "id": "T336-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Po smrti Theodosia I. roku 395 si říši natrvalo rozdělili jeho dva synové. Který z nich získal západní polovinu?",
+    "en": "After the death of Theodosius I in 395, his two sons permanently divided the empire. Which of them received the western half?"
+   },
+   "moznosti": {
+    "cs": [
+     "Arcadius",
+     "Valentinianus III.",
+     "Honorius",
+     "Gratianus"
+    ],
+    "en": [
+     "Arcadius",
+     "Valentinian III",
+     "Honorius",
+     "Gratian"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Západ připadl Honoriovi, kterému bylo teprve asi deset let, východ jeho staršímu bratru Arcadiovi. Theodosius I. tak byl posledním císařem, který vládl celé říši.",
+    "en": "The West went to Honorius, then only about ten years old, and the East to his elder brother Arcadius. Theodosius I was thus the last emperor to rule the entire empire."
+   }
+  },
+  {
+   "id": "T336-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které město bylo od 6. století až do roku 711 hlavním městem Vizigótského království v Hispánii?",
+    "en": "Which city was the capital of the Visigothic Kingdom in Hispania from the 6th century until 711?"
+   },
+   "moznosti": {
+    "cs": [
+     "Granada",
+     "Valencie",
+     "Córdoba",
+     "Toledo"
+    ],
+    "en": [
+     "Granada",
+     "Valencia",
+     "Córdoba",
+     "Toledo"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vizigóti sídlili nejprve v Toulouse. Po porážce od Franků u Vouillé roku 507 se přesunuli do Hispánie a po přechodném sídle v Barceloně se hlavním městem stalo Toledo. Království podlehlo muslimskému vpádu, který začal roku 711.",
+    "en": "The Visigoths first ruled from Toulouse. After their defeat by the Franks at Vouillé in 507 they moved into Hispania, and after a spell in Barcelona, Toledo became the capital. The kingdom fell to the Muslim invasion that began in 711."
+   }
+  },
+  {
+   "id": "T336-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Langobardi, kteří roku 568 vpadli do Itálie a dali jméno Lombardii, se podle obvyklého výkladu jmenovali podle…",
+    "en": "The Lombards (Langobardi), who invaded Italy in 568 and gave their name to Lombardy, were, according to the usual interpretation, named after their…"
+   },
+   "moznosti": {
+    "cs": [
+     "dlouhých kopí",
+     "dlouhých mečů",
+     "dlouhých vousů",
+     "dlouhých lodí"
+    ],
+    "en": [
+     "long spears",
+     "long swords",
+     "long beards",
+     "long ships"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Obvyklý výklad odvozuje jméno z pragermánských slov pro „dlouhý“ a „vous“. Podle legendy u Pavla Diakona si ženy před bitvou přivázaly vlasy před obličej jako vousy a bůh Godan (Wodan) se ptal, kdo jsou ti dlouhovousí.",
+    "en": "The standard explanation derives the name from the Proto-Germanic words for \"long\" and \"beard\". According to a legend told by Paul the Deacon, the women tied their hair in front of their faces like beards before a battle, and the god Godan (Wodan) asked who these long-beards were."
+   }
+  },
+  {
+   "id": "T336-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Podle Bedy Ctihodného se v 5. století v budoucích anglosaských královstvích usadily tři germánské národy: Anglové, Sasové a…",
+    "en": "According to Bede, three Germanic peoples settled in the lands of the future Anglo-Saxon kingdoms in the 5th century: the Angles, the Saxons and the…"
+   },
+   "moznosti": {
+    "cs": [
+     "Dánové",
+     "Frankové",
+     "Vandalové",
+     "Jutové"
+    ],
+    "en": [
+     "Danes",
+     "Franks",
+     "Vandals",
+     "Jutes"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jutové přišli podle Bedy z Jutského poloostrova a Sasové ze Starého Saska. Anglové pocházeli pravděpodobně z oblasti Angeln ve Šlesvicku-Holštýnsku.",
+    "en": "According to Bede, the Jutes came from Jutland and the Saxons from Old Saxony. The Angles probably came from Angeln in Schleswig-Holstein."
+   }
+  },
+  {
+   "id": "T336-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ze jména franského krále Chlodvíka I. (Hlodowig), zakladatele dynastie Merovejců, se vyvinulo jméno, které neslo 18 francouzských králů. Které?",
+    "en": "The name of the Frankish king Clovis I (Hlodowig), founder of the Merovingian dynasty, developed into a name borne by 18 French kings. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Karel",
+     "Ludvík",
+     "Jindřich",
+     "Filip"
+    ],
+    "en": [
+     "Charles",
+     "Louis",
+     "Henry",
+     "Philip"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Franské Hlodowig se polatinštilo na Hludovicus, z něhož vzniklo francouzské Louis a české Ludvík. Chlodvík se nechal pokřtít v Remeši jako katolík, zatímco většina germánských králů tehdy vyznávala arianismus.",
+    "en": "The Frankish Hlodowig was Latinised as Hludovicus, which became the French Louis. Clovis was baptised a Catholic at Reims, whereas most Germanic kings of the time were Arians."
+   }
+  },
+  {
+   "id": "T336-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kde byl podle legendy pohřben král Alarich, který zemřel jen pár měsíců po vyplenění Říma?",
+    "en": "According to legend, where was King Alaric, who died only months after sacking Rome, buried?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na hořící lodi vyslané na moře",
+     "V mohyle na břehu Dunaje",
+     "V korytě dočasně odkloněné řeky",
+     "V Hadriánově mauzoleu v Římě"
+    ],
+    "en": [
+     "On a burning ship sent out to sea",
+     "In a burial mound on the Danube",
+     "In the bed of a temporarily diverted river",
+     "In Hadrian's Mausoleum in Rome"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Alarich zemřel na nemoc v Consentii (dnešní Cosenza) koncem roku 410. Podle legendy ho otroci pohřbili i s pokladem v korytě řeky Busento a pak byli zabiti, aby místo nikdo neprozradil.",
+    "en": "Alaric died of illness at Consentia (modern Cosenza) in late 410. According to legend, slaves buried him with his treasure in the bed of the Busento river and were then killed so the spot would stay secret."
+   }
+  },
+  {
+   "id": "T336-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak podle pramenů skončil roku 493 Odoaker, muž, který předtím sesadil posledního západořímského císaře?",
+    "en": "According to the sources, how did Odoacer, the man who had deposed the last Western Roman emperor, meet his end in 493?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zemřel ve vyhnanství v Konstantinopoli",
+     "Padl v bitvě s Franky na řece Rýnu",
+     "Theodorich ho zabil na hostině v Ravenně",
+     "Utonul při útěku přes řeku Pád"
+    ],
+    "en": [
+     "He died in exile in Constantinople",
+     "He fell in battle with the Franks on the Rhine",
+     "Theodoric killed him at a banquet in Ravenna",
+     "He drowned fleeing across the river Po"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hostina 15. března 493 měla oslavit smlouvu, podle níž měli oba králové vládnout Itálii společně. Theodorich na ní tasil meč a Odoakera podle podání rozťal od klíční kosti až ke stehnu.",
+    "en": "The banquet on 15 March 493 was meant to celebrate a treaty making the two kings joint rulers of Italy. Theodoric drew his sword and, according to the account, split Odoacer from collarbone to thigh."
+   }
+  },
+  {
+   "id": "T336-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který římský filozof a vysoký úředník krále Theodoricha napsal ve vězení, kde čekal na popravu, slavnou Útěchu z filozofie?",
+    "en": "Which Roman philosopher and senior official of King Theodoric wrote the famous Consolation of Philosophy in prison while awaiting execution?"
+   },
+   "moznosti": {
+    "cs": [
+     "Symmachus",
+     "Cassiodorus",
+     "Boëthius",
+     "Seneca"
+    ],
+    "en": [
+     "Symmachus",
+     "Cassiodorus",
+     "Boethius",
+     "Seneca"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Boëthius byl kolem roku 523 uvězněn pro údajnou velezradu a roku 524 popraven. Útěcha z filozofie patřila k nejvlivnějším a nejčastěji opisovaným dílům raného středověku.",
+    "en": "Boethius was imprisoned around 523 on charges of treason and executed in 524. The Consolation of Philosophy became one of the most influential and widely copied works of the Early Middle Ages."
+   }
+  },
+  {
+   "id": "T336-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím je stavebně pozoruhodné mauzoleum, které si kolem roku 520 dal v Ravenně postavit král Theodorich Veliký?",
+    "en": "What is architecturally remarkable about the mausoleum King Theodoric the Great had built in Ravenna around 520?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jeho stěny pokrývá plátkové zlato",
+     "Je postaveno z mramoru odvezeného z Kolosea",
+     "Celé stojí pod hladinou laguny",
+     "Jeho střechu tvoří jediný kamenný blok"
+    ],
+    "en": [
+     "Its walls are covered in gold leaf",
+     "It is built of marble taken from the Colosseum",
+     "It stands entirely below the lagoon's surface",
+     "Its roof is a single block of stone"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Střechu tvoří jediný opracovaný kámen o průměru 10 metrů a hmotnosti asi 230 tun. Mauzoleum je od roku 1996 součástí světového dědictví UNESCO Raně křesťanské památky Ravenny.",
+    "en": "The roof is a single carved stone 10 m (33 ft) across, weighing 230 t (about 254 short tons). Since 1996 the mausoleum has been part of the UNESCO World Heritage site Early Christian Monuments of Ravenna."
+   }
+  },
+  {
+   "id": "T336-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo roku 1794 zavedl slovo vandalismus, aby jím odsoudil ničení uměleckých děl?",
+    "en": "Who coined the word vandalism in 1794 to condemn the destruction of works of art?"
+   },
+   "moznosti": {
+    "cs": [
+     "Henri Grégoire, francouzský biskup",
+     "Voltaire, francouzský filozof",
+     "J. J. Winckelmann, německý historik umění",
+     "Jacques-Louis David, francouzský malíř"
+    ],
+    "en": [
+     "Henri Grégoire, French bishop",
+     "Voltaire, French philosopher",
+     "J. J. Winckelmann, German art historian",
+     "Jacques-Louis David, French painter"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Biskup z Blois Henri Grégoire tak pojmenoval ničení uměleckých děl po Francouzské revoluci a výraz se rychle ujal po celé Evropě. Vandalové přitom podle dnešních historiků nemuseli být ničivější než jiní dobyvatelé své doby.",
+    "en": "Henri Grégoire, bishop of Blois, used it for the destruction of artworks after the French Revolution, and the term quickly spread across Europe. Historians note that the Vandals may not have been any more destructive than other invaders of their time."
+   }
+  },
+  {
+   "id": "T336-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Autor díla Úpadek a pád římské říše shrnul svůj pohled na popsanou epochu slavnou větou: „Popsal jsem triumf barbarství a…“",
+    "en": "The author of The History of the Decline and Fall of the Roman Empire summed up his view of the era he described with a famous sentence: \"I have described the triumph of barbarism and…\""
+   },
+   "moznosti": {
+    "cs": [
+     "zbabělosti",
+     "náboženství",
+     "otroctví",
+     "chamtivosti"
+    ],
+    "en": [
+     "cowardice",
+     "religion",
+     "slavery",
+     "greed"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Autor jako osvícenec mimo jiné tvrdil, že křesťanství odvádělo bohatství i schopné lidi z veřejného života do církve a klášterů. Názor, že pád Říma způsobilo křesťanství, dnes badatelé většinou nepřijímají.",
+    "en": "As an Enlightenment thinker, the author argued, among other things, that Christianity drew wealth and able people away from public life into the Church and monasteries. The view that Christianity caused Rome's fall is not widely accepted by scholars today."
+   }
+  },
+  {
+   "id": "T336-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Belgický historik Henri Pirenne v knize Mohamed a Karel Veliký (Mahomet et Charlemagne, 1937) tvrdil, že jednotu antického Středomoří definitivně nerozbili Germáni, ale…",
+    "en": "In his book Mohammed and Charlemagne (1937), the Belgian historian Henri Pirenne argued that the unity of the ancient Mediterranean was finally broken not by the Germanic peoples but by…"
+   },
+   "moznosti": {
+    "cs": [
+     "arabské výboje",
+     "Justiniánovy války",
+     "morová epidemie 6. století",
+     "vikinské nájezdy"
+    ],
+    "en": [
+     "the Arab conquests",
+     "Justinian's wars",
+     "the 6th-century plague",
+     "the Viking raids"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Podle Pirenna skutečný zlom nepřinesli Germáni, ale až arabská expanze v 8. století, která přetrhala hospodářské vazby a odřízla západní Evropu od obchodu. Proslavil ho výrok, že Karel Veliký by bez Mohameda byl nemyslitelný.",
+    "en": "Pirenne held that the real break came not with the Germanic peoples but with the Arab expansion of the 8th century, which ruptured economic ties and cut western Europe off from trade. He is known for the line \"Charlemagne, without Muhammad, would be inconceivable.\""
+   }
+  },
+  {
+   "id": "T336-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na co se Attila odvolával, když kolem roku 450 požadoval polovinu Západořímské říše?",
+    "en": "What did Attila invoke when he demanded half of the Western Roman Empire around 450?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na slib císaře Valentiniana III., že mu za pomoc proti Vizigótům postoupí Galii",
+     "Na adopci, kterou mu jako chlapci udělil římský vojevůdce Aetius",
+     "Na prsten od císařovy sestry Honorie, který vyložil jako nabídku sňatku",
+     "Na závěť císaře Theodosia II., jež mu odkazovala západní provincie"
+    ],
+    "en": [
+     "A promise by Emperor Valentinian III to cede Gaul for help against the Visigoths",
+     "An adoption granted to him as a boy by the Roman general Aetius",
+     "A ring from the emperor's sister Honoria, which he took as a marriage proposal",
+     "The will of Emperor Theodosius II, bequeathing him the western provinces"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Honoria, sestra Valentiniana III., poslala Attilovi prosbu o pomoc a svůj prsten, aby unikla vynucenému zasnoubení. Attila to vyložil jako nabídku k sňatku a jako věno žádal polovinu západní říše.",
+    "en": "Honoria, sister of Valentinian III, sent Attila a plea for help and her ring to escape a forced betrothal. Attila took it as a marriage proposal and demanded half of the western empire as her dowry."
+   }
+  },
+  {
+   "id": "T336-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč podle nejpravděpodobnějšího výkladu začíná anglický název Maďarska Hungary písmenem H, které v německém Ungarn chybí?",
+    "en": "According to the most likely explanation, why does the English name Hungary begin with an H that is missing from the German Ungarn?"
+   },
+   "moznosti": {
+    "cs": [
+     "Odkazuje na rod Hunyadiů",
+     "Maďaři byli spojováni s Huny",
+     "Vzniklo podle řeky Hron",
+     "Jde o chybu anglických tiskařů"
+    ],
+    "en": [
+     "It refers to the Hunyadi family",
+     "Hungarians were linked to the Huns",
+     "It comes from the river Hron",
+     "It is an English printers' error"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Starší latinské tvary zněly Ungri či Ungari a nejspíš souvisejí se jménem kmenového svazu Onogurů. H se objevilo ve vrcholném středověku, v úředních listinách, pečetích a na mincích od vlády Bély III. (1172–1196), protože Maďaři byli považováni za potomky Hunů.",
+    "en": "Older Latin forms were Ungri or Ungari, probably linked to the name of the Onogur tribal alliance. The H appeared in the High Middle Ages, in official documents, seals and coins from the reign of Béla III (1172–1196), because the Hungarians were thought to be descendants of the Huns."
+   }
+  },
+  {
+   "id": "T336-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Německý historik Alexander Demandt shromáždil teorie o tom, proč Západořímská říše zanikla. Kolik různých teorií napočítal?",
+    "en": "The German historian Alexander Demandt collected theories on why the Western Roman Empire fell. How many different theories did he count?"
+   },
+   "moznosti": {
+    "cs": [
+     "21",
+     "70",
+     "140",
+     "210"
+    ],
+    "en": [
+     "21",
+     "70",
+     "140",
+     "210"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Demandt napočítal 210 teorií, což dobře ukazuje, že na příčinách pádu se historici dodnes neshodnou. Část badatelů navíc mluví spíš o proměně v pozdní antice než o prostém úpadku.",
+    "en": "Demandt listed 210 theories, which shows how far historians still are from agreeing on the causes of the fall. Some scholars also prefer to speak of a transformation in late antiquity rather than a simple decline."
+   }
+  }
+ ]
+}

@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T205",
+ "nazev": {
+  "cs": "Lední hokej",
+  "en": "Ice Hockey"
+ },
+ "kategorie": {
+  "id": "sport",
+  "nazev": {
+   "cs": "Sport",
+   "en": "Sport"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T205-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém městě se 3. března 1875 hrál první organizovaný zápas v ledním hokeji pod střechou?",
+    "en": "In which city was the first organized indoor ice hockey game played on 3 March 1875?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Bostonu",
+     "V Torontu",
+     "V Ottawě",
+     "V Montrealu"
+    ],
+    "en": [
+     "Boston",
+     "Toronto",
+     "Ottawa",
+     "Montreal"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Zápas se hrál v montrealské hale Victoria Skating Rink a hráli v něm i James Creighton a studenti McGillovy univerzity. Ta o dva roky později založila první hokejový klub.",
+    "en": "The game took place at Montreal's Victoria Skating Rink, with James Creighton and McGill University students among the players. McGill founded the first ice hockey club two years later."
+   }
+  },
+  {
+   "id": "T205-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Z jakého materiálu se vyrábí hokejový puk?",
+    "en": "What material is an ice hockey puck made of?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z vulkanizované pryže",
+     "Z tvrzeného plastu",
+     "Z tvrdého dřeva",
+     "Z lisovaného korku"
+    ],
+    "en": [
+     "Vulcanized rubber",
+     "Hardened plastic",
+     "Hardwood",
+     "Pressed cork"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Puk je kotouč z vulkanizované pryže o průměru 76 mm, tloušťce 25 mm a hmotnosti 156–170 g. První gumové puky vznikly rozříznutím gumového míče.",
+    "en": "A puck is a disc of vulcanized rubber, 76 mm (3 inches) across, 25 mm (1 inch) thick and weighing 156–170 g (5.5–6 oz). The first rubber pucks were made by slicing up a rubber ball."
+   }
+  },
+  {
+   "id": "T205-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik minut čistého času trvá jedna třetina hokejového zápasu?",
+    "en": "How many minutes of playing time does one period of an ice hockey game last?"
+   },
+   "moznosti": {
+    "cs": [
+     "15",
+     "20",
+     "25",
+     "30"
+    ],
+    "en": [
+     "15",
+     "20",
+     "25",
+     "30"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Zápas má tři třetiny po 20 minutách a hodiny běží, jen když je puk ve hře. Proto skutečný zápas trvá mnohem déle než 60 minut.",
+    "en": "A game has three 20-minute periods, and the clock runs only while the puck is in play. That is why a real game lasts much longer than 60 minutes."
+   }
+  },
+  {
+   "id": "T205-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak dlouho trvá v ledním hokeji menší trest, kdy hráč musí na trestnou lavici?",
+    "en": "How long does a minor penalty last in ice hockey, when a player has to go to the penalty box?"
+   },
+   "moznosti": {
+    "cs": [
+     "1 minutu",
+     "2 minuty",
+     "4 minuty",
+     "5 minut"
+    ],
+    "en": [
+     "1 minute",
+     "2 minutes",
+     "4 minutes",
+     "5 minutes"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Menší trest trvá 2 minuty, větší trest 5 minut. Za vážnější přestupky, třeba když vysoká hůl soupeře zraní, může hráč dostat dvojitý menší trest (2 + 2 minuty).",
+    "en": "A minor penalty lasts 2 minutes and a major penalty 5 minutes. For more serious fouls, such as a high stick that injures an opponent, a player can get a double minor (2 + 2 minutes)."
+   }
+  },
+  {
+   "id": "T205-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou přezdívku si v NHL vysloužil český brankář Dominik Hašek?",
+    "en": "What nickname did Czech goaltender Dominik Hašek earn in the NHL?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zeď",
+     "Dominátor",
+     "Kocour",
+     "Generál"
+    ],
+    "en": [
+     "The Wall",
+     "The Dominator",
+     "The Cat",
+     "The General"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Přezdívku Dominátor (The Dominator) získal v Buffalu Sabres. Proslul nezvyklým, až akrobatickým stylem chytání, kvůli kterému ho někteří označovali za „floppera“.",
+    "en": "He earned the nickname The Dominator with the Buffalo Sabres. He was famous for an unorthodox, almost acrobatic goaltending style, which led some to call him a 'flopper'."
+   }
+  },
+  {
+   "id": "T205-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Se kterým klubem NHL získal Jaromír Jágr v letech 1991 a 1992 Stanley Cup?",
+    "en": "With which NHL club did Jaromír Jágr win the Stanley Cup in 1991 and 1992?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pittsburgh Penguins",
+     "Philadelphia Flyers",
+     "New York Rangers",
+     "Detroit Red Wings"
+    ],
+    "en": [
+     "Pittsburgh Penguins",
+     "Philadelphia Flyers",
+     "New York Rangers",
+     "Detroit Red Wings"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pittsburgh si Jágra vybral v draftu 1990 a hned v jeho prvních dvou sezónách získal dva Stanley Cupy. Penguins vyřadili jeho číslo 68 v únoru 2024.",
+    "en": "Pittsburgh drafted Jágr in 1990 and won two Stanley Cups in his first two seasons. The Penguins retired his number 68 in February 2024."
+   }
+  },
+  {
+   "id": "T205-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo vstřelil vítězný gól finále mistrovství světa 2024 v Praze, ve kterém Česko získalo zlato?",
+    "en": "Who scored the winning goal in the final of the 2024 World Championship in Prague, where Czechia won gold?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ondřej Palát",
+     "Roman Červenka",
+     "Dominik Kubalík",
+     "David Pastrňák"
+    ],
+    "en": [
+     "Ondřej Palát",
+     "Roman Červenka",
+     "Dominik Kubalík",
+     "David Pastrňák"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pastrňák rozhodl finále gólem ve třetí třetině a David Kämpf pečetil výhru 2:0 gólem do prázdné branky. Česko tak získalo první titul od roku 2010.",
+    "en": "Pastrňák decided the final with a third-period goal, and David Kämpf sealed the 2–0 win with an empty-net goal. It was Czechia's first title since 2010."
+   }
+  },
+  {
+   "id": "T205-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém městě sídlí Hokejová síň slávy (Hockey Hall of Fame)?",
+    "en": "In which city is the Hockey Hall of Fame located?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Ottawě",
+     "V New Yorku",
+     "V Torontu",
+     "V Montrealu"
+    ],
+    "en": [
+     "Ottawa",
+     "New York",
+     "Toronto",
+     "Montreal"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Síň slávy sídlí od roku 1993 v historické budově Bank of Montreal v centru Toronta. V trezoru tam leží i původní miska Stanley Cupu.",
+    "en": "Since 1993 the Hall has occupied a historic Bank of Montreal building in downtown Toronto. The original Stanley Cup bowl is kept in its vault."
+   }
+  },
+  {
+   "id": "T205-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Podle které čáry na kluzišti se posuzuje, zda je útočník v ofsajdu (postavení mimo hru)?",
+    "en": "Which line on the rink is used to judge whether an attacker is offside?"
+   },
+   "moznosti": {
+    "cs": [
+     "Podle spojnice kruhů pro vhazování",
+     "Podle modré čáry",
+     "Podle brankové čáry",
+     "Podle červené středové čáry"
+    ],
+    "en": [
+     "The line joining the faceoff circles",
+     "The blue line",
+     "The goal line",
+     "The red centre line"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Hráč je v ofsajdu, když obě jeho brusle zcela přejedou modrou čáru do útočného pásma dřív než puk. Modré čáry oddělují střední pásmo od obranného a útočného.",
+    "en": "A player is offside if both skates completely cross the blue line into the attacking zone before the puck does. The blue lines separate the neutral zone from the two end zones."
+   }
+  },
+  {
+   "id": "T205-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterých dvou městech se hrálo mistrovství světa v ledním hokeji 2024?",
+    "en": "In which two cities was the 2024 Ice Hockey World Championship played?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Praze a Ostravě",
+     "V Praze a Pardubicích",
+     "V Praze a Liberci",
+     "V Praze a Brně"
+    ],
+    "en": [
+     "Prague and Ostrava",
+     "Prague and Pardubice",
+     "Prague and Liberec",
+     "Prague and Brno"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hrálo se v pražské O2 areně a v ostravské Ostravar Aréně od 10. do 26. května 2024. Turnaj vidělo 797 727 diváků, nejvíc v historii hokejových mistrovství.",
+    "en": "Games were held at Prague's O2 Arena and Ostrava's Ostravar Aréna from 10 to 26 May 2024. Attendance reached 797,727, the highest of any hockey championship."
+   }
+  },
+  {
+   "id": "T205-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaromír Jágr je známý dresem s číslem 68. Kterou událost roku 1968 tím připomíná?",
+    "en": "Jaromír Jágr is famous for wearing number 68. Which 1968 event does it commemorate?"
+   },
+   "moznosti": {
+    "cs": [
+     "Let Apolla 8 kolem Měsíce",
+     "Letní olympijské hry v Mexiku",
+     "Zimní olympijské hry v Grenoblu",
+     "Pražské jaro"
+    ],
+    "en": [
+     "Apollo 8's flight around the Moon",
+     "The Summer Olympics in Mexico City",
+     "The Winter Olympics in Grenoble",
+     "The Prague Spring"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Číslo připomíná Pražské jaro 1968 a také Jágrova dědečka, který toho roku zemřel ve vězení. Do vězení se dostal, protože se bránil kolektivizaci svého statku.",
+    "en": "The number honours the 1968 Prague Spring and Jágr's grandfather, who died in prison that year. He had been jailed for opposing the collectivization of his farm."
+   }
+  },
+  {
+   "id": "T205-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co se Dominiku Haškovi podařilo jako prvnímu brankáři v historii NHL?",
+    "en": "What did Dominik Hašek achieve as the first goaltender in NHL history?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vstřelit gól do prázdné branky soupeře",
+     "Získat Vezina Trophy pětkrát po sobě",
+     "Dvakrát získat Hart Trophy pro MVP ligy",
+     "Vyhrát Stanley Cup s Buffalem Sabres"
+    ],
+    "en": [
+     "Scoring a goal into the opponent's empty net",
+     "Winning the Vezina Trophy five years in a row",
+     "Winning the Hart Trophy as league MVP twice",
+     "Winning the Stanley Cup with the Buffalo Sabres"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hart Trophy pro nejužitečnějšího hráče ligy obvykle berou útočníci, Hašek ji získal v letech 1997 a 1998. K tomu přidal šest Vezina Trophy pro nejlepšího brankáře.",
+    "en": "The Hart Trophy for the league's most valuable player usually goes to forwards, yet Hašek won it in 1997 and 1998. He also won six Vezina Trophies as the best goaltender."
+   }
+  },
+  {
+   "id": "T205-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Do kterého klubu byl Wayne Gretzky v srpnu 1988 vyměněn z Edmontonu v transakci přezdívané „The Trade“?",
+    "en": "Which club was Wayne Gretzky traded to from Edmonton in August 1988, in a deal nicknamed 'The Trade'?"
+   },
+   "moznosti": {
+    "cs": [
+     "Los Angeles Kings",
+     "Toronto Maple Leafs",
+     "Montreal Canadiens",
+     "Boston Bruins"
+    ],
+    "en": [
+     "Los Angeles Kings",
+     "Toronto Maple Leafs",
+     "Montreal Canadiens",
+     "Boston Bruins"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Výměna 9. srpna 1988 šokovala Kanadu, protože Gretzky s Edmontonem vyhrál čtyři Stanley Cupy. S Kings se v roce 1993 dostal do finále, kde podlehli Montrealu.",
+    "en": "The trade on 9 August 1988 shocked Canada, as Gretzky had won four Stanley Cups with Edmonton. With the Kings he reached the 1993 Final, where they lost to Montreal."
+   }
+  },
+  {
+   "id": "T205-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jakou tradici zavedli v roce 1995 hráči New Jersey Devils po zisku Stanley Cupu?",
+    "en": "What tradition did the New Jersey Devils players start in 1995 after winning the Stanley Cup?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kapitán přinese pohár na zahájení další sezóny",
+     "Pohár zůstane rok vystavený v hale vítěze",
+     "Jména hráčů se do poháru ryjí ještě na ledě po finále",
+     "Každý hráč smí s pohárem strávit jeden den"
+    ],
+    "en": [
+     "The captain brings the Cup to the next season's opener",
+     "The Cup stays on display in the winner's arena for a year",
+     "The players' names are engraved on the Cup right on the ice after the final",
+     "Each player gets to spend a day with the Cup"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Od roku 1995 má každý člen vítězného týmu pohár jeden den pro sebe, vždy v doprovodu zástupce Hokejové síně slávy.",
+    "en": "Since 1995 every member of the winning team gets the Cup for a day, always accompanied by a Hockey Hall of Fame representative."
+   }
+  },
+  {
+   "id": "T205-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč nebyl v roce 2005 udělen Stanley Cup?",
+    "en": "Why was the Stanley Cup not awarded in 2005?"
+   },
+   "moznosti": {
+    "cs": [
+     "Celou sezónu NHL zrušila výluka (lockout)",
+     "Finále skončilo nerozhodně a bylo anulováno",
+     "Kvůli pandemii byla sezóna předčasně ukončena",
+     "Pohár byl odcizen a vítěz ho nepřevzal"
+    ],
+    "en": [
+     "A lockout cancelled the entire NHL season",
+     "The final ended in a tie and was annulled",
+     "A pandemic ended the season early",
+     "The Cup had been stolen and the winner never received it"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Spor majitelů klubů s hráči o kolektivní smlouvu vedl ke zrušení celé sezóny 2004/05. Kromě roku 2005 se pohár neudělil jen v roce 1919.",
+    "en": "A dispute between owners and players over the collective bargaining agreement cancelled the whole 2004–05 season. Apart from 2005, the Cup has gone unawarded only in 1919."
+   }
+  },
+  {
+   "id": "T205-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který z těchto klubů NEPATŘÍ mezi „Original Six“, šestici týmů, které tvořily NHL v letech 1942–1967?",
+    "en": "Which of these clubs is NOT one of the 'Original Six', the six teams that made up the NHL from 1942 to 1967?"
+   },
+   "moznosti": {
+    "cs": [
+     "Boston Bruins",
+     "Chicago Black Hawks",
+     "New York Rangers",
+     "Philadelphia Flyers"
+    ],
+    "en": [
+     "Boston Bruins",
+     "Chicago Black Hawks",
+     "New York Rangers",
+     "Philadelphia Flyers"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Original Six tvořily Boston, Chicago, Detroit, Montreal, New York Rangers a Toronto. Philadelphia Flyers vznikli až při rozšíření ligy o šest týmů v roce 1967.",
+    "en": "The Original Six were Boston, Chicago, Detroit, Montreal, the New York Rangers and Toronto. The Philadelphia Flyers only joined when the league added six teams in 1967."
+   }
+  },
+  {
+   "id": "T205-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který tým smí poslat puk ze své poloviny až za soupeřovu brankovou čáru, aniž by rozhodčí odpískal zakázané uvolnění (icing)?",
+    "en": "Which team may shoot the puck from its own half past the opponent's goal line without icing being called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tým hrající v oslabení",
+     "Tým, který prohrává o dva góly",
+     "Tým hrající v přesilovce",
+     "Tým s odvolaným brankářem"
+    ],
+    "en": [
+     "A team that is short-handed",
+     "A team trailing by two goals",
+     "A team on the power play",
+     "A team that has pulled its goaltender"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Tým v oslabení si tak může ulevit od tlaku soupeře. Jinak se po zakázaném uvolnění vhazuje v obranném pásmu provinivšího se týmu.",
+    "en": "This lets a short-handed team relieve pressure. Otherwise, after icing the faceoff takes place in the offending team's defensive zone."
+   }
+  },
+  {
+   "id": "T205-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém městě byla 15. května 1908 založena Mezinárodní hokejová federace (dnešní IIHF)?",
+    "en": "In which city was the International Ice Hockey Federation (today's IIHF) founded on 15 May 1908?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Curychu",
+     "V Paříži",
+     "V Londýně",
+     "V Praze"
+    ],
+    "en": [
+     "Zurich",
+     "Paris",
+     "London",
+     "Prague"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Federace vznikla v Paříži pod francouzským názvem Ligue Internationale de Hockey sur Glace. Dnes sídlí ve švýcarském Curychu.",
+    "en": "It was founded in Paris under the French name Ligue Internationale de Hockey sur Glace. Today it is headquartered in Zurich, Switzerland."
+   }
+  },
+  {
+   "id": "T205-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo je druhým nejproduktivnějším hráčem historie NHL v základní části (k roku 2026), hned za Waynem Gretzkým?",
+    "en": "Who is the second-highest point scorer in NHL regular-season history (as of 2026), right behind Wayne Gretzky?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mark Messier",
+     "Mario Lemieux",
+     "Jaromír Jágr",
+     "Gordie Howe"
+    ],
+    "en": [
+     "Mark Messier",
+     "Mario Lemieux",
+     "Jaromír Jágr",
+     "Gordie Howe"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jágr nasbíral v NHL 1 921 bodů, nejvíc ze všech evropských hráčů i pravých křídel. Pětkrát vyhrál Art Ross Trophy pro nejlepšího bodovače sezóny.",
+    "en": "Jágr scored 1,921 NHL points, the most by any European-born player or right winger. He won the Art Ross Trophy as the season's top scorer five times."
+   }
+  },
+  {
+   "id": "T205-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které mužstvo prohrálo finále mistrovství světa v ledním hokeji ve třech letech po sobě, 2024, 2025 a 2026?",
+    "en": "Which team lost the Ice Hockey World Championship final three years in a row, in 2024, 2025 and 2026?"
+   },
+   "moznosti": {
+    "cs": [
+     "Švýcarsko",
+     "Kanada",
+     "Finsko",
+     "Švédsko"
+    ],
+    "en": [
+     "Switzerland",
+     "Canada",
+     "Finland",
+     "Sweden"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Švýcaři podlehli v roce 2024 Česku 0:2, v roce 2025 USA a v roce 2026 na domácím ledě Finsku. Obě poslední finále prohráli 0:1 v prodloužení.",
+    "en": "Switzerland lost to Czechia 0–2 in 2024, to the USA in 2025 and to Finland on home ice in 2026. Both of the last two finals were 0–1 overtime defeats."
+   }
+  },
+  {
+   "id": "T205-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "S kolika hráči nastoupil každý tým v prvním organizovaném halovém zápase v ledním hokeji v roce 1875?",
+    "en": "How many players did each team field in the first organized indoor ice hockey game in 1875?"
+   },
+   "moznosti": {
+    "cs": [
+     "6",
+     "7",
+     "9",
+     "11"
+    ],
+    "en": [
+     "6",
+     "7",
+     "9",
+     "11"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hrálo se devět na devět a místo míčku se použil plochý kulatý kus dřeva. V roce 1880 se počet snížil na sedm hráčů, dnes jich je na ledě šest.",
+    "en": "It was nine against nine, and a flat circular piece of wood was used instead of a ball. In 1880 the number was cut to seven; today there are six on the ice."
+   }
+  },
+  {
+   "id": "T205-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Wayne Gretzky v sezóně 1981/82 překonal slavný výkon Maurice „Rocket“ Richarda, 50 gólů v 50 zápasech. Za kolik zápasů dal 50 gólů on?",
+    "en": "In the 1981–82 season Wayne Gretzky broke Maurice 'Rocket' Richard's famous feat of 50 goals in 50 games. In how many games did he score 50 goals?"
+   },
+   "moznosti": {
+    "cs": [
+     "35",
+     "39",
+     "45",
+     "48"
+    ],
+    "en": [
+     "35",
+     "39",
+     "45",
+     "48"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Gretzky dal 50 gólů za 39 zápasů a sezónu zakončil s 92 góly. V ročníku 1985/86 nasbíral 215 bodů a jako jediný hráč překonal v sezóně hranici 200 bodů.",
+    "en": "Gretzky reached 50 goals in 39 games and finished the season with 92. In 1985–86 he scored 215 points, and he is the only player to top 200 points in a season."
+   }
+  },
+  {
+   "id": "T205-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na Stanley Cupu jsou i rytecké chyby. Jak je na něm omylem vyryt název Bostonu u vítězství Boston Bruins z roku 1972?",
+    "en": "The Stanley Cup has some engraving mistakes. How is Boston's name mistakenly engraved for the Boston Bruins' 1972 win?"
+   },
+   "moznosti": {
+    "cs": [
+     "BOSTNO",
+     "BUSTON",
+     "BQSTQN",
+     "BOTSON"
+    ],
+    "en": [
+     "BOSTNO",
+     "BUSTON",
+     "BQSTQN",
+     "BOTSON"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Rytec místo písmen O vyryl Q. Na poháru je třeba i „Ilanders“ místo Islanders (1981) nebo „Leaes“ místo Leafs (1963).",
+    "en": "The engraver cut Qs instead of Os. The Cup also reads 'Ilanders' for the Islanders (1981) and 'Leaes' for the Leafs (1963)."
+   }
+  },
+  {
+   "id": "T205-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Mistrovství světa 1972 v Praze, na kterém Československo ukončilo sérii devíti titulů SSSR v řadě, bylo prvním mezinárodním hokejovým turnajem, na kterém…",
+    "en": "The 1972 World Championship in Prague, where Czechoslovakia ended the USSR's run of nine straight titles, was the first international ice hockey tournament where…"
+   },
+   "moznosti": {
+    "cs": [
+     "…řídili zápasy čtyři rozhodčí",
+     "…byl použit videorozhodčí",
+     "…se hrálo na umělém ledě",
+     "…museli všichni brankáři nosit masku"
+    ],
+    "en": [
+     "…games were run by four officials",
+     "…video review was used",
+     "…games were played on artificial ice",
+     "…all goaltenders had to wear a mask"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Šlo zároveň o první mistrovství světa hrané odděleně od zimní olympiády v olympijském roce. Pro Československo to byl třetí titul a první od roku 1949.",
+    "en": "It was also the first World Championship held separately from the Winter Olympics in an Olympic year. It was Czechoslovakia's third title and its first since 1949."
+   }
+  },
+  {
+   "id": "T205-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém městě získali hokejisté samostatné České republiky v roce 1996 svůj první titul mistrů světa?",
+    "en": "In which city did the independent Czech Republic win its first ice hockey world title in 1996?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Stockholmu",
+     "V Helsinkách",
+     "Ve Vídni",
+     "V Mnichově"
+    ],
+    "en": [
+     "Stockholm",
+     "Helsinki",
+     "Vienna",
+     "Munich"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ve finále ve Vídni porazili Češi Kanadu 4:2. Za stavu 2:2 rozhodl Martin Procházka 19 sekund před koncem, poslední gól padl do prázdné branky.",
+    "en": "In the final in Vienna the Czechs beat Canada 4–2. With the score at 2–2, Martin Procházka scored with 19 seconds left, and an empty-net goal sealed it."
+   }
+  },
+  {
+   "id": "T205-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kde vyhráli hokejisté Čech (tehdy ještě součásti Rakouska-Uherska) mistrovství Evropy 1911?",
+    "en": "Where did the ice hockey team of Bohemia (then still part of Austria-Hungary) win the 1911 European Championship?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Chamonix",
+     "V Praze",
+     "V Berlíně",
+     "Ve Vídni"
+    ],
+    "en": [
+     "Chamonix",
+     "Prague",
+     "Berlin",
+     "Vienna"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Čechy v Berlíně vyhrály všechny tři zápasy, Švýcarsko porazily 13:0. Titul z roku 1912 v Praze byl později anulován, protože Rakousko tehdy nebylo členem federace.",
+    "en": "In Berlin, Bohemia won all three games, beating Switzerland 13–0. Its 1912 title in Prague was later annulled because Austria was not then a member of the federation."
+   }
+  },
+  {
+   "id": "T205-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém roce získali Toronto Maple Leafs, člen Original Six, naposledy Stanley Cup (k roku 2026)?",
+    "en": "In which year did the Toronto Maple Leafs, one of the Original Six, last win the Stanley Cup (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "1962",
+     "1967",
+     "1972",
+     "1993"
+    ],
+    "en": [
+     "1962",
+     "1967",
+     "1972",
+     "1993"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "V roce 1967 porazili ve finále Montreal Canadiens, šlo o poslední titul éry Original Six. Toronto je jediným týmem této šestice, který se od té doby nedostal ani do finále (k roku 2026).",
+    "en": "In 1967 they beat the Montreal Canadiens in the final, the last title of the Original Six era. Toronto is the only one of the six that has not even reached the Final since (as of 2026)."
+   }
+  },
+  {
+   "id": "T205-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolikátý v pořadí byl Jaromír Jágr vybrán v draftu NHL 1990?",
+    "en": "At which overall pick was Jaromír Jágr selected in the 1990 NHL draft?"
+   },
+   "moznosti": {
+    "cs": [
+     "1.",
+     "2.",
+     "5.",
+     "11."
+    ],
+    "en": [
+     "1st",
+     "2nd",
+     "5th",
+     "11th"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jágr šel v draftu 1990 jako pátý. Jako první byl vybrán Owen Nolan a druhý Petr Nedvěd, který rok předtím emigroval z Československa.",
+    "en": "Jágr went fifth overall in 1990. Owen Nolan was picked first, and Petr Nedvěd, who had defected from Czechoslovakia a year earlier, went second."
+   }
+  },
+  {
+   "id": "T205-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Američtí amatéři porazili 22. února 1980 v Lake Placid favorizovaný SSSR 4:3 („Zázrak na ledě“). Koho museli ještě porazit, aby získali olympijské zlato?",
+    "en": "On 22 February 1980 in Lake Placid, US amateurs beat the favoured USSR 4–3 (the 'Miracle on Ice'). Whom did they still have to beat to win the Olympic gold?"
+   },
+   "moznosti": {
+    "cs": [
+     "Švédsko",
+     "Kanadu",
+     "Československo",
+     "Finsko"
+    ],
+    "en": [
+     "Sweden",
+     "Canada",
+     "Czechoslovakia",
+     "Finland"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Zápas se SSSR nebyl finále. O dva dny později USA porazily Finsko 4:2 a zlato získaly. Sports Illustrated vyhlásil Zázrak na ledě sportovním okamžikem 20. století.",
+    "en": "The USSR game was not the final. Two days later the USA beat Finland 4–2 to take gold. Sports Illustrated named the Miracle on Ice the top sports moment of the 20th century."
+   }
+  },
+  {
+   "id": "T205-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik titulů mistrů světa v ledním hokeji získali českoslovenští a čeští hokejisté dohromady do roku 2026 včetně?",
+    "en": "How many ice hockey world titles did Czechoslovakia and Czechia win combined, up to and including 2026?"
+   },
+   "moznosti": {
+    "cs": [
+     "11",
+     "12",
+     "13",
+     "14"
+    ],
+    "en": [
+     "11",
+     "12",
+     "13",
+     "14"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Československo vyhrálo šestkrát (1947, 1949, 1972, 1976, 1977, 1985), samostatné Česko sedmkrát (1996, 1999, 2000, 2001, 2005, 2010, 2024). V letech 2025 a 2026 vypadlo ve čtvrtfinále se Švédskem a s Finskem.",
+    "en": "Czechoslovakia won six times (1947, 1949, 1972, 1976, 1977, 1985) and independent Czechia seven times (1996, 1999, 2000, 2001, 2005, 2010, 2024). In 2025 and 2026 it lost in the quarterfinals to Sweden and Finland."
+   }
+  }
+ ]
+}

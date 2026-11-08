@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T032",
+ "nazev": {
+  "cs": "Hmyz: malí rekordmani",
+  "en": "Insects: Small Record-Breakers"
+ },
+ "kategorie": {
+  "id": "priroda-a-zvirata",
+  "nazev": {
+   "cs": "Příroda a zvířata",
+   "en": "Nature & Animals"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T032-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik nohou má dospělý hmyz?",
+    "en": "How many legs does an adult insect have?"
+   },
+   "moznosti": {
+    "cs": [
+     "4",
+     "6",
+     "8",
+     "10"
+    ],
+    "en": [
+     "4",
+     "6",
+     "8",
+     "10"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Hmyz má tři páry článkovaných nohou, celkem tedy šest. Každý pár vyrůstá z jiného článku hrudi.",
+    "en": "Insects have three pairs of jointed legs, six in total. Each pair grows from a different segment of the thorax."
+   }
+  },
+  {
+   "id": "T032-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na kolik hlavních částí se dělí tělo hmyzu?",
+    "en": "Into how many main parts is an insect's body divided?"
+   },
+   "moznosti": {
+    "cs": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "en": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Tělo hmyzu tvoří hlava, hruď a zadeček. Na hlavě jsou tykadla a oči, na hrudi nohy a křídla.",
+    "en": "An insect's body consists of the head, thorax and abdomen. The antennae and eyes are on the head, the legs and wings on the thorax."
+   }
+  },
+  {
+   "id": "T032-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který z těchto živočichů NENÍ hmyz?",
+    "en": "Which of these animals is NOT an insect?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mravenec lesní",
+     "Křižák obecný",
+     "Slunéčko sedmitečné",
+     "Moucha domácí"
+    ],
+    "en": [
+     "Red wood ant",
+     "European garden spider",
+     "Seven-spot ladybird",
+     "Housefly"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Křižák je pavouk, tedy pavoukovec, nikoli hmyz. Na rozdíl od hmyzu nemá tykadla a jed vstřikuje kořisti chelicerami zakončenými háčky.",
+    "en": "The garden spider is a spider, i.e. an arachnid, not an insect. Unlike insects, it has no antennae, and it injects venom into its prey with fang-tipped chelicerae."
+   }
+  },
+  {
+   "id": "T032-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá vývojové stadium motýla mezi housenkou a dospělcem?",
+    "en": "What is the stage of a butterfly's development between caterpillar and adult called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kukla",
+     "Imago",
+     "Larva",
+     "Nymfa"
+    ],
+    "en": [
+     "Pupa",
+     "Imago",
+     "Larva",
+     "Nymph"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "V kukle se tělo housenky přestaví na dospělého motýla. Kuklu mají jen druhy s proměnou dokonalou, například motýli a brouci.",
+    "en": "Inside the pupa the caterpillar's body is rebuilt into an adult butterfly. Only insects with complete metamorphosis, such as butterflies and beetles, have a pupa."
+   }
+  },
+  {
+   "id": "T032-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co sbírají včely v květech a zpracovávají na med?",
+    "en": "What do bees collect from flowers and turn into honey?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nektar",
+     "Rosu",
+     "Pyl",
+     "Pryskyřici"
+    ],
+    "en": [
+     "Nectar",
+     "Dew",
+     "Pollen",
+     "Resin"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Med vzniká z květního nektaru, kterému včely v úlu odeberou vodu. Pyl také sbírají, ale slouží jim jako zdroj bílkovin, hlavně pro larvy.",
+    "en": "Honey is made from flower nectar, from which the bees remove water in the hive. They collect pollen too, but it serves as a protein source, mainly for the larvae."
+   }
+  },
+  {
+   "id": "T032-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá včela, která ve zdravém včelstvu klade všechna vajíčka?",
+    "en": "What is the bee that lays all the eggs in a healthy colony called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dělnice",
+     "Trubec",
+     "Kojička",
+     "Královna"
+    ],
+    "en": [
+     "Worker",
+     "Drone",
+     "Nurse bee",
+     "Queen"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vajíčka klade královna, dělnice se starají o plod, potravu i úl. Trubci jsou samci, jejichž hlavním úkolem je oplodnit mladou královnu.",
+    "en": "The queen lays the eggs, while workers care for the brood, food and hive. Drones are males whose main job is to mate with a young queen."
+   }
+  },
+  {
+   "id": "T032-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč dospělé světlušky v noci blikají?",
+    "en": "Why do adult fireflies flash at night?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aby odpudily komáry",
+     "Aby se zahřály",
+     "Aby si svítily na cestu",
+     "Aby našly partnera"
+    ],
+    "en": [
+     "To repel mosquitoes",
+     "To warm up",
+     "To light their way",
+     "To find a mate"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Dospělé světlušky světlem hlavně hledají partnera a podle vzoru záblesků se poznávají jedinci stejného druhu. Světlo vzniká chemickou reakcí s enzymem luciferázou a je to „studené světlo“.",
+    "en": "Adult fireflies use light mainly to find a mate, and the flash pattern lets members of the same species recognise each other. The light comes from a chemical reaction with the enzyme luciferase and is a 'cold light'."
+   }
+  },
+  {
+   "id": "T032-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Podle čeho dostala kudlanka nábožná (Mantis religiosa) své jméno?",
+    "en": "How did the praying mantis (Mantis religiosa) get its name?"
+   },
+   "moznosti": {
+    "cs": [
+     "Podle předních nohou sepjatých jako k modlitbě",
+     "Podle hnědého zbarvení jako mnišský hábit",
+     "Podle hojného výskytu u kostelů a klášterů",
+     "Podle tichého cvrkání připomínajícího zpěv"
+    ],
+    "en": [
+     "From front legs folded as if in prayer",
+     "From a brown colour like a monk's habit",
+     "From being common around churches and monasteries",
+     "From a soft chirping that resembles chanting"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kudlanka drží přední lapací nohy složené, jako by se modlila. Ve skutečnosti číhá na kořist a některé druhy dokážou otočit hlavu téměř o 180°.",
+    "en": "The mantis holds its raptorial front legs folded as if praying. In fact it is lying in wait for prey, and some species can turn their head almost 180°."
+   }
+  },
+  {
+   "id": "T032-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Housenky kterého motýla vyrábějí přírodní hedvábí?",
+    "en": "The caterpillars of which moth or butterfly produce natural silk?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bource morušového",
+     "Danause stěhovavého",
+     "Babočky paví oko",
+     "Bělásku zelného"
+    ],
+    "en": [
+     "Domestic silk moth",
+     "Monarch butterfly",
+     "European peacock",
+     "Large white"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Housenky bource morušového (Bombyx mori) se živí listy morušovníku a zakuklí se do kokonu z jediného vlákna dlouhého 300 až 900 m. Domestikovaní dospělci už neumějí létat.",
+    "en": "Caterpillars of the domestic silk moth (Bombyx mori) feed on mulberry leaves and spin a cocoon from a single thread 300 to 900 m (980 to 2,950 ft) long. The domesticated adults can no longer fly."
+   }
+  },
+  {
+   "id": "T032-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kteří komáři sají krev?",
+    "en": "Which mosquitoes suck blood?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pouze larvy",
+     "Pouze samice",
+     "Samci i samice",
+     "Pouze samci"
+    ],
+    "en": [
+     "Only larvae",
+     "Only females",
+     "Both males and females",
+     "Only males"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Krev sají jen samice, protože z ní získávají bílkoviny pro vývoj vajíček. Samci se živí jen sladkými šťávami, například nektarem.",
+    "en": "Only females drink blood, because it gives them protein for developing their eggs. Males feed only on sugary fluids such as nectar."
+   }
+  },
+  {
+   "id": "T032-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co sděluje včela medonosná ostatním dělnicím tancem na plástu?",
+    "en": "What does a honey bee tell other workers with its dance on the comb?"
+   },
+   "moznosti": {
+    "cs": [
+     "Že královna uhynula",
+     "Jaké bude počasí",
+     "Kde hrozí nebezpečí",
+     "Kde je zdroj potravy"
+    ],
+    "en": [
+     "That the queen has died",
+     "What the weather will be",
+     "Where danger lurks",
+     "Where a food source is"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Tanec (anglicky waggle dance) ukazuje směr ke zdroji potravy vzhledem ke Slunci a délka tanečních běhů vyjadřuje vzdálenost. Čím delší běh, tím vzdálenější cíl.",
+    "en": "The waggle dance shows the direction of the food source relative to the sun, and the duration of the waggle runs encodes the distance. The longer the run, the farther the target."
+   }
+  },
+  {
+   "id": "T032-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Periodické cikády rodu Magicicada vylézají ze země hromadně po 13 nebo 17 letech. Jaká vlastnost těchto čísel jim podle jedné hypotézy pomáhá unikat predátorům?",
+    "en": "Periodical cicadas of the genus Magicicada emerge en masse after 13 or 17 years. According to one hypothesis, what property of these numbers helps them escape predators?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jsou to trojúhelníková čísla",
+     "Jsou to dokonalá čísla",
+     "Jsou to prvočísla",
+     "Jsou to druhé mocniny"
+    ],
+    "en": [
+     "They are triangular numbers",
+     "They are perfect numbers",
+     "They are prime numbers",
+     "They are square numbers"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Cyklus s prvočíselnou délkou se jen zřídka sejde s kratšími cykly predátorů, takže ti se na hromadné líhnutí nemohou „naladit“. Zbytek života, asi 99,5 %, tráví cikády pod zemí jako nymfy sající šťávu z kořenů.",
+    "en": "A prime-length cycle rarely coincides with predators' shorter cycles, so they cannot synchronise with the mass emergences. The cicadas spend the rest of their lives, about 99.5%, underground as nymphs feeding on root sap."
+   }
+  },
+  {
+   "id": "T032-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo je „dojnou krávou“ některých mravenců, kterou chrání a od níž sbírají sladkou medovici?",
+    "en": "Who serves as the 'dairy cow' of some ants, which they protect and collect sweet honeydew from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mouchy",
+     "Termiti",
+     "Komáři",
+     "Mšice"
+    ],
+    "en": [
+     "Flies",
+     "Termites",
+     "Mosquitoes",
+     "Aphids"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Mravenci mšice „dojí“ hlazením tykadly a na oplátku je brání před predátory. Mšice sají rostlinnou šťávu a přebytečný cukr vylučují jako medovici.",
+    "en": "Ants 'milk' aphids by stroking them with their antennae and in return protect them from predators. Aphids suck plant sap and excrete the excess sugar as honeydew."
+   }
+  },
+  {
+   "id": "T032-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "K čemu používají mravenci rodu Atta listy, které nastříhají a odnesou do hnízda?",
+    "en": "What do leafcutter ants of the genus Atta use the leaves they cut and carry into the nest for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zakrývají jimi vchody",
+     "Staví z nich stěny hnízda",
+     "Pěstují na nich houbu",
+     "Krmí jimi přímo larvy"
+    ],
+    "en": [
+     "They cover the entrances with them",
+     "They build nest walls from them",
+     "They grow a fungus on them",
+     "They feed them directly to their larvae"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Nastříhanými listy krmí houbové zahrádky a pěstovanou houbou krmí své larvy. Dospělci sami pijí hlavně šťávu z listů.",
+    "en": "They feed the cut leaves to fungus gardens and feed the cultivated fungus to their larvae. The adults themselves mainly drink leaf sap."
+   }
+  },
+  {
+   "id": "T032-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak dýchá dospělý suchozemský hmyz?",
+    "en": "How does an adult land insect breathe?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vzdušnicemi (trachejemi)",
+     "Plícemi",
+     "Žábrami",
+     "Jen celým povrchem těla"
+    ],
+    "en": [
+     "With tracheae",
+     "With lungs",
+     "With gills",
+     "Only through its whole body surface"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vzduch vstupuje párovými otvory (průduchy) na bocích těla a síť trubiček ho vede přímo k tkáním. Krev hmyzu proto kyslík téměř nepřenáší.",
+    "en": "Air enters through paired openings (spiracles) along the sides of the body, and a network of tubes delivers it directly to the tissues. Insect blood therefore carries almost no oxygen."
+   }
+  },
+  {
+   "id": "T032-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik druhů hmyzu vědci zhruba popsali a pojmenovali?",
+    "en": "Roughly how many insect species have scientists described and named?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 10 tisíc",
+     "Asi 100 tisíc",
+     "Asi 1 milion",
+     "Asi 100 milionů"
+    ],
+    "en": [
+     "About 10,000",
+     "About 100,000",
+     "About 1 million",
+     "About 100 million"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Popsáno je asi milion druhů hmyzu (k roku 2026), víc než všech ostatních živočichů dohromady. Podle jednoho z novějších odhadů jich ve skutečnosti existuje asi 5,5 milionu.",
+    "en": "About one million insect species have been described (as of 2026), more than all other animals combined. According to one recent estimate, the true number is about 5.5 million."
+   }
+  },
+  {
+   "id": "T032-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který z těchto hmyzů prochází proměnou nedokonalou?",
+    "en": "Which of these insects undergoes incomplete metamorphosis?"
+   },
+   "moznosti": {
+    "cs": [
+     "Šváb",
+     "Moucha",
+     "Komár",
+     "Včela"
+    ],
+    "en": [
+     "Cockroach",
+     "Fly",
+     "Mosquito",
+     "Bee"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Mláďata švábů (nymfy) vypadají podobně jako dospělci, jen nemají vyvinutá křídla a pohlavní orgány, a dospívají postupným svlékáním. Proměnou nedokonalou procházejí také kobylky, vážky a kudlanky.",
+    "en": "Young cockroaches (nymphs) look much like adults, only without developed wings and genitals, and they mature through successive moults. Grasshoppers, dragonflies and mantises also undergo incomplete metamorphosis."
+   }
+  },
+  {
+   "id": "T032-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč dělnice včely medonosné po bodnutí savce, třeba člověka, obvykle uhyne?",
+    "en": "Why does a honey bee worker usually die after stinging a mammal, such as a human?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vyčerpá všechen jed a nemá čím přežít",
+     "Žihadlo s háčky uvízne a vytrhne se",
+     "Otráví ji krev, kterou nasaje",
+     "Bodnutím vydá všechnu energii"
+    ],
+    "en": [
+     "It uses up all its venom and cannot survive",
+     "Its barbed sting gets stuck and tears out",
+     "It is poisoned by the blood it absorbs",
+     "It spends all its energy on the sting"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Žihadlo s háčky uvízne v silné kůži savce a při odletu se vytrhne i s částí zadečku, což včelu zabije. Jiný hmyz může dělnice bodnout bez úhony a královna má hladší žihadlo, kterým může bodat opakovaně.",
+    "en": "The barbed sting lodges in a mammal's thick skin and tears out with part of the abdomen as the bee flies off, which kills it. Workers can sting other insects without harm, and the queen has a smoother sting she can use repeatedly."
+   }
+  },
+  {
+   "id": "T032-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím krmí dělnice po celou dobu vývoje larvu, ze které má vyrůst královna?",
+    "en": "What do workers feed a larva that is to become a queen throughout its development?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vodou s nektarem",
+     "Mateří kašičkou",
+     "Medem",
+     "Pylem"
+    ],
+    "en": [
+     "Water with nectar",
+     "Royal jelly",
+     "Honey",
+     "Pollen"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Mateří kašičku vylučují žlázy v hlavě dělnic. Larvy dělnic a trubců ji dostávají jen první tři dny, budoucí královna po celý vývoj.",
+    "en": "Royal jelly is secreted by glands in the workers' heads. Worker and drone larvae receive it only for the first three days, a future queen throughout her development."
+   }
+  },
+  {
+   "id": "T032-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kam táhne na zimu východní populace danause stěhovavého neboli monarchy (Danaus plexippus) ze Spojených států a Kanady?",
+    "en": "Where does the eastern population of the monarch butterfly (Danaus plexippus) from the United States and Canada migrate for the winter?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Floridu",
+     "Do Kalifornie",
+     "Na Kubu",
+     "Do Mexika"
+    ],
+    "en": [
+     "To Florida",
+     "To California",
+     "To Cuba",
+     "To Mexico"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Motýli urazí asi 1 900 až 4 500 km do horských lesů středního Mexika a cesta zpět na sever trvá několik generací. Populace západně od Skalistých hor zimuje hlavně v Kalifornii.",
+    "en": "Monarchs travel about 1,900 to 4,500 km (1,200 to 2,800 mi) to mountain forests in central Mexico, and the return north takes several generations. The population west of the Rocky Mountains winters mainly in California."
+   }
+  },
+  {
+   "id": "T032-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který vědec jako jeden z prvních rozluštil význam včelích tanců a v roce 1973 získal Nobelovu cenu za fyziologii a lékařství?",
+    "en": "Which scientist was one of the first to decode the meaning of bee dances and won the 1973 Nobel Prize in Physiology or Medicine?"
+   },
+   "moznosti": {
+    "cs": [
+     "Karl von Frisch",
+     "Jean-Henri Fabre",
+     "Edward O. Wilson",
+     "Konrad Lorenz"
+    ],
+    "en": [
+     "Karl von Frisch",
+     "Jean-Henri Fabre",
+     "Edward O. Wilson",
+     "Konrad Lorenz"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Rakouský etolog Karl von Frisch ji sdílel s Konradem Lorenzem a Nikolaasem Tinbergenem. Ukázal také, že včely vidí barvy posunuté k ultrafialové, ale červenou nerozeznají od černé.",
+    "en": "Austrian ethologist Karl von Frisch shared it with Konrad Lorenz and Nikolaas Tinbergen. He also showed that bees see colours shifted toward ultraviolet but cannot tell red from black."
+   }
+  },
+  {
+   "id": "T032-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Obří weta (rod Deinacrida), nelétavý rovnokřídlý hmyz řazený k nejtěžším na světě, žijí jen v jedné zemi. Ve které?",
+    "en": "Giant wētā (genus Deinacrida), flightless orthopterans counted among the heaviest insects in the world, live in only one country. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Madagaskaru",
+     "V Austrálii",
+     "Na Novém Zélandu",
+     "V Papui-Nové Guineji"
+    ],
+    "en": [
+     "Madagascar",
+     "Australia",
+     "New Zealand",
+     "Papua New Guinea"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Všech 11 druhů obřích wet je endemitem Nového Zélandu a jsou chráněné. Samice druhu Deinacrida heteracantha plná vajíček vážila v zajetí rekordních 70 g, víc než vrabec.",
+    "en": "All 11 species of giant wētā are endemic to New Zealand and legally protected. A captive egg-laden female of Deinacrida heteracantha reached a record 70 g (2.5 oz), heavier than a sparrow."
+   }
+  },
+  {
+   "id": "T032-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Australský svižník Rivacindela hudsoni běhá rychlostí asi 9 km/h, tedy kolem 125 délek těla za sekundu. Proč se podle vědců při lovu opakovaně zastavuje?",
+    "en": "The Australian tiger beetle Rivacindela hudsoni runs at about 9 km/h (5.6 mph), roughly 125 body lengths per second. According to scientists, why does it repeatedly stop while hunting?"
+   },
+   "moznosti": {
+    "cs": [
+     "Musí ochladit přehřáté tělo",
+     "Čichem ověřuje stopu kořisti",
+     "Musí popadnout dech",
+     "Zrak nestačí jeho rychlosti"
+    ],
+    "en": [
+     "It must cool its overheated body",
+     "It checks the prey's trail by smell",
+     "It must catch its breath",
+     "Its eyesight cannot keep up"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Svižník střídá sprint s krátkým zastavením, při kterém se znovu zrakem zorientuje. Pravděpodobně běží tak rychle, že jeho oči při běhu nestačí obraz zpracovat a je chvíli prakticky slepý.",
+    "en": "The tiger beetle alternates sprints with brief stops to reorient visually. It probably runs so fast that its visual system cannot process the image, leaving it practically blind for a moment."
+   }
+  },
+  {
+   "id": "T032-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Housenky danause stěhovavého (monarchy) se živí hlavně rostlinami rodu klejicha (Asclepias). Co jim tato strava dává?",
+    "en": "Monarch caterpillars feed mainly on plants of the genus Asclepias (milkweed). What does this diet give them?"
+   },
+   "moznosti": {
+    "cs": [
+     "Látky, které je chrání před UV zářením",
+     "Schopnost orientovat se podle Slunce",
+     "Jedovaté látky, které odpuzují ptáky",
+     "Látky, které jim brání zmrznout"
+    ],
+    "en": [
+     "Compounds that protect them from UV light",
+     "The ability to navigate by the sun",
+     "Toxic compounds that repel birds",
+     "Compounds that keep them from freezing"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Housenky ukládají srdeční glykosidy (kardenolidy) z klejichy, a tak jsou housenky i motýli jedovatí a odporně chutnají. Výrazné oranžovo-černé zbarvení predátory varuje, i když některé druhy ptáků se je naučily jíst.",
+    "en": "The caterpillars store cardiac glycosides (cardenolides) from milkweed, making both caterpillars and butterflies toxic and foul-tasting. Their bold orange-and-black colouring warns predators, although some bird species have learned to eat them."
+   }
+  },
+  {
+   "id": "T032-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Samice světlušek rodu Photuris napodobují světelné signály samic jiných druhů. Proč?",
+    "en": "Female fireflies of the genus Photuris imitate the light signals of other species' females. Why?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aby zmátly lovící netopýry",
+     "Aby se ukryly mezi cizím hejnem",
+     "Aby se s jejich samci mohly pářit",
+     "Aby přilákaly a sežraly jejich samce"
+    ],
+    "en": [
+     "To confuse hunting bats",
+     "To hide among a foreign swarm",
+     "To be able to mate with their males",
+     "To lure and eat their males"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jde o tzv. agresivní mimikry: samec jiného druhu (často rodu Photinus) přiletí na námluvy a je sežrán. Samice Photuris tím navíc získávají obranné jedovaté látky lucibufaginy.",
+    "en": "This is called aggressive mimicry: a male of another species (often of the genus Photinus) arrives to court and is eaten. Photuris females also gain toxic defensive lucibufagins this way."
+   }
+  },
+  {
+   "id": "T032-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kde má většina kudlanek sluchový orgán, kterým zachytí ultrazvuk lovících netopýrů?",
+    "en": "Where do most mantises have the hearing organ they use to detect the ultrasound of hunting bats?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na tykadlech",
+     "Na zadečku",
+     "Na předních nohách",
+     "Na hrudi"
+    ],
+    "en": [
+     "On the antennae",
+     "On the abdomen",
+     "On the front legs",
+     "On the thorax"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kudlanky mají dva bubínky v jedné sluchové komůrce na zadohrudi a většina slyší jen ultrazvuk. Když létající kudlanka zaslechne echolokaci netopýra, prudce se snese k zemi.",
+    "en": "Mantises have two eardrums in a single auditory chamber on the metathorax, and most can hear only ultrasound. When a flying mantis detects bat echolocation, it dives toward the ground."
+   }
+  },
+  {
+   "id": "T032-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Francouzský umělec Hubert Duprat proslul díly, která za něj vytvořily larvy chrostíků. Co jim k tomu dával?",
+    "en": "French artist Hubert Duprat became famous for works created for him by caddisfly larvae. What did he give them for it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hliníkové piliny",
+     "Barevné skleněné korálky",
+     "Zlato a drahé kameny",
+     "Plastové flitry"
+    ],
+    "en": [
+     "Aluminium filings",
+     "Coloured glass beads",
+     "Gold and precious stones",
+     "Plastic sequins"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Larvy chrostíků žijí ve vodě a z hedvábí a okolního materiálu, jako jsou zrnka písku, kamínky nebo kousky rostlin, si staví ochranné schránky. Duprat jim jejich schránky odebral a do akvária dal zlatá zrnka a drahokamy, z nichž larvy postavily nové.",
+    "en": "Caddisfly larvae live in water and build protective cases from silk and surrounding material such as sand grains, pebbles or plant pieces. Duprat removed their cases and put gold grains and gems in the tank, from which the larvae built new ones."
+   }
+  },
+  {
+   "id": "T032-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Šváby si lidé spojují s přežitím jaderné války. Jakou dávku záření podle odhadů snesou ve srovnání se smrtelnou dávkou pro člověka?",
+    "en": "People associate cockroaches with surviving nuclear war. According to estimates, what dose of radiation can they withstand compared with the lethal dose for humans?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zhruba stejnou",
+     "Asi 10krát vyšší",
+     "Asi 100krát vyšší",
+     "Asi 1000krát vyšší"
+    ],
+    "en": [
+     "About the same",
+     "About 10 times higher",
+     "About 100 times higher",
+     "About 1,000 times higher"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Švábi snesou zhruba 6–15krát vyšší dávku než člověk, mezi hmyzem však v odolnosti vůči záření nijak nevynikají. Pozoruhodní jsou jinak: některé druhy vydrží měsíc bez potravy a pod vodou až 40 minut.",
+    "en": "Cockroaches can tolerate a dose roughly 6–15 times higher than humans, but they are not exceptionally radiation-resistant compared with other insects. They are remarkable in other ways: some species last a month without food and up to 40 minutes underwater."
+   }
+  },
+  {
+   "id": "T032-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V jakém období žila Meganeura, obří hmyz podobný vážkám s rozpětím křídel kolem 70 cm?",
+    "en": "Meganeura, a giant dragonfly-like insect with a wingspan of about 70 cm (28 inches), lived in which period?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kambrium",
+     "Karbon",
+     "Jura",
+     "Křída"
+    ],
+    "en": [
+     "Cambrian",
+     "Carboniferous",
+     "Jurassic",
+     "Cretaceous"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Meganeura žila v pozdním karbonu, asi před 300 miliony let. Podle staré hypotézy jí let umožňoval vyšší obsah kyslíku v ovzduší, novější výzkumy to ale zpochybňují.",
+    "en": "Meganeura lived in the Late Carboniferous, about 300 million years ago. An old hypothesis held that higher atmospheric oxygen allowed it to fly, but newer research questions this."
+   }
+  },
+  {
+   "id": "T032-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Prskavci (rod Brachinus) se brání výstřikem horké chemické směsi ze zadečku. Jakou teplotu může tato směs mít?",
+    "en": "Bombardier beetles (genus Brachinus) defend themselves by spraying a hot chemical mixture from their abdomen. What temperature can this mixture reach?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 40 °C",
+     "Asi 60 °C",
+     "Asi 100 °C",
+     "Asi 150 °C"
+    ],
+    "en": [
+     "About 40 °C (104 °F)",
+     "About 60 °C (140 °F)",
+     "About 100 °C (212 °F)",
+     "About 150 °C (302 °F)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ve zvláštní komůrce reaguje hydrochinon s peroxidem vodíku a uvolněné teplo ohřeje směs až k bodu varu. Výstřik není souvislý: tvoří ho asi 70 pulzů rychlostí kolem 500 za sekundu.",
+    "en": "In a special chamber hydroquinone reacts with hydrogen peroxide, and the released heat brings the mixture close to boiling. The spray is not continuous: it consists of about 70 pulses at roughly 500 per second."
+   }
+  }
+ ]
+}

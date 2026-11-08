@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T327",
+ "nazev": {
+  "cs": "Ryby: od akvária po hlubiny",
+  "en": "Fish: from the Aquarium to the Deep"
+ },
+ "kategorie": {
+  "id": "priroda-a-zvirata",
+  "nazev": {
+   "cs": "Příroda a zvířata",
+   "en": "Nature & Animals"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T327-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím dýchá většina ryb pod vodou?",
+    "en": "What do most fish breathe with underwater?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kůží",
+     "Žábrami",
+     "Plynovým měchýřem",
+     "Plícemi"
+    ],
+    "en": [
+     "Skin",
+     "Gills",
+     "Swim bladder",
+     "Lungs"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Žábry vychytávají z vody rozpuštěný kyslík. Voda a krev v nich proudí proti sobě, takže ryba dokáže získat až 90 % kyslíku rozpuštěného ve vodě.",
+    "en": "Gills extract oxygen dissolved in water. Water and blood flow in opposite directions, letting a fish recover up to 90% of the dissolved oxygen."
+   }
+  },
+  {
+   "id": "T327-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Do které skupiny živočichů patří mořský koník (rod Hippocampus)?",
+    "en": "Which group of animals does the seahorse (genus Hippocampus) belong to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Měkkýši",
+     "Korýši",
+     "Ostnokožci",
+     "Ryby"
+    ],
+    "en": [
+     "Molluscs",
+     "Crustaceans",
+     "Echinoderms",
+     "Fish"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Mořští koníci jsou kostnaté ryby z čeledi jehlovitých (Syngnathidae), podle anatomie jde o silně přeměněné příbuzné jehel (anglicky pipefish). Plavou vzpřímeně, pohánějí se hřbetní ploutví a prsními ploutvemi kormidlují.",
+    "en": "Seahorses are bony fish of the family Syngnathidae; anatomically they are highly modified pipefish. They swim upright, propelled by the dorsal fin and steering with the pectoral fins."
+   }
+  },
+  {
+   "id": "T327-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kam se lososi z moře vracejí, aby se vytřeli?",
+    "en": "Where do salmon return from the sea to spawn?"
+   },
+   "moznosti": {
+    "cs": [
+     "Do hlubin na otevřeném moři",
+     "Do teplých lagun v tropech",
+     "Do kterékoli řeky nejblíž svému lovišti",
+     "Do řeky, ve které se sami vylíhli"
+    ],
+    "en": [
+     "To the depths of the open ocean",
+     "To warm tropical lagoons",
+     "To whichever river is nearest their feeding grounds",
+     "To the river where they themselves hatched"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Lososi se s překvapivou přesností vracejí do rodné řeky, často až na stejné třecí místo. Cestou zdolávají i peřeje a vodopády, skočit dokážou až do výšky asi 3,65 m.",
+    "en": "Salmon return with uncanny precision to their natal river, often to the very same spawning ground. On the way they tackle rapids and falls, leaping as high as about 3.65 m (12 ft)."
+   }
+  },
+  {
+   "id": "T327-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi byla zlatá rybka poprvé vyšlechtěna?",
+    "en": "In which country was the goldfish first bred?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Číně",
+     "V Indii",
+     "V Egyptě",
+     "V Japonsku"
+    ],
+    "en": [
+     "China",
+     "India",
+     "Egypt",
+     "Japan"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Zlaté rybky se kvůli barvě šlechtily v císařské Číně už před více než tisíci lety. Do Japonska se dostaly roku 1603 a do Evropy (Portugalska) roku 1611.",
+    "en": "Goldfish were selectively bred for colour in imperial China more than 1,000 years ago. They reached Japan in 1603 and Europe (Portugal) in 1611."
+   }
+  },
+  {
+   "id": "T327-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Odkud pochází neonka (Paracheirodon innesi), jedna z nejoblíbenějších akvarijních rybek?",
+    "en": "Where does the neon tetra (Paracheirodon innesi), one of the most popular aquarium fish, come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z řek Austrálie",
+     "Z jezer východní Afriky",
+     "Z řek jihovýchodní Asie",
+     "Z povodí Amazonky"
+    ],
+    "en": [
+     "The rivers of Australia",
+     "The lakes of East Africa",
+     "The rivers of Southeast Asia",
+     "The Amazon basin"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Neonky žijí v západní a severní části povodí Amazonky (jihovýchodní Kolumbie, východní Peru, západní Brazílie). Dávají přednost kyselým „černým“ vodám, ale žijí i v průzračných tocích. Zářivé zbarvení jim pomáhá vidět se navzájem v tmavé vodě.",
+    "en": "Neon tetras live in the western and northern Amazon basin (south-eastern Colombia, eastern Peru, western Brazil). They prefer acidic blackwater streams but also occur in clearwater streams. Their bright colouring makes them visible to each other in the dark water."
+   }
+  },
+  {
+   "id": "T327-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se čtverzubec (čeleď Tetraodontidae) brání, když na něj zaútočí predátor?",
+    "en": "How does a pufferfish (family Tetraodontidae) defend itself when a predator attacks?"
+   },
+   "moznosti": {
+    "cs": [
+     "Odhodí kus ocasní ploutve",
+     "Nafoukne se vodou do tvaru koule",
+     "Udeří útočníka elektrickým výbojem",
+     "Vypustí oblak inkoustu"
+    ],
+    "en": [
+     "It sheds part of its tail fin",
+     "It inflates itself with water into a ball",
+     "It zaps the attacker with an electric shock",
+     "It releases a cloud of ink"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Čtverzubec naplní svůj velmi pružný žaludek vodou (mimo vodu i vzduchem) a nafoukne se do téměř kulatého tvaru, který se dravci špatně polyká.",
+    "en": "A pufferfish fills its extremely elastic stomach with water (or with air out of the water) and swells into an almost round shape that is hard for a predator to swallow."
+   }
+  },
+  {
+   "id": "T327-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se létající ryby pohybují vzduchem?",
+    "en": "How do flying fish travel through the air?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nafouknou se a nechají se nést větrem",
+     "Vystřelují se proudem vody ze žaber",
+     "Plachtí na roztažených prsních ploutvích",
+     "Mávají ploutvemi jako ptáci křídly"
+    ],
+    "en": [
+     "They inflate and let the wind carry them",
+     "They jet themselves out with water from their gills",
+     "They glide on outspread pectoral fins",
+     "They flap their fins like birds' wings"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Velké prsní ploutve fungují jako nosné plochy a ryba po výskoku plachtí. Běžný „let“ měří kolem 50 m, s pomocí vzestupných proudů u vln až 400 m.",
+    "en": "The large pectoral fins act as aerofoils, so the fish glides after leaping out. A typical flight covers about 50 m (160 ft), and with updrafts along waves up to 400 m (1,300 ft)."
+   }
+  },
+  {
+   "id": "T327-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím se liší rozmnožování gupky neboli živorodky duhové (Poecilia reticulata) od většiny ryb?",
+    "en": "How does guppy (Poecilia reticulata) reproduction differ from that of most fish?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jikry nosí samec v tlamě",
+     "Jikry lepí na listy nad hladinou",
+     "Jikry klade do lastur mlžů",
+     "Rodí živá mláďata"
+    ],
+    "en": [
+     "The male carries the eggs in his mouth",
+     "It sticks its eggs to leaves above the water",
+     "It lays its eggs inside mussel shells",
+     "It gives birth to live young"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Gupky jsou živorodé ryby. Samice si navíc dokáže uložit spermie a oplodňovat jimi jikry ještě až osm měsíců po páření.",
+    "en": "Guppies are livebearers. Females can also store sperm and use it to fertilise eggs for up to eight months after mating."
+   }
+  },
+  {
+   "id": "T327-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "K čemu slouží rybám plynový měchýř?",
+    "en": "What do fish use their swim bladder for?"
+   },
+   "moznosti": {
+    "cs": [
+     "K vnímání světla a tmy kolem",
+     "Ke vznášení se v určité hloubce",
+     "K ukládání zásob tuku na zimu",
+     "K vylučování přebytečné soli"
+    ],
+    "en": [
+     "To sense light and darkness around",
+     "To hover at a given depth",
+     "To store fat reserves for winter",
+     "To excrete excess salt"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Plynem naplněný měchýř umožňuje kostnatým rybám zůstat v dané hloubce bez neustálého plavání. Paryby, jako žraloci a rejnoci, ho nemají a většina z nich dokáže hloubku řídit jen aktivním plaváním.",
+    "en": "The gas-filled bladder lets bony fish stay at a given depth without constant swimming. Cartilaginous fish such as sharks and rays lack one, and most of them can control their depth only by actively swimming."
+   }
+  },
+  {
+   "id": "T327-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím láká hlubinný ďas (anglicky deep-sea anglerfish) kořist v naprosté tmě?",
+    "en": "How does a deep-sea anglerfish lure prey in total darkness?"
+   },
+   "moznosti": {
+    "cs": [
+     "Třpytivými šupinami na boku",
+     "Pachem krve ve vodě",
+     "Světélkující „návnadou“ na hlavě",
+     "Hlasitým bubnováním"
+    ],
+    "en": [
+     "With glittering scales on its flanks",
+     "With the scent of blood in the water",
+     "With a glowing 'lure' on its head",
+     "With loud drumming"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Návnada sedí na špičce „prutu“, který vznikl přeměnou předních paprsků hřbetní ploutve. Ďas díky roztažitelným čelistem a žaludku spolkne i kořist až dvakrát větší, než je sám.",
+    "en": "The lure sits at the tip of a 'fishing rod' formed from modified front spines of the dorsal fin. Stretchy jaws and stomach let the anglerfish swallow prey up to twice its own size."
+   }
+  },
+  {
+   "id": "T327-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co ryby vnímají postranní čárou, řadou drobných pórů na bocích těla?",
+    "en": "What do fish sense with their lateral line, a row of tiny pores along their flanks?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pohyb a chvění okolní vody",
+     "Barvy a intenzitu světla",
+     "Magnetické pole Země",
+     "Slanost okolní vody"
+    ],
+    "en": [
+     "Movement and vibration of the surrounding water",
+     "Colours and light intensity",
+     "Earth's magnetic field",
+     "The salinity of the water"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Postranní čára zachycuje pohyb, chvění a tlakové změny ve vodě pomocí smyslových orgánů zvaných neuromasty. Slepé jeskynní formy tetry Astyanax mexicanus mají neuromasty v očnici a kolem ní větší a asi dvakrát citlivější než povrchové ryby téhož druhu.",
+    "en": "The lateral line detects movement, vibration and pressure changes in the water using sensory organs called neuromasts. Blind cave-dwelling Mexican tetras (Astyanax mexicanus) have bigger neuromasts in and around the eye orbit, about twice as sensitive as those of surface fish of the same species."
+   }
+  },
+  {
+   "id": "T327-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Podle čeho lze na šupinách některých ryb odhadnout jejich stáří?",
+    "en": "What on the scales of some fish can be used to estimate their age?"
+   },
+   "moznosti": {
+    "cs": [
+     "Podle celkového počtu šupin",
+     "Podle tloušťky slizu na nich",
+     "Podle toho, jak s věkem tmavnou",
+     "Podle kruhů podobných letokruhům"
+    ],
+    "en": [
+     "The total number of scales",
+     "The thickness of mucus on them",
+     "How dark they get with age",
+     "Rings similar to tree rings"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Na šupinách některých druhů se střídají pruhy rychlejšího a pomalejšího sezonního růstu zvané annuli. Podle nich lze určit stáří ryby, podobně jako se u stromů počítají letokruhy.",
+    "en": "The scales of some species show bands of uneven seasonal growth called annuli. They can be used to age the fish, much as tree rings are counted."
+   }
+  },
+  {
+   "id": "T327-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kde se tře úhoř říční (Anguilla anguilla)?",
+    "en": "Where does the European eel (Anguilla anguilla) spawn?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Baltském moři",
+     "Ve Středozemním moři",
+     "V Sargasovém moři",
+     "V horních tocích evropských řek"
+    ],
+    "en": [
+     "In the Baltic Sea",
+     "In the Mediterranean Sea",
+     "In the Sargasso Sea",
+     "In the upper reaches of European rivers"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Sargasové moře se považuje za místo tření úhořů, odkud se larvy asi 300 dní nechávají unášet k Evropě a u pobřeží se mění v průhledné „skleněné úhoře“. Samotné páření v přírodě dosud nikdo nepozoroval.",
+    "en": "The Sargasso Sea is regarded as the eels' spawning ground; from there the larvae drift towards Europe for about 300 days and turn into transparent 'glass eels' near the coast. Mating in the wild has never been observed."
+   }
+  },
+  {
+   "id": "T327-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co se stane s většinou tichomořských lososů (rod Oncorhynchus) po vytření?",
+    "en": "What happens to most Pacific salmon (genus Oncorhynchus) after spawning?"
+   },
+   "moznosti": {
+    "cs": [
+     "Uhynou",
+     "Zůstanou v řece a změní se ve sladkovodní formu",
+     "Přezimují v řece a na jaře se třou znovu",
+     "Vrátí se do moře a za rok se třou znovu"
+    ],
+    "en": [
+     "They die",
+     "They stay in the river and become a freshwater form",
+     "They overwinter in the river and spawn again in spring",
+     "They return to the sea and spawn again a year later"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Tichomořští lososi jsou učebnicovým příkladem živočichů, kteří se rozmnožují jen jednou za život. U atlantského lososa se asi 5–10 % ryb (hlavně samic) vrátí do moře a může se třít znovu.",
+    "en": "Pacific salmon are a textbook example of animals that breed only once in their lifetime. Among Atlantic salmon, about 5–10% (mostly females) return to the sea and can spawn again."
+   }
+  },
+  {
+   "id": "T327-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co se stane ve skupince klaunů očkatých (Amphiprion ocellaris) v sasance, když samice zmizí nebo uhyne?",
+    "en": "What happens in a group of clownfish (Amphiprion ocellaris) living in an anemone when the female disappears or dies?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rozmnožující se samec se změní v samici",
+     "Skupinka se rozpadne a sasanku opustí",
+     "Nejmladší rybka se změní v samici",
+     "Samci si přivedou samici z jiné sasanky"
+    ],
+    "en": [
+     "The breeding male changes sex and becomes female",
+     "The group breaks up and leaves the anemone",
+     "The youngest fish changes into a female",
+     "The males bring in a female from another anemone"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Klauni mění pohlaví ze samce na samici. Když samice zmizí, rozmnožující se samec změní pohlaví a zaujme její místo. Největší z nerozmnožujících se ryb se stane samcem a ostatní postoupí v hierarchii o stupeň výš.",
+    "en": "Clownfish change sex from male to female. When the female disappears, the breeding male changes sex and takes her place. The largest non-breeder becomes the male and the others move up the hierarchy."
+   }
+  },
+  {
+   "id": "T327-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč se latimérii podivné (Latimeria chalumnae) přezdívá „živoucí fosilie“?",
+    "en": "Why is the coelacanth (Latimeria chalumnae) nicknamed a 'living fossil'?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dožívá se několika set let",
+     "Našli ji zamrzlou v ledovci",
+     "Její kostra za života kamení",
+     "Znali ji jen ze zkamenělin"
+    ],
+    "en": [
+     "It lives for several centuries",
+     "It was found frozen in a glacier",
+     "Its skeleton turns to stone in life",
+     "It was known only from fossils"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Latimérie se považovaly za vyhynulé od konce křídy, dokud v roce 1938 nebyla jedna ulovena u Jižní Afriky. Druhý druh, Latimeria menadoensis, byl rozpoznán roku 1997 na rybím trhu v indonéském Manadu.",
+    "en": "Coelacanths were believed to have died out at the end of the Cretaceous until one was caught off South Africa in 1938. A second species, Latimeria menadoensis, was recognised in 1997 at a fish market in Manado, Indonesia."
+   }
+  },
+  {
+   "id": "T327-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Barevné okrasné ryby koi jsou vyšlechtěné formy které ryby?",
+    "en": "Colourful ornamental koi are bred varieties of which fish?"
+   },
+   "moznosti": {
+    "cs": [
+     "Plotice",
+     "Karase",
+     "Kapra",
+     "Lína"
+    ],
+    "en": [
+     "Roach",
+     "Crucian carp",
+     "Carp",
+     "Tench"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Koi jsou domestikovaní kapři druhu Cyprinus rubrofuscus (anglicky Amur carp) šlechtění na barvu. Soustavné šlechtění začalo ve 20. letech 19. století v japonské prefektuře Niigata. Japonské nišikigoi znamená „brokátový kapr“.",
+    "en": "Koi are domesticated Amur carp (Cyprinus rubrofuscus) selected for colour. Systematic breeding began in the 1820s in Niigata Prefecture, Japan. The Japanese 'nishikigoi' means 'brocaded carp'."
+   }
+  },
+  {
+   "id": "T327-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím jsou zvláštní lezci (rod Periophthalmus, anglicky mudskippers)?",
+    "en": "What is special about mudskippers (genus Periophthalmus)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sestřelují hmyz nad hladinou proudem vody",
+     "Velkou část života tráví mimo vodu na bahně",
+     "Celý život tráví v hlubokém moři",
+     "Žijí jen v zatopených podzemních jeskyních"
+    ],
+    "en": [
+     "They shoot down insects with jets of water",
+     "They spend much of their life out of water on mudflats",
+     "They spend their whole life in the deep sea",
+     "They live only in flooded underground caves"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Lezci mohou na souši strávit až tři čtvrtiny života. Vzduch dýchají mimo jiné přes sliznici tlamy a hrdla, ale jen dokud zůstávají vlhcí, a po bahně se odrážejí na prsních ploutvích.",
+    "en": "Mudskippers can spend up to three quarters of their life on land. Among other things they breathe air through the lining of the mouth and throat, but only while they stay wet, and they skip across mud on their pectoral fins."
+   }
+  },
+  {
+   "id": "T327-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co staví samec bojovnice pestré (Betta splendens), aby se postaral o jikry?",
+    "en": "What does a male Siamese fighting fish (Betta splendens) build to look after the eggs?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jamku vyhrabanou v písku",
+     "Hnízdo z bublinek na hladině",
+     "Kopeček z drobných kamínků",
+     "Úkryt z rozkousaných listů"
+    ],
+    "en": [
+     "A pit dug in the sand",
+     "A nest of bubbles at the surface",
+     "A mound of small pebbles",
+     "A shelter of chewed-up leaves"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Samec jikry v pěnovém hnízdě hlídá, dbá, aby žádná nespadla na dno, a hnízdo podle potřeby opravuje. Díky labyrintu, zvláštnímu orgánu k dýchání vzdušného kyslíku, bojovnice snáší i málo okysličenou vodu.",
+    "en": "The male guards the eggs in the nest, makes sure none fall to the bottom and repairs the nest as needed. A labyrinth organ that lets it breathe atmospheric oxygen helps the betta cope with oxygen-poor water."
+   }
+  },
+  {
+   "id": "T327-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Odborný název čeledi čtverzubcovitých, Tetraodontidae, znamená „čtyřzubí“. Jak se to projevuje?",
+    "en": "The family name of pufferfish, Tetraodontidae, means 'four-toothed'. What does this refer to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Během života čtyřikrát vymění chrup",
+     "Mají v tlamě čtyři řady jedovatých zubů",
+     "Zuby mají jen ve čtyřech koutcích tlamy",
+     "Zuby mají srostlé do zobáku ze čtyř částí"
+    ],
+    "en": [
+     "They replace their teeth four times in a lifetime",
+     "They have four rows of venomous teeth",
+     "They have teeth only in the four corners of the mouth",
+     "Their teeth are fused into a beak of four parts"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Horní i dolní zubní oblouk je srostlý v zobák, uprostřed rozdělený viditelným švem, takže připomíná čtyři velké zuby. Větší druhy jím rozlousknou i lastury mlžů. Čtverzubci navíc umějí pohybovat každým okem zvlášť.",
+    "en": "The upper and lower tooth arches are each fused into a beak split by a visible midline seam, so it looks like four large teeth. Larger species can crack open clams and mussels with it. Puffers can also move each eye independently."
+   }
+  },
+  {
+   "id": "T327-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve vnitřním uchu ryb jsou drobné útvary z uhličitanu vápenatého, které jim pomáhají udržovat rovnováhu a vnímat zvuk. Jak se jmenují?",
+    "en": "The inner ear of fish contains tiny calcium carbonate structures that help them keep their balance and detect sound. What are they called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Otolity",
+     "Fytolity",
+     "Koprolity",
+     "Gastrolity"
+    ],
+    "en": [
+     "Otoliths",
+     "Phytoliths",
+     "Coprolites",
+     "Gastroliths"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Otolity neboli ušní kamínky jsou součástí rovnovážného ústrojí ve vnitřním uchu. Mají je všichni obratlovci včetně člověka. Název pochází z řeckého „ucho“ a „kámen“.",
+    "en": "Otoliths, or ear stones, are part of the balance organs of the inner ear. All vertebrates have them, including humans. The name comes from the Greek for 'ear' and 'stone'."
+   }
+  },
+  {
+   "id": "T327-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Po kom nese jméno rod latimérie (Latimeria)?",
+    "en": "Who is the genus Latimeria named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Po přístavním městě, kde byl úlovek vyložen na břeh",
+     "Po kapitánovi trawleru, jehož síť rybu ulovila",
+     "Po kurátorce muzea, která rybu zachránila pro vědu",
+     "Po ichtyologovi, který rybu jako první vědecky popsal"
+    ],
+    "en": [
+     "The port town where the catch was landed",
+     "The trawler captain whose net caught the fish",
+     "The museum curator who saved the fish for science",
+     "The ichthyologist who first described the fish scientifically"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Marjorie Courtenay-Latimerová z muzea v East London si 22. 12. 1938 všimla neznámé ryby v úlovku trawleru Nerine. Ichtyolog J. L. B. Smith ji pojmenoval Latimeria chalumnae na její počest a podle vod u řeky Chalumna, kde byla ulovena.",
+    "en": "Marjorie Courtenay-Latimer of the East London Museum spotted an unknown fish in the trawler Nerine's catch on 22 December 1938. Ichthyologist J. L. B. Smith named it Latimeria chalumnae in her honour and after the waters near the Chalumna River where it was caught."
+   }
+  },
+  {
+   "id": "T327-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kteří dnešní živočichové jsou mezi rybami nejbližšími žijícími příbuznými čtyřnožců (obojživelníků, plazů, ptáků a savců)?",
+    "en": "Which living animals are, among fish, the closest living relatives of tetrapods (amphibians, reptiles, birds and mammals)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dvojdyšní",
+     "Latimérie",
+     "Lezci",
+     "Jeseteři"
+    ],
+    "en": [
+     "Lungfish",
+     "Coelacanths",
+     "Mudskippers",
+     "Sturgeons"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Molekulárně genetické analýzy ukazují, že dvojdyšní jsou sesterskou skupinou čtyřnožců, zatímco latimérie se odštěpily o něco dříve. Bahník východoafrický (Protopterus aethiopicus) má navíc největší známý genom obratlovců, asi 133 miliard párů bází.",
+    "en": "Molecular genetic analyses show that lungfish are the sister group of tetrapods, with coelacanths branching off slightly earlier. The marbled lungfish (Protopterus aethiopicus) also has the largest known vertebrate genome, about 133 billion base pairs."
+   }
+  },
+  {
+   "id": "T327-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak afričtí bahníci (rod Protopterus) přečkají období sucha, kdy jim vyschne řeka nebo bažina?",
+    "en": "How do African lungfish (genus Protopterus) survive a dry season when their river or swamp dries up?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přeplazí se po souši do jiné vody",
+     "Uhynou a přežijí jen jejich jikry",
+     "Schovají se ve vlhkých dutinách stromů",
+     "Zahrabou se do bahna a dýchají plícemi"
+    ],
+    "en": [
+     "They crawl overland to another body of water",
+     "They die and only their eggs survive",
+     "They hide in damp hollows of trees",
+     "They burrow into mud and breathe with lungs"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Bahníci se zavrtají do bahna pod vysychajícím dnem a mimo vodu tak mohou přežít mnoho měsíců. Dospělí mají zakrnělé žábry a asi 90 % kyslíku získávají plícemi, zbytek žábrami a kůží.",
+    "en": "African lungfish burrow into the mud beneath a drying stream bed and can survive out of water for many months. Adults have reduced gills and get about 90% of their oxygen through their lungs, the rest through gills and skin."
+   }
+  },
+  {
+   "id": "T327-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co udělá samec některých hlubinných ďasů (například druhu Ceratias holboelli), když najde samici?",
+    "en": "What does the male of some deep-sea anglerfish (for example Ceratias holboelli) do when he finds a female?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zakousne se do ní a natrvalo s ní sroste",
+     "Postaví jí hnízdo z jemného bahna na dně",
+     "Nosí její jikry v tlamě až do vylíhnutí",
+     "Odvede ji do mělčin, kde se spolu vytřou"
+    ],
+    "en": [
+     "He bites into her and permanently fuses with her",
+     "He builds her a nest of fine mud on the seabed",
+     "He carries her eggs in his mouth until they hatch",
+     "He leads her to shallow water where they spawn"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Samec je mnohem menší než samice: u druhu Ceratias holboelli dorůstá samice až 120 cm, samec jen asi 15 cm. Přichytí se k ní tlamou jako pohlavní parazit a postupně se včlení do jejích tkání i cév.",
+    "en": "The male is far smaller than the female: in Ceratias holboelli the female grows up to 120 cm (47 in), the male only about 15 cm (6 in). He latches on with his mouth as a sexual parasite and is gradually incorporated into her tissues and blood vessels."
+   }
+  },
+  {
+   "id": "T327-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V jaké hloubce byla podle záznamu zveřejněného v roce 2023 natočena nejhlouběji pozorovaná ryba (hlubinná ryba z čeledi Liparidae, anglicky snailfish)?",
+    "en": "At what depth was the deepest fish ever observed (a snailfish of the family Liparidae) filmed, according to a record published in 2023?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 5 300 m",
+     "Asi 6 900 m",
+     "Asi 8 300 m",
+     "Asi 10 900 m"
+    ],
+    "en": [
+     "About 5,300 m (17,400 ft)",
+     "About 6,900 m (22,600 ft)",
+     "About 8,300 m (27,200 ft)",
+     "About 10,900 m (35,800 ft)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ryba byla natočena v hloubce 8 336 m v příkopu Izu-Ogasawara u Japonska. Vědci odhadují, že kvůli biochemickým omezením nemůže žádný obratlovec žít hlouběji než asi 8 000–8 500 m.",
+    "en": "The fish was filmed at 8,336 m (27,349 ft) in the Izu–Ogasawara Trench off Japan. Scientists estimate that biochemical limits prevent any vertebrate from living deeper than about 8,000–8,500 m (26,200–27,900 ft)."
+   }
+  },
+  {
+   "id": "T327-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Která ryba je podle exempláře o hmotnosti 2 744 kg, nalezeného v roce 2021 u Azor, považována za nejtěžší kostnatou rybu?",
+    "en": "Which fish is regarded as the heaviest bony fish, based on a 2,744 kg (6,049 lb) specimen found near the Azores in 2021?"
+   },
+   "moznosti": {
+    "cs": [
+     "Marlín",
+     "Tuňák",
+     "Měsíčník",
+     "Arapaima"
+    ],
+    "en": [
+     "Marlin",
+     "Tuna",
+     "Sunfish",
+     "Arapaima"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Šlo o měsíčníka druhu Mola alexandrini. Exemplář od ostrova Faial měřil 325 cm a o 444 kg překonal dřívější rekord 2 300 kg z japonské Kamogawy z roku 1996. Rekord platí pro kostnaté ryby, žraloci a rejnoci patří mezi paryby s chrupavčitou kostrou.",
+    "en": "It was a sunfish of the species Mola alexandrini. The specimen from off Faial Island measured 325 cm (128 inches) and beat the previous record of 2,300 kg (5,071 lb) from Kamogawa, Japan, in 1996 by 444 kg (979 lb). The record is for bony fish; sharks and rays are cartilaginous fish."
+   }
+  },
+  {
+   "id": "T327-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který ostrovní stát se přezdívá „země létajících ryb“ a má létající rybu mezi národními symboly, třeba na mincích?",
+    "en": "Which island nation is nicknamed 'the land of the flying fish' and has the flying fish among its national symbols, for instance on coins?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jamajka",
+     "Barbados",
+     "Fidži",
+     "Maledivy"
+    ],
+    "en": [
+     "Jamaica",
+     "Barbados",
+     "Fiji",
+     "Maldives"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Létající ryba je na barbadoských mincích i v logu tamního turistického úřadu. Za rekordní se považuje let dlouhý 45 sekund, který roku 2008 natočil štáb NHK u japonského ostrova Jakušima.",
+    "en": "The flying fish appears on Barbadian coins and in the logo of the island's tourism authority. A 45-second flight filmed by an NHK crew off Japan's Yakushima Island in 2008 is regarded as the record."
+   }
+  },
+  {
+   "id": "T327-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Piraně vydávají zvuky rychlými stahy zvukových svalů. Který orgán jim podle výzkumů slouží jako rezonátor?",
+    "en": "Piranhas produce sounds through rapid contractions of their sonic muscles. Which organ, according to research, serves as a resonator?"
+   },
+   "moznosti": {
+    "cs": [
+     "Postranní čára",
+     "Plynový měchýř",
+     "Žaberní víčka",
+     "Žaludek"
+    ],
+    "en": [
+     "Lateral line",
+     "Swim bladder",
+     "Gill covers",
+     "Stomach"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "U piraně Pygocentrus nattereri (anglicky red-bellied piranha) může plynový měchýř hrát důležitou roli rezonátoru. U kaprů a sumců je navíc spojen s vnitřním uchem čtyřmi Weberovými kůstkami, které jim pomáhají vnímat zvuk a chvění.",
+    "en": "In the red-bellied piranha (Pygocentrus nattereri), the swim bladder may play an important role as a resonator. In carp and catfish it is also connected to the inner ear by four Weberian ossicles, which help them detect sound and vibration."
+   }
+  },
+  {
+   "id": "T327-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Mořský koník Hippocampus zosterae (anglicky dwarf seahorse) patří k nejpomalejším plavcům vůbec. Jakou nejvyšší rychlostí se pohybuje?",
+    "en": "The dwarf seahorse (Hippocampus zosterae) is one of the slowest swimmers of all. What is its top speed?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 1,5 m za hodinu",
+     "Asi 15 m za hodinu",
+     "Asi 150 m za hodinu",
+     "Asi 1,5 km za hodinu"
+    ],
+    "en": [
+     "About 1.5 m (4.9 ft) per hour",
+     "About 15 m (49 ft) per hour",
+     "About 150 m (490 ft) per hour",
+     "About 1.5 km (0.9 mi) per hour"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Mořští koníci se pohánějí hřbetní ploutví a prsními ploutvemi jen kormidlují. Nemají ani žaludek, a proto musejí jíst téměř nepřetržitě.",
+    "en": "Seahorses are propelled by the dorsal fin and only steer with the pectoral fins. They also lack a stomach, so they must eat almost constantly."
+   }
+  }
+ ]
+}

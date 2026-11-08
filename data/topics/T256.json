@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T256",
+ "nazev": {
+  "cs": "Afrika: státy, řeky a kultury",
+  "en": "Africa: Countries, Rivers and Cultures"
+ },
+ "kategorie": {
+  "id": "zemepis",
+  "nazev": {
+   "cs": "Zeměpis",
+   "en": "Geography"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T256-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolikátý největší světadíl je Afrika podle rozlohy?",
+    "en": "Where does Africa rank among the continents by area?"
+   },
+   "moznosti": {
+    "cs": [
+     "1.",
+     "2.",
+     "3.",
+     "4."
+    ],
+    "en": [
+     "1st",
+     "2nd",
+     "3rd",
+     "4th"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Afrika měří asi 30 milionů km² a větší je jen Asie. Druhá je i v počtu obyvatel.",
+    "en": "Africa covers about 30 million km² (11.6 million sq mi), and only Asia is larger. It is also second by population."
+   }
+  },
+  {
+   "id": "T256-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterým průlivem je Afrika v nejužším místě oddělena od Evropy?",
+    "en": "Which strait separates Africa from Europe at their closest point?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hormuzským průlivem",
+     "Bosporem",
+     "Gibraltarským průlivem",
+     "Bab al-Mandab"
+    ],
+    "en": [
+     "The Strait of Hormuz",
+     "The Bosporus",
+     "The Strait of Gibraltar",
+     "The Bab-el-Mandeb"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Gibraltarský průliv mezi jižním Španělskem a severozápadní Afrikou (Marokem) je v nejužším místě široký jen asi 13 km a spojuje Středozemní moře s Atlantikem.",
+    "en": "The Strait of Gibraltar between southern Spain and northwest Africa (Morocco) is only about 13 km (8 mi) wide at its narrowest and links the Mediterranean with the Atlantic."
+   }
+  },
+  {
+   "id": "T256-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo se v roce 1994 stal prvním černošským prezidentem Jihoafrické republiky poté, co strávil přes čtvrt století ve vězení?",
+    "en": "Who became South Africa's first Black president in 1994 after spending more than a quarter of a century in prison?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nelson Mandela",
+     "Desmond Tutu",
+     "Thabo Mbeki",
+     "Jacob Zuma"
+    ],
+    "en": [
+     "Nelson Mandela",
+     "Desmond Tutu",
+     "Thabo Mbeki",
+     "Jacob Zuma"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Mandela byl propuštěn v roce 1990 a o čtyři roky později zvítězil v prvních plně demokratických volbách v zemi.",
+    "en": "Mandela was released in 1990 and four years later won the country's first fully representative democratic election."
+   }
+  },
+  {
+   "id": "T256-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který africký stát má nejvíce obyvatel?",
+    "en": "Which African country has the largest population?"
+   },
+   "moznosti": {
+    "cs": [
+     "Egypt",
+     "Etiopie",
+     "DR Kongo",
+     "Nigérie"
+    ],
+    "en": [
+     "Egypt",
+     "Ethiopia",
+     "DR Congo",
+     "Nigeria"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Nigérie je nejlidnatější zemí Afriky s velkým náskokem před Etiopií a Egyptem.",
+    "en": "Nigeria is Africa's most populous country, well ahead of Ethiopia and Egypt."
+   }
+  },
+  {
+   "id": "T256-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který stát je rozlohou největší v Africe?",
+    "en": "Which country is the largest in Africa by area?"
+   },
+   "moznosti": {
+    "cs": [
+     "Súdán",
+     "Alžírsko",
+     "DR Kongo",
+     "Libye"
+    ],
+    "en": [
+     "Sudan",
+     "Algeria",
+     "DR Congo",
+     "Libya"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Alžírsko je největší africkou zemí. Prvenství převzalo v roce 2011, kdy se od Súdánu odtrhl Jižní Súdán.",
+    "en": "Algeria is Africa's largest country. It took the top spot in 2011, when South Sudan split from Sudan."
+   }
+  },
+  {
+   "id": "T256-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co doslova znamená svahilské rčení „hakuna matata“, které proslavil film Lví král?",
+    "en": "What does the Swahili phrase 'hakuna matata', made famous by The Lion King, literally mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vítej doma",
+     "Žádné starosti",
+     "Dobrou chuť",
+     "Ať žije král"
+    ],
+    "en": [
+     "Welcome home",
+     "No worries",
+     "Enjoy your meal",
+     "Long live the king"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "„Hakuna“ znamená „není/nejsou“ a „matata“ „starosti“. Ve filmu z roku 1994 tak Timon a Pumbaa radí Simbovi, aby nechal minulost za sebou.",
+    "en": "'Hakuna' means 'there are no' and 'matata' means 'worries'. In the 1994 film, Timon and Pumbaa use it to urge Simba to leave his past behind."
+   }
+  },
+  {
+   "id": "T256-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterým směrem teče Nil?",
+    "en": "In which direction does the Nile flow?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na západ",
+     "Na východ",
+     "Na jih",
+     "Na sever"
+    ],
+    "en": [
+     "West",
+     "East",
+     "South",
+     "North"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Nil teče z východoafrických hor na sever až do Středozemního moře. Proto se v Egyptě jižní část země nazývá Horní Egypt a severní Dolní Egypt.",
+    "en": "The Nile flows north from the highlands of East Africa to the Mediterranean. That is why southern Egypt is called Upper Egypt and the north Lower Egypt."
+   }
+  },
+  {
+   "id": "T256-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi leží Timbuktu, ve středověku proslulé centrum obchodu a islámské vzdělanosti?",
+    "en": "In which country is Timbuktu, a famous medieval centre of trade and Islamic learning?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mali",
+     "Čad",
+     "Niger",
+     "Mauritánie"
+    ],
+    "en": [
+     "Mali",
+     "Chad",
+     "Niger",
+     "Mauritania"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Timbuktu leží v Mali. Za Songhajské říše (Songhai) v 15. a 16. století bylo velkým obchodním centrem proslulým učenci a náboženskou výukou. Slavnou mešitu Djinguereber tu dal postavit Mansa Músá; dokončena byla roku 1327.",
+    "en": "Timbuktu lies in Mali. Under the Songhai Empire in the 15th and 16th centuries it was a major trading centre known for its scholars and religious teaching. Mansa Musa had its famous Djinguereber Mosque built; it was completed in 1327."
+   }
+  },
+  {
+   "id": "T256-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který evropský jazyk je podle ústavy z roku 2010 vedle malgaštiny úředním jazykem Madagaskaru?",
+    "en": "Under the 2010 constitution, which European language is an official language of Madagascar alongside Malagasy?"
+   },
+   "moznosti": {
+    "cs": [
+     "Francouzština",
+     "Angličtina",
+     "Nizozemština",
+     "Portugalština"
+    ],
+    "en": [
+     "French",
+     "English",
+     "Dutch",
+     "Portuguese"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Madagaskar byl francouzskou kolonií až do roku 1960, a francouzština proto zůstala druhým úředním jazykem.",
+    "en": "Madagascar was a French colony until 1960, so French has remained its second official language."
+   }
+  },
+  {
+   "id": "T256-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi leží Kilimandžáro?",
+    "en": "In which country is Mount Kilimanjaro?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tanzanie",
+     "Uganda",
+     "Keňa",
+     "Etiopie"
+    ],
+    "en": [
+     "Tanzania",
+     "Uganda",
+     "Kenya",
+     "Ethiopia"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kilimandžáro stojí v tanzanském regionu Kilimandžáro. S výškou 5 895 m je nejvyšší samostatně stojící horou světa nad hladinou moře, tedy horou, která není součástí pohoří.",
+    "en": "Kilimanjaro rises in Tanzania's Kilimanjaro Region. At 5,895 m (19,341 ft) it is the world's highest free-standing mountain above sea level, meaning it is not part of a range."
+   }
+  },
+  {
+   "id": "T256-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém městě se stékají Bílý a Modrý Nil?",
+    "en": "In which city do the White Nile and the Blue Nile meet?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asuán",
+     "Džuba",
+     "Káhira",
+     "Chartúm"
+    ],
+    "en": [
+     "Aswan",
+     "Juba",
+     "Cairo",
+     "Khartoum"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Obě ramena Nilu se spojují v súdánském hlavním městě Chartúmu a odtud pokračují společně jako Nil.",
+    "en": "The two branches meet in Khartoum, the capital of Sudan, and from there flow on together as the Nile."
+   }
+  },
+  {
+   "id": "T256-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč bývají Viktoriiny vodopády označovány za největší vodní clonu na světě?",
+    "en": "Why is Victoria Falls described as the world's largest sheet of falling water?"
+   },
+   "moznosti": {
+    "cs": [
+     "Leží přesně na rovníku",
+     "Spojují velkou šířku s velkou výškou",
+     "Jsou nejširší vodopády světa",
+     "Jsou nejvyšší vodopády světa"
+    ],
+    "en": [
+     "It lies exactly on the equator",
+     "It combines great width with great height",
+     "It is the world's widest waterfall",
+     "It is the world's tallest waterfall"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Vodopády na Zambezi jsou široké 1 708 m a vysoké 108 m. Širší jsou třeba vodopády Iguaçu, ale díky kombinaci šířky a výšky tvoří Viktoriiny vodopády největší padající vodní stěnu.",
+    "en": "The falls on the Zambezi are 1,708 m (5,604 ft) wide and 108 m (354 ft) high. Iguazu, for example, is wider, but the combination of width and height makes Victoria Falls the largest falling sheet of water."
+   }
+  },
+  {
+   "id": "T256-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ze kterého evropského jazyka se vyvinula afrikánština, jeden z úředních jazyků Jihoafrické republiky?",
+    "en": "Which European language did Afrikaans, one of South Africa's official languages, develop from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z francouzštiny",
+     "Z němčiny",
+     "Z angličtiny",
+     "Z nizozemštiny"
+    ],
+    "en": [
+     "French",
+     "German",
+     "English",
+     "Dutch"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Afrikánština vznikla z holandského nářečí nizozemštiny, kterým v 17. a 18. století mluvili osadníci a otroci v Kapské kolonii. Postupně se od nizozemštiny oddělila v samostatný jazyk.",
+    "en": "Afrikaans grew out of the Hollandic dialect of Dutch spoken by settlers and enslaved people in the Cape Colony in the 17th and 18th centuries, and gradually became a separate language."
+   }
+  },
+  {
+   "id": "T256-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik měsíců má tradiční etiopský kalendář?",
+    "en": "How many months does the traditional Ethiopian calendar have?"
+   },
+   "moznosti": {
+    "cs": [
+     "10",
+     "12",
+     "13",
+     "14"
+    ],
+    "en": [
+     "10",
+     "12",
+     "13",
+     "14"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Etiopský kalendář má 12 měsíců po 30 dnech a k nim 13. měsíc, který trvá 5 dní, v přestupném roce 6.",
+    "en": "The Ethiopian calendar has 12 months of 30 days plus a 13th month that lasts 5 days, or 6 in a leap year."
+   }
+  },
+  {
+   "id": "T256-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím je proslulé etiopské město Lalibela?",
+    "en": "What is the Ethiopian town of Lalibela famous for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Obřími kamennými obelisky",
+     "Královským hradním areálem",
+     "Kostely vytesanými do skály",
+     "Kamennými pyramidami"
+    ],
+    "en": [
+     "Giant stone obelisks",
+     "A royal castle complex",
+     "Churches carved out of solid rock",
+     "Stone pyramids"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kostely jsou monolitické – vytesané do jediného skalního masivu. Tradice je připisuje králi Lalibelovi (vládl asi 1181–1221) a od roku 1978 jsou na seznamu UNESCO.",
+    "en": "The churches are monolithic, hewn from solid rock. Tradition credits them to King Lalibela (reigned c. 1181–1221), and they have been a UNESCO World Heritage Site since 1978."
+   }
+  },
+  {
+   "id": "T256-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co se geologicky děje ve východoafrické příkopové propadlině (East African Rift)?",
+    "en": "What is happening geologically in the East African Rift?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vznikla dopadem obřího meteoritu",
+     "Africká deska se tu rozestupuje na dvě",
+     "Vyhloubila ji řeka Nil",
+     "Vyhloubily ji ledovce v době ledové"
+    ],
+    "en": [
+     "It was formed by a giant meteorite impact",
+     "The African plate is splitting in two here",
+     "The Nile carved it out",
+     "Glaciers carved it during the Ice Age"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Somálská deska se tu odděluje od zbytku africké (núbijské) desky. Podle měření se rift rozevírá asi o 5–7 mm ročně.",
+    "en": "The Somali plate is separating here from the rest of the African (Nubian) plate. Measurements put the rift's opening rate at about 5–7 mm (0.20–0.28 inches) a year."
+   }
+  },
+  {
+   "id": "T256-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Z jakého materiálu je postavena Velká mešita v Djenné (Mali)?",
+    "en": "What material is the Great Mosque of Djenné in Mali built from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z vápencových kvádrů",
+     "Z tropického dřeva",
+     "Z korálových bloků",
+     "Z nepálených hliněných cihel"
+    ],
+    "en": [
+     "Limestone blocks",
+     "Tropical timber",
+     "Coral blocks",
+     "Sun-dried mud bricks"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Současná mešita z roku 1907 je stejně jako téměř celé město postavena ze sluncem sušených hliněných cihel s omítkou. Omítka se musí každý rok obnovovat.",
+    "en": "The current mosque, built in 1907, is made, like almost the whole town, of sun-baked earth bricks coated with plaster. The plaster has to be renewed every year."
+   }
+  },
+  {
+   "id": "T256-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který stát je nejmenší na africké pevnině?",
+    "en": "Which is the smallest country on mainland Africa?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rwanda",
+     "Džibutsko",
+     "Gambie",
+     "Eswatini (Svazijsko)"
+    ],
+    "en": [
+     "Rwanda",
+     "Djibouti",
+     "The Gambia",
+     "Eswatini (Swaziland)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Gambie měří asi 11 300 km². Je to úzký pruh podél řeky Gambie, z pevniny obklopený Senegalem a v nejširším místě široký necelých 50 km.",
+    "en": "The Gambia covers about 11,300 km² (4,360 sq mi). It is a narrow strip along the Gambia River, surrounded by Senegal on land and less than 50 km (31 mi) across at its widest."
+   }
+  },
+  {
+   "id": "T256-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik afrických států je členem OSN (k roku 2026)?",
+    "en": "How many African states are members of the United Nations (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "46",
+     "50",
+     "54",
+     "58"
+    ],
+    "en": [
+     "46",
+     "50",
+     "54",
+     "58"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Členy OSN je 54 afrických států. Kromě nich existují dva státy s omezeným uznáním: Saharská arabská demokratická republika (Západní Sahara) a Somaliland. Nejmladší africký stát, Jižní Súdán, je nezávislý od roku 2011.",
+    "en": "54 African states are UN members. There are also two states with limited recognition: the Sahrawi Arab Democratic Republic (Western Sahara) and Somaliland. Africa's youngest state, South Sudan, has been independent since 2011."
+   }
+  },
+  {
+   "id": "T256-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak dlouho trvala anglo-zanzibarská válka z roku 1896, považovaná za nejkratší válku v zaznamenaných dějinách?",
+    "en": "How long did the Anglo-Zanzibar War of 1896, considered the shortest war in recorded history, last?"
+   },
+   "moznosti": {
+    "cs": [
+     "Méně než hodinu",
+     "Asi jeden den",
+     "Asi jeden týden",
+     "Asi jeden měsíc"
+    ],
+    "en": [
+     "Less than an hour",
+     "About a day",
+     "About a week",
+     "About a month"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Válka se odehrála 27. srpna 1896 a trvala podle různých údajů 38 až 45 minut. Britské ostřelování při ní zapálilo sultánův palác.",
+    "en": "The war took place on 27 August 1896 and, depending on the source, lasted 38 to 45 minutes. The British bombardment set the sultan's palace on fire."
+   }
+  },
+  {
+   "id": "T256-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "S kterým jazykem je malgaština, jazyk Madagaskaru, nejblíže příbuzná?",
+    "en": "Which language is Malagasy, the language of Madagascar, most closely related to?"
+   },
+   "moznosti": {
+    "cs": [
+     "S tamilštinou (jižní Indie)",
+     "S jazykem maʼanyan (Borneo)",
+     "S arabštinou (Omán)",
+     "Se svahilštinou (východní Afrika)"
+    ],
+    "en": [
+     "Tamil (southern India)",
+     "Maʼanyan (Borneo)",
+     "Arabic (Oman)",
+     "Swahili (East Africa)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Malgaština patří mezi austronéské jazyky a je nejblíže příbuzná jazyku maʼanyan z povodí řeky Barito na jihu Bornea. Svědčí to o tom, že Madagaskar osídlili mořeplavci z jihovýchodní Asie.",
+    "en": "Malagasy is an Austronesian language, most closely related to Maʼanyan from the Barito River region of southern Borneo – evidence that Madagascar was settled by seafarers from Southeast Asia."
+   }
+  },
+  {
+   "id": "T256-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím je zvláštní tok řeky Niger?",
+    "en": "What is unusual about the course of the Niger River?"
+   },
+   "moznosti": {
+    "cs": [
+     "Celá jeho voda se vypaří ve vnitrozemské deltě",
+     "Teče podle ročního období střídavě oběma směry",
+     "Dvakrát protíná rovník",
+     "Pramení u Atlantiku, ale teče k Sahaře"
+    ],
+    "en": [
+     "All its water evaporates in its inland delta",
+     "It flows in both directions depending on the season",
+     "It crosses the equator twice",
+     "It rises near the Atlantic but flows towards the Sahara"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Niger pramení v Guineji jen asi 240 km od oceánu, teče však do vnitrozemí; až u Timbuktu se stáčí k jihovýchodu do Guinejského zálivu. Tento oblouk geografy mátl dvě století.",
+    "en": "The Niger rises in Guinea only about 240 km (150 mi) from the ocean but flows inland; only near Timbuktu does it turn southeast to the Gulf of Guinea. This boomerang course puzzled geographers for two centuries."
+   }
+  },
+  {
+   "id": "T256-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Které africké jezero je považováno za jezero s největším počtem druhů ryb na světě?",
+    "en": "Which African lake is considered to have more fish species than any other lake in the world?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tanganika",
+     "Čadské jezero",
+     "Malawi (Nyasa)",
+     "Viktoriino jezero"
+    ],
+    "en": [
+     "Lake Tanganyika",
+     "Lake Chad",
+     "Lake Malawi (Nyasa)",
+     "Lake Victoria"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jezero Malawi, zvané také Nyasa, je dlouhé asi 580 km a žije v něm víc druhů ryb než v kterémkoli jiném jezeře na Zemi – zaznamenány byly stovky druhů. Je to nejjižnější z jezer východoafrického riftu.",
+    "en": "Lake Malawi, also called Lake Nyasa, is about 580 km (360 mi) long and has more fish species than any other lake on Earth – hundreds of species have been recorded. It is the southernmost of the East African Rift lakes."
+   }
+  },
+  {
+   "id": "T256-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím jsou pozoruhodné mohutné kamenné zdi Velkého Zimbabwe?",
+    "en": "What is remarkable about the massive stone walls of Great Zimbabwe?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jsou postaveny nasucho, bez malty",
+     "Kameny spojuje roztavené železo",
+     "Jsou vytesány z jediného skalního bloku",
+     "Jsou z pálených cihel s vápennou omítkou"
+    ],
+    "en": [
+     "They were built dry, without mortar",
+     "The stones are joined with molten iron",
+     "They were carved from a single block of rock",
+     "They are made of fired bricks with lime plaster"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Stavba kamenných budov začala v 11. století a pokračovala přes 300 let; zdi jsou z kamene skládaného nasucho. Podle zříceniny se v roce 1980 pojmenoval nově nezávislý stát Zimbabwe.",
+    "en": "Construction of the stone buildings began in the 11th century and continued for over 300 years; the walls are dry-stone masonry. In 1980 the newly independent state of Zimbabwe was named after the site."
+   }
+  },
+  {
+   "id": "T256-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo je považován za zakladatele Malijské říše (kolem roku 1235)?",
+    "en": "Who is regarded as the founder of the Mali Empire (around 1235)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sonni Ali",
+     "Askia Muhammad",
+     "Mansa Músá",
+     "Sundiata Keita"
+    ],
+    "en": [
+     "Sonni Ali",
+     "Askia Muhammad",
+     "Mansa Musa",
+     "Sundiata Keita"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Sundiata porazil v bitvě u Kiriny krále Sosso Soumaora Kantého a stal se prvním mansou (císařem) Mali. Jeho příběh dodnes předávají griotové v ústně tradovaném Eposu o Sundiatovi.",
+    "en": "Sundiata defeated King Soumaoro Kanté of Sosso at the Battle of Kirina and became Mali's first mansa (emperor). His story is still passed on by griots in the oral Epic of Sundiata."
+   }
+  },
+  {
+   "id": "T256-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Když v roce 1889 poprvé doloženě stanuli lidé na vrcholu Kilimandžára, která koloniální mocnost tehdy oblast ovládala?",
+    "en": "When people first reached the summit of Kilimanjaro in a recorded ascent in 1889, which colonial power controlled the area?"
+   },
+   "moznosti": {
+    "cs": [
+     "Portugalsko",
+     "Německo",
+     "Velká Británie",
+     "Francie"
+    ],
+    "en": [
+     "Portugal",
+     "Germany",
+     "Britain",
+     "France"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Hora patřila k Německé východní Africe. Němec Hans Meyer, který vystoupil na vrchol s rakouským horolezcem Ludwigem Purtschellerem, ho nazval Kaiser-Wilhelm-Spitze; v roce 1964 byl vrchol přejmenován na Uhuru Peak.",
+    "en": "The mountain was part of German East Africa. The German Hans Meyer, who reached the summit with Austrian mountaineer Ludwig Purtscheller, named it Kaiser-Wilhelm-Spitze; in 1964 it was renamed Uhuru Peak."
+   }
+  },
+  {
+   "id": "T256-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím se vyznačuje písmo ge'ez, kterým se píše amharština?",
+    "en": "What is characteristic of the Geʽez script used to write Amharic?"
+   },
+   "moznosti": {
+    "cs": [
+     "Každý znak obvykle spojuje souhlásku s určitou samohláskou",
+     "Každý znak představuje celé slovo jako v čínštině",
+     "Vychází z latinky doplněné o diakritiku",
+     "Píše se shora dolů ve svislých sloupcích"
+    ],
+    "en": [
+     "Each character usually combines a consonant with a specific vowel",
+     "Each character stands for a whole word, as in Chinese",
+     "It is based on the Latin alphabet with added diacritics",
+     "It is written top to bottom in vertical columns"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Ge'ez je abugida: samohláska se vyjádří úpravou tvaru souhláskového znaku. Původně se psalo zprava doleva, dnes zleva doprava, a vedle amharštiny se jím píše i tigriňa v Etiopii a Eritreji.",
+    "en": "Geʽez is an abugida: the vowel is shown by modifying the shape of the consonant letter. It was originally written right to left but is now written left to right, and besides Amharic it is used for Tigrinya in Ethiopia and Eritrea."
+   }
+  },
+  {
+   "id": "T256-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ze kterého jezera vytéká Modrý Nil?",
+    "en": "From which lake does the Blue Nile flow out?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Viktoriina jezera",
+     "Z Albertova jezera",
+     "Z jezera Turkana",
+     "Z jezera Tana"
+    ],
+    "en": [
+     "Lake Victoria",
+     "Lake Albert",
+     "Lake Turkana",
+     "Lake Tana"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Modrý Nil pramení v etiopském jezeře Tana a je podle objemu vody hlavní zdrojnicí Nilu. Viktoriino a Albertovo jezero naopak leží na Bílém Nilu.",
+    "en": "The Blue Nile rises in Ethiopia's Lake Tana and is the Nile's main headstream by water volume. Lakes Victoria and Albert, by contrast, lie on the White Nile."
+   }
+  },
+  {
+   "id": "T256-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "O kolik let je etiopský letopočet pozadu za gregoriánským kalendářem?",
+    "en": "By how many years does the Ethiopian year count lag behind the Gregorian calendar?"
+   },
+   "moznosti": {
+    "cs": [
+     "O 1–2 roky",
+     "O 3–4 roky",
+     "O 7–8 let",
+     "O 12–13 let"
+    ],
+    "en": [
+     "1–2 years",
+     "3–4 years",
+     "7–8 years",
+     "12–13 years"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Etiopský Nový rok připadá na 11. září (v roce před gregoriánským přestupným rokem na 12. září). Od 1. ledna do etiopského Nového roku je etiopský letopočet o 8 let menší než gregoriánský, potom o 7. Etiopský rok 2000 tak začal až v září 2007.",
+    "en": "Ethiopian New Year falls on 11 September (12 September in the year before a Gregorian leap year). From 1 January until Ethiopian New Year the Ethiopian year is eight less than the Gregorian one, and seven less afterwards. Ethiopian year 2000 therefore began only in September 2007."
+   }
+  },
+  {
+   "id": "T256-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ptáci na vlajce Zimbabwe mají předlohu v soškách nalezených ve Velkém Zimbabwe. Z jakého materiálu jsou tyto sošky vytesány?",
+    "en": "The birds on Zimbabwe's flag are modelled on carvings found at Great Zimbabwe. What material were these carvings made from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z ebenového dřeva",
+     "Z mastku (steatitu)",
+     "Z obsidiánu",
+     "Ze slonoviny"
+    ],
+    "en": [
+     "Ebony",
+     "Soapstone (steatite)",
+     "Obsidian",
+     "Ivory"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Mastkové „zimbabwské ptáky“ převzala už rhodéská vlajka a znak a nezávislé Zimbabwe z nich udělalo národní symbol.",
+    "en": "The soapstone 'Zimbabwe Birds' already featured on Rhodesia's flag and coat of arms, and independent Zimbabwe adopted them as a national symbol."
+   }
+  }
+ ]
+}

@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T010",
+ "nazev": {
+  "cs": "Odkud pochází naše jídlo",
+  "en": "Where Our Food Comes From"
+ },
+ "kategorie": {
+  "id": "jidlo-a-piti",
+  "nazev": {
+   "cs": "Jídlo a pití",
+   "en": "Food & Drink"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T010-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Odkud pocházejí brambory?",
+    "en": "Where do potatoes come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Peru a Bolívie",
+     "Z Ruska a Ukrajiny",
+     "Z Německa a Polska",
+     "Z Irska a Skotska"
+    ],
+    "en": [
+     "From Peru and Bolivia",
+     "From Russia and Ukraine",
+     "From Germany and Poland",
+     "From Ireland and Scotland"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Brambory zdomácnili předkolumbovští zemědělci v Andách kolem jezera Titicaca, na pomezí dnešního Peru a Bolívie, zhruba před 7 000–10 000 lety.",
+    "en": "Potatoes were domesticated by pre-Columbian farmers in the Andes around Lake Titicaca, on the border of today's Peru and Bolivia, roughly 7,000–10,000 years ago."
+   }
+  },
+  {
+   "id": "T010-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Podle legendy si etiopský pastevec Kaldi všiml povzbuzujícího účinku kávových plodů na svých zvířatech. Jakých?",
+    "en": "According to legend, the Ethiopian herder Kaldi noticed the stimulating effect of coffee cherries on his animals. Which ones?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kravách",
+     "Kozách",
+     "Ovcích",
+     "Velbloudech"
+    ],
+    "en": [
+     "Cows",
+     "Goats",
+     "Sheep",
+     "Camels"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Podle legendy kozy po spásání kávových plodů nemohly v noci spát. Příběh se ale v pramenech objevuje až v roce 1671; skutečností je, že kávovník arabský pochází z vysočin jihozápadní Etiopie.",
+    "en": "In the legend the goats could not sleep at night after eating coffee cherries. The tale, however, does not appear in records before 1671; what is true is that Arabica coffee is native to the highlands of south-western Ethiopia."
+   }
+  },
+  {
+   "id": "T010-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi se čaj začal pít jako první?",
+    "en": "In which country did people first start drinking tea?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Japonsku",
+     "V Číně",
+     "V Turecku",
+     "V Británii"
+    ],
+    "en": [
+     "Japan",
+     "China",
+     "Turkey",
+     "Britain"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Čajovník pochází z pohraničí jihozápadní Číny a severního Myanmaru a v Číně se čaj pil nejdříve, původně jako lék. Do Evropy se dostal až na začátku 17. století.",
+    "en": "The tea plant comes from the borderlands of south-western China and northern Myanmar, and tea was first drunk in China, originally as a medicine. It reached Europe only in the early 17th century."
+   }
+  },
+  {
+   "id": "T010-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která civilizace pila nápoj z kakaa dávno před příchodem Evropanů?",
+    "en": "Which civilisation drank a cacao beverage long before Europeans arrived?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vikingové",
+     "Egypťané",
+     "Mayové",
+     "Římané"
+    ],
+    "en": [
+     "The Vikings",
+     "The Egyptians",
+     "The Maya",
+     "The Romans"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Mayové pili kakaový nápoj při obřadech, svatbách i hostinách a cenili si jeho pěny, kterou vytvářeli přeléváním z výšky mezi nádobami. Kakao ale znaly už starší mezoamerické kultury, například Olmékové.",
+    "en": "The Maya drank a cacao beverage at ceremonies, weddings and feasts and prized its foam, made by pouring the drink from a height between vessels. Cacao was, however, known to even older Mesoamerican cultures, such as the Olmec."
+   }
+  },
+  {
+   "id": "T010-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ze kterého italského města pochází pizza, jak ji známe dnes?",
+    "en": "Which Italian city is the home of pizza as we know it today?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Neapole",
+     "Z Milána",
+     "Z Říma",
+     "Z Benátek"
+    ],
+    "en": [
+     "Naples",
+     "Milan",
+     "Rome",
+     "Venice"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Moderní pizza se vyvinula z placek v Neapoli v 18. nebo na počátku 19. století. Příběh, že pizza Margherita vznikla v roce 1889 pro královnu Markétu, je podle historiků spíš legendou.",
+    "en": "Modern pizza evolved from flatbreads in Naples in the 18th or early 19th century. The story that pizza Margherita was created in 1889 for Queen Margherita is, according to historians, more legend than fact."
+   }
+  },
+  {
+   "id": "T010-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ze které země pochází kimči, kvašená zelenina s chilli?",
+    "en": "Which country does kimchi, the fermented vegetable dish with chilli, come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Vietnamu",
+     "Z Číny",
+     "Z Japonska",
+     "Z Koreje"
+    ],
+    "en": [
+     "Vietnam",
+     "China",
+     "Japan",
+     "Korea"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kimči je tradiční korejská příloha, nejčastěji z pekingského zelí nebo korejské ředkve. Kimdžang – společná příprava kimči na zimu – je od roku 2013 zapsán na seznamu nehmotného kulturního dědictví UNESCO.",
+    "en": "Kimchi is a traditional Korean side dish, most often made from napa cabbage or Korean radish. Kimjang – the communal making of kimchi for winter – has been on UNESCO's list of Intangible Cultural Heritage since 2013."
+   }
+  },
+  {
+   "id": "T010-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ze které země pochází guláš?",
+    "en": "Which country does goulash come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Česka",
+     "Z Polska",
+     "Z Rakouska",
+     "Z Maďarska"
+    ],
+    "en": [
+     "Czechia",
+     "Poland",
+     "Austria",
+     "Hungary"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Guláš vznikl v Maďarsku jako jídlo pastevců – maďarské gulyás znamená „pastevec dobytka“. Nejstarší guláše byly bez papriky, protože ta se do Evropy dostala až v 16. století.",
+    "en": "Goulash originated in Hungary as a herdsmen's dish – Hungarian gulyás means 'cattle herder'. The earliest goulashes had no paprika, because it did not reach Europe until the 16th century."
+   }
+  },
+  {
+   "id": "T010-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ze které země po staletí proudil do Evropy černý pepř?",
+    "en": "From which country did black pepper flow to Europe for centuries?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Indie",
+     "Z Mexika",
+     "Z Brazílie",
+     "Z Maroka"
+    ],
+    "en": [
+     "India",
+     "Mexico",
+     "Brazil",
+     "Morocco"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hlavním zdrojem pepře byla po staletí Indie, zejména Malabárské pobřeží v dnešní Kérale. Byl tak cenný, že se mu říkalo „černé zlato“ a sloužil i jako platidlo. Dnes je největším producentem Vietnam (k roku 2026).",
+    "en": "For centuries the main source of pepper was India, especially the Malabar Coast in today's Kerala. It was so valuable that it was called 'black gold' and was even used as money. Today Vietnam is the largest producer (as of 2026)."
+   }
+  },
+  {
+   "id": "T010-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který mořeplavec jako první doplul z Evropy kolem Afriky do Indie a otevřel tak námořní cestu ke koření?",
+    "en": "Which navigator was the first to sail from Europe around Africa to India, opening a sea route to the spices?"
+   },
+   "moznosti": {
+    "cs": [
+     "James Cook",
+     "Vasco da Gama",
+     "Kryštof Kolumbus",
+     "Fernão de Magalhães"
+    ],
+    "en": [
+     "James Cook",
+     "Vasco da Gama",
+     "Christopher Columbus",
+     "Ferdinand Magellan"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Vasco da Gama přistál u indického Kalikatu (Kóžikkódu) 20. května 1498. Jeho výprava jako první spojila Evropu s Asií námořní cestou kolem jižního cípu Afriky a Portugalsko pak obchod s kořením desítky let ovládalo.",
+    "en": "Vasco da Gama landed near Calicut (Kozhikode) in India on 20 May 1498. His voyage was the first to link Europe and Asia by an ocean route around the southern tip of Africa, and Portugal then dominated the spice trade for decades."
+   }
+  },
+  {
+   "id": "T010-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ze kterého světadílu pochází rajče?",
+    "en": "Which continent does the tomato come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Asie",
+     "Z Ameriky",
+     "Z Afriky",
+     "Z Evropy"
+    ],
+    "en": [
+     "Asia",
+     "The Americas",
+     "Africa",
+     "Europe"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pravděpodobný divoký předek rajčete roste na západě Jižní Ameriky. Do Evropy se rajče dostalo v 16. století; v Itálii se zprvu pěstovalo hlavně pro okrasu a v Británii ho dlouho považovali za jedovaté.",
+    "en": "The tomato's likely wild ancestor is native to western South America. It reached Europe in the 16th century; in Italy it was at first grown mainly as an ornamental, and in Britain it was long considered poisonous."
+   }
+  },
+  {
+   "id": "T010-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo jako první přivezl brambory do Evropy?",
+    "en": "Who first brought potatoes to Europe?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nizozemci",
+     "Angličané",
+     "Španělé",
+     "Francouzi"
+    ],
+    "en": [
+     "The Dutch",
+     "The English",
+     "The Spanish",
+     "The French"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Brambory do Evropy přivezli Španělé ve druhé polovině 16. století. Po staletích se z nich stala klíčová plodina – a v Irsku jejich neúroda v roce 1845 vyvolala Velký hladomor.",
+    "en": "The Spanish brought potatoes to Europe in the second half of the 16th century. Over the centuries they became a staple – and in Ireland their failure in 1845 led to the Great Famine."
+   }
+  },
+  {
+   "id": "T010-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co doslova znamená italský název rajčete „pomodoro“?",
+    "en": "What does the Italian name for tomato, 'pomodoro', literally mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Červené jablko",
+     "Zlaté jablko",
+     "Jablko lásky",
+     "Rajské jablko"
+    ],
+    "en": [
+     "Red apple",
+     "Golden apple",
+     "Love apple",
+     "Apple of paradise"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pomodoro vzniklo z „pomo d'oro“, tedy zlaté jablko. Název nejspíš odkazuje na žluté odrůdy, které do Evropy dorazily jako první; poprvé ho zaznamenal botanik Mattioli v 16. století.",
+    "en": "Pomodoro comes from 'pomo d'oro', meaning golden apple. The name probably refers to the yellow varieties that reached Europe first; it was first recorded by the botanist Mattioli in the 16th century."
+   }
+  },
+  {
+   "id": "T010-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ze kterého rakouského pečiva se vyvinul francouzský croissant?",
+    "en": "Which Austrian pastry did the French croissant evolve from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kipferl",
+     "Preclík",
+     "Štrúdl",
+     "Kobliha"
+    ],
+    "en": [
+     "Kipferl",
+     "Pretzel",
+     "Strudel",
+     "Doughnut"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Rohlíčkovitý kipferl je v Rakousku doložen nejméně od 13. století; do Paříže ho přinesla vídeňská pekárna Augusta Zanga v roce 1838 nebo 1839 a francouzští pekaři ho na počátku 20. století začali dělat z listového kynutého těsta. Příběh o vzniku croissantu při tureckém obléhání Vídně v roce 1683 je jen legenda bez dobových pramenů.",
+    "en": "The crescent-shaped kipferl is recorded in Austria since at least the 13th century; August Zang's Viennese bakery brought it to Paris in 1838 or 1839, and in the early 20th century French bakers began making it from yeast-leavened laminated dough. The story that the croissant was born during the Turkish siege of Vienna in 1683 is a legend with no contemporary sources."
+   }
+  },
+  {
+   "id": "T010-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Podle rozšířené legendy přivezl těstoviny z Číny do Itálie Marco Polo. Kde ale arabský zeměpisec al-Idrísí popsal výrobu sušených těstovin už v roce 1154?",
+    "en": "According to a popular legend, Marco Polo brought pasta from China to Italy. But where did the Arab geographer al-Idrisi describe the production of dried pasta as early as 1154?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Sicílii",
+     "V Benátkách",
+     "V Janově",
+     "V Neapoli"
+    ],
+    "en": [
+     "In Sicily",
+     "In Venice",
+     "In Genoa",
+     "In Naples"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Al-Idrísí popsal u Trabie na normanské Sicílii velké stavby, v nichž se vyrábělo obrovské množství nudlí „itrija“ na vývoz. To bylo přes sto let před Polovou cestou; legenda o Marcu Polovi podle všeho vznikla až v reklamě z 20. nebo 30. let 20. století.",
+    "en": "Al-Idrisi described large buildings near Trabia in Norman Sicily where vast quantities of 'itriyya' noodles were made for export. That was more than a century before Polo's journey; the Marco Polo legend apparently originated only in an advertisement from the 1920s or 1930s."
+   }
+  },
+  {
+   "id": "T010-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Přibližně před kolika lety začali obyvatelé dnešního Mexika pěstovat kukuřici z divoké trávy teosinte?",
+    "en": "Roughly how many years ago did people in what is now Mexico begin to cultivate maize from the wild grass teosinte?"
+   },
+   "moznosti": {
+    "cs": [
+     "900",
+     "3 000",
+     "9 000",
+     "30 000"
+    ],
+    "en": [
+     "900",
+     "3,000",
+     "9,000",
+     "30,000"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kukuřice byla zdomácněna v jižním Mexiku asi před 9 000 lety, nejspíš v údolí řeky Balsas. Z drobných klásků teosinte se během tisíciletí vyšlechtily velké palice.",
+    "en": "Maize was domesticated in southern Mexico about 9,000 years ago, probably in the Balsas River valley. Over millennia, teosinte's tiny ears were bred into large cobs."
+   }
+  },
+  {
+   "id": "T010-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ze které země pochází kiwi, které proslavil Nový Zéland?",
+    "en": "Which country does the kiwifruit, made famous by New Zealand, come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Číny",
+     "Z Chile",
+     "Z Brazílie",
+     "Z Austrálie"
+    ],
+    "en": [
+     "China",
+     "Chile",
+     "Brazil",
+     "Australia"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kiwi je původem z centrální a východní Číny a v angličtině se mu dlouho říkalo „čínský angrešt“. Novozélandští vývozci ho v roce 1959 přejmenovali na kiwifruit, aby se lépe prodávalo v USA.",
+    "en": "Kiwifruit is native to central and eastern China and was long called the 'Chinese gooseberry' in English. New Zealand exporters renamed it kiwifruit in 1959 to sell it better in the USA."
+   }
+  },
+  {
+   "id": "T010-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Odkud pocházejí chilli papričky, dnes typické pro thajskou a indickou kuchyni?",
+    "en": "Where do chilli peppers, now typical of Thai and Indian cuisine, come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Číny",
+     "Z Thajska",
+     "Z Ameriky",
+     "Z Indie"
+    ],
+    "en": [
+     "China",
+     "Thailand",
+     "The Americas",
+     "India"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Chilli papričky pocházejí z Ameriky, kde se jedly už kolem roku 7500 př. n. l. Do Asie se dostaly až v 16. století s evropskými obchodníky.",
+    "en": "Chilli peppers come from the Americas, where they were eaten as early as about 7500 BC. They reached Asia only in the 16th century with European traders."
+   }
+  },
+  {
+   "id": "T010-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ze které ostrovní země pochází pravá skořice (Cinnamomum verum)?",
+    "en": "Which island country does true cinnamon (Cinnamomum verum) come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Jamajky",
+     "Z Kuby",
+     "Z Madagaskaru",
+     "Ze Srí Lanky"
+    ],
+    "en": [
+     "Jamaica",
+     "Cuba",
+     "Madagascar",
+     "Sri Lanka"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Skořicovník pravý pochází ze Srí Lanky (dříve Cejlon), proto se mu říká i cejlonská skořice. Koření je jeho vnitřní kůra, která se při sušení stáčí do svitků.",
+    "en": "True cinnamon is native to Sri Lanka (formerly Ceylon), which is why it is also called Ceylon cinnamon. The spice is the tree's inner bark, which curls into quills as it dries."
+   }
+  },
+  {
+   "id": "T010-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ze které části květu šafránu setého se získává koření šafrán?",
+    "en": "Which part of the saffron crocus flower is the spice saffron made from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z blizen",
+     "Z nektaru",
+     "Z tyčinek",
+     "Z okvětních lístků"
+    ],
+    "en": [
+     "The stigmas",
+     "The nectar",
+     "The stamens",
+     "The petals"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Šafrán tvoří sušené rudé blizny, každý květ má jen tři. Na kilogram je potřeba zhruba 150 000 květů, sbíraných ručně, a proto patří k nejdražším kořením.",
+    "en": "Saffron consists of dried crimson stigmas, and each flower has only three. A kilogram (2.2 lb) needs roughly 150,000 hand-picked flowers, which is why it ranks among the most expensive spices."
+   }
+  },
+  {
+   "id": "T010-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Od kterých Evropanů převzali Japonci v 16. století smažení v těstíčku, z něhož vzniklo tempura?",
+    "en": "From which Europeans did the Japanese adopt batter-frying in the 16th century, giving rise to tempura?"
+   },
+   "moznosti": {
+    "cs": [
+     "Od Angličanů",
+     "Od Nizozemců",
+     "Od Španělů",
+     "Od Portugalců"
+    ],
+    "en": [
+     "The English",
+     "The Dutch",
+     "The Spanish",
+     "The Portuguese"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Techniku přinesli koncem 16. století do Nagasaki portugalští misionáři. Název možná pochází z latinského „tempora“ – postních dnů, kdy katolíci místo masa jedli ryby a zeleninu.",
+    "en": "Portuguese missionaries brought the technique to Nagasaki in the late 16th century. The name may come from the Latin 'tempora' – fasting days when Catholics ate fish and vegetables instead of meat."
+   }
+  },
+  {
+   "id": "T010-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Vizigótský král Alarich v roce 408 žádal od obleženého Říma výkupné. Vedle zlata a stříbra v něm byly i tři tisíce liber čeho?",
+    "en": "In 408, the Visigothic king Alaric demanded a ransom from besieged Rome. Alongside gold and silver, it included three thousand pounds of what?"
+   },
+   "moznosti": {
+    "cs": [
+     "Soli",
+     "Skořice",
+     "Šafránu",
+     "Pepře"
+    ],
+    "en": [
+     "Salt",
+     "Cinnamon",
+     "Saffron",
+     "Pepper"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Výkupné zahrnovalo 5 000 liber zlata, 30 000 liber stříbra, 4 000 hedvábných tunik a 3 000 liber pepře.",
+    "en": "The ransom included 5,000 pounds of gold, 30,000 pounds of silver, 4,000 silk tunics and 3,000 pounds of pepper."
+   }
+  },
+  {
+   "id": "T010-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Které dříve nizozemské území si Anglie podle smlouvy z Bredy (1667) ponechala, zatímco se vzdala ostrova Run, kde rostl muškátový oříšek?",
+    "en": "Which formerly Dutch territory did England keep under the Treaty of Breda (1667), while giving up the island of Run, where nutmeg grew?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mys Dobré naděje",
+     "Manhattan",
+     "Cejlon",
+     "Surinam"
+    ],
+    "en": [
+     "The Cape of Good Hope",
+     "Manhattan",
+     "Ceylon",
+     "Suriname"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Angličané Nový Amsterodam obsadili v roce 1664 a přejmenovali ho na New York. Smlouva z Bredy potvrdila stav držby, takže Anglie se vzdala nároku na drobný ostrov Run v Bandském moři, který zůstal Nizozemcům. Bandské ostrovy byly až do poloviny 19. století jediným zdrojem muškátového oříšku na světě.",
+    "en": "The English had seized New Amsterdam in 1664 and renamed it New York. The Treaty of Breda confirmed the status quo, so England gave up its claim to the tiny island of Run in the Banda Sea, which stayed Dutch. Until the mid-19th century the Banda Islands were the world's only source of nutmeg."
+   }
+  },
+  {
+   "id": "T010-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaký výživový přínos má nixtamalizace – vaření kukuřice ve vodě s vápnem nebo popelem, kterou znali už staří obyvatelé Mezoameriky?",
+    "en": "What nutritional benefit does nixtamalisation – cooking maize in water with lime or ash, known to the ancient peoples of Mesoamerica – provide?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zpřístupní niacin (vitamin B3)",
+     "Odstraní z kukuřice lepek",
+     "Zvýší obsah cukru",
+     "Dodá vitamin C"
+    ],
+    "en": [
+     "It makes niacin (B3) available",
+     "It removes gluten from the maize",
+     "It raises the sugar content",
+     "It adds vitamin C"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Syrová kukuřice obsahuje málo využitelného niacinu a aminokyselina tryptofan, ze které si ho tělo umí vyrobit, je v ní bez úpravy špatně dostupná. Když se kukuřice rozšířila do Evropy bez této úpravy, lidé, kteří na ní byli závislí, onemocněli pelagrou.",
+    "en": "Raw maize contains little usable niacin, and the amino acid tryptophan, from which the body can make niacin, is poorly available without processing. When maize spread to Europe without this treatment, people who depended on it fell ill with pellagra."
+   }
+  },
+  {
+   "id": "T010-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Vanilka, přenesená z Mexika do kolonií, tam dlouho nenesla plody. Jak to v roce 1841 na ostrově Réunion vyřešil dvanáctiletý otrok Edmond Albius?",
+    "en": "Vanilla taken from Mexico to the colonies long failed to bear fruit there. How did the 12-year-old enslaved boy Edmond Albius solve this on Réunion in 1841?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zkřížil ji s místní orchidejí",
+     "Pěstoval ji ve stínu banánovníků",
+     "Opylil květy ručně",
+     "Dovezl mexické včely"
+    ],
+    "en": [
+     "He crossed it with a local orchid",
+     "He grew it in the shade of banana plants",
+     "He pollinated the flowers by hand",
+     "He imported Mexican bees"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Albius tenkou bambusovou tyčinkou nadzvedl blánu mezi prašníkem a bliznou a pyl přenesl palcem. Tímto způsobem se vanilka opyluje dodnes; ve volné přírodě se opylí jen asi 1 % květů.",
+    "en": "Albius used a thin bamboo sliver to lift the membrane between anther and stigma and transferred the pollen with his thumb. Vanilla is still pollinated this way today; in the wild only about 1% of flowers get pollinated."
+   }
+  },
+  {
+   "id": "T010-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Skotský botanik Robert Fortune vyrazil v roce 1848 pro Východoindickou společnost do Číny, aby odtud do Indie získal sazenice i zkušené pěstitele. Jaké rostliny?",
+    "en": "In 1848, the Scottish botanist Robert Fortune set off to China for the East India Company to obtain plants and skilled growers for India. Which plants?"
+   },
+   "moznosti": {
+    "cs": [
+     "Morušovníku",
+     "Ženšenu",
+     "Kafrovníku",
+     "Čajovníku"
+    ],
+    "en": [
+     "Mulberry",
+     "Ginseng",
+     "Camphor",
+     "Tea"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Fortune se na některých cestách do vnitrozemí, kam cizinci nesměli, převlékal za čínského obchodníka. Většina čínských sazenic v Indii neuspěla, ale získané postupy pomohly čajovému průmyslu v Ásámu a na Srí Lance.",
+    "en": "On some trips into the interior, where foreigners were not allowed, Fortune disguised himself as a Chinese merchant. Most of the Chinese plants failed in India, but the know-how he gathered helped the tea industries of Assam and Sri Lanka."
+   }
+  },
+  {
+   "id": "T010-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Velkoplodá zahradní jahoda vznikla v 18. století ve Francii křížením dvou divokých druhů. Odkud pocházely?",
+    "en": "The large-fruited garden strawberry was created in 18th-century France by crossing two wild species. Where did they come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Alp a Kavkazu",
+     "Ze Skandinávie a Sibiře",
+     "Z Číny a Japonska",
+     "Ze Severní Ameriky a Chile"
+    ],
+    "en": [
+     "The Alps and the Caucasus",
+     "Scandinavia and Siberia",
+     "China and Japan",
+     "North America and Chile"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Zahradní jahoda vznikla v Bretani v 50. letech 18. století křížením severoamerického jahodníku virginského a chilského jahodníku, který z Chile přivezl v roce 1714 Amédée-François Frézier.",
+    "en": "The garden strawberry arose in Brittany in the 1750s from a cross between the North American Virginia strawberry and the Chilean strawberry, which Amédée-François Frézier brought from Chile in 1714."
+   }
+  },
+  {
+   "id": "T010-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kde vznikla v roce 1801 první továrna na světě, která vyráběla cukr z cukrové řepy?",
+    "en": "Where was the world's first factory producing sugar from sugar beet opened in 1801?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Bavorsku",
+     "V Normandii",
+     "Ve Slezsku",
+     "Ve Flandrech"
+    ],
+    "en": [
+     "In Bavaria",
+     "In Normandy",
+     "In Silesia",
+     "In Flanders"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Továrnu založil Franz Karl Achard v Kunernu ve Slezsku (dnes Konary v Polsku). Navázal na berlínského chemika Andrease Marggrafa, který cukr v řepě objevil v roce 1747; rozmach přinesla až kontinentální blokáda za napoleonských válek.",
+    "en": "The factory was founded by Franz Karl Achard at Kunern in Silesia (now Konary, Poland). He built on the work of the Berlin chemist Andreas Marggraf, who discovered sugar in beet in 1747; the boom came with the Continental Blockade during the Napoleonic Wars."
+   }
+  },
+  {
+   "id": "T010-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Nejstarší známá písemná zmínka o bajglu pochází z roku 1610. Ve kterém městě vznikla?",
+    "en": "The earliest known written mention of the bagel dates from 1610. In which city was it written?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Berlíně",
+     "V Krakově",
+     "V New Yorku",
+     "Ve Vídni"
+    ],
+    "en": [
+     "Berlin",
+     "Kraków",
+     "New York",
+     "Vienna"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Podle lingvisty Lea Rostena se polské slovo „bajgiel“ poprvé objevuje v předpisech krakovské židovské obce z roku 1610, kde se bajgly zmiňují jako dar pro rodičky.",
+    "en": "According to linguist Leo Rosten, the Polish word 'bajgiel' first appears in the 1610 regulations of Kraków's Jewish community, which mention bagels as a gift to women in childbirth."
+   }
+  },
+  {
+   "id": "T010-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Slova avokádo, guacamole a chia mají původ v jazyce:",
+    "en": "The words avocado, guacamole and chia originate from which language?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mayština (Mayové)",
+     "Nahuatl (Aztékové)",
+     "Guaraní (Guaraníové)",
+     "Kečuánština (Inkové)"
+    ],
+    "en": [
+     "Mayan (the Maya)",
+     "Nahuatl (the Aztecs)",
+     "Guarani (the Guarani)",
+     "Quechua (the Incas)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Avokádo pochází přes španělské aguacate z nahuatlského āhuacatl, guacamole z āhuacamōlli („avokádová omáčka“) a chia z nahuatlského chian („olejnatý“).",
+    "en": "Avocado comes via Spanish aguacate from Nahuatl āhuacatl, guacamole from āhuacamōlli ('avocado sauce') and chia from Nahuatl chian ('oily')."
+   }
+  },
+  {
+   "id": "T010-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kde se podle historických pramenů už koncem 15. století běžně pila káva, zejména mezi súfijskými mystiky?",
+    "en": "Where, according to historical sources, was coffee already commonly drunk by the late 15th century, especially among Sufi mystics?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Turecku",
+     "V Persii",
+     "V Jemenu",
+     "V Egyptě"
+    ],
+    "en": [
+     "Turkey",
+     "Persia",
+     "Yemen",
+     "Egypt"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Doklady o pití kávy před 15. stoletím chybějí, i když kávovník sám pochází z Etiopie. Do Káhiry se káva dostala až na začátku 16. století a první kavárna v Istanbulu se otevřela v roce 1555.",
+    "en": "There is no evidence of coffee drinking before the 15th century, even though the coffee plant itself comes from Ethiopia. Coffee reached Cairo only in the early 16th century, and the first coffeehouse in Istanbul opened in 1555."
+   }
+  }
+ ]
+}

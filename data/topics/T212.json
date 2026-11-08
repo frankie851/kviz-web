@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T212",
+ "nazev": {
+  "cs": "Slovanská mytologie",
+  "en": "Slavic Mythology"
+ },
+ "kategorie": {
+  "id": "mytologie-a-nabozenstvi",
+  "nazev": {
+   "cs": "Mytologie a náboženství",
+   "en": "Mythology & Religion"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T212-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který slovanský bůh vládl hromu a blesku?",
+    "en": "Which Slavic god ruled over thunder and lightning?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chors",
+     "Simargl",
+     "Jarovít",
+     "Perun"
+    ],
+    "en": [
+     "Khors",
+     "Simargl",
+     "Jarovit",
+     "Perun"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Perun byl bohem hromu, blesku a bouře. Jeho jméno dodnes znamená „hrom“ nebo „blesk“ v řadě slovanských jazyků.",
+    "en": "Perun was the god of thunder, lightning and storms. His name still means 'thunder' or 'lightning bolt' in a number of Slavic languages."
+   }
+  },
+  {
+   "id": "T212-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který strom byl podle dochovaných pramenů zasvěcen bohu Perunovi?",
+    "en": "According to surviving sources, which tree was sacred to the god Perun?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bříza",
+     "Lípa",
+     "Dub",
+     "Vrba"
+    ],
+    "en": [
+     "Birch",
+     "Linden",
+     "Oak",
+     "Willow"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Dub byl Perunovou „rostlinnou podobou“ a jeho svatyně stávaly na vrcholcích hor a kopců nebo v posvátných hájích pod starými duby.",
+    "en": "The oak was Perun's 'vegetative form', and his shrines stood on the tops of mountains and hills or in sacred groves beneath ancient oaks."
+   }
+  },
+  {
+   "id": "T212-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co představuje figura Morany, kterou lidé na jaře topí v řece nebo pálí?",
+    "en": "What does the Morana effigy, which people drown in a river or burn in spring, represent?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zimu a smrt",
+     "Slunce a světlo",
+     "Nevěstu a svatbu",
+     "Válku a vítězství"
+    ],
+    "en": [
+     "Winter and death",
+     "The sun and light",
+     "A bride and marriage",
+     "War and victory"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Morana (polsky Marzanna) je spojována se smrtí a zimou; jejím zničením lidé symbolicky končí zimu a vítají jaro. Podle některých výkladů měl obřad zajistit také dobrou úrodu v příštím roce. Jméno se nejspíš odvozuje z praindoevropského kořene *mar-/*mor- „smrt“.",
+    "en": "Morana (Polish Marzanna) is associated with death and winter; destroying her effigy symbolically ends winter and welcomes spring. Some accounts say the rite was also meant to ensure a good harvest in the coming year. Her name most likely comes from the Proto-Indo-European root *mar-/*mor-, 'death'."
+   }
+  },
+  {
+   "id": "T212-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na čem podle ruských pohádek stojí chaloupka Baby Jagy?",
+    "en": "In Russian fairy tales, what does Baba Yaga's hut stand on?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na želvím krunýři",
+     "Na kuřecích nohách",
+     "Na kamenných sloupech",
+     "Na hřbetě obřího medvěda"
+    ],
+    "en": [
+     "A turtle's shell",
+     "Chicken legs",
+     "Stone pillars",
+     "The back of a giant bear"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Baba Jaga žije hluboko v lese v chaloupce na kuřecích nohách, která se umí otáčet. Modest Musorgskij jí věnoval jednu část klavírního cyklu Obrázky z výstavy (1874).",
+    "en": "Baba Yaga lives deep in the forest in a hut on chicken legs that can turn around. Modest Mussorgsky devoted a movement of his piano suite Pictures at an Exhibition (1874) to her."
+   }
+  },
+  {
+   "id": "T212-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "V čem podle české lidové tradice uchovává vodník duše utopených?",
+    "en": "According to Czech folk tradition, what does the vodník (water goblin) keep the souls of the drowned in?"
+   },
+   "moznosti": {
+    "cs": [
+     "V rybích měchýřích",
+     "V mušlích",
+     "V hrnečcích",
+     "V lahvích"
+    ],
+    "en": [
+     "Fish bladders",
+     "Seashells",
+     "Pots",
+     "Bottles"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Český vodník schovává duše utopených v hrnečcích ve svém podvodním sídle. Poznat ho lze podle toho, že mu z oblečení kape voda – podle jednoho podání má šos kabátu stále mokrý.",
+    "en": "The Czech vodník keeps the souls of the drowned in pots in his underwater home. He can be recognised by water dripping from his clothes – one account says the tip of his coat is always wet."
+   }
+  },
+  {
+   "id": "T212-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která bytost ze slovanské lidové víry obchází v bílém oděvu meze polí, zastavuje lidi při práci a klade jim těžké otázky?",
+    "en": "Which being from Slavic folk belief, dressed in white, roams the field boundaries, stops people at work and asks them difficult questions?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bludička",
+     "Polednice",
+     "Divoženka",
+     "Klekánice"
+    ],
+    "en": [
+     "Will-o'-the-wisp",
+     "Lady Midday (Polednice)",
+     "Wild woman of the woods",
+     "Klekánice (evening spirit)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Polednice (slovensky poludnica) obchází meze v poledním horku, klade lidem těžké otázky a přivádí úpal a bolesti šíje. Strašením s ní se také odhánějí děti od cenné úrody.",
+    "en": "Lady Midday (Czech polednice, Slovak poludnica) roams the field boundaries in the noonday heat, asks people difficult questions and causes heatstroke and neck pain. She was also used to scare children away from valuable crops."
+   }
+  },
+  {
+   "id": "T212-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo napsal sbírku balad Kytice, v níž vystupuje vodník i polednice?",
+    "en": "Who wrote the ballad collection Kytice (A Bouquet), featuring both the water goblin and Lady Midday?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jan Neruda",
+     "Karel Hynek Mácha",
+     "Božena Němcová",
+     "Karel Jaromír Erben"
+    ],
+    "en": [
+     "Jan Neruda",
+     "Karel Hynek Mácha",
+     "Božena Němcová",
+     "Karel Jaromír Erben"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kytice z pověstí národních Karla Jaromíra Erbena vyšla roku 1853. Antonín Dvořák podle ní v roce 1896 složil čtyři symfonické básně, mezi nimi Vodníka a Polednici.",
+    "en": "Karel Jaromír Erben's Kytice z pověstí národních was published in 1853. In 1896 Antonín Dvořák based four symphonic poems on it, including The Water Goblin and The Noon Witch."
+   }
+  },
+  {
+   "id": "T212-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Přes co lidé o Kupadelných svátcích (svatojánské noci) tradičně skáčou?",
+    "en": "On Kupala Night (St John's Eve), what do people traditionally jump over?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přes potok",
+     "Přes oheň",
+     "Přes plot",
+     "Přes koště"
+    ],
+    "en": [
+     "A stream",
+     "A bonfire",
+     "A fence",
+     "A broom"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Skok přes oheň měl očistit a ochránit před nemocí a uhranutím. Dívky také pouštěly po vodě věnečky z bylin a květin a podle nich věštily štěstí či sňatek.",
+    "en": "Leaping over the fire was meant to purify and protect against disease and spells. Girls also floated wreaths of herbs and flowers on the water and read them as signs of luck or marriage."
+   }
+  },
+  {
+   "id": "T212-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která rostlina podle pověsti vykvete jen jednou v roce, o svatojánské noci, a nálezci přinese štěstí?",
+    "en": "According to legend, which plant blooms only once a year, on St John's Eve, bringing luck to whoever finds it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pomněnka",
+     "Bodlák",
+     "Leknín",
+     "Kapradina"
+    ],
+    "en": [
+     "Forget-me-not",
+     "Thistle",
+     "Water lily",
+     "Fern"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kapradinový květ prý střeží zlí duchové a jeho nálezce může získat bohatství nebo rozumět řeči zvířat. Ve skutečnosti kapradiny vůbec nekvetou, nejsou to kvetoucí rostliny.",
+    "en": "The fern flower is said to be guarded by evil spirits, and its finder may gain riches or understand the speech of animals. In reality ferns never bloom at all – they are not flowering plants."
+   }
+  },
+  {
+   "id": "T212-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč víme o náboženství pohanských Slovanů tak málo?",
+    "en": "Why do we know so little about the religion of the pagan Slavs?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kronikáři měli zákaz o nich psát",
+     "Nedochovaly se žádné jejich vlastní mytologické texty",
+     "Slované své bohy nikdy nepojmenovávali",
+     "Všechny prameny shořely při jediném požáru"
+    ],
+    "en": [
+     "Chroniclers were forbidden to write about them",
+     "None of their own mythological texts have survived",
+     "The Slavs never named their gods",
+     "All the sources burned in a single fire"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Slovanské pohanství lze poznávat jen z druhotných pramenů: zápisů křesťanských kronikářů, archeologie a folkloru sebraného v 19. a 20. století. Mnoho z toho, co se dnes o slovanských bozích traduje, jsou pozdější rekonstrukce.",
+    "en": "Slavic paganism can only be studied through secondary sources: records by Christian chroniclers, archaeology and folklore collected in the 19th and 20th centuries. Much of what is told about Slavic gods today is later reconstruction."
+   }
+  },
+  {
+   "id": "T212-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který slovanský bůh byl spojován s podsvětím a ve staroruských pramenech nazýván „bohem dobytka“?",
+    "en": "Which Slavic god was associated with the underworld and called 'the cattle god' in Old Rus' sources?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chors",
+     "Veles",
+     "Jarovít",
+     "Stribog"
+    ],
+    "en": [
+     "Khors",
+     "Veles",
+     "Jarovit",
+     "Stribog"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Veles (Volos) byl chtonický bůh; podsvětí si Slované podle jednoho výkladu představovali jako pastvinu, kde se pasou duše. Rekonstrukce z roku 1974 z něj udělala Perunova protivníka, toto ztotožnění však dnes badatelé většinou nepřijímají.",
+    "en": "Veles (Volos) was a chthonic god; according to one interpretation the underworld was imagined as a pasture where souls grazed. A 1974 reconstruction cast him as Perun's adversary, but most scholars no longer accept that identification."
+   }
+  },
+  {
+   "id": "T212-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik hlav měla podle kronikáře Saxona Grammatika socha boha Svantovíta v Arkoně?",
+    "en": "According to the chronicler Saxo Grammaticus, how many heads did the statue of the god Svetovit at Arkona have?"
+   },
+   "moznosti": {
+    "cs": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "en": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Socha měla čtyři hlavy hledící do čtyř stran. V pravé ruce držela roh, který kněz každý rok naplnil vínem, a podle stavu vína se věštila příští úroda.",
+    "en": "The statue had four heads facing in four directions. Its right hand held a horn that the priest filled with wine every year, and the state of the wine was used to predict the next harvest."
+   }
+  },
+  {
+   "id": "T212-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na kterém ostrově stála Arkona, hlavní svatyně boha Svantovíta?",
+    "en": "On which island did Arkona, the chief sanctuary of the god Svetovit, stand?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Uznojmu",
+     "Na Rujáně",
+     "Na Bornholmu",
+     "Na Gotlandu"
+    ],
+    "en": [
+     "Usedom",
+     "Rügen",
+     "Bornholm",
+     "Gotland"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Arkona ležela na mysu na severovýchodě Rujány, dnes v Německu. Moře od té doby utrhlo tolik pobřeží, že plocha uvnitř valů je dnes jen asi třetinou původní.",
+    "en": "Arkona stood on a cape at the north-eastern tip of Rügen, now in Germany. The sea has since eroded so much of the cliff that the area inside the ramparts is only about a third of the original."
+   }
+  },
+  {
+   "id": "T212-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která bohyně byla jako jediná žena mezi bohy, jejichž sochy dal kníže Vladimír podle Pověsti dávných let roku 980 postavit v Kyjevě?",
+    "en": "Which goddess was the only female deity among the gods whose statues Prince Vladimir erected in Kyiv in 980, according to the Primary Chronicle?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mokoš",
+     "Lada",
+     "Živa",
+     "Morana"
+    ],
+    "en": [
+     "Mokosh",
+     "Lada",
+     "Zhiva",
+     "Morana"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Mokoš stála vedle Peruna, Chorse, Dažboga, Striboga a Simargla. Její jméno se obvykle odvozuje od praslovanského kmene *mok- „mokrý“, proto bývá spojována s vodou a plodností.",
+    "en": "Mokosh stood alongside Perun, Khors, Dazhbog, Stribog and Simargl. Her name is usually derived from the Proto-Slavic stem *mok- 'wet', which is why she is linked with water and fertility."
+   }
+  },
+  {
+   "id": "T212-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co se stalo se sochou Peruna v Kyjevě poté, co kníže Vladimír roku 988 přijal křest?",
+    "en": "What happened to the statue of Perun in Kyiv after Prince Vladimir was baptised in 988?"
+   },
+   "moznosti": {
+    "cs": [
+     "Byla přetesána na sochu světce",
+     "Byla zakopána pod nový chrám",
+     "Byla vhozena do Dněpru",
+     "Byla přenesena do Cařihradu"
+    ],
+    "en": [
+     "It was recarved into a statue of a saint",
+     "It was buried beneath a new church",
+     "It was thrown into the Dnieper",
+     "It was taken to Constantinople"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vladimír dal pohanské sochy zničit a Perunovu sochu vhodit do Dněpru; v řece se pak dal pokřtít i lid Kyjeva. Tato socha měla podle kroniky stříbrnou hlavu a zlatý knír.",
+    "en": "Vladimir had the pagan statues destroyed and Perun's statue thrown into the Dnieper, where the people of Kyiv were then baptised. According to the chronicle, the statue had a silver head and a golden moustache."
+   }
+  },
+  {
+   "id": "T212-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Rusalky muže nejčastěji utopily. Jakým dalším způsobem je podle lidových pověstí připravovaly o život?",
+    "en": "Rusalki usually drowned their victims. According to folk legends, what other way did they kill the men they lured?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ulechtaly je k smrti",
+     "Proměnily je v ryby",
+     "Uspaly je zpěvem na sto let",
+     "Odnesly je do oblak"
+    ],
+    "en": [
+     "They tickled them to death",
+     "They turned them into fish",
+     "They sang them to sleep for a hundred years",
+     "They carried them off into the clouds"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Rusalky, podle podání z 19. století duše utopených dívek, byly nejnebezpečnější o „rusalném týdnu“ začátkem června, kdy se nesmělo koupat. Na lechtání odkazuje i jejich nářeční jméno loskotucha.",
+    "en": "Rusalki, in 19th-century accounts the spirits of drowned young women, were most dangerous during 'Rusalka week' in early June, when swimming was forbidden. Their dialect name loskotukha, 'the tickler', refers to this."
+   }
+  },
+  {
+   "id": "T212-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kde je podle ruských pohádek ukryta smrt Kostěje Nesmrtelného?",
+    "en": "According to Russian fairy tales, where is the death of Koschei the Deathless hidden?"
+   },
+   "moznosti": {
+    "cs": [
+     "V jehle uvnitř vejce",
+     "V zlatém prstenu na jeho ruce",
+     "V jeho vlastním stínu",
+     "V kalichu pod jeho trůnem"
+    ],
+    "en": [
+     "In a needle inside an egg",
+     "In a golden ring on his hand",
+     "In his own shadow",
+     "In a chalice under his throne"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jehla je ve vejci, vejce v kachně, kachna v zajíci, zajíc v truhle a truhla na bájném ostrově Bujanu. Kostěj je i záporákem Stravinského baletu Pták Ohnivák.",
+    "en": "The needle is in an egg, the egg in a duck, the duck in a hare, the hare in a chest, and the chest on the mythical island of Buyan. Koschei is also the villain of Stravinsky's ballet The Firebird."
+   }
+  },
+  {
+   "id": "T212-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "V jedné české baladě z 19. století zabije macecha se svou dcerou dívku Dorničku a dcera se pak místo ní provdá za krále. Co králi zločin nakonec prozradí?",
+    "en": "In a 19th-century Czech ballad, a stepmother and her daughter murder the girl Dornička, and the daughter then marries the king in her place. What finally reveals the crime to the king?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ptáček na okně zazpívá",
+     "Zlatý kolovrat zazpívá",
+     "Kapka krve na prstenu",
+     "Zrcadlo ukáže pravdu"
+    ],
+    "en": [
+     "A bird sings at the window",
+     "A golden spinning wheel sings",
+     "A drop of blood on a ring",
+     "A mirror shows the truth"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jde o baladu Zlatý kolovrat ze sbírky Kytice. Vrahyně Dorničce vzaly nohy, ruce a oči; kouzelný stařeček je od falešné nevěsty získal výměnou za zlatý kolovrat, přeslici a vřeteno a Dorničku oživil. Když král požádá manželku, aby předla, kolovrat zazpívá o zločinu.",
+    "en": "This is the ballad The Golden Spinning Wheel from the collection Kytice (A Bouquet). The murderers took Dornička's feet, hands and eyes; a magical old man obtained them from the false bride in exchange for a golden spinning wheel, distaff and spindle, and brought Dornička back to life. When the king asks his wife to spin, the wheel sings of the crime."
+   }
+  },
+  {
+   "id": "T212-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co podle převládajícího výkladu znamená jméno slovanského boha Dažboga?",
+    "en": "According to the prevailing interpretation, what does the name of the Slavic god Dazhbog mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bůh dubu",
+     "Dávající bůh",
+     "Soudící bůh",
+     "Bůh deště"
+    ],
+    "en": [
+     "God of the oak",
+     "Giving god",
+     "Judging god",
+     "God of rain"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jméno se skládá z rozkazovacího tvaru slovesa „dáti“ a slova „bog“ (bůh). Dažbog byl nejspíš bohem slunce a Slovo o pluku Igorově nazývá ruská knížata „Dažbogovými vnuky“.",
+    "en": "The name combines the imperative of the verb 'to give' with 'bog' (god). Dazhbog was most likely a solar deity, and The Tale of Igor's Campaign calls the Rus princes 'Dazhbog's grandchildren'."
+   }
+  },
+  {
+   "id": "T212-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se v české tradici nazývá obdoba ruského domovoje, domácího ducha, který chrání dům a hospodářství?",
+    "en": "In Czech tradition, what is the counterpart of the Russian domovoy, the household spirit protecting home and farm, called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bludička",
+     "Hejkal",
+     "Polednice",
+     "Skřítek"
+    ],
+    "en": [
+     "Will-o'-the-wisp (bludička)",
+     "Hejkal",
+     "Lady Midday (polednice)",
+     "Skřítek"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Českými obdobami domovoje jsou skřítek, šotek či děd, tedy „dědeček“. Domovoj býval představován jako šedovlasý stařík a při stěhování ho rodina zvala s sebou do nového domu.",
+    "en": "Czech counterparts of the domovoy include skřítek, šotek and děd ('grandfather'). The domovoy was imagined as a grey-haired old man, and families invited him along when moving to a new house."
+   }
+  },
+  {
+   "id": "T212-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč měla socha pomořanského boha Triglava podle Ottova životopisce Ebba zakryté oči a ústa zlatou páskou?",
+    "en": "According to Otto of Bamberg's biographer Ebo, why were the eyes and lips of the statue of the Pomeranian god Triglav covered with a golden band?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aby neviděl hříchy lidí a mlčel o nich",
+     "Aby nikoho neuhranul pohledem",
+     "Na znamení smutku za padlé bojovníky",
+     "Aby se nedozvěděl tajemství kněží"
+    ],
+    "en": [
+     "So it would not see people's sins and stay silent about them",
+     "So it would not bewitch anyone with its gaze",
+     "As a sign of mourning for fallen warriors",
+     "So it would not learn the priests' secrets"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Tak to vysvětlovali sami kněží. Biskup Ota Bamberský Triglavovu sochu ve Štětíně zničil a tři postříbřené dřevěné hlavy poslal papeži jako důkaz obrácení Pomořanů.",
+    "en": "That was the priests' own explanation. Bishop Otto of Bamberg destroyed Triglav's statue in Szczecin and sent three silver-plated wooden heads to the Pope as proof of the Pomeranians' conversion."
+   }
+  },
+  {
+   "id": "T212-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Dánové roku 1168 zapálili Arkonu. Proč obránci nedokázali požár uhasit?",
+    "en": "In 1168 the Danes set fire to Arkona. Why were the defenders unable to put it out?"
+   },
+   "moznosti": {
+    "cs": [
+     "Oheň rozdmýchala bouře z moře",
+     "Kněží hašení zakázali jako svatokrádež",
+     "Hradby byly napuštěné pryskyřicí",
+     "Došla jim voda"
+    ],
+    "en": [
+     "A storm from the sea fanned the flames",
+     "The priests forbade it as sacrilege",
+     "The walls were soaked in resin",
+     "They ran out of water"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Útočníci krále Valdemara I. a biskupa Absalona založili oheň na nehlídaném místě a obránci ho pro nedostatek vody neuhasili. Arkona padla 15. června 1168 a socha Svantovíta byla rozsekána a spálena.",
+    "en": "King Valdemar I's and Bishop Absalon's men lit the fire at an unguarded spot, and the defenders could not put it out for lack of water. Arkona fell on 15 June 1168, and Svetovit's statue was chopped up and burned."
+   }
+  },
+  {
+   "id": "T212-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Byzantský historik Prokopios v 6. století napsal, že Slované za jediného pána všeho považují jednoho boha a obětují mu voly. Jak ho popsal?",
+    "en": "In the 6th century the Byzantine historian Procopius wrote that the Slavs regard one god as the only lord of all and sacrifice oxen to him. How did he describe this god?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jako vládce podsvětí",
+     "Jako pána řek",
+     "Jako tvůrce blesku",
+     "Jako boha slunce"
+    ],
+    "en": [
+     "As the ruler of the underworld",
+     "As the lord of rivers",
+     "As the creator of lightning",
+     "As the sun god"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Prokopios toho boha jménem neuvádí. Jde o jednu z nejstarších písemných zmínek o víře Slovanů.",
+    "en": "Procopius does not give the god's name. It is one of the earliest written references to the religion of the Slavs."
+   }
+  },
+  {
+   "id": "T212-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém městě je dnes uložen originál Zbručského idolu, čtyřtvářového kamenného sloupu nalezeného roku 1848 v řece Zbruč?",
+    "en": "In which city is the original Zbruch Idol, a four-faced stone pillar found in the Zbruch River in 1848, kept today?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Krakově",
+     "Ve Varšavě",
+     "V Kyjevě",
+     "Ve Lvově"
+    ],
+    "en": [
+     "Kraków",
+     "Warsaw",
+     "Kyiv",
+     "Lviv"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vápencový sloup vysoký 2,67 m je od roku 1968 v Archeologickém muzeu v Krakově. Jeho výklad je sporný a někteří badatelé dokonce zvažují, že jde o romantický padělek.",
+    "en": "The 2.67 m (8.8 ft) limestone pillar has been in the Archaeological Museum of Kraków since 1968. Its interpretation is disputed, and some scholars have even suggested it is a Romantic-era fake."
+   }
+  },
+  {
+   "id": "T212-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Podle kronikáře Helmolda nechávali polabští Slované při hostinách kolovat misku a pronášeli nad ní slova ve jménu dobrého a zlého boha. Jak nazval toho zlého?",
+    "en": "According to the chronicler Helmold, the Polabian Slavs passed a bowl around at feasts and spoke words over it in the name of a good god and a bad god. What did he call the bad one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Černoboh",
+     "Veles",
+     "Triglav",
+     "Svarog"
+    ],
+    "en": [
+     "Chernobog",
+     "Veles",
+     "Triglav",
+     "Svarog"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Helmold zapsal jméno jako Zcerneboch, „černý bůh“. Jeho protějšek Bělboh se objevuje až u nespolehlivých autorů 16. století; Černoboha později proslavila Musorgského Noc na Lysé hoře a Disneyho Fantasia.",
+    "en": "Helmold recorded the name as Zcerneboch, 'the black god'. His counterpart Belobog appears only in unreliable 16th-century writers; Chernobog was later popularised by Mussorgsky's Night on Bald Mountain and Disney's Fantasia."
+   }
+  },
+  {
+   "id": "T212-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve smlouvě s Byzancí (971) přísahali Rusové při Perunovi a Velesovi. Co mělo podle textu přísahy potkat toho, kdo ji poruší?",
+    "en": "In the treaty with Byzantium (971), the Rus swore by Perun and Veles. According to the oath, what would happen to anyone who broke it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Oslepne na obě oči",
+     "Zkamení jako skála",
+     "Navždy ztratí řeč",
+     "Zežloutne jako zlato"
+    ],
+    "en": [
+     "They would go blind in both eyes",
+     "They would turn to stone",
+     "They would lose their speech forever",
+     "They would turn yellow as gold"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Přísaha zní: „ať jsme žlutí jako zlato a ať nás posekají naše vlastní zbraně“. Zežloutnutí může být metaforou žloutenky; Veles byl považován za strážce přísah.",
+    "en": "The oath reads: 'may we become yellow as gold, and may we be cut down by our own weapons'. Turning yellow may be a metaphor for jaundice; Veles was seen as the guarantor of oaths."
+   }
+  },
+  {
+   "id": "T212-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "S kterým řeckým bohem ztotožňuje Svaroga jediný pramen, který ho zmiňuje – slovanský překlad Malalovy kroniky?",
+    "en": "With which Greek god is Svarog equated in the only source that mentions him, the Slavic translation of Malalas's chronicle?"
+   },
+   "moznosti": {
+    "cs": [
+     "S Apollónem",
+     "S Hermem",
+     "S Hefaistem",
+     "Se Zeem"
+    ],
+    "en": [
+     "Apollo",
+     "Hermes",
+     "Hephaestus",
+     "Zeus"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Glosy ztotožňují Hefaista se Svarogem a jeho syna Hélia s Dažbogem, proto bývá Svarog spojován s ohněm a kovářstvím. Jinde se nevyskytuje, a tak je jeho podoba velmi nejistá.",
+    "en": "The glosses equate Hephaestus with Svarog and his son Helios with Dazhbog, which is why Svarog is linked with fire and smithing. He appears nowhere else, so his nature is highly uncertain."
+   }
+  },
+  {
+   "id": "T212-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdy se poprvé písemně objevuje pověst, že se na Radhošti uctíval bůh Radegast?",
+    "en": "When does the legend that the god Radegast was worshipped on Radhošť first appear in writing?"
+   },
+   "moznosti": {
+    "cs": [
+     "V 11. století",
+     "Ve 14. století",
+     "V 18. století",
+     "Ve 20. století"
+    ],
+    "en": [
+     "In the 11th century",
+     "In the 14th century",
+     "In the 18th century",
+     "In the 20th century"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pověst se poprvé objevuje roku 1710 v díle Jana Jiřího Středovského a badatelé ji mnohokrát vyvrátili. I samotný Radegast je nejistý: podle Thietmara se hlavní bůh svatyně v Radogošči jmenoval Svarožic a jméno Radegast mohlo vzniknout záměnou s názvem místa.",
+    "en": "The legend first appears in 1710 in a work by Jan Jiří Středovský and has been debunked many times. Radegast himself is uncertain: according to Thietmar the chief god of the shrine at Radogošč was Svarozhits, and 'Radegast' may have arisen from confusion with the place name."
+   }
+  },
+  {
+   "id": "T212-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Která květina se v jihoslovanském folkloru nazývá perunika, „Perunova rostlina“?",
+    "en": "Which flower is called perunika, 'Perun's plant', in South Slavic folklore?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pivoňka",
+     "Chrpa",
+     "Kosatec",
+     "Slunečnice"
+    ],
+    "en": [
+     "Peony",
+     "Cornflower",
+     "Iris",
+     "Sunflower"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Perunika je kosatec německý (Iris germanica). Perun má protějšky i u Baltů – litevského Perkūnase a lotyšského Pērkonse.",
+    "en": "Perunika is the German iris (Iris germanica). Perun also has Baltic counterparts – the Lithuanian Perkūnas and the Latvian Pērkons."
+   }
+  },
+  {
+   "id": "T212-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co znamenalo slovo „veles“ ve starých českých textech?",
+    "en": "What did the word 'veles' mean in old Czech texts?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pastýř",
+     "Kouzelník",
+     "Bohatství",
+     "Čert, démon"
+    ],
+    "en": [
+     "Shepherd",
+     "Magician",
+     "Wealth",
+     "Devil, demon"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Ve starých českých textech stojí veles vedle slov „čert“ a „zmek“ jako označení zlé bytosti; z pohanského boha se tak stal démon. Výraz „k Velesu za moře“ z překladu z roku 1561 badatelé vykládají různě.",
+    "en": "In old Czech texts veles appears alongside 'čert' (devil) and 'zmek' (a dragon-like demon) as a name for an evil being – the pagan god had become a demon. The phrase 'to Veles across the sea' in a 1561 translation is interpreted in different ways."
+   }
+  }
+ ]
+}

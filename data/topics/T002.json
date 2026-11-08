@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T002",
+ "nazev": {
+  "cs": "Starověký Egypt: faraoni, pyramidy a mumie",
+  "en": "Ancient Egypt: Pharaohs, Pyramids and Mummies"
+ },
+ "kategorie": {
+  "id": "historie",
+  "nazev": {
+   "cs": "Historie",
+   "en": "History"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T002-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která řeka byla zdrojem života starověkého Egypta?",
+    "en": "Which river was the lifeline of ancient Egypt?"
+   },
+   "moznosti": {
+    "cs": [
+     "Eufrat",
+     "Nil",
+     "Jordán",
+     "Tigris"
+    ],
+    "en": [
+     "Euphrates",
+     "Nile",
+     "Jordan",
+     "Tigris"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Každoroční záplavy Nilu nanášely na pole úrodné bahno, bez kterého by v poušti zemědělství nebylo možné. Řecký dějepisec Hérodotos proto nazval Egypt „darem Nilu“.",
+    "en": "The Nile's annual floods left fertile silt on the fields, without which farming in the desert would have been impossible. The Greek historian Herodotus therefore called Egypt \"the gift of the Nile\"."
+   }
+  },
+  {
+   "id": "T002-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "U kterého dnešního egyptského velkoměsta stojí tři nejslavnější pyramidy?",
+    "en": "Near which present-day Egyptian metropolis do the three most famous pyramids stand?"
+   },
+   "moznosti": {
+    "cs": [
+     "Luxor",
+     "Alexandrie",
+     "Asuán",
+     "Káhira"
+    ],
+    "en": [
+     "Luxor",
+     "Alexandria",
+     "Aswan",
+     "Cairo"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pyramidy faraonů Chufua (Cheopse), Rachefa (Chefréna) a Menkaurea (Mykerina) stojí na plošině v Gíze, asi 13 km od centra Káhiry. Gíza je dnes součástí káhirské aglomerace.",
+    "en": "The pyramids of the pharaohs Khufu, Khafre and Menkaure stand on the Giza plateau, about 13 km (8 mi) from central Cairo. Giza is now part of Greater Cairo."
+   }
+  },
+  {
+   "id": "T002-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou podobu má Velká sfinga v Gíze?",
+    "en": "What does the Great Sphinx of Giza look like?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ležící lev s lidskou hlavou",
+     "Ležící sokol s lidskou hlavou",
+     "Ležící býk s lidskou hlavou",
+     "Ležící kočka s ženskou hlavou"
+    ],
+    "en": [
+     "A reclining lion with a human head",
+     "A reclining falcon with a human head",
+     "A reclining bull with a human head",
+     "A reclining cat with a woman's head"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Sfinga je vytesaná přímo ze skalního podloží a patří k největším sochám starověku. Její tvář se nejčastěji připisuje faraonu Rachefovi (Chefrénovi), jisté to ale není.",
+    "en": "The Sphinx was carved directly from the bedrock and is one of the largest statues of the ancient world. Its face is most often attributed to the pharaoh Khafre, though this is not certain."
+   }
+  },
+  {
+   "id": "T002-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "K čemu sloužily velké egyptské pyramidy?",
+    "en": "What were the great pyramids of ancient Egypt built for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jako hrobky faraonů",
+     "Jako hvězdárny",
+     "Jako pevnosti proti nájezdníkům",
+     "Jako sýpky na obilí"
+    ],
+    "en": [
+     "Tombs for pharaohs",
+     "Observatories",
+     "Fortresses against raiders",
+     "Grain stores"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pyramidy byly monumentální hrobky, které měly faraonovi zajistit věčný život. Pozdně antická a středověká představa o „Josefových sýpkách“ se nepotvrdila.",
+    "en": "The pyramids were monumental tombs meant to secure the pharaoh's eternal life. The late-antique and medieval belief that they were \"Joseph's granaries\" has not been borne out."
+   }
+  },
+  {
+   "id": "T002-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který ze sedmi divů starověkého světa se jako jediný dochoval dodnes?",
+    "en": "Which of the Seven Wonders of the Ancient World is the only one still standing?"
+   },
+   "moznosti": {
+    "cs": [
+     "Velká pyramida v Gíze",
+     "Maják na ostrově Faros",
+     "Rhodský kolos",
+     "Visuté zahrady Semiramidiny"
+    ],
+    "en": [
+     "The Great Pyramid of Giza",
+     "The Lighthouse of Alexandria",
+     "The Colossus of Rhodes",
+     "The Hanging Gardens of Babylon"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Velká pyramida je zároveň nejstarším ze sedmi divů. Maják na Faru stál také v Egyptě, u Alexandrie, ale ve středověku ho zničila zemětřesení.",
+    "en": "The Great Pyramid is also the oldest of the seven wonders. The Lighthouse on Pharos also stood in Egypt, at Alexandria, but was destroyed by earthquakes in the Middle Ages."
+   }
+  },
+  {
+   "id": "T002-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo v roce 1922 objevil téměř neporušenou hrobku faraona Tutanchamona?",
+    "en": "Who discovered the almost intact tomb of the pharaoh Tutankhamun in 1922?"
+   },
+   "moznosti": {
+    "cs": [
+     "Heinrich Schliemann",
+     "Howard Carter",
+     "Flinders Petrie",
+     "Arthur Evans"
+    ],
+    "en": [
+     "Heinrich Schliemann",
+     "Howard Carter",
+     "Flinders Petrie",
+     "Arthur Evans"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Britský archeolog Howard Carter hrobku v Údolí králů otevřel v listopadu 1922 po letech hledání financovaných lordem Carnarvonem. Obsahovala přes pět tisíc předmětů.",
+    "en": "British archaeologist Howard Carter opened the tomb in the Valley of the Kings in November 1922 after years of searching funded by Lord Carnarvon. It held more than five thousand objects."
+   }
+  },
+  {
+   "id": "T002-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Z jakého materiálu je převážně vyrobena pohřební maska Tutanchamona?",
+    "en": "What material is Tutankhamun's funerary mask mainly made of?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ze zlata",
+     "Ze stříbra",
+     "Z bronzu",
+     "Ze slonoviny"
+    ],
+    "en": [
+     "Gold",
+     "Silver",
+     "Bronze",
+     "Ivory"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Maska váží přes 10 kg a je ze dvou vrstev zlata. Oči, obočí a pruhy čelenky jsou vykládané lazuritem, křemenem, obsidiánem a barevným sklem.",
+    "en": "The mask weighs over 10 kg (22 lb) and is made of two layers of gold. The eyes, eyebrows and headcloth stripes are inlaid with lapis lazuli, quartz, obsidian and coloured glass."
+   }
+  },
+  {
+   "id": "T002-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která slavná královna byla poslední skutečnou vládkyní Egypta před jeho připojením k Římu?",
+    "en": "Which famous queen was the last real ruler of Egypt before it was annexed by Rome?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nefertari",
+     "Nefertiti",
+     "Kleopatra VII.",
+     "Teje"
+    ],
+    "en": [
+     "Nefertari",
+     "Nefertiti",
+     "Cleopatra VII",
+     "Tiye"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kleopatra vládla v letech 51–30 př. n. l. a po její smrti se Egypt stal římskou provincií. Pocházela z dynastie Ptolemaiovců, kterou založil jeden z makedonských vojevůdců Alexandra Velikého.",
+    "en": "Cleopatra ruled from 51 to 30 BC, and after her death Egypt became a Roman province. She belonged to the Ptolemaic dynasty, founded by one of Alexander the Great's Macedonian generals."
+   }
+  },
+  {
+   "id": "T002-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které zvíře bylo v Egyptě posvátné a spojované s bohyní Bastet?",
+    "en": "Which animal was sacred in Egypt and associated with the goddess Bastet?"
+   },
+   "moznosti": {
+    "cs": [
+     "Velbloud",
+     "Pes",
+     "Kočka",
+     "Kůň"
+    ],
+    "en": [
+     "Camel",
+     "Dog",
+     "Cat",
+     "Horse"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Bastet byla zobrazována jako kočka nebo žena s kočičí hlavou. V jejím kultovním centru Bubastis se našly tisíce kočičích mumií.",
+    "en": "Bastet was depicted as a cat or a woman with a cat's head. Thousands of cat mummies have been found at her cult centre of Bubastis."
+   }
+  },
+  {
+   "id": "T002-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Do čeho balzamovači balili tělo mumie?",
+    "en": "What did embalmers wrap a mummy's body in?"
+   },
+   "moznosti": {
+    "cs": [
+     "Do kožených řemínků",
+     "Do hedvábných šátků",
+     "Do lněných pruhů látky",
+     "Do pruhů papyru"
+    ],
+    "en": [
+     "Leather straps",
+     "Silk scarves",
+     "Strips of linen",
+     "Strips of papyrus"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Tělo se ovinulo mnoha vrstvami lněných pásů slepených pryskyřicí. Mezi vrstvy kněží vkládali ochranné amulety a odříkávali modlitby.",
+    "en": "The body was wound in many layers of linen strips stuck together with resin. Priests placed protective amulets between the layers and recited prayers."
+   }
+  },
+  {
+   "id": "T002-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo podle dnešních archeologických poznatků stavěl pyramidy v Gíze?",
+    "en": "According to current archaeological evidence, who built the pyramids of Giza?"
+   },
+   "moznosti": {
+    "cs": [
+     "Egyptští dělníci a řemeslníci",
+     "Otroci z dobytých zemí",
+     "Váleční zajatci z Núbie",
+     "Odsouzení zločinci"
+    ],
+    "en": [
+     "Egyptian labourers and craftsmen",
+     "Slaves from conquered lands",
+     "Prisoners of war from Nubia",
+     "Convicted criminals"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Představa otroků pochází od starých Řeků. Vykopávky dělnických osad a hrobů u pyramid ukazují na tisíce odvedených egyptských dělníků, kteří dostávali jídlo a ubytování.",
+    "en": "The idea of slaves goes back to the ancient Greeks. Excavations of workers' settlements and tombs near the pyramids point to thousands of conscripted Egyptian labourers who were given food and lodging."
+   }
+  },
+  {
+   "id": "T002-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se nazývají nádoby, do kterých Egypťané ukládali vnitřnosti vyňaté při mumifikaci?",
+    "en": "What are the vessels in which Egyptians stored the organs removed during mummification called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Amfory",
+     "Kanopy",
+     "Urny",
+     "Sarkofágy"
+    ],
+    "en": [
+     "Amphorae",
+     "Canopic jars",
+     "Urns",
+     "Sarcophagi"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Do čtyř kanop se ukládala játra, plíce, žaludek a střeva. Víka často měla podobu hlav čtyř Horových synů, kteří orgány chránili.",
+    "en": "The four canopic jars held the liver, lungs, stomach and intestines. Their lids were often shaped as the heads of the four Sons of Horus, who protected the organs."
+   }
+  },
+  {
+   "id": "T002-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "K čemu sloužily malé sošky vešebty (ušebti), které se vkládaly do hrobů?",
+    "en": "What were the small shabti (ushabti) figurines placed in tombs for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zobrazovaly zemřelé příbuzné",
+     "Byly to hračky pro mrtvé děti",
+     "Měly za zemřelého pracovat v záhrobí",
+     "Měly hlídat hrob před vykradači"
+    ],
+    "en": [
+     "To depict deceased relatives",
+     "As toys for dead children",
+     "To do work for the deceased in the afterlife",
+     "To guard the tomb against robbers"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vešebty měly místo zemřelého vykonávat těžkou práci, třeba na polích v záhrobí. V pozdějších hrobech jich bývaly stovky, někdy přes čtyři sta.",
+    "en": "Shabtis were meant to do hard labour, such as field work in the afterlife, in place of the deceased. Later tombs often held hundreds of them, sometimes over four hundred."
+   }
+  },
+  {
+   "id": "T002-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jakou látkou balzamovači asi 40 dní vysoušeli tělo před zavinutím?",
+    "en": "What substance did embalmers use to dry out the body for about 40 days before wrapping it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hašeným vápnem",
+     "Včelím voskem",
+     "Dřevěným popelem",
+     "Natronem"
+    ],
+    "en": [
+     "Slaked lime",
+     "Beeswax",
+     "Wood ash",
+     "Natron"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Natron je přírodní směs solí sodíku, která se získávala z vyschlých solných jezer. Celá mumifikace pak podle pramenů trvala až 70 dní.",
+    "en": "Natron is a natural mixture of sodium salts gathered from dried-up salt lakes. According to the sources, the whole mummification took up to 70 days."
+   }
+  },
+  {
+   "id": "T002-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který egyptský bůh se šakalí hlavou byl ochráncem mumifikace a hrobů?",
+    "en": "Which jackal-headed Egyptian god was the protector of mummification and tombs?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sobek",
+     "Anubis",
+     "Horus",
+     "Thót"
+    ],
+    "en": [
+     "Sobek",
+     "Anubis",
+     "Horus",
+     "Thoth"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Anubis (česky též Anup) dohlížel na balzamování a provázel mrtvé. Šakalové se toulali kolem pohřebišť, a tak se z nich stal symbol jejich ochránce.",
+    "en": "Anubis watched over embalming and guided the dead. Jackals prowled around cemeteries, so they became the symbol of their protector."
+   }
+  },
+  {
+   "id": "T002-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která žena vládla Egyptu jako faraon a dávala se zobrazovat i s nepravým obřadním vousem?",
+    "en": "Which woman ruled Egypt as pharaoh and had herself depicted even with a false ceremonial beard?"
+   },
+   "moznosti": {
+    "cs": [
+     "Anchesenamon",
+     "Teje",
+     "Hatšepsut",
+     "Nefertari"
+    ],
+    "en": [
+     "Ankhesenamun",
+     "Tiye",
+     "Hatshepsut",
+     "Nefertari"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hatšepsut vládla v 15. století př. n. l. asi dvě desetiletí. Postavila slavný terasovitý chrám v Dér el-Bahrí a vyslala obchodní výpravu do vzdálené země Punt.",
+    "en": "Hatshepsut ruled for about two decades in the 15th century BC. She built the famous terraced temple at Deir el-Bahari and sent a trading expedition to the distant land of Punt."
+   }
+  },
+  {
+   "id": "T002-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který faraon dal vytesat do skály obří chrámy v Abú Simbelu?",
+    "en": "Which pharaoh had the giant rock-cut temples at Abu Simbel carved?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chufu (Cheops)",
+     "Achnaton",
+     "Tutanchamon",
+     "Ramesse II."
+    ],
+    "en": [
+     "Khufu (Cheops)",
+     "Akhenaten",
+     "Tutankhamun",
+     "Ramesses II"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Průčelí hlavního chrámu zdobí čtyři asi dvacetimetrové sochy Ramesse II. V 60. letech 20. století byly chrámy rozřezány na bloky a přesunuty výš, aby je nezatopila Asuánská přehrada.",
+    "en": "The facade of the main temple bears four statues of Ramesses II, each about 20 metres (66 ft) tall. In the 1960s the temples were cut into blocks and moved higher up so the Aswan High Dam would not flood them."
+   }
+  },
+  {
+   "id": "T002-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která pyramida je považována za nejstarší v Egyptě?",
+    "en": "Which pyramid is considered the oldest in Egypt?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chufuova pyramida v Gíze",
+     "Menkaureova pyramida v Gíze",
+     "Lomená pyramida v Dahšúru",
+     "Džoserova stupňovitá pyramida v Sakkáře"
+    ],
+    "en": [
+     "The Pyramid of Khufu at Giza",
+     "The Pyramid of Menkaure at Giza",
+     "The Bent Pyramid at Dahshur",
+     "The Step Pyramid of Djoser at Saqqara"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vznikla v 27. století př. n. l. pro faraona Džosera a většina egyptologů její stavbu připisuje jeho vezírovi Imhotepovi. Začala jako jediná mastaba, kterou stavitelé postupně rozšiřovali až do šesti stupňů, a považuje se za první monumentální kamennou stavbu v Egyptě.",
+    "en": "It was built in the 27th century BC for the pharaoh Djoser, and most Egyptologists credit its construction to his vizier Imhotep. It began as a single mastaba that was enlarged in stages into six steps, and it is considered Egypt's earliest monumental stone building."
+   }
+  },
+  {
+   "id": "T002-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který faraon se pokusil nahradit tradiční egyptské bohy uctíváním jediného božstva a přestěhoval hlavní město do Amarny?",
+    "en": "Which pharaoh tried to replace Egypt's traditional gods with the worship of a single deity and moved the capital to Amarna?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chufu (Cheops)",
+     "Thutmose III.",
+     "Ramesse II.",
+     "Achnaton"
+    ],
+    "en": [
+     "Khufu (Cheops)",
+     "Thutmose III",
+     "Ramesses II",
+     "Akhenaten"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Achnaton (původně Amenhotep IV.) uctíval sluneční kotouč Aton, potlačil kulty ostatních bohů a založil nové hlavní město Achetaton. Byl manželem Nefertiti.",
+    "en": "Akhenaten (originally Amenhotep IV) worshipped the sun disc Aten, suppressed the cults of the other gods and founded a new capital, Akhetaten. He was the husband of Nefertiti."
+   }
+  },
+  {
+   "id": "T002-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Přibližně jak vysoká byla Velká pyramida v Gíze po dokončení?",
+    "en": "Roughly how tall was the Great Pyramid of Giza when completed?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 45 m",
+     "Asi 95 m",
+     "Asi 145 m",
+     "Asi 245 m"
+    ],
+    "en": [
+     "About 45 m (150 ft)",
+     "About 95 m (310 ft)",
+     "About 145 m (480 ft)",
+     "About 245 m (800 ft)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Původně měřila asi 146,6 m a přes 3 700 let byla nejvyšší stavbou na světě. Dnes je kvůli ztrátě vrcholu a obkladu vysoká asi 138,5 m.",
+    "en": "It originally stood about 146.6 m (481 ft) tall and was the world's tallest structure for over 3,700 years. Having lost its tip and casing, it is now about 138.5 m (454 ft) tall."
+   }
+  },
+  {
+   "id": "T002-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proti čemu se podle egyptských představ na posmrtném soudu vážilo srdce zemřelého?",
+    "en": "In Egyptian belief, what was the heart of the deceased weighed against at the judgement after death?"
+   },
+   "moznosti": {
+    "cs": [
+     "Proti zlatému skarabeovi",
+     "Proti peru bohyně Maat",
+     "Proti hrsti posvátného obilí",
+     "Proti oku boha Hora"
+    ],
+    "en": [
+     "A golden scarab",
+     "The feather of the goddess Maat",
+     "A handful of sacred grain",
+     "The eye of the god Horus"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pero Maat symbolizovalo pravdu a řád. Srdce bylo k soudu potřeba, a proto ho balzamovači nechávali v těle; srdce ztěžklé hříchy sežrala obluda Ammut (Ammit).",
+    "en": "Maat's feather symbolised truth and order. The heart was needed for this judgement, which is why embalmers left it in the body; a heart weighed down by sins was devoured by the monster Ammit."
+   }
+  },
+  {
+   "id": "T002-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který faraon postavil Červenou pyramidu v Dahšúru, považovanou za první úspěšně dokončenou „pravou“ pyramidu s hladkými stěnami?",
+    "en": "Which pharaoh built the Red Pyramid at Dahshur, considered the first successfully completed \"true\" smooth-sided pyramid?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chufu (Cheops)",
+     "Džoser",
+     "Rachef (Chefrén)",
+     "Snofru"
+    ],
+    "en": [
+     "Khufu (Cheops)",
+     "Djoser",
+     "Khafre (Chephren)",
+     "Sneferu"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Snofru, otec Chufua, postavil nejméně tři pyramidy. U Lomené pyramidy se během stavby měnil sklon stěn, až Červená pyramida se povedla celá v jednom sklonu.",
+    "en": "Sneferu, Khufu's father, built at least three pyramids. The Bent Pyramid's slope was changed during construction; only the Red Pyramid succeeded with a single angle throughout."
+   }
+  },
+  {
+   "id": "T002-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který panovník bývá považován za sjednotitele Horního a Dolního Egypta kolem roku 3100 př. n. l.?",
+    "en": "Which ruler is often regarded as the unifier of Upper and Lower Egypt around 3100 BC?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mentuhotep II.",
+     "Narmer",
+     "Amenhotep III.",
+     "Ahmose I."
+    ],
+    "en": [
+     "Mentuhotep II",
+     "Narmer",
+     "Amenhotep III",
+     "Ahmose I"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Na slavné Narmerově paletě je zobrazen jednou s korunou Horního a podruhé s korunou Dolního Egypta. Většina egyptologů ho ztotožňuje s legendárním prvním králem Menem.",
+    "en": "The famous Narmer Palette shows him wearing the crown of Upper Egypt on one side and that of Lower Egypt on the other. Most Egyptologists identify him with Menes, the legendary first king."
+   }
+  },
+  {
+   "id": "T002-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "S kým uzavřel Ramesse II. po bitvě u Kadeše mírovou smlouvu, považovanou za nejstarší dochovanou mírovou smlouvu?",
+    "en": "With whom did Ramesses II conclude, after the Battle of Kadesh, a peace treaty considered the oldest surviving peace treaty?"
+   },
+   "moznosti": {
+    "cs": [
+     "S Asyřany",
+     "S Babylóňany",
+     "S Mitanni",
+     "S Chetity"
+    ],
+    "en": [
+     "The Assyrians",
+     "The Babylonians",
+     "Mitanni",
+     "The Hittites"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Smlouvu s chetitským králem Hattušilim III. uzavřeli kolem roku 1259 př. n. l. Její kopie visí v sídle OSN v New Yorku (k roku 2026).",
+    "en": "The treaty with the Hittite king Hattusili III was concluded around 1259 BC. A copy of it hangs at the UN headquarters in New York (as of 2026)."
+   }
+  },
+  {
+   "id": "T002-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím se do dějin zapsali řemeslníci z vesnice Dér el-Medína (Deir el-Medina), kteří budovali hrobky v Údolí králů?",
+    "en": "What did the craftsmen of the village of Deir el-Medina, who built the tombs in the Valley of the Kings, go down in history for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Objevem tavby železa",
+     "První doloženou stávkou",
+     "Stavbou prvního kamenného mostu",
+     "Vzpourou, která svrhla faraona"
+    ],
+    "en": [
+     "Discovering iron smelting",
+     "The first recorded strike",
+     "Building the first stone bridge",
+     "A revolt that toppled a pharaoh"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Kolem roku 1158 př. n. l., za Ramesse III., přestali pracovat, protože jim stát nevydal příděly obilí. Vesnici dlouho zkoumal i český egyptolog Jaroslav Černý.",
+    "en": "Around 1158 BC, under Ramesses III, they stopped work because the state failed to deliver their grain rations."
+   }
+  },
+  {
+   "id": "T002-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co bylo v roce 1954 nalezeno v uzavřené jámě u Velké pyramidy?",
+    "en": "What was found in 1954 in a sealed pit next to the Great Pyramid?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rozebraná cedrová loď",
+     "Mumie faraona Chufua",
+     "Sklad bronzových zbraní",
+     "Zlatá maska faraona"
+    ],
+    "en": [
+     "A dismantled cedar ship",
+     "The mummy of the pharaoh Khufu",
+     "A store of bronze weapons",
+     "A pharaoh's golden mask"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Chufuovu loď z libanonského cedru, dlouhou přes 43 metrů, složili restaurátoři z 1 224 dílů. Je vystavena ve Velkém egyptském muzeu v Gíze (k roku 2026).",
+    "en": "Khufu's ship, made of Lebanon cedar and over 43 metres (141 ft) long, was reassembled by restorers from 1,224 pieces. It is displayed in the Grand Egyptian Museum in Giza (as of 2026)."
+   }
+  },
+  {
+   "id": "T002-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "K čemu se v Evropě od středověku používaly rozemleté egyptské mumie?",
+    "en": "What were ground-up Egyptian mummies used for in Europe from the Middle Ages onwards?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jako lék",
+     "Jako koření do jídla",
+     "Jako střelný prach",
+     "Jako stavební malta"
+    ],
+    "en": [
+     "As medicine",
+     "As a food spice",
+     "As gunpowder",
+     "As building mortar"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Lékárny prodávaly prášek „mumia“, protože se věřilo, že léčí. Malíři z rozemletých mumií navíc míchali hnědou barvu „mummy brown“, oblíbenou hlavně v 18. a 19. století a prodávanou ještě ve 20. století.",
+    "en": "Apothecaries sold \"mumia\" powder because it was believed to heal. Painters also made a brown paint called \"mummy brown\" from ground mummies, popular mainly in the 18th and 19th centuries and still sold in the 20th."
+   }
+  },
+  {
+   "id": "T002-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se nazývala ta část duše, kterou Egypťané zobrazovali jako ptáka s lidskou hlavou?",
+    "en": "What was the part of the soul that Egyptians depicted as a bird with a human head called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ka",
+     "Ren",
+     "Šut",
+     "Ba"
+    ],
+    "en": [
+     "Ka",
+     "Ren",
+     "Shut",
+     "Ba"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Ba po smrti vylétalo z hrobky a zase se k mumii vracelo. Ka byla životní síla a dvojník člověka, ren jeho jméno a šut jeho stín.",
+    "en": "The ba flew out of the tomb after death and returned to the mummy. The ka was the life force and double of a person, the ren their name and the shut their shadow."
+   }
+  },
+  {
+   "id": "T002-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Přibližně kolik let dělilo stavbu Velké pyramidy od vlády Kleopatry VII.?",
+    "en": "Roughly how many years separated the building of the Great Pyramid from the reign of Cleopatra VII?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 500 let",
+     "Asi 1 000 let",
+     "Asi 2 500 let",
+     "Asi 5 000 let"
+    ],
+    "en": [
+     "About 500 years",
+     "About 1,000 years",
+     "About 2,500 years",
+     "About 5,000 years"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pyramida vznikla kolem roku 2600 př. n. l., Kleopatra zemřela roku 30 př. n. l. Žila tedy časově blíž přistání člověka na Měsíci (1969) než stavbě pyramidy.",
+    "en": "The pyramid was built around 2600 BC and Cleopatra died in 30 BC. She therefore lived closer in time to the Moon landing (1969) than to the pyramid's construction."
+   }
+  },
+  {
+   "id": "T002-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč si faraon Tutanchamon změnil své původní jméno Tutanchaton?",
+    "en": "Why did the pharaoh Tutankhamun change his original name, Tutankhaten?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přestěhoval sídlo do Alexandrie",
+     "Oženil se s chetitskou princeznou",
+     "Egypt se vrátil k tradičním bohům",
+     "Zvítězil ve válce s Núbií"
+    ],
+    "en": [
+     "He moved his seat to Alexandria",
+     "He married a Hittite princess",
+     "Egypt returned to its traditional gods",
+     "He won a war against Nubia"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jméno Tutanchaton znamená „živoucí obraz Atonův“, Tutanchamon „živoucí obraz Amonův“. Jméno změnil ve třetím roce vlády a jeho manželka tehdy přijala jméno Anchesenamon.",
+    "en": "The name Tutankhaten means \"living image of Aten\", Tutankhamun \"living image of Amun\". He changed it in the third year of his reign, when his wife also took the name Ankhesenamun."
+   }
+  }
+ ]
+}

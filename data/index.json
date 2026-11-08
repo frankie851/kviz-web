@@ -1,14 +1,810 @@
 {
  "verze": 1,
  "rezim": "web",
- "exportovano": "2026-11-04T23:45:28+01:00",
+ "exportovano": "2026-11-08T03:58:42+01:00",
  "jazyky": [
   "cs",
   "en"
  ],
- "pocet_temat": 4,
- "pocet_otazek": 120,
+ "pocet_temat": 116,
+ "pocet_otazek": 3480,
  "kategorie": [
+  {
+   "id": "historie",
+   "nazev": {
+    "cs": "Historie",
+    "en": "History"
+   },
+   "ikona": "🏛️",
+   "temata": [
+    {
+     "id": "T002",
+     "nazev": {
+      "cs": "Starověký Egypt: faraoni, pyramidy a mumie",
+      "en": "Ancient Egypt: Pharaohs, Pyramids and Mummies"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T002.json"
+    },
+    {
+     "id": "T007",
+     "nazev": {
+      "cs": "Vikingové: mořeplavci a dobyvatelé",
+      "en": "The Vikings: Seafarers and Conquerors"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T007.json"
+    },
+    {
+     "id": "T025",
+     "nazev": {
+      "cs": "Římská říše: císaři, legie a každodenní život",
+      "en": "The Roman Empire: Emperors, Legions and Daily Life"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T025.json"
+    },
+    {
+     "id": "T033",
+     "nazev": {
+      "cs": "Středověk: rytíři, cechy a mor",
+      "en": "The Middle Ages: Knights, Guilds and the Plague"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T033.json"
+    },
+    {
+     "id": "T201",
+     "nazev": {
+      "cs": "Francouzská revoluce",
+      "en": "The French Revolution"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T201.json"
+    },
+    {
+     "id": "T202",
+     "nazev": {
+      "cs": "Průmyslová revoluce",
+      "en": "The Industrial Revolution"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T202.json"
+    },
+    {
+     "id": "T203",
+     "nazev": {
+      "cs": "První světová válka",
+      "en": "The First World War"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T203.json"
+    },
+    {
+     "id": "T231",
+     "nazev": {
+      "cs": "Antické Řecko: Athény, Sparta a filozofové",
+      "en": "Ancient Greece: Athens, Sparta and the Philosophers"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T231.json"
+    },
+    {
+     "id": "T232",
+     "nazev": {
+      "cs": "Habsburkové a Rakousko-Uhersko",
+      "en": "The Habsburgs and Austria-Hungary"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T232.json"
+    },
+    {
+     "id": "T287",
+     "nazev": {
+      "cs": "Třicetiletá válka",
+      "en": "The Thirty Years' War"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T287.json"
+    },
+    {
+     "id": "T315",
+     "nazev": {
+      "cs": "Křížové výpravy a rytířské řády",
+      "en": "The Crusades and the Military Orders"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T315.json"
+    },
+    {
+     "id": "T318",
+     "nazev": {
+      "cs": "Féničané a Kartágo: Hannibal, purpur a abeceda",
+      "en": "The Phoenicians and Carthage: Hannibal, Purple Dye and the Alphabet"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T318.json"
+    },
+    {
+     "id": "T329",
+     "nazev": {
+      "cs": "Zlatý věk islámu: věda, čísla a Tisíc a jedna noc",
+      "en": "The Islamic Golden Age: Science, Numbers and the Thousand and One Nights"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T329.json"
+    },
+    {
+     "id": "T336",
+     "nazev": {
+      "cs": "Pád Říma a stěhování národů: Hunové, Gótové a Vandalové",
+      "en": "The Fall of Rome and the Migration Period: Huns, Goths and Vandals"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T336.json"
+    },
+    {
+     "id": "T341",
+     "nazev": {
+      "cs": "Carské Rusko: od Ivana Hrozného po Romanovce",
+      "en": "Tsarist Russia: from Ivan the Terrible to the Romanovs"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T341.json"
+    },
+    {
+     "id": "T342",
+     "nazev": {
+      "cs": "Osvícenství: Voltaire, Rousseau a encyklopedisté",
+      "en": "The Enlightenment: Voltaire, Rousseau and the Encyclopédistes"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T342.json"
+    },
+    {
+     "id": "T397",
+     "nazev": {
+      "cs": "Nizozemský zlatý věk: tulipány, VOC a Rembrandt",
+      "en": "The Dutch Golden Age: Tulips, the VOC and Rembrandt"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T397.json"
+    }
+   ]
+  },
+  {
+   "id": "zemepis",
+   "nazev": {
+    "cs": "Zeměpis",
+    "en": "Geography"
+   },
+   "ikona": "🌍",
+   "temata": [
+    {
+     "id": "T016",
+     "nazev": {
+      "cs": "Pouště a extrémní místa planety",
+      "en": "Deserts and Earth's Extreme Places"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T016.json"
+    },
+    {
+     "id": "T020",
+     "nazev": {
+      "cs": "Ostrovy světa",
+      "en": "Islands of the World"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T020.json"
+    },
+    {
+     "id": "T024",
+     "nazev": {
+      "cs": "Sopky a zemětřesení",
+      "en": "Volcanoes and Earthquakes"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T024.json"
+    },
+    {
+     "id": "T034",
+     "nazev": {
+      "cs": "Velcí objevitelé a cestovatelé",
+      "en": "Great Explorers and Travellers"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T034.json"
+    },
+    {
+     "id": "T197",
+     "nazev": {
+      "cs": "Oceány: hlubiny, proudy a přílivy",
+      "en": "Oceans: Depths, Currents and Tides"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T197.json"
+    },
+    {
+     "id": "T198",
+     "nazev": {
+      "cs": "Polární oblasti: Arktida a Antarktida",
+      "en": "Polar Regions: The Arctic and Antarctica"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T198.json"
+    },
+    {
+     "id": "T224",
+     "nazev": {
+      "cs": "Jeskyně světa: krápníky, propasti a jeskynní malby",
+      "en": "Caves of the World: Stalactites, Abysses and Cave Paintings"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T224.json"
+    },
+    {
+     "id": "T228",
+     "nazev": {
+      "cs": "Evropské státy a Evropská unie",
+      "en": "European Countries and the European Union"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T228.json"
+    },
+    {
+     "id": "T253",
+     "nazev": {
+      "cs": "Horniny, minerály a geologie",
+      "en": "Rocks, Minerals and Geology"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T253.json"
+    },
+    {
+     "id": "T256",
+     "nazev": {
+      "cs": "Afrika: státy, řeky a kultury",
+      "en": "Africa: Countries, Rivers and Cultures"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T256.json"
+    },
+    {
+     "id": "T316",
+     "nazev": {
+      "cs": "Severské země: Norsko, Švédsko, Dánsko, Finsko a Island",
+      "en": "The Nordic Countries: Norway, Sweden, Denmark, Finland and Iceland"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T316.json"
+    },
+    {
+     "id": "T317",
+     "nazev": {
+      "cs": "Španělsko a Portugalsko",
+      "en": "Spain and Portugal"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T317.json"
+    },
+    {
+     "id": "T324",
+     "nazev": {
+      "cs": "Jihovýchodní Asie: Thajsko, Vietnam, Indonésie a další",
+      "en": "Southeast Asia: Thailand, Vietnam, Indonesia and More"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T324.json"
+    },
+    {
+     "id": "T335",
+     "nazev": {
+      "cs": "Itálie: města, ostrovy a zajímavosti",
+      "en": "Italy: Cities, Islands and Curiosities"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T335.json"
+    },
+    {
+     "id": "T346",
+     "nazev": {
+      "cs": "Francie: Paříž, regiony a zajímavosti",
+      "en": "France: Paris, Regions and Curiosities"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T346.json"
+    },
+    {
+     "id": "T348",
+     "nazev": {
+      "cs": "Blízký východ: Petra, Jeruzalém a Mrtvé moře",
+      "en": "The Middle East: Petra, Jerusalem and the Dead Sea"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T348.json"
+    },
+    {
+     "id": "T351",
+     "nazev": {
+      "cs": "Německo: od Berlína po Bavorsko",
+      "en": "Germany: from Berlin to Bavaria"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T351.json"
+    },
+    {
+     "id": "T357",
+     "nazev": {
+      "cs": "Polsko, Slovensko, Rakousko a Maďarsko",
+      "en": "Poland, Slovakia, Austria and Hungary"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T357.json"
+    },
+    {
+     "id": "T398",
+     "nazev": {
+      "cs": "Washington, D.C.: Bílý dům, Kapitol a památníky",
+      "en": "Washington, D.C.: The White House, the Capitol and the Monuments"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T398.json"
+    },
+    {
+     "id": "T408",
+     "nazev": {
+      "cs": "Sibiř a ruský Dálný východ: Bajkal, Kamčatka a věčně zmrzlá půda",
+      "en": "Siberia and the Russian Far East: Lake Baikal, Kamchatka and the Permafrost"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T408.json"
+    }
+   ]
+  },
+  {
+   "id": "priroda-a-zvirata",
+   "nazev": {
+    "cs": "Příroda a zvířata",
+    "en": "Nature & Animals"
+   },
+   "ikona": "🐾",
+   "temata": [
+    {
+     "id": "T012",
+     "nazev": {
+      "cs": "Ptačí rekordmani",
+      "en": "Record-Breaking Birds"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T012.json"
+    },
+    {
+     "id": "T021",
+     "nazev": {
+      "cs": "Dinosauři a pravěký život",
+      "en": "Dinosaurs and Prehistoric Life"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T021.json"
+    },
+    {
+     "id": "T032",
+     "nazev": {
+      "cs": "Hmyz: malí rekordmani",
+      "en": "Insects: Small Record-Breakers"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T032.json"
+    },
+    {
+     "id": "T200",
+     "nazev": {
+      "cs": "Šelmy Evropy: medvědi, vlci a rysi",
+      "en": "Europe's Carnivores: Bears, Wolves and Lynx"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T200.json"
+    },
+    {
+     "id": "T288",
+     "nazev": {
+      "cs": "Pavouci, štíři a další členovci",
+      "en": "Spiders, Scorpions and Other Arthropods"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T288.json"
+    },
+    {
+     "id": "T327",
+     "nazev": {
+      "cs": "Ryby: od akvária po hlubiny",
+      "en": "Fish: from the Aquarium to the Deep"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T327.json"
+    },
+    {
+     "id": "T339",
+     "nazev": {
+      "cs": "Kočkovité šelmy světa: tygři, levharti, jaguáři a rysi",
+      "en": "Wild Cats of the World: Tigers, Leopards, Jaguars and Lynxes"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T339.json"
+    },
+    {
+     "id": "T352",
+     "nazev": {
+      "cs": "Deštné pralesy: život v korunách stromů",
+      "en": "Rainforests: Life in the Canopy"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T352.json"
+    },
+    {
+     "id": "T395",
+     "nazev": {
+      "cs": "Korálové útesy: život v podmořských zahradách",
+      "en": "Coral Reefs: Life in the Underwater Gardens"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T395.json"
+    },
+    {
+     "id": "T405",
+     "nazev": {
+      "cs": "Včely a med: život úlu",
+      "en": "Bees and Honey: Life in the Hive"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T405.json"
+    }
+   ]
+  },
+  {
+   "id": "umeni-a-literatura",
+   "nazev": {
+    "cs": "Umění a literatura",
+    "en": "Art & Literature"
+   },
+   "ikona": "🎨",
+   "temata": [
+    {
+     "id": "T009",
+     "nazev": {
+      "cs": "Slavné obrazy a jejich tajemství",
+      "en": "Famous Paintings and Their Secrets"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T009.json"
+    },
+    {
+     "id": "T026",
+     "nazev": {
+      "cs": "Slavné knihy a jejich autoři",
+      "en": "Famous Books and Their Authors"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T026.json"
+    },
+    {
+     "id": "T037",
+     "nazev": {
+      "cs": "Slavné stavby světa",
+      "en": "Famous Buildings of the World"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T037.json"
+    },
+    {
+     "id": "T247",
+     "nazev": {
+      "cs": "Renesance: Leonardo, Michelangelo a Medicejové",
+      "en": "The Renaissance: Leonardo, Michelangelo and the Medici"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T247.json"
+    },
+    {
+     "id": "T361",
+     "nazev": {
+      "cs": "Jules Verne a romány budoucnosti",
+      "en": "Jules Verne and Novels of the Future"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T361.json"
+    },
+    {
+     "id": "T363",
+     "nazev": {
+      "cs": "Ruská literatura: od Puškina po Bulgakova",
+      "en": "Russian Literature: from Pushkin to Bulgakov"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T363.json"
+    },
+    {
+     "id": "T369",
+     "nazev": {
+      "cs": "Gotické katedrály Evropy",
+      "en": "The Gothic Cathedrals of Europe"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T369.json"
+    }
+   ]
+  },
   {
    "id": "sport",
    "nazev": {
@@ -17,6 +813,62 @@
    },
    "ikona": "⚽",
    "temata": [
+    {
+     "id": "T006",
+     "nazev": {
+      "cs": "Olympijské hry: historie a kuriozity",
+      "en": "The Olympic Games: History and Curiosities"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T006.json"
+    },
+    {
+     "id": "T027",
+     "nazev": {
+      "cs": "Šachy: historie, legendy a rekordy",
+      "en": "Chess: History, Legends and Records"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T027.json"
+    },
+    {
+     "id": "T038",
+     "nazev": {
+      "cs": "Fotbal: historie a kuriozity",
+      "en": "Football: History and Curiosities"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T038.json"
+    },
+    {
+     "id": "T205",
+     "nazev": {
+      "cs": "Lední hokej",
+      "en": "Ice Hockey"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T205.json"
+    },
     {
      "id": "T254",
      "nazev": {
@@ -30,6 +882,660 @@
      },
      "celkem": 30,
      "soubor": "topics/T254.json"
+    },
+    {
+     "id": "T326",
+     "nazev": {
+      "cs": "Šerm, lukostřelba a sportovní střelba",
+      "en": "Fencing, Archery and Shooting Sports"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T326.json"
+    },
+    {
+     "id": "T354",
+     "nazev": {
+      "cs": "Rallye, Dakar a motocyklový sport",
+      "en": "Rally, the Dakar and Motorcycle Racing"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T354.json"
+    }
+   ]
+  },
+  {
+   "id": "kuriozity",
+   "nazev": {
+    "cs": "Kuriozity",
+    "en": "Curiosities"
+   },
+   "ikona": "🤯",
+   "temata": [
+    {
+     "id": "T017",
+     "nazev": {
+      "cs": "Historické mýty, kterým věříme",
+      "en": "Historical Myths We Still Believe"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T017.json"
+    },
+    {
+     "id": "T213",
+     "nazev": {
+      "cs": "Kuriózní sporty a hry světa",
+      "en": "Unusual Sports and Games of the World"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T213.json"
+    },
+    {
+     "id": "T299",
+     "nazev": {
+      "cs": "Zaniklá řemesla a povolání",
+      "en": "Vanished Crafts and Occupations"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T299.json"
+    }
+   ]
+  },
+  {
+   "id": "veda-a-technika",
+   "nazev": {
+    "cs": "Věda a technika",
+    "en": "Science & Technology"
+   },
+   "ikona": "🔬",
+   "temata": [
+    {
+     "id": "T003",
+     "nazev": {
+      "cs": "Příběhy za názvy chemických prvků",
+      "en": "The Stories Behind Chemical Element Names"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T003.json"
+    },
+    {
+     "id": "T031",
+     "nazev": {
+      "cs": "Počítače a internet: jak to začalo",
+      "en": "Computers and the Internet: How It All Began"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T031.json"
+    },
+    {
+     "id": "T195",
+     "nazev": {
+      "cs": "Mosty světa",
+      "en": "Bridges of the World"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T195.json"
+    },
+    {
+     "id": "T199",
+     "nazev": {
+      "cs": "Světlo, barvy a optika",
+      "en": "Light, Colour and Optics"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T199.json"
+    },
+    {
+     "id": "T229",
+     "nazev": {
+      "cs": "Genetika a DNA",
+      "en": "Genetics and DNA"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T229.json"
+    },
+    {
+     "id": "T243",
+     "nazev": {
+      "cs": "Energie: od uhlí po jádro a obnovitelné zdroje",
+      "en": "Energy: from Coal to Nuclear and Renewables"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T243.json"
+    },
+    {
+     "id": "T251",
+     "nazev": {
+      "cs": "Chemie všedního dne",
+      "en": "Everyday Chemistry"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T251.json"
+    },
+    {
+     "id": "T261",
+     "nazev": {
+      "cs": "Čísla, tvary a matematika kolem nás",
+      "en": "Numbers, Shapes and Everyday Maths"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T261.json"
+    },
+    {
+     "id": "T290",
+     "nazev": {
+      "cs": "Fyzika kolem nás",
+      "en": "Physics All Around Us"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T290.json"
+    },
+    {
+     "id": "T355",
+     "nazev": {
+      "cs": "Atomy a částice: od Rutherforda po CERN",
+      "en": "Atoms and Particles: from Rutherford to CERN"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T355.json"
+    },
+    {
+     "id": "T406",
+     "nazev": {
+      "cs": "Magnety a magnetismus: od kompasu po magnetickou rezonanci",
+      "en": "Magnets and Magnetism: From the Compass to MRI"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T406.json"
+    }
+   ]
+  },
+  {
+   "id": "film-a-tv",
+   "nazev": {
+    "cs": "Film a TV",
+    "en": "Film & TV"
+   },
+   "ikona": "🎬",
+   "temata": [
+    {
+     "id": "T018",
+     "nazev": {
+      "cs": "Filmové triky a zákulisí slavných filmů",
+      "en": "Film Tricks and Behind-the-Scenes Stories"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T018.json"
+    },
+    {
+     "id": "T364",
+     "nazev": {
+      "cs": "Němý film a počátky kinematografie",
+      "en": "Silent Film and the Birth of Cinema"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T364.json"
+    }
+   ]
+  },
+  {
+   "id": "jidlo-a-piti",
+   "nazev": {
+    "cs": "Jídlo a pití",
+    "en": "Food & Drink"
+   },
+   "ikona": "🍽️",
+   "temata": [
+    {
+     "id": "T010",
+     "nazev": {
+      "cs": "Odkud pochází naše jídlo",
+      "en": "Where Our Food Comes From"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T010.json"
+    },
+    {
+     "id": "T028",
+     "nazev": {
+      "cs": "Káva, čaj a čokoláda",
+      "en": "Coffee, Tea and Chocolate"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T028.json"
+    },
+    {
+     "id": "T262",
+     "nazev": {
+      "cs": "Ovoce a zelenina: původ a kuriozity",
+      "en": "Fruit and Vegetables: Origins and Curiosities"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T262.json"
+    },
+    {
+     "id": "T368",
+     "nazev": {
+      "cs": "Francouzská kuchyně: croissanty, šneci a haute cuisine",
+      "en": "French Cuisine: Croissants, Snails and Haute Cuisine"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T368.json"
+    },
+    {
+     "id": "T399",
+     "nazev": {
+      "cs": "Kuchyně Asie: dim sum, kari, pad thai a kimči",
+      "en": "Asian Cuisines: Dim Sum, Curry, Pad Thai and Kimchi"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T399.json"
+    }
+   ]
+  },
+  {
+   "id": "hudba",
+   "nazev": {
+    "cs": "Hudba",
+    "en": "Music"
+   },
+   "ikona": "🎵",
+   "temata": [
+    {
+     "id": "T013",
+     "nazev": {
+      "cs": "Hudební nástroje a jejich příběhy",
+      "en": "Musical Instruments and Their Stories"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T013.json"
+    },
+    {
+     "id": "T036",
+     "nazev": {
+      "cs": "Skladatelé vážné hudby",
+      "en": "Composers of Classical Music"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T036.json"
+    },
+    {
+     "id": "T325",
+     "nazev": {
+      "cs": "Elektronická hudba: syntezátory, DJové a techno",
+      "en": "Electronic Music: Synthesizers, DJs and Techno"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T325.json"
+    },
+    {
+     "id": "T400",
+     "nazev": {
+      "cs": "Státní hymny a jejich příběhy",
+      "en": "National Anthems and Their Stories"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T400.json"
+    },
+    {
+     "id": "T407",
+     "nazev": {
+      "cs": "Symfonický orchestr: nástroje, dirigenti a koncertní sály",
+      "en": "The Symphony Orchestra: Instruments, Conductors and Concert Halls"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T407.json"
+    }
+   ]
+  },
+  {
+   "id": "lidske-telo",
+   "nazev": {
+    "cs": "Lidské tělo",
+    "en": "Human Body"
+   },
+   "ikona": "🧠",
+   "temata": [
+    {
+     "id": "T008",
+     "nazev": {
+      "cs": "Kuriozity lidského těla",
+      "en": "Curiosities of the Human Body"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T008.json"
+    },
+    {
+     "id": "T035",
+     "nazev": {
+      "cs": "Mozek a smysly",
+      "en": "The Brain and the Senses"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T035.json"
+    },
+    {
+     "id": "T211",
+     "nazev": {
+      "cs": "Vitamíny a objevy výživy",
+      "en": "Vitamins and the Discovery of Nutrition"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T211.json"
+    },
+    {
+     "id": "T230",
+     "nazev": {
+      "cs": "Kosti, svaly a pohyb",
+      "en": "Bones, Muscles and Movement"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T230.json"
+    },
+    {
+     "id": "T328",
+     "nazev": {
+      "cs": "Optické klamy a triky vnímání",
+      "en": "Optical Illusions and Tricks of Perception"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T328.json"
+    },
+    {
+     "id": "T338",
+     "nazev": {
+      "cs": "Trávení: cesta potravy tělem",
+      "en": "Digestion: the Journey of Food Through the Body"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T338.json"
+    },
+    {
+     "id": "T358",
+     "nazev": {
+      "cs": "Plíce, dýchání a hlas",
+      "en": "Lungs, Breathing and the Voice"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T358.json"
+    },
+    {
+     "id": "T401",
+     "nazev": {
+      "cs": "Kůže, vlasy a nehty: největší orgán těla",
+      "en": "Skin, Hair and Nails: The Body's Largest Organ"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T401.json"
+    }
+   ]
+  },
+  {
+   "id": "mytologie-a-nabozenstvi",
+   "nazev": {
+    "cs": "Mytologie a náboženství",
+    "en": "Mythology & Religion"
+   },
+   "ikona": "🔱",
+   "temata": [
+    {
+     "id": "T011",
+     "nazev": {
+      "cs": "Řecká mytologie: bohové a hrdinové",
+      "en": "Greek Mythology: Gods and Heroes"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T011.json"
+    },
+    {
+     "id": "T212",
+     "nazev": {
+      "cs": "Slovanská mytologie",
+      "en": "Slavic Mythology"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T212.json"
+    },
+    {
+     "id": "T409",
+     "nazev": {
+      "cs": "Lidoví hrdinové a legendární psanci: Robin Hood, Vilém Tell a další",
+      "en": "Folk Heroes and Legendary Outlaws: Robin Hood, William Tell and More"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T409.json"
+    }
+   ]
+  },
+  {
+   "id": "jazyk-a-slova",
+   "nazev": {
+    "cs": "Jazyk a slova",
+    "en": "Language & Words"
+   },
+   "ikona": "🔤",
+   "temata": [
+    {
+     "id": "T019",
+     "nazev": {
+      "cs": "Písma a abecedy světa",
+      "en": "Writing Systems and Alphabets of the World"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T019.json"
+    },
+    {
+     "id": "T402",
+     "nazev": {
+      "cs": "Interpunkce a symboly: od zavináče po hashtag",
+      "en": "Punctuation and Symbols: From the @ Sign to the Hashtag"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T402.json"
     }
    ]
   },
@@ -41,6 +1547,20 @@
    },
    "ikona": "🏰",
    "temata": [
+    {
+     "id": "T005",
+     "nazev": {
+      "cs": "České vynálezy a objevy",
+      "en": "Czech Inventions and Discoveries"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T005.json"
+    },
     {
      "id": "T146",
      "nazev": {
@@ -82,6 +1602,204 @@
      },
      "celkem": 30,
      "soubor": "topics/T204.json"
+    }
+   ]
+  },
+  {
+   "id": "vesmir",
+   "nazev": {
+    "cs": "Vesmír",
+    "en": "Space"
+   },
+   "ikona": "🚀",
+   "temata": [
+    {
+     "id": "T004",
+     "nazev": {
+      "cs": "Měsíc a mise Apollo",
+      "en": "The Moon and the Apollo Missions"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T004.json"
+    },
+    {
+     "id": "T023",
+     "nazev": {
+      "cs": "Planety sluneční soustavy",
+      "en": "Planets of the Solar System"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T023.json"
+    },
+    {
+     "id": "T040",
+     "nazev": {
+      "cs": "Hvězdy, galaxie a černé díry",
+      "en": "Stars, Galaxies and Black Holes"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T040.json"
+    },
+    {
+     "id": "T356",
+     "nazev": {
+      "cs": "Dalekohledy a astronomie: od Galilea po Webba",
+      "en": "Telescopes and Astronomy: from Galileo to Webb"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T356.json"
+    },
+    {
+     "id": "T396",
+     "nazev": {
+      "cs": "Zvířata ve vesmíru: od Lajky po želvy",
+      "en": "Animals in Space: From Laika to Tortoises"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T396.json"
+    }
+   ]
+  },
+  {
+   "id": "ekonomika-a-penize",
+   "nazev": {
+    "cs": "Ekonomika a peníze",
+    "en": "Economy & Money"
+   },
+   "ikona": "💰",
+   "temata": [
+    {
+     "id": "T014",
+     "nazev": {
+      "cs": "Historie peněz a měn",
+      "en": "The History of Money and Currencies"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T014.json"
+    },
+    {
+     "id": "T039",
+     "nazev": {
+      "cs": "Jak vznikly slavné značky a firmy",
+      "en": "How Famous Brands and Companies Began"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T039.json"
+    },
+    {
+     "id": "T210",
+     "nazev": {
+      "cs": "Průplavy, přístavy a světový obchod",
+      "en": "Canals, Ports and World Trade"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T210.json"
+    }
+   ]
+  },
+  {
+   "id": "vynalezy",
+   "nazev": {
+    "cs": "Vynálezy",
+    "en": "Inventions"
+   },
+   "ikona": "💡",
+   "temata": [
+    {
+     "id": "T015",
+     "nazev": {
+      "cs": "Náhodné objevy a vynálezy",
+      "en": "Accidental Discoveries and Inventions"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T015.json"
+    },
+    {
+     "id": "T196",
+     "nazev": {
+      "cs": "Železnice a slavné vlaky",
+      "en": "Railways and Famous Trains"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T196.json"
+    },
+    {
+     "id": "T227",
+     "nazev": {
+      "cs": "Od telegrafu po smartphone: dějiny komunikace",
+      "en": "From Telegraph to Smartphone: a History of Communication"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T227.json"
+    },
+    {
+     "id": "T403",
+     "nazev": {
+      "cs": "Knihtisk a knihy: od Gutenberga po e-čtečky",
+      "en": "Printing and Books: From Gutenberg to E-Readers"
+     },
+     "otazek": {
+      "1": 10,
+      "2": 10,
+      "3": 10
+     },
+     "celkem": 30,
+     "soubor": "topics/T403.json"
     }
    ]
   }

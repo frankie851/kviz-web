@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T317",
+ "nazev": {
+  "cs": "Španělsko a Portugalsko",
+  "en": "Spain and Portugal"
+ },
+ "kategorie": {
+  "id": "zemepis",
+  "nazev": {
+   "cs": "Zeměpis",
+   "en": "Geography"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T317-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ze kterého španělského regionu pochází paella, rýžový pokrm připravovaný na široké mělké pánvi?",
+    "en": "Which Spanish region does paella, a rice dish cooked in a wide, shallow pan, come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Galicie",
+     "Andalusie",
+     "Valencie",
+     "Katalánsko"
+    ],
+    "en": [
+     "Galicia",
+     "Andalusia",
+     "Valencia",
+     "Catalonia"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Paella pochází z Valencijského společenství a samo slovo paella znamená ve valencijštině pánev (z latinského patella). Tradiční paella valenciana se připravuje hlavně s kuřetem a králíkem, případně i s kachnou či hlemýždi, ne s mořskými plody.",
+    "en": "Paella comes from the Valencian Community, and the word paella itself means frying pan in Valencian (from Latin patella). Traditional paella valenciana is made mainly with chicken and rabbit, optionally with duck or snails, rather than seafood."
+   }
+  },
+  {
+   "id": "T317-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím je proslulá slavnost San Fermín v Pamploně?",
+    "en": "What is the San Fermín festival in Pamplona famous for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Házením mouky",
+     "Bitvou s pomeranči",
+     "Pálením obřích soch",
+     "Během s býky"
+    ],
+    "en": [
+     "Throwing flour",
+     "An orange battle",
+     "Burning giant statues",
+     "Running with bulls"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Každé ráno od 7. do 14. července v 8 hodin vyběhne šest býků asi 875 m dlouhou trasou starým městem do arény a běžci v bílém s červeným šátkem utíkají před nimi. Světově slavný se běh stal i díky Hemingwayovu románu Fiesta (I slunce vychází).",
+    "en": "Every morning from 7 to 14 July at 8 a.m., six bulls run a roughly 875 m (2,870 ft) route through the old town to the bullring, with runners dressed in white with red neckerchiefs racing ahead of them. The run became world-famous partly thanks to Hemingway's novel The Sun Also Rises."
+   }
+  },
+  {
+   "id": "T317-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ke kterému státu patří souostroví Azory v Atlantském oceánu?",
+    "en": "Which country do the Azores, an archipelago in the Atlantic Ocean, belong to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Portugalsku",
+     "Francii",
+     "Spojenému království",
+     "Španělsku"
+    ],
+    "en": [
+     "Portugal",
+     "France",
+     "The United Kingdom",
+     "Spain"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Azory jsou portugalské souostroví v Atlantiku. Spolu s Madeirou patří k ostrovním částem Portugalska daleko od pevniny.",
+    "en": "The Azores are a Portuguese archipelago in the Atlantic. Together with Madeira, they are among Portugal's island territories far from the mainland."
+   }
+  },
+  {
+   "id": "T317-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "U pobřeží kterého kontinentu leží španělské Kanárské ostrovy?",
+    "en": "Off the coast of which continent do Spain's Canary Islands lie?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jižní Ameriky",
+     "Severní Ameriky",
+     "Afriky",
+     "Antarktidy"
+    ],
+    "en": [
+     "South America",
+     "North America",
+     "Africa",
+     "Antarctica"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kanárské ostrovy leží asi 100 km od severozápadního pobřeží Afriky. Politicky tvoří nejjižnější autonomní společenství Španělska.",
+    "en": "The Canary Islands lie about 100 km (62 mi) off the northwest coast of Africa. Politically, they are Spain's southernmost autonomous community."
+   }
+  },
+  {
+   "id": "T317-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém španělském městě stojí palácový a pevnostní komplex Alhambra?",
+    "en": "In which Spanish city does the palace and fortress complex of the Alhambra stand?"
+   },
+   "moznosti": {
+    "cs": [
+     "Toledo",
+     "Granada",
+     "Córdoba",
+     "Sevilla"
+    ],
+    "en": [
+     "Toledo",
+     "Granada",
+     "Córdoba",
+     "Seville"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Alhambra je palácové město a pevnost v Granadě. Patří k nejslavnějším památkám islámské architektury na světě.",
+    "en": "The Alhambra is a palatine city and fortress in Granada. It is one of the most famous monuments of Islamic architecture in the world."
+   }
+  },
+  {
+   "id": "T317-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou barvu mají tradiční lisabonské tramvaje?",
+    "en": "What colour are Lisbon's traditional trams typically painted?"
+   },
+   "moznosti": {
+    "cs": [
+     "Modrou",
+     "Červenou",
+     "Zelenou",
+     "Žlutou"
+    ],
+    "en": [
+     "Blue",
+     "Red",
+     "Green",
+     "Yellow"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Žlutá je typickou barvou lisabonských tramvají. Nejznámější je linka 28, která vede od náměstí Martim Moniz přes Graçu a Estrelu až do Campo de Ourique a je velmi oblíbená u turistů.",
+    "en": "Yellow is the signature colour of Lisbon's trams. The best-known route is 28, which runs from Martim Moniz square via Graça and Estrela to Campo de Ourique and is hugely popular with tourists."
+   }
+  },
+  {
+   "id": "T317-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se v koridě nazývá hlavní toreador, který v závěru býka zabíjí mečem?",
+    "en": "In a bullfight, what is the lead bullfighter called who kills the bull with a sword at the end?"
+   },
+   "moznosti": {
+    "cs": [
+     "Banderillero",
+     "Pikador",
+     "Matador",
+     "Vaquero"
+    ],
+    "en": [
+     "Banderillero",
+     "Picador",
+     "Matador",
+     "Vaquero"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "V závěru se matador vrací do arény sám s malou červenou muletou a mečem. Před ním býka bodá kopím pikador na koni a banderilleros mu do plecí zabodávají ostré bodce (banderilly).",
+    "en": "At the end, the matador re-enters the ring alone with a small red muleta and a sword. Before him, a mounted picador stabs the bull with a lance and the banderilleros plant sharp barbed sticks (banderillas) in its shoulders."
+   }
+  },
+  {
+   "id": "T317-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Podle které květiny se jmenuje portugalská revoluce z 25. dubna 1974, která svrhla diktaturu?",
+    "en": "Which flower gave its name to Portugal's revolution of 25 April 1974, which overthrew the dictatorship?"
+   },
+   "moznosti": {
+    "cs": [
+     "Karafiátu",
+     "Tulipánu",
+     "Růže",
+     "Fialky"
+    ],
+    "en": [
+     "Carnation",
+     "Tulip",
+     "Rose",
+     "Violet"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Karafiátová revoluce proběhla téměř bez výstřelů. Celeste Caeiro, která pracovala v restauraci, rozdávala vojákům karafiáty a ti si je zastrkávali do hlavní pušek – záběry obletěly svět.",
+    "en": "The Carnation Revolution took place with almost no shots fired. Celeste Caeiro, a restaurant worker, handed carnations to soldiers, who put them in their gun barrels – images that went around the world."
+   }
+  },
+  {
+   "id": "T317-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém městě sídlí muzeum Prado, hlavní španělská národní galerie umění?",
+    "en": "In which city is the Prado Museum, Spain's main national art museum?"
+   },
+   "moznosti": {
+    "cs": [
+     "Barcelona",
+     "Madrid",
+     "Valencie",
+     "Sevilla"
+    ],
+    "en": [
+     "Barcelona",
+     "Madrid",
+     "Valencia",
+     "Seville"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Prado stojí v centru Madridu na třídě Paseo del Prado. Veřejnosti se poprvé otevřelo v listopadu 1819.",
+    "en": "The Prado stands in central Madrid on the Paseo del Prado. It first opened to the public in November 1819."
+   }
+  },
+  {
+   "id": "T317-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který nástroj je hlavním doprovodným nástrojem flamenca?",
+    "en": "Which instrument is the main accompanying instrument of flamenco?"
+   },
+   "moznosti": {
+    "cs": [
+     "Housle",
+     "Kytara",
+     "Dudy",
+     "Akordeon"
+    ],
+    "en": [
+     "Violin",
+     "Guitar",
+     "Bagpipes",
+     "Accordion"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Typický flamencový přednes tvoří zpěv s doprovodem kytary; když kytarista chybí, rytmus udává tleskání nebo klepání klouby do stolu. UNESCO zapsalo flamenco na seznam nehmotného dědictví v roce 2010.",
+    "en": "A typical flamenco performance consists of singing accompanied by guitar; without a guitarist, the rhythm is kept by hand clapping or knocking on a table. UNESCO inscribed flamenco on its intangible heritage list in 2010."
+   }
+  },
+  {
+   "id": "T317-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co doslova znamená španělské slovo tapa?",
+    "en": "What does the Spanish word tapa literally mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sousto",
+     "Poklička",
+     "Talířek",
+     "Pochoutka"
+    ],
+    "en": [
+     "Bite",
+     "Lid",
+     "Small plate",
+     "Delicacy"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Tapa znamená v první řadě víčko či pokličku (od slovesa tapar, zakrýt). Podle legend se sklenka sherry v andaluských hospodách přikrývala plátkem šunky, aby do ní nepadal písek ani mušky.",
+    "en": "Tapa primarily means a lid or cover (from the verb tapar, to cover). Legend says glasses of sherry in Andalusian taverns were covered with a slice of ham to keep out sand or fruit flies."
+   }
+  },
+  {
+   "id": "T317-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kterému jazyku je nejbližší galicijština, jazyk španělské Galicie?",
+    "en": "Which language is Galician, the language of Spain's Galicia, most closely related to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Baskičtině",
+     "Portugalštině",
+     "Francouzštině",
+     "Katalánštině"
+    ],
+    "en": [
+     "Basque",
+     "Portuguese",
+     "French",
+     "Catalan"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Galicijština a portugalština mají společného středověkého předka, galicijsko-portugalštinu. Galicijci a obyvatelé severního Portugalska si rozumějí velmi dobře a někteří lingvisté je dodnes považují za jeden jazyk.",
+    "en": "Galician and Portuguese share a common medieval ancestor, Galician-Portuguese. Galicians and northern Portuguese understand each other very well, and some linguists still consider them one language."
+   }
+  },
+  {
+   "id": "T317-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém státě je katalánština jediným úředním jazykem?",
+    "en": "In which country is Catalan the sole official language?"
+   },
+   "moznosti": {
+    "cs": [
+     "Andorra",
+     "San Marino",
+     "Monako",
+     "Lucembursko"
+    ],
+    "en": [
+     "Andorra",
+     "San Marino",
+     "Monaco",
+     "Luxembourg"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "V Andoře byla katalánština vždy jediným úředním jazykem. Ve Španělsku je úřední ve třech autonomních společenstvích, ale vždy vedle španělštiny.",
+    "en": "Catalan has always been the sole official language of Andorra. In Spain it is official in three autonomous communities, but always alongside Spanish."
+   }
+  },
+  {
+   "id": "T317-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na kterém ostrově se narodil fotbalista Cristiano Ronaldo?",
+    "en": "On which island was the footballer Cristiano Ronaldo born?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mallorca",
+     "Tenerife",
+     "Madeira",
+     "Gran Canaria"
+    ],
+    "en": [
+     "Majorca",
+     "Tenerife",
+     "Madeira",
+     "Gran Canaria"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ronaldo se narodil ve farnosti São Pedro ve Funchalu, hlavním městě portugalského ostrova Madeira. Ostatní nabízené ostrovy patří Španělsku.",
+    "en": "Ronaldo was born in the São Pedro parish of Funchal, the capital of the Portuguese island of Madeira. The other islands listed belong to Spain."
+   }
+  },
+  {
+   "id": "T317-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na kterém ostrově se tyčí Teide, nejvyšší hora Španělska?",
+    "en": "On which island does Teide, Spain's highest mountain, rise?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tenerife",
+     "Lanzarote",
+     "Gran Canaria",
+     "Mallorca"
+    ],
+    "en": [
+     "Tenerife",
+     "Lanzarote",
+     "Gran Canaria",
+     "Majorca"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Teide je činný stratovulkán na Tenerife vysoký 3 715 m. Měřeno od mořského dna má dokonce zhruba 7 500 m.",
+    "en": "Teide is an active stratovolcano on Tenerife, 3,715 m (12,188 ft) high. Measured from the ocean floor, it is about 7,500 m (24,600 ft) tall."
+   }
+  },
+  {
+   "id": "T317-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co je tradičním symbolem poutníků na Svatojakubské cestě do Santiaga de Compostela?",
+    "en": "What is the traditional symbol of pilgrims on the Way of St James to Santiago de Compostela?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mušle hřebenatky",
+     "Kotva s křížem",
+     "Holubice s ratolestí",
+     "Klíč svatého Petra"
+    ],
+    "en": [
+     "A scallop shell",
+     "An anchor with a cross",
+     "A dove with a branch",
+     "St Peter's key"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Mušle hřebenatky nosí poutníci jako odznak a slouží i jako značka na trase. Cesta končí v katedrále, kde podle tradice odpočívají ostatky apoštola Jakuba.",
+    "en": "Pilgrims wear the scallop shell as a badge, and it also serves as a waymarker along the route. The route ends at the cathedral where, by tradition, the remains of the apostle James are buried."
+   }
+  },
+  {
+   "id": "T317-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím byla původně Giralda, dnešní zvonice katedrály v Seville?",
+    "en": "What was the Giralda, today the bell tower of Seville Cathedral, originally?"
+   },
+   "moznosti": {
+    "cs": [
+     "Minaretem mešity",
+     "Věží královského paláce",
+     "Majákem",
+     "Věží městských hradeb"
+    ],
+    "en": [
+     "A mosque's minaret",
+     "A tower of the royal palace",
+     "A lighthouse",
+     "A tower of the city walls"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Giralda vznikla za dynastie Almohadů jako minaret Velké mešity v Seville a dokončena byla roku 1198. Po přeměně mešity v katedrálu se z ní stala zvonice a v 16. století dostala renesanční nástavbu se zvony.",
+    "en": "The Giralda was built under the Almohad dynasty as the minaret of Seville's Great Mosque and completed in 1198. When the mosque became a cathedral, it was reused as a bell tower and received a Renaissance belfry in the 16th century."
+   }
+  },
+  {
+   "id": "T317-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co Španělé tradičně jedí o silvestrovské půlnoci, jeden kousek na každý úder hodin?",
+    "en": "What do Spaniards traditionally eat at midnight on New Year's Eve, one piece at each stroke of the clock?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pečené kaštany",
+     "Hroznové víno",
+     "Pražené mandle",
+     "Zelené olivy"
+    ],
+    "en": [
+     "Roasted chestnuts",
+     "Grapes",
+     "Roasted almonds",
+     "Green olives"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Dvanáct kuliček hroznového vína (las doce uvas de la suerte) představuje dvanáct měsíců nového roku. Zvyk zpopularizovali v roce 1909 vinaři z Alicante, kteří potřebovali udat nadúrodu; nejslavnější je odpočet na madridském náměstí Puerta del Sol.",
+    "en": "The twelve grapes (las doce uvas de la suerte) stand for the twelve months of the new year. The custom was popularised in 1909 by Alicante growers with a surplus harvest; the most famous countdown is at Madrid's Puerta del Sol."
+   }
+  },
+  {
+   "id": "T317-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který státník vedl obnovu Lisabonu po ničivém zemětřesení v roce 1755?",
+    "en": "Which statesman led the rebuilding of Lisbon after the devastating earthquake of 1755?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hrabě Aranda",
+     "Vévoda z Wellingtonu",
+     "Kardinál Richelieu",
+     "Markýz Pombal"
+    ],
+    "en": [
+     "The Count of Aranda",
+     "The Duke of Wellington",
+     "Cardinal Richelieu",
+     "The Marquis of Pombal"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "První ministr Sebastião José de Carvalho e Melo, pozdější markýz Pombal, dal po zemětřesení z 1. listopadu 1755 čtvrť Baixa srovnat se zemí a vystavět s novými pravidelnými ulicemi. Pombalské domy patří k prvním protizemětřesným stavbám v Evropě – jejich modely se zkoušely tak, že kolem nich pochodovalo vojsko.",
+    "en": "Prime minister Sebastião José de Carvalho e Melo, later Marquis of Pombal, had the Baixa district cleared after the earthquake of 1 November 1755 and rebuilt with new regular streets. Pombaline buildings are among the earliest earthquake-resistant structures in Europe – their models were tested by having troops march around them."
+   }
+  },
+  {
+   "id": "T317-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která zpěvačka je přezdívána „královna fada“?",
+    "en": "Which singer is nicknamed the 'Queen of Fado'?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rocío Jurado",
+     "Cesária Évora",
+     "Celia Cruz",
+     "Amália Rodrigues"
+    ],
+    "en": [
+     "Rocío Jurado",
+     "Cesária Évora",
+     "Celia Cruz",
+     "Amália Rodrigues"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Amália Rodrigues dostala přezdívku Rainha do Fado a proslavila portugalské fado po celém světě. Je pohřbena v Národním panteonu v Lisabonu mezi dalšími významnými Portugalci.",
+    "en": "Amália Rodrigues was dubbed Rainha do Fado and made Portuguese fado famous worldwide. She is interred in the National Pantheon in Lisbon alongside other notable Portuguese."
+   }
+  },
+  {
+   "id": "T317-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Které španělské autonomní společenství zakázalo koridu jako první, už v roce 1991?",
+    "en": "Which Spanish autonomous community was the first to ban bullfighting, as early as 1991?"
+   },
+   "moznosti": {
+    "cs": [
+     "Baleárské ostrovy",
+     "Kanárské ostrovy",
+     "Galicie",
+     "Katalánsko"
+    ],
+    "en": [
+     "The Balearic Islands",
+     "The Canary Islands",
+     "Galicia",
+     "Catalonia"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Kanárské ostrovy zakázaly koridu v roce 1991. Katalánsko ji zakázalo v roce 2010 s platností od roku 2012, ale španělský ústavní soud zákaz v roce 2016 zrušil.",
+    "en": "The Canary Islands banned bullfighting in 1991. Catalonia banned it in 2010, effective from 2012, but Spain's Constitutional Court overturned the ban in 2016."
+   }
+  },
+  {
+   "id": "T317-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém městě na břehu řeky Douro naproti Portu tradičně zraje portské víno ve sklepích zvaných caves?",
+    "en": "In which city, on the bank of the Douro opposite Porto, does port wine traditionally age in cellars known as caves?"
+   },
+   "moznosti": {
+    "cs": [
+     "Figueira da Foz",
+     "Póvoa de Varzim",
+     "Viana do Castelo",
+     "Vila Nova de Gaia"
+    ],
+    "en": [
+     "Figueira da Foz",
+     "Póvoa de Varzim",
+     "Viana do Castelo",
+     "Vila Nova de Gaia"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vila Nova de Gaia leží jižně od Porta na druhém břehu Doura a je plná sklepů, kde se portské skladuje a zraje. Sklepy jsou dnes velkou turistickou atrakcí.",
+    "en": "Vila Nova de Gaia lies south of Porto across the Douro and is full of cellars where port is stored and aged. The cellars are now a major tourist attraction."
+   }
+  },
+  {
+   "id": "T317-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kde se nachází Pico (2 351 m), nejvyšší hora Portugalska?",
+    "en": "Where is Mount Pico (2,351 m / 7,713 ft), the highest mountain in Portugal?"
+   },
+   "moznosti": {
+    "cs": [
+     "V pohoří Serra da Estrela",
+     "Na Madeiře",
+     "Na Azorských ostrovech",
+     "V pohoří Serra de Monchique"
+    ],
+    "en": [
+     "In the Serra da Estrela range",
+     "On Madeira",
+     "In the Azores",
+     "In the Serra de Monchique range"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hora Pico stojí na stejnojmenném ostrově Pico v souostroví Azory. Nejvyšší bod Portugalska tak neleží na pevnině, ale uprostřed Atlantiku.",
+    "en": "Mount Pico stands on the island of Pico in the Azores. Portugal's highest point is therefore not on the mainland but in the middle of the Atlantic."
+   }
+  },
+  {
+   "id": "T317-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co je Botafumeiro v katedrále v Santiagu de Compostela?",
+    "en": "What is the Botafumeiro in Santiago de Compostela Cathedral?"
+   },
+   "moznosti": {
+    "cs": [
+     "Obří kadidelnice",
+     "Stříbrný relikviář",
+     "Poutní hůl svatého Jakuba",
+     "Největší zvon katedrály"
+    ],
+    "en": [
+     "A giant censer",
+     "A silver reliquary",
+     "St James's pilgrim staff",
+     "The cathedral's largest bell"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Botafumeiro patří k největším kadidelnicím na světě. Osm mužů zvaných tiraboleiros ji tahá za lana, až se houpe v 65metrovém oblouku napříč transeptem rychlostí až kolem 68 km/h.",
+    "en": "The Botafumeiro is one of the largest censers in the world. Eight men called tiraboleiros pull its ropes until it swings in a 65 m (213 ft) arc across the transept at speeds of up to around 68 km/h (42 mph)."
+   }
+  },
+  {
+   "id": "T317-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kterou Gaudího stavbu v Barceloně lidé přezdívají La Pedrera (kamenolom)?",
+    "en": "Which of Gaudí's buildings in Barcelona is nicknamed La Pedrera (the stone quarry)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Casa Milà",
+     "Palau Güell",
+     "Casa Batlló",
+     "Casa Vicens"
+    ],
+    "en": [
+     "Casa Milà",
+     "Palau Güell",
+     "Casa Batlló",
+     "Casa Vicens"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Dům Casa Milà vznikl v letech 1906–1912. Posměšnou přezdívku mu dali obyvatelé, kterým se nelíbil jeho neobvyklý vzhled připomínající hrubou kamennou stěnu lomu.",
+    "en": "Casa Milà was built between 1906 and 1912. The mocking nickname came from locals who disliked its unusual look, resembling the rough stone face of a quarry."
+   }
+  },
+  {
+   "id": "T317-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak svůj jazyk nazývají sami Baskové ve standardní baskičtině?",
+    "en": "What do the Basques themselves call their language in standard Basque?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aranés",
+     "Bable",
+     "Euskara",
+     "Caló"
+    ],
+    "en": [
+     "Aranés",
+     "Bable",
+     "Euskara",
+     "Caló"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ve standardní baskičtině se jazyk jmenuje euskara; v jednotlivých nářečích má jeho jméno různé podoby. Ostatní možnosti jsou názvy jiných jazyků či nářečí, jimiž se ve Španělsku mluví.",
+    "en": "In standard Basque the language is called euskara; its name varies between dialects. The other options are names of other languages or dialects spoken in Spain."
+   }
+  },
+  {
+   "id": "T317-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co je vyobrazeno ve znaku Madridu?",
+    "en": "What is depicted on the coat of arms of Madrid?"
+   },
+   "moznosti": {
+    "cs": [
+     "Býk pod olivovníkem",
+     "Orel na dubu",
+     "Lev s vinnou révou",
+     "Medvěd u planiky"
+    ],
+    "en": [
+     "A bull beneath an olive tree",
+     "An eagle on an oak",
+     "A lion with a grapevine",
+     "A bear by a strawberry tree"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Ve znaku Madridu se černý medvěd opírá o zelenou planiku (madroño) s červenými plody a štít lemuje sedm stříbrných hvězd. Motiv medvěda a planiky ztvárnil i sochař Antonio Navarro Santafé.",
+    "en": "Madrid's arms show a black bear standing against a green strawberry tree (madroño) with red fruit, with a border of seven silver stars. The bear and the tree were also portrayed in a statue by Antonio Navarro Santafé."
+   }
+  },
+  {
+   "id": "T317-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím je výjimečná španělská státní hymna Marcha Real?",
+    "en": "What is unusual about the Spanish national anthem, the Marcha Real?"
+   },
+   "moznosti": {
+    "cs": [
+     "Má oficiální text ve čtyřech jazycích",
+     "Vznikla až po pádu Frankova režimu",
+     "Nemá žádný oficiální text",
+     "Má stejnou melodii jako portugalská hymna"
+    ],
+    "en": [
+     "It has official lyrics in four languages",
+     "It was created only after the fall of Franco's regime",
+     "It has no official lyrics",
+     "It shares its melody with the Portuguese anthem"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Marcha Real nikdy neměla oficiální text, přestože vzniklo několik verzí slov. Poprvé byla otištěna v dokumentu z roku 1761, takže patří k nejstarším hymnám světa; historka, že ji složil pruský král Fridrich II., je mýtus.",
+    "en": "The Marcha Real has never had official lyrics, although several sets of words have been written. It was first printed in a document from 1761, making it one of the oldest anthems in the world; the story that Frederick II of Prussia composed it is a myth."
+   }
+  },
+  {
+   "id": "T317-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém městě se každou poslední středu v srpnu koná rajčatová bitva La Tomatina?",
+    "en": "In which town is the La Tomatina tomato fight held on the last Wednesday of every August?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ronda",
+     "Cuenca",
+     "Teruel",
+     "Buñol"
+    ],
+    "en": [
+     "Ronda",
+     "Cuenca",
+     "Teruel",
+     "Buñol"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "La Tomatina se koná v Buñolu v provincii Valencie. Začala roku 1945 potyčkou během průvodu, na začátku 50. let byla zakázána a oficiální slavností se stala v roce 1957.",
+    "en": "La Tomatina takes place in Buñol in the province of Valencia. It began in 1945 with a scuffle during a parade, was banned in the early 1950s and became an official festival in 1957."
+   }
+  },
+  {
+   "id": "T317-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém roce začala stavba barcelonské baziliky Sagrada Família?",
+    "en": "In which year did construction of Barcelona's Sagrada Família basilica begin?"
+   },
+   "moznosti": {
+    "cs": [
+     "1852",
+     "1882",
+     "1912",
+     "1926"
+    ],
+    "en": [
+     "1852",
+     "1882",
+     "1912",
+     "1926"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Stavba začala 19. března 1882 pod vedením architekta Francisca de Paula del Villara. Gaudí ji převzal až v roce 1883, když Villar odstoupil.",
+    "en": "Construction began on 19 March 1882 under the architect Francisco de Paula del Villar. Gaudí took over only in 1883, after Villar resigned."
+   }
+  }
+ ]
+}

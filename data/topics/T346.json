@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T346",
+ "nazev": {
+  "cs": "Francie: Paříž, regiony a zajímavosti",
+  "en": "France: Paris, Regions and Curiosities"
+ },
+ "kategorie": {
+  "id": "zemepis",
+  "nazev": {
+   "cs": "Zeměpis",
+   "en": "Geography"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T346-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Hlavním vstupem do kterého pařížského muzea je skleněná pyramida?",
+    "en": "A glass pyramid serves as the main entrance to which Paris museum?"
+   },
+   "moznosti": {
+    "cs": [
+     "Louvre",
+     "Musée Rodin",
+     "Musée d'Orsay",
+     "Centre Pompidou"
+    ],
+    "en": [
+     "The Louvre",
+     "The Musée Rodin",
+     "The Musée d'Orsay",
+     "The Centre Pompidou"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Skleněná pyramida je hlavním vstupem do Louvru od roku 1989. Je vysoká 21,6 m a zároveň prosvětluje podzemní vstupní halu.",
+    "en": "The glass pyramid has been the Louvre's main entrance since 1989. It is 21.6 m (71 ft) tall and also lets daylight into the underground entrance hall."
+   }
+  },
+  {
+   "id": "T346-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která řeka protéká Paříží?",
+    "en": "Which river flows through Paris?"
+   },
+   "moznosti": {
+    "cs": [
+     "Loira",
+     "Seina",
+     "Rhôna",
+     "Garonna"
+    ],
+    "en": [
+     "The Loire",
+     "The Seine",
+     "The Rhône",
+     "The Garonne"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Paříž leží na Seině ve středu regionu Île-de-France. Na říčním ostrově Île de la Cité stojí i katedrála Notre-Dame.",
+    "en": "Paris lies on the Seine in the centre of the Île-de-France region. Notre-Dame Cathedral stands on the river island of Île de la Cité."
+   }
+  },
+  {
+   "id": "T346-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém roce zachvátil pařížskou katedrálu Notre-Dame velký požár, při němž se zřítila její věž?",
+    "en": "In which year did a major fire engulf Notre-Dame Cathedral in Paris, bringing down its spire?"
+   },
+   "moznosti": {
+    "cs": [
+     "2015",
+     "2017",
+     "2019",
+     "2021"
+    ],
+    "en": [
+     "2015",
+     "2017",
+     "2019",
+     "2021"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Požár vypukl 15. dubna 2019 a věž se zřítila večer v 19:50. Po rozsáhlé obnově se katedrála znovu otevřela 7. prosince 2024.",
+    "en": "The fire broke out on 15 April 2019 and the spire collapsed at 19:50 that evening. After extensive restoration, the cathedral reopened on 7 December 2024."
+   }
+  },
+  {
+   "id": "T346-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která fialově kvetoucí rostlina vytváří v létě pole typická pro Provence?",
+    "en": "Fields of which purple-flowering plant are a classic summer sight in Provence?"
+   },
+   "moznosti": {
+    "cs": [
+     "Len",
+     "Šafrán",
+     "Vřes",
+     "Levandule"
+    ],
+    "en": [
+     "Flax",
+     "Saffron crocus",
+     "Heather",
+     "Lavender"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Levandule se v Provence pěstuje ve velkém, například kolem městečka Sault. Období jejího kvetení každé léto přiláká davy turistů.",
+    "en": "Lavender is grown on a large scale in Provence, for example around the town of Sault. Its blooming season draws crowds of tourists every summer."
+   }
+  },
+  {
+   "id": "T346-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co ztělesňuje ženská postava Marianne?",
+    "en": "What does the female figure of Marianne personify?"
+   },
+   "moznosti": {
+    "cs": [
+     "Francouzskou republiku",
+     "Řeku Seinu",
+     "Francouzskou akademii",
+     "Město Paříž"
+    ],
+    "en": [
+     "The French Republic",
+     "The river Seine",
+     "The Académie française",
+     "The city of Paris"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Marianne je od dob Francouzské revoluce národní personifikací Francouzské republiky. Spojuje v sobě alegorie Svobody a Rozumu.",
+    "en": "Marianne has been the national personification of the French Republic since the French Revolution. She combines the allegories of Liberty and Reason."
+   }
+  },
+  {
+   "id": "T346-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak Francouzi podle tvaru často přezdívají pevninské části své země?",
+    "en": "Based on its shape, what do the French often call the mainland part of their country?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kosočtverec",
+     "Srdce",
+     "Bota",
+     "Šestiúhelník"
+    ],
+    "en": [
+     "The Diamond",
+     "The Heart",
+     "The Boot",
+     "The Hexagon"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pevninské Francii se říká l'Hexagone, protože na mapě připomíná šestiúhelník. Tato představa se ve francouzských zeměpisných textech objevila už v 50. letech 19. století.",
+    "en": "Mainland France is called l'Hexagone because on the map it resembles a hexagon. The image first appeared in French geography texts in the 1850s."
+   }
+  },
+  {
+   "id": "T346-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Údolí které řeky je proslulé stovkami zámků, například Chambordem a Chenonceau?",
+    "en": "The valley of which river is famous for its hundreds of châteaux, such as Chambord and Chenonceau?"
+   },
+   "moznosti": {
+    "cs": [
+     "Loiry",
+     "Garonny",
+     "Rhôny",
+     "Seiny"
+    ],
+    "en": [
+     "The Loire",
+     "The Garonne",
+     "The Rhône",
+     "The Seine"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "V údolí Loiry stojí přes 300 zámků a jeho střední část je od roku 2000 na seznamu UNESCO. Kvůli vinicím a sadům se mu říká „zahrada Francie“.",
+    "en": "The Loire Valley has more than 300 châteaux, and its central section has been a UNESCO World Heritage Site since 2000. Thanks to its vineyards and orchards it is called the 'Garden of France'."
+   }
+  },
+  {
+   "id": "T346-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se Paříži nejčastěji přezdívá?",
+    "en": "What is the most common nickname for Paris?"
+   },
+   "moznosti": {
+    "cs": [
+     "Město světla",
+     "Věčné město",
+     "Velké jablko",
+     "Zlaté město"
+    ],
+    "en": [
+     "The City of Light",
+     "The Eternal City",
+     "The Big Apple",
+     "The Golden City"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Přezdívku Město světla (Ville Lumière) získala Paříž hlavně díky své vůdčí roli v osvícenství. Věčné město je Řím, Velké jablko New York.",
+    "en": "Paris earned the nickname City of Light (Ville Lumière) mainly because of its leading role in the Enlightenment. The Eternal City is Rome and the Big Apple is New York."
+   }
+  },
+  {
+   "id": "T346-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na jakém místě stojí opatství Mont-Saint-Michel v Normandii?",
+    "en": "Where does the abbey of Mont-Saint-Michel in Normandy stand?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na ostrůvku v horském jezeře",
+     "Na ostrově uprostřed velké řeky",
+     "Na skalnatém přílivovém ostrově",
+     "Na umělém ostrově v přístavu"
+    ],
+    "en": [
+     "On an islet in a mountain lake",
+     "On an island in the middle of a large river",
+     "On a rocky tidal island",
+     "On an artificial island in a harbour"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Mont-Saint-Michel je přílivový ostrov v ústí řeky Couesnon, asi 1 km od pobřeží. Rozdíl mezi přílivem a odlivem tu dosahuje kolem 14 metrů.",
+    "en": "Mont-Saint-Michel is a tidal island at the mouth of the Couesnon River, about 1 km (0.6 mi) off the coast. The difference between high and low tide reaches about 14 m (46 ft)."
+   }
+  },
+  {
+   "id": "T346-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se jmenuje hlavní cena filmového festivalu v Cannes?",
+    "en": "What is the top prize of the Cannes Film Festival called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Křišťálový glóbus",
+     "Zlatý medvěd",
+     "Zlatý lev",
+     "Zlatá palma"
+    ],
+    "en": [
+     "The Crystal Globe",
+     "The Golden Bear",
+     "The Golden Lion",
+     "The Palme d'Or"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Zlatá palma (Palme d'Or) se uděluje od roku 1955. Zlatý lev je cenou Benátek, Zlatý medvěd Berlína a Křišťálový glóbus Karlových Varů.",
+    "en": "The Palme d'Or has been awarded since 1955. The Golden Lion is Venice's prize, the Golden Bear Berlin's and the Crystal Globe Karlovy Vary's."
+   }
+  },
+  {
+   "id": "T346-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který architekt navrhl skleněnou pyramidu, která byla v Paříži dokončena roku 1989?",
+    "en": "Which architect designed the glass pyramid completed in Paris in 1989?"
+   },
+   "moznosti": {
+    "cs": [
+     "I. M. Pei",
+     "Renzo Piano",
+     "Le Corbusier",
+     "Frank Gehry"
+    ],
+    "en": [
+     "I. M. Pei",
+     "Renzo Piano",
+     "Le Corbusier",
+     "Frank Gehry"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pyramidu navrhl čínsko-americký architekt I. M. Pei v rámci velké přestavby muzea, kterou roku 1981 ohlásil prezident François Mitterrand. Podle muzea se skládá ze 673 skleněných tabulí.",
+    "en": "The pyramid was designed by Chinese-American architect I. M. Pei as part of a major museum redevelopment announced by President François Mitterrand in 1981. According to the museum, it is made up of 673 glass panes."
+   }
+  },
+  {
+   "id": "T346-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Po kom je pojmenována slavná nábřežní promenáda Promenade des Anglais v Nice?",
+    "en": "Who is the famous seafront Promenade des Anglais in Nice named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Po anglických námořnících, jejichž loďstvo tu kotvilo",
+     "Po Angličanech, kteří v Nice trávili zimy",
+     "Po anglických vojácích, kteří ji postavili za války",
+     "Po anglickém králi, který ji slavnostně otevřel"
+    ],
+    "en": [
+     "English sailors whose fleet anchored there",
+     "The English who spent their winters in Nice",
+     "English soldiers who built it during a war",
+     "An English king who officially opened it"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Od druhé poloviny 18. století jezdila do Nice zimovat anglická aristokracie. Po kruté zimě roku 1820 někteří Angličané navrhli, aby žebráci pracovali na přímořské cestě, a stavbu zaplatil reverend Lewis Way s členy anglikánské církve v Nice.",
+    "en": "From the second half of the 18th century, English aristocrats wintered in Nice. After the harsh winter of 1820, some English residents proposed that beggars work on a seaside walkway, and it was funded by Reverend Lewis Way and members of Nice's Anglican church."
+   }
+  },
+  {
+   "id": "T346-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kohout je oblíbeným národním symbolem Francie, který často vídáme například u sportovních týmů. Proč právě kohout?",
+    "en": "The rooster is a popular national symbol of France, often seen with sports teams. Why a rooster?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kohout zdobil korunovační plášť Karla Velikého",
+     "Kohout byl erbovním zvířetem města Paříže",
+     "Kohoutí zápasy byly francouzským národním sportem",
+     "Latinské slovo gallus znamenalo kohouta i Gala"
+    ],
+    "en": [
+     "A rooster adorned Charlemagne's coronation mantle",
+     "The rooster was the heraldic animal of Paris",
+     "Cockfighting was France's national sport",
+     "The Latin word gallus meant both rooster and Gaul"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Spojení vzniklo ze slovní hříčky: latinské gallus znamenalo kohouta i obyvatele Galie. Kohout je dodnes oblíbeným maskotem, například Footix na MS ve fotbale 1998.",
+    "en": "The link comes from a pun: the Latin gallus meant both a rooster and an inhabitant of Gaul. The rooster remains a popular mascot, such as Footix at the 1998 FIFA World Cup."
+   }
+  },
+  {
+   "id": "T346-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo v roce 1635 založil Francouzskou akademii (Académie française), která pečuje o francouzský jazyk?",
+    "en": "Who founded the Académie française, guardian of the French language, in 1635?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ludvík XIV.",
+     "Jean-Baptiste Colbert",
+     "Kardinál Mazarin",
+     "Kardinál Richelieu"
+    ],
+    "en": [
+     "Louis XIV",
+     "Jean-Baptiste Colbert",
+     "Cardinal Mazarin",
+     "Cardinal Richelieu"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Akademii založil kardinál Richelieu roku 1635. Má 40 členů, jimž se přezdívá „nesmrtelní“, a první vydání jejího slovníku vyšlo roku 1694.",
+    "en": "The Académie was founded by Cardinal Richelieu in 1635. It has 40 members, nicknamed 'the immortals', and the first edition of its dictionary appeared in 1694."
+   }
+  },
+  {
+   "id": "T346-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Mezi kterými městy začal v roce 1981 jezdit první francouzský rychlovlak TGV?",
+    "en": "Between which cities did the first French TGV high-speed train begin running in 1981?"
+   },
+   "moznosti": {
+    "cs": [
+     "Paříž – Lyon",
+     "Paříž – Marseille",
+     "Paříž – Bordeaux",
+     "Paříž – Lille"
+    ],
+    "en": [
+     "Paris – Lyon",
+     "Paris – Marseille",
+     "Paris – Bordeaux",
+     "Paris – Lille"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Provoz TGV mezi Paříží a Lyonem začal 27. září 1981. Zkratka znamená train à grande vitesse, tedy „vysokorychlostní vlak“.",
+    "en": "TGV service between Paris and Lyon opened to the public on 27 September 1981. The abbreviation stands for train à grande vitesse, meaning 'high-speed train'."
+   }
+  },
+  {
+   "id": "T346-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Do které jazykové skupiny patří bretonština, jíž se mluví v Bretani?",
+    "en": "To which language group does Breton, spoken in Brittany, belong?"
+   },
+   "moznosti": {
+    "cs": [
+     "Románské",
+     "Germánské",
+     "Keltské",
+     "Ugrofinské"
+    ],
+    "en": [
+     "Romance",
+     "Germanic",
+     "Celtic",
+     "Finno-Ugric"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Bretonština je britský keltský jazyk, nejblíže příbuzný kornštině. Do Bretaně ji v raném středověku přinesli Britové, kteří se sem stěhovali z Velké Británie.",
+    "en": "Breton is a Brittonic Celtic language, most closely related to Cornish. It was brought to Brittany in the Early Middle Ages by Britons migrating from Great Britain."
+   }
+  },
+  {
+   "id": "T346-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co je vyobrazeno na korsické vlajce?",
+    "en": "What is depicted on the flag of Corsica?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zlatý lev s mečem",
+     "Hlava Maura s bílou čelenkou",
+     "Černý orel s korunou",
+     "Bílý kříž na modrém poli"
+    ],
+    "en": [
+     "A golden lion with a sword",
+     "A Moor's head with a white bandana",
+     "A black eagle with a crown",
+     "A white cross on a blue field"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Vlajku s černou hlavou Maura na bílém poli přijal roku 1755 Pasquale Paoli. Čelenku nechal posunout z očí na čelo jako symbol osvobození Korsičanů od Janova.",
+    "en": "The flag with a black Moor's head on a white field was adopted by Pasquale Paoli in 1755. He had the bandana moved from the eyes up to the forehead to symbolise the Corsicans' liberation from Genoa."
+   }
+  },
+  {
+   "id": "T346-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím je proslulé ústřední schodiště zámku Chambord?",
+    "en": "What is the central staircase of the Château de Chambord famous for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Má přesně 365 schodů, jeden na každý den",
+     "Má dvě spirály, na nichž se lidé nepotkají",
+     "Je vytesané z jediného bloku mramoru",
+     "Je celé ze dřeva bez jediného hřebíku"
+    ],
+    "en": [
+     "Having exactly 365 steps, one for each day",
+     "Its two spirals, on which people never meet",
+     "Being carved from a single block of marble",
+     "Being made entirely of wood without a single nail"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Dvě spirály schodiště stoupají přes tři patra a nikdy se nesetkají. Jeho návrh bývá připisován Leonardovi da Vinci; zámek dal postavit král František I.",
+    "en": "The staircase's two spirals rise through three floors without ever meeting. Its design is often attributed to Leonardo da Vinci; the château was commissioned by King Francis I."
+   }
+  },
+  {
+   "id": "T346-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik regionů má od roku 2016 evropská část Francie včetně Korsiky?",
+    "en": "How many regions has the European part of France, including Corsica, had since 2016?"
+   },
+   "moznosti": {
+    "cs": [
+     "9",
+     "13",
+     "18",
+     "22"
+    ],
+    "en": [
+     "9",
+     "13",
+     "18",
+     "22"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Reforma z roku 2016 snížila počet regionů v evropské Francii z 22 na 13. Spolu s pěti zámořskými regiony má Francie celkem 18 regionů.",
+    "en": "The 2016 reform cut the number of regions in European France from 22 to 13. Together with five overseas regions, France has 18 regions in total."
+   }
+  },
+  {
+   "id": "T346-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak jsou očíslovány pařížské městské obvody (arrondissementy)?",
+    "en": "How are the arrondissements (districts) of Paris numbered?"
+   },
+   "moznosti": {
+    "cs": [
+     "Podle abecedního pořadí názvů čtvrtí",
+     "V řadách od západu na východ",
+     "Ve spirále od středu po směru hodinových ručiček",
+     "Podle toho, kdy byly připojeny k Paříži"
+    ],
+    "en": [
+     "In alphabetical order of district names",
+     "In rows from west to east",
+     "In a clockwise spiral from the centre",
+     "In the order they were annexed to Paris"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Dvacet obvodů je očíslováno ve spirále po směru hodinových ručiček, která začíná uprostřed města 1. obvodem na pravém (severním) břehu řeky. Od roku 2020 mají první čtyři obvody společnou správu pod názvem Paris Centre.",
+    "en": "The twenty arrondissements are numbered in a clockwise spiral that starts in the middle of the city with the 1st on the Right (north) Bank of the river. Since 2020 the first four have shared a single administration called Paris Centre."
+   }
+  },
+  {
+   "id": "T346-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Věž (flèche), která se zřítila při velkém požáru Notre-Dame, pocházela ze kterého století?",
+    "en": "The spire (flèche) that collapsed in the great Notre-Dame fire dated from which century?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ze 13. století",
+     "Z 15. století",
+     "Ze 17. století",
+     "Z 19. století"
+    ],
+    "en": [
+     "The 13th century",
+     "The 15th century",
+     "The 17th century",
+     "The 19th century"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Původní věž ze 13. století byla odstraněna roku 1786. Ta, která shořela, byla dubová věž pokrytá olovem, kterou znovu vytvořil architekt Eugène Viollet-le-Duc při obnově katedrály v letech 1844–1864.",
+    "en": "The original 13th-century spire was removed in 1786. The one that burned was an oak spire covered with lead, recreated by architect Eugène Viollet-le-Duc during the cathedral's restoration in 1844–1864."
+   }
+  },
+  {
+   "id": "T346-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Se kterým státem má Francie podle běžně uváděných údajů nejdelší pozemní hranici?",
+    "en": "According to commonly cited figures, with which country does France share its longest land border?"
+   },
+   "moznosti": {
+    "cs": [
+     "S Belgií",
+     "Se Švýcarskem",
+     "S Brazílií",
+     "Se Španělskem"
+    ],
+    "en": [
+     "Belgium",
+     "Switzerland",
+     "Brazil",
+     "Spain"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Francouzská Guyana, zámořská součást Francie v Jižní Americe, sousedí s Brazílií na délce asi 730 km. Hranice se Španělskem měří zhruba 646 km.",
+    "en": "French Guiana, an overseas part of France in South America, borders Brazil for about 730 km (454 mi). The border with Spain is around 646 km (401 mi) long."
+   }
+  },
+  {
+   "id": "T346-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Podle čeho byla francouzským departementům původně přidělena jejich čísla?",
+    "en": "How were the numbers originally assigned to the French departments?"
+   },
+   "moznosti": {
+    "cs": [
+     "Podle abecedního pořadí jejich názvů",
+     "Podle vzdálenosti od Paříže",
+     "Podle počtu obyvatel",
+     "Podle data jejich vzniku"
+    ],
+    "en": [
+     "By the alphabetical order of their names",
+     "By distance from Paris",
+     "By population size",
+     "By the date they were created"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Čísla původně odpovídala abecednímu pořadí názvů departementů, které vznikly dekretem z 26. února 1790. Francie má 101 departementů (k roku 2026).",
+    "en": "The numbers originally followed the alphabetical order of the department names; the departments were created by a decree of 26 February 1790. France has 101 departments (as of 2026)."
+   }
+  },
+  {
+   "id": "T346-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Která herečka propůjčila v roce 1969 jako první slavná žena svou tvář bustě Marianne?",
+    "en": "Which actress, in 1969, became the first famous woman to lend her face to a bust of Marianne?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jeanne Moreauová",
+     "Catherine Deneuvová",
+     "Brigitte Bardotová",
+     "Simone Signoretová"
+    ],
+    "en": [
+     "Jeanne Moreau",
+     "Catherine Deneuve",
+     "Brigitte Bardot",
+     "Simone Signoret"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Od roku 1969 dostávají busty Marianne rysy slavných žen a první byla Brigitte Bardotová. Catherine Deneuvová přišla na řadu až v roce 1985, Laetitia Casta roku 2000.",
+    "en": "Since 1969, busts of Marianne have taken on the features of famous women, starting with Brigitte Bardot. Catherine Deneuve followed only in 1985 and Laetitia Casta in 2000."
+   }
+  },
+  {
+   "id": "T346-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč byla hráz k Mont-Saint-Michel nahrazena lehkým mostem, otevřeným v roce 2014?",
+    "en": "Why was the causeway to Mont-Saint-Michel replaced by a light bridge that opened in 2014?"
+   },
+   "moznosti": {
+    "cs": [
+     "Protože starou hráz zničila zimní bouře",
+     "Aby se na ostrov vešlo víc autobusů a aut",
+     "Aby kolem ostrova volně proudila voda a nezanášel se",
+     "Aby u ostrova mohly kotvit výletní lodě"
+    ],
+    "en": [
+     "Because a winter storm had destroyed the old causeway",
+     "So that more buses and cars could reach the island",
+     "To let water flow freely and stop the silting",
+     "So that cruise ships could anchor by the island"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hráz z roku 1879 spolu s vysoušením okolních pozemků a regulací řeky Couesnon způsobila, že se okolí ostrova zanášelo naplaveninami. Lehký most otevřený v červenci 2014 nechává vodu volně proudit a pomáhá nové přehradě na Couesnonu odplavovat nánosy.",
+    "en": "The 1879 causeway, together with land reclamation and the canalisation of the Couesnon River, caused silt to build up around the island. The light bridge, opened in July 2014, lets the water flow freely and helps a new dam on the Couesnon flush away the sediment."
+   }
+  },
+  {
+   "id": "T346-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč se oficiální výška Mont Blancu mezi jednotlivými měřeními mění?",
+    "en": "Why does the official height of Mont Blanc change from one measurement to the next?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vrcholová skála se rychle obrušuje větrem",
+     "Hora se po zemětřeseních pravidelně propadá",
+     "Měřiči pokaždé zvolí jiný vrchol masivu",
+     "Vrchol tvoří ledová a sněhová čepice proměnlivé tloušťky"
+    ],
+    "en": [
+     "Wind rapidly erodes the summit rock",
+     "The mountain regularly sinks after earthquakes",
+     "Surveyors choose a different peak of the massif each time",
+     "Its summit is an ice-and-snow cap of varying thickness"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vrchol tvoří ledový a sněhový dóm, jehož tloušťka kolísá, proto se výška od počátku 21. století přeměřuje každé dva roky. Roku 2023 naměřili rekordně nízkých 4 805,59 m, v roce 2025 to bylo 4 807,3 m.",
+    "en": "The summit is an ice-and-snow dome of varying thickness, so it has been remeasured every two years since the 2000s. In 2023 it measured a record low of 4,805.59 m (15,766 ft); in 2025 it was 4,807.3 m (15,772 ft)."
+   }
+  },
+  {
+   "id": "T346-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Křídové útesy s osamělou skalní jehlou v normandském Étretatu hrají hlavní roli v románu L'Aiguille creuse (1909). Kdo je jeho hrdinou?",
+    "en": "The chalk cliffs and lone rock needle of Étretat in Normandy feature prominently in the 1909 novel The Hollow Needle (L'Aiguille creuse). Who is its hero?"
+   },
+   "moznosti": {
+    "cs": [
+     "Raffles",
+     "Fantomas",
+     "Arsène Lupin",
+     "Rocambole"
+    ],
+    "en": [
+     "Raffles",
+     "Fantômas",
+     "Arsène Lupin",
+     "Rocambole"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Autor Maurice Leblanc v Étretatu žil a napsal tu velkou část příběhů o Arsènu Lupinovi; jeho dům je dnes muzeem Clos Lupin.",
+    "en": "Author Maurice Leblanc lived in Étretat and wrote much of the Arsène Lupin series there; his house is now the Clos Lupin Museum."
+   }
+  },
+  {
+   "id": "T346-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč byly v roce 1990 na slavnou dlouhou rovinku Hunaudières (Mulsanne) na okruhu v Le Mans vloženy dvě šikany?",
+    "en": "Why were two chicanes added in 1990 to the famous long Hunaudières (Mulsanne) Straight at Le Mans?"
+   },
+   "moznosti": {
+    "cs": [
+     "Protože část rovinky zabrala nová dálnice",
+     "Kvůli bezpečnosti a limitu FIA pro délku rovinek",
+     "Aby se na trati dalo snáze předjíždět",
+     "Kvůli stížnostem obyvatel na noční hluk"
+    ],
+    "en": [
+     "Because a new motorway took over part of the straight",
+     "For safety and an FIA limit on straight length",
+     "To make overtaking easier",
+     "Because of residents' complaints about noise at night"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Na zhruba 6 km dlouhé rovince jezdily vozy koncem 80. let až kolem 400 km/h a vysoké rychlosti vedly k poruchám pneumatik a motorů; obavy zvýšily i smrtelné nehody. FIA navíc přestala schvalovat okruhy s rovinkou delší než 2 km. Za nejvyšší zde naměřenou rychlost se považuje 407 km/h, kterou radar roku 1988 změřil u vozu Rogera Dorchyho.",
+    "en": "On the roughly 6 km (3.7 mi) straight, cars reached around 400 km/h (249 mph) in the late 1980s, and the high speeds led to tyre and engine failures; fatal crashes added to the concern. The FIA also stopped sanctioning circuits with a straight longer than 2 km (1.2 mi). The highest speed recorded there is considered to be 407 km/h (253 mph), clocked by radar for Roger Dorchy's car in 1988."
+   }
+  },
+  {
+   "id": "T346-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo navrhl slavné secesní vstupy do pařížského metra?",
+    "en": "Who designed the famous Art Nouveau entrances to the Paris Métro?"
+   },
+   "moznosti": {
+    "cs": [
+     "Antoni Gaudí",
+     "Gustave Eiffel",
+     "Alfons Mucha",
+     "Hector Guimard"
+    ],
+    "en": [
+     "Antoni Gaudí",
+     "Gustave Eiffel",
+     "Alphonse Mucha",
+     "Hector Guimard"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vstupy ve stylu art nouveau navrhl architekt Hector Guimard. První linka metra byla otevřena bez ceremonií 19. července 1900, během světové výstavy.",
+    "en": "The Art Nouveau entrances were designed by architect Hector Guimard. The first Métro line opened without ceremony on 19 July 1900, during the World's Fair."
+   }
+  },
+  {
+   "id": "T346-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Která hora s holým vápencovým vrcholem se přezdívá „Obr Provence“ nebo „Lysá hora“?",
+    "en": "Which mountain, with its bare limestone summit, is nicknamed the 'Giant of Provence' or 'the Bald Mountain'?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mont Aigoual",
+     "Mont Ventoux",
+     "Puy de Dôme",
+     "Montagne Sainte-Victoire"
+    ],
+    "en": [
+     "Mont Aigoual",
+     "Mont Ventoux",
+     "Puy de Dôme",
+     "Montagne Sainte-Victoire"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Mont Ventoux je vysoký 1 910 m a jeho vrchol tvoří holý vápenec bez stromů a vegetace. Je to nejvyšší hora regionu a díky osamocené poloze nad údolím Rhôny je za jasného počasí vidět zdaleka.",
+    "en": "Mont Ventoux is 1,910 m (6,266 ft) high, and its summit is bare limestone with no trees or vegetation. It is the highest peak in the region, and its isolated position above the Rhône valley makes it visible from far away on a clear day."
+   }
+  }
+ ]
+}

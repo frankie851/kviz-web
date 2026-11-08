@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T200",
+ "nazev": {
+  "cs": "Šelmy Evropy: medvědi, vlci a rysi",
+  "en": "Europe's Carnivores: Bears, Wolves and Lynx"
+ },
+ "kategorie": {
+  "id": "priroda-a-zvirata",
+  "nazev": {
+   "cs": "Příroda a zvířata",
+   "en": "Nature & Animals"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T200-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která evropská šelma má na špičkách uší výrazné černé štětičky chlupů?",
+    "en": "Which European carnivore has distinctive black tufts of hair on the tips of its ears?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kuna lesní",
+     "Rys ostrovid",
+     "Kočka divoká",
+     "Liška obecná"
+    ],
+    "en": [
+     "Pine marten",
+     "Eurasian lynx",
+     "European wildcat",
+     "Red fox"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Černé štětičky na uších jsou poznávacím znamením rysa ostrovida. Je největší ze čtyř druhů rysů a spolu s vlkem, medvědem a rosomákem patří k velkým evropským šelmám.",
+    "en": "Black ear tufts are the trademark of the Eurasian lynx. It is the largest of the four lynx species and, together with the wolf, the bear and the wolverine, one of Europe's large carnivores."
+   }
+  },
+  {
+   "id": "T200-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která z těchto šelem žijících v Evropě je největší?",
+    "en": "Which of these carnivores living in Europe is the largest?"
+   },
+   "moznosti": {
+    "cs": [
+     "Medvěd hnědý",
+     "Rys ostrovid",
+     "Rosomák",
+     "Vlk obecný"
+    ],
+    "en": [
+     "Brown bear",
+     "Eurasian lynx",
+     "Wolverine",
+     "Grey wolf"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Medvěd hnědý je z uvedených šelem zdaleka největší. Mezi suchozemskými šelmami mu velikostí konkuruje jen lední medvěd, který je v průměru o něco větší.",
+    "en": "The brown bear is by far the largest of these carnivores. Among land carnivorans, only the polar bear rivals it in size, and the polar bear is slightly bigger on average."
+   }
+  },
+  {
+   "id": "T200-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá skupina vlků, která spolu žije, loví a brání své území?",
+    "en": "What is the name for a group of wolves that live, hunt and defend their territory together?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kolonie",
+     "Hejno",
+     "Stádo",
+     "Smečka"
+    ],
+    "en": [
+     "A colony",
+     "A flock",
+     "A herd",
+     "A pack"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vlci žijí ve smečkách. V Evropě má smečka v průměru jen asi 5–6 členů, v Severní Americe kolem osmi.",
+    "en": "Wolves live in packs. In Europe a pack averages only about 5–6 members, compared with around eight in North America."
+   }
+  },
+  {
+   "id": "T200-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterou šelmu snadno poznáte podle černobíle pruhované hlavy?",
+    "en": "Which carnivore is easy to recognise by its black-and-white striped head?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jezevce lesního",
+     "Kunu skalní",
+     "Lišku obecnou",
+     "Vydru říční"
+    ],
+    "en": [
+     "The European badger",
+     "The beech marten",
+     "The red fox",
+     "The Eurasian otter"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jezevci se táhnou od horního pysku k uším dva černé pruhy a mezi nimi bílý pruh přes čelo. Jezevčí nory mohou mít až asi padesát vchodů a rodiny je využívají po desetiletí.",
+    "en": "Two black bands run from the badger's upper lip to its ears, with a white band over the forehead between them. A badger sett can have up to about fifty entrances and be used by families for decades."
+   }
+  },
+  {
+   "id": "T200-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím se živí převážně vydra říční?",
+    "en": "What does the Eurasian otter mainly eat?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lesními plody",
+     "Hmyzem",
+     "Rybami",
+     "Ptačími vejci"
+    ],
+    "en": [
+     "Forest berries",
+     "Insects",
+     "Fish",
+     "Birds' eggs"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hlavní potravou vydry jsou ryby. V zimě a v chladnějších oblastech přibírá i obojživelníky, korýše, ptáky nebo drobné savce.",
+    "en": "The otter's main food is fish. In winter and in colder regions it also takes amphibians, crustaceans, birds and small mammals."
+   }
+  },
+  {
+   "id": "T200-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou škodu na autech často způsobuje kuna skalní?",
+    "en": "What damage does the beech marten often cause to cars?"
+   },
+   "moznosti": {
+    "cs": [
+     "Prokousává pneumatiky",
+     "Škrábe lak na kapotě",
+     "Rozbíjí zpětná zrcátka",
+     "Překousává hadičky a kabely"
+    ],
+    "en": [
+     "It punctures the tyres",
+     "It scratches the bonnet paint",
+     "It breaks the wing mirrors",
+     "It bites through hoses and cables"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kuny skalní poškozují auta od poloviny 70. let. Přehryzané hadičky a kabely nesežerou a nejvíc škod nadělají na jaře, kdy mladé kuny zkoumají okolí.",
+    "en": "Beech martens have been damaging cars since the mid-1970s. They do not eat the hoses and cables they cut, and damage peaks in spring, when young martens explore their surroundings."
+   }
+  },
+  {
+   "id": "T200-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč vlci vyjí?",
+    "en": "Why do wolves howl?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kvůli vzájemné komunikaci",
+     "Kvůli vyplašení kořisti",
+     "Kvůli úplňku",
+     "Kvůli ochlazení těla"
+    ],
+    "en": [
+     "To communicate with each other",
+     "To flush out prey",
+     "Because of the full moon",
+     "To cool their bodies down"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vytím se vlci svolávají, varují ostatní a dorozumívají se na dálku. Za příznivých podmínek je slyšet na ploše až 130 km². Na Měsíc nevyjí a jeho fáze vytí neovlivňují.",
+    "en": "Howling gathers the group, raises the alarm and carries messages over long distances. In good conditions it can be heard across up to 130 km² (50 sq mi). Wolves do not howl at the Moon, and lunar phases have no effect on howling."
+   }
+  },
+  {
+   "id": "T200-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čí soustavou chráněných území je Natura 2000?",
+    "en": "Whose network of protected areas is Natura 2000?"
+   },
+   "moznosti": {
+    "cs": [
+     "Evropské unie",
+     "Světového fondu na ochranu přírody (WWF)",
+     "Organizace spojených národů",
+     "Rady Evropy"
+    ],
+    "en": [
+     "The European Union's",
+     "The WWF's (World Wide Fund for Nature)",
+     "The United Nations'",
+     "The Council of Europe's"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Natura 2000 je soustava chráněných území EU, která stojí na směrnici o ptácích a směrnici o stanovištích. Zahrnuje přes 27 000 lokalit (k roku 2026) a Evropská komise ji označuje za největší síť chráněných území na světě.",
+    "en": "Natura 2000 is the EU's network of protected sites, based on the Birds Directive and the Habitats Directive. It includes more than 27,000 sites (as of 2026), and the European Commission calls it the largest network of protected areas in the world."
+   }
+  },
+  {
+   "id": "T200-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterého kopytníka loví rys ostrovid v Česku nejčastěji?",
+    "en": "Which hoofed animal does the Eurasian lynx hunt most often in the Czech Republic?"
+   },
+   "moznosti": {
+    "cs": [
+     "Losa evropského",
+     "Srnce obecného",
+     "Dospělého divočáka",
+     "Dospělého jelena"
+    ],
+    "en": [
+     "The Eurasian elk (moose)",
+     "The roe deer",
+     "An adult wild boar",
+     "An adult red deer"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Rys loví hlavně menší kopytníky, především srnce; méně často koloušky a laně jelena, selata divočáků, hlodavce nebo lišky. Kořist přepadá ze zálohy krátkým rychlým výpadem.",
+    "en": "The lynx mainly hunts smaller hoofed animals, above all roe deer; less often red deer calves and hinds, wild boar piglets, rodents or foxes. It ambushes prey with a short, fast rush."
+   }
+  },
+  {
+   "id": "T200-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která šelma je považována za nejrozšířenější šelmu na světě?",
+    "en": "Which carnivore is considered the most widely distributed carnivore in the world?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vlk obecný",
+     "Medvěd hnědý",
+     "Rys ostrovid",
+     "Liška obecná"
+    ],
+    "en": [
+     "The grey wolf",
+     "The brown bear",
+     "The Eurasian lynx",
+     "The red fox"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Areál lišky obecné měří téměř 70 milionů km² a na severu sahá až za severní polární kruh. Lišky se dobře přizpůsobily i životu na předměstích a ve městech.",
+    "en": "The red fox's range covers nearly 70 million km² (27 million sq mi) and reaches north beyond the Arctic Circle. Foxes have also adapted well to suburbs and cities."
+   }
+  },
+  {
+   "id": "T200-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Podle čeho se kočka divoká nejlépe odliší od podobně zbarvené domácí kočky?",
+    "en": "What best distinguishes a European wildcat from a similarly coloured domestic cat?"
+   },
+   "moznosti": {
+    "cs": [
+     "Delšíma ušima se štětičkami",
+     "Huňatým ocasem s tupou černou špičkou",
+     "Bílou skvrnou na hrdle a hrudi",
+     "Jednobarevnou srstí bez kresby"
+    ],
+    "en": [
+     "Longer ears with tufts",
+     "A bushy tail with a blunt black tip",
+     "A white patch on the throat and chest",
+     "A plain coat with no markings"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Kočka divoká má kratší, huňatý a nezužující se ocas s 2–3 černými kroužky a zaobleně zakončenou černou špičkou. Kříží se ale s domácími kočkami, takže kříženci se podle vzhledu poznávají těžko.",
+    "en": "The wildcat has a shorter, bushy, non-tapering tail with two or three black rings and a rounded black tip. It interbreeds with domestic cats, though, so hybrids are hard to tell apart by appearance."
+   }
+  },
+  {
+   "id": "T200-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jakou část potravy medvěda hnědého v Evropě tvoří rostlinná složka?",
+    "en": "What share of the European brown bear's diet is plant matter?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 10–20 %",
+     "Asi 30–40 %",
+     "Asi 60–80 %",
+     "Téměř 100 %"
+    ],
+    "en": [
+     "About 10–20%",
+     "About 30–40%",
+     "About 60–80%",
+     "Almost 100%"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Medvěd hnědý je v Evropě převážně býložravec: rostliny tvoří 60–80 % jeho potravy. Na jaře se často pase na čerstvé trávě.",
+    "en": "In Europe the brown bear is mostly vegetarian: plants make up 60–80% of its diet. In spring it often grazes on fresh grass."
+   }
+  },
+  {
+   "id": "T200-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Do kterého českého pohoří se od 70. let 20. století nejčastěji vracejí medvědi ze Slovenska?",
+    "en": "To which Czech mountain range have bears from Slovakia most often returned since the 1970s?"
+   },
+   "moznosti": {
+    "cs": [
+     "Do Beskyd",
+     "Do Krkonoš",
+     "Do Krušných hor",
+     "Do Jizerských hor"
+    ],
+    "en": [
+     "The Beskids",
+     "The Giant Mountains (Krkonoše)",
+     "The Ore Mountains",
+     "The Jizera Mountains"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Na většině českého území byl medvěd vyhuben v 17. a 18. století. Od 70. let se vrací hlavně do Beskyd díky propojení se Slovenskem. Trvalejšímu osídlení ale brání pytláctví, intenzivní lesní hospodaření a fragmentace krajiny.",
+    "en": "The bear was wiped out across most of Czech territory in the 17th and 18th centuries. Since the 1970s it has been returning mainly to the Beskids thanks to the link with Slovakia. Poaching, intensive forestry and landscape fragmentation, however, prevent more permanent settlement."
+   }
+  },
+  {
+   "id": "T200-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Rosomák (Gulo gulo) ze severní Evropy je největší suchozemskou šelmou z čeledi…",
+    "en": "The wolverine (Gulo gulo) of northern Europe is the largest land-dwelling member of which family?"
+   },
+   "moznosti": {
+    "cs": [
+     "medvědovitých",
+     "lasicovitých",
+     "psovitých",
+     "kočkovitých"
+    ],
+    "en": [
+     "The bear family (Ursidae)",
+     "The weasel family (Mustelidae)",
+     "The dog family (Canidae)",
+     "The cat family (Felidae)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Rosomák je největší suchozemskou lasicovitou šelmou; celkově ho předčí jen vydra mořská, vydra obrovská (Pteronura brasiliensis) a vydra kapská. V Evropě žije hlavně ve Skandinávii, Finsku a v evropské části Ruska.",
+    "en": "The wolverine is the largest land-dwelling mustelid; overall it is surpassed only by the sea otter, the giant otter and the African clawless otter. In Europe it lives mainly in Scandinavia, Finland and European Russia."
+   }
+  },
+  {
+   "id": "T200-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proti které nemoci se lišky v Evropě od 80. let očkují pomocí návnad s vakcínou, často shazovaných z letadel?",
+    "en": "Against which disease have foxes in Europe been vaccinated since the 1980s using vaccine baits, often dropped from aircraft?"
+   },
+   "moznosti": {
+    "cs": [
+     "Proti vzteklině",
+     "Proti tularémii",
+     "Proti svrabu",
+     "Proti psince"
+    ],
+    "en": [
+     "Rabies",
+     "Tularaemia",
+     "Mange",
+     "Distemper"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Liška obecná je nejvýznamnějším přenašečem vztekliny v Evropě. Návnady se obvykle shazují z letadel, aby pokryly rozsáhlá venkovská území.",
+    "en": "The red fox is the most important carrier of rabies in Europe. Baits are usually dropped from aircraft to cover large rural areas efficiently."
+   }
+  },
+  {
+   "id": "T200-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve které z těchto zemí žilo podle údajů z roku 2010 nejvíce medvědů hnědých?",
+    "en": "According to 2010 figures, which of these countries had the most brown bears?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Slovinsku",
+     "Na Slovensku",
+     "V Rumunsku",
+     "V Bulharsku"
+    ],
+    "en": [
+     "Slovenia",
+     "Slovakia",
+     "Romania",
+     "Bulgaria"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "V Rumunsku žilo kolem roku 2010 asi 5 000–6 000 medvědů, v Bulharsku 900–1 200, na Slovensku 600–800 a ve Slovinsku 500–700. Evropské medvědy tehdy tvořilo asi deset oddělených populací.",
+    "en": "Around 2010 Romania had about 5,000–6,000 bears, Bulgaria 900–1,200, Slovakia 600–800 and Slovenia 500–700. Europe's bears then formed about ten separate populations."
+   }
+  },
+  {
+   "id": "T200-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co je nejdůležitější potravou jezevce lesního?",
+    "en": "What is the most important food of the European badger?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ptačí vejce",
+     "Žížaly",
+     "Ryby",
+     "Hraboši"
+    ],
+    "en": [
+     "Birds' eggs",
+     "Earthworms",
+     "Fish",
+     "Voles"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jezevec je všežravec, ale na prvním místě jeho jídelníčku jsou žížaly, po nich velký hmyz, mršiny, obilí a ovoce. Denně obvykle sní nanejvýš asi půl kila potravy.",
+    "en": "The badger is an omnivore, but earthworms top its menu, followed by large insects, carrion, cereals and fruit. It typically eats no more than about half a kilogram (1.1 lb) of food a day."
+   }
+  },
+  {
+   "id": "T200-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ze které divoké šelmy pochází domácí fretka?",
+    "en": "Which wild carnivore is the domestic ferret descended from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z lasice kolčavy",
+     "Z kuny lesní",
+     "Z tchoře tmavého",
+     "Z norka evropského"
+    ],
+    "en": [
+     "The least weasel",
+     "The pine marten",
+     "The European polecat",
+     "The European mink"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Tchoř tmavý je považován za jediného předka fretky, domestikované před více než 2 000 lety k lovu škůdců. Tmavé fretky vypadají skoro stejně jako divocí tchoři, jen hůř než severní poddruhy tchoře snášejí chlad.",
+    "en": "The European polecat is thought to be the sole ancestor of the ferret, domesticated more than 2,000 years ago to hunt vermin. Dark ferrets look almost identical to wild polecats but tolerate cold less well than northern polecat subspecies."
+   }
+  },
+  {
+   "id": "T200-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo obvykle tvoří skupinu vlků, která spolu trvale žije?",
+    "en": "Who usually makes up a group of wolves that lives together?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rodiče a jejich potomci",
+     "Samec s několika samicemi",
+     "Samice s mláďaty bez samce",
+     "Nepříbuzní dospělí samci"
+    ],
+    "en": [
+     "Parents and their offspring",
+     "One male with several females",
+     "Females with young but no male",
+     "Unrelated adult males"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Základem vlčí skupiny je rodičovský pár a jeho potomci. Mladí vlci v ní zůstávají 10 až 54 měsíců a pak odcházejí hledat vlastní území; cizí vlky skupiny přijímají jen zřídka.",
+    "en": "The group is built around a breeding pair and their offspring. Young wolves stay for 10 to 54 months before leaving to find their own territory; outsiders are rarely adopted."
+   }
+  },
+  {
+   "id": "T200-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na kterém souostroví patřícím evropskému státu žijí lední medvědi?",
+    "en": "On which archipelago belonging to a European country do polar bears live?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Špicberkách",
+     "Na Faerských ostrovech",
+     "Na Shetlandech",
+     "Na Lofotech"
+    ],
+    "en": [
+     "Svalbard",
+     "The Faroe Islands",
+     "The Shetland Islands",
+     "The Lofoten Islands"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Norské Špicberky patří do areálu ledního medvěda, největší žijící suchozemské šelmy. Od 70. let 19. do 70. let 20. století tam lovci zabili asi 22 000 medvědů.",
+    "en": "Norway's Svalbard is part of the range of the polar bear, the largest living land carnivore. From the 1870s to the 1970s, hunters killed about 22,000 bears there."
+   }
+  },
+  {
+   "id": "T200-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Zimní spánek medvěda se dlouho nepovažoval za pravou hibernaci. Čím se nejvýrazněji liší od hibernace mnoha hlodavců?",
+    "en": "A bear's winter sleep was long not considered true hibernation. How does it differ most clearly from the hibernation of many rodents?"
+   },
+   "moznosti": {
+    "cs": [
+     "Spí jen během nejmrazivějších nocí",
+     "Každých pár dní se probudí a nažere",
+     "Teplota těla mu klesne jen o 3–5 °C",
+     "Pravidelně vylézá z brlohu močit"
+    ],
+    "en": [
+     "It sleeps only on the coldest nights",
+     "It wakes every few days to eat",
+     "Its body temperature drops by only 3–5 °C",
+     "It regularly leaves the den to urinate"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Medvědům klesne teplota jen o 3–5 °C, kdežto jiným hibernantům často o 32 °C i víc. Dnes se hibernace definuje útlumem metabolismu, a podle studií z let 2011 a 2016 tak medvědi hibernují; celé měsíce nejí, nepijí ani nemočí.",
+    "en": "A bear's temperature drops by only 3–5 °C (5–9 °F), whereas other hibernators often drop by 32 °C (58 °F) or more. Hibernation is now defined by metabolic suppression, and by that measure studies from 2011 and 2016 show bears do hibernate; for months they neither eat, drink nor urinate."
+   }
+  },
+  {
+   "id": "T200-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Odkud pocházela téměř dvacítka rysů, které v 80. letech 20. století vypustili na Šumavě?",
+    "en": "Where did the nearly twenty lynx released in the Šumava (Bohemian Forest) in the 1980s come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ze Švýcarska",
+     "Ze Slovenska",
+     "Ze Švédska",
+     "Z Rumunska"
+    ],
+    "en": [
+     "Switzerland",
+     "Slovakia",
+     "Sweden",
+     "Romania"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "V Čechách byl rys vyhuben mezi lety 1830 a 1890. Po vypuštění rysů ze Slovenska se rys v Česku opět rozšířil a počátkem roku 2006 se jeho populace odhadovala na 65–105 zvířat.",
+    "en": "The lynx was wiped out in Bohemia between 1830 and 1890. After lynx from Slovakia were released, the Czech lynx population grew to an estimated 65–105 animals by early 2006."
+   }
+  },
+  {
+   "id": "T200-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Latinské rodové jméno rosomáka Gulo i jeho německé jméno Vielfraß odkazují ke stejné pověstné vlastnosti. Ke které?",
+    "en": "The wolverine's Latin genus name Gulo and its German name Vielfraß both refer to the same legendary trait. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "K samotářství",
+     "K lstivosti",
+     "K zápachu",
+     "K žravosti"
+    ],
+    "en": [
+     "Solitariness",
+     "Cunning",
+     "Smell",
+     "Gluttony"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Gulo znamená latinsky „žrout“ a Vielfraß německy totéž; finské ahma vychází z ahmatti, „nenasyta“. Pověst žrouta možná zčásti vznikla z mylného výkladu slova.",
+    "en": "Gulo is Latin for 'glutton', and Vielfraß means the same in German; Finnish ahma comes from ahmatti, 'glutton'. The glutton reputation may partly stem from a false etymology."
+   }
+  },
+  {
+   "id": "T200-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Lišky lovící myši ve vysoké trávě nebo pod sněhem skáčou vysokým obloukem. Kterým směrem podle výzkumu skáčou nejraději, což se vysvětluje vnímáním magnetického pole Země?",
+    "en": "Foxes hunting mice in tall grass or under snow pounce in a high arc. According to research, which direction do they prefer to jump in, which is explained by sensing the Earth's magnetic field?"
+   },
+   "moznosti": {
+    "cs": [
+     "K severozápadu",
+     "K severovýchodu",
+     "K jihovýchodu",
+     "K jihozápadu"
+    ],
+    "en": [
+     "North-west",
+     "North-east",
+     "South-east",
+     "South-west"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Liška kořist nejdřív zaměří sluchem a pak skočí až 5 m daleko. Skoky míří nejčastěji k severovýchodu a úspěšné útoky se soustřeďují k severu, což výzkumníci přičítají magnetorecepci.",
+    "en": "The fox first pinpoints prey by sound, then leaps up to 5 m (16 ft). Its pounces most often point north-east and successful attacks cluster to the north, which researchers attribute to magnetoreception."
+   }
+  },
+  {
+   "id": "T200-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve které zemi proběhl v roce 1978 první terénní pokus s očkováním lišek pomocí návnad s vakcínou?",
+    "en": "In which country did the first field trial of vaccinating foxes with vaccine baits take place in 1978?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Západním Německu",
+     "V Československu",
+     "Ve Švýcarsku",
+     "Ve Francii"
+    ],
+    "en": [
+     "West Germany",
+     "Czechoslovakia",
+     "Switzerland",
+     "France"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "První pokus s živou oslabenou vakcínou v návnadách proběhl ve Švýcarsku v roce 1978. V 80. letech začaly očkovací programy i v dalších evropských zemích, v Kanadě od roku 1985 a v USA od roku 1990.",
+    "en": "The first trial of a live attenuated vaccine in baits took place in Switzerland in 1978. Vaccination programmes began elsewhere in Europe in the 1980s, in Canada in 1985 and in the United States in 1990."
+   }
+  },
+  {
+   "id": "T200-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Vlci ze západního Polska se rozšířili do východního Německa. Ve kterém roce se tam narodila první vlčata na německém území?",
+    "en": "Wolves from western Poland spread into eastern Germany. In which year were the first pups born on German territory?"
+   },
+   "moznosti": {
+    "cs": [
+     "1990",
+     "2000",
+     "2010",
+     "2015"
+    ],
+    "en": [
+     "1990",
+     "2000",
+     "2010",
+     "2015"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "První vlčata se v Německu narodila v roce 2000. Vlci se pak rychle šířili a dnes jich v Německu žije přes 1 000 (k roku 2026).",
+    "en": "The first pups were born in Germany in 2000. Wolves then spread fast, and more than 1,000 now live in Germany (as of 2026)."
+   }
+  },
+  {
+   "id": "T200-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak obvykle vypadá skvrna na hrdle kuny skalní?",
+    "en": "What does the throat patch of a beech marten usually look like?"
+   },
+   "moznosti": {
+    "cs": [
+     "Žlutooranžová, zaoblená a ostře ohraničená",
+     "Černá s tenkým bílým lemem po okraji",
+     "Šedá, nevýrazná a splývající se srstí",
+     "Bílá, se dvěma výběžky k předním nohám"
+    ],
+    "en": [
+     "Yellow-orange, rounded and sharply defined",
+     "Black with a thin white border around it",
+     "Grey, indistinct and blending into the fur",
+     "White, with two extensions towards the forelegs"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kuna skalní má velkou bílou skvrnu, obvykle rozdvojenou do dvou výběžků k předním nohám. U kuny lesní naopak skvrna mezi předníma nohama vybíhá dozadu do barvy břicha, podle toho se oba druhy rozlišují.",
+    "en": "The beech marten has a large white patch that usually splits into two extensions towards the forelegs. In the pine marten, by contrast, the patch between the forelegs runs back into the belly colour, which helps tell the two species apart."
+   }
+  },
+  {
+   "id": "T200-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co bylo hlavní příčinou úbytku vydry říční v Evropě ve 2. polovině 20. století?",
+    "en": "What was the main cause of the Eurasian otter's decline in Europe in the second half of the 20th century?"
+   },
+   "moznosti": {
+    "cs": [
+     "Epidemie vztekliny",
+     "Přemnožení kormoránů",
+     "Konkurence vysazených bobrů",
+     "Znečištění vod PCB a pesticidy"
+    ],
+    "en": [
+     "A rabies epidemic",
+     "A boom in cormorants",
+     "Competition from reintroduced beavers",
+     "Water pollution from PCBs and pesticides"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vydry hubily hlavně polychlorované bifenyly (PCB) a pesticidy. K návratu pomohl zákaz nejškodlivějších pesticidů od roku 1979, čistší voda a ochrana; v Británii vzrostl počet lokalit s vydrou mezi lety 1994 a 2002 o 55 %.",
+    "en": "Otters were hit mainly by polychlorinated biphenyls (PCBs) and pesticides. A ban on the most harmful pesticides from 1979, cleaner water and legal protection helped them recover; in the UK, sites with otters rose by 55% between 1994 and 2002."
+   }
+  },
+  {
+   "id": "T200-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Šakal obecný se od konce 20. století rychle šíří z jihovýchodu Evropy na sever a západ. Co se uvádí jako hlavní příčina?",
+    "en": "Since the late 20th century, the golden jackal has been spreading rapidly from south-eastern Europe to the north and west. What is cited as the main cause?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přemnožení divokých králíků",
+     "Vypouštění šakalů myslivci",
+     "Útěky šakalů ze zoo",
+     "Úbytek vlků"
+    ],
+    "en": [
+     "A boom in wild rabbits",
+     "Releases of jackals by hunters",
+     "Jackals escaping from zoos",
+     "The decline of wolves"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vlci nad šakaly dominují a v Evropě se jejich území vzájemně vylučují, takže vyhubení vlků šakalům otevřelo cestu. Šakali se tak dostali až do Francie a Pobaltí.",
+    "en": "Wolves dominate jackals, and in Europe the two are mutually exclusive, so the extermination of wolves opened the way. Jackals have since reached as far as France and the Baltic region."
+   }
+  },
+  {
+   "id": "T200-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak si tchoř tmavý někdy dělá zásoby, například z jarních žab?",
+    "en": "How does the European polecat sometimes store food, for example frogs in spring?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kořist napichuje na trny keřů",
+     "Kořist suší na slunci na kamenech",
+     "Kořist ochromí kousnutím a uloží ji živou",
+     "Kořist zahrabává do mravenišť"
+    ],
+    "en": [
+     "It impales prey on thorns",
+     "It dries prey on sunny rocks",
+     "It paralyses prey with a bite and stores it alive",
+     "It buries prey in anthills"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Tchoř kousne kořist do spodiny lebky, ochromí ji a uloží do nory, kde zůstane čerstvá. Latinské jméno Mustela putorius odkazuje k zápachu, který tchoř vypouští ze žláz.",
+    "en": "The polecat bites prey at the base of the skull, paralysing it, and stores it in its burrow, where it stays fresh. Its Latin name Mustela putorius refers to the stench it releases from its scent glands."
+   }
+  }
+ ]
+}

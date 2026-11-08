@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T348",
+ "nazev": {
+  "cs": "Blízký východ: Petra, Jeruzalém a Mrtvé moře",
+  "en": "The Middle East: Petra, Jerusalem and the Dead Sea"
+ },
+ "kategorie": {
+  "id": "zemepis",
+  "nazev": {
+   "cs": "Zeměpis",
+   "en": "Geography"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T348-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč se v Mrtvém moři dá snadno ležet na hladině, i když člověk neumí plavat?",
+    "en": "Why can you easily lie on the surface of the Dead Sea, even if you cannot swim?"
+   },
+   "moznosti": {
+    "cs": [
+     "Voda je díky soli mnohem hustší než sladká",
+     "Voda je velmi teplá, a proto lehčí",
+     "Na hladině plave tenká vrstva minerálního oleje",
+     "Ze dna stoupají bublinky plynu a nadnášejí tělo"
+    ],
+    "en": [
+     "The salt makes the water much denser than fresh water",
+     "The water is very warm and therefore lighter",
+     "A thin layer of mineral oil floats on the surface",
+     "Gas bubbles rising from the bottom lift the body"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Voda je extrémně slaná a má hustotu asi 1,24 kg na litr, takže tělo nadnáší mnohem víc než sladká voda. Plavání v ní připomíná spíš pohupování na hladině.",
+    "en": "The water is extremely salty and has a density of about 1.24 kg per litre (10.3 lb per US gallon), so it supports the body far more than fresh water. Swimming in it feels more like floating."
+   }
+  },
+  {
+   "id": "T348-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která řeka je hlavním přítokem Mrtvého moře?",
+    "en": "Which river is the main tributary of the Dead Sea?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jordán",
+     "Orontes",
+     "Nil",
+     "Eufrat"
+    ],
+    "en": [
+     "Jordan",
+     "Orontes",
+     "Nile",
+     "Euphrates"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hlavním přítokem je Jordán. Mrtvé moře je bezodtoké jezero: žádná řeka z něj nevytéká, voda se jen odpařuje, a proto se v něm hromadí sůl.",
+    "en": "The Jordan is its main tributary. The Dead Sea is an endorheic lake: no river flows out of it and water leaves only by evaporation, which is why salt builds up."
+   }
+  },
+  {
+   "id": "T348-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "V celosvětovém hlasování v roce 2007 byla jordánská Petra vybrána mezi…",
+    "en": "In a worldwide poll in 2007, Petra in Jordan was chosen as one of the…"
+   },
+   "moznosti": {
+    "cs": [
+     "Sedm přírodních divů světa",
+     "Sedm divů středověkého světa",
+     "Sedm divů starověkého světa",
+     "Nových sedm divů světa"
+    ],
+    "en": [
+     "Seven Natural Wonders of the World",
+     "Seven Wonders of the Medieval World",
+     "Seven Wonders of the Ancient World",
+     "New 7 Wonders of the World"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "V populárním hlasování roku 2007 se Petra zařadila mezi Nových sedm divů světa. Na seznam světového dědictví UNESCO byla zapsána už 6. prosince 1985.",
+    "en": "In a popular poll in 2007 Petra was named one of the New 7 Wonders of the World. It had been a UNESCO World Heritage Site since 6 December 1985."
+   }
+  },
+  {
+   "id": "T348-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která jeruzalémská stavba je známá svou zlatou kupolí, jedním z nejznámějších obrazů města?",
+    "en": "Which building in Jerusalem is known for its golden dome, one of the city's best-known sights?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chrám Božího hrobu",
+     "Mešita al-Aksá",
+     "Davidova věž",
+     "Skalní dóm"
+    ],
+    "en": [
+     "Church of the Holy Sepulchre",
+     "Al-Aqsa Mosque",
+     "Tower of David",
+     "Dome of the Rock"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Skalní dóm je osmiboká islámská svatyně uprostřed areálu Chrámové hory (Haram aš-Šaríf) ve Starém městě Jeruzaléma, postavená nad takzvaným Základním kamenem. Na obnovu zlatého pokrytí kupole v roce 1993, kterou financoval jordánský král Husajn, bylo potřeba asi 80 kg zlata.",
+    "en": "The Dome of the Rock is an octagonal Islamic shrine at the centre of the Temple Mount (Haram al-Sharif) compound in the Old City of Jerusalem, built over the Foundation Stone. The 1993 refurbishment of its golden covering, funded by King Hussein of Jordan, required about 80 kg (180 lb) of gold."
+   }
+  },
+  {
+   "id": "T348-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co návštěvníci tradičně vkládají do škvír mezi kameny Zdi nářků ve Starém městě Jeruzaléma?",
+    "en": "What do visitors traditionally place in the cracks between the stones of the Western Wall in Jerusalem's Old City?"
+   },
+   "moznosti": {
+    "cs": [
+     "Snítky olivovníku",
+     "Malé svíčky",
+     "Lístky s napsanými modlitbami",
+     "Drobné mince pro štěstí"
+    ],
+    "en": [
+     "Olive twigs",
+     "Small candles",
+     "Slips of paper with written prayers",
+     "Small coins for luck"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Do štěrbin zdi se každý rok vloží přes milion lístků s prosbami a modlitbami. Zeď je pozůstatkem starověké opěrné zdi kolem Chrámové hory.",
+    "en": "More than a million notes with prayers are placed in the crevices every year. The wall is part of an ancient retaining wall around the Temple Mount."
+   }
+  },
+  {
+   "id": "T348-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které události podle křesťanské tradice připomíná jeruzalémský Chrám Božího hrobu?",
+    "en": "According to Christian tradition, which events does the Church of the Holy Sepulchre in Jerusalem commemorate?"
+   },
+   "moznosti": {
+    "cs": [
+     "Poslední večeři Ježíše s apoštoly",
+     "Narození Ježíše",
+     "Ukřižování, pohřbení a vzkříšení Ježíše",
+     "Křest Ježíše v Jordánu"
+    ],
+    "en": [
+     "The Last Supper of Jesus with the apostles",
+     "The birth of Jesus",
+     "The crucifixion, burial and resurrection of Jesus",
+     "The baptism of Jesus in the Jordan"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Chrám podle tradice zahrnuje Golgotu, místo ukřižování, i Ježíšův prázdný hrob. První kostel zde nechal postavit císař Konstantin Veliký a vysvěcen byl roku 335.",
+    "en": "By tradition the church contains Golgotha, the site of the crucifixion, and the empty tomb of Jesus. The first church was built under Constantine the Great and consecrated in 335."
+   }
+  },
+  {
+   "id": "T348-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co připomíná tvar luxusního hotelu Burdž al-Arab v Dubaji?",
+    "en": "What does the shape of the luxury Burj Al Arab hotel in Dubai resemble?"
+   },
+   "moznosti": {
+    "cs": [
+     "Plachtu arabské lodi dhau",
+     "Kapku vody",
+     "Rozevřená křídla sokola",
+     "Palmový list"
+    ],
+    "en": [
+     "The sail of an Arab dhow",
+     "A drop of water",
+     "The spread wings of a falcon",
+     "A palm leaf"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hotel, otevřený v prosinci 1999, má podle architektů připomínat plachtu tradiční lodi dhau. Stojí na umělém ostrově asi 280 m od pláže Jumeirah, s nímž ho spojuje soukromý most.",
+    "en": "The hotel, opened in December 1999, was designed to resemble the sail of a traditional dhow. It stands on an artificial island about 280 m (920 ft) off Jumeirah Beach, linked to it by a private bridge."
+   }
+  },
+  {
+   "id": "T348-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím se tradičně živili beduíni?",
+    "en": "How did the Bedouin traditionally make a living?"
+   },
+   "moznosti": {
+    "cs": [
+     "Řemesly v městských bazarech",
+     "Zemědělstvím na horských terasách",
+     "Rybolovem na pobřeží Rudého moře",
+     "Kočovným pastevectvím v pouštích"
+    ],
+    "en": [
+     "Crafts in city bazaars",
+     "Farming on mountain terraces",
+     "Fishing on the Red Sea coast",
+     "Nomadic herding in the deserts"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Slovo beduín pochází z arabského badawí, „obyvatel pouště“. Beduíni chovali hlavně kozy, ovce a dromedáry; velbloud pro ně byl hlavním dopravním prostředkem i zdrojem obživy.",
+    "en": "The word Bedouin comes from the Arabic badawī, 'desert-dweller'. They herded mainly goats, sheep and dromedary camels; the camel was their main means of transport and a key source of food."
+   }
+  },
+  {
+   "id": "T348-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Damašek bývá označován za jedno z nejstarších nepřetržitě obývaných měst světa. Hlavním městem kterého státu je?",
+    "en": "Damascus is often called one of the oldest continuously inhabited cities in the world. Which country's capital is it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Libanonu",
+     "Iráku",
+     "Jordánska",
+     "Sýrie"
+    ],
+    "en": [
+     "Lebanon",
+     "Iraq",
+     "Jordan",
+     "Syria"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Damašek je hlavním městem Sýrie a v letech 661–750 byl sídlem umajjovského chalífátu. Protéká jím řeka Barada a přezdívá se mu „město jasmínu“.",
+    "en": "Damascus is the capital of Syria and from 661 to 750 it was the capital of the Umayyad Caliphate. The Barada River flows through it and it is nicknamed the 'City of Jasmine'."
+   }
+  },
+  {
+   "id": "T348-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Eufrat a Tigris se v jižním Iráku spojují v jeden tok. Kam se vlévá?",
+    "en": "The Euphrates and the Tigris join into a single river in southern Iraq. Where does it flow into?"
+   },
+   "moznosti": {
+    "cs": [
+     "Do Rudého moře",
+     "Do Perského zálivu",
+     "Do Kaspického moře",
+     "Do Středozemního moře"
+    ],
+    "en": [
+     "The Red Sea",
+     "The Persian Gulf",
+     "The Caspian Sea",
+     "The Mediterranean Sea"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Řeky se stékají u města al-Kurna (al-Qurnah) a společný tok Šatt al-Arab („řeka Arabů“) po zhruba 200 km ústí do Perského zálivu. Jeho jižní část tvoří hranici mezi Irákem a Íránem.",
+    "en": "The rivers meet at al-Qurnah, and the combined Shatt al-Arab ('River of the Arabs') flows about 200 km (120 mi) into the Persian Gulf. Its southern section forms part of the Iraq–Iran border."
+   }
+  },
+  {
+   "id": "T348-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolikrát zhruba je voda Mrtvého moře slanější než voda oceánů?",
+    "en": "Roughly how many times saltier than the ocean is the water of the Dead Sea?"
+   },
+   "moznosti": {
+    "cs": [
+     "2×",
+     "4×",
+     "10×",
+     "30×"
+    ],
+    "en": [
+     "2×",
+     "4×",
+     "10×",
+     "30×"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "V roce 2011 měla voda slanost 34,2 % (342 g soli na kilogram), tedy asi 9,6krát víc než oceán. Ryby ani vodní rostliny v ní nepřežijí.",
+    "en": "In 2011 its salinity was 34.2% (342 g of salt per kg), about 9.6 times that of the ocean. Neither fish nor aquatic plants can survive in it."
+   }
+  },
+  {
+   "id": "T348-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "O kolik zhruba ročně klesá hladina Mrtvého moře (k roku 2026)?",
+    "en": "By roughly how much does the level of the Dead Sea drop each year (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "O 1 cm",
+     "O 10 cm",
+     "O víc než 1 m",
+     "O víc než 10 m"
+    ],
+    "en": [
+     "1 cm (0.4 in)",
+     "10 cm (4 in)",
+     "More than 1 m (3 ft)",
+     "More than 10 m (33 ft)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hladina klesá o víc než metr ročně (k roku 2026) a v roce 2025 ležela 439,78 m pod úrovní moře. Hlavní příčinou je odvádění vody z řek, které do jezera přitékají, zejména od dokončení izraelského Národního vodovodu (National Water Carrier) v roce 1964.",
+    "en": "The level is dropping by more than 1 m (3 ft) a year (as of 2026), and in 2025 it stood 439.78 m (1,443 ft) below sea level. The main cause is the diversion of water from the rivers that feed it, notably since Israel's National Water Carrier was completed in 1964."
+   }
+  },
+  {
+   "id": "T348-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Do Petry se tradičně přichází temnou úzkou soutěskou, místy širokou jen 3–4 metry. Jak se jmenuje?",
+    "en": "Visitors traditionally enter Petra through a dark, narrow gorge, in places only 3–4 m (10–13 ft) wide. What is it called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ad Deir",
+     "Siq",
+     "Al-Khazneh",
+     "Wadi Araba"
+    ],
+    "en": [
+     "Ad Deir",
+     "The Siq",
+     "Al-Khazneh",
+     "Wadi Araba"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Soutěskou Siq se vchází do bývalého hlavního města Nabatejského království. Al-Khazneh (Pokladnice) a Ad Deir (Klášter) jsou slavné skalní stavby Petry; městu se kvůli barvě pískovce přezdívá „růžové město“.",
+    "en": "The Siq leads into the former capital of the Nabataean Kingdom. Al-Khazneh (the Treasury) and Ad Deir (the Monastery) are famous rock-cut monuments of Petra, nicknamed the 'Rose City' for the colour of its sandstone."
+   }
+  },
+  {
+   "id": "T348-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Zeď nářků je částí opěrné zdi kolem Chrámové hory. Který panovník kolem roku 19 př. n. l. zahájil rozšíření plošiny, jejíž součástí zeď je?",
+    "en": "The Western Wall is part of a retaining wall around the Temple Mount. Which ruler began expanding the platform it belongs to around 19 BCE?"
+   },
+   "moznosti": {
+    "cs": [
+     "Herodes Veliký",
+     "Sulejman Nádherný",
+     "Konstantin Veliký",
+     "Král Šalamoun"
+    ],
+    "en": [
+     "Herod the Great",
+     "Suleiman the Magnificent",
+     "Constantine the Great",
+     "King Solomon"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Herodes Veliký plošinu Chrámové hory zdvojnásobil a zeď tvořila část její opěrné obvodové zdi. Jeden z jejích kamenů je dlouhý asi 13,5 m a váží 250–300 tun.",
+    "en": "Herod the Great doubled the size of the Temple Mount platform, and the wall formed part of its retaining perimeter. One of its stones is about 13.5 m (44 ft) long and weighs 250–300 tonnes (280–330 short tons)."
+   }
+  },
+  {
+   "id": "T348-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Staré město Jeruzaléma se tradičně dělí na čtyři nestejně velké čtvrti: muslimskou, křesťanskou, židovskou a…",
+    "en": "The Old City of Jerusalem is traditionally divided into four uneven quarters: Muslim, Christian, Jewish and…"
+   },
+   "moznosti": {
+    "cs": [
+     "koptskou",
+     "arménskou",
+     "řeckou",
+     "syrskou"
+    ],
+    "en": [
+     "Coptic",
+     "Armenian",
+     "Greek",
+     "Syriac"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Čtvrtou je arménská čtvrť. Celé Staré město uvnitř hradeb má rozlohu jen asi 0,9 km² a od roku 1981 je zapsáno na seznamu světového dědictví UNESCO.",
+    "en": "The fourth is the Armenian Quarter. The whole walled Old City covers only about 0.9 km² (0.35 sq mi) and has been on the UNESCO World Heritage List since 1981."
+   }
+  },
+  {
+   "id": "T348-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo v letech 1946–1947 objevil v jeskyni u Kumránu první svitky od Mrtvého moře?",
+    "en": "Who discovered the first Dead Sea Scrolls in a cave near Qumran in 1946–1947?"
+   },
+   "moznosti": {
+    "cs": [
+     "Britský archeolog",
+     "Americký geolog",
+     "Francouzský kněz a biblista",
+     "Místní beduín"
+    ],
+    "en": [
+     "A British archaeologist",
+     "An American geologist",
+     "A French priest and biblical scholar",
+     "A local Bedouin"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "První svitky našli tři místní beduíni; Muhammad ad-Díb jako první spadl do jeskyně dnes zvané Jeskyně 1. Svitky z 3. století př. n. l. až 1. století n. l. posunuly stáří známých rukopisů hebrejské Bible o víc než tisíc let.",
+    "en": "The first scrolls were found by three local Bedouins; Muhammed edh-Dhib was the first to fall into what is now Cave 1. Dating from the 3rd century BCE to the 1st century CE, the scrolls pushed back the age of known Hebrew Bible manuscripts by more than a millennium."
+   }
+  },
+  {
+   "id": "T348-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jordánské pouštní údolí Wadi Rum, kde se natáčel Lawrence z Arábie (1962) i Marťan (2015), má přezdívku…",
+    "en": "Jordan's desert valley Wadi Rum, where Lawrence of Arabia (1962) and The Martian (2015) were filmed, is nicknamed the…"
+   },
+   "moznosti": {
+    "cs": [
+     "Údolí králů",
+     "Údolí smrti",
+     "Měsíční údolí",
+     "Údolí růží"
+    ],
+    "en": [
+     "Valley of the Kings",
+     "Death Valley",
+     "Valley of the Moon",
+     "Valley of Roses"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Údolí vyhloubené v pískovci a žule je známé také jako Měsíční údolí. Od roku 2011 je smíšenou přírodní a kulturní památkou UNESCO a ve filmu Duna (2021) hrálo pouštní planetu Arrakis.",
+    "en": "The valley, cut into sandstone and granite, is also known as the Valley of the Moon. It has been a mixed UNESCO World Heritage Site since 2011 and played the desert planet Arrakis in Dune (2021)."
+   }
+  },
+  {
+   "id": "T348-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které koření je pro tradiční arabskou kávu nejdůležitější?",
+    "en": "Which spice is the most essential in traditional Arabic coffee?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vanilka",
+     "Černý pepř",
+     "Kardamom",
+     "Skořice"
+    ],
+    "en": [
+     "Vanilla",
+     "Black pepper",
+     "Cardamom",
+     "Cinnamon"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Arabská káva se ochucuje především kardamomem, někdy i hřebíčkem nebo šafránem. Nalévá se z konvice zvané dalla do malých šálků bez ucha (findžán) a na Arabském poloostrově se téměř vždy podává s datlemi.",
+    "en": "Arabic coffee is flavoured above all with cardamom, sometimes with cloves or saffron. It is poured from a pot called a dallah into small handleless cups (finjān) and on the Arabian Peninsula is almost always served with dates."
+   }
+  },
+  {
+   "id": "T348-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Libanonský Baalbek s monumentálními římskými chrámy nesl v době Římské říše jméno Héliopolis. Co znamená?",
+    "en": "In Roman times, Baalbek in Lebanon, with its monumental temples, was called Heliopolis. What does the name mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Město slunce",
+     "Město cedrů",
+     "Město bohů",
+     "Svaté město"
+    ],
+    "en": [
+     "City of the Sun",
+     "City of Cedars",
+     "City of the Gods",
+     "Holy City"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jméno odkazuje k místnímu kultu slunce. Baalbek v údolí Bikáa (Beqaa) je od roku 1984 památkou UNESCO a takzvaný Bakchův chrám patří k nejzachovalejším římským chrámům na světě.",
+    "en": "The name refers to the local solar cult. Baalbek, in the Beqaa Valley, has been a UNESCO World Heritage Site since 1984, and its so-called Temple of Bacchus is one of the best-preserved Roman temples in the world."
+   }
+  },
+  {
+   "id": "T348-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kopce v ománské oblasti Dhofar jsou odedávna proslulé produkcí které vonné pryskyřice?",
+    "en": "The hills of Oman's Dhofar region have long been famous for producing which fragrant resin?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mastixu",
+     "Kadidla",
+     "Benzoe",
+     "Kopálu"
+    ],
+    "en": [
+     "Mastic",
+     "Frankincense",
+     "Benzoin",
+     "Copal"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "V kopcích Dhofaru se získává kadidlo, zatímco na pobřežní nížině rostou kokosové palmy. Hlavním městem Ománu je Maskat a zemi od roku 1744 nepřetržitě vládne dynastie Ál Bú Saíd.",
+    "en": "Frankincense is produced in the Dhofar hills, while coconut palms grow on the coastal plain. Oman's capital is Muscat, and the country has been ruled continuously by the Al Bu Said dynasty since 1744."
+   }
+  },
+  {
+   "id": "T348-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Švýcarský cestovatel Johann Ludwig Burckhardt se roku 1812 jako první novověký Evropan dostal do Petry a popsal ji. S jakým ohlášeným úmyslem se tam vydal?",
+    "en": "In 1812 the Swiss traveller Johann Ludwig Burckhardt became the first modern European to reach and describe Petra. What stated purpose did he give for going there?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hledal prý své ztracené velbloudy",
+     "Chtěl jako lékař ošetřit nemocného šejka",
+     "Chtěl obětovat kozu u hrobky proroka Árona",
+     "Vybíral prý daně pro osmanského sultána"
+    ],
+    "en": [
+     "To search for his lost camels",
+     "To treat a sick sheikh as a doctor",
+     "To sacrifice a goat at the tomb of the Prophet Aaron",
+     "To collect taxes for the Ottoman sultan"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Burckhardt slyšel o mrtvém městě s hrobkou proroka Árona. Oblékl se jako místní, mluvil jen arabsky a průvodci řekl, že chce u Áronovy hrobky obětovat kozu.",
+    "en": "Burckhardt had heard of a dead city holding the tomb of the Prophet Aaron. He dressed as a local, spoke only Arabic and told his guide he wished to sacrifice a goat at Aaron's tomb."
+   }
+  },
+  {
+   "id": "T348-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Pod jedním z oken Chrámu Božího hrobu stojí nejméně od roku 1757 dřevěný žebřík, s nímž se až na dvě krátké výjimky nehýbe. Proč?",
+    "en": "Under one of the windows of the Church of the Holy Sepulchre a wooden ladder has stood since at least 1757, moved only twice, briefly. Why?"
+   },
+   "moznosti": {
+    "cs": [
+     "Podle legendy po něm v noci sestupují andělé",
+     "Slouží mnichům jako nouzový únikový východ",
+     "Je zapuštěný do zdi a vyjmutí by narušilo průčelí",
+     "Každá změna vyžaduje souhlas církví sdílejících chrám"
+    ],
+    "en": [
+     "Legend says angels climb down it at night",
+     "It serves the monks as an emergency exit",
+     "It is set into the wall and removing it would damage the facade",
+     "Any change needs the agreement of the churches sharing it"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Takzvaný nepohnutelný žebřík je symbolem pravidel status quo, která v roce 1853 potvrdil sultánův dekret: i nepatrná změna vyžaduje shodu. Hlavní práva v chrámu mají katolická, řecká pravoslavná a arménská apoštolská církev.",
+    "en": "The so-called Immovable Ladder symbolises the Status Quo, confirmed by a sultan's decree in 1853, under which even minor changes require consensus. The main rights belong to the Catholic, Greek Orthodox and Armenian Apostolic churches."
+   }
+  },
+  {
+   "id": "T348-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Skalní dóm v Jeruzalémě je považován za nejstarší dochované dílo islámské architektury. Ve kterém století byl podle dobového nápisu dokončen?",
+    "en": "The Dome of the Rock in Jerusalem is considered the oldest surviving work of Islamic architecture. In which century was it completed, according to a contemporary inscription?"
+   },
+   "moznosti": {
+    "cs": [
+     "V 7. století",
+     "V 9. století",
+     "V 11. století",
+     "V 13. století"
+    ],
+    "en": [
+     "7th century",
+     "9th century",
+     "11th century",
+     "13th century"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kúfský nápis uvádí rok 72 hidžry, tedy 691/692 n. l. Stavbu nechal postavit umajjovský chalífa Abd al-Malik; má osmiboký půdorys a vnější mozaiky později za Sulejmana Nádherného nahradily osmanské obklady.",
+    "en": "A Kufic inscription gives the year AH 72, i.e. 691/692 CE. It was commissioned by the Umayyad caliph Abd al-Malik; its plan is octagonal, and under Suleiman the Magnificent its exterior mosaics were replaced with Ottoman tiles."
+   }
+  },
+  {
+   "id": "T348-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo dal postavit dnešní hradby jeruzalémského Starého města?",
+    "en": "Who built the present walls of Jerusalem's Old City?"
+   },
+   "moznosti": {
+    "cs": [
+     "Osmanský sultán Sulejman Nádherný",
+     "Judský král Herodes Veliký",
+     "Římský císař Hadrián",
+     "Sultán Saladin"
+    ],
+    "en": [
+     "The Ottoman sultan Suleiman the Magnificent",
+     "King Herod the Great of Judaea",
+     "The Roman emperor Hadrian",
+     "Sultan Saladin"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hradby postavili Osmané v letech 1535–1542 za Sulejmana Nádherného. Původně měly šest bran; Nová brána přibyla roku 1887, takže dnes je v provozu sedm hlavních bran.",
+    "en": "The walls were built by the Ottomans in 1535–1542 under Suleiman the Magnificent. They originally had six gates; the New Gate was added in 1887, bringing the number of operating main gates to seven."
+   }
+  },
+  {
+   "id": "T348-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Podle arabských autorů našli dělníci při stavbě Umajjovské mešity v Damašku schránku s hlavou světce, kterého muslimové znají jako Jahjá ibn Zakarijá. Kdo to byl?",
+    "en": "According to Arab writers, workers building the Umayyad Mosque in Damascus found a box containing the head of a saint whom Muslims know as Yahya ibn Zakariya. Who was he?"
+   },
+   "moznosti": {
+    "cs": [
+     "Svatý Jiří",
+     "Jan Křtitel",
+     "Prorok Eliáš",
+     "Apoštol Pavel"
+    ],
+    "en": [
+     "Saint George",
+     "John the Baptist",
+     "The prophet Elijah",
+     "Paul the Apostle"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Tak to popsal Ibn al-Fakíh (Ibn al-Faqih); chalífa al-Valíd I. pak nechal hlavu Jana Křtitele pohřbít pod jedním ze sloupů. Mešita vznikla na počátku 8. století na místě katedrály, která předtím byla římským Jovovým chrámem, a původně ji zdobilo asi 4 000 m² zlatých mozaik.",
+    "en": "This was recorded by Ibn al-Faqih; Caliph al-Walid I then had John the Baptist's head buried under one of the pillars. The mosque was built in the early 8th century on the site of a cathedral that had earlier been a Roman Temple of Jupiter, and it was originally decorated with about 4,000 m² (43,000 sq ft) of gold mosaics."
+   }
+  },
+  {
+   "id": "T348-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ze semene starého asi 2 000 let, nalezeného při vykopávkách na Masadě, se v roce 2005 podařilo vypěstovat strom přezdívaný Metuzalém. O jaký druh jde?",
+    "en": "In 2005 a tree nicknamed Methuselah was grown from a roughly 2,000-year-old seed found during excavations at Masada. What kind of tree is it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Olivovník",
+     "Datlovník",
+     "Fíkovník",
+     "Cedr libanonský"
+    ],
+    "en": [
+     "Olive tree",
+     "Date palm",
+     "Fig tree",
+     "Lebanon cedar"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jde o samčí datlovník (Phoenix dactylifera), takzvanou judejskou datlovou palmu; radiokarbonové datování určilo stáří semen na 155 př. n. l. až 64 n. l. Metuzalém později opylil samičí strom Hannah, ze kterého se do roku 2021 podařilo sklidit první datle.",
+    "en": "It is a male date palm (Phoenix dactylifera), a so-called Judean date palm; radiocarbon dating placed the seeds between 155 BCE and 64 CE. Methuselah later pollinated a female tree named Hannah, which had yielded its first dates by 2021."
+   }
+  },
+  {
+   "id": "T348-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ománští sultáni v 19. století ovládali námořní říši sahající až k východní Africe. Které město se v roce 1837 stalo jejím hlavním městem?",
+    "en": "In the 19th century the sultans of Oman ruled a maritime empire reaching as far as East Africa. Which city became its capital in 1837?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zanzibar",
+     "Mombasa",
+     "Aden",
+     "Mogadišo"
+    ],
+    "en": [
+     "Zanzibar",
+     "Mombasa",
+     "Aden",
+     "Mogadishu"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hlavním městem ománské říše se roku 1837 stal Zanzibar. V roce 1856 se říše rozdělila na dva sultanáty, Zanzibar a Maskat.",
+    "en": "Zanzibar became the capital of the Omani empire in 1837. In 1856 the empire split into two sultanates, Zanzibar and Muscat."
+   }
+  },
+  {
+   "id": "T348-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Podle tradice dal byzantský císař Justinián z chrámového komplexu v libanonském Baalbeku rozebrat a odvézt osm korintských sloupů. Pro kterou stavbu?",
+    "en": "According to tradition, the Byzantine emperor Justinian had eight Corinthian columns dismantled and taken away from the temple complex at Baalbek in Lebanon. For which building?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pro Umajjovskou mešitu v Damašku",
+     "Pro Chrám Božího hrobu v Jeruzalémě",
+     "Pro baziliku San Vitale v Ravenně",
+     "Pro Hagii Sofii v Konstantinopoli"
+    ],
+    "en": [
+     "The Umayyad Mosque in Damascus",
+     "The Church of the Holy Sepulchre in Jerusalem",
+     "The Basilica of San Vitale in Ravenna",
+     "Hagia Sophia in Constantinople"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Sloupy podle tradice putovaly do Konstantinopole pro přestavovanou Hagii Sofii. Baalbecký Jovův chrám patřil k největším chrámům Římské říše a v roce 2014 našli archeologové v místním lomu kamenný blok o odhadované hmotnosti 1 650 tun.",
+    "en": "According to tradition, the columns were shipped to Constantinople for the rebuilt Hagia Sophia. Baalbek's Temple of Jupiter was one of the largest in the Roman Empire, and in 2014 archaeologists found a stone block in a nearby quarry estimated at 1,650 tonnes (1,820 short tons)."
+   }
+  },
+  {
+   "id": "T348-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak byly v roce 1954 nabídnuty ke koupi některé ze svitků od Mrtvého moře?",
+    "en": "How were some of the Dead Sea Scrolls offered for sale in 1954?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na aukci v londýnské síni Sotheby's",
+     "Inzerátem v deníku The Wall Street Journal",
+     "V obchodním katalogu Britského muzea",
+     "Prostřednictvím vatikánského velvyslanectví"
+    ],
+    "en": [
+     "At an auction at Sotheby's in London",
+     "Through an advertisement in The Wall Street Journal",
+     "In a sales catalogue of the British Museum",
+     "Through the Vatican embassy"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Inzerát na čtyři svitky vyšel 1. června 1954; po převozu do newyorského hotelu Waldorf-Astoria je za 250 000 dolarů koupili archeolog Jigael Jadin a profesor Benjamin Mazar. Dnes je téměř celá sbírka svitků a jejich fragmentů ve Svatyni knihy Izraelského muzea.",
+    "en": "The advertisement for four scrolls ran on 1 June 1954; after they were brought to the Waldorf-Astoria Hotel in New York, the archaeologist Yigael Yadin and Professor Benjamin Mazar bought them for $250,000. Today almost all of the scrolls and fragments are kept in the Shrine of the Book at the Israel Museum."
+   }
+  },
+  {
+   "id": "T348-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Háj Božích cedrů (Arz el-Rab) v libanonském údolí Qadisha je jedním z posledních pozůstatků rozsáhlých cedrových lesů. Ve kterém starověkém díle jsou nejstarší písemné zmínky o těchto cedrech?",
+    "en": "The Cedars of God grove (Arz el-Rab) in Lebanon's Qadisha Valley is one of the last remnants of vast cedar forests. In which ancient work are the earliest written references to these cedars found?"
+   },
+   "moznosti": {
+    "cs": [
+     "V biblické Knize Jóbově",
+     "V Homérově Iliadě",
+     "V Chammurapiho zákoníku",
+     "V Eposu o Gilgamešovi"
+    ],
+    "en": [
+     "The biblical Book of Job",
+     "Homer's Iliad",
+     "The Code of Hammurabi",
+     "The Epic of Gilgamesh"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Nejstarší zmínky o Božích cedrech obsahují tabulky 4–6 Eposu o Gilgamešovi, kde hrdina putuje do Cedrového lesa. Háj je spolu s údolím Qadisha od roku 1998 na seznamu světového dědictví UNESCO.",
+    "en": "The earliest references to the Cedars of God appear in tablets 4–6 of the Epic of Gilgamesh, where the hero journeys to the Cedar Forest. The grove and the Qadisha Valley have been a UNESCO World Heritage Site since 1998."
+   }
+  }
+ ]
+}

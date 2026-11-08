@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T335",
+ "nazev": {
+  "cs": "Itálie: města, ostrovy a zajímavosti",
+  "en": "Italy: Cities, Islands and Curiosities"
+ },
+ "kategorie": {
+  "id": "zemepis",
+  "nazev": {
+   "cs": "Zeměpis",
+   "en": "Geography"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T335-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Tvar kterého předmětu podle obvyklého přirovnání připomíná Apeninský poloostrov?",
+    "en": "According to the usual comparison, the Italian Peninsula is shaped like which object?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tesařského kladiva",
+     "Starého klíče",
+     "Boty s podpatkem",
+     "Pracovní rukavice"
+    ],
+    "en": [
+     "A carpenter's hammer",
+     "An old key",
+     "A heeled boot",
+     "A work glove"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Italové poloostrovu přezdívají lo Stivale, tedy bota. Poloostrov Salento tvoří její podpatek a Gargano ostruhu.",
+    "en": "Italians nickname the peninsula lo Stivale, 'the Boot'. The Salento peninsula forms its heel and Gargano its spur."
+   }
+  },
+  {
+   "id": "T335-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na kterém ostrově leží sopka Etna?",
+    "en": "On which island is the volcano Mount Etna?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Sicílii",
+     "Na Sardinii",
+     "Na Korsice",
+     "Na Krétě"
+    ],
+    "en": [
+     "Sicily",
+     "Sardinia",
+     "Corsica",
+     "Crete"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Etna se tyčí na východním pobřeží Sicílie mezi Catanií a Messinou a od roku 2013 je na seznamu UNESCO. Její výška se s erupcemi mění, v roce 2024 měřila asi 3 403 m.",
+    "en": "Etna rises on the east coast of Sicily between Catania and Messina and has been a UNESCO World Heritage Site since 2013. Its height changes with eruptions; in 2024 it was about 3,403 m (11,165 ft)."
+   }
+  },
+  {
+   "id": "T335-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Nad kterým velkým italským městem se tyčí sopka Vesuv?",
+    "en": "Mount Vesuvius towers over which large Italian city?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nad Janovem",
+     "Nad Neapolí",
+     "Nad Římem",
+     "Nad Palermem"
+    ],
+    "en": [
+     "Genoa",
+     "Naples",
+     "Rome",
+     "Palermo"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Vesuv stojí na břehu Neapolského zálivu asi 9 km východně od Neapole. V dosahu případné erupce žijí asi 3 miliony lidí.",
+    "en": "Vesuvius stands on the Gulf of Naples about 9 km (5.6 mi) east of Naples. Around 3 million people live close enough to be affected by an eruption."
+   }
+  },
+  {
+   "id": "T335-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém italském městě se koná slavný karneval, na kterém lidé nosí zdobené masky a historické kostýmy?",
+    "en": "Which Italian city hosts a famous carnival where people wear ornate masks and historical costumes?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Miláně",
+     "V Bologni",
+     "V Turíně",
+     "V Benátkách"
+    ],
+    "en": [
+     "Milan",
+     "Bologna",
+     "Turin",
+     "Venice"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Benátský karneval končí masopustním úterým před Popeleční středou. Koncem 18. století byl zakázán a v plné podobě se vrátil až v roce 1979.",
+    "en": "The Carnival of Venice ends on Shrove Tuesday, the day before Ash Wednesday. It was banned at the end of the 18th century and only fully returned in 1979."
+   }
+  },
+  {
+   "id": "T335-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které moře omývá východní pobřeží Itálie?",
+    "en": "Which sea washes the eastern coast of Italy?"
+   },
+   "moznosti": {
+    "cs": [
+     "Egejské",
+     "Jaderské",
+     "Tyrhénské",
+     "Ligurské"
+    ],
+    "en": [
+     "The Aegean Sea",
+     "The Adriatic Sea",
+     "The Tyrrhenian Sea",
+     "The Ligurian Sea"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jaderské moře odděluje Apeninský poloostrov od Balkánského. Italské pobřeží tvoří jeho západní břeh a je hladké, s velmi malým počtem výběžků a bez větších ostrovů.",
+    "en": "The Adriatic Sea separates the Italian Peninsula from the Balkan Peninsula. The Italian coast forms its western shore and is smooth, with very few protrusions and no major islands."
+   }
+  },
+  {
+   "id": "T335-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou měnu používala Itálie před zavedením eura?",
+    "en": "What currency did Italy use before the euro?"
+   },
+   "moznosti": {
+    "cs": [
+     "Drachmu",
+     "Frank",
+     "Pesetu",
+     "Liru"
+    ],
+    "en": [
+     "The drachma",
+     "The franc",
+     "The peseta",
+     "The lira"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Lira byla 1. ledna 1999 nahrazena eurem v kurzu 1 936,27 lir za euro, staré bankovky a mince platily do února 2002. Název pochází z latinského libra.",
+    "en": "The lira was replaced by the euro on 1 January 1999 at a rate of 1,936.27 lire per euro; old notes and coins remained legal tender until February 2002. The name comes from the Latin libra."
+   }
+  },
+  {
+   "id": "T335-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaké zvíře je ve znaku automobilky Ferrari?",
+    "en": "Which animal appears in the Ferrari emblem?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vzpínající se kůň",
+     "Řvoucí lev",
+     "Útočící býk",
+     "Letící orel"
+    ],
+    "en": [
+     "A prancing horse",
+     "A roaring lion",
+     "A charging bull",
+     "A flying eagle"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vzpínajícího se koně (cavallino rampante) měl na letadle stíhací pilot Francesco Baracca a jeho matka ho Enzu Ferrarimu doporučila pro štěstí. Žluté pozadí je barvou Modeny.",
+    "en": "The prancing horse (cavallino rampante) was painted on the plane of flying ace Francesco Baracca, whose mother suggested it to Enzo Ferrari as a good-luck charm. The yellow background is the colour of Modena."
+   }
+  },
+  {
+   "id": "T335-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Příslušníci papežské gardy ve Vatikánu musí být občany které země?",
+    "en": "Members of the papal guard in Vatican City must be citizens of which country?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rakouska",
+     "Švýcarska",
+     "Španělska",
+     "Itálie"
+    ],
+    "en": [
+     "Austria",
+     "Switzerland",
+     "Spain",
+     "Italy"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Švýcarská garda vznikla roku 1506 za papeže Julia II. Noví gardisté skládají přísahu každoročně 6. května, v den výročí vyplenění Říma v roce 1527.",
+    "en": "The Swiss Guard was founded in 1506 under Pope Julius II. New guards are sworn in every year on 6 May, the anniversary of the Sack of Rome in 1527."
+   }
+  },
+  {
+   "id": "T335-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na čem stojí základy starých budov v Benátkách?",
+    "en": "What do the foundations of Venice's old buildings stand on?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na korálových útesech",
+     "Na betonových pilířích",
+     "Na dřevěných kůlech",
+     "Na ocelových plovácích"
+    ],
+    "en": [
+     "Coral reefs",
+     "Concrete pillars",
+     "Wooden piles",
+     "Steel floats"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Stavitelé zatloukali hustě vedle sebe kmeny olší skrz bahno a písek až k pevnější vrstvě jílu. Historické centrum se rozkládá na víc než stovce malých ostrovů.",
+    "en": "Builders drove closely spaced alder trunks through the mud and sand down to a harder layer of clay. The historic centre spreads across more than a hundred small islands."
+   }
+  },
+  {
+   "id": "T335-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který velký italský ostrov leží jen asi 16,5 km jižně od francouzské Korsiky?",
+    "en": "Which large Italian island lies only about 16.5 km (10 mi) south of the French island of Corsica?"
+   },
+   "moznosti": {
+    "cs": [
+     "Elba",
+     "Capri",
+     "Sardinie",
+     "Sicílie"
+    ],
+    "en": [
+     "Elba",
+     "Capri",
+     "Sardinia",
+     "Sicily"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Sardinii od Korsiky dělí průliv Bonifacio. Je po Sicílii druhým největším ostrovem Středozemního moře a hlavním městem je Cagliari.",
+    "en": "Sardinia is separated from Corsica by the Strait of Bonifacio. It is the second-largest island in the Mediterranean after Sicily, and its capital is Cagliari."
+   }
+  },
+  {
+   "id": "T335-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která řeka je nejdelší v Itálii?",
+    "en": "Which river is the longest in Italy?"
+   },
+   "moznosti": {
+    "cs": [
+     "Adiže",
+     "Arno",
+     "Tibera",
+     "Pád"
+    ],
+    "en": [
+     "The Adige",
+     "The Arno",
+     "The Tiber",
+     "The Po"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pád měří 652 km a pramení pod horou Monviso v Alpách. Do moře ústí rozsáhlou deltou nedaleko Benátek.",
+    "en": "The Po is 652 km (405 mi) long and rises below Monviso in the Alps. It reaches the sea through a large delta near Venice."
+   }
+  },
+  {
+   "id": "T335-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které jezero je největší v Itálii?",
+    "en": "Which lake is the largest in Italy?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lago Maggiore",
+     "Gardské jezero (Lago di Garda)",
+     "Trasimenské jezero (Trasimeno)",
+     "Comské jezero (Lago di Como)"
+    ],
+    "en": [
+     "Lake Maggiore",
+     "Lake Garda",
+     "Lake Trasimeno",
+     "Lake Como"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Gardské jezero (Lago di Garda) má rozlohu asi 370 km². Jeho břehy si dělí tři regiony: Lombardie, Benátsko a Trentino-Horní Adiže.",
+    "en": "Lake Garda covers about 370 km² (143 sq mi). Its shores are shared by three regions: Lombardy, Veneto and Trentino-Alto Adige/South Tyrol."
+   }
+  },
+  {
+   "id": "T335-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na kolik regionů se Itálie dělí?",
+    "en": "How many regions is Italy divided into?"
+   },
+   "moznosti": {
+    "cs": [
+     "12",
+     "16",
+     "20",
+     "24"
+    ],
+    "en": [
+     "12",
+     "16",
+     "20",
+     "24"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Itálie má 20 regionů. Pět z nich má zvláštní autonomní status: Sicílie, Sardinie, Údolí Aosty, Furlánsko-Julské Benátsko a Trentino-Horní Adiže.",
+    "en": "Italy has 20 regions. Five of them have special autonomous status: Sicily, Sardinia, Aosta Valley, Friuli-Venezia Giulia and Trentino-South Tyrol."
+   }
+  },
+  {
+   "id": "T335-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co je MOSE v Benátkách?",
+    "en": "What is MOSE in Venice?"
+   },
+   "moznosti": {
+    "cs": [
+     "Umělý ostrov pro výletní lodě",
+     "Čerpací stanice pod náměstím",
+     "Podmořský tunel na pevninu",
+     "Pohyblivé protipovodňové bariéry"
+    ],
+    "en": [
+     "An artificial island for cruise ships",
+     "A pumping station under the square",
+     "An undersea tunnel to the mainland",
+     "Movable flood barriers"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Na dně tří vstupů do laguny leží 78 dutých pontonů, které se při hrozícím přílivu (acqua alta) naplní vzduchem, zvednou se a zadrží moře. Poprvé byl systém spuštěn 3. října 2020.",
+    "en": "Seventy-eight hollow pontoons lie on the seabed across the three entrances to the lagoon; when a high tide (acqua alta) threatens, they fill with air, rise and hold back the sea. The system was first activated on 3 October 2020."
+   }
+  },
+  {
+   "id": "T335-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na kterém nářečí je založena spisovná italština?",
+    "en": "Which dialect is standard Italian based on?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na toskánském (florentském)",
+     "Na římském (romanesco)",
+     "Na neapolském (kampánském)",
+     "Na benátském (venetském)"
+    ],
+    "en": [
+     "Tuscan (Florentine)",
+     "Roman (Romanesco)",
+     "Neapolitan (Campanian)",
+     "Venetian (Venetan)"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Základem spisovné italštiny je florentská toskánština, kterou proslavil Dante Božskou komedií. Florentštinu si pro svůj slavný román Snoubenci (I promessi sposi) zvolil i milánský rodák Alessandro Manzoni.",
+    "en": "Standard Italian is based on Florentine Tuscan, made famous by Dante's Divine Comedy. The Milan-born Alessandro Manzoni also chose Florentine for his celebrated novel The Betrothed (I promessi sposi)."
+   }
+  },
+  {
+   "id": "T335-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který italský region tvoří jižní cíp pevninské Itálie naproti Sicílii?",
+    "en": "Which Italian region forms the southern tip of mainland Italy, facing Sicily?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kampánie",
+     "Apulie",
+     "Basilicata",
+     "Kalábrie"
+    ],
+    "en": [
+     "Campania",
+     "Apulia",
+     "Basilicata",
+     "Calabria"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kalábrii od Sicílie odděluje Messinská úžina, v nejužším místě široká jen asi 3 km. Hlavním městem regionu je Catanzaro.",
+    "en": "Calabria is separated from Sicily by the Strait of Messina, only about 3 km (2 mi) wide at its narrowest point. The regional capital is Catanzaro."
+   }
+  },
+  {
+   "id": "T335-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém městě sídlí automobilka Ferrari?",
+    "en": "In which town is the carmaker Ferrari based?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Turíně",
+     "V Maranellu",
+     "V Bologni",
+     "V Miláně"
+    ],
+    "en": [
+     "Turin",
+     "Maranello",
+     "Bologna",
+     "Milan"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ferrari sídlí v městečku Maranello nedaleko Modeny, rodného města zakladatele Enza Ferrariho (1898–1988). Firmu, z níž automobilka vzešla, založil roku 1939.",
+    "en": "Ferrari is based in the small town of Maranello near Modena, the hometown of founder Enzo Ferrari (1898–1988), who set up the company it grew out of in 1939."
+   }
+  },
+  {
+   "id": "T335-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které město na jihu Itálie proslulo starobylými obydlími vytesanými do skály, zvanými Sassi?",
+    "en": "Which city in southern Italy is famous for its ancient dwellings carved into the rock, known as the Sassi?"
+   },
+   "moznosti": {
+    "cs": [
+     "Matera",
+     "Taranto",
+     "Bari",
+     "Lecce"
+    ],
+    "en": [
+     "Matera",
+     "Taranto",
+     "Bari",
+     "Lecce"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Sassi jsou od roku 1993 na seznamu UNESCO, přestože v 50. letech vláda jejich obyvatele násilně přestěhovala. Natáčely se tu filmy Umučení Krista i Není čas zemřít a v roce 2019 byla Matera Evropským hlavním městem kultury.",
+    "en": "The Sassi have been a UNESCO World Heritage Site since 1993, even though the government forcibly relocated their residents in the 1950s. Films such as The Passion of the Christ and No Time to Die were shot here, and Matera was a European Capital of Culture in 2019."
+   }
+  },
+  {
+   "id": "T335-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se jmenuje hlavní cena filmového festivalu v Benátkách, který je považován za nejstarší filmový festival na světě?",
+    "en": "What is the top prize of the Venice Film Festival, regarded as the oldest film festival in the world?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zlatý medvěd",
+     "Křišťálový glóbus",
+     "Zlatá palma",
+     "Zlatý lev"
+    ],
+    "en": [
+     "Golden Bear",
+     "Crystal Globe",
+     "Palme d'Or",
+     "Golden Lion"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Festival vznikl v roce 1932 a koná se na ostrově Lido v Benátské laguně. Zlatého lva (Leone d'Oro) dostává nejlepší soutěžní film, Zlatá palma patří Cannes a Zlatý medvěd Berlínu.",
+    "en": "The festival was founded in 1932 and is held on the Lido, an island in the Venice Lagoon. The Golden Lion (Leone d'Oro) goes to the best film in competition; the Palme d'Or belongs to Cannes and the Golden Bear to Berlin."
+   }
+  },
+  {
+   "id": "T335-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ke kterému regionu patří pětice barevných přímořských vesnic Cinque Terre?",
+    "en": "Which region is home to the five colourful seaside villages of the Cinque Terre?"
+   },
+   "moznosti": {
+    "cs": [
+     "K Ligurii",
+     "K Apulii",
+     "Ke Kampánii",
+     "K Toskánsku"
+    ],
+    "en": [
+     "Liguria",
+     "Apulia",
+     "Campania",
+     "Tuscany"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Název znamená „Pět zemí“. Vesnice Monterosso al Mare, Vernazza, Corniglia, Manarola a Riomaggiore jsou od roku 1997 na seznamu UNESCO a nejlépe se mezi nimi cestuje vlakem.",
+    "en": "The name means 'Five Lands'. The villages of Monterosso al Mare, Vernazza, Corniglia, Manarola and Riomaggiore have been on the UNESCO list since 1997, and the train is the best way to travel between them."
+   }
+  },
+  {
+   "id": "T335-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Které město bylo v letech 1861–1865 prvním hlavním městem sjednoceného Italského království?",
+    "en": "Which city was the first capital of the unified Kingdom of Italy from 1861 to 1865?"
+   },
+   "moznosti": {
+    "cs": [
+     "Neapol",
+     "Milán",
+     "Turín",
+     "Florencie"
+    ],
+    "en": [
+     "Naples",
+     "Milan",
+     "Turin",
+     "Florence"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Turín byl předtím sídlem rodu Savojských a hlavním městem Sardinského království. Roku 1865 se hlavní město přesunulo do Florencie a později do Říma.",
+    "en": "Turin had previously been the seat of the House of Savoy and capital of the Kingdom of Sardinia. In 1865 the capital moved to Florence, and later to Rome."
+   }
+  },
+  {
+   "id": "T335-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co platí v Sieně při slavném Paliu, když jezdec cestou spadne?",
+    "en": "What happens in Siena's famous Palio if a jockey falls off during the race?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jezdec smí nasednout jen na startu",
+     "Kůň může vyhrát i bez jezdce",
+     "Kůň je okamžitě diskvalifikován",
+     "Celý závod se musí opakovat"
+    ],
+    "en": [
+     "The rider may remount only at the start",
+     "The horse can still win without its rider",
+     "The horse is instantly disqualified",
+     "The whole race must be rerun"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Kůň bez jezdce se nazývá cavallo scosso a může zvítězit pro svou městskou čtvrť (contradu). Závod se jede dvakrát ročně, 2. července a 16. srpna, třikrát kolem náměstí Piazza del Campo a trvá obvykle méně než 90 sekund.",
+    "en": "A riderless horse is called a cavallo scosso and can still win for its city ward (contrada). The race is run twice a year, on 2 July and 16 August, three laps around the Piazza del Campo, and usually lasts less than 90 seconds."
+   }
+  },
+  {
+   "id": "T335-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Po kom dostaly jméno Dolomity?",
+    "en": "Who are the Dolomites named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Po ladinské bohyni hor",
+     "Po benátském dóžeti",
+     "Po francouzském mineralogovi",
+     "Po rakouském císaři"
+    ],
+    "en": [
+     "A Ladin mountain goddess",
+     "A Venetian doge",
+     "A French mineralogist",
+     "An Austrian emperor"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pohoří je pojmenované po hornině dolomitu, kterou v roce 1791 popsal francouzský mineralog Déodat de Dolomieu (1750–1801) a která po něm dostala jméno. Dolomity jsou od roku 2009 na seznamu UNESCO a nejvyšší horou je Marmolada (3 343 m).",
+    "en": "The range is named after the rock dolomite, which the French mineralogist Déodat de Dolomieu (1750–1801) described in 1791 and which was named in his honour. The Dolomites became a UNESCO World Heritage Site in 2009; their highest peak is the Marmolada at 3,343 m (10,968 ft)."
+   }
+  },
+  {
+   "id": "T335-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém roce naposledy vybuchl Vesuv (k roku 2026)?",
+    "en": "In which year did Mount Vesuvius last erupt (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "1872",
+     "1906",
+     "1944",
+     "1980"
+    ],
+    "en": [
+     "1872",
+     "1906",
+     "1944",
+     "1980"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Erupce v březnu 1944 zničila několik vesnic na úpatí. Sopečný popel tehdy poškodil i americké bombardéry na nedalekém letišti, odhady mluví o 78 až 88 zničených strojích.",
+    "en": "The eruption of March 1944 destroyed several villages at the foot of the volcano. Its ash and tephra also wrecked US bombers at a nearby airfield, with estimates of 78 to 88 aircraft destroyed."
+   }
+  },
+  {
+   "id": "T335-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Vlajku italského námořnictva zdobí od roku 1947 znaky čtyř historických námořních republik: Benátek, Janova, Amalfi a…",
+    "en": "Since 1947, the Italian naval ensign has displayed the coats of arms of four historical maritime republics: Venice, Genoa, Amalfi and…"
+   },
+   "moznosti": {
+    "cs": [
+     "Neapole",
+     "Pisy",
+     "Terstu",
+     "Palerma"
+    ],
+    "en": [
+     "Naples",
+     "Pisa",
+     "Trieste",
+     "Palermo"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Tato čtyři města se každoročně střídají v pořádání Regaty historických námořních republik. Městečko Amalfi dalo jméno i slavnému pobřeží v Kampánii, které je od roku 1997 na seznamu UNESCO.",
+    "en": "These four cities take turns hosting the annual Regatta of the Historical Maritime Republics. The town of Amalfi also gave its name to the famous coast in Campania, a UNESCO World Heritage Site since 1997."
+   }
+  },
+  {
+   "id": "T335-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém italském regionu je vedle italštiny úředním jazykem i francouzština?",
+    "en": "In which Italian region is French an official language alongside Italian?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Údolí Aosty",
+     "Ve Furlánsku-Julském Benátsku",
+     "V Trentinu-Horní Adiži",
+     "Na Sardinii"
+    ],
+    "en": [
+     "Aosta Valley",
+     "Friuli-Venezia Giulia",
+     "Trentino-South Tyrol",
+     "Sardinia"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Francouzština je v Údolí Aosty úřední od roku 1946. Jde o nejmenší italský region (asi 3 261 km² a 123 000 obyvatel), který sousedí s Francií a Švýcarskem.",
+    "en": "French has been an official language in the Aosta Valley since 1946. It is Italy's smallest region (about 3,261 km² or 1,259 sq mi, with about 123,000 inhabitants) and borders France and Switzerland."
+   }
+  },
+  {
+   "id": "T335-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Garibaldi roku 1860 s výpravou tisíce dobrovolníků (spedizione dei Mille) dobyl Království obojí Sicílie. Komu pak dobytá území po setkání v Teanu předal?",
+    "en": "In 1860 Garibaldi conquered the Kingdom of the Two Sicilies with the Expedition of the Thousand. To whom did he hand over the conquered lands after the meeting at Teano?"
+   },
+   "moznosti": {
+    "cs": [
+     "Papeži Piu IX.",
+     "Napoleonovi III.",
+     "Giuseppu Mazzinimu",
+     "Viktoru Emanuelovi II."
+    ],
+    "en": [
+     "Pope Pius IX",
+     "Napoleon III",
+     "Giuseppe Mazzini",
+     "Victor Emmanuel II"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Setkání v Teanu 26. října 1860 dalo rodu Savojských vládu nad bývalým Královstvím obojí Sicílie. Výprava předtím vyplula od Janova a vylodila se u Marsaly na Sicílii.",
+    "en": "The meeting at Teano on 26 October 1860 gave the House of Savoy sovereignty over the former Kingdom of the Two Sicilies. The expedition had sailed from near Genoa and landed at Marsala in Sicily."
+   }
+  },
+  {
+   "id": "T335-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na kterém ostrově leží nejjižnější část Itálie?",
+    "en": "On which island is the southernmost part of Italy?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Pantellerii",
+     "Na Ustice",
+     "Na Lampeduse",
+     "Na Lipari"
+    ],
+    "en": [
+     "Pantelleria",
+     "Ustica",
+     "Lampedusa",
+     "Lipari"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Lampedusa, největší z Pelagických ostrovů, leží blíž Africe než Sicílii: do Tuniska je to asi 113 km, na Sicílii asi 205 km. Geologicky už patří k Africe.",
+    "en": "Lampedusa, the largest of the Pelagian Islands, is closer to Africa than to Sicily: Tunisia is about 113 km (70 mi) away, Sicily about 205 km (127 mi). Geologically it is part of Africa."
+   }
+  },
+  {
+   "id": "T335-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se nazývají kamenné věže z doby bronzové, které jsou symbolem Sardinie?",
+    "en": "What are the Bronze Age stone towers that have become the symbol of Sardinia called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Brochy (brochs)",
+     "Talajoty (talaiots)",
+     "Trulli",
+     "Nuragy (nuraghe)"
+    ],
+    "en": [
+     "Brochs",
+     "Talaiots",
+     "Trulli",
+     "Nuraghi"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Našlo se jich přes 7 000 a původně jich podle archeologů bylo víc než 10 000. Celé nuragické dědictví zastupuje na seznamu UNESCO komplex Su Nuraxi u Barumini.",
+    "en": "More than 7,000 have been found, and archaeologists believe there were originally over 10,000. The Su Nuraxi complex at Barumini represents the whole Nuragic heritage on the UNESCO list."
+   }
+  },
+  {
+   "id": "T335-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Podle odhadu lingvisty Tullia De Maura ovládala při sjednocení Itálie v roce 1861 spisovnou italštinu jaká část obyvatel?",
+    "en": "According to linguist Tullio De Mauro, what share of the population could speak standard Italian properly at unification in 1861?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 2,5 %",
+     "Asi 25 %",
+     "Asi 50 %",
+     "Asi 75 %"
+    ],
+    "en": [
+     "About 2.5%",
+     "About 25%",
+     "About 50%",
+     "About 75%"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Většina lidí tehdy mluvila jen místními nářečími. Jiný lingvista, Arrigo Castellani, odhadoval podíl na asi 10 %, i tak šlo o malou menšinu.",
+    "en": "Most people spoke only their local dialects at the time. Another linguist, Arrigo Castellani, put the figure at about 10%, still a small minority."
+   }
+  }
+ ]
+}

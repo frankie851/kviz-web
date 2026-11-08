@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T290",
+ "nazev": {
+  "cs": "Fyzika kolem nás",
+  "en": "Physics All Around Us"
+ },
+ "kategorie": {
+  "id": "veda-a-technika",
+  "nazev": {
+   "cs": "Věda a technika",
+   "en": "Science & Technology"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T290-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Při prudkém brzdění auta vás to „hodí“ dopředu do pásu. Který fyzikální jev za tím stojí?",
+    "en": "When a car brakes hard, you are thrown forward into your seat belt. Which physical phenomenon is behind this?"
+   },
+   "moznosti": {
+    "cs": [
+     "Odstředivá síla",
+     "Setrvačnost",
+     "Vztlak",
+     "Tření"
+    ],
+    "en": [
+     "Centrifugal force",
+     "Inertia",
+     "Lift",
+     "Friction"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Auto zpomaluje, ale vaše tělo se díky setrvačnosti dál pohybuje původní rychlostí – zastaví ho až pás. Navíječ pásu se při prudkém zpomalení sám zablokuje; u mnoha pásů to zajišťuje kyvadélko, které se vychýlí.",
+    "en": "The car slows down, but inertia keeps your body moving at the original speed until the belt stops it. The belt reel locks itself during sudden deceleration; in many belts this is done by a small pendulum that swings out."
+   }
+  },
+  {
+   "id": "T290-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá síla, kterou proudící vzduch působí na křídlo kolmo ke směru proudění a která drží letadlo ve vzduchu?",
+    "en": "What is the name of the force that flowing air exerts on a wing perpendicular to the flow, holding an aeroplane in the air?"
+   },
+   "moznosti": {
+    "cs": [
+     "Odpor",
+     "Tah",
+     "Tíha",
+     "Vztlak"
+    ],
+    "en": [
+     "Drag",
+     "Thrust",
+     "Weight",
+     "Lift"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vztlak je výsledkem rozdílu tlaků nad křídlem a pod ním. Zjednodušeně: křídlo stáčí proud vzduchu dolů a vzduch na ně podle třetího Newtonova zákona tlačí opačně, tedy nahoru. Velikost vztlaku závisí na rychlosti, hustotě vzduchu, tvaru křídla a úhlu náběhu.",
+    "en": "Lift results from the pressure difference above and below the wing. Put simply, the wing deflects the airflow downwards and, by Newton's third law, the air pushes back on it upwards. Its size depends on airspeed, air density, wing shape and angle of attack."
+   }
+  },
+  {
+   "id": "T290-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Rčení „špička ledovce“ má fyzikální základ. Jaká část objemu plovoucí ledové hory je zhruba pod hladinou moře?",
+    "en": "The phrase \"the tip of the iceberg\" has a physical basis. Roughly what share of a floating iceberg's volume lies below the sea surface?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 50 %",
+     "Asi 70 %",
+     "Asi 90 %",
+     "Asi 99 %"
+    ],
+    "en": [
+     "About 50%",
+     "About 70%",
+     "About 90%",
+     "About 99%"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Led má hustotu asi 920 kg/m³, mořská voda asi 1 025 kg/m³, takže ponořeno je zhruba 920/1 025 ≈ 90 % objemu. Anglické iceberg pochází z nizozemského ijsberg, „ledová hora“.",
+    "en": "Ice has a density of about 920 kg/m³ (57 lb/ft³) and seawater about 1,025 kg/m³ (64 lb/ft³), so roughly 920/1,025 ≈ 90% of the volume is submerged. The English word iceberg comes from the Dutch ijsberg, \"ice mountain\"."
+   }
+  },
+  {
+   "id": "T290-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ocel je asi osmkrát hustší než voda. Proč přesto obří ocelová loď neklesne ke dnu?",
+    "en": "Steel is about eight times denser than water. Why, then, does a huge steel ship not sink to the bottom?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lodní šrouby ji za plavby drží nad hladinou",
+     "Trup vytlačí vodu o stejné tíze, jakou má celá loď",
+     "Ocel na lodě se vyrábí lehčí než voda",
+     "Slaná mořská voda ocel chemicky nadnáší"
+    ],
+    "en": [
+     "Its propellers hold it above the surface while sailing",
+     "The hull displaces water weighing as much as the whole ship",
+     "Shipbuilding steel is made lighter than water",
+     "Salty seawater chemically buoys up the steel"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Podle Archimédova zákona plovoucí těleso vytlačí kapalinu o stejné tíze, jakou má samo. Dutý trup je převážně plný vzduchu, takže loď vytlačí dost vody dřív, než se ponoří po palubu.",
+    "en": "By Archimedes' principle, a floating object displaces its own weight of fluid. The hollow hull is mostly air, so the ship displaces enough water long before it sinks to deck level."
+   }
+  },
+  {
+   "id": "T290-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Drobný hmyz bruslařka (Gerris) běhá po hladině rybníka, aniž by se potopil. Co ho nese?",
+    "en": "The small water strider (Gerris) runs across the surface of a pond without sinking. What carries it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vzduchové bublinky pod tělem",
+     "Proudění vody pod hladinou",
+     "Povrchové napětí vody",
+     "Mastný film z řas na hladině"
+    ],
+    "en": [
+     "Air bubbles under its body",
+     "Water currents below the surface",
+     "The surface tension of water",
+     "An oily film of algae on the surface"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hladina se chová jako pružná blána díky povrchovému napětí a bruslařka rozkládá váhu na dlouhé nohy pokryté drobnými vodoodpudivými chloupky. Po hladině se běžně pohybuje rychlostí 1 m/s i víc.",
+    "en": "Surface tension makes the water surface behave like an elastic film, and the strider spreads its weight over long legs covered in tiny water-repellent hairs. It often moves across the surface at 1 m/s (2.2 mph) or faster."
+   }
+  },
+  {
+   "id": "T290-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co je mezi dvěma stěnami klasické skleněné termosky a nejvíc brání úniku tepla?",
+    "en": "What is between the two walls of a classic glass Thermos flask and does the most to stop heat escaping?"
+   },
+   "moznosti": {
+    "cs": [
+     "Voda",
+     "Vakuum",
+     "Ovčí vlna",
+     "Polystyrenová pěna"
+    ],
+    "en": [
+     "Water",
+     "A vacuum",
+     "Sheep's wool",
+     "Polystyrene foam"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ve vakuu nemá teplo jak se šířit vedením ani prouděním; postříbřené stěny navíc omezují sálání. Nejvíc tepla proto termoska ztrácí hrdlem a zátkou.",
+    "en": "In a vacuum, heat cannot travel by conduction or convection, and the silvered walls also limit radiation. That is why a flask loses most of its heat through the neck and stopper."
+   }
+  },
+  {
+   "id": "T290-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na dětské houpačce „váhy“ chce těžký tatínek houpat lehké dítě. Jak dosáhnou rovnováhy?",
+    "en": "On a seesaw, a heavy father wants to play with a light child. How can they balance?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tatínek si sedne blíž ke středu",
+     "Tatínek se na sedátku nakloní dozadu",
+     "Dítě si sedne blíž ke středu",
+     "Oba si sednou úplně na kraj"
+    ],
+    "en": [
+     "The father sits closer to the middle",
+     "The father leans back on his seat",
+     "The child sits closer to the middle",
+     "Both sit right at the ends"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Houpačka je dvojzvratná páka: v rovnováze je, když se rovná síla krát vzdálenost od osy na obou stranách. Těžší člověk tedy musí sedět blíž k ose.",
+    "en": "A seesaw is a first-class lever: it balances when force times distance from the pivot is equal on both sides. The heavier person must therefore sit closer to the pivot."
+   }
+  },
+  {
+   "id": "T290-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Nafukovací balónek otřete o vlasy a přiložíte ke zdi. Proč na ní zůstane viset?",
+    "en": "You rub a balloon on your hair and hold it against a wall. Why does it stay stuck there?"
+   },
+   "moznosti": {
+    "cs": [
+     "Teplem z tření se ke zdi přilepil",
+     "Vlasy na něm zanechaly lepivý maz",
+     "Je elektricky nabitý",
+     "Pod balónkem vznikne podtlak jako u přísavky"
+    ],
+    "en": [
+     "Heat from rubbing glued it to the wall",
+     "Your hair left sticky sebum on it",
+     "It is electrically charged",
+     "A partial vacuum forms under it, as with a suction cup"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Třením přejdou elektrony z vlasů na balónek a ten se nabije záporně. Ve zdi přeskupí náboje a přitahuje se k jejich kladné části – drží i proti gravitaci. Stejný jev zježí vlasy.",
+    "en": "Rubbing transfers electrons from your hair to the balloon, which becomes negatively charged. It rearranges the charges in the wall and is attracted to their positive part – strongly enough to beat gravity. The same effect makes hair stand on end."
+   }
+  },
+  {
+   "id": "T290-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou barvu má obloha na Měsíci ve dne, když na ni svítí Slunce?",
+    "en": "What colour is the sky on the Moon during the day, while the Sun is shining?"
+   },
+   "moznosti": {
+    "cs": [
+     "Oranžovou",
+     "Černou",
+     "Bílou",
+     "Modrou"
+    ],
+    "en": [
+     "Orange",
+     "Black",
+     "White",
+     "Blue"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Měsíc nemá atmosféru, která by sluneční světlo rozptylovala, a tak je obloha černá i se Sluncem nad obzorem. Modrou oblohu na Zemi vytváří právě rozptyl světla na molekulách vzduchu.",
+    "en": "The Moon has no atmosphere to scatter sunlight, so its sky is black even with the Sun above the horizon. Earth's blue sky is created precisely by light scattering off air molecules."
+   }
+  },
+  {
+   "id": "T290-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč se ve sněžnicích neboříte do hlubokého sněhu tolik jako v obyčejných botách?",
+    "en": "Why do you sink into deep snow much less in snowshoes than in ordinary boots?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pružný výplet vás při každém kroku odrazí nahoru",
+     "Sněžnice sníh pod sebou zahřejí a ten ztvrdne v krustu",
+     "Sněžnice jsou mnohem lehčí než zimní boty",
+     "Váha se rozloží na větší plochu, takže tlak na sníh je menší"
+    ],
+    "en": [
+     "The springy webbing bounces you upwards with each step",
+     "Snowshoes warm the snow beneath them so it hardens into a crust",
+     "Snowshoes are much lighter than winter boots",
+     "Your weight is spread over a larger area, so the pressure on the snow is lower"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Tlak je síla dělená plochou: stejná váha na mnohem větší ploše znamená menší tlak, a sníh tolik neustoupí. Za nejstarší dochovanou sněžnici se považuje nález z tajícího ledovce Gurgler Eisjoch v Ötztalských Alpách na italsko-rakouské hranici; je stará asi 5 700–5 800 let.",
+    "en": "Pressure is force divided by area: the same weight over a much larger area means lower pressure, so the snow gives way less. The oldest surviving snowshoe is thought to be one found on the melting Gurgler Eisjoch glacier in the Ötztal Alps, on the Italian–Austrian border; it is about 5,700–5,800 years old."
+   }
+  },
+  {
+   "id": "T290-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co ve skutečnosti způsobuje hrom?",
+    "en": "What actually causes thunder?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bleskem prudce ohřátý vzduch se rozepne v rázové vlně",
+     "Výboj rozkmitá dešťové kapky a kroupy uvnitř mraku",
+     "Srážka dvou elektricky nabitých bouřkových mraků",
+     "Výbuch vodíku, který blesk uvolní z vody v mracích"
+    ],
+    "en": [
+     "Air suddenly heated by lightning expands in a shock wave",
+     "The discharge vibrating raindrops and hail inside the cloud",
+     "Two electrically charged storm clouds colliding",
+     "Hydrogen released by lightning from cloud water exploding"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kanál blesku se během zlomku sekundy rozžhaví zhruba na 20 000–30 000 K. Vzduch se bleskově rozepne a vznikne rázová vlna, kterou slyšíme jako hrom.",
+    "en": "The lightning channel heats up within a fraction of a second to roughly 20,000–30,000 K. The air expands explosively, creating a shock wave that we hear as thunder."
+   }
+  },
+  {
+   "id": "T290-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč se v mnoha mikrovlnných troubách jídlo během ohřevu otáčí na talíři?",
+    "en": "Why does food rotate on a turntable in many microwave ovens while heating?"
+   },
+   "moznosti": {
+    "cs": [
+     "Odstředivá síla rozhání vodu v jídle rovnoměrně do stran",
+     "Otáčení chrání magnetron před přehřátím",
+     "Jídlo by jinak mikrovlny odráželo zpět do zdroje",
+     "Mikrovlny se v troubě rozloží nerovnoměrně a vznikají horká a studená místa"
+    ],
+    "en": [
+     "Centrifugal force spreads the water in the food evenly outwards",
+     "Rotation protects the magnetron from overheating",
+     "Otherwise the food would reflect microwaves back to the source",
+     "Microwaves spread unevenly in the oven, creating hot and cold spots"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Energie mikrovln se v uzavřené kovové komoře rozloží velmi nerovnoměrně a vznikají místa se silným i slabým polem. Otáčení jídlo těmito místy provádí; ani tak to není dokonalé, a proto se doporučuje dávat jídlo spíš mimo střed talíře.",
+    "en": "The microwave energy is distributed very unevenly in the closed metal chamber, creating spots with strong and weak fields. The turntable moves the food through them; even so it is not perfect, which is why placing food off-centre on the tray is recommended."
+   }
+  },
+  {
+   "id": "T290-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Stojíte na osobní váze ve výtahu. Co váha ukáže ve chvíli, kdy se výtah rozjíždí směrem nahoru?",
+    "en": "You are standing on bathroom scales in a lift. What do the scales show at the moment the lift starts moving upwards?"
+   },
+   "moznosti": {
+    "cs": [
+     "Víc než obvykle",
+     "Méně než obvykle",
+     "Nulu",
+     "Přesně tolik co obvykle"
+    ],
+    "en": [
+     "More than usual",
+     "Less than usual",
+     "Zero",
+     "Exactly the usual amount"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Podlaha výtahu vás musí nejen držet, ale i urychlovat nahoru, takže na váhu tlačíte větší silou – vaše zdánlivá tíha vzroste. Když se výtah naopak rozjíždí dolů, váha ukáže méně než obvykle.",
+    "en": "The lift floor must not only support you but also accelerate you upwards, so you press on the scales harder – your apparent weight increases. When the lift starts moving down, the scales show less than usual."
+   }
+  },
+  {
+   "id": "T290-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Krasobruslařka se točí v piruetě s rozpaženýma rukama a pak je přitáhne k tělu. Co se stane?",
+    "en": "A figure skater spins with her arms outstretched and then pulls them in to her body. What happens?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zpomalí",
+     "Začne se naklánět ke straně",
+     "Roztočí se rychleji",
+     "Rychlost otáčení se nezmění"
+    ],
+    "en": [
+     "She slows down",
+     "She starts to tilt sideways",
+     "She spins faster",
+     "Her spinning speed stays the same"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Přitažením paží zmenší svůj moment setrvačnosti, a protože moment hybnosti se zachovává, musí se otáčet rychleji. Když chce piruetu zpomalit, paže zase rozpaží.",
+    "en": "Pulling in her arms reduces her moment of inertia, and because angular momentum is conserved, she must spin faster. To slow the spin down, she spreads her arms again."
+   }
+  },
+  {
+   "id": "T290-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Zakřičíte proti skalní stěně a ozvěnu uslyšíte za 2 sekundy. Zvuk se ve vzduchu šíří rychlostí asi 343 m/s. Jak daleko zhruba skála je?",
+    "en": "You shout towards a rock face and hear the echo 2 seconds later. Sound travels through air at about 343 m/s (1,125 ft/s). Roughly how far away is the rock?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 170 m",
+     "Asi 340 m",
+     "Asi 690 m",
+     "Asi 1 000 m"
+    ],
+    "en": [
+     "About 170 m (560 ft)",
+     "About 340 m (1,120 ft)",
+     "About 690 m (2,260 ft)",
+     "About 1,000 m (3,280 ft)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Za 2 sekundy urazí zvuk asi 686 m, jenže tam i zpět, takže skála je zhruba v polovině, asi 343 m daleko. Rychlost zvuku navíc roste s teplotou, asi o 0,6 m/s na každý stupeň Celsia.",
+    "en": "In 2 seconds sound travels about 686 m (2,250 ft), but that is there and back, so the rock is about half that distance, roughly 343 m (1,125 ft) away. The speed of sound also rises with temperature, by about 0.6 m/s (2 ft/s) per degree Celsius."
+   }
+  },
+  {
+   "id": "T290-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč se uzavřený sáček brambůrků během letu dopravním letadlem nafoukne?",
+    "en": "Why does a sealed bag of crisps puff up during a flight on an airliner?"
+   },
+   "moznosti": {
+    "cs": [
+     "V kabině je nižší tlak vzduchu než na zemi",
+     "Brambůrky v sáčku uvolňují plyn",
+     "Vzduch v kabině je teplejší než na zemi",
+     "V kabině je vyšší tlak vzduchu než na zemi"
+    ],
+    "en": [
+     "The cabin air pressure is lower than on the ground",
+     "The crisps release gas inside the bag",
+     "The cabin air is warmer than on the ground",
+     "The cabin air pressure is higher than on the ground"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kabina se natlakuje jen na úroveň odpovídající nejvýše asi 2 440 m (8 000 stop), kde je tlak zhruba o čtvrtinu nižší než u moře. Vzduch uzavřený v sáčku se proto rozepne – podobně jako vzduch ve středním uchu, proto nám při změnách tlaku v letadle zaléhá v uších.",
+    "en": "The cabin is pressurised only to an equivalent altitude of at most about 2,440 m (8,000 ft), where pressure is roughly a quarter lower than at sea level. The air sealed in the bag therefore expands – much like the air in your middle ear, which is why your ears pop as the pressure changes during a flight."
+   }
+  },
+  {
+   "id": "T290-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Pevná kladka jen mění směr síly. Kolikrát menší silou zvednete břemeno pomocí jedné volné kladky (bez tření a vlastní hmotnosti kladky)?",
+    "en": "A fixed pulley only changes the direction of a force. How many times less force do you need to lift a load with a single movable pulley (ignoring friction and the pulley's own mass)?"
+   },
+   "moznosti": {
+    "cs": [
+     "1,5krát",
+     "2krát",
+     "3krát",
+     "4krát"
+    ],
+    "en": [
+     "1.5 times",
+     "2 times",
+     "3 times",
+     "4 times"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Volnou kladku nesou dva úseky lana, každý tedy drží polovinu břemene – zato musíte vytáhnout dvakrát delší lano. U kladkostroje se výhoda rovná počtu úseků lana nesoucích pohyblivou kladku; podle Plútarcha tak Archimédés utáhl plně naloženou loď.",
+    "en": "A movable pulley is held by two sections of rope, so each carries half the load – but you must pull twice as much rope. In a block and tackle the advantage equals the number of rope sections supporting the moving block; according to Plutarch, Archimedes used one to pull a fully laden ship."
+   }
+  },
+  {
+   "id": "T290-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kovové zábradlí a dřevěná lavička mají v mrazu přesně stejnou teplotu. Proč kov na dotek studí mnohem víc?",
+    "en": "A metal railing and a wooden bench are at exactly the same temperature on a frosty day. Why does the metal feel much colder to the touch?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kov odvádí teplo z ruky mnohem rychleji",
+     "Kov je ve skutečnosti chladnější, protože víc vyzařuje",
+     "Dřevo v sobě uchovává teplo nastřádané ze slunce",
+     "Kov odráží teplo ruky pryč od kůže"
+    ],
+    "en": [
+     "Metal draws heat away from your hand much faster",
+     "Metal is actually colder because it radiates more",
+     "Wood stores heat collected from the sun",
+     "Metal reflects your hand's heat away from the skin"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Teplotní receptory v kůži reagují hlavně na to, jak rychle z ní teplo odtéká. Kov má mnohonásobně vyšší tepelnou jímavost (efuzivitu) než dřevo, a proto „studí“, i když má stejnou teplotu.",
+    "en": "Thermoreceptors in the skin respond mainly to how fast heat flows out of it. Metal has a many times higher thermal effusivity than wood, so it feels cold even at the same temperature."
+   }
+  },
+  {
+   "id": "T290-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Astronaut má i se skafandrem hmotnost 120 kg. Jakou hmotnost bude mít na Měsíci?",
+    "en": "An astronaut with his spacesuit has a mass of 120 kg (265 lb). What will his mass be on the Moon?"
+   },
+   "moznosti": {
+    "cs": [
+     "20 kg",
+     "60 kg",
+     "120 kg",
+     "720 kg"
+    ],
+    "en": [
+     "20 kg (44 lb)",
+     "60 kg (132 lb)",
+     "120 kg (265 lb)",
+     "720 kg (1,587 lb)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hmotnost je množství hmoty a na Měsíci se nemění; mění se tíha, tedy síla, kterou ho Měsíc přitahuje – je asi šestkrát menší. Váha na pružinu by na Měsíci ukázala zhruba 20 kg, rovnoramenné váhy se závažím ale 120 kg.",
+    "en": "Mass is the amount of matter and does not change on the Moon; what changes is weight, the force with which the Moon pulls on him – about six times smaller. A spring scale would read about 20 kg (44 lb) on the Moon, but a balance with weights would still show 120 kg (265 lb)."
+   }
+  },
+  {
+   "id": "T290-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč je přední část moderního auta navržena tak, aby se při nárazu zmačkala?",
+    "en": "Why is the front of a modern car designed to crumple in a collision?"
+   },
+   "moznosti": {
+    "cs": [
+     "Prodlouží dobu nárazu, a tím sníží síly na posádku",
+     "Plech se musí zdeformovat, aby se spustily airbagy",
+     "Zmačkáním se odpojí baterie a nehrozí požár",
+     "Zmačkaný plech zablokuje kola, takže auto rychleji zastaví"
+    ],
+    "en": [
+     "It makes the impact last longer, reducing forces on the occupants",
+     "The metal has to deform for the airbags to deploy",
+     "Crumpling disconnects the battery so there is no fire risk",
+     "The crumpled metal locks the wheels so the car stops sooner"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Stejnou změnu rychlosti zvládne posádka s menší silou, když trvá déle; tuhá kabina přitom zůstane celá. Deformační zóny vymyslel a nechal si patentovat rakouský inženýr Béla Barényi, konstruktér firmy Mercedes-Benz; prvním Mercedesem s karoserií podle jeho patentu byl W111 z roku 1959.",
+    "en": "The same change in speed takes less force if it lasts longer, while the rigid cabin stays intact. Crumple zones were devised and patented by the Austrian engineer Béla Barényi, who worked for Mercedes-Benz; the first Mercedes-Benz body built using his patent was the 1959 W111."
+   }
+  },
+  {
+   "id": "T290-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Oblíbené vysvětlení, proč křídlo unese letadlo, tvrdí, že vzduch nad křídlem a pod ním musí k zadní hraně dorazit současně, a proto nahoře proudí rychleji. Co platí doopravdy?",
+    "en": "A popular explanation of how a wing holds an aeroplane up claims that air above and below the wing must reach the trailing edge at the same time, so the air on top flows faster. What is actually true?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vzduch nad křídlem i pod ním proudí stejně rychle",
+     "Oba proudy dorazí přesně současně",
+     "Vzduch pod křídlem dorazí k zadní hraně dřív",
+     "Vzduch nad křídlem dorazí k zadní hraně dřív"
+    ],
+    "en": [
+     "Air above and below the wing flows at the same speed",
+     "Both streams arrive at exactly the same time",
+     "Air under the wing reaches the trailing edge first",
+     "Air over the wing reaches the trailing edge first"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Teorie „stejné doby průchodu“ je mylná: vzduch nad křídlem proudí mnohem rychleji, než předpovídá, a k zadní hraně dorazí dřív. Nic ho navíc nenutí se s dolním proudem znovu setkat.",
+    "en": "The \"equal transit time\" theory is wrong: air over the wing flows much faster than it predicts and reaches the trailing edge first. Nothing forces it to meet up with the lower stream again."
+   }
+  },
+  {
+   "id": "T290-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdy letadlo letící nadzvukovou rychlostí vytváří rázovou vlnu, kterou na zemi slyšíme jako aerodynamický třesk?",
+    "en": "When does an aircraft flying faster than sound produce the shock wave that is heard on the ground as a sonic boom?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jen když letí níž než 1 km nad zemí",
+     "Jen když zpomaluje pod rychlost zvuku",
+     "Nepřetržitě po celou dobu nadzvukového letu",
+     "Jen v okamžiku, kdy překoná rychlost zvuku"
+    ],
+    "en": [
+     "Only when it flies less than 1 km (0.6 mi) above the ground",
+     "Only when it slows below the speed of sound",
+     "Continuously, throughout its supersonic flight",
+     "Only at the moment it breaks the sound barrier"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Rázová vlna se táhne za letadlem jako kužel po celou dobu nadzvukového letu a na zemi vytváří pás, kde je třesk slyšet (anglicky boom carpet). Představa jediného třesku při „prolomení zvukové bariéry“ je rozšířený omyl. Při nízké nadzvukové rychlosti se ale vlna může v atmosféře ohnout a k zemi nedorazit.",
+    "en": "The shock wave trails the aircraft as a cone for the whole supersonic flight, sweeping a strip on the ground where the boom is heard, called the boom carpet. The idea of a single bang when \"breaking the sound barrier\" is a common misconception. At low supersonic speeds, however, the wave can bend in the atmosphere and never reach the ground."
+   }
+  },
+  {
+   "id": "T290-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co způsobuje ostré prásknutí biče?",
+    "en": "What causes the sharp crack of a whip?"
+   },
+   "moznosti": {
+    "cs": [
+     "Špička biče se pohybuje rychleji než zvuk",
+     "Konec biče udeří o vlastní šňůru",
+     "Prudce napnutá kůže biče zavibruje",
+     "Konec biče rychle nabere a vypustí vzduch"
+    ],
+    "en": [
+     "The tip of the whip moves faster than sound",
+     "The end of the whip strikes its own lash",
+     "The suddenly tightened leather vibrates",
+     "The end of the whip quickly scoops up and releases air"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Prásknutí je malý aerodynamický třesk: hybnost se při švihu přenáší po zužujícím se biči až do lehké špičky, která překoná rychlost zvuku. Této špičce se anglicky říká cracker.",
+    "en": "The crack is a small sonic boom: during the swing, momentum travels down the tapering whip to the light tip, which exceeds the speed of sound. This tip is called the cracker."
+   }
+  },
+  {
+   "id": "T290-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč dvířky mikrovlnné trouby vidíme jídlo, ale mikrovlny ven neprojdou?",
+    "en": "Why can we see the food through a microwave oven's door, while the microwaves cannot get out?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mikrovlny se šíří jen směrem dolů ke dnu trouby",
+     "Sklo dvířek mikrovlny pohltí",
+     "Otvory v kovové mřížce jsou na mikrovlny příliš malé",
+     "Mřížka ve dvířkách je zmagnetovaná a mikrovlny odpuzuje"
+    ],
+    "en": [
+     "Microwaves travel only downwards to the oven floor",
+     "The door glass absorbs the microwaves",
+     "The holes in the metal mesh are too small for microwaves",
+     "The mesh in the door is magnetised and repels microwaves"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kovová komora trouby funguje podobně jako Faradayova klec. Mikrovlny o frekvenci 2,45 GHz mají vlnovou délku asi 12 cm, takže drobnými otvory v mřížce neprojdou, kdežto viditelné světlo s vlnovou délkou pod mikrometr ano.",
+    "en": "The oven's metal chamber works much like a Faraday cage. Microwaves at 2.45 GHz have a wavelength of about 12 cm (4.7 in), so they cannot pass through the tiny holes in the mesh, whereas visible light, with a wavelength below a micrometre, can."
+   }
+  },
+  {
+   "id": "T290-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Máte dokonale tuhé, velmi dlouhé brčko a dokážete z něj vysát všechen vzduch. Do jaké nejvyšší výšky nad hladinou ve sklenici vodu nasajete (u hladiny moře)?",
+    "en": "You have a perfectly rigid, very long straw and can suck all the air out of it. What is the greatest height above the surface in the glass to which you can raise the water (at sea level)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 1 m",
+     "Asi 3 m",
+     "Asi 10 m",
+     "Asi 30 m"
+    ],
+    "en": [
+     "About 1 m (3.3 ft)",
+     "About 3 m (9.8 ft)",
+     "About 10 m (33 ft)",
+     "About 30 m (98 ft)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vodu brčkem ve skutečnosti netáhnete, ale tlačí ji nahoru atmosférický tlak, a ten unese sloupec vody vysoký jen asi 10,3 m. Právě 10,3 m naměřil v 17. století Gasparo Berti ve své vodní trubici, předchůdci barometru.",
+    "en": "You don't actually pull the water up the straw – atmospheric pressure pushes it, and that can support a water column only about 10.3 m (34 ft) tall. Gasparo Berti measured exactly 10.3 m (33.8 ft) in his 17th-century water tube, a forerunner of the barometer."
+   }
+  },
+  {
+   "id": "T290-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Dlouho se tvrdilo, že brusle kloužou, protože tlak úzkého nože led pod sebou roztaví. Proč toto vysvětlení neobstojí?",
+    "en": "It was long claimed that skates glide because the pressure of the narrow blade melts the ice beneath it. Why does this explanation not hold up?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ocelový nůž je vždy chladnější než led pod ním",
+     "Led se pod tlakem naopak zpevní a nemůže tát",
+     "Tlak nože brusle je menší než tlak bosé nohy",
+     "Nevysvětlí bruslení na ledě pod asi −3,5 °C"
+    ],
+    "en": [
+     "The steel blade is always colder than the ice beneath it",
+     "Under pressure, ice actually hardens and cannot melt",
+     "The pressure of a skate blade is lower than that of a bare foot",
+     "It can't explain skating on ice below about −3.5 °C (26 °F)"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Tlakové tání nedokáže vysvětlit bruslení na ledě pod −3,5 °C, a přitom se běžně bruslí i v silnějším mrazu. Dnes se kluzkost přičítá tenké vrstvě, kterou roztaví tření, a „kvazikapalné“ vrstvičce volně vázaných molekul na povrchu ledu.",
+    "en": "Pressure melting cannot explain skating on ice below −3.5 °C (25.7 °F), yet people routinely skate in harder frost. Today slipperiness is attributed to a thin layer melted by friction and to a \"quasi-liquid\" layer of loosely bound molecules on the ice surface."
+   }
+  },
+  {
+   "id": "T290-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Často se říká, že jedoucí kolo nespadne díky gyroskopickému efektu roztočených kol. Co v roce 2011 ukázala studie v časopise Science?",
+    "en": "It is often said that a moving bicycle stays up thanks to the gyroscopic effect of its spinning wheels. What did a 2011 study in the journal Science show?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kolo bez gyroskopického efektu vždy spadne",
+     "Samo se vyrovná jen kolo s velkými koly",
+     "Kolo stabilizuje hlavně tlak vzduchu v pneumatikách",
+     "Kolo se umí samo vyrovnávat i bez gyroskopického efektu"
+    ],
+    "en": [
+     "A bicycle without the gyroscopic effect always falls",
+     "Only a bicycle with large wheels balances itself",
+     "A bicycle is stabilised mainly by the air pressure in its tyres",
+     "A bicycle can balance itself even without the gyroscopic effect"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vědci postavili kolo s přidanými protiběžnými kolečky, která gyroskopický efekt vyrušila, a s předním kolem dotýkajícím se země před osou řízení – a přesto se samo vyrovnávalo. Gyroskopický efekt tedy pro samostabilitu kola není nutný.",
+    "en": "The researchers built a bike with extra counter-rotating wheels to cancel the gyroscopic effect, and with the front wheel touching the ground ahead of the steering axis – and it still balanced itself. So the gyroscopic effect is not necessary for a bike's self-stability."
+   }
+  },
+  {
+   "id": "T290-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Astronauti na Mezinárodní vesmírné stanici ve výšce asi 400 km se vznášejí. Kolik procent pozemské gravitace na ně v té výšce přibližně působí?",
+    "en": "Astronauts on the International Space Station, about 400 km (250 mi) up, float around. Roughly what percentage of Earth's surface gravity acts on them at that altitude?"
+   },
+   "moznosti": {
+    "cs": [
+     "0 %",
+     "10 %",
+     "50 %",
+     "90 %"
+    ],
+    "en": [
+     "0%",
+     "10%",
+     "50%",
+     "90%"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Gravitace je tam slabší jen zhruba o desetinu (asi 88–90 % pozemské). Astronauti se vznášejí, protože stanice i oni neustále volně padají k Zemi; díky obrovské rychlosti do strany ji ale stále „míjejí“.",
+    "en": "Gravity there is only roughly a tenth weaker (about 88–90% of Earth's). Astronauts float because they and the station are constantly in free fall towards Earth; thanks to their huge sideways speed, they keep \"missing\" it."
+   }
+  },
+  {
+   "id": "T290-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Termosku vynalezl roku 1892 skotský vědec James Dewar. Při jakém výzkumu ji potřeboval?",
+    "en": "The insulated flask, now often called a Thermos, was invented in 1892 by Scottish scientist James Dewar. For what research did he need it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Při přípravě polární výpravy",
+     "Při výzkumu velmi nízkých teplot",
+     "Při výzkumu kvašení piva",
+     "Při pokusech s parními stroji"
+    ],
+    "en": [
+     "Preparing a polar expedition",
+     "Research into very low temperatures",
+     "Research into beer fermentation",
+     "Experiments with steam engines"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Dewar zkoumal kryogeniku a při měření měrné tepelné kapacity palladia potřeboval udržet vzorek na stálé teplotě. Roku 1904 z jeho nádoby udělali komerční výrobek dva němečtí skláři a jeden z nich, Reinhold Burger, si zaregistroval značku Thermos; Dewar se pak o práva k vynálezu marně soudil.",
+    "en": "Dewar worked in cryogenics and, while measuring the specific heat of palladium, needed to keep a sample at a stable temperature. In 1904 two German glassblowers turned it into a commercial product, and one of them, Reinhold Burger, registered the Thermos trademark; Dewar later lost a court case over the rights to the invention."
+   }
+  },
+  {
+   "id": "T290-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve sklenici naplněné vodou až po okraj plave kostka ledu z obyčejné vody. Co se stane s hladinou, až led roztaje?",
+    "en": "A cube of ordinary ice floats in a glass filled with water right to the brim. What happens to the water level once the ice melts?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hladina nejprve klesne a pak stoupne",
+     "Hladina klesne",
+     "Voda přeteče přes okraj",
+     "Hladina zůstane stejná"
+    ],
+    "en": [
+     "The level first drops and then rises",
+     "The level drops",
+     "The water overflows the brim",
+     "The level stays the same"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Plovoucí led vytlačí přesně tolik vody, kolik sám váží, a po roztátí vytvoří vodu právě tohoto objemu – zaplní tedy jen „díru“, kterou vytlačil. Proto tání plovoucího mořského ledu hladinu oceánů téměř nezvedá, na rozdíl od ledovců na pevnině.",
+    "en": "Floating ice displaces exactly its own weight of water, and when it melts it becomes water of exactly that volume – filling only the \"hole\" it displaced. That is why melting floating sea ice barely raises sea level, unlike ice sheets on land."
+   }
+  }
+ ]
+}

@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T408",
+ "nazev": {
+  "cs": "Sibiř a ruský Dálný východ: Bajkal, Kamčatka a věčně zmrzlá půda",
+  "en": "Siberia and the Russian Far East: Lake Baikal, Kamchatka and the Permafrost"
+ },
+ "kategorie": {
+  "id": "zemepis",
+  "nazev": {
+   "cs": "Zeměpis",
+   "en": "Geography"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T408-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co je nerpa bajkalská, živočich, který žije jen v Bajkalu?",
+    "en": "What is the Baikal nerpa, an animal found only in Lake Baikal?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tuleň",
+     "Lososovitá ryba",
+     "Vydra",
+     "Sladkovodní delfín"
+    ],
+    "en": [
+     "A seal",
+     "A salmon-like fish",
+     "An otter",
+     "A freshwater dolphin"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Nerpa (Pusa sibirica) patří k několika málo ploutvonožcům, kteří žijí výhradně ve sladké vodě. Je také jedním z nejmenších pravých tuleňů.",
+    "en": "The nerpa (Pusa sibirica) is one of the few pinnipeds that live exclusively in fresh water. It is also one of the smallest true seals."
+   }
+  },
+  {
+   "id": "T408-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co je permafrost, který leží pod většinou Sibiře?",
+    "en": "What is permafrost, which lies beneath most of Siberia?"
+   },
+   "moznosti": {
+    "cs": [
+     "Námraza, která pokrývá stromy celý rok",
+     "Sněhová pokrývka, která neroztaje ani v létě",
+     "Led, který kryje řeky po celou zimu",
+     "Půda zmrzlá dva a více let v kuse"
+    ],
+    "en": [
+     "Frost that coats the trees all year round",
+     "Snow cover that never melts, even in summer",
+     "Ice that covers rivers through the winter",
+     "Ground frozen for two or more years"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Permafrost je půda nebo hornina, jejíž teplota zůstává nejméně dva roky po sobě na bodu mrazu (0 °C) nebo pod ním. V létě rozmrzá jen tenká svrchní, tzv. činná vrstva.",
+    "en": "Permafrost is ground that stays at or below 0 °C (32 °F) for at least two consecutive years. In summer only a thin top layer, called the active layer, thaws."
+   }
+  },
+  {
+   "id": "T408-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co je tajga, která pokrývá velkou část Sibiře?",
+    "en": "What is the taiga, which covers much of Siberia?"
+   },
+   "moznosti": {
+    "cs": [
+     "Travnatá step bez stromů",
+     "Kamenitá polopoušť",
+     "Severský jehličnatý les",
+     "Pustá arktická tundra"
+    ],
+    "en": [
+     "A grassy, treeless steppe",
+     "A stony semi-desert",
+     "A northern coniferous forest",
+     "A barren arctic tundra"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Tajga neboli boreální les je pás jehličnatých lesů na severu Eurasie a Severní Ameriky. Je považována za největší suchozemský biom světa.",
+    "en": "The taiga, or boreal forest, is a belt of coniferous forest across northern Eurasia and North America. It is considered the world's largest land biome."
+   }
+  },
+  {
+   "id": "T408-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které pohoří se tradičně považuje za západní hranici Sibiře a zároveň za hranici mezi Evropou a Asií?",
+    "en": "Which mountain range is traditionally seen as the western boundary of Siberia and also as the border between Europe and Asia?"
+   },
+   "moznosti": {
+    "cs": [
+     "Altaj",
+     "Ural",
+     "Sajany",
+     "Kavkaz"
+    ],
+    "en": [
+     "The Altai",
+     "The Urals",
+     "The Sayan Mountains",
+     "The Caucasus"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ural odděluje evropské Rusko od Sibiře, která se odtud táhne na východ až k Tichému oceánu. Je přitom poměrně nízký, jeho nejvyšší hora Narodnaja měří jen asi 1 895 m.",
+    "en": "The Urals separate European Russia from Siberia, which stretches from there east to the Pacific. They are fairly low; their highest peak, Mount Narodnaya, is only about 1,895 m (6,217 ft)."
+   }
+  },
+  {
+   "id": "T408-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Do kterého oceánu ústí velké sibiřské řeky Ob, Jenisej a Lena?",
+    "en": "Which ocean do the great Siberian rivers Ob, Yenisei and Lena flow into?"
+   },
+   "moznosti": {
+    "cs": [
+     "Atlantského",
+     "Severního ledového",
+     "Indického",
+     "Tichého"
+    ],
+    "en": [
+     "The Atlantic",
+     "The Arctic",
+     "The Indian",
+     "The Pacific"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Všechny tři tečou k severu do Severního ledového oceánu. Ob do něj ústí Obským zálivem Karského moře, který je dlouhý asi 1 000 km.",
+    "en": "All three flow north into the Arctic Ocean. The Ob enters it through the Gulf of Ob, a bay of the Kara Sea about 1,000 km (620 mi) long."
+   }
+  },
+  {
+   "id": "T408-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč stojí mnoho domů v Jakutsku na pilotách nad zemí?",
+    "en": "Why do many buildings in Yakutsk stand on piles raised above the ground?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aby je v zimě nezavály sněhové závěje",
+     "Aby lépe odolaly silným zemětřesením",
+     "Aby jejich teplo nerozmrazilo permafrost",
+     "Aby je chránily před jarními povodněmi"
+    ],
+    "en": [
+     "So winter snowdrifts don't bury them",
+     "To better withstand strong earthquakes",
+     "So their heat doesn't thaw the permafrost",
+     "To protect them from the spring floods"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jakutsk stojí na souvislém permafrostu. Kdyby teplo z budov rozmrazilo půdu, začala by se propadat a domy by praskaly, proto mnohé stojí na betonových pilotách se vzduchovou mezerou.",
+    "en": "Yakutsk is built on continuous permafrost. If heat from buildings thawed the ground, it would subside and crack the houses, so many stand on concrete piles with an air gap beneath."
+   }
+  },
+  {
+   "id": "T408-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které město je považováno za největší město Sibiře?",
+    "en": "Which city is considered the largest city in Siberia?"
+   },
+   "moznosti": {
+    "cs": [
+     "Irkutsk",
+     "Novosibirsk",
+     "Krasnojarsk",
+     "Omsk"
+    ],
+    "en": [
+     "Irkutsk",
+     "Novosibirsk",
+     "Krasnoyarsk",
+     "Omsk"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Novosibirsk je po Moskvě a Petrohradu třetím nejlidnatějším městem Ruska (k roku 2026). Založen byl až v roce 1893 u místa plánovaného mostu Transsibiřské magistrály přes řeku Ob.",
+    "en": "Novosibirsk is Russia's third most populous city after Moscow and Saint Petersburg (as of 2026). It was founded only in 1893 at the site of the planned Trans-Siberian Railway bridge over the Ob River."
+   }
+  },
+  {
+   "id": "T408-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Klů kterého pravěkého zvířete leží v sibiřském permafrostu tolik, že se jejich slonovina legálně vykopává a prodává?",
+    "en": "Tusks of which prehistoric animal lie in the Siberian permafrost in such numbers that their ivory is legally dug up and sold?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jeskynního medvěda",
+     "Mamuta srstnatého",
+     "Obřího jelena",
+     "Šavlozubé kočky"
+    ],
+    "en": [
+     "The cave bear",
+     "The woolly mammoth",
+     "The giant deer",
+     "The saber-toothed cat"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Obchod se slonovinou mamutů je legální, protože jde o dávno vyhynulý druh, a probíhá už asi 300 let. Podle některých odhadů je v Sibiři stále pohřbeno 10 milionů mamutů nebo i víc.",
+    "en": "Trade in mammoth ivory is legal because the species has been extinct for millennia, and it has gone on for about 300 years. Some estimates suggest that 10 million or more mammoths are still buried in Siberia."
+   }
+  },
+  {
+   "id": "T408-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím je proslulý poloostrov Kamčatka na ruském Dálném východě?",
+    "en": "What is the Kamchatka Peninsula in the Russian Far East famous for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rozlehlou písečnou pouští",
+     "Největšími korálovými útesy Ruska",
+     "Nejdelšími fjordy světa",
+     "Desítkami činných sopek"
+    ],
+    "en": [
+     "A vast sandy desert",
+     "Russia's largest coral reefs",
+     "The world's longest fjords",
+     "Dozens of active volcanoes"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Na Kamčatce je asi 300 sopek, z toho 29 činných. Sopky Kamčatky jsou zapsány na seznamu světového dědictví UNESCO.",
+    "en": "Kamchatka has about 300 volcanoes, 29 of them active. The Volcanoes of Kamchatka are a UNESCO World Heritage Site."
+   }
+  },
+  {
+   "id": "T408-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou část rozlohy Ruska zhruba zabírá Sibiř v širším smyslu (včetně Dálného východu)?",
+    "en": "Roughly what share of Russia's area does Siberia in the broad sense (including the Far East) cover?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi čtvrtinu",
+     "Asi polovinu",
+     "Asi tři čtvrtiny",
+     "Téměř celou"
+    ],
+    "en": [
+     "About a quarter",
+     "About half",
+     "About three quarters",
+     "Nearly all of it"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Sibiř zabírá asi tři čtvrtiny rozlohy Ruska, žije v ní ale jen zhruba čtvrtina jeho obyvatel.",
+    "en": "Siberia covers about three quarters of Russia's area, yet only around a quarter of its people live there."
+   }
+  },
+  {
+   "id": "T408-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Do Bajkalu se vlévají stovky řek. Kolik řek z něj vytéká?",
+    "en": "Hundreds of rivers flow into Lake Baikal. How many rivers flow out of it?"
+   },
+   "moznosti": {
+    "cs": [
+     "1",
+     "3",
+     "12",
+     "40"
+    ],
+    "en": [
+     "1",
+     "3",
+     "12",
+     "40"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Bajkal napájí až 330 přítoků, ale odtéká z něj jediná řeka, Angara. Ta se pak v Krasnojarském kraji vlévá do Jeniseje.",
+    "en": "Baikal is fed by as many as 330 rivers but drained by a single outlet, the Angara, which later joins the Yenisei in Krasnoyarsk Krai."
+   }
+  },
+  {
+   "id": "T408-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Bajkal je považován za nejstarší jezero světa. Jak je přibližně starý?",
+    "en": "Lake Baikal is considered the oldest lake in the world. Roughly how old is it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 15 000 let",
+     "Asi 1 milion let",
+     "Asi 25–30 milionů let",
+     "Asi 300 milionů let"
+    ],
+    "en": [
+     "About 15,000 years",
+     "About 1 million years",
+     "About 25–30 million years",
+     "About 300 million years"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Bajkal leží v mladé a aktivní riftové propadlině, která se dodnes rozšiřuje asi o 4 mm ročně. Většina jezer se naproti tomu zanese usazeninami za mnohem kratší dobu.",
+    "en": "Baikal lies in a young, active rift that still widens by about 4 mm (0.16 inches) a year. Most lakes, by contrast, fill up with sediment far sooner."
+   }
+  },
+  {
+   "id": "T408-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve Verchojansku, proslulém krutými mrazy, naměřili 20. června 2020 teplotu, kterou Světová meteorologická organizace uznala za arktický rekord. Jakou?",
+    "en": "In Verkhoyansk, famous for its bitter frosts, a temperature was measured on 20 June 2020 that the World Meteorological Organization recognized as an Arctic record. What was it?"
+   },
+   "moznosti": {
+    "cs": [
+     "28 °C",
+     "33 °C",
+     "38 °C",
+     "43 °C"
+    ],
+    "en": [
+     "28 °C (82.4 °F)",
+     "33 °C (91.4 °F)",
+     "38 °C (100.4 °F)",
+     "43 °C (109.4 °F)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Rekord 38 °C uznala WMO v prosinci 2021. Verchojansk přitom drží i jeden z nejnižších údajů na severní polokouli, −67,8 °C z roku 1892, takže rozdíl jeho extrémů přesahuje 100 °C.",
+    "en": "The WMO recognized the 38 °C (100.4 °F) record in December 2021. Verkhoyansk also holds one of the lowest readings in the Northern Hemisphere, −67.8 °C (−90 °F) from 1892, so its extremes differ by more than 100 °C (180 °F)."
+   }
+  },
+  {
+   "id": "T408-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Od roku 2014 se na poloostrově Jamal objevují obří krátery široké i desítky metrů. Co je podle převládajícího vysvětlení vytváří?",
+    "en": "Since 2014, giant craters up to tens of metres across have been appearing on the Yamal Peninsula. What does the prevailing explanation say creates them?"
+   },
+   "moznosti": {
+    "cs": [
+     "Výbuchy plynu nahromaděného pod zemí",
+     "Propady starých důlních šachet",
+     "Dopady malých meteoritů",
+     "Krasové propady rozpuštěného vápence"
+    ],
+    "en": [
+     "Explosions of gas built up underground",
+     "Collapses of old mine shafts",
+     "Impacts of small meteorites",
+     "Karst sinkholes in dissolved limestone"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pod zmrzlou půdou se hromadí plyn, hlavně metan z rozpadajících se hydrátů, a když tlak prorazí permafrost, dojde k výbuchu. První kráter měl v průměru asi 60–70 m a vznik kráterů se spojuje s oteplováním od 80. let.",
+    "en": "Gas, mainly methane from breaking-down hydrates, builds up beneath the frozen ground until the pressure bursts through the permafrost in an explosion. The first crater was about 60–70 m (200–230 ft) across, and the craters are linked to warming since the 1980s."
+   }
+  },
+  {
+   "id": "T408-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na břehu které řeky leží Jakutsk, často označovaný za nejchladnější velké město světa?",
+    "en": "On the banks of which river does Yakutsk, often called the coldest major city in the world, stand?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ob",
+     "Lena",
+     "Amur",
+     "Jenisej"
+    ],
+    "en": [
+     "The Ob",
+     "The Lena",
+     "The Amur",
+     "The Yenisei"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jakutsk založili kozáci roku 1632 jako pevnost na Leně. Most přes řeku tam zatím nevede (k roku 2026), takže v zimě se na druhý břeh jezdí přímo po zamrzlé Leně.",
+    "en": "Cossacks founded Yakutsk in 1632 as a fort on the Lena. There is still no bridge across the river there (as of 2026), so in winter people drive straight over the frozen Lena to the other bank."
+   }
+  },
+  {
+   "id": "T408-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Sibiřský tygr se podle řeky, v jejímž povodí žije, nazývá také jinak. Jak?",
+    "en": "The Siberian tiger is also known by a name taken from the river in whose basin it lives. What is that name?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tygr lenský",
+     "Tygr amurský",
+     "Tygr kolymský",
+     "Tygr obský"
+    ],
+    "en": [
+     "The Lena tiger",
+     "The Amur tiger",
+     "The Kolyma tiger",
+     "The Ob tiger"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Divocí tygři amurští žijí hlavně v Přímořském kraji a na jihu Chabarovského kraje na ruském Dálném východě. Mají nejhustší srst ze všech tygrů. Česky se mu nejčastěji říká tygr ussurijský, podle Ussuri, přítoku Amuru.",
+    "en": "Wild Amur tigers live mainly in Primorsky Krai and southern Khabarovsk Krai in the Russian Far East. They have the thickest fur of all tigers."
+   }
+  },
+  {
+   "id": "T408-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak široká je Beringova úžina mezi Asií a Amerikou v nejužším místě?",
+    "en": "How wide is the Bering Strait between Asia and America at its narrowest point?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 8 km",
+     "Asi 27 km",
+     "Asi 82 km",
+     "Asi 240 km"
+    ],
+    "en": [
+     "About 8 km (5 mi)",
+     "About 27 km (17 mi)",
+     "About 82 km (51 mi)",
+     "About 240 km (150 mi)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Úžina je hluboká v průměru jen 30–50 m a v nejhlubším místě asi 90 m. Uprostřed leží Diomedovy ostrovy, ruský a americký.",
+    "en": "The strait averages only 30–50 m (98–164 ft) deep, with its deepest point at about 90 m (300 ft). The Diomede Islands, one Russian and one American, lie in the middle."
+   }
+  },
+  {
+   "id": "T408-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který strom převládá v tajze východní Sibiře a každý podzim shazuje jehličí?",
+    "en": "Which tree dominates the taiga of eastern Siberia and sheds its needles every autumn?"
+   },
+   "moznosti": {
+    "cs": [
+     "Modřín",
+     "Borovice",
+     "Jedle",
+     "Smrk"
+    ],
+    "en": [
+     "Larch",
+     "Pine",
+     "Fir",
+     "Spruce"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Modřín dahurský (Larix gmelinii) je opadavý jehličnan, který snese mrazy pod −70 °C a tvoří obrovské lesy východosibiřské tajgy. Je považován za nejseverněji rostoucí strom světa.",
+    "en": "The Dahurian larch (Larix gmelinii) is a deciduous conifer that tolerates frost below −70 °C (−94 °F) and forms enormous forests in the eastern Siberian taiga. It is considered the northernmost tree in the world."
+   }
+  },
+  {
+   "id": "T408-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Sibiřským kožešinám, které lákaly Rusy stále dál na východ, se pro jejich cenu říkalo „měkké zlato“. Které zvíře dávalo tu nejcennější?",
+    "en": "Siberian furs, which lured Russians ever farther east, were called \"soft gold\" because of their value. Which animal provided the most valuable of them?"
+   },
+   "moznosti": {
+    "cs": [
+     "Polární lišky",
+     "Hranostaje",
+     "Bobra",
+     "Sobola"
+    ],
+    "en": [
+     "The Arctic fox",
+     "The stoat",
+     "The beaver",
+     "The sable"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Sobol byl prvním kožešinovým zvířetem Sibiře, o které se Rusové zajímali, a jeho kožešina je nejcennější dodnes. Domorodí obyvatelé Sibiře museli odvádět daň v kožešinách zvanou jasak.",
+    "en": "The sable was the first Siberian fur animal to interest the Russians, and its fur remains the most valuable to this day. Siberia's native peoples were forced to pay a fur tribute called yasak."
+   }
+  },
+  {
+   "id": "T408-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Republika Sacha (Jakutsko) je rozlohou největším subjektem Ruské federace. Kterému z těchto států se svou rozlohou nejvíc blíží?",
+    "en": "The Sakha Republic (Yakutia) is the largest federal subject of Russia by area. Which of these countries is it closest to in area?"
+   },
+   "moznosti": {
+    "cs": [
+     "Indii",
+     "Austrálii",
+     "Mongolsku",
+     "Francii"
+    ],
+    "en": [
+     "India",
+     "Australia",
+     "Mongolia",
+     "France"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jakutsko má přes 3 miliony km², o něco méně než Indie, ale při sčítání v roce 2021 v něm žilo méně než milion lidí. Je to největší územní celek nižší než stát na světě.",
+    "en": "Yakutia covers more than 3 million km² (1.19 million sq mi), slightly less than India, yet the 2021 census counted fewer than a million people there. It is the world's largest country subdivision."
+   }
+  },
+  {
+   "id": "T408-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím se golomjanka (Comephorus), ryba žijící jen v Bajkalu, liší od ostatních ryb jezera?",
+    "en": "How does the golomyanka (Comephorus), a fish found only in Lake Baikal, differ from the lake's other fish?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rodí živá mláďata",
+     "Na noc vylézá na břeh",
+     "Svítí ve tmě",
+     "Dokáže přežít zamrzlá v ledu"
+    ],
+    "en": [
+     "It gives birth to live young",
+     "It crawls ashore at night",
+     "It glows in the dark",
+     "It can survive frozen in ice"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Golomjanka nemá šupiny, je průsvitná a u druhu Comephorus baikalensis tvoří tuk přes třetinu hmotnosti. Místo kladení jiker rodí 2 000–3 000 živých larev a většina samic poté hyne.",
+    "en": "The golomyanka has no scales, is translucent, and in Comephorus baikalensis oil makes up over a third of body weight. Instead of laying eggs it gives birth to 2,000–3,000 live larvae, and most females die afterwards."
+   }
+  },
+  {
+   "id": "T408-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co podle běžně uváděného výkladu znamená název Ojmjakon, vesnice proslulé extrémními mrazy?",
+    "en": "According to a commonly cited interpretation, what does the name Oymyakon, a village famous for extreme frost, mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Místo věčné zimy",
+     "Kamenné údolí",
+     "Hora duchů",
+     "Nezamrzající voda"
+    ],
+    "en": [
+     "Place of eternal winter",
+     "Stony valley",
+     "Mountain of spirits",
+     "Unfrozen water"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vesnice nese jméno řeky Ojmjakon, jejíž název se odvozuje z evenského slova pro nezamrzlé místo na vodě, kde zimují ryby. Jiný výklad ho naopak spojuje se zamrzlým jezerem.",
+    "en": "The village is named after the Oymyakon River, whose name reportedly comes from an Even word for an unfrozen patch of water where fish spend the winter. Another interpretation links it instead to a frozen lake."
+   }
+  },
+  {
+   "id": "T408-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Studna, kterou dal kupec Fjodor Šergin roku 1828 hloubit v Jakutsku, vodu nikdy nedala. Čím se přesto zapsala do dějin vědy?",
+    "en": "The well that the merchant Fyodor Shergin had dug in Yakutsk in 1828 never produced any water. Why did it nevertheless go down in the history of science?"
+   },
+   "moznosti": {
+    "cs": [
+     "Narazili v ní na první sibiřskou ropu",
+     "Dělníci v ní našli prvního zmrzlého mamuta",
+     "Měření v ní prokázala existenci permafrostu",
+     "Narazili v ní na bohaté ložisko zlata"
+    ],
+    "en": [
+     "It struck Siberia's first oil",
+     "Workers found the first frozen mammoth in it",
+     "Readings in it proved permafrost exists",
+     "It struck a rich deposit of gold"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Dělníci kopali zmrzlou půdou, až to v hloubce asi 116 m vzdali. Teploty naměřené v šachtě pak poprvé doložily, že věčně zmrzlá půda skutečně existuje.",
+    "en": "The workers dug through frozen ground until they gave up at about 116 m (380 ft). Temperature readings taken in the shaft then provided the first proof that permafrost really exists."
+   }
+  },
+  {
+   "id": "T408-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaký neobvyklý jev pozorovali lidé v Evropě v nocích po Tunguzské události v červnu 1908?",
+    "en": "What unusual phenomenon did people in Europe observe in the nights after the Tunguska event in June 1908?"
+   },
+   "moznosti": {
+    "cs": [
+     "Padal černý sníh",
+     "Noční obloha byla nezvykle světlá",
+     "Střelky kompasů se točily",
+     "Několik dní bylo slyšet dunění"
+    ],
+    "en": [
+     "Black snow fell",
+     "The night sky was unusually bright",
+     "Compass needles spun around",
+     "Rumbling was heard for several days"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Noční obloha nad Asií a Evropou několik dní zářila a ve Švédsku i Skotsku se podle dobových zpráv dalo o půlnoci fotografovat. Vysvětluje se to ledovými krystalky a prachem vysoko v atmosféře.",
+    "en": "For several days the night skies over Asia and Europe glowed, and contemporary reports say photographs could be taken at midnight in Sweden and Scotland. This is explained by ice particles and dust high in the atmosphere."
+   }
+  },
+  {
+   "id": "T408-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co postihlo kamčatské Údolí gejzírů 3. června 2007?",
+    "en": "What happened to Kamchatka's Valley of Geysers on 3 June 2007?"
+   },
+   "moznosti": {
+    "cs": [
+     "Údolí zaplavila vlna tsunami",
+     "Údolí zalila láva ze sopky",
+     "Po zemětřesení vyschly všechny gejzíry",
+     "Obří sesuv zasypal část gejzírů"
+    ],
+    "en": [
+     "A tsunami wave swept through the valley",
+     "Lava from a volcano flooded the valley",
+     "All the geysers dried up after an earthquake",
+     "A huge landslide buried part of the geysers"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Sesuv zasypal řadu gejzírů, termálních jezírek a vodopádů a přehradil Gejzírnou řeku, nad níž vzniklo nové teplé jezero. První gejzír v údolí, Pervenec (Prvorozený), byl objeven v roce 1941.",
+    "en": "The landslide buried a number of geysers, thermal pools and waterfalls and dammed the Geyser River, creating a new thermal lake upstream. The valley's first known geyser, Pervenets (Firstborn), was found in 1941."
+   }
+  },
+  {
+   "id": "T408-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Vědci oživili hlístice Panagrolaimus kolymaensis ze sibiřského permafrostu u řeky Kolymy. Jak dlouho podle datování ležely zmrzlé?",
+    "en": "Scientists revived nematodes of the species Panagrolaimus kolymaensis from Siberian permafrost near the Kolyma River. According to dating, how long had they been frozen?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 460 let",
+     "Asi 4 600 let",
+     "Asi 46 000 let",
+     "Asi 460 000 let"
+    ],
+    "en": [
+     "About 460 years",
+     "About 4,600 years",
+     "About 46,000 years",
+     "About 460,000 years"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Stáří asi 46 000 let určili vědci podle rostlinných zbytků uzavřených v noře spolu s červy. Tyto hlístice se rozmnožují partenogenezí, tedy bez samců.",
+    "en": "The age of about 46,000 years was determined from plant fragments sealed in the burrow along with the worms. These nematodes reproduce by parthenogenesis, without males."
+   }
+  },
+  {
+   "id": "T408-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co se snaží Sergej a Nikita Zimovovi v Pleistocénním parku na řece Kolymě v Jakutsku?",
+    "en": "What are Sergey and Nikita Zimov trying to do in Pleistocene Park on the Kolyma River in Yakutia?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chovat polární lišky na kožešiny",
+     "Pěstovat na permafrostu mrazuvzdornou pšenici",
+     "Uchovávat semena rostlin v ledových tunelech",
+     "Obnovit pravěkou „mamutí step“"
+    ],
+    "en": [
+     "Breed Arctic foxes for their fur",
+     "Grow frost-hardy wheat on permafrost",
+     "Store plant seeds in ice tunnels",
+     "Restore the ice-age \"mammoth steppe\""
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Travnatou step z doby ledové obnovují pomocí velkých býložravců, mimo jiné jakutských koní, sobů, pižmoňů, bizonů a velbloudů. Zvířata v zimě ušlapávají sníh, takže mráz proniká hlouběji do půdy, což má zpomalit tání permafrostu.",
+    "en": "They are recreating the ice-age grassland with large herbivores such as Yakutian horses, reindeer, muskoxen, bison and camels. In winter the animals trample the snow, letting the cold reach deeper into the ground, which should slow permafrost thaw."
+   }
+  },
+  {
+   "id": "T408-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Nejvýchodnější mys Asie nese jméno kozáka, který v roce 1648, asi 80 let před Beringem, nejspíš proplul úžinou mezi Asií a Amerikou. Jak se jmenoval?",
+    "en": "The easternmost cape of Asia bears the name of a Cossack who, in 1648, about 80 years before Bering, probably sailed through the strait between Asia and America. What was his name?"
+   },
+   "moznosti": {
+    "cs": [
+     "Semjon Děžňov",
+     "Jermak Timofejevič",
+     "Vladimir Atlasov",
+     "Jerofej Chabarov"
+    ],
+    "en": [
+     "Semyon Dezhnev",
+     "Yermak Timofeyevich",
+     "Vladimir Atlasov",
+     "Yerofey Khabarov"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Děžňov plul od řeky Kolymy k Anadyru a ze sedmi lodí se za úžinu dostaly jen dvě. Jeho zprávy zůstaly bez povšimnutí, dokud je v roce 1736 nenašel v jakutském archivu historik Gerhard Friedrich Müller.",
+    "en": "Dezhnev sailed from the Kolyma River to the Anadyr; only two of his seven vessels made it past the strait. His reports were ignored until the historian Gerhard Friedrich Müller found them in the Yakutsk archives in 1736."
+   }
+  },
+  {
+   "id": "T408-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co je kráter Batagajka v Jakutsku, přezdívaný „brána do podsvětí“?",
+    "en": "What is the Batagaika crater in Yakutia, nicknamed the \"gateway to the underworld\"?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kaldera vyhaslé sopky",
+     "Krasový závrt ve vápenci",
+     "Kráter po dopadu meteoritu",
+     "Propad tajícího permafrostu"
+    ],
+    "en": [
+     "The caldera of an extinct volcano",
+     "A karst sinkhole in limestone",
+     "A meteorite impact crater",
+     "A slump in thawing permafrost"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Svah se tu nejspíš začal hroutit v 70. letech poté, co vykácení lesa odkrylo ledový permafrost. Je považován za největší takový propad na světě, v roce 2023 byl široký asi 990 m a v jeho stěnách jsou vrstvy zmrzlé až 650 000 let.",
+    "en": "The hillside probably began collapsing in the 1970s after deforestation exposed the icy permafrost. It is considered the largest megaslump in the world; in 2023 it was about 990 m (3,250 ft) wide, and its walls expose layers frozen for up to 650,000 years."
+   }
+  },
+  {
+   "id": "T408-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kráter Popigaj na severu Sibiře vznikl dopadem asteroidu asi před 36 miliony let. Čím je pozoruhodný?",
+    "en": "The Popigai crater in northern Siberia was formed by an asteroid impact about 36 million years ago. What makes it remarkable?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na jeho dně je nejhlubší jezero Asie",
+     "Leží v něm nejstarší led na Zemi",
+     "Z jeho dna vyvěrají horké gejzíry",
+     "Je plný drobných diamantů z nárazu"
+    ],
+    "en": [
+     "Asia's deepest lake lies at its bottom",
+     "It holds the oldest ice on Earth",
+     "Hot geysers spring from its floor",
+     "It is full of tiny impact diamonds"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Žár a tlak nárazu okamžitě proměnily šupinky grafitu v hornině na diamanty, podle odhadů jde o biliony karátů. Většinou ale měří pod 2 mm a hodí se spíš pro průmysl než do šperků. Kráter má průměr téměř 100 km.",
+    "en": "The heat and pressure of the impact instantly turned flakes of graphite in the rock into diamonds, by estimates trillions of carats. Most are under 2 mm (0.08 inches) across, though, and suit industry better than jewelry. The crater is nearly 100 km (62 mi) across."
+   }
+  }
+ ]
+}

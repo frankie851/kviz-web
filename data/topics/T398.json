@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T398",
+ "nazev": {
+  "cs": "Washington, D.C.: Bílý dům, Kapitol a památníky",
+  "en": "Washington, D.C.: The White House, the Capitol and the Monuments"
+ },
+ "kategorie": {
+  "id": "zemepis",
+  "nazev": {
+   "cs": "Zeměpis",
+   "en": "Geography"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T398-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na které řece leží Washington, D.C.?",
+    "en": "On which river does Washington, D.C. lie?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ohio",
+     "Hudson",
+     "Delaware",
+     "Potomac"
+    ],
+    "en": [
+     "Ohio",
+     "Hudson",
+     "Delaware",
+     "Potomac"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Hlavní město USA leží na břehu řeky Potomac. Přímo ve městě se do ní vlévá její přítok Anacostia.",
+    "en": "The U.S. capital sits on the banks of the Potomac River. Its tributary, the Anacostia, joins it right in the city."
+   }
+  },
+  {
+   "id": "T398-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která instituce zasedá v budově Kapitolu?",
+    "en": "Which institution meets in the U.S. Capitol?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kongres",
+     "Federální rezervní systém",
+     "Vláda (kabinet) prezidenta",
+     "Ministerstvo zahraničí"
+    ],
+    "en": [
+     "Congress",
+     "The Federal Reserve",
+     "The President's Cabinet",
+     "The State Department"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kapitol je sídlem Kongresu USA, tedy Senátu i Sněmovny reprezentantů. Senát poprvé zasedl v nové budově v listopadu 1800.",
+    "en": "The Capitol is the seat of the U.S. Congress, both the Senate and the House of Representatives. The Senate first met in the new building in November 1800."
+   }
+  },
+  {
+   "id": "T398-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaký tvar má Washingtonův monument?",
+    "en": "What shape is the Washington Monument?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vítězný oblouk",
+     "Rotunda s kupolí",
+     "Stupňovitá pyramida",
+     "Obelisk"
+    ],
+    "en": [
+     "A triumphal arch",
+     "A domed rotunda",
+     "A stepped pyramid",
+     "An obelisk"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Monument je obelisk ve stylu starověkého Egypta. Uvnitř je dutý a jeho kamenné zdi se směrem vzhůru zužují.",
+    "en": "The monument is an obelisk in the style of ancient Egypt. It is hollow inside, and its stone walls taper as they rise."
+   }
+  },
+  {
+   "id": "T398-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kde ve Washingtonu je vystaven originál Deklarace nezávislosti?",
+    "en": "Where in Washington is the original Declaration of Independence on display?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Bílém domě",
+     "V Národním archivu",
+     "V Kongresové knihovně",
+     "V Národním muzeu americké historie"
+    ],
+    "en": [
+     "In the White House",
+     "In the National Archives",
+     "In the Library of Congress",
+     "In the National Museum of American History"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Deklarace je vystavena v Rotundě pro Listiny svobody v Národním archivu. Leží tam spolu s Ústavou a Listinou práv.",
+    "en": "The Declaration is shown in the Rotunda for the Charters of Freedom at the National Archives. It lies there together with the Constitution and the Bill of Rights."
+   }
+  },
+  {
+   "id": "T398-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik stojí vstupné do muzeí Smithsonova institutu ve Washingtonu?",
+    "en": "How much does admission cost at the Smithsonian museums in Washington?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nic, vstup je zdarma",
+     "Platí jen zahraniční návštěvníci",
+     "Symbolický 1 dolar",
+     "Jednotná vstupenka na celý den"
+    ],
+    "en": [
+     "Nothing, entry is free",
+     "Only foreign visitors pay",
+     "A symbolic 1 dollar",
+     "One flat ticket for the whole day"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Do všech muzeí Smithsonova institutu i do jeho zoo se vstupné neplatí. Jedinou výjimkou je muzeum designu Cooper Hewitt v New Yorku (k roku 2026).",
+    "en": "All Smithsonian museums and its zoo are free to enter. The only exception is the Cooper Hewitt design museum in New York City (as of 2026)."
+   }
+  },
+  {
+   "id": "T398-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které ministerstvo USA sídlí v Pentagonu?",
+    "en": "Which U.S. government department is headquartered in the Pentagon?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ministerstvo obrany",
+     "Ministerstvo zahraničí",
+     "Ministerstvo spravedlnosti",
+     "Ministerstvo vnitřní bezpečnosti"
+    ],
+    "en": [
+     "The Department of Defense",
+     "The Department of State",
+     "The Department of Justice",
+     "The Department of Homeland Security"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pentagon je ústředím ministerstva obrany USA (od roku 2025 smí používat i název ministerstvo války) a ve skutečnosti stojí ve Virginii, ne přímo ve Washingtonu. Pětiúhelníková budova má pět nadzemních pater a v každém pět soustředných okruhů chodeb.",
+    "en": "The Pentagon is the headquarters of the U.S. Department of Defense (which since 2025 may also call itself the Department of War) and actually stands in Virginia, not in Washington itself. The five-sided building has five floors above ground, each with five concentric ring corridors."
+   }
+  },
+  {
+   "id": "T398-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co je vyryto do černé žulové stěny Památníku veteránů války ve Vietnamu?",
+    "en": "What is engraved on the black granite wall of the Vietnam Veterans Memorial?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mapa bojišť ve Vietnamu",
+     "Projevy amerických prezidentů",
+     "Text mírové smlouvy",
+     "Jména padlých a nezvěstných"
+    ],
+    "en": [
+     "A map of the battlefields in Vietnam",
+     "Speeches by U.S. presidents",
+     "The text of the peace treaty",
+     "Names of the fallen and missing"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Na leštěné černé žule jsou jména Američanů, kteří ve válce zahynuli nebo se pohřešují. Při odhalení v roce 1982 jich bylo 57 939 a jména se dodnes občas doplňují.",
+    "en": "The polished black granite bears the names of Americans who died or went missing in the war. There were 57,939 at the 1982 dedication, and names are still occasionally added."
+   }
+  },
+  {
+   "id": "T398-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterými zvířaty z Číny je od roku 1972 proslulá Národní zoo ve Washingtonu?",
+    "en": "Which animals from China have made the National Zoo in Washington famous since 1972?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jeřáby mandžuskými",
+     "Pandami červenými",
+     "Pandami velkými",
+     "Tygry ussurijskými"
+    ],
+    "en": [
+     "Red-crowned cranes",
+     "Red pandas",
+     "Giant pandas",
+     "Siberian tigers"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "První pandy velké Ling-Ling a Hsing-Hsing dostaly USA od Číny darem a přicestovaly v roce 1972, pozdější pandy už byly zapůjčené. Poslední trojice odletěla do Číny v listopadu 2023, ale v říjnu 2024 dorazil nový pár Bao Li a Qing Bao.",
+    "en": "The first giant pandas, Ling-Ling and Hsing-Hsing, were a gift from China and arrived in 1972, while later pandas came on loan. The last trio left for China in November 2023, but a new pair, Bao Li and Qing Bao, arrived in October 2024."
+   }
+  },
+  {
+   "id": "T398-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém muzeu Smithsonova institutu je vystaven velitelský modul Apolla 11, který dopravil Armstronga, Aldrina a Collinse zpět z Měsíce?",
+    "en": "In which Smithsonian museum is the Apollo 11 command module, which brought Armstrong, Aldrin and Collins back from the Moon, on display?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Národním muzeu letectví a kosmonautiky",
+     "V Národním muzeu amerických indiánů",
+     "V Národním muzeu přírodní historie",
+     "V Národním muzeu americké historie"
+    ],
+    "en": [
+     "The National Air and Space Museum",
+     "The National Museum of the American Indian",
+     "The National Museum of Natural History",
+     "The National Museum of American History"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Modul Columbia je vystaven v expozici Destination Moon v Národním muzeu letectví a kosmonautiky. Je to jediná část lodi Apollo 11, která se vrátila na Zemi.",
+    "en": "The command module Columbia is shown in the Destination Moon gallery of the National Air and Space Museum. It is the only part of the Apollo 11 spacecraft that returned to Earth."
+   }
+  },
+  {
+   "id": "T398-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kde u Washingtonu se nachází Hrob neznámého vojína?",
+    "en": "Where near Washington is the Tomb of the Unknown Soldier?"
+   },
+   "moznosti": {
+    "cs": [
+     "V kryptě Kapitolu",
+     "V Mount Vernonu",
+     "Na Arlingtonském národním hřbitově",
+     "Na národním hřbitově v Gettysburgu"
+    ],
+    "en": [
+     "In the Capitol crypt",
+     "At Mount Vernon",
+     "At Arlington National Cemetery",
+     "At Gettysburg National Cemetery"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hrob stojí na Arlingtonském národním hřbitově ve Virginii a byl dokončen v roce 1932. Čestná stráž u něj drží hlídku nepřetržitě ve dne v noci od 2. července 1937 (k roku 2026).",
+    "en": "The tomb stands at Arlington National Cemetery in Virginia and was completed in 1932. An honor guard has kept watch over it around the clock since 2 July 1937 (as of 2026)."
+   }
+  },
+  {
+   "id": "T398-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které město sloužilo jako dočasné hlavní město USA v letech 1790–1800, než se vláda přestěhovala do Washingtonu?",
+    "en": "Which city served as the temporary U.S. capital from 1790 to 1800, before the government moved to Washington?"
+   },
+   "moznosti": {
+    "cs": [
+     "New York",
+     "Baltimore",
+     "Boston",
+     "Filadelfie"
+    ],
+    "en": [
+     "New York",
+     "Baltimore",
+     "Boston",
+     "Philadelphia"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Podle zákona o sídle vlády (Residence Act) z roku 1790 byla Filadelfie hlavním městem po dobu, kdy se nový Washington stavěl. Před ní krátce plnil tuto roli New York.",
+    "en": "Under the Residence Act of 1790, Philadelphia was the capital while the new city of Washington was being built. Before that, New York briefly held the role."
+   }
+  },
+  {
+   "id": "T398-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak vysoký je zhruba Washingtonův monument?",
+    "en": "Roughly how tall is the Washington Monument?"
+   },
+   "moznosti": {
+    "cs": [
+     "99 m",
+     "169 m",
+     "230 m",
+     "300 m"
+    ],
+    "en": [
+     "99 m (325 ft)",
+     "169 m (555 ft)",
+     "230 m (755 ft)",
+     "300 m (984 ft)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Národní parková služba uvádí výšku 169,29 m podle měření z roku 1884. Přesné geodetické měření v letech 2013–2014 naměřilo 169,05 m.",
+    "en": "The National Park Service gives a height of 169.29 m (555 ft 5 1/8 inches) from an 1884 measurement. A precise geodetic survey in 2013–14 measured 169.05 m (554 ft 7 inches)."
+   }
+  },
+  {
+   "id": "T398-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co stojí na vrcholu kupole Kapitolu?",
+    "en": "What stands on top of the Capitol dome?"
+   },
+   "moznosti": {
+    "cs": [
+     "Socha George Washingtona",
+     "Stožár s americkou vlajkou",
+     "Pozlacený orel bělohlavý",
+     "Bronzová socha Svobody"
+    ],
+    "en": [
+     "A statue of George Washington",
+     "A flagpole with the U.S. flag",
+     "A gilded bald eagle",
+     "The bronze Statue of Freedom"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Bronzová socha Svobody od Thomase Crawforda byla na kupoli vztyčena v prosinci 1863, uprostřed občanské války. Původně měla nosit frygickou čapku, symbol propuštěných otroků, ale Jefferson Davis prosadil helmu s orlí hlavou.",
+    "en": "Thomas Crawford's bronze Statue of Freedom was raised onto the dome in December 1863, in the middle of the Civil War. She was first meant to wear a liberty cap, a symbol of freed slaves, but Jefferson Davis had it replaced with a helmet topped by an eagle's head."
+   }
+  },
+  {
+   "id": "T398-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na rubu které americké bankovky je vyobrazen Lincolnův památník?",
+    "en": "Which U.S. banknote shows the Lincoln Memorial on its back?"
+   },
+   "moznosti": {
+    "cs": [
+     "1 dolar",
+     "5 dolarů",
+     "10 dolarů",
+     "20 dolarů"
+    ],
+    "en": [
+     "1 dollar",
+     "5 dollars",
+     "10 dollars",
+     "20 dollars"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Památník je na rubu pětidolarovky od roku 1929, na lícní straně je Lincolnův portrét. V letech 1959–2008 byl také na rubu centu.",
+    "en": "The memorial has been on the back of the five-dollar bill since 1929, with Lincoln's portrait on the front. From 1959 to 2008 it also appeared on the back of the one-cent coin."
+   }
+  },
+  {
+   "id": "T398-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik sloupů obklopuje Lincolnův památník – po jednom za každý stát Unie v době Lincolnovy smrti?",
+    "en": "How many columns surround the Lincoln Memorial – one for each state in the Union when Lincoln died?"
+   },
+   "moznosti": {
+    "cs": [
+     "13",
+     "36",
+     "48",
+     "50"
+    ],
+    "en": [
+     "13",
+     "36",
+     "48",
+     "50"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Památník má 36 dórských sloupů, protože při Lincolnově smrti v roce 1865 měla Unie 36 států. Nad nimi je 48 kamenných girland za 48 států v roce 1922, kdy byl památník odhalen.",
+    "en": "The memorial has 36 Doric columns because the Union had 36 states when Lincoln died in 1865. Above them are 48 stone festoons for the 48 states in 1922, when the memorial was dedicated."
+   }
+  },
+  {
+   "id": "T398-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kterou slavnou stavbou se inspiroval kruhový Jeffersonův památník s kupolí?",
+    "en": "Which famous building inspired the round, domed Jefferson Memorial?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pantheonem v Římě",
+     "Bazilikou svatého Petra ve Vatikánu",
+     "Chrámem Hagia Sofia v Istanbulu",
+     "Parthenónem v Athénách"
+    ],
+    "en": [
+     "The Pantheon in Rome",
+     "St. Peter's Basilica in the Vatican",
+     "Hagia Sophia in Istanbul",
+     "The Parthenon in Athens"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Architekt John Russell Pope vyšel z římského Pantheonu, který Jefferson obdivoval. Druhým vzorem byla Rotunda, kterou sám Jefferson navrhl pro Virginskou univerzitu.",
+    "en": "Architect John Russell Pope based it on the Roman Pantheon, which Jefferson admired. The other model was the Rotunda that Jefferson himself designed for the University of Virginia."
+   }
+  },
+  {
+   "id": "T398-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím byla výjimečná Maya Linová, když v roce 1981 vyhrála soutěž na Památník veteránů války ve Vietnamu?",
+    "en": "What was remarkable about Maya Lin when she won the 1981 competition for the Vietnam Veterans Memorial?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sloužila ve Vietnamu jako zdravotní sestra",
+     "Přišla z Vietnamu jako uprchlice",
+     "Byla 21letou studentkou Yaleovy univerzity",
+     "Byla vysloužilou vojenskou inženýrkou"
+    ],
+    "en": [
+     "She had served in Vietnam as a nurse",
+     "She had fled Vietnam as a refugee",
+     "She was a 21-year-old Yale student",
+     "She was a retired army engineer"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Maya Linová byla ještě studentkou bakalářského studia na Yale. Její návrh č. 1026 porota vybrala z celostátní soutěže.",
+    "en": "Maya Lin was still an undergraduate at Yale. The jury picked her entry, number 1026, from a nationwide competition."
+   }
+  },
+  {
+   "id": "T398-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč má Washingtonův monument zhruba ve čtvrtině výšky viditelně jiný odstín kamene?",
+    "en": "Why does the Washington Monument change to a visibly different shade of stone about a quarter of the way up?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vrchol po zemětřesení roku 2011 přestavěli",
+     "Po 23leté pauze se vzal mramor z jiného lomu",
+     "Horní část po zásahu bleskem natřeli",
+     "Spodní část trvale zabarvily povodně"
+    ],
+    "en": [
+     "The top was rebuilt after the 2011 earthquake",
+     "After a 23-year pause, marble came from another quarry",
+     "The top was painted after a lightning strike",
+     "Floods permanently stained the lower part"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Stavba se v letech 1854–1877 zastavila kvůli nedostatku peněz, sporům ve stavebním spolku a občanské válce. Spodní část je z mramoru z lomu Texas v marylandském Cockeysvillu, horní ze sousedního lomu Beaver Dam a je o něco tmavší.",
+    "en": "Construction halted from 1854 to 1877 because of a lack of money, a dispute within the monument society and the Civil War. The lower part is marble from the Texas Quarry in Cockeysville, Maryland, while the upper part came from the neighboring Beaver Dam quarry and is slightly darker."
+   }
+  },
+  {
+   "id": "T398-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Po čem jsou pojmenovány hlavní diagonální třídy (avenues) Washingtonu, D.C.?",
+    "en": "What are the main diagonal avenues of Washington, D.C. named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Po státech USA",
+     "Po bitvách války za nezávislost",
+     "Po indiánských kmenech",
+     "Po amerických prezidentech"
+    ],
+    "en": [
+     "U.S. states",
+     "Revolutionary War battles",
+     "Native American tribes",
+     "U.S. presidents"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Diagonální třídy nesou jména států, například Pennsylvania, Massachusetts nebo Connecticut Avenue. Jen dvě ulice pojmenované po státech nejsou „avenue“: California Street a Ohio Drive.",
+    "en": "The diagonal avenues bear state names, such as Pennsylvania, Massachusetts or Connecticut Avenue. Only two state-named roads are not avenues: California Street and Ohio Drive."
+   }
+  },
+  {
+   "id": "T398-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Washington je rozdělen na čtyři kvadranty (NW, NE, SW, SE). U které stavby se setkávají?",
+    "en": "Washington is divided into four quadrants (NW, NE, SW, SE). At which building do they meet?"
+   },
+   "moznosti": {
+    "cs": [
+     "U Washingtonova monumentu",
+     "U Bílého domu",
+     "U Lincolnova památníku",
+     "U Kapitolu"
+    ],
+    "en": [
+     "The Washington Monument",
+     "The White House",
+     "The Lincoln Memorial",
+     "The Capitol"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kvadranty i číslování domů vycházejí z Kapitolu. Bod, odkud se počítá, označuje kompasová hvězdice vsazená do podlahy jeho krypty.",
+    "en": "The quadrants and the house numbering both start from the Capitol. The point they count from is marked by a compass star set into the floor of its crypt."
+   }
+  },
+  {
+   "id": "T398-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Z jakého kovu je malá špička úplně nahoře na Washingtonově monumentu, osazená v roce 1884?",
+    "en": "What metal is the small tip at the very top of the Washington Monument, put in place in 1884, made of?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z platiny",
+     "Z mědi",
+     "Ze zlata",
+     "Z hliníku"
+    ],
+    "en": [
+     "Platinum",
+     "Copper",
+     "Gold",
+     "Aluminum"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Hliníková špička vážící 2,83 kg byla osazena 6. prosince 1884, kdy byl hliník vzácný a drahý jako stříbro. O dva roky později Hallův–Héroultův proces jeho cenu prudce srazil.",
+    "en": "The 2.83 kg (100 oz) aluminum tip was set in place on 6 December 1884, when aluminum was as rare and valuable as silver. Two years later the Hall–Héroult process sent its price tumbling."
+   }
+  },
+  {
+   "id": "T398-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co podle zákona o výšce budov z roku 1910 hlavně určuje, jak vysoká smí být budova ve Washingtonu?",
+    "en": "Under the Height of Buildings Act of 1910, what mainly determines how tall a building in Washington may be?"
+   },
+   "moznosti": {
+    "cs": [
+     "Výška Washingtonova monumentu",
+     "Výška kupole Kapitolu",
+     "Šířka přilehlé ulice",
+     "Vzdálenost od Bílého domu"
+    ],
+    "en": [
+     "The height of the Washington Monument",
+     "The height of the Capitol dome",
+     "The width of the adjacent street",
+     "The distance from the White House"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Budova smí být vysoká jako šířka přilehlé ulice plus 6 m, nejvýš asi 40 m na obchodních ulicích. Rozšířená představa, že nic nesmí převýšit Kapitol, je mýtus.",
+    "en": "A building may be as tall as the width of the adjacent street plus 6 m (20 ft), up to about 40 m (130 ft) on commercial streets. The popular belief that nothing may be taller than the Capitol is a myth."
+   }
+  },
+  {
+   "id": "T398-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Stavba Pentagonu začala v den, který se o 60 let později s budovou tragicky spojil. Kdy to bylo?",
+    "en": "Construction of the Pentagon began on a date that, exactly 60 years later, became tragically linked with the building. When was it?"
+   },
+   "moznosti": {
+    "cs": [
+     "1. září 1939",
+     "22. června 1941",
+     "11. září 1941",
+     "7. prosince 1941"
+    ],
+    "en": [
+     "1 September 1939",
+     "22 June 1941",
+     "11 September 1941",
+     "7 December 1941"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Výkopové práce začaly 11. září 1941 a 11. září 2001 do budovy narazilo unesené letadlo. Obří stavba byla hotová už 15. ledna 1943, tedy zhruba za 16 měsíců.",
+    "en": "Ground was broken on 11 September 1941, and on 11 September 2001 a hijacked airliner struck the building. The huge structure was finished on 15 January 1943, only about 16 months later."
+   }
+  },
+  {
+   "id": "T398-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "William Thornton, jehož návrh Kapitolu byl schválen v roce 1793, byl architektem samoukem. Čím byl původně povoláním?",
+    "en": "William Thornton, whose design for the Capitol was approved in 1793, was a self-taught architect. What was he trained as?"
+   },
+   "moznosti": {
+    "cs": [
+     "Právník",
+     "Duchovní",
+     "Lékař",
+     "Námořní kapitán"
+    ],
+    "en": [
+     "A lawyer",
+     "A clergyman",
+     "A physician",
+     "A sea captain"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Thornton vystudoval medicínu v Edinburghu a titul získal v Aberdeenu v roce 1784. Narodil se na ostrově Jost Van Dyke na Britských Panenských ostrovech a stal se prvním architektem Kapitolu.",
+    "en": "Thornton studied medicine in Edinburgh and took his degree in Aberdeen in 1784. Born on Jost Van Dyke in the British Virgin Islands, he became the first Architect of the Capitol."
+   }
+  },
+  {
+   "id": "T398-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ze které země pocházel James Hoban, architekt Bílého domu?",
+    "en": "Which country did James Hoban, the architect of the White House, come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Anglie",
+     "Ze Skotska",
+     "Z Irska",
+     "Z Francie"
+    ],
+    "en": [
+     "England",
+     "Scotland",
+     "Ireland",
+     "France"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hoban se narodil v Desartu u Callanu v irském hrabství Kilkenny, přesný rok jeho narození není jistý. Jeho vítězný návrh z roku 1792 vycházel z Leinster House v Dublinu.",
+    "en": "Hoban was born at Desart, near Callan, in County Kilkenny, Ireland, though his exact year of birth is uncertain. His winning design of 1792 was modeled on Leinster House in Dublin."
+   }
+  },
+  {
+   "id": "T398-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co zobrazuje freska Constantina Brumidiho, viditelná otvorem ve vrcholu kupole rotundy Kapitolu?",
+    "en": "What does Constantino Brumidi's fresco, seen through the opening at the top of the Capitol Rotunda dome, depict?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bitvu u Yorktownu",
+     "George Washingtona stoupajícího do nebes",
+     "Podpis Deklarace nezávislosti",
+     "Přistání Kolumba v Americe"
+    ],
+    "en": [
+     "The Battle of Yorktown",
+     "George Washington rising into the heavens",
+     "The signing of the Declaration of Independence",
+     "Columbus landing in America"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Freska Apoteóza Washingtona ukazuje Washingtona povzneseného mezi bohy, obklopeného postavami z antické mytologie. Brumidi ji dokončil v roce 1865 a namaloval ji 55 m nad podlahou.",
+    "en": "The Apotheosis of Washington shows him raised to godlike status, surrounded by figures from classical mythology. Brumidi finished it in 1865, painting 55 m (180 ft) above the floor."
+   }
+  },
+  {
+   "id": "T398-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Které písmeno chybí v řadě ulic Washingtonu označených písmeny?",
+    "en": "Which letter is missing from Washington's series of lettered streets?"
+   },
+   "moznosti": {
+    "cs": [
+     "I",
+     "J",
+     "Q",
+     "U"
+    ],
+    "en": [
+     "I",
+     "J",
+     "Q",
+     "U"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ulice J neexistuje, protože I a J se v tehdejším písmu skoro nedaly rozlišit. Historka, že ji L'Enfant vynechal ze zášti k soudci Johnu Jayovi, je mýtus.",
+    "en": "There is no J Street because I and J were nearly indistinguishable in the writing of the time. The story that L'Enfant left it out to spite Chief Justice John Jay is a myth."
+   }
+  },
+  {
+   "id": "T398-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Díky dětské kreslířské soutěži v 80. letech se mezi groteskní kamenné plastiky Washingtonské národní katedrály dostala hlava které postavy?",
+    "en": "Thanks to a children's drawing competition in the 1980s, the head of which character ended up among the grotesques of Washington National Cathedral?"
+   },
+   "moznosti": {
+    "cs": [
+     "Myšáka Mickeyho",
+     "Godzilly",
+     "Dartha Vadera",
+     "Mimozemšťana E.T."
+    ],
+    "en": [
+     "Mickey Mouse",
+     "Godzilla",
+     "Darth Vader",
+     "E.T. the alien"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Soutěž pořádal časopis National Geographic World a kresba Dartha Vadera od Christophera Radera skončila třetí. Hlava sedí vysoko na severozápadní věži a pouhým okem je těžko k nalezení.",
+    "en": "The contest was run by National Geographic World magazine, and Christopher Rader's Darth Vader drawing took third place. The head sits high on the northwest tower and is hard to spot with the naked eye."
+   }
+  },
+  {
+   "id": "T398-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Devatenáct nerezových vojáků Památníku veteránů korejské války se zrcadlí v leštěné žulové stěně, takže jich je vidět 38. Co toto číslo připomíná?",
+    "en": "The 19 stainless steel soldiers of the Korean War Veterans Memorial are reflected in a polished granite wall, so 38 can be seen. What does that number recall?"
+   },
+   "moznosti": {
+    "cs": [
+     "38. rovnoběžku, která rozdělila Koreu",
+     "Počet zemí, které bojovaly pod vlajkou OSN",
+     "Počet amerických divizí nasazených v Koreji",
+     "Počet dní vylodění u Inčchonu"
+    ],
+    "en": [
+     "The 38th parallel that divided Korea",
+     "The number of nations that fought under the UN flag",
+     "The number of U.S. divisions sent to Korea",
+     "The number of days of the Inchon landing"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Odraz zdvojnásobí hlídku na 38 postav jako odkaz na 38. rovnoběžku mezi Severní a Jižní Koreou. Sochy jsou vysoké asi 2,2 m a váží téměř 450 kg.",
+    "en": "The reflection doubles the patrol to 38 figures, a nod to the 38th parallel between North and South Korea. The statues stand about 2.2 m (7 ft 3 inches) tall and weigh nearly 450 kg (1,000 lb)."
+   }
+  },
+  {
+   "id": "T398-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč byl originální letoun bratří Wrightů z roku 1903 v letech 1928–1948 vystaven v londýnském Science Museum?",
+    "en": "Why was the Wright brothers' original 1903 airplane displayed at London's Science Museum from 1928 to 1948?"
+   },
+   "moznosti": {
+    "cs": [
+     "Orville Wright se přel se Smithsonovým institutem",
+     "Opravovali ho tam britští inženýři",
+     "Koupil ho v dražbě britský sběratel",
+     "USA ho zapůjčily na světovou výstavu"
+    ],
+    "en": [
+     "Orville Wright was feuding with the Smithsonian",
+     "British engineers were restoring it there",
+     "A British collector bought it at auction",
+     "The U.S. lent it for a world's fair"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Smithsonův institut odmítal uznat let Wrightů jako první a prvenství připisoval Samuelu Langleymu, tak Orville letoun poslal do Londýna. Institut svá tvrzení odvolal v roce 1942 a letoun se do Washingtonu vrátil v roce 1948.",
+    "en": "The Smithsonian refused to recognize the Wrights' flight as the first and credited Samuel Langley instead, so Orville sent the plane to London. The institution retracted its claims in 1942, and the plane came back to Washington in 1948."
+   }
+  }
+ ]
+}

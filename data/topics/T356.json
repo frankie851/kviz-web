@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T356",
+ "nazev": {
+  "cs": "Dalekohledy a astronomie: od Galilea po Webba",
+  "en": "Telescopes and Astronomy: from Galileo to Webb"
+ },
+ "kategorie": {
+  "id": "vesmir",
+  "nazev": {
+   "cs": "Vesmír",
+   "en": "Space"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T356-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi požádal v roce 1608 výrobce brýlí Hans Lippershey o patent na dalekohled?",
+    "en": "In which country did the spectacle-maker Hans Lippershey apply for a patent on the telescope in 1608?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Francii",
+     "V Nizozemsku",
+     "V Itálii",
+     "V Anglii"
+    ],
+    "en": [
+     "France",
+     "The Netherlands",
+     "Italy",
+     "England"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Lippershey žil v Middelburgu v provincii Zeeland a 2. října 1608 předložil generálním stavům přístroj „pro pozorování vzdálených věcí, jako by byly blízko“. Jeho dalekohled zvětšoval jen asi třikrát.",
+    "en": "Lippershey lived in Middelburg in the province of Zeeland and on 2 October 1608 presented the States General with an instrument 'for seeing things far away as if they were nearby'. His telescope magnified only about three times."
+   }
+  },
+  {
+   "id": "T356-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik Jupiterových měsíců objevil Galileo Galilei svým dalekohledem v lednu 1610?",
+    "en": "How many of Jupiter's moons did Galileo Galilei discover with his telescope in January 1610?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dva",
+     "Čtyři",
+     "Šest",
+     "Osm"
+    ],
+    "en": [
+     "Two",
+     "Four",
+     "Six",
+     "Eight"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Galileo 7. ledna 1610 spatřil u Jupiteru tři drobné „hvězdy“ a 13. ledna poprvé všechny čtyři najednou. Nazval je Medicejskými hvězdami a popsal je ve spisu Sidereus Nuncius (Hvězdný posel), vydaném 13. března 1610; dnes se jim říká Galileovy měsíce.",
+    "en": "On 7 January 1610 Galileo saw three small 'stars' near Jupiter, and on 13 January he saw all four together for the first time. He named them the Medicean Stars and described them in Sidereus Nuncius (Starry Messenger), published on 13 March 1610; today they are known as the Galilean moons."
+   }
+  },
+  {
+   "id": "T356-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co popsal Galileo Galilei v roce 1610 poté, co dalekohledem pozoroval Měsíc?",
+    "en": "What did Galileo Galilei describe in 1610 after observing the Moon through a telescope?"
+   },
+   "moznosti": {
+    "cs": [
+     "Že je celý pokrytý ledem",
+     "Že ho obíhá vlastní malý měsíc",
+     "Že svítí vlastním světlem jako malé slunce",
+     "Že má hory a nerovný povrch"
+    ],
+    "en": [
+     "That it is entirely covered in ice",
+     "That it has its own small moon orbiting it",
+     "That it shines with its own light like a small sun",
+     "That it has mountains and an uneven surface"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Podle stínů na hranici světla a tmy Galileo poznal, že světlé oblasti jsou hornaté a tmavé ploché a nízko položené. Vyvrátil tak představu, že nebeská tělesa jsou dokonale hladké koule.",
+    "en": "From the shadows along the boundary between light and dark, Galileo worked out that the bright areas are mountainous and the dark ones flat and low-lying. This overturned the idea that celestial bodies are perfectly smooth spheres."
+   }
+  },
+  {
+   "id": "T356-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím se liší refraktor od reflektoru?",
+    "en": "What is the difference between a refractor and a reflector?"
+   },
+   "moznosti": {
+    "cs": [
+     "Refraktor slouží k pozorování ve dne, reflektor v noci",
+     "Refraktor soustřeďuje světlo zrcadly, reflektor čočkami",
+     "Refraktor soustřeďuje světlo čočkami, reflektor zrcadly",
+     "Refraktor zachycuje rádiové vlny, reflektor viditelné světlo"
+    ],
+    "en": [
+     "A refractor is used for daytime observing, a reflector at night",
+     "A refractor focuses light with mirrors, a reflector with lenses",
+     "A refractor focuses light with lenses, a reflector with mirrors",
+     "A refractor picks up radio waves, a reflector visible light"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Refraktor (čočkový dalekohled) světlo láme čočkami, reflektor (zrcadlový dalekohled) ho odráží zrcadly. Existují i katadioptrické dalekohledy, které kombinují obojí.",
+    "en": "A refractor (lens telescope) bends light with lenses, while a reflector (mirror telescope) bounces it off mirrors. There are also catadioptric telescopes that combine both."
+   }
+  },
+  {
+   "id": "T356-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterou planetu objevil v roce 1781 William Herschel a chtěl ji pojmenovat po britském králi Jiřím III.?",
+    "en": "Which planet did William Herschel discover in 1781 and want to name after the British King George III?"
+   },
+   "moznosti": {
+    "cs": [
+     "Uran",
+     "Neptun",
+     "Saturn",
+     "Jupiter"
+    ],
+    "en": [
+     "Uranus",
+     "Neptune",
+     "Saturn",
+     "Jupiter"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Herschel planetu spatřil 13. března 1781 a zprvu ji považoval za kometu. Navrhl jméno Georgium Sidus (Jiřího hvězda), které se ale neujalo.",
+    "en": "Herschel spotted the planet on 13 March 1781 and at first took it for a comet. He proposed the name Georgium Sidus (George's Star), but it never caught on."
+   }
+  },
+  {
+   "id": "T356-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kým byl Edwin Hubble, po němž je pojmenován Hubbleův vesmírný dalekohled?",
+    "en": "Who was Edwin Hubble, after whom the Hubble Space Telescope is named?"
+   },
+   "moznosti": {
+    "cs": [
+     "Inženýrem, který dalekohled navrhl",
+     "Vědcem, který jako první navrhl dalekohled ve vesmíru",
+     "Astronomem, který prokázal existenci jiných galaxií",
+     "Astronautem, který dalekohled opravil na oběžné dráze"
+    ],
+    "en": [
+     "The engineer who designed the telescope",
+     "The scientist who first proposed a telescope in space",
+     "The astronomer who proved that other galaxies exist",
+     "The astronaut who repaired the telescope in orbit"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Americký astronom Edwin Hubble v roce 1924 našel v mlhovinách v Andromedě a v Trojúhelníku proměnné hvězdy cefeidy a prokázal, že tyto mlhoviny leží daleko za Mléčnou dráhou. Dalekohled s hlavním zrcadlem o průměru 2,4 m vynesl na oběžnou dráhu raketoplán Discovery 24. dubna 1990 a stále pracuje (k roku 2026).",
+    "en": "In 1924 the American astronomer Edwin Hubble found Cepheid variable stars in the Andromeda and Triangulum nebulae, proving that they lie far beyond the Milky Way. The telescope, with its 2.4 m (7 ft 10 in) main mirror, was carried into orbit by the Space Shuttle Discovery on 24 April 1990 and is still operating (as of 2026)."
+   }
+  },
+  {
+   "id": "T356-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na který svátek odstartoval v roce 2021 Vesmírný dalekohled Jamese Webba?",
+    "en": "On which holiday did the James Webb Space Telescope launch in 2021?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Den Země (22. dubna)",
+     "Na Den nezávislosti USA (4. července)",
+     "Na Nový rok (1. ledna)",
+     "Na Boží hod vánoční (25. prosince)"
+    ],
+    "en": [
+     "Earth Day (22 April)",
+     "US Independence Day (4 July)",
+     "New Year's Day (1 January)",
+     "Christmas Day (25 December)"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Webbův dalekohled odstartoval 25. prosince 2021 na raketě Ariane 5 z Guyanského kosmického centra ve Francouzské Guyaně. K bodu L2 dorazil 24. ledna 2022.",
+    "en": "Webb lifted off on 25 December 2021 aboard an Ariane 5 rocket from the Guiana Space Centre in French Guiana. It reached the L2 point on 24 January 2022."
+   }
+  },
+  {
+   "id": "T356-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá jev, kdy umělé osvětlení měst prosvětluje noční oblohu natolik, že z ní mizí hvězdy?",
+    "en": "What is the name for the phenomenon in which artificial city lighting brightens the night sky so much that stars disappear from it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Teplotní inverze",
+     "Fotochemický smog",
+     "Skleníkový efekt",
+     "Světelné znečištění"
+    ],
+    "en": [
+     "Temperature inversion",
+     "Photochemical smog",
+     "Greenhouse effect",
+     "Light pollution"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Světelné znečištění vytváří nad městy svítící závoj (skyglow). Podle údajů z roku 2016 už třetina lidstva nevidí Mléčnou dráhu, včetně asi 60 % Evropanů a 80 % Američanů.",
+    "en": "Light pollution creates a glowing haze over cities known as skyglow. According to 2016 figures, a third of humanity can no longer see the Milky Way, including about 60% of Europeans and 80% of Americans."
+   }
+  },
+  {
+   "id": "T356-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč mají hvězdárny často otočnou kopuli se štěrbinou?",
+    "en": "Why do observatories often have a rotating dome with a slit?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aby se kopule mohla natáčet za Sluncem a vyrábět energii",
+     "Aby kopule fungovala jako obří čočka zvětšující obraz",
+     "Aby dalekohled mohl mířit kamkoli a byl chráněn před počasím",
+     "Aby se v ní dalo promítat jako v planetáriu"
+    ],
+    "en": [
+     "So the dome can follow the Sun and generate power",
+     "So the dome works as a giant lens that magnifies the image",
+     "So the telescope can point anywhere and is protected from the weather",
+     "So shows can be projected inside it like in a planetarium"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kopule chrání citlivé přístroje před nepohodou a při pozorování se v ní otevře štěrbina. Otáčením kopule se štěrbina natočí k té části oblohy, kam dalekohled právě míří.",
+    "en": "The dome protects the delicate instruments from the elements, and a slit opens in it for observing. Rotating the dome turns the slit towards whichever part of the sky the telescope is pointing at."
+   }
+  },
+  {
+   "id": "T356-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč v chilské poušti Atacama stojí řada velkých observatoří?",
+    "en": "Why are so many large observatories located in Chile's Atacama Desert?"
+   },
+   "moznosti": {
+    "cs": [
+     "Leží na rovníku, takže je odtud vidět celá obloha",
+     "Silné magnetické pole tam odklání rušivé záření",
+     "Horký pouštní vzduch zvětšuje obraz jako obří čočka",
+     "Suchý vzduch, velká výška a téměř žádné mraky ani světla měst"
+    ],
+    "en": [
+     "It lies on the equator, so the whole sky is visible from there",
+     "A strong magnetic field there deflects interfering radiation",
+     "The hot desert air magnifies the image like a giant lens",
+     "Dry air, high altitude and almost no clouds or city lights"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Atacama nabízí vysoko položená místa, velmi suchý vzduch a přes 200 bezoblačných nocí ročně, daleko od světel velkých měst. Stojí tu například Very Large Telescope na Paranalu a soustava ALMA a staví se tu ELT.",
+    "en": "The Atacama offers high-altitude sites, very dry air and more than 200 cloudless nights a year, far from the lights of big cities. It hosts, for example, the Very Large Telescope at Paranal and the ALMA array, and the ELT is being built there."
+   }
+  },
+  {
+   "id": "T356-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč Isaac Newton v roce 1668 sestrojil dalekohled se zrcadlem místo čočky?",
+    "en": "Why did Isaac Newton build a telescope with a mirror instead of a lens in 1668?"
+   },
+   "moznosti": {
+    "cs": [
+     "Čočky tehdy kolem obrazu vytvářely barevné lemy",
+     "Zrcadlový dalekohled ukazoval obraz vzpřímeně",
+     "Chtěl bezpečně pozorovat Slunce",
+     "Zrcadlo zvětšovalo mnohonásobně víc než čočka"
+    ],
+    "en": [
+     "Lenses of the time produced coloured fringes around the image",
+     "A mirror telescope showed the image upright",
+     "He wanted to observe the Sun safely",
+     "A mirror magnified many times more than a lens"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Tehdejší čočkové dalekohledy trpěly barevnou (chromatickou) vadou, protože čočka láme různé barvy různě. Zrcadlo tuto vadu nemá; Newtonovo bylo vybroušené z kovu (zrcadloviny).",
+    "en": "Lens telescopes of the time suffered from chromatic aberration, because a lens bends different colours by different amounts. A mirror avoids this flaw; Newton's was ground from metal (speculum metal)."
+   }
+  },
+  {
+   "id": "T356-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co zjistil Galileo Galilei, když namířil dalekohled na Mléčnou dráhu?",
+    "en": "What did Galileo Galilei discover when he pointed his telescope at the Milky Way?"
+   },
+   "moznosti": {
+    "cs": [
+     "Že je to odraz slunečního světla od prachu",
+     "Že je to oblak zářícího plynu v zemské atmosféře",
+     "Že je to prstenec, který obíhá Zemi",
+     "Že se skládá z nesčetných slabých hvězd"
+    ],
+    "en": [
+     "That it is sunlight reflected off dust",
+     "That it is a cloud of glowing gas in Earth's atmosphere",
+     "That it is a ring orbiting the Earth",
+     "That it is made up of countless faint stars"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Galileo napsal, že Mléčná dráha i mlhoviny jsou shluky nesčetných hvězd, příliš slabých a vzdálených pro pouhé oko. V Orionu dalekohledem napočítal 80 hvězd místo dříve zaznamenaných devíti.",
+    "en": "Galileo wrote that the Milky Way and the nebulae are clusters of countless stars, too faint and distant for the naked eye. In Orion he counted 80 stars through his telescope instead of the nine recorded before."
+   }
+  },
+  {
+   "id": "T356-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na čem u dalekohledu nejvíc záleží, chcete-li v něm vidět co nejslabší hvězdy a galaxie?",
+    "en": "What matters most in a telescope if you want to see the faintest possible stars and galaxies?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na průměru objektivu",
+     "Na co nejvyšším zvětšení",
+     "Na délce tubusu",
+     "Na počtu okulárů v sadě"
+    ],
+    "en": [
+     "The diameter of the objective",
+     "The highest possible magnification",
+     "The length of the tube",
+     "The number of eyepieces in the set"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Objektiv je hlavní čočka nebo zrcadlo dalekohledu a množství zachyceného světla roste s jeho plochou, takže 10metrový dalekohled nasbírá 25krát víc světla než 2metrový. Zvětšení nad určitou mez dá jen tzv. prázdné zvětšení: obraz je větší, ale bez dalších detailů.",
+    "en": "The objective is a telescope's main lens or mirror, and the amount of light collected grows with its area, so a 10 m (33 ft) telescope gathers 25 times more light than a 2 m (6.6 ft) one. Magnification beyond a certain limit gives only so-called empty magnification: the image is bigger but shows no more detail."
+   }
+  },
+  {
+   "id": "T356-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím se William Herschel živil, než se proslavil jako astronom?",
+    "en": "How did William Herschel earn his living before he became famous as an astronomer?"
+   },
+   "moznosti": {
+    "cs": [
+     "Byl dvorním lékařem",
+     "Byl hudebníkem a skladatelem",
+     "Byl výrobcem brýlí",
+     "Byl lodním kapitánem"
+    ],
+    "en": [
+     "He was a court physician",
+     "He was a musician and composer",
+     "He was a spectacle-maker",
+     "He was a ship's captain"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Herschel, rodák z Hannoveru, byl varhaníkem v anglických lázních Bath a složil 24 symfonií. Později stavěl vlastní dalekohledy; ten největší měl zrcadlo o průměru 1,26 m.",
+    "en": "Herschel, a native of Hanover, was an organist in the English spa town of Bath and composed 24 symphonies. He later built his own telescopes; the largest had a mirror 1.26 m (49.5 in) across."
+   }
+  },
+  {
+   "id": "T356-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik galaxií zhruba odhalil snímek Hubble Deep Field, pro který Hubble v prosinci 1995 asi deset dní mířil na zdánlivě prázdný kousek oblohy ve Velké medvědici?",
+    "en": "Roughly how many galaxies did the Hubble Deep Field reveal, for which Hubble spent about ten days in December 1995 pointing at a seemingly empty patch of sky in Ursa Major?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 30",
+     "Asi 300",
+     "Asi 3 000",
+     "Asi 300 000"
+    ],
+    "en": [
+     "About 30",
+     "About 300",
+     "About 3,000",
+     "About 300,000"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Na políčku oblohy velkém jako tenisový míček ze vzdálenosti 100 m se ukázalo asi 3 000 galaxií, mnohé velmi vzdálené. Snímek se stal přelomovým pohledem do raného vesmíru.",
+    "en": "A patch of sky the size of a tennis ball seen from 100 m (330 ft) turned out to contain about 3,000 galaxies, many of them very distant. The image became a landmark view of the early universe."
+   }
+  },
+  {
+   "id": "T356-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kým byl James Webb, po kterém je pojmenován nástupce Hubbleova dalekohledu?",
+    "en": "Who was James Webb, after whom Hubble's successor is named?"
+   },
+   "moznosti": {
+    "cs": [
+     "Astronomem, který objevil první exoplanetu",
+     "Astronautem z mise Apollo 11",
+     "Konstruktérem rakety Saturn V",
+     "Ředitelem (administrátorem) NASA v 60. letech"
+    ],
+    "en": [
+     "The astronomer who discovered the first exoplanet",
+     "An astronaut on the Apollo 11 mission",
+     "The designer of the Saturn V rocket",
+     "The head (administrator) of NASA in the 1960s"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "James E. Webb vedl NASA v letech 1961–1968, v době programů Mercury, Gemini a Apollo. Dalekohled, do té doby zvaný Next Generation Space Telescope, dostal jeho jméno v roce 2002.",
+    "en": "James E. Webb led NASA from 1961 to 1968, during the Mercury, Gemini and Apollo programmes. The telescope, until then called the Next Generation Space Telescope, was given his name in 2002."
+   }
+  },
+  {
+   "id": "T356-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč jsou segmenty hlavního zrcadla Webbova dalekohledu pokryté tenkou vrstvou zlata?",
+    "en": "Why are the segments of the James Webb Space Telescope's main mirror coated with a thin layer of gold?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chrání zrcadlo před mikrometeority",
+     "Zlato je lehčí než hliník, takže zrcadlo méně váží",
+     "Zlato velmi dobře odráží infračervené světlo",
+     "Zachycuje rádiové signály ze Země"
+    ],
+    "en": [
+     "It protects the mirror from micrometeoroids",
+     "Gold is lighter than aluminium, so the mirror weighs less",
+     "Gold reflects infrared light very well",
+     "It picks up radio signals from Earth"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Webb pozoruje hlavně v infračerveném světle, které zlato výborně odráží. Hlavní zrcadlo o průměru 6,5 m tvoří 18 šestiúhelníkových segmentů z berylia a zlato chrání tenká vrstva skla.",
+    "en": "Webb observes mainly in infrared light, which gold reflects extremely well. The 6.5 m (21 ft) main mirror is made of 18 hexagonal beryllium segments, and the gold is protected by a thin layer of glass."
+   }
+  },
+  {
+   "id": "T356-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co se 1. prosince 2020 stalo s obřím radioteleskopem Arecibo v Portoriku?",
+    "en": "What happened to the giant Arecibo radio telescope in Puerto Rico on 1 December 2020?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zaplavila ho voda z přívalových dešťů",
+     "Po přetržení nosných lan se zřítil",
+     "Rozebrali ho a převezli do Chile",
+     "Zničil ho požár po zásahu bleskem"
+    ],
+    "en": [
+     "It was flooded by torrential rain",
+     "It collapsed after its support cables snapped",
+     "It was dismantled and moved to Chile",
+     "It was destroyed by a fire after a lightning strike"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Plošina s přijímačem se po selhání nosných lan zřítila do 305metrové antény; NSF už 19. listopadu oznámila, že teleskop vyřadí. Arecibo bylo 53 let největším jednodílným radioteleskopem světa a objevilo se i ve filmech Zlaté oko (GoldenEye) a Kontakt.",
+    "en": "After its support cables failed, the receiver platform crashed into the 305 m (1,000 ft) dish; the NSF had already announced on 19 November that the telescope would be decommissioned. Arecibo was the world's largest single-aperture telescope for 53 years and featured in the films GoldenEye and Contact."
+   }
+  },
+  {
+   "id": "T356-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve které zemi stojí radioteleskop FAST, jehož anténa o průměru 500 m je považována za největší jednodílnou anténu na světě?",
+    "en": "In which country is the FAST radio telescope, whose 500 m (1,640 ft) dish is considered the world's largest single dish?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Rusku",
+     "V Austrálii",
+     "V Indii",
+     "V Číně"
+    ],
+    "en": [
+     "Russia",
+     "Australia",
+     "India",
+     "China"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "FAST stojí v krasové proláklině v provincii Kuej-čou (Guizhou) a přezdívá se Tchien-jen (Tianyan), Nebeské oko. První světlo zachytil v září 2016; při pozorování ale využívá vždy jen část antény o průměru 300 m.",
+    "en": "FAST sits in a natural karst depression in Guizhou province and is nicknamed Tianyan, the 'Sky's Eye'. It saw first light in September 2016, although it only uses a 300 m (984 ft) portion of the dish at any one time."
+   }
+  },
+  {
+   "id": "T356-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se projektu Event Horizon Telescope podařilo v roce 2019 zveřejnit vůbec první snímek černé díry?",
+    "en": "How did the Event Horizon Telescope project manage to release the very first image of a black hole in 2019?"
+   },
+   "moznosti": {
+    "cs": [
+     "Spojil radioteleskopy na několika kontinentech",
+     "Vyslal k černé díře sondu s kamerou",
+     "Spojil snímky tisíců amatérských dalekohledů",
+     "Snímal ji Hubbleův dalekohled mnoho let"
+    ],
+    "en": [
+     "It linked radio telescopes on several continents",
+     "It sent a probe with a camera to the black hole",
+     "It combined images from thousands of amateur telescopes",
+     "Hubble photographed it for many years"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Interferometrie s velmi dlouhou základnou (VLBI) z radioteleskopů na několika kontinentech, včetně jižního pólu, udělala virtuální dalekohled velikosti Země, který pozoroval na vlnové délce 1,3 mm. Data z dubna 2017 se na pevných discích převážela letadly a ta z jižního pólu dorazila až v prosinci 2017, po skončení polární zimy.",
+    "en": "Very-long-baseline interferometry (VLBI) turned radio telescopes on several continents, including one at the South Pole, into a virtual Earth-sized telescope observing at a wavelength of 1.3 mm (0.05 in). The data from April 2017 were flown on hard drives, and those from the South Pole arrived only in December 2017, after the polar winter."
+   }
+  },
+  {
+   "id": "T356-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč Hans Lippershey v roce 1608 patent na dalekohled nedostal?",
+    "en": "Why was Hans Lippershey not granted a patent for the telescope in 1608?"
+   },
+   "moznosti": {
+    "cs": [
+     "O stejný vynález se hlásili i další výrobci brýlí",
+     "Přístroj při předvedení úřadům nefungoval",
+     "Galileo si ho nechal patentovat o rok dřív",
+     "Úřady považovaly dalekohled za čarodějnický nástroj"
+    ],
+    "en": [
+     "Other spectacle-makers were claiming the same invention",
+     "The instrument failed when demonstrated to the authorities",
+     "Galileo had patented it a year earlier",
+     "The authorities considered the telescope a tool of witchcraft"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jen pár týdnů po něm podal žádost Jacob Metius a nárok si dělali i další. Generální stavy mu patent neudělily, za kopie přístroje mu však zaplatily.",
+    "en": "Jacob Metius applied just a few weeks after him, and others made claims too. The States General refused the patent but did pay him for copies of the instrument."
+   }
+  },
+  {
+   "id": "T356-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Galileo zjistil, že Venuše prochází fázemi podobně jako Měsíc, včetně téměř úplné. Který model vesmíru tím v podstatě vyvrátil?",
+    "en": "Galileo found that Venus goes through phases like the Moon, including an almost full one. Which model of the universe did this essentially rule out?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tychonův model, v němž planety obíhají Slunce a Slunce Zemi",
+     "Ptolemaiův geocentrický model",
+     "Koperníkův heliocentrický model",
+     "Keplerův model s eliptickými drahami planet"
+    ],
+    "en": [
+     "The Tychonic model, in which the planets orbit the Sun and the Sun orbits the Earth",
+     "The Ptolemaic geocentric model",
+     "The Copernican heliocentric model",
+     "Kepler's model with elliptical planetary orbits"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "V Ptolemaiově modelu leží Venuše vždy mezi Zemí a Sluncem, takže by nikdy nemohla být vidět téměř celá osvětlená; fáze odpovídaly jen modelům, v nichž Venuše obíhá Slunce. Galileo objev nejprve poslal Keplerovi zašifrovaný v přesmyčce.",
+    "en": "In the Ptolemaic model Venus always lies between the Earth and the Sun, so it could never appear almost fully lit; the phases fitted only models in which Venus orbits the Sun. Galileo first sent the discovery to Kepler hidden in an anagram."
+   }
+  },
+  {
+   "id": "T356-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Největší čočkový dalekohled, jaký kdy sloužil astronomickému výzkumu, v Yerkesově observatoři (Yerkes Observatory), má objektiv o průměru asi 1 m, kdežto zrcadla největších dalekohledů měří přes 10 m. Proč se větší čočky nestaví?",
+    "en": "The largest lens telescope ever used for astronomical research, at Yerkes Observatory, has an objective about 1 m (3.3 ft) across, while the mirrors of the largest telescopes exceed 10 m (33 ft). Why are larger lenses not built?"
+   },
+   "moznosti": {
+    "cs": [
+     "Měla by příliš krátké ohnisko a nešla by zaostřit",
+     "Čočky nad 1 m nejdou převézt po silnici",
+     "Soustředila by tolik světla, že by se roztavila",
+     "Velká čočka se prohýbá vahou, držet jde jen za okraj"
+    ],
+    "en": [
+     "It would have too short a focal length to be focused",
+     "Lenses over 1 m (3.3 ft) cannot be transported by road",
+     "It would concentrate so much light that it would melt",
+     "A large lens sags under its weight, being held only by its edge"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Zrcadlo lze podepřít po celé zadní straně a stačí mu jediná vyleštěná plocha, kdežto čočka musí být bez vad v celém objemu. Yerkesův dalekohled má objektiv o průměru 101,6 cm.",
+    "en": "A mirror can be supported across its entire back and needs only one polished surface, whereas a lens must be flawless throughout its volume. The Yerkes telescope has an objective 101.6 cm (40 in) across."
+   }
+  },
+  {
+   "id": "T356-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Karl Jansky z Bellových laboratoří zkoumal na počátku 30. let 20. století rušení transatlantického rádiového telefonního spojení a zachytil slabý stálý šum neznámého původu. Odkud přicházel?",
+    "en": "In the early 1930s, Karl Jansky of Bell Labs was investigating interference on transatlantic radio telephone links and picked up a faint, steady hiss of unknown origin. Where was it coming from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Velké mlhoviny v Orionu",
+     "Ze středu Mléčné dráhy",
+     "Z Jupiterových měsíců",
+     "Ze slunečních skvrn"
+    ],
+    "en": [
+     "The Orion Nebula",
+     "The centre of the Milky Way",
+     "Jupiter's moons",
+     "Sunspots"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Šum byl nejsilnější ve směru středu Galaxie v souhvězdí Střelce. Jansky objev oznámil v roce 1933, patří k zakladatelům radioastronomie a jeho jméno nese jednotka spektrální hustoty toku jansky.",
+    "en": "The hiss was strongest in the direction of the centre of the Galaxy, in the constellation Sagittarius. Jansky announced the discovery in 1933, is one of the founders of radio astronomy, and the unit of spectral flux density, the jansky, bears his name."
+   }
+  },
+  {
+   "id": "T356-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč Webbův dalekohled obíhá u Lagrangeova bodu L2 soustavy Slunce–Země, a ne na nízké oběžné dráze jako Hubble?",
+    "en": "Why does the Webb telescope orbit around the Sun–Earth Lagrange point L2 rather than in low orbit like Hubble?"
+   },
+   "moznosti": {
+    "cs": [
+     "Je tam slabší gravitace, takže zrcadlo není třeba podpírat",
+     "Slunce, Země i Měsíc jsou stále na jedné straně, štít ho udrží v chladu",
+     "Je odtud lepší výhled na odvrácenou stranu Měsíce",
+     "Chrání ho tam zemské magnetické pole před zářením"
+    ],
+    "en": [
+     "Gravity is weaker there, so the mirror needs no support",
+     "The Sun, Earth and Moon stay on one side, so its shield keeps it cold",
+     "It offers a better view of the far side of the Moon",
+     "Earth's magnetic field protects it from radiation there"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Sluneční štít o pěti vrstvách tak může zakrýt všechny tři zdroje tepla a světla najednou. Přístroje musí mít méně než 50 K (−223 °C), jinak by je přehlušilo vlastní infračervené záření dalekohledu.",
+    "en": "This lets the five-layer sunshield block all three sources of heat and light at once. The instruments must stay below 50 K (−223 °C; −370 °F), otherwise the telescope's own infrared glow would swamp them."
+   }
+  },
+  {
+   "id": "T356-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Obří dalekohled ELT (Extremely Large Telescope), který Evropská jižní observatoř (ESO) staví na hoře Cerro Armazones v chilské poušti Atacama, má mít hlavní zrcadlo o průměru asi…",
+    "en": "The giant ELT (Extremely Large Telescope), which the European Southern Observatory (ESO) is building on Cerro Armazones in Chile's Atacama Desert, is to have a main mirror about how wide?"
+   },
+   "moznosti": {
+    "cs": [
+     "8 m",
+     "16 m",
+     "39 m",
+     "100 m"
+    ],
+    "en": [
+     "8 m (26 ft)",
+     "16 m (52 ft)",
+     "39 m (128 ft)",
+     "100 m (328 ft)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Zrcadlo se skládá ze 798 šestiúhelníkových segmentů. Podle plánu ESO (k roku 2026) má ELT provést první zkušební pozorování v roce 2029 a vědecká v prosinci 2030.",
+    "en": "The mirror is made up of 798 hexagonal segments. According to ESO's plan (as of 2026), the ELT is to make its first test observations in 2029 and scientific ones in December 2030."
+   }
+  },
+  {
+   "id": "T356-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč se stavba Třicetimetrového dalekohledu (Thirty Meter Telescope, TMT) na havajské hoře Mauna Kea od roku 2014 opakovaně zastavila?",
+    "en": "Why has construction of the Thirty Meter Telescope (TMT) on the Hawaiian mountain Mauna Kea repeatedly come to a halt since 2014?"
+   },
+   "moznosti": {
+    "cs": [
+     "Protestovali domorodí Havajci, pro které je hora posvátná",
+     "Sopka Mauna Kea znovu začala soptit",
+     "Ukázalo se, že vzduch tam obsahuje příliš vodní páry",
+     "Stavbu zakázala americká armáda kvůli raketové základně"
+    ],
+    "en": [
+     "Native Hawaiians, for whom the mountain is sacred, protested",
+     "The Mauna Kea volcano began erupting again",
+     "The air there turned out to contain too much water vapour",
+     "The US military banned it because of a missile base"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Mauna Kea je nejposvátnější horou havajské kultury; při protestu v dubnu 2015 bylo zatčeno 23 lidí a v červenci 2019 dalších 38 starších (kupuna). V červnu 2025 navíc americká NSF přestala TMT podporovat a dala přednost konkurenčnímu Giant Magellan Telescope, takže budoucnost TMT je nejistá.",
+    "en": "Mauna Kea is the most sacred mountain in Hawaiian culture; 23 people were arrested at a protest in April 2015 and another 38 elders (kupuna) in July 2019. In June 2025 the US NSF also dropped its support for TMT in favour of the rival Giant Magellan Telescope, leaving TMT's future in doubt."
+   }
+  },
+  {
+   "id": "T356-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém zákoně Česko v roce 2002 právně definovalo umělé světlo rozptýlené mimo oblasti, do kterých je určeno, zejména nad hladinu obzoru?",
+    "en": "In which law did the Czech Republic in 2002 give a legal definition of artificial light scattered outside the areas it is intended for, especially above the horizon?"
+   },
+   "moznosti": {
+    "cs": [
+     "V zákoně o ochraně ovzduší",
+     "V zákoně o ochraně přírody a krajiny",
+     "V zákoně o pozemních komunikacích",
+     "Ve stavebním zákoně"
+    ],
+    "en": [
+     "The Air Protection Act",
+     "The Nature and Landscape Protection Act",
+     "The Roads Act",
+     "The Building Act"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Definici obsahoval zákon o ochraně ovzduší č. 86/2002 Sb., účinný od 1. června 2002. Novější zákon o ochraně ovzduší z roku 2012 už tento jev nezmiňuje.",
+    "en": "The definition appeared in Air Protection Act No. 86/2002, in force from 1 June 2002. The newer Air Protection Act of 2012 no longer mentions this phenomenon."
+   }
+  },
+  {
+   "id": "T356-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Hvězdárnu v Ondřejově, kde dnes stojí největší dalekohled v Česku o průměru 2 m, založil v roce 1898 jako soukromou observatoř astronom amatér a podnikatel. Kdo to byl?",
+    "en": "The observatory at Ondřejov, now home to the largest telescope in the Czech Republic, 2 m (6 ft 7 in) across, was founded in 1898 as a private observatory by an amateur astronomer and entrepreneur. Who was he?"
+   },
+   "moznosti": {
+    "cs": [
+     "Luboš Perek",
+     "Antonín Bečvář",
+     "Josef Jan Frič",
+     "Zdeněk Kopal"
+    ],
+    "en": [
+     "Luboš Perek",
+     "Antonín Bečvář",
+     "Josef Jan Frič",
+     "Zdeněk Kopal"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Josef Jan Frič hvězdárnu 28. října 1928 daroval Československu k 10. výročí vzniku republiky. Dvoumetrový dalekohled přibyl v roce 1967 a na observatoři bylo objeveno přes 700 planetek.",
+    "en": "Josef Jan Frič donated the observatory to Czechoslovakia on 28 October 1928 to mark the tenth anniversary of the republic. The 2 m (6 ft 7 in) telescope was added in 1967, and more than 700 minor planets have been discovered at the observatory."
+   }
+  },
+  {
+   "id": "T356-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "První moderní projekční planetárium firmy Zeiss, které promítalo hvězdnou oblohu na vnitřek kopule, mělo oficiální veřejnou premiéru 21. října 1923. Ve kterém muzeu?",
+    "en": "The first modern Zeiss projection planetarium, which projected the starry sky onto the inside of a dome, had its first official public showing on 21 October 1923. In which museum?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Muzeu vědy (Science Museum) v Londýně",
+     "V Deutsches Museum v Mnichově",
+     "V Muzeu umění a řemesel (Musée des Arts et Métiers) v Paříži",
+     "V Národním technickém muzeu v Praze"
+    ],
+    "en": [
+     "The Science Museum in London",
+     "The Deutsches Museum in Munich",
+     "The Musée des Arts et Métiers in Paris",
+     "The National Technical Museum in Prague"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Projektor navrhl Walther Bauersfeld a firma Zeiss ho v srpnu 1923 vyzkoušela v 16metrové kopuli na střeše svého závodu v Jeně. Teprve poté zamířil na veřejnost do Mnichova.",
+    "en": "The projector was designed by Walther Bauersfeld, and Zeiss tested it in August 1923 in a 16 m (52 ft) dome on the roof of its works in Jena. Only then did it go on public show in Munich."
+   }
+  }
+ ]
+}

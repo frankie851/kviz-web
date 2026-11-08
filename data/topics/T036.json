@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T036",
+ "nazev": {
+  "cs": "Skladatelé vážné hudby",
+  "en": "Composers of Classical Music"
+ },
+ "kategorie": {
+  "id": "hudba",
+  "nazev": {
+   "cs": "Hudba",
+   "en": "Music"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T036-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo složil slavný cyklus houslových koncertů Čtvero ročních dob?",
+    "en": "Who composed the famous set of violin concertos The Four Seasons?"
+   },
+   "moznosti": {
+    "cs": [
+     "Wolfgang Amadeus Mozart",
+     "Johann Sebastian Bach",
+     "Ludwig van Beethoven",
+     "Antonio Vivaldi"
+    ],
+    "en": [
+     "Wolfgang Amadeus Mozart",
+     "Johann Sebastian Bach",
+     "Ludwig van Beethoven",
+     "Antonio Vivaldi"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Čtvero ročních dob složil Benátčan Antonio Vivaldi a vyšly roku 1725 v Amsterdamu. Každý ze čtyř koncertů doprovází sonet, který popisuje, co hudba líčí – možná ho napsal sám Vivaldi.",
+    "en": "The Four Seasons were written by the Venetian Antonio Vivaldi and published in Amsterdam in 1725. Each of the four concertos comes with a sonnet describing what the music depicts – possibly written by Vivaldi himself."
+   }
+  },
+  {
+   "id": "T036-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který skladatel složil Devátou symfonii s Ódou na radost, když už byl téměř úplně hluchý?",
+    "en": "Which composer wrote the Ninth Symphony with the Ode to Joy when he was already almost completely deaf?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ludwig van Beethoven",
+     "Wolfgang Amadeus Mozart",
+     "Franz Schubert",
+     "Joseph Haydn"
+    ],
+    "en": [
+     "Ludwig van Beethoven",
+     "Wolfgang Amadeus Mozart",
+     "Franz Schubert",
+     "Joseph Haydn"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Beethoven při premiéře roku 1824 udával tempo u jeviště, ale orchestr neslyšel. Altistka Caroline Ungerová ho prý musela otočit k publiku, aby viděl, jak sál nadšeně tleská.",
+    "en": "At the 1824 premiere Beethoven gave the tempos beside the stage but could not hear the orchestra. The contralto Caroline Unger reportedly had to turn him around to face the audience so he could see the cheering hall."
+   }
+  },
+  {
+   "id": "T036-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo složil cyklus symfonických básní Má vlast?",
+    "en": "Who composed the cycle of symphonic poems Má vlast (My Fatherland)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Antonín Dvořák",
+     "Zdeněk Fibich",
+     "Leoš Janáček",
+     "Bedřich Smetana"
+    ],
+    "en": [
+     "Antonín Dvořák",
+     "Zdeněk Fibich",
+     "Leoš Janáček",
+     "Bedřich Smetana"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Má vlast od Bedřicha Smetany vznikala v letech 1874–1879 a tvoří ji šest symfonických básní. Nejslavnější z nich, Vltava, líčí tok řeky od pramenů až k soutoku s Labem.",
+    "en": "Bedřich Smetana wrote Má vlast between 1874 and 1879; it consists of six symphonic poems. The most famous of them, Vltava (The Moldau), follows the river from its sources to where it joins the Elbe."
+   }
+  },
+  {
+   "id": "T036-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo složil Symfonii č. 9 „Z Nového světa“, známou jako Novosvětská?",
+    "en": "Who composed Symphony No. 9 \"From the New World\", known as the New World Symphony?"
+   },
+   "moznosti": {
+    "cs": [
+     "Leoš Janáček",
+     "Bedřich Smetana",
+     "Antonín Dvořák",
+     "Bohuslav Martinů"
+    ],
+    "en": [
+     "Leoš Janáček",
+     "Bedřich Smetana",
+     "Antonín Dvořák",
+     "Bohuslav Martinů"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Antonín Dvořák ji složil roku 1893 během pobytu v USA. Neil Armstrong si v roce 1969 vzal nahrávku s touto symfonií na misi Apollo 11, která poprvé přistála na Měsíci.",
+    "en": "Antonín Dvořák composed it in 1893 while living in the USA. In 1969 Neil Armstrong took a tape recording including the symphony on Apollo 11, the first Moon landing mission."
+   }
+  },
+  {
+   "id": "T036-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Pro který nástroj napsal Fryderyk Chopin naprostou většinu svých skladeb?",
+    "en": "For which instrument did Frédéric Chopin write the vast majority of his works?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pro violoncello",
+     "Pro housle",
+     "Pro klavír",
+     "Pro varhany"
+    ],
+    "en": [
+     "The cello",
+     "The violin",
+     "The piano",
+     "The organ"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Většina Chopinových skladeb je pro sólový klavír a klavír hraje roli ve všech jeho dílech. Polský „básník klavíru“ prožil posledních 18 let života v Paříži.",
+    "en": "Most of Chopin's works are for solo piano, and every one of them involves the piano. The Polish \"poet of the piano\" spent the last 18 years of his life in Paris."
+   }
+  },
+  {
+   "id": "T036-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém městě se narodil Wolfgang Amadeus Mozart?",
+    "en": "In which city was Wolfgang Amadeus Mozart born?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Praze",
+     "Ve Vídni",
+     "V Salcburku",
+     "V Mnichově"
+    ],
+    "en": [
+     "Prague",
+     "Vienna",
+     "Salzburg",
+     "Munich"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Mozart se narodil 27. ledna 1756 v Salcburku, kde jeho otec Leopold sloužil arcibiskupovi. Většinu dospělého života ale strávil ve Vídni.",
+    "en": "Mozart was born on 27 January 1756 in Salzburg, where his father Leopold served the archbishop. He spent most of his adult life in Vienna, however."
+   }
+  },
+  {
+   "id": "T036-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo složil balet Labutí jezero?",
+    "en": "Who composed the ballet Swan Lake?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sergej Rachmaninov",
+     "Petr Iljič Čajkovskij",
+     "Sergej Prokofjev",
+     "Igor Stravinskij"
+    ],
+    "en": [
+     "Sergei Rachmaninoff",
+     "Pyotr Ilyich Tchaikovsky",
+     "Sergei Prokofiev",
+     "Igor Stravinsky"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Labutí jezero složil Čajkovskij v letech 1875–1876 a premiéru mělo roku 1877 ve Velkém divadle v Moskvě. Dnes patří k nejhranějším baletům vůbec.",
+    "en": "Tchaikovsky composed Swan Lake in 1875–76, and it premiered in 1877 at the Bolshoi Theatre in Moscow. Today it is one of the most performed ballets of all."
+   }
+  },
+  {
+   "id": "T036-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který italský skladatel napsal opery Aida a La traviata?",
+    "en": "Which Italian composer wrote the operas Aida and La traviata?"
+   },
+   "moznosti": {
+    "cs": [
+     "Giuseppe Verdi",
+     "Gioachino Rossini",
+     "Giacomo Puccini",
+     "Gaetano Donizetti"
+    ],
+    "en": [
+     "Giuseppe Verdi",
+     "Gioachino Rossini",
+     "Giacomo Puccini",
+     "Gaetano Donizetti"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Obě opery napsal Giuseppe Verdi. Aidu si objednala egyptská vláda a premiéru měla roku 1871 v Káhiře; premiéra La traviaty roku 1853 naopak propadla.",
+    "en": "Both operas are by Giuseppe Verdi. Aida was commissioned by the Egyptian government and premiered in Cairo in 1871, whereas the 1853 premiere of La traviata was a failure."
+   }
+  },
+  {
+   "id": "T036-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ke kterému hudebnímu období patří Johann Sebastian Bach?",
+    "en": "Which period of music does Johann Sebastian Bach belong to?"
+   },
+   "moznosti": {
+    "cs": [
+     "K baroku",
+     "K renesanci",
+     "Ke klasicismu",
+     "K romantismu"
+    ],
+    "en": [
+     "The Baroque",
+     "The Renaissance",
+     "The Classical period",
+     "The Romantic period"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Bach (1685–1750) je vrcholným skladatelem pozdního baroka. Barokní hudba se obvykle vymezuje zhruba lety 1600–1750, tedy až do roku Bachovy smrti.",
+    "en": "Bach (1685–1750) is the towering composer of the late Baroque. Baroque music is usually dated from about 1600 to 1750, the year of Bach's death."
+   }
+  },
+  {
+   "id": "T036-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Zázračné dítě Mozart skládalo už velmi brzy. V kolika letech podle jeho sestry Nannerl psal první drobné skladby?",
+    "en": "The child prodigy Mozart composed from a very early age. At what age, according to his sister Nannerl, was he writing his first little pieces?"
+   },
+   "moznosti": {
+    "cs": [
+     "3",
+     "5",
+     "8",
+     "12"
+    ],
+    "en": [
+     "3",
+     "5",
+     "8",
+     "12"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Podle Nannerl skládal Wolfgang drobné skladby už v pěti letech. Tyto nejranější kousky mají v Köchelově seznamu čísla K. 1–5.",
+    "en": "According to Nannerl, Wolfgang was already composing little pieces at the age of five. These earliest works are listed in the Köchel catalogue as K. 1–5."
+   }
+  },
+  {
+   "id": "T036-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém městě měla v roce 1787 světovou premiéru Mozartova opera Don Giovanni?",
+    "en": "In which city did Mozart's opera Don Giovanni have its world premiere in 1787?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Salcburku",
+     "V Miláně",
+     "Ve Vídni",
+     "V Praze"
+    ],
+    "en": [
+     "Salzburg",
+     "Milan",
+     "Vienna",
+     "Prague"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Don Giovanni měl premiéru 29. října 1787 v dnešním Stavovském divadle v Praze a publikum ho přijalo nadšeně. Vídeňské uvedení v květnu 1788 už takový úspěch nemělo.",
+    "en": "Don Giovanni premiered on 29 October 1787 in what is now the Estates Theatre in Prague, to rapturous acclaim. The Vienna production of May 1788 did not enjoy the same success."
+   }
+  },
+  {
+   "id": "T036-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve které opeře Antonína Dvořáka zazní árie „Měsíčku na nebi hlubokém“?",
+    "en": "In which opera by Antonín Dvořák is the aria \"Song to the Moon\" (Měsíčku na nebi hlubokém) sung?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jakobín",
+     "Čert a Káča",
+     "Armida",
+     "Rusalka"
+    ],
+    "en": [
+     "The Jacobin",
+     "The Devil and Kate",
+     "Armida",
+     "Rusalka"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Árii zpívá vodní víla Rusalka v 1. dějství. Libreto napsal Jaroslav Kvapil podle pohádek K. J. Erbena a Boženy Němcové a opera měla premiéru roku 1901 v Praze.",
+    "en": "The water nymph Rusalka sings the aria in Act 1. Jaroslav Kvapil wrote the libretto based on fairy tales by K. J. Erben and Božena Němcová, and the opera premiered in Prague in 1901."
+   }
+  },
+  {
+   "id": "T036-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém německém městě si Richard Wagner nechal postavit divadlo určené k uvádění svých oper?",
+    "en": "In which German town did Richard Wagner have a theatre built specifically for performing his operas?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Lipsku",
+     "V Drážďanech",
+     "V Mnichově",
+     "V Bayreuthu"
+    ],
+    "en": [
+     "Leipzig",
+     "Dresden",
+     "Munich",
+     "Bayreuth"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Bayreuthský Festspielhaus se otevřel v srpnu 1876 první kompletní inscenací Prstenu Nibelungova (Der Ring des Nibelungen), cyklu čtyř oper. Wagnerovy slavnosti se tam konají dodnes.",
+    "en": "The Bayreuth Festspielhaus opened in August 1876 with the first complete staging of The Ring of the Nibelung, a cycle of four operas. The Wagner festival is still held there."
+   }
+  },
+  {
+   "id": "T036-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém městě vedl Antonín Dvořák v letech 1892–1895 Národní hudební konzervatoř?",
+    "en": "In which city did Antonín Dvořák direct the National Conservatory of Music from 1892 to 1895?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Filadelfii",
+     "V Chicagu",
+     "V Bostonu",
+     "V New Yorku"
+    ],
+    "en": [
+     "Philadelphia",
+     "Chicago",
+     "Boston",
+     "New York"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Dvořák vedl Národní konzervatoř v New Yorku. Léto 1893 strávil mezi českými krajany ve Spillville ve státě Iowa, kde napsal Smyčcový kvartet F dur zvaný Americký.",
+    "en": "Dvořák directed the National Conservatory in New York. He spent the summer of 1893 among Czech settlers in Spillville, Iowa, where he wrote his String Quartet in F major, nicknamed the \"American\"."
+   }
+  },
+  {
+   "id": "T036-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který skladatel a dirigent se narodil roku 1860 v obci Kaliště v Čechách?",
+    "en": "Which composer and conductor was born in 1860 in the village of Kaliště in Bohemia?"
+   },
+   "moznosti": {
+    "cs": [
+     "Gustav Mahler",
+     "Richard Strauss",
+     "Johannes Brahms",
+     "Anton Bruckner"
+    ],
+    "en": [
+     "Gustav Mahler",
+     "Richard Strauss",
+     "Johannes Brahms",
+     "Anton Bruckner"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Gustav Mahler se v Kališti narodil 7. července 1860 a ještě jako nemluvně se s rodinou přestěhoval do Jihlavy, kde vyrůstal. Od roku 1897 řídil Dvorní operu ve Vídni.",
+    "en": "Gustav Mahler was born in Kaliště on 7 July 1860 and moved with his family to Jihlava (Iglau) as an infant, growing up there. From 1897 he was director of the Vienna Court Opera."
+   }
+  },
+  {
+   "id": "T036-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Bohuslav Martinů se narodil a prožil dětství v neobvyklém bytě. Kde byl?",
+    "en": "Bohuslav Martinů was born and spent his childhood in an unusual home. Where was it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve vodním mlýně",
+     "V budově pivovaru",
+     "Ve věži kostela",
+     "V zámecké konírně"
+    ],
+    "en": [
+     "In a watermill",
+     "In a brewery building",
+     "In a church tower",
+     "In castle stables"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Martinů se narodil ve věži kostela sv. Jakuba v Poličce; do bytu vedlo 193 schodů a malého Bohuslava často vynášeli nahoru na zádech otec nebo starší sestra. Zemřel roku 1959 ve Švýcarsku a jeho ostatky byly do Poličky převezeny roku 1979.",
+    "en": "Martinů was born in the tower of St James's Church in Polička; 193 steps led up to the flat and young Bohuslav was often carried up on the back of his father or older sister. He died in Switzerland in 1959, and his remains were brought back to Polička in 1979."
+   }
+  },
+  {
+   "id": "T036-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Fryderyk Chopin zemřel roku 1849 v Paříži, kde je i pohřben. Kde je uloženo jeho srdce?",
+    "en": "Frédéric Chopin died in Paris in 1849 and is buried there. Where is his heart kept?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Krakově",
+     "Ve Vídni",
+     "Ve Varšavě",
+     "V Petrohradu"
+    ],
+    "en": [
+     "Kraków",
+     "Vienna",
+     "Warsaw",
+     "Saint Petersburg"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Chopinova sestra Ludwika převezla jeho srdce roku 1850 do Polska. Od roku 1882 je urna se srdcem zazděna v pilíři kostela sv. Kříže ve Varšavě, tělo leží na pařížském hřbitově Père-Lachaise.",
+    "en": "Chopin's sister Ludwika took his heart to Poland in 1850. Since 1882 the urn with the heart has been sealed in a pillar of the Holy Cross Church in Warsaw, while his body lies in Père Lachaise Cemetery in Paris."
+   }
+  },
+  {
+   "id": "T036-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co kromě orchestru předepisuje partitura Čajkovského slavnostní předehry „1812“ (Ouverture solennelle 1812)?",
+    "en": "Besides the orchestra, what does the score of Tchaikovsky's 1812 Overture call for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Potlesk publika",
+     "Dupot pochodujících vojáků",
+     "Výstřely z děl",
+     "Zvuk lodních sirén"
+    ],
+    "en": [
+     "Audience applause",
+     "Stamping of marching soldiers",
+     "Cannon fire",
+     "Ship sirens"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Předehra z roku 1880 oslavuje ubránění Ruska před Napoleonovou invazí roku 1812. Partitura počítá s „baterií děl“, při koncertech pod širým nebem se proto někdy opravdu střílí.",
+    "en": "The 1880 overture celebrates Russia's defence against Napoleon's invasion in 1812. The score calls for \"a battery of cannons\", so open-air performances sometimes really do fire them."
+   }
+  },
+  {
+   "id": "T036-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik dětí měl Johann Sebastian Bach ze svých dvou manželství?",
+    "en": "How many children did Johann Sebastian Bach have from his two marriages?"
+   },
+   "moznosti": {
+    "cs": [
+     "6",
+     "12",
+     "20",
+     "28"
+    ],
+    "en": [
+     "6",
+     "12",
+     "20",
+     "28"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "S první ženou Marií Barbarou měl Bach sedm dětí, s druhou ženou Annou Magdalenou třináct. Několik synů se stalo uznávanými skladateli, například Carl Philipp Emanuel a Johann Christian.",
+    "en": "Bach had seven children with his first wife Maria Barbara and thirteen with his second wife Anna Magdalena. Several sons became respected composers, such as Carl Philipp Emanuel and Johann Christian."
+   }
+  },
+  {
+   "id": "T036-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Komu chtěl Beethoven původně věnovat svou 3. symfonii (Eroicu), než jeho jméno z titulní strany vyškrábal?",
+    "en": "To whom did Beethoven originally intend to dedicate his Third Symphony (Eroica) before scratching the name off the title page?"
+   },
+   "moznosti": {
+    "cs": [
+     "Fridrichu II. Velikému",
+     "Napoleonu Bonapartovi",
+     "George Washingtonovi",
+     "Císaři Josefu II."
+    ],
+    "en": [
+     "Frederick II the Great",
+     "Napoleon Bonaparte",
+     "George Washington",
+     "Emperor Joseph II"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Beethoven obdivoval Napoleona jako zastánce revolučních ideálů a symfonii nadepsal „Bonaparte“. Podle vzpomínek jeho žáka Ferdinanda Riese po zprávě, že se Napoleon roku 1804 prohlásil císařem, rozzlobeně roztrhl titulní list; na dochované partituře je nápis vyškrabaný. Dílo vyšlo roku 1806 jako oslava „památky velkého muže“.",
+    "en": "Beethoven admired Napoleon as a champion of revolutionary ideals and headed the symphony \"Bonaparte\". According to his pupil Ferdinand Ries, on hearing that Napoleon had declared himself emperor in 1804 he angrily tore up the title page; on the surviving score the inscription is scratched out. The work was published in 1806 as celebrating \"the memory of a great man\"."
+   }
+  },
+  {
+   "id": "T036-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve finále Smetanova smyčcového kvartetu „Z mého života“ zazní dlouhý vysoký tón prvních houslí. Co jím Smetana znázornil?",
+    "en": "In the finale of Smetana's string quartet \"From My Life\" the first violin plays a long, high note. What did Smetana depict with it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pískání v uších před ohluchnutím",
+     "Hvizd lokomotivy",
+     "Zvonění zvonů na Vyšehradě",
+     "Zpěv skřivana nad polem"
+    ],
+    "en": [
+     "The ringing in his ears before he went deaf",
+     "A locomotive whistle",
+     "Bells ringing at Vyšehrad",
+     "A lark singing over a field"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vysoké e představuje zvonění v uších, které předznamenalo Smetanovu hluchotu. Ve skutečnosti prý slyšel celý akord As dur; kvartet e moll dokončil roku 1876.",
+    "en": "The high E stands for the ringing in his ears that heralded Smetana's deafness. In reality he reportedly heard a whole A-flat major chord; he completed the E minor quartet in 1876."
+   }
+  },
+  {
+   "id": "T036-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč se Mahlerově 8. symfonii říká „Symfonie tisíců“?",
+    "en": "Why is Mahler's Eighth Symphony called the \"Symphony of a Thousand\"?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na premiéře účinkovalo kolem tisíce hudebníků a zpěváků",
+     "Premiéru vidělo přes tisíc diváků",
+     "Byla tisícím koncertem Vídeňské filharmonie",
+     "Její první věta má přes tisíc taktů"
+    ],
+    "en": [
+     "About a thousand musicians and singers performed at its premiere",
+     "Over a thousand people attended its premiere",
+     "It was the Vienna Philharmonic's thousandth concert",
+     "Its first movement is over a thousand bars long"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Na premiéře v Mnichově roku 1910 účinkovalo podle muzikologa H.-L. de La Grange asi 1 015 lidí, z toho 850 sboristů. Přezdívku vymyslel kvůli reklamě impresário Emil Gutmann a Mahler ji neměl rád.",
+    "en": "According to musicologist H.-L. de La Grange, about 1,015 people performed at the 1910 Munich premiere, including 850 choristers. The nickname was devised for publicity by impresario Emil Gutmann, and Mahler disliked it."
+   }
+  },
+  {
+   "id": "T036-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Která skladba Leoše Janáčka zazní hned na začátku románu Harukiho Murakamiho 1Q84?",
+    "en": "Which piece by Leoš Janáček is heard at the very beginning of Haruki Murakami's novel 1Q84?"
+   },
+   "moznosti": {
+    "cs": [
+     "Taras Bulba",
+     "Glagolská mše",
+     "Sinfonietta",
+     "Lašské tance"
+    ],
+    "en": [
+     "Taras Bulba",
+     "Glagolitic Mass",
+     "Sinfonietta",
+     "Lachian Dances"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Román začíná Sinfoniettou hrající z rádia v taxíku a skladba se pak vrací jako pojítko mezi hlavními postavami. Janáček ji složil roku 1926 a věnoval ji československé armádě.",
+    "en": "The novel opens with the Sinfonietta playing on a taxi radio, and the piece keeps returning as a link between the two main characters. Janáček wrote it in 1926 and dedicated it to the Czechoslovak Army."
+   }
+  },
+  {
+   "id": "T036-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Pod jakým názvem se ve světě nejčastěji uvádí Janáčkova opera Její pastorkyňa?",
+    "en": "Under what title is Janáček's opera Její pastorkyňa (Her Stepdaughter) most often performed around the world?"
+   },
+   "moznosti": {
+    "cs": [
+     "Laca a Števa",
+     "Jenůfa",
+     "Moravská nevěsta",
+     "Kostelnička"
+    ],
+    "en": [
+     "Laca and Števa",
+     "Jenůfa",
+     "The Moravian Bride",
+     "Kostelnička"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Opera se hraje pod jménem hlavní hrdinky Jenůfy. Premiéru měla roku 1904 v Brně, ale širší uznání přinesla až pražská inscenace z roku 1916 a mezinárodní ohlas uvedení ve Vídni.",
+    "en": "The opera is performed under the name of its heroine, Jenůfa. It premiered in Brno in 1904, but wider recognition came only with the Prague production of 1916, and international fame with the Vienna staging."
+   }
+  },
+  {
+   "id": "T036-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Za kterým slavným varhaníkem se mladý Bach roku 1705 vypravil z Arnstadtu do Lübecku – podle tradice pěšky?",
+    "en": "Which famous organist did the young Bach travel from Arnstadt to Lübeck to hear in 1705 – reportedly on foot?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dietrich Buxtehude",
+     "Johann Pachelbel",
+     "Georg Friedrich Händel",
+     "Georg Philipp Telemann"
+    ],
+    "en": [
+     "Dietrich Buxtehude",
+     "Johann Pachelbel",
+     "George Frideric Handel",
+     "Georg Philipp Telemann"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Cesta měřila přes 400 km jedním směrem a Bach zůstal pryč několik měsíců, ačkoli dostal dovolenou jen na čtyři týdny. Buxtehude byl varhaníkem lübeckého kostela Panny Marie a patří k nejvýznamnějším skladatelům 17. století.",
+    "en": "The journey was over 400 km (250 mi) each way, and Bach stayed away for several months although he had been granted only four weeks' leave. Buxtehude was organist of St Mary's Church in Lübeck and is considered one of the most important composers of the 17th century."
+   }
+  },
+  {
+   "id": "T036-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Mozart zemřel roku 1791 a zanechal po sobě nedokončené Rekviem. Kdo ho dokončil v podobě, která se dnes hraje nejčastěji?",
+    "en": "Mozart died in 1791 leaving his Requiem unfinished. Who completed it in the version most often performed today?"
+   },
+   "moznosti": {
+    "cs": [
+     "Joseph Haydn",
+     "Franz Xaver Süssmayr",
+     "Ludwig van Beethoven",
+     "Carl Czerny"
+    ],
+    "en": [
+     "Joseph Haydn",
+     "Franz Xaver Süssmayr",
+     "Ludwig van Beethoven",
+     "Carl Czerny"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Dokončení zařídila vdova Constanze, aby dostala zbytek honoráře: začal ho Joseph Eybler a dílo dokončil Mozartův žák Süssmayr. Legenda, že Rekviem objednal a dokončil Salieri, je smyšlenka.",
+    "en": "The widow Constanze arranged the completion so she could collect the rest of the fee: Joseph Eybler started it and Mozart's pupil Süssmayr finished it. The legend that Salieri commissioned and completed the Requiem is pure invention."
+   }
+  },
+  {
+   "id": "T036-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč Italové od roku 1859 psali na zdi heslo „Viva VERDI“?",
+    "en": "Why did Italians write the slogan \"Viva VERDI\" on walls from 1859 onwards?"
+   },
+   "moznosti": {
+    "cs": [
+     "Děkovali Verdimu za hymnu sjednocené Itálie",
+     "Skrytě oslavovali krále Viktora Emanuela",
+     "Vítali Verdiho jako nového starostu Milána",
+     "Slavili tak premiéru opery Nabucco"
+    ],
+    "en": [
+     "To thank Verdi for the anthem of unified Italy",
+     "To secretly hail King Victor Emmanuel",
+     "To hail Verdi as the new mayor of Milan",
+     "To celebrate the premiere of the opera Nabucco"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jméno VERDI se četlo jako zkratka „Vittorio Emanuele Re D'Italia“ – Viktor Emanuel, král Itálie. Heslo se šířilo z Neapole po celé zemi v době boje za sjednocení.",
+    "en": "VERDI was read as an acronym for \"Vittorio Emanuele Re D'Italia\" – Victor Emmanuel, King of Italy. The slogan spread from Naples across the country during the struggle for unification."
+   }
+  },
+  {
+   "id": "T036-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na který nástroj hrál Antonín Dvořák v orchestru pražského Prozatímního divadla, který později řídil i Bedřich Smetana?",
+    "en": "Which instrument did Antonín Dvořák play in the orchestra of Prague's Provisional Theatre, which was later conducted by Bedřich Smetana as well?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na hoboj",
+     "Na violu",
+     "Na housle",
+     "Na violoncello"
+    ],
+    "en": [
+     "Oboe",
+     "Viola",
+     "Violin",
+     "Cello"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Dvořák hrál v orchestru na violu od roku 1862; Smetana se stal šéfdirigentem v roce 1866. Roku 1871 Dvořák z orchestru odešel, aby měl víc času na skládání.",
+    "en": "Dvořák played viola in the orchestra from 1862; Smetana became its chief conductor in 1866. Dvořák left the orchestra in 1871 to have more time for composing."
+   }
+  },
+  {
+   "id": "T036-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Mecenáška Naděžda von Meck podporovala Čajkovského třináct let. Jakou podmínku si stanovila?",
+    "en": "The patroness Nadezhda von Meck supported Tchaikovsky for thirteen years. What condition did she set?"
+   },
+   "moznosti": {
+    "cs": [
+     "Že u ní bude každé léto koncertovat",
+     "Že bude žít trvale v Moskvě",
+     "Že nebude skládat opery",
+     "Že se nikdy osobně nesetkají"
+    ],
+    "en": [
+     "That he would give concerts at her estate every summer",
+     "That he would live permanently in Moscow",
+     "That he would not compose operas",
+     "That they would never meet in person"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vyměnili si přes 1 200 dopisů, ale setkat se neměli. V srpnu 1879 se náhodou ocitli tváří v tvář na jejím panství v Simakách, beze slova se minuli a Čajkovskij se jí ještě týž večer v dopise omluvil.",
+    "en": "They exchanged over 1,200 letters but were never to meet. In August 1879 they came face to face by chance on her estate at Simaki, passed without a word, and Tchaikovsky apologised in a letter that same evening."
+   }
+  },
+  {
+   "id": "T036-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Vivaldi desítky let působil v benátském Ospedale della Pietà. Pro koho tam skládal a koho učil?",
+    "en": "Vivaldi worked for decades at the Ospedale della Pietà in Venice. For whom did he compose there and whom did he teach?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pro dívky z tamního sirotčince",
+     "Pro chlapecký sbor baziliky sv. Marka",
+     "Pro mnichy benediktinského kláštera",
+     "Pro dvorní orchestr benátského dóžete"
+    ],
+    "en": [
+     "The girls of its orphanage",
+     "The boys' choir of St Mark's Basilica",
+     "The monks of a Benedictine monastery",
+     "The court orchestra of the Doge of Venice"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pietà byl sirotčinec, jehož chovanky dostávaly hudební vzdělání a nejnadanější hrály v proslulém orchestru. Vivaldi tam od roku 1703 učil hru na housle a později jako hudební ředitel psal dva nové koncerty měsíčně.",
+    "en": "The Pietà was an orphanage whose girls received a musical education, the most talented playing in its renowned orchestra. Vivaldi taught violin there from 1703 and later, as music director, wrote two new concertos a month."
+   }
+  }
+ ]
+}

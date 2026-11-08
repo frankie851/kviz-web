@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T039",
+ "nazev": {
+  "cs": "Jak vznikly slavné značky a firmy",
+  "en": "How Famous Brands and Companies Began"
+ },
+ "kategorie": {
+  "id": "ekonomika-a-penize",
+  "nazev": {
+   "cs": "Ekonomika a peníze",
+   "en": "Economy & Money"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T039-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jméno LEGO vzniklo zkrácením dánského spojení „leg godt“. Co znamená?",
+    "en": "The name LEGO is a contraction of the Danish phrase \"leg godt\". What does it mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Malé kostky",
+     "Stav vysoko",
+     "Hraj si dobře",
+     "Spoj dohromady"
+    ],
+    "en": [
+     "Small bricks",
+     "Build high",
+     "Play well",
+     "Join together"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Leg godt znamená dánsky „hraj si dobře“. Firma truhláře Ole Kirka Christiansena z Billundu vyráběla dřevěné hračky a plastové spojovací kostky začala vyrábět až roku 1949.",
+    "en": "Leg godt is Danish for \"play well\". The company of Billund carpenter Ole Kirk Christiansen made wooden toys and only began producing interlocking plastic bricks in 1949."
+   }
+  },
+  {
+   "id": "T039-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Sportovní značka Nike nese jméno řecké bohyně. Čeho je bohyní?",
+    "en": "The sports brand Nike is named after a Greek goddess. What is she the goddess of?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lovu",
+     "Vítězství",
+     "Krásy",
+     "Moudrosti"
+    ],
+    "en": [
+     "Hunting",
+     "Victory",
+     "Beauty",
+     "Wisdom"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Níké byla řecká bohyně vítězství. Jméno pro značku navrhl běžec Jeff Johnson, který firmě pomáhal s marketingem. O logu swoosh se říká, že symbolizuje její křídlo.",
+    "en": "Nike was the Greek goddess of victory. The name was suggested by runner Jeff Johnson, who helped market the brand. The Swoosh logo is also said to symbolise her wing."
+   }
+  },
+  {
+   "id": "T039-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaké povolání měl John Pemberton, který roku 1886 v Atlantě vymyslel Coca-Colu?",
+    "en": "What was the profession of John Pemberton, who invented Coca-Cola in Atlanta in 1886?"
+   },
+   "moznosti": {
+    "cs": [
+     "Cukrář",
+     "Pekař",
+     "Barman",
+     "Lékárník"
+    ],
+    "en": [
+     "Confectioner",
+     "Baker",
+     "Bartender",
+     "Pharmacist"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pemberton byl lékárník a Coca-Colu původně nabízel jako povzbuzující nápoj. Poprvé se prodávala v Jacobově lékárně v Atlantě, a to po sklenicích.",
+    "en": "Pemberton was a pharmacist who originally offered Coca-Cola as a tonic drink. It was first sold by the glass at Jacob's Pharmacy in Atlanta."
+   }
+  },
+  {
+   "id": "T039-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém městě založil Tomáš Baťa se sourozenci Antonínem a Annou roku 1894 obuvnickou firmu?",
+    "en": "In which town did Tomáš Baťa, together with his siblings Antonín and Anna, found a shoe company in 1894?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Brně",
+     "V Prostějově",
+     "Ve Zlíně",
+     "V Uherském Hradišti"
+    ],
+    "en": [
+     "Brno",
+     "Prostějov",
+     "Zlín",
+     "Uherské Hradiště"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Firma T. & A. Baťa vznikla ve Zlíně, kde rod Baťů ševcoval už po generace. Sourozenci začínali s kapitálem zhruba 800 zlatých.",
+    "en": "The T. & A. Baťa company was founded in Zlín, where the Baťa family had been cobblers for generations. The siblings started with capital of about 800 gulden."
+   }
+  },
+  {
+   "id": "T039-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém městě založili roku 1895 Václav Laurin a Václav Klement firmu, z níž vzešla dnešní Škoda Auto?",
+    "en": "In which town did Václav Laurin and Václav Klement found the company in 1895 that became today's Škoda Auto?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Plzni",
+     "V Kolíně",
+     "V Kopřivnici",
+     "V Mladé Boleslavi"
+    ],
+    "en": [
+     "Plzeň",
+     "Kolín",
+     "Kopřivnice",
+     "Mladá Boleslav"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Laurin & Klement začínali v Mladé Boleslavi. Jméno Škoda nesou auta od roku 1925, kdy firmu převzaly plzeňské Škodovy závody.",
+    "en": "Laurin & Klement started in Mladá Boleslav. The cars have carried the Škoda name since 1925, when the company was taken over by the Škoda Works of Plzeň."
+   }
+  },
+  {
+   "id": "T039-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Po čem pojmenoval Jeff Bezos svou firmu Amazon?",
+    "en": "What did Jeff Bezos name his company Amazon after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Po svém oblíbeném románu",
+     "Po přezdívce své manželky",
+     "Po řece Amazonce",
+     "Po druhu papouška"
+    ],
+    "en": [
+     "His favourite novel",
+     "His wife's nickname",
+     "The Amazon River",
+     "A species of parrot"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Bezos firmu roku 1994 založil pod jménem Cadabra a brzy ji přejmenoval podle největší řeky světa. Výhodou bylo i to, že jméno na A se objevovalo na začátku abecedních seznamů.",
+    "en": "Bezos founded the company as Cadabra in 1994 and soon renamed it after the world's largest river. A name starting with A also appeared near the top of alphabetical listings."
+   }
+  },
+  {
+   "id": "T039-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kde začínali roku 1938 Bill Hewlett a Dave Packard, zakladatelé firmy HP?",
+    "en": "Where did Bill Hewlett and Dave Packard, the founders of HP, start out in 1938?"
+   },
+   "moznosti": {
+    "cs": [
+     "V garáži v Palo Altu",
+     "V pronajatém skladu v San Francisku",
+     "Na rodinné farmě v Coloradu",
+     "V knihovně Stanfordovy univerzity"
+    ],
+    "en": [
+     "In a garage in Palo Alto",
+     "In a rented warehouse in San Francisco",
+     "On a family farm in Colorado",
+     "In the Stanford University library"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Začínali v pronajaté garáži v Palo Altu s kapitálem 538 dolarů. HP je proto považována za symbolického zakladatele Silicon Valley.",
+    "en": "They started in a rented garage in Palo Alto with $538 in capital, which is why HP is regarded as the symbolic founder of Silicon Valley."
+   }
+  },
+  {
+   "id": "T039-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Z čeho vzniklo jméno značky Adidas?",
+    "en": "Where does the brand name Adidas come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z přezdívky a příjmení zakladatele Adiho Dasslera",
+     "Ze zkratky hesla „All Day I Dream About Sports“",
+     "Z řeckého slova pro rychlost",
+     "Z názvu bavorské vesnice"
+    ],
+    "en": [
+     "The founder's nickname and surname, Adi Dassler",
+     "An acronym of \"All Day I Dream About Sports\"",
+     "A Greek word for speed",
+     "The name of a Bavarian village"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Adolf „Adi“ Dassler spojil svou přezdívku se začátkem příjmení. Výklad „All Day I Dream About Sports“ je jen městská legenda.",
+    "en": "Adolf \"Adi\" Dassler combined his nickname with the start of his surname. \"All Day I Dream About Sports\" is just an urban myth."
+   }
+  },
+  {
+   "id": "T039-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Po kom dostala jméno panenka Barbie, představená roku 1959?",
+    "en": "Who was the Barbie doll, introduced in 1959, named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Po dceři své tvůrkyně Ruth Handlerové",
+     "Po slavné hollywoodské herečce",
+     "Po hrdince oblíbeného komiksu",
+     "Po vnučce zakladatele firmy Mattel"
+    ],
+    "en": [
+     "The daughter of her creator Ruth Handler",
+     "A famous Hollywood actress",
+     "The heroine of a popular comic strip",
+     "The granddaughter of Mattel's founder"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Ruth Handlerová, spoluzakladatelka firmy Mattel, pojmenovala panenku po dceři Barbaře. Předlohou jí byla německá panenka Bild Lilli, kterou si koupila na cestě po Švýcarsku.",
+    "en": "Ruth Handler, co-founder of Mattel, named the doll after her daughter Barbara. It was based on the German Bild Lilli doll, which she had bought on a trip to Switzerland."
+   }
+  },
+  {
+   "id": "T039-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém městě sídlí automobilka Tatra?",
+    "en": "In which town is the Tatra vehicle company based?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Zlíně",
+     "V Mladé Boleslavi",
+     "V Kopřivnici",
+     "V Ostravě"
+    ],
+    "en": [
+     "Zlín",
+     "Mladá Boleslav",
+     "Kopřivnice",
+     "Ostrava"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kopřivnická firma vznikla roku 1850 jako výrobce kočárů a povozů. Jméno Tatra podle pohoří Tatry nese od roku 1919.",
+    "en": "The Kopřivnice company was founded in 1850 as a maker of horse-drawn carriages and wagons. It has carried the Tatra name, after the Tatra Mountains, since 1919."
+   }
+  },
+  {
+   "id": "T039-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím začínala finská Nokia, když ji roku 1865 založil důlní inženýr Fredrik Idestam?",
+    "en": "How did the Finnish company Nokia begin when mining engineer Fredrik Idestam founded it in 1865?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sklárnou na výrobu lahví",
+     "Pivovarem a sladovnou",
+     "Loděnicí na rybářské čluny",
+     "Továrnou na papírovinu"
+    ],
+    "en": [
+     "As a bottle glassworks",
+     "As a brewery and malt house",
+     "As a fishing-boat yard",
+     "As a wood-pulp mill"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Idestam postavil továrnu na papírovinu (surovinu pro výrobu papíru) u Tampere a jméno firmě dalo městečko Nokia, kde od roku 1868 stála druhá. Roku 1967 se Nokia spojila s gumárnou a s kabelovnou.",
+    "en": "Idestam built a pulp mill (producing raw material for paper) near Tampere, and the company took its name from the town of Nokia, site of the second mill from 1868. In 1967 Nokia merged with a rubber works and a cable factory."
+   }
+  },
+  {
+   "id": "T039-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co vyrábělo japonské Nintendo, když ho Fusadžiró Jamauči (Fusajiro Yamauchi) roku 1889 v Kjótu založil?",
+    "en": "What did Nintendo make when Fusajiro Yamauchi founded it in Kyoto in 1889?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hrací karty",
+     "Dřevěné panenky",
+     "Papírové lampiony",
+     "Porcelánové nádobí"
+    ],
+    "en": [
+     "Playing cards",
+     "Wooden dolls",
+     "Paper lanterns",
+     "Porcelain tableware"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Nintendo začínalo ručně malovanými kartami hanafuda („květinové karty“). Hračky přidalo v 60. letech 20. století a videohry ještě později.",
+    "en": "Nintendo started with handmade hanafuda (\"flower cards\") playing cards. It added toys in the 1960s and video games later still."
+   }
+  },
+  {
+   "id": "T039-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co znamená latinské slovo volvo, které dalo jméno švédské automobilce?",
+    "en": "What does the Latin word volvo, which gave the Swedish carmaker its name, mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Létám",
+     "Řídím",
+     "Vítězím",
+     "Valím se"
+    ],
+    "en": [
+     "I fly",
+     "I steer",
+     "I win",
+     "I roll"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Volvo je 1. osoba slovesa volvere, tedy „valím se, kutálím se“. Jméno si roku 1911 zaregistrovala firma SKF pro řadu kuličkových ložisek a automobilka ho začala užívat roku 1927.",
+    "en": "Volvo is the first person of the verb volvere, meaning \"I roll\". SKF registered it in 1911 for a line of ball bearings, and the carmaker began using it in 1927."
+   }
+  },
+  {
+   "id": "T039-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Odkud pochází jméno zmrzliny Häagen-Dazs?",
+    "en": "Where does the name of Häagen-Dazs ice cream come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Je to starý nizozemský výraz pro smetanu",
+     "Je vymyšlené, aby znělo skandinávsky",
+     "Je to název vesnice v Dánsku",
+     "Je to příjmení dánských zakladatelů"
+    ],
+    "en": [
+     "It is an old Dutch word for cream",
+     "It was invented to sound Scandinavian",
+     "It is the name of a village in Denmark",
+     "It is the surname of its Danish founders"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jméno vymyslel Reuben Mattus, který značku založil s manželkou Rose roku 1960 v newyorském Bronxu. Písmeno ä ani spojení zs dánština vůbec nezná.",
+    "en": "The name was made up by Reuben Mattus, who founded the brand with his wife Rose in the Bronx, New York, in 1960. Danish actually has neither the letter ä nor the combination zs."
+   }
+  },
+  {
+   "id": "T039-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Z čeho vzniklo jméno IKEA?",
+    "en": "Where does the name IKEA come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z přezdívky zakladatelovy babičky",
+     "Ze švédského slova pro domov",
+     "Ze zkratky švédského hesla „Nábytek pro každého“",
+     "Z iniciál zakladatele, jeho rodného statku a vesnice"
+    ],
+    "en": [
+     "The nickname of the founder's grandmother",
+     "A Swedish word for home",
+     "An acronym of the Swedish slogan \"Furniture for everyone\"",
+     "The initials of the founder, his family farm and his village"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "I a K jsou iniciály Ingvara Kamprada, E je statek Elmtaryd a A jeho rodná obec Agunnaryd. Kamprad firmu založil roku 1943 v 17 letech jako zásilkový obchod.",
+    "en": "I and K are Ingvar Kamprad's initials, E is the Elmtaryd farm and A his home village of Agunnaryd. Kamprad founded the company in 1943, aged 17, as a mail-order business."
+   }
+  },
+  {
+   "id": "T039-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jméno Coca-Cola odkazuje na dvě původní suroviny nápoje. Které?",
+    "en": "The name Coca-Cola refers to two of the drink's original ingredients. Which ones?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kakaové boby a karamel",
+     "Listy koky a kolové ořechy",
+     "Kakaové boby a kolové ořechy",
+     "Listy koky a kokosové mléko"
+    ],
+    "en": [
+     "Cocoa beans and caramel",
+     "Coca leaves and kola nuts",
+     "Cocoa beans and kola nuts",
+     "Coca leaves and coconut milk"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jméno i typické psací písmo loga navrhl Pembertonův účetní Frank Mason Robinson. Nápoj se zpočátku prodával za pět centů za sklenici.",
+    "en": "Both the name and the distinctive cursive script of the logo came from Pemberton's bookkeeper Frank Mason Robinson. The drink initially sold for five cents a glass."
+   }
+  },
+  {
+   "id": "T039-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Z čeho vzniklo jméno motocyklů Jawa?",
+    "en": "Where does the name of Jawa motorcycles come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ze slangového výrazu pro kávu",
+     "Z iniciál zakladatelů Jana a Václava",
+     "Ze začátků jmen Janeček a Wanderer",
+     "Z názvu indonéského ostrova Jáva"
+    ],
+    "en": [
+     "A slang word for coffee",
+     "The initials of founders Jan and Václav",
+     "The first letters of Janeček and Wanderer",
+     "The name of the Indonesian island of Java"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "František Janeček roku 1929 koupil motocyklovou divizi německé firmy Wanderer a název JAWA složil z prvních písmen obou jmen. První model měl motor o objemu 500 cm³.",
+    "en": "In 1929 František Janeček bought the motorcycle division of the German firm Wanderer and formed the name JAWA from the first letters of both names. The first model had a 500 cc engine."
+   }
+  },
+  {
+   "id": "T039-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Po kom je pojmenována automobilová značka Mercedes?",
+    "en": "Who is the Mercedes car brand named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Po španělské princezně",
+     "Po manželce Gottlieba Daimlera",
+     "Po dceři Carla Benze",
+     "Po dceři obchodníka Emila Jellineka"
+    ],
+    "en": [
+     "A Spanish princess",
+     "Gottlieb Daimler's wife",
+     "Carl Benz's daughter",
+     "The daughter of businessman Emil Jellinek"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Emil Jellinek prodával vozy firmy Daimler a závodil s nimi v Nice pod jménem své dcery Mercédès. Roku 1903 si dokonce změnil příjmení na Jellinek-Mercedes.",
+    "en": "Emil Jellinek sold Daimler cars and raced them in Nice under the name of his daughter Mercédès. In 1903 he even changed his own surname to Jellinek-Mercedes."
+   }
+  },
+  {
+   "id": "T039-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Po čem dostala jméno českobudějovická firma Koh-i-noor Hardtmuth, výrobce tužek?",
+    "en": "What was the pencil maker Koh-i-noor Hardtmuth of České Budějovice named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Po hoře v Himálaji",
+     "Po indickém maharádžovi",
+     "Po perském básníkovi",
+     "Po slavném diamantu"
+    ],
+    "en": [
+     "A Himalayan mountain",
+     "An Indian maharaja",
+     "A Persian poet",
+     "A famous diamond"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Koh-i-noor znamená persky „hora světla“ a je to diamant z britských korunovačních klenotů. Pod tímto jménem uvedli Hardtmuthové své žluté tužky na světové výstavě v Paříži roku 1889.",
+    "en": "Koh-i-noor means \"mountain of light\" in Persian and is a diamond in the British Crown Jewels. The Hardtmuths launched their yellow pencils under this name at the 1889 World's Fair in Paris."
+   }
+  },
+  {
+   "id": "T039-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co se podle Tomáše Bati označuje jako „baťovská cena“?",
+    "en": "What is meant by a \"Baťa price\", named after Tomáš Baťa?"
+   },
+   "moznosti": {
+    "cs": [
+     "Cena končící devítkou",
+     "Cena platná jen pro zaměstnance",
+     "Cena splatná ve splátkách",
+     "Cena zaokrouhlená na celé stovky"
+    ],
+    "en": [
+     "A price ending in nine",
+     "A price valid only for employees",
+     "A price payable in instalments",
+     "A price rounded to whole hundreds"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Baťa zavedl ceny končící devítkou místo zaokrouhlené částky, protože podle něj působily na zákazníky přitažlivěji. Podle něj se tomu dodnes říká baťovská cena.",
+    "en": "Baťa set prices ending in nine rather than a round number because he believed customers found them more appealing. Such prices are still called Baťa prices today."
+   }
+  },
+  {
+   "id": "T039-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik dolarů dostala roku 1971 studentka grafiky Carolyn Davidsonová za návrh loga Nike (swoosh)?",
+    "en": "How many dollars was graphic design student Carolyn Davidson paid in 1971 for designing the Nike logo (the Swoosh)?"
+   },
+   "moznosti": {
+    "cs": [
+     "35",
+     "350",
+     "3 500",
+     "35 000"
+    ],
+    "en": [
+     "35",
+     "350",
+     "3,500",
+     "35,000"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Studentka Portlandské státní univerzity dostala 35 dolarů; firma uvádí, že na logu pracovala 17,5 hodiny. Roku 1983 jí Phil Knight poděkoval zlatým prstenem se swooshem a diamantem a 500 akciemi Nike.",
+    "en": "The Portland State University student was paid $35; the company says she worked 17.5 hours on the logo. In 1983 Phil Knight thanked her with a gold Swoosh ring set with a diamond and 500 shares of Nike stock."
+   }
+  },
+  {
+   "id": "T039-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Pro který film koupilo studio Walta Disneyho osm audiooscilátorů HP 200B, jeden z prvních úspěšných výrobků firmy HP?",
+    "en": "For which film did the Walt Disney studio buy eight HP 200B audio oscillators, one of HP's first successful products?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dumbo",
+     "Sněhurka a sedm trpaslíků",
+     "Pinocchio",
+     "Fantasia"
+    ],
+    "en": [
+     "Dumbo",
+     "Snow White and the Seven Dwarfs",
+     "Pinocchio",
+     "Fantasia"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Disney je potřeboval pro zvuk filmu Fantasia (1940). O pořadí jmen v názvu Hewlett-Packard předtím zakladatelé rozhodli hodem mincí.",
+    "en": "Disney needed them for the sound of Fantasia (1940). The founders had earlier tossed a coin to decide the order of names in Hewlett-Packard."
+   }
+  },
+  {
+   "id": "T039-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč rodina Toyoda pojmenovala svou automobilku Toyota?",
+    "en": "Why did the Toyoda family name their car company Toyota?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na přání amerického obchodního partnera",
+     "Nový název se psal osmi tahy, což je šťastné číslo",
+     "Toyota znamená japonsky „rychlý vůz“",
+     "Jméno Toyoda už měla zaregistrované jiná firma"
+    ],
+    "en": [
+     "At the request of an American business partner",
+     "The new name took eight brush strokes, a lucky number",
+     "Toyota means \"fast car\" in Japanese",
+     "Another company had already registered the Toyoda name"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Toyota se japonsky píše osmi tahy štětcem a osmička je šťastné číslo. Navíc se tím firma vzdálila od doslovného významu Toyoda, „úrodná rýžová pole“; rodina předtím vyráběla automatické tkalcovské stavy.",
+    "en": "Toyota takes eight brush strokes to write in Japanese, and eight is a lucky number. It also moved away from the literal meaning of Toyoda, \"fertile rice paddies\"; the family had previously made automatic looms."
+   }
+  },
+  {
+   "id": "T039-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "S čím obchodovala firma Samsung v prvních letech po založení roku 1938?",
+    "en": "What did Samsung trade in during its first years after being founded in 1938?"
+   },
+   "moznosti": {
+    "cs": [
+     "S rádii, elektronkami a gramofony",
+     "S porcelánem, hedvábím a čajem",
+     "Se sušenými rybami, potravinami a nudlemi",
+     "S uhlím, petrolejem a stavebním dřevem"
+    ],
+    "en": [
+     "Radios, vacuum tubes and gramophones",
+     "Porcelain, silk and tea",
+     "Dried fish, groceries and noodles",
+     "Coal, kerosene and building timber"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Lee Byung-chul začínal jako obchodník se sušenými rybami, místními potravinami a nudlemi. Jméno Samsung znamená korejsky „tři hvězdy“.",
+    "en": "Lee Byung-chul started out trading dried fish, locally grown groceries and noodles. The name Samsung means \"three stars\" in Korean."
+   }
+  },
+  {
+   "id": "T039-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaké povolání měl Václav Klement, když marně žádal německou firmu Seidel & Naumann o opravu svého kola?",
+    "en": "What was Václav Klement's profession when he unsuccessfully asked the German company Seidel & Naumann to repair his bicycle?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kovář",
+     "Knihkupec",
+     "Notář",
+     "Učitel"
+    ],
+    "en": [
+     "Blacksmith",
+     "Bookseller",
+     "Notary",
+     "Teacher"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Podle tradovaného příběhu napsal knihkupec Klement firmě česky a dostal odpověď, ať píše jazykem, kterému rozumějí. S Václavem Laurinem pak začal kola opravovat a vyrábět sám.",
+    "en": "According to the traditional story, the bookseller Klement wrote to the company in Czech and was told to write in a language they understood. He then began repairing and making bicycles himself with Václav Laurin."
+   }
+  },
+  {
+   "id": "T039-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kofola vznikla roku 1959 při výzkumu, jak využít přebytek které látky. Které?",
+    "en": "Kofola was created in 1959 during research into how to use a surplus of which substance?"
+   },
+   "moznosti": {
+    "cs": [
+     "Cukru z řepné melasy",
+     "Kofeinu z pražení kávy",
+     "Ovocné dřeně z konzerváren",
+     "Chmelového extraktu"
+    ],
+    "en": [
+     "Sugar from beet molasses",
+     "Caffeine from coffee roasting",
+     "Fruit pulp from canneries",
+     "Hop extract"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Výzkum probíhal v pražském Výzkumném ústavu léčivých rostlin a vznikl z něj sladkokyselý sirup Kofo. Nápoj z něj se začal prodávat o rok později jako náhrada nedostupných západních kol.",
+    "en": "The research took place at the Research Institute of Medicinal Plants in Prague and produced a sweet-and-sour syrup called Kofo. The drink made from it went on sale a year later as a substitute for Western colas, which were unavailable."
+   }
+  },
+  {
+   "id": "T039-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co si firma Josefa Hardtmutha, předchůdce značky Koh-i-noor, nechala roku 1802 patentovat?",
+    "en": "What did Joseph Hardtmuth's company, the forerunner of the Koh-i-noor brand, patent in 1802?"
+   },
+   "moznosti": {
+    "cs": [
+     "Plnicí pero s ocelovým hrotem",
+     "Voskové pastelky s rostlinnými barvivy",
+     "Tuhu do tužek ze směsi kaolinu a grafitu",
+     "Pryž na gumování z přírodního kaučuku"
+    ],
+    "en": [
+     "A fountain pen with a steel nib",
+     "Wax crayons with plant-based dyes",
+     "Pencil lead made from a mix of kaolin and graphite",
+     "An eraser made from natural rubber"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Firmu založil roku 1790 Rakušan Joseph Hardtmuth a roku 1848 se výroba přestěhovala do Českých Budějovic. Jméno Koh-i-noor dostaly tužky až o mnoho let později, roku 1889.",
+    "en": "The company was founded in 1790 by the Austrian Joseph Hardtmuth, and production moved to České Budějovice in 1848. The pencils only got the Koh-i-noor name much later, in 1889."
+   }
+  },
+  {
+   "id": "T039-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se jmenoval automobil postavený roku 1897 na Moravě, který je považován za první tovární automobil s benzinovým motorem ve střední a východní Evropě?",
+    "en": "What was the name of the car built in Moravia in 1897, regarded as the first factory-built petrol-engined car in Central and Eastern Europe?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rapid",
+     "Präsident",
+     "Voiturette",
+     "Slavia"
+    ],
+    "en": [
+     "Rapid",
+     "Präsident",
+     "Voiturette",
+     "Slavia"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Vůz Präsident postavila vagonka Nesselsdorfer Wagenbau, založená roku 1850 jako výrobce kočárů. Firma je považována za třetí nejstarší výrobce motorových vozidel na světě s nepřerušenou historií.",
+    "en": "The Präsident was built by the Nesselsdorfer Wagenbau wagon works, founded in 1850 as a carriage maker. The company is regarded as the third-oldest motor vehicle maker in the world with an unbroken history."
+   }
+  },
+  {
+   "id": "T039-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co hlavně vyráběl truhlář Ole Kirk Christiansen, zakladatel firmy LEGO, než se ve 30. letech pustil do hraček?",
+    "en": "What did carpenter Ole Kirk Christiansen, founder of LEGO, mainly make before he turned to toys in the 1930s?"
+   },
+   "moznosti": {
+    "cs": [
+     "Žebříky a žehlicí prkna",
+     "Rybářské čluny",
+     "Dřevěné sudy",
+     "Kostelní lavice"
+    ],
+    "en": [
+     "Ladders and ironing boards",
+     "Fishing boats",
+     "Wooden barrels",
+     "Church pews"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Za hospodářské krize prodej žebříků a žehlicích prken upadal, a tak Christiansen roku 1932 začal vyrábět dřevěné hračky. Mezi prvními byla dřevěná kachna na tahání.",
+    "en": "During the Great Depression sales of ladders and ironing boards declined, so in 1932 Christiansen began making wooden toys. Among the early ones was a pull-along wooden duck."
+   }
+  },
+  {
+   "id": "T039-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jméno Canon vzniklo z názvu prototypu fotoaparátu Kwanon z roku 1934. Po kom byl prototyp pojmenován?",
+    "en": "The name Canon came from the Kwanon camera prototype of 1934. Who was the prototype named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Po posvátné hoře Fudži",
+     "Po buddhistické bódhisattvě soucitu",
+     "Po synovi jednoho ze zakladatelů",
+     "Po japonském císaři"
+    ],
+    "en": [
+     "The sacred Mount Fuji",
+     "A Buddhist bodhisattva of compassion",
+     "The son of one of the founders",
+     "A Japanese emperor"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Prototyp nesl jméno bódhisattvy soucitu Kannon (Kwannon), v Číně uctívané jako Kuan-jin (Guanyin). Kwanon byl prototyp prvního japonského kinofilmového fotoaparátu se štěrbinovou závěrkou.",
+    "en": "The prototype was named after Kannon (Kwannon), the bodhisattva of compassion, revered in China as Guanyin. The Kwanon was the prototype of Japan's first 35mm camera with a focal-plane shutter."
+   }
+  }
+ ]
+}

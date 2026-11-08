@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T003",
+ "nazev": {
+  "cs": "Příběhy za názvy chemických prvků",
+  "en": "The Stories Behind Chemical Element Names"
+ },
+ "kategorie": {
+  "id": "veda-a-technika",
+  "nazev": {
+   "cs": "Věda a technika",
+   "en": "Science & Technology"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T003-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou chemickou značku má zlato?",
+    "en": "What is the chemical symbol for gold?"
+   },
+   "moznosti": {
+    "cs": [
+     "Au",
+     "Ag",
+     "Gd",
+     "Go"
+    ],
+    "en": [
+     "Au",
+     "Ag",
+     "Gd",
+     "Go"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Značka Au pochází z latinského aurum. Ag patří stříbru (argentum) a Gd gadoliniu.",
+    "en": "The symbol Au comes from the Latin aurum. Ag belongs to silver (argentum) and Gd to gadolinium."
+   }
+  },
+  {
+   "id": "T003-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Latinský název stříbra argentum dal jméno které jihoamerické zemi?",
+    "en": "The Latin name for silver, argentum, gave its name to which South American country?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chile",
+     "Argentina",
+     "Brazílie",
+     "Uruguay"
+    ],
+    "en": [
+     "Chile",
+     "Argentina",
+     "Brazil",
+     "Uruguay"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Argentina znamená zhruba „stříbrná země“. První evropští mořeplavci tu doufali v bohatá ložiska stříbra (legenda o stříbrných horách), odtud i název řeky Río de la Plata („stříbrná řeka“).",
+    "en": "Argentina roughly means 'land of silver'. The first European explorers hoped to find rich silver deposits there (the legend of the silver mountains), which also gave the Río de la Plata ('river of silver') its name."
+   }
+  },
+  {
+   "id": "T003-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterému prvku patří značka Fe?",
+    "en": "Which element has the symbol Fe?"
+   },
+   "moznosti": {
+    "cs": [
+     "Fermium",
+     "Francium",
+     "Fluor",
+     "Železo"
+    ],
+    "en": [
+     "Fermium",
+     "Francium",
+     "Fluorine",
+     "Iron"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Fe je zkratka latinského ferrum (železo). Odtud i slova jako ferit nebo feromagnetismus.",
+    "en": "Fe is short for the Latin ferrum (iron), the root of words such as ferrite and ferromagnetism."
+   }
+  },
+  {
+   "id": "T003-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterému prvku patří značka Pb?",
+    "en": "Which element has the symbol Pb?"
+   },
+   "moznosti": {
+    "cs": [
+     "Olovo",
+     "Plutonium",
+     "Platina",
+     "Palladium"
+    ],
+    "en": [
+     "Lead",
+     "Plutonium",
+     "Platinum",
+     "Palladium"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pb pochází z latinského plumbum. Římané z olova vyráběli vodovodní trubky, a proto se instalatér anglicky řekne plumber.",
+    "en": "Pb comes from the Latin plumbum. The Romans made water pipes from lead, which is why a pipe fitter is called a plumber in English."
+   }
+  },
+  {
+   "id": "T003-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Helium bylo pojmenováno podle řeckého slova hélios. Co znamená?",
+    "en": "Helium was named after the Greek word helios. What does it mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nebe",
+     "Slunce",
+     "Světlo",
+     "Vzduch"
+    ],
+    "en": [
+     "Sky",
+     "Sun",
+     "Light",
+     "Air"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Helium bylo v roce 1868 objeveno ve spektru Slunce během zatmění, dříve než na Zemi. Na Zemi ho izoloval až William Ramsay v roce 1895.",
+    "en": "Helium was detected in the spectrum of the Sun during an 1868 eclipse, before it was found on Earth. William Ramsay first isolated it on Earth in 1895."
+   }
+  },
+  {
+   "id": "T003-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Prvek se značkou H dostal mezinárodní název hydrogen podle látky, která vzniká při jeho hoření. Jaké?",
+    "en": "Hydrogen got its name from the substance produced when it burns. Which substance?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kouř",
+     "Sůl",
+     "Popel",
+     "Voda"
+    ],
+    "en": [
+     "Smoke",
+     "Salt",
+     "Ash",
+     "Water"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Lavoisier ho nazval hydrogène, z řeckého hydro (voda) a genes (tvořící). Český název vodík vychází ze stejné myšlenky.",
+    "en": "Lavoisier named it hydrogène, from the Greek hydro (water) and genes (forming)."
+   }
+  },
+  {
+   "id": "T003-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Prvek se značkou C se anglicky jmenuje carbon podle latinského slova carbo. Co toto slovo znamená?",
+    "en": "Carbon takes its name from the Latin word carbo. What does carbo mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Uhlí",
+     "Popel",
+     "Kouř",
+     "Diamant"
+    ],
+    "en": [
+     "Coal",
+     "Ash",
+     "Smoke",
+     "Diamond"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Latinské carbo znamená uhlí či dřevěné uhlí a ze stejné myšlenky vychází i český název uhlík. Diamant a grafit jsou formy čistého uhlíku.",
+    "en": "The Latin carbo means coal or charcoal. Diamond and graphite are both forms of pure carbon."
+   }
+  },
+  {
+   "id": "T003-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Marie Curie-Skłodowská pojmenovala jeden z prvků, které objevila, po své rodné zemi. Který?",
+    "en": "Marie Curie named one of the elements she discovered after her native country. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Polonium",
+     "Americium",
+     "Francium",
+     "Germanium"
+    ],
+    "en": [
+     "Polonium",
+     "Americium",
+     "Francium",
+     "Germanium"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Polonium je pojmenováno po Polsku (latinsky Polonia). Polsko v roce 1898 neexistovalo jako samostatný stát, byl rozdělen mezi Rusko, Prusko a Rakousko, a název měl upozornit na jeho osud.",
+    "en": "Polonium is named after Poland (Latin Polonia). In 1898 Poland was not an independent state, being divided between Russia, Prussia and Austria, and the name was meant to draw attention to its plight."
+   }
+  },
+  {
+   "id": "T003-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Po kterém ruském chemikovi, považovaném za otce periodické tabulky prvků, je pojmenován prvek 101?",
+    "en": "Which Russian chemist, regarded as the father of the periodic table, is element 101 named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Alexandr Borodin",
+     "Michail Lomonosov",
+     "Dmitrij Mendělejev",
+     "Alexandr Butlerov"
+    ],
+    "en": [
+     "Alexander Borodin",
+     "Mikhail Lomonosov",
+     "Dmitri Mendeleev",
+     "Alexander Butlerov"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Mendelevium vzniklo poprvé v roce 1955 v Berkeley, tehdy jen v několika atomech. Mendělejev v roce 1869 sestavil tabulku a správně předpověděl vlastnosti dosud neznámých prvků.",
+    "en": "Mendelevium was first made at Berkeley in 1955, just a few atoms at the time. In 1869 Mendeleev devised the table and correctly predicted the properties of elements not yet discovered."
+   }
+  },
+  {
+   "id": "T003-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterému prvku patří značka Na?",
+    "en": "Which element has the symbol Na?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dusík",
+     "Sodík",
+     "Neon",
+     "Nikl"
+    ],
+    "en": [
+     "Nitrogen",
+     "Sodium",
+     "Neon",
+     "Nickel"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Na je zkratka latinského natrium, odvozeného od natronu, přírodní sody. Dusík má značku N, neon Ne a nikl Ni.",
+    "en": "Na stands for the Latin natrium, derived from natron, a naturally occurring soda. Nitrogen is N, neon Ne and nickel Ni."
+   }
+  },
+  {
+   "id": "T003-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Lavoisier pojmenoval prvek oxygène podle mylné představy, že tento prvek tvoří…",
+    "en": "Lavoisier named oxygen (oxygène) after a mistaken belief that the element forms…"
+   },
+   "moznosti": {
+    "cs": [
+     "Soli",
+     "Rez",
+     "Kyseliny",
+     "Plameny"
+    ],
+    "en": [
+     "Salts",
+     "Rust",
+     "Acids",
+     "Flames"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Lavoisier se mylně domníval, že kyslík obsahují všechny kyseliny, a nazval ho „tvořící kyseliny“. Český název kyslík je odvozen od slova kyselina. Kyselina chlorovodíková přitom kyslík vůbec neobsahuje.",
+    "en": "Lavoisier wrongly believed that all acids contain oxygen and named it 'acid-former'. Yet hydrochloric acid contains no oxygen at all."
+   }
+  },
+  {
+   "id": "T003-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Argon dostal jméno podle řeckého slova, které vystihuje jeho chemické chování. Co znamená?",
+    "en": "Argon was named after a Greek word describing its chemical behaviour. What does it mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Cizí",
+     "Nový",
+     "Skrytý",
+     "Líný"
+    ],
+    "en": [
+     "Foreign",
+     "New",
+     "Hidden",
+     "Lazy"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Argon téměř s ničím nereaguje, proto „líný“ (argos). Ostatní možnosti jsou významy jmen jiných vzácných plynů: krypton (skrytý), neon (nový) a xenon (cizí).",
+    "en": "Argon barely reacts with anything, hence 'lazy' (argos). The other options are the meanings of the names of other noble gases: krypton (hidden), neon (new) and xenon (foreign)."
+   }
+  },
+  {
+   "id": "T003-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Název bromu pochází z řeckého slova brómos. Co znamená?",
+    "en": "The name bromine comes from the Greek word bromos. What does it mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zápach",
+     "Bažina",
+     "Kouř",
+     "Rez"
+    ],
+    "en": [
+     "Stench",
+     "Swamp",
+     "Smoke",
+     "Rust"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Brom má ostrý, nepříjemný zápach. Je jedním ze dvou prvků, které jsou za pokojové teploty kapalné; tím druhým je rtuť.",
+    "en": "Bromine has a sharp, unpleasant smell. It is one of only two elements that are liquid at room temperature, the other being mercury."
+   }
+  },
+  {
+   "id": "T003-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Latinský název mědi cuprum (odtud značka Cu) pochází od ostrova, kde se měď ve starověku těžila. Kterého?",
+    "en": "The Latin name for copper, cuprum (hence the symbol Cu), comes from an island where copper was mined in antiquity. Which island?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sardinie",
+     "Sicílie",
+     "Kréta",
+     "Kypr"
+    ],
+    "en": [
+     "Sardinia",
+     "Sicily",
+     "Crete",
+     "Cyprus"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Římané měď nazývali aes Cyprium, „kov z Kypru“, z čehož se zkrátilo cuprum. Kypr byl ve starověku jedním z hlavních zdrojů mědi.",
+    "en": "The Romans called copper aes Cyprium, 'metal of Cyprus', later shortened to cuprum. In antiquity Cyprus was one of the main sources of copper."
+   }
+  },
+  {
+   "id": "T003-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Uran byl v roce 1789 pojmenován podle nedávno objeveného vesmírného tělesa. Jakého?",
+    "en": "Uranium was named in 1789 after a recently discovered celestial body. What kind of body?"
+   },
+   "moznosti": {
+    "cs": [
+     "Měsíce",
+     "Hvězdy",
+     "Komety",
+     "Planety"
+    ],
+    "en": [
+     "A moon",
+     "A star",
+     "A comet",
+     "A planet"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Martin Heinrich Klaproth ho pojmenoval po planetě Uran, kterou William Herschel objevil v roce 1781. Prvky 93 a 94 pak dostaly jména po Neptunu a Plutu, které se tehdy považovalo za planetu.",
+    "en": "Martin Heinrich Klaproth named it after the planet Uranus, discovered by William Herschel in 1781. Elements 93 and 94 were later named after Neptune and Pluto, which was then considered a planet."
+   }
+  },
+  {
+   "id": "T003-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Promethium je pojmenováno po mytologickém Prométheovi. Co podle pověsti ukradl bohům a daroval lidem?",
+    "en": "Promethium is named after Prometheus from Greek mythology. According to legend, what did he steal from the gods and give to humans?"
+   },
+   "moznosti": {
+    "cs": [
+     "Oheň",
+     "Med",
+     "Víno",
+     "Zlato"
+    ],
+    "en": [
+     "Fire",
+     "Honey",
+     "Wine",
+     "Gold"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Promethium bylo v roce 1945 získáno z produktů štěpení uranu v jaderném reaktoru. Jméno navrhla Grace Mary Coryellová, manželka jednoho z objevitelů.",
+    "en": "Promethium was obtained in 1945 from uranium fission products in a nuclear reactor. The name was suggested by Grace Mary Coryell, the wife of one of the discoverers."
+   }
+  },
+  {
+   "id": "T003-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Nihonium (prvek 113) bylo prvním prvkem objeveným v Asii. Po které zemi je pojmenováno?",
+    "en": "Nihonium (element 113) was the first element discovered in Asia. Which country is it named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Indie",
+     "Jižní Korea",
+     "Čína",
+     "Japonsko"
+    ],
+    "en": [
+     "India",
+     "South Korea",
+     "China",
+     "Japan"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Nihon je japonský název Japonska a znamená „země vycházejícího slunce“. Prvek připravili vědci z ústavu RIKEN, jméno bylo schváleno v roce 2016.",
+    "en": "Nihon is the Japanese name for Japan, meaning 'land of the rising sun'. The element was made by scientists at RIKEN and the name was approved in 2016."
+   }
+  },
+  {
+   "id": "T003-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jméno kobaltu pochází z německého slova Kobold. Kdo nebo co to byl?",
+    "en": "The name cobalt comes from the German word Kobold. Who or what was a Kobold?"
+   },
+   "moznosti": {
+    "cs": [
+     "Saský kurfiřt",
+     "Patron horníků",
+     "Horský skřet",
+     "Středověký alchymista"
+    ],
+    "en": [
+     "A Saxon prince-elector",
+     "A patron saint of miners",
+     "A mountain goblin",
+     "A medieval alchemist"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "V německém folklóru byl kobold zlomyslný duch dolů. Horníci mu přičítali jedovaté arzenové výpary, které některé rudy uvolňovaly při tavení. Kobalt jako prvek izoloval Georg Brandt kolem roku 1735.",
+    "en": "In German folklore a Kobold was a mischievous spirit of the mines. Miners blamed it for the poisonous arsenic fumes some ores gave off when smelted. Georg Brandt isolated cobalt around 1735."
+   }
+  },
+  {
+   "id": "T003-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč má draslík (anglicky potassium) značku K?",
+    "en": "Why does potassium have the symbol K?"
+   },
+   "moznosti": {
+    "cs": [
+     "Protože značku P už měl fosfor",
+     "Podle latinského názvu kalium",
+     "Podle objevitele jménem Kirchhoff",
+     "Podle řeckého slova kalos (krásný)"
+    ],
+    "en": [
+     "Because P was already taken by phosphorus",
+     "From its Latin name kalium",
+     "After a discoverer named Kirchhoff",
+     "From the Greek word kalos (beautiful)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Kalium pochází z arabského al-qalí, rostlinný popel. Draslík poprvé izoloval Humphry Davy v roce 1807 elektrolýzou roztaveného hydroxidu draselného (žíravé potaše); odtud anglický název potassium.",
+    "en": "Kalium comes from the Arabic al-qali, plant ashes. Humphry Davy first isolated potassium in 1807 by electrolysing molten caustic potash (potassium hydroxide), hence the English name."
+   }
+  },
+  {
+   "id": "T003-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Značka rtuti Hg pochází z řeckého slova hydrargyros. Co znamená?",
+    "en": "The symbol for mercury, Hg, comes from the Greek word hydrargyros. What does it mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Těžká voda",
+     "Měsíční kov",
+     "Vodní stříbro",
+     "Jedovatý kov"
+    ],
+    "en": [
+     "Heavy water",
+     "Moon metal",
+     "Water silver",
+     "Poison metal"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Rtuť je lesklá jako stříbro a za pokojové teploty tekutá. Anglický název mercury odkazuje na rychlonohého boha a planetu Merkur.",
+    "en": "Mercury is as shiny as silver and liquid at room temperature. Its English name refers to the swift messenger god and the planet Mercury."
+   }
+  },
+  {
+   "id": "T003-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co doslova znamená latinský název dusíku nitrogenium?",
+    "en": "What does nitrogen's Latin name, nitrogenium, literally mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tvořící sůl",
+     "Tvořící vápno",
+     "Tvořící vzduch",
+     "Tvořící ledek"
+    ],
+    "en": [
+     "Salt-former",
+     "Lime-former",
+     "Air-former",
+     "Nitre-former"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Ledek (dusičnan draselný, anglicky nitre) dusík obsahuje. Český název dusík naopak vystihuje, že v čistém dusíku se nedá dýchat.",
+    "en": "Nitre (potassium nitrate, saltpetre) contains nitrogen."
+   }
+  },
+  {
+   "id": "T003-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik chemických prvků je pojmenováno po švédské vesnici Ytterby?",
+    "en": "How many chemical elements are named after the Swedish village of Ytterby?"
+   },
+   "moznosti": {
+    "cs": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "en": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Yttrium, ytterbium, terbium a erbium nesou jméno jediné vesnice, nejvíc ze všech míst na světě. V tamním lomu na živec a křemen se našly minerály bohaté na vzácné zeminy.",
+    "en": "Yttrium, ytterbium, terbium and erbium all carry the name of a single village, more than any other place on Earth. Minerals rich in rare earths were found in its feldspar and quartz mine."
+   }
+  },
+  {
+   "id": "T003-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Pod jakým jménem předpověděl Mendělejev germanium dávno před jeho objevem?",
+    "en": "Under what name did Mendeleev predict germanium long before it was discovered?"
+   },
+   "moznosti": {
+    "cs": [
+     "Eka-bor",
+     "Eka-mangan",
+     "Eka-aluminium",
+     "Eka-silicium"
+    ],
+    "en": [
+     "Eka-boron",
+     "Eka-manganese",
+     "Eka-aluminium",
+     "Eka-silicon"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Germanium leží pod křemíkem (silicium). Clemens Winkler ho objevil v roce 1886 a pojmenoval po Německu; ostatní nabízené „eka“ prvky se dnes jmenují gallium, skandium a technecium.",
+    "en": "Germanium sits below silicon. Clemens Winkler discovered it in 1886 and named it after Germany; the other 'eka' elements offered here are now gallium, scandium and technetium."
+   }
+  },
+  {
+   "id": "T003-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Niob byl pojmenován po mytologické Niobé, protože se velmi podobá prvku, který nese jméno jejího otce. O který prvek jde?",
+    "en": "Niobium was named after Niobe from Greek mythology because it closely resembles the element named after her father. Which element is it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tantal",
+     "Promethium",
+     "Titan",
+     "Thorium"
+    ],
+    "en": [
+     "Tantalum",
+     "Promethium",
+     "Titanium",
+     "Thorium"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Niobé byla dcerou Tantala. Oba kovy se vyskytují spolu a dlouho je nešlo rozlišit; až Heinrich Rose ve 40. letech 19. století prokázal, že jde o dva prvky. Název niob byl oficiálně přijat v roce 1949, v americké metalurgii se ale dodnes používá i starší název columbium.",
+    "en": "Niobe was the daughter of Tantalus. The two metals occur together and were long confused, until Heinrich Rose showed in the 1840s that they were two elements. The name niobium was officially adopted in 1949, though American metallurgists still sometimes use the older name columbium."
+   }
+  },
+  {
+   "id": "T003-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Vanad je pojmenován po přízvisku Vanadís, které patřilo jedné severské bohyni. Které?",
+    "en": "Vanadium is named after Vanadís, a byname of one of the Norse goddesses. Which goddess?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hel",
+     "Frigg",
+     "Freyja",
+     "Sif"
+    ],
+    "en": [
+     "Hel",
+     "Frigg",
+     "Freyja",
+     "Sif"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Nils Gabriel Sefström ho kolem roku 1830 pojmenoval po bohyni lásky a krásy Freyji kvůli pestrým barvám vanadových sloučenin.",
+    "en": "Around 1830 Nils Gabriel Sefström named it after Freyja, the goddess of love and beauty, because of the many beautiful colours of vanadium compounds."
+   }
+  },
+  {
+   "id": "T003-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který prvek je pojmenován po řecké bohyni duhy, protože jeho soli mají pestré barvy?",
+    "en": "Which element is named after the Greek goddess of the rainbow because its salts are so colourful?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chrom",
+     "Rhodium",
+     "Iridium",
+     "Osmium"
+    ],
+    "en": [
+     "Chromium",
+     "Rhodium",
+     "Iridium",
+     "Osmium"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Iris byla bohyní duhy. Iridium objevil Smithson Tennant v roce 1803 spolu s osmiem, jehož jméno naopak pochází z řeckého osmé, pach.",
+    "en": "Iris was the goddess of the rainbow. Smithson Tennant discovered iridium in 1803 together with osmium, whose name comes from the Greek osme, smell."
+   }
+  },
+  {
+   "id": "T003-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Americium bylo pojmenováno po Americe podle vzoru prvku, který leží v periodické tabulce přímo nad ním. O který prvek jde?",
+    "en": "Americium was named after the Americas following the example of the element directly above it in the periodic table. Which element is that?"
+   },
+   "moznosti": {
+    "cs": [
+     "Germanium",
+     "Europium",
+     "Francium",
+     "Gallium"
+    ],
+    "en": [
+     "Germanium",
+     "Europium",
+     "Francium",
+     "Gallium"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Glenn Seaborg a jeho tým zvolili jméno po analogii s europiem, protože americium je jeho těžším protějškem mezi aktinoidy. Americium se dnes používá v ionizačních detektorech kouře.",
+    "en": "Glenn Seaborg's team chose the name by analogy with europium, as americium is its heavier counterpart among the actinides. Americium is used today in ionisation smoke detectors."
+   }
+  },
+  {
+   "id": "T003-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Oganesson (prvek 118) je pojmenován po fyzikovi Jurijovi Oganesjanovi. Kolikátým člověkem, po kterém byl prvek pojmenován ještě za jeho života, se stal?",
+    "en": "Oganesson (element 118) is named after the physicist Yuri Oganessian. He was the ___ person to have an element named after him while still alive. Which?"
+   },
+   "moznosti": {
+    "cs": [
+     "Prvním",
+     "Druhým",
+     "Třetím",
+     "Čtvrtým"
+    ],
+    "en": [
+     "The first",
+     "The second",
+     "The third",
+     "The fourth"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Prvním byl Glenn T. Seaborg, po kterém je pojmenováno seaborgium. Oganesson je nejtěžší známý prvek (k roku 2026) a jméno bylo schváleno v roce 2016.",
+    "en": "The first was Glenn T. Seaborg, after whom seaborgium is named. Oganesson is the heaviest known element (as of 2026), and the name was approved in 2016."
+   }
+  },
+  {
+   "id": "T003-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Nikl má jméno z německého Kupfernickel („měděný čertík“). Proč horníci tuto rudu tak nazvali?",
+    "en": "Nickel's name comes from the German Kupfernickel ('copper demon'). Why did miners call the ore that?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vyskytovala se jen v nejhlubších a nejnebezpečnějších šachtách",
+     "Vypadala jako měděná ruda, ale měď z ní nešla získat",
+     "Ze slitiny s mědí se v ní razily falešné mince",
+     "Její prach způsoboval horníkům vyrážku na rukou"
+    ],
+    "en": [
+     "It was found only in the deepest, most dangerous shafts",
+     "It looked like copper ore but yielded no copper",
+     "Its alloy with copper was used for counterfeit coins",
+     "Its dust gave the miners rashes on their hands"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Horníci zlobu svalovali na zlomyslného skřítka Nickela. Švédský chemik Axel Cronstedt z této rudy v roce 1751 izoloval nový kov a ponechal mu jméno nikl.",
+    "en": "Miners blamed a mischievous sprite called Nickel. In 1751 the Swedish chemist Axel Cronstedt isolated a new metal from the ore and kept the name nickel."
+   }
+  },
+  {
+   "id": "T003-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Prvek se značkou W se česky jmenuje wolfram, anglicky ale tungsten. Co znamená slovo tungsten ve švédštině?",
+    "en": "The element with symbol W is called wolfram in many languages but tungsten in English. What does the word tungsten mean in Swedish?"
+   },
+   "moznosti": {
+    "cs": [
+     "Šedý prach",
+     "Tvrdá ruda",
+     "Těžký kámen",
+     "Bílý kov"
+    ],
+    "en": [
+     "Grey dust",
+     "Hard ore",
+     "Heavy stone",
+     "White metal"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Značka W naopak odkazuje na název wolfram z německého Wolf Rahm („vlčí smetana“, latinsky lupi spuma, „vlčí pěna“), protože ruda při tavení „požírala“ cín. Wolfram má nejvyšší bod tání ze všech kovů, přes 3 400 °C.",
+    "en": "The symbol W, by contrast, comes from the name wolfram, from the German Wolf Rahm ('wolf's cream', Latin lupi spuma, 'wolf's froth'), as the ore seemed to devour tin during smelting. Tungsten has the highest melting point of all metals, over 3,400 °C (6,150 °F)."
+   }
+  }
+ ]
+}

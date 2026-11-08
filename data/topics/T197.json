@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T197",
+ "nazev": {
+  "cs": "Oceány: hlubiny, proudy a přílivy",
+  "en": "Oceans: Depths, Currents and Tides"
+ },
+ "kategorie": {
+  "id": "zemepis",
+  "nazev": {
+   "cs": "Zeměpis",
+   "en": "Geography"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T197-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který z oceánů je nejmenší?",
+    "en": "Which of the oceans is the smallest?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jižní oceán",
+     "Severní ledový oceán",
+     "Atlantský oceán",
+     "Indický oceán"
+    ],
+    "en": [
+     "Southern Ocean",
+     "Arctic Ocean",
+     "Atlantic Ocean",
+     "Indian Ocean"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Severní ledový oceán je nejmenší a zároveň nejmělčí z pěti oceánů. Druhý nejmenší je Jižní oceán kolem Antarktidy.",
+    "en": "The Arctic Ocean is the smallest and also the shallowest of the five oceans. The second smallest is the Southern Ocean around Antarctica."
+   }
+  },
+  {
+   "id": "T197-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou část zemského povrchu pokrývá světový oceán?",
+    "en": "What share of the Earth's surface is covered by the global ocean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 51 %",
+     "Asi 61 %",
+     "Asi 71 %",
+     "Asi 81 %"
+    ],
+    "en": [
+     "About 51%",
+     "About 61%",
+     "About 71%",
+     "About 81%"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Podle americké agentury NOAA pokrývá oceán 71 % povrchu Země. Souš tak tvoří jen necelou třetinu povrchu planety.",
+    "en": "According to the US agency NOAA, the ocean covers 71% of the Earth's surface. Land therefore makes up less than a third of the planet's surface."
+   }
+  },
+  {
+   "id": "T197-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč je mořská voda slaná?",
+    "en": "Why is seawater salty?"
+   },
+   "moznosti": {
+    "cs": [
+     "Řeky do moře přinášejí látky vyluhované z hornin",
+     "Sluneční záření mění část vody v sůl",
+     "Sůl vzniká rozkladem odumřelých řas",
+     "Mořští živočichové vylučují do vody sůl"
+    ],
+    "en": [
+     "Rivers carry minerals leached from rocks into the sea",
+     "Sunlight turns part of the water into salt",
+     "Salt forms as dead algae decompose",
+     "Marine animals excrete salt into the water"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Mírně kyselý déšť rozrušuje horniny a uvolněné ionty odnesou řeky do moře; další soli přidávají hydrotermální průduchy na dně. Průměrná slanost oceánu je asi 35 promile, tedy 3,5 %.",
+    "en": "Slightly acidic rain erodes rocks and rivers carry the released ions to the sea; hydrothermal vents on the seafloor add more salts. The ocean's average salinity is about 35 parts per thousand, or 3.5%."
+   }
+  },
+  {
+   "id": "T197-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém oceánu proudí Golfský proud?",
+    "en": "In which ocean does the Gulf Stream flow?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Severním ledovém",
+     "V Tichém",
+     "V Indickém",
+     "V Atlantském"
+    ],
+    "en": [
+     "The Arctic",
+     "The Pacific",
+     "The Indian",
+     "The Atlantic"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Golfský proud vzniká v Mexickém zálivu, proudí Floridským průlivem a dál podél východního pobřeží USA. Evropané si ho poprvé zaznamenali při výpravě Juana Ponce de León na počátku 16. století.",
+    "en": "The Gulf Stream originates in the Gulf of Mexico, flows through the Straits of Florida and on along the US East Coast. Europeans first recorded it during Juan Ponce de León's expedition in the early 16th century."
+   }
+  },
+  {
+   "id": "T197-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolikrát za den nastává na většině pobřeží světa příliv?",
+    "en": "How many times a day does high tide occur on most of the world's coasts?"
+   },
+   "moznosti": {
+    "cs": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "en": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Většina pobřeží má každý den dva přílivy a dva odlivy. Výjimky existují – například v Mexickém zálivu bývá jen jeden příliv a jeden odliv denně.",
+    "en": "Most coasts have two high tides and two low tides every day. There are exceptions – the Gulf of Mexico, for example, often has only one high and one low tide a day."
+   }
+  },
+  {
+   "id": "T197-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Z čeho se skládá hlavně takzvaná Velká tichomořská odpadková skvrna?",
+    "en": "What is the so-called Great Pacific Garbage Patch mainly made of?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z ropy",
+     "Ze dřeva",
+     "Z kovového šrotu",
+     "Z plastů"
+    ],
+    "en": [
+     "Oil",
+     "Wood",
+     "Scrap metal",
+     "Plastic"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Tvoří ji hlavně plastový odpad. Počtem kusů převažují drobné mikroplasty, většinu hmotnosti ale tvoří větší předměty, zejména rybářské sítě a vybavení.",
+    "en": "It consists mainly of plastic waste. By piece count, tiny microplastics dominate, but most of the mass comes from larger items, especially fishing nets and gear."
+   }
+  },
+  {
+   "id": "T197-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co je podle vědců hlavní příčinou bělení korálů?",
+    "en": "According to scientists, what is the main cause of coral bleaching?"
+   },
+   "moznosti": {
+    "cs": [
+     "Útoky mořských hvězdic",
+     "Hluk lodní dopravy",
+     "Nadměrný rybolov",
+     "Oteplování mořské vody"
+    ],
+    "en": [
+     "Starfish attacks",
+     "Shipping noise",
+     "Overfishing",
+     "Warming seawater"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "V přehřáté vodě korály vypudí symbiotické řasy (zooxantely), které jim dodávají živiny i barvu. Vybělený korál ještě není mrtvý, ale pokud se řasy nevrátí, hladoví a snáz onemocní.",
+    "en": "In overheated water, corals expel their symbiotic algae (zooxanthellae), which supply them with nutrients and colour. A bleached coral is not yet dead, but if the algae do not return it starves and falls ill more easily."
+   }
+  },
+  {
+   "id": "T197-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na čem je založeno měření hloubky moře sonarem?",
+    "en": "What is measuring sea depth with sonar based on?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na odrazu zvukových vln",
+     "Na měření teploty vody",
+     "Na odrazu rádiových vln",
+     "Na měření magnetického pole"
+    ],
+    "en": [
+     "Reflection of sound waves",
+     "Measuring water temperature",
+     "Reflection of radio waves",
+     "Measuring the magnetic field"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Echolot vyšle ke dnu zvukový impulz a z doby, za kterou se vrátí ozvěna, se spočítá hloubka. Zkratka SONAR znamená „sound navigation and ranging“.",
+    "en": "An echo sounder sends a sound pulse to the seabed and the depth is calculated from the time the echo takes to return. SONAR stands for \"sound navigation and ranging\"."
+   }
+  },
+  {
+   "id": "T197-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který oceán začala společnost National Geographic v červnu 2021 oficiálně uvádět jako pátý světový oceán?",
+    "en": "Which ocean did the National Geographic Society officially start recognising as the world's fifth ocean in June 2021?"
+   },
+   "moznosti": {
+    "cs": [
+     "Severní ledový oceán",
+     "Indický oceán",
+     "Atlantský oceán",
+     "Jižní oceán"
+    ],
+    "en": [
+     "Arctic Ocean",
+     "Indian Ocean",
+     "Atlantic Ocean",
+     "Southern Ocean"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jižní oceán obklopuje Antarktidu a obvykle se vymezuje k 60° jižní šířky. Obtéká ho Antarktický cirkumpolární proud, nejsilnější proudový systém světových oceánů.",
+    "en": "The Southern Ocean surrounds Antarctica and is usually defined as extending to 60° south. It is encircled by the Antarctic Circumpolar Current, the strongest current system in the world's oceans."
+   }
+  },
+  {
+   "id": "T197-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá schopnost organismů vytvářet vlastní světlo, kterou má velká část hlubinných živočichů?",
+    "en": "What is the ability of organisms to produce their own light, found in many deep-sea animals, called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Echolokace",
+     "Bioluminiscence",
+     "Fotosyntéza",
+     "Chemosyntéza"
+    ],
+    "en": [
+     "Echolocation",
+     "Bioluminescence",
+     "Photosynthesis",
+     "Chemosynthesis"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Světlo vzniká chemickou reakcí: enzym luciferáza oxiduje látku luciferin. Ve volné vodě východního Pacifiku umí světélkovat asi 76 % hlavních skupin hlubinných živočichů.",
+    "en": "The light comes from a chemical reaction in which the enzyme luciferase oxidises a substance called luciferin. In the open waters of the eastern Pacific, about 76% of the main groups of deep-sea animals can produce light."
+   }
+  },
+  {
+   "id": "T197-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které tvrzení o rozloze Tichého oceánu platí?",
+    "en": "Which statement about the area of the Pacific Ocean is true?"
+   },
+   "moznosti": {
+    "cs": [
+     "Je větší než veškerá souš Země dohromady",
+     "Je větší než všechny ostatní oceány dohromady",
+     "Pokrývá přesně polovinu povrchu Země",
+     "Je zhruba stejně velký jako Asie"
+    ],
+    "en": [
+     "It is larger than all of Earth's land combined",
+     "It is larger than all the other oceans combined",
+     "It covers exactly half of Earth's surface",
+     "It is roughly the same size as Asia"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Tichý oceán má asi 165 milionů km², kdežto veškerá souš Země zhruba 149 milionů km². Pokrývá asi 46 % vodní plochy planety, takže ostatní oceány jsou dohromady o něco větší.",
+    "en": "The Pacific covers about 165 million km² (64 million sq mi), while all of Earth's land totals roughly 149 million km² (58 million sq mi). It covers about 46% of the planet's water surface, so the other oceans combined are slightly larger."
+   }
+  },
+  {
+   "id": "T197-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které moře nemá žádné pobřeží, protože ho místo pevniny ohraničují jen mořské proudy?",
+    "en": "Which sea has no coastline at all, because it is bounded only by ocean currents instead of land?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sargasové moře",
+     "Karibské moře",
+     "Tasmanovo moře",
+     "Weddellovo moře"
+    ],
+    "en": [
+     "Sargasso Sea",
+     "Caribbean Sea",
+     "Tasman Sea",
+     "Weddell Sea"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Sargasové moře leží v severním Atlantiku uprostřed velkého kruhového proudění a jméno má podle plovoucích hnědých řas rodu Sargassum. Rodí se v něm larvy evropských i amerických úhořů.",
+    "en": "The Sargasso Sea lies in the North Atlantic in the middle of a vast circular current system and is named after the floating brown seaweed Sargassum. European and American eel larvae hatch there."
+   }
+  },
+  {
+   "id": "T197-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který mořský proud přináší teplou vodu k pobřeží západní a severní Evropy a zmírňuje tamní podnebí?",
+    "en": "Which ocean current carries warm water to the coasts of western and northern Europe, making their climate milder?"
+   },
+   "moznosti": {
+    "cs": [
+     "Severoatlantický proud",
+     "Kanárský proud",
+     "Labradorský proud",
+     "Benguelský proud"
+    ],
+    "en": [
+     "North Atlantic Current",
+     "Canary Current",
+     "Labrador Current",
+     "Benguela Current"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Severoatlantický proud (North Atlantic Current) přenáší teplou vodu napříč severním Atlantikem k severozápadní Evropě. Přispívá k tomu, že západní a severní Evropa je teplejší a mírnější, než by jinak byla.",
+    "en": "The North Atlantic Current carries warm water across the North Atlantic towards north-western Europe. It helps make western and northern Europe warmer and milder than they would otherwise be."
+   }
+  },
+  {
+   "id": "T197-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se nazývá celosvětové oceánské proudění poháněné rozdíly v hustotě vody, které vznikají z rozdílů její teploty a slanosti?",
+    "en": "What is the name of the global ocean circulation driven by differences in water density that arise from differences in temperature and salinity?"
+   },
+   "moznosti": {
+    "cs": [
+     "Termohalinní cirkulace",
+     "Walkerova cirkulace",
+     "Hadleyova cirkulace",
+     "Ekmanův transport"
+    ],
+    "en": [
+     "Thermohaline circulation",
+     "Walker circulation",
+     "Hadley circulation",
+     "Ekman transport"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Termohalinní cirkulace (thermohaline circulation): „termo“ odkazuje na teplotu a „halinní“ na obsah soli. Klimatolog Wallace Broecker pro ni zavedl název globální dopravníkový pás; studená slaná voda klesá ke dnu hlavně v severním Atlantiku a u Antarktidy.",
+    "en": "\"Thermo\" refers to temperature and \"haline\" to salt content. Climate scientist Wallace Broecker coined the name \"global conveyor belt\"; cold, salty water sinks mainly in the North Atlantic and around Antarctica."
+   }
+  },
+  {
+   "id": "T197-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdy nastávají skočné přílivy (spring tides) s největším rozdílem mezi přílivem a odlivem?",
+    "en": "When do spring tides, with the greatest difference between high and low tide, occur?"
+   },
+   "moznosti": {
+    "cs": [
+     "Když je Měsíc nejdál od Země",
+     "Při první a poslední čtvrti",
+     "Při letním a zimním slunovratu",
+     "Při novu a úplňku"
+    ],
+    "en": [
+     "When the Moon is farthest from Earth",
+     "At first and last quarter",
+     "At the summer and winter solstices",
+     "At new moon and full moon"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Při novu a úplňku leží Slunce, Měsíc a Země v jedné přímce a jejich slapové účinky se sčítají. Při čtvrtích, kdy svírají pravý úhel, je naopak rozdíl mezi přílivem a odlivem nejmenší.",
+    "en": "At new and full moon the Sun, Moon and Earth line up and their tidal effects add together. At the quarter moons, when they are at right angles, the difference between high and low tide is smallest."
+   }
+  },
+  {
+   "id": "T197-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Korálové útesy zabírají méně než desetinu procenta plochy oceánů. Jaký podíl mořských druhů v nich podle odhadů žije?",
+    "en": "Coral reefs occupy less than a tenth of a percent of the ocean's area. What share of marine species is estimated to live on them?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 1 %",
+     "Asi 5 %",
+     "Asi 25 %",
+     "Asi 60 %"
+    ],
+    "en": [
+     "About 1%",
+     "About 5%",
+     "About 25%",
+     "About 60%"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Útesy hostí nejméně čtvrtinu mořských druhů, proto se jim přezdívá deštné pralesy moří. Největší z nich, Velký bariérový útes u Queenslandu, se táhne přes 2 300 km.",
+    "en": "Reefs host at least a quarter of marine species, which is why they are nicknamed the rainforests of the sea. The largest, the Great Barrier Reef off Queensland, stretches for over 2,300 km (1,400 mi)."
+   }
+  },
+  {
+   "id": "T197-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Při jaké teplotě zhruba zamrzá mořská voda s běžnou slaností?",
+    "en": "At roughly what temperature does seawater of typical salinity freeze?"
+   },
+   "moznosti": {
+    "cs": [
+     "−15 °C",
+     "−8 °C",
+     "−2 °C",
+     "0 °C"
+    ],
+    "en": [
+     "−15 °C (5 °F)",
+     "−8 °C (18 °F)",
+     "−2 °C (28 °F)",
+     "0 °C (32 °F)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Rozpuštěná sůl snižuje bod mrazu, takže voda s průměrnou slaností asi 35 g/kg zamrzá kolem −2 °C. Čím slanější voda, tím níže mrzne.",
+    "en": "Dissolved salt lowers the freezing point, so water with an average salinity of about 35 g/kg freezes at around −2 °C (28 °F). The saltier the water, the lower its freezing point."
+   }
+  },
+  {
+   "id": "T197-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "O kolik se zhruba zvýší tlak vody s každými 10 metry hloubky?",
+    "en": "By roughly how much does water pressure increase with every 10 metres (33 ft) of depth?"
+   },
+   "moznosti": {
+    "cs": [
+     "O 0,1 atmosféry",
+     "O 1 atmosféru",
+     "O 10 atmosfér",
+     "O 100 atmosfér"
+    ],
+    "en": [
+     "By 0.1 atmosphere",
+     "By 1 atmosphere",
+     "By 10 atmospheres",
+     "By 100 atmospheres"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Podle NOAA přidá každých asi 10 m (33 stop) mořské vody jednu atmosféru tlaku. V hloubce 4 000 m tak na živočichy tlačí zhruba 400 atmosfér.",
+    "en": "According to NOAA, every 10 m or so (33 ft) of seawater adds one atmosphere of pressure. At a depth of 4,000 m (13,100 ft), animals therefore experience roughly 400 atmospheres."
+   }
+  },
+  {
+   "id": "T197-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jakou část oceánského dna se podle projektu Seabed 2030 podařilo do roku 2024 zmapovat podrobněji, než to umožňují družice?",
+    "en": "According to the Seabed 2030 project, what share of the ocean floor had been mapped by 2024 in more detail than satellites allow?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi dvacetinu",
+     "Asi čtvrtinu",
+     "Asi polovinu",
+     "Asi tři čtvrtiny"
+    ],
+    "en": [
+     "About a twentieth",
+     "About a quarter",
+     "About half",
+     "About three quarters"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "V roce 2024 bylo podle Seabed 2030 zmapováno něco přes 26 % dna; zbytek známe jen z hrubších družicových měření. Projekt Nippon Foundation a GEBCO chce do roku 2030 zmapovat celé dno.",
+    "en": "In 2024, Seabed 2030 reported that just over 26% of the seafloor had been mapped; the rest is known only from coarser satellite data. The Nippon Foundation–GEBCO project aims to map the entire seabed by 2030."
+   }
+  },
+  {
+   "id": "T197-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak často se zhruba opakuje jev El Niño?",
+    "en": "Roughly how often does El Niño recur?"
+   },
+   "moznosti": {
+    "cs": [
+     "Každý rok",
+     "Zhruba každých 2–7 let",
+     "Přesně každých 11 let",
+     "Zhruba jednou za 30–50 let"
+    ],
+    "en": [
+     "Every year",
+     "Roughly every 2–7 years",
+     "Exactly every 11 years",
+     "Roughly once every 30–50 years"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "El Niño i jeho studený protějšek La Niña přicházejí v průměru jednou za dva až sedm let, ale bez pevného rozvrhu. Jedna epizoda obvykle trvá 9 až 12 měsíců.",
+    "en": "El Niño and its cold counterpart La Niña occur on average every two to seven years, but not on a fixed schedule. A single episode typically lasts nine to 12 months."
+   }
+  },
+  {
+   "id": "T197-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím je způsobena tmavá barva „kouře“, který vychází z černých kuřáků (black smokers) na mořském dně?",
+    "en": "What causes the dark colour of the \"smoke\" pouring out of black smokers on the seafloor?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sulfidy kovů, které se vysrážejí ve studené vodě",
+     "Sopečným popelem z podmořských erupcí",
+     "Sazemi z hoření sopečných plynů",
+     "Hustými shluky tmavých bakterií"
+    ],
+    "en": [
+     "Metal sulfides precipitating in the cold water",
+     "Volcanic ash from undersea eruptions",
+     "Soot from burning volcanic gases",
+     "Dense clusters of dark bacteria"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Přehřátá voda o teplotě i přes 400 °C nese rozpuštěné kovy; po smíchání s téměř mrznoucí mořskou vodou se z ní vysrážejí tmavé sulfidy kovů, z nichž rostou i komíny. Černé kuřáky objevili v roce 1979 na Východopacifickém hřbetu.",
+    "en": "Superheated water, sometimes over 400 °C (752 °F), carries dissolved metals; when it mixes with near-freezing seawater, dark metal sulfides precipitate out and also build up the chimneys. Black smokers were discovered in 1979 on the East Pacific Rise."
+   }
+  },
+  {
+   "id": "T197-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Obří hlubokomořský červ Riftia pachyptila z okolí hydrotermálních průduchů nemá ústa ani trávicí soustavu. Jak se tedy živí?",
+    "en": "The giant deep-sea tubeworm Riftia pachyptila, found around hydrothermal vents, has no mouth or digestive system. So how does it feed?"
+   },
+   "moznosti": {
+    "cs": [
+     "Filtruje plankton červeným chocholem",
+     "Nasává potravu celým povrchem těla",
+     "Živí ho bakterie žijící uvnitř jeho těla",
+     "Seškrabuje bakterie z okolních skal"
+    ],
+    "en": [
+     "It filters plankton with its red plume",
+     "It absorbs food through its whole body surface",
+     "Bacteria living inside its body feed it",
+     "It scrapes bacteria off the surrounding rocks"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Bakterie v orgánu zvaném trofosom oxidují sirovodík a získanou energii využívají k výrobě cukrů pro červa (chemosyntéza). Červený chochol, zbarvený hemoglobinem, jim přivádí kyslík i sirovodík; červ dorůstá až asi 3 m.",
+    "en": "Bacteria in an organ called the trophosome oxidise hydrogen sulfide and use the energy to make sugars for the worm (chemosynthesis). Its red, haemoglobin-coloured plume supplies them with oxygen and hydrogen sulfide; the worm can grow to about 3 m (10 ft)."
+   }
+  },
+  {
+   "id": "T197-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Která vědkyně při kreslení map oceánského dna v roce 1952 rozpoznala na Středoatlantském hřbetu riftové údolí, přestože jako žena tehdy nesměla na výzkumné lodě?",
+    "en": "Which scientist, while drawing maps of the ocean floor in 1952, identified a rift valley along the Mid-Atlantic Ridge, even though as a woman she was not allowed on research ships at the time?"
+   },
+   "moznosti": {
+    "cs": [
+     "Inge Lehmannová (Inge Lehmann)",
+     "Rachel Carsonová (Rachel Carson)",
+     "Sylvia Earleová (Sylvia Earle)",
+     "Marie Tharpová (Marie Tharp)"
+    ],
+    "en": [
+     "Inge Lehmann",
+     "Rachel Carson",
+     "Sylvia Earle",
+     "Marie Tharp"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Její spolupracovník Bruce Heezen údolí zprvu odbyl jako „holčičí řeči“ a uznal ho, až když s ním souhlasila mapa epicenter zemětřesení. Objev pomohl prosadit teorii deskové tektoniky.",
+    "en": "Her colleague Bruce Heezen first dismissed the valley as \"girl talk\" and only accepted it when a map of earthquake epicentres lined up with it. The discovery helped win acceptance for plate tectonics."
+   }
+  },
+  {
+   "id": "T197-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak dlouho podle odhadu NOAA trvá, než krychlový metr vody projde celým globálním oceánským dopravníkovým pásem?",
+    "en": "According to NOAA's estimate, how long does it take a cubic metre of water to travel the entire global ocean conveyor belt?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 10 let",
+     "Asi 100 let",
+     "Asi 1 000 let",
+     "Asi 10 000 let"
+    ],
+    "en": [
+     "About 10 years",
+     "About 100 years",
+     "About 1,000 years",
+     "About 10,000 years"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Dopravníkový pás se pohybuje rychlostí jen několika centimetrů za sekundu. Začíná na hladině severního Atlantiku blízko pólu, kde voda arktickým chladem vychladne, při tvorbě mořského ledu zesládne, zhoustne a klesne ke dnu.",
+    "en": "The conveyor belt moves at only a few centimetres per second. It begins at the surface of the North Atlantic near the pole, where the water is chilled by arctic temperatures, becomes saltier as sea ice forms, grows denser and sinks."
+   }
+  },
+  {
+   "id": "T197-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak silný je slapový účinek Slunce na Zemi ve srovnání se slapovým účinkem Měsíce?",
+    "en": "How strong is the Sun's tidal effect on Earth compared with the Moon's?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi desetinový",
+     "Asi poloviční",
+     "Zhruba stejný",
+     "Asi dvojnásobný"
+    ],
+    "en": [
+     "About a tenth",
+     "About half",
+     "Roughly equal",
+     "About twice as strong"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Slunce je sice nesrovnatelně hmotnější, ale slapová síla rychle slábne se vzdáleností, takže dosahuje jen asi 46 % účinku Měsíce. Při skočném přílivu tak Měsíc přispívá asi 69 % a Slunce asi 31 %.",
+    "en": "The Sun is vastly more massive, but tidal force falls off rapidly with distance, so it reaches only about 46% of the Moon's effect. During a spring tide the Moon contributes about 69% and the Sun about 31%."
+   }
+  },
+  {
+   "id": "T197-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Nejhlubší oceánská zóna v příkopech, zhruba 6 až 11 km pod hladinou, se nazývá hadální (hadal zone). Po kom nese jméno?",
+    "en": "The deepest ocean zone, in trenches roughly 6 to 11 km (3.7 to 6.8 mi) below the surface, is called the hadal zone. Who is it named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Po Hadriánovi, římském císaři",
+     "Po Hadadovi, starověkém bohu bouře",
+     "Po George Hadleym, anglickém meteorologovi",
+     "Po Hádovi, řeckém bohu podsvětí"
+    ],
+    "en": [
+     "Hadrian, the Roman emperor",
+     "Hadad, an ancient storm god",
+     "George Hadley, an English meteorologist",
+     "Hades, the Greek god of the underworld"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Termín navrhl dánský oceánograf Anton Bruun v roce 1956. Hadální oblasti zabírají méně než 0,25 % mořského dna, ale pokrývají přes 40 % hloubkového rozsahu oceánu.",
+    "en": "The term was proposed by Danish oceanographer Anton Bruun in 1956. Hadal habitats cover less than 0.25% of the seafloor yet span more than 40% of the ocean's depth range."
+   }
+  },
+  {
+   "id": "T197-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se nazývá atmosférická složka jevu El Niño – kolísání tlaku vzduchu mezi Tahiti a australským Darwinem?",
+    "en": "What is the atmospheric component of El Niño – the seesaw in air pressure between Tahiti and Darwin, Australia – called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Severoatlantická oscilace",
+     "Jižní oscilace",
+     "Madden-Julianova oscilace",
+     "Arktická oscilace"
+    ],
+    "en": [
+     "North Atlantic Oscillation",
+     "Southern Oscillation",
+     "Madden–Julian Oscillation",
+     "Arctic Oscillation"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jižní oscilaci popsal počátkem 20. století Gilbert Walker. Spojený jev oceánu a atmosféry se označuje zkratkou ENSO (El Niño–Southern Oscillation) a jeho studená fáze se nazývá La Niña.",
+    "en": "The Southern Oscillation was identified by Gilbert Walker in the early 20th century. The combined ocean–atmosphere phenomenon is known as ENSO (El Niño–Southern Oscillation), and its cold phase is called La Niña."
+   }
+  },
+  {
+   "id": "T197-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V jaké hloubce zhruba leží vrak Titaniku?",
+    "en": "At roughly what depth does the wreck of the Titanic lie?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 800 m",
+     "Asi 2 000 m",
+     "Asi 3 800 m",
+     "Asi 6 500 m"
+    ],
+    "en": [
+     "About 800 m (2,600 ft)",
+     "About 2,000 m (6,600 ft)",
+     "About 3,800 m (12,500 ft)",
+     "About 6,500 m (21,300 ft)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vrak leží asi 600 km jihojihovýchodně od Newfoundlandu, rozlomený na dvě hlavní části vzdálené od sebe asi 600 m. Tým oceánografa Roberta Ballarda ho hledal robotem Argo s kamerami, které na rozdíl od sonaru rozliší lidské trosky od přírodních objektů.",
+    "en": "The wreck lies about 600 km (370 mi) south-southeast of Newfoundland, broken into two main sections about 600 m (2,000 ft) apart. Oceanographer Robert Ballard's team searched with the camera-equipped robot Argo, because cameras, unlike sonar, can tell man-made debris from natural objects."
+   }
+  },
+  {
+   "id": "T197-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč se místu Point Nemo v jižním Pacifiku, které je ze všech míst v oceánu nejdál od pevniny, přezdívá hřbitov kosmických lodí?",
+    "en": "Why is Point Nemo in the South Pacific, the place in the ocean farthest from land, nicknamed the spacecraft cemetery?"
+   },
+   "moznosti": {
+    "cs": [
+     "Leží tam vrak raketoplánu Challenger",
+     "Startovaly odtud rakety z plovoucích plošin",
+     "Navádějí se tam k zániku vyřazené družice a stanice",
+     "Přistávaly tam návratové kabiny lodí Apollo"
+    ],
+    "en": [
+     "The wreck of the Space Shuttle Challenger lies there",
+     "Rockets were launched from floating platforms there",
+     "Retired satellites and stations are steered there to fall",
+     "Apollo return capsules splashed down there"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Bod je asi 2 688 km od nejbližší souše, takže padající trosky neohrozí lidi. Na konci své služby tam má být navedena i Mezinárodní vesmírná stanice (k roku 2026); jméno odkazuje na kapitána Nema z Verneova románu – latinsky „nikdo“.",
+    "en": "The point is about 2,688 km (1,670 mi) from the nearest land, so falling debris endangers no one. The International Space Station is also planned to be brought down there at the end of its service life (as of 2026); the name refers to Captain Nemo from Verne's novel – Latin for \"nobody\"."
+   }
+  },
+  {
+   "id": "T197-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jednotka sverdrup (Sv), pojmenovaná po norském oceánografovi, se v oceánografii používá k měření čeho?",
+    "en": "The sverdrup (Sv), a unit named after a Norwegian oceanographer, is used in oceanography to measure what?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tlaku vody v hlubinách",
+     "Výšky přílivové vlny",
+     "Slanosti mořské vody",
+     "Průtoku vody v mořských proudech"
+    ],
+    "en": [
+     "Water pressure in the deep",
+     "The height of the tide",
+     "The salinity of seawater",
+     "The flow of water in ocean currents"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jeden sverdrup je milion metrů krychlových za sekundu. Golfský proud přenáší v nejsilnějším úseku až asi 150 Sv, zatímco všechny řeky světa dohromady přivádějí do oceánu jen asi 1,2 Sv.",
+    "en": "One sverdrup equals one million cubic metres per second. At its strongest, the Gulf Stream carries up to about 150 Sv, while all the world's rivers combined deliver only about 1.2 Sv to the ocean."
+   }
+  }
+ ]
+}

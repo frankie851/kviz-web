@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T040",
+ "nazev": {
+  "cs": "Hvězdy, galaxie a černé díry",
+  "en": "Stars, Galaxies and Black Holes"
+ },
+ "kategorie": {
+  "id": "vesmir",
+  "nazev": {
+   "cs": "Vesmír",
+   "en": "Space"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T040-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která hvězda je Zemi nejblíže, pokud nepočítáme Slunce?",
+    "en": "Which star is closest to Earth, not counting the Sun?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aldebaran",
+     "Betelgeuze",
+     "Sírius",
+     "Proxima Centauri"
+    ],
+    "en": [
+     "Aldebaran",
+     "Betelgeuse",
+     "Sirius",
+     "Proxima Centauri"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Proxima Centauri je vzdálená asi 4,2 světelného roku. Je to malý červený trpaslík, který patří do soustavy Alfa Centauri, a pouhým okem ho nevidíme.",
+    "en": "Proxima Centauri lies about 4.2 light-years away. It is a small red dwarf belonging to the Alpha Centauri system and is not visible to the naked eye."
+   }
+  },
+  {
+   "id": "T040-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co vyjadřuje jednotka světelný rok?",
+    "en": "What does the unit called a light-year measure?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vzdálenost",
+     "Jas",
+     "Rychlost",
+     "Čas"
+    ],
+    "en": [
+     "Distance",
+     "Brightness",
+     "Speed",
+     "Time"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Světelný rok je vzdálenost, kterou světlo ve vakuu urazí za jeden rok, tedy asi 9,5 bilionu kilometrů. Navzdory slovu „rok“ to není jednotka času.",
+    "en": "A light-year is the distance light travels in a vacuum in one year, about 9.5 trillion kilometres (5.9 trillion mi). Despite the word 'year', it is not a unit of time."
+   }
+  },
+  {
+   "id": "T040-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se jmenuje galaxie, ve které leží naše sluneční soustava?",
+    "en": "What is the name of the galaxy in which our Solar System lies?"
+   },
+   "moznosti": {
+    "cs": [
+     "Velký Magellanův oblak",
+     "Malý Magellanův oblak",
+     "Mléčná dráha",
+     "Galaxie v Trojúhelníku"
+    ],
+    "en": [
+     "Large Magellanic Cloud",
+     "Small Magellanic Cloud",
+     "Milky Way",
+     "Triangulum Galaxy"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Slunce leží v Mléčné dráze asi 26 000 světelných let od jejího středu. Jeden oběh kolem středu Galaxie mu trvá zhruba 225–250 milionů let.",
+    "en": "The Sun lies in the Milky Way about 26,000 light-years from its centre. One orbit around the galactic centre takes it roughly 225–250 million years."
+   }
+  },
+  {
+   "id": "T040-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč je Polárka odedávna důležitá pro orientaci?",
+    "en": "Why has Polaris long been important for navigation?"
+   },
+   "moznosti": {
+    "cs": [
+     "Určuje téměř přesně směr na jih",
+     "Vychází vždy přesně na východě",
+     "Je nejjasnější hvězdou noční oblohy",
+     "Určuje téměř přesně směr na sever"
+    ],
+    "en": [
+     "It marks almost exactly the direction of south",
+     "It always rises exactly in the east",
+     "It is the brightest star in the night sky",
+     "It marks almost exactly the direction of north"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Polárka je méně než 1° od severního nebeského pólu, takže se ostatní hvězdy zdánlivě otáčejí kolem ní a její výška nad obzorem přibližně odpovídá zeměpisné šířce. Nejjasnější hvězdou ale není – v žebříčku jasnosti je až kolem 47. místa.",
+    "en": "Polaris is less than 1° from the north celestial pole, so other stars appear to turn around it and its height above the horizon roughly matches the observer's latitude. It is not the brightest star, though – it ranks only around 47th."
+   }
+  },
+  {
+   "id": "T040-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím je výjimečná černá díra?",
+    "en": "What makes a black hole exceptional?"
+   },
+   "moznosti": {
+    "cs": [
+     "Je to místo, kde není žádná hmota ani gravitace",
+     "Je to tunel, který vede do jiného vesmíru",
+     "Z její gravitace nemůže uniknout ani světlo",
+     "Je to temný oblak plynu, který zakrývá hvězdy"
+    ],
+    "en": [
+     "It is a place with no matter and no gravity",
+     "It is a tunnel leading to another universe",
+     "Not even light can escape its gravity",
+     "It is a dark gas cloud that hides the stars"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Černá díra je tak hutná, že její gravitace nepustí ven nic, ani světlo. Hranice, za kterou už není návratu, se nazývá horizont událostí.",
+    "en": "A black hole is so compact that its gravity lets nothing escape, not even light. The boundary of no return is called the event horizon."
+   }
+  },
+  {
+   "id": "T040-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak dlouho zhruba letí světlo ze Slunce k Zemi?",
+    "en": "Roughly how long does light take to travel from the Sun to Earth?"
+   },
+   "moznosti": {
+    "cs": [
+     "8 sekund",
+     "8 minut",
+     "8 hodin",
+     "8 dní"
+    ],
+    "en": [
+     "8 seconds",
+     "8 minutes",
+     "8 hours",
+     "8 days"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Světlo ze Slunce k nám letí asi 8 minut a 20 sekund. Slunce tedy vždy vidíme takové, jaké bylo před osmi minutami.",
+    "en": "Sunlight takes about 8 minutes and 20 seconds to reach us, so we always see the Sun as it was about eight minutes ago."
+   }
+  },
+  {
+   "id": "T040-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co je supernova?",
+    "en": "What is a supernova?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zrod nové hvězdy z plynu",
+     "Velmi jasná kometa",
+     "Srážka dvou galaxií",
+     "Mohutný výbuch hvězdy"
+    ],
+    "en": [
+     "The birth of a new star from gas",
+     "A very bright comet",
+     "A collision of two galaxies",
+     "A powerful explosion of a star"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Supernova je výbuch hvězdy, který může na čas zazářit jako celá galaxie. Po výbuchu hmotné hvězdy může zůstat neutronová hvězda nebo černá díra.",
+    "en": "A supernova is a stellar explosion that can briefly shine as brightly as an entire galaxy. A massive star may leave behind a neutron star or a black hole."
+   }
+  },
+  {
+   "id": "T040-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Součástí kterého souhvězdí je známý obrazec Velký vůz?",
+    "en": "Which constellation is the well-known Big Dipper part of?"
+   },
+   "moznosti": {
+    "cs": [
+     "Malé medvědice",
+     "Velké medvědice",
+     "Orionu",
+     "Kasiopeje"
+    ],
+    "en": [
+     "Ursa Minor",
+     "Ursa Major",
+     "Orion",
+     "Cassiopeia"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Velký vůz je sedm jasných hvězd v souhvězdí Velké medvědice. Prodloužená spojnice jeho dvou zadních hvězd (Merak a Dubhe) vede k Polárce v Malé medvědici.",
+    "en": "The Big Dipper is a pattern of seven bright stars in Ursa Major. Extending the line through its two end stars (Merak and Dubhe) leads to Polaris in Ursa Minor."
+   }
+  },
+  {
+   "id": "T040-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Z čeho Slunce získává svou energii?",
+    "en": "Where does the Sun get its energy from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z postupného chladnutí jádra",
+     "Z jaderné fúze vodíku na helium",
+     "Z jaderného štěpení uranu",
+     "Z hoření plynů na svém povrchu"
+    ],
+    "en": [
+     "From its core gradually cooling down",
+     "From nuclear fusion of hydrogen into helium",
+     "From nuclear fission of uranium",
+     "From gases burning on its surface"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "V jádru Slunce se vodík slučuje na helium. Každou sekundu se přitom asi 4 miliony tun hmoty přemění na energii.",
+    "en": "In the Sun's core, hydrogen fuses into helium. Every second, about 4 million tonnes (4.4 million short tons) of mass are converted into energy."
+   }
+  },
+  {
+   "id": "T040-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která hvězda je nejjasnější na noční obloze?",
+    "en": "Which star is the brightest in the night sky?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vega",
+     "Sírius",
+     "Canopus",
+     "Betelgeuze"
+    ],
+    "en": [
+     "Vega",
+     "Sirius",
+     "Canopus",
+     "Betelgeuse"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Sírius v souhvězdí Velkého psa je od nás jen asi 8,6 světelného roku. Obíhá ho slabý bílý trpaslík Sírius B s hmotností zhruba jako Slunce, ale velký asi jako Země.",
+    "en": "Sirius in Canis Major is only about 8.6 light-years away. It is orbited by a faint white dwarf, Sirius B, with roughly the Sun's mass packed into about the size of Earth."
+   }
+  },
+  {
+   "id": "T040-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak staré je přibližně Slunce?",
+    "en": "Approximately how old is the Sun?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 460 milionů let",
+     "Asi 4,6 miliardy let",
+     "Asi 13,8 miliardy let",
+     "Asi 46 miliard let"
+    ],
+    "en": [
+     "About 460 million years",
+     "About 4.6 billion years",
+     "About 13.8 billion years",
+     "About 46 billion years"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Slunci je asi 4,6 miliardy let a je zhruba v polovině života. Asi za 5 miliard let se nafoukne v červeného obra a nakonec z něj zbude bílý trpaslík.",
+    "en": "The Sun is about 4.6 billion years old, roughly halfway through its life. In about 5 billion years it will swell into a red giant and finally end up as a white dwarf."
+   }
+  },
+  {
+   "id": "T040-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jakou barvu mají nejžhavější hvězdy?",
+    "en": "What colour are the hottest stars?"
+   },
+   "moznosti": {
+    "cs": [
+     "Žlutou",
+     "Červenou",
+     "Modrou",
+     "Oranžovou"
+    ],
+    "en": [
+     "Yellow",
+     "Red",
+     "Blue",
+     "Orange"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Nejžhavější hvězdy mají přes 30 000 K a září modře, kdežto chladné hvězdy kolem 3 000 K jsou oranžovočervené. U hvězd je to tedy naopak než u barevného značení kohoutků.",
+    "en": "The hottest stars exceed 30,000 K and shine blue, whereas cool stars of around 3,000 K are orange-red. With stars it is the opposite of the colour code on taps."
+   }
+  },
+  {
+   "id": "T040-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Se kterou velkou sousední galaxií se Mléčná dráha podle předpovědí za několik miliard let možná srazí?",
+    "en": "According to predictions, which large neighbouring galaxy may the Milky Way collide with in several billion years?"
+   },
+   "moznosti": {
+    "cs": [
+     "Galaxie Sombrero (M104)",
+     "Vírová galaxie (M51)",
+     "Galaxie v Andromedě",
+     "Galaxie Doutník (M82)"
+    ],
+    "en": [
+     "Sombrero Galaxy (M104)",
+     "Whirlpool Galaxy (M51)",
+     "Andromeda Galaxy",
+     "Cigar Galaxy (M82)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Srážka se dlouho čekala zhruba za 4,5 miliardy let, simulace z roku 2025 jí ale dávají jen asi 50% šanci během 10 miliard let. Jednotlivé hvězdy by se přitom téměř jistě nesrazily, protože jsou mezi nimi obrovské vzdálenosti.",
+    "en": "The collision was long expected in about 4.5 billion years, but 2025 simulations give it only about a 50% chance within 10 billion years. Individual stars would almost certainly not collide, because the distances between them are vast."
+   }
+  },
+  {
+   "id": "T040-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co zjistil Edwin Hubble v roce 1929 o vzdálených galaxiích?",
+    "en": "What did Edwin Hubble find about distant galaxies in 1929?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vzdalují se, a to tím rychleji, čím jsou dál",
+     "Všechny obíhají kolem středu Mléčné dráhy",
+     "Přibližují se, a to tím rychleji, čím jsou blíž",
+     "Stojí na místě a vesmír se nemění"
+    ],
+    "en": [
+     "They recede, and the farther they are, the faster",
+     "They all orbit the centre of the Milky Way",
+     "They approach, and the closer they are, the faster",
+     "They stand still and the universe does not change"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Úměrnost mezi vzdáleností galaxií a rychlostí jejich vzdalování je klíčovým dokladem rozpínání vesmíru. Hubble přitom využil hlavně měření rudého posuvu od Vesta Sliphera a Miltona Humasona.",
+    "en": "The proportionality between a galaxy's distance and its recession speed is key evidence that the universe is expanding. Hubble relied largely on redshift measurements by Vesto Slipher and Milton Humason."
+   }
+  },
+  {
+   "id": "T040-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve které galaxii leží černá díra, jejíž snímek zveřejnil v roce 2019 projekt Event Horizon Telescope jako vůbec první snímek černé díry?",
+    "en": "In which galaxy lies the black hole whose image the Event Horizon Telescope released in 2019 as the very first image of a black hole?"
+   },
+   "moznosti": {
+    "cs": [
+     "Velký Magellanův oblak",
+     "Galaxie v Andromedě",
+     "Galaxie Sombrero (M104)",
+     "M87 (Messier 87)"
+    ],
+    "en": [
+     "Large Magellanic Cloud",
+     "Andromeda Galaxy",
+     "Sombrero Galaxy (M104)",
+     "M87 (Messier 87)"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Obří eliptická galaxie M87 v souhvězdí Panny je asi 53 milionů světelných let daleko. Její černá díra M87* má hmotnost asi 6,5 miliardy Sluncí; data pro snímek vznikla už v dubnu 2017.",
+    "en": "The supergiant elliptical galaxy M87 in Virgo is about 53 million light-years away. Its black hole, M87*, has about 6.5 billion solar masses; the data for the image were collected back in April 2017."
+   }
+  },
+  {
+   "id": "T040-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se jmenuje supermasivní černá díra ve středu Mléčné dráhy, jejíž snímek zveřejnil projekt EHT v roce 2022?",
+    "en": "What is the name of the supermassive black hole at the centre of the Milky Way, imaged by the EHT project in 2022?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sagittarius A*",
+     "Cygnus X-1",
+     "TON 618",
+     "V404 Cygni"
+    ],
+    "en": [
+     "Sagittarius A*",
+     "Cygnus X-1",
+     "TON 618",
+     "V404 Cygni"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Sagittarius A* je od nás asi 26 000 světelných let a má hmotnost zhruba 4 milionů Sluncí. Na obloze leží ve směru souhvězdí Střelce (Sagittarius) poblíž hranice se Štírem.",
+    "en": "Sagittarius A* is about 26,000 light-years away and has roughly 4 million solar masses. In the sky it lies in the direction of Sagittarius, near the border with Scorpius."
+   }
+  },
+  {
+   "id": "T040-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jakým objektem je typický pulzar, jehož záření k nám přichází v pravidelných pulzech?",
+    "en": "What kind of object is a typical pulsar, whose radiation reaches us in regular pulses?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hnědým trpaslíkem",
+     "Červeným obrem",
+     "Neutronovou hvězdou",
+     "Žlutým trpaslíkem"
+    ],
+    "en": [
+     "A brown dwarf",
+     "A red giant",
+     "A neutron star",
+     "A yellow dwarf"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pulzar je rychle rotující, silně zmagnetizovaná neutronová hvězda, která vysílá svazky záření z magnetických pólů. Zachytíme je, jen když míří k Zemi – podobně jako paprsek majáku.",
+    "en": "A pulsar is a rapidly rotating, highly magnetised neutron star emitting beams of radiation from its magnetic poles. We detect them only when they sweep past Earth, like a lighthouse beam."
+   }
+  },
+  {
+   "id": "T040-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co poprvé přímo zachytily detektory LIGO v září 2015?",
+    "en": "What did the LIGO detectors directly detect for the first time in September 2015?"
+   },
+   "moznosti": {
+    "cs": [
+     "Gravitační vlny",
+     "Magnetické monopóly",
+     "Temnou hmotu",
+     "Reliktní záření"
+    ],
+    "en": [
+     "Gravitational waves",
+     "Magnetic monopoles",
+     "Dark matter",
+     "Cosmic microwave background"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vlny vznikly splynutím dvou černých děr o hmotnostech asi 36 a 29 Sluncí zhruba 1,4 miliardy světelných let daleko. Einstein je předpověděl už v roce 1916 a za jejich objev byla udělena Nobelova cena za fyziku 2017.",
+    "en": "The waves came from the merger of two black holes of about 36 and 29 solar masses, some 1.4 billion light-years away. Einstein predicted them in 1916, and their detection earned the 2017 Nobel Prize in Physics."
+   }
+  },
+  {
+   "id": "T040-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "V jaké oblasti spektra pozoruje především Webbův vesmírný dalekohled (JWST)?",
+    "en": "In which part of the spectrum does the James Webb Space Telescope (JWST) mainly observe?"
+   },
+   "moznosti": {
+    "cs": [
+     "V infračervené",
+     "V rádiové",
+     "V rentgenové",
+     "V ultrafialové"
+    ],
+    "en": [
+     "Infrared",
+     "Radio",
+     "X-ray",
+     "Ultraviolet"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Webbovo zrcadlo o průměru 6,5 m z 18 šestiúhelníků je pozlacené, protože zlato dobře odráží infračervené světlo. Dalekohled vypuštěný 25. 12. 2021 krouží kolem bodu L2 asi 1,5 milionu km od Země a sluneční clona ho chladí pod 50 K.",
+    "en": "Webb's 6.5 m (21 ft) mirror of 18 hexagonal segments is gold-coated, because gold reflects infrared light well. Launched on 25 December 2021, it orbits near the L2 point about 1.5 million km (930,000 mi) from Earth, and its sunshield keeps it below 50 K."
+   }
+  },
+  {
+   "id": "T040-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik souhvězdí oficiálně uznává Mezinárodní astronomická unie?",
+    "en": "How many constellations does the International Astronomical Union officially recognise?"
+   },
+   "moznosti": {
+    "cs": [
+     "12",
+     "48",
+     "88",
+     "110"
+    ],
+    "en": [
+     "12",
+     "48",
+     "88",
+     "110"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Uznávaných souhvězdí je 88 a jejich hranice z let 1928–1930 rozdělují celou oblohu tak, že každý bod patří právě jednomu z nich. Antický Ptolemaios jich znal 48.",
+    "en": "There are 88 recognised constellations, and their boundaries, set in 1928–1930, divide the whole sky so that every point belongs to exactly one. Ptolemy in antiquity listed 48."
+   }
+  },
+  {
+   "id": "T040-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Do které spektrální třídy patří Slunce?",
+    "en": "Which spectral class does the Sun belong to?"
+   },
+   "moznosti": {
+    "cs": [
+     "O",
+     "B",
+     "G",
+     "M"
+    ],
+    "en": [
+     "O",
+     "B",
+     "G",
+     "M"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Slunce je hvězda hlavní posloupnosti třídy G2V s povrchovou teplotou asi 5 800 K. Pořadí tříd od nejžhavější O B A F G K M si astronomové pamatují podle anglické pomůcky „Oh Be A Fine Girl/Guy, Kiss Me“.",
+    "en": "The Sun is a G2V main-sequence star with a surface temperature of about 5,800 K. Astronomers remember the order of classes from hottest, O B A F G K M, with the mnemonic 'Oh Be A Fine Girl/Guy, Kiss Me'."
+   }
+  },
+  {
+   "id": "T040-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kterým souhvězdím prochází ekliptika (zdánlivá dráha Slunce), ačkoli nepatří mezi dvanáct tradičních souhvězdí zvěrokruhu?",
+    "en": "Which constellation does the ecliptic (the Sun's apparent path) pass through, although it is not one of the twelve traditional zodiac constellations?"
+   },
+   "moznosti": {
+    "cs": [
+     "Labuť",
+     "Orion",
+     "Kasiopeja",
+     "Hadonoš"
+    ],
+    "en": [
+     "Cygnus",
+     "Orion",
+     "Cassiopeia",
+     "Ophiuchus"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Ekliptika protíná 13 souhvězdí a Hadonoš (Ophiuchus) je to „navíc“. Znamení zvěrokruhu jsou ale stejně velké třicetistupňové úseky, ne souhvězdí; Hadonoš představuje muže držícího hada, podle římské mytografie léčitele Asklépia.",
+    "en": "The ecliptic crosses 13 constellations, and Ophiuchus is the 'extra' one. Zodiac signs, however, are equal 30° sections, not constellations; Ophiuchus depicts a man holding a serpent, in Roman-era mythography the healer Asclepius."
+   }
+  },
+  {
+   "id": "T040-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč Polárka nezůstane polární hvězdou navždy?",
+    "en": "Why will Polaris not remain the pole star forever?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zemská osa pomalu opisuje kužel (precese)",
+     "Oběžná dráha Země se postupně zvětšuje",
+     "Polárka se rychle vzdaluje od Slunce",
+     "Polárka postupně slábne a brzy vyhasne"
+    ],
+    "en": [
+     "Earth's axis slowly traces a cone (precession)",
+     "Earth's orbit is gradually getting larger",
+     "Polaris is rapidly moving away from the Sun",
+     "Polaris is fading and will soon burn out"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Precese zemské osy trvá asi 26 000 let. Polárka bude pólu nejblíž kolem roku 2100, pak se od něj začne vzdalovat a kolem roku 14 500 bude polární hvězdou Vega.",
+    "en": "A full cycle of Earth's axial precession takes about 26,000 years. Polaris will be closest to the pole around 2100, then drift away, and around 14,500 AD Vega will be the pole star."
+   }
+  },
+  {
+   "id": "T040-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který vedoucí práce Jocelyn Bell Burnellové sdílel v roce 1974 Nobelovu cenu za fyziku, zatímco ona, objevitelka pulzarů, oceněna nebyla?",
+    "en": "Which supervisor of Jocelyn Bell Burnell shared the 1974 Nobel Prize in Physics, while she, the discoverer of pulsars, was left out?"
+   },
+   "moznosti": {
+    "cs": [
+     "Antony Hewish",
+     "Stephen Hawking",
+     "Roger Penrose",
+     "Fred Hoyle"
+    ],
+    "en": [
+     "Antony Hewish",
+     "Stephen Hawking",
+     "Roger Penrose",
+     "Fred Hoyle"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Cenu dostali Antony Hewish a Martin Ryle; opomenutí Bell Burnellové veřejně kritizoval například Fred Hoyle. Když v roce 2018 získala Breakthrough Prize ve výši 3 milionů dolarů, celou částku věnovala na podporu žen, menšin a uprchlíků ve fyzice.",
+    "en": "The prize went to Antony Hewish and Martin Ryle; Fred Hoyle, among others, publicly criticised Bell Burnell's omission. When she won the $3 million Breakthrough Prize in 2018, she donated all of it to support women, minority and refugee students in physics."
+   }
+  },
+  {
+   "id": "T040-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na jaký poloměr by se muselo Slunce smrštit, aby se jeho povrch stal horizontem událostí černé díry?",
+    "en": "To what radius would the Sun have to shrink for its surface to become the event horizon of a black hole?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 3 m",
+     "Asi 3 km",
+     "Asi 300 km",
+     "Asi 3 000 km"
+    ],
+    "en": [
+     "About 3 m (10 ft)",
+     "About 3 km (1.9 mi)",
+     "About 300 km (190 mi)",
+     "About 3,000 km (1,900 mi)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Tento takzvaný Schwarzschildův poloměr je pro Slunce asi 3 km, pro Zemi jen asi 9 mm. Slunce se ale černou dírou nestane – nemá na to dost hmoty a skončí jako bílý trpaslík.",
+    "en": "This so-called Schwarzschild radius is about 3 km (1.9 mi) for the Sun and only about 9 mm (0.35 inches) for Earth. The Sun will never become a black hole, though – it lacks the mass and will end as a white dwarf."
+   }
+  },
+  {
+   "id": "T040-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik by zhruba vážila čajová lžička látky z neutronové hvězdy?",
+    "en": "Roughly how much would a teaspoon of neutron star material weigh?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 5 kg",
+     "Asi 5 tun",
+     "Asi 5 tisíc tun",
+     "Asi 5 miliard tun"
+    ],
+    "en": [
+     "About 5 kg (11 lb)",
+     "About 5 tonnes (5.5 short tons)",
+     "About 5 thousand tonnes (5,500 short tons)",
+     "About 5 billion tonnes (5.5 billion short tons)"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Neutronová hvězda má hustotu atomového jádra: zhruba 1,4 hmotnosti Slunce se vejde do koule o poloměru asi 10 km. Vzniká zhroucením jádra hmotné hvězdy na konci jejího života.",
+    "en": "A neutron star has the density of an atomic nucleus: about 1.4 solar masses packed into a sphere roughly 10 km (6.2 mi) in radius. It forms when the core of a massive star collapses at the end of its life."
+   }
+  },
+  {
+   "id": "T040-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Pomocí kterých hvězd Edwin Hubble v roce 1924 prokázal, že mlhovina v Andromedě je samostatná galaxie?",
+    "en": "Using which kind of stars did Edwin Hubble prove in 1924 that the Andromeda nebula is a separate galaxy?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bílých trpaslíků",
+     "Cefeid",
+     "Červených obrů",
+     "Pulzarů"
+    ],
+    "en": [
+     "White dwarfs",
+     "Cepheids",
+     "Red giants",
+     "Pulsars"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "U cefeid souvisí perioda pulzování se skutečnou svítivostí, což roku 1908 objevila Henrietta Swan Leavittová. Ze srovnání se zdánlivou jasností Hubble určil vzdálenost daleko za hranicí Mléčné dráhy.",
+    "en": "In Cepheids the pulsation period is linked to true luminosity, as Henrietta Swan Leavitt discovered in 1908. Comparing it with apparent brightness, Hubble found a distance far beyond the Milky Way."
+   }
+  },
+  {
+   "id": "T040-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kterého vědce chtěla Mezinárodní astronomická unie v roce 2018 ocenit, když doporučila přejmenovat Hubbleův zákon?",
+    "en": "Which scientist did the International Astronomical Union seek to honour in 2018 by recommending that Hubble's law be renamed?"
+   },
+   "moznosti": {
+    "cs": [
+     "Milton Humason",
+     "Vesto Slipher",
+     "Georges Lemaître",
+     "Albert Einstein"
+    ],
+    "en": [
+     "Milton Humason",
+     "Vesto Slipher",
+     "Georges Lemaître",
+     "Albert Einstein"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Doporučený název zní Hubble–Lemaître law. Belgický kněz a astronom Georges Lemaître publikoval tento vztah už v roce 1927, dva roky před Hubblem, jeho článek ale vyšel francouzsky v málo citovaném časopise.",
+    "en": "The recommended name is the Hubble–Lemaître law. Belgian priest and astronomer Georges Lemaître published the relation in 1927, two years before Hubble, but his paper appeared in French in a low-impact journal."
+   }
+  },
+  {
+   "id": "T040-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který známý objekt je pozůstatkem supernovy, kterou v roce 1054 zaznamenali čínští astronomové jako „hostující hvězdu“?",
+    "en": "Which well-known object is the remnant of a supernova that Chinese astronomers recorded in 1054 as a 'guest star'?"
+   },
+   "moznosti": {
+    "cs": [
+     "Prstencová mlhovina (M57)",
+     "Mlhovina v Orionu (M42)",
+     "Mlhovina Koňská hlava",
+     "Krabí mlhovina (M1)"
+    ],
+    "en": [
+     "Ring Nebula (M57)",
+     "Orion Nebula (M42)",
+     "Horsehead Nebula",
+     "Crab Nebula (M1)"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Supernova byla podle čínských záznamů pouhým okem vidět asi dva roky. Krabí mlhovina leží v souhvězdí Býka a v jejím středu rotuje pulzar zhruba 30krát za sekundu.",
+    "en": "According to Chinese records, the supernova stayed visible to the naked eye for about two years. The Crab Nebula lies in Taurus, and a pulsar at its centre spins about 30 times per second."
+   }
+  },
+  {
+   "id": "T040-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaký problém se ukázal brzy po vypuštění Hubbleova vesmírného dalekohledu v roce 1990?",
+    "en": "What problem became apparent soon after the Hubble Space Telescope was launched in 1990?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hlavní zrcadlo při startu prasklo vibracemi",
+     "Dalekohled se ocitl na příliš nízké oběžné dráze",
+     "Kamery dalekohledu se přehřívaly na Slunci",
+     "Hlavní zrcadlo bylo vybroušeno do špatného tvaru"
+    ],
+    "en": [
+     "The primary mirror cracked from vibration during launch",
+     "The telescope ended up in too low an orbit",
+     "The telescope's cameras overheated in sunlight",
+     "The primary mirror had been ground to the wrong shape"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Okraj 2,4m zrcadla byl asi o 2,2 mikrometru plošší, než měl být, a snímky byly rozmazané (sférická vada). V prosinci 1993 astronauti nainstalovali korekční optiku COSTAR a novou kameru s vestavěnou korekcí.",
+    "en": "The edge of the 2.4 m (7.9 ft) mirror was about 2.2 micrometres too flat, blurring images (spherical aberration). In December 1993 astronauts installed the COSTAR corrective optics and a new camera with built-in correction."
+   }
+  }
+ ]
+}

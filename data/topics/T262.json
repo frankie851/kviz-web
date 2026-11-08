@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T262",
+ "nazev": {
+  "cs": "Ovoce a zelenina: původ a kuriozity",
+  "en": "Fruit and Vegetables: Origins and Curiosities"
+ },
+ "kategorie": {
+  "id": "jidlo-a-piti",
+  "nazev": {
+   "cs": "Jídlo a pití",
+   "en": "Food & Drink"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T262-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaký typ plodu je banán z botanického hlediska?",
+    "en": "What type of fruit is the banana, botanically speaking?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nažka",
+     "Malvice",
+     "Peckovice",
+     "Bobule"
+    ],
+    "en": [
+     "Achene",
+     "Pome",
+     "Drupe",
+     "Berry"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Banán je botanicky bobule, stejně jako okurka nebo avokádo. Pěstované banány jsou partenokarpické – plody se vyvíjejí bez oplození, a proto jsou bez semen.",
+    "en": "The banana is botanically a berry, just like the cucumber or the avocado. Cultivated bananas are parthenocarpic – the fruit develops without fertilisation, so it is seedless."
+   }
+  },
+  {
+   "id": "T262-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které tropické ovoce, přezdívané „král ovoce“, je pro svůj pronikavý zápach zakázáno v singapurské veřejné dopravě?",
+    "en": "Which tropical fruit, nicknamed the \"king of fruits\", is banned from Singapore's public transport because of its pungent smell?"
+   },
+   "moznosti": {
+    "cs": [
+     "Durian",
+     "Papája",
+     "Liči",
+     "Mango"
+    ],
+    "en": [
+     "Durian",
+     "Papaya",
+     "Lychee",
+     "Mango"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kvůli zápachu durian zakazují i některé hotely a dopravci v jihovýchodní Asii, například v Bangkoku.",
+    "en": "Because of its smell, some hotels and transport services in Southeast Asia, for example in Bangkok, ban the durian too."
+   }
+  },
+  {
+   "id": "T262-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Do které rostlinné čeledi patří brambor, stejně jako rajče, paprika nebo tabák?",
+    "en": "Which plant family does the potato belong to, along with the tomato, bell pepper and tobacco?"
+   },
+   "moznosti": {
+    "cs": [
+     "Brukvovité",
+     "Bobovité",
+     "Lilkovité",
+     "Tykvovité"
+    ],
+    "en": [
+     "Cabbage family (Brassicaceae)",
+     "Legume family (Fabaceae)",
+     "Nightshade family (Solanaceae)",
+     "Gourd family (Cucurbitaceae)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Brambor i rajče patří dokonce do stejného rodu Solanum v čeledi lilkovitých. Nadzemní části bramboru obsahují jedovatý solanin; hlízy ho mají málo, pokud na světle nezezelenají.",
+    "en": "The potato and the tomato even share the same genus, Solanum, within the nightshade family. The aerial parts of the potato contain toxic solanine; the tubers contain little unless light turns them green."
+   }
+  },
+  {
+   "id": "T262-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Mrkev byla zdomácněna nejspíš na území Persie. Jakou barvu mívají takzvané východní mrkve, které se z těch prvních dochovaly dodnes?",
+    "en": "The carrot was probably domesticated in Persia. What colour are the so-called Eastern carrots that survive from those first ones?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zelenou",
+     "Modrou",
+     "Oranžovou",
+     "Fialovou"
+    ],
+    "en": [
+     "Green",
+     "Blue",
+     "Orange",
+     "Purple"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Východní mrkve bývají fialové nebo žluté. Oranžovou mrkev vyšlechtili nizozemští pěstitelé; západní typ mrkve se v Nizozemsku objevil v 16. nebo 17. století. Oblíbené vysvětlení, že tak vzdali hold rodu Oranžských, nemá kromě ústní tradice a časové shody téměř žádné doklady.",
+    "en": "Eastern carrots are commonly purple or yellow. The orange carrot was created by Dutch growers; the Western carrot emerged in the Netherlands in the 16th or 17th century. The popular claim that this honoured the House of Orange has little evidence beyond oral tradition and the timing."
+   }
+  },
+  {
+   "id": "T262-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik procent hmotnosti syrové okurky tvoří voda?",
+    "en": "What percentage of a raw cucumber's weight is water?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 65 %",
+     "Asi 75 %",
+     "Asi 85 %",
+     "Asi 95 %"
+    ],
+    "en": [
+     "About 65%",
+     "About 75%",
+     "About 85%",
+     "About 95%"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Okurka je z 95 % voda. Botanicky je to plod – zvláštní typ bobule se semeny a vnější slupkou (latinsky pepo).",
+    "en": "A cucumber is 95% water. Botanically it is a fruit – a special type of berry with seeds and an outer rind, called a pepo."
+   }
+  },
+  {
+   "id": "T262-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kde dozrávají lusky arašídů?",
+    "en": "Where do peanut pods ripen?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na vysokých keřích",
+     "Na stromech",
+     "Na popínavé liáně",
+     "Pod zemí"
+    ],
+    "en": [
+     "On tall shrubs",
+     "On trees",
+     "On a climbing vine",
+     "Underground"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Po oplození se stopka květu prodlouží a zavrtá do půdy, kde se lusk vyvine – tomu se říká geokarpie. Botanicky arašíd není ořech: podzemnice olejná je luštěnina z čeledi bobovitých.",
+    "en": "After fertilisation the flower stalk lengthens into a peg that pushes into the soil, where the pod develops – a feature called geocarpy. Botanically the peanut is not a nut: it is a legume of the bean family."
+   }
+  },
+  {
+   "id": "T262-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co dodává námořníkovi Pepkovi (Popeye) z kreslených grotesek nadlidskou sílu?",
+    "en": "What gives the cartoon sailor Popeye his superhuman strength?"
+   },
+   "moznosti": {
+    "cs": [
+     "Špenát z plechovky",
+     "Brokolice",
+     "Mrkev",
+     "Fazole z plechovky"
+    ],
+    "en": [
+     "Canned spinach",
+     "Broccoli",
+     "Carrots",
+     "Canned beans"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Autor komiksu E. C. Segar použil špenát jen párkrát; teprve animátor Max Fleischer v něm rozpoznal Pepkův poznávací znak. V kreslených filmech sní plechovku špenátu téměř pokaždé, když se ocitne ve zdánlivě bezvýchodné situaci.",
+    "en": "Comic-strip creator E. C. Segar used spinach only a few times; it was animator Max Fleischer who saw its potential as Popeye's trademark. In the cartoons he eats a can of spinach almost every time he ends up in a seemingly hopeless situation."
+   }
+  },
+  {
+   "id": "T262-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterou částí rostliny je bramborová hlíza?",
+    "en": "Which part of the plant is a potato tuber?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dužnatým plodem",
+     "Ztlustlým stonkem",
+     "Zduřelým listem",
+     "Ztlustlým kořenem"
+    ],
+    "en": [
+     "A fleshy fruit",
+     "A swollen stem",
+     "A swollen leaf",
+     "A swollen root"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Hlízy vznikají na koncích tenkých podzemních výběžků (stolonů) a nejsou to kořeny, ale stonky – proto z jejich „oček“ raší nové výhonky. Pravé plody bramboru jsou drobné zelené kuličky podobné nezralým cherry rajčatům a nejsou jedlé.",
+    "en": "Tubers form at the tips of thin underground stolons and are not roots but stems – which is why new shoots sprout from their \"eyes\". The potato's true fruits are small green fruits resembling green cherry tomatoes, and they are inedible."
+   }
+  },
+  {
+   "id": "T262-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který mořeplavec byl prvním Evropanem, který se setkal s ananasem?",
+    "en": "Which navigator was the first European to encounter the pineapple?"
+   },
+   "moznosti": {
+    "cs": [
+     "Fernão de Magalhães",
+     "James Cook",
+     "Vasco da Gama",
+     "Kryštof Kolumbus"
+    ],
+    "en": [
+     "Ferdinand Magellan",
+     "James Cook",
+     "Vasco da Gama",
+     "Christopher Columbus"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kolumbus narazil na ananas 4. listopadu 1493 na ostrově Guadeloupe během své druhé plavby. Divoký ananas pochází z povodí řek Paraná a Paraguay v Jižní Americe.",
+    "en": "Columbus came across the pineapple on Guadeloupe on 4 November 1493, during his second voyage. The wild plant originates from the Paraná–Paraguay river basins in South America."
+   }
+  },
+  {
+   "id": "T262-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč zůstává bílý chřest bílý?",
+    "en": "Why does white asparagus stay white?"
+   },
+   "moznosti": {
+    "cs": [
+     "Je to zvláštní druh bez zeleného barviva",
+     "Roste zahrnutý zeminou, bez světla",
+     "Sklízí se v noci, kdy zeleň vybledne",
+     "Po sklizni se bělí v solném roztoku"
+    ],
+    "en": [
+     "It is a separate species without green pigment",
+     "It grows covered with soil, without light",
+     "It is harvested at night when the green fades",
+     "It is bleached in brine after harvest"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Bez světla výhonky nefotosyntetizují, a proto nezezelenají – pěstitelé je během růstu průběžně přihrnují zeminou. Bílý i zelený chřest je tedy tatáž rostlina.",
+    "en": "Without light the shoots do not photosynthesise, so they never turn green – growers keep earthing them up as they grow. White and green asparagus are therefore the same plant."
+   }
+  },
+  {
+   "id": "T262-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Název durian pochází z malajského slova duri. Co znamená?",
+    "en": "The name durian comes from the Malay word duri. What does it mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Med",
+     "Trn",
+     "Strom",
+     "Máslo"
+    ],
+    "en": [
+     "Honey",
+     "Thorn",
+     "Tree",
+     "Butter"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jméno odkazuje na ostnatou slupku plodu. Durian je plod několika druhů stromů z rodu Durio.",
+    "en": "The name refers to the fruit's spiky rind. Durian is the fruit of several tree species of the genus Durio."
+   }
+  },
+  {
+   "id": "T262-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Banánovník dorůstá výšky několika metrů. Čím ale z botanického hlediska je?",
+    "en": "A banana plant can grow several metres tall. But what is it botanically?"
+   },
+   "moznosti": {
+    "cs": [
+     "Liánou",
+     "Bylinou",
+     "Stromem",
+     "Keřem"
+    ],
+    "en": [
+     "A liana",
+     "A herb",
+     "A tree",
+     "A shrub"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Banánovník je největší kvetoucí bylina. To, co vypadá jako kmen, je nepravý stonek složený ze stočených pochev listů.",
+    "en": "The banana plant is the largest herbaceous flowering plant. What looks like a trunk is actually a pseudostem made of tightly packed leaf sheaths."
+   }
+  },
+  {
+   "id": "T262-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Hlávkové zelí, kadeřávek, brokolice, květák, kedluben i růžičková kapusta jsou vyšlechtěné odrůdy jediného druhu. Kterého?",
+    "en": "Cabbage, kale, broccoli, cauliflower, kohlrabi and Brussels sprouts are all cultivated forms of a single species. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Brukev řepka",
+     "Brukev zelná",
+     "Ředkev setá",
+     "Hořčice bílá"
+    ],
+    "en": [
+     "Brassica napus",
+     "Brassica oleracea",
+     "Raphanus sativus",
+     "Sinapis alba"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Šlechtitelé u brukve zelné zvětšovali různé části: u zelí listy, u kedlubnu stonek, u brokolice a květáku květenství, u růžičkové kapusty pupeny.",
+    "en": "Breeders of Brassica oleracea enlarged different parts: leaves in cabbage, the stem in kohlrabi, flower heads in broccoli and cauliflower, and buds in Brussels sprouts."
+   }
+  },
+  {
+   "id": "T262-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč se do želé ze želatiny nedává čerstvý ananas?",
+    "en": "Why is fresh pineapple not used in gelatin desserts?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jeho enzym rozloží bílkovinu želatinu",
+     "Jeho kyselina želé zbarví dohněda",
+     "Jeho cukr želatinu rozpustí na sirup",
+     "Jeho vláknina rozdělí želé do vrstev"
+    ],
+    "en": [
+     "Its enzyme breaks down the gelatin protein",
+     "Its acid turns the jelly brown",
+     "Its sugar dissolves the gelatin into syrup",
+     "Its fibre splits the jelly into layers"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Želatina je bílkovina a ananasový enzym bromelain ji rozštěpí, takže želé neztuhne. Bromelain se nachází nejen v plodu, ale i ve stonku, listech a korunce ananasu.",
+    "en": "Gelatin is a protein, and the pineapple enzyme bromelain breaks it down, so the jelly will not set. Bromelain is found not only in the fruit but also in the pineapple's stem, leaves and crown."
+   }
+  },
+  {
+   "id": "T262-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Divoká jabloň Malus sieversii, hlavní předek pěstovaných jablek, roste v pohoří Ťan-šan. Nejvíc jí roste v údolí řeky Ili na jihu které země?",
+    "en": "The wild apple Malus sieversii, the main ancestor of cultivated apples, grows in the Tian Shan mountains. It is found mainly in the Ili valley in the south of which country?"
+   },
+   "moznosti": {
+    "cs": [
+     "Írán",
+     "Kazachstán",
+     "Mongolsko",
+     "Turecko"
+    ],
+    "en": [
+     "Iran",
+     "Kazakhstan",
+     "Mongolia",
+     "Turkey"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Že je právě tato jabloň hlavním předkem domácích jablek, potvrdila analýza DNA z roku 2010. Jméno kazašského města Almaty se často vykládá od slova alma – jablko.",
+    "en": "A 2010 DNA analysis confirmed this species as the main ancestor of domestic apples. The name of the Kazakh city Almaty is often explained as coming from alma, meaning apple."
+   }
+  },
+  {
+   "id": "T262-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Batát se někdy nazývá sladký brambor. S kterou z těchto rostlin je ale navzdory jménu příbuzný nejblíž?",
+    "en": "Despite its name, which of these plants is the sweet potato most closely related to?"
+   },
+   "moznosti": {
+    "cs": [
+     "S maniokem",
+     "S kolokázií (taro)",
+     "S bramborem",
+     "S povijnicí"
+    ],
+    "en": [
+     "Cassava",
+     "Taro",
+     "Potato",
+     "Morning glory"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Batát (povijnice batátová) patří do čeledi svlačcovitých a do stejného rodu Ipomoea jako okrasné povijnice. S bramborem je příbuzný jen vzdáleně. Z více než tisíce druhů svlačcovitých je batát jedinou významnou plodinou.",
+    "en": "The sweet potato belongs to the morning glory family and shares the genus Ipomoea with the garden flowers called morning glories. It is only distantly related to the potato. Of over a thousand species in its family, it is the only major crop."
+   }
+  },
+  {
+   "id": "T262-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co jsou kukuřičné „vousy“, které trčí z konce palice?",
+    "en": "What is corn silk, the strands sticking out of the end of a corn cob?"
+   },
+   "moznosti": {
+    "cs": [
+     "Prašníky, z nichž se uvolňuje pyl",
+     "Vzdušné kořínky, které sají vodu",
+     "Čnělky vedoucí k jednotlivým zrnům",
+     "Zaschlé listeny, které chrání palici"
+    ],
+    "en": [
+     "Anthers that release pollen",
+     "Aerial rootlets that absorb water",
+     "Styles leading to individual kernels",
+     "Dried husk leaves that protect the cob"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Každé vlákno je prodloužená čnělka vedoucí k jednomu vajíčku; zrno se vyvine, jen když na vlákno dopadne pyl a vajíčko je oplozeno. Na jedné palici se může založit až tisíc vajíček, tedy budoucích zrn.",
+    "en": "Each strand is an elongated style leading to one ovule; a kernel develops only if pollen lands on that strand and the ovule is fertilised. Up to a thousand ovules, i.e. potential kernels, can form on one ear."
+   }
+  },
+  {
+   "id": "T262-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co v angličtině původně označovalo slovo pineapple, dnes název ananasu?",
+    "en": "What did the English word pineapple originally refer to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Granátové jablko",
+     "Šišku jehličnanu",
+     "Kokosový ořech",
+     "Pomeranč"
+    ],
+    "en": [
+     "A pomegranate",
+     "A conifer cone",
+     "A coconut",
+     "An orange"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ve 14. století znamenalo pine apple šišku borovice. Pro tropický plod ho roku 1624 použil anglický objevitel John Smith.",
+    "en": "In the 14th century a pine apple meant a pine cone. The English explorer John Smith used the word for the tropical fruit in 1624."
+   }
+  },
+  {
+   "id": "T262-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Plod kterého stromu je považován za jeden z největších plodů rostoucích na stromech a může vážit i desítky kilogramů?",
+    "en": "The fruit of which tree is considered one of the largest tree-borne fruits and can weigh tens of kilograms?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mangovníku",
+     "Kokosové palmy",
+     "Chlebovníku obecného",
+     "Chlebovníku různolistého"
+    ],
+    "en": [
+     "Mango tree",
+     "Coconut palm",
+     "Breadfruit",
+     "Jackfruit"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Chlebovník různolistý (Artocarpus heterophyllus), jehož plod se anglicky nazývá jackfruit, pochází z Indie, možná z pohoří Západní Ghát. Jeho plod je národním ovocem Bangladéše a Srí Lanky a může měřit až 90 cm. Plody příbuzného chlebovníku obecného (breadfruit) váží jen asi 0,25–6 kg.",
+    "en": "The jackfruit tree (Artocarpus heterophyllus) is native to India and may have originated in the Western Ghats. Its fruit is the national fruit of Bangladesh and Sri Lanka and can be up to 90 cm (35 inches) long. The fruits of its relative, the breadfruit, weigh only about 0.25–6 kg (0.55–13 lb)."
+   }
+  },
+  {
+   "id": "T262-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Sladký pomeranč je kříženec dvou starších citrusů. Kterých?",
+    "en": "The sweet orange is a hybrid of two older citrus fruits. Which ones?"
+   },
+   "moznosti": {
+    "cs": [
+     "Citronu a limetky",
+     "Citronu a mandarinky",
+     "Pomela a mandarinky",
+     "Pomela a citronu"
+    ],
+    "en": [
+     "Lemon and lime",
+     "Lemon and mandarin",
+     "Pomelo and mandarin",
+     "Pomelo and lemon"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pomeranč (Citrus × sinensis) vznikl křížením pomela (Citrus maxima) a mandarinky (Citrus reticulata). Anglické orange souvisí se sanskrtským slovem nāraṅga, které znamenalo pomerančovník.",
+    "en": "The sweet orange (Citrus × sinensis) is a cross between the pomelo (Citrus maxima) and the mandarin (Citrus reticulata). The English word orange is linked to the Sanskrit nāraṅga, meaning orange tree."
+   }
+  },
+  {
+   "id": "T262-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč americký Nejvyšší soud v roce 1893 v případu Nix v. Hedden rozhodoval, zda je rajče ovoce, nebo zelenina?",
+    "en": "Why did the US Supreme Court have to decide in 1893, in Nix v. Hedden, whether a tomato is a fruit or a vegetable?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kvůli clu na dováženou zeleninu",
+     "Kvůli dotacím pro pěstitele zeleniny",
+     "Kvůli zákazu prodeje ovoce v neděli",
+     "Kvůli spotřební dani na kečup"
+    ],
+    "en": [
+     "Because of a tariff on imported vegetables",
+     "Because of subsidies for vegetable growers",
+     "Because of a ban on selling fruit on Sundays",
+     "Because of an excise tax on ketchup"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Zákon z roku 1883 zatížil clem dováženou zeleninu, ovoce ne, a dovozce John Nix chtěl clo vrátit s tím, že rajče je botanicky plod. Soud jednomyslně rozhodl, že pro účely cla je rajče zelenina.",
+    "en": "An 1883 law imposed a duty on imported vegetables but not fruit, and the importer John Nix sought a refund, arguing that the tomato is botanically a fruit. The court unanimously ruled that for customs purposes the tomato is a vegetable."
+   }
+  },
+  {
+   "id": "T262-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Po kom se ve francouzské kuchyni jmenuje řada bramborových jídel, například hachis Parmentier?",
+    "en": "Who are many French potato dishes, such as hachis Parmentier, named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Po vojevůdci, jenž je přivezl z Peru",
+     "Po propagátorovi brambor ve Francii",
+     "Po dvorním kuchaři Ludvíka XIV.",
+     "Po botanikovi, jenž je první popsal"
+    ],
+    "en": [
+     "A commander who brought them from Peru",
+     "A promoter of potatoes in France",
+     "A court chef of Louis XIV",
+     "A botanist who first described them"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Lékárník Antoine-Augustin Parmentier poznal brambory, které Francouzi znali hlavně jako krmivo pro prasata, ve válečném zajetí za sedmileté války. Oblíbená historka, že pole nechal hlídat, aby lidi nalákal ke krádeži, není spolehlivě doložená.",
+    "en": "The pharmacist Antoine-Augustin Parmentier encountered potatoes, known to the French mainly as hog feed, as a prisoner of war during the Seven Years' War. The popular story that he had his fields guarded to tempt people to steal them is not reliably documented."
+   }
+  },
+  {
+   "id": "T262-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Grapefruit vznikl v 18. století náhodným křížením pomela a pomeranče. Kde?",
+    "en": "The grapefruit arose in the 18th century as an accidental cross between a pomelo and a sweet orange. Where?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Sicílii",
+     "Na Floridě",
+     "Na Barbadosu",
+     "V jižní Číně"
+    ],
+    "en": [
+     "Sicily",
+     "Florida",
+     "Barbados",
+     "Southern China"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Plod, kterému se říkalo „zakázané ovoce“, popsal roku 1750 velšský duchovní Griffith Hughes v knize o přírodě Barbadosu. Barbadoský původ podporují i rozbory listových enzymů a silic.",
+    "en": "A fruit called the \"forbidden fruit\" was described in 1750 by the Welsh clergyman Griffith Hughes in his natural history of Barbados. Analyses of leaf enzymes and oils also support a Barbadian origin."
+   }
+  },
+  {
+   "id": "T262-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Klementinka nese jméno francouzského misionáře, v jehož sirotčinecké zahradě se koncem 19. století objevila. Ve které zemi ta zahrada byla?",
+    "en": "The clementine is named after a French missionary in whose orphanage garden it appeared in the late 19th century. In which country was that garden?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Alžírsku",
+     "Ve Španělsku",
+     "V Maroku",
+     "Ve Vietnamu"
+    ],
+    "en": [
+     "Algeria",
+     "Spain",
+     "Morocco",
+     "Vietnam"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Bratr Clément Rodier ji objevil a rozmnožoval v Misserghinu v Alžírsku; jeho jméno dostala formálně roku 1902. Je to kříženec pomeranče a středomořské mandarinky (Citrus × deliciosa).",
+    "en": "Brother Clément Rodier discovered and propagated it in Misserghin, Algeria; it was formally named after him in 1902. It is a cross between a sweet orange and the Mediterranean willowleaf mandarin (Citrus × deliciosa)."
+   }
+  },
+  {
+   "id": "T262-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Podle hypotézy, kterou rozvedla mimo jiné Connie Barlowová, se avokádo s velkým semenem vyvinulo pro šíření zvířaty. Kterými?",
+    "en": "According to a hypothesis championed by Connie Barlow, among others, the avocado and its large seed evolved to be dispersed by animals. Which ones?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mravenci, kteří je zahrabávali",
+     "Netopýry, kteří je odnášeli",
+     "Vyhynulými obřími savci",
+     "Ptáky, kteří plody polykali"
+    ],
+    "en": [
+     "Ants that buried them",
+     "Bats that carried them off",
+     "Extinct giant mammals",
+     "Birds that swallowed the fruit"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Mezi možné šiřitele patřili obří pozemní lenochodi, glyptodonti a vyhynulý chobotnatec Cuvieronius, příbuzný slonů. Někteří vědci hypotézu kritizují, protože avokáda jedí i menší zvířata, třeba aguti.",
+    "en": "Possible dispersers include ground sloths, glyptodonts and the extinct gomphothere Cuvieronius, an elephant relative. Some scientists criticise the hypothesis, since smaller animals such as agoutis also eat avocados."
+   }
+  },
+  {
+   "id": "T262-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který přírodovědec napsal, že chuť durianu je „nový zážitek, který stojí za cestu na Východ“?",
+    "en": "Which naturalist wrote that the taste of durian was a \"new sensation worth a voyage to the East to experience\"?"
+   },
+   "moznosti": {
+    "cs": [
+     "Alfred Russel Wallace",
+     "Alexander von Humboldt",
+     "Joseph Banks",
+     "Charles Darwin"
+    ],
+    "en": [
+     "Alfred Russel Wallace",
+     "Alexander von Humboldt",
+     "Joseph Banks",
+     "Charles Darwin"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Tak durian popsal britský přírodovědec Alfred Russel Wallace, který jeho chuť nadšeně vychvaloval.",
+    "en": "That is how the British naturalist Alfred Russel Wallace described durian, enthusiastically praising its taste."
+   }
+  },
+  {
+   "id": "T262-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Všechny komerčně pěstované stromy nejrozšířenější odrůdy avokáda Hass pocházejí z jediného „mateřského stromu“. Kdo ho vypěstoval?",
+    "en": "All commercial trees of the Hass avocado, the most widespread variety, descend from a single \"mother tree\". Who raised it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Floridský profesor",
+     "Mexický misionář",
+     "Kalifornský listonoš",
+     "Guatemalský plantážník"
+    ],
+    "en": [
+     "A Florida professor",
+     "A Mexican missionary",
+     "A Californian mail carrier",
+     "A Guatemalan planter"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Listonoš a amatérský zahradník Rudolph Hass zasadil roku 1926 v La Habra Heights tři koupená semena, z nichž vyrostla jedna silná sazenice; strom si nechal roku 1935 patentovat. Mateřský strom odumřel na hnilobu kořenů a roku 2002 byl pokácen; odrůda tvoří asi 80 % světové produkce avokáda.",
+    "en": "The mail carrier and amateur horticulturist Rudolph Hass planted three purchased seeds in 1926 in La Habra Heights, which yielded one strong seedling; he patented the tree in 1935. The mother tree died of root rot and was cut down in 2002; the variety accounts for about 80% of the world's avocados."
+   }
+  },
+  {
+   "id": "T262-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kiwi se v angličtině do 50. let běžně říkalo čínský angrešt (Chinese gooseberry). Proč ho novozélandský vývozce Turners & Growers v roce 1959 začal prodávat pod jménem kiwifruit?",
+    "en": "Until the 1950s, the kiwifruit was commonly called the Chinese gooseberry in English. Why did the New Zealand exporter Turners & Growers start selling it as kiwifruit in 1959?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vláda nařídila plodinám novozélandská jména",
+     "Británie zakázala dovoz angreštu z ciziny",
+     "Americký odběratel hlásil potíže v karanténě",
+     "Čína si původní název chránila jako značku"
+    ],
+    "en": [
+     "The government ordered New Zealand names for crops",
+     "Britain banned imports of foreign gooseberries",
+     "A US client reported quarantine problems",
+     "China protected the old name as a trademark"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Americký zákazník Norman Sondag upozornil, že zboží s názvem čínský angrešt má zřejmě potíže projít karanténou. Jméno vymyslel Jack Turner podle přezdívky Novozélanďanů „kiwi“, protože soudil, že se zalíbí americkým vojákům, kteří za druhé světové války sloužili v Pacifiku.",
+    "en": "A US client, Norman Sondag, warned that goods called Chinese gooseberry may have been having trouble passing quarantine. Jack Turner coined the name after \"kiwi\", the nickname for New Zealanders, which he felt American servicemen who had served in the Pacific in World War II would prefer."
+   }
+  },
+  {
+   "id": "T262-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Panovník kterého státu vydal roku 1756 nařízení, které poddaným ukládalo pěstovat brambory?",
+    "en": "The ruler of which state issued a decree in 1756 ordering his subjects to grow potatoes?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bavorska",
+     "Saska",
+     "Rakouska",
+     "Pruska"
+    ],
+    "en": [
+     "Bavaria",
+     "Saxony",
+     "Austria",
+     "Prussia"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pruský král Fridrich II. Veliký v nařízení označil brambory za velmi výživný doplněk stravy. Někdy se mu přezdívalo Kartoffelkönig – bramborový král.",
+    "en": "King Frederick the Great of Prussia called the potato a very nutritious food supplement in his decree. He was sometimes nicknamed the Kartoffelkönig (\"potato king\")."
+   }
+  },
+  {
+   "id": "T262-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Odkud pochází podzemnice olejná, tedy arašídy?",
+    "en": "Where does the peanut plant originate?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Jižní Ameriky",
+     "Z jižní Číny",
+     "Ze západní Afriky",
+     "Z Indie"
+    ],
+    "en": [
+     "South America",
+     "Southern China",
+     "West Africa",
+     "India"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Rod Arachis pochází z Jižní Ameriky východně od And, z oblasti dnešního Peru, Bolívie, Argentiny a Brazílie.",
+    "en": "The genus Arachis is native to South America east of the Andes, around present-day Peru, Bolivia, Argentina and Brazil."
+   }
+  }
+ ]
+}

@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T201",
+ "nazev": {
+  "cs": "Francouzská revoluce",
+  "en": "The French Revolution"
+ },
+ "kategorie": {
+  "id": "historie",
+  "nazev": {
+   "cs": "Historie",
+   "en": "History"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T201-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím byla pařížská Bastila, kterou dav dobyl 14. července 1789?",
+    "en": "What was the Paris Bastille, stormed by a crowd on 14 July 1789?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sídlem parlamentu",
+     "Hlavní pařížskou katedrálou",
+     "Královským palácem",
+     "Pevností a státním vězením"
+    ],
+    "en": [
+     "The seat of parliament",
+     "The main cathedral of Paris",
+     "A royal palace",
+     "A fortress and state prison"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Středověká pevnost sloužila jako vězení pro politické vězně, a proto se stala symbolem královské zvůle. Vláda přitom už dříve uvažovala o jejím zbourání.",
+    "en": "The medieval fortress served as a prison for political prisoners, which made it a symbol of royal tyranny. The government had in fact already considered demolishing it."
+   }
+  },
+  {
+   "id": "T201-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který francouzský král byl popraven v lednu 1793?",
+    "en": "Which French king was executed in January 1793?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ludvík XV.",
+     "Karel X.",
+     "Ludvík XIV.",
+     "Ludvík XVI."
+    ],
+    "en": [
+     "Louis XV",
+     "Charles X",
+     "Louis XIV",
+     "Louis XVI"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Ludvík XVI. byl sťat 21. ledna 1793 na tehdejším náměstí Revoluce v Paříži. Popravu vykonal kat Charles-Henri Sanson.",
+    "en": "Louis XVI was beheaded on 21 January 1793 on what was then the Place de la Révolution in Paris. The execution was carried out by Charles-Henri Sanson."
+   }
+  },
+  {
+   "id": "T201-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak skončila francouzská královna Marie Antoinetta?",
+    "en": "How did the French queen Marie Antoinette die?"
+   },
+   "moznosti": {
+    "cs": [
+     "Byla veřejně popravena",
+     "Uprchla do rodné Vídně",
+     "Zemřela na nemoc ve vězení",
+     "Dožila v exilu v Anglii"
+    ],
+    "en": [
+     "She was publicly executed",
+     "She fled to her native Vienna",
+     "She died of illness in prison",
+     "She lived out her life in exile in England"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Byla sťata 16. října 1793 po dvoudenním procesu před Revolučním tribunálem. Na popraviště ji na rozdíl od jejího manžela nevezli v kočáře, ale otevřeným vozem se svázanýma rukama za zády.",
+    "en": "She was beheaded on 16 October 1793 after a two-day trial before the Revolutionary Tribunal. Unlike her husband, who had been taken in a carriage, she was driven to the scaffold in an open cart with her hands tied behind her back."
+   }
+  },
+  {
+   "id": "T201-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které heslo se spojuje s Francouzskou revolucí a dodnes je oficiálním heslem Francie?",
+    "en": "Which motto is associated with the French Revolution and is still the official motto of France today?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bůh, král, vlast",
+     "Volnost, rovnost, bratrství",
+     "Víra, naděje, láska",
+     "Jednota, právo, svoboda"
+    ],
+    "en": [
+     "God, king, country",
+     "Liberty, equality, fraternity",
+     "Faith, hope, love",
+     "Unity, justice, freedom"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Heslo Liberté, égalité, fraternité zpopularizoval Robespierre v projevu o Národní gardě v prosinci 1790. Dnes ho obsahuje i francouzská ústava z roku 1958.",
+    "en": "The motto Liberté, égalité, fraternité was popularised by Robespierre in a speech on the National Guard in December 1790. Today it is also written into the French constitution of 1958."
+   }
+  },
+  {
+   "id": "T201-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který popravčí nástroj se stal symbolem jakobínské hrůzovlády?",
+    "en": "Which execution device became the symbol of the Jacobin Reign of Terror?"
+   },
+   "moznosti": {
+    "cs": [
+     "Gilotina",
+     "Hranice",
+     "Šibenice",
+     "Popravčí kolo"
+    ],
+    "en": [
+     "The guillotine",
+     "The stake",
+     "The gallows",
+     "The breaking wheel"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Během hrůzovlády (září 1793 – červenec 1794) bylo gilotinou popraveno zhruba 17 000 lidí. Ve Francii se jí popravovalo až do roku 1977, trest smrti země zrušila roku 1981.",
+    "en": "During the Reign of Terror (September 1793 – July 1794) about 17,000 people were guillotined. France kept using it until 1977 and abolished the death penalty in 1981."
+   }
+  },
+  {
+   "id": "T201-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se jmenuje píseň z roku 1792, která je dnes francouzskou hymnou?",
+    "en": "What is the name of the 1792 song that is now the national anthem of France?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ça ira",
+     "La Carmagnole",
+     "La Marseillaise",
+     "Internacionála"
+    ],
+    "en": [
+     "Ça ira",
+     "La Carmagnole",
+     "La Marseillaise",
+     "The Internationale"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Píseň složil Claude Joseph Rouget de Lisle v dubnu 1792. Konvent ji vyhlásil hymnou 14. července 1795; za Napoleona o tento status přišla, restaurovaní Bourboni ji zakázali a natrvalo se hymnou stala až roku 1879.",
+    "en": "It was written by Claude Joseph Rouget de Lisle in April 1792. The Convention made it the anthem on 14 July 1795; it lost that status under Napoleon, the restored Bourbons banned it, and it became the anthem permanently only in 1879."
+   }
+  },
+  {
+   "id": "T201-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaké barvy má francouzská trikolóra, která se ujala za revoluce?",
+    "en": "What colours make up the French tricolour, which took hold during the Revolution?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zelená, bílá, červená",
+     "Černá, žlutá, červená",
+     "Modrá, bílá, červená",
+     "Modrá, žlutá, červená"
+    ],
+    "en": [
+     "Green, white, red",
+     "Black, yellow, red",
+     "Blue, white, red",
+     "Blue, yellow, red"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Modrá a červená jsou tradiční barvy Paříže, bílá byla barvou krále. Pořadí modrá–bílá–červená platí od roku 1794; předtím byla vlajka červeno-bílo-modrá.",
+    "en": "Blue and red are the traditional colours of Paris, while white was the colour of the king. The blue–white–red order dates from 1794; before that the flag ran red–white–blue."
+   }
+  },
+  {
+   "id": "T201-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou pokrývku hlavy si revolucionáři zvolili za symbol svobody?",
+    "en": "What headwear did the revolutionaries adopt as a symbol of liberty?"
+   },
+   "moznosti": {
+    "cs": [
+     "Slaměný klobouk",
+     "Černý cylindr",
+     "Červenou frygickou čapku",
+     "Třírohý klobouk"
+    ],
+    "en": [
+     "The straw hat",
+     "The black top hat",
+     "The red Phrygian cap",
+     "The tricorne hat"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jako symbol revoluční Francie je doložena od května 1790 a pařížská chudina ji nosila na znamení revolučního zápalu. Dodnes ji nosí Marianne, ženská personifikace Francie.",
+    "en": "Its use as a symbol of revolutionary France is first documented in May 1790, and the Paris working class wore it as a sign of revolutionary fervour. Marianne, the female personification of France, still wears it today."
+   }
+  },
+  {
+   "id": "T201-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který jakobínský politik byl nejznámější tváří Výboru pro veřejné blaho, jenž v letech 1793–1794 řídil hrůzovládu?",
+    "en": "Which Jacobin politician was the best-known face of the Committee of Public Safety, which ran the Reign of Terror in 1793–1794?"
+   },
+   "moznosti": {
+    "cs": [
+     "Honoré Mirabeau",
+     "Jacques Necker",
+     "Markýz de Lafayette",
+     "Maximilien Robespierre"
+    ],
+    "en": [
+     "Honoré Mirabeau",
+     "Jacques Necker",
+     "The Marquis de Lafayette",
+     "Maximilien Robespierre"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Robespierre zasedal ve výboru od 27. července 1793 a byl jeho nejznámějším členem, ačkoli neměl žádné zvláštní pravomoci. V červenci 1794 byl svržen a popraven.",
+    "en": "Robespierre sat on the committee from 27 July 1793 and was its best-known member, although he had no special powers. He was overthrown and executed in July 1794."
+   }
+  },
+  {
+   "id": "T201-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kde zavraždila Charlotta Cordayová v červenci 1793 radikálního novináře Jeana-Paula Marata?",
+    "en": "Where did Charlotte Corday murder the radical journalist Jean-Paul Marat in July 1793?"
+   },
+   "moznosti": {
+    "cs": [
+     "V sále Konventu",
+     "Na ulici před domem",
+     "Ve vaně",
+     "V divadle"
+    ],
+    "en": [
+     "In the Convention hall",
+     "In the street outside his house",
+     "In his bathtub",
+     "In a theatre"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Marat trpěl kožní nemocí, kvůli níž trávil mnoho času ve vaně, kde i pracoval. Výjev zvěčnil Jacques-Louis David obrazem Maratova smrt (La Mort de Marat).",
+    "en": "Marat suffered from a skin condition that made him spend much of his time in the bath, where he also worked. Jacques-Louis David immortalised the scene in The Death of Marat."
+   }
+  },
+  {
+   "id": "T201-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co chtěli útočníci na Bastilu 14. července 1789 hlavně získat?",
+    "en": "What did the attackers of the Bastille on 14 July 1789 mainly want to get?"
+   },
+   "moznosti": {
+    "cs": [
+     "Královský poklad",
+     "Zásoby obilí",
+     "Střelný prach",
+     "Tajný královský archiv"
+    ],
+    "en": [
+     "The royal treasure",
+     "Grain supplies",
+     "Gunpowder",
+     "The secret royal archive"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Povstalci předtím ukořistili v Invalidovně desetitisíce mušket, ale bez prachu. Ten, asi 250 sudů, byl krátce předtím převezen do Bastily.",
+    "en": "The insurgents had already seized tens of thousands of muskets at the Invalides, but without powder. About 250 barrels of it had just been moved to the Bastille."
+   }
+  },
+  {
+   "id": "T201-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co 20. června 1789 přísahali poslanci třetího stavu v míčovně ve Versailles?",
+    "en": "What did the deputies of the Third Estate swear in the tennis court at Versailles on 20 June 1789?"
+   },
+   "moznosti": {
+    "cs": [
+     "Že zruší všechny šlechtické tituly",
+     "Že zůstanou věrni králi až do smrti",
+     "Že se nerozejdou, dokud nebude ústava",
+     "Že nepovolí žádné nové daně"
+    ],
+    "en": [
+     "To abolish all titles of nobility",
+     "To stay loyal to the king until death",
+     "Not to disband until there was a constitution",
+     "To approve no new taxes"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Poslanci našli svůj sál zamčený a střežený vojáky, a tak se sešli v nedaleké míčovně. Přísahu odmítl složit jediný z nich, Joseph Martin-Dauch.",
+    "en": "The deputies found their hall locked and guarded by soldiers, so they gathered in a nearby indoor tennis court. Only one of them, Joseph Martin-Dauch, refused to take the oath."
+   }
+  },
+  {
+   "id": "T201-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo tvořil v generálních stavech roku 1789 první stav?",
+    "en": "Who made up the First Estate in the Estates-General of 1789?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vysoká šlechta",
+     "Svobodní rolníci",
+     "Duchovenstvo",
+     "Měšťanstvo"
+    ],
+    "en": [
+     "The high nobility",
+     "Free peasants",
+     "The clergy",
+     "The bourgeoisie"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "První stav tvořilo duchovenstvo, druhý šlechta a třetí všichni ostatní. Spor o to, zda se bude hlasovat po stavech, nebo po hlavách, vedl 17. června 1789 k vyhlášení Národního shromáždění.",
+    "en": "The First Estate was the clergy, the Second the nobility and the Third everyone else. The dispute over voting by order or by head led to the proclamation of the National Assembly on 17 June 1789."
+   }
+  },
+  {
+   "id": "T201-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co doslova znamená označení sansculoti, kterým se nazývala pařížská chudina?",
+    "en": "What does the name sans-culottes, used for the Paris poor, literally mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bez šlechtického titulu",
+     "Bez napudrované paruky",
+     "Bez vlastní půdy",
+     "Bez kalhot po kolena"
+    ],
+    "en": [
+     "Without noble titles",
+     "Without powdered wigs",
+     "Without land of their own",
+     "Without knee-breeches"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Culottes byly hedvábné kalhoty po kolena, které nosila šlechta a bohatí měšťané. Sansculoti místo nich nosili dlouhé kalhoty, krátký kabátek zvaný carmagnole a dřeváky.",
+    "en": "Culottes were the silk knee-breeches worn by the nobility and the wealthy bourgeoisie. The sans-culottes wore long trousers instead, along with a short jacket called the carmagnole and wooden clogs."
+   }
+  },
+  {
+   "id": "T201-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Za koho se francouzský král vydával při útěku královské rodiny v červnu 1791?",
+    "en": "Who did the French king pose as during the royal family's escape in June 1791?"
+   },
+   "moznosti": {
+    "cs": [
+     "Za komorníka",
+     "Za kněze",
+     "Za obchodníka",
+     "Za vojáka"
+    ],
+    "en": [
+     "A valet",
+     "A priest",
+     "A merchant",
+     "A soldier"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vychovatelka markýza de Tourzel hrála ruskou baronku, král jejího komorníka a královské děti její dcery. Krále přesto poznal poštmistr Drouet v Sainte-Menehould a rodinu zadrželi ve Varennes.",
+    "en": "The governess, the Marquise de Tourzel, played a Russian baroness, the king her valet and the royal children her daughters. The postmaster Drouet still recognised the king at Sainte-Menehould and the family was arrested at Varennes."
+   }
+  },
+  {
+   "id": "T201-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím skončil pochod pařížských žen na Versailles v říjnu 1789?",
+    "en": "How did the women's march on Versailles in October 1789 end?"
+   },
+   "moznosti": {
+    "cs": [
+     "Král se musel přestěhovat do Paříže",
+     "Dav vypálil zámek Versailles",
+     "Král abdikoval ve prospěch syna",
+     "Královna uprchla do Rakouska"
+    ],
+    "en": [
+     "The king had to move to Paris",
+     "The crowd burned down Versailles",
+     "The king abdicated in favour of his son",
+     "The queen fled to Austria"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pochod vyvolal drahý a nedostatkový chléb. Královská rodina se usadila v paláci Tuileries a Národní shromáždění ji do Paříže do dvou týdnů následovalo.",
+    "en": "The march was sparked by the scarcity and high price of bread. The royal family settled in the Tuileries Palace and the National Assembly followed them to Paris within two weeks."
+   }
+  },
+  {
+   "id": "T201-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo připravil hlavní návrhy Deklarace práv člověka a občana a radil se přitom s Thomasem Jeffersonem?",
+    "en": "Who prepared the main drafts of the Declaration of the Rights of Man and of the Citizen, consulting Thomas Jefferson as he did so?"
+   },
+   "moznosti": {
+    "cs": [
+     "Georges Danton",
+     "Markýz de Lafayette",
+     "Maximilien Robespierre",
+     "Jean-Paul Marat"
+    ],
+    "en": [
+     "Georges Danton",
+     "The Marquis de Lafayette",
+     "Maximilien Robespierre",
+     "Jean-Paul Marat"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Deklaraci se 17 články přijalo Národní shromáždění 26. srpna 1789; konečné znění z velké části dodal abbé Sieyès. Dodnes je součástí francouzského ústavního práva.",
+    "en": "The National Assembly adopted the 17-article Declaration on 26 August 1789, with much of the final text supplied by Abbé Sieyès. It is still part of French constitutional law today."
+   }
+  },
+  {
+   "id": "T201-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik členů mělo Direktorium, které vládlo Francii v letech 1795–1799?",
+    "en": "How many members did the Directory, which governed France from 1795 to 1799, have?"
+   },
+   "moznosti": {
+    "cs": [
+     "3",
+     "5",
+     "7",
+     "9"
+    ],
+    "en": [
+     "3",
+     "5",
+     "7",
+     "9"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pět direktorů doplňovaly dvě komory, Rada pěti set a Rada starších. Každý rok jeden z direktorů, určený losem, odstoupil a byl nahrazen.",
+    "en": "The five Directors worked alongside two chambers, the Council of Five Hundred and the Council of Ancients. Each year one Director, chosen by lot, stepped down and was replaced."
+   }
+  },
+  {
+   "id": "T201-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaký režim nastolil Napoleonův převrat 18. brumaire (9. listopadu 1799)?",
+    "en": "What regime did Napoleon's coup of 18 Brumaire (9 November 1799) establish?"
+   },
+   "moznosti": {
+    "cs": [
+     "Konvent",
+     "Císařství",
+     "Konstituční monarchii",
+     "Konzulát"
+    ],
+    "en": [
+     "The National Convention",
+     "The Empire",
+     "A constitutional monarchy",
+     "The Consulate"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Direktorium nahradila trojice prozatímních konzulů – Bonaparte, Sieyès a Ducos – a po přijetí nové ústavy v prosinci 1799 se Napoleon stal prvním konzulem. V rozhodující chvíli v Saint-Cloud mu pomohl bratr Lucien, po jehož výzvě stráže vyklidily sál Rady pěti set.",
+    "en": "The Directory was replaced by three provisional consuls – Bonaparte, Sieyès and Ducos – and after the new constitution of December 1799 Napoleon became First Consul. At the decisive moment in Saint-Cloud his brother Lucien rallied the guards, who cleared the hall of the Council of Five Hundred."
+   }
+  },
+  {
+   "id": "T201-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém městě složil Claude Joseph Rouget de Lisle v dubnu 1792 píseň, která se později stala francouzskou hymnou?",
+    "en": "In which city did Claude Joseph Rouget de Lisle write the song in April 1792 that later became the French national anthem?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Paříži",
+     "Ve Štrasburku",
+     "V Lyonu",
+     "V Bordeaux"
+    ],
+    "en": [
+     "Paris",
+     "Strasbourg",
+     "Lyon",
+     "Bordeaux"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Napsal ji ve Štrasburku na žádost tamního starosty barona Dietricha jako Válečnou píseň pro Rýnskou armádu. Dnešní jméno dostala až podle dobrovolníků (federátů) z jiného města, kteří ji zpívali na pochodu do Paříže.",
+    "en": "He wrote it in Strasbourg at the request of the city's mayor, Baron Dietrich, as the War Song for the Army of the Rhine. It got its present name only later, from volunteers (fédérés) from another city who sang it while marching to Paris."
+   }
+  },
+  {
+   "id": "T201-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Generální stavy se v květnu 1789 sešly po velmi dlouhé době. Ve kterém roce předtím zasedaly naposledy?",
+    "en": "The Estates-General met in May 1789 after a very long gap. In which year had they last met?"
+   },
+   "moznosti": {
+    "cs": [
+     "1560",
+     "1614",
+     "1689",
+     "1750"
+    ],
+    "en": [
+     "1560",
+     "1614",
+     "1689",
+     "1750"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Předchozí generální stavy byly svolány roku 1614, tedy o 175 let dříve. V roce 1789 dostal třetí stav dvojnásobný počet zástupců – přes 600 z asi 1 200 poslanců.",
+    "en": "The previous Estates-General had been summoned in 1614, 175 years earlier. In 1789 the Third Estate's representation was doubled – over 600 of roughly 1,200 deputies."
+   }
+  },
+  {
+   "id": "T201-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Abbé Sieyès zahájil v lednu 1789 slavný pamflet otázkou „Co je třetí stav?“. Jak na ni sám odpověděl?",
+    "en": "In January 1789 Abbé Sieyès opened a famous pamphlet with the question \"What is the Third Estate?\". How did he answer it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Základ",
+     "Většina",
+     "Nic",
+     "Všechno"
+    ],
+    "en": [
+     "The foundation",
+     "The majority",
+     "Nothing",
+     "Everything"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pokračoval: „Čím byl dosud v politickém řádu? Ničím. Co žádá? Stát se něčím.“ Pamflet ztotožnil třetí stav s celým francouzským národem a měl obrovský ohlas.",
+    "en": "He went on: \"What has it been hitherto in the political order? Nothing. What does it desire? To become something.\" The pamphlet identified the Third Estate with the French nation as a whole and was hugely influential."
+   }
+  },
+  {
+   "id": "T201-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Podle čeho dostali jakobíni své jméno?",
+    "en": "What did the Jacobins get their name from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Podle jakobitů, stoupenců Stuartovců",
+     "Podle hesla na praporu klubu",
+     "Podle svého zakladatele Jacquese",
+     "Podle dominikánského kláštera, v němž se scházeli"
+    ],
+    "en": [
+     "The Jacobites, supporters of the Stuarts",
+     "A motto on the club's banner",
+     "Their founder, a man named Jacques",
+     "The Dominican monastery where they met"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Dominikánům se v Paříži říkalo jakobíni podle jejich prvního domu v ulici Saint-Jacques. Klub, vzešlý z Bretonského klubu, se scházel v refektáři dominikánského kláštera v ulici Saint-Honoré.",
+    "en": "In Paris the Dominicans were nicknamed Jacobins after their first house on the Rue Saint-Jacques. The club, which grew out of the Breton Club, met in the refectory of the Dominican monastery on the Rue Saint-Honoré."
+   }
+  },
+  {
+   "id": "T201-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co ve skutečnosti udělal lékař Joseph-Ignace Guillotin, po němž se gilotina jmenuje?",
+    "en": "What did the physician Joseph-Ignace Guillotin, after whom the guillotine is named, actually do?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sestrojil a vyzkoušel první prototyp",
+     "Navrhl popravovat stětím pomocí stroje",
+     "Jako kat vykonal první popravu",
+     "Sám na ní byl roku 1794 sťat"
+    ],
+    "en": [
+     "He built and tested the first prototype",
+     "He proposed beheading by a machine",
+     "He carried out the first execution as executioner",
+     "He was himself beheaded on it in 1794"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Guillotin byl odpůrcem trestu smrti a stroj považoval za humánnější způsob popravy. Prototyp sestrojili chirurg Antoine Louis a německý inženýr Tobias Schmidt; Guillotin zemřel přirozenou smrtí roku 1814 a jeho rodina si nakonec změnila příjmení.",
+    "en": "Guillotin opposed the death penalty and saw the machine as a more humane method of execution. The prototype was built by the surgeon Antoine Louis and the German engineer Tobias Schmidt; Guillotin died of natural causes in 1814 and his family eventually changed their surname."
+   }
+  },
+  {
+   "id": "T201-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Odkud pochází název girondistů, hlavních soupeřů radikální Hory v Konventu?",
+    "en": "Where does the name of the Girondins, the main rivals of the radical Mountain in the Convention, come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z departementu, odkud byli jejich přední poslanci",
+     "Z pařížské ulice, kde se scházeli",
+     "Z místa, kde seděli v sále Konventu",
+     "Z příjmení jejich hlavního vůdce"
+    ],
+    "en": [
+     "The department their leading deputies came from",
+     "The Paris street where they met",
+     "Where they sat in the Convention hall",
+     "The surname of their chief leader"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Departement Gironde u Bordeaux vyslal několik jejich nejvýraznějších poslanců. Podle místa v sále se naopak jmenovala Hora (Montagne) – její poslanci seděli v nejvyšších lavicích.",
+    "en": "The Gironde department around Bordeaux sent several of their most prominent deputies. It was their rivals, the Mountain (Montagne), who were named after their seats – its deputies sat on the highest benches."
+   }
+  },
+  {
+   "id": "T201-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Revoluční kalendář nahradil jména svatých u jednotlivých dnů roku. Čím?",
+    "en": "The revolutionary calendar replaced the saints' names for each day of the year. With what?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rostlinami, zvířaty a nástroji",
+     "Antickými bohy a hrdiny",
+     "Jmény revolučních hrdinů",
+     "Názvy francouzských měst a řek"
+    ],
+    "en": [
+     "Plants, animals and tools",
+     "Ancient gods and heroes",
+     "Names of revolutionary heroes",
+     "French towns and rivers"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Každý desátý den nesl jméno nástroje, každý pátý jméno zvířete a ostatní dny jména rostlin a plodů; v zimním měsíci nivôse to byly nerosty. Jména vymyslel básník Fabre d'Églantine.",
+    "en": "Every tenth day was named after a tool, every fifth after an animal and the rest after plants and fruits; in the winter month of Nivôse they were minerals. The names were devised by the poet Fabre d'Églantine."
+   }
+  },
+  {
+   "id": "T201-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Po čem dostal jméno pokrm humr Thermidor (homard Thermidor)?",
+    "en": "What is the dish lobster Thermidor named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Po pařížském kuchaři jménem Thermidor",
+     "Po stejnojmenné divadelní hře",
+     "Po měsíci, kdy se humři nejvíc loví",
+     "Po Robespierrově oblíbené restauraci"
+    ],
+    "en": [
+     "A Paris chef called Thermidor",
+     "A play of the same name",
+     "The month when lobsters are mostly caught",
+     "Robespierre's favourite restaurant"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Hra Victoriena Sardoua Thermidor měla premiéru v Comédie-Française v lednu 1891 a úřady ji kvůli pobouření zakázaly. Samotný měsíc thermidor nesl jméno podle řeckého slova pro letní horko.",
+    "en": "Victorien Sardou's play Thermidor opened at the Comédie-Française in January 1891 and was shut down by the authorities amid controversy. The month of Thermidor itself was named from the Greek for summer heat."
+   }
+  },
+  {
+   "id": "T201-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Markýz de Lafayette roku 1790 daroval klíč od Bastily. Kde je dnes vystaven?",
+    "en": "In 1790 the Marquis de Lafayette gave away the key to the Bastille. Where is it on display today?"
+   },
+   "moznosti": {
+    "cs": [
+     "V londýnském Britském muzeu",
+     "Ve Washingtonově sídle Mount Vernon",
+     "V pařížském muzeu Carnavalet",
+     "V Kongresové knihovně ve Washingtonu"
+    ],
+    "en": [
+     "At the British Museum in London",
+     "At Washington's home, Mount Vernon",
+     "At the Musée Carnavalet in Paris",
+     "At the Library of Congress in Washington"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Lafayette poslal klíč Georgi Washingtonovi, který ho vystavoval v New Yorku a Filadelfii a pak si ho odvezl do svého sídla ve Virginii. Bastilu mezitím za pět měsíců rozebralo asi 1 000 dělníků.",
+    "en": "Lafayette sent the key to George Washington, who displayed it in New York and Philadelphia before taking it to his Virginia home. Meanwhile, about 1,000 workers demolished the Bastille within five months."
+   }
+  },
+  {
+   "id": "T201-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "S jakým požadavkem vystoupil Maximilien Robespierre 30. května 1791 v Ústavodárném shromáždění?",
+    "en": "What did Maximilien Robespierre call for in the Constituent Assembly on 30 May 1791?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zrušit trest smrti",
+     "Obnovit šlechtické tituly",
+     "Rozpustit jakobínský klub",
+     "Popravit krále"
+    ],
+    "en": [
+     "To abolish the death penalty",
+     "To restore titles of nobility",
+     "To dissolve the Jacobin Club",
+     "To execute the king"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Robespierre jako mladý soudce v Arrasu (jmenován 1782) brzy rezignoval, protože nechtěl rozhodovat o trestech smrti. Shromáždění jeho návrh nepřijalo; o tři roky později byl sám popraven.",
+    "en": "As a young judge in Arras (appointed in 1782), Robespierre soon resigned because he did not want to rule in capital cases. The Assembly rejected his proposal; three years later he was himself executed."
+   }
+  },
+  {
+   "id": "T201-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč byl v květnu 1794 popraven chemik Antoine Lavoisier?",
+    "en": "Why was the chemist Antoine Lavoisier executed in May 1794?"
+   },
+   "moznosti": {
+    "cs": [
+     "Odmítl spolupracovat na metrické soustavě",
+     "Byl členem nenáviděné společnosti výběrčích daní",
+     "Byl obviněn z podílu na vraždě Marata",
+     "Pomáhal královské rodině při útěku"
+    ],
+    "en": [
+     "He refused to work on the metric system",
+     "He belonged to the hated tax-farming company",
+     "He was accused of a role in Marat's murder",
+     "He helped the royal family escape"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Lavoisier patřil k Ferme générale, soukromé společnosti vybírající daně za korunu; komisi pro míry a váhy naopak sám předsedal. Matematik Lagrange prý řekl, že useknout tu hlavu trvalo okamžik, ale ani sto let nemusí stačit, aby se zrodila podobná.",
+    "en": "Lavoisier was a member of the Ferme générale, a private company that collected taxes for the Crown; he had actually chaired the commission on weights and measures. The mathematician Lagrange reportedly said it took only an instant to cut off that head, but a hundred years might not produce another like it."
+   }
+  }
+ ]
+}

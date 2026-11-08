@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T396",
+ "nazev": {
+  "cs": "Zvířata ve vesmíru: od Lajky po želvy",
+  "en": "Animals in Space: From Laika to Tortoises"
+ },
+ "kategorie": {
+  "id": "vesmir",
+  "nazev": {
+   "cs": "Vesmír",
+   "en": "Space"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T396-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kteří živočichové se v roce 1947 stali prvními zvířaty, která byla úmyslně vyslána do vesmíru a vrátila se živá?",
+    "en": "Which animals became, in 1947, the first to be deliberately launched into space and returned alive?"
+   },
+   "moznosti": {
+    "cs": [
+     "Makakové rhesus",
+     "Psi",
+     "Octomilky",
+     "Myši"
+    ],
+    "en": [
+     "Rhesus monkeys",
+     "Dogs",
+     "Fruit flies",
+     "Mice"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ukořistěná německá raketa V-2 je 20. února 1947 vynesla z polygonu White Sands v Novém Mexiku do výšky 109 km a pouzdro s nimi se vrátilo na padáku. Vědci na nich chtěli zkoumat účinky kosmického záření.",
+    "en": "A captured German V-2 rocket carried them from White Sands, New Mexico, to 109 km (68 mi) on 20 February 1947, and they parachuted back. Scientists wanted to study the effects of cosmic radiation on living things."
+   }
+  },
+  {
+   "id": "T396-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na palubě které družice letěla v listopadu 1957 fenka Lajka?",
+    "en": "Aboard which satellite did the dog Laika fly in November 1957?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sputnik 1",
+     "Sputnik 2",
+     "Sputnik 3",
+     "Vostok 1"
+    ],
+    "en": [
+     "Sputnik 1",
+     "Sputnik 2",
+     "Sputnik 3",
+     "Vostok 1"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Sputnik 2 odstartoval 3. listopadu 1957, necelý měsíc po prvním Sputniku. Návrat na Zemi nebyl v plánu – družice nebyla konstruována tak, aby se dala získat zpět.",
+    "en": "Sputnik 2 lifted off on 3 November 1957, less than a month after the first Sputnik. A return was never planned: the satellite was not designed to be recovered."
+   }
+  },
+  {
+   "id": "T396-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím se v srpnu 1960 zapsaly do dějin fenky Bělka a Strělka?",
+    "en": "What made the dogs Belka and Strelka famous in August 1960?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jako první zvířata obletěla Měsíc",
+     "Jako první zvířata vůbec dosáhla vesmíru",
+     "Jako první zvířata strávila měsíc na oběžné dráze",
+     "Jako první zvířata obletěla Zemi a vrátila se živá"
+    ],
+    "en": [
+     "They were the first animals to fly around the Moon",
+     "They were the first animals ever to reach space",
+     "They were the first animals to spend a month in orbit",
+     "They were the first animals to orbit Earth and return alive"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Na lodi Korabl-Sputnik 2 (Sputnik 5) obletěly Zemi 17krát za zhruba 27 hodin, spolu s králíkem, 42 myšmi a dvěma potkany. Jejich úspěch otevřel cestu prvnímu letu člověka o necelý rok později.",
+    "en": "Aboard Korabl-Sputnik 2 (Sputnik 5) they circled Earth 17 times in about 27 hours, together with a rabbit, 42 mice and two rats. Their success paved the way for the first human spaceflight less than a year later."
+   }
+  },
+  {
+   "id": "T396-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč sovětští vědci vybírali pro lety do vesmíru hlavně toulavé psy z moskevských ulic?",
+    "en": "Why did Soviet scientists mostly pick stray dogs from the streets of Moscow for spaceflights?"
+   },
+   "moznosti": {
+    "cs": [
+     "Věřili, že je zocelil hlad a zima",
+     "Zákon zakazoval pokusy na domácích psech",
+     "Psi s rodokmenem byli vyhrazeni pro armádu",
+     "Považovali je za odolnější vůči záření"
+    ],
+    "en": [
+     "They thought hunger and cold had toughened them",
+     "The law banned experiments on pet dogs",
+     "Pedigree dogs were reserved for the army",
+     "They thought strays resisted radiation better"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vědci předpokládali, že psi z ulice už se naučili snášet drsné podmínky, a proto lépe zvládnou stres a nepohodlí letu. Toulavou fenkou z Moskvy byla i Lajka.",
+    "en": "Scientists assumed that street dogs had already learned to endure harsh conditions, so they would cope better with the stresses of spaceflight. Laika herself was a stray from Moscow."
+   }
+  },
+  {
+   "id": "T396-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co měly v roce 1973 na stanici Skylab otestovat dvě samice křižáka obecného, Arabella a Anita?",
+    "en": "What were two female cross spiders, Arabella and Anita, meant to test aboard the Skylab station in 1973?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zda dokážou v beztíži utkat pavučinu",
+     "Zda dokážou bez gravitace skákat",
+     "Zda přežijí na stravě astronautů",
+     "Zda se jim ve vesmíru změní jed"
+    ],
+    "en": [
+     "Whether they could spin webs in weightlessness",
+     "Whether they could jump without gravity",
+     "Whether they could survive on astronaut food",
+     "Whether their venom changed in space"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pokus navrhla americká studentka Judy Milesová (Judy Miles). Sítě nakonec vypadaly téměř normálně, jen vlákno bylo ve vesmíru tenčí a nestejně silné.",
+    "en": "The experiment was proposed by American student Judy Miles. The webs ended up looking almost normal, but the silk spun in space was thinner and uneven in thickness."
+   }
+  },
+  {
+   "id": "T396-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Opička Miss Baker, která v roce 1959 přežila let do vesmíru, je pohřbena v areálu muzea U.S. Space & Rocket Center v Huntsvillu. Co jí návštěvníci často nechávají na náhrobku?",
+    "en": "Miss Baker, a monkey who survived a spaceflight in 1959, is buried on the grounds of the U.S. Space & Rocket Center in Huntsville, Alabama. What do visitors often leave on her headstone?"
+   },
+   "moznosti": {
+    "cs": [
+     "Arašídy",
+     "Banány",
+     "Hrozny",
+     "Jablka"
+    ],
+    "en": [
+     "Peanuts",
+     "Bananas",
+     "Grapes",
+     "Apples"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Na jejím náhrobku obvykle leží jeden či více banánů. Tato samička kotula zemřela v roce 1984 a byla tehdy považována za nejstaršího žijícího kotula.",
+    "en": "Her tombstone routinely has one or more bananas on top. The squirrel monkey died in 1984, by then considered the oldest living squirrel monkey."
+   }
+  },
+  {
+   "id": "T396-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou přezdívku dal fence Lajce americký tisk?",
+    "en": "What nickname did the American press give the dog Laika?"
+   },
+   "moznosti": {
+    "cs": [
+     "Woofer",
+     "Spacepup",
+     "Muttnik",
+     "Pupstar"
+    ],
+    "en": [
+     "Woofer",
+     "Spacepup",
+     "Muttnik",
+     "Pupstar"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Přezdívka spojuje anglické „mutt“ (voříšek) s příponou -nik jako slovní hříčku na Sputnik. Americké noviny jí říkaly také Curly („Kudrnka“).",
+    "en": "The nickname blends 'mutt' with the suffix -nik as a pun on Sputnik. American papers also called her Curly."
+   }
+  },
+  {
+   "id": "T396-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Šimpanz Enos v listopadu 1961 dokázal něco, co do té doby žádný americký astronaut. Co?",
+    "en": "In November 1961 the chimpanzee Enos did something no American astronaut had yet done. What?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vystoupil do volného prostoru",
+     "Spojil se s jinou lodí",
+     "Obletěl Zemi na oběžné dráze",
+     "Obletěl Měsíc"
+    ],
+    "en": [
+     "He made a spacewalk",
+     "He docked with another spacecraft",
+     "He orbited the Earth",
+     "He flew around the Moon"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Na lodi Mercury-Atlas 5 obletěl Zemi dvakrát a zůstává jediným šimpanzem na oběžné dráze (k roku 2026). Jeho let byl generálkou pro Johna Glenna, který Zemi obletěl v únoru 1962.",
+    "en": "Aboard Mercury-Atlas 5 he circled Earth twice, and he remains the only chimpanzee to have reached orbit (as of 2026). His flight was a dress rehearsal for John Glenn, who orbited Earth in February 1962."
+   }
+  },
+  {
+   "id": "T396-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Pět drobných hlodavců, kteří v roce 1972 obletěli Měsíc s misí Apollo 17, dostalo přezdívky Fe, Fi, Fo, Fum a Phooey. Na kterou pohádku jména odkazují?",
+    "en": "The five pocket mice that circled the Moon on Apollo 17 in 1972 were nicknamed Fe, Fi, Fo, Fum and Phooey. Which fairy tale do the names allude to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Perníková chaloupka",
+     "Tři malá prasátka",
+     "Červená Karkulka",
+     "Jack a fazolový stonek"
+    ],
+    "en": [
+     "Hansel and Gretel",
+     "The Three Little Pigs",
+     "Little Red Riding Hood",
+     "Jack and the Beanstalk"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "„Fee-fi-fo-fum“ je zaklínadlo obra z anglické pohádky o Jackovi. Hlodavci měli pod kůží hlavy detektory záření a pokus zkoumal, zda jim kosmické záření poškodí mozek; čtyři z pěti let přežili.",
+    "en": "'Fee-fi-fo-fum' is the giant's chant in the English tale of Jack. The animals had radiation monitors implanted under their scalps to test whether cosmic rays would harm their brains; four of the five survived."
+   }
+  },
+  {
+   "id": "T396-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Při rozpadu raketoplánu Columbia v roce 2003 zahynulo všech sedm astronautů. Kteří živočichové z palubních pokusů se však v troskách našli živí?",
+    "en": "All seven astronauts died when the Space Shuttle Columbia broke apart in 2003. Which animals from the onboard experiments were nevertheless found alive in the debris?"
+   },
+   "moznosti": {
+    "cs": [
+     "Švábi",
+     "Žáby",
+     "Pavouci",
+     "Hlístice"
+    ],
+    "en": [
+     "Cockroaches",
+     "Frogs",
+     "Spiders",
+     "Roundworms"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Drobné hlístice Caenorhabditis elegans přečkaly v pouzdrech rozpad raketoplánu i dopad na zem ve východním Texasu. Pavouci z australského studentského pokusu naopak zahynuli.",
+    "en": "Tiny Caenorhabditis elegans roundworms survived the breakup and the fall onto east Texas inside their containers. The spiders from an Australian student experiment, by contrast, perished."
+   }
+  },
+  {
+   "id": "T396-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč Sověti posílali do vesmíru převážně fenky?",
+    "en": "Why did the Soviets mostly send female dogs into space?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zařízení na sběr moči a výkalů fungovalo jen u fenek",
+     "Fenky prý lépe snášely kosmické záření",
+     "Fenky spotřebovaly méně kyslíku",
+     "Samci se šetřili pro chov dalších generací"
+    ],
+    "en": [
+     "The waste-collection device only worked for females",
+     "Females were thought to tolerate radiation better",
+     "Females used less oxygen",
+     "Males were kept back to breed future generations"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Oblek s pomůckou na zachycení moči a výkalů fungoval jen u fenek, které se navíc při močení nemusí stavět do pozice se zvednutou nohou. Fenky vědci upřednostňovali i kvůli povaze. Výjimky ale existovaly.",
+    "en": "The suit's device for collecting urine and faeces only worked with females, who also don't need to lift a leg to urinate. Scientists preferred females for their temperament too. There were exceptions, though."
+   }
+  },
+  {
+   "id": "T396-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co doslova znamená ruské jméno Lajka?",
+    "en": "What does the Russian name Laika literally mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Štěkalka",
+     "Šťastná",
+     "Statečná",
+     "Sněženka"
+    ],
+    "en": [
+     "Barker",
+     "Lucky",
+     "Brave One",
+     "Snowflake"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jméno pochází od ruského slovesa lajať (štěkat). Lajka je zároveň název skupiny ruských loveckých plemen, sama Lajka ale byla kříženec z ulice.",
+    "en": "It comes from the Russian verb layat, 'to bark'. Laika is also the name of a group of Russian hunting dog breeds, though Laika herself was a mixed-breed stray."
+   }
+  },
+  {
+   "id": "T396-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na co podle informací zveřejněných v roce 2002 Lajka skutečně zemřela?",
+    "en": "According to information revealed in 2002, what actually killed Laika?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na nedostatek kyslíku",
+     "Na shoření při návratu",
+     "Na otrávenou potravu",
+     "Na přehřátí"
+    ],
+    "en": [
+     "Lack of oxygen",
+     "Burning up on re-entry",
+     "Poisoned food",
+     "Overheating"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Ruský vědec Dimitrij Malašenkov odhalil, že zemřela z přehřátí už během čtvrtého obletu, jen pár hodin po startu. Sovětské úřady předtím uváděly, že se udusila, nebo že byla utracena.",
+    "en": "Russian scientist Dimitri Malashenkov revealed that she had died of overheating by the fourth orbit, just hours after launch. Soviet authorities had variously claimed that she suffocated or was euthanised."
+   }
+  },
+  {
+   "id": "T396-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co měla kočka Félicette během svého letu v roce 1963 voperováno v lebce?",
+    "en": "What did the cat Félicette have implanted in her skull during her 1963 flight?"
+   },
+   "moznosti": {
+    "cs": [
+     "Elektrody pro záznam mozku",
+     "Vysílačku pro dohledání",
+     "Dozimetr měřící záření",
+     "Čidlo tělesné teploty"
+    ],
+    "en": [
+     "Electrodes recording the brain",
+     "A radio beacon for tracking",
+     "A dosimeter measuring radiation",
+     "A body-temperature sensor"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Devět elektrod v lebce zaznamenávalo nervové signály, které se vysílaly na Zemi. Félicette let přežila, asi o dva měsíce později ji ale vědci utratili, aby mohli prozkoumat její mozek.",
+    "en": "Nine electrodes in her skull recorded neural signals that were transmitted back to Earth. Félicette survived the flight, but about two months later scientists euthanised her to examine her brain."
+   }
+  },
+  {
+   "id": "T396-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co se stalo s Bělkou a Strělkou po jejich smrti?",
+    "en": "What happened to Belka and Strelka after they died?"
+   },
+   "moznosti": {
+    "cs": [
+     "Byly pohřbeny u Kremelské zdi v Moskvě",
+     "Vypreparované je vystavuje moskevské muzeum",
+     "Jejich popel vynesla raketa do vesmíru",
+     "Byly pohřbeny na kosmodromu Bajkonur"
+    ],
+    "en": [
+     "They were buried by the Kremlin Wall in Moscow",
+     "Preserved, they are shown in a Moscow museum",
+     "Their ashes were launched into space on a rocket",
+     "They were buried at the Baikonur Cosmodrome"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jejich vypreparovaná těla jsou vystavena v Muzeu kosmonautiky v Moskvě (k roku 2026). Staly se lidovými hrdinkami – inspirovaly kreslené filmy, značku vodky i ruský 3D animovaný film Bělka a Strělka: Hvězdní psi (2010).",
+    "en": "Both dogs were preserved and are on display at the Museum of Cosmonautics in Moscow (as of 2026). They became folk heroes, inspiring cartoons, a vodka brand and the 2010 Russian 3D animated film Space Dogs."
+   }
+  },
+  {
+   "id": "T396-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "V roce 1991 vynesl raketoplán Columbia na oběžnou dráhu skoro 2 500 polypů medúz, z nichž se ve vesmíru vyvinulo zhruba 60 000 jedinců. Jaký problém měly medúzy vyrostlé ve vesmíru po návratu na Zemi?",
+    "en": "In 1991 the Space Shuttle Columbia carried almost 2,500 jellyfish polyps into orbit, and about 60,000 jellyfish developed from them in space. What problem did the space-grown jellyfish have back on Earth?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ztratily schopnost žahat",
+     "Vyrostly do dvojnásobné velikosti",
+     "Přestaly světélkovat",
+     "Nedokázaly normálně plavat"
+    ],
+    "en": [
+     "They had lost the ability to sting",
+     "They had grown to twice normal size",
+     "They had stopped glowing",
+     "They couldn't swim normally"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Medúzy rozpoznávají, kde je nahoře, podle gravitace pomocí krystalků síranu vápenatého. Ty vyrostlé v beztíži pak na Zemi pulzovaly abnormálně – vědce zajímalo, zda by smysl pro gravitaci měli i lidé narození ve vesmíru.",
+    "en": "Jellyfish sense which way is up using gravity and calcium sulphate crystals. Those raised in weightlessness pulsed abnormally on Earth; researchers wanted to know whether humans born in space would keep their sense of gravity."
+   }
+  },
+  {
+   "id": "T396-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč NASA v roce 2021 poslala na ISS mláďata malého havajského hlavonožce Euprymna scolopes?",
+    "en": "Why did NASA send baby Hawaiian bobtail squid to the ISS in 2021?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kvůli tomu, jak se šíří jejich inkoust",
+     "Kvůli jejich způsobu lovu kořisti",
+     "Kvůli jejich soužití s prospěšnými bakteriemi",
+     "Kvůli jejich schopnosti měnit barvu"
+    ],
+    "en": [
+     "To study how their ink spreads",
+     "To study how they hunt prey",
+     "To study their partnership with helpful bacteria",
+     "To study how they change colour"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Tito hlavonožci svítí díky bioluminiscenčním bakteriím ve světelném orgánu. Pokus UMAMI měl ukázat, jak kosmický let mění vztahy živočichů s mikroby, což je důležité i pro střevní mikrobiom astronautů.",
+    "en": "These squid glow thanks to bioluminescent bacteria in their light organs. The UMAMI experiment aimed to show how spaceflight alters animal–microbe partnerships, which also matters for astronauts' gut microbes."
+   }
+  },
+  {
+   "id": "T396-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jméno šimpanze Hama je zkratka. Co znamená?",
+    "en": "The name of Ham the chimpanzee is an acronym. What does it stand for?"
+   },
+   "moznosti": {
+    "cs": [
+     "High Altitude Monkey",
+     "Holloman Aerospace Medical Center",
+     "Human Analog Model",
+     "Hominid Astronaut Mercury"
+    ],
+    "en": [
+     "High Altitude Monkey",
+     "Holloman Aerospace Medical Center",
+     "Human Analog Model",
+     "Hominid Astronaut Mercury"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jméno dostal po laboratoři na letecké základně Holloman v Novém Mexiku, která ho na let připravila, a zároveň po jejím veliteli Hamiltonu „Hamovi“ Blackshearovi. Před letem byl veden jen jako č. 65.",
+    "en": "He was named after the lab at Holloman Air Force Base in New Mexico that prepared him for his flight, and also in honour of its commander, Hamilton 'Ham' Blackshear. Before the flight he was known simply as No. 65."
+   }
+  },
+  {
+   "id": "T396-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak dlouho zhruba kroužili v roce 1966 kolem Země psi Veterok a Ugoljok, jejichž let je nejdelším letem psů do vesmíru (k roku 2026)?",
+    "en": "Roughly how long did the dogs Veterok and Ugolyok orbit Earth in 1966, the longest spaceflight by dogs (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "3 dny",
+     "8 dní",
+     "22 dní",
+     "63 dní"
+    ],
+    "en": [
+     "3 days",
+     "8 days",
+     "22 days",
+     "63 days"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Na družici Kosmos 110 odstartovali 22. února a přistáli 16. března 1966. Po návratu byli silně dehydratovaní, zhubnutí a se slabými svaly a zotavovali se několik týdnů.",
+    "en": "They launched aboard Kosmos 110 on 22 February and landed on 16 March 1966. They came back severely dehydrated, underweight and with weakened muscles, and took several weeks to recover."
+   }
+  },
+  {
+   "id": "T396-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "V dubnu 2019 se na Měsíci roztříštil přistávací modul, který vezl tisíce vysušených želvušek. Ze které země pocházel?",
+    "en": "In April 2019 a lunar lander carrying thousands of dehydrated tardigrades crashed on the Moon. Which country did it come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Spojené arabské emiráty",
+     "Japonsko",
+     "Izrael",
+     "Indie"
+    ],
+    "en": [
+     "United Arab Emirates",
+     "Japan",
+     "Israel",
+     "India"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Modul Beresheet postavila nezisková organizace SpaceIL s firmou Israel Aerospace Industries. Želvušky byly součástí mikroarchivu nadace Arch Mission Foundation se vzorky DNA a miliony stran textů.",
+    "en": "The Beresheet lander was built by the non-profit SpaceIL with Israel Aerospace Industries. The tardigrades were part of an Arch Mission Foundation micro-archive holding DNA samples and millions of pages of data."
+   }
+  },
+  {
+   "id": "T396-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ze které země odstartovala v říjnu 1963 raketa s kočkou Félicette?",
+    "en": "From which country was the rocket carrying the cat Félicette launched in October 1963?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tunisko",
+     "Alžírsko",
+     "Maroko",
+     "Francie"
+    ],
+    "en": [
+     "Tunisia",
+     "Algeria",
+     "Morocco",
+     "France"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Sondážní raketa Véronique odstartovala z francouzského vojenského střeliště CIEES v alžírské Sahaře, přestože Alžírsko bylo od roku 1962 nezávislé. Suborbitální let trval jen asi 13 minut.",
+    "en": "The Véronique sounding rocket lifted off from the French military range CIEES in the Algerian Sahara, even though Algeria had been independent since 1962. The suborbital flight lasted only about 13 minutes."
+   }
+  },
+  {
+   "id": "T396-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V září 1968 obletěla sovětská sonda Zond 5 Měsíc se dvěma želvami na palubě. Kde nakonec přistálo její návratové pouzdro?",
+    "en": "In September 1968 the Soviet probe Zond 5 flew around the Moon with two tortoises aboard. Where did its return capsule eventually come down?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Tichém oceánu",
+     "V Indickém oceánu",
+     "V kazašské stepi",
+     "V Černém moři"
+    ],
+    "en": [
+     "In the Pacific Ocean",
+     "In the Indian Ocean",
+     "On the Kazakh steppe",
+     "In the Black Sea"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pouzdro mělo přistát v Kazachstánu, po chybném vypnutí řízeného návratu ale dopadlo do Indického oceánu, kde ho vylovily sovětské lodě. Želvy stepní přišly asi o 10 % hmotnosti, dvakrát víc než kontrolní želvy na Zemi.",
+    "en": "The capsule was meant to land in Kazakhstan, but after the guided re-entry system was mistakenly switched off it splashed down in the Indian Ocean and was recovered by Soviet ships. The Russian tortoises lost about 10% of their body weight, twice as much as the control tortoises on Earth."
+   }
+  },
+  {
+   "id": "T396-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Fenka, která v březnu 1961 letěla na poslední zkušební let lodi Vostok před prvním letem člověka, dostala jméno Zvjozdočka (Hvězdička). Kdo jí podle všeho jméno vybral?",
+    "en": "The dog that flew the last test flight of the Vostok spacecraft in March 1961, before the first human spaceflight, was named Zvezdochka ('Little Star'). Who is credited with naming her?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nikita Chruščov",
+     "German Titov",
+     "Sergej Koroljov",
+     "Jurij Gagarin"
+    ],
+    "en": [
+     "Nikita Khrushchev",
+     "Gherman Titov",
+     "Sergei Korolev",
+     "Yuri Gagarin"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jméno jí podle dostupných zdrojů dal sám Gagarin, který o necelé tři týdny později letěl jako první člověk do vesmíru. S fenkou letěla i figurína Ivan Ivanovič, kterou při sestupu katapultovali.",
+    "en": "According to available sources, she was named by Gagarin himself, who became the first human in space less than three weeks later. A mannequin nicknamed Ivan Ivanovich flew with her and was ejected during the descent."
+   }
+  },
+  {
+   "id": "T396-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kteří živočichové jsou považováni za první obratlovce, kteří se ve vesmíru spářili a měli potomky, a to v roce 1994 na palubě raketoplánu Columbia?",
+    "en": "Which animals are considered the first vertebrates to mate and produce offspring in space, aboard the Space Shuttle Columbia in 1994?"
+   },
+   "moznosti": {
+    "cs": [
+     "Laboratorní myši",
+     "Čolci",
+     "Drápatky vodní",
+     "Rybky medaka"
+    ],
+    "en": [
+     "Laboratory mice",
+     "Newts",
+     "African clawed frogs",
+     "Medaka fish"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Japonské rybky medaka (Oryzias latipes) se během letu STS-65 spářily a nakladly jikry: osm mláďat se vylíhlo přímo na oběžné dráze a dalších asi 30 po návratu. Medaka je oblíbený laboratorní model.",
+    "en": "Japanese medaka fish (Oryzias latipes) mated and laid eggs during the STS-65 mission: eight fry hatched in orbit and about 30 more after the return. Medaka are a popular laboratory model."
+   }
+  },
+  {
+   "id": "T396-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Mládě kterého ptáka, považované za prvního ptáka vylíhnutého ve vesmíru, se v roce 1990 narodilo na stanici Mir?",
+    "en": "Which bird's chick, considered the first bird hatched in space, emerged aboard the Mir space station in 1990?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zebřičky pestré",
+     "Kachny domácí",
+     "Křepelky japonské",
+     "Holuba skalního"
+    ],
+    "en": [
+     "Zebra finch",
+     "Domestic duck",
+     "Japanese quail",
+     "Rock pigeon"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Po prvním zdravém kuřeti se na stanici vylíhlo dalších pět. Dřívější sovětský pokus z roku 1979 nevyšel – zárodky se vyvíjely pomalu a některé byly znetvořené.",
+    "en": "After the first healthy chick, five more hatched aboard the station. An earlier Soviet attempt in 1979 failed: the embryos developed too slowly and some were deformed."
+   }
+  },
+  {
+   "id": "T396-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V roce 1989 vezl raketoplán Discovery 32 oplozených slepičích vajec v rámci pokusu, který vymyslel student John Vellinger. Která firma pokus sponzorovala?",
+    "en": "In 1989 the Space Shuttle Discovery carried 32 fertilised chicken eggs for an experiment devised by student John Vellinger. Which company sponsored it?"
+   },
+   "moznosti": {
+    "cs": [
+     "McDonald's",
+     "Burger King",
+     "KFC",
+     "Coca-Cola"
+    ],
+    "en": [
+     "McDonald's",
+     "Burger King",
+     "KFC",
+     "Coca-Cola"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Projekt „Chix in Space“ podpořila síť KFC, známá smaženým kuřetem. Původně měla vajíčka letět už v roce 1986 s Challengerem, který po startu explodoval; z letu v roce 1989 přežilo osm kuřat a první vylíhnuté dostalo jméno Kentucky.",
+    "en": "The 'Chix in Space' project was backed by KFC, famous for its fried chicken. The eggs were first meant to fly on Challenger in 1986, which exploded after launch; eight chicks survived the 1989 flight, and the first to hatch was named Kentucky."
+   }
+  },
+  {
+   "id": "T396-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co zjistili japonští vědci v roce 2021, když použili lyofilizované (vymrazením vysušené) myší spermie skladované na ISS téměř šest let?",
+    "en": "What did Japanese scientists find in 2021 when they used freeze-dried mouse sperm that had been stored on the ISS for almost six years?"
+   },
+   "moznosti": {
+    "cs": [
+     "Narodila se z nich zdravá mláďata",
+     "Už nedokázaly oplodnit vajíčko",
+     "Mláďata měla vážné genetické vady",
+     "Rodily se z nich jen samičky"
+    ],
+    "en": [
+     "Healthy pups were born from it",
+     "It could no longer fertilise eggs",
+     "The pups had serious genetic defects",
+     "Only female pups were born"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Tým Teruhika Wakajamy z Univerzity Jamanaši zjistil, že pobyt na ISS DNA spermií nepoškodil a mláďata se narodila zdravá. Výsledek naznačuje, že by se savci mohli rozmnožovat i při dlouhých cestách vesmírem.",
+    "en": "Teruhiko Wakayama's team at the University of Yamanashi found that the stay on the ISS had not damaged the sperm's DNA and the pups were born healthy. The result suggests mammals could reproduce even on long space journeys."
+   }
+  },
+  {
+   "id": "T396-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V prosinci 2019 odletěly na ISS takzvané „mighty mice“ (silné myši). Čím byly výjimečné?",
+    "en": "In December 2019 so-called 'mighty mice' flew to the ISS. What made them special?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chyběl jim gen brzdící růst svalů",
+     "Pocházely z divoké horské populace",
+     "Měsíce předtím trénovaly na běžeckém pásu",
+     "Byly potomky myší narozených ve vesmíru"
+    ],
+    "en": [
+     "They lacked a gene that limits muscle growth",
+     "They came from a wild mountain population",
+     "They had trained on a treadmill for months beforehand",
+     "They were descendants of mice born in space"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Myším chyběl gen pro myostatin, a proto měly zhruba dvojnásobek běžné svalové hmoty. Výzkum genetika Se-Jin Leeho má pomoci najít léčbu úbytku svalů a kostí u astronautů i pacientů na Zemi.",
+    "en": "The mice lacked the gene for myostatin, giving them about twice the usual muscle mass. Geneticist Se-Jin Lee's study aims to help treat muscle and bone loss in astronauts and patients on Earth."
+   }
+  },
+  {
+   "id": "T396-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Samice makaka rhesus Able, která v květnu 1959 letěla do vesmíru spolu s opičkou Miss Baker, uhynula jen čtyři dny po letu. Co bylo příčinou?",
+    "en": "Able, a female rhesus monkey who flew into space with Miss Baker in May 1959, died just four days after the flight. What caused her death?"
+   },
+   "moznosti": {
+    "cs": [
+     "Úpal, který utrpěla v kabině",
+     "Komplikace při operaci k vyjmutí elektrody",
+     "Nemoc z ozáření během letu",
+     "Zranění při tvrdém dopadu kabiny do moře"
+    ],
+    "en": [
+     "Heatstroke suffered inside the capsule",
+     "Complications of surgery to remove an electrode",
+     "Radiation sickness from the flight",
+     "Injuries from the capsule's hard splashdown"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Při operaci, při níž jí měli vyjmout infikovanou elektrodu, nastaly komplikace s anestezií a selhalo jí dýchání. Její vypreparované tělo patří do sbírek Smithsonova Národního muzea letectví a kosmonautiky, není ale vystaveno (k roku 2026).",
+    "en": "During surgery to remove an infected electrode she suffered complications from the anaesthesia and stopped breathing. Her preserved body is held in the collection of the Smithsonian's National Air and Space Museum, though it is not on display (as of 2026)."
+   }
+  },
+  {
+   "id": "T396-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Fenka Albina, záložnice Lajky, už dvakrát letěla na výškové raketě. Proč nebyla vybrána pro let na oběžnou dráhu místo Lajky?",
+    "en": "Albina, Laika's backup, had already flown twice on a high-altitude rocket. Why was she not chosen for the orbital flight instead of Laika?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nedávno porodila štěňata",
+     "Byla na kabinu příliš těžká",
+     "Byla považována za příliš starou",
+     "Při výcviku špatně snášela hluk"
+    ],
+    "en": [
+     "She had recently given birth to puppies",
+     "She was too heavy for the cabin",
+     "She was considered too old",
+     "She coped badly with noise in training"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Albina měla víc zkušeností, ale kvůli nedávnému porodu zůstala na Zemi jako záložnice. Třetí fenka Muška sloužila jako „kontrolní“ pes, na němž se na zemi zkoušely přístroje a systém podpory života.",
+    "en": "Albina was more experienced, but because she had recently given birth she stayed on Earth as the backup. A third dog, Mushka, served as a 'control dog' on the ground for testing instruments and life support."
+   }
+  }
+ ]
+}

@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T037",
+ "nazev": {
+  "cs": "Slavné stavby světa",
+  "en": "Famous Buildings of the World"
+ },
+ "kategorie": {
+  "id": "umeni-a-literatura",
+  "nazev": {
+   "cs": "Umění a literatura",
+   "en": "Art & Literature"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T037-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Při jaké příležitosti byla v Paříži postavena Eiffelova věž?",
+    "en": "For what occasion was the Eiffel Tower built in Paris?"
+   },
+   "moznosti": {
+    "cs": [
+     "Olympijské hry roku 1900",
+     "Konec prusko-francouzské války roku 1871",
+     "Otevření pařížského metra roku 1900",
+     "Světová výstava roku 1889"
+    ],
+    "en": [
+     "The 1900 Olympic Games",
+     "The end of the Franco-Prussian War in 1871",
+     "The opening of the Paris Métro in 1900",
+     "The 1889 World's Fair"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Věž byla hlavní atrakcí Světové výstavy 1889, která připomínala sté výročí Velké francouzské revoluce. Původně se s ní počítalo jen jako s dočasnou stavbou.",
+    "en": "The tower was the centrepiece of the 1889 Exposition Universelle, which marked the centenary of the French Revolution. It was originally meant to be only a temporary structure."
+   }
+  },
+  {
+   "id": "T037-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na památku koho dal mughalský císař Šáhdžahán postavit Tádž Mahal?",
+    "en": "In memory of whom did the Mughal emperor Shah Jahan build the Taj Mahal?"
+   },
+   "moznosti": {
+    "cs": [
+     "Své zemřelé matky",
+     "Své zemřelé manželky",
+     "Svého zemřelého syna",
+     "Svého zemřelého otce"
+    ],
+    "en": [
+     "His late mother",
+     "His late wife",
+     "His late son",
+     "His late father"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Tádž Mahal je mauzoleum Mumtáz Mahal, která zemřela roku 1631 při porodu čtrnáctého dítěte. Později byl vedle ní pohřben i sám Šáhdžahán.",
+    "en": "The Taj Mahal is the mausoleum of Mumtaz Mahal, who died in 1631 giving birth to her fourteenth child. Shah Jahan himself was later buried beside her."
+   }
+  },
+  {
+   "id": "T037-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Se jménem kterého architekta je neodmyslitelně spojena barcelonská bazilika Sagrada Família?",
+    "en": "Which architect's name is inseparably linked with the Sagrada Família basilica in Barcelona?"
+   },
+   "moznosti": {
+    "cs": [
+     "Le Corbusier",
+     "Oscar Niemeyer",
+     "Santiago Calatrava",
+     "Antoni Gaudí"
+    ],
+    "en": [
+     "Le Corbusier",
+     "Oscar Niemeyer",
+     "Santiago Calatrava",
+     "Antoni Gaudí"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Gaudí převzal stavbu roku 1883, rok po jejím zahájení, a od roku 1915 se jí věnoval výhradně. Chrám je stále ve výstavbě (k roku 2026) a termín úplného dokončení zůstává nejistý.",
+    "en": "Gaudí took over the project in 1883, a year after work began, and from 1915 devoted himself to it entirely. The church is still under construction (as of 2026) and its final completion date remains uncertain."
+   }
+  },
+  {
+   "id": "T037-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč je Šikmá věž v Pise nakloněná?",
+    "en": "Why does the Leaning Tower of Pisa lean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Architekt ji tak záměrně navrhl",
+     "Stojí na měkkém, nestabilním podloží",
+     "Poškodilo ji bombardování za druhé světové války",
+     "Poškodilo ji silné zemětřesení"
+    ],
+    "en": [
+     "The architect designed it that way on purpose",
+     "It stands on soft, unstable ground",
+     "It was damaged by bombing in World War II",
+     "It was damaged by a strong earthquake"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Věž se začala naklánět už během stavby ve 12. století, protože mělké základy stojí v měkké půdě, která neunese její váhu. Je to zvonice pisánské katedrály.",
+    "en": "The tower began to lean during construction in the 12th century because its shallow foundation sits in soft ground that cannot properly support its weight. It is the bell tower of Pisa Cathedral."
+   }
+  },
+  {
+   "id": "T037-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co ve vlastním smyslu označuje londýnská přezdívka Big Ben?",
+    "en": "What does the London nickname Big Ben properly refer to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hodinový stroj ve věži",
+     "Ciferník hodin",
+     "Největší zvon hodinové věže",
+     "Celý Westminsterský palác"
+    ],
+    "en": [
+     "The clock mechanism in the tower",
+     "The clock face",
+     "The largest bell in the clock tower",
+     "The whole Palace of Westminster"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Big Ben je přezdívka Velkého zvonu Velkých westminsterských hodin. Běžně se tak ale říká i celé věži a hodinám.",
+    "en": "Big Ben is the nickname of the Great Bell of the Great Clock of Westminster, although the name is commonly used for the whole tower and clock too."
+   }
+  },
+  {
+   "id": "T037-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která budova je nejvyšší na světě (k roku 2026)?",
+    "en": "Which building is the tallest in the world (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Taipei 101",
+     "Merdeka 118",
+     "Burdž Chalífa",
+     "One World Trade Center"
+    ],
+    "en": [
+     "Taipei 101",
+     "Merdeka 118",
+     "Burj Khalifa",
+     "One World Trade Center"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Burdž Chalífa byla oficiálně otevřena 4. ledna 2010; tchajwanskou Taipei 101 výškou překonala už během stavby v roce 2007. Druhou nejvyšší budovou je Merdeka 118 v Kuala Lumpuru. Saúdská Džiddská věž (Jeddah Tower), která ji má překonat, je stále ve výstavbě (k roku 2026).",
+    "en": "The Burj Khalifa officially opened on 4 January 2010; it had already overtaken Taiwan's Taipei 101 in height during construction in 2007. The second-tallest building is Merdeka 118 in Kuala Lumpur. Saudi Arabia's Jeddah Tower, which is set to surpass it, is still under construction (as of 2026)."
+   }
+  },
+  {
+   "id": "T037-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co drží Socha svobody ve zdvižené pravé ruce?",
+    "en": "What does the Statue of Liberty hold in her raised right hand?"
+   },
+   "moznosti": {
+    "cs": [
+     "Meč",
+     "Pochodeň",
+     "Olivovou ratolest",
+     "Knihu"
+    ],
+    "en": [
+     "A sword",
+     "A torch",
+     "An olive branch",
+     "A book"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Oficiální název sochy zní Svoboda osvěcující svět (Liberty Enlightening the World). V levé ruce drží desku s datem vyhlášení nezávislosti USA 4. července 1776 zapsaným římskými číslicemi.",
+    "en": "The statue's official name is Liberty Enlightening the World. In her left hand she holds a tablet bearing the date of US independence, 4 July 1776, in Roman numerals."
+   }
+  },
+  {
+   "id": "T037-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která civilizace postavila horské město Machu Picchu?",
+    "en": "Which civilization built the mountain citadel of Machu Picchu?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mayové",
+     "Olmékové",
+     "Inkové",
+     "Aztékové"
+    ],
+    "en": [
+     "The Maya",
+     "The Olmecs",
+     "The Incas",
+     "The Aztecs"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Machu Picchu v peruánských Andách postavili Inkové v 15. století, pravděpodobně jako sídlo panovníka Pachacutiho. Světu ho roku 1911 proslavil Američan Hiram Bingham.",
+    "en": "Machu Picchu in the Peruvian Andes was built by the Incas in the 15th century, probably as an estate of the emperor Pachacuti. American Hiram Bingham brought it to international attention in 1911."
+   }
+  },
+  {
+   "id": "T037-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na státní vlajce které země je vyobrazen chrám Angkor Vat?",
+    "en": "On the national flag of which country is the temple of Angkor Wat depicted?"
+   },
+   "moznosti": {
+    "cs": [
+     "Laos",
+     "Vietnam",
+     "Kambodža",
+     "Thajsko"
+    ],
+    "en": [
+     "Laos",
+     "Vietnam",
+     "Cambodia",
+     "Thailand"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Angkor Vat se na kambodžské vlajce objevuje zhruba od roku 1875 a nesla ho téměř každá její pozdější verze. Je to jeden z největších náboženských komplexů na světě.",
+    "en": "Angkor Wat has appeared on the Cambodian flag since around 1875, and almost every later version has featured it. It is one of the largest religious complexes in the world."
+   }
+  },
+  {
+   "id": "T037-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který bavorský zámek posloužil jako předloha pro zámek Šípkové Růženky v kalifornském Disneylandu?",
+    "en": "Which Bavarian castle served as the inspiration for Sleeping Beauty Castle in California's Disneyland?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nymphenburg",
+     "Linderhof",
+     "Herrenchiemsee",
+     "Neuschwanstein"
+    ],
+    "en": [
+     "Nymphenburg",
+     "Linderhof",
+     "Herrenchiemsee",
+     "Neuschwanstein"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Romantický Neuschwanstein inspiroval Disneyho zámek Šípkové Růženky i pozdější zámek Popelky. Nymphenburg, Linderhof a Herrenchiemsee jsou také bavorské zámky, předlohou zámku Šípkové Růženky ale nebyly.",
+    "en": "The romantic Neuschwanstein inspired Disney's Sleeping Beauty Castle as well as the later Cinderella Castle. Nymphenburg, Linderhof and Herrenchiemsee are also Bavarian palaces, but none of them was the model for Sleeping Beauty Castle."
+   }
+  },
+  {
+   "id": "T037-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ze které země pocházel architekt Opery v Sydney Jørn Utzon?",
+    "en": "Which country did Jørn Utzon, the architect of the Sydney Opera House, come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Finsko",
+     "Švédsko",
+     "Dánsko",
+     "Norsko"
+    ],
+    "en": [
+     "Finland",
+     "Sweden",
+     "Denmark",
+     "Norway"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Dán Utzon odešel od rozestavěné opery roku 1966 a hotovou budovu, otevřenou roku 1973, nikdy neviděl. V roce 2003 získal Pritzkerovu cenu.",
+    "en": "The Dane Utzon left the unfinished opera house in 1966 and never saw the completed building, opened in 1973. He received the Pritzker Prize in 2003."
+   }
+  },
+  {
+   "id": "T037-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo navrhl vnitřní železnou nosnou konstrukci Sochy svobody?",
+    "en": "Who designed the internal iron framework of the Statue of Liberty?"
+   },
+   "moznosti": {
+    "cs": [
+     "Joseph Paxton",
+     "Gustave Eiffel",
+     "Isambard Kingdom Brunel",
+     "John A. Roebling"
+    ],
+    "en": [
+     "Joseph Paxton",
+     "Gustave Eiffel",
+     "Isambard Kingdom Brunel",
+     "John A. Roebling"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Konstrukci navrhla firma Gustava Eiffela s inženýrem Mauricem Koechlinem, sochu samotnou vytvořil Frédéric Auguste Bartholdi. Měděný plášť byl původně červenohnědý a zezelenal až patinou.",
+    "en": "Gustave Eiffel's company designed the framework with engineer Maurice Koechlin, while the statue itself was sculpted by Frédéric Auguste Bartholdi. Its copper skin was originally reddish-brown and turned green only with patina."
+   }
+  },
+  {
+   "id": "T037-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik metrů zhruba měří Burdž Chalífa?",
+    "en": "Roughly how tall is the Burj Khalifa?"
+   },
+   "moznosti": {
+    "cs": [
+     "632 m",
+     "728 m",
+     "828 m",
+     "928 m"
+    ],
+    "en": [
+     "632 m (2,073 ft)",
+     "728 m (2,388 ft)",
+     "828 m (2,717 ft)",
+     "928 m (3,045 ft)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Burdž Chalífa měří 828 m, hrot dosahuje 829,8 m. Hodnota 632 m patří Šanghajské věži.",
+    "en": "The Burj Khalifa is 828 m (2,717 ft) tall, with its tip reaching 829.8 m (2,722.4 ft). The figure of 632 m (2,073 ft) belongs to the Shanghai Tower."
+   }
+  },
+  {
+   "id": "T037-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který byzantský císař dal postavit dnešní chrám Hagia Sofia, dokončený roku 537?",
+    "en": "Which Byzantine emperor built the present-day Hagia Sophia, completed in 537?"
+   },
+   "moznosti": {
+    "cs": [
+     "Basileios II.",
+     "Justinián I.",
+     "Theodosius I.",
+     "Konstantin Veliký"
+    ],
+    "en": [
+     "Basil II",
+     "Justinian I",
+     "Theodosius I",
+     "Constantine the Great"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Justinián nechal chrám postavit v letech 532–537 na místě staršího kostela zničeného při povstání Nika. Přes pět set let pak byl největším kostelem světa.",
+    "en": "Justinian had the church built between 532 and 537 on the site of an earlier one destroyed during the Nika riots. It then remained the world's largest church for more than five hundred years."
+   }
+  },
+  {
+   "id": "T037-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co se s istanbulskou Hagií Sofií stalo v roce 2020?",
+    "en": "What happened to Istanbul's Hagia Sophia in 2020?"
+   },
+   "moznosti": {
+    "cs": [
+     "Poprvé ji zapsali na seznam UNESCO",
+     "Po zemětřesení ji uzavřeli kvůli opravám",
+     "Znovu se z ní stala mešita",
+     "Byla vrácena pravoslavné církvi"
+    ],
+    "en": [
+     "It was added to the UNESCO list for the first time",
+     "It was closed for repairs after an earthquake",
+     "It became a mosque again",
+     "It was returned to the Orthodox Church"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Po dobytí Konstantinopole roku 1453 se z chrámu stala mešita, od roku 1935 sloužil jako muzeum. V roce 2020 turecká Státní rada zrušila status muzea a Hagia Sofia je opět mešitou.",
+    "en": "After the Ottoman conquest of Constantinople in 1453 the church became a mosque, and from 1935 it served as a museum. In 2020 Turkey's Council of State annulled its museum status and Hagia Sophia became a mosque again."
+   }
+  },
+  {
+   "id": "T037-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Fasáda skalní hrobky Pokladnice (Al-Khazneh) v jordánské Petře se objevila ve vrcholných scénách kterého filmu?",
+    "en": "The façade of the rock-cut Treasury (Al-Khazneh) tomb in Petra, Jordan, appeared in the climactic scenes of which film?"
+   },
+   "moznosti": {
+    "cs": [
+     "Indiana Jones a poslední křížová výprava",
+     "Dobyvatelé ztracené archy",
+     "Mumie",
+     "Gladiátor"
+    ],
+    "en": [
+     "Indiana Jones and the Last Crusade",
+     "Raiders of the Lost Ark",
+     "The Mummy",
+     "Gladiator"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Ve filmu z roku 1989 představuje vchod k místu, kde je ukryt svatý grál. Jméno Pokladnice dostala podle beduínské pověsti o pokladu v kamenné urně na fasádě, ta je ale z plného pískovce.",
+    "en": "In the 1989 film it stands in for the entrance to the resting place of the Holy Grail. It is named the Treasury after a Bedouin belief that the stone urn on its façade held treasure, but the urn is solid sandstone."
+   }
+  },
+  {
+   "id": "T037-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který panovník dal postavit zámek Neuschwanstein?",
+    "en": "Which monarch had Neuschwanstein Castle built?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ludvík II. Bavorský",
+     "František Josef I.",
+     "Maxmilián II. Bavorský",
+     "Fridrich Vilém IV. Pruský"
+    ],
+    "en": [
+     "Ludwig II of Bavaria",
+     "Franz Joseph I",
+     "Maximilian II of Bavaria",
+     "Frederick William IV of Prussia"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "„Pohádkový král“ (Märchenkönig) Ludvík II. chtěl zámek jako své soukromé útočiště. Po jeho záhadné smrti ve Starnberském jezeře roku 1886 byl zámek do šesti týdnů zpřístupněn platícím návštěvníkům.",
+    "en": "The 'Fairy Tale King' (Märchenkönig) Ludwig II wanted the castle as a private retreat. After his mysterious death in Lake Starnberg in 1886, it was opened to paying visitors within six weeks."
+   }
+  },
+  {
+   "id": "T037-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který světoznámý architekt navrhl pražský Tančící dům spolu s Vladem Milunićem?",
+    "en": "Which world-famous architect designed Prague's Dancing House together with Vlado Milunić?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jean Nouvel",
+     "Frank Gehry",
+     "Zaha Hadid",
+     "Norman Foster"
+    ],
+    "en": [
+     "Jean Nouvel",
+     "Frank Gehry",
+     "Zaha Hadid",
+     "Norman Foster"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Budova dokončená roku 1996 dostala přezdívku Ginger a Fred podle tanečníků Ginger Rogersové a Freda Astaira. Stojí na místě domu zničeného při americkém bombardování Prahy v roce 1945.",
+    "en": "Completed in 1996, the building is nicknamed Ginger and Fred after the dancers Ginger Rogers and Fred Astaire. It stands on the site of a house destroyed in the 1945 US bombing of Prague."
+   }
+  },
+  {
+   "id": "T037-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který architekt navrhl brněnskou vilu Tugendhat?",
+    "en": "Which architect designed the Villa Tugendhat in Brno?"
+   },
+   "moznosti": {
+    "cs": [
+     "Walter Gropius",
+     "Mies van der Rohe",
+     "Adolf Loos",
+     "Le Corbusier"
+    ],
+    "en": [
+     "Walter Gropius",
+     "Mies van der Rohe",
+     "Adolf Loos",
+     "Le Corbusier"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Vila vznikla v letech 1928–1930 podle návrhu Miese van der Rohe a Lilly Reichové. Proslulá je mimo jiné onyxovou stěnou z pohoří Atlas v Maroku a od roku 2001 je památkou UNESCO.",
+    "en": "The villa was built in 1928–1930 to a design by Mies van der Rohe and Lilly Reich. It is famous among other things for its onyx wall from Morocco's Atlas Mountains and has been a UNESCO site since 2001."
+   }
+  },
+  {
+   "id": "T037-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co kromě televizního vysílače najdete ve stavbě na vrcholu Ještědu?",
+    "en": "Apart from a television transmitter, what can you find in the building on the summit of Ještěd?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hvězdárnu a planetárium",
+     "Meteorologickou observatoř",
+     "Kapli a poutní místo",
+     "Hotel a restauraci"
+    ],
+    "en": [
+     "An observatory and planetarium",
+     "A meteorological observatory",
+     "A chapel and pilgrimage site",
+     "A hotel and restaurant"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Hubáčkova stavba, otevřená roku 1973, spojuje vysílač s horským hotelem a restaurací. Její tvar hyperboloidu plynule prodlužuje siluetu hory.",
+    "en": "Hubáček's building, opened in 1973, combines a transmitter with a mountain hotel and restaurant. Its hyperboloid shape smoothly continues the silhouette of the mountain."
+   }
+  },
+  {
+   "id": "T037-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na kolik let dostal Gustave Eiffel původně povolení věž provozovat, než ji měli rozebrat?",
+    "en": "For how many years was Gustave Eiffel originally allowed to operate the tower before it was to be dismantled?"
+   },
+   "moznosti": {
+    "cs": [
+     "5",
+     "10",
+     "20",
+     "50"
+    ],
+    "en": [
+     "5",
+     "10",
+     "20",
+     "50"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Po uplynutí dvacetileté koncese měla věž připadnout městu Paříži a být rozebrána. Zachránilo ji využití pro radiotelegrafii a od roku 1910 vysílala i časové signály.",
+    "en": "When the 20-year concession expired, the tower was to pass to the City of Paris and be dismantled. It was saved by its use for radio telegraphy, and from 1910 it also transmitted time signals."
+   }
+  },
+  {
+   "id": "T037-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo roku 1658 sesadil Šáhdžahána, stavitele Tádž Mahalu, a držel ho v domácím vězení v pevnosti v Ágře?",
+    "en": "Who deposed Shah Jahan, the builder of the Taj Mahal, in 1658 and kept him under house arrest at Agra Fort?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jeho vlastní syn",
+     "Perský šáh",
+     "Britští obchodníci",
+     "Jeho vlastní bratr"
+    ],
+    "en": [
+     "His own son",
+     "The Shah of Persia",
+     "British merchants",
+     "His own brother"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Sesadil ho syn Aurangzéb (Aurangzeb) a otec dožil v pevnosti v Ágře, odkud viděl na Tádž Mahal. Po jeho smrti roku 1666 ho Aurangzéb pohřbil vedle Mumtáz Mahal.",
+    "en": "He was deposed by his son Aurangzeb and lived out his days at Agra Fort, from where he could see the Taj Mahal. After his death in 1666, Aurangzeb buried him beside Mumtaz Mahal."
+   }
+  },
+  {
+   "id": "T037-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak roku 1926 zemřel Antoni Gaudí?",
+    "en": "How did Antoni Gaudí die in 1926?"
+   },
+   "moznosti": {
+    "cs": [
+     "Srazila ho tramvaj",
+     "Zahynul při požáru své dílny",
+     "Spadl z lešení na stavbě",
+     "Podlehl španělské chřipce"
+    ],
+    "en": [
+     "He was hit by a tram",
+     "He died in a fire in his workshop",
+     "He fell from scaffolding on a building site",
+     "He succumbed to the Spanish flu"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Gaudího 7. června 1926 srazila tramvaj, a protože ho kolemjdoucí považovali za žebráka, nedostal hned pomoc. Zemřel o tři dny později, 10. června 1926.",
+    "en": "Gaudí was struck by a tram on 7 June 1926, and because passers-by took him for a beggar, he did not receive immediate help. He died three days later, on 10 June 1926."
+   }
+  },
+  {
+   "id": "T037-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč se Šikmá věž v Pise nezřítila už během stavby?",
+    "en": "Why did the Leaning Tower of Pisa not collapse during construction?"
+   },
+   "moznosti": {
+    "cs": [
+     "Do základů byly zaraženy dubové piloty",
+     "Stavba dlouho stála a podloží se slehlo",
+     "Horní patra byla postavena z lehkého dřeva",
+     "Věž podepřeli kamennými opěrnými pilíři"
+    ],
+    "en": [
+     "Oak piles were driven into the foundations",
+     "Work stalled for decades and the soil settled",
+     "The upper storeys were built of light timber",
+     "The tower was propped up with stone buttresses"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pisa vedla války, a stavba proto stála skoro celé století. Podloží se mezitím slehlo, jinak by se věž podle odborníků téměř jistě převrhla. Olověná protizávaží se přidávala až od roku 1993.",
+    "en": "Because Pisa was almost constantly at war, construction was halted for most of a century. Meanwhile the soil settled; otherwise, experts say, the tower would almost certainly have toppled. Lead counterweights were only added from 1993."
+   }
+  },
+  {
+   "id": "T037-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se od roku 2012 oficiálně jmenuje hodinová věž na severním konci Westminsterského paláce?",
+    "en": "Since 2012, what is the official name of the clock tower at the north end of the Palace of Westminster?"
+   },
+   "moznosti": {
+    "cs": [
+     "Alžbětina věž (Elizabeth Tower)",
+     "Viktoriina věž (Victoria Tower)",
+     "Královská věž (King's Tower)",
+     "Westminsterská věž (Westminster Tower)"
+    ],
+    "en": [
+     "Elizabeth Tower",
+     "Victoria Tower",
+     "King's Tower",
+     "Westminster Tower"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Věž byla přejmenována na počest diamantového jubilea Alžběty II. Jméno Viktoriina věž už dříve nesla jiná, západní věž Westminsterského paláce.",
+    "en": "The tower was renamed to mark Elizabeth II's Diamond Jubilee. The name Victoria Tower had already been given to another tower, the west tower of the Palace of Westminster."
+   }
+  },
+  {
+   "id": "T037-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se mrakodrap Burdž Chalífa jmenoval až do svého slavnostního otevření v roce 2010?",
+    "en": "What was the Burj Khalifa called until its official opening in 2010?"
+   },
+   "moznosti": {
+    "cs": [
+     "Burdž al-Arab",
+     "Burdž Emirates",
+     "Burdž Dubaj",
+     "Burdž Zájid"
+    ],
+    "en": [
+     "Burj Al Arab",
+     "Burj Emirates",
+     "Burj Dubai",
+     "Burj Zayed"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Věž byla přejmenována na počest prezidenta SAE a vládce Abú Dhabí šejka Chalífy bin Zájida (Khalifa bin Zayed), který Dubaji pomohl během finanční krize. Burdž al-Arab je jiná, starší dubajská stavba – hotel ve tvaru plachty.",
+    "en": "The tower was renamed in honour of Sheikh Khalifa bin Zayed, President of the UAE and ruler of Abu Dhabi, who helped Dubai during the financial crisis. The Burj Al Arab is a different, older Dubai building – a sail-shaped hotel."
+   }
+  },
+  {
+   "id": "T037-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kterému hinduistickému bohu byl chrám Angkor Vat původně zasvěcen?",
+    "en": "To which Hindu god was the temple of Angkor Wat originally dedicated?"
+   },
+   "moznosti": {
+    "cs": [
+     "Indra",
+     "Brahma",
+     "Šiva",
+     "Višnu"
+    ],
+    "en": [
+     "Indra",
+     "Brahma",
+     "Shiva",
+     "Vishnu"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Chrám dal ve 12. století postavit král Súrjavarman II. (Suryavarman II) jako svatyni boha Višnua. Později se postupně změnil v buddhistický chrám.",
+    "en": "The temple was built in the 12th century by King Suryavarman II as a shrine to Vishnu. It was later gradually converted into a Buddhist temple."
+   }
+  },
+  {
+   "id": "T037-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Která politická událost se odehrála ve vile Tugendhat 26. srpna 1992?",
+    "en": "Which political event took place at the Villa Tugendhat on 26 August 1992?"
+   },
+   "moznosti": {
+    "cs": [
+     "Podpis dohody o odchodu sovětských vojsk",
+     "Rezignace Václava Havla na funkci prezidenta ČSFR",
+     "Založení Visegrádské skupiny",
+     "Jednání Klause a Mečiara o rozdělení Československa"
+    ],
+    "en": [
+     "The signing of the agreement on the withdrawal of Soviet troops",
+     "Václav Havel's resignation as president of Czechoslovakia",
+     "The founding of the Visegrád Group",
+     "Klaus and Mečiar's talks on splitting Czechoslovakia"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Václav Klaus a Vladimír Mečiar se ve vile sešli a podepsali dokument, který vedl k rozdělení státu na Českou a Slovenskou republiku. Havel rezignoval už 20. července 1992.",
+    "en": "Václav Klaus and Vladimír Mečiar met at the villa and signed the document that led to the country splitting into the Czech and Slovak Republics. Havel had resigned on 20 July 1992."
+   }
+  },
+  {
+   "id": "T037-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč podle tradice položil Karel IV. základní kámen Karlova mostu právě 9. července 1357 v 5:31?",
+    "en": "According to tradition, why did Charles IV lay the foundation stone of Charles Bridge precisely on 9 July 1357 at 5:31?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bylo to výročí jeho korunovace českým králem",
+     "Datum a čas tvoří číselný palindrom",
+     "Astrologové spočítali nejnižší stav Vltavy",
+     "Toho dne skončila velká povodeň z roku 1342"
+    ],
+    "en": [
+     "It was the anniversary of his coronation as King of Bohemia",
+     "The date and time form a numerical palindrome",
+     "Astrologers calculated the lowest level of the Vltava",
+     "That day marked the end of the great flood of 1342"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Zápis 1357 9/7 5:31 dává číslo 135797531, které se čte stejně zepředu i zezadu. Most nahradil starší Juditin most, který poškodila povodeň roku 1342.",
+    "en": "Written as 1357 9/7 5:31, it gives 135797531, which reads the same forwards and backwards. The bridge replaced the older Judith Bridge, damaged by a flood in 1342."
+   }
+  },
+  {
+   "id": "T037-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Sagrada Família se v říjnu 2025 stala nejvyšším kostelem světa. Kterou stavbu tím překonala?",
+    "en": "In October 2025, the Sagrada Família became the world's tallest church. Which building did it surpass?"
+   },
+   "moznosti": {
+    "cs": [
+     "Baziliku svatého Petra ve Vatikánu",
+     "Kolínskou katedrálu",
+     "Katedrálu v Rouenu",
+     "Ulmský chrám (Ulmer Münster)"
+    ],
+    "en": [
+     "St Peter's Basilica in the Vatican",
+     "Cologne Cathedral",
+     "Rouen Cathedral",
+     "Ulm Minster"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Věž Ulmského chrámu (161,53 m) byla nejvyšší kostelní stavbou světa od roku 1890; 30. října 2025 ji překonala ústřední věž Ježíše Krista. Ta v únoru 2026 dosáhla plné výšky 172,5 m, celá bazilika ale stále není dokončena (k roku 2026).",
+    "en": "Ulm Minster's 161.53 m (530.0 ft) steeple had been the tallest church structure in the world since 1890; on 30 October 2025 it was overtaken by the central Tower of Jesus Christ. That tower reached its full height of 172.5 m (565.9 ft) in February 2026, but the basilica as a whole is still unfinished (as of 2026)."
+   }
+  }
+ ]
+}

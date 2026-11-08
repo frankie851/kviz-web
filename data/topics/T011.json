@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T011",
+ "nazev": {
+  "cs": "Řecká mytologie: bohové a hrdinové",
+  "en": "Greek Mythology: Gods and Heroes"
+ },
+ "kategorie": {
+  "id": "mytologie-a-nabozenstvi",
+  "nazev": {
+   "cs": "Mytologie a náboženství",
+   "en": "Mythology & Religion"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T011-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který bůh vládl z Olympu nad ostatními bohy a vrhal blesky?",
+    "en": "Which god ruled the other gods from Olympus and hurled thunderbolts?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zeus",
+     "Hádés",
+     "Poseidón",
+     "Arés"
+    ],
+    "en": [
+     "Zeus",
+     "Hades",
+     "Poseidon",
+     "Ares"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Zeus byl nejvyšším z olympských bohů a jeho hlavní zbraní byl blesk. Podle Hésioda mu ho ukovali Kyklopové, které osvobodil z podsvětí.",
+    "en": "Zeus was the highest of the Olympian gods and the thunderbolt was his chief weapon. According to Hesiod it was forged for him by the Cyclopes, whom he had freed from the underworld."
+   }
+  },
+  {
+   "id": "T011-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který bůh vládl moři a nosil trojzubec?",
+    "en": "Which god ruled the sea and carried a trident?"
+   },
+   "moznosti": {
+    "cs": [
+     "Apollón",
+     "Poseidón",
+     "Héfaistos",
+     "Hermés"
+    ],
+    "en": [
+     "Apollo",
+     "Poseidon",
+     "Hephaestus",
+     "Hermes"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Poseidón byl bohem moří, ale také zemětřesení a koní. Úderem trojzubce do země prý dokázal vyvolat zemětřesení nebo nechat vytrysknout pramen.",
+    "en": "Poseidon was god of the sea, but also of earthquakes and horses. Striking the ground with his trident could supposedly cause an earthquake or make a spring gush forth."
+   }
+  },
+  {
+   "id": "T011-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která bohyně byla bohyní moudrosti a patronkou města Athény?",
+    "en": "Which goddess was the goddess of wisdom and patron of the city of Athens?"
+   },
+   "moznosti": {
+    "cs": [
+     "Afrodíté",
+     "Athéna",
+     "Héra",
+     "Artemis"
+    ],
+    "en": [
+     "Aphrodite",
+     "Athena",
+     "Hera",
+     "Artemis"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Athéna byla bohyní moudrosti a válečné strategie. O Athény soupeřila s Poseidónem a zvítězila, protože městu darovala olivovník.",
+    "en": "Athena was the goddess of wisdom and military strategy. She competed with Poseidon for Athens and won by giving the city the olive tree."
+   }
+  },
+  {
+   "id": "T011-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které místo na těle bylo podle nejznámější verze mýtu jediným zranitelným místem hrdiny Achillea?",
+    "en": "According to the best-known version of the myth, which part of the body was the hero Achilles' only vulnerable spot?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pata",
+     "Oko",
+     "Záda",
+     "Krk"
+    ],
+    "en": [
+     "Heel",
+     "Eye",
+     "Back",
+     "Neck"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Matka Thetis ho jako dítě ponořila do řeky Styx a držela ho přitom za patu, kam voda nedosáhla. Odtud výraz Achillova pata pro slabé místo; zasáhl ho tam šíp trójského prince Parida.",
+    "en": "His mother Thetis dipped him as a baby in the river Styx, holding him by the heel, which the water never touched. Hence the phrase Achilles' heel for a weak spot; the arrow of the Trojan prince Paris struck him there."
+   }
+  },
+  {
+   "id": "T011-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co podle mýtu vypustila Pandora do světa, když otevřela zakázanou nádobu, známou jako Pandořina skříňka?",
+    "en": "According to the myth, what did Pandora release into the world when she opened the forbidden jar known as Pandora's box?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hvězdy a souhvězdí",
+     "Draky a obry",
+     "Sopky a zemětřesení",
+     "Nemoci a utrpení"
+    ],
+    "en": [
+     "Stars and constellations",
+     "Dragons and giants",
+     "Volcanoes and earthquakes",
+     "Diseases and suffering"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Z nádoby vylétla do světa všechna zla, nemoci a strasti. Původně šlo o velký džbán (pithos); slovo „skříňka“ se ujalo až po chybném převodu do latiny, který se připisuje Erasmovi Rotterdamskému.",
+    "en": "All evils, diseases and hardships flew out into the world. It was originally a large jar (pithos); the word \"box\" caught on only after a mistranslation into Latin usually attributed to Erasmus."
+   }
+  },
+  {
+   "id": "T011-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou lstí Řekové podle mýtu nakonec dobyli Tróju?",
+    "en": "According to the myth, what trick did the Greeks finally use to capture Troy?"
+   },
+   "moznosti": {
+    "cs": [
+     "Otrávili městskou studnu",
+     "Podkopali hradby tunelem",
+     "Podplatili trójského krále",
+     "Ukryli vojáky v dřevěném koni"
+    ],
+    "en": [
+     "They poisoned the city's well",
+     "They dug a tunnel under the walls",
+     "They bribed the Trojan king",
+     "They hid soldiers in a wooden horse"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Trójané si obřího dřevěného koně vtáhli do města jako dar, v noci z něj vylezli řečtí vojáci a otevřeli brány. Lest se připisuje Odysseovi a podle ní se dnes jmenuje i škodlivý program trojský kůň.",
+    "en": "The Trojans dragged the giant wooden horse into the city as a gift; at night Greek soldiers climbed out and opened the gates. The ruse is credited to Odysseus, and a type of malicious software, the Trojan horse, is named after it."
+   }
+  },
+  {
+   "id": "T011-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co se stalo s každým, kdo pohlédl Medúse do tváře?",
+    "en": "What happened to anyone who looked Medusa in the face?"
+   },
+   "moznosti": {
+    "cs": [
+     "Oslepl",
+     "Zkameněl",
+     "Zešílel",
+     "Usnul navěky"
+    ],
+    "en": [
+     "They went blind",
+     "They turned to stone",
+     "They went mad",
+     "They fell into eternal sleep"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Medúsa, jedna z Gorgon, měla místo vlasů hady a její pohled proměňoval v kámen. Hrdina Perseus jí usekl hlavu a sám se na ni přitom díval jen jako na odraz v lesklém štítu.",
+    "en": "Medusa, one of the Gorgons, had snakes instead of hair and her gaze turned people to stone. The hero Perseus cut off her head while looking at her only as a reflection in his polished shield."
+   }
+  },
+  {
+   "id": "T011-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik úkolů (prací) musel podle mýtu splnit Héraklés?",
+    "en": "According to the myth, how many labours did Heracles have to complete?"
+   },
+   "moznosti": {
+    "cs": [
+     "7",
+     "9",
+     "12",
+     "15"
+    ],
+    "en": [
+     "7",
+     "9",
+     "12",
+     "15"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Héraklés splnil dvanáct prací pro krále Eurysthea. Podle Apollodóra jich mělo být původně deset, ale Eurystheus dvě neuznal, a tak přidal další dvě.",
+    "en": "Heracles completed twelve labours for King Eurystheus. According to Apollodorus there were originally meant to be ten, but Eurystheus refused to count two and added two more."
+   }
+  },
+  {
+   "id": "T011-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč podle mýtu zahynul Íkaros, když s otcem Daidalem utíkal z Kréty?",
+    "en": "According to the myth, why did Icarus die while escaping from Crete with his father Daedalus?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vzlétl příliš blízko ke Slunci",
+     "Vyčerpal se a spadl do moře",
+     "Zasáhl ho Diův blesk",
+     "Zachytil se o útes v mlze"
+    ],
+    "en": [
+     "He flew too close to the Sun",
+     "He grew exhausted and fell into the sea",
+     "He was hit by Zeus's thunderbolt",
+     "He struck a cliff in the fog"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Daidalos sestrojil křídla z peří spojeného voskem a varoval syna, ať neletí vysoko. Íkaros neposlechl, sluneční žár vosk rozpustil a on se zřítil do moře, které se po něm jmenuje Ikarské.",
+    "en": "Daedalus built wings of feathers held together with wax and warned his son not to fly high. Icarus ignored him, the Sun's heat melted the wax and he plunged into the sea that is named the Icarian Sea after him."
+   }
+  },
+  {
+   "id": "T011-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak dlouho se podle Homérovy Odysseie vracel Odysseus po skončení trojské války domů na Ithaku?",
+    "en": "According to Homer's Odyssey, how long did Odysseus take to return home to Ithaca after the end of the Trojan War?"
+   },
+   "moznosti": {
+    "cs": [
+     "2 roky",
+     "5 let",
+     "10 let",
+     "15 let"
+    ],
+    "en": [
+     "2 years",
+     "5 years",
+     "10 years",
+     "15 years"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Cesta domů trvala deset let, takže Odysseus byl pryč celkem dvacet let včetně desetileté války. Podle jeho putování říkáme dlouhé dobrodružné cestě odysea.",
+    "en": "The journey home took ten years, so Odysseus was away for twenty years in total, including the ten-year war. A long, adventurous journey is still called an odyssey after him."
+   }
+  },
+  {
+   "id": "T011-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co podle Hésioda zůstalo v Pandořině nádobě, když ji Pandora rychle zavřela?",
+    "en": "According to Hesiod, what remained inside Pandora's jar when she quickly closed it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Moudrost",
+     "Láska",
+     "Spravedlnost",
+     "Naděje"
+    ],
+    "en": [
+     "Wisdom",
+     "Love",
+     "Justice",
+     "Hope"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pandora nádobu zavřela dřív, než stihla vylétnout Naděje (řecky Elpis). Vědci se dodnes přou, zda to znamená, že lidem naděje zůstala, nebo že jim byla odepřena.",
+    "en": "Pandora closed the jar before Hope (Greek Elpis) could fly out. Scholars still debate whether this means hope was kept for humans or withheld from them."
+   }
+  },
+  {
+   "id": "T011-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak Zeus potrestal Prométhea za to, že daroval lidem oheň?",
+    "en": "How did Zeus punish Prometheus for giving fire to humans?"
+   },
+   "moznosti": {
+    "cs": [
+     "Orel mu denně vyžíral játra",
+     "Zbavil ho navždy zraku",
+     "Musel věčně valit balvan",
+     "Proměnil ho v kamennou sochu"
+    ],
+    "en": [
+     "An eagle ate his liver every day",
+     "He took away his sight forever",
+     "He had to roll a boulder forever",
+     "He turned him into a stone statue"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Prométheus byl přikován ke skále v Kavkaze a orel mu každý den vyžíral játra, která mu přes noc znovu dorostla. Z utrpení ho nakonec vysvobodil Héraklés, když orla zastřelil.",
+    "en": "Prometheus was chained to a rock in the Caucasus and an eagle ate his liver every day, which grew back overnight. He was finally freed by Heracles, who shot the eagle."
+   }
+  },
+  {
+   "id": "T011-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který kozonohý bůh pastýřů prý vyvolával náhlou hrůzu svým rozzlobeným křikem, když ho někdo vyrušil z odpoledního spánku?",
+    "en": "Which goat-legged god of shepherds was said to cause sudden terror with his angry shout when disturbed during his afternoon nap?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dionýsos",
+     "Pan",
+     "Arés",
+     "Hermés"
+    ],
+    "en": [
+     "Dionysus",
+     "Pan",
+     "Ares",
+     "Hermes"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pan byl bohem pastýřů, stád a divoké přírody. Hrůze, kterou vyvolával na osamělých místech, říkali Řekové panikon deima a od jeho jména pochází i slovo panika.",
+    "en": "Pan was the god of shepherds, flocks and the wild. The Greeks called the terror he caused in lonely places panikon deima, and the word panic comes from his name."
+   }
+  },
+  {
+   "id": "T011-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co dala Ariadna Théseovi, aby po zabití Mínotaura našel cestu z labyrintu?",
+    "en": "What did Ariadne give Theseus so he could find his way out of the labyrinth after killing the Minotaur?"
+   },
+   "moznosti": {
+    "cs": [
+     "Klubko nitě",
+     "Zlatý klíč",
+     "Kouzelnou lampu",
+     "Mapu na kůži"
+    ],
+    "en": [
+     "A ball of thread",
+     "A golden key",
+     "A magic lamp",
+     "A map on leather"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Théseus nit při cestě odmotával a podle ní se pak vrátil ven. Odtud výraz Ariadnina nit pro vodítko, které pomůže z nesnází; Ariadna byla dcerou krétského krále Mínóa.",
+    "en": "Theseus unwound the thread as he went in and followed it back out. Hence the phrase Ariadne's thread for a clue that leads out of a difficulty; Ariadne was the daughter of King Minos of Crete."
+   }
+  },
+  {
+   "id": "T011-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které bohyni přiřkl trójský princ Paris zlaté jablko s nápisem „Té nejkrásnější“?",
+    "en": "To which goddess did the Trojan prince Paris award the golden apple inscribed \"To the fairest\"?"
+   },
+   "moznosti": {
+    "cs": [
+     "Athéna",
+     "Héra",
+     "Artemis",
+     "Afrodíté"
+    ],
+    "en": [
+     "Athena",
+     "Hera",
+     "Artemis",
+     "Aphrodite"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Afrodíté mu za to slíbila nejkrásnější ženu světa, Helenu, a její únos rozpoutal trojskou válku. Jablko hodila mezi bohyně Eris, bohyně sváru, proto mluvíme o jablku sváru.",
+    "en": "In return Aphrodite promised him the most beautiful woman in the world, Helen, whose abduction started the Trojan War. The apple had been thrown among the goddesses by Eris, goddess of discord, hence the phrase apple of discord."
+   }
+  },
+  {
+   "id": "T011-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaký trest si podle mýtu odpykává v podsvětí Sísyfos, podle něhož mluvíme o sisyfovské práci?",
+    "en": "What punishment does Sisyphus, after whom a Sisyphean task is named, endure in the underworld according to the myth?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nabírá vodu do děravého sudu",
+     "Je přivázaný k ohnivému kolu",
+     "Valí balvan, který se vždy skutálí zpět",
+     "Stojí ve vodě a nemůže se napít"
+    ],
+    "en": [
+     "He fills a leaking barrel with water",
+     "He is bound to a fiery wheel",
+     "He rolls a boulder that always rolls back",
+     "He stands in water but cannot drink"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kámen se mu těsně pod vrcholem vždy vysmekne a Sísyfos musí začít znovu. Sisyfovská práce proto označuje nekonečnou a marnou námahu; ostatní možnosti jsou tresty jiných hříšníků v podsvětí.",
+    "en": "Just below the summit the boulder always slips away and Sisyphus must start again. A Sisyphean task therefore means endless, futile effort; the other options are punishments of other sinners in the underworld."
+   }
+  },
+  {
+   "id": "T011-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak Héraklés za jediný den vyčistil Augiášovy chlévy?",
+    "en": "How did Heracles clean the Augean stables in a single day?"
+   },
+   "moznosti": {
+    "cs": [
+     "Celé chlévy vypálil ohněm",
+     "Odklonil do nich dvě řeky",
+     "Přinutil kentaury kydat hnůj",
+     "Nechal dobytek odvést pryč"
+    ],
+    "en": [
+     "He burned the stables down",
+     "He diverted two rivers through them",
+     "He made centaurs shovel the dung",
+     "He had the cattle driven away"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Prorazil zdi chlévů a vodu řek Alfeios a Péneios prohnal skrz, takže proud odnesl letitý hnůj. Augiášův chlév dodnes znamená obrovský nepořádek či zanedbaný stav.",
+    "en": "He broke through the stable walls and channelled the rivers Alpheus and Peneus through them so the current washed away years of dung. An Augean stable still means a huge mess or a neglected state of affairs."
+   }
+  },
+  {
+   "id": "T011-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Do koho se podle mýtu zamiloval krásný mladík Narkissos?",
+    "en": "According to the myth, whom did the beautiful youth Narcissus fall in love with?"
+   },
+   "moznosti": {
+    "cs": [
+     "Do bohyně Afrodíté",
+     "Do svého odrazu na hladině",
+     "Do nymfy Échó",
+     "Do mořské nymfy Thetis"
+    ],
+    "en": [
+     "The goddess Aphrodite",
+     "His own reflection in the water",
+     "The nymph Echo",
+     "The sea nymph Thetis"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Narkissos odmítal všechny ctitele včetně nymfy Échó a bohyně Nemesis ho za to potrestala láskou k vlastnímu odrazu, od kterého se nedokázal odtrhnout. Po něm se jmenuje květina narcis i pojem narcismus.",
+    "en": "Narcissus spurned all his admirers, including the nymph Echo, and the goddess Nemesis punished him by making him fall in love with his own reflection, unable to tear himself away. The narcissus flower and the term narcissism are named after him."
+   }
+  },
+  {
+   "id": "T011-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik bylo Múz podle Hésioda a nejrozšířenější tradice?",
+    "en": "How many Muses were there according to Hesiod and the most widespread tradition?"
+   },
+   "moznosti": {
+    "cs": [
+     "5",
+     "6",
+     "9",
+     "12"
+    ],
+    "en": [
+     "5",
+     "6",
+     "9",
+     "12"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Devět Múz, dcer Dia a bohyně paměti Mnémosyné, ochraňovalo poezii, hudbu, dějepis či astronomii. Od jejich svatyně mouseion pochází slovo muzeum a od jejich umění mousiké slovo hudba v mnoha jazycích (music, muzika).",
+    "en": "The nine Muses, daughters of Zeus and the memory goddess Mnemosyne, presided over poetry, music, history and astronomy. Their shrine, the mouseion, gave us the word museum, and their art, mousike, the word music."
+   }
+  },
+  {
+   "id": "T011-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kterou podmínku porušil Orfeus, když vyváděl svou ženu Eurydiku z podsvětí?",
+    "en": "Which condition did Orpheus break while leading his wife Eurydice out of the underworld?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zastavil se odpočinout",
+     "Ochutnal jídlo podsvětí",
+     "Ohlédl se za ní",
+     "Přestal hrát na lyru"
+    ],
+    "en": [
+     "He stopped to rest",
+     "He tasted the food of the underworld",
+     "He looked back at her",
+     "He stopped playing his lyre"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hádés a Persefona mu Eurydiku vydali pod podmínkou, že se neohlédne, dokud oba nevyjdou na světlo. Orfeus se těsně před koncem ohlédl a Eurydika navždy zmizela zpět do podsvětí.",
+    "en": "Hades and Persephone released Eurydice on condition that Orpheus not look back until both had reached the light. Just before the end he looked back and Eurydice vanished into the underworld forever."
+   }
+  },
+  {
+   "id": "T011-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaký trest musí podle mýtu snášet v podsvětí Tantalos, podle něhož mluvíme o Tantalových mukách?",
+    "en": "What punishment must Tantalus, whose name gives us the word tantalize, endure in the underworld according to the myth?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nabírá vodu sítem do děravé nádoby",
+     "Věčně valí kámen na vrchol hory",
+     "Je přikován ke skále v Kavkaze",
+     "Stojí ve vodě pod ovocem, které mu vždy uniká"
+    ],
+    "en": [
+     "He scoops water with a sieve into a leaking vessel",
+     "He forever rolls a stone up a mountain",
+     "He is chained to a rock in the Caucasus",
+     "He stands in water beneath fruit that always eludes him"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Když se chce napít, voda ustoupí, a když sáhne po ovoci, větve se vzdálí. Od jeho jména je odvozeno anglické tantalize i název kovu tantal, který prý stejně „nedokáže nasát“ kyselinu.",
+    "en": "When he tries to drink, the water recedes, and when he reaches for fruit, the branches move away. His name gives English the verb tantalize and also the metal tantalum, which was said to be equally unable to absorb acid."
+   }
+  },
+  {
+   "id": "T011-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jméno kterého Odysseova přítele, v jehož podobě radila Athéna Odysseovu synovi Télemachovi, se stalo označením pro zkušeného rádce?",
+    "en": "The name of which friend of Odysseus, whose form Athena took to advise Odysseus' son Telemachus, became a word for an experienced adviser?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mentór",
+     "Eurylochos",
+     "Eumaios",
+     "Elpénór"
+    ],
+    "en": [
+     "Mentor",
+     "Eurylochus",
+     "Eumaeus",
+     "Elpenor"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Odysseus svěřil Mentórovi péči o domácnost a Athéna na sebe brala jeho podobu, když vedla Télemacha. Slovo mentor ve smyslu rádce se rozšířilo hlavně díky francouzskému románu Fénelona z roku 1699.",
+    "en": "Odysseus left Mentor in charge of his household, and Athena took his form to guide Telemachus. The word mentor in the sense of adviser spread mainly thanks to Fénelon's French novel of 1699."
+   }
+  },
+  {
+   "id": "T011-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co podle mýtu dělal lupič Prokrústés s pocestnými, které uložil na své lože?",
+    "en": "According to the myth, what did the robber Procrustes do to travellers he laid on his bed?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přivázal je k němu a nechal je vyhladovět",
+     "Natahoval je nebo jim usekl údy podle jeho délky",
+     "Nechal je na něm usnout a v noci je okradl",
+     "Pustil je dál, jen když na něm vydrželi do rána"
+    ],
+    "en": [
+     "He tied them to it and let them starve",
+     "He stretched them or cut off their limbs to fit it",
+     "He let them fall asleep on it and robbed them",
+     "He let them go only if they lasted on it till dawn"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Prokrústés všechny přizpůsoboval délce lože, dokud ho stejným způsobem nezabil hrdina Théseus. Prokrustovo lože dnes označuje násilné vtěsnání do předem daného schématu.",
+    "en": "Procrustes forced everyone to fit the length of his bed until the hero Theseus killed him the same way. A Procrustean bed now means forcing something into a fixed, arbitrary pattern."
+   }
+  },
+  {
+   "id": "T011-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který mytický aténský král se vrhl do hlubiny, když uviděl, že se loď jeho syna Thésea vrací z Kréty s černými plachtami?",
+    "en": "Which mythical king of Athens leapt to his death on seeing his son Theseus's ship return from Crete with black sails?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kekrops",
+     "Aigeus",
+     "Erechtheus",
+     "Pandíón"
+    ],
+    "en": [
+     "Cecrops",
+     "Aegeus",
+     "Erechtheus",
+     "Pandion"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Théseus slíbil, že po vítězství nad Mínótaurem vyvěsí bílé plachty, ale zapomněl je vyměnit. Aigeus usoudil, že je syn mrtvý, a skočil do hlubiny; podle některých autorů přímo do moře, které se po něm jmenuje Egejské.",
+    "en": "Theseus had promised to hoist white sails if he defeated the Minotaur, but forgot to change them. Aegeus concluded his son was dead and leapt to his death; some authors say into the very sea that is named the Aegean after him."
+   }
+  },
+  {
+   "id": "T011-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co podstrčila Rheia Kronovi místo novorozeného Dia, aby ho zachránila před spolknutím?",
+    "en": "What did Rhea give Cronus in place of the newborn Zeus to save him from being swallowed?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sošku vyřezanou ze dřeva",
+     "Bochník chleba v pleně",
+     "Kámen zabalený v plenkách",
+     "Mládě kozy Amaltheie"
+    ],
+    "en": [
+     "A carved wooden statuette",
+     "A loaf of bread in a swaddling cloth",
+     "A stone wrapped in swaddling clothes",
+     "The kid of the goat Amalthea"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kronos polykal své děti ze strachu, že ho jedno z nich svrhne. Kámen spolkl, aniž by poznal podvod, a Zeus vyrůstal v ukrytu na Krétě, odkud se později vrátil a otce opravdu porazil.",
+    "en": "Cronus swallowed his children for fear that one of them would overthrow him. He swallowed the stone without noticing the trick, while Zeus grew up hidden on Crete and later returned to defeat his father."
+   }
+  },
+  {
+   "id": "T011-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Z čeho podle mýtu vyrobil malý Hermés hned v den svého narození první lyru?",
+    "en": "According to the myth, what did the infant Hermes use to make the first lyre on the very day he was born?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z kusu olivového kmene",
+     "Z mořské lastury",
+     "Z býčí lebky",
+     "Ze želvího krunýře"
+    ],
+    "en": [
+     "A piece of olive trunk",
+     "A seashell",
+     "A bull's skull",
+     "A tortoise shell"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Na želví krunýř natáhl struny a téhož dne ještě ukradl Apollónovi stádo krav. Spor urovnal tím, že Apollónovi lyru daroval výměnou za dobytek, a lyra se pak stala Apollónovým symbolem.",
+    "en": "He stretched strings across a tortoise shell, and on the same day stole a herd of Apollo's cattle. He settled the quarrel by giving Apollo the lyre in exchange for the cattle, and the lyre became Apollo's emblem."
+   }
+  },
+  {
+   "id": "T011-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo pomáhal Héraklovi v boji s Lernskou hydrou tím, že pahýly jejích useknutých hlav vypaloval ohněm?",
+    "en": "Who helped Heracles fight the Lernaean Hydra by searing the stumps of its severed heads with fire?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jeho synovec Iolaos",
+     "Jeho bratr Ífiklés",
+     "Kentaur Cheirón",
+     "Jeho přítel Théseus"
+    ],
+    "en": [
+     "His nephew Iolaus",
+     "His brother Iphicles",
+     "The centaur Chiron",
+     "His friend Theseus"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Z každého useknutého krku hydře narostly nové hlavy, dokud Iolaos rány nevypaloval. Eurystheus proto tento úkol neuznal, protože Héraklés nebyl sám.",
+    "en": "New heads sprang from every severed neck until Iolaus cauterised the wounds. Eurystheus therefore refused to count this labour, because Heracles had not done it alone."
+   }
+  },
+  {
+   "id": "T011-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co musel podle řeckého mýtu titán Atlás za trest navěky držet na ramenou?",
+    "en": "According to Greek myth, what did the Titan Atlas have to hold on his shoulders forever as punishment?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sluneční vůz",
+     "Zeměkouli",
+     "Horu Olymp",
+     "Nebeskou klenbu"
+    ],
+    "en": [
+     "The chariot of the Sun",
+     "The Earth",
+     "Mount Olympus",
+     "The sky"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Zeus ho po válce s titány odsoudil držet na západním okraji světa nebe. Představa, že nese Zemi, je omyl, k němuž přispěla i antická socha Farnéský Atlás: koule na jeho ramenou je ve skutečnosti nebeský glóbus se souhvězdími.",
+    "en": "After the war with the Titans, Zeus condemned him to hold up the sky at the western edge of the world. The idea that he carries the Earth is a misconception, helped by the ancient Farnese Atlas statue: the globe on his shoulders is actually a celestial globe showing constellations."
+   }
+  },
+  {
+   "id": "T011-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se Odysseus představil kyklopovi Polyfémovi, než ho oslepil?",
+    "en": "What name did Odysseus give the Cyclops Polyphemus before blinding him?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nikdo",
+     "Ithačan",
+     "Syn moře",
+     "Poutník"
+    ],
+    "en": [
+     "Nobody",
+     "Ithacan",
+     "Son of the Sea",
+     "Wanderer"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Odysseus si říkal řecky Outis, tedy Nikdo. Když oslepený Polyfémos křičel, že mu ubližuje „Nikdo“, ostatní kyklopové usoudili, že jde o nemoc seslanou bohy, poradili mu modlit se a na pomoc nepřišli.",
+    "en": "Odysseus called himself Outis, meaning Nobody. When the blinded Polyphemus shouted that \"Nobody\" was hurting him, the other Cyclopes concluded his trouble came from the gods, told him to pray and did not come to help."
+   }
+  },
+  {
+   "id": "T011-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se jmenovala smrtelná matka Héraklea?",
+    "en": "What was the name of Heracles' mortal mother?"
+   },
+   "moznosti": {
+    "cs": [
+     "Danaé",
+     "Sémelé",
+     "Alkméné",
+     "Léda"
+    ],
+    "en": [
+     "Danaë",
+     "Semele",
+     "Alcmene",
+     "Leda"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Zeus ji navštívil v podobě jejího manžela Amfitryóna. Ostatní jména patří dalším Diovým milenkám, matkám Persea, Dionýsa a Heleny.",
+    "en": "Zeus visited her disguised as her husband Amphitryon. The other names belong to other lovers of Zeus, the mothers of Perseus, Dionysus and Helen."
+   }
+  }
+ ]
+}

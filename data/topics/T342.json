@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T342",
+ "nazev": {
+  "cs": "Osvícenství: Voltaire, Rousseau a encyklopedisté",
+  "en": "The Enlightenment: Voltaire, Rousseau and the Encyclopédistes"
+ },
+ "kategorie": {
+  "id": "historie",
+  "nazev": {
+   "cs": "Historie",
+   "en": "History"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T342-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém století osvícenství vrcholilo?",
+    "en": "In which century did the Enlightenment reach its peak?"
+   },
+   "moznosti": {
+    "cs": [
+     "V 17. století",
+     "V 18. století",
+     "V 19. století",
+     "V 20. století"
+    ],
+    "en": [
+     "The 17th century",
+     "The 18th century",
+     "The 19th century",
+     "The 20th century"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Historici osvícenství tradičně ohraničují lety 1715 (smrt Ludvíka XIV.) a 1789 (začátek Francouzské revoluce). Kořeny má ale už v 17. století, třeba v Newtonových Principiích z roku 1687.",
+    "en": "Historians traditionally bracket the Enlightenment between 1715 (the death of Louis XIV) and 1789 (the outbreak of the French Revolution). Its roots reach back into the 17th century, for example to Newton's Principia of 1687."
+   }
+  },
+  {
+   "id": "T342-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Francouzi říkají osvícenství „Siècle des Lumières“. Co ten název doslova znamená?",
+    "en": "The French call the Enlightenment the \"Siècle des Lumières\". What does the name literally mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Věk rozumu",
+     "Století světel",
+     "Doba svobody",
+     "Století pokroku"
+    ],
+    "en": [
+     "The Age of Reason",
+     "The Century of Lights",
+     "The Era of Freedom",
+     "The Century of Progress"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Lumières znamená „světla“: filozofové 18. století chtěli rozumem rozehnat temnotu nevědomosti. Podobnou metaforu nese i české „osvícenství“, anglické Enlightenment a německé Aufklärung.",
+    "en": "Lumières means \"lights\": 18th-century philosophers wanted reason to dispel the darkness of ignorance. A similar metaphor lies behind the English Enlightenment and the German Aufklärung."
+   }
+  },
+  {
+   "id": "T342-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo napsal satirický román Candide (1759)?",
+    "en": "Who wrote the satirical novel Candide (1759)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Voltaire",
+     "Denis Diderot",
+     "Montesquieu",
+     "Jean-Jacques Rousseau"
+    ],
+    "en": [
+     "Voltaire",
+     "Denis Diderot",
+     "Montesquieu",
+     "Jean-Jacques Rousseau"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Voltaire vydal Candida počátkem roku 1759 naráz v pěti zemích a vydával ho za překlad z němčiny od jistého „doktora Ralpha“. Kniha byla brzy v mnoha zemích zakázána pro rouhání a pobuřování.",
+    "en": "Voltaire published Candide in early 1759 in five countries at once, presenting it as a translation from the German of a certain \"Dr. Ralph\". The book was soon widely banned for blasphemy and sedition."
+   }
+  },
+  {
+   "id": "T342-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterou myšlenkou se do dějin politického myšlení zapsal Montesquieu?",
+    "en": "Which idea earned Montesquieu his place in the history of political thought?"
+   },
+   "moznosti": {
+    "cs": [
+     "Neviditelnou rukou trhu",
+     "Teorií o nejlepším ze všech možných světů",
+     "Kategorickým imperativem",
+     "Dělbou moci na zákonodárnou, výkonnou a soudní"
+    ],
+    "en": [
+     "The invisible hand of the market",
+     "The theory of the best of all possible worlds",
+     "The categorical imperative",
+     "The separation of powers into legislative, executive and judicial"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "V díle O duchu zákonů (1748) Montesquieu rozdělil státní moc na tři složky, které se mají navzájem hlídat. Vzorem mu byla anglická ústava, které věnoval celou kapitolu.",
+    "en": "In The Spirit of the Laws (1748) Montesquieu divided state power into three branches that keep each other in check. His model was the English constitution, to which he devoted a whole chapter."
+   }
+  },
+  {
+   "id": "T342-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaké monumentální dílo vydávali od roku 1751 Denis Diderot a Jean d'Alembert?",
+    "en": "What monumental work did Denis Diderot and Jean d'Alembert publish from 1751 onwards?"
+   },
+   "moznosti": {
+    "cs": [
+     "Francouzský občanský zákoník",
+     "Encyklopedii",
+     "Slovník Francouzské akademie",
+     "Kroniku francouzských králů"
+    ],
+    "en": [
+     "The French Civil Code",
+     "The Encyclopédie",
+     "The Dictionary of the French Academy",
+     "The Chronicle of the Kings of France"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Encyklopedie vycházela v letech 1751–1772 a první vydání mělo 17 svazků textu a 11 svazků rytin. Když jí úřady roku 1759 odňaly výsadu, práce pokračovaly potají.",
+    "en": "The Encyclopédie appeared between 1751 and 1772; the first edition had 17 volumes of text and 11 volumes of engravings. When the authorities revoked its privilege in 1759, work continued in secret."
+   }
+  },
+  {
+   "id": "T342-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které město zničilo 1. listopadu 1755 zemětřesení, jež Voltaira přimělo napsat báseň zpochybňující optimistickou víru, že vše je k nejlepšímu?",
+    "en": "Which city was destroyed by the earthquake of 1 November 1755 that prompted Voltaire to write a poem challenging the optimistic belief that all is for the best?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lisabon",
+     "Madrid",
+     "Marseille",
+     "Neapol"
+    ],
+    "en": [
+     "Lisbon",
+     "Madrid",
+     "Marseille",
+     "Naples"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Zemětřesení, tsunami a požáry zpustošily Lisabon a otřásly evropskými vzdělanci. Kromě Voltairovy básně vyvolalo i vědecké úvahy: Kant roku 1756 vydal tři spisy, v nichž hledal přirozené, ne nadpřirozené příčiny zemětřesení.",
+    "en": "The earthquake, tsunami and fires devastated Lisbon and shook Europe's intellectuals. Besides Voltaire's poem it also prompted scientific thinking: in 1756 Kant published three texts seeking natural rather than supernatural causes of earthquakes."
+   }
+  },
+  {
+   "id": "T342-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který panovník si s Voltairem léta dopisoval a od roku 1750 ho hostil na svém dvoře v Postupimi jako komořího?",
+    "en": "Which monarch corresponded with Voltaire for years and from 1750 hosted him at his court in Potsdam as chamberlain?"
+   },
+   "moznosti": {
+    "cs": [
+     "Josef II.",
+     "Kateřina II. Veliká",
+     "Marie Terezie",
+     "Fridrich II. Veliký"
+    ],
+    "en": [
+     "Joseph II",
+     "Catherine II the Great",
+     "Maria Theresa",
+     "Frederick II the Great"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pruský král Fridrich II. Voltaira pozval do Postupimi, dal mu titul komořího i plat. Přátelství se ale pokazilo a při odjezdu dali Voltaira královi agenti na více než tři týdny zadržet ve Frankfurtu.",
+    "en": "King Frederick II of Prussia invited Voltaire to Potsdam and gave him a chamberlain's title and a salary. The friendship soured, and as Voltaire left, the king's agents detained him in Frankfurt for more than three weeks."
+   }
+  },
+  {
+   "id": "T342-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kant učinil heslem osvícenství Horatiovo zvolání „Sapere aude!“. Co znamená?",
+    "en": "Kant made Horace's exclamation \"Sapere aude!\" the motto of the Enlightenment. What does it mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Odvaž se vědět!",
+     "Pamatuj na smrt!",
+     "Užívej dne!",
+     "Spěchej pomalu!"
+    ],
+    "en": [
+     "Dare to know!",
+     "Remember death!",
+     "Seize the day!",
+     "Make haste slowly!"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kant ve stati Odpověď na otázku: Co je osvícenství? (Beantwortung der Frage: Was ist Aufklärung?, 1784) heslo doplnil výzvou „Měj odvahu použít svůj vlastní rozum!“ a označil ho za heslo osvícenství. Samotná slova pocházejí z Horatiových Listů z roku 20 př. n. l.",
+    "en": "In his essay Answering the Question: What Is Enlightenment? (1784) Kant glossed it as \"Have courage to use your own understanding!\" and called it the motto of the Enlightenment. The words themselves come from Horace's Epistles of 20 BC."
+   }
+  },
+  {
+   "id": "T342-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Básník Alexander Pope napsal epitaf: „Příroda a její zákony v noci skryty byly; Bůh řekl: Budiž …! – a vzešlo světlo.“ Koho jméno v něm chybí?",
+    "en": "The poet Alexander Pope wrote an epitaph: \"Nature and Nature's laws lay hid in night; God said, Let … be! and all was light.\" Whose name is missing?"
+   },
+   "moznosti": {
+    "cs": [
+     "Reného Descarta",
+     "Johannese Keplera",
+     "Isaaca Newtona",
+     "Galilea Galileiho"
+    ],
+    "en": [
+     "René Descartes",
+     "Johannes Kepler",
+     "Isaac Newton",
+     "Galileo Galilei"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pope ve verších oslavil Newtona jako toho, kdo vnesl světlo do zákonů přírody, a vystihl tak, jak ho osvícenci uctívali. Básník J. C. Squire později dopsal parodii, v níž ďábel zvolá „Budiž Einstein!“ a vrátí starý stav.",
+    "en": "Pope's lines hail Newton as the man who brought light to the laws of nature, capturing how the Enlightenment revered him. The poet J. C. Squire later added a parody in which the Devil cries \"Let Einstein be!\" and restores the old order."
+   }
+  },
+  {
+   "id": "T342-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se říkalo pravidelným setkáním v domech pařížských dam, kde se debatovalo o filozofii, vědě a literatuře?",
+    "en": "What were the regular gatherings in the homes of Parisian ladies, where philosophy, science and literature were debated, called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lóže",
+     "Akademie",
+     "Salony",
+     "Kluby"
+    ],
+    "en": [
+     "Lodges",
+     "Academies",
+     "Salons",
+     "Clubs"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hostitelky jako Madame Geoffrin nebo Julie de Lespinasse vybíraly hosty, určovaly témata a řídily debatu. V jejich salonech se scházeli i autoři Encyklopedie.",
+    "en": "Hostesses such as Madame Geoffrin and Julie de Lespinasse chose the guests, set the topics and steered the debate. Their salons also brought together the authors of the Encyclopédie."
+   }
+  },
+  {
+   "id": "T342-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Doktor Pangloss v románu Candide neúnavně opakuje, že žijeme v nejlepším ze všech možných světů. Kterého filozofa tím autor paroduje?",
+    "en": "In the novel Candide, Doctor Pangloss tirelessly repeats that we live in the best of all possible worlds. Which philosopher is the author parodying?"
+   },
+   "moznosti": {
+    "cs": [
+     "Thomase Hobbese",
+     "Barucha Spinozu",
+     "Gottfrieda W. Leibnize",
+     "Blaise Pascala"
+    ],
+    "en": [
+     "Thomas Hobbes",
+     "Baruch Spinoza",
+     "Gottfried W. Leibniz",
+     "Blaise Pascal"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Podtitul knihy zní „aneb Optimismus“ a míří na Leibnizovu nauku, že vše je k nejlepšímu. Pangloss ji neochvějně hájí i uprostřed válek, ztroskotání a dalších pohrom.",
+    "en": "The book's subtitle is \"or Optimism\" and it targets Leibniz's doctrine that all is for the best. Pangloss defends it unwaveringly amid wars, shipwreck and other disasters."
+   }
+  },
+  {
+   "id": "T342-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kterou větou Candide na konci stejnojmenného románu odpoví na všechny filozofické spekulace?",
+    "en": "With which sentence does Candide answer all philosophical speculation at the end of the novel named after him?"
+   },
+   "moznosti": {
+    "cs": [
+     "„Člověk je mírou všech věcí.“",
+     "„Rozum nakonec zvítězí nad pověrou.“",
+     "„Svoboda je nade vše.“",
+     "„Musíme pěstovat svou zahradu.“"
+    ],
+    "en": [
+     "\"Man is the measure of all things.\"",
+     "\"Reason will triumph over superstition in the end.\"",
+     "\"Freedom above all.\"",
+     "\"We must cultivate our garden.\""
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Závěrečné „Il faut cultiver notre jardin“ staví místo planého filozofování skromnou praktickou práci. Kniha přesto skončila roku 1762 na církevním Indexu zakázaných knih.",
+    "en": "The closing \"Il faut cultiver notre jardin\" sets modest practical work against idle philosophising. The book nevertheless ended up on the Church's Index of Forbidden Books in 1762."
+   }
+  },
+  {
+   "id": "T342-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Montesquieu v satiře Perské listy (1721) kritizoval francouzskou společnost. Jakého literárního triku k tomu použil?",
+    "en": "In the satire Persian Letters (1721), Montesquieu criticised French society. What literary device did he use?"
+   },
+   "moznosti": {
+    "cs": [
+     "Děj přenesl do Persie a francouzské poměry zastřel alegorií",
+     "Vypravěčem je francouzský kupec, který žije v Persii",
+     "Francii líčí v dopisech přátelům dva perští návštěvníci Paříže",
+     "Kniha se vydávala za překlad staré perské kroniky"
+    ],
+    "en": [
+     "He moved the story to Persia and veiled French conditions in allegory",
+     "The narrator is a French merchant living in Persia",
+     "Two Persian visitors to Paris describe France in letters to friends",
+     "The book posed as a translation of an old Persian chronicle"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pohled cizinců umožnil nahlédnout na francouzské poměry s odstupem, aniž by autor mluvil sám za sebe. Montesquieu později proslul hlavně spisem O duchu zákonů (1748).",
+    "en": "The foreigners' view let him look at French society from a distance without speaking in his own voice. Montesquieu later became best known for The Spirit of the Laws (1748)."
+   }
+  },
+  {
+   "id": "T342-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve které pařížské kavárně, založené roku 1686, se scházeli encyklopedisté a kam chodil na kávu i Voltaire?",
+    "en": "Which Parisian café, founded in 1686, was a meeting place of the Encyclopédistes and where Voltaire also drank his coffee?"
+   },
+   "moznosti": {
+    "cs": [
+     "Les Deux Magots",
+     "Café de la Paix",
+     "Café de Flore",
+     "Le Procope"
+    ],
+    "en": [
+     "Les Deux Magots",
+     "Café de la Paix",
+     "Café de Flore",
+     "Le Procope"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kavárnu založil Sicilan Procopio Cutò a podle tradice se v ní zrodila i myšlenka Encyklopedie. Chodili sem také Benjamin Franklin a Thomas Jefferson.",
+    "en": "The café was founded by the Sicilian Procopio Cutò, and tradition holds that the idea of the Encyclopédie was born there. Benjamin Franklin and Thomas Jefferson were also among its guests."
+   }
+  },
+  {
+   "id": "T342-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak podle Fridricha II. Velikého, představitele osvíceného absolutismu, měl panovník chápat svou roli?",
+    "en": "According to Frederick II the Great, a leading representative of enlightened absolutism, how should a ruler understand his role?"
+   },
+   "moznosti": {
+    "cs": [
+     "„Stát jsem já“",
+     "Jako první služebník státu",
+     "Jako první mezi rovnými",
+     "Jako Bohem vyvolený otec národa"
+    ],
+    "en": [
+     "\"I am the state\"",
+     "As the first servant of the state",
+     "As first among equals",
+     "As the God-chosen father of the nation"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Fridrich ve svých spisech, mimo jiné v Politické závěti, psal, že panovník je prvním služebníkem státu. Zmodernizoval úřady a soudnictví a v Prusku zrušil většinu případů soudního mučení.",
+    "en": "In his writings, including his Political Testament, Frederick stated that the sovereign is the first servant of the state. He modernised the bureaucracy and the judiciary and abolished most uses of judicial torture in Prussia."
+   }
+  },
+  {
+   "id": "T342-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Korunní princ Fridrich, pozdější pruský král, napsal roku 1739 spis o tom, jak má vládnout dobrý panovník. Proti kterému dílu byl namířen?",
+    "en": "Crown Prince Frederick, the future King of Prussia, wrote a treatise in 1739 on how a good ruler should govern. Which work was it directed against?"
+   },
+   "moznosti": {
+    "cs": [
+     "Proti Machiavelliho Vladaři",
+     "Proti Hobbesovu Leviathanovi",
+     "Proti Bodinovu spisu o republice (Les Six livres de la République)",
+     "Proti Moreově Utopii"
+    ],
+    "en": [
+     "Machiavelli's The Prince",
+     "Hobbes's Leviathan",
+     "Bodin's Six Books of the Commonwealth",
+     "More's Utopia"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Spis Anti-Machiavel vyšel anonymně roku 1740 jako idealistické vyvrácení Machiavelliho rad panovníkům a dočkal se velkého ohlasu. Mladý Fridrich tehdy dával přednost hudbě, literatuře a francouzské kultuře.",
+    "en": "Anti-Machiavel appeared anonymously in 1740 as an idealistic rebuttal of Machiavelli's advice to rulers and became very popular. In those years the young Frederick preferred music, literature and French culture."
+   }
+  },
+  {
+   "id": "T342-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co zrušil Josef II. patentem z roku 1781, který poddaným dovolil svobodně uzavírat sňatky, volit si povolání a stěhovat se?",
+    "en": "What did Joseph II abolish with his patent of 1781, which allowed peasants to marry freely, choose an occupation and move between estates?"
+   },
+   "moznosti": {
+    "cs": [
+     "Robotu",
+     "Církevní desátky",
+     "Cechy",
+     "Nevolnictví"
+    ],
+    "en": [
+     "Corvée labour",
+     "Church tithes",
+     "Guilds",
+     "Serfdom"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Patent o zrušení nevolnictví z 1. listopadu 1781 dal poddaným osobní svobodu. Robotu a peněžní dávky vrchnosti však nezrušil, takže poddaní dál pracovali na panských polích.",
+    "en": "The Serfdom Patent of 1 November 1781 gave peasants personal freedom. It did not, however, abolish the corvée or the financial dues owed to landlords, so peasants still had to work their lords' fields."
+   }
+  },
+  {
+   "id": "T342-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proti čemu především brojil italský právník Cesare Beccaria ve slavném spisu O zločinech a trestech (1764)?",
+    "en": "What did the Italian jurist Cesare Beccaria chiefly argue against in his famous treatise On Crimes and Punishments (1764)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Proti otroctví v koloniích",
+     "Proti mučení a trestu smrti",
+     "Proti cenzuře tisku",
+     "Proti moci papeže"
+    ],
+    "en": [
+     "Slavery in the colonies",
+     "Torture and the death penalty",
+     "Press censorship",
+     "The power of the Pope"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Útlý spis vyšel ze strachu před úřady anonymně a rychle se dočkal překladů do francouzštiny a angličtiny. Citovali ho i Thomas Jefferson a John Adams.",
+    "en": "The slim treatise was first published anonymously for fear of the authorities and was quickly translated into French and English. Thomas Jefferson and John Adams quoted it."
+   }
+  },
+  {
+   "id": "T342-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Voltaire a Rousseau se za života nesnášeli. Kde dnes oba leží nedaleko sebe?",
+    "en": "Voltaire and Rousseau loathed each other in life. Where do they both lie today, not far from each other?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na hřbitově Père-Lachaise",
+     "V pařížském Panthéonu",
+     "V bazilice Saint-Denis",
+     "V pařížské Invalidovně"
+    ],
+    "en": [
+     "In Père Lachaise Cemetery",
+     "In the Panthéon in Paris",
+     "In the Basilica of Saint-Denis",
+     "In Les Invalides in Paris"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Revoluce do Panthéonu přenesla Voltaira v červenci 1791 a Rousseaua v říjnu 1794, kdy jeho ostatky uložili poblíž Voltairových. Oba tak skončili jako hrdinové revoluce, kterou se nedožili.",
+    "en": "The Revolution moved Voltaire to the Panthéon in July 1791 and Rousseau in October 1794, placing his remains near Voltaire's. Both thus ended up as heroes of a revolution neither lived to see."
+   }
+  },
+  {
+   "id": "T342-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Podle Johna Locka má každý člověk z přirozeného práva nárok na život, svobodu a … co dalšího?",
+    "en": "According to John Locke, every person has a natural right to life, liberty and … what else?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hledání štěstí",
+     "Vzdělání",
+     "Majetek",
+     "Rovnost"
+    ],
+    "en": [
+     "The pursuit of happiness",
+     "Education",
+     "Property",
+     "Equality"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Locke ve Dvou pojednáních o vládě (Two Treatises of Government, vyšla anonymně v prosinci 1689) psal o právu na „life, liberty, and estate“. Jeho myšlenky se ozývají i ve formulacích americké Deklarace nezávislosti.",
+    "en": "In his Two Treatises of Government (published anonymously in December 1689), Locke wrote of the right to \"life, liberty, and estate\". His ideas are echoed in phrases of the American Declaration of Independence."
+   }
+  },
+  {
+   "id": "T342-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Voltaire prožil posledních asi 20 let života ve Ferney na francouzské straně hranice se Švýcarskem a vesnici zvelebil. Co se tam díky němu začalo vyrábět?",
+    "en": "Voltaire spent roughly the last 20 years of his life at Ferney, on the French side of the Swiss border, and improved the village. What began to be made there thanks to him?"
+   },
+   "moznosti": {
+    "cs": [
+     "Papír",
+     "Sklo",
+     "Hodinky",
+     "Krajky"
+    ],
+    "en": [
+     "Paper",
+     "Glass",
+     "Watches",
+     "Lace"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Voltaire ve Ferney založil hodinářské a hrnčířské dílny, postavil kostel i divadlo. Z kalvínské Ženevy odešel mimo jiné proto, že tam bylo divadlo zakázané; obec dnes nese jméno Ferney-Voltaire.",
+    "en": "At Ferney Voltaire founded watchmaking and pottery workshops and built a church and a theatre. One reason he left Calvinist Geneva was that theatre was forbidden there; the town is now called Ferney-Voltaire."
+   }
+  },
+  {
+   "id": "T342-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Případ Jeana Calase z Toulouse přiměl Voltaira k tažení, z něhož vzešlo Pojednání o snášenlivosti (Traité sur la tolérance, 1763). Kdo byl Calas?",
+    "en": "The case of Jean Calas of Toulouse drove Voltaire to a campaign that produced the Treatise on Tolerance (1763). Who was Calas?"
+   },
+   "moznosti": {
+    "cs": [
+     "Protestantský kupec popravený za údajnou vraždu vlastního syna",
+     "Židovský lékař vyhnaný z Francie",
+     "Katolický kněz upálený za kacířství",
+     "Tiskař uvězněný za vydávání Encyklopedie"
+    ],
+    "en": [
+     "A Protestant merchant executed for allegedly murdering his own son",
+     "A Jewish physician expelled from France",
+     "A Catholic priest burned for heresy",
+     "A printer imprisoned for publishing the Encyclopédie"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Calase obvinili, že zabil syna, protože ten chtěl přestoupit ke katolictví, a 10. března 1762 zemřel lámáním kolem. Díky Voltairově kampani byl později posmrtně očištěn.",
+    "en": "Calas was accused of killing his son because the son wanted to convert to Catholicism, and on 10 March 1762 he died on the wheel. Thanks to Voltaire's campaign he was later posthumously exonerated."
+   }
+  },
+  {
+   "id": "T342-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Markýza Émilie du Châtelet, matematička a dlouholetá Voltairova družka, vytvořila překlad, který zůstal standardem ve francouzštině až do 21. století. Co přeložila?",
+    "en": "The Marquise Émilie du Châtelet, a mathematician and Voltaire's long-time companion, produced a translation that remained the standard French version into the 21st century. What did she translate?"
+   },
+   "moznosti": {
+    "cs": [
+     "Newtonovy Principia",
+     "Lockovu Esej o lidském rozumu (An Essay Concerning Human Understanding)",
+     "Galileiho Dialog o dvou systémech světa",
+     "Hobbesova Leviathana"
+    ],
+    "en": [
+     "Newton's Principia",
+     "Locke's Essay Concerning Human Understanding",
+     "Galileo's Dialogue Concerning the Two Chief World Systems",
+     "Hobbes's Leviathan"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Du Châtelet přeložila latinské Principia do francouzštiny a s Voltairem žila asi 16 let, hlavně na zámku Cirey. Pomohla tak Francouzům přiblížit Newtonovu fyziku.",
+    "en": "Du Châtelet translated the Latin Principia into French and lived with Voltaire for about 16 years, mostly at the château of Cirey. She thus helped bring Newton's physics to French readers."
+   }
+  },
+  {
+   "id": "T342-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Rousseau se proslavil roku 1750 esejí na otázku dijonské akademie, zda obnova věd a umění přispěla k očistě mravů. Jak odpověděl?",
+    "en": "In 1750 Rousseau won fame with an essay answering the Dijon Academy's question of whether the revival of the arts and sciences had helped purify morals. What was his answer?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na mravy nemají vůbec žádný vliv",
+     "Ano, protože šíří rozum mezi lidi",
+     "Ne, vědy a umění mravy kazí",
+     "Ano, ale jen u vzdělané šlechty"
+    ],
+    "en": [
+     "They have no influence on morals at all",
+     "Yes, because they spread reason among people",
+     "No, the arts and sciences corrupt morals",
+     "Yes, but only among the educated nobility"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "K tomuto názoru prý Rousseau dospěl v náhlém osvícení cestou do Vincennes, kde navštěvoval uvězněného Diderota. Esej získala první cenu a udělala z něj slavného muže.",
+    "en": "Rousseau reportedly reached this view in a sudden revelation on the way to Vincennes, where he was visiting the imprisoned Diderot. The essay won first prize and made him famous."
+   }
+  },
+  {
+   "id": "T342-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V debatě o ničivém zemětřesení z roku 1755 Rousseau tvrdil, že za rozsah katastrofy nemůže jen příroda. Co podle něj zkázu zhoršilo?",
+    "en": "In the debate about the devastating earthquake of 1755, Rousseau argued that nature alone was not to blame for the scale of the disaster. What did he think made the destruction worse?"
+   },
+   "moznosti": {
+    "cs": [
+     "Příliš mnoho lidí natěsnaných v městské zástavbě",
+     "Nedbalost královské vlády",
+     "Boží trest za hříchy obyvatel",
+     "Špatné stavby od cizích stavitelů"
+    ],
+    "en": [
+     "Too many people crowded together in the city",
+     "Negligence of the royal government",
+     "God's punishment for the inhabitants' sins",
+     "Poor buildings by foreign builders"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Rousseau tuto katastrofu použil jako argument proti velkoměstům a za prostší, přirozenější život.",
+    "en": "Rousseau used the disaster as an argument against cities and for a simpler, more natural life."
+   }
+  },
+  {
+   "id": "T342-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak původně vznikla velká francouzská Encyklopedie osvícenců?",
+    "en": "How did the great French Encyclopédie of the Enlightenment originally come about?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jako dvorní projekt objednaný Ludvíkem XV.",
+     "Jako pokračování Slovníku Francouzské akademie",
+     "Jako rozšíření Bayleova Historického a kritického slovníku",
+     "Jako překlad anglické Chambersovy Cyclopaedie"
+    ],
+    "en": [
+     "As a court project ordered by Louis XV",
+     "As a continuation of the Dictionary of the French Academy",
+     "As an expansion of Bayle's Historical and Critical Dictionary",
+     "As a translation of Chambers's English Cyclopaedia"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pařížský nakladatel André Le Breton chtěl nejprve jen přeložit Chambersovu Cyclopaedii z roku 1728, z projektu však vyrostlo samostatné dílo. Le Breton později za zády hlavního redaktora sám škrtal některé texty ze strachu před úřady.",
+    "en": "The Parisian publisher André Le Breton first wanted only to translate Chambers's Cyclopaedia of 1728, but the project grew into an independent work. Le Breton later secretly censored some of the chief editor's texts himself for fear of the authorities."
+   }
+  },
+  {
+   "id": "T342-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kateřina Veliká sepsala roku 1767 Nakaz (Instrukci) pro komisi, která měla vytvořit nový zákoník. Z děl kterých dvou autorů v něm hojně doslova opisovala?",
+    "en": "In 1767 Catherine the Great wrote the Nakaz (Instruction) for a commission that was to draft a new law code. From the works of which two authors did she copy extensively word for word?"
+   },
+   "moznosti": {
+    "cs": [
+     "Smitha a Huma",
+     "Montesquieua a Beccarii",
+     "Rousseaua a Voltaira",
+     "Locka a Hobbese"
+    ],
+    "en": [
+     "Smith and Hume",
+     "Montesquieu and Beccaria",
+     "Rousseau and Voltaire",
+     "Locke and Hobbes"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Přes 400 z 655 článků je doslova převzato od Montesquieua, Beccarii a dalších myslitelů. Ve Francii dal Nakaz roku 1769 vévoda de Choiseul zakázat jako svobodomyslnou knihu a komise nový zákoník nikdy nevytvořila.",
+    "en": "More than 400 of its 655 articles are copied verbatim from Montesquieu, Beccaria and other thinkers. In France the Duc de Choiseul had the Nakaz banned in 1769 as a libertarian book, and the commission never produced the new code."
+   }
+  },
+  {
+   "id": "T342-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který stát je považován za první v moderních dějinách, který zrušil trest smrti (30. listopadu 1786)?",
+    "en": "Which state is considered the first in modern history to abolish the death penalty (30 November 1786)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Benátská republika",
+     "Švédské království",
+     "Toskánské velkovévodství",
+     "Pruské království"
+    ],
+    "en": [
+     "The Republic of Venice",
+     "The Kingdom of Sweden",
+     "The Grand Duchy of Tuscany",
+     "The Kingdom of Prussia"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Velkovévoda Petr Leopold, pozdější císař Leopold II., zakázal trest smrti i mučení a dal zničit popravčí nástroje. Po jeho odchodu do Vídně byl trest smrti roku 1790 znovu zaveden, Toskánsko si ale výročí od roku 2000 připomíná jako regionální svátek.",
+    "en": "Grand Duke Peter Leopold, later Emperor Leopold II, banned the death penalty and torture and ordered the instruments of execution destroyed. The death penalty was reintroduced in 1790 after he left for Vienna, but since 2000 Tuscany has marked the anniversary as a regional holiday."
+   }
+  },
+  {
+   "id": "T342-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Než Adam Smith roku 1776 vydal Bohatství národů, proslavil se jinou knihou z oblasti morální filozofie (1759). Kterou?",
+    "en": "Before Adam Smith published The Wealth of Nations in 1776, he made his name with another book of moral philosophy (1759). Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Esejí o lidském rozumu (An Essay Concerning Human Understanding)",
+     "Bajkou o včelách",
+     "Pojednáním o lidské přirozenosti",
+     "Teorií mravních citů"
+    ],
+    "en": [
+     "An Essay Concerning Human Understanding",
+     "The Fable of the Bees",
+     "A Treatise of Human Nature",
+     "The Theory of Moral Sentiments"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "V Teorii mravních citů Smith odvozuje morálku ze vzájemného soucítění (sympatie) mezi lidmi. Napsal ji jako profesor morální filozofie v Glasgow a jeho blízkým přítelem byl David Hume.",
+    "en": "In The Theory of Moral Sentiments Smith grounds morality in mutual sympathy between people. He wrote it as professor of moral philosophy at Glasgow, and David Hume was his close friend."
+   }
+  },
+  {
+   "id": "T342-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Koho nazval James Madison, jeden z tvůrců americké ústavy, „orákulem, které je vždy konzultováno a citováno“?",
+    "en": "Whom did James Madison, one of the framers of the US Constitution, call \"the oracle who is always consulted and cited\"?"
+   },
+   "moznosti": {
+    "cs": [
+     "Montesquieua",
+     "Rousseaua",
+     "Voltaira",
+     "Diderota"
+    ],
+    "en": [
+     "Montesquieu",
+     "Rousseau",
+     "Voltaire",
+     "Diderot"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Američtí zakladatelé Montesquieuův spis O duchu zákonů pečlivě studovali a čerpali z něj při tvorbě ústavy. Toto dílo přitom církev roku 1751 odsoudila.",
+    "en": "The American founders studied Montesquieu's The Spirit of the Laws closely and drew on it when drafting the Constitution. Yet the Church had condemned the work in 1751."
+   }
+  }
+ ]
+}

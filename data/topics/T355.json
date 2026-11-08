@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T355",
+ "nazev": {
+  "cs": "Atomy a částice: od Rutherforda po CERN",
+  "en": "Atoms and Particles: from Rutherford to CERN"
+ },
+ "kategorie": {
+  "id": "veda-a-technika",
+  "nazev": {
+   "cs": "Věda a technika",
+   "en": "Science & Technology"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T355-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Slovo atom pochází ze starořeckého „atomos“. Co znamená?",
+    "en": "The word atom comes from the ancient Greek „atomos“. What does it mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nehmotný",
+     "Neviditelný",
+     "Nesmrtelný",
+     "Nedělitelný"
+    ],
+    "en": [
+     "Immaterial",
+     "Invisible",
+     "Immortal",
+     "Indivisible"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Atomos doslova znamená „nerozřezatelný“, tedy nedělitelný. Ironií je, že dnes víme, že atom dělitelný je – skládá se z ještě menších částic.",
+    "en": "Atomos literally means „uncuttable“, i.e. indivisible. Ironically, we now know the atom can be divided – it is made of even smaller particles."
+   }
+  },
+  {
+   "id": "T355-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterou částici objevil roku 1897 britský fyzik J. J. Thomson?",
+    "en": "Which particle did the British physicist J. J. Thomson discover in 1897?"
+   },
+   "moznosti": {
+    "cs": [
+     "Neutron",
+     "Foton",
+     "Elektron",
+     "Proton"
+    ],
+    "en": [
+     "Neutron",
+     "Photon",
+     "Electron",
+     "Proton"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Thomson ukázal, že katodové paprsky se vychylují v elektrickém i magnetickém poli, takže nejde o světlo, ale o záporně nabité částice – elektrony. Zjistil také, že jsou mnohem lehčí než nejlehčí atom, vodík.",
+    "en": "Thomson showed that cathode rays are deflected by electric and magnetic fields, so they are not light but negatively charged particles – electrons. He also found that they are far lighter than the lightest atom, hydrogen."
+   }
+  },
+  {
+   "id": "T355-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Model atomu z roku 1904, v němž jsou záporné částice rozptýlené v kladně nabité kouli, se přirovnává k…",
+    "en": "The 1904 model of the atom, in which negative particles are scattered through a positively charged sphere, is likened to…"
+   },
+   "moznosti": {
+    "cs": [
+     "sluneční soustavě",
+     "hroznu vína",
+     "cibuli",
+     "pudinku s rozinkami"
+    ],
+    "en": [
+     "the Solar System",
+     "a bunch of grapes",
+     "an onion",
+     "a plum pudding"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Záporné částice v něm sedí v kladné hmotě jako rozinky v pudinku. Autor modelu sám toto přirovnání nikdy nepoužil – první známé pochází z roku 1906 od anonymního novináře.",
+    "en": "The negative particles sit in the positive matter like raisins in a pudding. The model's author never used the comparison himself – the first known one came from an anonymous reporter in 1906."
+   }
+  },
+  {
+   "id": "T355-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaký elektrický náboj má proton?",
+    "en": "What electric charge does a proton have?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nulový",
+     "Kladný",
+     "Záporný",
+     "Záleží na prvku"
+    ],
+    "en": [
+     "Zero",
+     "Positive",
+     "Negative",
+     "It depends on the element"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Proton nese kladný elementární náboj +1 e, přesně opačný než elektron. Jméno mu dal roku 1920 Ernest Rutherford podle řeckého slova pro „první“.",
+    "en": "A proton carries a positive elementary charge of +1 e, exactly opposite to the electron's. Ernest Rutherford named it in 1920 after the Greek word for „first“."
+   }
+  },
+  {
+   "id": "T355-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Z jakých částic se skládá jádro atomu?",
+    "en": "Which particles make up the nucleus of an atom?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jen z elektronů",
+     "Z elektronů a protonů",
+     "Z protonů a neutronů",
+     "Z neutronů a elektronů"
+    ],
+    "en": [
+     "Electrons only",
+     "Electrons and protons",
+     "Protons and neutrons",
+     "Neutrons and electrons"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jádro tvoří protony a neutrony, elektrony se pohybují kolem něj. Výjimkou je běžný vodík, jehož jádro tvoří jediný proton bez neutronu.",
+    "en": "The nucleus is made of protons and neutrons, while electrons move around it. The exception is ordinary hydrogen, whose nucleus is a single proton with no neutron."
+   }
+  },
+  {
+   "id": "T355-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Izotopy téhož prvku mají stejný počet protonů. V počtu čeho se liší?",
+    "en": "Isotopes of the same element have the same number of protons. What do they differ in?"
+   },
+   "moznosti": {
+    "cs": [
+     "Neutronů",
+     "Kvarků v protonu",
+     "Elektronových slupek",
+     "Fotonů"
+    ],
+    "en": [
+     "Neutrons",
+     "Quarks in a proton",
+     "Electron shells",
+     "Photons"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "O tom, který prvek to je, rozhoduje jen počet protonů; izotopy se liší počtem neutronů. Proto je uhlík-12 i uhlík-14 pořád uhlík, jen různě těžký.",
+    "en": "Only the number of protons decides which element it is; isotopes differ in the number of neutrons. That is why carbon-12 and carbon-14 are both carbon, just with different masses."
+   }
+  },
+  {
+   "id": "T355-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Radioaktivní látka má poločas rozpadu 1 den. Kolik z jejích původních jader zbude zhruba po 2 dnech?",
+    "en": "A radioactive substance has a half-life of 1 day. Roughly what fraction of its original nuclei will be left after 2 days?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nic",
+     "Čtvrtina",
+     "Polovina",
+     "Tři čtvrtiny"
+    ],
+    "en": [
+     "None",
+     "A quarter",
+     "A half",
+     "Three quarters"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Za každý poločas se rozpadne polovina jader, která ještě zbývají: po prvním dni zbude polovina, po druhém polovina z poloviny, tedy čtvrtina. Po třech poločasech zbývá osmina.",
+    "en": "In each half-life, half of the remaining nuclei decay: after the first day half is left, after the second half of that half, i.e. a quarter. After three half-lives an eighth remains."
+   }
+  },
+  {
+   "id": "T355-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Radioaktivní izotop kterého prvku se používá k určování stáří dřeva, kostí nebo textilií z archeologických nálezů?",
+    "en": "A radioactive isotope of which element is used to date wood, bones or fabrics from archaeological finds?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kobaltu",
+     "Radonu",
+     "Uhlíku",
+     "Jódu"
+    ],
+    "en": [
+     "Cobalt",
+     "Radon",
+     "Carbon",
+     "Iodine"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Radiouhlíková metoda měří, kolik zbylo uhlíku-14: živý organismus ho přijímá z prostředí, po smrti už ne a izotop se postupně rozpadá. Metodu vyvinul koncem 40. let Willard Libby.",
+    "en": "Radiocarbon dating measures how much carbon-14 is left: a living organism takes it in from its surroundings, but after death this stops and the isotope gradually decays. Willard Libby developed the method in the late 1940s."
+   }
+  },
+  {
+   "id": "T355-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co se stane, když se elektron setká se svou antičásticí, pozitronem?",
+    "en": "What happens when an electron meets its antiparticle, the positron?"
+   },
+   "moznosti": {
+    "cs": [
+     "Anihilují a přemění se v záření",
+     "Spojí se a vytvoří proton",
+     "Spojí se a vytvoří neutron",
+     "Vytvoří společně stabilní atom vodíku"
+    ],
+    "en": [
+     "They annihilate and turn into radiation",
+     "They merge to form a proton",
+     "They merge to form a neutron",
+     "Together they form a stable hydrogen atom"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Částice a antičástice se navzájem zničí (anihilují) a jejich hmotnost se změní v energii fotonů záření gama. Při setkání pomalého elektronu s pozitronem obvykle vzniknou dva fotony, které se rozletí opačnými směry.",
+    "en": "A particle and its antiparticle destroy each other (annihilate) and their mass turns into the energy of gamma-ray photons. When a slow electron meets a positron, they usually produce two photons flying off in opposite directions."
+   }
+  },
+  {
+   "id": "T355-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "U kterého města sídlí Evropská organizace pro jaderný výzkum CERN?",
+    "en": "Near which city is the European Organization for Nuclear Research, CERN, based?"
+   },
+   "moznosti": {
+    "cs": [
+     "U Curychu",
+     "U Ženevy",
+     "U Bruselu",
+     "U Vídně"
+    ],
+    "en": [
+     "Zurich",
+     "Geneva",
+     "Brussels",
+     "Vienna"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "CERN sídlí v Meyrinu, západním předměstí Ženevy, přímo na francouzsko-švýcarské hranici. Založen byl roku 1954.",
+    "en": "CERN is based in Meyrin, a western suburb of Geneva, right on the France–Switzerland border. It was founded in 1954."
+   }
+  },
+  {
+   "id": "T355-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který starořecký filozof z Abdér, přezdívaný „smějící se filozof“, učil, že skutečné jsou jen atomy a prázdnota?",
+    "en": "Which ancient Greek philosopher from Abdera, nicknamed the „laughing philosopher“, taught that only atoms and the void are real?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pythagoras",
+     "Hérakleitos",
+     "Aristotelés",
+     "Démokritos"
+    ],
+    "en": [
+     "Pythagoras",
+     "Heraclitus",
+     "Aristotle",
+     "Democritus"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Démokritos rozvinul atomismus svého učitele Leukippa: vše se skládá z nepatrných, věčně se pohybujících atomů. Barvy či chutě podle něj existují jen „podle zvyku“.",
+    "en": "Democritus developed the atomism of his teacher Leucippus: everything is made of tiny, eternally moving atoms. Colours and tastes, he said, exist only „by convention“."
+   }
+  },
+  {
+   "id": "T355-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Anglický chemik na počátku 19. století oživil myšlenku atomů a opřel ji o chemická měření, mimo jiné o zákon násobných poměrů. Kdo to byl?",
+    "en": "In the early 19th century, an English chemist revived the idea of atoms and based it on chemical measurements, including the law of multiple proportions. Who was he?"
+   },
+   "moznosti": {
+    "cs": [
+     "Humphry Davy",
+     "Henry Cavendish",
+     "Joseph Priestley",
+     "John Dalton"
+    ],
+    "en": [
+     "Humphry Davy",
+     "Henry Cavendish",
+     "Joseph Priestley",
+     "John Dalton"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Dalton si všiml, že prvky se slučují v poměrech malých celých čísel, a nejmenší jednotky prvků nazval atomy. Svou teorii shrnul v díle A New System of Chemical Philosophy (1808).",
+    "en": "Dalton noticed that elements combine in ratios of small whole numbers and called the smallest units of elements atoms. He set out his theory in A New System of Chemical Philosophy (1808)."
+   }
+  },
+  {
+   "id": "T355-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ernest Rutherford, který zavedl názvy záření alfa a beta a pojmenoval proton, pocházel ze které země?",
+    "en": "Ernest Rutherford, who coined the terms alpha and beta radiation and named the proton, came from which country?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ze Skotska",
+     "Z Austrálie",
+     "Z Kanady",
+     "Z Nového Zélandu"
+    ],
+    "en": [
+     "Scotland",
+     "Australia",
+     "Canada",
+     "New Zealand"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Rutherford se narodil ve Spring Grove na Novém Zélandu, později působil v Kanadě a Anglii. Od roku 1999 je jeho portrét na novozélandské stodolarové bankovce.",
+    "en": "Rutherford was born in Spring Grove, New Zealand, and later worked in Canada and England. Since 1999 his portrait has appeared on the New Zealand 100-dollar note."
+   }
+  },
+  {
+   "id": "T355-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Podle Bohrova modelu atomu (1913) obíhají elektrony jádro jen po určitých drahách. Co elektron vyzáří, když přeskočí z vyšší dráhy na nižší?",
+    "en": "In the Bohr model of the atom (1913), electrons orbit the nucleus only in certain orbits. What does an electron emit when it jumps from a higher orbit to a lower one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Neutron",
+     "Proton",
+     "Neutrino",
+     "Foton"
+    ],
+    "en": [
+     "A neutron",
+     "A proton",
+     "A neutrino",
+     "A photon"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Rozdíl energií mezi drahami odnese foton, tedy kvantum světla. Protože dráhy jsou pevně dané, vyzařuje každý prvek jen světlo určitých barev – svoje typické spektrum.",
+    "en": "The energy difference between the orbits is carried away by a photon, a quantum of light. Because the orbits are fixed, each element emits light only of certain colours – its characteristic spectrum."
+   }
+  },
+  {
+   "id": "T355-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Z kolika kvarků se skládá proton?",
+    "en": "How many quarks make up a proton?"
+   },
+   "moznosti": {
+    "cs": [
+     "2",
+     "3",
+     "4",
+     "6"
+    ],
+    "en": [
+     "2",
+     "3",
+     "4",
+     "6"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Proton tvoří dva kvarky u (up) a jeden kvark d (down), neutron naopak jeden u a dva d. Většinu hmotnosti protonu přitom nedávají samotné kvarky, ale energie gluonového pole, které je drží pohromadě.",
+    "en": "A proton consists of two up quarks and one down quark, while a neutron has one up and two down. Most of the proton's mass comes not from the quarks themselves but from the energy of the gluon field binding them."
+   }
+  },
+  {
+   "id": "T355-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Název částice neutrino je žertovná zdrobnělina, která znamená „malý neutrální“. Ze kterého jazyka pochází?",
+    "en": "The name neutrino is a playful diminutive meaning „little neutral one“. Which language does it come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ze španělštiny",
+     "Z italštiny",
+     "Z řečtiny",
+     "Z latiny"
+    ],
+    "en": [
+     "Spanish",
+     "Italian",
+     "Greek",
+     "Latin"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Slovo vymyslel v Římě Edoardo Amaldi v rozhovoru s Enricem Fermim, aby se nová lehká částice odlišila od těžkého neutronu. Italská koncovka -ino vyjadřuje zdrobnělinu.",
+    "en": "Edoardo Amaldi coined the word in Rome in a conversation with Enrico Fermi, to tell the new light particle apart from the heavy neutron. The Italian ending -ino marks a diminutive."
+   }
+  },
+  {
+   "id": "T355-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Antihmota se dnes běžně využívá v nemocnicích. Ve které zobrazovací metodě?",
+    "en": "Antimatter is now routinely used in hospitals. In which imaging method?"
+   },
+   "moznosti": {
+    "cs": [
+     "V pozitronové emisní tomografii (PET)",
+     "V ultrazvuku",
+     "V rentgenové počítačové tomografii (CT)",
+     "V magnetické rezonanci"
+    ],
+    "en": [
+     "Positron emission tomography (PET)",
+     "Ultrasound",
+     "X-ray computed tomography (CT)",
+     "Magnetic resonance imaging (MRI)"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pacient dostane látku značenou radioaktivním izotopem, který uvolňuje pozitrony – antičástice elektronů. Detektory kolem těla pak zjistí, kde se látka hromadí, a ukážou tak, kde je metabolismus nejaktivnější.",
+    "en": "The patient receives a tracer labelled with a radioactive isotope that emits positrons – the antiparticles of electrons. Detectors around the body then pinpoint where the tracer accumulates, showing where metabolism is most active."
+   }
+  },
+  {
+   "id": "T355-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaký je zhruba obvod Velkého hadronového urychlovače (LHC) v CERN?",
+    "en": "Roughly what is the circumference of the Large Hadron Collider (LHC) at CERN?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 7 km",
+     "Asi 17 km",
+     "Asi 27 km",
+     "Asi 47 km"
+    ],
+    "en": [
+     "About 7 km (4 mi)",
+     "About 17 km (11 mi)",
+     "About 27 km (17 mi)",
+     "About 47 km (29 mi)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kruhový tunel měří asi 26,7 km a leží 50 až 175 m pod zemí. Původně byl vyražen pro starší urychlovač LEP.",
+    "en": "The circular tunnel is about 26.7 km (16.6 mi) long and lies 50 to 175 m (164 to 574 ft) underground. It was originally dug for the older LEP collider."
+   }
+  },
+  {
+   "id": "T355-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaký je zhruba poločas rozpadu uhlíku-14?",
+    "en": "Roughly what is the half-life of carbon-14?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 57 let",
+     "Asi 570 let",
+     "Asi 5 700 let",
+     "Asi 57 000 let"
+    ],
+    "en": [
+     "About 57 years",
+     "About 570 years",
+     "About 5,700 years",
+     "About 57,000 years"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Dnes uznávaná hodnota je 5 700 ± 30 let, často se uvádí také starší údaj 5 730 let. Po 57 000 letech, tedy zhruba deseti poločasech, zbývá z původního uhlíku-14 jen asi tisícina.",
+    "en": "The currently accepted value is 5,700 ± 30 years; the older figure of 5,730 years is also often quoted. After 57,000 years – about ten half-lives – only about a thousandth of the original carbon-14 remains."
+   }
+  },
+  {
+   "id": "T355-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik procent hmotnosti atomu je soustředěno v jeho jádře?",
+    "en": "What percentage of an atom's mass is concentrated in its nucleus?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 50 %",
+     "Asi 75 %",
+     "Asi 90 %",
+     "Přes 99,9 %"
+    ],
+    "en": [
+     "About 50%",
+     "About 75%",
+     "About 90%",
+     "Over 99.9%"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "V jádře je přes 99,94 % hmotnosti atomu, protože elektrony jsou ve srovnání s částicemi jádra velmi lehké. Přitom jádro zabírá jen nepatrný zlomek objemu atomu.",
+    "en": "Over 99.94% of an atom's mass is in its nucleus, because electrons are very light compared with the particles of the nucleus. Yet the nucleus takes up only a tiny fraction of the atom's volume."
+   }
+  },
+  {
+   "id": "T355-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Murray Gell-Mann převzal slovo kvark (quark) z jednoho literárního díla. Ze kterého?",
+    "en": "Murray Gell-Mann took the word quark from a work of literature. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Odysseus od Jamese Joyce",
+     "Finnegans Wake od Jamese Joyce",
+     "Alenka v říši divů od Lewise Carrolla",
+     "Hamlet od Williama Shakespeara"
+    ],
+    "en": [
+     "Ulysses by James Joyce",
+     "Finnegans Wake by James Joyce",
+     "Alice's Adventures in Wonderland by Lewis Carroll",
+     "Hamlet by William Shakespeare"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Gell-Mann a nezávisle na něm George Zweig navrhli kvarky roku 1964; Zweig jim chtěl říkat „esa“ (aces). Joyceův román Finnegans Wake vyšel roku 1939.",
+    "en": "Gell-Mann and, independently, George Zweig proposed quarks in 1964; Zweig wanted to call them „aces“. Joyce's novel Finnegans Wake was published in 1939."
+   }
+  },
+  {
+   "id": "T355-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Fyzik Ernest Rutherford dostal roku 1908 Nobelovu cenu – ale ne za fyziku. Za který obor?",
+    "en": "In 1908 the physicist Ernest Rutherford received a Nobel Prize – but not in physics. In which field?"
+   },
+   "moznosti": {
+    "cs": [
+     "Za mír",
+     "Za chemii",
+     "Za fyziologii nebo lékařství",
+     "Za literaturu"
+    ],
+    "en": [
+     "Peace",
+     "Chemistry",
+     "Physiology or Medicine",
+     "Literature"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Cenu za chemii dostal za výzkum rozpadu prvků a chemie radioaktivních látek. Roku 1919 pak popsal, jak jako první uměle vyvolal jadernou reakci, když ostřeloval dusík částicemi alfa.",
+    "en": "He received the chemistry prize for his investigations into the disintegration of the elements and the chemistry of radioactive substances. In 1919 he reported that he had become the first to induce a nuclear reaction artificially, by bombarding nitrogen with alpha particles."
+   }
+  },
+  {
+   "id": "T355-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "S kým se Peter Higgs dělil o Nobelovu cenu za fyziku 2013 za předpověď mechanismu, jímž elementární částice získávají hmotnost?",
+    "en": "With whom did Peter Higgs share the 2013 Nobel Prize in Physics for predicting the mechanism by which elementary particles acquire mass?"
+   },
+   "moznosti": {
+    "cs": [
+     "S Françoisem Englertem",
+     "S Murrayem Gell-Mannem",
+     "Se Stephenem Hawkingem",
+     "S Tomem Kibblem"
+    ],
+    "en": [
+     "François Englert",
+     "Murray Gell-Mann",
+     "Stephen Hawking",
+     "Tom Kibble"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Oba byli oceněni za teoretickou předpověď. Cena přišla rok poté, co experimenty ATLAS a CMS 4. července 2012 ohlásily objev nového bosonu.",
+    "en": "Both were honoured for their theoretical predictions. The prize came a year after the ATLAS and CMS experiments announced the discovery of a new boson on 4 July 2012."
+   }
+  },
+  {
+   "id": "T355-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Částici, kterou roku 1936 objevili Carl Anderson a Seth Neddermeyer, později komentoval fyzik I. I. Rabi slavnou poznámkou „Kdo si tohle objednal?“. O kterou částici šlo?",
+    "en": "The particle discovered by Carl Anderson and Seth Neddermeyer in 1936 later prompted the physicist I. I. Rabi's famous quip: „Who ordered that?“ Which particle was it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pion",
+     "Kaon",
+     "Tauon",
+     "Mion"
+    ],
+    "en": [
+     "Pion",
+     "Kaon",
+     "Tauon",
+     "Muon"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Mion je jakýsi těžší bratranec elektronu – asi 207krát hmotnější. Jeho existence byla pro fyziky naprosté překvapení. Žije v průměru jen asi 2,2 mikrosekundy.",
+    "en": "The muon is a kind of heavier cousin of the electron – about 207 times as massive. Its existence came as a complete surprise to physicists. It lives only about 2.2 microseconds on average."
+   }
+  },
+  {
+   "id": "T355-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Wolfgang Pauli roku 1930 navrhl existenci nepozorované částice, dnes zvané neutrino. Co tím chtěl zachránit?",
+    "en": "In 1930 Wolfgang Pauli proposed an unobserved particle, now called the neutrino. What was he trying to save?"
+   },
+   "moznosti": {
+    "cs": [
+     "Stabilitu atomového jádra",
+     "Zákon zachování energie při rozpadu beta",
+     "Bohrův model atomu",
+     "Teorii relativity"
+    ],
+    "en": [
+     "The stability of the atomic nucleus",
+     "The law of conservation of energy in beta decay",
+     "The Bohr model of the atom",
+     "The theory of relativity"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Při rozpadu beta se zdálo, že část energie mizí. Pauli usoudil, že ji odnáší neviditelná neutrální částice. Prokázat ji se podařilo až roku 1956 Cowanovi a Reinesovi u jaderného reaktoru.",
+    "en": "In beta decay some energy seemed to vanish. Pauli reasoned that an invisible neutral particle carried it away. Cowan and Reines only managed to detect it in 1956, at a nuclear reactor."
+   }
+  },
+  {
+   "id": "T355-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na jakou teplotu se chladí supravodivé magnety Velkého hadronového urychlovače (LHC)?",
+    "en": "To what temperature are the superconducting magnets of the Large Hadron Collider (LHC) cooled?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi −271 °C",
+     "Asi −253 °C",
+     "Asi −196 °C",
+     "Asi −120 °C"
+    ],
+    "en": [
+     "About −271 °C (−456 °F)",
+     "About −253 °C (−423 °F)",
+     "About −196 °C (−321 °F)",
+     "About −120 °C (−184 °F)"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Magnety pracují při 1,9 K, tedy −271,25 °C – necelé dva stupně nad absolutní nulou. Urychlovač jich má kolem 10 000.",
+    "en": "The magnets operate at 1.9 K, i.e. −271.25 °C (−456.25 °F) – less than two degrees above absolute zero. The collider has about 10,000 of them."
+   }
+  },
+  {
+   "id": "T355-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Uhlík-14 vzniká ve vysokých vrstvách atmosféry, když neutrony z kosmického záření zasáhnou atomy jiného prvku. Kterého?",
+    "en": "Carbon-14 forms high in the atmosphere when neutrons from cosmic rays strike atoms of another element. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dusíku",
+     "Kyslíku",
+     "Argonu",
+     "Vodíku"
+    ],
+    "en": [
+     "Nitrogen",
+     "Oxygen",
+     "Argon",
+     "Hydrogen"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Neutron přemění dusík-14 na uhlík-14, hlavně ve spodní stratosféře a horní troposféře. Ten se pak v oxidu uhličitém dostává do rostlin a přes potravu do všech živých organismů.",
+    "en": "A neutron converts nitrogen-14 into carbon-14, mainly in the lower stratosphere and upper troposphere. In carbon dioxide it then enters plants and, through food, all living organisms."
+   }
+  },
+  {
+   "id": "T355-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Řádově kolikrát je průměr atomu větší než průměr jeho jádra?",
+    "en": "By what order of magnitude is the diameter of an atom larger than the diameter of its nucleus?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi desetkrát",
+     "Asi tisíckrát",
+     "Desítky tisíckrát",
+     "Desítky milionůkrát"
+    ],
+    "en": [
+     "About ten times",
+     "About a thousand times",
+     "Tens of thousands of times",
+     "Tens of millions of times"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Podle prvku je atom asi 27 000krát (uran) až 60 000krát (vodík) větší než jeho jádro. Kdyby jádro mělo průměr 1 cm, měl by atom průměr několik set metrů.",
+    "en": "Depending on the element, an atom is about 27,000 (uranium) to 60,000 (hydrogen) times wider than its nucleus. If the nucleus were 1 cm (0.4 in) across, the atom would be several hundred metres (several hundred yards) across."
+   }
+  },
+  {
+   "id": "T355-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Carl Anderson roku 1932 objevil pozitron, první známou antičástici. Kde ji zachytil?",
+    "en": "In 1932 Carl Anderson discovered the positron, the first known antiparticle. Where did he detect it?"
+   },
+   "moznosti": {
+    "cs": [
+     "V kosmickém záření",
+     "V záření z radia",
+     "V jaderném reaktoru",
+     "V urychlovači částic"
+    ],
+    "en": [
+     "In cosmic rays",
+     "In radiation from radium",
+     "In a nuclear reactor",
+     "In a particle accelerator"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Anderson nechal kosmické záření procházet mlžnou komorou v magnetu: stopa měla hmotnost elektronu, ale zatáčela opačně, tedy nesla kladný náboj. Existenci antielektronu předtím předpověděl Paul Dirac.",
+    "en": "Anderson passed cosmic rays through a cloud chamber inside a magnet: one track matched an electron's mass but curved the opposite way, so it was positively charged. Paul Dirac had predicted the anti-electron beforehand."
+   }
+  },
+  {
+   "id": "T355-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolikrát je proton zhruba těžší než elektron?",
+    "en": "Roughly how many times heavier is a proton than an electron?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 18krát",
+     "Asi 184krát",
+     "Asi 1 836krát",
+     "Asi 18 360krát"
+    ],
+    "en": [
+     "About 18 times",
+     "About 184 times",
+     "About 1,836 times",
+     "About 18,360 times"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Proton váží asi 1,67 × 10⁻²⁷ kg, zhruba 1 836krát víc než elektron. Neutron je ještě o něco těžší než proton.",
+    "en": "A proton weighs about 1.67 × 10⁻²⁷ kg, roughly 1,836 times more than an electron. A neutron is slightly heavier still."
+   }
+  }
+ ]
+}

@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T400",
+ "nazev": {
+  "cs": "Státní hymny a jejich příběhy",
+  "en": "National Anthems and Their Stories"
+ },
+ "kategorie": {
+  "id": "hudba",
+  "nazev": {
+   "cs": "Hudba",
+   "en": "Music"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T400-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Americká hymna The Star-Spangled Banner vznikla v roce 1814. Během které války?",
+    "en": "The US national anthem, The Star-Spangled Banner, was written in 1814. During which war?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mexicko-americké války",
+     "Války za nezávislost",
+     "Britsko-americké války",
+     "Americké občanské války"
+    ],
+    "en": [
+     "The Mexican–American War",
+     "The American Revolutionary War",
+     "The War of 1812",
+     "The American Civil War"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Text vznikl po celonočním ostřelování pevnosti Fort McHenry u Baltimoru. Ráno nad pevností stále vlála americká vlajka s hvězdami – odtud název „hvězdami posetý prapor“.",
+    "en": "The words were written after the night-long bombardment of Fort McHenry near Baltimore. At dawn the star-studded American flag was still flying over the fort, which gave the song its title."
+   }
+  },
+  {
+   "id": "T400-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo napsal text americké hymny The Star-Spangled Banner?",
+    "en": "Who wrote the words of the US national anthem, The Star-Spangled Banner?"
+   },
+   "moznosti": {
+    "cs": [
+     "Benjamin Franklin",
+     "Francis Scott Key",
+     "Thomas Jefferson",
+     "Paul Revere"
+    ],
+    "en": [
+     "Benjamin Franklin",
+     "Francis Scott Key",
+     "Thomas Jefferson",
+     "Paul Revere"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Key byl americký právník a amatérský básník. Svou báseň původně nazval „Defence of Fort M'Henry“ (Obrana pevnosti McHenry).",
+    "en": "Key was an American lawyer and amateur poet. He originally titled his poem \"Defence of Fort M'Henry\"."
+   }
+  },
+  {
+   "id": "T400-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čí státní hymna zazní při vyhlášení vítězů olympijské soutěže?",
+    "en": "At an Olympic medal ceremony, which country's national anthem is played?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pořádající země",
+     "Země zlatého medailisty",
+     "Zemí všech tří medailistů",
+     "Zemí zlatého a stříbrného medailisty"
+    ],
+    "en": [
+     "The host country's",
+     "The gold medallist's",
+     "Each of the three medallists'",
+     "The gold and silver medallists'"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Hraní hymny země vítěze zavedla Olympijská charta z roku 1920. Stupně vítězů přibyly o něco později – poprvé se na ně stoupalo na hrách v roce 1932.",
+    "en": "Playing the anthem of the gold medallist's country was introduced by the Olympic Charter of 1920. The victory podium came a little later, first used at the 1932 Games."
+   }
+  },
+  {
+   "id": "T400-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který skladatel složil melodii, na kterou se zpívá německá státní hymna?",
+    "en": "Which composer wrote the melody to which Germany's national anthem is sung?"
+   },
+   "moznosti": {
+    "cs": [
+     "Joseph Haydn",
+     "Johann Sebastian Bach",
+     "Ludwig van Beethoven",
+     "Richard Wagner"
+    ],
+    "en": [
+     "Joseph Haydn",
+     "Johann Sebastian Bach",
+     "Ludwig van Beethoven",
+     "Richard Wagner"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Haydn ji složil v roce 1797 jako narozeninovou hymnu pro rakouského císaře Františka II. („Gott erhalte Franz den Kaiser“, česky známou jako „Zachovej nám, Hospodine“). Dnešní německý text napsal Hoffmann von Fallersleben v roce 1841 na tehdy britském ostrově Helgoland.",
+    "en": "Haydn wrote it in 1797 as a birthday anthem for the Austrian Emperor Francis II, \"Gott erhalte Franz den Kaiser\". The German words were written by Hoffmann von Fallersleben in 1841 on Heligoland, then a British island."
+   }
+  },
+  {
+   "id": "T400-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která země používá pro svou státní hymnu melodii hymny Sovětského svazu (k roku 2026)?",
+    "en": "Which country uses the melody of the Soviet Union's anthem for its own national anthem (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rusko",
+     "Gruzie",
+     "Ukrajina",
+     "Kazachstán"
+    ],
+    "en": [
+     "Russia",
+     "Georgia",
+     "Ukraine",
+     "Kazakhstan"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Rusko melodii Alexandra Alexandrova znovu přijalo v roce 2000 s novým textem. Ten napsal Sergej Michalkov, který byl v roce 1943 spoluautorem slov i sovětské hymny.",
+    "en": "Russia readopted Alexander Alexandrov's melody in 2000 with new words. They were written by Sergey Mikhalkov, who had also co-written the lyrics of the Soviet anthem in 1943."
+   }
+  },
+  {
+   "id": "T400-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém slavném filmu přezpívají hosté kavárny německé důstojníky Marseillaisou?",
+    "en": "In which classic film do café patrons drown out German officers by singing La Marseillaise?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jih proti Severu",
+     "Občan Kane",
+     "Casablanca",
+     "Třetí muž"
+    ],
+    "en": [
+     "Gone with the Wind",
+     "Citizen Kane",
+     "Casablanca",
+     "The Third Man"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Němci v Rickově kavárně zpívají „Die Wacht am Rhein“, a tak Victor Laszlo vyzve kapelu, aby zahrála francouzskou hymnu. Přidá se celý sál a major Strasser pak nechá podnik pod záminkou zavřít.",
+    "en": "When the Germans in Rick's café sing \"Die Wacht am Rhein\", Victor Laszlo has the band play the French anthem. The whole room joins in, and Major Strasser then has the club closed on a pretext."
+   }
+  },
+  {
+   "id": "T400-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Česká hymna Kde domov můj vznikla v roce 1834. Čím byla původně?",
+    "en": "The Czech national anthem, \"Kde domov můj\", was written in 1834. What was it originally?"
+   },
+   "moznosti": {
+    "cs": [
+     "Písní v divadelní hře",
+     "Árií v opeře",
+     "Částí vojenské kantáty",
+     "Písní při kostelní mši"
+    ],
+    "en": [
+     "A song in a stage play",
+     "An aria in an opera",
+     "Part of a military cantata",
+     "A hymn sung at Mass"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Píseň Františka Škroupa na slova Josefa Kajetána Tyla zazněla 21. prosince 1834 ve Stavovském divadle ve hře Fidlovačka aneb Žádný hněv a žádná rvačka. Zpíval ji Karel Strakatý.",
+    "en": "František Škroup's song, with words by Josef Kajetán Tyl, premiered on 21 December 1834 at Prague's Estates Theatre in the comedy Fidlovačka. It was sung by Karel Strakatý."
+   }
+  },
+  {
+   "id": "T400-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který rockový kytarista zahrál v roce 2002 britskou hymnu na střeše Buckinghamského paláce?",
+    "en": "Which rock guitarist played the British national anthem on the roof of Buckingham Palace in 2002?"
+   },
+   "moznosti": {
+    "cs": [
+     "Keith Richards",
+     "Brian May",
+     "Jimmy Page",
+     "Eric Clapton"
+    ],
+    "en": [
+     "Keith Richards",
+     "Brian May",
+     "Jimmy Page",
+     "Eric Clapton"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Kytarista skupiny Queen ji zahrál 3. června 2002 na svou kytaru Red Special na koncertu Party at the Palace ke zlatému jubileu Alžběty II.",
+    "en": "The guitarist of the band Queen played it on his Red Special guitar on 3 June 2002 at the Party at the Palace concert for Elizabeth II's Golden Jubilee."
+   }
+  },
+  {
+   "id": "T400-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakým gestem během americké hymny protestoval v roce 2016 hráč amerického fotbalu Colin Kaepernick?",
+    "en": "What gesture did American football player Colin Kaepernick make during the US anthem in 2016 as a protest?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zakryl si dlaní ústa",
+     "Klečel na jednom koleni",
+     "Otočil se k vlajce zády",
+     "Zvedl zaťatou pěst"
+    ],
+    "en": [
+     "He covered his mouth",
+     "He knelt on one knee",
+     "He turned his back on the flag",
+     "He raised a clenched fist"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Zpočátku během hymny seděl; klečení mu poradil bývalý voják zvláštních jednotek Nate Boyer jako uctivější gesto vůči veteránům. Protestoval proti policejní brutalitě a rasové nespravedlnosti.",
+    "en": "At first he sat during the anthem; former Green Beret Nate Boyer suggested kneeling as a more respectful gesture towards veterans. He was protesting against police brutality and racial injustice."
+   }
+  },
+  {
+   "id": "T400-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím je neobvyklá státní hymna Jihoafrické republiky?",
+    "en": "What is unusual about South Africa's national anthem?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zpívá se výhradně latinsky",
+     "Nemá žádný oficiální text",
+     "Smí zaznít jen o státním svátku",
+     "Její text spojuje pět jazyků"
+    ],
+    "en": [
+     "It is sung only in Latin",
+     "It has no official lyrics",
+     "It may only be played on a national holiday",
+     "Its lyrics combine five languages"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Hymna z roku 1997 spojuje píseň Nkosi Sikelel' iAfrika s dřívější hymnou Die Stem van Suid-Afrika a zpívá se v xhoštině, zuluštině, sesothu, afrikánštině a angličtině. Neobvyklé je i to, že začíná v jedné tónině a končí v jiné.",
+    "en": "The 1997 anthem combines Nkosi Sikelel' iAfrika with the former anthem Die Stem van Suid-Afrika and is sung in Xhosa, Zulu, Sesotho, Afrikaans and English. Unusually, it also starts in one key and ends in another."
+   }
+  },
+  {
+   "id": "T400-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který básník napsal státní hymny Indie i Bangladéše?",
+    "en": "Which poet wrote the national anthems of both India and Bangladesh?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kazi Nazrul Islam",
+     "Muhammad Iqbal",
+     "Mirza Ghalib",
+     "Rabíndranáth Thákur"
+    ],
+    "en": [
+     "Kazi Nazrul Islam",
+     "Muhammad Iqbal",
+     "Mirza Ghalib",
+     "Rabindranath Tagore"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Thákur (Tagore) napsal bengálsky text i hudbu indické „Jana Gana Mana“ a text bangladéšské „Amar Shonar Bangla“, jejíž melodie vychází z písně baulského zpěváka Gagana Harkary. Plná verze indické hymny trvá jen asi 52 sekund.",
+    "en": "Tagore wrote the words and music of India's \"Jana Gana Mana\" and the words of Bangladesh's \"Amar Shonar Bangla\", whose tune derives from a song by Baul singer Gagan Harkara; both are in Bengali. The full version of India's anthem lasts only about 52 seconds."
+   }
+  },
+  {
+   "id": "T400-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Fanoušci které země jsou často uváděni jako první, kdo zazpíval svou hymnu na sportovním utkání – při ragbyovém zápase s Novým Zélandem v roce 1905?",
+    "en": "Fans of which nation are often credited as the first to sing their anthem at a sporting event, at a 1905 rugby match against New Zealand?"
+   },
+   "moznosti": {
+    "cs": [
+     "Irska",
+     "Skotska",
+     "Anglie",
+     "Walesu"
+    ],
+    "en": [
+     "Ireland",
+     "Scotland",
+     "England",
+     "Wales"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Velšští fanoušci zazpívali Hen Wlad Fy Nhadau (Země mých otců) proti prvnímu novozélandskému národnímu týmu, který cestoval po Británii (tzv. Originals). Píseň složili v roce 1856 v Pontypriddu otec a syn Evan a James Jamesovi.",
+    "en": "Welsh fans sang Hen Wlad Fy Nhadau (Land of My Fathers) against the first New Zealand national team to tour Britain (the 'Originals'). The song was written in Pontypridd in 1856 by father and son Evan and James James."
+   }
+  },
+  {
+   "id": "T400-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Hymna které země se zpívá na stejnou melodii jako britská God Save the King (k roku 2026)?",
+    "en": "Which country's national anthem is sung to the same melody as Britain's \"God Save the King\" (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lucemburska",
+     "Švýcarska",
+     "Nizozemska",
+     "Lichtenštejnska"
+    ],
+    "en": [
+     "Luxembourg",
+     "Switzerland",
+     "The Netherlands",
+     "Liechtenstein"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Lichtenštejnská hymna Oben am jungen Rhein je jedinou dosud používanou státní hymnou, která má na tuto melodii vlastní text (k roku 2026); Nový Zéland používá přímo God Save the King jako jednu ze svých dvou hymen. Švýcarsko melodii pro hymnu Rufst du, mein Vaterland používalo jen do roku 1961.",
+    "en": "Liechtenstein's \"Oben am jungen Rhein\" is the only national anthem still in use that sets its own lyrics to this melody (as of 2026); New Zealand uses God Save the King itself as one of its two anthems. Switzerland used the tune for its anthem \"Rufst du, mein Vaterland\" only until 1961."
+   }
+  },
+  {
+   "id": "T400-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co z Písně Němců (Das Lied der Deutschen) tvoří oficiální německou hymnu (k roku 2026)?",
+    "en": "Which part of the \"Song of the Germans\" (Das Lied der Deutschen) is Germany's official national anthem (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pouze první sloka",
+     "Pouze druhá sloka",
+     "Pouze třetí sloka",
+     "Všechny tři sloky"
+    ],
+    "en": [
+     "Only the first stanza",
+     "Only the second stanza",
+     "Only the third stanza",
+     "All three stanzas"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Při oficiálních příležitostech se od roku 1952 zpívá jen třetí sloka „Einigkeit und Recht und Freiheit“ a po sjednocení to v roce 1991 potvrdili prezident Weizsäcker a kancléř Kohl. První sloka je spojená s nacistickou érou; zakázaná není, ale při oficiálních příležitostech se nezpívá.",
+    "en": "Only the third stanza, \"Einigkeit und Recht und Freiheit\", has been sung on official occasions since 1952, and after reunification President Weizsäcker and Chancellor Kohl confirmed it in 1991. The first stanza is associated with the Nazi era; it is not banned, but it is not sung on official occasions."
+   }
+  },
+  {
+   "id": "T400-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "S hymnou které země sdílí finská hymna Maamme (Naše země) stejnou melodii?",
+    "en": "Finland's anthem \"Maamme\" (Our Land) shares its melody with the national anthem of which country?"
+   },
+   "moznosti": {
+    "cs": [
+     "Norska",
+     "Lotyšska",
+     "Estonska",
+     "Švédska"
+    ],
+    "en": [
+     "Norway",
+     "Latvia",
+     "Estonia",
+     "Sweden"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Melodii složil v roce 1848 německý rodák Fredrik Pacius a Estonci na ni zpívají „Mu isamaa, mu õnn ja rõõm“. Estonská hymna má tedy stejný nápěv, ale vlastní text.",
+    "en": "The melody was composed in 1848 by German-born Fredrik Pacius, and Estonians sing \"Mu isamaa, mu õnn ja rõõm\" to it. Estonia's anthem thus has the same tune but its own words."
+   }
+  },
+  {
+   "id": "T400-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na závěrečném ceremoniálu OH zazní kromě hymny pořadatele a příštího pořadatele podle protokolu ještě hymna jedné další země (k roku 2026). Které?",
+    "en": "At an Olympic closing ceremony, besides the anthems of the host and the next host, protocol calls for the anthem of one other country (as of 2026). Which?"
+   },
+   "moznosti": {
+    "cs": [
+     "Itálie",
+     "Řecka",
+     "Švýcarska",
+     "Francie"
+    ],
+    "en": [
+     "Italy",
+     "Greece",
+     "Switzerland",
+     "France"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Řecká hymna Ýmnos is tin Eleftherian (Hymnus na svobodu) tradičně zaznívá jako hold zemi, kde olympijské hry vznikly. Je to báseň Dionysia Solomose z roku 1823 se 158 slokami a od roku 1966 ji jako svou hymnu používá i Kypr.",
+    "en": "Greece's Hymn to Liberty is traditionally played to honour the birthplace of the Olympic Games. It is an 1823 poem by Dionysios Solomos with 158 stanzas, and Cyprus has also used it as its anthem since 1966."
+   }
+  },
+  {
+   "id": "T400-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém městě vznikla v dubnu 1792 Marseillaisa?",
+    "en": "In which city was La Marseillaise written in April 1792?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Marseille",
+     "V Paříži",
+     "V Lyonu",
+     "Ve Štrasburku"
+    ],
+    "en": [
+     "Marseille",
+     "Paris",
+     "Lyon",
+     "Strasbourg"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Claude Joseph Rouget de Lisle ji napsal na žádost štrasburského starosty Dietricha jako „Válečnou píseň pro Rýnskou armádu“. Jméno podle Marseille dostala až později.",
+    "en": "Claude Joseph Rouget de Lisle wrote it at the request of Strasbourg's mayor, Dietrich, as the \"War Song for the Army of the Rhine\". It only got its Marseille-based name later."
+   }
+  },
+  {
+   "id": "T400-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Do roku 1944 byla hymnou Sovětského svazu Internacionála. Ve které zemi tato píseň vznikla?",
+    "en": "Until 1944 the Soviet Union's anthem was The Internationale. In which country was the song created?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Francii",
+     "V Německu",
+     "V Británii",
+     "V Rusku"
+    ],
+    "en": [
+     "France",
+     "Germany",
+     "Britain",
+     "Russia"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Text napsal Eugène Pottier v roce 1871 po potlačení Pařížské komuny a hudbu složil Pierre De Geyter v roce 1888 v Lille.",
+    "en": "The words were written by Eugène Pottier in 1871 after the Paris Commune was crushed, and Pierre De Geyter composed the music in Lille in 1888."
+   }
+  },
+  {
+   "id": "T400-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Polská hymna jmenuje jediného cizince a dává ho Polákům za vzor, jak vítězit. Kdo to je?",
+    "en": "Poland's national anthem names only one non-Pole, holding him up as an example of how to win. Who is he?"
+   },
+   "moznosti": {
+    "cs": [
+     "Karel XII. Švédský",
+     "Petr Veliký",
+     "Napoleon Bonaparte",
+     "Fridrich Veliký"
+    ],
+    "en": [
+     "Charles XII of Sweden",
+     "Peter the Great",
+     "Napoleon Bonaparte",
+     "Frederick the Great"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Píseň napsal Józef Wybicki v roce 1797 pro Polské legie, které bojovaly po boku Napoleonovy Francie a doufaly v obnovu Polska. Oficiální hymnou je od roku 1927.",
+    "en": "Józef Wybicki wrote the song in 1797 for the Polish Legions, who fought alongside Napoleon's France hoping to restore Poland. It has been the official anthem since 1927."
+   }
+  },
+  {
+   "id": "T400-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Austrálie v roce 2021 změnila v hymně Advance Australia Fair verš „For we are young and free“ (neboť jsme mladí a svobodní) na „For we are one and free“. Proč?",
+    "en": "In 2021 Australia changed the line \"For we are young and free\" in Advance Australia Fair to \"For we are one and free\". Why?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aby oslavila sté výročí australské federace",
+     "Aby slova přirozeněji seděla na melodii",
+     "Kvůli připravovanému přechodu na republiku",
+     "Aby uznala dávnou přítomnost původních obyvatel"
+    ],
+    "en": [
+     "To celebrate the centenary of Federation",
+     "To make the words fit the melody more naturally",
+     "To prepare for Australia becoming a republic",
+     "To honour Indigenous Australians' long history"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Změna platí od 1. ledna 2021 a má vyjádřit, že Austrálie není „mladá“ – původní obyvatelé zde žili dávno před příchodem Evropanů. Píseň složil Peter Dodds McCormick v roce 1878, státní hymnou je od roku 1984.",
+    "en": "The change took effect on 1 January 2021 to reflect that Australia is not \"young\": Indigenous Australians lived there long before Europeans arrived. Peter Dodds McCormick wrote the song in 1878, and it has been the national anthem since 1984."
+   }
+  },
+  {
+   "id": "T400-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Odkud pochází melodie americké hymny The Star-Spangled Banner?",
+    "en": "Where does the melody of The Star-Spangled Banner come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z tradiční irské lidové balady",
+     "Z písně londýnského pánského klubu",
+     "Z pochodu francouzské revoluční armády",
+     "Z německého luteránského chorálu"
+    ],
+    "en": [
+     "A traditional Irish folk ballad",
+     "A song of a London gentlemen's club",
+     "A French revolutionary army march",
+     "A German Lutheran church chorale"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Melodii The Anacreontic Song (To Anacreon in Heaven) složil John Stafford Smith pro Anakreontskou společnost, londýnský pánský klub. Oficiální hymnou USA ji Kongres prohlásil až v roce 1931.",
+    "en": "The tune of \"The Anacreontic Song\" (\"To Anacreon in Heaven\") was composed by John Stafford Smith for the Anacreontic Society, a London gentlemen's club. Congress only made it the official US anthem in 1931."
+   }
+  },
+  {
+   "id": "T400-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Počáteční písmena 15 slok nizozemské hymny Wilhelmus tvoří akrostich. Co dávají dohromady?",
+    "en": "The first letters of the 15 stanzas of the Dutch anthem, the Wilhelmus, form an acrostic. What do they spell?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vrijheid Holland",
+     "Prinse van Oranje",
+     "Graaf van Holland",
+     "Willem van Nassov"
+    ],
+    "en": [
+     "Vrijheid Holland",
+     "Prinse van Oranje",
+     "Graaf van Holland",
+     "Willem van Nassov"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Akrostich odkazuje na Viléma Oranžského (Willem van Nassau), vůdce povstání proti Španělsku; text vznikl mezi lety 1568 a 1572. Wilhelmus bývá považován za nejstarší dosud užívanou státní hymnu, protože jeho hudba i text pocházejí z 16. století; oficiální hymnou Nizozemska se ale stal až v roce 1932.",
+    "en": "The acrostic refers to William of Orange (Willem van Nassau), leader of the revolt against Spain; the words date from between 1568 and 1572. The Wilhelmus is often considered the oldest national anthem still in use, as both its tune and words date from the 16th century, though it only became the official Dutch anthem in 1932."
+   }
+  },
+  {
+   "id": "T400-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se jmenuje kosovská hymna, přijatá v roce 2008 bez oficiálního textu?",
+    "en": "What is the name of Kosovo's national anthem, adopted in 2008 without official lyrics?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jednota",
+     "Dardanie",
+     "Evropa",
+     "Svoboda"
+    ],
+    "en": [
+     "Unity",
+     "Dardania",
+     "Europe",
+     "Freedom"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Skladbu Mendiho Mengjiqiho parlament přijal beze slov, aby text neupřednostnil albánskou většinu ani Srby a další menšiny. Oficiální text nemají ani hymny Španělska a Bosny a Hercegoviny (k roku 2026).",
+    "en": "Parliament adopted Mendi Mengjiqi's piece without words so that no lyrics would favour the Albanian majority over Serbs and other minorities. The anthems of Spain and Bosnia and Herzegovina also have no official lyrics (as of 2026)."
+   }
+  },
+  {
+   "id": "T400-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ruští sportovci startovali na OH v Tokiu 2020 jako „ROC“ a bez vlastní hymny. Co ji se schválením MOV nahradilo?",
+    "en": "At the Tokyo 2020 Olympics, Russian athletes competed as \"ROC\" without their own anthem. What did the IOC approve to replace it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sovětská válečná píseň Kaťuša",
+     "Úryvek z Čajkovského 1. klavírního koncertu",
+     "Úryvek z Rachmaninovova 2. klavírního koncertu",
+     "Ruská lidová píseň Kalinka"
+    ],
+    "en": [
+     "The Soviet wartime song \"Katyusha\"",
+     "An excerpt from Tchaikovsky's Piano Concerto No. 1",
+     "An excerpt from Rachmaninoff's Piano Concerto No. 2",
+     "The Russian folk song \"Kalinka\""
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "MOV úryvek schválil 22. dubna 2021 poté, co Sportovní arbitráž (CAS) zamítla Kaťušu jako píseň spojenou s Ruskem. Šlo o důsledek dopingového skandálu, kvůli němuž Rusko nesmělo dva roky na OH a mistrovstvích světa používat svůj název, vlajku ani hymnu.",
+    "en": "The IOC approved the excerpt on 22 April 2021 after the Court of Arbitration for Sport blocked \"Katyusha\" as a song linked to Russia. It was a consequence of the doping scandal that barred Russia from using its name, flag and anthem at the Olympics and world championships for two years."
+   }
+  },
+  {
+   "id": "T400-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Italská hymna připomíná rozdělení jiné země, jejíž hymna zase zmiňuje Itálii. O kterou zemi jde?",
+    "en": "Italy's national anthem recalls the partition of another country whose own anthem in turn mentions Italy. Which country is it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Polsko",
+     "Řecko",
+     "Maďarsko",
+     "Irsko"
+    ],
+    "en": [
+     "Poland",
+     "Greece",
+     "Hungary",
+     "Ireland"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pátá sloka Mameliho písně z roku 1847 zmiňuje polskou krev, kterou rakouská orlice pila spolu s kozákem (Ruskem), což je narážka na rozdělení Polska; polská hymna z roku 1797 zase zpívá o pochodu „z italské země do Polska“. Italská píseň byla od roku 1946 hymnou jen prozatímně, zákonem ji Itálie potvrdila až v prosinci 2017.",
+    "en": "The fifth stanza of Mameli's 1847 song mentions Polish blood drunk by the Austrian eagle together with the Cossack (Russia), alluding to the partition of Poland, while Poland's 1797 anthem sings of marching \"from the Italian land to Poland\". Italy's song was only a provisional anthem from 1946 until a law confirmed it in December 2017."
+   }
+  },
+  {
+   "id": "T400-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co je neobvyklého na oficiálním postavení britské hymny God Save the King?",
+    "en": "What is unusual about the official status of Britain's national anthem, God Save the King?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nikdy ji nepotvrdil žádný zákon ani proklamace",
+     "Při státních akcích se musí zpívat všechny sloky",
+     "Na její text má autorská práva královská rodina",
+     "Smí se hrát jen v přítomnosti panovníka"
+    ],
+    "en": [
+     "No law or proclamation ever made it official",
+     "All its verses must be sung at state events",
+     "Its lyrics are copyrighted by the royal family",
+     "It may only be played in the monarch's presence"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Své postavení odvozuje jen ze zvyku a užívání, ne z královské proklamace ani zákona parlamentu (k roku 2026). Podle tradice poprvé veřejně zazněla v roce 1745 na podporu krále Jiřího II.",
+    "en": "Its status comes only from custom and use, not from a royal proclamation or an act of Parliament (as of 2026). By tradition it was first performed in public in 1745 in support of King George II."
+   }
+  },
+  {
+   "id": "T400-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Chorál Nkosi Sikelel' iAfrika (Bože, žehnej Africe), který v roce 1897 složil učitel Enoch Sontonga, je součástí hymny JAR. Které dvě další země mají na jeho melodii státní hymnu (k roku 2026)?",
+    "en": "The hymn Nkosi Sikelel' iAfrika (God Bless Africa), composed in 1897 by teacher Enoch Sontonga, is part of South Africa's anthem. Which two other countries have national anthems set to its melody (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Keňa a Uganda",
+     "Botswana a Malawi",
+     "Tanzanie a Zambie",
+     "Ghana a Nigérie"
+    ],
+    "en": [
+     "Kenya and Uganda",
+     "Botswana and Malawi",
+     "Tanzania and Zambia",
+     "Ghana and Nigeria"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Tanzanie zpívá od roku 1961 svahilskou verzi Mungu ibariki Afrika, Zambie si melodii ponechala a v roce 1973 k ní přijala nový text. Dříve ji jako hymnu používaly i Zimbabwe (1980–1994) a krátce Namibie (1990–1991).",
+    "en": "Tanzania has sung the Swahili version, Mungu ibariki Afrika, since 1961, while Zambia kept the melody and adopted new words in 1973. Zimbabwe (1980–1994) and, briefly, Namibia (1990–1991) also used it as their anthem."
+   }
+  },
+  {
+   "id": "T400-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Slova japonské hymny Kimigajo jsou považována za nejstarší text ze všech státních hymen. Odkud pocházejí?",
+    "en": "The words of Japan's anthem, Kimigayo, are considered the oldest lyrics of any national anthem. Where do they come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z básně waka z antologie 10. století",
+     "Z výnosu prvního japonského císaře",
+     "Z buddhistické sútry přinesené z Číny",
+     "Z básně samurajského generála 12. století"
+    ],
+    "en": [
+     "A waka poem from a 10th-century anthology",
+     "A decree issued by Japan's first emperor",
+     "A Buddhist sutra brought from China",
+     "A poem by a 12th-century samurai general"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Anonymní báseň z období Heian vyšla kolem roku 920 ve sbírce Kokin Wakashū. Za oficiální státní hymnu ji ale Japonsko uzákonilo až v roce 1999.",
+    "en": "The anonymous Heian-period poem appeared around 920 in the anthology Kokin Wakashū. Yet Japan only made it the official national anthem by law in 1999."
+   }
+  },
+  {
+   "id": "T400-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Melodie izraelské hymny Hatikva vychází ze staré italské písně, kterou použil i jeden skladatel 19. století ve slavné symfonické básni. Ve které?",
+    "en": "The melody of Israel's anthem, Hatikvah, goes back to an old Italian song that a 19th-century composer also used in a famous symphonic poem. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Preludia (Franz Liszt)",
+     "Vltava (Bedřich Smetana)",
+     "Finlandia (Jean Sibelius)",
+     "Noc na Lysé hoře (Modest Musorgskij)"
+    ],
+    "en": [
+     "Les Préludes (Franz Liszt)",
+     "The Moldau (Bedřich Smetana)",
+     "Finlandia (Jean Sibelius)",
+     "Night on Bald Mountain (Modest Mussorgsky)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Samuel Cohen nápěv v letech 1887–1888 převzal z rumunské lidové písně, která vychází z italské La Mantovana z doby kolem roku 1600; stejnou melodii zpracoval i Smetana. Hatikva je neobvyklá i mollovou tóninou a oficiální hymnou se stala až v roce 2004.",
+    "en": "Samuel Cohen took the tune in 1887–1888 from a Romanian folk song based on the Italian \"La Mantovana\" from around 1600, the same melody Smetana used. Hatikvah is also unusual for being in a minor key, and it only became the official anthem in 2004."
+   }
+  },
+  {
+   "id": "T400-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak byl podle známého příběhu básník Francisco González Bocanegra přiměn napsat text mexické hymny?",
+    "en": "According to a well-known story, how was the poet Francisco González Bocanegra persuaded to write the words of Mexico's national anthem?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve vězení mu slíbili propuštění",
+     "Prohrál sázku se svými přáteli",
+     "Prezident mu slíbil ministerské křeslo",
+     "Snoubenka ho zamkla v pokoji"
+    ],
+    "en": [
+     "He was promised release from prison",
+     "He lost a bet with his friends",
+     "The president promised him a ministry",
+     "His fiancée locked him in a room"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Podle vyprávění ho snoubenka Guadalupe zamkla v ložnici v domě svých rodičů, dokud nenapsal příspěvek do soutěže; hymna byla přijata v roce 1854. Hudbu složil Jaime Nunó, rodák z Katalánska.",
+    "en": "As the story goes, his fiancée Guadalupe locked him in a bedroom in her parents' house until he wrote an entry for the competition; the anthem was adopted in 1854. The music was composed by Catalan-born Jaime Nunó."
+   }
+  }
+ ]
+}

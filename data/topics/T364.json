@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T364",
+ "nazev": {
+  "cs": "Němý film a počátky kinematografie",
+  "en": "Silent Film and the Birth of Cinema"
+ },
+ "kategorie": {
+  "id": "film-a-tv",
+  "nazev": {
+   "cs": "Film a TV",
+   "en": "Film & TV"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T364-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém městě uspořádali bratři Lumièrové 28. prosince 1895 první veřejné placené promítání, které bývá považováno za zrod kinematografie?",
+    "en": "In which city did the Lumière brothers hold their first public paid screening on 28 December 1895, traditionally regarded as the birth of cinema?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Paříži",
+     "V Bruselu",
+     "Ve Vídni",
+     "V Londýně"
+    ],
+    "en": [
+     "Paris",
+     "Brussels",
+     "Vienna",
+     "London"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Promítání se konalo v sále Salon Indien kavárny Grand Café v Paříži. Svůj první film přitom bratři soukromě předvedli už v březnu 1895.",
+    "en": "The screening took place in the Salon Indien of the Grand Café in Paris. The brothers had already shown their first film privately in March 1895."
+   }
+  },
+  {
+   "id": "T364-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se jmenoval přístroj bratří Lumièrů, který uměl film natočit, vyvolat i promítnout?",
+    "en": "What was the name of the Lumière brothers' device that could record, develop and project films?"
+   },
+   "moznosti": {
+    "cs": [
+     "Praxinoskop (Praxinoscope)",
+     "Fonograf (Phonograph)",
+     "Kinematograf (Cinématographe)",
+     "Laterna magika (Magic lantern)"
+    ],
+    "en": [
+     "Praxinoscope",
+     "Phonograph",
+     "Cinématographe",
+     "Magic lantern"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kinematograf byl přístroj „tři v jednom“. Původní kinematograf si nechal patentovat už 12. února 1892 Léon Bouly, Lumièrové svou verzi patentovali 13. února 1895.",
+    "en": "The Cinématographe was a three-in-one device. Léon Bouly had patented the original cinématographe on 12 February 1892; the Lumières patented their own version on 13 February 1895."
+   }
+  },
+  {
+   "id": "T364-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se divák němého filmu dozvěděl, co si postavy říkají?",
+    "en": "How did a silent film viewer find out what the characters were saying?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z komentáře nahraného na desce",
+     "Z mezititulků vložených mezi záběry",
+     "Z tištěného programu u vchodu",
+     "Z titulků běžících pod obrazem"
+    ],
+    "en": [
+     "From commentary recorded on a disc",
+     "From intertitles inserted between shots",
+     "From a printed programme handed out at the door",
+     "From subtitles running below the picture"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Mezititulky jsou natočené tištěné texty vložené do filmu – buď s dialogy, nebo s vysvětlujícím vyprávěním. Pro vyprávění se používaly ještě hluboko do 30. let.",
+    "en": "Intertitles are filmed printed texts edited into the film – either dialogue or expository narration. They remained common for narration well into the 1930s."
+   }
+  },
+  {
+   "id": "T364-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co obvykle doprovázelo promítání němých filmů v kinech?",
+    "en": "What usually accompanied screenings of silent films in cinemas?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rozhlasové vysílání pouštěné do sálu",
+     "Živá hudba",
+     "Naprosté ticho v sále",
+     "Hudba z magnetofonového pásu"
+    ],
+    "en": [
+     "A radio broadcast played into the hall",
+     "Live music",
+     "Complete silence in the hall",
+     "Music from magnetic tape"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Němé filmy se téměř vždy promítaly s živou hudbou. V malých kinech hrál pianista, ve velkých městech varhaník nebo celý orchestr.",
+    "en": "Silent films were almost always shown with live music. Small theatres usually had a pianist, while big-city venues used an organist or even a whole orchestra."
+   }
+  },
+  {
+   "id": "T364-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou přezdívku dostal Buster Keaton kvůli svému typickému výrazu?",
+    "en": "What nickname did Buster Keaton earn for his typical expression?"
+   },
+   "moznosti": {
+    "cs": [
+     "Muž s tisíci tvářemi (The Man of a Thousand Faces)",
+     "Věčný usměvavec (The Eternal Smiler)",
+     "Smutný klaun (The Sad Clown)",
+     "Velká kamenná tvář (The Great Stone Face)"
+    ],
+    "en": [
+     "The Man of a Thousand Faces",
+     "The Eternal Smiler",
+     "The Sad Clown",
+     "The Great Stone Face"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Keaton si kamennou tvář osvojil už jako dítě ve varieté: zjistil, že když se při kouscích sám nesměje, publikum se směje víc. Přezdívku „muž s tisíci tvářemi“ nesl hororový herec Lon Chaney.",
+    "en": "Keaton adopted his deadpan face as a child in vaudeville, when he noticed that audiences laughed more if he didn't show amusement himself. 'The Man of a Thousand Faces' was horror actor Lon Chaney's nickname."
+   }
+  },
+  {
+   "id": "T364-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi se narodil Charlie Chaplin?",
+    "en": "In which country was Charlie Chaplin born?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Kanadě",
+     "V Anglii",
+     "V USA",
+     "V Irsku"
+    ],
+    "en": [
+     "Canada",
+     "England",
+     "The USA",
+     "Ireland"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Chaplin se narodil 16. dubna 1889 v Londýně. Úřední záznam o jeho narození se nedochoval, sám věřil, že přišel na svět ve čtvrti Walworth.",
+    "en": "Chaplin was born in London on 16 April 1889. No official birth record survives; he himself believed he was born in Walworth, South London."
+   }
+  },
+  {
+   "id": "T364-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím se živil Georges Méliès, autor filmu Cesta na Měsíc (Le Voyage dans la Lune, 1902), než začal točit filmy?",
+    "en": "What did Georges Méliès, maker of A Trip to the Moon (Le Voyage dans la Lune, 1902), do for a living before he began making films?"
+   },
+   "moznosti": {
+    "cs": [
+     "Byl lékárníkem",
+     "Byl námořním důstojníkem",
+     "Byl hodinářem",
+     "Byl kouzelníkem"
+    ],
+    "en": [
+     "He was a pharmacist",
+     "He was a naval officer",
+     "He was a watchmaker",
+     "He was a stage magician"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Méliès koupil a vedl pařížské Théâtre Robert-Houdin, kde vymyslel přes 30 iluzí. Zkušenosti kouzelníka pak přenesl do svých filmových triků.",
+    "en": "Méliès bought and ran the Théâtre Robert-Houdin in Paris, where he created more than 30 illusions. He later carried his conjuring experience over into his film tricks."
+   }
+  },
+  {
+   "id": "T364-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Podle kterého doplňku byla k poznání typická filmová postava Harolda Lloyda?",
+    "en": "Which accessory made Harold Lloyd's typical screen character recognisable?"
+   },
+   "moznosti": {
+    "cs": [
+     "Černá páska přes levé oko",
+     "Buřinka a bambusová hůlka",
+     "Monokl na zlatém řetízku",
+     "Kulaté brýle s rohovou obroučkou"
+    ],
+    "en": [
+     "A black patch over the left eye",
+     "A bowler hat and bamboo cane",
+     "A monocle on a gold chain",
+     "Round horn-rimmed glasses"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Lloyd si postavu obyčejného mladíka v brýlích vymyslel v roce 1917 místo dřívější kostýmované postavy Lonesome Luke. Jeho brýle neměly skla.",
+    "en": "Lloyd created his ordinary young man in glasses in 1917 to replace his earlier costumed character, Lonesome Luke. His glasses had no lenses."
+   }
+  },
+  {
+   "id": "T364-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterou společnost založili v roce 1919 Charlie Chaplin, Mary Pickford, Douglas Fairbanks a D. W. Griffith?",
+    "en": "Which company did Charlie Chaplin, Mary Pickford, Douglas Fairbanks and D. W. Griffith found in 1919?"
+   },
+   "moznosti": {
+    "cs": [
+     "United Artists",
+     "Warner Bros.",
+     "Metro-Goldwyn-Mayer",
+     "Paramount"
+    ],
+    "en": [
+     "United Artists",
+     "Warner Bros.",
+     "Metro-Goldwyn-Mayer",
+     "Paramount"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hvězdy chtěly mít vlastní filmy pod kontrolou místo velkých studií. Šéf studia Metro Richard Rowland prý poznamenal: „Chovanci přebírají blázinec.“",
+    "en": "The stars wanted control over their own films instead of the big studios. Metro Pictures head Richard Rowland reportedly quipped: 'The inmates are taking over the asylum.'"
+   }
+  },
+  {
+   "id": "T364-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se díval divák na filmy v Edisonově kinetoskopu?",
+    "en": "How did a viewer watch films in Edison's Kinetoscope?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na zdi, kam obraz promítala lampa",
+     "S celým sálem na velkém plátně",
+     "Přes zvláštní brýle s barevnými skly",
+     "Sám, kukátkem ve skříni přístroje"
+    ],
+    "en": [
+     "On a wall, where a lamp projected the image",
+     "With a whole audience on a big screen",
+     "Through special glasses with coloured lenses",
+     "Alone, through a peephole in the cabinet"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kinetoskop byl určen jen pro jednoho diváka najednou. První salon s deseti kinetoskopy se otevřel 14. dubna 1894 na newyorské Broadwayi.",
+    "en": "The Kinetoscope was designed for one viewer at a time. The first parlour, with ten machines, opened on Broadway in New York on 14 April 1894."
+   }
+  },
+  {
+   "id": "T364-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Podle slavné historky diváci při promítání filmu Příjezd vlaku (L'Arrivée d'un train en gare de La Ciotat) v panice utíkali ze sálu. Jak to vidí filmoví historici?",
+    "en": "According to a famous story, audiences fled in panic from screenings of The Arrival of a Train at La Ciotat. What do film historians say?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dobové zprávy o panice chybějí, jde spíš o legendu",
+     "Panika vypukla, ale jen při promítání v Londýně",
+     "Panika je doložena policejními záznamy z Paříže",
+     "Lidé utíkali, protože začala hořet promítačka"
+    ],
+    "en": [
+     "There are no contemporary reports of panic; it is more of a legend",
+     "Panic broke out, but only at a screening in London",
+     "The panic is documented in Paris police records",
+     "People fled because the projector caught fire"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Historik Martin Loiperdinger upozorňuje, že o panice nejsou žádné dobové zprávy, přestože by ji noviny nejspíš zaznamenaly. Legendu možná posílily pozdější komické parodie o naivních divácích prchajících před vlakem na plátně.",
+    "en": "Historian Martin Loiperdinger notes there are no contemporary reports of panic, although local newspapers would probably have covered it. The legend may have been fuelled by later comic parodies of naive viewers fleeing an on-screen train."
+   }
+  },
+  {
+   "id": "T364-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo režíroval Upíra Nosferatu (Nosferatu, 1922)?",
+    "en": "Who directed Nosferatu (1922)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Robert Wiene",
+     "F. W. Murnau",
+     "G. W. Pabst",
+     "Fritz Lang"
+    ],
+    "en": [
+     "Robert Wiene",
+     "F. W. Murnau",
+     "G. W. Pabst",
+     "Fritz Lang"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Friedrich Wilhelm Murnau film natočil pro studio Prana Film, upíra hrál Max Schreck. Fritz Lang natočil Metropolis, Robert Wiene Kabinet doktora Caligariho.",
+    "en": "Friedrich Wilhelm Murnau made the film for Prana Film, with Max Schreck as the vampire. Fritz Lang made Metropolis, and Robert Wiene The Cabinet of Dr. Caligari."
+   }
+  },
+  {
+   "id": "T364-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím je výtvarně proslulý Kabinet doktora Caligariho (Das Cabinet des Dr. Caligari, 1920)?",
+    "en": "What is The Cabinet of Dr. Caligari (Das Cabinet des Dr. Caligari, 1920) visually famous for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Malovanými zkreslenými kulisami",
+     "Natáčením v ulicích Berlína",
+     "Záběry pořízenými z letadla",
+     "Kulisami ze zrcadel a skla"
+    ],
+    "en": [
+     "Painted, distorted sets",
+     "Shooting in the streets of Berlin",
+     "Shots taken from an aeroplane",
+     "Sets made of mirrors and glass"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Film je považován za typické dílo německého expresionismu: pokřivené domy i ulice jsou namalované a světla a stíny jsou namalované přímo na kulisách.",
+    "en": "The film is regarded as the quintessential work of German Expressionism: its crooked houses and streets are painted, and light and shadows are painted directly onto the sets."
+   }
+  },
+  {
+   "id": "T364-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč je velkofilm D. W. Griffitha Zrození národa (The Birth of a Nation, 1915) dodnes tak sporný?",
+    "en": "Why is D. W. Griffith's epic The Birth of a Nation (1915) still so controversial?"
+   },
+   "moznosti": {
+    "cs": [
+     "Oslavuje Ku-klux-klan jako hrdiny",
+     "Propagoval vstup USA do 1. světové války",
+     "Vznikl podle ukradeného scénáře",
+     "Obsahuje záběry skutečné popravy"
+    ],
+    "en": [
+     "It glorifies the Ku Klux Klan as heroes",
+     "It promoted US entry into World War I",
+     "It was based on a stolen script",
+     "It contains footage of a real execution"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Film rasisticky zobrazuje černochy (často bílé herce s načerněnou tváří) a klan líčí jako ochránce. Organizace NAACP proti němu protestovala a historici mu připisují podíl na obnovení Ku-klux-klanu v listopadu 1915.",
+    "en": "The film portrays Black people in racist terms (often white actors in blackface) and depicts the Klan as protectors. The NAACP protested against it, and historians credit it with helping the Klan's revival in November 1915."
+   }
+  },
+  {
+   "id": "T364-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak fungoval zvuk systému Vitaphone, s nímž studio Warner Bros. natočilo Jazzového zpěváka (The Jazz Singer, 1927)?",
+    "en": "How did the sound of the Vitaphone system, used by Warner Bros. for The Jazz Singer (1927), work?"
+   },
+   "moznosti": {
+    "cs": [
+     "Herci mluvili živě za plátnem",
+     "Byl zaznamenán jako světelná stopa na filmovém pásu",
+     "Hrál z gramofonových desek spojených s promítačkou",
+     "Hrál z magnetofonového pásu"
+    ],
+    "en": [
+     "Actors spoke live behind the screen",
+     "It was recorded as an optical track on the film strip",
+     "It played from phonograph records linked to the projector",
+     "It played from magnetic tape"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vitaphone patřil k systémům se zvukem na desce: gramofon spojený s promítačkou udržoval zvuk v souladu s obrazem. Desky měly průměr asi 40 cm a točily se rychlostí 33 ⅓ otáčky za minutu.",
+    "en": "Vitaphone was a sound-on-disc system: a turntable linked to the projector kept the sound in sync with the picture. The discs were about 40 cm (16 in) across and ran at 33⅓ rpm."
+   }
+  },
+  {
+   "id": "T364-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co zachycuje snímek, který bývá považován za první film bratří Lumièrů (1895)?",
+    "en": "What is shown in the short regarded as the Lumière brothers' first film (1895)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vlak přijíždějící na nádraží",
+     "Ohňostroj nad Paříží",
+     "Kováře při práci v dílně",
+     "Dělníky odcházející z továrny"
+    ],
+    "en": [
+     "A train arriving at a station",
+     "Fireworks over Paris",
+     "Blacksmiths at work in a smithy",
+     "Workers leaving a factory"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Film Odchod dělníků z továrny (La Sortie de l'usine Lumière à Lyon) trvá asi 46 sekund. Bratři ho soukromě promítli 22. března 1895, Příjezd vlaku se veřejně promítal až v lednu 1896.",
+    "en": "Workers Leaving the Lumière Factory (La Sortie de l'usine Lumière à Lyon) lasts about 46 seconds. The brothers screened it privately on 22 March 1895, while The Arrival of a Train was first shown publicly only in January 1896."
+   }
+  },
+  {
+   "id": "T364-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč se pohyby v němých filmech při dnešním promítání často zdají nepřirozeně rychlé?",
+    "en": "Why do movements in silent films often look unnaturally fast when shown today?"
+   },
+   "moznosti": {
+    "cs": [
+     "Herci záměrně hráli rychleji, aby byl film kratší",
+     "Točily se jinou, často nižší rychlostí snímání",
+     "Kamery tehdy nezvládaly zachytit pomalý pohyb",
+     "Filmový pás se stárnutím zkracuje a obraz zrychlí"
+    ],
+    "en": [
+     "Actors deliberately moved faster to keep films short",
+     "They were shot at different, often lower frame rates",
+     "Cameras back then could not capture slow movement",
+     "Film stock shrinks with age, speeding up the image"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Němé filmy se točily zhruba 12 až 40 políčky za sekundu podle roku a studia – jednotný standard neexistoval. Zvukový film se ustálil na 24 políčkách, a když se starý film promítá touto rychlostí, pohyb se zrychlí.",
+    "en": "Silent films were shot at anywhere from about 12 to 40 frames per second, depending on year and studio – there was no real standard. Sound film settled on 24 fps, and projecting an old film at that speed makes motion look faster."
+   }
+  },
+  {
+   "id": "T364-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Mary Pickford, přezdívaná Miláček Ameriky (America's Sweetheart), se narodila v...",
+    "en": "Mary Pickford, nicknamed America's Sweetheart, was born in..."
+   },
+   "moznosti": {
+    "cs": [
+     "Torontu",
+     "Dublinu",
+     "Chicagu",
+     "Londýně"
+    ],
+    "en": [
+     "Toronto",
+     "Dublin",
+     "Chicago",
+     "London"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pickfordová se narodila v roce 1892 v kanadském Torontu a americké občanství získala až v roce 1920. Patřila mezi 36 zakladatelů Akademie filmového umění a věd.",
+    "en": "Pickford was born in Toronto, Canada, in 1892 and became an American citizen only in 1920. She was one of the 36 founders of the Academy of Motion Picture Arts and Sciences."
+   }
+  },
+  {
+   "id": "T364-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "O čem je film Bustera Keatona Frigo na mašině (The General, 1926)?",
+    "en": "What is Buster Keaton's film The General (1926) about?"
+   },
+   "moznosti": {
+    "cs": [
+     "O vojákovi v zákopech 1. světové války",
+     "O Napoleonově tažení do Ruska",
+     "O honičce za ukradenou lokomotivou",
+     "O kapitánovi parníku na Mississippi"
+    ],
+    "en": [
+     "A soldier in the trenches of World War I",
+     "Napoleon's invasion of Russia",
+     "A chase after a stolen locomotive",
+     "A Mississippi steamboat captain"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Film se odehrává za americké občanské války: unijní špioni ukradnou lokomotivu General a strojvůdce Johnnie Gray je pronásleduje. Děj vychází ze skutečné události z roku 1862. Kritika film při premiéře přijala rozpačitě, dnes je považován za Keatonův vrchol.",
+    "en": "Set during the American Civil War, it follows engineer Johnnie Gray chasing Union spies who have stolen his locomotive, the General. The plot is based on a real event of 1862. Critics were mixed on release, but it is now regarded as Keaton's greatest achievement."
+   }
+  },
+  {
+   "id": "T364-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který film získal na ceremoniálu v roce 2012 Oscara za nejlepší film, přestože je natočen převážně jako němý černobílý snímek?",
+    "en": "Which film won the Academy Award for Best Picture at the 2012 ceremony, even though it was made largely as a silent black-and-white film?"
+   },
+   "moznosti": {
+    "cs": [
+     "Děti moje (The Descendants)",
+     "Půlnoc v Paříži (Midnight in Paris)",
+     "Umělec (The Artist)",
+     "Hugo a jeho velký objev (Hugo)"
+    ],
+    "en": [
+     "The Descendants",
+     "Midnight in Paris",
+     "The Artist",
+     "Hugo"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Umělec (The Artist, 2011) se odehrává v Hollywoodu v letech 1927–1932, kdy němý film střídal zvukový. Je černobílý a téměř celý němý, zvuk zazní jen ve dvou krátkých scénách.",
+    "en": "The Artist (2011) is set in Hollywood from 1927 to 1932, as silent films gave way to talkies. It is in black and white and almost entirely silent, with sound in just two brief scenes."
+   }
+  },
+  {
+   "id": "T364-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Edisonův ateliér Black Maria (1893), považovaný za první filmové studio na světě, měl neobvyklou konstrukci. Jakou?",
+    "en": "Edison's Black Maria studio (1893), considered the world's first film studio, had an unusual design. What was it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Byl vykopaný pod zemí kvůli tichu",
+     "Stál na otočné plošině, aby se natáčel za sluncem",
+     "Měl stěny i střechu celé ze skla",
+     "Byl postaven na palubě říčního člunu"
+    ],
+    "en": [
+     "It was dug underground for quiet",
+     "It stood on a turntable so it could follow the sun",
+     "Its walls and roof were made entirely of glass",
+     "It was built on the deck of a river barge"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ateliér v West Orange měl otevírací střechu a celý se otáčel, aby slunce svítilo do okna po celý den. Jméno dostal podle policejních antonů, kterým se stísněný černý ateliér podobal.",
+    "en": "The West Orange studio had a retractable roof and the whole building turned so the window could face the sun all day. It was named after police paddy wagons ('Black Marias'), which the cramped black studio resembled."
+   }
+  },
+  {
+   "id": "T364-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím se Georges Méliès živil ve druhé polovině 20. let, kdy jeho filmy upadly v zapomnění?",
+    "en": "How did Georges Méliès make a living in the second half of the 1920s, when his films had been forgotten?"
+   },
+   "moznosti": {
+    "cs": [
+     "Promítal filmy v předměstském kině",
+     "Vystupoval jako kouzelník v cirkuse",
+     "Maloval plakáty pro pařížská divadla",
+     "Prodával hračky a sladkosti na nádraží"
+    ],
+    "en": [
+     "He projected films in a suburban cinema",
+     "He performed as a magician in a circus",
+     "He painted posters for Paris theatres",
+     "He sold toys and sweets at a railway station"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Méliès s manželkou Jehanne d'Alcy provozoval stánek s hračkami a cukrovinkami v hale pařížského nádraží Montparnasse. V roce 1932 se přestěhovali do domova pro filmové veterány v Orly.",
+    "en": "Méliès and his wife Jehanne d'Alcy ran a toy and sweets stall in the main hall of Paris's Gare Montparnasse. In 1932 they moved to the film industry's retirement home in Orly."
+   }
+  },
+  {
+   "id": "T364-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Harold Lloyd dál natáčel filmy s odvážnými kousky, přestože ho v roce 1919 zranila rekvizitní bomba, která byla nečekaně ostrá. O co přišel?",
+    "en": "Harold Lloyd kept making films full of daring stunts even though a prop bomb that turned out to be live injured him in 1919. What did he lose?"
+   },
+   "moznosti": {
+    "cs": [
+     "O dva prsty na levé noze",
+     "O palec a ukazováček pravé ruky",
+     "O sluch na pravém uchu",
+     "O zrak na levém oku"
+    ],
+    "en": [
+     "Two toes on his left foot",
+     "The thumb and index finger of his right hand",
+     "The hearing in his right ear",
+     "The sight in his left eye"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Bomba vybuchla při reklamním focení poté, co ji Lloyd zapálil cigaretou. Zranění pak ve filmech skrývala zvláštní protetická rukavice, na plátně téměř nepostřehnutelná. Nejnebezpečnější scény za něj točil kaskadér Harvey Parry.",
+    "en": "The bomb exploded during a publicity photo shoot after Lloyd lit it with a cigarette. In later films a special prosthetic glove hid the injury, almost undetectable on screen. Stunt double Harvey Parry handled the most dangerous sequences."
+   }
+  },
+  {
+   "id": "T364-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na prvním udílení Oscarů (1929) dostal Charlie Chaplin zvláštní cenu za všestrannost – za herectví, scénář, režii i produkci jednoho filmu. Kterého?",
+    "en": "At the first Academy Awards (1929), Charlie Chaplin received a special award for versatility – for acting in, writing, directing and producing one film. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kid (The Kid)",
+     "Světla velkoměsta (City Lights)",
+     "Zlaté opojení (The Gold Rush)",
+     "Cirkus (The Circus)"
+    ],
+    "en": [
+     "The Kid",
+     "City Lights",
+     "The Gold Rush",
+     "The Circus"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Cena zněla „za všestrannost a genialitu v herectví, psaní, režii a produkci filmu Cirkus“. Světla velkoměsta vznikla až v roce 1931.",
+    "en": "The award was 'for versatility and genius in acting, writing, directing and producing The Circus'. City Lights came out only in 1931."
+   }
+  },
+  {
+   "id": "T364-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Scénář Kabinetu doktora Caligariho napsali Carl Mayer a Hans Janowitz. Ve kterém českém městě se Janowitz narodil?",
+    "en": "The Cabinet of Dr. Caligari was written by Carl Mayer and Hans Janowitz. In which Czech town was Janowitz born?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Opavě",
+     "V Jihlavě",
+     "V Poděbradech",
+     "V Liberci"
+    ],
+    "en": [
+     "Opava",
+     "Jihlava",
+     "Poděbrady",
+     "Liberec"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Janowitz se narodil 2. prosince 1890 v Poděbradech, tehdy v Rakousku-Uhersku. Při psaní scénáře podle všeho čerpal ze vzpomínek na Prahu.",
+    "en": "Janowitz was born in Poděbrady, then in Austria-Hungary, on 2 December 1890. When writing the script he reportedly drew on memories of Prague."
+   }
+  },
+  {
+   "id": "T364-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co dělal v japonských kinech němé éry benši?",
+    "en": "What did a benshi do in Japanese cinemas during the silent era?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ručně koloroval filmové kopie",
+     "Uváděl diváky a prodával lístky",
+     "Živě komentoval děj a mluvil za postavy",
+     "Hrál na bubny zvukové efekty"
+    ],
+    "en": [
+     "Hand-coloured film prints",
+     "Ushered viewers and sold tickets",
+     "Narrated the plot live and voiced the characters",
+     "Played sound effects on drums"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Benši u plátna vyprávěl, komentoval a mluvil za postavy, u zahraničních filmů i překládal. Jejich obliba je jedním z důvodů, proč se v Japonsku němé filmy točily hluboko do 30. let.",
+    "en": "The benshi stood by the screen narrating, commenting and voicing the characters, and translated foreign films too. Their popularity is one reason silent films lasted well into the 1930s in Japan."
+   }
+  },
+  {
+   "id": "T364-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Edisonův kinetoskop z velké části vyvinul jeho zaměstnanec, kterému historici připisují většinu pokusů. Kdo to byl?",
+    "en": "Edison's Kinetoscope was largely developed by one of his employees, whom historians credit with most of the experimental work. Who was he?"
+   },
+   "moznosti": {
+    "cs": [
+     "Eadweard Muybridge",
+     "Edwin S. Porter",
+     "Nikola Tesla",
+     "W. K. L. Dickson"
+    ],
+    "en": [
+     "Eadweard Muybridge",
+     "Edwin S. Porter",
+     "Nikola Tesla",
+     "W. K. L. Dickson"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Edison svěřil zdokonalení přístroje Williamu Kennedymu Lauriemu Dicksonovi, jednomu ze svých nejschopnějších zaměstnanců. Dickson také spolu s Jonathanem Campbellem vymyslel jméno ateliéru Black Maria.",
+    "en": "Edison assigned the task of making the device practical to William Kennedy Laurie Dickson, one of his most talented employees. Together with Jonathan Campbell, Dickson also coined the name of the Black Maria studio."
+   }
+  },
+  {
+   "id": "T364-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se jmenuje náměsíčník (somnambul), kterého ve filmu Kabinet doktora Caligariho (1920) ovládá doktor Caligari?",
+    "en": "What is the name of the somnambulist controlled by Dr. Caligari in The Cabinet of Dr. Caligari (1920)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Cesare",
+     "Mabuse",
+     "Rotwang",
+     "Orlok"
+    ],
+    "en": [
+     "Cesare",
+     "Mabuse",
+     "Rotwang",
+     "Orlok"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Ve scénáři se jméno píše „Caesare“. Orlok je upír z Nosferatu, Rotwang vynálezce z Metropolis a Mabuse zločinec z filmů Fritze Langa.",
+    "en": "The script spells the name 'Caesare'. Orlok is the vampire in Nosferatu, Rotwang the inventor in Metropolis and Mabuse the criminal mastermind of Fritz Lang's films."
+   }
+  },
+  {
+   "id": "T364-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém filmu se Buster Keaton a Charlie Chaplin objevili společně v komickém výstupu (nepočítáme-li krátký propagační snímek z roku 1922)?",
+    "en": "In which film did Buster Keaton and Charlie Chaplin appear together in a comedy routine (not counting a short 1922 publicity film)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Světla ramp (Limelight, 1952)",
+     "Moderní doba (Modern Times, 1936)",
+     "Diktátor (The Great Dictator, 1940)",
+     "Monsieur Verdoux (1947)"
+    ],
+    "en": [
+     "Limelight (1952)",
+     "Modern Times (1936)",
+     "The Great Dictator (1940)",
+     "Monsieur Verdoux (1947)"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Ve Světlech ramp hrají dva nešikovné jevištní hudebníky, což připomíná Keatonův styl z varieté. Kromě propagačního filmu Seeing Stars (1922) to bylo jejich jediné společné vystoupení na plátně.",
+    "en": "In Limelight they play two inept stage musicians, recalling Keaton's vaudeville style. Apart from the publicity short Seeing Stars (1922), it was their only appearance together on screen."
+   }
+  },
+  {
+   "id": "T364-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Mary Pickford získala Oscara za nejlepší ženský herecký výkon za film Coquette (1929). Čím byl tento film v její kariéře zvláštní?",
+    "en": "Mary Pickford won the Academy Award for Best Actress for Coquette (1929). What was special about this film in her career?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sama ho režírovala",
+     "Byl to její poslední film",
+     "Byl to její první zvukový film",
+     "Hrála v něm matku i dceru"
+    ],
+    "en": [
+     "She directed it herself",
+     "It was her last film",
+     "It was her first sound film",
+     "She played both mother and daughter in it"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Šlo o druhý ročník Oscarů a její vítězství bylo sporné. Nástup zvuku ukončil kariéru mnoha hvězd němého filmu, Pickfordová ale svůj první zvukový film proměnila v Oscara.",
+    "en": "It was the second Academy Awards ceremony, and her win was controversial. The arrival of sound ended many silent stars' careers, but Pickford turned her first talkie into an Oscar."
+   }
+  }
+ ]
+}

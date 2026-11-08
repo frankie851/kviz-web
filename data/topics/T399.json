@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T399",
+ "nazev": {
+  "cs": "Kuchyně Asie: dim sum, kari, pad thai a kimči",
+  "en": "Asian Cuisines: Dim Sum, Curry, Pad Thai and Kimchi"
+ },
+ "kategorie": {
+  "id": "jidlo-a-piti",
+  "nazev": {
+   "cs": "Jídlo a pití",
+   "en": "Food & Drink"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T399-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaké nudle tvoří základ thajského pad thai?",
+    "en": "What kind of noodles form the base of Thai pad thai?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pohankové nudle",
+     "Rýžové nudle",
+     "Pšeničné vaječné nudle",
+     "Tlusté pšeničné nudle"
+    ],
+    "en": [
+     "Buckwheat noodles",
+     "Rice noodles",
+     "Wheat egg noodles",
+     "Thick wheat noodles"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pad thai jsou smažené rýžové nudle. Typickou nakyslou chuť jim dodává šťáva z tamarindu.",
+    "en": "Pad thai is a dish of stir-fried rice noodles. Its typical tangy flavour comes from tamarind juice."
+   }
+  },
+  {
+   "id": "T399-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která zelenina je základem nejběžnějšího druhu kimči?",
+    "en": "Which vegetable is the base of the most common type of kimchi?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pekingské zelí",
+     "Bílá ředkev",
+     "Batáty",
+     "Salátová okurka"
+    ],
+    "en": [
+     "Napa cabbage",
+     "White radish",
+     "Sweet potato",
+     "Cucumber"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Nejrozšířenější je baechu-kimči z pekingského zelí: podle údajů z roku 2004 tvořilo přes 70 % prodávaného kimči. Celkem se rozlišuje přes 180 druhů kimči, mezi nimi i ředkvové a okurkové.",
+    "en": "The most widespread kind is baechu-kimchi, made from napa cabbage: according to 2004 data it made up over 70% of kimchi sold. Over 180 varieties of kimchi are recognised, including radish and cucumber kimchi."
+   }
+  },
+  {
+   "id": "T399-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "V čem se tradičně dusí v páře knedlíčky dim sum?",
+    "en": "In what are dim sum dumplings traditionally steamed?"
+   },
+   "moznosti": {
+    "cs": [
+     "V hliněných hrncích",
+     "V měděných pánvích",
+     "V banánových listech",
+     "V bambusových košících"
+    ],
+    "en": [
+     "Clay pots",
+     "Copper pans",
+     "Banana leaves",
+     "Bamboo baskets"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Bambusové pařáky se používají v celé čínské kuchyni, ale nejvíc jsou spojené právě s dim sum. Jídlo se v nich nejen připraví, ale rovnou se v nich i podává na stůl.",
+    "en": "Bamboo steamers are used throughout Chinese cooking but are most closely linked with dim sum. Food is not only cooked in them but also brought to the table in them."
+   }
+  },
+  {
+   "id": "T399-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Do čeho si strávníci tradičně balí plátky pekingské kachny?",
+    "en": "What do diners traditionally wrap slices of Peking duck in?"
+   },
+   "moznosti": {
+    "cs": [
+     "Do chlebových placek naan",
+     "Do tenkých pšeničných placek",
+     "Do banánových listů",
+     "Do kukuřičných tortill"
+    ],
+    "en": [
+     "Naan bread",
+     "Thin wheat pancakes",
+     "Banana leaves",
+     "Corn tortillas"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Maso se balí do tenkých placek s jarní cibulkou, okurkou a sladkou fazolovou omáčkou. Křupavá kůže se často podává zvlášť a namáčí se v cukru.",
+    "en": "The meat is wrapped in thin pancakes with spring onion, cucumber and sweet bean sauce. The crispy skin is often served separately, dipped in sugar."
+   }
+  },
+  {
+   "id": "T399-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Z čeho se hlavně vaří indický dál?",
+    "en": "What is Indian dal mainly made from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z rýžové mouky a vody",
+     "Ze sýra paneer a smetany",
+     "Z čočky a jiných luštěnin",
+     "Z brambor a cibule"
+    ],
+    "en": [
+     "Rice flour and water",
+     "Paneer cheese and cream",
+     "Lentils and other pulses",
+     "Potatoes and onions"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Dál jsou sušené loupané a půlené luštěniny, například čočka, hrách nebo fazole. Stejně se jmenují i polévky, které se z nich vaří.",
+    "en": "Dal are dried, split pulses such as lentils, peas and beans. The same name is used for the soups cooked from them."
+   }
+  },
+  {
+   "id": "T399-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co je thajský tom yum?",
+    "en": "What is Thai tom yum?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pálivá kyselá polévka",
+     "Grilované masové špízy",
+     "Smažené nudle s vejcem",
+     "Sladký kokosový dezert"
+    ],
+    "en": [
+     "A hot and sour soup",
+     "Grilled meat skewers",
+     "Fried noodles with egg",
+     "A sweet coconut dessert"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Tom yum je skupina pálivých a kyselých thajských polévek. Název spojuje thajská slova pro „vařit“ a „smíchaný“.",
+    "en": "Tom yum is a family of hot and sour Thai soups. The name combines Thai words meaning 'boiling' and 'mixed'."
+   }
+  },
+  {
+   "id": "T399-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co tvoří základ indického nápoje lassi?",
+    "en": "What forms the base of the Indian drink lassi?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jogurt",
+     "Kokosová voda",
+     "Šťáva z cukrové třtiny",
+     "Černý čaj"
+    ],
+    "en": [
+     "Yogurt",
+     "Coconut water",
+     "Sugarcane juice",
+     "Black tea"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Lassi se mixuje z jogurtu, vody a koření, může být slané i sladké. Pochází z Paňdžábu, kde se jogurt tradičně dělá z buvolího mléka a lassi se podává v hliněném pohárku kulhar.",
+    "en": "Lassi is blended from yogurt, water and spices and can be salty or sweet. It comes from Punjab, where the yogurt is traditionally made from water buffalo milk and lassi is served in a clay cup called a kulhar."
+   }
+  },
+  {
+   "id": "T399-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Při kterém čínském svátku se tradičně jedí měsíční koláčky?",
+    "en": "At which Chinese festival are mooncakes traditionally eaten?"
+   },
+   "moznosti": {
+    "cs": [
+     "Svátek jara (čínský Nový rok)",
+     "Svátek Čching-ming",
+     "Svátek dračích lodí",
+     "Svátek středu podzimu"
+    ],
+    "en": [
+     "Spring Festival (Chinese New Year)",
+     "Qingming Festival",
+     "Dragon Boat Festival",
+     "Mid-Autumn Festival"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Měsíční koláčky patří ke Svátku středu podzimu, kdy je měsíc v úplňku. Kantonské koláčky bývají plněné pastou z lotosových semínek a uvnitř mívají solený kachní žloutek, který symbolizuje úplněk.",
+    "en": "Mooncakes belong to the Mid-Autumn Festival, held at the full moon. Cantonese mooncakes are usually filled with lotus seed paste and often hide a salted duck egg yolk that symbolises the full moon."
+   }
+  },
+  {
+   "id": "T399-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Do čeho se balí vietnamské čerstvé (nesmažené) závitky gỏi cuốn?",
+    "en": "What are Vietnamese fresh (unfried) gỏi cuốn rolls wrapped in?"
+   },
+   "moznosti": {
+    "cs": [
+     "Do zelných listů",
+     "Do řasy nori",
+     "Do rýžového papíru",
+     "Do listového těsta filo"
+    ],
+    "en": [
+     "Cabbage leaves",
+     "Nori seaweed",
+     "Rice paper",
+     "Filo pastry"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Gỏi cuốn se balí do rýžového papíru bánh tráng a podávají se čerstvé, na rozdíl od smažených závitků chả giò. V Japonsku se jim říká nama harumaki, „syrové jarní závitky“.",
+    "en": "Gỏi cuốn are wrapped in bánh tráng rice paper and served fresh, unlike fried chả giò rolls. In Japan they are called nama harumaki, 'raw spring rolls'."
+   }
+  },
+  {
+   "id": "T399-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co je hlavní surovinou korejského pálivého jídla tteokbokki?",
+    "en": "What is the main ingredient of the spicy Korean dish tteokbokki?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bramborové knedlíčky",
+     "Kostky tofu",
+     "Kuřecí křidélka",
+     "Rýžové válečky"
+    ],
+    "en": [
+     "Potato dumplings",
+     "Tofu cubes",
+     "Chicken wings",
+     "Rice cakes"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Tteok jsou žvýkavé válečky z rýže, dušené v pálivé omáčce. Červená verze s pastou gočudžang se objevila prý až v roce 1953; starší královská verze se připravovala se sójovou omáčkou.",
+    "en": "Tteok are chewy rice cakes simmered in a spicy sauce. The red, gochujang-based version is believed to have first appeared in 1953; an older royal version was made with soy sauce."
+   }
+  },
+  {
+   "id": "T399-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co doslova znamená kantonský výraz dim sum?",
+    "en": "What does the Cantonese term dim sum literally mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dotknout se srdce",
+     "Malá sousta",
+     "Parní poklad",
+     "Ranní čaj"
+    ],
+    "en": [
+     "Touch the heart",
+     "Small bites",
+     "Steamed treasure",
+     "Morning tea"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Dim sum se doslova překládá jako „dotknout se srdce“. V tradičních restauracích obsluha rozváží jednotlivá jídla po sále na vozících vyhřívaných párou.",
+    "en": "Dim sum translates literally as 'touch the heart'. In traditional restaurants, servers offer the dishes from steam-heated carts wheeled around the room."
+   }
+  },
+  {
+   "id": "T399-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co doslova znamená název korejského grilovaného masa bulgogi?",
+    "en": "What does the name of the Korean grilled meat dish bulgogi literally mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tenké plátky",
+     "Královská hostina",
+     "Ohnivé maso",
+     "Sladké hovězí"
+    ],
+    "en": [
+     "Thin slices",
+     "Royal feast",
+     "Fire meat",
+     "Sweet beef"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Bul znamená „oheň“ a gogi „maso“. Nejčastěji jde o marinované hovězí z nízkého nebo vysokého roštěnce, běžné je ale i vepřové a kuřecí bulgogi.",
+    "en": "Bul means 'fire' and gogi means 'meat'. It is most often marinated beef sirloin or rib eye, but pork and chicken bulgogi are also common."
+   }
+  },
+  {
+   "id": "T399-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Thajská nam pla a vietnamská nước mắm jsou ochucovadla, bez kterých se tamní kuchyně neobejde. Z čeho se vyrábějí?",
+    "en": "Thai nam pla and Vietnamese nước mắm are condiments that local cooking can hardly do without. What are they made from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ze sóji fermentované s pšenicí",
+     "Z hub a mořských řas",
+     "Z ryb fermentovaných se solí",
+     "Z kokosové šťávy a palmového cukru"
+    ],
+    "en": [
+     "Soybeans fermented with wheat",
+     "Mushrooms and seaweed",
+     "Fish fermented with salt",
+     "Coconut sap and palm sugar"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jde o rybí omáčky: ryby (ve Vietnamu hlavně ančovičky) se nasolí a nechají fermentovat, někdy až dva roky. Thajská nam pla tradičně zrála nejméně osm měsíců v poměru tři díly ryb na dva díly soli.",
+    "en": "They are fish sauces: fish (in Vietnam mainly anchovies) are salted and left to ferment, sometimes for up to two years. Thai nam pla was traditionally fermented for at least eight months, three parts fish to two parts salt."
+   }
+  },
+  {
+   "id": "T399-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Filipínské adobo – maso dušené s česnekem a sójovou omáčkou – vděčí za svou kyselost hlavně čemu?",
+    "en": "Filipino adobo – meat braised with garlic and soy sauce – owes its sourness mainly to which ingredient?"
+   },
+   "moznosti": {
+    "cs": [
+     "Octu",
+     "Limetkové šťávě",
+     "Tamarindu",
+     "Zelenému mangu"
+    ],
+    "en": [
+     "Vinegar",
+     "Lime juice",
+     "Tamarind",
+     "Green mango"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Maso se marinuje a dusí v octu, soli či sójové omáčce a česneku. Název je španělský (adobar = marinovat), ale vaření s octem a solí znali obyvatelé ostrovů dávno před příchodem Španělů v roce 1521.",
+    "en": "The meat is marinated and simmered in vinegar, salt or soy sauce, and garlic. The name is Spanish (adobar = to marinate), but the islands' peoples cooked with vinegar and salt long before the Spanish arrived in 1521."
+   }
+  },
+  {
+   "id": "T399-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co je balut, oblíbené pouliční jídlo na Filipínách?",
+    "en": "What is balut, a popular street food in the Philippines?"
+   },
+   "moznosti": {
+    "cs": [
+     "Fermentovaná pasta z drobných ryb",
+     "Vařené oplozené vejce se zárodkem",
+     "Smažená vepřová kůže s chilli",
+     "Rýžový koláček plněný sladkým kokosem"
+    ],
+    "en": [
+     "A fermented paste of tiny fish",
+     "A boiled fertilised egg with an embryo",
+     "Fried pork skin with chilli",
+     "A rice cake filled with sweet coconut"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Balut je oplozené vejce, obvykle kachní, s vyvíjejícím se zárodkem, které se vaří a jí přímo ze skořápky. Na Filipínách se vejce před uvařením obvykle inkubují 14 až 18 dní; balut se prodává i ve Vietnamu.",
+    "en": "Balut is a fertilised egg, usually a duck egg, with a developing embryo, boiled and eaten straight from the shell. In the Philippines the eggs are usually incubated for 14 to 18 days before boiling; balut is also sold in Vietnam."
+   }
+  },
+  {
+   "id": "T399-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak dlouho se ve skutečnosti konzervují čínská „stoletá vejce“?",
+    "en": "How long are Chinese 'century eggs' actually preserved?"
+   },
+   "moznosti": {
+    "cs": [
+     "Týdny až měsíce",
+     "Asi rok",
+     "Asi 10 let",
+     "100 let"
+    ],
+    "en": [
+     "Weeks to months",
+     "About a year",
+     "About 10 years",
+     "100 years"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vejce se na několik týdnů až měsíců obalí směsí hlíny, popela, soli, nehašeného vápna a rýžových slupek. Zásadité prostředí zvedne pH vejce asi na 9–12, bílek ztmavne do hnědého rosolu a žloutek získá zelenošedou barvu.",
+    "en": "The eggs are coated for several weeks to months in a mixture of clay, ash, salt, quicklime and rice hulls. The alkaline coating raises the egg's pH to about 9–12, turning the white into a dark brown jelly and the yolk greenish-grey."
+   }
+  },
+  {
+   "id": "T399-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Polévka z ptačích hnízd patří k nejdražším čínským pochoutkám. Z čeho si salangany, rorýsovití ptáci, tato hnízda staví?",
+    "en": "Bird's nest soup is one of the most expensive Chinese delicacies. What do the swiftlets build these nests from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z peří a bahna",
+     "Ze ztuhlých slin",
+     "Z mořských řas",
+     "Z rýžové slámy"
+    ],
+    "en": [
+     "Feathers and mud",
+     "Hardened saliva",
+     "Seaweed",
+     "Rice straw"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Hnízda jsou tvořena propletenými vlákny ztuhlých slin. K nejvíce sbíraným patří hnízda salangany ostrovní (Aerodramus fuciphagus); za nejkvalitnější se považují pevná bílá hnízda s malým podílem peří.",
+    "en": "The nests consist of interwoven strands of hardened saliva. Among the most heavily harvested are those of the edible-nest swiftlet (Aerodramus fuciphagus); firm white nests with few feathers are rated highest."
+   }
+  },
+  {
+   "id": "T399-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co drží sójové boby v indonéském tempehu pohromadě v pevném bloku?",
+    "en": "What holds the soybeans of Indonesian tempeh together in a firm cake?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vaječný bílek, který se zapeče",
+     "Rýžový škrob přidaný jako pojivo",
+     "Kokosový tuk, který ztuhne",
+     "Plíseň, která boby prorůstá"
+    ],
+    "en": [
+     "Egg white that sets when baked",
+     "Rice starch added as a binder",
+     "Coconut fat that solidifies",
+     "A mould that grows through the beans"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Při fermentaci boby prorůstá plíseň rodu Rhizopus (R. oligosporus nebo R. oryzae) a spojí je v kompaktní blok. Tempeh pochází z Jávy, kde je důležitým zdrojem bílkovin.",
+    "en": "During fermentation a Rhizopus mould (R. oligosporus or R. oryzae) grows through the beans and binds them into a compact cake. Tempeh comes from Java, where it is a staple source of protein."
+   }
+  },
+  {
+   "id": "T399-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Korejská pálivá polévka budae-jjigae obsahuje spam a párky. Odkud se tato kombinace vzala?",
+    "en": "Korean budae-jjigae is a spicy stew containing Spam and sausages. Where did this combination come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z menu pro olympijské hry v Soulu 1988",
+     "Z televizní kuchařské soutěže z 90. let",
+     "Z jídla z amerických vojenských základen",
+     "Od korejských horníků vracejících se z Německa"
+    ],
+    "en": [
+     "The menu for the 1988 Seoul Olympics",
+     "A TV cooking contest of the 1990s",
+     "Food from US military bases",
+     "Korean miners returning from Germany"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Slovo budae znamená „vojenská základna“. Jídlo vzniklo v chudých letech kolem korejské války z amerických potravin, které se dostávaly ze základen; spam se v Jižní Koreji legálně prodává až od roku 1987.",
+    "en": "The word budae means 'military base'. The dish arose in the lean years around the Korean War from American food that made its way out of the bases; Spam was only legally sold in South Korea from 1987."
+   }
+  },
+  {
+   "id": "T399-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "V čem se vaří rýže pro nasi lemak, které je považováno za národní jídlo Malajsie?",
+    "en": "What is the rice cooked in for nasi lemak, regarded as Malaysia's national dish?"
+   },
+   "moznosti": {
+    "cs": [
+     "V zeleném čaji",
+     "V kokosovém mléce",
+     "V kuřecím vývaru",
+     "V rajčatové šťávě"
+    ],
+    "en": [
+     "Green tea",
+     "Coconut milk",
+     "Chicken broth",
+     "Tomato juice"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Rýže se vaří v kokosovém mléce s listy pandánu. Lemak doslova znamená „tuk“, tady ve smyslu „bohatý, krémový“.",
+    "en": "The rice is cooked in coconut milk with pandan leaves. Lemak literally means 'fat', here in the sense of 'rich' or 'creamy'."
+   }
+  },
+  {
+   "id": "T399-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Sečuánský pepř, který na jazyku vyvolává brnění a znecitlivění, nepochází z pepřovníku. Do které čeledi rostlin patří?",
+    "en": "Sichuan pepper, which makes the tongue tingle and go numb, does not come from the pepper vine. Which plant family does it belong to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zázvorovité (jako zázvor)",
+     "Myrtovité (jako hřebíček)",
+     "Routovité (jako citrusy)",
+     "Lilkovité (jako chilli)"
+    ],
+    "en": [
+     "Ginger family, like ginger",
+     "Myrtle family, like cloves",
+     "Rue family, like citrus",
+     "Nightshade family, like chilli"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Sečuánský pepř jsou usušené oplodí plodů rodu Zanthoxylum z čeledi routovitých, kam patří i citrusy. Černá semínka se vyhazují; znecitlivění způsobuje látka hydroxy-alfa-sanšool.",
+    "en": "Sichuan pepper is the dried husk of the fruit of Zanthoxylum plants, in the rue family along with citrus. The black seeds are discarded; the numbing comes from a compound called hydroxy-alpha-sanshool."
+   }
+  },
+  {
+   "id": "T399-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Po kom nebo po čem je pojmenováno kuře kung pao?",
+    "en": "Who or what is Kung Pao chicken named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Po čestném titulu čchingského guvernéra",
+     "Po legendárním mistrovi kung-fu",
+     "Po městě, kde ho poprvé uvařili",
+     "Po praskání chilli v rozpálené pánvi"
+    ],
+    "en": [
+     "A Qing governor's honorary title",
+     "A legendary kung fu master",
+     "The town where it was first cooked",
+     "Chillies crackling in a hot wok"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jídlo je podle všeho pojmenováno po Ting Pao-čenovi (1820–1886), čchingském úředníkovi a guvernérovi S’-čchuanu. Kung-pao byl jeho čestný titul, doslova „strážce paláce“.",
+    "en": "The dish is believed to be named after Ding Baozhen (1820–1886), a Qing official and governor of Sichuan. Gongbao was his honorary title, literally 'palace guardian'."
+   }
+  },
+  {
+   "id": "T399-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Název goanského kari vindaloo pochází z portugalského pokrmu carne de vinha d'alhos. V čem se v něm maso marinovalo?",
+    "en": "The name of the Goan curry vindaloo comes from the Portuguese dish carne de vinha d'alhos. What was the meat marinated in?"
+   },
+   "moznosti": {
+    "cs": [
+     "V olivovém oleji a citronu",
+     "V mléce a skořici",
+     "V rajčatech a cibuli",
+     "Ve víně a česneku"
+    ],
+    "en": [
+     "Olive oil and lemon",
+     "Milk and cinnamon",
+     "Tomatoes and onion",
+     "Wine and garlic"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vinha d'alhos označuje marinádu z vína a česneku. Goanští kuchaři víno nahradili palmovým octem a přidali koření; Goa byla od roku 1530 hlavním městem portugalské Indie.",
+    "en": "Vinha d'alhos refers to a marinade of wine and garlic. Goan cooks replaced the wine with palm vinegar and added spices; Goa was the capital of Portuguese India from 1530."
+   }
+  },
+  {
+   "id": "T399-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Při pomalém dušení „dum“ (dum pukht), jímž se připravují některé birjání, se hrnec tradičně utěsní. Čím?",
+    "en": "In slow 'dum' (dum pukht) cooking, used for some biryanis, the pot is traditionally sealed. With what?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mokrou hlínou",
+     "Těstem",
+     "Vrstvou soli",
+     "Banánovým listem a provázkem"
+    ],
+    "en": [
+     "Wet clay",
+     "Dough",
+     "A layer of salt",
+     "A banana leaf and string"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Víko se utěsní těstem, aby jídlo zrálo ve vlastní páře. Těsto rozprostřené jako poklice se nazývá pardah („závoj“) a po upečení se jí jako chléb nasáklý vůní pokrmu.",
+    "en": "The lid is sealed with dough so the food matures in its own steam. Dough spread over the pot as a lid is called pardah ('veil'); once baked, it is eaten as bread that has soaked up the dish's aromas."
+   }
+  },
+  {
+   "id": "T399-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Když v roce 2008 letěla na ISS I So-jon, vůbec první člověk z Koreje ve vesmíru, vědci pro ni vyvinuli zvláštní kimči. Čím se lišilo od běžného?",
+    "en": "When Yi So-yeon, the first Korean in space, flew to the ISS in 2008, scientists developed a special kimchi for her. How did it differ from ordinary kimchi?"
+   },
+   "moznosti": {
+    "cs": [
+     "Místo zelí bylo z mořských řas",
+     "Bylo slisované do tablet",
+     "Kvasilo až na palubě stanice",
+     "Bakterie v něm zničilo ozáření"
+    ],
+    "en": [
+     "It was made of seaweed, not cabbage",
+     "It was pressed into tablets",
+     "It fermented on board the station",
+     "Radiation had killed its bacteria"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Běžné kimči kvasí díky bakteriím mléčného kvašení, kosmická strava ale musí být sterilní. Vědci z Korejského institutu pro výzkum atomové energie proto kimči ozářili a zbavili zárodků.",
+    "en": "Ordinary kimchi ferments thanks to lactic acid bacteria, but space food must be sterile. Scientists at the Korea Atomic Energy Research Institute therefore made it germ-free by irradiating it."
+   }
+  },
+  {
+   "id": "T399-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Název thajského kari massaman je považován za zkomoleninu perského slova. Co znamená?",
+    "en": "The name of Thai massaman curry is considered a corruption of a Persian word. What does it mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Námořník",
+     "Kupec",
+     "Šafrán",
+     "Muslim"
+    ],
+    "en": [
+     "Sailor",
+     "Merchant",
+     "Saffron",
+     "Muslim"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Massaman pochází z perského mosalmán, „muslim“; spisovatelé v 19. století mu říkali „Mussulman curry“. Kari opěvuje báseň připisovaná princi Itsarasunthonovi, pozdějšímu králi Rámovi II.",
+    "en": "Massaman comes from the Persian mosalmân, 'Muslim'; 19th-century writers called it 'Mussulman curry'. The curry is praised in a poem attributed to Prince Itsarasunthon, later King Rama II."
+   }
+  },
+  {
+   "id": "T399-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Barmský salát lahpet thoke se tradičně podává hostům na přivítanou. Na jaké fermentované surovině je založen?",
+    "en": "The Burmese salad lahpet thoke is traditionally served to welcome guests. Which fermented ingredient is it based on?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na čajových lístcích",
+     "Na bambusových výhoncích",
+     "Na hořčičných listech",
+     "Na banánových květech"
+    ],
+    "en": [
+     "Tea leaves",
+     "Bamboo shoots",
+     "Mustard greens",
+     "Banana flowers"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Lahpet je barmsky fermentovaný neboli nakládaný čaj, který se v Myanmaru nejen pije, ale i jí. V předkoloniální době byl symbolickou nabídkou míru mezi válčícími královstvími.",
+    "en": "Lahpet is Burmese for fermented or pickled tea, which in Myanmar is eaten as well as drunk. In pre-colonial times it was a symbolic peace offering between warring kingdoms."
+   }
+  },
+  {
+   "id": "T399-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V květnu 2016 povečeřel Barack Obama s Anthonym Bourdainem v hanojské jídelně za celkem 6 dolarů. Které jídlo z grilovaného vepřového s rýžovými nudlemi si dali?",
+    "en": "In May 2016, Barack Obama and Anthony Bourdain had a $6 dinner at a Hanoi eatery. Which dish of grilled pork with rice noodles did they eat?"
+   },
+   "moznosti": {
+    "cs": [
+     "Cơm tấm",
+     "Bún chả",
+     "Bánh xèo",
+     "Phở bò"
+    ],
+    "en": [
+     "Cơm tấm",
+     "Bún chả",
+     "Bánh xèo",
+     "Phở bò"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Večeřeli v podniku Bún chả Hương Liên a zapíjeli studeným hanojským pivem. Bourdain pak napsal, že účet za oba zaplatil on.",
+    "en": "They ate at Bún chả Hương Liên and washed it down with cold Hanoi beer. Bourdain later posted that he had picked up the check."
+   }
+  },
+  {
+   "id": "T399-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V roce 2018 v britském MasterChefovi zkritizoval porotce Gregg Wallace kuřecí rendang malajsijské soutěžící, což vyvolalo pobouření v jihovýchodní Asii. Co mu vadilo?",
+    "en": "In 2018 on MasterChef UK, judge Gregg Wallace criticized a Malaysian contestant's chicken rendang, sparking outrage in Southeast Asia. What did he object to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rýže byla moc lepkavá",
+     "Bylo příliš pálivé",
+     "Kuřecí kůže nebyla křupavá",
+     "Porce byla příliš malá"
+    ],
+    "en": [
+     "The rice was too sticky",
+     "It was too spicy",
+     "The chicken skin wasn't crispy",
+     "The portion was too small"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Wallace prohlásil, že kůže není křupavá, a proto se nedá jíst – jenže v tradičním rendangu se maso pomalu dusí v kokosové omáčce a má být měkké, ne křupavé. Na aféru „Rendangate“ reagoval na Twitteru i tehdejší malajsijský premiér Najib Razak.",
+    "en": "Wallace said the skin wasn't crispy and so couldn't be eaten – yet in traditional rendang the meat is slow-cooked in a coconut sauce and should be tender, not crispy. Then Malaysian Prime Minister Najib Razak weighed in on 'Rendangate' on Twitter."
+   }
+  },
+  {
+   "id": "T399-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Šanghajské knedlíčky xiaolongbao mají uvnitř horký vývar. Jak se tam dostane?",
+    "en": "Shanghai xiaolongbao dumplings have hot soup inside. How does it get there?"
+   },
+   "moznosti": {
+    "cs": [
+     "Těsto nasaje vývar při hnětení",
+     "Vstříkne se stříkačkou po dušení",
+     "Do náplně se zabalí ztuhlý aspik",
+     "Knedlíčky se vaří ponořené ve vývaru"
+    ],
+    "en": [
+     "The dough soaks it up when kneaded",
+     "It is injected after steaming",
+     "Jellied stock is wrapped in the filling",
+     "They are cooked submerged in broth"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Spolu s masovou náplní se do těsta zabalí ztuhlý masový aspik, který se při dušení v páře rozpustí ve vývar. Šanghajský styl pochází z městečka Nan-siang (Nanxiang) u Šanghaje.",
+    "en": "Solid meat aspic is wrapped into the dough along with the filling, and the heat of steaming melts it into soup. The Shanghai style originated in Nanxiang, a town near Shanghai."
+   }
+  }
+ ]
+}

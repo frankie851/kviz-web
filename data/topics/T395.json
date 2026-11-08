@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T395",
+ "nazev": {
+  "cs": "Korálové útesy: život v podmořských zahradách",
+  "en": "Coral Reefs: Life in the Underwater Gardens"
+ },
+ "kategorie": {
+  "id": "priroda-a-zvirata",
+  "nazev": {
+   "cs": "Příroda a zvířata",
+   "en": "Nature & Animals"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T395-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Korálové útesy patří k druhově nejbohatším místům na Zemi. Jakou přezdívku si proto vysloužily?",
+    "en": "Coral reefs are among the most species-rich places on Earth. What nickname have they earned as a result?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pastviny moří",
+     "Pouště oceánů",
+     "Deštné pralesy moří",
+     "Katedrály hlubin"
+    ],
+    "en": [
+     "Pastures of the sea",
+     "Deserts of the ocean",
+     "Rainforests of the sea",
+     "Cathedrals of the deep"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pestrostí druhů se útesy vyrovnají tropickým deštným pralesům, odtud přezdívka. Na rozdíl od pralesa ale jejich hlavní stavitelé, korály, nejsou rostliny, nýbrž živočichové.",
+    "en": "Reefs rival tropical rainforests in the variety of life they support, hence the nickname. Unlike a forest, though, their main builders, the corals, are not plants but animals."
+   }
+  },
+  {
+   "id": "T395-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývají drobní živočichové, z nichž se skládá korálová kolonie?",
+    "en": "What are the tiny individual animals that make up a coral colony called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nymfy",
+     "Kukly",
+     "Polypy",
+     "Larvy"
+    ],
+    "en": [
+     "Nymphs",
+     "Pupae",
+     "Polyps",
+     "Larvae"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Každý polyp kamenného korálu kolem sebe vylučuje pevnou kostru, která se přichytí ke skále nebo ke kostrám odumřelých polypů. Útes tak roste vrstvu po vrstvě na pozůstatcích předchozích generací.",
+    "en": "Each stony-coral polyp secretes a hard skeleton that attaches to rock or to the skeletons of dead polyps. A reef therefore grows layer by layer on the remains of earlier generations."
+   }
+  },
+  {
+   "id": "T395-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou rybou je zapomnětlivá Dory z animovaného filmu Hledá se Nemo?",
+    "en": "What kind of fish is forgetful Dory from the animated film Finding Nemo?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kanic",
+     "Perutýn",
+     "Klipka",
+     "Bodlok"
+    ],
+    "en": [
+     "Grouper",
+     "Lionfish",
+     "Butterflyfish",
+     "Blue tang"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Dory je bodlok pestrý (Paracanthurus hepatus), anglicky regal blue tang. Bodlokovití mají u ocasu ostrý trn jako skalpel, proto se jim anglicky říká i surgeonfish, tedy ryby-chirurgové.",
+    "en": "Dory is a regal blue tang (Paracanthurus hepatus). Its family is known as surgeonfish because of the scalpel-sharp spine near the tail."
+   }
+  },
+  {
+   "id": "T395-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která útesová ryba okusuje korály zobákovitými zuby a rozdrcenou kostru vylučuje jako jemný bílý písek?",
+    "en": "Which reef fish bites off coral with its beak-like teeth and excretes the ground-up skeleton as fine white sand?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pomec",
+     "Ploskozubec",
+     "Ostenec",
+     "Klipka"
+    ],
+    "en": [
+     "Angelfish",
+     "Parrotfish",
+     "Triggerfish",
+     "Butterflyfish"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ploskozubci mají zuby srostlé do „papouščího zobáku“ a korál rozemelou na prach. Jediný ploskozubec Bolbometopon muricatum vyprodukuje až 90 kg písku ročně.",
+    "en": "Parrotfish have teeth fused into a parrot-like beak and grind coral into powder. A single humphead parrotfish can produce up to 90 kg (200 lb) of sand a year."
+   }
+  },
+  {
+   "id": "T395-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co je považováno za největší jednotlivou stavbu, kterou vytvořily živé organismy?",
+    "en": "What is considered the largest single structure made by living organisms?"
+   },
+   "moznosti": {
+    "cs": [
+     "Velký bariérový útes",
+     "Sargasové moře",
+     "Bílé útesy u Doveru",
+     "Útes Ningaloo"
+    ],
+    "en": [
+     "The Great Barrier Reef",
+     "The Sargasso Sea",
+     "The White Cliffs of Dover",
+     "Ningaloo Reef"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Velký bariérový útes u pobřeží Queenslandu se táhne přes 2 300 km a skládá se z více než 2 900 jednotlivých útesů. Je vidět i z vesmíru.",
+    "en": "The Great Barrier Reef off Queensland stretches for over 2,300 km (1,400 mi) and is made up of more than 2,900 individual reefs. It can even be seen from space."
+   }
+  },
+  {
+   "id": "T395-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Z čeho je kostra útesotvorných (kamenných) korálů?",
+    "en": "What is the skeleton of reef-building (stony) corals made of?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z oxidu křemičitého",
+     "Z uhličitanu vápenatého",
+     "Z keratinu",
+     "Z chitinu"
+    ],
+    "en": [
+     "Silica",
+     "Calcium carbonate",
+     "Keratin",
+     "Chitin"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Korály si kostru budují z uhličitanu vápenatého, stejné látky, z níž je vápenec nebo vodní kámen v konvici. Stavba je pomalá: většina korálů přiroste méně než 2,5 cm za rok, nejrychlejší přes 15 cm.",
+    "en": "Corals build their skeletons from calcium carbonate, the same substance that makes up limestone or the limescale in a kettle. Building is slow: most corals grow less than 2.5 cm (1 inch) a year, the fastest more than 15 cm (6 inches)."
+   }
+  },
+  {
+   "id": "T395-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která útesová ryba, díky maskování na dně téměř neviditelná, je považována za nejjedovatější známou rybu?",
+    "en": "Which reef fish, almost invisible on the seabed thanks to its camouflage, is considered the most venomous known fish?"
+   },
+   "moznosti": {
+    "cs": [
+     "Odranec",
+     "Muréna",
+     "Perutýn",
+     "Barakuda"
+    ],
+    "en": [
+     "Stonefish",
+     "Moray eel",
+     "Lionfish",
+     "Barracuda"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Odranec vypadá jako kámen nebo kus korálu, a tak na něj lidé snadno šlápnou. Jed vpraví do rány ostny na hřbetě a pro člověka může být i smrtelný.",
+    "en": "The stonefish looks like a rock or a lump of coral, so people easily step on it. It delivers venom through the spines on its back, and a sting can even be fatal to humans."
+   }
+  },
+  {
+   "id": "T395-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč muréna neustále otvírá a zavírá tlamu?",
+    "en": "Why does a moray eel keep opening and closing its mouth?"
+   },
+   "moznosti": {
+    "cs": [
+     "Láká tak kořist na jazyk",
+     "Pumpuje si tak vodu přes žábry",
+     "Výhrůžně tak zastrašuje potápěče",
+     "Ochlazuje si tak tělo"
+    ],
+    "en": [
+     "To lure prey with its tongue",
+     "To pump water over its gills",
+     "To threaten divers",
+     "To cool its body down"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Muréna má malé žábry na bocích daleko za tlamou, a tak si vodu k dýchání musí „nalokat“. Hrozivě vypadající zívání tedy většinou není výhrůžka, ale obyčejné dýchání.",
+    "en": "A moray's small gills sit on its flanks far behind the mouth, so it has to gulp water to breathe. The menacing-looking gape is usually not a threat but simply breathing."
+   }
+  },
+  {
+   "id": "T395-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve filmu Hledá se Nemo potápěči odchytí Nema u Velkého bariérového útesu. Ve kterém městě skončí v akváriu u zubaře?",
+    "en": "In Finding Nemo, divers catch Nemo near the Great Barrier Reef. In which city does he end up in a dentist's fish tank?"
+   },
+   "moznosti": {
+    "cs": [
+     "Melbourne",
+     "Sydney",
+     "Brisbane",
+     "Cairns"
+    ],
+    "en": [
+     "Melbourne",
+     "Sydney",
+     "Brisbane",
+     "Cairns"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Nemo skončí v ordinaci zubaře Philipa Shermana v Sydney a jeho otec Marlin se za ním vydá přes oceán. Marlinova zesnulá žena se mimochodem jmenovala Coral, tedy Korál.",
+    "en": "Nemo ends up in dentist Philip Sherman's office in Sydney, and his father Marlin sets off across the ocean to find him. Fittingly, Marlin's late wife was named Coral."
+   }
+  },
+  {
+   "id": "T395-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik mohou vážit největší zévy obrovské (Tridacna gigas), největší žijící mlži?",
+    "en": "Roughly how much can the largest giant clams (Tridacna gigas), the biggest living bivalves, weigh?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 2 kg",
+     "Asi 20 kg",
+     "Asi 200 kg",
+     "Asi 2 000 kg"
+    ],
+    "en": [
+     "About 2 kg (4.4 lb)",
+     "About 20 kg (44 lb)",
+     "About 200 kg (440 lb)",
+     "About 2,000 kg (4,400 lb)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Zévy obrovské mohou vážit přes 200 kg a měřit přes 1 m, rekordní kus měl 137 cm. Historky o „zabijáckých“ škeblích, které chytí potápěče za nohu, jsou mýtus: lastury se zavírají příliš pomalu.",
+    "en": "Giant clams can weigh more than 200 kg (440 lb) and measure over 1 m (3.3 ft) across, with a record of 137 cm (54 inches). Stories of ‘killer clams’ trapping divers are a myth: the shells close far too slowly."
+   }
+  },
+  {
+   "id": "T395-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Se kterými živočichy jsou korály nejblíže příbuzné?",
+    "en": "Which animals are corals most closely related to?"
+   },
+   "moznosti": {
+    "cs": [
+     "S medúzami a sasankami",
+     "S mořskými houbami",
+     "Se šneky a škeblemi",
+     "S ježovkami a hvězdicemi"
+    ],
+    "en": [
+     "Jellyfish and sea anemones",
+     "Sponges",
+     "Snails and clams",
+     "Sea urchins and starfish"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Korály patří stejně jako medúzy a sasanky mezi žahavce (Cnidaria). Kořist chytají chapadly vybavenými žahavými buňkami, nematocystami.",
+    "en": "Like jellyfish and sea anemones, corals belong to the cnidarians (phylum Cnidaria). They catch prey with tentacles armed with stinging cells called nematocysts."
+   }
+  },
+  {
+   "id": "T395-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kde leží tzv. Korálový trojúhelník, oblast s největší rozmanitostí korálů na světě?",
+    "en": "Where is the so-called Coral Triangle, the region with the greatest diversity of corals in the world?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mezi Madagaskarem, Seychelami a Maledivami",
+     "Mezi Kubou, Bahamami a Jamajkou",
+     "Mezi Indonésií, Filipínami a Papuou Novou Guineou",
+     "Mezi Austrálií, Novou Kaledonií a Fidži"
+    ],
+    "en": [
+     "Between Madagascar, the Seychelles and the Maldives",
+     "Between Cuba, the Bahamas and Jamaica",
+     "Between Indonesia, the Philippines and Papua New Guinea",
+     "Between Australia, New Caledonia and Fiji"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Korálový trojúhelník zahrnuje vody Indonésie, Malajsie, Papuy Nové Guineje, Filipín, Šalamounových ostrovů a Východního Timoru. Žije v něm asi 76 % všech druhů útesotvorných korálů (k roku 2026).",
+    "en": "The Coral Triangle covers the waters of Indonesia, Malaysia, Papua New Guinea, the Philippines, the Solomon Islands and Timor-Leste. It holds about 76% of all reef-building coral species (as of 2026)."
+   }
+  },
+  {
+   "id": "T395-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Tělo korálového živočicha má jediný otvor obklopený chapadly. K čemu slouží?",
+    "en": "The body of a coral animal has a single opening surrounded by tentacles. What is it used for?"
+   },
+   "moznosti": {
+    "cs": [
+     "K vystřelování proudu vody při pohybu",
+     "Jen k vypouštění barviva při ohrožení",
+     "Jen k nasávání vody pro dýchání",
+     "K přijímání potravy i vylučování zbytků"
+    ],
+    "en": [
+     "Shooting out jets of water to move around",
+     "Only squirting out pigment when threatened",
+     "Only drawing in water for breathing",
+     "Both taking in food and expelling waste"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jediný otvor slouží zároveň jako ústa i jako cesta pro odpad. Většina korálů navíc loví hlavně v noci, kdy vysunou chapadla a chytají drobné živočichy z vody.",
+    "en": "The single opening serves as both mouth and exit for waste. Most corals also feed mainly at night, when they extend their tentacles to catch tiny animals from the water."
+   }
+  },
+  {
+   "id": "T395-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím je proslulý strašek paví (Odontodactylus scyllarus)?",
+    "en": "What is the peacock mantis shrimp (Odontodactylus scyllarus) famous for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rozbíjí ulity a krunýře bleskurychlým úderem",
+     "Slepuje si z kamínků ochrannou trubici",
+     "Láká kořist světélkující návnadou",
+     "Sestřeluje hmyz z listů proudem vody"
+    ],
+    "en": [
+     "Smashing shells with a lightning-fast strike",
+     "Gluing pebbles into a protective tube",
+     "Luring prey with a glowing bait",
+     "Shooting insects off leaves with a jet of water"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jeho kyjovitá končetina udeří se zrychlením asi 10 400 g. Voda se při tom v místě úderu odpaří do bublinek, jejichž zhroucení zasáhne kořist ještě jednou.",
+    "en": "Its club-like limb strikes with an acceleration of about 10,400 g. The blow is so fast that it creates vapour bubbles whose collapse hits the prey a second time."
+   }
+  },
+  {
+   "id": "T395-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která země jako první na světě zakázala opalovací krémy s látkami považovanými za škodlivé pro korály (zákaz platí od roku 2020)?",
+    "en": "Which country became the first in the world to ban sunscreens containing chemicals thought to harm corals (the ban has applied since 2020)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Seychely",
+     "Palau",
+     "Maledivy",
+     "Austrálie"
+    ],
+    "en": [
+     "The Seychelles",
+     "Palau",
+     "The Maldives",
+     "Australia"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Tichomořské Palau od 1. ledna 2020 zakazuje krémy s kteroukoli z deseti látek, například oxybenzonem, oktinoxátem nebo triklosanem. Mezi zakázanými látkami jsou i oktokrylen a několik parabenů.",
+    "en": "Since 1 January 2020 the Pacific nation of Palau has banned sunscreens containing any of ten chemicals, such as oxybenzone, octinoxate or triclosan. The banned ingredients also include octocrylene and several parabens."
+   }
+  },
+  {
+   "id": "T395-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím se živí hvězdice trnová koruna (Acanthaster planci), která může mít až 21 ramen?",
+    "en": "What does the crown-of-thorns starfish (Acanthaster planci), which can have up to 21 arms, mainly feed on?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ježovkami",
+     "Živou tkání korálů",
+     "Mořskými řasami",
+     "Drobnými rybami"
+    ],
+    "en": [
+     "Sea urchins",
+     "Living coral tissue",
+     "Seaweed",
+     "Small fish"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Hvězdice vychlípí žaludek ústy na povrch korálu a jeho tkáň natráví přímo na místě; zůstane jen bílá kostra. Její trny jsou navíc jedovaté a umějí bolestivě poranit i potápěče.",
+    "en": "The starfish pushes its stomach out through its mouth over the coral and digests the tissue on the spot, leaving only a white skeleton. Its venomous spines can also give divers a painful wound."
+   }
+  },
+  {
+   "id": "T395-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Korály na vnitřní části Velkého bariérového útesu každoročně hromadně vypouštějí do vody vajíčka a spermie. Na kdy toto tření připadá?",
+    "en": "Every year, corals on the inner Great Barrier Reef release eggs and sperm into the water en masse. When does this spawning take place?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na březnový nov",
+     "Na první cyklon sezony",
+     "Na zimní slunovrat",
+     "Na týden po říjnovém úplňku"
+    ],
+    "en": [
+     "At the March new moon",
+     "With the first cyclone of the season",
+     "At the winter solstice",
+     "In the week after the October full moon"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vnitřní útesy se třou v týdnu po říjnovém úplňku, vnější o něco později. Hromadné tření probíhá obvykle v noci a je to velkolepá podívaná.",
+    "en": "Inner reefs spawn in the week after the October full moon, outer reefs somewhat later. Mass spawning usually happens at night and is quite a spectacle."
+   }
+  },
+  {
+   "id": "T395-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kde se perutýn stal škodlivým invazním druhem, který požírá místní útesové ryby?",
+    "en": "Where has the lionfish become a harmful invasive species that devours local reef fish?"
+   },
+   "moznosti": {
+    "cs": [
+     "U Velkého bariérového útesu",
+     "V Rudém moři",
+     "U Filipín",
+     "V Karibiku a západním Atlantiku"
+    ],
+    "en": [
+     "On the Great Barrier Reef",
+     "In the Red Sea",
+     "Around the Philippines",
+     "In the Caribbean and western Atlantic"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Perutýni pocházejí z Indického oceánu a západního Pacifiku. Do Atlantiku se nejspíš dostali v 80. letech z akvárií u Floridy a dnes žijí od pobřeží USA po Brazílii (k roku 2026).",
+    "en": "Lionfish are native to the Indian Ocean and western Pacific. They probably reached the Atlantic off Florida in the 1980s via the aquarium trade and now range from the US coast to Brazil (as of 2026)."
+   }
+  },
+  {
+   "id": "T395-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Velká modrá díra, kruhový podmořský závrt o průměru přes 300 m, který v roce 1971 prozkoumal Jacques Cousteau s lodí Calypso, leží u pobřeží které země?",
+    "en": "The Great Blue Hole, a circular marine sinkhole more than 300 m (980 ft) across that Jacques Cousteau explored with his ship Calypso in 1971, lies off the coast of which country?"
+   },
+   "moznosti": {
+    "cs": [
+     "Maledivy",
+     "Belize",
+     "Egypt",
+     "Bahamy"
+    ],
+    "en": [
+     "The Maldives",
+     "Belize",
+     "Egypt",
+     "The Bahamas"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Díra o průměru 318 m a hloubce 124 m leží uprostřed útesu Lighthouse Reef asi 70 km od pevniny. Vznikla jako krasová jeskyně v dobách ledových, kdy byla hladina moře mnohem níž, a později se zatopila.",
+    "en": "The hole, 318 m (1,043 ft) across and 124 m (407 ft) deep, lies in the middle of Lighthouse Reef about 70 km (43 mi) from the mainland. It formed as a cave during the ice ages, when sea level was much lower, and later flooded."
+   }
+  },
+  {
+   "id": "T395-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která mořská želva se živí hlavně mořskými houbami, včetně druhů jedovatých pro jiné živočichy, a byla ve velkém lovena kvůli želvovině?",
+    "en": "Which sea turtle feeds mainly on sea sponges, including species toxic to other animals, and was hunted on a massive scale for tortoiseshell?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kožatka velká",
+     "Kareta pravá",
+     "Kareta obrovská",
+     "Kareta obecná"
+    ],
+    "en": [
+     "Leatherback turtle",
+     "Hawksbill turtle",
+     "Green turtle",
+     "Loggerhead turtle"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Houby tvoří 70–95 % potravy karety pravé. Obchod se želvovinou ji v letech 1844–1992 podle odhadu připravil o téměř 9 milionů jedinců a je kriticky ohrožená (k roku 2026).",
+    "en": "Sponges make up 70–95% of the hawksbill's diet. The tortoiseshell trade is estimated to have killed almost 9 million hawksbills between 1844 and 1992, and the species is critically endangered (as of 2026)."
+   }
+  },
+  {
+   "id": "T395-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Charles Darwin navrhl vysvětlení vzniku atolů, které v roce 1952 podpořil hluboký vrt na atolu Eniwetok. Co tvrdil?",
+    "en": "Charles Darwin proposed an explanation for how atolls form, which was supported by a deep borehole on Enewetak Atoll in 1952. What did he propose?"
+   },
+   "moznosti": {
+    "cs": [
+     "Korály obrůstají okraj kráteru vyhloubeného meteoritem",
+     "Korály se usazují na písečných lavicích navršených proudy",
+     "Sopečný ostrov pomalu klesá a útes kolem něj roste vzhůru",
+     "Útes roste na podmořské hoře vyzdvižené zemětřesením"
+    ],
+    "en": [
+     "Corals grow around the rim of a meteorite crater",
+     "Corals settle on sandbanks piled up by currents",
+     "A volcanic island slowly sinks as its reef grows upward",
+     "The reef grows on a seamount pushed up by earthquakes"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Podle Darwina se z lemového útesu kolem klesajícího ostrova stane bariérový a po úplném potopení ostrova zbude jen prstenec útesu kolem laguny. Vrt na Eniwetoku narazil pod korálovými vrstvami na sopečný čedič v hloubce přes 1 200 m.",
+    "en": "In Darwin's model, a fringing reef around a sinking island becomes a barrier reef, and once the island disappears only a ring of reef around a lagoon remains. The Enewetak borehole hit volcanic basalt beneath the coral at a depth of more than 1,200 m (3,900 ft)."
+   }
+  },
+  {
+   "id": "T395-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "U pobřeží které země leží největší známá oblast hlubokomořských korálových útesů (k roku 2026), zmapovaná v roce 2024?",
+    "en": "Off the coast of which country lies the largest known deep-sea coral reef habitat (as of 2026), mapped in 2024?"
+   },
+   "moznosti": {
+    "cs": [
+     "Island",
+     "Irsko",
+     "USA",
+     "Norsko"
+    ],
+    "en": [
+     "Iceland",
+     "Ireland",
+     "The United States",
+     "Norway"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Na Blakeově plošině asi 160 km od jihovýchodního pobřeží USA, zhruba mezi Miami a Charlestonem, se táhne až 500 km dlouhá oblast korálových pahorků ve hloubkách 200–1 000 m. Staví ji hlavně studenovodní kamenný korál Desmophyllum pertusum; pro srovnání norský útes Røst, dlouho uváděný jako největší známý hlubokomořský útes, měří asi 43 km.",
+    "en": "On the Blake Plateau, about 160 km (100 mi) off the southeastern US coast, roughly between Miami and Charleston, coral mounds stretch for up to 500 km (310 mi) at depths of 200–1,000 m (656–3,280 ft). They are built mainly by the cold-water stony coral Desmophyllum pertusum; for comparison, Norway's Røst Reef, long cited as the largest known deep-water reef, is about 43 km (27 mi) long."
+   }
+  },
+  {
+   "id": "T395-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak staré byly podle radiokarbonového datování z roku 2009 nejstarší kolonie hlubokomořského černého korálu rodu Leiopathes od Havaje?",
+    "en": "According to radiocarbon dating published in 2009, how old were the oldest colonies of the deep-sea black coral Leiopathes from Hawaii?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 40 let",
+     "Asi 400 let",
+     "Asi 4 000 let",
+     "Asi 40 000 let"
+    ],
+    "en": [
+     "About 40 years",
+     "About 400 years",
+     "About 4,000 years",
+     "About 40,000 years"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Nejstarší vzorek měl kolem 4 265 let a studie Leiopathes tehdy označila za nejstarší známý mořský organismus, který si staví kostru. Ve stejné studii měl zlatý korál Gerardia kolem 2 742 let.",
+    "en": "The oldest sample was about 4,265 years old, and the study called Leiopathes the oldest known skeleton-building marine organism at the time. In the same study, a gold coral (Gerardia) was about 2,742 years old."
+   }
+  },
+  {
+   "id": "T395-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kamenné korály mají chapadla obvykle v násobcích šesti. Kolik chapadel má každý jedinec měkkých korálů, například mořských vějířů?",
+    "en": "Stony corals usually have tentacles in multiples of six. How many tentacles does each individual animal of soft corals, such as sea fans, have?"
+   },
+   "moznosti": {
+    "cs": [
+     "5",
+     "6",
+     "8",
+     "10"
+    ],
+    "en": [
+     "5",
+     "6",
+     "8",
+     "10"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Měkké korály mají osm chapadel s drobnými postranními větvičkami, proto se jim odborně říká osmičetní (Octocorallia). Kamenné korály s hladkými chapadly patří mezi šestičetné.",
+    "en": "Soft corals have eight tentacles, each with tiny side branches, which is why they are called octocorals. Stony corals, with smooth tentacles, belong to the hexacorals."
+   }
+  },
+  {
+   "id": "T395-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "O kolik procent v průměru snižují korálové útesy energii vln, které by jinak dorazily ke břehu, podle souhrnné studie z roku 2014?",
+    "en": "According to a 2014 review study, by what percentage do coral reefs reduce the energy of waves that would otherwise reach the shore, on average?"
+   },
+   "moznosti": {
+    "cs": [
+     "O 37 %",
+     "O 57 %",
+     "O 77 %",
+     "O 97 %"
+    ],
+    "en": [
+     "By 37%",
+     "By 57%",
+     "By 77%",
+     "By 97%"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Útesy pohltí v průměru 97 % energie vln a většinu z ní (86 %) samotný hřbet útesu. Chrání tak pobřeží před bouřemi a erozí.",
+    "en": "Reefs absorb on average 97% of wave energy, and the reef crest alone dissipates most of it (86%). They thus protect coasts from storms and erosion."
+   }
+  },
+  {
+   "id": "T395-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Vědci v roce 2019 zhruba zdvojnásobili počet ryb, které osídlily skvrny odumřelých korálů na Velkém bariérovém útesu. Co k tomu použili?",
+    "en": "In 2019, scientists roughly doubled the number of fish settling on patches of dead coral on the Great Barrier Reef. What did they use?"
+   },
+   "moznosti": {
+    "cs": [
+     "Podvodní reproduktory",
+     "Hadičky uvolňující pach zdravých korálů",
+     "Korálové repliky z 3D tiskárny",
+     "Lampy napodobující svit měsíce"
+    ],
+    "en": [
+     "Underwater speakers",
+     "Tubes releasing the scent of healthy coral",
+     "3D-printed coral replicas",
+     "Lamps imitating moonlight"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Metodě se říká akustické obohacení: zdravý útes je hlučné místo plné praskání krevet a chrochtání ryb a mladé ryby se podle zvuku orientují. Počet druhů na ozvučených místech vzrostl o 50 %.",
+    "en": "The method is called acoustic enrichment: a healthy reef is noisy with crackling shrimp and grunting fish, and young fish use the sound to find a home. The number of species on the patches with speakers rose by 50%."
+   }
+  },
+  {
+   "id": "T395-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Dravá ryba Plectropomus pessuliferus (příbuzná kaniců) v Rudém moři loví společně s velkou murénou, která proleze škvírami, kam ona sama nedosáhne. Jak ji k lovu „pozve“?",
+    "en": "In the Red Sea, the roving coralgrouper (Plectropomus pessuliferus) hunts together with the giant moray, which can slip into crevices it cannot reach. How does it ‘invite’ the moray to hunt?"
+   },
+   "moznosti": {
+    "cs": [
+     "Třese před její skrýší hlavou",
+     "Přinese jí jako dárek malou rybku",
+     "Jemně ji kousne do ocasu",
+     "Vypustí před ní oblak bublinek"
+    ],
+    "en": [
+     "It shakes its head at its lair",
+     "It brings it a small fish as a gift",
+     "It gives its tail a gentle bite",
+     "It releases a cloud of bubbles in front of it"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Ryba třese hlavou 3–6krát za sekundu těsně u hlavy murény a ta pak vyplave a prohledává útes s ní. Spolupráci v roce 2006 popsal tým Redouana Bsharyho; opačný signál od murény vědci nikdy nepozorovali.",
+    "en": "The grouper shakes its head 3–6 times a second right next to the moray's head, and the moray then leaves its crevice to search the reef with it. Redouan Bshary's team described this in 2006 and never saw a moray signal a grouper."
+   }
+  },
+  {
+   "id": "T395-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V roce 1983 zahubila záhadná nemoc v celém Karibiku téměř všechny jedince jednoho útesového živočicha a mnohé útesy pak zarostly řasami. O jakého živočicha šlo?",
+    "en": "In 1983, a mysterious disease killed almost all individuals of one reef animal across the Caribbean, and many reefs then became overgrown with algae. Which animal was it?"
+   },
+   "moznosti": {
+    "cs": [
+     "O kraba",
+     "O mořskou želvu",
+     "O langustu",
+     "O ježovku"
+    ],
+    "en": [
+     "A crab",
+     "A sea turtle",
+     "A spiny lobster",
+     "A sea urchin"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Nemoc zdecimovala ježovky Diadema antillarum, které spásaly řasy a uvolňovaly místo mladým korálům. Po jejím úhynu na mnoha útesech převládly listovité řasy, které růst korálů brzdí.",
+    "en": "The disease wiped out the long-spined sea urchin Diadema antillarum, which grazed on algae and kept space free for young corals. After the die-off, leafy macroalgae took over many reefs and held back coral growth."
+   }
+  },
+  {
+   "id": "T395-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Mořskému biologovi Davidu Vaughanovi se při přenášení mezi nádržemi rozlomil korál na drobné úlomky. Ty ale neuhynuly. Co tím objevil?",
+    "en": "While marine biologist David Vaughan was moving a coral between tanks, it broke into tiny fragments, which did not die. What did he discover?"
+   },
+   "moznosti": {
+    "cs": [
+     "Úlomky rostly mnohem rychleji",
+     "Úlomky se staly odolnými vůči všem nemocem",
+     "Úlomky se proměnily v měkké korály",
+     "Úlomky okamžitě vypustily vajíčka a spermie"
+    ],
+    "en": [
+     "The fragments grew much faster",
+     "The fragments became immune to all diseases",
+     "The fragments turned into soft corals",
+     "The fragments immediately released eggs and sperm"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Z náhody vznikla metoda mikrofragmentace, která zrychluje růst korálů 25–40krát. Pěstují se tak korály pro obnovu poškozených útesů.",
+    "en": "The accident led to the micro-fragmentation method, which speeds up coral growth 25 to 40 times. It is used to grow corals for restoring damaged reefs."
+   }
+  },
+  {
+   "id": "T395-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kostry mnoha korálů obsahují roční pruhy podobné letokruhům. Co z jejich chemického složení vědci zpětně zjišťují?",
+    "en": "The skeletons of many corals contain annual bands similar to tree rings. What do scientists reconstruct from their chemical composition?"
+   },
+   "moznosti": {
+    "cs": [
+     "Trasy dávných migrací velryb",
+     "Počty žraloků na útesu",
+     "Sílu magnetického pole Země",
+     "Teplotu moře v minulosti"
+    ],
+    "en": [
+     "Ancient whale migration routes",
+     "Past numbers of sharks on the reef",
+     "The strength of Earth's magnetic field",
+     "Past sea temperatures"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Dvojice světlého a tmavého pruhu odpovídá jednomu roku růstu. Čím je voda teplejší, tím méně stroncia korál do kostry zabuduje, takže lze odečíst teploty i po jednotlivých měsících.",
+    "en": "Each pair of light and dark bands represents one year of growth. The warmer the water, the less strontium the coral builds into its skeleton, so temperatures can be read even month by month."
+   }
+  }
+ ]
+}

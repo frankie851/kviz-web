@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T229",
+ "nazev": {
+  "cs": "Genetika a DNA",
+  "en": "Genetics and DNA"
+ },
+ "kategorie": {
+  "id": "veda-a-technika",
+  "nazev": {
+   "cs": "Věda a technika",
+   "en": "Science & Technology"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T229-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co znamená zkratka DNA?",
+    "en": "What does the abbreviation DNA stand for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dinukleotidová kyselina",
+     "Dusíkatá nukleová kyselina",
+     "Deoxyribonukleová kyselina",
+     "Diaminonukleová kyselina"
+    ],
+    "en": [
+     "Dinucleotidic acid",
+     "Nitrogenous nucleic acid",
+     "Deoxyribonucleic acid",
+     "Diaminonucleic acid"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "DNA je deoxyribonukleová kyselina – název nese podle cukru deoxyribózy, který tvoří spolu s fosfátem kostru jejích vláken.",
+    "en": "DNA is deoxyribonucleic acid, named after the sugar deoxyribose, which together with phosphate forms the backbone of its strands."
+   }
+  },
+  {
+   "id": "T229-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik chromozomů obsahuje běžná tělní buňka člověka?",
+    "en": "How many chromosomes does a typical human body cell contain?"
+   },
+   "moznosti": {
+    "cs": [
+     "23",
+     "44",
+     "46",
+     "48"
+    ],
+    "en": [
+     "23",
+     "44",
+     "46",
+     "48"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Tělní buňka člověka má 46 chromozomů, tedy 23 párů – jednu sadu po matce a jednu po otci. Šimpanzi a další velcí lidoopi jich mají 48.",
+    "en": "A human body cell has 46 chromosomes, i.e. 23 pairs – one set from the mother and one from the father. Chimpanzees and other great apes have 48."
+   }
+  },
+  {
+   "id": "T229-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou kombinaci pohlavních chromozomů má obvykle muž?",
+    "en": "Which combination of sex chromosomes does a male usually have?"
+   },
+   "moznosti": {
+    "cs": [
+     "XY",
+     "X0",
+     "XX",
+     "YY"
+    ],
+    "en": [
+     "XY",
+     "X0",
+     "XX",
+     "YY"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Muži mají obvykle chromozomy XY, ženy XX. Vývoj v muže spouští gen SRY, který leží na chromozomu Y.",
+    "en": "Males usually have XY chromosomes and females XX. Male development is triggered by the SRY gene, located on the Y chromosome."
+   }
+  },
+  {
+   "id": "T229-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kde je v lidské buňce uložena většina DNA?",
+    "en": "Where is most of the DNA stored in a human cell?"
+   },
+   "moznosti": {
+    "cs": [
+     "V ribozomech",
+     "V buněčné membráně",
+     "V Golgiho aparátu",
+     "V buněčném jádře"
+    ],
+    "en": [
+     "In the ribosomes",
+     "In the cell membrane",
+     "In the Golgi apparatus",
+     "In the cell nucleus"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Většina DNA je v jádře jako jaderná DNA. Malé množství vlastní DNA mají i mitochondrie.",
+    "en": "Most DNA sits in the nucleus as nuclear DNA. Mitochondria also carry a small amount of their own DNA."
+   }
+  },
+  {
+   "id": "T229-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá úsek DNA, podle kterého buňka vytváří určitou molekulu RNA, a často pak i bílkovinu?",
+    "en": "What is the name for a stretch of DNA from which a cell makes a particular RNA molecule, and often a protein?"
+   },
+   "moznosti": {
+    "cs": [
+     "Enzym",
+     "Gen",
+     "Ribozom",
+     "Hormon"
+    ],
+    "en": [
+     "Enzyme",
+     "Gene",
+     "Ribosome",
+     "Hormone"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Gen je úsek DNA, který se přepisuje do RNA; u genů kódujících bílkoviny podle ní buňka bílkovinu sestaví. Slovo gen se používá od roku 1909.",
+    "en": "A gene is a stretch of DNA that is transcribed into RNA; for protein-coding genes, the cell then uses it to build a protein. The word gene has been in use since 1909."
+   }
+  },
+  {
+   "id": "T229-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "S kterou bází se v molekule DNA páruje adenin?",
+    "en": "Which base does adenine pair with in a DNA molecule?"
+   },
+   "moznosti": {
+    "cs": [
+     "Thymin",
+     "Guanin",
+     "Cytosin",
+     "Adenin"
+    ],
+    "en": [
+     "Thymine",
+     "Guanine",
+     "Cytosine",
+     "Adenine"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "V DNA se páruje adenin s thyminem a guanin s cytosinem. Pár A–T drží pohromadě dvě vodíkové vazby, pár G–C tři.",
+    "en": "In DNA, adenine pairs with thymine and guanine with cytosine. An A–T pair is held together by two hydrogen bonds, a G–C pair by three."
+   }
+  },
+  {
+   "id": "T229-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč mají jednovaječná dvojčata téměř stejnou DNA?",
+    "en": "Why do identical twins have nearly identical DNA?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vznikla z jednoho oplozeného vajíčka",
+     "Sdílela v děloze placentu",
+     "Vyrůstala ve stejném prostředí",
+     "Narodila se ve stejný den"
+    ],
+    "en": [
+     "They came from one fertilised egg",
+     "They shared a placenta in the womb",
+     "They grew up in the same environment",
+     "They were born on the same day"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jednovaječná dvojčata vznikají, když se jedna zygota rozdělí na dvě embrya. Drobné rozdíly v DNA přesto mohou vzniknout mutacemi v raném vývoji.",
+    "en": "Identical twins form when a single zygote splits into two embryos. Small DNA differences can still arise through mutations in early development."
+   }
+  },
+  {
+   "id": "T229-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi se v roce 1996 narodila ovce Dolly, první savec naklonovaný z buňky dospělého jedince?",
+    "en": "In which country was Dolly the sheep, the first mammal cloned from an adult cell, born in 1996?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Novém Zélandu",
+     "Ve Skotsku",
+     "V USA",
+     "Ve Švýcarsku"
+    ],
+    "en": [
+     "New Zealand",
+     "Scotland",
+     "The USA",
+     "Switzerland"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Dolly naklonovali vědci z Roslin Institute ve Skotsku spolu s firmou PPL Therapeutics. Narodila se 5. července 1996 a v únoru 2003 byla ve věku šesti let utracena.",
+    "en": "Dolly was cloned by scientists at the Roslin Institute in Scotland together with the company PPL Therapeutics. She was born on 5 July 1996 and was euthanised at the age of six in February 2003."
+   }
+  },
+  {
+   "id": "T229-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "K čemu slouží metoda CRISPR-Cas9?",
+    "en": "What is the CRISPR-Cas9 method used for?"
+   },
+   "moznosti": {
+    "cs": [
+     "K určování krevních skupin",
+     "K barvení buněk pod mikroskopem",
+     "K datování zkamenělin",
+     "K cíleným úpravám DNA"
+    ],
+    "en": [
+     "Determining blood groups",
+     "Staining cells under a microscope",
+     "Dating fossils",
+     "Targeted editing of DNA"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "CRISPR-Cas9 umožňuje přesně stříhat a upravovat DNA. Využívá se při vývoji léků i v zemědělství; v roce 2023 byl schválen první lék, který na ní stojí.",
+    "en": "CRISPR-Cas9 makes it possible to cut and edit DNA precisely. It is used in drug development and agriculture; the first medicine based on it was approved in 2023."
+   }
+  },
+  {
+   "id": "T229-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co bylo hlavním cílem mezinárodního Projektu lidského genomu (1990–2003)?",
+    "en": "What was the main goal of the international Human Genome Project (1990–2003)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přečíst pořadí bází v lidské DNA",
+     "Naklonovat prvního člověka",
+     "Spočítat všechny buňky lidského těla",
+     "Vyrobit umělou lidskou buňku"
+    ],
+    "en": [
+     "To read the order of bases in human DNA",
+     "To clone the first human",
+     "To count all the cells of the human body",
+     "To create an artificial human cell"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Projekt měl určit pořadí párů bází lidské DNA a zmapovat lidské geny. Za dokončený byl prohlášen 14. dubna 2003.",
+    "en": "The project set out to determine the sequence of base pairs in human DNA and to map human genes. It was declared complete on 14 April 2003."
+   }
+  },
+  {
+   "id": "T229-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Po kom dědí člověk mitochondriální DNA?",
+    "en": "From whom does a person inherit mitochondrial DNA?"
+   },
+   "moznosti": {
+    "cs": [
+     "Po obou rodičích napůl",
+     "Synové po otci, dcery po matce",
+     "Po otci",
+     "Po matce"
+    ],
+    "en": [
+     "Half from each parent",
+     "Sons from the father, daughters from the mother",
+     "From the father",
+     "From the mother"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Mitochondrie, a tedy i jejich DNA, se u člověka dědí prakticky výhradně po matce; otcovské mitochondrie se po oplození zpravidla odbourají. Díky tomu se v roce 2013 podařilo potvrdit ostatky krále Richarda III. porovnáním s DNA dvou žijících potomků jeho sestry po ženské linii.",
+    "en": "In humans, mitochondria, and therefore their DNA, are inherited almost exclusively from the mother; the father's mitochondria are normally destroyed after fertilisation. This is how King Richard III's remains were confirmed in 2013, by comparison with the DNA of two living female-line descendants of his sister."
+   }
+  },
+  {
+   "id": "T229-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Downův syndrom způsobuje nadbytečná (třetí) kopie kterého chromozomu?",
+    "en": "Down syndrome is caused by an extra (third) copy of which chromosome?"
+   },
+   "moznosti": {
+    "cs": [
+     "13",
+     "18",
+     "21",
+     "23"
+    ],
+    "en": [
+     "13",
+     "18",
+     "21",
+     "23"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Downův syndrom se proto nazývá také trizomie 21. Jméno nese po anglickém lékaři Johnu Langdonu Downovi, který ho popsal v roce 1862 a známěji v roce 1866.",
+    "en": "That is why Down syndrome is also called trisomy 21. It is named after the English doctor John Langdon Down, who described it in 1862 and, in a better-known report, in 1866."
+   }
+  },
+  {
+   "id": "T229-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik zhruba genů kódujících bílkoviny obsahuje lidský genom?",
+    "en": "Roughly how many protein-coding genes does the human genome contain?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 2 000",
+     "Asi 20 000",
+     "Asi 200 000",
+     "Asi 2 000 000"
+    ],
+    "en": [
+     "About 2,000",
+     "About 20,000",
+     "About 200,000",
+     "About 2,000,000"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Referenční lidský genom má 19 000 až 20 000 genů kódujících bílkoviny (k roku 2026). Kódující DNA přitom tvoří jen asi 1–2 % genomu.",
+    "en": "The human reference genome has between 19,000 and 20,000 protein-coding genes (as of 2026). Coding DNA makes up only about 1–2% of the genome."
+   }
+  },
+  {
+   "id": "T229-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik „matek“ měla klonovaná ovce Dolly?",
+    "en": "How many 'mothers' did Dolly the cloned sheep have?"
+   },
+   "moznosti": {
+    "cs": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "en": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jedna ovce darovala vajíčko, druhá DNA (z tělní buňky) a třetí, náhradní matka, embryo donosila. Otce Dolly neměla žádného.",
+    "en": "One ewe provided the egg, another the DNA (from a body cell) and a third, the surrogate, carried the embryo to term. Dolly had no father at all."
+   }
+  },
+  {
+   "id": "T229-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "V hospodě The Eagle údajně Francis Crick v únoru 1953 oznámil, že s Jamesem Watsonem „objevili tajemství života“. Ve kterém městě tato hospoda stojí?",
+    "en": "At The Eagle pub, Francis Crick reportedly announced in February 1953 that he and James Watson had 'discovered the secret of life'. In which city is this pub?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Londýně",
+     "V Oxfordu",
+     "V Cambridge",
+     "V Edinburghu"
+    ],
+    "en": [
+     "London",
+     "Oxford",
+     "Cambridge",
+     "Edinburgh"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "The Eagle stojí v Cambridge nedaleko původního sídla Cavendishovy laboratoře (Cavendish Laboratory), jejíž vědci sem chodili na oběd. Crick tu svůj objev ohlásil 28. února 1953.",
+    "en": "The Eagle is in Cambridge, close to the original site of the Cavendish Laboratory, whose staff used to lunch there. Crick made his announcement on 28 February 1953."
+   }
+  },
+  {
+   "id": "T229-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který britský genetik objevil v roce 1984 metodu genetických otisků (DNA fingerprinting)?",
+    "en": "Which British geneticist discovered the DNA fingerprinting method in 1984?"
+   },
+   "moznosti": {
+    "cs": [
+     "Frederick Sanger",
+     "Francis Crick",
+     "Ian Wilmut",
+     "Alec Jeffreys"
+    ],
+    "en": [
+     "Frederick Sanger",
+     "Francis Crick",
+     "Ian Wilmut",
+     "Alec Jeffreys"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Alec Jeffreys měl svůj „heuréka“ okamžik 10. září 1984 v laboratoři Leicesterské univerzity. Poprvé metoda posloužila v roce 1985 ve sporu o imigraci chlapce z rodiny ghanského původu.",
+    "en": "Alec Jeffreys had his 'eureka moment' on 10 September 1984 in his lab at the University of Leicester. The method was first used in 1985 in an immigration dispute involving a boy from a family of Ghanaian origin."
+   }
+  },
+  {
+   "id": "T229-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč jsou tříbarevné kočky (s bílými, černými a rezavými skvrnami) téměř vždy samice?",
+    "en": "Why are calico cats (with white, black and orange patches) almost always female?"
+   },
+   "moznosti": {
+    "cs": [
+     "Gen pro rezavou barvu leží na chromozomu Y",
+     "Zbarvení vzniká jen působením samičích hormonů",
+     "Gen pro rezavou barvu leží na chromozomu X",
+     "Kocouři s tímto zbarvením hynou před narozením"
+    ],
+    "en": [
+     "The orange-colour gene lies on the Y chromosome",
+     "The colouring arises only through female hormones",
+     "The orange-colour gene lies on the X chromosome",
+     "Males with this colouring die before birth"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Rezavou i černou variantu tohoto genu může nést zároveň jen kočka se dvěma chromozomy X; v každé buňce se jeden X náhodně vypne, a tak vznikají skvrny (bílou barvu řídí jiný gen). Vzácní tříbarevní kocouři mají obvykle chromozomy XXY.",
+    "en": "Only a cat with two X chromosomes can carry both the orange and the black variant of this gene; one X is randomly switched off in each cell, creating the patches (white is controlled by a different gene). Rare male calicos usually have XXY chromosomes."
+   }
+  },
+  {
+   "id": "T229-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Matka má krevní skupinu A, otec B. Jakou krevní skupinu může mít jejich dítě?",
+    "en": "The mother has blood group A and the father B. Which blood group can their child have?"
+   },
+   "moznosti": {
+    "cs": [
+     "A, B nebo AB",
+     "A, B, AB i 0",
+     "Jen AB",
+     "Jen A nebo B"
+    ],
+    "en": [
+     "A, B or AB",
+     "A, B, AB or O",
+     "Only AB",
+     "Only A or B"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pokud jsou oba rodiče nositeli recesivní alely 0 (genotypy A0 a B0), může mít dítě kteroukoli ze čtyř skupin. Alely A a B jsou vůči sobě kodominantní, takže spolu dají skupinu AB.",
+    "en": "If both parents carry the recessive O allele (genotypes AO and BO), the child can have any of the four groups. The A and B alleles are codominant, so together they give group AB."
+   }
+  },
+  {
+   "id": "T229-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Slovo chromozom pochází z řečtiny. Co doslova znamená?",
+    "en": "The word chromosome comes from Greek. What does it literally mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Barevné tělísko",
+     "Stočená nit",
+     "Dědičné vlákno",
+     "Malé jádro"
+    ],
+    "en": [
+     "Coloured body",
+     "Coiled thread",
+     "Hereditary thread",
+     "Small nucleus"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Chróma znamená barva a sóma tělo: chromozomy se výrazně barví některými barvivy. Termín zavedl německý anatom Heinrich Wilhelm Waldeyer v roce 1888.",
+    "en": "Chroma means colour and soma body: chromosomes stain strongly with certain dyes. The term was coined by the German anatomist Heinrich Wilhelm Waldeyer in 1888."
+   }
+  },
+  {
+   "id": "T229-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik procent genů mají podle amerického institutu pro výzkum genomu (NHGRI) společných octomilka a člověk?",
+    "en": "According to the US National Human Genome Research Institute (NHGRI), what percentage of genes are shared by the fruit fly and humans?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 6 %",
+     "Asi 20 %",
+     "Asi 60 %",
+     "Asi 95 %"
+    ],
+    "en": [
+     "About 6%",
+     "About 20%",
+     "About 60%",
+     "About 95%"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Asi 60 % genů je mezi octomilkou a člověkem zachováno. I proto je drobná muška jedním z nejdůležitějších modelových organismů genetiky.",
+    "en": "About 60% of genes are conserved between fruit flies and humans. That is one reason why this tiny fly is among the most important model organisms in genetics."
+   }
+  },
+  {
+   "id": "T229-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Švýcarský lékař Friedrich Miescher roku 1869 jako první izoloval DNA, kterou nazval nuklein. Z čeho ji získal?",
+    "en": "In 1869, the Swiss physician Friedrich Miescher was the first to isolate DNA, which he called nuclein. What did he obtain it from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z listů hrachu",
+     "Z kvasnic z pivovaru",
+     "Z bílku slepičích vajec",
+     "Z hnisu na použitých obvazech"
+    ],
+    "en": [
+     "Pea leaves",
+     "Brewer's yeast",
+     "Hen's egg white",
+     "Pus on used bandages"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Miescher zkoumal bílé krvinky z hnisu na vyhozených chirurgických obvazech a objevil v jejich jádrech novou látku. Že nese dědičnou informaci, se ukázalo až o desítky let později.",
+    "en": "Miescher studied white blood cells from the pus on discarded surgical bandages and found a new substance in their nuclei. That it carries hereditary information became clear only decades later."
+   }
+  },
+  {
+   "id": "T229-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Linus Pauling a Robert Corey navrhli v únoru 1953, krátce před Watsonem a Crickem, chybný model DNA. Jak vypadal?",
+    "en": "In February 1953, shortly before Watson and Crick, Linus Pauling and Robert Corey proposed a flawed model of DNA. What did it look like?"
+   },
+   "moznosti": {
+    "cs": [
+     "Čtyřvláknový žebřík",
+     "Trojitá šroubovice",
+     "Jednoduchá šroubovice",
+     "Uzavřený kruhový řetězec"
+    ],
+    "en": [
+     "A four-stranded ladder",
+     "A triple helix",
+     "A single helix",
+     "A closed circular chain"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Model měl tři propletená vlákna s fosfáty uprostřed a bázemi vně. Pauling počítal s neutrálními fosfátovými skupinami, což odporovalo kyselé povaze DNA.",
+    "en": "The model had three intertwined chains with the phosphates near the axis and the bases on the outside. Pauling assumed neutral phosphate groups, which contradicted the acidic nature of DNA."
+   }
+  },
+  {
+   "id": "T229-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Člověk má o jeden pár chromozomů méně než šimpanz. Čím se to vysvětluje?",
+    "en": "Humans have one pair of chromosomes fewer than chimpanzees. How is this explained?"
+   },
+   "moznosti": {
+    "cs": [
+     "Šimpanzi získali jeden pár zdvojením",
+     "Lidé ztratili jeden pár během doby ledové",
+     "Lidský chromozom Y pohltil jeden pár",
+     "Dva chromozomy předků u lidí splynuly v jeden"
+    ],
+    "en": [
+     "Chimpanzees gained one pair by duplication",
+     "Humans lost one pair during the Ice Age",
+     "The human Y chromosome absorbed one pair",
+     "Two ancestral chromosomes fused into one in humans"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Z dvou chromozomů, které mají ostatní velcí lidoopi dodnes oddělené, vznikl splynutím lidský chromozom 2. Proto má člověk o jeden pár chromozomů méně než šimpanz, gorila i orangutan.",
+    "en": "Two chromosomes that the other great apes still have separately fused to form human chromosome 2. That is why humans have one pair of chromosomes fewer than chimpanzees, gorillas and orangutans."
+   }
+  },
+  {
+   "id": "T229-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve škole se dlouho učilo, že dva modroocí rodiče nemohou mít dítě s hnědýma očima. Jak to je podle současné genetiky?",
+    "en": "Schools long taught that two blue-eyed parents cannot have a brown-eyed child. What does current genetics say?"
+   },
+   "moznosti": {
+    "cs": [
+     "Platí to bez výjimky",
+     "Je to vzácné, ale možné",
+     "Platí to jen u chlapců",
+     "Platí to jen u dívek"
+    ],
+    "en": [
+     "It holds without exception",
+     "It is rare but possible",
+     "It holds only for boys",
+     "It holds only for girls"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Barva očí není jednoduchý znak řízený jedním genem: podílí se na ní více genů, hlavně HERC2 a OCA2. Jejich souhra umožňuje, aby se modroocím rodičům výjimečně narodilo hnědooké dítě.",
+    "en": "Eye colour is not a simple single-gene trait: several genes are involved, mainly HERC2 and OCA2. Their interplay makes it possible, if rarely, for blue-eyed parents to have a brown-eyed child."
+   }
+  },
+  {
+   "id": "T229-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo roku 1909 zavedl slovo gen (a spolu s ním i pojmy genotyp a fenotyp)?",
+    "en": "Who introduced the word gene in 1909 (together with the terms genotype and phenotype)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Wilhelm Johannsen",
+     "Hugo de Vries",
+     "Thomas Hunt Morgan",
+     "William Bateson"
+    ],
+    "en": [
+     "Wilhelm Johannsen",
+     "Hugo de Vries",
+     "Thomas Hunt Morgan",
+     "William Bateson"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Johannsen použil všechny tři pojmy v knize Elemente der exakten Erblichkeitslehre (1909). William Bateson naopak už v letech 1905–1906 zavedl slovo genetika.",
+    "en": "Johannsen used all three terms in his book Elemente der exakten Erblichkeitslehre (1909). William Bateson, by contrast, had introduced the word genetics in 1905–1906."
+   }
+  },
+  {
+   "id": "T229-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Lidé, kteří byli v matčině děloze během hladomoru v zimě 1944–1945, patří ke klasickým příkladům ve výzkumu epigenetiky, tedy změn aktivity genů bez změny samotné DNA. Ve které zemi tento hladomor probíhal?",
+    "en": "People who were in their mothers' wombs during the famine of winter 1944–1945 are a classic example in the study of epigenetics, i.e. changes in gene activity without changes to the DNA itself. In which country did this famine take place?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Norsku",
+     "V Nizozemsku",
+     "V Polsku",
+     "V Belgii"
+    ],
+    "en": [
+     "Norway",
+     "The Netherlands",
+     "Poland",
+     "Belgium"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Během nizozemské „hladové zimy“ (Hongerwinter) trpěly hladem i těhotné ženy. Jejich děti měly později častěji cukrovku, obezitu či srdečně-cévní onemocnění a menší porodní váhu měla i některá vnoučata.",
+    "en": "During the Dutch 'Hunger Winter' (Hongerwinter), pregnant women starved too. Their children later had higher rates of diabetes, obesity and cardiovascular disease, and some grandchildren were also smaller at birth."
+   }
+  },
+  {
+   "id": "T229-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čínský vědec He Jiankui v listopadu 2018 oznámil narození dvojčat, jejichž genom upravil už ve stadiu embrya. Proti čemu je měla úprava chránit?",
+    "en": "In November 2018, the Chinese scientist He Jiankui announced the birth of twins whose genomes he had edited at the embryo stage. What was the edit meant to protect them against?"
+   },
+   "moznosti": {
+    "cs": [
+     "Proti rakovině prsu",
+     "Proti malárii",
+     "Proti cukrovce",
+     "Proti HIV"
+    ],
+    "en": [
+     "Breast cancer",
+     "Malaria",
+     "Diabetes",
+     "HIV"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "He upravil gen CCR5, jehož bílkovinu využívá HIV ke vstupu do buněk. Pokus vyvolal celosvětové odsouzení a v roce 2019 dostal tři roky vězení.",
+    "en": "He edited the CCR5 gene, whose protein HIV uses to enter cells. The experiment drew worldwide condemnation, and in 2019 he was sentenced to three years in prison."
+   }
+  },
+  {
+   "id": "T229-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Denisované (Denisovans), příbuzní neandertálců, byli roku 2010 popsáni hlavně na základě DNA. Z jakého nálezu ji vědci získali?",
+    "en": "The Denisovans, relatives of the Neanderthals, were described in 2010 mainly on the basis of DNA. What find did scientists obtain it from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z kůstky prstu dívky",
+     "Z vlasů zamrzlých v ledu",
+     "Z téměř celé lebky",
+     "Ze zubního kamene"
+    ],
+    "en": [
+     "A girl's finger bone",
+     "Hair frozen in ice",
+     "An almost complete skull",
+     "Dental calculus"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kůstka prstu mladé dívky pocházela z Denisovy jeskyně v sibiřském Altaji. Rozbor mitochondriální DNA ukázal, že patřila dosud neznámé skupině lidí.",
+    "en": "The finger bone of a young girl came from Denisova Cave in the Altai Mountains of Siberia. Analysis of its mitochondrial DNA showed it belonged to a previously unknown group of humans."
+   }
+  },
+  {
+   "id": "T229-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Při prvním použití genetických otisků ve vyšetřování vražd (Narborough, Anglie) DNA test nejprve prokázal…",
+    "en": "In the first use of DNA fingerprinting in a murder investigation (Narborough, England), the DNA test first proved…"
+   },
+   "moznosti": {
+    "cs": [
+     "že vraždy spáchali dva různí pachatelé",
+     "nevinu mladíka, který se k vraždě přiznal",
+     "že stopy na místě patřily ženě",
+     "vinu muže, který už seděl ve vězení"
+    ],
+    "en": [
+     "that the murders were committed by two different people",
+     "the innocence of a young man who had confessed to a murder",
+     "that the traces at the scene belonged to a woman",
+     "the guilt of a man already in prison"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Sedmnáctiletý Richard Buckland se přiznal k vraždě Dawn Ashworthové, ale test ho očistil. Skutečný vrah Colin Pitchfork poslal k odběru krve kolegu s falešným pasem, přesto byl dopaden a v lednu 1988 odsouzen.",
+    "en": "Seventeen-year-old Richard Buckland had confessed to the murder of Dawn Ashworth, but the test cleared him. The real killer, Colin Pitchfork, sent a colleague with a fake passport to give blood in his place, yet he was caught and convicted in January 1988."
+   }
+  },
+  {
+   "id": "T229-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Asi 8 % lidského genomu (hlavně oblasti centromer a telomer) zůstávalo dlouho nepřečteno. Ve kterém roce konsorcium T2T (Telomere-to-Telomere) zveřejnilo první úplnou sekvenci lidského genomu?",
+    "en": "For a long time, about 8% of the human genome (mainly centromeric and telomeric regions) remained unread. In which year did the T2T (Telomere-to-Telomere) consortium publish the first complete sequence of a human genome?"
+   },
+   "moznosti": {
+    "cs": [
+     "2007",
+     "2012",
+     "2017",
+     "2022"
+    ],
+    "en": [
+     "2007",
+     "2012",
+     "2017",
+     "2022"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Až v roce 2022 představilo konsorcium T2T úplnou sekvenci ženského genomu (22 autozomů a chromozom X); chromozom Y doplnilo v roce 2023. Chybějící úseky ležely hlavně v heterochromatinu.",
+    "en": "Only in 2022 did the T2T consortium present the complete sequence of a female human genome (the 22 autosomes and the X chromosome); the Y chromosome followed in 2023. The missing stretches lay mainly in heterochromatin."
+   }
+  }
+ ]
+}

@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T407",
+ "nazev": {
+  "cs": "Symfonický orchestr: nástroje, dirigenti a koncertní sály",
+  "en": "The Symphony Orchestra: Instruments, Conductors and Concert Halls"
+ },
+ "kategorie": {
+  "id": "hudba",
+  "nazev": {
+   "cs": "Hudba",
+   "en": "Music"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T407-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která sekce symfonického orchestru má obvykle nejvíc hráčů?",
+    "en": "Which section of a symphony orchestra usually has the most players?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dřevěné dechové nástroje",
+     "Žesťové nástroje",
+     "Bicí nástroje",
+     "Smyčcové nástroje"
+    ],
+    "en": [
+     "Woodwinds",
+     "Brass",
+     "Percussion",
+     "Strings"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Smyčce – první a druhé housle, violy, violoncella a kontrabasy – tvoří obvykle zhruba polovinu hráčů, víc než kterákoli jiná sekce. Sedí vpředu kolem dirigenta, aby je nepřehlušily dechy.",
+    "en": "The strings – first and second violins, violas, cellos and double basses – usually make up around half of the players, more than any other section. They sit at the front, around the conductor, so the winds and brass do not drown them out."
+   }
+  },
+  {
+   "id": "T407-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo je v symfonickém orchestru koncertní mistr?",
+    "en": "Who is the concertmaster of a symphony orchestra?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ředitel orchestru",
+     "Vedoucí hráč violoncell",
+     "První hobojista orchestru",
+     "Vedoucí hráč prvních houslí"
+    ],
+    "en": [
+     "The orchestra's general manager",
+     "The leader of the cellos",
+     "The orchestra's principal oboist",
+     "The leader of the first violins"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Koncertní mistr sedí po levici dirigenta, řídí ladění, hraje houslová sóla a za celý orchestr si s dirigentem podává ruku. V Británii se mu říká „leader“.",
+    "en": "The concertmaster sits to the conductor's left, leads the tuning, plays the violin solos and shakes the conductor's hand on behalf of the whole orchestra. In Britain the role is called the 'leader'."
+   }
+  },
+  {
+   "id": "T407-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo složil hudební pohádku Petr a vlk (1936), ve které vypravěč dětem představuje nástroje orchestru?",
+    "en": "Who composed the musical tale Peter and the Wolf (1936), in which a narrator introduces children to the instruments of the orchestra?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dmitrij Šostakovič",
+     "Sergej Prokofjev",
+     "Igor Stravinskij",
+     "Nikolaj Rimskij-Korsakov"
+    ],
+    "en": [
+     "Dmitri Shostakovich",
+     "Sergei Prokofiev",
+     "Igor Stravinsky",
+     "Nikolai Rimsky-Korsakov"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Sergej Prokofjev ji napsal v roce 1936 pro Ústřední dětské divadlo v Moskvě. Každá postava příběhu má vlastní nástroj a vlastní melodii, takže ji děti poznají podle zvuku.",
+    "en": "Sergei Prokofiev wrote it in 1936 for the Central Children's Theatre in Moscow. Each character has its own instrument and its own tune, so children can recognise it by sound."
+   }
+  },
+  {
+   "id": "T407-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo složil Boléro, skladbu, která celou dobu opakuje stejné téma a jen postupně zesiluje?",
+    "en": "Who composed Boléro, the piece that repeats the same theme over and over while steadily getting louder?"
+   },
+   "moznosti": {
+    "cs": [
+     "Georges Bizet",
+     "Maurice Ravel",
+     "Claude Debussy",
+     "Camille Saint-Saëns"
+    ],
+    "en": [
+     "Georges Bizet",
+     "Maurice Ravel",
+     "Claude Debussy",
+     "Camille Saint-Saëns"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Boléro Maurice Ravela poprvé zaznělo v roce 1928 v Paříži a stalo se jeho nejslavnějším dílem. Sám autor ho přitom bral spíš jako cvičení v instrumentaci a označil ho za „orchestrální tkáň bez hudby“.",
+    "en": "Maurice Ravel's Boléro was first heard in Paris in 1928 and became his most famous work. Yet he saw it mainly as an exercise in orchestration and called it 'orchestral tissue without music'."
+   }
+  },
+  {
+   "id": "T407-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se jmenují velké orchestrální bubny s měděným kotlem, které se dají naladit na přesné tóny, často pomocí pedálu?",
+    "en": "What are the large orchestral drums with copper bowls called that can be tuned to precise notes, often by means of a pedal?"
+   },
+   "moznosti": {
+    "cs": [
+     "Velký buben",
+     "Malý buben",
+     "Tom-tomy",
+     "Tympány"
+    ],
+    "en": [
+     "Bass drum",
+     "Snare drum",
+     "Tom-toms",
+     "Timpani"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Tympánista mívá obvykle čtyři až pět kotlů různé velikosti. Sešlápnutím pedálu mění napětí blány, a tím i výšku tónu, takže může ladit i během skladby.",
+    "en": "A timpanist usually plays four or five drums of different sizes. The pedal changes the tension of the head and therefore the pitch, so the player can retune even in the middle of a piece."
+   }
+  },
+  {
+   "id": "T407-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Turista v New Yorku se zeptá kolemjdoucího hudebníka: „Jak se dostanu do Carnegie Hall?“ Jak zní pointa známého vtipu?",
+    "en": "A tourist in New York asks a passing musician: 'How do you get to Carnegie Hall?' What is the punchline of the famous joke?"
+   },
+   "moznosti": {
+    "cs": [
+     "„Kupte si lístek!“",
+     "„Jeďte linkou A!“",
+     "„Cvičit, cvičit, cvičit!“",
+     "„Jděte za hudbou!“"
+    ],
+    "en": [
+     "'Buy a ticket!'",
+     "'Take the A train!'",
+     "'Practice, practice, practice!'",
+     "'Follow the music!'"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vtip naráží na to, že vystoupit v Carnegie Hall je vrchol kariéry, kam vede jen dřina. Jeho původ je nejasný, ale sál si ho vzal za svůj a věnuje mu i článek na vlastním webu.",
+    "en": "The joke plays on the idea that performing at Carnegie Hall is the peak of a career, reached only through hard work. Its origin is unclear, but the hall has embraced it and even features it on its own website."
+   }
+  },
+  {
+   "id": "T407-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "V čem spočívá „překvapení“ v Haydnově Symfonii č. 94, přezdívané Překvapení?",
+    "en": "What is the 'surprise' in Haydn's Symphony No. 94, nicknamed the Surprise?"
+   },
+   "moznosti": {
+    "cs": [
+     "Orchestr se na celou minutu odmlčí",
+     "Ve finále zazní výstřel z pistole",
+     "Náhlý hlasitý akord v tiché větě",
+     "Melodie se náhle hraje pozpátku"
+    ],
+    "en": [
+     "The orchestra falls silent for a whole minute",
+     "A pistol shot is fired in the finale",
+     "A sudden loud chord in a quiet movement",
+     "The melody is suddenly played backwards"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ve druhé větě Symfonie č. 94 (1791) hraje orchestr prostinkou melodii potichu – a pak ji přeruší silný akord celého orchestru. Podle legendy měl probudit podřimující publikum, Haydn sám ale tvrdil, že chtěl Londýňany ohromit něčím novým.",
+    "en": "In the second movement of Symphony No. 94 (1791) the orchestra plays a simple tune very quietly – then a loud chord from the full orchestra breaks in. Legend says it was meant to wake dozing listeners, but Haydn himself said he wanted to dazzle London with something new."
+   }
+  },
+  {
+   "id": "T407-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Dirigenti bývají často oslovováni italským slovem „maestro“. Co doslova znamená?",
+    "en": "Conductors are often addressed with the Italian word 'maestro'. What does it literally mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kouzelník",
+     "Mistr",
+     "Otec",
+     "Kníže"
+    ],
+    "en": [
+     "Magician",
+     "Master",
+     "Father",
+     "Prince"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Slovo maestro pochází z latinského magister a v italštině znamená mistr či učitel. Jako čestný titul se používá pro dirigenty, skladatele i významné učitele hudby.",
+    "en": "The word maestro comes from Latin magister and means master or teacher in Italian. As an honorary title it is used for conductors, composers and eminent music teachers."
+   }
+  },
+  {
+   "id": "T407-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co znamená, když je v partituře orchestrální skladby napsáno „tutti“?",
+    "en": "What does it mean when the score of an orchestral piece says 'tutti'?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hrají všichni",
+     "Hraje se velmi potichu",
+     "Úsek se opakuje",
+     "Hraje jen sólista"
+    ],
+    "en": [
+     "Everyone plays",
+     "Play very quietly",
+     "Repeat the passage",
+     "Only the soloist plays"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Tutti je italsky „všichni“ – hraje celý orchestr nebo celá skupina nástrojů. V koncertech se pasáže tutti střídají se sólovými úseky.",
+    "en": "Tutti is Italian for 'all' – the whole orchestra or the whole section plays. In concertos, tutti passages alternate with passages for the soloist."
+   }
+  },
+  {
+   "id": "T407-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který panovník v říjnu 1973 slavnostně otevřel budovu Opery v Sydney?",
+    "en": "Which monarch officially opened the Sydney Opera House in October 1973?"
+   },
+   "moznosti": {
+    "cs": [
+     "Viktorie",
+     "Alžběta II.",
+     "Karel III.",
+     "Jiří VI."
+    ],
+    "en": [
+     "Victoria",
+     "Elizabeth II",
+     "Charles III",
+     "George VI"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Královna Alžběta II. budovu otevřela 20. října 1973 jako královna Austrálie. Stavba začala v roce 1959 a trvala čtrnáct let.",
+    "en": "Queen Elizabeth II opened the building on 20 October 1973 as Queen of Australia. Construction had begun in 1959 and took fourteen years."
+   }
+  },
+  {
+   "id": "T407-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "V hudební pohádce Petr a vlk má každá postava svůj nástroj. Který nástroj představuje kachnu?",
+    "en": "In the musical tale Peter and the Wolf each character has its own instrument. Which instrument plays the duck?"
+   },
+   "moznosti": {
+    "cs": [
+     "Klarinet",
+     "Hoboj",
+     "Flétna",
+     "Fagot"
+    ],
+    "en": [
+     "Clarinet",
+     "Oboe",
+     "Flute",
+     "Bassoon"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Kachnu hraje nosový, „kejhavý“ hoboj. Ptáčka představuje flétna, kočku klarinet, dědečka fagot, vlka tři lesní rohy a Petra smyčce.",
+    "en": "The duck is played by the nasal, quacking oboe. The bird is the flute, the cat the clarinet, the grandfather the bassoon, the wolf three French horns and Peter the strings."
+   }
+  },
+  {
+   "id": "T407-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který nástroj v Boléru opakuje od začátku až do konce pořád stejný rytmus?",
+    "en": "Which instrument repeats the same rhythm from the beginning to the end of Boléro?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tympány",
+     "Triangl",
+     "Malý buben",
+     "Kastaněty"
+    ],
+    "en": [
+     "Timpani",
+     "Triangle",
+     "Snare drum",
+     "Castanets"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Malý buben drží neúprosný rytmus po celých zhruba patnáct minut, zatímco melodie putuje od nástroje k nástroji. Teprve těsně před koncem hudba náhle přejde z C dur do E dur, po osmi taktech se vrátí a pak se zhroutí.",
+    "en": "The snare drum keeps up the relentless rhythm for some fifteen minutes while the melody passes from instrument to instrument. Only just before the end does the music suddenly lurch from C major into E major, returning after eight bars before it collapses."
+   }
+  },
+  {
+   "id": "T407-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která skladba tradičně uzavírá Novoroční koncert Vídeňských filharmoniků, přičemž publikum do rytmu tleská podle pokynů dirigenta?",
+    "en": "Which piece traditionally ends the Vienna Philharmonic's New Year's Concert, with the audience clapping along to the beat as the conductor directs them?"
+   },
+   "moznosti": {
+    "cs": [
+     "Radeckého pochod",
+     "Císařský valčík",
+     "Na krásném modrém Dunaji",
+     "Polka Hromy a blesky"
+    ],
+    "en": [
+     "Radetzky March",
+     "Emperor Waltz",
+     "The Blue Danube",
+     "Thunder and Lightning Polka"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Radeckého pochod složil Johann Strauss starší v roce 1848 na počest maršála Radeckého. Dirigent se při něm otáčí k publiku a „řídí“ jeho tleskání – slabě, silně, nebo vůbec.",
+    "en": "Johann Strauss I wrote the Radetzky March in 1848 in honour of Field Marshal Radetzky. During it the conductor turns to the audience and 'conducts' the clapping – soft, loud or not at all."
+   }
+  },
+  {
+   "id": "T407-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který slavný skladatel dirigoval v květnu 1891 na slavnostním festivalu při otevření newyorské Carnegie Hall?",
+    "en": "Which famous composer conducted at the festival marking the opening of New York's Carnegie Hall in May 1891?"
+   },
+   "moznosti": {
+    "cs": [
+     "Gustav Mahler",
+     "Antonín Dvořák",
+     "Johannes Brahms",
+     "Petr Iljič Čajkovskij"
+    ],
+    "en": [
+     "Gustav Mahler",
+     "Antonín Dvořák",
+     "Johannes Brahms",
+     "Pyotr Ilyich Tchaikovsky"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Čajkovskij byl hlavním hostem pětidenního festivalu a na úvodním večeru 5. května 1891 dirigoval svůj Slavnostní pochod. Sál financoval ocelářský magnát Andrew Carnegie.",
+    "en": "Tchaikovsky was the star guest of the five-day festival and on the opening night of 5 May 1891 conducted his Marche solennelle. The hall was funded by the steel magnate Andrew Carnegie."
+   }
+  },
+  {
+   "id": "T407-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč se londýnskému letnímu festivalu koncertů BBC říká Proms?",
+    "en": "Why is the BBC's London summer concert festival called the Proms?"
+   },
+   "moznosti": {
+    "cs": [
+     "Podle ulice Prom Street, kde stál první sál",
+     "Ze slova „programme“, tištěného seznamu skladeb",
+     "Z „promenade“ – publikum se prochází",
+     "Ze slova „promise“: každý koncert slíbil premiéru"
+    ],
+    "en": [
+     "After Prom Street, where the first hall stood",
+     "From 'programme', the printed list of pieces",
+     "From 'promenade' – the audience strolls",
+     "From 'promise': every concert promised a premiere"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Proms jsou zkratkou „promenade concerts“ – od roku 1895 si diváci mohou koupit levnou vstupenku na stání přímo pod pódiem. Dnes se konají hlavně v Royal Albert Hall.",
+    "en": "Proms is short for 'promenade concerts' – since 1895 listeners have been able to buy cheap standing tickets right below the stage. Today they are held mainly at the Royal Albert Hall."
+   }
+  },
+  {
+   "id": "T407-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co udělali hudebníci ve finále Haydnovy Symfonie Na rozloučenou (1772), aby knížeti Esterházymu naznačili, že chtějí domů?",
+    "en": "What did the musicians do in the finale of Haydn's Farewell Symphony (1772) to hint to Prince Esterházy that they wanted to go home?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vyměnili si mezi sebou nástroje",
+     "Celé finále odehráli v naprosté tmě",
+     "Místo hraní zazpívali píseň na rozloučenou",
+     "Postupně přestávali hrát, zhasli svíčky a odešli"
+    ],
+    "en": [
+     "They swapped instruments with each other",
+     "They played the whole finale in total darkness",
+     "They sang a farewell song instead of playing",
+     "One by one they stopped, snuffed candles and left"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kníže držel orchestr na letním sídle Eszterháza déle, než bylo zvykem, a hudebníci se nemohli vrátit k rodinám. Nakonec zůstaly hrát jen dvoje housle s dusítky; kníže narážku pochopil a dvůr se hned nato vrátil domů.",
+    "en": "The prince kept the orchestra at his summer palace of Eszterháza longer than usual, away from their families. In the end only two muted violins were left playing; the prince took the hint and the court left the very next day."
+   }
+  },
+  {
+   "id": "T407-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaký je rozdíl mezi „filharmonií“ a „symfonickým orchestrem“?",
+    "en": "What is the difference between a 'philharmonic' and a 'symphony' orchestra?"
+   },
+   "moznosti": {
+    "cs": [
+     "Symfonický orchestr hraje vždy bez sboru",
+     "Filharmonie hraje jen ve svém domovském sále",
+     "Žádný pevný – jde jen o součást názvu",
+     "Filharmonie musí mít aspoň 100 hráčů"
+    ],
+    "en": [
+     "A symphony orchestra always plays without a choir",
+     "A philharmonic plays only in its home hall",
+     "None fixed – it is just part of the name",
+     "A philharmonic must have at least 100 players"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Obojí jsou plnohodnotné symfonické orchestry se stejným obsazením. Odlišné názvy často jen rozlišují dva orchestry v jednom městě, třeba London Symphony Orchestra a London Philharmonic; „filharmonie“ znamená řecky „láska k harmonii“.",
+    "en": "Both are full symphony orchestras with the same line-up. The different names often just distinguish two orchestras in one city, such as the London Symphony Orchestra and the London Philharmonic; 'philharmonic' is Greek for 'love of harmony'."
+   }
+  },
+  {
+   "id": "T407-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který sál je největší z prostor Opery v Sydney?",
+    "en": "Which is the largest venue of the Sydney Opera House?"
+   },
+   "moznosti": {
+    "cs": [
+     "Koncertní sál",
+     "Divadlo Joan Sutherlandové",
+     "Studio",
+     "Činoherní divadlo"
+    ],
+    "en": [
+     "Concert Hall",
+     "Joan Sutherland Theatre",
+     "The Studio",
+     "Drama Theatre"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Navzdory jménu budovy je největší Koncertní sál s asi 2 700 místy, domov Sydneyského symfonického orchestru. Opery se hrají v menším Divadle Joan Sutherlandové s asi 1 500 místy.",
+    "en": "Despite the building's name, the largest venue is the Concert Hall with about 2,700 seats, home of the Sydney Symphony Orchestra. Operas are staged in the smaller Joan Sutherland Theatre, which seats about 1,500."
+   }
+  },
+  {
+   "id": "T407-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se 14. listopadu 1943 stal pětadvacetiletý asistent dirigenta Leonard Bernstein přes noc slavným?",
+    "en": "How did 25-year-old assistant conductor Leonard Bernstein become famous overnight on 14 November 1943?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vyhrál mezinárodní dirigentskou soutěž",
+     "Měl premiéru svého prvního muzikálu",
+     "Dirigoval vojenskou kapelu na přehlídce vítězství",
+     "Na pár hodin předem zaskočil za nemocného dirigenta"
+    ],
+    "en": [
+     "He won an international conducting competition",
+     "His first musical premiered on Broadway",
+     "He led an army band at a victory parade",
+     "He stood in at a few hours' notice for an ill conductor"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Bernstein bez jediné zkoušky převzal koncert Newyorské filharmonie v Carnegie Hall za nemocného Bruna Waltera. Koncert vysílal rozhlas po celých USA a druhý den o něm psaly titulní strany novin.",
+    "en": "Without a single rehearsal, Bernstein took over a New York Philharmonic concert at Carnegie Hall from the ailing Bruno Walter. The concert was broadcast nationwide on the radio and made the front pages the next day."
+   }
+  },
+  {
+   "id": "T407-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve které vídeňské budově se ve Zlatém sále koná Novoroční koncert Vídeňských filharmoniků?",
+    "en": "In which Vienna building's Golden Hall is the Vienna Philharmonic's New Year's Concert held?"
+   },
+   "moznosti": {
+    "cs": [
+     "Musikverein",
+     "Konzerthaus",
+     "Hofburg",
+     "Vídeňská státní opera"
+    ],
+    "en": [
+     "Musikverein",
+     "Konzerthaus",
+     "Hofburg Palace",
+     "Vienna State Opera"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Budova Musikvereinu byla otevřena v roce 1870 a její Zlatý sál ve tvaru „krabice od bot“ patří k sálům s nejlepší akustikou na světě. Je domovským sálem Vídeňských filharmoniků.",
+    "en": "The Musikverein opened in 1870, and its shoebox-shaped Golden Hall is counted among the concert halls with the finest acoustics in the world. It is the home venue of the Vienna Philharmonic."
+   }
+  },
+  {
+   "id": "T407-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Skladba Benjamina Brittena Průvodce mladého člověka orchestrem (The Young Person's Guide to the Orchestra, 1946) je souborem variací a fugy na téma jiného skladatele. Kterého?",
+    "en": "Benjamin Britten's The Young Person's Guide to the Orchestra (1946) is a set of variations and a fugue on a theme by another composer. Who?"
+   },
+   "moznosti": {
+    "cs": [
+     "Edward Elgar",
+     "Georg Friedrich Händel",
+     "Thomas Tallis",
+     "Henry Purcell"
+    ],
+    "en": [
+     "Edward Elgar",
+     "George Frideric Handel",
+     "Thomas Tallis",
+     "Henry Purcell"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Téma je rondo z Purcellovy scénické hudby ke hře Abdelazer (1695). Britten skladbu napsal pro vzdělávací film Instruments of the Orchestra; ve fuze nakonec všechny nástroje zazní spolu a žestě znovu přinesou Purcellovo téma.",
+    "en": "The theme is the Rondeau from Purcell's incidental music to the play Abdelazer (1695). Britten wrote the piece for the educational film Instruments of the Orchestra; in the closing fugue all the instruments join in and the brass bring back Purcell's theme."
+   }
+  },
+  {
+   "id": "T407-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jako co vzniklo v roce 1928 Boléro na objednávku?",
+    "en": "What was Boléro originally commissioned as in 1928?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jako balet pro tanečnici Idu Rubinsteinovou",
+     "Jako hudba k němému filmu Abela Gance",
+     "Jako klavírní skladba pro soutěž pařížské konzervatoře",
+     "Jako pochod pro přehlídku Cizinecké legie"
+    ],
+    "en": [
+     "A ballet for the dancer Ida Rubinstein",
+     "A score for an Abel Gance silent film",
+     "A piano piece for a Paris Conservatoire contest",
+     "A march for a Foreign Legion parade"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Objednala ho ruská tanečnice Ida Rubinsteinová a premiéra proběhla jako balet v pařížské Opeře 22. listopadu 1928. V choreografii Bronislavy Nižinské tančila na stole ve španělské krčmě, kolem níž se shromažďovali muži.",
+    "en": "It was commissioned by the Russian dancer Ida Rubinstein and premiered as a ballet at the Paris Opéra on 22 November 1928. In Bronislava Nijinska's choreography she danced on a table in a Spanish tavern as men gathered around her."
+   }
+  },
+  {
+   "id": "T407-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "O Vánocích 1989, po pádu Berlínské zdi, dirigoval Leonard Bernstein v Berlíně Beethovenovu Devátou a v Schillerově Ódě na radost změnil jedno slovo. Čím nahradil slovo „Freude“ (radost)?",
+    "en": "At Christmas 1989, after the fall of the Berlin Wall, Leonard Bernstein conducted Beethoven's Ninth in Berlin and changed one word of Schiller's Ode to Joy. What did he replace the word 'Freude' (joy) with?"
+   },
+   "moznosti": {
+    "cs": [
+     "Freiheit (svoboda)",
+     "Liebe (láska)",
+     "Frieden (mír)",
+     "Einheit (jednota)"
+    ],
+    "en": [
+     "Freiheit (freedom)",
+     "Liebe (love)",
+     "Frieden (peace)",
+     "Einheit (unity)"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Na koncertě 25. prosince 1989 v berlínském Konzerthausu (tehdy Schauspielhaus) tak zazněla „Óda na svobodu“. Hráli hudebníci z Bavorska, Drážďan, Leningradu, Londýna, New Yorku a Paříže – z obou stran železné opony.",
+    "en": "So at the concert on Christmas Day 1989 in Berlin's Konzerthaus (then the Schauspielhaus) the audience heard an 'Ode to Freedom'. The players came from Bavaria, Dresden, Leningrad, London, New York and Paris – from both sides of the Iron Curtain."
+   }
+  },
+  {
+   "id": "T407-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Poznámka v notách krátké klavírní skladby Erika Satieho Vexations se obvykle vykládá jako pokyn hrát ji stále dokola. Kolikrát?",
+    "en": "A note in the score of Erik Satie's short piano piece Vexations is usually read as an instruction to play it over and over. How many times?"
+   },
+   "moznosti": {
+    "cs": [
+     "88",
+     "144",
+     "365",
+     "840"
+    ],
+    "en": [
+     "88",
+     "144",
+     "365",
+     "840"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "První úplné provedení uspořádal v roce 1963 v New Yorku John Cage: štafeta klavíristů hrála přes 18 hodin. Satie k notám připsal, že je dobré se předem připravit „v nejhlubším tichu a vážné nehybnosti“.",
+    "en": "The first complete performance was organised by John Cage in New York in 1963: a relay of pianists played for more than 18 hours. Satie added that one should prepare beforehand 'in the deepest silence and serious immobility'."
+   }
+  },
+  {
+   "id": "T407-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V kostele sv. Burcharda v německém Halberstadtu probíhá od roku 2001 provedení varhanní skladby Johna Cage ORGAN²/ASLSP („tak pomalu, jak je to možné“). Kolik let má celkem trvat?",
+    "en": "Since 2001, John Cage's organ piece ORGAN²/ASLSP ('as slow as possible') has been performed in St. Burchardi church in Halberstadt, Germany. How many years is the whole performance meant to last?"
+   },
+   "moznosti": {
+    "cs": [
+     "99",
+     "199",
+     "639",
+     "1000"
+    ],
+    "en": [
+     "99",
+     "199",
+     "639",
+     "1000"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Provedení má skončit v roce 2640 (k roku 2026 stále probíhá). Délka odpovídá době mezi postavením varhan halberstadtské katedrály kolem roku 1361 a původně plánovaným začátkem provedení v roce 2000; každá změna akordu přiláká stovky až tisíce posluchačů.",
+    "en": "The performance is due to end in 2640 (still under way as of 2026). Its length matches the time between the building of the Halberstadt Cathedral organ around 1361 and the originally planned start of the performance in 2000; each chord change draws hundreds or even thousands of listeners."
+   }
+  },
+  {
+   "id": "T407-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Stěny Velkého sálu hamburské Elbphilharmonie pokrývá asi 10 000 sádrových panelů, z nichž každý má jedinečný vzor drobných prohlubní. K čemu slouží?",
+    "en": "The walls of the Grand Hall of Hamburg's Elbphilharmonie are covered with about 10,000 gypsum panels, each with a unique pattern of small hollows. What is their purpose?"
+   },
+   "moznosti": {
+    "cs": [
+     "Odrážejí denní světlo z oken",
+     "Rovnoměrně rozptylují zvuk po celém sále",
+     "Pohlcují ozvěnu, aby sál zněl úplně „suše“",
+     "Skrývají tisíce malých reproduktorů"
+    ],
+    "en": [
+     "Reflecting daylight from the windows",
+     "Scattering the sound evenly through the hall",
+     "Absorbing echoes so the hall sounds completely dry",
+     "Hiding thousands of small loudspeakers"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Obložení zvané „Bílá kůže“ navrhl akustik Jasuhisa Tojota spolu s architekty Herzog & de Meuron; počítačem vyfrézované prohlubně zvuk rozptylují, takže nikde nevznikají ostré odrazy.",
+    "en": "The cladding, known as the 'White Skin', was designed by acoustician Yasuhisa Toyota with the architects Herzog & de Meuron; the computer-milled hollows diffuse the sound so that no harsh reflections arise anywhere."
+   }
+  },
+  {
+   "id": "T407-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím byla revoluční berlínská Philharmonie Hanse Scharouna (1963), která se stala vzorem pro mnoho dalších sálů?",
+    "en": "What made Hans Scharoun's Berlin Philharmonie (1963), a model for many later halls, revolutionary?"
+   },
+   "moznosti": {
+    "cs": [
+     "Podkovou s několika patry lóží",
+     "Vějířovitým amfiteátrem obráceným k pódiu",
+     "Orchestrem uprostřed a diváky na terasách kolem",
+     "Obdélníkovým sálem s pódiem na jednom konci"
+    ],
+    "en": [
+     "A horseshoe with several tiers of boxes",
+     "A fan-shaped amphitheatre facing the stage",
+     "Orchestra in the centre, audience on terraces",
+     "A rectangular hall with the stage at one end"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Scharoun posadil orchestr doprostřed a diváky rozmístil na stupňovité terasy kolem, jako na vinici – proto se tomu říká „vinicový“ typ sálu. Sál otevřel 15. října 1963 Herbert von Karajan Beethovenovou Devátou symfonií.",
+    "en": "Scharoun placed the orchestra in the centre and arranged the audience on stepped terraces around it, like a vineyard – hence the term 'vineyard' hall. It was opened on 15 October 1963 with Herbert von Karajan conducting Beethoven's Ninth Symphony."
+   }
+  },
+  {
+   "id": "T407-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V roce 1886 se devatenáctiletý první violoncellista italské operní společnosti na turné po Jižní Americe nečekaně chopil taktovky při představení Aidy. Tak začala kariéra Artura Toscaniniho. Ve kterém městě?",
+    "en": "In 1886 the 19-year-old principal cellist of an Italian opera company touring South America unexpectedly took up the baton during a performance of Aida. This was the start of Arturo Toscanini's career. In which city?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rio de Janeiro",
+     "São Paulo",
+     "Montevideo",
+     "Buenos Aires"
+    ],
+    "en": [
+     "Rio de Janeiro",
+     "São Paulo",
+     "Montevideo",
+     "Buenos Aires"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Najatý brazilský dirigent odstoupil a publikum jeho náhradníka vypískalo tak, že ani nemohl začít; mladý Toscanini pak celou operu odřídil zpaměti. Později vedl milánskou La Scalu, Metropolitní operu i Symfonický orchestr NBC.",
+    "en": "The hired Brazilian conductor had quit and the audience booed his replacement so fiercely that he could not even start; young Toscanini then conducted the whole opera from memory. He later led La Scala in Milan, the Metropolitan Opera and the NBC Symphony Orchestra."
+   }
+  },
+  {
+   "id": "T407-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Aby se hudebník mohl stát členem Vídeňských filharmoniků, musí nejprve získat místo v orchestru jiné instituce. Které?",
+    "en": "To become a member of the Vienna Philharmonic, a musician must first win a place in the orchestra of another institution. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vídeňská státní opera",
+     "Vídeňská hudební univerzita",
+     "Burgtheater",
+     "Vídeňská lidová opera (Volksoper)"
+    ],
+    "en": [
+     "Vienna State Opera",
+     "Vienna University of Music",
+     "Burgtheater",
+     "Vienna Volksoper"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Filharmonici jsou samosprávný spolek hráčů orchestru Vídeňské státní opery; přihlásit se mohou až po nejméně třech letech v opeře. Od roku 1933 nemají stálého šéfdirigenta a na každý koncert si zvou hosty.",
+    "en": "The Philharmonic is a self-governing association of players from the Vienna State Opera orchestra, who may apply only after at least three years in the opera. Since 1933 it has had no permanent chief conductor and invites guest conductors instead."
+   }
+  },
+  {
+   "id": "T407-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Až do roku 2023 držel rekord v počtu cen Grammy ze všech umělců (31) dirigent. Kdo?",
+    "en": "Until 2023, the record for the most Grammy Awards won by any artist (31) was held by a conductor. Who?"
+   },
+   "moznosti": {
+    "cs": [
+     "Herbert von Karajan",
+     "Georg Solti",
+     "Leonard Bernstein",
+     "Seidži Ozawa"
+    ],
+    "en": [
+     "Herbert von Karajan",
+     "Georg Solti",
+     "Leonard Bernstein",
+     "Seiji Ozawa"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Sir Georg Solti, rodák z Budapešti, vedl v letech 1969–1991 Chicagský symfonický orchestr. Jeho rekord překonala v únoru 2023 zpěvačka Beyoncé svou 32. cenou.",
+    "en": "Sir Georg Solti, born in Budapest, was music director of the Chicago Symphony Orchestra from 1969 to 1991. His record was broken by Beyoncé with her 32nd award in February 2023."
+   }
+  }
+ ]
+}

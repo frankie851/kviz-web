@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T015",
+ "nazev": {
+  "cs": "Náhodné objevy a vynálezy",
+  "en": "Accidental Discoveries and Inventions"
+ },
+ "kategorie": {
+  "id": "vynalezy",
+  "nazev": {
+   "cs": "Vynálezy",
+   "en": "Inventions"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T015-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo roku 1928 náhodou objevil penicilin, když si všiml, že plíseň v misce s bakteriemi kolem sebe bakterie zahubila?",
+    "en": "Who accidentally discovered penicillin in 1928 after noticing that mould in a dish of bacteria had killed the bacteria around it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Alexander Fleming",
+     "Louis Pasteur",
+     "Joseph Lister",
+     "Robert Koch"
+    ],
+    "en": [
+     "Alexander Fleming",
+     "Louis Pasteur",
+     "Joseph Lister",
+     "Robert Koch"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Skotský lékař Alexander Fleming se po letní dovolené vrátil do londýnské nemocnice St Mary's a našel misku se stafylokoky zamořenou plísní. V jejím okolí bakterie nerostly.",
+    "en": "Scottish physician Alexander Fleming returned to St Mary's Hospital in London after his summer break and found a Staphylococcus plate contaminated with mould. No bacteria grew around it."
+   }
+  },
+  {
+   "id": "T015-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Inženýr Percy Spencer pracoval s magnetronem pro radary a všiml si, že se mu v kapse roztekla čokoládová tyčinka. Který spotřebič z toho vzešel?",
+    "en": "Engineer Percy Spencer was working with a radar magnetron when he noticed that a chocolate bar in his pocket had melted. Which appliance came out of it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mikrovlnná trouba",
+     "Topinkovač",
+     "Rychlovarná konvice",
+     "Indukční deska"
+    ],
+    "en": [
+     "Microwave oven",
+     "Toaster",
+     "Electric kettle",
+     "Induction hob"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Mikrovlny z magnetronu ohřály čokoládu v Spencerově kapse. Jeho zaměstnavatel, firma Raytheon, pak roku 1947 uvedl na trh první komerční mikrovlnnou troubu Radarange.",
+    "en": "Microwaves from the magnetron heated the chocolate in Spencer's pocket. His employer, Raytheon, went on to market the first commercial microwave oven, the Radarange, in 1947."
+   }
+  },
+  {
+   "id": "T015-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který německý fyzik roku 1895 náhodou objevil paprsky X, když si všiml, že stínítko v laboratoři svítí, přestože byla trubice zakrytá?",
+    "en": "Which German physicist accidentally discovered X-rays in 1895 after noticing that a screen in his lab glowed even though the tube was covered?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hermann von Helmholtz",
+     "Max Planck",
+     "Wilhelm Conrad Röntgen",
+     "Heinrich Hertz"
+    ],
+    "en": [
+     "Hermann von Helmholtz",
+     "Max Planck",
+     "Wilhelm Conrad Röntgen",
+     "Heinrich Hertz"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Röntgen si neznámého záření všiml 8. listopadu 1895 a nazval ho X, protože nevěděl, co je zač. Roku 1901 za ně dostal vůbec první Nobelovu cenu za fyziku.",
+    "en": "Röntgen noticed the unknown radiation on 8 November 1895 and called it X because he did not know what it was. In 1901 he received the very first Nobel Prize in Physics for it."
+   }
+  },
+  {
+   "id": "T015-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Teflon, objevený náhodou roku 1938, je dnes nejznámější jako…",
+    "en": "Teflon, discovered by accident in 1938, is best known today as…"
+   },
+   "moznosti": {
+    "cs": [
+     "Lepidlo na pásky",
+     "Vlákno do punčoch",
+     "Povrch nepřilnavého nádobí",
+     "Materiál neprůstřelných vest"
+    ],
+    "en": [
+     "An adhesive for tapes",
+     "A fibre for stockings",
+     "A coating for non-stick cookware",
+     "A material for bulletproof vests"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Teflon (polytetrafluorethylen) odpuzuje vodu a snese vysoké teploty, proto se na něm jídlo nepřichytí. Obchodní značka Teflon byla zaregistrována roku 1945.",
+    "en": "Teflon (polytetrafluoroethylene) repels water and withstands high heat, so food does not stick to it. The Teflon trademark was registered in 1945."
+   }
+  },
+  {
+   "id": "T015-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které firmě vznikly samolepicí lístečky Post-it, když se tamní chemik pokoušel vyrobit superpevné lepidlo a vzniklo mu naopak lepidlo slabé?",
+    "en": "At which company were Post-it notes born when a chemist there tried to make a super-strong adhesive and ended up with a weak one instead?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kodak",
+     "3M",
+     "IBM",
+     "Xerox"
+    ],
+    "en": [
+     "Kodak",
+     "3M",
+     "IBM",
+     "Xerox"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Spencer Silver z firmy 3M vytvořil roku 1968 slabé lepidlo, které šlo opakovaně odlepit. Po celých USA se lístečky začaly prodávat až v roce 1980.",
+    "en": "Spencer Silver at 3M created a weak, reusable adhesive in 1968. The notes were not launched across the United States until 1980."
+   }
+  },
+  {
+   "id": "T015-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Lék sildenafil, známý jako Viagra, byl původně zkoumán jako lék na…",
+    "en": "The drug sildenafil, known as Viagra, was originally studied as a treatment for…"
+   },
+   "moznosti": {
+    "cs": [
+     "Cukrovku 2. typu",
+     "Průduškové astma",
+     "Anginu pectoris",
+     "Chronickou migrénu"
+    ],
+    "en": [
+     "Type 2 diabetes",
+     "Bronchial asthma",
+     "Angina",
+     "Chronic migraine"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Firma Pfizer ho testovala na vysoký krevní tlak a anginu pectoris. Na srdce moc nezabíral, ale ve studiích se objevil nečekaný vedlejší účinek, a tak byl roku 1998 schválen na poruchy erekce.",
+    "en": "Pfizer tested it for high blood pressure and angina. It did little for the heart, but trials revealed an unexpected side effect, and in 1998 it was approved for erectile dysfunction."
+   }
+  },
+  {
+   "id": "T015-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Švýcarský inženýr George de Mestral si po lovecké výpravě prohlížel plody lopuchu, které mu ulpěly na oblečení a na srsti psa. Co podle nich vymyslel?",
+    "en": "After a hunting trip, Swiss engineer George de Mestral examined burdock burrs stuck to his clothes and his dog's fur. What did he invent based on them?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bezpečnostní špendlík",
+     "Suchý zip",
+     "Zip",
+     "Patentku"
+    ],
+    "en": [
+     "Safety pin",
+     "Hook-and-loop fastener",
+     "Zip",
+     "Press stud"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pod mikroskopem uviděl drobné háčky, které se zachytí za smyčky látky. Značka Velcro vznikla z francouzských slov velours (samet) a crochet (háček).",
+    "en": "Under a microscope he saw tiny hooks that catch on loops of fabric. The brand name Velcro comes from the French words velours (velvet) and crochet (hook)."
+   }
+  },
+  {
+   "id": "T015-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Charles Goodyear roku 1839 objevil vulkanizaci. Který materiál díky ní přestal být v horku lepkavý?",
+    "en": "In 1839 Charles Goodyear discovered vulcanization. Which material stopped being sticky in the heat thanks to it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sklo",
+     "Vosk",
+     "Celuloid",
+     "Kaučuk"
+    ],
+    "en": [
+     "Glass",
+     "Wax",
+     "Celluloid",
+     "Rubber"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Zahřátím kaučuku se sírou vznikla pevná a odolná pryž. Podle jedné verze příběhu se to stalo, když směs omylem upustil na horká kamna.",
+    "en": "Heating rubber with sulfur made it firm and durable. According to one version of the story, it happened when he accidentally dropped the mixture on a hot stove."
+   }
+  },
+  {
+   "id": "T015-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Podle tradovaného příběhu vznikla roku 1853 v Saratoga Springs, když kuchař George Crum nakrájel brambory na tenoučké plátky pro zákazníka, který vracel prý příliš silné hranolky. O jakou pochoutku jde?",
+    "en": "According to a popular story, it was created in 1853 in Saratoga Springs when cook George Crum sliced potatoes paper-thin for a customer who kept sending back fries he found too thick. Which snack is it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bramborová kaše",
+     "Krokety",
+     "Bramborové lupínky",
+     "Bramboráky"
+    ],
+    "en": [
+     "Mashed potatoes",
+     "Croquettes",
+     "Potato chips (crisps)",
+     "Potato pancakes"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Příběh je dnes považován za legendu: recept na brambory smažené v tenkých plátcích uvedl anglický kuchař William Kitchiner už v knize z roku 1817.",
+    "en": "The story is now considered a legend: English cook William Kitchiner published a recipe for potatoes fried in thin slices as early as 1817."
+   }
+  },
+  {
+   "id": "T015-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Podle tradovaného příběhu nechal jedenáctiletý Frank Epperson roku 1905 přes noc venku nápoj, ve kterém zůstalo míchátko. Co ráno našel?",
+    "en": "According to a popular story, in 1905 eleven-year-old Frank Epperson left a drink with a stirring stick in it outside overnight. What did he find in the morning?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nanuk",
+     "Zmrzlinový pohár",
+     "Ledovou tříšť",
+     "Ledovou kávu"
+    ],
+    "en": [
+     "An ice pop",
+     "An ice-cream sundae",
+     "A slushie",
+     "Iced coffee"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Nápoj zmrzl i s tyčinkou. Epperson si vynález patentoval až v roce 1924 jako „Epsicle“, jeho děti prý prosadily jméno Popsicle.",
+    "en": "The drink froze around the stick. Epperson only patented it in 1924 as the \"Epsicle\", and his children reportedly pushed for the name Popsicle."
+   }
+  },
+  {
+   "id": "T015-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Objevitel paprsků X pořídil asi šest týdnů po objevu slavný snímek kostí ruky. Čí to byla ruka?",
+    "en": "About six weeks after the discovery, the discoverer of X-rays took a famous image of the bones of a hand. Whose hand was it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jeho asistenta",
+     "Jeho kolegy",
+     "Jeho vlastní",
+     "Jeho manželky"
+    ],
+    "en": [
+     "His assistant's",
+     "A colleague's",
+     "His own",
+     "His wife's"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Na snímku je ruka jeho manželky Anny Berthy. Když uviděla vlastní kostru, prý zvolala: „Viděla jsem svou smrt!“",
+    "en": "The image shows the hand of his wife, Anna Bertha. On seeing her own skeleton she reportedly exclaimed: \"I have seen my death!\""
+   }
+  },
+  {
+   "id": "T015-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak si chemik Constantin Fahlberg roku 1879 všiml, že objevil umělé sladidlo sacharin?",
+    "en": "How did chemist Constantin Fahlberg notice in 1879 that he had discovered the artificial sweetener saccharin?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pokusné myši látku vyhledávaly",
+     "K jeho stolu se slétaly vosy",
+     "Látku omylem ochutnal laborant",
+     "Večer ucítil sladkou chuť na ruce"
+    ],
+    "en": [
+     "Laboratory mice kept seeking it out",
+     "Wasps kept flocking to his desk",
+     "A lab assistant tasted it by mistake",
+     "His hand tasted sweet one evening"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pracoval s deriváty dehtu v laboratoři Iry Remsena na Univerzitě Johnse Hopkinse a sladkou chuť vystopoval k látce, se kterou ten den pracoval. O podíl na objevu se pak oba vědci přeli.",
+    "en": "He was working on coal tar derivatives in Ira Remsen's lab at Johns Hopkins University and traced the sweet taste to the compound he had handled that day. The two scientists later disputed credit for the discovery."
+   }
+  },
+  {
+   "id": "T015-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "K čemu chtěl Art Fry v roce 1974 použít slabé lepidlo svého kolegy, z něhož pak vznikly lístečky Post-it?",
+    "en": "What did Art Fry want to use his colleague's weak adhesive for in 1974, an idea that led to Post-it notes?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na záložky do zpěvníku",
+     "Na cenovky v obchodě",
+     "Na vzkazy na lednici",
+     "Na štítky na zkumavky"
+    ],
+    "en": [
+     "Bookmarks in a hymn book",
+     "Price tags in a shop",
+     "Notes on the fridge",
+     "Labels for test tubes"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Fry byl na semináři kolegy Spencera Silvera a napadlo ho ukotvit jeho lepidlem záložku ve zpěvníku. Slabé lepidlo záložku udrželo a dalo se opakovaně odlepit.",
+    "en": "Fry attended a seminar by his colleague Spencer Silver and came up with the idea of using the adhesive to anchor his bookmark in his hymn book. The weak adhesive held it in place and could be peeled off repeatedly."
+   }
+  },
+  {
+   "id": "T015-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na čem pracoval chemik Roy Plunkett z firmy DuPont, když roku 1938 náhodou objevil teflon?",
+    "en": "What was DuPont chemist Roy Plunkett working on when he accidentally discovered Teflon in 1938?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na novém barvivu",
+     "Na novém chladivu",
+     "Na syntetickém kaučuku",
+     "Na nové výbušnině"
+    ],
+    "en": [
+     "A new dye",
+     "A new refrigerant",
+     "Synthetic rubber",
+     "A new explosive"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Z tlakové lahve přestal proudit plyn, i když nebyla prázdná. Po rozříznutí v ní našli voskovitý bílý povlak, tedy polymer, který dnes známe jako teflon.",
+    "en": "A gas cylinder stopped releasing gas even though it was not empty. When it was cut open, it held a waxy white coating, the polymer now known as Teflon."
+   }
+  },
+  {
+   "id": "T015-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Arno Penzias a Robert Wilson roku 1964 zachytili anténou záhadný šum. Co v anténě našli a vyčistili, než zjistili, že šum přesto nezmizel?",
+    "en": "In 1964 Arno Penzias and Robert Wilson picked up a mysterious noise with their antenna. What did they find inside the antenna and clean out, only to discover the noise remained?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pavučiny",
+     "Námrazu",
+     "Ptačí trus",
+     "Mořskou sůl"
+    ],
+    "en": [
+     "Spider webs",
+     "Ice",
+     "Bird droppings",
+     "Sea salt"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Šum nebyl chybou přístroje, ale reliktním zářením, ozvěnou velkého třesku. Za jeho objev dostali roku 1978 Nobelovu cenu za fyziku.",
+    "en": "The noise was not an instrument fault but the cosmic microwave background, an echo of the Big Bang. They received the 1978 Nobel Prize in Physics for the discovery."
+   }
+  },
+  {
+   "id": "T015-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Henri Becquerel nechal roku 1896 kvůli zatažené obloze uranové soli ležet v tmavém šuplíku. Co ovlivnily i bez slunečního světla, čímž se ukázala radioaktivita?",
+    "en": "In 1896, because of cloudy weather, Henri Becquerel left uranium salts in a dark drawer. What did they affect even without sunlight, revealing radioactivity?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kyvadlové nástěnné hodiny",
+     "Rtuťový laboratorní teploměr",
+     "Střelku lodního kompasu",
+     "Zabalené fotografické desky"
+    ],
+    "en": [
+     "A pendulum wall clock",
+     "A mercury laboratory thermometer",
+     "A ship's compass needle",
+     "Wrapped photographic plates"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Čekal, že soli musí nejdřív nasvítit slunce. Desky zabalené v černém papíře ale po vyvolání ukázaly výrazné obrysy, takže záření vycházelo ze samotného uranu.",
+    "en": "He expected the salts to need sunlight first. Yet the plates wrapped in black paper showed strong silhouettes when developed, so the radiation came from the uranium itself."
+   }
+  },
+  {
+   "id": "T015-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "John Harvey Kellogg nechal roku 1894 přes noc ležet pšeničné těsto a ráno z něj válcováním získal jemné vločky. Kde tehdy pracoval?",
+    "en": "In 1894 John Harvey Kellogg left wheat dough standing overnight and the next morning rolled it into delicate flakes. Where was he working at the time?"
+   },
+   "moznosti": {
+    "cs": [
+     "V sanatoriu",
+     "V pekárně",
+     "V mlýně",
+     "V pivovaru"
+    ],
+    "en": [
+     "At a sanitarium",
+     "At a bakery",
+     "At a flour mill",
+     "At a brewery"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kellogg vedl sanatorium v Battle Creeku, kde s ním pracoval i bratr Will. Cereálie si oblíbili pacienti. Vločky byly původně pšeničné, kukuřičné přišly až později.",
+    "en": "Kellogg was superintendent of the Battle Creek Sanitarium, where his brother Will also worked. The cereal proved popular among the patients. The flakes were originally made from wheat; the corn version came later."
+   }
+  },
+  {
+   "id": "T015-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Harry Coover roku 1942 objevil kyanoakrylát, základ vteřinového lepidla, ale tehdy ho odmítl. Co jeho tým hledal?",
+    "en": "In 1942 Harry Coover discovered cyanoacrylate, the basis of superglue, but rejected it at the time. What was his team looking for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Izolaci elektrických kabelů",
+     "Nátěr lodních trupů",
+     "Obal na fotografické filmy",
+     "Průhledná plastová mířidla zbraní"
+    ],
+    "en": [
+     "Insulation for electric cables",
+     "A coating for ship hulls",
+     "Packaging for photographic film",
+     "Clear plastic gun sights"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Látka lepila ke všemu, čeho se dotkla, takže se na mířidla nehodila. Coover ji znovu objevil roku 1951 v Eastman Kodak a od roku 1958 se prodávala jako Eastman #910.",
+    "en": "The substance stuck to everything it touched, so it was useless for gun sights. Coover rediscovered it in 1951 at Eastman Kodak, and from 1958 it was sold as Eastman #910."
+   }
+  },
+  {
+   "id": "T015-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co podle převládajícího výkladu hledali čínští alchymisté, když náhodou objevili střelný prach?",
+    "en": "According to the prevailing account, what were Chinese alchemists searching for when they accidentally discovered gunpowder?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lék proti moru",
+     "Elixír života",
+     "Glazuru na porcelán",
+     "Barvivo na hedvábí"
+    ],
+    "en": [
+     "A cure for the plague",
+     "The elixir of life",
+     "A glaze for porcelain",
+     "A dye for silk"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Alchymisté míchali ledek, síru a uhlí a hledali prostředek k prodloužení života. Nejstarší potvrzené zmínky o střelném prachu pocházejí z Číny 9. století.",
+    "en": "Alchemists mixed saltpetre, sulfur and charcoal in search of a way to prolong life. The earliest confirmed references to gunpowder come from 9th-century China."
+   }
+  },
+  {
+   "id": "T015-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Recept Ruth Wakefieldové na čokoládové sušenky (chocolate chip cookies) se od roku 1939 objevoval na obalech čokolády které značky?",
+    "en": "From 1939, Ruth Wakefield's chocolate chip cookie recipe appeared on the wrappers of which chocolate brand?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mars",
+     "Cadbury",
+     "Nestlé",
+     "Hershey's"
+    ],
+    "en": [
+     "Mars",
+     "Cadbury",
+     "Nestlé",
+     "Hershey's"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Wakefieldová vedla hostinec Toll House v Massachusetts. Oblíbený příběh, že jí došla jiná surovina a čokoládu přidala z nouze, je sporný; sama tvrdila, že chtěla hostům nabídnout něco nového.",
+    "en": "Wakefield ran the Toll House Inn in Massachusetts. The popular story that she ran out of an ingredient and added chocolate as a stopgap is doubtful; she herself said she wanted to give guests something new."
+   }
+  },
+  {
+   "id": "T015-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Slovo serendipita (šťastná náhoda při objevu) vymyslel roku 1754 Horace Walpole podle pohádky o třech princích ze Serendipu. Jak se dnes jmenuje ostrov, kterému se říkalo Serendip?",
+    "en": "The word serendipity (a happy accident leading to a discovery) was coined in 1754 by Horace Walpole after a tale about the three princes of Serendip. What is the island once called Serendip known as today?"
+   },
+   "moznosti": {
+    "cs": [
+     "Srí Lanka",
+     "Zanzibar",
+     "Sicílie",
+     "Madagaskar"
+    ],
+    "en": [
+     "Sri Lanka",
+     "Zanzibar",
+     "Sicily",
+     "Madagascar"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Serendip je staré perské jméno Srí Lanky (dříve Cejlonu). Princové z pohádky neustále náhodou objevovali věci, které nehledali.",
+    "en": "Serendip is an old Persian name for Sri Lanka (formerly Ceylon). The princes in the tale kept discovering, by accident, things they were not looking for."
+   }
+  },
+  {
+   "id": "T015-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Wilson Greatbatch koncem 50. let sestavoval přístroj k záznamu srdečních ozev, když mu obvod začal vydávat pravidelné elektrické pulzy. Co se stalo?",
+    "en": "In the late 1950s Wilson Greatbatch was building a device to record heart sounds when his circuit began emitting regular electrical pulses. What had happened?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zapomněl přerušit vodič",
+     "Zapojil rezistor se špatnou hodnotou",
+     "Upustil tranzistor do vody",
+     "Zapojil baterii obráceně"
+    ],
+    "en": [
+     "He forgot to cut a wire",
+     "He fitted a resistor of the wrong value",
+     "He dropped a transistor in water",
+     "He connected the battery backwards"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pravidelné pulzy připomínaly tep srdce a Greatbatch pochopil, že malý obvod by mohl srdce řídit. Implantabilní kardiostimulátory, které sestrojil, se u lidí používají od roku 1960.",
+    "en": "The regular pulses resembled a heartbeat, and Greatbatch realised a small circuit could pace the heart. Implantable pacemakers he built entered use in humans in 1960."
+   }
+  },
+  {
+   "id": "T015-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Francouzský chemik Édouard Bénédictus roku 1903 upustil skleněnou baňku, která praskla, ale nerozletěla se na kusy. Proč?",
+    "en": "In 1903 French chemist Édouard Bénédictus dropped a glass flask that cracked but did not shatter into pieces. Why?"
+   },
+   "moznosti": {
+    "cs": [
+     "Byla podchlazená v ledu",
+     "Spadla do misky s olejem",
+     "Byla z křemenného skla",
+     "Byla potažená nitrocelulózou"
+    ],
+    "en": [
+     "It had been chilled in ice",
+     "It fell into a dish of oil",
+     "It was made of quartz glass",
+     "It was coated with cellulose nitrate"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vrstva nitrocelulózy (nitrátu celulózy) udržela střepy pohromadě. Bénédictus z toho vyvinul vrstvené bezpečnostní sklo, které si nechal patentovat roku 1909 po zprávě o nehodě auta, při níž střepy těžce zranily dvě ženy.",
+    "en": "The cellulose nitrate film held the shards together. Bénédictus developed laminated safety glass from it and patented it in 1909 after hearing of a car crash in which two women were badly injured by flying glass."
+   }
+  },
+  {
+   "id": "T015-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Podle tradované historky ochutnal Shashikant Phadnis roku 1975 chlorovaný cukr a objevil tak sladidlo sukralózu. Proč ho ochutnal?",
+    "en": "According to an anecdote, in 1975 Shashikant Phadnis tasted a chlorinated sugar and so discovered the sweetener sucralose. Why did he taste it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Látka mu vystříkla do úst",
+     "Spletl si dvě zkumavky",
+     "Slovo test zaslechl jako taste",
+     "Kolega mu ji dal do čaje"
+    ],
+    "en": [
+     "It splashed into his mouth",
+     "He mixed up two test tubes",
+     "He heard the word test as taste",
+     "A colleague put it in his tea"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Leslie Hough ho požádal, aby látku otestoval (test), Phadnis ale rozuměl ochutnal (taste). Výzkum probíhal ve spolupráci s cukrovarnickou firmou Tate & Lyle, která sukralózu roku 1976 patentovala.",
+    "en": "Leslie Hough asked him to test the compound, but Phadnis heard taste. The research was done in collaboration with the sugar company Tate & Lyle, which patented sucralose in 1976."
+   }
+  },
+  {
+   "id": "T015-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jocelyn Bell Burnellová roku 1967 zachytila podivně pravidelné rádiové pulzy, první známý pulsar. Jak ho objevitelé zpočátku žertem nazvali?",
+    "en": "In 1967 Jocelyn Bell Burnell detected strangely regular radio pulses from the first known pulsar. What did the discoverers jokingly call it at first?"
+   },
+   "moznosti": {
+    "cs": [
+     "UFO-1",
+     "LGM-1",
+     "ET-1",
+     "WOW-1"
+    ],
+    "en": [
+     "UFO-1",
+     "LGM-1",
+     "ET-1",
+     "WOW-1"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "LGM znamená Little Green Men, tedy malí zelení mužíčci. Zdrojem byla ve skutečnosti rychle rotující neutronová hvězda. Nobelovu cenu za rok 1974 dostali Antony Hewish a Martin Ryle, Bell Burnellová ne.",
+    "en": "LGM stands for Little Green Men. The source was actually a rapidly spinning neutron star. The 1974 Nobel Prize went to Antony Hewish and Martin Ryle, not to Bell Burnell."
+   }
+  },
+  {
+   "id": "T015-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Objevitel penicilinu už roku 1922 popsal enzym lysozym, který rozkládá bakterie. Kde jeho účinek poprvé prokázal?",
+    "en": "As early as 1922, the discoverer of penicillin described lysozyme, an enzyme that breaks down bacteria. Where did he first demonstrate its effect?"
+   },
+   "moznosti": {
+    "cs": [
+     "V mořské vodě",
+     "V nosním hlenu",
+     "Ve vzorku půdy",
+     "V plísni na chlebu"
+    ],
+    "en": [
+     "In seawater",
+     "In nasal mucus",
+     "In a soil sample",
+     "In bread mould"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Objevitel penicilinu prokázal, že nosní hlen zabíjí bakterie. Látka byla enzym, který dokáže rychle rozpouštět některé bakterie, a podle jeho zjištění se vyskytuje i v řadě dalších tělních sekretů.",
+    "en": "The discoverer of penicillin showed that nasal mucus kills bacteria. The substance was an enzyme able to rapidly dissolve certain bacteria, and he reported that it is present in a wide variety of other secretions."
+   }
+  },
+  {
+   "id": "T015-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "S kým sdílel objevitel penicilinu roku 1945 Nobelovu cenu za fyziologii nebo lékařství?",
+    "en": "With whom did the discoverer of penicillin share the 1945 Nobel Prize in Physiology or Medicine?"
+   },
+   "moznosti": {
+    "cs": [
+     "S Howardem Floreym a Ernstem Chainem",
+     "S Paulem Ehrlichem a Sahačiróem Hatou",
+     "Se Selmanem Waksmanem a Albertem Schatzem",
+     "S Gerhardem Domagkem a Josefem Klarerem"
+    ],
+    "en": [
+     "Howard Florey and Ernst Chain",
+     "Paul Ehrlich and Sahachiro Hata",
+     "Selman Waksman and Albert Schatz",
+     "Gerhard Domagk and Josef Klarer"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Penicilin objevil on, ale vyrobit z něj použitelný lék dokázal až oxfordský tým Floreyho a Chaina.",
+    "en": "He discovered penicillin, but it took the Oxford team of Florey and Chain to turn it into a usable drug."
+   }
+  },
+  {
+   "id": "T015-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Penzias a Wilson zjistili, že jejich záhadný šum je reliktní záření. Tým které nedaleké univerzity se právě chystal toto záření hledat?",
+    "en": "Penzias and Wilson found that their mysterious noise was the cosmic microwave background. A team from which nearby university was just preparing to search for it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Yaleovy",
+     "Harvardovy",
+     "Kolumbijské",
+     "Princetonské"
+    ],
+    "en": [
+     "Yale",
+     "Harvard",
+     "Columbia",
+     "Princeton"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Skupina Roberta Dickeho z Princetonu stavěla vlastní radiometr. Když se o objevu z Bell Labs dozvěděl, prý kolegům řekl: „Hoši, někdo nás předběhl.“",
+    "en": "Robert Dicke's group at Princeton was building its own radiometer. On hearing about the Bell Labs result, he reportedly told colleagues: \"Boys, we've been scooped.\""
+   }
+  },
+  {
+   "id": "T015-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Mladý chemik William Perkin roku 1856 náhodou vyrobil jedno z prvních syntetických barviv, fialový mauvein (mauveine). Jakou látku se ve skutečnosti pokoušel připravit?",
+    "en": "In 1856 the young chemist William Perkin accidentally made one of the first synthetic dyes, purple mauveine. What substance was he actually trying to make?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aspirin",
+     "Kofein",
+     "Chinin",
+     "Morfin"
+    ],
+    "en": [
+     "Aspirin",
+     "Caffeine",
+     "Quinine",
+     "Morphine"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Bylo mu 18 let a jeho profesor August Wilhelm von Hofmann ho vyzval k syntéze chininu, léku proti malárii. Z nezdaru vzniklo celé odvětví syntetických barviv.",
+    "en": "He was 18, and his professor August Wilhelm von Hofmann had challenged him to synthesise quinine, a malaria drug. The failure launched the synthetic dye industry."
+   }
+  },
+  {
+   "id": "T015-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Švýcarský fyzik Walter Jaeger se koncem 30. let snažil sestrojit detektor jedovatého plynu, ale ten na plyn nereagoval. Co podle záznamů nakonec změnilo proud v jeho přístroji?",
+    "en": "In the late 1930s Swiss physicist Walter Jaeger tried to build a poison gas detector, but it did not react to the gas. According to accounts, what finally changed the current in his device?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kouř z cigarety",
+     "Vůně kolínské",
+     "Prach z křídy",
+     "Pára z kávy"
+    ],
+    "en": [
+     "Cigarette smoke",
+     "The scent of cologne",
+     "Chalk dust",
+     "Steam from coffee"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jaeger si zapálil cigaretu a k vlastnímu překvapení uviděl, že přístroj ukázal pokles proudu: částice kouře dokázaly proud v obvodu změnit, malé koncentrace plynu ne. Tento pokus připravil cestu moderním hlásičům kouře.",
+    "en": "Jaeger lit a cigarette and was surprised to see the meter register a drop in current: smoke particles could alter the circuit's current, whereas small concentrations of the gas could not. The experiment paved the way for modern smoke detectors."
+   }
+  }
+ ]
+}

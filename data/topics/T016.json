@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T016",
+ "nazev": {
+  "cs": "Pouště a extrémní místa planety",
+  "en": "Deserts and Earth's Extreme Places"
+ },
+ "kategorie": {
+  "id": "zemepis",
+  "nazev": {
+   "cs": "Zeměpis",
+   "en": "Geography"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T016-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která poušť je největší horkou pouští světa?",
+    "en": "Which desert is the world's largest hot desert?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sahara",
+     "Gobi",
+     "Kalahari",
+     "Arabská poušť"
+    ],
+    "en": [
+     "Sahara",
+     "Gobi",
+     "Kalahari",
+     "Arabian Desert"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Sahara má rozlohu zhruba 9 milionů km², tedy asi 31 % Afriky. Její jméno je odvozeno z arabského slova pro poušť.",
+    "en": "The Sahara covers about 9 million km² (3.5 million sq mi), roughly 31% of Africa. Its name derives from the Arabic word for 'desert'."
+   }
+  },
+  {
+   "id": "T016-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Pokud se poušť definuje podle nízkého úhrnu srážek, která poušť je největší na světě?",
+    "en": "If a desert is defined by low precipitation, which is the largest desert in the world?"
+   },
+   "moznosti": {
+    "cs": [
+     "Antarktida",
+     "Gobi",
+     "Sahara",
+     "Atacama"
+    ],
+    "en": [
+     "Antarctica",
+     "The Gobi",
+     "The Sahara",
+     "The Atacama"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Rozhoduje nedostatek srážek, ne teplota. Největší pouští je proto Antarktida (asi 14,2 milionu km²), těsně následovaná Arktidou (asi 13,9 milionu km²).",
+    "en": "What counts is lack of precipitation, not heat. That makes Antarctica (about 14.2 million km² / 5.5 million sq mi) the largest desert, just ahead of the Arctic (about 13.9 million km² / 5.4 million sq mi)."
+   }
+  },
+  {
+   "id": "T016-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "U kterého jezera leží nejníže položená souš, kterou nepokrývá led?",
+    "en": "On the shores of which lake lies the lowest dry land not covered by ice?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jezero Assal",
+     "Mrtvé moře",
+     "Kaspické moře",
+     "Bajkal"
+    ],
+    "en": [
+     "Lake Assal",
+     "The Dead Sea",
+     "The Caspian Sea",
+     "Lake Baikal"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Hladina Mrtvého moře byla v roce 2025 asi 440 m pod úrovní moře, takže jeho břehy jsou nejníže položenou souší, kterou nepokrývá led. Hladina navíc klesá zhruba o metr ročně, protože do jezera přitéká stále méně vody z Jordánu.",
+    "en": "In 2025 the surface of the Dead Sea was about 440 m (1,440 ft) below sea level, so its shores are the lowest dry land on Earth not covered by ice. The level is falling by about a metre (3.3 ft) a year because less and less water from the Jordan River reaches it."
+   }
+  },
+  {
+   "id": "T016-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém oceánském příkopu leží nejhlubší známé místo oceánů?",
+    "en": "Which ocean trench contains the deepest known point of the oceans?"
+   },
+   "moznosti": {
+    "cs": [
+     "Portorický příkop",
+     "Kurilsko-kamčatský příkop",
+     "Sundský příkop",
+     "Marianský příkop"
+    ],
+    "en": [
+     "The Puerto Rico Trench",
+     "The Kuril–Kamchatka Trench",
+     "The Sunda Trench",
+     "The Mariana Trench"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Nejhlubším místem je Challengerova hlubina na jihu Marianského příkopu v Tichém oceánu. Jméno nese po britských lodích HMS Challenger: expedice v letech 1872–1876 prohlubeň objevila a druhá loď stejného jména v letech 1950–1952 změřila její rekordní hloubku.",
+    "en": "The deepest point is the Challenger Deep at the southern end of the Mariana Trench in the Pacific. It is named after the British ships HMS Challenger: the 1872–1876 expedition first located it, and a second ship of the same name established its record depth in 1950–1952."
+   }
+  },
+  {
+   "id": "T016-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém státě leží převážná část pouště Atacama?",
+    "en": "In which country does most of the Atacama Desert lie?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chile",
+     "Bolívie",
+     "Argentina",
+     "Peru"
+    ],
+    "en": [
+     "Chile",
+     "Bolivia",
+     "Argentina",
+     "Peru"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Atacama se táhne asi 1 600 km podél pobřeží severního Chile; většinu území Chile získalo po tichomořské válce. Je to nejsušší nepolární poušť – některé stanice tu déšť nikdy nezaznamenaly.",
+    "en": "The Atacama runs for about 1,600 km (990 mi) along the coast of northern Chile; Chile acquired most of it after the War of the Pacific. It is the driest non-polar desert, and some weather stations there have never recorded rain."
+   }
+  },
+  {
+   "id": "T016-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které jezero je nejhlubší na světě?",
+    "en": "Which lake is the deepest in the world?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bajkal",
+     "Tanganika",
+     "Kaspické moře",
+     "Hořejší jezero"
+    ],
+    "en": [
+     "Lake Baikal",
+     "Lake Tanganyika",
+     "The Caspian Sea",
+     "Lake Superior"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Sibiřský Bajkal je hluboký až 1 642 m. Je také nejstarším jezerem světa (25–30 milionů let) a obsahuje asi pětinu nezamrzlé sladké vody planety.",
+    "en": "Siberia's Lake Baikal reaches a depth of 1,642 m (5,387 ft). It is also the world's oldest lake (25–30 million years) and holds about a fifth of the planet's unfrozen fresh water."
+   }
+  },
+  {
+   "id": "T016-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá místo v poušti, kde se díky podzemní vodě blízko povrchu daří rostlinám i lidem?",
+    "en": "What is the name for a place in a desert where groundwater close to the surface allows plants and people to thrive?"
+   },
+   "moznosti": {
+    "cs": [
+     "Erg",
+     "Oáza",
+     "Hamada",
+     "Vádí"
+    ],
+    "en": [
+     "Erg",
+     "Oasis",
+     "Hamada",
+     "Wadi"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Oázy vznikají tam, kde je podzemní voda blízko povrchu. Ostatní pojmy jsou také pouštní: vádí je vyschlé koryto, erg písečné moře a hamada kamenitá plošina.",
+    "en": "Oases form where groundwater lies close to the surface. The other terms are desert words too: a wadi is a dry riverbed, an erg is a sand sea and a hamada is a rocky plateau."
+   }
+  },
+  {
+   "id": "T016-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím je způsobeno, že na rozpálené poušti nebo silnici vidíme zdánlivou vodní hladinu?",
+    "en": "What causes the apparent pool of water seen on a hot desert or road?"
+   },
+   "moznosti": {
+    "cs": [
+     "Únavou zraku po dlouhém pohledu do slunce",
+     "Vodní párou stoupající z horkého povrchu",
+     "Odrazem světla od lesklých zrnek písku",
+     "Lomem světla v různě teplých vrstvách vzduchu"
+    ],
+    "en": [
+     "Eye fatigue after looking at the sun for a long time",
+     "Water vapour rising from the hot surface",
+     "Light reflecting off shiny grains of sand",
+     "Refraction of light in air layers of different temperature"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Horký vzduch u země má jinou hustotu i index lomu než chladnější vzduch nad ním, a tak se světlo z oblohy ohne nahoru. Vidíme tedy obraz nebe, který mozek vyloží jako vodu. Jde o takzvané spodní zrcadlení.",
+    "en": "Hot air near the ground has a different density and refractive index from the cooler air above, so light from the sky bends upwards. We see an image of the sky that the brain interprets as water. It is called an inferior mirage."
+   }
+  },
+  {
+   "id": "T016-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na území kterých dvou států leží poušť Gobi?",
+    "en": "Which two countries does the Gobi Desert lie in?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kazachstán a Rusko",
+     "Mongolsko a Čína",
+     "Indie a Pákistán",
+     "Írán a Afghánistán"
+    ],
+    "en": [
+     "Kazakhstan and Russia",
+     "Mongolia and China",
+     "India and Pakistan",
+     "Iran and Afghanistan"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Gobi pokrývá jih Mongolska a sever Číny (Vnitřní Mongolsko). Je to studená poušť: v zimě klesá teplota až k −40 °C, v létě vystoupá ke 45 °C.",
+    "en": "The Gobi covers southern Mongolia and northern China (Inner Mongolia). It is a cold desert: winter temperatures can drop to about −40 °C (−40 °F), while summers reach about 45 °C (113 °F)."
+   }
+  },
+  {
+   "id": "T016-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na hranici kterých dvou států leží Mount Everest?",
+    "en": "On the border of which two countries does Mount Everest stand?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nepálu a Číny",
+     "Pákistánu a Číny",
+     "Nepálu a Indie",
+     "Indie a Číny"
+    ],
+    "en": [
+     "Nepal and China",
+     "Pakistan and China",
+     "Nepal and India",
+     "India and China"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Everest leží na hranici Nepálu a Tibetské autonomní oblasti Číny. Na hranici Pákistánu a Číny stojí druhá nejvyšší hora světa K2.",
+    "en": "Everest sits on the border between Nepal and the Tibet Autonomous Region of China. The world's second-highest mountain, K2, stands on the Pakistan–China border."
+   }
+  },
+  {
+   "id": "T016-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaký oficiální světový rekord drží Údolí smrti (Death Valley) v Kalifornii podle Světové meteorologické organizace?",
+    "en": "Which official world record does Death Valley in California hold according to the World Meteorological Organization?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nejnižší průměrný roční úhrn srážek",
+     "Nejsilnější naměřený poryv větru",
+     "Nejvyšší naměřenou teplotu vzduchu",
+     "Nejdelší období bez deště"
+    ],
+    "en": [
+     "The lowest average annual precipitation",
+     "The strongest recorded wind gust",
+     "The highest recorded air temperature",
+     "The longest period without rain"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Stanice Furnace Creek naměřila 10. července 1913 teplotu 56,7 °C. WMO údaj stále uznává, někteří odborníci (např. Christopher Burt) ho ale považují za nadsazený zhruba o 2,2–2,8 °C.",
+    "en": "On 10 July 1913 the Furnace Creek station recorded 56.7 °C (134.1 °F). The WMO still accepts the reading, but some experts (such as Christopher Burt) consider it inflated by roughly 2.2–2.8 °C (4–5 °F)."
+   }
+  },
+  {
+   "id": "T016-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve které poušti zaznamenaly družice s přístrojem MODIS jedny z nejvyšších teplot zemského povrchu (např. 70,7 °C v roce 2005)?",
+    "en": "In which desert did satellites carrying the MODIS instrument detect some of the highest land surface temperatures (e.g. 70.7 °C / 159.3 °F in 2005)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Gobi v Mongolsku",
+     "Atacama v Chile",
+     "Kalahari v Botswaně",
+     "Lút v Íránu"
+    ],
+    "en": [
+     "The Gobi in Mongolia",
+     "The Atacama in Chile",
+     "The Kalahari in Botswana",
+     "The Lut in Iran"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Poušť Lút (persky Dašt-e Lút, angl. Dasht-e Lut) leží na východě Íránu. Družice měří teplotu samotného povrchu, ne vzduchu, proto jsou hodnoty mnohem vyšší než u meteorologických stanic. Pozdější analýza novějších dat MODIS (2019) uvádí pro Lút dokonce asi 80,8 °C.",
+    "en": "The Lut Desert (Dasht-e Lut) lies in eastern Iran. Satellites measure the temperature of the ground surface, not the air, which is why the values are far higher than at weather stations. A later analysis of newer MODIS data (2019) reported about 80.8 °C (177.4 °F) for the Lut."
+   }
+  },
+  {
+   "id": "T016-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co je hlavní příčinou extrémního sucha pouště Atacama?",
+    "en": "What is the main cause of the extreme dryness of the Atacama Desert?"
+   },
+   "moznosti": {
+    "cs": [
+     "Intenzivní výpar způsobený extrémním horkem",
+     "Srážkový stín hor a studený Humboldtův proud",
+     "Sopečná činnost vysušující půdu",
+     "Velká nadmořská výška a řídký vzduch"
+    ],
+    "en": [
+     "Intense evaporation caused by extreme heat",
+     "The mountains' rain shadow and the cold Humboldt Current",
+     "Volcanic activity drying out the soil",
+     "High altitude and thin air"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Andy a Pobřežní kordillera (Cordillera de la Costa) blokují vlhkost z obou stran a studený Humboldtův proud spolu s tlakovou výší nad jižním Pacifikem brání vzniku dešťových mraků. Půda je tu tak suchá, že ji NASA používá k testování přístrojů pro Mars.",
+    "en": "The Andes and the Coast Range (Cordillera de la Costa) block moisture from both sides, while the cold Humboldt Current and the South Pacific high-pressure system prevent rain clouds from forming. The soil is so dry that NASA uses it to test instruments for Mars."
+   }
+  },
+  {
+   "id": "T016-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jakou výšku Mount Everestu oznámily Čína a Nepál po společném měření v roce 2020 (zaokrouhleno)?",
+    "en": "What height for Mount Everest did China and Nepal announce after their joint survey in 2020 (rounded)?"
+   },
+   "moznosti": {
+    "cs": [
+     "8 749 m",
+     "8 799 m",
+     "8 849 m",
+     "8 899 m"
+    ],
+    "en": [
+     "8,749 m (28,704 ft)",
+     "8,799 m (28,868 ft)",
+     "8,849 m (29,032 ft)",
+     "8,899 m (29,196 ft)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Přesná oficiální hodnota je 8 848,86 m a byla oznámena 8. prosince 2020. Předtím se nejčastěji uváděla výška 8 848 m.",
+    "en": "The exact official figure is 8,848.86 m (29,031.7 ft), announced on 8 December 2020. Before that, 8,848 m (29,029 ft) was the most commonly cited height."
+   }
+  },
+  {
+   "id": "T016-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak hluboko přibližně leží dno Challengerovy hlubiny, nejhlubšího známého místa oceánů?",
+    "en": "Approximately how deep is the bottom of the Challenger Deep, the deepest known point of the oceans?"
+   },
+   "moznosti": {
+    "cs": [
+     "7 km",
+     "9 km",
+     "11 km",
+     "13 km"
+    ],
+    "en": [
+     "7 km (4.3 mi)",
+     "9 km (5.6 mi)",
+     "11 km (6.8 mi)",
+     "13 km (8.1 mi)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Odhady se pohybují zhruba mezi 10 900 a 11 000 m, například studie z roku 2021 uvádí 10 935 m. Hloubka přes 11 000 m nebyla nikdy prokázána.",
+    "en": "Estimates range from roughly 10,900 to 11,000 m (35,800 to 36,100 ft); a 2021 study, for example, gives 10,935 m (35,876 ft). A depth greater than 11,000 m (36,100 ft) has never been proven."
+   }
+  },
+  {
+   "id": "T016-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jakou teplotu naměřila 21. července 1983 antarktická stanice Vostok – nejnižší spolehlivě změřenou teplotu vzduchu na Zemi?",
+    "en": "What temperature did Antarctica's Vostok Station record on 21 July 1983, the lowest reliably measured air temperature on Earth?"
+   },
+   "moznosti": {
+    "cs": [
+     "−99,5 °C",
+     "−89,2 °C",
+     "−79,8 °C",
+     "−69,4 °C"
+    ],
+    "en": [
+     "−99.5 °C (−147.1 °F)",
+     "−89.2 °C (−128.6 °F)",
+     "−79.8 °C (−111.6 °F)",
+     "−69.4 °C (−92.9 °F)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Stanice Vostok leží vysoko na ledovém štítu Východní Antarktidy. Asi 4 km pod ní se skrývá obří podledovcové jezero Vostok.",
+    "en": "Vostok Station sits high on the East Antarctic ice sheet. About 4 km (2.5 mi) beneath it lies the huge subglacial Lake Vostok."
+   }
+  },
+  {
+   "id": "T016-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které trvale obydlené místo bývá označováno za nejchladnější na Zemi?",
+    "en": "Which permanently inhabited place is often described as the coldest on Earth?"
+   },
+   "moznosti": {
+    "cs": [
+     "Murmansk",
+     "Vorkuta",
+     "Norilsk",
+     "Ojmjakon"
+    ],
+    "en": [
+     "Murmansk",
+     "Vorkuta",
+     "Norilsk",
+     "Oymyakon"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "V Ojmjakonu (rusky Оймякон, angl. Oymyakon) v Jakutsku naměřili 6. února 1933 teplotu −67,7 °C. O titul „pól chladu“ severní polokoule se přou s Verchojanskem (Verkhoyansk), kde v únoru 1892 zaznamenali −67,8 °C.",
+    "en": "Oymyakon in the Sakha Republic recorded −67.7 °C (−89.9 °F) on 6 February 1933. It competes for the title of the Northern Hemisphere's 'Pole of Cold' with Verkhoyansk, which recorded −67.8 °C (−90.0 °F) in February 1892."
+   }
+  },
+  {
+   "id": "T016-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kde se nachází nejhlubší člověkem vyhloubený otvor do zemské kůry (12 262 m, rok 1989)?",
+    "en": "Where is the deepest hole humans have drilled into the Earth's crust (12,262 m / 40,230 ft, 1989)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Kolském poloostrově v Rusku",
+     "V Texasu v USA",
+     "V Západní Austrálii",
+     "V severní Kanadě"
+    ],
+    "en": [
+     "On the Kola Peninsula in Russia",
+     "In Texas, USA",
+     "In Western Australia",
+     "In northern Canada"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kolský superhluboký vrt je i tak jen asi třetinou cesty zemskou kůrou. Vrtání zastavily mimo jiné nečekaně vysoké teploty kolem 180 °C.",
+    "en": "Even so, the Kola Superdeep Borehole penetrated only about a third of the way through the continental crust. Drilling was halted partly by unexpectedly high temperatures of around 180 °C (356 °F)."
+   }
+  },
+  {
+   "id": "T016-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém státě leží největší solná pláň světa Salar de Uyuni, kterou díky její rovinatosti používají ke kalibraci přístrojů družic?",
+    "en": "In which country is Salar de Uyuni, the world's largest salt flat, which is used to calibrate satellite instruments thanks to its flatness?"
+   },
+   "moznosti": {
+    "cs": [
+     "Peru",
+     "Chile",
+     "Argentina",
+     "Bolívie"
+    ],
+    "en": [
+     "Peru",
+     "Chile",
+     "Argentina",
+     "Bolivia"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pláň o rozloze asi 10 600 km² leží ve výšce kolem 3 650 m a výškové rozdíly na ní nepřesahují 1 m. Pod solnou krustou je solanka bohatá na lithium.",
+    "en": "The flat covers about 10,600 km² (4,100 sq mi) at an altitude of around 3,650 m (12,000 ft), and its elevation varies by less than 1 m (3.3 ft). Beneath the salt crust lies a brine rich in lithium."
+   }
+  },
+  {
+   "id": "T016-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaký roční úhrn srážek se nejčastěji uvádí jako horní hranice pro poušť?",
+    "en": "What annual precipitation is most often given as the upper limit for a desert?"
+   },
+   "moznosti": {
+    "cs": [
+     "50 mm",
+     "250 mm",
+     "500 mm",
+     "1 000 mm"
+    ],
+    "en": [
+     "50 mm (2.0 inches)",
+     "250 mm (9.8 inches)",
+     "500 mm (19.7 inches)",
+     "1,000 mm (39.4 inches)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Za poušť se obvykle považuje oblast s méně než 250 mm srážek ročně. Vědecké definice navíc zohledňují i potenciální výpar, který v pouštích srážky výrazně převyšuje.",
+    "en": "A desert is usually defined as an area receiving less than 250 mm (9.8 inches) of precipitation a year. Scientific definitions also take potential evaporation into account, which in deserts far exceeds precipitation."
+   }
+  },
+  {
+   "id": "T016-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Vrchol které hory je nejvzdálenějším bodem zemského povrchu od středu Země?",
+    "en": "The summit of which mountain is the point on the Earth's surface farthest from the Earth's centre?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mount Everest",
+     "Aconcagua",
+     "Chimborazo",
+     "Kilimandžáro"
+    ],
+    "en": [
+     "Mount Everest",
+     "Aconcagua",
+     "Chimborazo",
+     "Kilimanjaro"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Země je na rovníku vyboulená a ekvádorské Chimborazo leží jen asi 1° jižně od něj. Proto je jeho vrchol asi o 2 km dál od středu Země než vrchol Everestu, přestože nad mořem je zhruba o 2,6 km nižší.",
+    "en": "The Earth bulges at the equator, and Ecuador's Chimborazo lies only about 1° south of it. That puts its summit about 2 km (1.2 mi) farther from the Earth's centre than Everest's, even though it is roughly 2.6 km (1.6 mi) lower above sea level."
+   }
+  },
+  {
+   "id": "T016-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo jako první sestoupil v roce 1960 na dno Challengerovy hlubiny?",
+    "en": "Who were the first people to descend to the bottom of the Challenger Deep, in 1960?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jacques-Yves Cousteau a Émile Gagnan",
+     "James Cameron a Victor Vescovo",
+     "Jacques Piccard a Don Walsh",
+     "Auguste Piccard a Max Cosyns"
+    ],
+    "en": [
+     "Jacques-Yves Cousteau and Émile Gagnan",
+     "James Cameron and Victor Vescovo",
+     "Jacques Piccard and Don Walsh",
+     "Auguste Piccard and Max Cosyns"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Sestoupili v batyskafu Trieste amerického námořnictva. Další posádka se na dno dostala až v roce 2012, kdy se tam sám ponořil režisér James Cameron.",
+    "en": "They made the descent in the US Navy bathyscaphe Trieste. No one returned until 2012, when film director James Cameron made a solo dive."
+   }
+  },
+  {
+   "id": "T016-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Které obydlené místo mělo podle měření z let 1960–1966 nejvyšší průměrnou roční teplotu na Zemi (34,6 °C)?",
+    "en": "Which inhabited place had the highest average annual temperature on Earth (34.6 °C / 94.3 °F), according to measurements from 1960–1966?"
+   },
+   "moznosti": {
+    "cs": [
+     "Timbuktu v Mali",
+     "Ahváz v Íránu",
+     "Furnace Creek v USA",
+     "Dallol v Etiopii"
+    ],
+    "en": [
+     "Timbuktu in Mali",
+     "Ahvaz in Iran",
+     "Furnace Creek in the USA",
+     "Dallol in Ethiopia"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Dallol leží asi 130 m pod úrovní moře v etiopské oblasti Afar, v Danakilské proláklině. Dnes je to v podstatě opuštěná osada a v jejím okolí je velmi aktivní hydrotermální systém s horkými prameny a fumarolami.",
+    "en": "Dallol lies about 130 m (430 ft) below sea level in Ethiopia's Afar Region, in the Danakil Depression. Today it is essentially a ghost town, surrounded by a highly active hydrothermal system of hot springs and fumaroles."
+   }
+  },
+  {
+   "id": "T016-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém státě leží nejnižší bod Afriky, slané jezero Assal (asi 155 m pod úrovní moře)?",
+    "en": "In which country is Africa's lowest point, the salt lake Lake Assal (about 155 m / 509 ft below sea level)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Etiopie",
+     "Džibutsko",
+     "Somálsko",
+     "Eritrea"
+    ],
+    "en": [
+     "Ethiopia",
+     "Djibouti",
+     "Somalia",
+     "Eritrea"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Assal leží v Afarském trojúhelníku. S průměrnou slaností kolem 34,8 % patří k nejslanějším jezerům světa a je dokonce o něco slanější než Mrtvé moře.",
+    "en": "Lake Assal lies in the Afar Triangle. With an average salinity of about 34.8%, it is one of the saltiest lakes in the world, even slightly saltier than the Dead Sea."
+   }
+  },
+  {
+   "id": "T016-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kde leží nejnižší přirozený bod evropské souše (asi 28 m pod úrovní moře)?",
+    "en": "Where is the lowest natural point of land in Europe (about 28 m / 92 ft below sea level)?"
+   },
+   "moznosti": {
+    "cs": [
+     "V polderech u Rotterdamu v Nizozemsku",
+     "Na břehu Kaspického moře v Rusku",
+     "V oblasti Lammefjord v Dánsku",
+     "V deltě Dunaje v Rumunsku"
+    ],
+    "en": [
+     "In the polders near Rotterdam in the Netherlands",
+     "On the shore of the Caspian Sea in Russia",
+     "In the Lammefjord area of Denmark",
+     "In the Danube Delta in Romania"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Hladina Kaspického moře, největšího jezera světa, leží pod úrovní oceánu. Nizozemské a dánské poldry klesají jen asi na −7 m.",
+    "en": "The surface of the Caspian Sea, the world's largest lake, lies below ocean level. Dutch and Danish polders only go down to about −7 m (−23 ft)."
+   }
+  },
+  {
+   "id": "T016-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kde leží nejhlubší známé místo souše, kaňon ukrytý pod ledem více než 3 500 m pod úrovní moře?",
+    "en": "Where is the deepest known point on land, a canyon hidden beneath the ice more than 3,500 m (11,500 ft) below sea level?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Bentleyho podledovcovém příkopu v Západní Antarktidě",
+     "Na dně podledovcového jezera Vostok",
+     "Pod ledovým štítem ve středu Grónska",
+     "Pod Denmanovým ledovcem ve Východní Antarktidě"
+    ],
+    "en": [
+     "In the Bentley Subglacial Trench in West Antarctica",
+     "At the bottom of subglacial Lake Vostok",
+     "Beneath the ice sheet in central Greenland",
+     "Beneath the Denman Glacier in East Antarctica"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Odhalil ho v roce 2019 projekt BedMachine Antarctica, který spojil radarová a družicová data. Je asi o 2 000 m hlubší, než se dříve odhadovalo.",
+    "en": "It was revealed in 2019 by the BedMachine Antarctica project, which combined radar and satellite data. It is about 2,000 m (6,600 ft) deeper than earlier estimates."
+   }
+  },
+  {
+   "id": "T016-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Suchá údolí McMurdo (McMurdo Dry Valleys) v Antarktidě patří k nejsušším místům Země. Co v nich nejvíc brání hromadění sněhu?",
+    "en": "The McMurdo Dry Valleys in Antarctica are among the driest places on Earth. What most prevents snow from building up there?"
+   },
+   "moznosti": {
+    "cs": [
+     "Geotermální teplo stoupající z podloží",
+     "Tmavé sopečné horniny pohlcující sluneční svit",
+     "Katabatické větry stékající z ledového štítu",
+     "Sůl z moře rozpouštějící sníh"
+    ],
+    "en": [
+     "Geothermal heat rising from the bedrock",
+     "Dark volcanic rocks absorbing sunlight",
+     "Katabatic winds flowing down from the ice sheet",
+     "Sea salt melting the snow"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Studený hustý vzduch padá z ledového štítu dolů a suchý vítr nechá sníh rychle vysublimovat. Údolí navíc leží ve sněhovém stínu Transantarktického pohoří.",
+    "en": "Cold, dense air pours down from the ice sheet, and the dry wind makes snow sublimate quickly. The valleys also lie in the snow shadow of the Transantarctic Mountains."
+   }
+  },
+  {
+   "id": "T016-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém pohoří leží nejhlubší známé jeskyně světa, Krubera (Voronja) a Verjovkina, obě hluboké přes 2 200 m?",
+    "en": "In which mountain range are the world's deepest known caves, Krubera (Voronya) and Veryovkina, both more than 2,200 m (7,200 ft) deep?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kavkaz",
+     "Pyreneje",
+     "Alpy",
+     "Dinárské hory"
+    ],
+    "en": [
+     "The Caucasus",
+     "The Pyrenees",
+     "The Alps",
+     "The Dinaric Alps"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Obě leží v masivu Arabika v Abcházii na západním Kavkaze. Krubera je hluboká asi 2 224 m, Verjovkina asi 2 209 m. Nejhlubší jeskyně mimo Kavkaz, rakouská Lamprechtsofen, má asi 1 727 m.",
+    "en": "Both lie in the Arabika Massif in Abkhazia, in the western Caucasus. Krubera is about 2,224 m (7,297 ft) deep and Veryovkina about 2,209 m (7,247 ft). The deepest cave outside the Caucasus, Austria's Lamprechtsofen, reaches about 1,727 m (5,666 ft)."
+   }
+  },
+  {
+   "id": "T016-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Která hora na hranici Chile a Argentiny je považována za nejvyšší sopku světa?",
+    "en": "Which mountain on the Chile–Argentina border is considered the highest volcano in the world?"
+   },
+   "moznosti": {
+    "cs": [
+     "Llullaillaco",
+     "Incahuasi",
+     "Ojos del Salado",
+     "Tupungato"
+    ],
+    "en": [
+     "Llullaillaco",
+     "Incahuasi",
+     "Ojos del Salado",
+     "Tupungato"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ojos del Salado měří asi 6 893 m a leží na okraji pouště Atacama. V jeho kráteru je ve výšce kolem 6 480 m jezírko, které bývá označováno za nejvýše položené jezero světa.",
+    "en": "Ojos del Salado is about 6,893 m (22,615 ft) high and lies on the edge of the Atacama Desert. A small crater lake at around 6,480 m (21,260 ft) is often described as the highest lake in the world."
+   }
+  },
+  {
+   "id": "T016-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Která africká poušť je považována za jednu z nejstarších na světě – suchá je zhruba 55–80 milionů let?",
+    "en": "Which African desert is considered one of the oldest in the world, having been dry for roughly 55–80 million years?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kalahari",
+     "Sahara",
+     "Namib",
+     "Danakilská poušť"
+    ],
+    "en": [
+     "The Kalahari",
+     "The Sahara",
+     "The Namib",
+     "The Danakil Desert"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Namib se táhne podél atlantského pobřeží Namibie, Angoly a Jihoafrické republiky. Vláhu mu přináší hlavně mlha od studeného Benguelského proudu, ze které pijí i brouci a rostlina Welwitschia mirabilis.",
+    "en": "The Namib stretches along the Atlantic coast of Namibia, Angola and South Africa. Its moisture comes mainly from fog off the cold Benguela Current, which beetles and the plant Welwitschia mirabilis drink from."
+   }
+  }
+ ]
+}

@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T328",
+ "nazev": {
+  "cs": "Optické klamy a triky vnímání",
+  "en": "Optical Illusions and Tricks of Perception"
+ },
+ "kategorie": {
+  "id": "lidske-telo",
+  "nazev": {
+   "cs": "Lidské tělo",
+   "en": "Human Body"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T328-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co je zvláštního na Penroseově trojúhelníku, takzvaném nemožném trojúhelníku?",
+    "en": "What is special about the Penrose triangle, the so-called impossible triangle?"
+   },
+   "moznosti": {
+    "cs": [
+     "Při delším pohledu mění barvu",
+     "Při delším pohledu se zdánlivě otáčí",
+     "Každá jeho strana má jinou délku",
+     "Jako skutečné těleso nemůže existovat"
+    ],
+    "en": [
+     "It changes colour if you stare at it",
+     "It seems to rotate if you stare at it",
+     "Each of its sides has a different length",
+     "It cannot exist as a real solid object"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Na kresbě působí jako prostorový trojúhelník z trámů, ale v běžném trojrozměrném prostoru ho postavit nelze. Některé sochy ho napodobí jen při pohledu z jediného úhlu.",
+    "en": "On paper it looks like a solid triangle made of beams, but it cannot be built in ordinary three-dimensional space. Some sculptures mimic it, but only from one particular viewpoint."
+   }
+  },
+  {
+   "id": "T328-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co zobrazuje slavná litografie M. C. Eschera Drawing Hands (Kreslící ruce) z roku 1948?",
+    "en": "What does M. C. Escher's famous lithograph Drawing Hands (1948) show?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dvě ruce, které kreslí nekonečné schodiště",
+     "Dvě ruce, které kreslí jedna druhou",
+     "Dvě ruce, které kreslí autoportrét malíře",
+     "Dvě ruce, které drží zrcadlící kouli"
+    ],
+    "en": [
+     "Two hands drawing an endless staircase",
+     "Two hands drawing each other",
+     "Two hands drawing the artist's self-portrait",
+     "Two hands holding a reflecting sphere"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Z listu papíru vystupují dvě ruce, z nichž každá paradoxně kreslí tu druhou. Nizozemec Maurits Cornelis Escher (1898–1972) pracoval hlavně s litografií a dřevořezem a proslul nemožnými stavbami, přestože neměl žádné formální matematické vzdělání.",
+    "en": "Two hands rise from a sheet of paper, each paradoxically drawing the other into existence. The Dutchman Maurits Cornelis Escher (1898–1972) worked mainly in lithography and woodcut and became famous for impossible buildings, despite having no formal mathematical training."
+   }
+  },
+  {
+   "id": "T328-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá sklon vidět tváře a jiné známé tvary tam, kde žádné nejsou, třeba v mracích nebo v obyčejných předmětech?",
+    "en": "What is the name for the tendency to see faces and other familiar shapes where there are none, for example in clouds or ordinary objects?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pareidolie",
+     "Déjà vu",
+     "Synestezie",
+     "Prosopagnozie"
+    ],
+    "en": [
+     "Pareidolia",
+     "Déjà vu",
+     "Synaesthesia",
+     "Prosopagnosia"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Slovo pochází z řeckého para (vedle) a eidólon (obraz, tvar); zavedl ho německý psychiatr Karl Ludwig Kahlbaum roku 1866. Typickým příkladem je „muž v Měsíci“.",
+    "en": "The word comes from Greek para (beside) and eidōlon (image, shape); German psychiatrist Karl Ludwig Kahlbaum coined it in 1866. A classic example is the 'man in the Moon'."
+   }
+  },
+  {
+   "id": "T328-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Film vytváří iluzi pohybu rychlým sledem nehybných políček. Kolik políček za sekundu se ustálilo jako standard zvukového filmu?",
+    "en": "Film creates the illusion of motion through a rapid sequence of still frames. How many frames per second became the standard for sound film?"
+   },
+   "moznosti": {
+    "cs": [
+     "12",
+     "16",
+     "24",
+     "48"
+    ],
+    "en": [
+     "12",
+     "16",
+     "24",
+     "48"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "S nástupem zvukového filmu od roku 1926 se průmysl ustálil na 24 políčkách za sekundu jako na kompromisu, protože kina promítala němé filmy rychlostí 22 až 26 políček. U němých kamer s ruční klikou se rychlost často měnila i během jedné scény.",
+    "en": "With the arrival of sound film from 1926, the industry settled on 24 frames per second as a compromise, since cinemas had shown silent films at 22 to 26 frames. With hand-cranked silent cameras, the rate often changed even within a single scene."
+   }
+  },
+  {
+   "id": "T328-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co uvidíte v obrázku Magic Eye (autostereogramu), když se na něj podíváte správně, jako byste se dívali „skrz“ něj?",
+    "en": "What do you see in a Magic Eye picture (an autostereogram) when you look at it correctly, as if looking 'through' it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Obrázek se začne pohybovat",
+     "Zrcadlově převrácený nápis",
+     "Skrytý trojrozměrný obraz",
+     "Obrázek změní všechny barvy"
+    ],
+    "en": [
+     "The picture starts to move",
+     "Mirror-reversed text",
+     "A hidden three-dimensional image",
+     "The picture changes all its colours"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Opakující se vzor je spočítaný tak, že když se oči sbíhají do bodu „za“ obrázkem, zachytí každé oko trochu jiný výsek, a mozek z toho složí hloubku. První barevné autostereogramy z náhodných teček vytvořili v roce 1991 Tom Baccei a Cheri Smith a později se prodávaly pod značkou Magic Eye.",
+    "en": "The repeating pattern is calculated so that, when the eyes converge on a point 'behind' the picture, each eye picks up a slightly different section and the brain assembles depth. Tom Baccei and Cheri Smith made the first colour random-dot autostereograms in 1991, later sold as Magic Eye."
+   }
+  },
+  {
+   "id": "T328-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Asi půl minuty se díváte na jasně červený čtverec a pak přesunete pohled na bílou zeď. Jakou barvu má paobraz čtverce, který na zdi chvíli „visí“?",
+    "en": "You stare at a bright red square for about half a minute and then look at a white wall. What colour is the afterimage of the square that 'hangs' on the wall for a while?"
+   },
+   "moznosti": {
+    "cs": [
+     "Žlutou (citronovou)",
+     "Azurovou (zelenomodrou)",
+     "Fialovou (lilkovou)",
+     "Oranžovou (cihlovou)"
+    ],
+    "en": [
+     "Yellow (lemon)",
+     "Cyan (blue-green)",
+     "Purple (aubergine)",
+     "Orange (brick-red)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Dlouhým pohledem se buňky sítnice citlivé na červenou „unaví“ a vysílají slabší signál, takže mozek vidí opačnou, doplňkovou barvu. Takový negativní paobraz vzniká v sítnici a přetrvá mnohem déle než krátký pozitivní paobraz v původní barvě.",
+    "en": "Prolonged staring adapts the retinal cells that respond to red, so they send a weaker signal and the brain sees the opposing, complementary colour. Such a negative afterimage arises in the retina and lasts much longer than the brief positive afterimage in the original colour."
+   }
+  },
+  {
+   "id": "T328-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co se stane, když se delší dobu díváte na Neckerovu krychli, tedy drátěný obrys krychle bez stínování?",
+    "en": "What happens when you look for a while at a Necker cube, a wireframe outline of a cube without any shading?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zdá se, že se zvětšuje",
+     "Zdá se, že mění barvu",
+     "Zdá se, že se točí dokola",
+     "Přeskakuje, která stěna je vpředu"
+    ],
+    "en": [
+     "It seems to grow larger",
+     "It seems to change colour",
+     "It seems to spin round",
+     "It flips which face is at the front"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kresba neobsahuje žádné vodítko hloubky, a tak ji mozek střídavě čte dvěma způsoby. Popsal ji švýcarský krystalograf Louis Albert Necker v roce 1832; lidé prý častěji vidí vpředu levou dolní stěnu.",
+    "en": "The drawing contains no depth cues, so the brain alternates between two readings. Swiss crystallographer Louis Albert Necker described it in 1832; people reportedly see the lower-left face in front more often."
+   }
+  },
+  {
+   "id": "T328-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co doslova znamená francouzský výraz trompe-l'œil, kterým se označuje malba vytvářející dokonalou iluzi skutečných předmětů?",
+    "en": "What does the French term trompe-l'œil, used for painting that creates a perfect illusion of real objects, literally mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Malované světlo",
+     "Oklamej oko",
+     "Živá stěna",
+     "Druhý pohled"
+    ],
+    "en": [
+     "Painted light",
+     "Deceive the eye",
+     "Living wall",
+     "Second glance"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Malíř na plochu vykouzlí zdánlivě skutečný prostor nebo předmět, například falešná okna, dveře či kupole. Stejný trik používá i Kojot (Wile E. Coyote) v kreslených filmech, když na skálu namaluje tunel.",
+    "en": "The painter conjures a seemingly real space or object on a flat surface, such as fake windows, doors or domes. Wile E. Coyote uses the same trick in the Road Runner cartoons when he paints a tunnel on a rock wall."
+   }
+  },
+  {
+   "id": "T328-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na kterém vesmírném tělese vyfotografovala sonda v roce 1976 skalní útvar, v němž lidé viděli obří lidskou tvář?",
+    "en": "On which body in space did a probe photograph a rock formation in 1976 that people saw as a giant human face?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Marsu",
+     "Na Venuši",
+     "Na Měsíci",
+     "Na Merkuru"
+    ],
+    "en": [
+     "Mars",
+     "Venus",
+     "The Moon",
+     "Mercury"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "„Tvář na Marsu“ v oblasti Cydonia vyfotografovala sonda Viking 1 dne 25. července 1976. Jde o asi dva kilometry dlouhou stolovou horu, která vypadá jako obličej jen při určitém úhlu osvětlení.",
+    "en": "The 'Face on Mars' in the Cydonia region was photographed by Viking 1 on 25 July 1976. It is a mesa about two kilometres (1.2 mi) long that only looks like a face under a particular angle of lighting."
+   }
+  },
+  {
+   "id": "T328-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na černé ploše je bílá mřížka (Hermannova mřížka). Co lidé vidí na křížení bílých čar, na která se zrovna přímo nedívají?",
+    "en": "A white grid is drawn on a black background (the Hermann grid). What do people see at the intersections of the white lines that they are not looking at directly?"
+   },
+   "moznosti": {
+    "cs": [
+     "Barevné kroužky",
+     "Šedé skvrny",
+     "Bílé hvězdičky",
+     "Černé křížky"
+    ],
+    "en": [
+     "Coloured rings",
+     "Grey blobs",
+     "White stars",
+     "Black crosses"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Přízračné šedé skvrny popsal Ludimar Hermann v roce 1870. Na křížení, na které se díváte přímo, zmizí; dříve oblíbené vysvětlení laterální inhibicí v sítnici je podle novějších výzkumů neudržitelné (zvlněné čáry klam ruší).",
+    "en": "The ghostly grey blobs were reported by Ludimar Hermann in 1870. They vanish at the intersection you look at directly; according to more recent research, the once-popular explanation by lateral inhibition in the retina is untenable (wavy lines abolish the illusion)."
+   }
+  },
+  {
+   "id": "T328-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Dvě stejně dlouhé úsečky, jedna zakončená šipkami (<—>) a druhá „vidličkami“ (>—<), se zdají různě dlouhé. Jak se tento klam jmenuje?",
+    "en": "Two lines of equal length, one ending in arrowheads (<—>) and the other in 'fins' (>—<), appear to be different lengths. What is this illusion called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Müller-Lyerův klam",
+     "Poggendorffův klam",
+     "Zöllnerův klam",
+     "Heringův klam"
+    ],
+    "en": [
+     "Müller-Lyer illusion",
+     "Poggendorff illusion",
+     "Zöllner illusion",
+     "Hering illusion"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Klam popsal německý sociolog Franz Carl Müller-Lyer roku 1889. Delší se zdá úsečka s „vidličkami“ otevřenými ven, ačkoli jsou obě stejné.",
+    "en": "German sociologist Franz Carl Müller-Lyer described the illusion in 1889. The line with outward-pointing fins looks longer, although both are the same."
+   }
+  },
+  {
+   "id": "T328-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Dva stejně velké kruhy: jeden obklopují velké kruhy, druhý malé kroužky. Který z obou prostředních kruhů se zdá větší?",
+    "en": "Two circles of equal size: one is surrounded by large circles, the other by small ones. Which of the two central circles appears larger?"
+   },
+   "moznosti": {
+    "cs": [
+     "Oba se zdají stejně velké",
+     "Ten obklopený malými kroužky",
+     "Záleží na barvě kruhů",
+     "Ten obklopený velkými kruhy"
+    ],
+    "en": [
+     "Both appear the same size",
+     "The one surrounded by small circles",
+     "It depends on the colour of the circles",
+     "The one surrounded by large circles"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jde o Ebbinghausův klam, v angličtině známý i jako Titchenerovy kruhy. Zajímavé je, že vysokoškoláci mu podléhali víc než děti do deseti let.",
+    "en": "This is the Ebbinghaus illusion, also known in English as Titchener circles. Interestingly, university students were fooled more often than children aged ten and under."
+   }
+  },
+  {
+   "id": "T328-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Přes dvojici čar, které se sbíhají jako koleje mizející v dálce, leží napříč dvě stejně dlouhé vodorovné úsečky. Která se zdá delší?",
+    "en": "Two horizontal lines of equal length lie across a pair of lines that converge like railway tracks receding into the distance. Which one appears longer?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dolní, kde jsou čáry od sebe dál",
+     "Obě se zdají stejně dlouhé",
+     "Horní, blíž místu, kde se čáry sbíhají",
+     "Záleží na tom, kterým okem se díváte"
+    ],
+    "en": [
+     "The lower one, where the lines are further apart",
+     "Both appear the same length",
+     "The upper one, nearer where the lines converge",
+     "It depends on which eye you use"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ponzův klam je pojmenován po italském psychologovi Mariu Ponzovi (1882–1960). Podle nejčastějšího vysvětlení mozek čte sbíhavé čáry jako perspektivu, horní úsečku tedy bere jako vzdálenější, a proto větší.",
+    "en": "The Ponzo illusion is named after Italian psychologist Mario Ponzo (1882–1960). The most common explanation is that the brain reads the converging lines as perspective, takes the upper line to be further away and therefore larger."
+   }
+  },
+  {
+   "id": "T328-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na Kanizsově obrazci vidíme bílý trojúhelník, který jako by ležel na třech černých kruzích s vyříznutou výsečí. Co je na tom trojúhelníku zvláštního?",
+    "en": "In the Kanizsa figure we see a white triangle that seems to lie on top of three black discs with a wedge cut out. What is special about this triangle?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vidí ho jen jedno oko",
+     "Ve skutečnosti je to čtyřúhelník",
+     "Jeho hrany vůbec nejsou nakreslené",
+     "Je natištěný reflexní barvou"
+    ],
+    "en": [
+     "Only one eye can see it",
+     "It is actually a quadrilateral",
+     "Its edges are not drawn at all",
+     "It is printed in reflective ink"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Mozek si trojúhelník domyslí z výřezů v kruzích; jde o takzvané iluzorní obrysy. Trojúhelník se navíc zdá jasnější než okolí, ačkoli má přesně stejný jas; Gaetano Kanizsa obrazec publikoval roku 1955.",
+    "en": "The brain infers the triangle from the cut-outs in the discs; these are called illusory contours. The triangle also looks brighter than its surroundings, although its luminance is exactly the same; Gaetano Kanizsa published the figure in 1955."
+   }
+  },
+  {
+   "id": "T328-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na slavném obrázku Edwarda Adelsona (1995) leží přes šachovnici stín jiného předmětu. Políčko A vypadá výrazně tmavší než políčko B. Jak je tomu ve skutečnosti?",
+    "en": "In Edward Adelson's famous image (1995), a shadow of another object falls across a checkerboard. Square A looks much darker than square B. What is the truth?"
+   },
+   "moznosti": {
+    "cs": [
+     "Políčko B je ve skutečnosti černé",
+     "Políčko A je ve skutečnosti ještě tmavší",
+     "Liší se jen o pár procent jasu",
+     "Mají přesně stejný odstín šedi"
+    ],
+    "en": [
+     "Square B is actually black",
+     "Square A is actually even darker",
+     "They differ by only a few per cent in brightness",
+     "They are exactly the same shade of grey"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Mozek bere v úvahu stín a vzorek šachovnice a odstín „přepočítá“, takže stejnou šeď vidí jednou jako tmavou a podruhé jako světlou. Adelson, profesor vědy o vidění na MIT, ilustrací ukazuje, že nevnímáme jas, ale odhadujeme barvu povrchu.",
+    "en": "The brain takes the shadow and the checkerboard pattern into account and 'recalculates' the shade, so the same grey looks dark in one place and light in another. Adelson, a professor of vision science at MIT, uses it to show that we judge surface colour rather than raw brightness."
+   }
+  },
+  {
+   "id": "T328-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč se ve filmech, třeba ve westernech, kola rozjetého dostavníku někdy zdají točit pomalu, stát, nebo dokonce couvat?",
+    "en": "Why do the wheels of a moving stagecoach in films, for example in westerns, sometimes appear to turn slowly, stand still or even go backwards?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kamera zachycuje pohyb jen v krátkých intervalech",
+     "Kola se ve skutečnosti na chvíli protáčejí",
+     "Projektor pouští film střídavě dopředu a dozadu",
+     "Filmaři záběry kvůli efektu záměrně stříhají"
+    ],
+    "en": [
+     "The camera captures the motion only at short intervals",
+     "The wheels really do slip for a moment",
+     "The projector runs the film alternately forwards and backwards",
+     "Filmmakers deliberately edit the shots for the effect"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kamera pohyb „vzorkuje“: když se kolo mezi dvěma políčky otočí skoro o celou rozteč paprsků, vypadá to, jako by se posunulo jen trochu, nebo dokonce zpět. Stejně se chovají i vrtule vrtulníků nebo disky aut.",
+    "en": "The camera 'samples' the motion: if a wheel turns almost a full spoke spacing between two frames, it looks as if it moved only slightly, or even backwards. Helicopter rotors and car wheel rims behave the same way."
+   }
+  },
+  {
+   "id": "T328-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Přes spodní část Holbeinova obrazu Velvyslanci (The Ambassadors, 1533) se táhne podivná protáhlá šedá skvrna. Co v ní uvidíte, když se na obraz podíváte pod ostrým úhlem z boku?",
+    "en": "A strange, elongated grey smear runs across the lower part of Holbein's painting The Ambassadors (1533). What do you see in it when you look at the painting from the side at a sharp angle?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bílou holubici",
+     "Lidskou lebku",
+     "Okřídleného draka",
+     "Lodní kotvu"
+    ],
+    "en": [
+     "A white dove",
+     "A human skull",
+     "A winged dragon",
+     "A ship's anchor"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jde o anamorfózu, zkreslený obraz, který se „srovná“ jen z určitého místa. Lebka je obvykle vykládána jako memento mori a obraz visí od roku 1890 v londýnské National Gallery.",
+    "en": "It is an anamorphosis, a distorted image that resolves only from a particular vantage point. The skull is usually read as a memento mori, and the painting has hung in London's National Gallery since 1890."
+   }
+  },
+  {
+   "id": "T328-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém filmu Christophera Nolana využije hrdina proti pronásledovateli nekonečné Penroseovo schodiště, které jde stále dolů, a přesto se vrací na začátek?",
+    "en": "In which Christopher Nolan film does the hero use endless Penrose stairs against a pursuer, which keep going down and yet return to the start?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tenet",
+     "Memento",
+     "Interstellar",
+     "Počátek (Inception)"
+    ],
+    "en": [
+     "Tenet",
+     "Memento",
+     "Interstellar",
+     "Inception"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "V Počátku (2010) se schodiště objevuje ve snu, kde jde postavit i nemožnou stavbu; hrdina se po něm dostane pronásledovateli za záda. Nekonečné schodiště zpopularizovali Lionel a Roger Penroseovi koncem 50. let a Escher ho pak použil na litografii Ascending and Descending (Stoupání a klesání, 1960).",
+    "en": "In Inception (2010) the stairs appear in a dream, where even an impossible structure can be built; the hero uses them to come up behind his pursuer. Lionel and Roger Penrose popularised the endless staircase in the late 1950s, and Escher then used it in his lithograph Ascending and Descending (1960)."
+   }
+  },
+  {
+   "id": "T328-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Zavřete levé oko a pravým okem se upřeně díváte na křížek na papíře. Na papíře je i tečka, která při určité vzdálenosti od oka zmizí ve slepé skvrně. Kde musí tečka ležet?",
+    "en": "You close your left eye and stare at a cross on a sheet of paper with your right eye. There is also a dot on the paper that disappears into the blind spot at a certain distance from the eye. Where must the dot be?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vpravo od křížku",
+     "Přímo nad křížkem",
+     "Přímo pod křížkem",
+     "Vlevo od křížku"
+    ],
+    "en": [
+     "To the right of the cross",
+     "Directly above the cross",
+     "Directly below the cross",
+     "To the left of the cross"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Slepá skvrna leží v zorném poli asi 12–15° směrem ke spánku (u pravého oka tedy vpravo) a jen kousek pod vodorovnou rovinou. Je překvapivě velká, zhruba 7,5° na výšku a 5,5° na šířku.",
+    "en": "The blind spot lies about 12–15° towards the temple in the visual field (so to the right for the right eye) and only slightly below the horizontal. It is surprisingly large, roughly 7.5° high and 5.5° wide."
+   }
+  },
+  {
+   "id": "T328-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč bývají nápisy na vozovce, například BUS nebo STOP, namalované nepřirozeně protáhlé do délky?",
+    "en": "Why are road markings such as BUS or STOP often painted unnaturally stretched lengthwise?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aby v noci lépe odrážely světlo",
+     "Aby je stroj natřel jedním tahem",
+     "Aby je řidič zešikma četl jako normální písmo",
+     "Aby se pod koly pomaleji opotřebovaly"
+    ],
+    "en": [
+     "So that they reflect light better at night",
+     "So that a machine can paint them in one stroke",
+     "So that a driver seeing them at an angle reads normal letters",
+     "So that they wear out more slowly under wheels"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jde o anamorfózu: řidič vidí vozovku pod ostrým úhlem, takže se protáhlé písmo „zkrátí“ na běžný tvar. Na stejném principu stojí i trojrozměrné kresby na chodnících, jaké tvoří Julian Beever nebo Kurt Wenner.",
+    "en": "It is anamorphosis: the driver sees the road at a sharp angle, so the stretched letters 'shrink' to a normal shape. The same principle lies behind 3D pavement drawings by artists such as Julian Beever and Kurt Wenner."
+   }
+  },
+  {
+   "id": "T328-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo jako první nakreslil nemožný trojúhelník? V roce 1934 ho jako osmnáctiletý student poskládal z krychlí v perspektivě.",
+    "en": "Who was the first to draw the impossible triangle? In 1934, as an eighteen-year-old student, he assembled it from cubes drawn in perspective."
+   },
+   "moznosti": {
+    "cs": [
+     "Oscar Reutersvärd",
+     "M. C. Escher",
+     "Roger Penrose",
+     "Victor Vasarely"
+    ],
+    "en": [
+     "Oscar Reutersvärd",
+     "M. C. Escher",
+     "Roger Penrose",
+     "Victor Vasarely"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Švédský výtvarník Oscar Reutersvärd bývá nazýván „otcem nemožných obrazců“; Lionel a Roger Penroseovi na trojúhelník přišli nezávisle až v 50. letech. Švédská pošta mu v roce 1982 věnovala tři známky.",
+    "en": "Swedish artist Oscar Reutersvärd is sometimes called 'the father of the impossible figure'; Lionel and Roger Penrose came up with the triangle independently only in the 1950s. Sweden honoured him with three postage stamps in 1982."
+   }
+  },
+  {
+   "id": "T328-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Podle antického příběhu namaloval Zeuxis tak věrné hrozny, že je přiletěli klovat ptáci. Čím ho pak porazil jeho soupeř Parrhasios?",
+    "en": "According to an ancient story, Zeuxis painted grapes so lifelike that birds flew down to peck at them. How did his rival Parrhasius then beat him?"
+   },
+   "moznosti": {
+    "cs": [
+     "Namalovaným oknem, z něhož chtěl Zeuxis vyhlédnout",
+     "Namalovaným závěsem, který chtěl Zeuxis odhrnout",
+     "Portrétem, který si Zeuxis spletl s modelem",
+     "Namalovanou mouchou, kterou chtěl Zeuxis odehnat"
+    ],
+    "en": [
+     "With a painted window that Zeuxis tried to look out of",
+     "With a painted curtain that Zeuxis tried to pull aside",
+     "With a portrait that Zeuxis mistook for the sitter",
+     "With a painted fly that Zeuxis tried to shoo away"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Parrhasios vyzval Zeuxida, ať posoudí obraz skrytý za závěsem; když ho chtěl Zeuxis odhrnout, zjistil, že závěs je namalovaný. Zeuxis oklamal ptáky, Parrhasios ale oklamal malíře, a tak vyhrál.",
+    "en": "Parrhasius invited Zeuxis to judge a painting hidden behind curtains; when Zeuxis tried to pull them back, he found they were painted. Zeuxis had fooled birds, but Parrhasius fooled a painter, so he won."
+   }
+  },
+  {
+   "id": "T328-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Návštěva které stavby, poprvé v roce 1922 a znovu v roce 1936, přivedla M. C. Eschera k matematice pravidelných mozaik, v nichž do sebe tvary dokonale zapadají?",
+    "en": "A visit to which building, first in 1922 and again in 1936, led M. C. Escher to the mathematics of regular tilings, in which shapes fit together perfectly?"
+   },
+   "moznosti": {
+    "cs": [
+     "Alhambry v Granadě",
+     "Hagie Sofie v Istanbulu",
+     "Tádž Mahalu v Ágře",
+     "Dóžecího paláce v Benátkách"
+    ],
+    "en": [
+     "The Alhambra in Granada",
+     "Hagia Sophia in Istanbul",
+     "The Taj Mahal in Agra",
+     "The Doge's Palace in Venice"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Ornamenty maurského paláce ze 14. století v něm probudily zájem o matematiku teselací. Při druhé návštěvě v roce 1936 tam několik dní v kuse pečlivě kreslil tamní mozaikové vzory.",
+    "en": "The decorations of the 14th-century Moorish palace sparked his interest in the mathematics of tessellation. On his second visit in 1936 he spent several days at a time making detailed drawings of the mosaic patterns."
+   }
+  },
+  {
+   "id": "T328-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Výzkum z 60. let zjistil, že klamu se dvěma stejnými úsečkami se šipkami a „vidličkami“ podléhají nejméně Sanové (Křováci), lovci a sběrači z Kalahari. Jak to vysvětlovali autoři výzkumu?",
+    "en": "Research in the 1960s found that San foragers of the Kalahari were the least susceptible to the illusion of two equal lines ending in arrowheads and 'fins'. How did the researchers explain this?"
+   },
+   "moznosti": {
+    "cs": [
+     "Neumějí číst, a proto nevnímají čáry jako písmo",
+     "Mají v průměru ostřejší zrak než Evropané",
+     "Při pokusech se dívali jen jedním okem",
+     "Nežijí obklopeni pravoúhlými stavbami a rovnými hranami"
+    ],
+    "en": [
+     "They cannot read, so they do not perceive the lines as writing",
+     "They have sharper eyesight on average than Europeans",
+     "They looked with only one eye during the tests",
+     "They do not live surrounded by right-angled buildings and straight edges"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Segall, Campbell a Herskovits to vysvětlovali hypotézou „pravoúhlého světa“ (carpentered world): obyvatelé měst plných pravých úhlů jsou klamu náchylnější; v jejich studii nejvíc podléhaly evropské vzorky. Hypotéza je ale sporná a pozdější výzkumy ji zpochybnily.",
+    "en": "Segall, Campbell and Herskovits explained it with the 'carpentered world' hypothesis: people living among right-angled urban environments are more susceptible; in their study the European samples were the most fooled. The hypothesis is disputed, however, and later research challenged it."
+   }
+  },
+  {
+   "id": "T328-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na Escherově litografii Belvedere (1958) sedí muž a drží v rukou nemožnou krychli. Jaký nákres leží u jeho nohou?",
+    "en": "In Escher's lithograph Belvedere (1958), a seated man holds an impossible cube. What diagram lies at his feet?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rubinova váza",
+     "Penroseův trojúhelník",
+     "Neckerova krychle",
+     "Möbiova páska"
+    ],
+    "en": [
+     "Rubin's vase",
+     "A Penrose triangle",
+     "A Necker cube",
+     "A Möbius strip"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Na papíře je Neckerova krychle s kroužkem vyznačenými místy, kde se hrany kříží; muž z ní zřejmě skládá svou nemožnou krychli. Nemožná je i samotná stavba, například žebřík vede zevnitř prostředního patra ven na horní patro.",
+    "en": "The paper shows a Necker cube with the crossing points of its edges circled; the man appears to be building his impossible cube from it. The building itself is impossible too; for example, a ladder runs from inside the middle floor to the outside of the top floor."
+   }
+  },
+  {
+   "id": "T328-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Podle studie Pascala Wallische viděla jedna skupina lidí slavné šaty (#TheDress, 2015) častěji bílozlaté než ostatní. Kdo to byl?",
+    "en": "According to a study by Pascal Wallisch, one group of people was more likely than others to see the famous dress (#TheDress, 2015) as white and gold. Who were they?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lidé s modrýma očima",
+     "Leváci",
+     "Ranní ptáčata",
+     "Noční sovy"
+    ],
+    "en": [
+     "People with blue eyes",
+     "Left-handed people",
+     "Early risers",
+     "Night owls"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Fotka byla přeexponovaná: kdo si mozkem „předpokládal“ namodralé osvětlení, modrou odečetl a viděl šaty bílozlaté, kdo nažloutlé, viděl je modročerné. Ve studii časopisu Current Biology s 1 400 respondenty vidělo modročerné šaty 57 % lidí.",
+    "en": "The photo was overexposed: viewers whose brains assumed bluish lighting discounted the blue and saw white and gold, while those assuming yellowish light saw blue and black. In a Current Biology study of 1,400 respondents, 57% saw the dress as blue and black."
+   }
+  },
+  {
+   "id": "T328-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak Harry McGurk a John MacDonald přišli na efekt (popsaný roku 1976), při kterém to, co vidíme na rtech mluvčího, změní, co slyšíme?",
+    "en": "How did Harry McGurk and John MacDonald discover the effect (described in 1976) in which what we see on a speaker's lips changes what we hear?"
+   },
+   "moznosti": {
+    "cs": [
+     "Při pokusech s ozvěnou v koncertním sále",
+     "Při rozboru špatně synchronizovaných zpráv",
+     "Při testování prvních videotelefonů",
+     "Náhodou, když technik nadaboval video jinou slabikou"
+    ],
+    "en": [
+     "During experiments with echoes in a concert hall",
+     "While analysing badly synchronised news broadcasts",
+     "While testing early videophones",
+     "By accident, when a technician dubbed a video with a different syllable"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Při přehrání videa oba slyšeli třetí hlásku, kterou nikdo nevyslovil; článek „Hearing lips and seeing voices“ vyšel v Nature v prosinci 1976. Efekt funguje, i když o něm víte; zažívají ho i vědci, kteří ho studují desítky let.",
+    "en": "On playback both of them heard a third sound that nobody had spoken; the paper 'Hearing lips and seeing voices' appeared in Nature in December 1976. The effect works even when you know about it; researchers who have studied it for decades still experience it."
+   }
+  },
+  {
+   "id": "T328-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Měsíc nízko nad obzorem vypadá obrovský. Co ukáže přesné měření jeho úhlové velikosti?",
+    "en": "The Moon low on the horizon looks huge. What does a precise measurement of its angular size show?"
+   },
+   "moznosti": {
+    "cs": [
+     "Je o něco větší, protože je Měsíc blíž",
+     "Je větší kvůli lomu světla v atmosféře",
+     "Je asi o polovinu větší než vysoko na obloze",
+     "Je o něco menší než vysoko na obloze"
+    ],
+    "en": [
+     "It is slightly larger because the Moon is closer",
+     "It is larger because of atmospheric refraction",
+     "It is about half as large again as high in the sky",
+     "It is slightly smaller than high in the sky"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "U obzoru je Měsíc od pozorovatele asi o 1,5 % dál, takže je úhlově nepatrně menší; zdánlivé zvětšení, obvykle kolem 50 %, je čistě klam vnímání. Klam prý zeslábne, když se na Měsíc podíváte mezi vlastníma nohama.",
+    "en": "At the horizon the Moon is about 1.5% farther from the observer, so its angular size is slightly smaller; the apparent enlargement, usually about 50%, is purely perceptual. The illusion reportedly weakens if you look at the Moon between your legs."
+   }
+  },
+  {
+   "id": "T328-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Filmové projektory ukazovaly každé políčko dvakrát nebo třikrát za sebou díky dvoj- či trojlisté cloně. Proč?",
+    "en": "Film projectors showed each frame two or three times in a row using a two- or three-bladed shutter. Why?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aby obraz méně blikal",
+     "Aby byl obraz jasnější",
+     "Aby se film pomaleji opotřeboval",
+     "Aby zvuk lépe ladil s obrazem"
+    ],
+    "en": [
+     "To reduce flicker",
+     "To make the picture brighter",
+     "To make the film wear out more slowly",
+     "To keep the sound better in sync with the picture"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Při běžné snímkové frekvenci by obraz viditelně blikal; dvojím nebo trojím zobrazením každého políčka se frekvence záblesků zdvojnásobila či ztrojnásobila, což oko vnímá jako stálé světlo. Edison kdysi tvrdil, že pod 46 obrázků za sekundu se namáhá oko.",
+    "en": "At the standard frame rate the picture would visibly flicker; showing each frame two or three times doubled or tripled the flash rate, which the eye perceives as steady light. Edison once claimed that anything below 46 pictures per second strains the eye."
+   }
+  },
+  {
+   "id": "T328-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Klam, při kterém rovnoběžné linie mezi posunutými řadami tmavých a světlých dlaždic vypadají šikmo, se jmenuje „kavárenská zeď“ (café wall). Ve kterém městě si ho na obkladu kavárny všiml člen laboratoře Richarda Gregoryho?",
+    "en": "The illusion in which parallel lines between offset rows of dark and light tiles look sloping is called the café wall illusion. In which city did a member of Richard Gregory's laboratory notice it on the tiling of a café?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Edinburghu",
+     "V Cambridgi",
+     "V Oxfordu",
+     "V Bristolu"
+    ],
+    "en": [
+     "Edinburgh",
+     "Cambridge",
+     "Oxford",
+     "Bristol"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Steve Simpson si ho všiml na kavárně na úpatí ulice St Michael's Hill v Bristolu a Gregory klamu v roce 1973 dal dnešní jméno. Podobnou verzi ale popsal už roku 1894 Hugo Münsterberg.",
+    "en": "Steve Simpson noticed it on a café at the bottom of St Michael's Hill in Bristol, and Gregory gave the illusion its current name in 1973. However, Hugo Münsterberg had already described a version in 1894."
+   }
+  }
+ ]
+}

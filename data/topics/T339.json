@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T339",
+ "nazev": {
+  "cs": "Kočkovité šelmy světa: tygři, levharti, jaguáři a rysi",
+  "en": "Wild Cats of the World: Tigers, Leopards, Jaguars and Lynxes"
+ },
+ "kategorie": {
+  "id": "priroda-a-zvirata",
+  "nazev": {
+   "cs": "Příroda a zvířata",
+   "en": "Nature & Animals"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T339-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který druh je obecně považován za největší žijící kočkovitou šelmu?",
+    "en": "Which species is generally considered the largest living member of the cat family?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lev",
+     "Jaguár",
+     "Puma",
+     "Tygr"
+    ],
+    "en": [
+     "Lion",
+     "Jaguar",
+     "Cougar",
+     "Tiger"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Za největší kočku je obecně považován tygr. Průměrná velikost tygra může být i menší než lví, ale největší tygři největší lvy převyšují; samci tygra bengálského váží 200–260 kg.",
+    "en": "The tiger is popularly considered the largest cat. The tiger's average size may be smaller than the lion's, but the largest tigers outsize the largest lions; male Bengal tigers weigh 200–260 kg (440–570 lb)."
+   }
+  },
+  {
+   "id": "T339-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která kočkovitá šelma je považována za nejrychlejšího suchozemského živočicha?",
+    "en": "Which cat is considered the fastest land animal?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lev",
+     "Levhart",
+     "Puma",
+     "Gepard"
+    ],
+    "en": [
+     "Lion",
+     "Leopard",
+     "Cougar",
+     "Cheetah"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Gepard je považován za nejrychlejšího suchozemského živočicha: v krátkém sprintu dosahuje 93–104 km/h. Má štíhlé tělo, dlouhé nohy a ocas, který mu při běhu slouží jako kormidlo.",
+    "en": "The cheetah is considered the fastest land animal, reaching 93–104 km/h (58–65 mph) in short sprints. It has a slim body, long legs and a tail that serves as a rudder when running."
+   }
+  },
+  {
+   "id": "T339-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Mají černí panteři (černě zbarvení levharti a jaguáři) ve srsti skvrny?",
+    "en": "Do black panthers (black leopards and jaguars) have spots in their fur?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ne, srst mají úplně jednobarevnou",
+     "Jen mláďata, dospělí je ztrácejí",
+     "Jen na břiše a na nohou",
+     "Ano, jen jsou skryté v tmavé srsti"
+    ],
+    "en": [
+     "No, their coat is completely plain",
+     "Only the cubs; adults lose them",
+     "Only on the belly and legs",
+     "Yes, but they are hidden in the dark fur"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Černý panter není samostatný druh, ale melanistická (tmavá) barevná forma levharta nebo jaguára. Typické skvrny a růžice v srsti má, jen jsou kvůli nadbytku melaninu skryté.",
+    "en": "A black panther is not a separate species but the melanistic (dark) colour form of the leopard or the jaguar. It still has the typical spots and rosettes, but they are hidden by the excess melanin."
+   }
+  },
+  {
+   "id": "T339-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kde žije irbis (Panthera uncia)?",
+    "en": "Where does the snow leopard (Panthera uncia) live?"
+   },
+   "moznosti": {
+    "cs": [
+     "V horách Střední a Jižní Asie",
+     "Ve Skalistých horách",
+     "V Alpách",
+     "V Andách"
+    ],
+    "en": [
+     "In the mountains of Central and South Asia",
+     "In the Rocky Mountains",
+     "In the Alps",
+     "In the Andes"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Irbis obývá pohoří Střední a Jižní Asie včetně Himálaje, většinou v nadmořské výšce 3 000–4 500 m. Široké tlapy mu rozkládají váhu těla při chůzi po sněhu.",
+    "en": "The snow leopard lives in the mountain ranges of Central and South Asia, including the Himalayas, mostly at 3,000–4,500 m (9,800–14,800 ft). Its broad paws spread its body weight when walking on snow."
+   }
+  },
+  {
+   "id": "T339-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která z těchto kočkovitých šelem je nejspolečenštější a žije v rodinných skupinách?",
+    "en": "Which of these cats is the most social, living in family groups?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jaguár",
+     "Tygr",
+     "Lev",
+     "Levhart"
+    ],
+    "en": [
+     "Jaguar",
+     "Tiger",
+     "Lion",
+     "Leopard"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Lev je nejspolečenštější ze všech divokých koček. Smečku tvoří příbuzné lvice s mláďaty a jeden nebo několik dospělých samců, kteří s lvicemi nejsou příbuzní.",
+    "en": "The lion is the most social of all wild cats. A pride consists of related lionesses with their cubs and one or a few adult males unrelated to the females."
+   }
+  },
+  {
+   "id": "T339-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá kříženec lva (samce) a tygřice?",
+    "en": "What is the hybrid of a male lion and a tigress called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jaglion",
+     "Tigon",
+     "Liger",
+     "Leopon"
+    ],
+    "en": [
+     "Jaglion",
+     "Tigon",
+     "Liger",
+     "Leopon"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Liger má otce lva a matku tygřici; opačný kříženec (otec tygr, matka lvice) je tigon. Ligeři existují jen v zajetí a bývají považováni za největší kočky vůbec.",
+    "en": "A liger has a lion father and a tigress mother; the reverse cross (tiger father, lioness mother) is a tigon. Ligers exist only in captivity and are often believed to be the largest cats of all."
+   }
+  },
+  {
+   "id": "T339-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaký vztah mají tygři k vodě?",
+    "en": "How do tigers relate to water?"
+   },
+   "moznosti": {
+    "cs": [
+     "Do vody vstoupí jen při útěku před ohněm",
+     "Neumějí plavat, řeky jen přebrodí",
+     "Dobře plavou a rádi se ve vodě chladí",
+     "Vody se bojí a vyhýbají se jí"
+    ],
+    "en": [
+     "They enter water only to escape fire",
+     "They cannot swim and only wade across rivers",
+     "They swim well and like to cool off in water",
+     "They fear water and avoid it"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Tygr je silný plavec, v horkých dnech se rád noří do vody a dokáže přeplavat i několik kilometrů širokou řeku.",
+    "en": "The tiger is a powerful swimmer that likes to soak in water on hot days and can cross rivers several kilometres wide."
+   }
+  },
+  {
+   "id": "T339-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi žilo podle odhadů z roku 2022 nejvíce divokých tygrů?",
+    "en": "According to 2022 estimates, which country had the most wild tigers?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Indonésii",
+     "V Rusku",
+     "V Indii",
+     "V Číně"
+    ],
+    "en": [
+     "Indonesia",
+     "Russia",
+     "India",
+     "China"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Indie měla v roce 2022 podle odhadu 3 167–3 682 tygrů, tedy většinu všech divokých tygrů na světě. Tygr je národním zvířetem Indie i Bangladéše.",
+    "en": "India had an estimated 3,167–3,682 tigers in 2022, the majority of all wild tigers in the world. The tiger is the national animal of both India and Bangladesh."
+   }
+  },
+  {
+   "id": "T339-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která z těchto kočkovitých šelem NEUMÍ řvát?",
+    "en": "Which of these cats can NOT roar?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jaguár",
+     "Lev",
+     "Tygr",
+     "Puma"
+    ],
+    "en": [
+     "Jaguar",
+     "Lion",
+     "Tiger",
+     "Cougar"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Puma nepatří do rodu Panthera, a proto neřve – umí však příst a je největší kočkou z podčeledi Felinae, která to dokáže. Dorozumívá se i vrčením, prskáním a syčením.",
+    "en": "The cougar is not a member of the genus Panthera and cannot roar, but it can purr – it is the largest cat of the subfamily Felinae able to do so. It also growls, spits and hisses."
+   }
+  },
+  {
+   "id": "T339-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou kresbu mají na srsti dospělí gepardi?",
+    "en": "What markings do adult cheetahs have on their coat?"
+   },
+   "moznosti": {
+    "cs": [
+     "Plné černé tečky",
+     "Růžice s tečkou uprostřed",
+     "Prázdné růžice",
+     "Žádnou, srst je jednobarevná"
+    ],
+    "en": [
+     "Solid black spots",
+     "Rosettes with a spot in the centre",
+     "Hollow rosettes",
+     "None – the coat is plain"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Gepard má po těle asi 2 000 plných oválných či kulatých černých teček, ne růžice jako levhart nebo jaguár. Typické jsou pro něj také černé „slzné pruhy“ od koutků očí k tlamě.",
+    "en": "The cheetah has around 2,000 solid oval or round black spots, not rosettes like the leopard or jaguar. It also has distinctive black \"tear streaks\" running from the corners of its eyes to its mouth."
+   }
+  },
+  {
+   "id": "T339-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím je jaguár výjimečný při zabíjení savců?",
+    "en": "What is unusual about how a jaguar kills mammals?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ochromí je jedovatými slinami",
+     "Často je kousne přímo skrz lebku mezi ušima",
+     "Topí je v řece, dokud se neudusí",
+     "Shazuje je ze skal a stromů"
+    ],
+    "en": [
+     "It paralyses them with venomous saliva",
+     "It often bites straight through the skull between the ears",
+     "It drowns them in a river until they suffocate",
+     "It throws them off rocks and trees"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jaguár má po tygrovi a lvu třetí nejsilnější stisk mezi kočkami a savce často zabíjí kousnutím skrz lebku přímo do mozku. Prokousne i krunýř říčních želv a loví také kajmany.",
+    "en": "The jaguar has the third-strongest bite among cats, after the tiger and lion, and often kills mammals by biting through the skull into the brain. It can pierce river turtle shells and also hunts caimans."
+   }
+  },
+  {
+   "id": "T339-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Podle čeho na srsti nejlépe odlišíte jaguára od levharta?",
+    "en": "How can you best tell a jaguar from a leopard by its coat?"
+   },
+   "moznosti": {
+    "cs": [
+     "Levhart má větší a méně početné růžice",
+     "Jaguár má uvnitř růžic malou tečku",
+     "Jaguár má pruhy na nohou",
+     "Jaguár nemá žádné skvrny na hlavě"
+    ],
+    "en": [
+     "The leopard has larger and fewer rosettes",
+     "The jaguar has a small spot inside its rosettes",
+     "The jaguar has stripes on its legs",
+     "The jaguar has no spots on its head"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Růžice jaguára jsou větší, tmavší, méně početné, mají silnější obrys a uprostřed malou tečku. Jaguár je také mohutnější, s kratšíma silnějšíma nohama a hranatější hlavou.",
+    "en": "The jaguar's rosettes are larger, darker, fewer, more thickly outlined and have a small spot in the middle. The jaguar is also more robust, with stockier limbs and a squarer head."
+   }
+  },
+  {
+   "id": "T339-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "K čemu slouží irbisovi jeho dlouhý huňatý ocas?",
+    "en": "What does a snow leopard use its long, thick tail for?"
+   },
+   "moznosti": {
+    "cs": [
+     "K odhánění krev sajícího hmyzu",
+     "K udržení rovnováhy a jako přikrývka obličeje při spánku",
+     "K zametání stop ve sněhu před pronásledovateli",
+     "K pádlování při přeplavávání horských řek"
+    ],
+    "en": [
+     "To swat away blood-sucking insects",
+     "For balance and as a blanket over its face when sleeping",
+     "To sweep away its tracks in the snow from pursuers",
+     "To paddle when swimming across mountain rivers"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ocas irbisa měří 80–105 cm a pomáhá mu držet rovnováhu ve skalnatém terénu. Při spánku si jím jako dekou zakrývá obličej před mrazem.",
+    "en": "The snow leopard's tail is 80–105 cm (31–41 in) long and helps it balance on rocky terrain. When it sleeps, it wraps the tail over its face like a blanket against the cold."
+   }
+  },
+  {
+   "id": "T339-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kde ve volné přírodě dnes přežívají poslední lvi v Asii?",
+    "en": "Where do the last wild lions in Asia survive today?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Srí Lance",
+     "V kazašské stepi",
+     "V íránském pohoří Zagros",
+     "V Gíru v indickém Gudžarátu"
+    ],
+    "en": [
+     "In Sri Lanka",
+     "On the Kazakh steppe",
+     "In Iran's Zagros Mountains",
+     "In Gir in the Indian state of Gujarat"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Asijský lev přežívá jen v národním parku Gír a jeho okolí v indickém státě Gudžarát. V Saúdské Arábii a Turecku vyhynul už koncem 19. století; od afrických lvů ho odliší podélná kožní řasa na břiše.",
+    "en": "The Asiatic lion survives only in and around Gir National Park in the Indian state of Gujarat. It died out in Saudi Arabia and Turkey by the late 19th century; a lengthwise fold of skin along its belly sets it apart from African lions."
+   }
+  },
+  {
+   "id": "T339-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co znamená jméno karakal, odvozené z turečtiny?",
+    "en": "What does the name caracal, derived from Turkish, mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rychlý skokan",
+     "Červená srst",
+     "Černé ucho",
+     "Skalní kočka"
+    ],
+    "en": [
+     "Swift jumper",
+     "Red fur",
+     "Black ear",
+     "Rock cat"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jméno navrhl v roce 1761 Georges Buffon podle tureckého názvu „Kara-coulac“ (Karrah-kulak) – černé ucho – podle asi 4,5 cm dlouhých černých štětiček na uších. Karakal dokáže vyskočit přes 3 m vysoko a chytat ptáky v letu.",
+    "en": "The name was proposed by Georges Buffon in 1761 after the Turkish name \"Kara-coulac\" (Karrah-kulak), meaning black ear, referring to its black ear tufts about 4.5 cm (1.8 in) long. The caracal can leap more than 3 m (9.8 ft) to catch birds in flight."
+   }
+  },
+  {
+   "id": "T339-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím je africký serval (Leptailurus serval) mezi kočkami výjimečný?",
+    "en": "What makes the African serval (Leptailurus serval) exceptional among cats?"
+   },
+   "moznosti": {
+    "cs": [
+     "Má nejsilnější stisk ze všech koček",
+     "Má vzhledem k velikosti těla nejdelší nohy",
+     "Jako jediná kočka loví ve smečkách",
+     "Je nejmenší kočkou Afriky"
+    ],
+    "en": [
+     "It has the strongest bite of any cat",
+     "It has the longest legs relative to its body size",
+     "It is the only cat that hunts in packs",
+     "It is Africa's smallest cat"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Serval má ze všech koček nejdelší nohy v poměru k tělu, hlavně díky značně prodlouženým nártním kostem. Kořist, z 80–97 % hlodavce, vyhledává hlavně sluchem. Žije samotářsky.",
+    "en": "The serval has the longest legs of any cat relative to its body size, largely due to its greatly elongated metatarsal bones. It locates its prey, 80–97% of which are rodents, mainly by hearing. It is a solitary animal."
+   }
+  },
+  {
+   "id": "T339-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdy se každoročně slaví Mezinárodní den tygrů (Global Tiger Day)?",
+    "en": "When is International Tiger Day (Global Tiger Day) celebrated each year?"
+   },
+   "moznosti": {
+    "cs": [
+     "29. července",
+     "22. dubna",
+     "4. října",
+     "3. března"
+    ],
+    "en": [
+     "29 July",
+     "22 April",
+     "4 October",
+     "3 March"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Den tygrů připadá na 29. července; vyhlášen byl v roce 2010 na tygřím summitu v ruském Petrohradu. Akce k němu pořádají i země, kde tygři nežijí, například Anglie a USA.",
+    "en": "Tiger Day falls on 29 July; it was created in 2010 at the Tiger Summit in Saint Petersburg, Russia. Events are held even in countries without wild tigers, such as England and the United States."
+   }
+  },
+  {
+   "id": "T339-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Počty rysa kanadského (Lynx canadensis) stoupají a klesají v cyklu zhruba 8–11 let spolu s počty jeho hlavní kořisti. Která to je?",
+    "en": "Canada lynx numbers rise and fall in a cycle of roughly 8–11 years along with those of its main prey. Which animal is it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bobr (Castor canadensis)",
+     "Zajíc (Lepus americanus)",
+     "Ondatra (Ondatra zibethicus)",
+     "Sob (Rangifer tarandus)"
+    ],
+    "en": [
+     "North American beaver (Castor canadensis)",
+     "Snowshoe hare (Lepus americanus)",
+     "Muskrat (Ondatra zibethicus)",
+     "Reindeer (Rangifer tarandus)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Rys kanadský loví hlavně zajíce Lepus americanus (anglicky snowshoe hare), kteří tvoří 35–97 % jeho potravy. Nedostatek zajíců se opakuje každých 8–11 let a počty rysů ho následují; široké osrstěné tlapy ho nesou po sněhu.",
+    "en": "The Canada lynx preys mainly on snowshoe hares, which make up 35–97% of its diet. Hare scarcity recurs every 8–11 years and lynx numbers follow; its broad, furry paws carry it over snow."
+   }
+  },
+  {
+   "id": "T339-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kterou divokou kočku choval malíř Salvador Dalí a bral ji s sebou na mnohá místa?",
+    "en": "Which wild cat did the painter Salvador Dalí keep as a pet and take with him to many places?"
+   },
+   "moznosti": {
+    "cs": [
+     "Servala",
+     "Geparda",
+     "Ocelota",
+     "Karakala"
+    ],
+    "en": [
+     "A serval",
+     "A cheetah",
+     "An ocelot",
+     "A caracal"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Dalí choval ocelota velkého (Leopardus pardalis) jménem Babou a bral ho s sebou na mnohá místa. Ocelot žije od jihozápadu USA po sever Argentiny a kresba srsti je u každého jedince jedinečná.",
+    "en": "Dalí kept a pet ocelot (Leopardus pardalis) named Babou that was seen with him at many places he visited. The ocelot ranges from the southwestern United States to northern Argentina, and each one's coat pattern is unique."
+   }
+  },
+  {
+   "id": "T339-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co mají tygři na zadní straně uší?",
+    "en": "What do tigers have on the back of their ears?"
+   },
+   "moznosti": {
+    "cs": [
+     "Žlutý vodorovný pruh",
+     "Štětičky dlouhých černých chlupů",
+     "Bílou skvrnu obklopenou černou",
+     "Nic, uši jsou zezadu jednobarevně oranžové"
+    ],
+    "en": [
+     "A yellow horizontal stripe",
+     "Tufts of long black hair",
+     "A white spot surrounded by black",
+     "Nothing – the backs of their ears are plain orange"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Tygr má na zadní straně uší výraznou bílou skvrnu v černém poli. Natáčením uší ji ukazuje hlavně při agresivních střetech a při kontaktu matky s mláďaty.",
+    "en": "A tiger has a prominent white spot surrounded by black on the back of each ear. It turns its ears to display the spots, mainly in aggressive encounters and between mothers and cubs."
+   }
+  },
+  {
+   "id": "T339-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kterou kost mají kočky rodu Panthera jen neúplně zkostnatělou, což jim spolu se zvláštně upraveným hrtanem umožňuje řvát?",
+    "en": "Which bone is only partly ossified in cats of the genus Panthera, a trait that, together with a specially adapted larynx, enables them to roar?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dolní čelist",
+     "Klíční kost",
+     "Hrudní kost",
+     "Jazylku"
+    ],
+    "en": [
+     "Lower jaw",
+     "Collarbone",
+     "Breastbone",
+     "Hyoid bone"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Všechny kočky rodu Panthera mají neúplně zkostnatělou jazylku a hrtan s velkými hlasivkami pokrytými pružnou vazivovou vrstvou. Irbis jazylku má také, ale neřve – jeho hlasivky měří jen asi 9 mm.",
+    "en": "All Panthera cats have an incompletely ossified hyoid bone and a larynx with large vocal folds covered in a fibro-elastic pad. The snow leopard shares the hyoid trait but cannot roar, as its vocal folds are only about 9 mm (0.35 in) long."
+   }
+  },
+  {
+   "id": "T339-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik poddruhů tygra uznala revize taxonomie koček z roku 2017 (Cat Classification Task Force skupiny IUCN SSC Cat Specialist Group)?",
+    "en": "How many tiger subspecies did the 2017 revision of cat taxonomy (the Cat Classification Task Force of the IUCN SSC Cat Specialist Group) recognise?"
+   },
+   "moznosti": {
+    "cs": [
+     "2",
+     "3",
+     "6",
+     "9"
+    ],
+    "en": [
+     "2",
+     "3",
+     "6",
+     "9"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Revize uznala jen dva poddruhy: pevninského tygra P. t. tigris a tygra sundského P. t. sondaica z indonéských ostrovů. Tygr ussurijský i bengálský tak dnes patří do stejného poddruhu.",
+    "en": "The revision recognised only two subspecies: the mainland Asian tiger P. t. tigris and the Sunda Island tiger P. t. sondaica. The Siberian and Bengal tigers now belong to the same subspecies."
+   }
+  },
+  {
+   "id": "T339-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "K jakému cíli se v roce 2010 zavázalo všech 13 zemí, v nichž žijí divocí tygři?",
+    "en": "What goal did all 13 countries with wild tigers commit to in 2010?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zcela zastavit pytláctví tygrů do roku 2015",
+     "Zdvojnásobit počet divokých tygrů do roku 2022",
+     "Zakázat chov tygrů v zajetí do roku 2020",
+     "Vrátit tygry do všech zemí jejich dřívějšího výskytu"
+    ],
+    "en": [
+     "Completely stop tiger poaching by 2015",
+     "Double the number of wild tigers by 2022",
+     "Ban keeping tigers in captivity by 2020",
+     "Return tigers to every country of their former range"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Cílem nazvaným TX2 bylo zdvojnásobit počet divokých tygrů do roku 2022, příštího čínského roku tygra. Indie dohodu podepsala spolu s dalšími 12 zeměmi výskytu tygrů.",
+    "en": "The goal, called TX2, was to double wild tiger numbers by 2022, the next Chinese Year of the Tiger. India signed the agreement together with the other 12 tiger range countries."
+   }
+  },
+  {
+   "id": "T339-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na kterém ostrově žili tygři, kteří vyhynuli ve 40. letech 20. století a patřili k nejmenším tygrům vůbec?",
+    "en": "Which island was home to the tigers that died out in the 1940s and were among the smallest tigers ever?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Srí Lance",
+     "Na Madagaskaru",
+     "Na Bali",
+     "Na Borneu"
+    ],
+    "en": [
+     "Sri Lanka",
+     "Madagascar",
+     "Bali",
+     "Borneo"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Balijští tygři vyhynuli ve 40. letech, jávští asi do 80. let a kaspičtí v 70. letech. Ostrovní tygři byli nejmenší, nejspíš kvůli ostrovní zakrslosti.",
+    "en": "Bali tigers died out in the 1940s, Javan tigers by about the 1980s and Caspian tigers in the 1970s. Island tigers were the smallest, probably due to insular dwarfism."
+   }
+  },
+  {
+   "id": "T339-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaký tvar mají na jasném světle zornice manula (Otocolobus manul), stepní kočky ze Střední Asie?",
+    "en": "What shape are the pupils of Pallas's cat (Otocolobus manul), a steppe cat of Central Asia, in bright light?"
+   },
+   "moznosti": {
+    "cs": [
+     "Svislé štěrbiny",
+     "Kulaté",
+     "Vodorovné štěrbiny",
+     "Tvar písmene W"
+    ],
+    "en": [
+     "Vertical slits",
+     "Round",
+     "Horizontal slits",
+     "W-shaped"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Zornice manula se na slunci stáhnou do malých kulatých teček, ne do štěrbin jako u kočky domácí. Manul má velmi hustou srst, až 9 000 chlupů na cm², a snáší mrazy až −50 °C.",
+    "en": "Pallas's cat's pupils contract to small round dots in sunlight, not slits as in a domestic cat. Its fur is very dense, with up to 9,000 hairs per cm² (58,000 per sq in), and it copes with winters down to −50 °C (−58 °F)."
+   }
+  },
+  {
+   "id": "T339-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč má kočka pouštní (Felis margarita) chodidla porostlá dlouhou srstí?",
+    "en": "Why does the sand cat (Felis margarita) have long fur covering the soles of its feet?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chrání ji před bodnutím štírů",
+     "Izoluje polštářky před extrémními teplotami pouště",
+     "Slouží jí jako lopatka při hrabání nor",
+     "Srst zachytává rosu, kterou pak olizuje"
+    ],
+    "en": [
+     "It protects it from scorpion stings",
+     "It insulates the pads against extreme desert temperatures",
+     "It works like a shovel when digging burrows",
+     "The fur catches dew, which it then licks"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Dlouhá srst na chodidlech izoluje polštářky před extrémními teplotami pouště. Vláhu kočka pouštní získává hlavně z kořisti, ale pije, je-li voda k dispozici.",
+    "en": "The long hair on its soles insulates the pads against extreme desert temperatures. The sand cat gets most of its moisture from its prey but drinks water if it is available."
+   }
+  },
+  {
+   "id": "T339-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se dědí černé zbarvení (melanismus) u jaguára ve srovnání s levhartem?",
+    "en": "How is black colouring (melanism) inherited in the jaguar compared with the leopard?"
+   },
+   "moznosti": {
+    "cs": [
+     "U jaguára dominantně, u levharta recesivně",
+     "U obou druhů je vázané na pohlaví",
+     "U jaguára recesivně, u levharta dominantně",
+     "U obou druhů recesivně"
+    ],
+    "en": [
+     "Dominantly in the jaguar, recessively in the leopard",
+     "Sex-linked in both species",
+     "Recessively in the jaguar, dominantly in the leopard",
+     "Recessively in both species"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "U jaguára způsobují melanismus delece v genu MC1R a dědí se dominantně, u levharta jde o recesivní alelu. Většina levhartů zaznamenaných v letech 1996–2009 na 16 lokalitách jižně od Kraské šíje byla černá.",
+    "en": "In jaguars, melanism is caused by deletions in the MC1R gene and is inherited dominantly; in leopards it comes from a recessive allele. Most leopards recorded at 16 sites south of the Isthmus of Kra in 1996–2009 were black."
+   }
+  },
+  {
+   "id": "T339-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Která z těchto koček je nejbližším žijícím příbuzným geparda?",
+    "en": "Which of these cats is the cheetah's closest living relative?"
+   },
+   "moznosti": {
+    "cs": [
+     "Puma",
+     "Karakal",
+     "Lev",
+     "Levhart"
+    ],
+    "en": [
+     "Cougar",
+     "Caracal",
+     "Lion",
+     "Leopard"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Nejbližšími příbuznými geparda jsou americké kočky puma a jaguarundi, ne africký lev či levhart. Gepard je jediným žijícím zástupcem rodu Acinonyx.",
+    "en": "The cheetah's closest relatives are the American cougar and jaguarundi, not the African lion or leopard. The cheetah is the only living member of the genus Acinonyx."
+   }
+  },
+  {
+   "id": "T339-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Rys iberský (Lynx pardinus) byl považován za nejohroženější kočku světa. Kolik jedinců přežívalo v roce 2002 v Andalusii?",
+    "en": "The Iberian lynx (Lynx pardinus) was once considered the most endangered cat in the world. How many individuals survived in Andalusia in 2002?"
+   },
+   "moznosti": {
+    "cs": [
+     "Méně než 100",
+     "Asi 500",
+     "Asi 2 000",
+     "Asi 10 000"
+    ],
+    "en": [
+     "Fewer than 100",
+     "About 500",
+     "About 2,000",
+     "About 10,000"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "V roce 2002 zbývalo v Andalusii jen 94 rysů ve dvou izolovaných populacích. Díky ochraně jich bylo v roce 2025 napočítáno rekordních 2 663 (2 269 ve Španělsku a 394 v Portugalsku) a IUCN je od roku 2024 vede jako zranitelné.",
+    "en": "In 2002 only 94 lynxes remained in Andalusia in two isolated subpopulations. Thanks to conservation, a record 2,663 were counted in 2025 (2,269 in Spain and 394 in Portugal), and the IUCN has listed the species as Vulnerable since 2024."
+   }
+  },
+  {
+   "id": "T339-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Která kočka má v poměru k velikosti těla největší špičáky ze všech žijících koček?",
+    "en": "Which cat has the largest canine teeth relative to its body size of all living cats?"
+   },
+   "moznosti": {
+    "cs": [
+     "Levhart skvrnitý (Panthera pardus)",
+     "Lev (Panthera leo)",
+     "Tygr (Panthera tigris)",
+     "Levhart obláčkový (Neofelis nebulosa)"
+    ],
+    "en": [
+     "Leopard (Panthera pardus)",
+     "Lion (Panthera leo)",
+     "Tiger (Panthera tigris)",
+     "Clouded leopard (Neofelis nebulosa)"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Levhart obláčkový z hustých lesů od podhůří Himálaje po jihovýchodní Asii a jižní Čínu má největší špičáky v poměru k tělu, proto se mu říká „novodobý šavlozubec“. Po kmeni umí slézt hlavou dolů a zavěsit se na větev jen zadními tlapami a ocasem.",
+    "en": "The clouded leopard of dense forests from the Himalayan foothills to Southeast Asia and South China has the largest canines in proportion to its body size, earning it the nickname \"modern-day sabre-tooth\". It can climb down trunks head first and hang from branches by its hind paws and tail alone."
+   }
+  }
+ ]
+}

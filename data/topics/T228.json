@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T228",
+ "nazev": {
+  "cs": "Evropské státy a Evropská unie",
+  "en": "European Countries and the European Union"
+ },
+ "kategorie": {
+  "id": "zemepis",
+  "nazev": {
+   "cs": "Zeměpis",
+   "en": "Geography"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T228-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém městě má hlavní sídlo Evropská komise?",
+    "en": "In which city is the European Commission headquartered?"
+   },
+   "moznosti": {
+    "cs": [
+     "Haag",
+     "Štrasburk",
+     "Lucemburk",
+     "Brusel"
+    ],
+    "en": [
+     "The Hague",
+     "Strasbourg",
+     "Luxembourg",
+     "Brussels"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Komise sídlí v Bruselu, kde v budově Berlaymont úřaduje i její předseda. Štrasburk je oficiálním sídlem Evropského parlamentu.",
+    "en": "The Commission is based in Brussels, where the Berlaymont building houses the president's office. Strasbourg is the official seat of the European Parliament."
+   }
+  },
+  {
+   "id": "T228-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik hvězd je na vlajce Evropské unie?",
+    "en": "How many stars are on the flag of the European Union?"
+   },
+   "moznosti": {
+    "cs": [
+     "10",
+     "12",
+     "15",
+     "27"
+    ],
+    "en": [
+     "10",
+     "12",
+     "15",
+     "27"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Na modrém poli je kruh dvanácti zlatých hvězd. Jejich počet nesouvisí s počtem členských států – dvanáctka má vyjadřovat dokonalost a úplnost.",
+    "en": "A circle of twelve gold stars sits on a blue field. The number has nothing to do with the number of member states – twelve stands for perfection and entirety."
+   }
+  },
+  {
+   "id": "T228-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém roce vstoupilo Česko do Evropské unie?",
+    "en": "In which year did the Czech Republic join the European Union?"
+   },
+   "moznosti": {
+    "cs": [
+     "1999",
+     "2004",
+     "2007",
+     "2013"
+    ],
+    "en": [
+     "1999",
+     "2004",
+     "2007",
+     "2013"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Česko se stalo členem 1. května 2004 spolu s dalšími devíti státy. Šlo o největší rozšíření EU v historii, co do počtu států i obyvatel.",
+    "en": "The Czech Republic joined on 1 May 2004 together with nine other countries. It was the largest enlargement in EU history, in terms of both states and population."
+   }
+  },
+  {
+   "id": "T228-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik členských států má Evropská unie (k roku 2026)?",
+    "en": "How many member states does the European Union have (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "25",
+     "26",
+     "27",
+     "28"
+    ],
+    "en": [
+     "25",
+     "26",
+     "27",
+     "28"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "EU má 27 členů. Dříve jich bylo 28, než z Unie vystoupilo Spojené království.",
+    "en": "The EU has 27 members. There used to be 28, before the United Kingdom left."
+   }
+  },
+  {
+   "id": "T228-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém roce se ve Spojeném království konalo referendum, v němž většina hlasujících rozhodla o odchodu z EU (brexitu)?",
+    "en": "In which year did the United Kingdom hold the referendum in which a majority voted to leave the EU (Brexit)?"
+   },
+   "moznosti": {
+    "cs": [
+     "2014",
+     "2016",
+     "2018",
+     "2020"
+    ],
+    "en": [
+     "2014",
+     "2016",
+     "2018",
+     "2020"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Referendum proběhlo 23. června 2016 a pro odchod hlasovalo 51,89 % voličů. Samotné vystoupení nastalo až 31. ledna 2020.",
+    "en": "The referendum took place on 23 June 2016, with 51.89% voting to leave. The UK actually left only on 31 January 2020."
+   }
+  },
+  {
+   "id": "T228-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který malý stát leží v Pyrenejích mezi Francií a Španělskem?",
+    "en": "Which small country lies in the Pyrenees between France and Spain?"
+   },
+   "moznosti": {
+    "cs": [
+     "Andorra",
+     "San Marino",
+     "Lichtenštejnsko",
+     "Monako"
+    ],
+    "en": [
+     "Andorra",
+     "San Marino",
+     "Liechtenstein",
+     "Monaco"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Andorra je vnitrozemský stát ve východních Pyrenejích. Jejím jediným úředním jazykem je katalánština.",
+    "en": "Andorra is a landlocked country in the eastern Pyrenees. Its sole official language is Catalan."
+   }
+  },
+  {
+   "id": "T228-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která řeka je nejdelší v Evropě?",
+    "en": "Which river is the longest in Europe?"
+   },
+   "moznosti": {
+    "cs": [
+     "Volha",
+     "Dněpr",
+     "Dunaj",
+     "Rýn"
+    ],
+    "en": [
+     "Volga",
+     "Dnieper",
+     "Danube",
+     "Rhine"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Volha měří 3 531 km. Ústí do Kaspického moře, které nemá spojení s oceánem, takže její voda do světového oceánu přirozenou cestou nedoteče.",
+    "en": "The Volga is 3,531 km (2,194 mi) long. It flows into the Caspian Sea, which has no outlet to the ocean, so its water never naturally reaches the world ocean."
+   }
+  },
+  {
+   "id": "T228-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na které skladbě je založena hymna Evropy, kterou používá i Evropská unie?",
+    "en": "Which piece of music is the Anthem of Europe, also used by the European Union, based on?"
+   },
+   "moznosti": {
+    "cs": [
+     "Óda na radost",
+     "Bolero",
+     "Na krásném modrém Dunaji",
+     "Radeckého pochod"
+    ],
+    "en": [
+     "Ode to Joy",
+     "Boléro",
+     "The Blue Danube",
+     "Radetzky March"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hymnou je Óda na radost z poslední věty Beethovenovy 9. symfonie. Hraje se jen instrumentálně, bez oficiálního textu.",
+    "en": "The anthem is the Ode to Joy from the final movement of Beethoven's Ninth Symphony. It is purely instrumental, with no official lyrics."
+   }
+  },
+  {
+   "id": "T228-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který členský stát EU je nejmenší rozlohou i počtem obyvatel?",
+    "en": "Which EU member state is the smallest by both area and population?"
+   },
+   "moznosti": {
+    "cs": [
+     "Malta",
+     "Slovinsko",
+     "Kypr",
+     "Lucembursko"
+    ],
+    "en": [
+     "Malta",
+     "Slovenia",
+     "Cyprus",
+     "Luxembourg"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Malta má rozlohu jen asi 316 km² a necelých 600 tisíc obyvatel (k roku 2026). Do EU vstoupila v roce 2004.",
+    "en": "Malta covers only about 316 km² (122 sq mi) and has just under 600,000 inhabitants (as of 2026). It joined the EU in 2004."
+   }
+  },
+  {
+   "id": "T228-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Mezi kterými dvěma státy leží Lichtenštejnsko?",
+    "en": "Which two countries does Liechtenstein lie between?"
+   },
+   "moznosti": {
+    "cs": [
+     "Švýcarsko a Rakousko",
+     "Rakousko a Německo",
+     "Švýcarsko a Německo",
+     "Francie a Švýcarsko"
+    ],
+    "en": [
+     "Switzerland and Austria",
+     "Austria and Germany",
+     "Switzerland and Germany",
+     "France and Switzerland"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Lichtenštejnsko sousedí jen se Švýcarskem a Rakouskem. Platí se v něm švýcarským frankem, a i když není členem EU, patří do schengenského prostoru.",
+    "en": "Liechtenstein borders only Switzerland and Austria. It uses the Swiss franc and, although not in the EU, is part of the Schengen Area."
+   }
+  },
+  {
+   "id": "T228-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém městě byla 7. února 1992 podepsána Smlouva o Evropské unii, jíž EU vznikla?",
+    "en": "In which city was the Treaty on European Union, which created the EU, signed on 7 February 1992?"
+   },
+   "moznosti": {
+    "cs": [
+     "Amsterdam",
+     "Nice",
+     "Lisabon",
+     "Maastricht"
+    ],
+    "en": [
+     "Amsterdam",
+     "Nice",
+     "Lisbon",
+     "Maastricht"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Maastrichtská smlouva založila EU, zavedla občanství Unie a stanovila cíl společné měny. Podepsána byla v nizozemském městě, protože Nizozemsko předsedalo Radě během šesti měsíců jednání, která podpisu předcházela.",
+    "en": "The Maastricht Treaty founded the EU, introduced Union citizenship and set the goal of a single currency. It was signed in a Dutch city because the Netherlands held the Council presidency during the six months of negotiations that preceded the signing."
+   }
+  },
+  {
+   "id": "T228-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik států podepsalo v roce 1957 Římské smlouvy, jimiž vzniklo Evropské hospodářské společenství?",
+    "en": "How many countries signed the Treaties of Rome in 1957, which created the European Economic Community?"
+   },
+   "moznosti": {
+    "cs": [
+     "4",
+     "6",
+     "9",
+     "12"
+    ],
+    "en": [
+     "4",
+     "6",
+     "9",
+     "12"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Podepsaly je Belgie, Francie, Itálie, Lucembursko, Nizozemsko a Západní Německo. Podpis proběhl 25. března 1957 v Paláci konzervátorů na Kapitolu.",
+    "en": "They were signed by Belgium, France, Italy, Luxembourg, the Netherlands and West Germany, on 25 March 1957 in the Palazzo dei Conservatori on the Capitoline Hill."
+   }
+  },
+  {
+   "id": "T228-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který den slaví Evropská unie jako Den Evropy?",
+    "en": "Which day does the European Union celebrate as Europe Day?"
+   },
+   "moznosti": {
+    "cs": [
+     "25. března",
+     "1. května",
+     "9. května",
+     "1. listopadu"
+    ],
+    "en": [
+     "25 March",
+     "1 May",
+     "9 May",
+     "1 November"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Den Evropy připomíná Schumanovu deklaraci z 9. května 1950, návrh sdružit uhelný a ocelářský průmysl, z něhož vzešlo Evropské společenství uhlí a oceli. Rada Evropy slaví svůj Den Evropy 5. května.",
+    "en": "Europe Day marks the Schuman Declaration of 9 May 1950, a proposal to pool coal and steel industries that led to the European Coal and Steel Community. The Council of Europe celebrates its own Europe Day on 5 May."
+   }
+  },
+  {
+   "id": "T228-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém městě sídlí Evropská centrální banka?",
+    "en": "In which city is the European Central Bank based?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Frankfurtu",
+     "V Lucemburku",
+     "V Paříži",
+     "V Bruselu"
+    ],
+    "en": [
+     "Frankfurt",
+     "Luxembourg",
+     "Paris",
+     "Brussels"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "ECB sídlí ve Frankfurtu, od roku 2014 v nové budově ve čtvrti Ostend. Dřívější Eurotower dnes slouží bankovnímu dohledu.",
+    "en": "The ECB is based in Frankfurt, since 2014 in a new building in the Ostend district. Its former home, the Eurotower, now houses banking supervision."
+   }
+  },
+  {
+   "id": "T228-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který z těchto států platí eurem, přestože není členem EU?",
+    "en": "Which of these countries uses the euro even though it is not an EU member?"
+   },
+   "moznosti": {
+    "cs": [
+     "Černá Hora",
+     "Severní Makedonie",
+     "Srbsko",
+     "Albánie"
+    ],
+    "en": [
+     "Montenegro",
+     "North Macedonia",
+     "Serbia",
+     "Albania"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Černá Hora přijala euro jednostranně v roce 2002, bez dohody s EU, předtím používala německou marku. Členem EU ani eurozóny není (k roku 2026).",
+    "en": "Montenegro adopted the euro unilaterally in 2002, without any agreement with the EU, having previously used the Deutsche Mark. It is a member of neither the EU nor the eurozone (as of 2026)."
+   }
+  },
+  {
+   "id": "T228-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který stát vstoupil do EU v roce 2013 a je tak jejím nejnovějším členem (k roku 2026)?",
+    "en": "Which country joined the EU in 2013, becoming its newest member (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bulharsko",
+     "Rumunsko",
+     "Chorvatsko",
+     "Slovinsko"
+    ],
+    "en": [
+     "Bulgaria",
+     "Romania",
+     "Croatia",
+     "Slovenia"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Chorvatsko vstoupilo do EU 1. července 2013. Bulharsko a Rumunsko přistoupily v roce 2007, Slovinsko v roce 2004.",
+    "en": "Croatia joined the EU on 1 July 2013. Bulgaria and Romania joined in 2007, Slovenia in 2004."
+   }
+  },
+  {
+   "id": "T228-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který z těchto států patří do schengenského prostoru, přestože není členem EU?",
+    "en": "Which of these countries belongs to the Schengen Area even though it is not an EU member?"
+   },
+   "moznosti": {
+    "cs": [
+     "Irsko",
+     "Spojené království",
+     "Island",
+     "Kypr"
+    ],
+    "en": [
+     "Ireland",
+     "United Kingdom",
+     "Iceland",
+     "Cyprus"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Island je spolu s Norskem, Švýcarskem a Lichtenštejnskem jedním ze čtyř nečlenů EU v Schengenu. Irsko a Kypr jsou naopak jediné státy EU, které v Schengenu nejsou (k roku 2026).",
+    "en": "Iceland, along with Norway, Switzerland and Liechtenstein, is one of four non-EU Schengen members. Ireland and Cyprus, by contrast, are the only EU states not in Schengen (as of 2026)."
+   }
+  },
+  {
+   "id": "T228-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který stát je po Vatikánu druhým nejmenším nezávislým státem světa?",
+    "en": "After Vatican City, which is the world's second-smallest sovereign state?"
+   },
+   "moznosti": {
+    "cs": [
+     "Monako",
+     "Malta",
+     "San Marino",
+     "Lichtenštejnsko"
+    ],
+    "en": [
+     "Monaco",
+     "Malta",
+     "San Marino",
+     "Liechtenstein"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Monako má rozlohu jen asi 2 km². S krátkými přestávkami mu vládne rod Grimaldiů už od roku 1297.",
+    "en": "Monaco covers only about 2 km² (0.8 sq mi). The House of Grimaldi has ruled it, with brief interruptions, since 1297."
+   }
+  },
+  {
+   "id": "T228-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který stát je rozlohou největší ze všech států, jež leží celé v Evropě?",
+    "en": "Which country is the largest by area of all countries lying entirely in Europe?"
+   },
+   "moznosti": {
+    "cs": [
+     "Švédsko",
+     "Francie",
+     "Ukrajina",
+     "Španělsko"
+    ],
+    "en": [
+     "Sweden",
+     "France",
+     "Ukraine",
+     "Spain"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ukrajina má asi 603 550 km². Větší je v Evropě jen Rusko, které ale z větší části leží v Asii.",
+    "en": "Ukraine covers about 603,550 km² (233,000 sq mi). Only Russia is larger in Europe, but most of Russia lies in Asia."
+   }
+  },
+  {
+   "id": "T228-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Bulharsko přijalo 1. ledna 2026 euro. Kterou měnu jím nahradilo?",
+    "en": "Bulgaria adopted the euro on 1 January 2026. Which currency did it replace?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kunu",
+     "Dinár",
+     "Leu",
+     "Lev"
+    ],
+    "en": [
+     "Kuna",
+     "Dinar",
+     "Leu",
+     "Lev"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Bulharský lev (název znamená „lev“ jako zvíře) se měnil v kurzu 1,95583 leva za euro. Je to stejný kurz jako u německé marky, protože od roku 1999 platilo, že 1 lev = 1 marka.",
+    "en": "The Bulgarian lev (the name means 'lion') was converted at 1.95583 leva per euro – the same rate as the Deutsche Mark, because from 1999 one lev equalled one mark."
+   }
+  },
+  {
+   "id": "T228-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Andorra má dvě spoluknížata. Kdo z uvedených je jedním z nich?",
+    "en": "Andorra has two co-princes. Which of these is one of them?"
+   },
+   "moznosti": {
+    "cs": [
+     "Papež",
+     "Španělský král",
+     "Monacký kníže",
+     "Francouzský prezident"
+    ],
+    "en": [
+     "The Pope",
+     "The King of Spain",
+     "The Prince of Monaco",
+     "The President of France"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Spoluknížaty Andorry jsou biskup z Urgellu a prezident Francie. Hlava francouzského státu je tak zároveň knížetem jiné země.",
+    "en": "Andorra's co-princes are the Bishop of Urgell and the President of France, so the French head of state is also a prince of another country."
+   }
+  },
+  {
+   "id": "T228-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Do které jazykové skupiny patří maltština, jeden z úředních jazyků EU?",
+    "en": "Which language group does Maltese, one of the official languages of the EU, belong to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Keltské jazyky",
+     "Románské jazyky",
+     "Ugrofinské jazyky",
+     "Semitské jazyky"
+    ],
+    "en": [
+     "Celtic languages",
+     "Romance languages",
+     "Finno-Ugric languages",
+     "Semitic languages"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Maltština vychází ze středověké sicilské arabštiny a je jediným semitským úředním jazykem EU. Jako jediný spisovný semitský jazyk se píše výhradně latinkou.",
+    "en": "Maltese derives from medieval Sicilian Arabic and is the only Semitic official language of the EU. It is also the only standardised Semitic language written exclusively in the Latin script."
+   }
+  },
+  {
+   "id": "T228-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který dirigent vytvořil tři oficiální instrumentální úpravy hymny Evropy?",
+    "en": "Which conductor wrote the three official instrumental arrangements of the Anthem of Europe?"
+   },
+   "moznosti": {
+    "cs": [
+     "Karl Böhm",
+     "Leonard Bernstein",
+     "Claudio Abbado",
+     "Herbert von Karajan"
+    ],
+    "en": [
+     "Karl Böhm",
+     "Leonard Bernstein",
+     "Claudio Abbado",
+     "Herbert von Karajan"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Karajan vytvořil tři úpravy hymny – pro sólový klavír, pro dechové nástroje a pro symfonický orchestr. Hymna nemá žádný oficiální text.",
+    "en": "Karajan wrote three arrangements of the anthem – for solo piano, for wind instruments and for symphony orchestra. The anthem has no official lyrics."
+   }
+  },
+  {
+   "id": "T228-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Která organizace jako první přijala dnešní vlajku Evropy, kterou používá i EU, a to už v roce 1955?",
+    "en": "Which organisation was the first to adopt today's flag of Europe, also used by the EU, back in 1955?"
+   },
+   "moznosti": {
+    "cs": [
+     "NATO",
+     "Evropské společenství uhlí a oceli",
+     "Rada Evropy",
+     "OSN"
+    ],
+    "en": [
+     "NATO",
+     "The European Coal and Steel Community",
+     "The Council of Europe",
+     "The UN"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vlajku přijala 8. prosince 1955 Rada Evropy, organizace nezávislá na EU. Evropská společenství ji převzala až v roce 1985.",
+    "en": "The flag was adopted on 8 December 1955 by the Council of Europe, an organisation separate from the EU. The European Communities took it over only in 1985."
+   }
+  },
+  {
+   "id": "T228-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Které území se po referendu v roce 1982 rozhodlo opustit Evropská společenství a vystoupilo z nich v roce 1985?",
+    "en": "Which territory voted in a 1982 referendum to leave the European Communities and left them in 1985?"
+   },
+   "moznosti": {
+    "cs": [
+     "Faerské ostrovy",
+     "Grónsko",
+     "Island",
+     "Norsko"
+    ],
+    "en": [
+     "The Faroe Islands",
+     "Greenland",
+     "Iceland",
+     "Norway"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Grónsko se stalo součástí ES s Dánskem v roce 1973. Pro odchod hlasovalo 53 % voličů, hlavně kvůli sporům o společnou rybářskou politiku.",
+    "en": "Greenland joined the EC together with Denmark in 1973. 53% voted to leave, mainly over disagreements about the Common Fisheries Policy."
+   }
+  },
+  {
+   "id": "T228-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který článek Smlouvy o Evropské unii upravuje dobrovolné vystoupení členského státu z EU?",
+    "en": "Which article of the Treaty on European Union sets out the procedure for a member state to leave the EU voluntarily?"
+   },
+   "moznosti": {
+    "cs": [
+     "7",
+     "42",
+     "50",
+     "101"
+    ],
+    "en": [
+     "7",
+     "42",
+     "50",
+     "101"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Článek 50 zavedla Lisabonská smlouva (platná od roku 2009) jako vůbec první formální postup vystoupení. Využilo ho jen Spojené království (k roku 2026).",
+    "en": "Article 50 was introduced by the Treaty of Lisbon (in force since 2009) as the first formal exit procedure. Only the UK has used it (as of 2026)."
+   }
+  },
+  {
+   "id": "T228-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se jmenovala evropská zúčtovací jednotka, kterou 1. ledna 1999 nahradilo euro v poměru 1 : 1?",
+    "en": "What was the name of the European unit of account that the euro replaced at a 1:1 rate on 1 January 1999?"
+   },
+   "moznosti": {
+    "cs": [
+     "EMU",
+     "ECU",
+     "SDR",
+     "EMS"
+    ],
+    "en": [
+     "EMU",
+     "ECU",
+     "SDR",
+     "EMS"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "ECU (European Currency Unit) se počítala z koše měn členských států a v oběhu jako hotovost nikdy nebyla. Používala se od roku 1979, hlavně v mezinárodních finančních transakcích.",
+    "en": "The ECU (European Currency Unit) was based on a basket of member states' currencies and never circulated as cash. It was used from 1979, mainly for international financial transactions."
+   }
+  },
+  {
+   "id": "T228-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který mys je nejzápadnějším bodem pevninské Evropy?",
+    "en": "Which cape is the westernmost point of mainland Europe?"
+   },
+   "moznosti": {
+    "cs": [
+     "Land's End",
+     "Cabo Fisterra",
+     "Cabo de São Vicente",
+     "Cabo da Roca"
+    ],
+    "en": [
+     "Land's End",
+     "Cabo Fisterra",
+     "Cabo de São Vicente",
+     "Cabo da Roca"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Cabo da Roca leží v Portugalsku v obci Sintra, západně od Lisabonu. Je to zároveň nejzápadnější bod celé eurasijské pevniny.",
+    "en": "Cabo da Roca lies in Portugal, in the municipality of Sintra west of Lisbon. It is also the westernmost point of the entire Eurasian landmass."
+   }
+  },
+  {
+   "id": "T228-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Hlavou San Marina jsou dva kapitáni regenti (Capitani Reggenti). Jak dlouho trvá jejich funkční období?",
+    "en": "San Marino's heads of state are two Captains Regent (Capitani Reggenti). How long is their term of office?"
+   },
+   "moznosti": {
+    "cs": [
+     "3 měsíce",
+     "6 měsíců",
+     "1 rok",
+     "5 let"
+    ],
+    "en": [
+     "3 months",
+     "6 months",
+     "1 year",
+     "5 years"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Kapitány regenty volí Velká a generální rada vždy na půl roku, s nástupem 1. dubna a 1. října. Tradice sahá nejméně do roku 1243.",
+    "en": "The Grand and General Council elects the Captains Regent for six months at a time, taking office on 1 April and 1 October. The tradition dates back at least to 1243."
+   }
+  },
+  {
+   "id": "T228-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který členský stát EU řadí řada zeměpisců už do západní Asie?",
+    "en": "Which EU member state do many geographers place in Western Asia?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bulharsko",
+     "Malta",
+     "Estonsko",
+     "Kypr"
+    ],
+    "en": [
+     "Bulgaria",
+     "Malta",
+     "Estonia",
+     "Cyprus"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kypr leží ve východním Středomoří u pobřeží Levanty, takže ho část zdrojů řadí k západní Asii, jiné k Evropě. Členem EU je od roku 2004 a od roku 2008 platí eurem.",
+    "en": "Cyprus lies in the eastern Mediterranean off the Levant coast, so some sources place it in Western Asia and others in Europe. It has been an EU member since 2004 and has used the euro since 2008."
+   }
+  }
+ ]
+}

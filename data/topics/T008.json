@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T008",
+ "nazev": {
+  "cs": "Kuriozity lidského těla",
+  "en": "Curiosities of the Human Body"
+ },
+ "kategorie": {
+  "id": "lidske-telo",
+  "nazev": {
+   "cs": "Lidské tělo",
+   "en": "Human Body"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T008-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik kostí má obvykle dospělý člověk?",
+    "en": "How many bones does an adult human usually have?"
+   },
+   "moznosti": {
+    "cs": [
+     "186",
+     "206",
+     "226",
+     "256"
+    ],
+    "en": [
+     "186",
+     "206",
+     "226",
+     "256"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Dospělá kostra má obvykle 206 kostí, nepočítaje drobné sezamské kosti, jejichž počet se u lidí liší. Víc než polovina z nich připadá na ruce a chodidla.",
+    "en": "An adult skeleton usually has 206 bones, not counting the small sesamoid bones whose number varies between people. More than half of them are in the hands and feet."
+   }
+  },
+  {
+   "id": "T008-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která kost je nejdelší v lidském těle?",
+    "en": "Which is the longest bone in the human body?"
+   },
+   "moznosti": {
+    "cs": [
+     "Stehenní kost",
+     "Pažní kost",
+     "Lýtková kost",
+     "Holenní kost"
+    ],
+    "en": [
+     "Femur",
+     "Humerus",
+     "Fibula",
+     "Tibia"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Nejdelší kostí je stehenní kost. Podle některých měření patří i k nejpevnějším kostem, i když podle jiných studií ji v pevnosti předčí kost spánková.",
+    "en": "The femur is the longest bone. By some measures it is also among the strongest, although other studies suggest the temporal bone may be stronger."
+   }
+  },
+  {
+   "id": "T008-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kde v těle se nachází nejmenší kost?",
+    "en": "Where in the body is the smallest bone found?"
+   },
+   "moznosti": {
+    "cs": [
+     "V zápěstí",
+     "V malíčku u nohy",
+     "V nose",
+     "Ve středním uchu"
+    ],
+    "en": [
+     "In the wrist",
+     "In the little toe",
+     "In the nose",
+     "In the middle ear"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Nejmenší a nejlehčí kostí je třmínek ve středním uchu, měří jen asi 2–3 mm. Spolu s kladívkem a kovadlinkou přenáší chvění bubínku do vnitřního ucha.",
+    "en": "The smallest and lightest bone is the stapes in the middle ear, only about 2–3 mm (0.08–0.12 inches) long. Together with the malleus and incus it passes eardrum vibrations to the inner ear."
+   }
+  },
+  {
+   "id": "T008-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který orgán uvádí Guinnessova kniha rekordů jako největší orgán lidského těla?",
+    "en": "Which organ does Guinness World Records list as the largest organ of the human body?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kůže",
+     "Mozek",
+     "Játra",
+     "Plíce"
+    ],
+    "en": [
+     "Skin",
+     "Brain",
+     "Liver",
+     "Lungs"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kůže dospělého muže váží asi 3,8 kg a pokrývá zhruba 1,5–2 m². Největším vnitřním orgánem jsou játra s hmotností asi 1,5 kg.",
+    "en": "An adult man's skin weighs about 3.8 kg (8.4 lb) and covers roughly 1.5–2 m² (16–22 sq ft). The largest internal organ is the liver, at about 1.5 kg (3.3 lb)."
+   }
+  },
+  {
+   "id": "T008-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která látka je nejtvrdší v lidském těle?",
+    "en": "What is the hardest substance in the human body?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kost lebky",
+     "Nehet",
+     "Zubní sklovina",
+     "Stehenní kost"
+    ],
+    "en": [
+     "Skull bone",
+     "Fingernail",
+     "Tooth enamel",
+     "Femur"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Zubní sklovina je nejtvrdší látkou v těle a má nejvyšší podíl minerálů, asi 96 %. Zbytek tvoří voda a organické látky.",
+    "en": "Tooth enamel is the hardest substance in the body and has the highest mineral content, about 96%. The rest is water and organic material."
+   }
+  },
+  {
+   "id": "T008-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou barvu má ve skutečnosti krev v žilách, které prosvítají kůží namodrale?",
+    "en": "What colour is the blood actually inside veins that look bluish through the skin?"
+   },
+   "moznosti": {
+    "cs": [
+     "Fialovou",
+     "Tmavě modrou",
+     "Zelenou",
+     "Tmavě červenou"
+    ],
+    "en": [
+     "Purple",
+     "Dark blue",
+     "Green",
+     "Dark red"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Odkysličená krev v žilách je tmavě červená. Modrý dojem vzniká tím, jak kůže pohlcuje a rozptyluje světlo a jak ho pak vyhodnotí náš zrak.",
+    "en": "Deoxygenated blood in veins is dark red. The blue look comes from the way skin absorbs and scatters light and how our vision interprets it."
+   }
+  },
+  {
+   "id": "T008-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který sval se při škytavce nechtěně a náhle stahuje?",
+    "en": "Which muscle contracts suddenly and involuntarily during a hiccup?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bránice",
+     "Šíjové svaly",
+     "Žvýkací svaly",
+     "Srdeční sval"
+    ],
+    "en": [
+     "Diaphragm",
+     "Neck muscles",
+     "Chewing muscles",
+     "Heart muscle"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Při škytavce se náhle stáhne bránice, hlavní dýchací sval. Typické „hik“ vzniká tím, že se asi 35 milisekund poté uzavře hlasivková štěrbina.",
+    "en": "During a hiccup the diaphragm, the main breathing muscle, contracts suddenly. The typical 'hic' sound comes from the glottis closing about 35 milliseconds later."
+   }
+  },
+  {
+   "id": "T008-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co způsobí typické brnění až do malíčku, když se uhodíte loktem o hranu stolu?",
+    "en": "What causes the typical tingling down to the little finger when you bang your elbow on the edge of a table?"
+   },
+   "moznosti": {
+    "cs": [
+     "Natažení šlachy bicepsu",
+     "Stlačení tepny v lokti",
+     "Stlačení loketního nervu",
+     "Náraz na pažní kost"
+    ],
+    "en": [
+     "Strain on the biceps tendon",
+     "Compression of an artery in the elbow",
+     "Compression of the ulnar nerve",
+     "A blow to the humerus"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Loketní nerv vede v lokti jen těsně pod kůží za výběžkem pažní kosti, takže úder ho snadno stlačí. Anglický název funny bone je nejspíš slovní hříčka na humerus (pažní kost) a humorous.",
+    "en": "At the elbow the ulnar nerve runs just under the skin behind a bony bump of the humerus, so a knock easily compresses it. The English name 'funny bone' is probably a pun on humerus and 'humorous'."
+   }
+  },
+  {
+   "id": "T008-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který z těchto smyslů člověk má, přestože v tradičním výčtu pěti smyslů chybí?",
+    "en": "Which of these senses do humans have even though it is missing from the traditional list of five senses?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vnímání chuti",
+     "Vnímání doteku",
+     "Vnímání pachů",
+     "Vnímání rovnováhy"
+    ],
+    "en": [
+     "Sense of taste",
+     "Sense of touch",
+     "Sense of smell",
+     "Sense of balance"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Smysl pro rovnováhu zajišťuje ústrojí ve vnitřním uchu. Dnešní fyziologie rozlišuje mnohem víc smyslů než pět, například vnímání polohy těla, tepla nebo bolesti.",
+    "en": "The sense of balance comes from the vestibular system in the inner ear. Today's physiology recognises many more than five senses, such as body position, temperature and pain."
+   }
+  },
+  {
+   "id": "T008-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik krve má přibližně dospělý člověk?",
+    "en": "Roughly how much blood does an adult human have?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 1,5 litru",
+     "Asi 5 litrů",
+     "Asi 9 litrů",
+     "Asi 15 litrů"
+    ],
+    "en": [
+     "About 1.5 litres (0.4 US gal)",
+     "About 5 litres (1.3 US gal)",
+     "About 9 litres (2.4 US gal)",
+     "About 15 litres (4 US gal)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Typický dospělý má asi 5 litrů krve. Srdce v klidu přečerpá zhruba takové množství každou minutu.",
+    "en": "A typical adult has about 5 litres (1.3 US gal) of blood. At rest, the heart pumps roughly that amount every minute."
+   }
+  },
+  {
+   "id": "T008-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který chemický prvek tvoří největší podíl hmotnosti lidského těla?",
+    "en": "Which chemical element makes up the largest share of human body mass?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dusík",
+     "Vodík",
+     "Uhlík",
+     "Kyslík"
+    ],
+    "en": [
+     "Nitrogen",
+     "Hydrogen",
+     "Carbon",
+     "Oxygen"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kyslík tvoří asi 65 % hmotnosti těla, hlavně díky vodě. Podle počtu atomů ale vede vodík, který tvoří přes 60 % všech atomů.",
+    "en": "Oxygen makes up about 65% of body mass, mainly because of water. By number of atoms, however, hydrogen leads, at over 60% of all atoms."
+   }
+  },
+  {
+   "id": "T008-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik kostí má zhruba novorozenec?",
+    "en": "Roughly how many bones does a newborn baby have?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 100",
+     "Asi 200",
+     "Asi 300",
+     "Asi 400"
+    ],
+    "en": [
+     "About 100",
+     "About 200",
+     "About 300",
+     "About 400"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Novorozenec má podle různých zdrojů asi 270–300 kostí a kostních základů. Mnohé během růstu srostou, například kosti lebky nebo obratle křížové kosti, takže dospělý jich má výrazně méně.",
+    "en": "Depending on the source, a newborn has about 270–300 bones and bony elements. Many fuse during growth, for example in the skull and the sacral vertebrae, so an adult has considerably fewer."
+   }
+  },
+  {
+   "id": "T008-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik krčních obratlů má člověk?",
+    "en": "How many cervical (neck) vertebrae does a human have?"
+   },
+   "moznosti": {
+    "cs": [
+     "5",
+     "7",
+     "9",
+     "12"
+    ],
+    "en": [
+     "5",
+     "7",
+     "9",
+     "12"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Člověk má 7 krčních obratlů (C1–C7), stejně jako většina savců včetně žirafy, jejíž obratle jsou jen mnohem delší. Výjimkou jsou například kapustňáci a lenochodi.",
+    "en": "Humans have 7 cervical vertebrae (C1–C7), like most mammals, including the giraffe, whose vertebrae are simply much longer. Exceptions include manatees and sloths."
+   }
+  },
+  {
+   "id": "T008-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která část oka nemá žádné cévy a kyslík získává hlavně ze vzduchu rozpuštěného v slzách?",
+    "en": "Which part of the eye has no blood vessels and gets its oxygen mainly from air dissolved in tears?"
+   },
+   "moznosti": {
+    "cs": [
+     "Spojivka",
+     "Duhovka",
+     "Sítnice",
+     "Rohovka"
+    ],
+    "en": [
+     "Conjunctiva",
+     "Iris",
+     "Retina",
+     "Cornea"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Zdravá rohovka je bez cév, protože musí zůstat dokonale průhledná. Kyslík se rozpouští v slzách a odtud do ní proniká.",
+    "en": "A healthy cornea has no blood vessels because it must stay perfectly transparent. Oxygen dissolves in the tears and diffuses into it from there."
+   }
+  },
+  {
+   "id": "T008-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který orgán vytváří žluč?",
+    "en": "Which organ produces bile?"
+   },
+   "moznosti": {
+    "cs": [
+     "Slezina",
+     "Žlučník",
+     "Játra",
+     "Slinivka břišní"
+    ],
+    "en": [
+     "Spleen",
+     "Gallbladder",
+     "Liver",
+     "Pancreas"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Žluč nepřetržitě vytvářejí játra, žlučník ji mezi jídly jen skladuje a zahušťuje. Dospělý jí za den vytvoří asi 400–800 ml.",
+    "en": "Bile is produced continuously by the liver; the gallbladder only stores and concentrates it between meals. An adult makes about 400–800 ml (13.5–27 fl oz) a day."
+   }
+  },
+  {
+   "id": "T008-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Mozek tvoří asi 2 % hmotnosti těla. Jakou část energie těla spotřebuje v bdělém stavu?",
+    "en": "The brain makes up about 2% of body weight. What share of the body's energy does it use while awake?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 2 %",
+     "Asi 5 %",
+     "Asi 20 %",
+     "Asi 50 %"
+    ],
+    "en": [
+     "About 2%",
+     "About 5%",
+     "About 20%",
+     "About 50%"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Bdělý mozek spotřebuje zhruba pětinu energie těla, ve spánku méně. Obsahuje asi 86 miliard neuronů a podobný počet dalších buněk.",
+    "en": "The awake brain uses roughly a fifth of the body's energy, and less during sleep. It contains about 86 billion neurons and a similar number of other cells."
+   }
+  },
+  {
+   "id": "T008-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kterými částmi jazyka člověk vnímá sladkou chuť?",
+    "en": "Which parts of the tongue can sense sweet taste?"
+   },
+   "moznosti": {
+    "cs": [
+     "Všemi oblastmi jazyka",
+     "Pouze kořenem jazyka",
+     "Pouze boky jazyka",
+     "Pouze špičkou jazyka"
+    ],
+    "en": [
+     "All regions of the tongue",
+     "Only the back of the tongue",
+     "Only the sides of the tongue",
+     "Only the tip of the tongue"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Všechny základní chutě lze vnímat ve všech oblastech jazyka, místa se liší jen nepatrně citlivostí. Známá „chuťová mapa“ vznikla chybným výkladem grafů z Hänigovy práce z roku 1901.",
+    "en": "All basic tastes can be sensed in all regions of the tongue; areas differ only slightly in sensitivity. The well-known 'tongue map' came from a misreading of graphs from Hänig's 1901 paper."
+   }
+  },
+  {
+   "id": "T008-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "O kolik je člověk ráno po probuzení zhruba vyšší než odpoledne?",
+    "en": "Roughly how much taller is a person in the morning after waking than in the afternoon?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi o 1,5 mm",
+     "Asi o 1,5 cm",
+     "Asi o 8 cm",
+     "Asi o 15 cm"
+    ],
+    "en": [
+     "By about 1.5 mm (0.06 inches)",
+     "By about 1.5 cm (0.6 inches)",
+     "By about 8 cm (3.1 inches)",
+     "By about 15 cm (5.9 inches)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Během dne se meziobratlové ploténky pod tíhou těla stlačují a v noci vleže se zase rozpínají. Studie u 100 dětí naměřila mezi ránem a pozdním odpolednem pokles v průměru o 1,54 cm.",
+    "en": "During the day the intervertebral discs are compressed by body weight and they expand again when lying down at night. A study of 100 children measured an average drop of 1.54 cm (0.61 inches) between morning and late afternoon."
+   }
+  },
+  {
+   "id": "T008-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč se zdá, že vlasy a nehty ještě po smrti rostou?",
+    "en": "Why do hair and nails seem to keep growing after death?"
+   },
+   "moznosti": {
+    "cs": [
+     "Buňky se dál dělí ze zásob",
+     "Kůže vysychá a stahuje se",
+     "Bakterie vytvářejí nový keratin",
+     "Nehty nasáknou vodou a prodlouží se"
+    ],
+    "en": [
+     "Cells keep dividing on reserves",
+     "The skin dries out and retracts",
+     "Bacteria produce new keratin",
+     "Nails absorb water and lengthen"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Po smrti vlasy ani nehty nerostou, skutečný růst vyžaduje složitou hormonální regulaci, která po smrti ustane. Tělo ale vysychá a kůže kolem vlasů a nehtů se stahuje, takže vypadají delší.",
+    "en": "Hair and nails do not grow after death; real growth requires complex hormonal regulation that stops after death. The body dries out, however, and the skin around the hair and nails retracts, so they look longer."
+   }
+  },
+  {
+   "id": "T008-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se jmenuje nejdelší sval lidského těla?",
+    "en": "What is the longest muscle in the human body called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Krejčovský sval",
+     "Velký sval hýžďový",
+     "Čtyřhlavý sval stehenní",
+     "Dvojhlavý sval pažní"
+    ],
+    "en": [
+     "Sartorius",
+     "Gluteus maximus",
+     "Quadriceps femoris",
+     "Biceps brachii"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Krejčovský sval (musculus sartorius) se táhne šikmo přes stehno od pánve až pod koleno. Název má podle latinského sartor (krejčí), nejspíš proto, že se zapojuje při sezení se zkříženýma nohama, jak dříve sedávali krejčí.",
+    "en": "The sartorius runs diagonally across the thigh from the pelvis to below the knee. Its name comes from Latin sartor (tailor), probably because it is used when sitting cross-legged, as tailors once did."
+   }
+  },
+  {
+   "id": "T008-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Která kost jako jediná v těle nemá kloubní spojení s žádnou jinou kostí?",
+    "en": "Which bone is the only one in the body that does not form a joint with any other bone?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jazylka",
+     "Čéška",
+     "Hrudní kost",
+     "Kostrč"
+    ],
+    "en": [
+     "Hyoid bone",
+     "Kneecap",
+     "Sternum",
+     "Coccyx"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jazylka na krku pod jazykem je držena jen svaly a vazy. Slouží jako opora jazyka a svalů, které se zapojují při polykání a mluvení.",
+    "en": "The hyoid bone in the neck below the tongue is held in place only by muscles and ligaments. It anchors the tongue and the muscles used in swallowing and speaking."
+   }
+  },
+  {
+   "id": "T008-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč se člověk nedokáže sám polechtat?",
+    "en": "Why can't people tickle themselves?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mícha blokuje signály z vlastních rukou",
+     "Kůže si na vlastní dotek zvykla od narození",
+     "Vlastní prsty mají stejnou teplotu jako kůže",
+     "Mozeček předvídá dotek a mozek vjem utlumí"
+    ],
+    "en": [
+     "The spinal cord blocks signals from your own hands",
+     "The skin has been used to your own touch since birth",
+     "Your own fingers are the same temperature as your skin",
+     "The cerebellum predicts the touch and the brain dampens it"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Podle studie Blakemorové a kolegů z roku 1998 mozeček předem „spočítá“, jaký dotek vlastní pohyb vyvolá, a mozková kůra vjem utlumí. Lechtání navíc stojí na překvapení, a to u vlastního doteku chybí.",
+    "en": "According to a 1998 study by Blakemore and colleagues, the cerebellum predicts the touch your own movement will cause, and the cortex dampens the sensation. Tickling also relies on surprise, which is missing from self-touch."
+   }
+  },
+  {
+   "id": "T008-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který nerv je nejdelší a nejširší v lidském těle?",
+    "en": "Which nerve is the longest and widest in the human body?"
+   },
+   "moznosti": {
+    "cs": [
+     "Loketní nerv",
+     "Stehenní nerv",
+     "Bloudivý nerv",
+     "Sedací nerv"
+    ],
+    "en": [
+     "Ulnar nerve",
+     "Femoral nerve",
+     "Vagus nerve",
+     "Sciatic nerve"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Sedací nerv vzniká z kořenů dolní části páteře, vede přes hýždě a zadní stranu stehna do zákolenní jamky a jeho větve pokračují do bérce a chodidla. Bolest šířící se podél něj se označuje jako ischias.",
+    "en": "The sciatic nerve forms from roots in the lower spine and runs through the buttock and the back of the thigh to the back of the knee, where its branches continue to the lower leg and foot. Pain radiating along it is known as sciatica."
+   }
+  },
+  {
+   "id": "T008-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaký je podle odhadu z roku 2016 poměr bakteriálních a lidských buněk v těle?",
+    "en": "According to a 2016 estimate, what is the ratio of bacterial to human cells in the body?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 1 : 10",
+     "Asi 1 : 1",
+     "Asi 10 : 1",
+     "Asi 100 : 1"
+    ],
+    "en": [
+     "About 1:10",
+     "About 1:1",
+     "About 10:1",
+     "About 100:1"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Odhad Sendera, Fuchse a Mila uvádí u „referenčního muže“ asi 39 bilionů bakterií a 30 bilionů lidských buněk, tedy zhruba 1,3 : 1. Dlouho citovaný poměr 10 : 1 pocházel z hrubého odhadu z roku 1972.",
+    "en": "The estimate by Sender, Fuchs and Milo gives a 'reference man' about 39 trillion bacteria and 30 trillion human cells, roughly 1.3:1. The long-quoted 10:1 ratio came from a rough 1972 estimate."
+   }
+  },
+  {
+   "id": "T008-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jakou plochu má přibližně povrch všech plicních sklípků dospělého člověka?",
+    "en": "Roughly what is the total surface area of all the alveoli in an adult's lungs?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 1 m²",
+     "Asi 7 m²",
+     "Asi 75 m²",
+     "Asi 750 m²"
+    ],
+    "en": [
+     "About 1 m² (11 sq ft)",
+     "About 7 m² (75 sq ft)",
+     "About 75 m² (810 sq ft)",
+     "About 750 m² (8,100 sq ft)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Asi 480 milionů plicních sklípků má dohromady plochu 70–80 m², zhruba jako badmintonový kurt. Tak velký povrch umožňuje rychlou výměnu kyslíku a oxidu uhličitého.",
+    "en": "About 480 million alveoli have a combined surface of 70–80 m² (750–860 sq ft), roughly the size of a badminton court. Such a large surface allows fast exchange of oxygen and carbon dioxide."
+   }
+  },
+  {
+   "id": "T008-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "U kterých populací převažuje suchý typ ušního mazu, daný jedinou změnou v genu ABCC11?",
+    "en": "In which populations does the dry type of earwax, caused by a single change in the ABCC11 gene, predominate?"
+   },
+   "moznosti": {
+    "cs": [
+     "Středomořských",
+     "Severoevropských",
+     "Západoafrických",
+     "Východoasijských"
+    ],
+    "en": [
+     "Mediterranean",
+     "Northern European",
+     "West African",
+     "East Asian"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Suchý ušní maz, šedavý až nahnědlý a drobivý, je recesivní znak typický pro část východní Asie a pro původní obyvatele Ameriky. Většina Evropanů a Afričanů má maz vlhký, který je dominantní.",
+    "en": "Dry earwax, grey or tan and brittle, is a recessive trait common in parts of East Asia and among Native Americans. Most Europeans and Africans have the dominant wet type."
+   }
+  },
+  {
+   "id": "T008-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co u mnoha lidí vyvolá kýchnutí, přestože nos přímo nedráždí?",
+    "en": "What makes many people sneeze, even though it does not irritate the nose directly?"
+   },
+   "moznosti": {
+    "cs": [
+     "Náhlý pohled do jasného světla",
+     "Hlasitý zvuk",
+     "Sladká chuť v ústech",
+     "Studená voda na rukou"
+    ],
+    "en": [
+     "Suddenly looking into bright light",
+     "A loud noise",
+     "A sweet taste in the mouth",
+     "Cold water on the hands"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jde o tzv. fotický kýchací reflex (photic sneeze reflex), který se podle odhadů týká zhruba 18–35 % lidí; jiné zdroje uvádějí 10–30 %. Spouští ho hlavně změna intenzity světla, například při odchodu z tmavé místnosti na slunce.",
+    "en": "This is the photic sneeze reflex, estimated to affect roughly 18–35% of people; other sources give 10–30%. It is triggered mainly by a change in light intensity, for example when stepping out of a dark room into sunlight."
+   }
+  },
+  {
+   "id": "T008-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak dlouhá by byla DNA z jádra jedné typické lidské buňky, kdybychom ji natáhli do jedné linie?",
+    "en": "How long would the DNA from the nucleus of a single typical human cell be if it were stretched out in a line?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 2 mm",
+     "Asi 2 cm",
+     "Asi 2 m",
+     "Asi 2 km"
+    ],
+    "en": [
+     "About 2 mm (0.08 inches)",
+     "About 2 cm (0.8 inches)",
+     "About 2 m (6.6 ft)",
+     "About 2 km (1.2 mi)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Typická lidská buňka s jádrem obsahuje zhruba dva metry DNA. Vejde se do jádra o průměru asi 6 mikrometrů, protože je pevně navinutá na bílkoviny zvané histony. Zralé červené krvinky jádro ani DNA nemají.",
+    "en": "A typical human cell with a nucleus contains roughly two metres (6.6 ft) of DNA. It fits into a nucleus about 6 micrometres across because it is tightly wound around proteins called histones. Mature red blood cells have no nucleus and no DNA."
+   }
+  },
+  {
+   "id": "T008-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jakou nejvyšší rychlostí vedou vzruch nejrychlejší nervová vlákna člověka?",
+    "en": "What is the top speed at which the fastest human nerve fibres conduct impulses?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 1 m/s",
+     "Asi 12 m/s",
+     "Asi 120 m/s",
+     "Asi 1 200 m/s"
+    ],
+    "en": [
+     "About 1 m/s (2.2 mph)",
+     "About 12 m/s (27 mph)",
+     "About 120 m/s (270 mph)",
+     "About 1,200 m/s (2,700 mph)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Nejrychlejší vlákna s myelinovou pochvou vedou vzruch rychlostí až asi 120 m/s, tedy přes 400 km/h. Vzruch po nich „přeskakuje“ mezi zářezy v myelinu, což vedení výrazně zrychluje.",
+    "en": "The fastest myelinated fibres conduct impulses at up to about 120 m/s, over 400 km/h (250 mph). The impulse 'jumps' between gaps in the myelin, which greatly speeds up conduction."
+   }
+  },
+  {
+   "id": "T008-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co dokazuje, že svraštění prstů po delším pobytu ve vodě není jen pasivní nasáknutí kůže?",
+    "en": "What shows that fingers wrinkling after a long time in water is not just passive soaking of the skin?"
+   },
+   "moznosti": {
+    "cs": [
+     "Stejně se svraští i kůže na zádech",
+     "Prsty s poškozeným nervem se nesvraští",
+     "Vrásky zmizí hned po vytažení z vody",
+     "Prsty na nohou se nesvraští vůbec"
+    ],
+    "en": [
+     "Skin on the back wrinkles in the same way",
+     "Fingers with a damaged nerve do not wrinkle",
+     "The wrinkles vanish as soon as the hand leaves the water",
+     "Toes do not wrinkle at all"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Svraštění řídí nervy, které zúží drobné cévy pod kůží. V roce 1935 se zjistilo, že kůže zásobená poškozeným nervem se nesvraští, a lékaři na tom později založili test funkce nervů.",
+    "en": "Wrinkling is driven by nerves that narrow small blood vessels under the skin. In 1935 it was found that skin supplied by a damaged nerve does not wrinkle, and doctors later based a nerve-function test on this."
+   }
+  }
+ ]
+}

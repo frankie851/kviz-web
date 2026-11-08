@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T027",
+ "nazev": {
+  "cs": "Šachy: historie, legendy a rekordy",
+  "en": "Chess: History, Legends and Records"
+ },
+ "kategorie": {
+  "id": "sport",
+  "nazev": {
+   "cs": "Sport",
+   "en": "Sport"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T027-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik polí má šachovnice?",
+    "en": "How many squares does a chessboard have?"
+   },
+   "moznosti": {
+    "cs": [
+     "36",
+     "49",
+     "64",
+     "81"
+    ],
+    "en": [
+     "36",
+     "49",
+     "64",
+     "81"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Šachovnice má 8 × 8 = 64 polí, střídavě světlých a tmavých.",
+    "en": "A chessboard has 8 × 8 = 64 squares, alternating light and dark."
+   }
+  },
+  {
+   "id": "T027-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik pěšců má každý hráč na začátku partie?",
+    "en": "How many pawns does each player have at the start of a game?"
+   },
+   "moznosti": {
+    "cs": [
+     "6",
+     "8",
+     "10",
+     "12"
+    ],
+    "en": [
+     "6",
+     "8",
+     "10",
+     "12"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Každý hráč začíná se 16 figurami: 8 pěšci, 2 věžemi, 2 jezdci, 2 střelci, dámou a králem. Pěšci tedy tvoří polovinu armády.",
+    "en": "Each player starts with 16 pieces: 8 pawns, 2 rooks, 2 knights, 2 bishops, a queen and a king, so pawns make up half the army."
+   }
+  },
+  {
+   "id": "T027-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která šachová figura jako jediná smí přeskakovat jiné figury?",
+    "en": "Which chess piece is the only one allowed to jump over other pieces?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jezdec",
+     "Střelec",
+     "Pěšec",
+     "Dáma"
+    ],
+    "en": [
+     "Knight",
+     "Bishop",
+     "Pawn",
+     "Queen"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Tah jezdce nemohou zablokovat jiné figury. Kromě jezdce a rošády žádná figura přes jiné nepřeskakuje.",
+    "en": "The knight's move cannot be blocked by other pieces. Apart from the knight and castling, no piece ever jumps."
+   }
+  },
+  {
+   "id": "T027-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ze které země pochází Magnus Carlsen, mistr světa v šachu z let 2013–2023?",
+    "en": "Which country does Magnus Carlsen, world chess champion from 2013 to 2023, come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Dánska",
+     "Ze Švédska",
+     "Z Nizozemska",
+     "Z Norska"
+    ],
+    "en": [
+     "Denmark",
+     "Sweden",
+     "Netherlands",
+     "Norway"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Nor Magnus Carlsen získal titul roku 2013, když v indickém Čennaí porazil Viswanathana Ananda 6½:3½.",
+    "en": "Norway's Magnus Carlsen won the title in 2013 by beating Viswanathan Anand 6½–3½ in Chennai, India."
+   }
+  },
+  {
+   "id": "T027-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Při kterém tahu se pohnou dvě vlastní figury najednou?",
+    "en": "In which move do two of your own pieces move at the same time?"
+   },
+   "moznosti": {
+    "cs": [
+     "Při rošádě",
+     "Při šachu",
+     "Při proměně pěšce",
+     "Při braní mimochodem"
+    ],
+    "en": [
+     "Castling",
+     "Check",
+     "Pawn promotion",
+     "En passant"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Při rošádě se král posune o dvě pole k věži a věž přeskočí na pole vedle něj. Je to jediný tah, kdy se hýbou dvě figury.",
+    "en": "In castling the king moves two squares towards a rook and the rook jumps to the square next to it. It is the only move in which two pieces move."
+   }
+  },
+  {
+   "id": "T027-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá situace, kdy je král napaden a hráč nemá žádný tah, kterým by ho zachránil?",
+    "en": "What is it called when the king is attacked and the player has no move to save it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pat",
+     "Mat",
+     "Gambit",
+     "Šach"
+    ],
+    "en": [
+     "Stalemate",
+     "Checkmate",
+     "Gambit",
+     "Check"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Mat ukončuje partii výhrou hráče, který ho dal. Pokud hráč na tahu nemá žádný povolený tah, ale jeho král v šachu není, jde o pat a partie končí remízou.",
+    "en": "Checkmate ends the game with a win for the player who delivered it. If the player to move has no legal move but the king is not in check, it is stalemate and the game is drawn."
+   }
+  },
+  {
+   "id": "T027-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na kterou figuru se pěšec po dojití na poslední řadu NESMÍ proměnit?",
+    "en": "Which piece is a pawn NOT allowed to promote to when it reaches the last rank?"
+   },
+   "moznosti": {
+    "cs": [
+     "Krále",
+     "Dámu",
+     "Věž",
+     "Jezdce"
+    ],
+    "en": [
+     "King",
+     "Queen",
+     "Rook",
+     "Knight"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pěšec se musí proměnit na dámu, věž, střelce nebo jezdce své barvy, nikdy na krále. Figura přitom nemusí být předtím sebraná, takže hráč může mít i víc dam.",
+    "en": "A pawn must promote to a queen, rook, bishop or knight of its own colour, never a king. The piece need not have been captured, so a player can have several queens."
+   }
+  },
+  {
+   "id": "T027-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která figura se anglicky nazývá „bishop“ (doslova biskup)?",
+    "en": "Which piece is called \"střelec\" (literally \"shooter\") in Czech?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pěšec",
+     "Jezdec",
+     "Střelec",
+     "Věž"
+    ],
+    "en": [
+     "Pawn",
+     "Knight",
+     "Bishop",
+     "Rook"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Česky střelec, anglicky bishop (biskup), německy Läufer (běžec). Každý jazyk tuto figuru, která táhne šikmo, pojmenoval jinak.",
+    "en": "In Czech it is the \"shooter\" (střelec), in English the bishop and in German the Läufer (runner); each language named this diagonal-moving piece differently."
+   }
+  },
+  {
+   "id": "T027-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který počítač v roce 1997 porazil v zápase mistra světa Garriho Kasparova?",
+    "en": "Which computer defeated world champion Garry Kasparov in a match in 1997?"
+   },
+   "moznosti": {
+    "cs": [
+     "AlphaZero",
+     "Deep Blue",
+     "Stockfish",
+     "Watson"
+    ],
+    "en": [
+     "AlphaZero",
+     "Deep Blue",
+     "Stockfish",
+     "Watson"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Superpočítač Deep Blue od IBM vyhrál odvetu v New Yorku 3½:2½. Šlo o první porážku úřadujícího mistra světa od počítače v zápase za turnajových podmínek.",
+    "en": "IBM's Deep Blue won the New York rematch 3½–2½, the first time a computer beat a reigning world champion in a match under tournament conditions."
+   }
+  },
+  {
+   "id": "T027-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Podle legendy si vynálezce šachů řekl vládci o zrní: jedno zrnko na první pole a na každé další pole… kolik?",
+    "en": "According to legend, the inventor of chess asked the ruler for grain: one grain on the first square and on each following square… how much?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dvojnásobek",
+     "Desetkrát víc",
+     "O jedno zrnko víc",
+     "Trojnásobek"
+    ],
+    "en": [
+     "Double",
+     "Ten times more",
+     "One grain more",
+     "Triple"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Zdvojnásobování roste tak rychle, že by na šachovnici nakonec muselo ležet nepředstavitelné množství obilí. Příběh poprvé zaznamenal Ibn Challikán roku 1256.",
+    "en": "Doubling grows so fast that the board would end up holding an unimaginable amount of grain. The story was first recorded by Ibn Khallikan in 1256."
+   }
+  },
+  {
+   "id": "T027-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém městě se roku 1972 hrál „zápas století“ Bobby Fischer – Boris Spasskij?",
+    "en": "In which city was the 1972 \"Match of the Century\" between Bobby Fischer and Boris Spassky played?"
+   },
+   "moznosti": {
+    "cs": [
+     "Helsinky",
+     "Reykjavík",
+     "Moskva",
+     "New York"
+    ],
+    "en": [
+     "Helsinki",
+     "Reykjavík",
+     "Moscow",
+     "New York"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Fischer vyhrál na Islandu 12½:8½ a stal se prvním mistrem světa narozeným v USA. Druhou partii přitom prohrál kontumačně, protože k ní nenastoupil.",
+    "en": "Fischer won 12½–8½ in Iceland and became the first US-born world champion, even though he forfeited game 2 by failing to show up."
+   }
+  },
+  {
+   "id": "T027-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém městě se narodil Wilhelm Steinitz, první oficiální mistr světa v šachu?",
+    "en": "In which city was Wilhelm Steinitz, the first official world chess champion, born?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Budapešti",
+     "V Krakově",
+     "V Praze",
+     "Ve Vídni"
+    ],
+    "en": [
+     "Budapest",
+     "Kraków",
+     "Prague",
+     "Vienna"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Steinitz se narodil roku 1836 v pražském židovském ghettu. Titul získal roku 1886 proti Zukertortovi a později se stal občanem USA jako William Steinitz.",
+    "en": "Steinitz was born in 1836 in Prague's Jewish ghetto. He won the title against Zukertort in 1886 and later became a US citizen as William Steinitz."
+   }
+  },
+  {
+   "id": "T027-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdy smí pěšec sebrat soupeřova pěšce „mimochodem“?",
+    "en": "When may a pawn capture an enemy pawn \"en passant\"?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kdykoli, když soupeřův pěšec stojí vedle",
+     "Jen hned v tahu po soupeřově dvojkroku",
+     "Jen když je soupeřův král v šachu",
+     "Jen v koncovce, kdy už nejsou dámy"
+    ],
+    "en": [
+     "Any time the enemy pawn stands beside it",
+     "Only on the move right after the enemy's two-square advance",
+     "Only when the enemy king is in check",
+     "Only in an endgame with no queens left"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Braní mimochodem je možné jen bezprostředně po dvojkroku soupeřova pěšce, jinak právo zanikne. Pravidlo se v Itálii začalo používat až roku 1880.",
+    "en": "En passant is allowed only immediately after the enemy pawn's two-square advance; otherwise the right is lost. Italy did not adopt the rule until 1880."
+   }
+  },
+  {
+   "id": "T027-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Z jakého jazyka pochází výraz „šach mat“?",
+    "en": "Which language does the word \"checkmate\" come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z hebrejštiny",
+     "Z řečtiny",
+     "Z latiny",
+     "Z perštiny"
+    ],
+    "en": [
+     "Hebrew",
+     "Greek",
+     "Latin",
+     "Persian"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pochází z perského šáh mát, které se obvykle vykládá jako „král je bezmocný“, ne „král je mrtev“. Krále v šachu totiž nelze sebrat, jen ho připravit o všechny tahy.",
+    "en": "It comes from Persian shāh māt, usually interpreted as \"the king is helpless\" rather than \"the king is dead\", since the king is never captured, only left without any move."
+   }
+  },
+  {
+   "id": "T027-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která figura se anglicky nazývá „rook“?",
+    "en": "Which piece is called \"věž\" (literally \"tower\") in Czech?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jezdec",
+     "Pěšec",
+     "Střelec",
+     "Věž"
+    ],
+    "en": [
+     "Knight",
+     "Pawn",
+     "Bishop",
+     "Rook"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Čeština i němčina (Turm) ji pojmenovaly podle věže, anglické rook pochází ze slova rukh, jak se tato figura jmenovala ve středověké hře šatrandž.",
+    "en": "Czech and German (Turm) name it after a tower, while the English rook comes from rukh, the piece's name in the medieval game shatranj."
+   }
+  },
+  {
+   "id": "T027-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím se roku 1927 zapsala do historie Věra Menčíková (Vera Menchik), dcera Čecha a Angličanky?",
+    "en": "How did Vera Menchik, daughter of a Czech father and an English mother, make history in 1927?"
+   },
+   "moznosti": {
+    "cs": [
+     "Stala se první mistryní Evropy",
+     "Stala se první ženou v čele FIDE",
+     "Stala se první mistryní světa",
+     "Získala jako první žena titul velmistr"
+    ],
+    "en": [
+     "She became the first women's European champion",
+     "She became the first woman to lead FIDE",
+     "She became the first women's world champion",
+     "She was the first woman to earn the grandmaster title"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Menčíková vyhrála první mistrovství světa žen a titul držela až do smrti v roce 1944. V letech 1930–1937 reprezentovala Československo, poté Anglii.",
+    "en": "Menchik won the first Women's World Championship and held the title until her death in 1944. She represented Czechoslovakia from 1930 to 1937 and England afterwards."
+   }
+  },
+  {
+   "id": "T027-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo držel titul mistra světa v šachu nejdéle, celých 27 let?",
+    "en": "Who held the world chess championship title the longest, a full 27 years?"
+   },
+   "moznosti": {
+    "cs": [
+     "Emanuel Lasker",
+     "Michail Botvinnik",
+     "Anatolij Karpov",
+     "Garri Kasparov"
+    ],
+    "en": [
+     "Emanuel Lasker",
+     "Mikhail Botvinnik",
+     "Anatoly Karpov",
+     "Garry Kasparov"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Lasker vládl v letech 1894–1921. Byl také matematik s doktorátem z univerzity v Erlangenu a přítel Alberta Einsteina.",
+    "en": "Lasker reigned from 1894 to 1921. He was also a mathematician with a doctorate from the University of Erlangen and a friend of Albert Einstein."
+   }
+  },
+  {
+   "id": "T027-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co znamená v šachovém zápisu značka 0-0-0?",
+    "en": "What does 0-0-0 mean in chess notation?"
+   },
+   "moznosti": {
+    "cs": [
+     "Velkou rošádu (na dámské straně)",
+     "Braní mimochodem",
+     "Malou rošádu (na královské straně)",
+     "Remízu dohodou"
+    ],
+    "en": [
+     "Queenside castling",
+     "An en passant capture",
+     "Kingside castling",
+     "A draw by agreement"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "0-0 je rošáda na královské straně a 0-0-0 na dámské straně, kde je věž o pole dál. Zápis 0-0-0 zavedl Aaron Alexandre roku 1837.",
+    "en": "0-0 is kingside castling and 0-0-0 queenside castling, where the rook stands one square further away. Aaron Alexandre introduced the 0-0-0 notation in 1837."
+   }
+  },
+  {
+   "id": "T027-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co znamená sanskrtský název „čaturanga“?",
+    "en": "What does the Sanskrit name \"chaturanga\" mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Čtyři části (vojska)",
+     "Šedesát čtyři pole",
+     "Hra dvou králů",
+     "Válka slonů"
+    ],
+    "en": [
+     "Four parts (of an army)",
+     "Sixty-four squares",
+     "Game of two kings",
+     "War of elephants"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Sanskrtský název znamená „mající čtyři části“ a odkazuje na čtyři složky staroindického vojska: slony, vozy, jízdu a pěchotu.",
+    "en": "The Sanskrit name means \"having four parts\" and refers to the four divisions of an ancient Indian army: elephants, chariots, cavalry and infantry."
+   }
+  },
+  {
+   "id": "T027-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak přišel Bobby Fischer v roce 1975 o titul mistra světa?",
+    "en": "How did Bobby Fischer lose the world championship title in 1975?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nenastoupil k obhajobě proti Karpovovi",
+     "Prohrál odvetu s Borisem Spasským",
+     "Prohrál zápas s Anatolijem Karpovem",
+     "Vzdal se titulu kvůli vážné nemoci"
+    ],
+    "en": [
+     "He did not defend it against Karpov",
+     "He lost a rematch to Boris Spassky",
+     "He lost a match to Anatoly Karpov",
+     "He gave up the title because of serious illness"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Po sporech s FIDE o pravidla zápasu Fischer k obhajobě nenastoupil a FIDE vyhlásila Anatolije Karpova mistrem světa kontumačně.",
+    "en": "After disputes with FIDE over the match rules Fischer did not defend his title, and FIDE declared Anatoly Karpov champion by default."
+   }
+  },
+  {
+   "id": "T027-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik let bylo Garrimu Kasparovovi, když se roku 1985 stal mistrem světa?",
+    "en": "How old was Garry Kasparov when he became world champion in 1985?"
+   },
+   "moznosti": {
+    "cs": [
+     "18",
+     "22",
+     "26",
+     "30"
+    ],
+    "en": [
+     "18",
+     "22",
+     "26",
+     "30"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Kasparov porazil Karpova 13:11 a stal se ve 22 letech tehdy nejmladším mistrem světa. Tento rekord v prosinci 2024 překonal Ind Dommaradžu Gukeš (Gukesh Dommaraju), který se mistrem stal v 18 letech.",
+    "en": "Kasparov beat Karpov 13–11 and at 22 became the youngest world champion at the time. That record was broken in December 2024 by India's Gukesh Dommaraju, who became champion at 18."
+   }
+  },
+  {
+   "id": "T027-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik partií odehráli Karpov a Kasparov v zápase o titul 1984–85, než ho předseda FIDE ukončil bez výsledku?",
+    "en": "How many games did Karpov and Kasparov play in their 1984–85 title match before the FIDE president stopped it without a result?"
+   },
+   "moznosti": {
+    "cs": [
+     "24",
+     "34",
+     "48",
+     "60"
+    ],
+    "en": [
+     "24",
+     "34",
+     "48",
+     "60"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hrálo se na šest výher a po zhruba pěti měsících a 40 remízách vedl Karpov 5:3. Florencio Campomanes zápas ukončil s odkazem na zdraví hráčů; jde o jediný zápas o titul ukončený bez výsledku.",
+    "en": "It was first to six wins, and after about five months and 40 draws Karpov led 5–3. Florencio Campomanes halted it citing the players' health; it is the only title match ever called off without a result."
+   }
+  },
+  {
+   "id": "T027-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který držitel otevřeného titulu mistra světa v šachu jako jediný zemřel jako úřadující šampion?",
+    "en": "Which holder of the open world chess title is the only one to have died as the reigning champion?"
+   },
+   "moznosti": {
+    "cs": [
+     "Michail Tal",
+     "José Raúl Capablanca",
+     "Alexandr Aljechin",
+     "Wilhelm Steinitz"
+    ],
+    "en": [
+     "Mikhail Tal",
+     "José Raúl Capablanca",
+     "Alexander Alekhine",
+     "Wilhelm Steinitz"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Aljechin zemřel roku 1946 v hotelovém pokoji v portugalském Estorilu. Nového mistra pak určil turnaj FIDE v roce 1948, který vyhrál Michail Botvinnik.",
+    "en": "Alekhine died in 1946 in his hotel room in Estoril, Portugal. FIDE then held the 1948 championship tournament, won by Mikhail Botvinnik."
+   }
+  },
+  {
+   "id": "T027-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co označoval žertovný „Klub Věry Menčíkové“?",
+    "en": "What did the humorous \"Vera Menchik Club\" refer to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ženy, kterým se ji podařilo porazit",
+     "Její fanoušky z Prahy a Londýna",
+     "Učitele, kteří ji naučili hrát",
+     "Mistry, kteří s ní prohráli partii"
+    ],
+    "en": [
+     "Women who had managed to beat her",
+     "Her fans in Prague and London",
+     "Teachers who had taught her to play",
+     "Masters who had lost a game to her"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Výraz vymyslel Albert Becker na turnaji v Karlových Varech 1929, aby se jí posmíval, a sám se pak stal prvním „členem“. Patřil k nim i pozdější mistr světa Max Euwe. Po Menčíkové se jmenuje pohár pro vítězky ženské šachové olympiády.",
+    "en": "Albert Becker coined the term at the 1929 Carlsbad (Karlovy Vary) tournament to mock her, then became its first \"member\" himself. Future world champion Max Euwe was another. The team trophy of the Women's Chess Olympiad is named after her."
+   }
+  },
+  {
+   "id": "T027-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Která šachistka se jako jediná žena dostala do první desítky světového žebříčku (k roku 2026)?",
+    "en": "Which player is the only woman ever ranked in the world top 10 (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zsuzsa Polgárová",
+     "Hou Yifan",
+     "Judit Polgárová",
+     "Věra Menčíková"
+    ],
+    "en": [
+     "Susan Polgar",
+     "Hou Yifan",
+     "Judit Polgár",
+     "Vera Menchik"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Maďarka Judit Polgárová byla nejlépe osmá na světě. Velmistrem se stala v 15 letech a 4 měsících a zhruba o měsíc tak překonala rekord Bobbyho Fischera.",
+    "en": "Hungary's Judit Polgár peaked at world No. 8. She became a grandmaster at 15 years and 4 months, beating Bobby Fischer's record by about a month."
+   }
+  },
+  {
+   "id": "T027-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ze které figury starých her čaturanga a šatrandž se vyvinul dnešní střelec?",
+    "en": "Which piece of the old games chaturanga and shatranj developed into today's bishop?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z rádce",
+     "Ze slona",
+     "Z koně",
+     "Z vozu"
+    ],
+    "en": [
+     "The counsellor",
+     "The elephant",
+     "The horse",
+     "The chariot"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ze slona (v čaturanze gadža, v šatrandži alfil), který v šatrandži přeskakoval přesně o dvě pole šikmo. V mnoha jazycích, třeba v ruštině, se střelec dodnes jmenuje slon.",
+    "en": "From the elephant (gaja in chaturanga, alfil in shatranj), which in shatranj leapt exactly two squares diagonally. In many languages, such as Russian, the bishop is still called the elephant."
+   }
+  },
+  {
+   "id": "T027-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik zrnek by podle legendy o vynálezci šachů leželo na celé šachovnici dohromady?",
+    "en": "According to the legend of the inventor of chess, how many grains would lie on the whole chessboard in total?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 18 milionů",
+     "Asi 18 miliard",
+     "Asi 18 bilionů",
+     "Asi 18 trilionů"
+    ],
+    "en": [
+     "About 18 million",
+     "About 18 billion",
+     "About 18 trillion",
+     "About 18 quintillion"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Celkem jde o 18 446 744 073 709 551 615 zrnek pšenice. To by vážilo přes 1 400krát víc, než kolik pšenice svět sklidí za rok (k roku 2026).",
+    "en": "The total is 18,446,744,073,709,551,615 grains of wheat, which would weigh more than 1,400 times the world's annual wheat harvest (as of 2026)."
+   }
+  },
+  {
+   "id": "T027-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Claude Shannon roku 1950 odhadl počet možných šachových partií. Jakého řádu je toto „Shannonovo číslo“?",
+    "en": "In 1950 Claude Shannon estimated the number of possible chess games. What is the order of magnitude of this \"Shannon number\"?"
+   },
+   "moznosti": {
+    "cs": [
+     "10²⁰",
+     "10⁵⁰",
+     "10⁸⁰",
+     "10¹²⁰"
+    ],
+    "en": [
+     "10²⁰",
+     "10⁵⁰",
+     "10⁸⁰",
+     "10¹²⁰"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Shannon dospěl ke zhruba 10¹²⁰ partií, a ukázal tak, že šachy nelze vyřešit hrubou silou. Atomů v pozorovatelném vesmíru je přitom odhadem jen asi 10⁸⁰.",
+    "en": "Shannon arrived at about 10¹²⁰ games, showing that chess cannot be solved by brute force. The observable universe is estimated to contain only about 10⁸⁰ atoms."
+   }
+  },
+  {
+   "id": "T027-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaký je rekordní rating Elo Magnuse Carlsena v klasickém šachu, nejvyšší v historii (k roku 2026)?",
+    "en": "What is Magnus Carlsen's record classical Elo rating, the highest ever achieved (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "2785",
+     "2851",
+     "2882",
+     "2950"
+    ],
+    "en": [
+     "2785",
+     "2851",
+     "2882",
+     "2950"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Carlsen dosáhl ratingu 2882 v květnu 2014 a znovu v srpnu 2019. Systém vymyslel maďarsko-americký fyzik Arpad Elo a FIDE ho přijala roku 1970.",
+    "en": "Carlsen reached 2882 in May 2014 and again in August 2019. The system was devised by Hungarian-American physicist Arpad Elo and adopted by FIDE in 1970."
+   }
+  },
+  {
+   "id": "T027-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik tahů zhruba měla partie Nikolić – Arsović (Bělehrad 1989), dlouho uváděná jako nejdelší turnajová partie?",
+    "en": "Roughly how many moves did the game Nikolić – Arsović (Belgrade 1989), long cited as the longest tournament game, last?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 90",
+     "Asi 150",
+     "Asi 210",
+     "Asi 270"
+    ],
+    "en": [
+     "About 90",
+     "About 150",
+     "About 210",
+     "About 270"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Partie Ivana Nikoliće a Gorana Arsoviće skončila po 269 tazích remízou a s přerušeními trvala celkem 20 hodin a 15 minut. Guinnessova kniha rekordů ji uvádí jako mistrovskou partii s nejvíce tahy, počtem tahů ji ale roku 2024 překonala partie Fellowes – Lalić v Londýně s 272 tahy.",
+    "en": "The game between Ivan Nikolić and Goran Arsović ended in a draw after 269 moves and, with adjournments, lasted 20 hours 15 minutes in total. Guinness lists it as the master game with the most moves, but in 2024 the game Fellowes – Lalić in London went further, with 272 moves."
+   }
+  }
+ ]
+}

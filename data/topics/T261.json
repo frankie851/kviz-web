@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T261",
+ "nazev": {
+  "cs": "Čísla, tvary a matematika kolem nás",
+  "en": "Numbers, Shapes and Everyday Maths"
+ },
+ "kategorie": {
+  "id": "veda-a-technika",
+  "nazev": {
+   "cs": "Věda a technika",
+   "en": "Science & Technology"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T261-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které číslo je jediným sudým prvočíslem?",
+    "en": "Which number is the only even prime?"
+   },
+   "moznosti": {
+    "cs": [
+     "0",
+     "2",
+     "4",
+     "6"
+    ],
+    "en": [
+     "0",
+     "2",
+     "4",
+     "6"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Každé jiné sudé číslo je dělitelné dvěma, takže má víc než dva dělitele. Všechna ostatní prvočísla jsou proto lichá.",
+    "en": "Every other even number is divisible by two and so has more than two divisors. All the other primes are therefore odd."
+   }
+  },
+  {
+   "id": "T261-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaký tvar mají buňky včelí plástve?",
+    "en": "What shape are the cells of a bee honeycomb?"
+   },
+   "moznosti": {
+    "cs": [
+     "Šestiúhelník",
+     "Osmiúhelník",
+     "Pětiúhelník",
+     "Čtverec"
+    ],
+    "en": [
+     "Hexagon",
+     "Octagon",
+     "Pentagon",
+     "Square"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pravidelné šestiúhelníky na sebe navazují beze mezer. Thomas Hales v roce 1999 dokázal, že šestiúhelníková síť dělí rovinu na stejně velká políčka s nejmenším celkovým obvodem. Podobnou úvahou už v 17. století vysvětloval Jan Brożek, proč včely stavějí šestiúhelníkové plástve.",
+    "en": "Regular hexagons fit together without gaps. In 1999 Thomas Hales proved that a hexagonal grid divides the plane into equal areas with the least total perimeter. Back in the 17th century, Jan Brożek used a similar argument to explain why bees build hexagonal honeycombs."
+   }
+  },
+  {
+   "id": "T261-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co v matematice označuje symbol ∞?",
+    "en": "What does the symbol ∞ stand for in mathematics?"
+   },
+   "moznosti": {
+    "cs": [
+     "Prázdnou množinu",
+     "Přibližnou rovnost",
+     "Nekonečno",
+     "Rovnoběžnost"
+    ],
+    "en": [
+     "The empty set",
+     "Approximate equality",
+     "Infinity",
+     "Parallelism"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Symbol nekonečna zavedl v tomto významu anglický matematik John Wallis v roce 1655. Podle podobně tvarovaných křivek se mu říká také lemniskáta (lemniscate).",
+    "en": "The English mathematician John Wallis introduced the infinity symbol with this meaning in 1655. It is also called a lemniscate, after curves of a similar shape."
+   }
+  },
+  {
+   "id": "T261-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik stupňů dává součet vnitřních úhlů trojúhelníku v rovině?",
+    "en": "What do the interior angles of a triangle in a plane add up to?"
+   },
+   "moznosti": {
+    "cs": [
+     "90°",
+     "180°",
+     "270°",
+     "360°"
+    ],
+    "en": [
+     "90°",
+     "180°",
+     "270°",
+     "360°"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "V rovině dávají úhly trojúhelníku vždy přímý úhel, tedy 180°. Na kouli je to jinak: součet je vždy větší než 180° a může dosáhnout až 540°.",
+    "en": "In a plane the angles of a triangle always add up to a straight angle, 180°. On a sphere it is different: the sum is always more than 180° and can reach up to 540°."
+   }
+  },
+  {
+   "id": "T261-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Pravoúhlý trojúhelník má odvěsny dlouhé 3 cm a 4 cm. Jak dlouhá je jeho přepona?",
+    "en": "A right triangle has legs 3 cm and 4 cm long. How long is its hypotenuse?"
+   },
+   "moznosti": {
+    "cs": [
+     "5 cm",
+     "6 cm",
+     "7 cm",
+     "12 cm"
+    ],
+    "en": [
+     "5 cm",
+     "6 cm",
+     "7 cm",
+     "12 cm"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Podle Pythagorovy věty platí 3² + 4² = 9 + 16 = 25 = 5². Babylóňané toto pravidlo používali už víc než tisíc let před Pythagorovým narozením.",
+    "en": "By the Pythagorean theorem, 3² + 4² = 9 + 16 = 25 = 5². The Babylonians were using the rule more than a thousand years before Pythagoras was born."
+   }
+  },
+  {
+   "id": "T261-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik dávají na klasické šestistěnné hrací kostce dohromady čísla na protilehlých stěnách?",
+    "en": "On a standard six-sided die, what do the numbers on opposite faces add up to?"
+   },
+   "moznosti": {
+    "cs": [
+     "6",
+     "7",
+     "8",
+     "9"
+    ],
+    "en": [
+     "6",
+     "7",
+     "8",
+     "9"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Protilehlé stěny dávají dohromady sedm: 1 a 6, 2 a 5, 3 a 4. Tento zvyk je prastarý – kostku se stejným pravidlem našli archeologové už v Mohendžodaru v údolí Indu (2500–1900 př. n. l.).",
+    "en": "Opposite faces add up to seven: 1 and 6, 2 and 5, 3 and 4. The custom is ancient – archaeologists found a die following the same rule at Mohenjo-daro in the Indus Valley (2500–1900 BC)."
+   }
+  },
+  {
+   "id": "T261-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaký tvar má dopravní značka STOP („Stůj, dej přednost v jízdě!“)?",
+    "en": "What shape is the STOP traffic sign?"
+   },
+   "moznosti": {
+    "cs": [
+     "Osmiúhelník",
+     "Šestiúhelník",
+     "Pětiúhelník",
+     "Čtverec postavený na roh"
+    ],
+    "en": [
+     "Octagon",
+     "Hexagon",
+     "Pentagon",
+     "Square standing on a corner"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Značka STOP je červený osmiúhelník. Jedinečný tvar umožňuje i řidiči, který vidí značku zezadu, poznat, že protijedoucí musí zastavit.",
+    "en": "The STOP sign is a red octagon. Its unique shape lets even a driver who sees the sign from behind know that oncoming drivers must stop."
+   }
+  },
+  {
+   "id": "T261-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co se může stát se čtvercovým kanálovým poklopem, ale s kulatým nikdy?",
+    "en": "What can happen to a square manhole cover but never to a round one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Může zrezivět",
+     "Může přimrznout k rámu",
+     "Může prasknout pod nákladním autem",
+     "Může propadnout do otvoru"
+    ],
+    "en": [
+     "It can rust",
+     "It can freeze to its frame",
+     "It can crack under a lorry",
+     "It can fall through the opening"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Čtvercový poklop natočený úhlopříčně se do otvoru vejde, protože úhlopříčka je delší než strana. Kulatý má všude stejný průměr, a tak propadnout nemůže; navíc ho jde odkutálet a nasadit v libovolné poloze.",
+    "en": "A square cover turned diagonally fits through the opening, because the diagonal is longer than the side. A round one has the same width everywhere, so it cannot fall through; it can also be rolled and fitted in any orientation."
+   }
+  },
+  {
+   "id": "T261-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které z těchto čísel nelze zapsat římskými číslicemi?",
+    "en": "Which of these numbers cannot be written in Roman numerals?"
+   },
+   "moznosti": {
+    "cs": [
+     "0",
+     "4",
+     "9",
+     "1000"
+    ],
+    "en": [
+     "0",
+     "4",
+     "9",
+     "1000"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Římané neměli pro nulu žádný znak. Ve středověkých rukopisech se místo ní psalo latinské slovo nulla („žádná“). Čtyřka je IV, devítka IX a tisícovka M.",
+    "en": "The Romans had no symbol for zero. Medieval manuscripts used the Latin word nulla ('none') instead. Four is IV, nine is IX and a thousand is M."
+   }
+  },
+  {
+   "id": "T261-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou částí celku je jedno procento?",
+    "en": "What fraction of a whole is one percent?"
+   },
+   "moznosti": {
+    "cs": [
+     "Desetinou",
+     "Setinou",
+     "Tisícinou",
+     "Desetitisícinou"
+    ],
+    "en": [
+     "A tenth",
+     "A hundredth",
+     "A thousandth",
+     "A ten-thousandth"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Slovo procento pochází z latinského per centum, „ze sta“. Znak % vznikl zkracováním italského per cento; tisícině se říká promile (‰).",
+    "en": "The word percent comes from the Latin per centum, 'by the hundred'. The % sign developed from abbreviations of the Italian per cento; a thousandth is called per mille (‰)."
+   }
+  },
+  {
+   "id": "T261-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Anglické slovo billion (v dnešní angličtině) odpovídá v češtině číslu…",
+    "en": "The English word billion (in modern English) corresponds in Czech to the number…"
+   },
+   "moznosti": {
+    "cs": [
+     "milion",
+     "miliarda",
+     "bilion",
+     "trilion"
+    ],
+    "en": [
+     "milion",
+     "miliarda",
+     "bilion",
+     "trilion"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Angličtina používá tzv. krátkou škálu (billion = 10⁹), čeština dlouhou škálu, v níž je 10⁹ miliarda a bilion až 10¹². Británie oficiálně přešla na krátkou škálu v roce 1974.",
+    "en": "English uses the so-called short scale (billion = 10⁹), whereas Czech uses the long scale, in which 10⁹ is a miliarda and a bilion is 10¹². Britain officially switched to the short scale in 1974."
+   }
+  },
+  {
+   "id": "T261-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se římskými číslicemi zapíše letopočet 2026?",
+    "en": "How is the year 2026 written in Roman numerals?"
+   },
+   "moznosti": {
+    "cs": [
+     "MMXXVI",
+     "MMXXIV",
+     "MMXVI",
+     "MCMXXVI"
+    ],
+    "en": [
+     "MMXXVI",
+     "MMXXIV",
+     "MMXVI",
+     "MCMXXVI"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "MM = 2000, XX = 20 a VI = 6. Ostatní zápisy znamenají: MMXXIV = 2024, MCMXXVI = 1926 a MMXVI = 2016.",
+    "en": "MM = 2000, XX = 20 and VI = 6. The other options mean: MMXXIV = 2024, MCMXXVI = 1926 and MMXVI = 2016."
+   }
+  },
+  {
+   "id": "T261-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Cena zboží nejprve stoupne o 50 % a potom klesne o 50 %. Kolik procent původní ceny nakonec stojí?",
+    "en": "The price of an item first rises by 50% and then falls by 50%. What percentage of the original price does it cost in the end?"
+   },
+   "moznosti": {
+    "cs": [
+     "50 %",
+     "75 %",
+     "100 %",
+     "125 %"
+    ],
+    "en": [
+     "50%",
+     "75%",
+     "100%",
+     "125%"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ze 100 se stane 150 a z toho polovina je 75. Zdražení a zlevnění o stejné procento se nevyruší, protože se počítají z různých základů.",
+    "en": "100 becomes 150, and half of that is 75. An increase and a decrease by the same percentage do not cancel out, because they are calculated from different bases."
+   }
+  },
+  {
+   "id": "T261-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které z těchto čísel je prvočíslo?",
+    "en": "Which of these numbers is a prime?"
+   },
+   "moznosti": {
+    "cs": [
+     "51",
+     "57",
+     "91",
+     "97"
+    ],
+    "en": [
+     "51",
+     "57",
+     "91",
+     "97"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "51 = 3 · 17, 57 = 3 · 19 a 91 = 7 · 13. Jen 97 nemá žádného dělitele kromě 1 a sebe sama; je to největší prvočíslo menší než sto.",
+    "en": "51 = 3 × 17, 57 = 3 × 19 and 91 = 7 × 13. Only 97 has no divisors other than 1 and itself; it is the largest prime below one hundred."
+   }
+  },
+  {
+   "id": "T261-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Malý Carl Friedrich Gauss podle známé historky ve škole bleskově sečetl všechna celá čísla od 1 do 100. Jaký výsledek mu vyšel?",
+    "en": "According to a well-known story, young Carl Friedrich Gauss quickly added up all the whole numbers from 1 to 100 at school. What result did he get?"
+   },
+   "moznosti": {
+    "cs": [
+     "4950",
+     "5000",
+     "5050",
+     "5100"
+    ],
+    "en": [
+     "4950",
+     "5000",
+     "5050",
+     "5100"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Čísla lze spárovat do 50 dvojic se součtem 101 (1 + 100, 2 + 99…), takže výsledek je 50 · 101 = 5050. Historka je možná vymyšlená, ale vystihuje Gaussův talent.",
+    "en": "The numbers can be grouped into 50 pairs that each add up to 101 (1 + 100, 2 + 99…), so the result is 50 × 101 = 5050. The story may be apocryphal, but it captures Gauss's talent."
+   }
+  },
+  {
+   "id": "T261-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kde původně vznikly číslice 0–9, kterým v Evropě říkáme arabské?",
+    "en": "Where did the digits 0–9, known in Europe as Arabic numerals, originally come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Mezopotámii",
+     "V Arábii",
+     "V Egyptě",
+     "V Indii"
+    ],
+    "en": [
+     "Mesopotamia",
+     "Arabia",
+     "Egypt",
+     "India"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Soustavu vymysleli indičtí matematici mezi 1. a 4. stoletím. V 9. století ji převzali arabští matematici a šířili ji dál; středověcí Arabové a Peršané ji nazývali „indické počty“ (al-hisáb al-hindí).",
+    "en": "The system was invented by Indian mathematicians between the 1st and 4th centuries. By the 9th century it had been adopted by Arab mathematicians, who spread it further; medieval Arabs and Persians called it 'Indian arithmetic' (al-hisab al-hindi)."
+   }
+  },
+  {
+   "id": "T261-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ze jména kterého učence, který kolem roku 820 působil v bagdádském Domě moudrosti, je odvozeno slovo algoritmus?",
+    "en": "The word algorithm is derived from the name of which scholar who worked at the House of Wisdom in Baghdad around 820?"
+   },
+   "moznosti": {
+    "cs": [
+     "al-Kindí",
+     "Omar Chajjám",
+     "al-Chorezmí (al-Khwarizmi)",
+     "Avicenna (Ibn Síná)"
+    ],
+    "en": [
+     "al-Kindi",
+     "Omar Khayyam",
+     "al-Khwarizmi",
+     "Avicenna (Ibn Sina)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Z latinizované podoby jeho jména vzniklo slovo algoritmus. Ze zkráceného názvu jeho pojednání navíc pochází i slovo algebra.",
+    "en": "The word algorithm comes from the Latinised form of his name. The word algebra, too, comes from the short title of his treatise."
+   }
+  },
+  {
+   "id": "T261-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik existuje platónských těles, tedy pravidelných konvexních mnohostěnů?",
+    "en": "How many Platonic solids – regular convex polyhedra – are there?"
+   },
+   "moznosti": {
+    "cs": [
+     "4",
+     "5",
+     "6",
+     "8"
+    ],
+    "en": [
+     "4",
+     "5",
+     "6",
+     "8"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jsou to čtyřstěn, krychle, osmistěn, dvanáctistěn a dvacetistěn. Že další neexistují, zdůvodňuje už Eukleidés ve 13. knize svých Základů (Elements).",
+    "en": "They are the tetrahedron, cube, octahedron, dodecahedron and icosahedron. Euclid already argues in Book XIII of his Elements that no others exist."
+   }
+  },
+  {
+   "id": "T261-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak dlouho zhruba trvá miliarda sekund?",
+    "en": "Roughly how long is a billion (10⁹) seconds?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 3 roky",
+     "Asi 32 let",
+     "Asi 320 let",
+     "Asi 3 200 let"
+    ],
+    "en": [
+     "About 3 years",
+     "About 32 years",
+     "About 320 years",
+     "About 3,200 years"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Miliarda sekund je zhruba 31 let a 8 měsíců (asi 31,7 roku). Pro srovnání: milion sekund uplyne za necelých 11 dní a 14 hodin.",
+    "en": "A billion seconds is roughly 31 years and 8 months (about 31.7 years). For comparison, a million seconds passes in just under 11 days and 14 hours."
+   }
+  },
+  {
+   "id": "T261-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která filozofka, astronomka a matematička působila v Alexandrii a roku 415 ji zavraždil dav?",
+    "en": "Which philosopher, astronomer and mathematician worked in Alexandria and was murdered by a mob in 415?"
+   },
+   "moznosti": {
+    "cs": [
+     "Xanthippa",
+     "Sapfó",
+     "Hypatia",
+     "Aspasie"
+    ],
+    "en": [
+     "Xanthippe",
+     "Sappho",
+     "Hypatia",
+     "Aspasia"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hypatia byla dcerou matematika Theóna Alexandrijského a psala komentáře k Diofantovi a Apollóniovi. Je první matematičkou, jejíž život je poměrně dobře zdokumentován.",
+    "en": "Hypatia was the daughter of the mathematician Theon of Alexandria and wrote commentaries on Diophantus and Apollonius. She is the first female mathematician whose life is reasonably well recorded."
+   }
+  },
+  {
+   "id": "T261-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Spis kterého matematika a astronoma z roku 628 je nejstarším známým textem, který s nulou zachází jako s plnohodnotným číslem a dává pravidla pro počítání s ní?",
+    "en": "The 628 treatise of which mathematician and astronomer is the earliest known text to treat zero as a number in its own right and give rules for calculating with it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Árjabhata (Aryabhata)",
+     "Bháskara II. (Bhaskara II)",
+     "Brahmagupta",
+     "Mahávíra (Mahavira)"
+    ],
+    "en": [
+     "Aryabhata",
+     "Bhaskara II",
+     "Brahmagupta",
+     "Mahavira"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Brahmagupta v díle Brāhmasphuṭasiddhānta stanovil například, že součin nuly s jakýmkoli číslem je nula. Jedno pravidlo ale dnes neplatí: tvrdil, že nula dělená nulou je nula.",
+    "en": "In his Brahmasphutasiddhanta, Brahmagupta stated, for example, that zero multiplied by any number is zero. One rule no longer holds today: he claimed that zero divided by zero is zero."
+   }
+  },
+  {
+   "id": "T261-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Velšský matematik Robert Recorde zavedl v roce 1557 znaménko rovnosti „=“. Proč podle svých slov zvolil dvě rovnoběžné čárky?",
+    "en": "In 1557 the Welsh mathematician Robert Recorde introduced the equals sign '='. Why, in his own words, did he choose two parallel lines?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zkrátil tak latinské slovo aequalis",
+     "Čárky znázorňovaly obě strany rovnice",
+     "Žádné dvě věci nemohou být rovnější",
+     "Napodobil dvě misky rovnoramenných vah"
+    ],
+    "en": [
+     "It abbreviated the Latin word aequalis",
+     "The lines represented the two sides of an equation",
+     "No two things can be more equal",
+     "They imitated the two pans of a balance"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "V knize The Whetstone of Witte vysvětlil, že znak zavádí, aby nemusel stále opakovat slova „se rovná“, a dvě rovnoběžky zvolil, „protože žádné dvě věci nemohou být rovnější“.",
+    "en": "In The Whetstone of Witte he explained that he introduced the sign to avoid repeating the words 'is equal to', and chose two parallel lines 'because no 2 things can be more equal'."
+   }
+  },
+  {
+   "id": "T261-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Platón v dialogu Tímaios přiřadil čtyři pravidelná tělesa čtyřem živlům. Který živel podle něj odpovídá krychli?",
+    "en": "In the Timaeus, Plato assigned four regular solids to the four elements. Which element did he associate with the cube?"
+   },
+   "moznosti": {
+    "cs": [
+     "Voda",
+     "Oheň",
+     "Vzduch",
+     "Země"
+    ],
+    "en": [
+     "Water",
+     "Fire",
+     "Air",
+     "Earth"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Krychle odpovídá zemi, čtyřstěn ohni, osmistěn vzduchu a dvacetistěn vodě.",
+    "en": "The cube was earth, the tetrahedron fire, the octahedron air and the icosahedron water."
+   }
+  },
+  {
+   "id": "T261-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Zlatý řez se označuje řeckým písmenem φ (fí). Na počest kterého antického umělce ho kolem roku 1910 začal používat vynálezce Mark Barr?",
+    "en": "The golden ratio is denoted by the Greek letter φ (phi). In honour of which ancient artist did the inventor Mark Barr start using it around 1910?"
+   },
+   "moznosti": {
+    "cs": [
+     "Feidiás",
+     "Myrón",
+     "Polykleitos",
+     "Skopas"
+    ],
+    "en": [
+     "Phidias",
+     "Myron",
+     "Polykleitos",
+     "Scopas"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Fí je první písmeno jména řeckého sochaře Feidia. Sám Barr později pochyboval, že Feidiás zlatý řez skutečně používal; někdy se místo φ píše τ z řeckého slova pro „řez“.",
+    "en": "Phi is the first letter of the name of the Greek sculptor Phidias. Barr himself later doubted that Phidias had actually used the ratio; τ, from the Greek word for 'cut', is sometimes used instead of φ."
+   }
+  },
+  {
+   "id": "T261-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Číslo 1729 proslavila anekdota o matematicích G. H. Hardym a S. Ramanujanovi. Čím je výjimečné?",
+    "en": "The number 1729 became famous through an anecdote about the mathematicians G. H. Hardy and S. Ramanujan. What makes it special?"
+   },
+   "moznosti": {
+    "cs": [
+     "Je jediné čtyřciferné číslo, které je zároveň druhou i třetí mocninou celého čísla",
+     "Je nejmenší přirozené číslo dělitelné beze zbytku všemi čísly od 1 do 12",
+     "Je nejmenší číslo, které je dvěma způsoby součtem dvou kladných třetích mocnin",
+     "Je nejmenší prvočíslo, které má čtyři číslice"
+    ],
+    "en": [
+     "It is the only four-digit number that is both a perfect square and a perfect cube",
+     "It is the smallest number divisible without remainder by every number from 1 to 12",
+     "It is the smallest number expressible as the sum of two positive cubes in two ways",
+     "It is the smallest prime number that has four digits"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "1729 = 1³ + 12³ = 9³ + 10³. Hardy přijel za nemocným Ramanujanem taxíkem č. 1729 a poznamenal, že je to dost nudné číslo; Ramanujan hned odvětil, že je naopak velmi zajímavé.",
+    "en": "1729 = 1³ + 12³ = 9³ + 10³. Hardy visited the ailing Ramanujan in taxicab No. 1729 and remarked that it was a rather dull number; Ramanujan at once replied that it was in fact very interesting."
+   }
+  },
+  {
+   "id": "T261-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaké největší číslo lze zapsat standardními římskými číslicemi, pokud se žádný znak nesmí opakovat víc než třikrát za sebou a nepoužívají se pruhy nad písmeny?",
+    "en": "What is the largest number that can be written in standard Roman numerals if no symbol may be repeated more than three times in a row and no bars over letters are used?"
+   },
+   "moznosti": {
+    "cs": [
+     "999",
+     "3999",
+     "4999",
+     "9999"
+    ],
+    "en": [
+     "999",
+     "3999",
+     "4999",
+     "9999"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Je to MMMCMXCIX = 3000 + 900 + 90 + 9 = 3999. Čtyři tisícovky by vyžadovaly MMMM nebo znak pro 5000, který standardní zápis nemá.",
+    "en": "It is MMMCMXCIX = 3000 + 900 + 90 + 9 = 3999. Four thousand would require MMMM or a symbol for 5,000, which the standard notation lacks."
+   }
+  },
+  {
+   "id": "T261-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Klasický fotbalový míč je sešitý z 12 pětiúhelníků a 20 šestiúhelníků, přičemž v každém vrcholu se stýkají tři stěny. Kolik má vrcholů?",
+    "en": "The classic football is made of 12 pentagons and 20 hexagons, with three faces meeting at every vertex. How many vertices does it have?"
+   },
+   "moznosti": {
+    "cs": [
+     "32",
+     "60",
+     "90",
+     "180"
+    ],
+    "en": [
+     "32",
+     "60",
+     "90",
+     "180"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Stěny mají dohromady 12 · 5 + 20 · 6 = 180 rohů a každý vrchol sdílejí tři, tedy 180 : 3 = 60. Těleso má 32 stěn a 90 hran; míč Telstar s tímto vzorem debutoval na MS 1970.",
+    "en": "The faces have 12 × 5 + 20 × 6 = 180 corners in total and each vertex is shared by three, so 180 ÷ 3 = 60. The solid has 32 faces and 90 edges; the Telstar ball with this pattern debuted at the 1970 World Cup."
+   }
+  },
+  {
+   "id": "T261-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Od roku 1992 má největší známé prvočíslo vždy tvar 2^p − 1 (k roku 2026), tedy o jedna menší než mocnina dvojky. Jak se takovým prvočíslům říká?",
+    "en": "Since 1992 the largest known prime has always had the form 2^p − 1 (as of 2026), one less than a power of two. What are such primes called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mersennova prvočísla",
+     "Prvočíselná dvojčata",
+     "Prvočísla Sophie Germainové",
+     "Fermatova prvočísla"
+    ],
+    "en": [
+     "Mersenne primes",
+     "Twin primes",
+     "Sophie Germain primes",
+     "Fermat primes"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Nesou jméno Marina Mersenna, který je studoval. Aby bylo číslo 2^p − 1 prvočíslem, musí být prvočíslem i samotný exponent p (např. 2⁷ − 1 = 127).",
+    "en": "They bear the name of Marin Mersenne, who studied them. For 2^p − 1 to be prime, the exponent p itself must be prime (e.g. 2⁷ − 1 = 127)."
+   }
+  },
+  {
+   "id": "T261-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Pražský matematik a filozof Bernard Bolzano byl povoláním…",
+    "en": "The Prague mathematician and philosopher Bernard Bolzano was by profession…"
+   },
+   "moznosti": {
+    "cs": [
+     "vojenský inženýr a stavitel pevností",
+     "lékař a profesor anatomie",
+     "advokát a zemský soudce",
+     "katolický kněz a profesor náboženství"
+    ],
+    "en": [
+     "a military engineer and fortress builder",
+     "a physician and professor of anatomy",
+     "a lawyer and provincial judge",
+     "a Catholic priest and professor of religion"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Bolzano byl katolický kněz a od roku 1805 zastával novou katedru filozofie náboženství na pražské univerzitě. V roce 1819 byl z místa odvolán, protože odmítl odvolat své názory, které byly pro rakouské úřady příliš liberální.",
+    "en": "Bolzano was a Catholic priest and from 1805 held the new chair of philosophy of religion at Prague University. In 1819 he was removed after refusing to recant his views, which the Austrian authorities considered too liberal."
+   }
+  },
+  {
+   "id": "T261-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo v roce 1706 jako první použil samotné řecké písmeno π pro poměr obvodu kruhu k jeho průměru?",
+    "en": "Who, in 1706, was the first to use the Greek letter π on its own for the ratio of a circle's circumference to its diameter?"
+   },
+   "moznosti": {
+    "cs": [
+     "Leonhard Euler",
+     "Isaac Newton",
+     "Gottfried Wilhelm Leibniz",
+     "William Jones"
+    ],
+    "en": [
+     "Leonhard Euler",
+     "Isaac Newton",
+     "Gottfried Wilhelm Leibniz",
+     "William Jones"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Velšský matematik William Jones ho použil v knize Synopsis Palmariorum Matheseos ve spojení „Periphery (π)“. Obecně se ale ujal až díky Leonhardu Eulerovi, který ho používal mimo jiné v hojně čteném díle Introductio in analysin infinitorum (1748).",
+    "en": "The Welsh mathematician William Jones used it in his book Synopsis Palmariorum Matheseos in the phrase 'Periphery (π)'. It caught on, however, only thanks to Leonhard Euler, who used it in, among others, his widely read Introductio in analysin infinitorum (1748)."
+   }
+  }
+ ]
+}

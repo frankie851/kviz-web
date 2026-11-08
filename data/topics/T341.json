@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T341",
+ "nazev": {
+  "cs": "Carské Rusko: od Ivana Hrozného po Romanovce",
+  "en": "Tsarist Russia: from Ivan the Terrible to the Romanovs"
+ },
+ "kategorie": {
+  "id": "historie",
+  "nazev": {
+   "cs": "Historie",
+   "en": "History"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T341-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který panovník byl roku 1547 jako první korunován carem celé Rusi?",
+    "en": "Which ruler was crowned in 1547 as the first Tsar of All Russia?"
+   },
+   "moznosti": {
+    "cs": [
+     "Petr I. Veliký",
+     "Ivan IV. Hrozný",
+     "Ivan III. Veliký",
+     "Boris Godunov"
+    ],
+    "en": [
+     "Peter I the Great",
+     "Ivan IV the Terrible",
+     "Ivan III the Great",
+     "Boris Godunov"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ivan IV. byl korunován 16. ledna 1547 (podle juliánského kalendáře) jako první ruský panovník s titulem car celé Rusi. Vládl až do své smrti roku 1584.",
+    "en": "Ivan IV was crowned on 16 January 1547 (Julian calendar) as the first Russian monarch to bear the title Tsar of All Russia. He reigned until his death in 1584."
+   }
+  },
+  {
+   "id": "T341-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na kterém moskevském náměstí stojí chrám Vasila Blaženého s pestrobarevnými cibulovitými kopulemi?",
+    "en": "On which Moscow square does St Basil's Cathedral, with its colourful onion domes, stand?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Manéžním náměstí",
+     "Na Rudém náměstí",
+     "Na Puškinově náměstí",
+     "Na Lubjanském náměstí"
+    ],
+    "en": [
+     "Manege Square",
+     "Red Square",
+     "Pushkin Square",
+     "Lubyanka Square"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Chrám stojí na Rudém náměstí v samém srdci Moskvy, hned vedle Kremlu. Postaven byl v letech 1555–1561 na příkaz Ivana Hrozného.",
+    "en": "The cathedral stands on Red Square in the very heart of Moscow, right next to the Kremlin. It was built between 1555 and 1561 on the orders of Ivan the Terrible."
+   }
+  },
+  {
+   "id": "T341-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která ruská panovnice, rodem německá princezna, se ujala vlády roku 1762 a dostala přídomek Veliká?",
+    "en": "Which Russian empress, born a German princess, took power in 1762 and became known as \"the Great\"?"
+   },
+   "moznosti": {
+    "cs": [
+     "Alžběta Petrovna",
+     "Kateřina I.",
+     "Kateřina II.",
+     "Anna Ivanovna"
+    ],
+    "en": [
+     "Elizabeth Petrovna",
+     "Catherine I",
+     "Catherine II",
+     "Anna Ivanovna"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kateřina II. se narodila roku 1729 ve Štětíně (dnes v Polsku) jako princezna Žofie Anhaltsko-Zerbstská. K moci se dostala převratem proti svému manželovi Petru III. a vládla 34 let až do své smrti roku 1796.",
+    "en": "Catherine II was born in 1729 in Stettin (now Szczecin in Poland) as Princess Sophie of Anhalt-Zerbst. She came to power in a coup against her husband Peter III and ruled for 34 years until her death in 1796."
+   }
+  },
+  {
+   "id": "T341-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které slavné muzeum dnes sídlí v Zimním paláci v Petrohradu, bývalé oficiální rezidenci carů?",
+    "en": "Which famous museum is housed today in the Winter Palace in St Petersburg, the former official residence of the tsars?"
+   },
+   "moznosti": {
+    "cs": [
+     "Treťjakovská galerie",
+     "Ermitáž",
+     "Puškinovo muzeum",
+     "Ruské muzeum"
+    ],
+    "en": [
+     "The Tretyakov Gallery",
+     "The Hermitage",
+     "The Pushkin Museum",
+     "The Russian Museum"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Zimní palác byl od roku 1732 oficiální rezidencí ruských panovníků. Dnes v něm a v pěti sousedních historických budovách na Palácovém nábřeží sídlí Státní Ermitáž, jejíž sbírka obrazů patří k největším na světě.",
+    "en": "The Winter Palace served as the official residence of the Russian monarchs from 1732. Today it and five neighbouring historic buildings on the Palace Embankment house the State Hermitage, whose collection of paintings is among the largest in the world."
+   }
+  },
+  {
+   "id": "T341-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "O které dceři Mikuláše II. se desítky let tradovalo, že popravu carské rodiny přežila?",
+    "en": "Which daughter of Nicholas II was rumoured for decades to have survived the execution of the imperial family?"
+   },
+   "moznosti": {
+    "cs": [
+     "Marie",
+     "Olga",
+     "Taťána",
+     "Anastázie"
+    ],
+    "en": [
+     "Maria",
+     "Olga",
+     "Tatiana",
+     "Anastasia"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pověsti živilo to, že místo pohřbu bylo za komunismu neznámé; na legendě stojí i animovaný film Anastázie (1997). Ostatky careviče Alexeje a jedné z jeho sester se našly roku 2007 a testy DNA potvrdily, že nepřežil nikdo.",
+    "en": "The rumours were fuelled by the burial site being unknown under communism, and the 1997 animated film Anastasia is based on the legend. The remains of Tsarevich Alexei and one of his sisters were found in 2007, and DNA tests confirmed that no one survived."
+   }
+  },
+  {
+   "id": "T341-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo byl Grigorij Rasputin, který získal velký vliv na carskou rodinu?",
+    "en": "Who was Grigori Rasputin, who gained great influence over the imperial family?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sibiřský rolník, mystik a léčitel",
+     "Ministr zahraničí a diplomat",
+     "Vůdce bolševické strany",
+     "Velitel carské osobní gardy"
+    ],
+    "en": [
+     "A Siberian peasant, mystic and healer",
+     "A foreign minister and diplomat",
+     "Leader of the Bolshevik party",
+     "Commander of the tsar's personal guard"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Rasputin pocházel z rolnické rodiny ze sibiřské vesnice Pokrovskoje. Carevna Alexandra věřila, že dokáže ulevit jejímu synovi Alexejovi, který trpěl hemofilií.",
+    "en": "Rasputin came from a peasant family in the Siberian village of Pokrovskoye. Empress Alexandra believed he could ease the suffering of her son Alexei, who had haemophilia."
+   }
+  },
+  {
+   "id": "T341-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Petr Veliký založil roku 1703 Petrohrad jako „okno na Západ“. Ke kterému moři tím Rusko získalo pevný přístup?",
+    "en": "Peter the Great founded St Petersburg in 1703 as a \"window to the West\". Which sea did this give Russia firm access to?"
+   },
+   "moznosti": {
+    "cs": [
+     "K Baltskému moři",
+     "K Černému moři",
+     "Ke Kaspickému moři",
+     "K Bílému moři"
+    ],
+    "en": [
+     "The Baltic Sea",
+     "The Black Sea",
+     "The Caspian Sea",
+     "The White Sea"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Petrohrad vyrostl u ústí Něvy do Finského zálivu Baltského moře, na území dobytém během Velké severní války. Mírem z Nystadu (1721) pak Rusko získalo i Estonsko a Livonsko.",
+    "en": "St Petersburg was built where the Neva flows into the Gulf of Finland of the Baltic Sea, on land conquered during the Great Northern War. With the Treaty of Nystad (1721) Russia also gained Estonia and Livonia."
+   }
+  },
+  {
+   "id": "T341-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém roce revoluce donutila Mikuláše II. vzdát se trůnu?",
+    "en": "In which year did a revolution force Nicholas II to give up the throne?"
+   },
+   "moznosti": {
+    "cs": [
+     "1905",
+     "1914",
+     "1917",
+     "1921"
+    ],
+    "en": [
+     "1905",
+     "1914",
+     "1917",
+     "1921"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Únorová revoluce donutila Mikuláše II. k abdikaci v březnu 1917 a vládu převzala prozatímní vláda. Na podzim téhož roku se moci chopili bolševici.",
+    "en": "The February Revolution forced Nicholas II to abdicate in March 1917, and a Provisional Government took over. In the autumn of the same year the Bolsheviks seized power."
+   }
+  },
+  {
+   "id": "T341-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývali poddaní rolníci připoutaní k půdě svého pána, které car osvobodil roku 1861?",
+    "en": "What were the peasants bound to their lord's land, whom the tsar freed in 1861, called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bojaři",
+     "Nevolníci",
+     "Strelci",
+     "Kozáci"
+    ],
+    "en": [
+     "Boyars",
+     "Serfs",
+     "Streltsy",
+     "Cossacks"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Manifestem z roku 1861 získalo svobodu přes 23 milionů lidí. Statkáře za půdu vyplatil stát a bývalí nevolníci mu to pak museli desítky let splácet; tyto výkupné platby stát zrušil až roku 1907.",
+    "en": "The 1861 manifesto freed more than 23 million people. The state paid the landowners for the land, and the former serfs then had to repay the state for decades; these redemption payments were only cancelled in 1907."
+   }
+  },
+  {
+   "id": "T341-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Petr Veliký byl na svou dobu mimořádně vysoký. Kolik podle dobových údajů měřil?",
+    "en": "Peter the Great was extraordinarily tall for his time. How tall was he reportedly?"
+   },
+   "moznosti": {
+    "cs": [
+     "1,65 m",
+     "1,80 m",
+     "2,03 m",
+     "2,25 m"
+    ],
+    "en": [
+     "1.65 m (5 ft 5 in)",
+     "1.80 m (5 ft 11 in)",
+     "2.03 m (6 ft 8 in)",
+     "2.25 m (7 ft 5 in)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Petr měřil podle dochovaných údajů asi 2,03 m, takže byl na svou dobu skutečným obrem.",
+    "en": "Peter reportedly stood about 2.03 m (6 ft 8 in), a true giant for his time."
+   }
+  },
+  {
+   "id": "T341-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který ruský vojevůdce rozhodl v září 1812 vydat Moskvu Napoleonovi bez boje, aby zachránil armádu?",
+    "en": "Which Russian commander decided in September 1812 to give up Moscow to Napoleon without a fight in order to save the army?"
+   },
+   "moznosti": {
+    "cs": [
+     "Alexandr Suvorov",
+     "Petr Bagration",
+     "Grigorij Potěmkin",
+     "Michail Kutuzov"
+    ],
+    "en": [
+     "Alexander Suvorov",
+     "Pyotr Bagration",
+     "Grigory Potemkin",
+     "Mikhail Kutuzov"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vrchní velitel Kutuzov po válečné poradě ve Filech Moskvu opustil a armádu stáhl jihovýchodně od města. Napoleona pak vyčerpával opotřebovací válkou místo rozhodující bitvy.",
+    "en": "After the council of war at Fili, commander-in-chief Kutuzov abandoned Moscow and withdrew the army south-east of the city. He then wore Napoleon down with a war of attrition instead of a decisive battle."
+   }
+  },
+  {
+   "id": "T341-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kterému carovi se kvůli reformě z roku 1861 přezdívá Osvoboditel?",
+    "en": "Which tsar became known as \"the Liberator\" because of his reform of 1861?"
+   },
+   "moznosti": {
+    "cs": [
+     "Alexandr I.",
+     "Mikuláš I.",
+     "Alexandr II.",
+     "Alexandr III."
+    ],
+    "en": [
+     "Alexander I",
+     "Nicholas I",
+     "Alexander II",
+     "Alexander III"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Alexandr II. podepsal emancipační manifest 3. března 1861 (19. února podle starého kalendáře). Svobodu tím získalo přes 23 milionů lidí.",
+    "en": "Alexander II signed the Emancipation Manifesto on 3 March 1861 (19 February Old Style). More than 23 million people gained their freedom."
+   }
+  },
+  {
+   "id": "T341-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém městě byla v červenci 1918 zastřelena carská rodina?",
+    "en": "In which city was the imperial family shot in July 1918?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Moskvě",
+     "V Tobolsku",
+     "V Jekatěrinburgu",
+     "V Petrohradu"
+    ],
+    "en": [
+     "Moscow",
+     "Tobolsk",
+     "Yekaterinburg",
+     "Petrograd"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Mikuláš II., jeho žena a pět dětí byli zavražděni v noci na 17. července 1918 ve sklepě Ipaťjevova domu v Jekatěrinburgu na Uralu. Po abdikaci rodinu nejprve držela v domácím vězení prozatímní vláda, pak ji převzali bolševici.",
+    "en": "Nicholas II, his wife and their five children were murdered on 17 July 1918 in the cellar of the Ipatiev House in Yekaterinburg in the Urals. After the abdication the family was first held under house arrest by the Provisional Government and later handed over to the Bolsheviks."
+   }
+  },
+  {
+   "id": "T341-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kterého panovníka porazil Petr Veliký roku 1709 v rozhodující bitvě u Poltavy?",
+    "en": "Which monarch did Peter the Great defeat in 1709 at the decisive Battle of Poltava?"
+   },
+   "moznosti": {
+    "cs": [
+     "Osmanského sultána Ahmeda III.",
+     "Polského krále Jana III. Sobieského",
+     "Pruského krále Fridricha I.",
+     "Švédského krále Karla XII."
+    ],
+    "en": [
+     "Ottoman Sultan Ahmed III",
+     "King John III Sobieski of Poland",
+     "King Frederick I of Prussia",
+     "King Charles XII of Sweden"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Rozhodující porážka švédských vojsk u Poltavy znamenala obrat ve Velké severní válce, kterou Rusko vítězně ukončilo mírem z Nystadu roku 1721.",
+    "en": "The decisive defeat of the Swedish army at Poltava turned the tide of the Great Northern War, which Russia won with the Treaty of Nystad in 1721."
+   }
+  },
+  {
+   "id": "T341-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Mladý car Petr cestoval v letech 1697–1698 po západní Evropě inkognito pod jménem Petr Michajlov. Čím se mimo jiné zabýval v Nizozemsku?",
+    "en": "In 1697–1698 the young Tsar Peter travelled around Western Europe incognito under the name Peter Mikhailov. What did he do in the Netherlands, among other things?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vyučil se sládkem v pivovaru",
+     "Pracoval v loděnici na stavbě lodí",
+     "Pracoval jako písař v obchodní kanceláři",
+     "Sloužil jako prostý voják v armádě"
+    ],
+    "en": [
+     "He trained as a brewer in a brewery",
+     "He worked in a shipyard building ships",
+     "He worked as a clerk in a trading office",
+     "He served as an ordinary soldier in the army"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Petr se v loděnici Nizozemské Východoindické společnosti čtyři měsíce prakticky učil stavět lodě a pomáhal stavět loď Petr a Pavel. Cestu musel předčasně ukončit kvůli vzpouře strelců v Moskvě.",
+    "en": "Peter spent four months gaining hands-on experience at a Dutch East India Company shipyard and helped build the ship Peter and Paul. He had to cut the journey short because of the Streltsy uprising in Moscow."
+   }
+  },
+  {
+   "id": "T341-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se roku 1613 stal šestnáctiletý Michail Romanov carem?",
+    "en": "How did sixteen-year-old Michael Romanov become tsar in 1613?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zdědil trůn po svém otci",
+     "Dosadil ho na trůn polský král",
+     "Porazil v bitvě Lžidimitrije",
+     "Zvolil ho zemský sobor"
+    ],
+    "en": [
+     "He inherited the throne from his father",
+     "The Polish king placed him on the throne",
+     "He defeated False Dmitry in battle",
+     "He was elected by an assembly of the land"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Michaila zvolilo shromáždění zástupců stavů, zemský sobor, a jeho zvolení roku 1613 ukončilo období smuty (období zmatků). Předchozí dynastie Rurikovců vymřela roku 1598.",
+    "en": "Michael was elected by an assembly of the estates, the Zemsky Sobor, and his election in 1613 ended the Time of Troubles. The preceding Rurikid dynasty had died out in 1598."
+   }
+  },
+  {
+   "id": "T341-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na počest kterého vítězství dal Ivan Hrozný postavit chrám Vasila Blaženého?",
+    "en": "Which victory did Ivan the Terrible have St Basil's Cathedral built to commemorate?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dobytí Kazaně",
+     "Konce tatarského jha na řece Ugře",
+     "Dobytí Novgorodu",
+     "Bitvy na Kulikově poli"
+    ],
+    "en": [
+     "The capture of Kazan",
+     "The end of the Tatar yoke on the Ugra River",
+     "The conquest of Novgorod",
+     "The Battle of Kulikovo"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kazaň padla roku 1552 a chrám, který připomíná dobytí Kazaně i Astrachaně, vznikl v letech 1555–1561. Podle pověsti dal Ivan architekta oslepit, aby podobný div nepostavil jinde, mnoho historiků ji ale považuje za mýtus.",
+    "en": "Kazan fell in 1552, and the cathedral, which commemorates the capture of Kazan and Astrakhan, was built in 1555–1561. Legend says Ivan had the architect blinded so he could not build such a marvel elsewhere, but many historians consider this a myth."
+   }
+  },
+  {
+   "id": "T341-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co se stalo v Petrohradu v lednu 1905 o takzvané Krvavé neděli?",
+    "en": "What happened in St Petersburg in January 1905 on the so-called Bloody Sunday?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vojáci stříleli do pokojného průvodu dělníků s peticí carovi",
+     "Při velkém požáru vyhořela většina carského paláce",
+     "Revolucionáři zabili bombou ministra vnitra",
+     "Rozvodněná Něva zaplavila velkou část města"
+    ],
+    "en": [
+     "Soldiers fired on a peaceful workers' march carrying a petition to the tsar",
+     "A huge fire destroyed most of the imperial palace",
+     "Revolutionaries killed the interior minister with a bomb",
+     "The Neva burst its banks and flooded much of the city"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Průvod vedený knězem Georgijem Gaponem mířil k Zimnímu paláci, kde ale car vůbec nebyl. Masakr s téměř stovkou mrtvých podle oficiálních údajů odstartoval revoluci roku 1905.",
+    "en": "The march, led by the priest Georgy Gapon, was heading for the Winter Palace, though the tsar was not even there. The massacre, with nearly a hundred dead according to official figures, sparked the 1905 Revolution."
+   }
+  },
+  {
+   "id": "T341-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "V domě kterého šlechtice byl v prosinci 1916 zavražděn Grigorij Rasputin?",
+    "en": "In the home of which nobleman was Grigori Rasputin murdered in December 1916?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sergeje Witteho",
+     "Petra Stolypina",
+     "Felixe Jusupova",
+     "Alexandra Kerenského"
+    ],
+    "en": [
+     "Sergei Witte",
+     "Pyotr Stolypin",
+     "Felix Yusupov",
+     "Alexander Kerensky"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Rasputina zabili konzervativní šlechtici v Jusupovském paláci na Mojce a tělo hodili do říčního ramene Malaja Něvka. Slavná historka o otrávených zákuscích se nepotvrdila – pitva našla střelné rány, ale žádné stopy jedu.",
+    "en": "Rasputin was killed by conservative nobles at Yusupov's Moika Palace and his body was thrown into the Little Nevka river. The famous tale of poisoned cakes was not confirmed – the autopsy found gunshot wounds but no trace of poison."
+   }
+  },
+  {
+   "id": "T341-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která z těchto zemí NEBOJOVALA v krymské válce (1853–1856) proti Rusku?",
+    "en": "Which of these countries did NOT fight against Russia in the Crimean War (1853–1856)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sardinské království",
+     "Rakousko",
+     "Osmanská říše",
+     "Francie"
+    ],
+    "en": [
+     "The Kingdom of Sardinia",
+     "Austria",
+     "The Ottoman Empire",
+     "France"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Proti Rusku bojovaly Osmanská říše, Francie, Spojené království a Sardinie, Rakousko zůstalo neutrální. Válku ukončil Pařížský mír roku 1856 po jedenáctiměsíčním obléhání Sevastopolu.",
+    "en": "Russia fought the Ottoman Empire, France, the United Kingdom and Sardinia, while Austria remained neutral. The war ended with the Treaty of Paris in 1856, after the 11-month siege of Sevastopol."
+   }
+  },
+  {
+   "id": "T341-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Opričníci, obávaná garda Ivana Hrozného, vozili u sedla dva symboly svého poslání. Které?",
+    "en": "The oprichniki, Ivan the Terrible's feared guard, carried two symbols of their mission on their saddles. What were they?"
+   },
+   "moznosti": {
+    "cs": [
+     "Psí hlavu a koště",
+     "Liščí ocas a zvonek",
+     "Medvědí tlapu a sekeru",
+     "Lebku a přesýpací hodiny"
+    ],
+    "en": [
+     "A dog's head and a broom",
+     "A fox's tail and a bell",
+     "A bear's paw and an axe",
+     "A skull and an hourglass"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Psí hlava měla „vyčenichat“ zradu a nepřátele cara, koště je pak „vymést“. Opričníci chodili v černém jako mniši a opričnina trvala v letech 1565–1572.",
+    "en": "The dog's head was meant to sniff out treason and the tsar's enemies, and the broom to sweep them away. The oprichniki dressed in black like monks, and the oprichnina lasted from 1565 to 1572."
+   }
+  },
+  {
+   "id": "T341-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Za koho se vydával Lžidimitrij I., který roku 1605 usedl na moskevský trůn?",
+    "en": "Who did False Dmitry I, who took the Moscow throne in 1605, claim to be?"
+   },
+   "moznosti": {
+    "cs": [
+     "Za Dmitrije, nejmladšího syna Ivana Hrozného",
+     "Za Ivana, staršího syna Ivana Hrozného",
+     "Za syna Borise Godunova",
+     "Za vnuka polského krále Zikmunda"
+    ],
+    "en": [
+     "Dmitry, the youngest son of Ivan the Terrible",
+     "Ivan, the elder son of Ivan the Terrible",
+     "A son of Boris Godunov",
+     "A grandson of the Polish King Sigismund"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Samozvanec se trůnu zmocnil po smrti Borise Godunova a korunován byl v červenci 1605. Patří k nejznámějším postavám období smuty (1598–1613).",
+    "en": "The impostor seized the throne after the death of Boris Godunov and was crowned in July 1605. He is one of the best-known figures of the Time of Troubles (1598–1613)."
+   }
+  },
+  {
+   "id": "T341-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo vedl lidovou domobranu, která roku 1612 vyhnala Poláky z Moskvy?",
+    "en": "Who led the volunteer militia that drove the Poles out of Moscow in 1612?"
+   },
+   "moznosti": {
+    "cs": [
+     "Michail Romanov a patriarcha Filaret",
+     "Boris Godunov a Vasilij Šujskij",
+     "Stěnka Razin a Jemeljan Pugačov",
+     "Kuzma Minin a Dmitrij Požarskij"
+    ],
+    "en": [
+     "Michael Romanov and Patriarch Filaret",
+     "Boris Godunov and Vasily Shuisky",
+     "Stenka Razin and Yemelyan Pugachev",
+     "Kuzma Minin and Dmitry Pozharsky"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Minin byl řezník z Nižního Novgorodu, který domobranu zorganizoval a do jejího čela povolal knížete Požarského. Jejich vítězství ukončilo polskou okupaci Moskvy a přiblížilo konec období smuty.",
+    "en": "Minin was a butcher from Nizhny Novgorod who organised the militia and recruited Prince Pozharsky to lead it. Their victory ended the Polish occupation of Moscow and brought the Time of Troubles close to its end."
+   }
+  },
+  {
+   "id": "T341-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Třetí carské Fabergého vejce z roku 1887, dlouho považované za ztracené, se roku 2012 objevilo v USA. Kdo ho tehdy měl doma?",
+    "en": "The Third Imperial Fabergé Egg of 1887, long thought lost, turned up in the USA in 2012. Who had it at home?"
+   },
+   "moznosti": {
+    "cs": [
+     "Venkovské muzeum, které ho mělo v depozitáři",
+     "Sběratel, který ho zdědil po dědovi",
+     "Farář, kterému ho daroval neznámý dárce",
+     "Obchodník se šrotem, který ho koupil kvůli zlatu"
+    ],
+    "en": [
+     "A rural museum that kept it in storage",
+     "A collector who had inherited it from his grandfather",
+     "A priest who had received it from an anonymous donor",
+     "A scrap dealer who had bought it for its gold"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Obchodník ze Středozápadu ho koupil zhruba za 13–14 tisíc dolarů kvůli zlatu a drahokamům a chtěl ho prodat k roztavení. Když ho poznal na internetu podle článku v Telegraphu, vejce se ukázalo mít hodnotu kolem 33 milionů dolarů.",
+    "en": "A Midwestern dealer bought it for roughly 13,000–14,000 dollars for its gold and gems and planned to sell it to be melted down. When he recognised it online from a Telegraph article, the egg turned out to be worth about 33 million dollars."
+   }
+  },
+  {
+   "id": "T341-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Nejznámější žena, která se vydávala za přeživší dceru Mikuláše II., byla Anna Andersonová. Kým podle pozdějších testů DNA ve skutečnosti byla?",
+    "en": "The best-known woman claiming to be a surviving daughter of Nicholas II was Anna Anderson. Who was she really, according to later DNA tests?"
+   },
+   "moznosti": {
+    "cs": [
+     "Německou divadelní herečkou",
+     "Služebnou carské rodiny",
+     "Dcerou carova osobního lékaře",
+     "Polskou tovární dělnicí"
+    ],
+    "en": [
+     "A German stage actress",
+     "A maid of the imperial family",
+     "The daughter of the tsar's personal physician",
+     "A Polish factory worker"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "DNA Anny Andersonové odpovídala prasynovci pohřešované polské dělnice Franzisky Schanzkowské. Ostatky careviče Alexeje a jeho sestry, nalezené roku 2007, testy DNA potvrdily jako pravé.",
+    "en": "Anna Anderson's DNA matched a great-nephew of Franziska Schanzkowska, a missing Polish factory worker. The remains of Tsarevich Alexei and his sister, found in 2007, were confirmed by DNA tests."
+   }
+  },
+  {
+   "id": "T341-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo roku 1891 ve Vladivostoku slavnostně zahájil stavbu Transsibiřské magistrály?",
+    "en": "Who ceremonially inaugurated construction of the Trans-Siberian Railway in Vladivostok in 1891?"
+   },
+   "moznosti": {
+    "cs": [
+     "Velkokníže Michail Alexandrovič",
+     "Carevič Mikuláš",
+     "Státník Sergej Witte",
+     "Car Alexandr III."
+    ],
+    "en": [
+     "Grand Duke Michael Alexandrovich",
+     "Tsarevich Nicholas",
+     "Statesman Sergei Witte",
+     "Tsar Alexander III"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Následník trůnu Mikuláš, pozdější car Mikuláš II., zahájil stavbu v květnu 1891 při návratu ze své velké cesty po Asii. Trať dlouhá 9 289 km (5 772 mi) dnes prochází osmi časovými pásmy.",
+    "en": "The heir to the throne, Nicholas, later Tsar Nicholas II, inaugurated construction in May 1891 on his way back from his grand tour of Asia. The 9,289 km (5,772 mi) line today crosses eight time zones."
+   }
+  },
+  {
+   "id": "T341-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co zkalilo oslavy korunovace Mikuláše II. v květnu 1896?",
+    "en": "What overshadowed the coronation celebrations of Nicholas II in May 1896?"
+   },
+   "moznosti": {
+    "cs": [
+     "Požár zničil korunovační chrám v Kremlu",
+     "Bomba anarchisty zabila carova strýce",
+     "Tlačenice na Chodynském poli si vyžádala přes tisíc mrtvých",
+     "Car se během obřadu zhroutil s horečkou"
+    ],
+    "en": [
+     "A fire destroyed the coronation cathedral in the Kremlin",
+     "An anarchist's bomb killed the tsar's uncle",
+     "A crush on Khodynka Field left over a thousand dead",
+     "The tsar collapsed with a fever during the ceremony"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Na lidové slavnosti s jídlem a pivem zdarma vyvolaly fámy, že se na všechny nedostane pivo a preclíky, paniku a dav ušlapal podle často uváděného údaje 1 389 lidí. Odhady počtu zraněných se pohybují zhruba od 1 200 do 20 000.",
+    "en": "At a public festival with free food and beer, rumours that there would not be enough beer and pretzels for everyone caused panic, and the crowd crushed a commonly cited 1,389 people to death. Estimates of the injured range from about 1,200 to 20,000."
+   }
+  },
+  {
+   "id": "T341-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve prospěch koho se Mikuláš II. nakonec vzdal trůnu, za sebe i za svého syna?",
+    "en": "In whose favour did Nicholas II finally abdicate, on behalf of himself and his son?"
+   },
+   "moznosti": {
+    "cs": [
+     "Velkoknížete Nikolaje Nikolajeviče",
+     "Svého mladšího bratra Michaila",
+     "Své nejstarší dcery Olgy",
+     "Velkoknížete Kirilla Vladimiroviče"
+    ],
+    "en": [
+     "Grand Duke Nikolai Nikolaevich",
+     "His younger brother Michael",
+     "His eldest daughter Olga",
+     "Grand Duke Kirill Vladimirovich"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Mikuláš nejprve abdikoval ve prospěch nemocného syna Alexeje, pak si to rozmyslel, aby se od něj nemusel odloučit. Velkokníže Michail korunu nepřijal, dokud by ho nepotvrdilo ústavodárné shromáždění, a v červnu 1918 byl zastřelen u Permu.",
+    "en": "Nicholas first abdicated in favour of his sick son Alexei, then changed his mind so as not to be separated from him. Grand Duke Michael would not accept the crown unless a Constituent Assembly confirmed him, and he was shot near Perm in June 1918."
+   }
+  },
+  {
+   "id": "T341-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proti nástupu kterého cara na trůn se v prosinci 1825 vzbouřili v Petrohradě děkabristé?",
+    "en": "Against the accession of which tsar did the Decembrists rise up in St Petersburg in December 1825?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mikuláše I.",
+     "Alexandra I.",
+     "Pavla I.",
+     "Alexandra II."
+    ],
+    "en": [
+     "Nicholas I",
+     "Alexander I",
+     "Paul I",
+     "Alexander II"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vojáci na Senátním náměstí odmítli přísahat Mikuláši I. a provolávali věrnost jeho bratrovi Konstantinovi. Pět vůdců bylo popraveno a mnoho dalších skončilo ve vyhnanství na Sibiři.",
+    "en": "The troops on Senate Square refused to swear allegiance to Nicholas I and proclaimed their loyalty to his brother Konstantin instead. Five leaders were executed and many others were exiled to Siberia."
+   }
+  },
+  {
+   "id": "T341-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co dnes stojí v Petrohradu na místě, kde byl roku 1881 smrtelně zraněn car Alexandr II.?",
+    "en": "What stands today in St Petersburg on the spot where Tsar Alexander II was mortally wounded in 1881?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chrám Kristova vzkříšení",
+     "Kazaňská katedrála",
+     "Socha Měděný jezdec",
+     "Katedrála svatého Izáka"
+    ],
+    "en": [
+     "The Church of the Resurrection",
+     "Kazan Cathedral",
+     "The Bronze Horseman statue",
+     "St Isaac's Cathedral"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Atentátníci z organizace Narodnaja vola hodili na carův kočár dvě bomby a druhá ho smrtelně zranila. Chrám Kristova vzkříšení u Gribojedovova kanálu, známější jako Spas na Krovi (Chrám Spasitele na prolité krvi), nechala na jeho památku postavit carská rodina s přispěním dárců v letech 1883–1907.",
+    "en": "Members of Narodnaya Volya threw two bombs at the tsar's carriage, and the second mortally wounded him. The Church of the Resurrection on the Griboyedov Canal, better known as the Church of the Saviour on Spilled Blood, was funded by the imperial family, with help from private donors, and built in his memory between 1883 and 1907."
+   }
+  }
+ ]
+}

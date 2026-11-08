@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T224",
+ "nazev": {
+  "cs": "Jeskyně světa: krápníky, propasti a jeskynní malby",
+  "en": "Caves of the World: Stalactites, Abysses and Cave Paintings"
+ },
+ "kategorie": {
+  "id": "zemepis",
+  "nazev": {
+   "cs": "Zeměpis",
+   "en": "Geography"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T224-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá krápník, který visí ze stropu jeskyně a roste směrem dolů?",
+    "en": "What is the name of a dripstone formation that hangs from a cave ceiling and grows downward?"
+   },
+   "moznosti": {
+    "cs": [
+     "Stalagmit",
+     "Stalaktit",
+     "Heliktit",
+     "Stalagnát"
+    ],
+    "en": [
+     "Stalagmite",
+     "Stalactite",
+     "Helictite",
+     "Stalagnate"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Stalaktit visí ze stropu, stalagmit mu „naproti“ roste ze dna. Oba vznikají z uhličitanu vápenatého (kalcitu), který se vysráží z kapající vody.",
+    "en": "A stalactite hangs from the ceiling, while a stalagmite grows up from the floor to meet it. Both form from calcium carbonate deposited by dripping water."
+   }
+  },
+  {
+   "id": "T224-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Rozpouštěním které horniny vznikají jeskyně v krasových oblastech, jako je Moravský kras?",
+    "en": "Dissolution of which rock creates the caves of karst regions such as the Moravian Karst?"
+   },
+   "moznosti": {
+    "cs": [
+     "Žuly",
+     "Vápence",
+     "Čediče",
+     "Pískovce"
+    ],
+    "en": [
+     "Granite",
+     "Limestone",
+     "Basalt",
+     "Sandstone"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Kras vzniká hlavně ve vápenci (uhličitanu vápenatém), který voda pomalu rozpouští. Tak vznikají jeskyně, závrty, ponory i podzemní řeky.",
+    "en": "Karst forms mainly in limestone (calcium carbonate), which water slowly dissolves, creating caves, sinkholes and underground rivers."
+   }
+  },
+  {
+   "id": "T224-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi leží jeskyně Lascaux se slavnými pravěkými malbami zvířat?",
+    "en": "In which country is Lascaux, the cave famous for its prehistoric animal paintings?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Francii",
+     "Ve Španělsku",
+     "V Itálii",
+     "V Německu"
+    ],
+    "en": [
+     "France",
+     "Spain",
+     "Italy",
+     "Germany"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Lascaux leží u Montignacu v departementu Dordogne. V září 1940 ji objevil osmnáctiletý Marcel Ravidat se třemi kamarády.",
+    "en": "Lascaux lies near Montignac in the Dordogne department. In September 1940 it was found by 18-year-old Marcel Ravidat and three friends."
+   }
+  },
+  {
+   "id": "T224-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se netopýři orientují v naprosté tmě jeskyně?",
+    "en": "How do bats find their way in the total darkness of a cave?"
+   },
+   "moznosti": {
+    "cs": [
+     "Echolokací",
+     "Elektrickým smyslem",
+     "Hmatem pomocí vousků",
+     "Čichem"
+    ],
+    "en": [
+     "By echolocation",
+     "By electroreception",
+     "By touch, using whiskers",
+     "By smell"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Netopýři vydávají hrtanem ultrazvukové signály a z ozvěny poznají, kde jsou stěny i kořist. Volají přitom ústy nebo nosem.",
+    "en": "Most bats emit ultrasonic calls from the larynx and read the echoes to locate walls and prey; they call through either the mouth or the nose."
+   }
+  },
+  {
+   "id": "T224-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Koho v roce 2018 zachraňovali potápěči ze zatopené jeskyně Tham Luang v Thajsku?",
+    "en": "Who did divers rescue from the flooded Tham Luang cave in Thailand in 2018?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chlapecký fotbalový tým s trenérem",
+     "Skupinu turistů z Evropy",
+     "Výpravu vědeckých jeskyňářů",
+     "Školní třídu na výletě"
+    ],
+    "en": [
+     "A boys' football team and their coach",
+     "A group of European tourists",
+     "A team of scientific cavers",
+     "A school class on a trip"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Uvízlo tam 12 chlapců z juniorského týmu Wild Boars (Divocí kanci) a jejich 25letý asistent trenéra. Do jeskyně vešli po tréninku a zaskočila je povodeň.",
+    "en": "Twelve boys from the junior team the Wild Boars and their 25-year-old assistant coach were trapped after entering the cave following practice and being cut off by floodwater."
+   }
+  },
+  {
+   "id": "T224-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi leží jeskyně Son Doong, podle průzkumu z roku 2009 považovaná za jeskyni s největší známou chodbou na světě?",
+    "en": "In which country is Son Doong, regarded since its 2009 survey as the cave with the world's largest known passage?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Thajsku",
+     "V Malajsii",
+     "V Číně",
+     "Ve Vietnamu"
+    ],
+    "en": [
+     "Thailand",
+     "Malaysia",
+     "China",
+     "Vietnam"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Son Doong leží v národním parku Phong Nha – Kẻ Bàng. Vchod našel roku 1990 místní obyvatel Hồ Khanh při hledání vonného agarového dřeva, chodbu zmapovala britská výprava v roce 2009.",
+    "en": "Son Doong lies in Phong Nha – Kẻ Bàng National Park. Local man Hồ Khanh found the entrance in 1990 while searching for agarwood, and a British expedition surveyed the passage in 2009."
+   }
+  },
+  {
+   "id": "T224-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co vytváří „hvězdnou oblohu“ na stropě jeskyní Waitomo na Novém Zélandu?",
+    "en": "What creates the 'starry sky' on the ceiling of the Waitomo Caves in New Zealand?"
+   },
+   "moznosti": {
+    "cs": [
+     "Odražené denní světlo",
+     "Fluoreskující minerály",
+     "Svítící larvy hmyzu",
+     "Svítící houby"
+    ],
+    "en": [
+     "Reflected daylight",
+     "Fluorescent minerals",
+     "Glowing insect larvae",
+     "Glowing fungi"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Světélkují larvy drobné mušky Arachnocampa luminosa, která žije jen na Novém Zélandu. Modrozeleným světlem lákají hmyz.",
+    "en": "The glow comes from larvae of the fungus gnat Arachnocampa luminosa, found only in New Zealand; their blue-green light lures insects."
+   }
+  },
+  {
+   "id": "T224-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá věda, která se zabývá jeskyněmi?",
+    "en": "What is the name of the science that studies caves?"
+   },
+   "moznosti": {
+    "cs": [
+     "Limnologie",
+     "Seismologie",
+     "Glaciologie",
+     "Speleologie"
+    ],
+    "en": [
+     "Limnology",
+     "Seismology",
+     "Glaciology",
+     "Speleology"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Slovo speleologie pochází z řeckého spḗlaion (jeskyně) a -logia (nauka). Zkoumá vznik, stavbu i život jeskyní.",
+    "en": "Speleology comes from the Greek spḗlaion ('cave') and -logia ('study of'); it covers how caves form, their structure and their life."
+   }
+  },
+  {
+   "id": "T224-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Letouni (netopýři a kaloni) jsou jediní savci, kteří dokážou…",
+    "en": "Bats are the only mammals that can…"
+   },
+   "moznosti": {
+    "cs": [
+     "vidět ultrafialové světlo.",
+     "snášet vejce.",
+     "hibernovat.",
+     "vytrvale aktivně létat."
+    ],
+    "en": [
+     "see ultraviolet light.",
+     "lay eggs.",
+     "hibernate.",
+     "sustain powered flight."
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jiní „létající“ savci, třeba poletuchy, jen plachtí. Letouni mávají křídly z kožní blány napjaté mezi prodlouženými prsty.",
+    "en": "Other 'flying' mammals, such as flying squirrels, only glide; bats flap wings made of skin stretched between elongated fingers."
+   }
+  },
+  {
+   "id": "T224-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím je výjimečná prohlídka Punkevních jeskyní v Moravském krasu?",
+    "en": "What makes a tour of the Punkva Caves in the Moravian Karst special?"
+   },
+   "moznosti": {
+    "cs": [
+     "Část trasy se jede podzemním vláčkem",
+     "Prohlídka probíhá jen při svíčkách",
+     "Návštěvníci do jeskyně slaňují po laně",
+     "Část trasy se pluje na lodích po podzemní řece"
+    ],
+    "en": [
+     "Part of the route is by underground train",
+     "The tour is lit only by candles",
+     "Visitors abseil into the cave on a rope",
+     "Part of the route is by boat on an underground river"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Plavba na lodích po říčce Punkvě se tu nabízí od roku 1921 a podle správy jeskyní je to dnes jediná plavba motorovými loděmi v přírodní jeskyni v kontinentální Evropě. Trasa vede i na dno 138 m hluboké propasti Macocha.",
+    "en": "Boat trips on the Punkva river have been offered since 1921, and according to the cave administration it is today the only motor-boat ride in a natural cave in continental Europe. The route also takes in the bottom of the 138-metre-deep (453 ft) Macocha Abyss."
+   }
+  },
+  {
+   "id": "T224-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se nazývá krápník, který vznikne, když stalaktit sroste se stalagmitem v jeden sloup?",
+    "en": "What is the name of the formation created when a stalactite and a stalagmite join into a single pillar?"
+   },
+   "moznosti": {
+    "cs": [
+     "Stalagnát",
+     "Heliktit",
+     "Pizolit",
+     "Travertin"
+    ],
+    "en": [
+     "Stalagnate",
+     "Helictite",
+     "Pisolite",
+     "Travertine"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Stalagnát (sloup) vznikne, když se stalaktit a stalagmit setkají a srostou v jeden celek.",
+    "en": "A stalagnate (column) forms when a stalactite and a stalagmite meet and fuse into one."
+   }
+  },
+  {
+   "id": "T224-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Díky čemu dokáže dešťová voda rozpouštět horninu v krasových oblastech a vytvářet jeskyně?",
+    "en": "What enables rainwater to dissolve the rock of karst regions and create caves?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rozpuštěnému dusíku",
+     "Rozpuštěnému kyslíku",
+     "Rozpuštěné kuchyňské soli",
+     "Rozpuštěnému oxidu uhličitému"
+    ],
+    "en": [
+     "Dissolved nitrogen",
+     "Dissolved oxygen",
+     "Dissolved table salt",
+     "Dissolved carbon dioxide"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Voda pohlcuje CO₂ ze vzduchu a hlavně z půdy a vzniká slabá kyselina uhličitá, která horninu pomalu rozpouští.",
+    "en": "Water absorbs CO₂ from the air and especially from soil, forming weak carbonic acid that slowly dissolves the rock."
+   }
+  },
+  {
+   "id": "T224-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Přibližně jak staré jsou malby ve francouzské jeskyni Chauvet, objevené v roce 1994?",
+    "en": "Roughly how old are the paintings in France's Chauvet Cave, discovered in 1994?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 3 000 let",
+     "Asi 10 000 let",
+     "Asi 20 000 let",
+     "Asi 30 000 let"
+    ],
+    "en": [
+     "About 3,000 years",
+     "About 10,000 years",
+     "About 20,000 years",
+     "About 30,000 years"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Studie z roku 2012 datovala malby na 30 000–32 000 let, podle studie z roku 2020 je nejstarší malba stará asi 36 500 let. Jsou tak mnohem starší než malby v Lascaux (asi 17 000–22 000 let).",
+    "en": "A 2012 study dated the paintings to 30,000–32,000 years ago, and a 2020 study put the oldest painting at about 36,500 years, making them far older than Lascaux's paintings (about 17,000–22,000 years)."
+   }
+  },
+  {
+   "id": "T224-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč byla jeskyně Lascaux v roce 1963 uzavřena pro veřejnost?",
+    "en": "Why was Lascaux cave closed to the public in 1963?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zaplavila ji podzemní řeka",
+     "Vedl se o ni soudní spor o vlastnictví",
+     "Malby poškozoval dech a teplo návštěvníků",
+     "Hrozilo zřícení jejího stropu"
+    ],
+    "en": [
+     "An underground river flooded it",
+     "It was the subject of an ownership lawsuit",
+     "Visitors' breath and body heat were damaging the paintings",
+     "Its ceiling was in danger of collapse"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Asi 1 200 návštěvníků denně zvyšovalo oxid uhličitý, teplotu a vlhkost a na stěnách se začaly šířit houby a lišejníky. Dnes lidé chodí do věrných replik, nejnověji Lascaux IV z roku 2016.",
+    "en": "Around 1,200 visitors a day raised carbon dioxide, heat and humidity, and fungi and lichen spread over the walls. Today people visit faithful replicas, most recently Lascaux IV, opened in 2016."
+   }
+  },
+  {
+   "id": "T224-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které zvíře dominuje slavnému malovanému stropu jeskyně Altamira ve Španělsku?",
+    "en": "Which animal dominates the famous painted ceiling of the Altamira cave in Spain?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bizon",
+     "Sob",
+     "Medvěd",
+     "Mamut"
+    ],
+    "en": [
+     "Bison",
+     "Reindeer",
+     "Bear",
+     "Mammoth"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Polychromní strop zobrazuje stádo vyhynulých stepních bizonů. Roku 1879 sem amatérského archeologa Marcelina Sanze de Sautuolu zavedla jeho osmiletá dcera María a on poznal, že skvrny na stěnách jsou kresby.",
+    "en": "The Polychrome Ceiling shows a herd of extinct steppe bison. In 1879 amateur archaeologist Marcelino Sanz de Sautuola was led into the cave by his eight-year-old daughter María and realised that the markings on the walls were drawings."
+   }
+  },
+  {
+   "id": "T224-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve které zemi leží Eisriesenwelt, považovaná za největší ledovou jeskyni světa?",
+    "en": "In which country is Eisriesenwelt, regarded as the largest ice cave in the world?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Rakousku",
+     "V Norsku",
+     "Na Islandu",
+     "Ve Švýcarsku"
+    ],
+    "en": [
+     "Austria",
+     "Norway",
+     "Iceland",
+     "Switzerland"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Eisriesenwelt („svět ledových obrů“) leží u městečka Werfen v Salcbursku a měří přes 42 km. Led se drží jen v její přední části, kam v zimě proudí mrazivý vzduch.",
+    "en": "Eisriesenwelt ('world of the ice giants') lies near Werfen in Salzburg and extends more than 42 km (26 mi); the ice is confined to the front section, where freezing air flows in during winter."
+   }
+  },
+  {
+   "id": "T224-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co roste uvnitř jeskyně Son Doong v místech, kde se propadl strop a dovnitř proniká denní světlo?",
+    "en": "What grows inside the Son Doong cave where the ceiling has collapsed and daylight gets in?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rašeliniště s rosnatkami",
+     "Kaktusový porost",
+     "Bambusová plantáž",
+     "Džungle se stromy"
+    ],
+    "en": [
+     "A peat bog with sundews",
+     "A cactus thicket",
+     "A bamboo plantation",
+     "A jungle with trees"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jeskyně má dva velké závrty (propadlé stropy), kterými sem svítí slunce, takže uvnitř rostou stromy a další vegetace. Průřez její chodby je podle odhadů zhruba dvojnásobný oproti druhé největší.",
+    "en": "The cave has two large dolines (collapsed ceilings) that let in sunlight, so trees and other plants grow inside; its passage is believed to have roughly twice the cross-section of the next largest."
+   }
+  },
+  {
+   "id": "T224-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik dní (včetně prvního a posledního) uplynulo v roce 2018 od chvíle, kdy skupina uvízla v thajské jeskyni Tham Luang, do vyvedení posledních z nich?",
+    "en": "Counting both the first and the last day, how many days passed in 2018 from when the group became trapped in Thailand's Tham Luang cave until the last of them were brought out?"
+   },
+   "moznosti": {
+    "cs": [
+     "5",
+     "9",
+     "18",
+     "31"
+    ],
+    "en": [
+     "5",
+     "9",
+     "18",
+     "31"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Do jeskyně vešli 23. června, britští potápěči John Volanthen a Rick Stanton je našli 2. července a poslední vyšli 10. července. Při akci zahynul bývalý thajský námořní potápěč Saman Kunan.",
+    "en": "They entered on 23 June, British divers John Volanthen and Rick Stanton found them on 2 July, and the last came out on 10 July. Former Thai Navy SEAL Saman Kunan died during the operation."
+   }
+  },
+  {
+   "id": "T224-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Macaráty jeskynní (Proteus anguinus) po vydatných deštích občas vyplavila voda z podzemí. Za čí mláďata je podle lidové víry, kterou roku 1689 zaznamenal Valvasor, považovali obyvatelé Kraňska (dnes součást Slovinska)?",
+    "en": "After heavy rains, underground waters occasionally washed olms (Proteus anguinus) to the surface. According to folk belief recorded by Valvasor in 1689, what did the people of Carniola (now part of Slovenia) think they were the young of?"
+   },
+   "moznosti": {
+    "cs": [
+     "Za mláďata úhořů",
+     "Za mláďata krokodýlů",
+     "Za mláďata draků",
+     "Za mláďata mořských hadů"
+    ],
+    "en": [
+     "Eels",
+     "Crocodiles",
+     "Dragons",
+     "Sea serpents"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Místní věřili, že v podzemí žijí draci a bledí macaráti jsou jejich nevyvinutá mláďata. Dnes se tento slepý mlok dá vidět ve viváriu Postojenské jeskyně.",
+    "en": "Locals believed dragons lived underground and that the pale olms were their undeveloped offspring. Today this blind salamander can be seen in the vivarium of Postojna Cave."
+   }
+  },
+  {
+   "id": "T224-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která jeskyně je považována za nejdelší v Česku, s více než 40 km chodeb?",
+    "en": "Which cave is regarded as the longest in the Czech Republic, with more than 40 km (25 mi) of passages?"
+   },
+   "moznosti": {
+    "cs": [
+     "Javoříčské jeskyně",
+     "Koněpruské jeskyně",
+     "Amatérská jeskyně",
+     "Mladečské jeskyně"
+    ],
+    "en": [
+     "Javoříčko Caves",
+     "Koněprusy Caves",
+     "Amatérská Cave",
+     "Mladeč Caves"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Amatérská jeskyně leží v severní části Moravského krasu mezi Sloupem a Ostrovem u Macochy. Hlavní část objevili jeskyňáři ze skupiny Planivy 18. ledna 1969 a veřejnosti běžně přístupná není.",
+    "en": "Amatérská Cave lies in the northern Moravian Karst between Sloup and Ostrov u Macochy. Cavers from the Planivy club discovered its main part on 18 January 1969, and it is not normally open to the public."
+   }
+  },
+  {
+   "id": "T224-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Odkud pochází slovo „kras“, které se v podobě „karst“ stalo mezinárodním odborným termínem?",
+    "en": "Where does the word 'karst', now an international scientific term, come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Od staročeského slova pro krásu krápníků",
+     "Od plošiny Kras na pomezí Slovinska a Itálie",
+     "Od příjmení rakouského geologa Krasse",
+     "Od jeskyně Krásná na východním Slovensku"
+    ],
+    "en": [
+     "From an Old Czech word for the beauty of dripstones",
+     "From the Kras plateau on the Slovenia–Italy border",
+     "From the surname of an Austrian geologist, Krass",
+     "From the Krásná cave in eastern Slovakia"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Termín původně označoval jevy v Dinárských horách včetně plošiny mezi Itálií a Slovinskem, slovinsky Kras. Evropským učencům ho roku 1689 přiblížil Johann Weikhard von Valvasor.",
+    "en": "The term originally described landforms in the Dinaric Alps, including the plateau between Italy and Slovenia, Kras in Slovene; Johann Weikhard von Valvasor introduced it to European scholars in 1689."
+   }
+  },
+  {
+   "id": "T224-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se ukrajinský jeskyňář Gennadij Samochin roku 2007 dostal v abchazské jeskyni Krubera na tehdy světově rekordní hloubku 2 191 m?",
+    "en": "How did Ukrainian caver Gennadiy Samokhin reach the then world-record depth of 2,191 m (7,188 ft) in Abkhazia's Krubera Cave in 2007?"
+   },
+   "moznosti": {
+    "cs": [
+     "Potopil se do zatopeného sifonu na jejím dně",
+     "Prokopal se závalem na dně jeskyně",
+     "Objevil novou šachtu vedoucí z jiného vchodu",
+     "Nechal vyčerpat podzemní jezero pumpami"
+    ],
+    "en": [
+     "He dived into the flooded sump at the bottom",
+     "He dug through a rockfall at the bottom",
+     "He found a new shaft from another entrance",
+     "He had an underground lake pumped dry"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Potápěním v koncovém sifonu prodloužil jeskyni nejprve na 2 191 m a později na 2 197 m. Krubera byla první jeskyní, ve které jeskyňáři překonali hloubku 2 000 m.",
+    "en": "By diving in the terminal sump he extended the cave first to 2,191 m (7,188 ft) and then to 2,197 m (7,208 ft). Krubera was the first cave in which explorers passed a depth of 2,000 m (6,562 ft)."
+   }
+  },
+  {
+   "id": "T224-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik kilometrů prozkoumaných chodeb má systém Mamutí jeskyně (Mammoth Cave) v Kentucky (k roku 2026)?",
+    "en": "How many kilometres of surveyed passages does the Mammoth Cave system in Kentucky have (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 70 km",
+     "Asi 200 km",
+     "Asi 690 km",
+     "Asi 2 000 km"
+    ],
+    "en": [
+     "About 70 km (43 mi)",
+     "About 200 km (120 mi)",
+     "About 690 km (430 mi)",
+     "About 2,000 km (1,200 mi)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Zmapováno je přes 686 km chodeb (k roku 2026). Je to nejdelší známý jeskynní systém světa a měření stále pokračuje.",
+    "en": "More than 686 km (426 mi) of passages have been surveyed (as of 2026). It is the world's longest known cave system, and the surveying continues."
+   }
+  },
+  {
+   "id": "T224-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím byla v roce 2016 v Hranické propasti naměřena zatopená hloubka 404 m, se kterou předstihla italskou Pozzo del Merro?",
+    "en": "What reached a submerged depth of 404 m (1,325 ft) in the Hranice Abyss in 2016, overtaking Italy's Pozzo del Merro?"
+   },
+   "moznosti": {
+    "cs": [
+     "Olovnicí spuštěnou na laně",
+     "Dálkově řízeným podvodním robotem",
+     "Potápěčem s dýchací směsí helia",
+     "Sonarem z hladiny jezírka"
+    ],
+    "en": [
+     "A plumb weight lowered on a line",
+     "A remotely operated underwater robot",
+     "A diver breathing a helium mix",
+     "A sonar used from the surface of the pool"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Robot (ROV) dosáhl 27. září 2016 hloubky 404 m a dna nedosáhl. V roce 2022 sjel jiný robot na 450 m pod hladinu, takže potvrzená celková hloubka je 519,5 m. Geofyzikální měření naznačují 800–1 000 m.",
+    "en": "On 27 September 2016 an ROV reached 404 m (1,325 ft) without touching bottom. In 2022 another robot reached 450 m (1,476 ft) below the water surface, giving a confirmed total depth of 519.5 m (1,704 ft); geophysical surveys suggest 800–1,000 m (2,600–3,300 ft)."
+   }
+  },
+  {
+   "id": "T224-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co našli v Koněpruských jeskyních v Českém krasu, které byly objeveny roku 1950 po odstřelu v nedalekém lomu?",
+    "en": "What was found in the Koněprusy Caves in the Bohemian Karst, discovered in 1950 after a blast in a nearby quarry?"
+   },
+   "moznosti": {
+    "cs": [
+     "Podzemní kapli řádu templářů",
+     "Dílnu penězokazců z 15. století",
+     "Hrob keltského knížete se zbraněmi",
+     "Skrýš zbraní z třicetileté války"
+    ],
+    "en": [
+     "An underground chapel of the Knights Templar",
+     "A 15th-century counterfeiters' workshop",
+     "The grave of a Celtic chieftain with weapons",
+     "A weapons cache from the Thirty Years' War"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Padělatelé tu zhruba v letech 1460–1470 razili falešné husitské mince. Koněpruské jeskyně jsou považovány za největší jeskynní systém v Čechách.",
+    "en": "Forgers struck fake Hussite coins there from about 1460 to 1470. The Koněprusy Caves are considered the largest cave system in Bohemia."
+   }
+  },
+  {
+   "id": "T224-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který režisér natočil roku 2010 ve 3D dokument Cave of Forgotten Dreams o malbách v jeskyni Chauvet?",
+    "en": "Which director made the 2010 3D documentary Cave of Forgotten Dreams about the paintings in Chauvet Cave?"
+   },
+   "moznosti": {
+    "cs": [
+     "Luc Besson",
+     "Wim Wenders",
+     "Jacques Perrin",
+     "Werner Herzog"
+    ],
+    "en": [
+     "Luc Besson",
+     "Wim Wenders",
+     "Jacques Perrin",
+     "Werner Herzog"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Film natočil Werner Herzog přímo v jeskyni, kam veřejnost nesmí. Návštěvníci od roku 2015 chodí do její věrné repliky Caverne du Pont-d'Arc.",
+    "en": "Werner Herzog filmed inside the cave itself, which is closed to the public; since 2015 visitors have toured its faithful replica, the Caverne du Pont-d'Arc."
+   }
+  },
+  {
+   "id": "T224-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve které zemi našli malbu postav podobných lidem s prasetem, starou nejméně 51 200 let, kterou studie v časopise Nature z roku 2024 označila za nejstarší známé figurální umění?",
+    "en": "In which country was a painting of human-like figures with a pig, at least 51,200 years old, found, described in a 2024 Nature study as the oldest known figurative art?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Indonésii",
+     "V Jižní Africe",
+     "Ve Španělsku",
+     "Ve Francii"
+    ],
+    "en": [
+     "Indonesia",
+     "South Africa",
+     "Spain",
+     "France"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Malba je v jeskyni Leang Karampuang na jihu ostrova Sulawesi. Je o více než 14 000 let starší než nejstarší malba v jeskyni Chauvet.",
+    "en": "The painting is in the Leang Karampuang cave in southern Sulawesi, more than 14,000 years older than the oldest painting in Chauvet Cave."
+   }
+  },
+  {
+   "id": "T224-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který pták hnízdí v koloniích v temných jeskyních Jižní Ameriky a v noci se živí ovocem?",
+    "en": "Which bird nests in colonies in dark South American caves and feeds on fruit at night?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sova pálená (Tyto alba)",
+     "Gvačaro (Steatornis caripensis)",
+     "Kondor andský (Vultur gryphus)",
+     "Kolibřík obrovský (Patagona gigas)"
+    ],
+    "en": [
+     "Barn owl (Tyto alba)",
+     "Oilbird (Steatornis caripensis)",
+     "Andean condor (Vultur gryphus)",
+     "Giant hummingbird (Patagona gigas)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Gvačaro (španělsky guácharo) hnízdí v koloniích v jeskyních na severu Jižní Ameriky a na Trinidadu. Je to jediný noční létající pták na světě, který se živí ovocem.",
+    "en": "The oilbird (guácharo in Spanish) nests in colonies in caves in northern South America and on Trinidad; it is the world's only nocturnal flying fruit-eating bird."
+   }
+  },
+  {
+   "id": "T224-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve které slovenské oblasti leží Dobšinská ledová jeskyně, objevená roku 1870 a zapsaná na seznamu UNESCO?",
+    "en": "In which Slovak region is the Dobšiná Ice Cave, discovered in 1870 and listed by UNESCO?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Vysokých Tatrách",
+     "Ve Slovenském ráji",
+     "Na Malé Fatře",
+     "Ve Štiavnických vrších"
+    ],
+    "en": [
+     "The High Tatras",
+     "Slovak Paradise",
+     "Malá Fatra",
+     "The Štiavnica Mountains"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jeskyně leží u hornického města Dobšiná ve Slovenském ráji. Roku 1870 ji prozkoumal báňský inženýr Jenő Ruffinyi se dvěma druhy a roku 1887 se stala první elektricky osvětlenou jeskyní v Evropě.",
+    "en": "The cave lies near the mining town of Dobšiná in the Slovak Paradise. Mining engineer Jenő Ruffinyi explored it with two companions in 1870, and in 1887 it became the first electrically lit cave in Europe."
+   }
+  },
+  {
+   "id": "T224-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Z jakého minerálu jsou obří krystaly v mexické Jeskyni krystalů u Naiky, z nichž největší měří přes 11 m?",
+    "en": "What mineral are the giant crystals in Mexico's Cave of the Crystals at Naica made of, the largest of which is over 11 m (36 ft) long?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z křemene",
+     "Z halitu",
+     "Ze sádrovce",
+     "Z kalcitu"
+    ],
+    "en": [
+     "Quartz",
+     "Halite",
+     "Gypsum",
+     "Calcite"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jde o selenit, průhlednou formu sádrovce. Největší krystal měří asi 11,4 m a váží odhadem 12 tun. Vzduch v jeskyni má až 58 °C a vlhkost 90–99 %.",
+    "en": "They are selenite, a transparent form of gypsum; the largest is about 11.4 m (37.4 ft) long and weighs an estimated 12 tonnes (13 short tons). The air reaches 58 °C (136 °F) with 90–99% humidity."
+   }
+  }
+ ]
+}

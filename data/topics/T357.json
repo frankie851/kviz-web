@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T357",
+ "nazev": {
+  "cs": "Polsko, Slovensko, Rakousko a Maďarsko",
+  "en": "Poland, Slovakia, Austria and Hungary"
+ },
+ "kategorie": {
+  "id": "zemepis",
+  "nazev": {
+   "cs": "Zeměpis",
+   "en": "Geography"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T357-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Hlavní město kterého státu leží Vídni nejblíže?",
+    "en": "The capital of which country lies closest to Vienna?"
+   },
+   "moznosti": {
+    "cs": [
+     "Slovinska",
+     "Česka",
+     "Slovenska",
+     "Maďarska"
+    ],
+    "en": [
+     "Slovenia",
+     "Czechia",
+     "Slovakia",
+     "Hungary"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Bratislavu a Vídeň dělí jen asi 50–60 km. Bratislava je navíc jediným hlavním městem, které hraničí se dvěma státy – s Rakouskem a Maďarskem.",
+    "en": "Bratislava and Vienna are only about 50–60 km (31–37 mi) apart. Bratislava is also the only national capital that borders two countries – Austria and Hungary."
+   }
+  },
+  {
+   "id": "T357-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém pohoří leží nejvyšší hory Slovenska i Polska?",
+    "en": "In which mountain range are the highest mountains of both Slovakia and Poland?"
+   },
+   "moznosti": {
+    "cs": [
+     "Beskydy",
+     "Krkonoše",
+     "Tatry",
+     "Alpy"
+    ],
+    "en": [
+     "Beskids",
+     "Krkonoše (Giant Mountains)",
+     "Tatra Mountains",
+     "Alps"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Tatry tvoří část polsko-slovenské hranice: zhruba tři čtvrtiny jejich rozlohy leží na Slovensku a asi čtvrtina v Polsku. Na obou stranách hranice je chrání národní parky.",
+    "en": "The Tatras form part of the Polish–Slovak border: roughly three-quarters of their area lies in Slovakia and about a quarter in Poland. National parks protect them on both sides of the border."
+   }
+  },
+  {
+   "id": "T357-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se jmenuje největší jezero střední Evropy, které leží v Maďarsku?",
+    "en": "What is the name of the largest lake in Central Europe, located in Hungary?"
+   },
+   "moznosti": {
+    "cs": [
+     "Velencei-tó",
+     "Balaton",
+     "Neziderské jezero",
+     "Tisza-tó"
+    ],
+    "en": [
+     "Lake Velence",
+     "Lake Balaton",
+     "Lake Neusiedl",
+     "Lake Tisza"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Balaton má rozlohu asi 600 km², ale průměrná hloubka je jen kolem 3 m a voda má v létě v průměru asi 25 °C. Němci mu říkají Plattensee.",
+    "en": "Lake Balaton covers about 600 km² (230 sq mi), but its average depth is only around 3 m (10 ft), and in summer the water averages about 25 °C (77 °F). Its German name is Plattensee."
+   }
+  },
+  {
+   "id": "T357-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou měnou se platí v Maďarsku?",
+    "en": "What currency is used in Hungary?"
+   },
+   "moznosti": {
+    "cs": [
+     "Korunou",
+     "Zlotým",
+     "Forintem",
+     "Eurem"
+    ],
+    "en": [
+     "Koruna",
+     "Złoty",
+     "Forint",
+     "Euro"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Forint zavedlo Maďarsko 1. srpna 1946 po hyperinflaci, která znehodnotila pengő. Jméno je odvozeno od Florencie, kde se od roku 1252 razily zlaté florény.",
+    "en": "Hungary introduced the forint on 1 August 1946 after hyperinflation wiped out the pengő. The name comes from Florence, where gold florins were minted from 1252."
+   }
+  },
+  {
+   "id": "T357-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které polské město s hradem Wawel bylo po staletí sídlem polských králů?",
+    "en": "Which Polish city, home to Wawel Castle, was the seat of Polish kings for centuries?"
+   },
+   "moznosti": {
+    "cs": [
+     "Gdaňsk",
+     "Poznaň",
+     "Varšava",
+     "Krakov"
+    ],
+    "en": [
+     "Gdańsk",
+     "Poznań",
+     "Warsaw",
+     "Kraków"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Ve wawelské katedrále byli polští panovníci korunováni i pohřbíváni. Hlavním městem se Varšava stala až roku 1596.",
+    "en": "Polish monarchs were crowned and buried in Wawel Cathedral. Warsaw only became the capital in 1596."
+   }
+  },
+  {
+   "id": "T357-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se jmenují plněné taštičky z vařeného těsta, jedno z nejtypičtějších jídel polské kuchyně?",
+    "en": "What are the filled dumplings of boiled dough, one of the most typical dishes of Polish cuisine, called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pierogi",
+     "Ravioli",
+     "Pelmeně",
+     "Chinkali"
+    ],
+    "en": [
+     "Pierogi",
+     "Ravioli",
+     "Pelmeni",
+     "Khinkali"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Oblíbené pierogi ruskie se plní tvarohem, bramborem a smaženou cibulkou. Jejich patronem je svatý Hyacint (Jacek) a staré polské zvolání „Święty Jacek z pierogami!“ vyjadřuje údiv.",
+    "en": "The popular pierogi ruskie are filled with quark, potato and fried onion. Their patron is St Hyacinth (Jacek), and the old Polish exclamation \"Święty Jacek z pierogami!\" expresses surprise."
+   }
+  },
+  {
+   "id": "T357-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která z těchto zemí NENÍ členem Visegrádské skupiny?",
+    "en": "Which of these countries is NOT a member of the Visegrád Group?"
+   },
+   "moznosti": {
+    "cs": [
+     "Slovensko",
+     "Maďarsko",
+     "Rakousko",
+     "Polsko"
+    ],
+    "en": [
+     "Slovakia",
+     "Hungary",
+     "Austria",
+     "Poland"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Visegrádskou skupinu (V4) tvoří Česko, Maďarsko, Polsko a Slovensko. Vznikla 15. února 1991 a do rozdělení Československa v roce 1993 měla jen tři členy.",
+    "en": "The Visegrád Group (V4) consists of Czechia, Hungary, Poland and Slovakia. It was founded on 15 February 1991 and had only three members until Czechoslovakia split in 1993."
+   }
+  },
+  {
+   "id": "T357-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Z jakého masa musí být podle rakouských předpisů pravý vídeňský řízek (Wiener Schnitzel)?",
+    "en": "Under Austrian rules, what meat must a genuine Wiener Schnitzel be made from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z vepřového",
+     "Z krůtího",
+     "Z telecího",
+     "Z kuřecího"
+    ],
+    "en": [
+     "Pork",
+     "Turkey",
+     "Veal",
+     "Chicken"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vepřová varianta se označuje jako „Wiener Schnitzel vom Schwein“ nebo „Schnitzel Wiener Art“. Mezi klasické přílohy patří hlávkový nebo bramborový salát.",
+    "en": "A pork version is called \"Wiener Schnitzel vom Schwein\" or \"Schnitzel Wiener Art\". Classic sides include butterhead lettuce or potato salad."
+   }
+  },
+  {
+   "id": "T357-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které z těchto jídel patří ke slovenským národním jídlům?",
+    "en": "Which of these dishes is one of the national dishes of Slovakia?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bigos",
+     "Bryndzové halušky",
+     "Císařský trhanec",
+     "Svíčková na smetaně"
+    ],
+    "en": [
+     "Bigos (hunter's stew)",
+     "Bryndzové halušky",
+     "Kaiserschmarrn",
+     "Svíčková (beef in cream sauce)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Halušky z bramborového těsta se míchají s bryndzou, měkkým ovčím sýrem, a sypou se slaninou nebo škvarky. V obci Turecká se každý rok koná festival bryndzových halušek se soutěží v jejich jedení.",
+    "en": "Potato-dough halušky are mixed with bryndza, a soft sheep cheese, and topped with bacon or bits of smoked pork fat. The village of Turecká holds an annual bryndzové halušky festival with an eating contest."
+   }
+  },
+  {
+   "id": "T357-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která hora je nejvyšší v Rakousku?",
+    "en": "Which is the highest mountain in Austria?"
+   },
+   "moznosti": {
+    "cs": [
+     "Grossglockner",
+     "Dachstein",
+     "Wildspitze",
+     "Zugspitze"
+    ],
+    "en": [
+     "Grossglockner",
+     "Dachstein",
+     "Wildspitze",
+     "Zugspitze"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Grossglockner měří 3 798 m a leží na hranici Korutan a Východního Tyrolska. Pod ním vede vysokohorská silnice Grossglockner Hochalpenstraße z let 1930–1935.",
+    "en": "The Grossglockner rises to 3,798 m (12,461 ft) on the border between Carinthia and East Tyrol. The Grossglockner High Alpine Road, built in 1930–1935, runs beneath it."
+   }
+  },
+  {
+   "id": "T357-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik hlavních měst evropských států leží na Dunaji?",
+    "en": "How many European national capitals lie on the Danube?"
+   },
+   "moznosti": {
+    "cs": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "en": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Na Dunaji leží Vídeň, Bratislava, Budapešť a Bělehrad. S délkou asi 2 850 km je Dunaj po Volze druhou nejdelší řekou Evropy.",
+    "en": "Vienna, Bratislava, Budapest and Belgrade all lie on the Danube. At about 2,850 km (1,770 mi), it is Europe's second-longest river after the Volga."
+   }
+  },
+  {
+   "id": "T357-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která hora je nejvyšší v celých Karpatech?",
+    "en": "Which mountain is the highest in the entire Carpathians?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lomnický štít",
+     "Gerlachovský štít",
+     "Moldoveanu",
+     "Rysy"
+    ],
+    "en": [
+     "Lomnický štít",
+     "Gerlachovský štít",
+     "Moldoveanu",
+     "Rysy"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Gerlachovský štít měří téměř 2 655 m (2 654,4 m). Za nejvyšší ho uznali až v 19. století – předtím se za nejvyšší považoval Kriváň – a v letech 1949–1959 se jmenoval Stalinov štít.",
+    "en": "Gerlachovský štít rises to almost 2,655 m (8,709 ft). It was only recognised as the highest in the 19th century – Kriváň had been thought higher – and from 1949 to 1959 it was called Stalin Peak."
+   }
+  },
+  {
+   "id": "T357-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve které zemi postavili kopii rakouského městečka Hallstatt v plné velikosti?",
+    "en": "In which country was a full-scale replica of the Austrian town of Hallstatt built?"
+   },
+   "moznosti": {
+    "cs": [
+     "V USA",
+     "V Japonsku",
+     "Ve Spojených arabských emirátech",
+     "V Číně"
+    ],
+    "en": [
+     "USA",
+     "Japan",
+     "United Arab Emirates",
+     "China"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kopii celého městečka postavila firma China Minmetals ve městě Chuej-čou v provincii Kuang-tung, zprávy o ní obletěly svět v letech 2011–2012. Původní Hallstatt má jen asi 740 obyvatel (k roku 2026) a jeho krajina je od roku 1997 na seznamu UNESCO.",
+    "en": "China Minmetals built a replica of the whole town in Huizhou, Guangdong province; it made world news in 2011–2012. The original Hallstatt has only about 740 inhabitants (as of 2026), and its landscape has been a UNESCO World Heritage Site since 1997."
+   }
+  },
+  {
+   "id": "T357-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Lipicáni, koně vídeňské Španělské jezdecké školy, nesou jméno podle vesnice Lipica. Ve které zemi dnes leží?",
+    "en": "Lipizzaners, the horses of Vienna's Spanish Riding School, are named after the village of Lipica. Which country is it in today?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Rakousku",
+     "Ve Slovinsku",
+     "V Chorvatsku",
+     "V Itálii"
+    ],
+    "en": [
+     "Austria",
+     "Slovenia",
+     "Croatia",
+     "Italy"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Hřebčín v Lipici založil roku 1580 arcivévoda Karel II. Koně pro Španělskou jezdeckou školu se dnes chovají hlavně v hřebčíně Piber nedaleko Štýrského Hradce (Grazu).",
+    "en": "Archduke Charles II founded the Lipica stud in 1580. Horses for the Spanish Riding School are now bred mainly at the Piber stud near Graz."
+   }
+  },
+  {
+   "id": "T357-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím je známé maďarské jezero Hévíz nedaleko Balatonu?",
+    "en": "What is Hungary's Lake Hévíz, near Lake Balaton, known for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dá se v něm koupat po celý rok",
+     "Vzniklo zatopením uhelného dolu",
+     "Každou zimu zamrzá až ke dnu",
+     "Voda v něm je slanější než moře"
+    ],
+    "en": [
+     "You can swim in it all year round",
+     "It formed in a flooded coal mine",
+     "It freezes to the bottom every winter",
+     "Its water is saltier than the sea"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hévíz napájí teplý pramen, takže voda má v létě přes 30 °C a ani v zimě neklesá pod zhruba 22 °C. Je považováno za největší termální jezero v Evropě vhodné ke koupání a jeho voda se celá vymění asi za 3,5 dne.",
+    "en": "Hévíz is fed by a warm spring, so the water exceeds 30 °C (86 °F) in summer and stays above roughly 22 °C (72 °F) even in winter. It is considered Europe's largest swimmable thermal lake, and its entire volume is replaced about every 3.5 days."
+   }
+  },
+  {
+   "id": "T357-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se jmenuje vyhlídková restaurace na vrcholu pylonu bratislavského Mostu SNP?",
+    "en": "What is the name of the restaurant at the top of the pylon of Bratislava's Most SNP bridge?"
+   },
+   "moznosti": {
+    "cs": [
+     "UFO",
+     "Kosmonaut",
+     "Sputnik",
+     "Raketa"
+    ],
+    "en": [
+     "UFO",
+     "Cosmonaut",
+     "Sputnik",
+     "Rocket"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Restaurace ve tvaru létajícího talíře na pylonu vysokém 84,6 m se od roku 2005 jmenuje UFO (dříve Bystrica). Kvůli stavbě mostu, otevřeného roku 1972, ale padla značná část bratislavského Starého Města včetně téměř celé židovské čtvrti.",
+    "en": "The flying-saucer-shaped restaurant atop the 84.6 m (278 ft) pylon has been called UFO since 2005 (previously Bystrica). However, a significant section of Bratislava's Old Town, including nearly all of the Jewish quarter, was demolished to build the bridge, which opened in 1972."
+   }
+  },
+  {
+   "id": "T357-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Spojením kterých tří měst vznikla roku 1873 Budapešť?",
+    "en": "The merger of which three towns created Budapest in 1873?"
+   },
+   "moznosti": {
+    "cs": [
+     "Budína, Pešti a Szentendre",
+     "Budína, Pešti a Visegrádu",
+     "Budína, Pešti a Ostřihomi",
+     "Budína, Pešti a Óbudy"
+    ],
+    "en": [
+     "Buda, Pest and Szentendre",
+     "Buda, Pest and Visegrád",
+     "Buda, Pest and Esztergom",
+     "Buda, Pest and Óbuda"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kopcovitý Budín s hradem a Óbuda leží na pravém břehu Dunaje, rovinatá Pešť na levém. Na území dnešní Budapešti stávalo římské město Aquincum.",
+    "en": "Hilly Buda with its castle and Óbuda lie on the right bank of the Danube, flat Pest on the left. The Roman town of Aquincum once stood on the site of today's Budapest."
+   }
+  },
+  {
+   "id": "T357-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "V jakém pořadí uvádějí Maďaři ve své řeči i v textech jméno a příjmení?",
+    "en": "In what order do Hungarians give a person's names in speech and writing?"
+   },
+   "moznosti": {
+    "cs": [
+     "Příjmení, pak křestní jméno",
+     "Křestní jméno, pak jméno po otci",
+     "Křestní jméno, pak příjmení",
+     "Příjmení otce, pak příjmení matky"
+    ],
+    "en": [
+     "Surname, then given name",
+     "Given name, then patronymic",
+     "Given name, then surname",
+     "Father's surname, then mother's surname"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Maďarština patří k mála evropským jazykům s tzv. východním pořadím jmen – vynálezce Rubikovy kostky je doma Rubik Ernő. V cizojazyčných textech se pořadí obvykle obrací.",
+    "en": "Hungarian is one of the few European languages using Eastern name order – the inventor of the Rubik's Cube is Rubik Ernő at home. In foreign-language texts the order is usually reversed."
+   }
+  },
+  {
+   "id": "T357-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak podle populární verze pověsti zahubil ševcovský učeň Skuba draka z Wawelu (Smok Wawelski)?",
+    "en": "According to the popular version of the legend, how did the cobbler's apprentice Skuba kill the Wawel Dragon (Smok Wawelski)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Podstrčil mu beránka nacpaného sírou",
+     "Probodl ho kopím přímo v jeskyni",
+     "Zazdil vchod do jeho sluje",
+     "Oslepil ho zrcadlem, až spadl ze skály"
+    ],
+    "en": [
+     "He left out a lamb stuffed with sulphur",
+     "He speared it inside its cave",
+     "He walled up the entrance to its den",
+     "He blinded it with a mirror so it fell off a cliff"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Drak beránka sežral, dostal hroznou žízeň a pil z Visly tak dlouho, až praskl. Před Dračí slují pod Wawelem dnes stojí kovová socha draka, která díky trysce se zemním plynem každých pár minut chrlí oheň.",
+    "en": "The dragon ate the lamb, became desperately thirsty and drank from the Vistula until it burst. A metal dragon statue now stands by the Dragon's Den below Wawel, breathing fire every few minutes thanks to a natural gas nozzle."
+   }
+  },
+  {
+   "id": "T357-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém polském městě se narodil Mikuláš Koperník? Město je proslulé i perníkem.",
+    "en": "In which Polish city was Nicolaus Copernicus born? The city is also famous for its gingerbread."
+   },
+   "moznosti": {
+    "cs": [
+     "V Gdaňsku",
+     "V Toruni",
+     "Ve Vratislavi",
+     "V Krakově"
+    ],
+    "en": [
+     "Gdańsk",
+     "Toruń",
+     "Wrocław",
+     "Kraków"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Koperník se v Toruni narodil roku 1473. Tradice toruňského perníku (piernik) sahá téměř tisíc let nazpět, město má perníkové muzeum a perník si tu oblíbil i Chopin při návštěvě roku 1825.",
+    "en": "Copernicus was born in Toruń in 1473. The city's gingerbread (piernik) tradition goes back nearly a thousand years, it has a gingerbread museum, and Chopin enjoyed it during his visit in 1825."
+   }
+  },
+  {
+   "id": "T357-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Rysy jsou nejvyšší horou Polska. Co je na nich zvláštního?",
+    "en": "Rysy is Poland's highest mountain. What is special about it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na vrchol vede kabinková lanovka",
+     "Na vrcholu leží trvalý ledovec",
+     "Leží na trojmezí Polska, Česka a Slovenska",
+     "Jejich nejvyšší vrchol leží na Slovensku"
+    ],
+    "en": [
+     "A cable car runs to the summit",
+     "A permanent glacier lies on its summit",
+     "It lies on the Poland–Czechia–Slovakia tripoint",
+     "Its highest summit is in Slovakia"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Rysy mají tři vrcholy. Nejvyšší, prostřední (2 501 m), leží na slovenské straně; nejvyšší bod Polska je severozápadní vrchol na hranici, který je jen nepatrně nižší.",
+    "en": "Rysy has three summits. The highest, the middle one at 2,501 m (8,205 ft), lies on the Slovak side; Poland's highest point is the north-western summit on the border, which is only slightly lower."
+   }
+  },
+  {
+   "id": "T357-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Budova maďarského parlamentu v Budapešti je vysoká 96 m – stejně jako bazilika sv. Štěpána. Na co výška parlamentu odkazuje?",
+    "en": "The Hungarian Parliament Building in Budapest is 96 m (315 ft) tall – the same as St Stephen's Basilica. What does the parliament's height refer to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na 96 poslanců prvního uherského sněmu",
+     "Na šířku Dunaje v centru Budapešti",
+     "Na 96 let, po které se bazilika stavěla",
+     "Na rok 896, kdy vzniklo Maďarské knížectví"
+    ],
+    "en": [
+     "The 96 members of the first Hungarian diet",
+     "The width of the Danube in central Budapest",
+     "The 96 years it took to build the basilica",
+     "The year 896, when the Principality of Hungary was founded"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Výška 96 m připomíná rok 896, k jehož tisíciletí se roku 1896 konaly velké oslavy. Dlouho také platilo, že v Budapešti nesmí stát budova vyšší než 96 m.",
+    "en": "The 96 m (315 ft) height recalls the year 896, whose millennium was celebrated in 1896. For a long time, no building in Budapest was allowed to be taller than 96 m (315 ft)."
+   }
+  },
+  {
+   "id": "T357-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč je varšavské Staré Město na seznamu světového dědictví UNESCO výjimečné?",
+    "en": "Why is Warsaw's Old Town exceptional on the UNESCO World Heritage List?"
+   },
+   "moznosti": {
+    "cs": [
+     "Je to nejstarší dochované gotické město Evropy",
+     "Je téměř celé znovu postavené po zničení za války",
+     "Všechny jeho domy jsou postavené ze dřeva",
+     "Bylo celé přestěhováno na nové místo"
+    ],
+    "en": [
+     "It is the oldest surviving Gothic town in Europe",
+     "It was almost entirely rebuilt after being destroyed in the war",
+     "All its houses are built of wood",
+     "It was moved in its entirety to a new site"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Po Varšavském povstání roku 1944 německá armáda zbytky Starého Města systematicky vyhodila do povětří. Při obnově posloužily i vedute Bernarda Bellotta z 18. století a UNESCO ji roku 1980 ocenilo jako příklad téměř úplné rekonstrukce.",
+    "en": "After the 1944 Warsaw Uprising, the German army systematically blew up what remained of the Old Town. Bernardo Bellotto's 18th-century city views helped guide the rebuilding, which UNESCO recognised in 1980 as an example of near-total reconstruction."
+   }
+  },
+  {
+   "id": "T357-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Mincovna ve kterém slovenském městě funguje už od 14. století a patří k nejstarším dosud činným mincovnám na světě?",
+    "en": "The mint in which Slovak town has been operating since the 14th century and is one of the oldest still-working mints in the world?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Banské Štiavnici",
+     "V Bratislavě",
+     "V Košicích",
+     "V Kremnici"
+    ],
+    "en": [
+     "Banská Štiavnica",
+     "Bratislava",
+     "Košice",
+     "Kremnica"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Mincovna v Kremnici existovala už před rokem 1328, kdy město dostalo královská privilegia, a od roku 1335 razila zlaté florény. Kremnické dukáty byly ceněné pro vysokou ryzost zlata. Zlato se v Kremnici těžilo až do roku 1970.",
+    "en": "The Kremnica mint already existed before the town received royal privileges in 1328, and from 1335 it struck gold florins. Kremnica ducats were prized for the high purity of their gold. Gold was mined in Kremnica until 1970."
+   }
+  },
+  {
+   "id": "T357-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se jmenuje nejdelší ledovec Rakouska, který stéká z úbočí Grossglockneru?",
+    "en": "What is the name of Austria's longest glacier, flowing down the slopes of the Grossglockner?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pasterze",
+     "Aletschský ledovec",
+     "Hintereisferner",
+     "Mer de Glace"
+    ],
+    "en": [
+     "Pasterze",
+     "Aletsch Glacier",
+     "Hintereisferner",
+     "Mer de Glace"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pasterze je nejdelším ledovcem Rakouska i celých Východních Alp (k roku 2026). Rychle ale ustupuje: v měřicím období 2022/23 se jeho jazyk zkrátil o rekordních 203,5 m.",
+    "en": "The Pasterze is the longest glacier in Austria and the entire Eastern Alps (as of 2026). It is retreating fast: in the 2022/23 measuring period its tongue shrank by a record 203.5 m (668 ft)."
+   }
+  },
+  {
+   "id": "T357-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím je proslulý Słowiński národní park (Słowiński Park Narodowy) na polském pobřeží Baltu?",
+    "en": "What is Słowiński National Park on Poland's Baltic coast famous for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pohyblivými písečnými dunami",
+     "Nejvyššími útesy celého Baltu",
+     "Gejzíry a horkými prameny",
+     "Největší kolonií tuleňů v Evropě"
+    ],
+    "en": [
+     "Moving sand dunes",
+     "The highest cliffs on the Baltic",
+     "Geysers and hot springs",
+     "Europe's largest seal colony"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Duny mezi Łebou a Rowy dosahují výšky až 30 m a vítr je posouvá do vnitrozemí rychlostí 3 až 10 m za rok. Park je od roku 1977 biosférickou rezervací UNESCO.",
+    "en": "The dunes between Łeba and Rowy reach up to 30 m (98 ft) high, and the wind pushes them inland by 3–10 m (10–33 ft) a year. The park has been a UNESCO biosphere reserve since 1977."
+   }
+  },
+  {
+   "id": "T357-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co se v roce 1866 stalo s Neziderským jezerem na hranici Rakouska a Maďarska?",
+    "en": "What happened to Lake Neusiedl, on the Austria–Hungary border, in 1866?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zaplavilo okolní vesnice",
+     "Úplně vyschlo",
+     "Bylo poprvé rozděleno státní hranicí",
+     "Celé zamrzlo až ke dnu"
+    ],
+    "en": [
+     "It flooded the surrounding villages",
+     "It dried up completely",
+     "It was divided by a state border for the first time",
+     "It froze solid to the bottom"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jezero s rozlohou 315 km² je nejvýš 1,8 m hluboké, průměrně jen asi 1 m. V roce 1866 si místní obyvatel Gottlieb Wenzel zapsal do deníku, že přešel jeho dno, aniž si zašpinil boty; znovu se začalo plnit roku 1871 a od svého vzniku vyschlo nejméně stokrát.",
+    "en": "The lake covers 315 km² (122 sq mi) but is at most 1.8 m (5 ft 11 in) deep, about 1 m (3 ft 3 in) on average. In 1866 local resident Gottlieb Wenzel wrote in his diary that he crossed its bed without soiling his boots; it began refilling in 1871 and has dried up at least 100 times since it formed."
+   }
+  },
+  {
+   "id": "T357-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Visegrádská skupina svým jménem odkazuje na sjezd panovníků ve Visegrádu roku 1335. Na čem se tam mimo jiné dohodli?",
+    "en": "The Visegrád Group's name alludes to a meeting of rulers in Visegrád in 1335. What did they agree on, among other things?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na společném tažení proti Osmanské říši",
+     "Na založení společné univerzity v Krakově",
+     "Na stavbě prvního kamenného mostu přes Dunaj",
+     "Na nových obchodních cestách obcházejících Vídeň"
+    ],
+    "en": [
+     "A joint campaign against the Ottoman Empire",
+     "Founding a joint university in Kraków",
+     "Building the first stone bridge over the Danube",
+     "New trade routes bypassing Vienna"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Sešli se tu český král Jan Lucemburský, polský král Kazimír III. Veliký a uherský král Karel I. Robert. Nové cesty měly obejít Vídeň, kde museli kupci podle práva skladu nejprve nabídnout zboží k prodeji. Na sjezd zakladatelé V4 v roce 1991 záměrně navázali.",
+    "en": "King John of Bohemia, King Casimir III the Great of Poland and King Charles I of Hungary met there. The new routes were to bypass Vienna, whose staple right forced merchants to offer their goods for sale there first. The founders of the V4 deliberately alluded to the congress in 1991."
+   }
+  },
+  {
+   "id": "T357-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím je proslulá kostnice u kostela v rakouském Hallstattu?",
+    "en": "What is the ossuary at the church in Hallstatt, Austria, famous for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lustrem složeným z lidských kostí",
+     "Mumiemi horníků ze solného dolu",
+     "Stovkami malovaných lidských lebek",
+     "Tím, že je vytesaná v ledovci"
+    ],
+    "en": [
+     "A chandelier made of human bones",
+     "Mummies of miners from the salt mine",
+     "Hundreds of painted human skulls",
+     "Being carved into a glacier"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "V kapli sv. Michala je přes 1 200 lebek a asi 600 z nich je pomalovaných symboly, jmény a daty. Zvyk vznikl, protože na hřbitově nebylo dost místa pro hroby, a tak se kosti vyzvedávaly.",
+    "en": "St Michael's Chapel holds more than 1,200 skulls, about 600 of them painted with symbols, names and dates. The custom arose because the small cemetery had too little space, so bones were exhumed."
+   }
+  },
+  {
+   "id": "T357-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co vyjadřuje maďarská přípona -né, například ve jménu Petőfi Sándorné?",
+    "en": "What does the Hungarian suffix -né express, as in the name Petőfi Sándorné?"
+   },
+   "moznosti": {
+    "cs": [
+     "Že nositel má šlechtický titul",
+     "Že jde o dceru tohoto muže",
+     "Že jde o jeho manželku",
+     "Že jde o jeho matku"
+    ],
+    "en": [
+     "That the bearer holds a noble title",
+     "That she is this man's daughter",
+     "That she is his wife",
+     "That she is his mother"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Přípona -né znamená zhruba „manželka (koho)“: Szendrey Júlia se po sňatku s básníkem stala Petőfi Sándorné. Dříve šlo o běžnou a zákonem danou praxi, dnes je to jen jedna z několika možností, jak se po sňatku jmenovat.",
+    "en": "The suffix -né roughly means \"wife of\": Szendrey Júlia became Petőfi Sándorné after marrying the poet. It used to be both law and tradition; today it is just one of several naming options after marriage."
+   }
+  }
+ ]
+}

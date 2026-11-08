@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T227",
+ "nazev": {
+  "cs": "Od telegrafu po smartphone: dějiny komunikace",
+  "en": "From Telegraph to Smartphone: a History of Communication"
+ },
+ "kategorie": {
+  "id": "vynalezy",
+  "nazev": {
+   "cs": "Vynálezy",
+   "en": "Inventions"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T227-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čí portrét nese Penny Black, britská známka z roku 1840 považovaná za první nalepovací poštovní známku na světě?",
+    "en": "Whose portrait appears on the Penny Black, the 1840 British stamp regarded as the world's first adhesive postage stamp?"
+   },
+   "moznosti": {
+    "cs": [
+     "Královny Viktorie",
+     "Krále Jiřího IV.",
+     "Krále Viléma IV.",
+     "Admirála Nelsona"
+    ],
+    "en": [
+     "Queen Victoria",
+     "King George IV",
+     "King William IV",
+     "Admiral Nelson"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Známka ukazuje profil královny Viktorie ve věku 21 let. Systém předplaceného poštovného s nalepovací známkou navrhl reformátor Rowland Hill v roce 1837.",
+    "en": "The stamp shows a profile of Queen Victoria at the age of 21. The prepaid postage system with an adhesive stamp was proposed by the reformer Rowland Hill in 1837."
+   }
+  },
+  {
+   "id": "T227-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který tísňový signál se v Morseově abecedě vysílá jako tři tečky, tři čárky a tři tečky?",
+    "en": "Which distress signal is sent in Morse code as three dots, three dashes and three dots?"
+   },
+   "moznosti": {
+    "cs": [
+     "MAYDAY",
+     "SOS",
+     "CQD",
+     "HELP"
+    ],
+    "en": [
+     "MAYDAY",
+     "SOS",
+     "CQD",
+     "HELP"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Signál SOS byl zvolen jako snadno rozpoznatelná sekvence a původně nebyl zkratkou; výklad „Save Our Souls“ vznikl až dodatečně. Celosvětovým standardem se stal 1. července 1908 na základě berlínské radiotelegrafní úmluvy z roku 1906.",
+    "en": "SOS was chosen as an easily recognised sequence and was originally not an abbreviation; the reading \"Save Our Souls\" came later. It became the worldwide standard on 1 July 1908 under the 1906 Berlin radiotelegraph convention."
+   }
+  },
+  {
+   "id": "T227-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím se do dějin zapsal italský vynálezce Guglielmo Marconi?",
+    "en": "What is the Italian inventor Guglielmo Marconi famous for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rozvojem bezdrátové telegrafie",
+     "Vynálezem elektrické žárovky",
+     "Předvedením první televize",
+     "Sestrojením prvního telefonu"
+    ],
+    "en": [
+     "Developing wireless telegraphy",
+     "Inventing the electric light bulb",
+     "Demonstrating the first television",
+     "Building the first telephone"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Marconi je průkopníkem rádia, tedy přenosu zpráv bez drátů. V roce 1909 za to získal spolu s Ferdinandem Braunem Nobelovu cenu za fyziku.",
+    "en": "Marconi was a pioneer of radio, sending messages without wires. In 1909 he shared the Nobel Prize in Physics for it with Ferdinand Braun."
+   }
+  },
+  {
+   "id": "T227-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém roce Steve Jobs představil první iPhone?",
+    "en": "In which year did Steve Jobs unveil the first iPhone?"
+   },
+   "moznosti": {
+    "cs": [
+     "2003",
+     "2005",
+     "2007",
+     "2009"
+    ],
+    "en": [
+     "2003",
+     "2005",
+     "2007",
+     "2009"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jobs ho představil 9. ledna 2007 na veletrhu Macworld v San Francisku jako tři přístroje v jednom: širokoúhlý iPod, revoluční mobilní telefon a průlomový internetový komunikátor. V USA se začal prodávat 29. června 2007.",
+    "en": "Jobs unveiled it on 9 January 2007 at Macworld in San Francisco as three devices in one: a widescreen iPod, a revolutionary mobile phone and a breakthrough Internet communicator. It went on sale in the US on 29 June 2007."
+   }
+  },
+  {
+   "id": "T227-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co znamená zkratka SMS?",
+    "en": "What does the abbreviation SMS stand for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Secure Message Sending (bezpečné odesílání zpráv)",
+     "Short Message Service (služba krátkých zpráv)",
+     "Simple Mail System (jednoduchý poštovní systém)",
+     "Standard Mobile Signal (standardní mobilní signál)"
+    ],
+    "en": [
+     "Secure Message Sending",
+     "Short Message Service",
+     "Simple Mail System",
+     "Standard Mobile Signal"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "SMS vznikla v polovině 80. let jako součást standardu GSM. Zprávy putují signalizačními kanály sítě ve chvílích, kdy jimi zrovna neprochází žádná signalizace.",
+    "en": "SMS was developed in the mid-1980s as part of the GSM standards. Messages travel over the network's signalling paths at moments when they carry no signalling traffic."
+   }
+  },
+  {
+   "id": "T227-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která jednoduchá hra se od konce 90. let proslavila jako předinstalovaná hra v mobilních telefonech Nokia?",
+    "en": "Which simple game became famous from the late 1990s as the game preloaded on Nokia mobile phones?"
+   },
+   "moznosti": {
+    "cs": [
+     "Snake (had)",
+     "Tetris",
+     "Pong",
+     "Pac-Man"
+    ],
+    "en": [
+     "Snake",
+     "Tetris",
+     "Pong",
+     "Pac-Man"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hráč řídí hada, který s každým snědeným soustem roste. Na Nokii se objevil v modelu 6110, samotný žánr ale začal už arkádovou hrou Blockade z roku 1976.",
+    "en": "The player steers a snake that grows with every bite it eats. It appeared on the Nokia 6110, but the genre itself began with the 1976 arcade game Blockade."
+   }
+  },
+  {
+   "id": "T227-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které slovo se v amerických telegramech psalo místo tečky?",
+    "en": "Which word was written in place of the full stop in American telegrams?"
+   },
+   "moznosti": {
+    "cs": [
+     "END",
+     "POINT",
+     "DOT",
+     "STOP"
+    ],
+    "en": [
+     "END",
+     "POINT",
+     "DOT",
+     "STOP"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "STOP nahrazovalo tečku na konci věty. Jeho používání výrazně zesílilo za 1. světové války, kdy mělo bránit zkomolení a špatnému přečtení zpráv kvůli posunuté nebo vynechané drobné tečce.",
+    "en": "STOP replaced the full stop at the end of a sentence. Its use increased greatly during the First World War as a precaution against messages being garbled or misread because the tiny dot was misplaced or omitted."
+   }
+  },
+  {
+   "id": "T227-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaké kapesní zařízení na příjem zpráv se anglicky přezdívalo beeper a jako první ho používali hlavně lékaři?",
+    "en": "Which pocket device for receiving messages was nicknamed the beeper and was first used mainly by doctors?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vysílačka",
+     "Fax",
+     "Walkman",
+     "Pager"
+    ],
+    "en": [
+     "Walkie-talkie",
+     "Fax machine",
+     "Walkman",
+     "Pager"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "První telefonní pager si v roce 1949 patentoval Al Gross právě pro lékaře. V 90. letech byly pagery levnější alternativou mobilů, než je koncem desetiletí vytlačily telefony s SMS.",
+    "en": "Al Gross patented the first telephone pager in 1949, intended for physicians. In the 1990s pagers were a cheaper alternative to mobile phones until phones with text messaging displaced them at the end of the decade."
+   }
+  },
+  {
+   "id": "T227-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou přezdívku dostal kvůli tvaru a váze Motorola DynaTAC 8000X, první komerčně prodávaný ruční mobilní telefon?",
+    "en": "What nickname did the Motorola DynaTAC 8000X, the first commercially sold handheld mobile phone, earn because of its shape and weight?"
+   },
+   "moznosti": {
+    "cs": [
+     "Cihla",
+     "Žehlička",
+     "Kartáč na vlasy",
+     "Banán"
+    ],
+    "en": [
+     "The brick",
+     "The iron",
+     "The hairbrush",
+     "The banana"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Byl dlouhý asi 25 cm a v roce 1984 stál 3 995 dolarů. Baterie vydržela asi 30 minut hovoru a plné nabití trvalo zhruba 10 hodin.",
+    "en": "It was about 25 cm (10 in) long and cost $3,995 in 1984. The battery gave about 30 minutes of talk time, and a full charge took roughly 10 hours."
+   }
+  },
+  {
+   "id": "T227-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak spojovatelka v ruční telefonní ústředně propojila volajícího s požadovaným účastníkem?",
+    "en": "How did an operator at a manual telephone exchange connect a caller to the person they wanted?"
+   },
+   "moznosti": {
+    "cs": [
+     "Předala vzkaz pochůzkáři k doručení",
+     "Vytočila jeho číslo na číselníku",
+     "Přepsala vzkaz a odeslala ho telegrafem",
+     "Zasunula kabel do jeho zdířky na přepojovači"
+    ],
+    "en": [
+     "She handed the message to a messenger to deliver",
+     "She dialled their number on a rotary dial",
+     "She copied the message and sent it by telegraph",
+     "She plugged a cord into their jack on the switchboard"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Příchozí hovor ohlásila rozsvícená kontrolka na přepojovači; spojovatelka zasunula kabel do příslušné zdířky, zjistila, koho volající chce, a druhým kabelem propojila jeho linku. První ženou v tomto povolání se 1. září 1878 v Bostonu stala Emma Nutt.",
+    "en": "An incoming call was signalled by a lamp lighting up on the switchboard; the operator plugged a cord into the corresponding jack, asked who the caller wanted and connected the line with a second cord. On 1 September 1878 Emma Nutt in Boston became the first woman to do the job."
+   }
+  },
+  {
+   "id": "T227-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím se živil Samuel Morse, než se začal věnovat telegrafu?",
+    "en": "How did Samuel Morse earn his living before he turned to the telegraph?"
+   },
+   "moznosti": {
+    "cs": [
+     "Byl hodinářem a mechanikem",
+     "Byl uznávaným portrétním malířem",
+     "Byl kapitánem obchodní lodi",
+     "Byl lékárníkem v Bostonu"
+    ],
+    "en": [
+     "He was a clockmaker and mechanic",
+     "He was a respected portrait painter",
+     "He was a merchant ship captain",
+     "He was a pharmacist in Boston"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Maloval mimo jiné portréty prezidentů Johna Adamse a Jamese Monroea a markýze de Lafayette a spoluzaložil National Academy of Design. K telegrafu ho přivedl rozhovor o elektromagnetech s Charlesem Jacksonem při plavbě z Evropy v roce 1832.",
+    "en": "He painted portraits of presidents John Adams and James Monroe and of the Marquis de Lafayette, and co-founded the National Academy of Design. A conversation about electromagnets with Charles Jackson on a voyage from Europe in 1832 led him to the telegraph."
+   }
+  },
+  {
+   "id": "T227-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak přenášel zprávy optický telegraf Clauda Chappa, jehož první linka spojila Paříž s Lille?",
+    "en": "How did Claude Chappe's optical telegraph, whose first line linked Paris and Lille, transmit messages?"
+   },
+   "moznosti": {
+    "cs": [
+     "Slunečními záblesky odraženými zrcadly",
+     "Kouřovými signály z ohňů na kopcích",
+     "Barevnými vlajkami na vysokých stožárech",
+     "Polohami pohyblivých ramen na věžích"
+    ],
+    "en": [
+     "By flashes of sunlight reflected by mirrors",
+     "By smoke signals from hilltop fires",
+     "By coloured flags on tall masts",
+     "By the positions of movable arms on towers"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Na každé věži byla dřevěná ramena spojená příčným břevnem a obsluha sledovala sousední věž dalekohledem a signál předávala dál. Francouzská síť sloužila až do 50. let 19. století; jednou z posledních zpráv byl pád Sevastopolu v roce 1855.",
+    "en": "Each tower carried wooden arms joined by a cross bar, and operators watched the neighbouring tower through a telescope and passed the signal on. The French network served until the 1850s; one of its last messages reported the fall of Sevastopol in 1855."
+   }
+  },
+  {
+   "id": "T227-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Komu byla určena první srozumitelná věta, kterou Alexander Graham Bell 10. března 1876 pronesl do telefonu?",
+    "en": "To whom was the first intelligible sentence addressed that Alexander Graham Bell spoke into the telephone on 10 March 1876?"
+   },
+   "moznosti": {
+    "cs": [
+     "Své snoubence Mabel",
+     "Svému asistentovi Watsonovi",
+     "Prezidentu Grantovi",
+     "Thomasi Edisonovi"
+    ],
+    "en": [
+     "His fiancée Mabel",
+     "His assistant Watson",
+     "President Grant",
+     "Thomas Edison"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Věta zněla: „Pane Watsone, pojďte sem, chci vás vidět.“ Watson výzvu uslyšel a přišel – a to jen tři dny poté, co Bell dostal na telefon patent.",
+    "en": "The sentence was: \"Mr. Watson, come here, I want to see you.\" Watson heard it and came – just three days after Bell had been granted his telephone patent."
+   }
+  },
+  {
+   "id": "T227-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který z těchto vynálezů se začal komerčně používat nejdříve?",
+    "en": "Which of these inventions was the first to go into commercial use?"
+   },
+   "moznosti": {
+    "cs": [
+     "Fax",
+     "Telefon",
+     "Rádio",
+     "Televize"
+    ],
+    "en": [
+     "Fax",
+     "Telephone",
+     "Radio",
+     "Television"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Už v roce 1865 provozoval italský fyzik Giovanni Caselli se svým pantelegrafem faxovou službu mezi Paříží a Lyonem, asi 11 let před vynálezem telefonu. Skot Alexander Bain si podobný princip patentoval dokonce v roce 1843.",
+    "en": "As early as 1865 the Italian physicist Giovanni Caselli ran a fax service between Paris and Lyon with his pantelegraph, some 11 years before the telephone was invented. The Scot Alexander Bain had patented a similar principle back in 1843."
+   }
+  },
+  {
+   "id": "T227-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik znaků v základní 7bitové abecedě se vejde do jedné klasické SMS?",
+    "en": "How many characters of the basic 7-bit alphabet fit into one standard SMS?"
+   },
+   "moznosti": {
+    "cs": [
+     "100",
+     "140",
+     "160",
+     "200"
+    ],
+    "en": [
+     "100",
+     "140",
+     "160",
+     "200"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Limit prosadil Friedhelm Hillebrand z Deutsche Telekom: podle typických délek pohlednic a dálnopisných zpráv usoudil, že na většinu krátkých sdělení stačí. Delší zprávy se dělí na části po 153 znacích.",
+    "en": "The limit was championed by Friedhelm Hillebrand of Deutsche Telekom, who judged from typical postcard and Telex lengths that it was enough for most brief messages. Longer texts are split into segments of 153 characters."
+   }
+  },
+  {
+   "id": "T227-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který spisovatel science fiction navrhl v roce 1945 v časopise Wireless World komunikační družice na geostacionární dráze?",
+    "en": "Which science fiction writer proposed communications satellites in geostationary orbit in Wireless World magazine in 1945?"
+   },
+   "moznosti": {
+    "cs": [
+     "Arthur C. Clarke",
+     "Isaac Asimov",
+     "Robert A. Heinlein",
+     "Ray Bradbury"
+    ],
+    "en": [
+     "Arthur C. Clarke",
+     "Isaac Asimov",
+     "Robert A. Heinlein",
+     "Ray Bradbury"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Družice asi 35 786 km nad rovníkem obíhá stejně rychle, jako se otáčí Země, takže stále „visí“ nad jedním místem; anglicky se této dráze proto někdy říká Clarke orbit. První geostacionární družice Syncom 3 přenášela v roce 1964 olympijské hry z Japonska do Ameriky.",
+    "en": "A satellite about 35,786 km (22,236 mi) above the equator orbits as fast as Earth rotates, so it seems to hang over one spot; the orbit is sometimes called the Clarke orbit. The first geostationary satellite, Syncom 3, relayed the 1964 Olympics from Japan to America."
+   }
+  },
+  {
+   "id": "T227-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Odkud se 18. května 1923 vysílal první pravidelný rozhlasový program v Československu?",
+    "en": "Where was the first regular radio programme in Czechoslovakia broadcast from on 18 May 1923?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z budovy Národního divadla",
+     "Z hlavní pošty v Jindřišské ulici",
+     "Ze skautského stanu v Kbelích",
+     "Ze sálu Obecního domu"
+    ],
+    "en": [
+     "From the National Theatre building",
+     "From the main post office on Jindřišská Street",
+     "From a scout tent in Kbely",
+     "From a hall in the Municipal House"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vysílání zahájila stanice Radiojournal, předchůdce Českého rozhlasu. Ten je po BBC považován za druhý nejstarší rozhlas v Evropě a za nejstarší národní rozhlas na kontinentu.",
+    "en": "Broadcasting was launched by the Radiojournal station, the forerunner of Czech Radio, which is considered the second-oldest radio broadcaster in Europe after the BBC and the oldest national one on the continent."
+   }
+  },
+  {
+   "id": "T227-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které emoji vyhlásil slovník Oxford Dictionaries slovem roku 2015?",
+    "en": "Which emoji did Oxford Dictionaries name its Word of the Year for 2015?"
+   },
+   "moznosti": {
+    "cs": [
+     "❤️ Červené srdce",
+     "😍 Smajlík se srdíčky v očích",
+     "😂 Tvář se slzami radosti",
+     "👍 Zdvižený palec"
+    ],
+    "en": [
+     "❤️ Red Heart",
+     "😍 Smiling Face with Heart-Eyes",
+     "😂 Face with Tears of Joy",
+     "👍 Thumbs Up"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Podle dat firmy SwiftKey to bylo v roce 2015 nejpoužívanější emoji na světě; v Británii tvořilo 20 % všech použitých emoji. Do standardu Unicode se dostalo v roce 2010 s verzí 6.0.",
+    "en": "According to SwiftKey data it was the world's most-used emoji in 2015, making up 20% of all emoji used in the UK. It entered the Unicode Standard in 2010 with version 6.0."
+   }
+  },
+  {
+   "id": "T227-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Odkud pochází označení spam pro nevyžádanou hromadnou poštu?",
+    "en": "Where does the term spam for unsolicited bulk messages come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ze zkratky Send Purchase Advertising Mail",
+     "Ze skeče Monty Pythonova létajícího cirkusu",
+     "Z příjmení prvního rozesílatele",
+     "Z vojenského kódového slova"
+    ],
+    "en": [
+     "From the acronym Send Purchase Advertising Mail",
+     "From a Monty Python's Flying Circus sketch",
+     "From the surname of the first sender",
+     "From a military code word"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ve skeči z roku 1970 obsahuje téměř každé jídlo v kavárně konzervované maso Spam a skupina Vikingů přehluší hovor zpěvem. První hromadný reklamní e-mail rozeslal Gary Thuerk z firmy DEC 3. května 1978 na 393 adres sítě ARPANET.",
+    "en": "In the 1970 sketch nearly every dish in a café contains Spam luncheon meat, and a group of Vikings drowns out the conversation with a chant. The first mass advertising email was sent by Gary Thuerk of DEC on 3 May 1978 to 393 ARPANET recipients."
+   }
+  },
+  {
+   "id": "T227-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo v lednu 1926 v Londýně veřejně předvedl fungující televizi?",
+    "en": "Who publicly demonstrated a working television system in London in January 1926?"
+   },
+   "moznosti": {
+    "cs": [
+     "Guglielmo Marconi",
+     "Vladimir Zworykin",
+     "John Logie Baird",
+     "Philo Farnsworth"
+    ],
+    "en": [
+     "Guglielmo Marconi",
+     "Vladimir Zworykin",
+     "John Logie Baird",
+     "Philo Farnsworth"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Skotský vynálezce ji 26. ledna 1926 ukázal členům Královské instituce (Royal Institution) a reportérovi deníku The Times ve své laboratoři v Soho. Už v říjnu 1925 přenesl obraz hlavy břichomluvecké loutky Stooky Bill.",
+    "en": "The Scottish inventor showed it on 26 January 1926 to members of the Royal Institution and a reporter from The Times in his Soho laboratory. Back in October 1925 he had transmitted an image of a ventriloquist's dummy head called Stooky Bill."
+   }
+  },
+  {
+   "id": "T227-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaké povolání měl Almon Strowger, který si v roce 1891 patentoval automatickou telefonní ústřednu?",
+    "en": "What was the profession of Almon Strowger, who patented the automatic telephone exchange in 1891?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pohřebník",
+     "Telegrafista",
+     "Hodinář",
+     "Farář"
+    ],
+    "en": [
+     "Undertaker",
+     "Telegraph operator",
+     "Clockmaker",
+     "Clergyman"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Traduje se, že ho k vynálezu přivedla místní spojovatelka – manželka konkurenta, která prý hovory určené jemu přepojovala svému muži. První ústředna jeho systému byla otevřena v roce 1892 v La Porte v Indianě.",
+    "en": "According to a commonly told story, he was driven by a local operator – a competitor's wife – who supposedly routed calls meant for him to her husband. The first exchange using his system opened in 1892 in La Porte, Indiana."
+   }
+  },
+  {
+   "id": "T227-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který vynálezce nechal 14. února 1876, v týž den, kdy Bell podal patentovou přihlášku, zapsat na americkém patentovém úřadě předběžné ohlášení (caveat) telefonu?",
+    "en": "Which inventor had a preliminary notice (caveat) for a telephone filed at the US Patent Office on 14 February 1876, the same day Bell filed his patent application?"
+   },
+   "moznosti": {
+    "cs": [
+     "Elisha Gray",
+     "Antonio Meucci",
+     "Thomas Edison",
+     "Emile Berliner"
+    ],
+    "en": [
+     "Elisha Gray",
+     "Antonio Meucci",
+     "Thomas Edison",
+     "Emile Berliner"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Grayův caveat popisoval kapalinový vysílač nápadně podobný tomu, který Bell vyzkoušel 10. března 1876. Gray své ohlášení později opustil a Bellovo prvenství nenapadl.",
+    "en": "Gray's caveat described a liquid transmitter strikingly similar to the one Bell tested on 10 March 1876. Gray later abandoned the caveat and did not contest Bell's priority."
+   }
+  },
+  {
+   "id": "T227-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co v roce 2002 schválila Sněmovna reprezentantů USA v souvislosti s Antoniem Meuccim?",
+    "en": "What did the US House of Representatives pass in 2002 in connection with Antonio Meucci?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zápis jeho dílny mezi národní památky",
+     "Rezoluci oceňující jeho práci na telefonu",
+     "Zrušení Bellova patentu na telefon",
+     "Posmrtné udělení patentu na telefon"
+    ],
+    "en": [
+     "The listing of his workshop as a national landmark",
+     "A resolution honouring his telephone work",
+     "The cancellation of Bell's telephone patent",
+     "A posthumous grant of a patent for the telephone"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Symbolická rezoluce uvádí, že kdyby Meucci mohl zaplatit poplatek 10 dolarů za udržení ochrany svého vynálezu, Bellovi by patent nemohl být udělen. O deset dní později přijal kanadský parlament symbolický návrh, který vynález připsal Bellovi.",
+    "en": "The symbolic resolution states that if Meucci had been able to pay the $10 fee to maintain protection of his invention, no patent could have been issued to Bell. Ten days later the Canadian parliament passed a symbolic motion attributing the invention to Bell."
+   }
+  },
+  {
+   "id": "T227-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Z které skladby pochází slavné vyzvánění Nokia tune?",
+    "en": "Which piece of music is the famous Nokia tune ringtone taken from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Finlandia (Jean Sibelius)",
+     "Pro Elišku (Ludwig van Beethoven)",
+     "Na krásném modrém Dunaji (Johann Strauss ml.)",
+     "Gran Vals (Francisco Tárrega)"
+    ],
+    "en": [
+     "Finlandia (Jean Sibelius)",
+     "Für Elise (Ludwig van Beethoven)",
+     "The Blue Danube (Johann Strauss II)",
+     "Gran Vals (Francisco Tárrega)"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kytarovou skladbu Gran Vals napsal španělský kytarista a skladatel Francisco Tárrega v roce 1902. Jako vyzvánění se poprvé objevila v telefonu Nokia 2110 z roku 1994 pod nenápadným názvem „Type 5“.",
+    "en": "The solo guitar piece Gran Vals was written by the Spanish guitarist and composer Francisco Tárrega in 1902. It first appeared as a ringtone on the Nokia 2110 in 1994 under the modest name \"Type 5\"."
+   }
+  },
+  {
+   "id": "T227-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím Paul Julius Reuter, zakladatel zpravodajské agentury Reuters, překlenul mezeru v telegrafním spojení mezi Cáchami a Bruselem?",
+    "en": "How did Paul Julius Reuter, founder of the Reuters news agency, bridge the gap in the telegraph connection between Aachen and Brussels?"
+   },
+   "moznosti": {
+    "cs": [
+     "Balonovou poštou",
+     "Optickým telegrafem",
+     "Poštovními holuby",
+     "Jízdními kurýry"
+    ],
+    "en": [
+     "With balloon post",
+     "With an optical telegraph",
+     "With homing pigeons",
+     "With mounted couriers"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Holubi byli rychlejší než poštovní vlak, takže Reuter získával finanční zprávy z pařížské burzy dřív. Jakmile telegraf pokryl celou trasu, holubů už nebylo třeba.",
+    "en": "The pigeons were faster than the mail train, giving Reuter quicker access to financial news from the Paris stock exchange. Once the telegraph covered the whole route, the pigeons were no longer needed."
+   }
+  },
+  {
+   "id": "T227-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak dlouho fungoval první transatlantický telegrafní kabel, který začal přenášet zprávy v srpnu 1858?",
+    "en": "How long did the first transatlantic telegraph cable, which began carrying messages in August 1858, work?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 3 dny",
+     "Asi 3 týdny",
+     "Asi 3 měsíce",
+     "Asi 3 roky"
+    ],
+    "en": [
+     "About 3 days",
+     "About 3 weeks",
+     "About 3 months",
+     "About 3 years"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Elektrotechnik Wildman Whitehouse se snažil kabelem hnát napětí až kolem 2 000 voltů, aby přenos zrychlil, a poškodil tím izolaci. Než kabel v září 1858 selhal, prošlo jím 732 zpráv, mezi nimi blahopřejné poselství z Británie prezidentu Buchananovi.",
+    "en": "Electrician Wildman Whitehouse tried to drive up to about 2,000 volts through the cable to speed up operation and damaged the insulation. Before the cable failed in September 1858, 732 messages passed through it, including a congratulatory message from Britain to President Buchanan."
+   }
+  },
+  {
+   "id": "T227-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím technici vyplnili čas při první veřejné přímé transatlantické televizní relaci přes družici Telstar (23. července 1962), protože prezident Kennedy ještě nebyl připraven?",
+    "en": "What did engineers use to fill the time during the first public live transatlantic TV broadcast via the Telstar satellite (23 July 1962), because President Kennedy was not yet ready?"
+   },
+   "moznosti": {
+    "cs": [
+     "Koncertem symfonického orchestru",
+     "Přenosem z baseballového zápasu",
+     "Záznamem startu rakety s Telstarem",
+     "Zprávami z londýnské BBC"
+    ],
+    "en": [
+     "A symphony orchestra concert",
+     "Coverage of a baseball game",
+     "A recording of Telstar's rocket launch",
+     "A BBC news bulletin from London"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Diváci viděli úsek zápasu Phillies – Cubs ze stadionu Wrigley Field. Družici postavily Bell Labs; poškodilo ji záření z výškového jaderného testu Starfish Prime a v únoru 1963 její vysílač definitivně selhal.",
+    "en": "Viewers saw part of a Phillies vs. Cubs game from Wrigley Field. The satellite was built by Bell Labs; radiation from the Starfish Prime high-altitude nuclear test damaged it, and its transmitter finally failed in February 1963."
+   }
+  },
+  {
+   "id": "T227-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč v roce 2002 přestala fungovat pražská potrubní pošta?",
+    "en": "Why did the Prague pneumatic post stop working in 2002?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zakázal ji nový poštovní zákon",
+     "Centrální stanici zničil požár",
+     "Ustoupila stavbě nové trasy metra",
+     "Povodeň zatopila část jejích strojoven"
+    ],
+    "en": [
+     "A new postal law banned it",
+     "A fire destroyed its central station",
+     "It made way for a new metro line",
+     "A flood submerged some of its engine rooms"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Srpnová povodeň zaplavila 5 z 11 podzemních strojoven. Síť asi 55 km potrubí pod centrem Prahy sloužila veřejnosti od roku 1889 a bývá označována za poslední zachovanou městskou potrubní poštu na světě.",
+    "en": "The August floods submerged 5 of its 11 underground engine rooms. The network of about 55 km (34 mi) of tubes under central Prague had served the public since 1889 and is described as the world's last preserved municipal pneumatic post."
+   }
+  },
+  {
+   "id": "T227-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co předvedl Nikola Tesla v roce 1898 na výstavě v newyorské Madison Square Garden?",
+    "en": "What did Nikola Tesla demonstrate at an 1898 exhibition at Madison Square Garden in New York?"
+   },
+   "moznosti": {
+    "cs": [
+     "Elektromobil na střídavý proud",
+     "Přístroj na přenos pohyblivého obrazu",
+     "Model lodi dálkově ovládaný rádiem",
+     "Bezdrátový přenos hlasu přes oceán"
+    ],
+    "en": [
+     "An alternating-current electric car",
+     "A device for transmitting moving images",
+     "A radio-controlled model boat",
+     "Wireless voice transmission across the ocean"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Loďka přijímala rádiové povely pomocí koheréru a Tesla na tento princip získal v roce 1898 americký patent č. 613 809. Řadí se tak k průkopníkům dálkového ovládání.",
+    "en": "The boat received radio commands via a coherer, and Tesla obtained US patent No. 613,809 for the principle in 1898. This makes him one of the pioneers of remote control."
+   }
+  },
+  {
+   "id": "T227-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Které zařízení, prodávané od roku 1994, bývá zpětně označováno za první skutečný smartphone?",
+    "en": "Which device, sold from 1994, is retrospectively described as the first true smartphone?"
+   },
+   "moznosti": {
+    "cs": [
+     "BlackBerry 5810",
+     "Apple Newton",
+     "Nokia 9000 Communicator",
+     "IBM Simon"
+    ],
+    "en": [
+     "BlackBerry 5810",
+     "Apple Newton",
+     "Nokia 9000 Communicator",
+     "IBM Simon"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Spojoval mobilní telefon s funkcemi kapesního počítače: měl dotykovou obrazovku se stylusem, kalendář a adresář a uměl posílat faxy i e-maily. Za zhruba půl roku na trhu se ho prodalo asi 50 000 kusů.",
+    "en": "It combined a mobile phone with PDA features: a touchscreen with a stylus, a calendar and address book, and it could send faxes and emails. About 50,000 units were sold during its roughly six months on the market."
+   }
+  }
+ ]
+}

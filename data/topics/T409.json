@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T409",
+ "nazev": {
+  "cs": "Lidoví hrdinové a legendární psanci: Robin Hood, Vilém Tell a další",
+  "en": "Folk Heroes and Legendary Outlaws: Robin Hood, William Tell and More"
+ },
+ "kategorie": {
+  "id": "mytologie-a-nabozenstvi",
+  "nazev": {
+   "cs": "Mytologie a náboženství",
+   "en": "Mythology & Religion"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T409-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém lese podle pozdější tradice žil Robin Hood se svou družinou?",
+    "en": "According to later tradition, in which forest did Robin Hood live with his band?"
+   },
+   "moznosti": {
+    "cs": [
+     "les Wychwood",
+     "Sherwoodský les",
+     "Ardenský les",
+     "les Savernake"
+    ],
+    "en": [
+     "Wychwood Forest",
+     "Sherwood Forest",
+     "Forest of Arden",
+     "Savernake Forest"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Z Sherwoodu udělal královský lovecký les už Vilém Dobyvatel. Kdysi zabíral možná čtvrtinu hrabství, dnešní národní přírodní rezervace má jen asi 425 hektarů.",
+    "en": "William the Conqueror made Sherwood a royal hunting forest. It once covered perhaps a quarter of its county, while today's national nature reserve protects only about 425 hectares (1,050 acres)."
+   }
+  },
+  {
+   "id": "T409-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo je v legendách o Robinu Hoodovi jeho úhlavním nepřítelem?",
+    "en": "Who is Robin Hood's chief enemy in the legends?"
+   },
+   "moznosti": {
+    "cs": [
+     "arcibiskup z Canterbury",
+     "hrabě z Warwicku",
+     "šerif z Nottinghamu",
+     "starosta Londýna"
+    ],
+    "en": [
+     "The Archbishop of Canterbury",
+     "The Earl of Warwick",
+     "The Sheriff of Nottingham",
+     "The Mayor of London"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Už v nejstarších baladách mezi ním a Robinem panuje zahořklé nepřátelství. Pozdější verze z něj dělají pomocníka prince Jana, který chce uchvátit trůn nepřítomného krále Richarda.",
+    "en": "Even in the earliest ballads there is bitter enmity between him and Robin. Later versions make him a helper of Prince John, who schemes to seize the throne of the absent King Richard."
+   }
+  },
+  {
+   "id": "T409-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč je přezdívka Malý John, kterou nese jeden z Robinových druhů, vlastně vtip?",
+    "en": "Why is the nickname Little John, borne by one of Robin's companions, actually a joke?"
+   },
+   "moznosti": {
+    "cs": [
+     "Byl nejstarší z družiny",
+     "Byl nejhorší lukostřelec",
+     "Byl obrovského vzrůstu",
+     "Byl šlechtického původu"
+    ],
+    "en": [
+     "He was the oldest of the band",
+     "He was the worst archer",
+     "He was a giant of a man",
+     "He was of noble birth"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ironická přezdívka odkazuje na jeho obří postavu, bývá líčen jako válečník vysoký asi 2,1 metru (7 stop). V některých verzích legendy se jmenuje prostě John Little, čímž vtip zmizí.",
+    "en": "The ironic nickname refers to his giant frame, as he is usually portrayed as a warrior about 2.1 m (7 ft) tall. In some versions of the legend he is simply called John Little, which loses the joke."
+   }
+  },
+  {
+   "id": "T409-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakým zvířetem je Robin Hood v animovaném filmu studia Disney z roku 1973?",
+    "en": "What animal is Robin Hood in Disney's 1973 animated film?"
+   },
+   "moznosti": {
+    "cs": [
+     "liška",
+     "lev",
+     "vlk",
+     "medvěd"
+    ],
+    "en": [
+     "A fox",
+     "A lion",
+     "A wolf",
+     "A bear"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Lišák Robin, kterému v originále propůjčil hlas Brian Bedford, dobře odpovídá pověsti chytrého a mazaného zbojníka.",
+    "en": "Robin the fox, voiced by Brian Bedford, suits the legend's clever, cunning outlaw."
+   }
+  },
+  {
+   "id": "T409-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které zemi je Vilém Tell národním hrdinou?",
+    "en": "Which country regards William Tell as its national hero?"
+   },
+   "moznosti": {
+    "cs": [
+     "Německu",
+     "Lichtenštejnsku",
+     "Rakousku",
+     "Švýcarsku"
+    ],
+    "en": [
+     "Germany",
+     "Liechtenstein",
+     "Austria",
+     "Switzerland"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Legenda, tradičně datovaná k roku 1307, ho spojuje se vznikem Staré švýcarské konfederace. Jako „Tell“ ho poprvé zmiňuje Bílá kniha ze Sarnenu, sepsaná až roku 1474.",
+    "en": "The legend, traditionally dated to 1307, links him to the founding of the Old Swiss Confederacy. He is first mentioned, simply as 'Tell', in the White Book of Sarnen, written as late as 1474."
+   }
+  },
+  {
+   "id": "T409-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaké zvíře je Babe, věrný společník obřího dřevorubce Paula Bunyana z amerických nadsázkových příběhů?",
+    "en": "What animal is Babe, the faithful companion of giant lumberjack Paul Bunyan in American tall tales?"
+   },
+   "moznosti": {
+    "cs": [
+     "modrý vůl",
+     "hnědý medvěd",
+     "šedý vlk",
+     "bílý kůň"
+    ],
+    "en": [
+     "A blue ox",
+     "A brown bear",
+     "A grey wolf",
+     "A white horse"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Podle příběhů vytvořili Paul a Babe svými stopami 10 000 jezer v Minnesotě. Jejich obří sochy stojí v minnesotském městě Bemidji.",
+    "en": "According to the tales, Paul and Babe created Minnesota's 10,000 lakes with their footprints. Giant statues of the pair stand in Bemidji, Minnesota."
+   }
+  },
+  {
+   "id": "T409-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který proslulý vypravěč neuvěřitelných historek se prý proletěl na dělové kouli?",
+    "en": "Which famous teller of incredible tales claims to have ridden on a cannonball?"
+   },
+   "moznosti": {
+    "cs": [
+     "baron Prášil",
+     "Don Quijote",
+     "Sindibád námořník",
+     "Lemuel Gulliver"
+    ],
+    "en": [
+     "Baron Munchausen",
+     "Don Quixote",
+     "Sinbad the Sailor",
+     "Lemuel Gulliver"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Literární baron má skutečný předobraz, německého šlechtice Hieronyma Karla Friedricha von Münchhausena, který bojoval za Rusko proti Turkům a při večeřích vyprávěl přehnané historky. Let na kouli přitom v nejstarším vydání nebyl, přidali ho až pozdější autoři.",
+    "en": "The literary baron had a real model, the German nobleman Hieronymus Karl Friedrich von Münchhausen, who fought for Russia against the Turks and told exaggerated stories at dinners. The cannonball ride was not in the earliest edition, though; later writers added it."
+   }
+  },
+  {
+   "id": "T409-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která pokrývka hlavy patří k typickému obrazu amerického zálesáka Davyho Crocketta?",
+    "en": "Which headgear is part of the classic image of American frontiersman Davy Crockett?"
+   },
+   "moznosti": {
+    "cs": [
+     "čepice z mývalí kožešiny",
+     "třírohý klobouk",
+     "kovbojský klobouk stetson",
+     "buřinka"
+    ],
+    "en": [
+     "A coonskin cap",
+     "A tricorn hat",
+     "A Stetson cowboy hat",
+     "A bowler hat"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Čepici proslavily hlavně Disneyho televizní epizody o Crockettovi s Fessem Parkerem z let 1954–1955. Vypukla po nich móda mezi americkými chlapci a v jejím vrcholu se prodávalo až 5 000 čepic denně.",
+    "en": "The cap was popularized mainly by Disney's 1954–55 TV episodes about Crockett starring Fess Parker. They set off a craze among American boys, and at its peak caps sold at a rate of 5,000 a day."
+   }
+  },
+  {
+   "id": "T409-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co podle populární legendy dělal Robin Hood s bohatstvím, které vzal boháčům?",
+    "en": "According to the popular legend, what did Robin Hood do with the riches he took from the wealthy?"
+   },
+   "moznosti": {
+    "cs": [
+     "zakopával ho v lese",
+     "rozdával ho chudým",
+     "posílal ho rodině za moře",
+     "šetřil si na vlastní hrad"
+    ],
+    "en": [
+     "Buried them in the forest",
+     "Gave them to the poor",
+     "Sent them to his family overseas",
+     "Saved up for his own castle"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Zajímavé je, že žádná z dochovaných raných balad ho při obdarovávání chudých nezobrazuje. Výslovně to poprvé uvádí až kronikář John Stow roku 1592.",
+    "en": "Interestingly, none of the surviving early ballads actually shows him giving to the poor. The idea is first stated explicitly by the chronicler John Stow in 1592."
+   }
+  },
+  {
+   "id": "T409-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterou zbraní je Robin Hood v legendách proslulý především?",
+    "en": "Which weapon is Robin Hood above all famous for in the legends?"
+   },
+   "moznosti": {
+    "cs": [
+     "kopí",
+     "luk",
+     "kuše",
+     "meč"
+    ],
+    "en": [
+     "The spear",
+     "The bow",
+     "The crossbow",
+     "The sword"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Robin je mistrný lučištník a rané balady z něj dělají „yeomana“, tedy svobodného prostého muže, ani rytíře, ani rolníka. Slavný kousek, kdy rozštípne soupeřův šíp, se poprvé objevuje až v básni z poloviny 17. století.",
+    "en": "Robin is a master archer, and the early ballads make him a yeoman, a free commoner who was neither knight nor peasant. His famous feat of splitting an opponent's arrow first appears only in a poem from the mid-17th century."
+   }
+  },
+  {
+   "id": "T409-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Závěrečný cval z předehry k Rossiniho opeře Vilém Tell (1829) se v USA proslavil jako znělka které postavy?",
+    "en": "The final galop of the overture to Rossini's opera William Tell (1829) became famous in the U.S. as the theme of which character?"
+   },
+   "moznosti": {
+    "cs": [
+     "Osamělého jezdce",
+     "Kapitána Marvela",
+     "Hopalonga Cassidyho",
+     "Zeleného sršně"
+    ],
+    "en": [
+     "The Lone Ranger",
+     "Captain Marvel",
+     "Hopalong Cassidy",
+     "The Green Hornet"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hudba zazněla jako znělka v rozhlasové, televizní i filmové verzi a od té doby se pojí s jízdou na koni. Paradoxně v samotné opeře žádní koně ani jezdecký útok nevystupují.",
+    "en": "The music served as the theme on radio, television and film, and has been associated with horseback riding ever since. Ironically, the opera itself features no horses or cavalry charges."
+   }
+  },
+  {
+   "id": "T409-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč byl Vilém Tell podle legendy donucen střílet na jablko na hlavě svého syna?",
+    "en": "According to the legend, why was William Tell forced to shoot an apple off his son's head?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zastřelil jelena v Gesslerově panské oboře",
+     "Nepoklonil se Gesslerovu klobouku na tyči",
+     "Pomohl uprchnout vězni z Gesslerova hradu",
+     "Odmítl zaplatit fojtovi daň ze dřeva"
+    ],
+    "en": [
+     "He shot a stag in Gessler's private game park",
+     "He did not bow to Gessler's hat on a pole",
+     "He helped a prisoner escape Gessler's castle",
+     "He refused to pay the bailiff a timber tax"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Habsburský fojt Gessler dal v Altdorfu vztyčit tyč se svým kloboukem a nařídil, aby se mu všichni klaněli. Tell to veřejně odmítl, byl zatčen a za trest musel prokázat své střelecké umění.",
+    "en": "The Habsburg bailiff Gessler set up a pole with his hat on it in Altdorf and ordered everyone to bow before it. Tell publicly refused, was arrested and as punishment had to prove his marksmanship."
+   }
+  },
+  {
+   "id": "T409-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na území které dnešní země se narodil zbojník Juraj Jánošík, hrdina mnoha legend?",
+    "en": "In which present-day country was the outlaw Juraj Jánošík, hero of many legends, born?"
+   },
+   "moznosti": {
+    "cs": [
+     "Maďarsko",
+     "Polsko",
+     "Ukrajina",
+     "Slovensko"
+    ],
+    "en": [
+     "Hungary",
+     "Poland",
+     "Ukraine",
+     "Slovakia"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Narodil se roku 1688 v Terchové, tehdy v Uherském království. Legenda o něm zdomácněla i u polských Goralů v Podhalí, takže je hrdinou po obou stranách Tater.",
+    "en": "He was born in 1688 in Terchová, then in the Kingdom of Hungary. His legend also took root among the Polish Gorals of Podhale, making him a hero on both sides of the Tatras."
+   }
+  },
+  {
+   "id": "T409-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se podle balady ze 17. století Robin Hood poprvé setkal s Malým Johnem?",
+    "en": "According to a 17th-century ballad, how did Robin Hood first meet Little John?"
+   },
+   "moznosti": {
+    "cs": [
+     "Oba se ukryli před bouří v téže hospodě",
+     "Malý John ho vysvobodil ze šerifova vězení",
+     "Střetli se ve finále lukostřelecké soutěže",
+     "Utkali se holemi na úzkém mostě"
+    ],
+    "en": [
+     "Both sheltered from a storm in the same inn",
+     "Little John freed him from the sheriff's prison",
+     "They faced each other in an archery contest final",
+     "They fought with staffs on a narrow bridge"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "V této baladě mu cizinec zablokoval cestu přes úzký most a pustili se do sebe dlouhými holemi. Robin podlehl, a přesto se z protivníka stal jeho nejvěrnější druh.",
+    "en": "In this ballad, a stranger blocks Robin's way across a narrow bridge and they fight with quarterstaffs. Robin is beaten, yet his opponent becomes his most loyal companion."
+   }
+  },
+  {
+   "id": "T409-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak si Robin Hood podle balad před smrtí vybral místo svého hrobu?",
+    "en": "According to the ballads, how did the dying Robin Hood choose the site of his grave?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nechal své druhy losovat",
+     "Určil ho v poslední vůli",
+     "Vystřelil šíp z okna",
+     "Ukázal na nejstarší dub v lese"
+    ],
+    "en": [
+     "He had his companions draw lots",
+     "He named it in his last will",
+     "He shot an arrow from a window",
+     "He pointed to the oldest oak in the forest"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Podle balad zemřel v převorství Kirklees, kde ho zradila převorka, jeho příbuzná, která o něj měla pečovat. Nápis na tradičním „Robinově hrobě“ je však podvrh.",
+    "en": "According to the ballads he died at Kirklees Priory, betrayed by the prioress, a relative who was supposed to be caring for him. The inscription on the traditional 'Robin Hood's grave', however, is spurious."
+   }
+  },
+  {
+   "id": "T409-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "S čím se podle americké lidové balady utkal John Henry, když se razil železniční tunel?",
+    "en": "According to the American folk ballad, what did John Henry compete against while a railroad tunnel was being dug?"
+   },
+   "moznosti": {
+    "cs": [
+     "s parní lokomotivou",
+     "s tornádem",
+     "s parním vrtacím strojem",
+     "s rozzuřeným medvědem"
+    ],
+    "en": [
+     "A steam locomotive",
+     "A tornado",
+     "A steam-powered drill",
+     "An angry bear"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Závod vyhrál, ale srdce mu vypovědělo a zemřel s kladivem v ruce. Stal se symbolem síly a vykořisťované práce; nejznámějším kandidátem na skutečné místo je tunel Big Bend v Západní Virginii, historik Scott Nelson však ukazuje na tunel Lewis ve Virginii.",
+    "en": "He won the race, but his heart gave out and he died with his hammer in hand. He became a symbol of strength and exploited labor; the best-known candidate for the real site is the Big Bend Tunnel in West Virginia, though historian Scott Nelson points to the Lewis Tunnel in Virginia."
+   }
+  },
+  {
+   "id": "T409-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kým byl podle amerických nadsázkových příběhů vychován kovboj Pecos Bill, když jako dítě vypadl z vozu?",
+    "en": "According to American tall tales, who raised the cowboy Pecos Bill after he fell out of a wagon as a child?"
+   },
+   "moznosti": {
+    "cs": [
+     "orly",
+     "medvědy",
+     "kojoty",
+     "bizony"
+    ],
+    "en": [
+     "Eagles",
+     "Bears",
+     "Coyotes",
+     "Bison"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vypadl z vozu u řeky Pecos, podle níž dostal přezdívku. Jako „starou“ lidovou postavu ho ve skutečnosti vymyslel spisovatel Edward O'Reilly v povídkách z roku 1923.",
+    "en": "He fell out near the Pecos River, which gave him his nickname. In fact this supposedly old folk figure was invented by writer Edward O'Reilly in stories first published in 1923."
+   }
+  },
+  {
+   "id": "T409-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se podle legendy jmenovala klisna anglického lupiče Dicka Turpina?",
+    "en": "According to the legend, what was the name of English highwayman Dick Turpin's mare?"
+   },
+   "moznosti": {
+    "cs": [
+     "Black Bess",
+     "Red Rose",
+     "Bonny Kate",
+     "Grey Nell"
+    ],
+    "en": [
+     "Black Bess",
+     "Red Rose",
+     "Bonny Kate",
+     "Grey Nell"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "V legendě ho věrná klisna nese tak rychle, že pronásledovatelům unikne, ale vyčerpáním padne. Skutečný Turpin byl roku 1739 v Yorku pověšen za krádež koní.",
+    "en": "In the legend his faithful mare carries him so fast that he outruns his pursuers, but she dies of exhaustion. The real Turpin was hanged at York in 1739 for horse theft."
+   }
+  },
+  {
+   "id": "T409-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na jakém zvířeti je mudrc a šprýmař Nasreddin často zobrazován, jak na něm sedí obráceně?",
+    "en": "On which animal is the wise fool Nasreddin often shown, sitting on it backwards?"
+   },
+   "moznosti": {
+    "cs": [
+     "na volovi",
+     "na velbloudovi",
+     "na koni",
+     "na oslovi"
+    ],
+    "en": [
+     "An ox",
+     "A camel",
+     "A horse",
+     "A donkey"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Když se ho podle jedné z anekdot ptali, proč sedí obráceně, odpověděl, že to on nesedí špatně, to osel stojí obráceně. Tak ho zobrazuje i řada ilustrací a soch.",
+    "en": "When asked in one anecdote why he was sitting backwards, he replied that he was not sitting the wrong way, the donkey was facing the wrong way. Many illustrations and statues show him this way."
+   }
+  },
+  {
+   "id": "T409-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaká slova podle tradice pronesl australský psanec Ned Kelly těsně před popravou v roce 1880?",
+    "en": "According to tradition, what did the Australian outlaw Ned Kelly say just before his execution in 1880?"
+   },
+   "moznosti": {
+    "cs": [
+     "„Bůh ochraňuj Irsko!“",
+     "„Umírám nevinen.“",
+     "„Pamatujte na Glenrowan!“",
+     "„Takový je život.“"
+    ],
+    "en": [
+     "\"God save Ireland!\"",
+     "\"I die an innocent man.\"",
+     "\"Remember Glenrowan!\"",
+     "\"Such is life.\""
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Byl oběšen 11. listopadu 1880 v melbournské věznici. Svědectví se ale liší: podle jiné zprávy chtěl pronést řeč, ale jen si povzdechl „Ach, inu, asi…“.",
+    "en": "He was hanged on 11 November 1880 at Melbourne Gaol. Accounts differ, though: another report says he meant to make a speech but merely sighed, 'Ah, well, I suppose.'"
+   }
+  },
+  {
+   "id": "T409-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve které básni ze 14. století se objevuje první jasná zmínka o „rýmovačkách o Robinu Hoodovi“?",
+    "en": "In which 14th-century poem does the first clear reference to 'rhymes of Robin Hood' appear?"
+   },
+   "moznosti": {
+    "cs": [
+     "Canterburské povídky",
+     "Sir Gawain a Zelený rytíř",
+     "Confessio Amantis",
+     "Piers Plowman"
+    ],
+    "en": [
+     "The Canterbury Tales",
+     "Sir Gawain and the Green Knight",
+     "Confessio Amantis",
+     "Piers Plowman"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Báseň se dnes připisuje Williamu Langlandovi a vznikla asi v letech 1370–1386. Je to první známý doklad, že o Robinovi už tehdy kolovala celá tradice vyprávění.",
+    "en": "The poem is now attributed to William Langland and was written around 1370–86. It is the first known evidence that a whole tradition of Robin Hood tales was already in circulation."
+   }
+  },
+  {
+   "id": "T409-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém lese se podle historiků odehrávají původní balady o Robinu Hoodovi?",
+    "en": "According to historians, in which forest are the original Robin Hood ballads set?"
+   },
+   "moznosti": {
+    "cs": [
+     "Barnsdale v Yorkshiru",
+     "Deanský les v Gloucestershiru",
+     "New Forest v Hampshiru",
+     "Eppingský les v Essexu"
+    ],
+    "en": [
+     "Barnsdale in Yorkshire",
+     "The Forest of Dean in Gloucestershire",
+     "The New Forest in Hampshire",
+     "Epping Forest in Essex"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Barnsdale byl malý les o rozloze nejvýše asi 78 km² u Pontefractu, kolem kterého vedla hlavní silnice Great North Road. Do lesa, kde ho zná dnešní popkultura, Robina poprvé umisťuje píseň z rukopisu z doby kolem roku 1420.",
+    "en": "Barnsdale was a small forest of no more than about 78 km² (30 sq mi) near Pontefract, passed by the Great North Road. The first recorded song to place Robin in the forest where pop culture knows him today comes from a manuscript of about 1420."
+   }
+  },
+  {
+   "id": "T409-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Gessler si podle legendy všiml, že si Tell před výstřelem na jablko vzal ještě druhý šíp. K čemu podle Tellovy odpovědi sloužil?",
+    "en": "According to the legend, Gessler noticed that Tell had taken a second bolt before shooting at the apple. What did Tell say it was for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zastřelil by jím Gesslera, kdyby zasáhl syna",
+     "Chtěl jím zabít sám sebe, kdyby zasáhl syna",
+     "Střelil by znovu, kdyby první šíp minul",
+     "Chtěl ho dát synovi na památku"
+    ],
+    "en": [
+     "To kill Gessler had he hit his son",
+     "To kill himself had he hit his son",
+     "To shoot again had the first bolt missed",
+     "To give to his son as a keepsake"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Za tuto upřímnost ho dal Gessler znovu spoutat a odvézt do vězení. Tell však cestou uprchl a fojta později zabil ze zálohy v úvozu Hohle Gasse.",
+    "en": "For this honesty Gessler had him bound again and taken away to prison. Tell escaped on the way, however, and later killed the bailiff from an ambush in the sunken lane known as the Hohle Gasse."
+   }
+  },
+  {
+   "id": "T409-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Podobný příběh o střelbě na jablko na synově hlavě zapsal už kolem roku 1200 dánský kronikář Saxo Grammaticus. Který lučištník v něm střílí?",
+    "en": "A similar story of shooting an apple off a son's head was recorded around 1200 by the Danish chronicler Saxo Grammaticus. Which archer does the shooting in it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ragnar Lodbrok",
+     "Sigurd",
+     "Palnatoke",
+     "Beowulf"
+    ],
+    "en": [
+     "Ragnar Lodbrok",
+     "Sigurd",
+     "Palnatoke",
+     "Beowulf"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Saxo ho nazývá Toko a ke střelbě ho podle něj donutil dánský král Harald. Motiv střelby na jablko je tak téměř o tři století starší než první písemná zmínka o Tellovi.",
+    "en": "Saxo calls him Toko and says he was forced to shoot by the Danish King Harald. The apple-shooting motif is thus nearly three centuries older than the first written mention of Tell."
+   }
+  },
+  {
+   "id": "T409-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Australský film The Story of the Kelly Gang (1906) o Nedu Kellym je považován za první…",
+    "en": "The Australian film The Story of the Kelly Gang (1906), about Ned Kelly, is considered the world's first…"
+   },
+   "moznosti": {
+    "cs": [
+     "plně ozvučený zvukový film na světě",
+     "celovečerní hraný film na světě",
+     "celobarevný film na světě",
+     "animovaný film s loutkami na světě"
+    ],
+    "en": [
+     "fully synchronised sound film",
+     "feature-length narrative film",
+     "full-colour motion picture",
+     "animated puppet film"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Původně trval přes hodinu a v roce 2007 byl zapsán do rejstříku UNESCO Paměť světa. Dochovalo se z něj jen asi 17 minut (k roku 2026).",
+    "en": "It originally ran for more than an hour and was inscribed on UNESCO's Memory of the World Register in 2007. Only about 17 minutes survive (as of 2026)."
+   }
+  },
+  {
+   "id": "T409-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč byla jablka ze sadů, které zakládal John Chapman (Johnny Appleseed), vhodná spíš na cider než k jídlu?",
+    "en": "Why were the apples from the orchards planted by John Chapman (Johnny Appleseed) better suited to cider than to eating?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sázel stromy příliš hustě vedle sebe",
+     "Pěstoval stromy ze semen, ne roubováním",
+     "Sázel je do příliš kyselé a podmáčené půdy",
+     "Jablka sklízel ještě dlouho před zralostí"
+    ],
+    "en": [
+     "He planted the trees far too close together",
+     "He grew the trees from seed, not by grafting",
+     "He planted them in overly acidic, wet soil",
+     "He picked the apples long before they ripened"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ze semenáčů dávala k jídlu vhodná jablka jen zhruba jedna jabloň ze sta, zbytek byl kyselý, ale skvělý na tvrdý cider. Chapman, horlivý stoupenec Emanuela Swedenborga, roubování údajně odmítal z náboženských důvodů.",
+    "en": "Only about one seedling in a hundred bore apples fit for eating; the rest were sour but made fine hard cider. Chapman, a devoted follower of Emanuel Swedenborg, reportedly objected to grafting on religious grounds."
+   }
+  },
+  {
+   "id": "T409-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jméno německého šibala Enšpígla (Till Eulenspiegel) se obvykle vykládá jako spojení dvou slov. Kterých?",
+    "en": "The name of the German trickster Till Eulenspiegel is usually explained as a combination of two words. Which ones?"
+   },
+   "moznosti": {
+    "cs": [
+     "osel a pytel",
+     "kohout a zvon",
+     "liška a klobouk",
+     "sova a zrcadlo"
+    ],
+    "en": [
+     "Donkey and sack",
+     "Rooster and bell",
+     "Fox and hat",
+     "Owl and mirror"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Sova a ruční zrcátko tvoří obrázkový rébus jeho jména už na titulu knížky z roku 1515 i na jeho údajném náhrobku v Möllnu. Jiný výklad v jménu vidí zkomoleninu výrazu „utři si zadek“.",
+    "en": "An owl and a hand mirror form a picture rebus of his name on the title page of the 1515 chapbook and on his alleged tombstone in Mölln. Another explanation sees the name as a garbled form of an expression meaning 'wipe the arse'."
+   }
+  },
+  {
+   "id": "T409-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Slavnou bleskovou jízdu do Yorku proslavil ve spojení s Dickem Turpinem román Rookwood (1834). Daniel Defoe ve 20. letech 18. století připsal podobný kousek lupiči, kterého nazval „Nicks“. S kým je tradičně ztotožňován?",
+    "en": "The novel Rookwood (1834) made the famous lightning ride to York part of Dick Turpin's legend. In the 1720s Daniel Defoe credited a similar feat to a robber he called 'Nicks'. Who is he traditionally identified as?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jamesi MacLaineovi",
+     "Johnu Nevisonovi",
+     "Claudu Duvalovi",
+     "Jacku Sheppardovi"
+    ],
+    "en": [
+     "James MacLaine",
+     "John Nevison",
+     "Claude Duval",
+     "Jack Sheppard"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Nevison roku 1676 údajně dojel z Kentu až do Yorku, aby si opatřil alibi pro loupež spáchanou téhož dne, a u soudu skutečně uspěl. Král Karel II. mu prý dal přezdívku „Swift Nick“ (Rychlý Nick).",
+    "en": "In 1676 Nevison supposedly rode from Kent all the way to York to give himself an alibi for a robbery committed that same day, and it worked in court. King Charles II is said to have nicknamed him 'Swift Nick'."
+   }
+  },
+  {
+   "id": "T409-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Koho podle slavné ruské písně hodí kozácký vůdce Stěnka Razin do Volhy, aby svým mužům dokázal, že nezměkl?",
+    "en": "According to a famous Russian song, whom does the Cossack leader Stenka Razin throw into the Volga to prove to his men that he has not gone soft?"
+   },
+   "moznosti": {
+    "cs": [
+     "svého bratra",
+     "perskou princeznu",
+     "zrádného atamana",
+     "carova vyslance"
+    ],
+    "en": [
+     "His own brother",
+     "A Persian princess",
+     "A treacherous ataman",
+     "The tsar's envoy"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Zajatou princeznu daroval řece jako oběť; historici ale o skutečnosti této epizody pochybují. Skutečný Razin vedl v letech 1670–1671 velké povstání a roku 1671 byl v Moskvě čtvrcen.",
+    "en": "He offered the captive princess to the river as a gift, though modern historians doubt the episode really happened. The real Razin led a great uprising in 1670–71 and was quartered in Moscow in 1671."
+   }
+  },
+  {
+   "id": "T409-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím se nejvíc zasloužil o rozšíření příběhů o Paulu Bunyanovi po celých USA William B. Laughead?",
+    "en": "How did William B. Laughead do the most to spread the Paul Bunyan stories across the United States?"
+   },
+   "moznosti": {
+    "cs": [
+     "rozhlasovými pohádkami pro děti",
+     "němým filmem natočeným pro dřevaře",
+     "reklamními brožurami dřevařské firmy",
+     "kreslenými seriály v nedělních novinách"
+    ],
+    "en": [
+     "Through radio fairy tales for children",
+     "Through a silent film made for loggers",
+     "Through a lumber company's advertising booklets",
+     "Through comic strips in Sunday newspapers"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Reklamní textař napsal v roce 1916 brožury pro firmu Red River Lumber Company, Bunyana jako první nakreslil a udělal ho mnohem větším než starší vyprávění. Folklorista Richard Dorson proto uvádí Bunyana jako příklad „fakelore“, tedy uměle vytvořeného folkloru.",
+    "en": "The advertising copywriter wrote 1916 pamphlets for the Red River Lumber Company, created the first picture of Bunyan and made him far taller than in older tales. Folklorist Richard Dorson therefore cites Bunyan as an example of 'fakelore', invented folklore."
+   }
+  }
+ ]
+}

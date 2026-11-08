@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T199",
+ "nazev": {
+  "cs": "Světlo, barvy a optika",
+  "en": "Light, Colour and Optics"
+ },
+ "kategorie": {
+  "id": "veda-a-technika",
+  "nazev": {
+   "cs": "Věda a technika",
+   "en": "Science & Technology"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T199-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou rychlostí se zhruba šíří světlo ve vakuu?",
+    "en": "Roughly how fast does light travel in a vacuum?"
+   },
+   "moznosti": {
+    "cs": [
+     "3 000 km/s",
+     "30 000 km/s",
+     "300 000 km/s",
+     "3 000 000 km/s"
+    ],
+    "en": [
+     "3,000 km/s (1,860 mi/s)",
+     "30,000 km/s (18,600 mi/s)",
+     "300,000 km/s (186,000 mi/s)",
+     "3,000,000 km/s (1,860,000 mi/s)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Světlo urazí ve vakuu zhruba 300 000 km za sekundu, přesně 299 792 458 m/s. Za jednu sekundu by tak oběhlo Zemi kolem rovníku asi sedmkrát a půl.",
+    "en": "Light covers about 300,000 km (186,000 mi) every second in a vacuum – exactly 299,792,458 m/s (about 186,282 mi/s). In one second it could circle the Earth at the equator about seven and a half times."
+   }
+  },
+  {
+   "id": "T199-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč se tužka ponořená šikmo do sklenice s vodou zdá na hladině zlomená?",
+    "en": "Why does a pencil dipped at a slant into a glass of water look broken at the surface?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kvůli ohybu světla (difrakci)",
+     "Kvůli polarizaci světla",
+     "Kvůli lomu světla",
+     "Kvůli odrazu světla"
+    ],
+    "en": [
+     "Because of diffraction of light",
+     "Because of polarisation of light",
+     "Because of refraction of light",
+     "Because of reflection of light"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Světlo se při přechodu z vody do vzduchu láme, ale mozek paprsky sleduje zpět jako přímky, takže ponořená část se zdá posunutá. Lom je také důvod, proč se nám bazén zdá mělčí, než ve skutečnosti je.",
+    "en": "Light bends as it passes from water into air, but the brain traces the rays back as straight lines, so the submerged part appears shifted. Refraction is also why a pool looks shallower than it really is."
+   }
+  },
+  {
+   "id": "T199-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč je obloha za jasného dne modrá?",
+    "en": "Why is the sky blue on a clear day?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vzduch rozptyluje modré světlo mnohem víc než červené",
+     "Slunce vyzařuje převážně modré a fialové světlo",
+     "Ve vysoké atmosféře se vznáší jemný modrý prach",
+     "Obloha odráží modrou barvu moří a oceánů"
+    ],
+    "en": [
+     "Air scatters blue light much more than red",
+     "The Sun emits mostly blue and violet light",
+     "Fine blue dust floats in the upper atmosphere",
+     "The sky reflects the blue colour of the seas and oceans"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Molekuly vzduchu rozptylují krátkovlnné modré světlo mnohem silněji než dlouhovlnné červené a to k nám pak přichází ze všech směrů oblohy. Jev se nazývá Rayleighův rozptyl a jeho síla roste se čtvrtou mocninou převrácené vlnové délky.",
+    "en": "Air molecules scatter short-wavelength blue light much more strongly than long-wavelength red light, so blue reaches us from every direction of the sky. This is Rayleigh scattering, whose strength is inversely proportional to the fourth power of the wavelength."
+   }
+  },
+  {
+   "id": "T199-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ze kterých tří barev světla skládají obrazovky televizorů a počítačů barevný obraz?",
+    "en": "Which three colours of light do television and computer screens combine to create a colour image?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zelená, modrá, fialová",
+     "Červená, žlutá, modrá",
+     "Červená, zelená, modrá",
+     "Červená, žlutá, zelená"
+    ],
+    "en": [
+     "Green, blue, violet",
+     "Red, yellow, blue",
+     "Red, green, blue",
+     "Red, yellow, green"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Každý obrazový bod tvoří tři drobné zdroje červeného, zeleného a modrého světla (model RGB), které oko z dálky vnímá jako jedinou barvu. Červená, žlutá a modrá jsou naopak tradiční základní barvy malířů při míchání pigmentů.",
+    "en": "Each pixel consists of three tiny red, green and blue light sources (the RGB model) that the eye perceives as a single colour from a distance. Red, yellow and blue, by contrast, are the traditional primary colours painters use for mixing pigments."
+   }
+  },
+  {
+   "id": "T199-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které neviditelné záření ze Slunce způsobuje spálení kůže?",
+    "en": "Which invisible radiation from the Sun causes sunburn?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ultrafialové",
+     "Rádiové",
+     "Mikrovlnné",
+     "Infračervené"
+    ],
+    "en": [
+     "Ultraviolet",
+     "Radio",
+     "Microwave",
+     "Infrared"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Spálení kůže způsobuje hlavně ultrafialové záření typu UVB, jehož nadměrná dávka může vést i k některým druhům rakoviny kůže. Infračervené záření naopak vnímáme jako teplo.",
+    "en": "Sunburn is caused mainly by ultraviolet UVB radiation, and overexposure can also lead to some forms of skin cancer. Infrared, by contrast, is the radiation we feel as warmth."
+   }
+  },
+  {
+   "id": "T199-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakým světlem běžné dálkové ovládání obvykle posílá povely televizoru?",
+    "en": "What kind of light does an ordinary TV remote control usually use to send commands to the television?"
+   },
+   "moznosti": {
+    "cs": [
+     "Infračerveným",
+     "Rentgenovým",
+     "Ultrafialovým",
+     "Viditelným zeleným"
+    ],
+    "en": [
+     "Infrared",
+     "X-ray",
+     "Ultraviolet",
+     "Visible green"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Ovladač má infračervenou LED diodu, která bliká v zakódovaném rytmu, a televizor ho přijímačem rozluští. Lidské oko záblesky nevidí, ale kamera mobilu je často zachytí jako fialově bílé světlo.",
+    "en": "The remote contains an infrared LED that flashes in a coded pattern, which the TV's receiver decodes. The human eye cannot see the flashes, but a phone camera often shows them as a purplish-white light."
+   }
+  },
+  {
+   "id": "T199-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaký typ čočky je lupa?",
+    "en": "What type of lens is a magnifying glass?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rozptylka (dutá čočka)",
+     "Rovinné sklo",
+     "Optický hranol",
+     "Spojka (vypuklá čočka)"
+    ],
+    "en": [
+     "A diverging (concave) lens",
+     "A flat sheet of glass",
+     "An optical prism",
+     "A converging (convex) lens"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Lupa je spojka, tedy uprostřed silnější vypuklá čočka, která vytváří zvětšený obraz. Stejnou čočkou lze soustředit sluneční paprsky do bodu a zapálit troud – zmiňuje to už Aristofanova komedie Oblaka z 5. století př. n. l.",
+    "en": "A magnifying glass is a converging lens, thicker in the middle, that forms an enlarged image. The same lens can focus sunlight into a hot spot – Aristophanes' comedy The Clouds already mentions a burning glass in the 5th century BC."
+   }
+  },
+  {
+   "id": "T199-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč vidíme červené jablko červené?",
+    "en": "Why do we see a red apple as red?"
+   },
+   "moznosti": {
+    "cs": [
+     "Samo vyzařuje slabé červené světlo",
+     "Propouští červené světlo skrz slupku",
+     "Odráží hlavně červené světlo a ostatní barvy pohlcuje",
+     "Pohlcuje červené světlo a odráží ostatní barvy"
+    ],
+    "en": [
+     "It gives off its own faint red light",
+     "It lets red light pass through its skin",
+     "It mainly reflects red light and absorbs the other colours",
+     "It absorbs red light and reflects the other colours"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Barva předmětu odpovídá té části spektra, kterou povrch nepohltí a odrazí nebo rozptýlí do našeho oka. V čistě modrém světle by proto červené jablko vypadalo téměř černé.",
+    "en": "An object's colour is the part of the spectrum its surface does not absorb but reflects or scatters into our eyes. Under pure blue light a red apple would therefore look almost black."
+   }
+  },
+  {
+   "id": "T199-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která část oka řídí, kolik světla do něj vstupuje?",
+    "en": "Which part of the eye controls how much light enters it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sítnice",
+     "Duhovka",
+     "Rohovka",
+     "Oční čočka"
+    ],
+    "en": [
+     "The retina",
+     "The iris",
+     "The cornea",
+     "The lens"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Duhovka je barevný prstenec svalů kolem zornice: v jasném světle zornici zúží, v šeru ji rozšíří, a tím určuje, kolik světla dopadne na sítnici. Právě duhovka dává očím jejich barvu.",
+    "en": "The iris is the coloured ring of muscle around the pupil: in bright light it narrows the pupil and in dim light it widens it, controlling how much light reaches the retina. The iris is also what gives eyes their colour."
+   }
+  },
+  {
+   "id": "T199-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá schopnost živých organismů vytvářet vlastní světlo chemickou reakcí?",
+    "en": "What is the ability of living organisms to produce their own light through a chemical reaction called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Fotosyntéza",
+     "Fluorescence",
+     "Chemosyntéza",
+     "Bioluminiscence"
+    ],
+    "en": [
+     "Photosynthesis",
+     "Fluorescence",
+     "Chemosynthesis",
+     "Bioluminescence"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Při bioluminiscenci enzym luciferáza oxiduje látku luciferin a uvolněná energie vyzáří jako světlo. Fluorescence se liší tím, že látka jen pohlcené světlo vyzáří znovu v jiné barvě.",
+    "en": "In bioluminescence the enzyme luciferase oxidises a compound called luciferin and the released energy is emitted as light. Fluorescence differs in that a substance merely re-emits absorbed light in another colour."
+   }
+  },
+  {
+   "id": "T199-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím se vedlejší (druhý) oblouk dvojité duhy liší od hlavního?",
+    "en": "In a double rainbow, how does the secondary (second) bow differ from the primary bow?"
+   },
+   "moznosti": {
+    "cs": [
+     "Je vždy jasnější než hlavní duha",
+     "Má jen tři barvy",
+     "Leží uvnitř hlavního oblouku",
+     "Má barvy v obráceném pořadí"
+    ],
+    "en": [
+     "It is always brighter than the primary",
+     "It shows only three colours",
+     "It lies inside the primary bow",
+     "Its colours are in reverse order"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vedlejší duha vzniká dvojím odrazem světla uvnitř kapek, a proto má barvy obráceně – červenou na vnitřní straně. Je slabší a leží vně hlavní duhy; tmavší pás mezi nimi se nazývá Alexandrův pás podle Alexandra z Afrodisiady, který ho popsal kolem roku 200 n. l.",
+    "en": "The secondary bow is formed by light reflecting twice inside the drops, which reverses its colours – red is on the inner side. It is fainter and lies outside the primary bow; the darker strip between them is called Alexander's band, after Alexander of Aphrodisias, who described it around AD 200."
+   }
+  },
+  {
+   "id": "T199-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jakou barvu uvidíme, když na bílé plátno posvítíme současně stejně silným červeným a zeleným světlem?",
+    "en": "What colour do we see when red and green light of equal strength shine onto a white screen at the same time?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bílou",
+     "Hnědou",
+     "Žlutou",
+     "Purpurovou"
+    ],
+    "en": [
+     "White",
+     "Brown",
+     "Yellow",
+     "Magenta"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Při skládání světel (aditivním míchání) dá červená se zelenou žlutou, přestože ani jedno z nich žlutou vlnovou délku neobsahuje. U barev na paletě (subtraktivní míchání) by červená se zelenou dala spíš hnědou.",
+    "en": "In additive mixing of light, red plus green gives yellow, even though neither light contains any yellow wavelengths. Mixing red and green paints (subtractive mixing) would instead give something brownish."
+   }
+  },
+  {
+   "id": "T199-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kterou barvu označuje písmeno K v tiskovém barevném modelu CMYK?",
+    "en": "Which colour does the letter K stand for in the CMYK printing colour model?"
+   },
+   "moznosti": {
+    "cs": [
+     "Černou",
+     "Šedou",
+     "Hnědou",
+     "Bílou"
+    ],
+    "en": [
+     "Black",
+     "Grey",
+     "Brown",
+     "White"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "K znamená key – „klíčovou“ tiskovou desku, která se tiskne černě a dává obrysům a textu ostrost. Ostatní tři inkousty jsou azurová (cyan), purpurová (magenta) a žlutá (yellow).",
+    "en": "K stands for 'key' – the key printing plate, printed in black, which gives outlines and text their sharpness. The other three inks are cyan, magenta and yellow."
+   }
+  },
+  {
+   "id": "T199-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo v roce 1800 objevil infračervené záření, když teploměr za červeným koncem slunečního spektra z hranolu ukázal vyšší teplotu?",
+    "en": "Who discovered infrared radiation in 1800 when a thermometer placed beyond the red end of the Sun's spectrum from a prism showed a higher temperature?"
+   },
+   "moznosti": {
+    "cs": [
+     "Michael Faraday",
+     "William Herschel",
+     "Thomas Young",
+     "Isaac Newton"
+    ],
+    "en": [
+     "Michael Faraday",
+     "William Herschel",
+     "Thomas Young",
+     "Isaac Newton"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Astronom William Herschel, objevitel planety Uran, změřil, že teploměr se zahřívá i v místě, kam žádné viditelné světlo nedopadá. Odhalil tak první neviditelnou část elektromagnetického spektra.",
+    "en": "The astronomer William Herschel, discoverer of Uranus, found that a thermometer warmed up even where no visible light fell. He had uncovered the first invisible part of the electromagnetic spectrum."
+   }
+  },
+  {
+   "id": "T199-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Zkratka LASER pochází z angličtiny: Light Amplification by S… Emission of Radiation. Co znamená písmeno S?",
+    "en": "The acronym LASER stands for Light Amplification by S… Emission of Radiation. What does the S stand for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Synchronized",
+     "Spontaneous",
+     "Stimulated",
+     "Spectral"
+    ],
+    "en": [
+     "Synchronized",
+     "Spontaneous",
+     "Stimulated",
+     "Spectral"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Laser je zesilování světla stimulovanou (vynucenou) emisí záření: dopadající foton přiměje vybuzený atom vyzářit foton se stejnou vlnovou délkou, fází i polarizací. Proto je laserové světlo koherentní a téměř jednobarevné.",
+    "en": "Laser means light amplification by stimulated emission of radiation: an incoming photon prompts an excited atom to emit a photon with the same wavelength, phase and polarisation. That is why laser light is coherent and almost single-coloured."
+   }
+  },
+  {
+   "id": "T199-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který jev drží světlo uvnitř optického vlákna, i když se vlákno ohýbá?",
+    "en": "Which phenomenon keeps light inside an optical fibre even when the fibre bends?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ohyb světla (difrakce)",
+     "Úplný (totální) odraz",
+     "Rozptyl světla",
+     "Polarizace světla"
+    ],
+    "en": [
+     "Diffraction",
+     "Total internal reflection",
+     "Scattering",
+     "Polarisation"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Světlo dopadá na rozhraní jádra a pláště vlákna tak šikmo (pod úhlem dopadu větším, než je mezní úhel), že se od něj úplně odrazí zpět do jádra. Vedení světla v proudu vody předvedli už počátkem 40. let 19. století v Paříži Daniel Colladon a Jacques Babinet.",
+    "en": "Light strikes the boundary between the fibre's core and cladding so obliquely (at an angle of incidence greater than the critical angle) that it is reflected completely back into the core. The guiding of light was first demonstrated in Paris in the early 1840s by Daniel Colladon and Jacques Babinet."
+   }
+  },
+  {
+   "id": "T199-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaké čočky v brýlích potřebuje krátkozraký člověk?",
+    "en": "What kind of spectacle lenses does a short-sighted person need?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rozptylky (duté čočky)",
+     "Spojky (vypuklé čočky)",
+     "Hranolové čočky",
+     "Válcové čočky"
+    ],
+    "en": [
+     "Diverging (concave) lenses",
+     "Converging (convex) lenses",
+     "Prism lenses",
+     "Cylindrical lenses"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "U krátkozrakosti se obraz vzdálených předmětů vytvoří před sítnicí, a proto je třeba paprsky rozptylkou mírně rozbíhat. Takové čočky mají záporné dioptrie.",
+    "en": "In short-sightedness, distant objects are focused in front of the retina, so a diverging lens is needed to spread the rays slightly. Such lenses have negative dioptre values."
+   }
+  },
+  {
+   "id": "T199-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Fata morgána je složitý přelud, při kterém se nad obzorem objevují zkreslené obrazy vzdálených lodí či pobřeží. Po kom nebo po čem dostala jméno?",
+    "en": "A Fata Morgana is a complex mirage in which distorted images of distant ships or coasts appear above the horizon. What is it named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Po čarodějce Morganě z artušovských legend",
+     "Po arabském slově pro „vodu na poušti“",
+     "Po sicilské světici Morganě",
+     "Po italské lodi, která zmizela v Messinské úžině"
+    ],
+    "en": [
+     "The sorceress Morgan le Fay of Arthurian legend",
+     "An Arabic word for 'water in the desert'",
+     "A Sicilian saint named Morgana",
+     "An Italian ship that vanished in the Strait of Messina"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Fata Morgana je italská podoba jména víly Morgany (Morgan le Fay), o níž se tvrdilo, že čarovala přízračné země. Přelud se často objevuje v Messinské úžině mezi Kalábrií a Sicílií a vzniká, když teplý vzduch leží nad studeným.",
+    "en": "Fata Morgana is the Italian form of Morgan le Fay, the sorceress said to conjure phantom lands. The mirage is often seen in the Strait of Messina between Calabria and Sicily and forms when warm air lies above cold air."
+   }
+  },
+  {
+   "id": "T199-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "RealD 3D, nejrozšířenější systém 3D kina (k roku 2026), posílá každému oku jiný obraz. Jak ho brýle oddělují?",
+    "en": "RealD 3D, the most widespread 3D cinema system (as of 2026), sends a different image to each eye. How do the glasses separate them?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kruhovou polarizací světla",
+     "Každé sklo má jinou ohniskovou vzdálenost",
+     "Červeným a azurovým barevným filtrem",
+     "Závěrkami, které se střídavě zatemňují"
+    ],
+    "en": [
+     "By circular polarisation of light",
+     "Each lens has a different focal length",
+     "With red and cyan colour filters",
+     "With shutters that darken alternately"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Projektor střídá snímky pro levé a pravé oko a polarizuje je opačně kruhově; každé sklo brýlí propustí jen ten svůj. Kruhová polarizace umožňuje divákovi naklonit hlavu, aniž by obraz zdvojil.",
+    "en": "The projector alternates left- and right-eye frames and gives them opposite circular polarisation, and each lens of the glasses passes only its own. Circular polarisation lets viewers tilt their heads without seeing double."
+   }
+  },
+  {
+   "id": "T199-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Skleněný hranol rozloží bílé světlo na barevné spektrum. Kterou z těchto barev láme nejvíc?",
+    "en": "A glass prism splits white light into a spectrum of colours. Which of these colours does it bend the most?"
+   },
+   "moznosti": {
+    "cs": [
+     "Oranžovou",
+     "Žlutou",
+     "Červenou",
+     "Modrou"
+    ],
+    "en": [
+     "Orange",
+     "Yellow",
+     "Red",
+     "Blue"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Index lomu skla je pro kratší vlnové délky vyšší, takže modré světlo se v něm zpomalí a ohne víc než červené. Tomuto jevu se říká disperze a stejně vzniká i duha v kapkách vody.",
+    "en": "Glass has a higher refractive index for shorter wavelengths, so blue light is slowed and bent more than red. This is called dispersion, and the same effect creates rainbows in water droplets."
+   }
+  },
+  {
+   "id": "T199-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Z jakého materiálu byl hlavní prvek prvního funkčního laseru, který předvedl Theodore Maiman 16. května 1960?",
+    "en": "What material formed the heart of the first working laser, demonstrated by Theodore Maiman on 16 May 1960?"
+   },
+   "moznosti": {
+    "cs": [
+     "Syntetický rubín",
+     "Syntetický křemen",
+     "Syntetický smaragd",
+     "Syntetický diamant"
+    ],
+    "en": [
+     "Synthetic ruby",
+     "Synthetic quartz",
+     "Synthetic emerald",
+     "Synthetic diamond"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Maimanův laser v Hughes Research Laboratories v Kalifornii používal krystal syntetického rubínu buzený výbojkou a svítil červeně na vlnové délce 694 nm. Laser se tehdy přezdíval „řešení, které hledá problém“.",
+    "en": "Maiman's laser at Hughes Research Laboratories in California used a flashlamp-pumped synthetic ruby crystal and shone red light at 694 nm. The laser was at first nicknamed 'a solution looking for a problem'."
+   }
+  },
+  {
+   "id": "T199-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Charles Kao, „otec optických vláken“ a nositel Nobelovy ceny za fyziku 2009, v roce 1966 ukázal, proč tehdejší skleněná vlákna ztrácela tolik světla. Co bylo hlavní příčinou?",
+    "en": "In 1966 Charles Kao, the 'father of fibre optics' and 2009 Nobel laureate in physics, showed why the glass fibres of the time lost so much light. What was the main cause?"
+   },
+   "moznosti": {
+    "cs": [
+     "Únik světla bočními stěnami vlákna",
+     "Nečistoty ve skle, které lze odstranit",
+     "Zahřívání skla procházejícím světlem",
+     "Ohyby vlákna při pokládce"
+    ],
+    "en": [
+     "Light leaking out through the fibre's sides",
+     "Impurities in the glass that could be removed",
+     "Heating of the glass by the light passing through",
+     "Bends in the fibre when it was laid"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Kao s Georgem Hockhamem spočítal, že po odstranění nečistot může útlum skla klesnout pod 20 dB/km, zatímco tehdejší vlákna ztrácela i 1 000 dB/km. Tím otevřel cestu dálkové optické komunikaci.",
+    "en": "With George Hockham, Kao calculated that once impurities were removed, losses in glass could fall below 20 dB/km, while fibres of the time lost 1,000 dB/km or more. This opened the way to long-distance optical communication."
+   }
+  },
+  {
+   "id": "T199-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Dánský astronom Ole Rømer v roce 1676 jako první ukázal, že se světlo nešíří okamžitě. Co pozoroval?",
+    "en": "In 1676 the Danish astronomer Ole Rømer was the first to show that light does not travel instantly. What did he observe?"
+   },
+   "moznosti": {
+    "cs": [
+     "Polohu Saturnova měsíce Titanu",
+     "Zatmění Jupiterova měsíce Io",
+     "Zatmění Měsíce",
+     "Přechody Venuše přes Slunce"
+    ],
+    "en": [
+     "The position of Saturn's moon Titan",
+     "Eclipses of Jupiter's moon Io",
+     "Lunar eclipses",
+     "Transits of Venus across the Sun"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Zatmění Io přicházela dříve či později podle toho, zda se Země k Jupiteru blížila, nebo se od něj vzdalovala – světlo muselo urazit různou dráhu. Rømer odhadl, že světlo přeletí průměr zemské dráhy asi za 22 minut.",
+    "en": "Io's eclipses came earlier or later depending on whether Earth was approaching or moving away from Jupiter, because light had different distances to cover. Rømer estimated that light takes about 22 minutes to cross the diameter of Earth's orbit."
+   }
+  },
+  {
+   "id": "T199-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Při fotoelektrickém jevu světlo vyráží z kovu elektrony. Co podle Einsteinova vysvětlení z roku 1905 rozhoduje o tom, zda je vůbec vyrazí?",
+    "en": "In the photoelectric effect, light knocks electrons out of a metal. According to Einstein's 1905 explanation, what determines whether it knocks any out at all?"
+   },
+   "moznosti": {
+    "cs": [
+     "Doba, po kterou světlo svítí",
+     "Intenzita (jas) světla",
+     "Velikost osvětlené plochy",
+     "Frekvence (barva) světla"
+    ],
+    "en": [
+     "How long the light shines",
+     "The intensity (brightness) of the light",
+     "The size of the illuminated area",
+     "The frequency (colour) of the light"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Elektrony se uvolní jen tehdy, když frekvence světla dosáhne mezní hodnoty; jas (pokud není extrémně vysoký) ovlivňuje jen to, kolik jich vyletí. Einstein to v roce 1905 vysvětlil tím, že světlo nese energii v kvantech úměrných frekvenci.",
+    "en": "Electrons are released only when the light's frequency reaches a threshold; brightness (unless extremely high) affects only how many come out. Einstein explained this in 1905 by proposing that light carries energy in quanta proportional to its frequency."
+   }
+  },
+  {
+   "id": "T199-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který učenec v Knize o optice (psané v letech 1011–1021) prokázal, že vidíme, protože světlo vstupuje do oka – a ne že oko vysílá paprsky?",
+    "en": "Which scholar showed in his Book of Optics (written 1011–1021) that we see because light enters the eye, rather than the eye sending out rays?"
+   },
+   "moznosti": {
+    "cs": [
+     "Al-Chorezmí",
+     "Klaudios Ptolemaios",
+     "Eukleidés",
+     "Ibn al-Hajsam (Alhazen)"
+    ],
+    "en": [
+     "Al-Khwarizmi",
+     "Claudius Ptolemy",
+     "Euclid",
+     "Ibn al-Haytham (Alhazen)"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Ibn al-Hajsam, v latinské Evropě známý jako Alhazen, vyvrátil starší představu Eukleida a Ptolemaia o paprscích vycházejících z oka. Bývá označován za otce moderní optiky.",
+    "en": "Ibn al-Haytham, known in Latin Europe as Alhazen, refuted the older view of Euclid and Ptolemy that rays come out of the eye. He is often called the father of modern optics."
+   }
+  },
+  {
+   "id": "T199-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Pod jakým úhlem od protislunečního bodu (stínu vaší hlavy) se zhruba jeví oblouk hlavní duhy?",
+    "en": "At roughly what angle from the antisolar point (the shadow of your head) does the arc of a primary rainbow appear?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 12°",
+     "Asi 22°",
+     "Asi 42°",
+     "Asi 62°"
+    ],
+    "en": [
+     "About 12°",
+     "About 22°",
+     "About 42°",
+     "About 62°"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kapky vracejí nejvíc světla pod úhlem asi 42°, a proto má duha vždy stejný poloměr a stojí-li Slunce výš než 42° nad obzorem, hlavní duhu ze země neuvidíme. Úhel 22° patří k jinému jevu – halu kolem Slunce z ledových krystalků.",
+    "en": "Raindrops return the most light at about 42°, so a rainbow always has the same radius, and when the Sun is higher than 42° the primary bow cannot be seen from the ground. The 22° angle belongs to a different phenomenon – the halo around the Sun caused by ice crystals."
+   }
+  },
+  {
+   "id": "T199-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč voda v bazénu kolem jaderného reaktoru modře září?",
+    "en": "Why does the water in the pool around a nuclear reactor glow blue?"
+   },
+   "moznosti": {
+    "cs": [
+     "Palivové uranové tyče modře fluoreskují",
+     "Do vody se kvůli bezpečnosti přidává modré barvivo",
+     "Nabité částice v ní předbíhají světlo",
+     "Voda je rozžhavená natolik, že září do modra"
+    ],
+    "en": [
+     "The uranium fuel rods fluoresce blue",
+     "A blue dye is added to the water for safety",
+     "Charged particles outrun light in the water",
+     "The water is heated so much that it glows blue"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Světlo je ve vodě asi o čtvrtinu pomalejší než ve vakuu a nabité částice z reaktoru ho mohou předběhnout; vzniká přitom „světelná rázová vlna“ zvaná Čerenkovovo záření. Pavel Čerenkov ho objevil v roce 1934 a v roce 1958 za něj sdílel Nobelovu cenu.",
+    "en": "Light in water is about a quarter slower than in a vacuum, and charged particles from the reactor can outrun it, creating an optical 'shock wave' called Cherenkov radiation. Pavel Cherenkov discovered it in 1934 and shared the 1958 Nobel Prize for it."
+   }
+  },
+  {
+   "id": "T199-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Zelený záblesk, který se na okamžik objeví nad zapadajícím Sluncem, dal jméno románu z roku 1882. Kdo ho napsal?",
+    "en": "The green flash that briefly appears above the setting Sun gave its name to an 1882 novel. Who wrote it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Alexandre Dumas",
+     "Jules Verne",
+     "Victor Hugo",
+     "H. G. Wells"
+    ],
+    "en": [
+     "Alexandre Dumas",
+     "Jules Verne",
+     "Victor Hugo",
+     "H. G. Wells"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Verneův román Zelený paprsek (Le Rayon vert) jev zpopularizoval. Záblesk trvá obvykle nejvýš dvě sekundy a vzniká, protože atmosféra jako hranol láme různé barvy slunečního světla různě.",
+    "en": "Verne's novel The Green Ray (Le Rayon vert) popularised the phenomenon. The flash usually lasts no more than about two seconds and occurs because the atmosphere, like a prism, bends different colours of sunlight by different amounts."
+   }
+  },
+  {
+   "id": "T199-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Johann Wilhelm Ritter v roce 1801 objevil neviditelné záření za fialovým koncem spektra. Čím ho prokázal?",
+    "en": "In 1801 Johann Wilhelm Ritter discovered invisible radiation beyond the violet end of the spectrum. How did he demonstrate it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Magnetka se tam vychýlila",
+     "Kovová destička se tam elektricky nabila",
+     "Islandský vápenec tam rozdvojil obraz",
+     "Papír s chloridem stříbrným tam rychle černal"
+    ],
+    "en": [
+     "A compass needle was deflected there",
+     "A metal plate became electrically charged there",
+     "Iceland spar produced a double image there",
+     "Paper with silver chloride quickly darkened there"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Papír napuštěný chloridem stříbrným černal za fialovým koncem spektra dokonce rychleji než ve fialovém světle. Ritter je nazval (de)oxidačními paprsky, aby je odlišil od infračerveného „tepelného“ záření; později se jim říkalo chemické paprsky, než se ujal název ultrafialové.",
+    "en": "Paper soaked in silver chloride darkened beyond the violet end even faster than in violet light. Ritter called them (de-)oxidising rays to set them apart from infrared 'heat rays'; they were later known as chemical rays before the name ultraviolet took over."
+   }
+  },
+  {
+   "id": "T199-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Isaac Newton nakonec rozdělil duhu na sedm barev, když k pěti původním přidal oranžovou a indigovou. Čím se při tom inspiroval?",
+    "en": "Isaac Newton eventually divided the rainbow into seven colours, adding orange and indigo to his original five. What inspired him?"
+   },
+   "moznosti": {
+    "cs": [
+     "Počtem barev, které v duze popsal Aristotelés",
+     "Počtem tónů v hudební stupnici",
+     "Počtem hranolů, které při pokusech použil",
+     "Počtem pigmentů tehdejších malířů"
+    ],
+    "en": [
+     "The number of rainbow colours described by Aristotle",
+     "The number of notes in a musical scale",
+     "The number of prisms he used in his experiments",
+     "The number of pigments used by painters of his day"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Newton nejprve v roce 1672 uváděl pět barev, sedm pak zvolil po analogii se sedmi tóny hudební stupnice (sedmička navazovala i na starořecké představy spojující barvy, tóny, nebeská tělesa a dny v týdnu). Spektrum je přitom spojité, takže počet „barev duhy“ je spíš kulturní dohoda.",
+    "en": "Newton first named five colours in 1672 and later chose seven by analogy with the notes of a musical scale (the number also echoed ancient Greek ideas linking colours, notes, heavenly bodies and days of the week). The spectrum is actually continuous, so the number of 'rainbow colours' is largely a cultural convention."
+   }
+  }
+ ]
+}

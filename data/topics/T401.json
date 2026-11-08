@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T401",
+ "nazev": {
+  "cs": "Kůže, vlasy a nehty: největší orgán těla",
+  "en": "Skin, Hair and Nails: The Body's Largest Organ"
+ },
+ "kategorie": {
+  "id": "lidske-telo",
+  "nazev": {
+   "cs": "Lidské tělo",
+   "en": "Human Body"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T401-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Z jaké bílkoviny jsou převážně tvořeny vlasy i nehty?",
+    "en": "Which protein makes up most of both hair and nails?"
+   },
+   "moznosti": {
+    "cs": [
+     "Keratin",
+     "Elastin",
+     "Hemoglobin",
+     "Kolagen"
+    ],
+    "en": [
+     "Keratin",
+     "Elastin",
+     "Haemoglobin",
+     "Collagen"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vlasy i nehty tvoří hlavně pevná vláknitá bílkovina keratin. Z keratinu jsou i rohy, kopyta a drápy zvířat.",
+    "en": "Hair and nails are made mainly of keratin, a tough fibrous protein. Keratin also builds animal horns, hooves and claws."
+   }
+  },
+  {
+   "id": "T401-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se jmenuje vnější, svrchní vrstva kůže?",
+    "en": "What is the outermost layer of the skin called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pokožka (epidermis)",
+     "Škára (dermis)",
+     "Podkoží (hypodermis)",
+     "Sliznice (mukóza)"
+    ],
+    "en": [
+     "Epidermis",
+     "Dermis",
+     "Hypodermis",
+     "Mucosa"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pokožka je nejsvrchnější vrstva kůže, pod ní leží škára a ještě hlouběji podkoží. Nejsilnější je na chodidlech.",
+    "en": "The epidermis is the outermost layer of the skin, with the dermis beneath it and the hypodermis deeper still. It is thickest on the soles of the feet."
+   }
+  },
+  {
+   "id": "T401-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaké budou chloupky, které dorostou po pravidelném holení?",
+    "en": "What is body hair like when it grows back after regular shaving?"
+   },
+   "moznosti": {
+    "cs": [
+     "Časem řidší a jemnější",
+     "Stejné, jen s tupou špičkou",
+     "Silnější a výrazně tmavší",
+     "Rychleji rostoucí než dřív"
+    ],
+    "en": [
+     "Sparser and finer over time",
+     "The same, just with a blunt tip",
+     "Thicker and much darker",
+     "Faster-growing than before"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Holení odstraní jen chloupek nad kůží a vlasový váček pod ní neovlivní. Strniště jen působí hustěji, protože seříznutý chloupek má tupý konec místo přirozeně zúžené špičky.",
+    "en": "Shaving only removes the hair above the skin and does not affect the follicle beneath. Stubble merely seems thicker because a cut hair has a blunt end instead of a naturally tapered tip."
+   }
+  },
+  {
+   "id": "T401-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Mají jednovaječná dvojčata stejné otisky prstů?",
+    "en": "Do identical twins have the same fingerprints?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ano, naprosto shodné",
+     "Jen do puberty",
+     "Jen na palcích",
+     "Ne, jejich otisky se liší"
+    ],
+    "en": [
+     "Yes, exactly the same",
+     "Only until puberty",
+     "Only on their thumbs",
+     "No, their prints differ"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Přestože mají dvojčata téměř stejnou DNA, jejich otisky prstů se liší, i když bývají podobné. Papilární linie vznikají už zhruba v 15. týdnu nitroděložního vývoje.",
+    "en": "Although identical twins share almost the same DNA, their fingerprints differ, even if they look alike. The ridges form at around the 15th week of fetal development."
+   }
+  },
+  {
+   "id": "T401-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které nehty rostou rychleji?",
+    "en": "Which nails grow faster?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nehty na rukou",
+     "Obojí stejně rychle",
+     "Střídá se to podle ročního období",
+     "Nehty na nohou"
+    ],
+    "en": [
+     "Fingernails",
+     "Both grow equally fast",
+     "It alternates with the seasons",
+     "Toenails"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Nehty na nohou rostou zhruba polovičním tempem než nehty na rukou. Nehtová ploténka vzniká v nehtové matrici, zárodečné tkáni skryté pod kůží u kořene nehtu.",
+    "en": "Toenails grow at roughly half the rate of fingernails. The nail plate is produced by the nail matrix hidden under the skin at the base of the nail."
+   }
+  },
+  {
+   "id": "T401-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "K čemu hlavně slouží pocení?",
+    "en": "What is the main purpose of sweating?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ochlazuje tělo odpařováním",
+     "Zahřívá tělo v zimě",
+     "Zvlhčuje vysušenou kůži",
+     "Pomáhá spalovat tuky"
+    ],
+    "en": [
+     "It cools the body by evaporating",
+     "It warms the body in winter",
+     "It moisturises dry skin",
+     "It helps burn fat"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pot odebírá kůži teplo, když se odpařuje, a tím tělo ochlazuje. Je tvořen převážně vodou, rozpuštěné látky jako soli tvoří jen asi 0,2–1 %.",
+    "en": "Sweat draws heat from the skin as it evaporates, cooling the body. It is mostly water; dissolved substances such as salts make up only about 0.2–1%."
+   }
+  },
+  {
+   "id": "T401-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč stříhání vlasů nebolí?",
+    "en": "Why doesn't cutting your hair hurt?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nervy ve vlasu se při stříhání stáhnou",
+     "Vlasy obsahují přirozené znecitlivění",
+     "Mozek bolest z vlasů potlačuje",
+     "Viditelný vlas tvoří mrtvé buňky"
+    ],
+    "en": [
+     "Nerves in the hair pull back when cut",
+     "Hair contains a natural anaesthetic",
+     "The brain suppresses pain from hair",
+     "The visible hair is made of dead cells"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vlasový stvol nad kůží nevykazuje žádnou biologickou aktivitu a považuje se za mrtvý. Živá je jen část ve vlasovém váčku, a proto vytržení vlasu bolí, kdežto stříhání ne.",
+    "en": "The hair shaft above the skin shows no biological activity and is considered dead. Only the part in the follicle is alive, which is why pulling a hair out hurts but cutting it does not."
+   }
+  },
+  {
+   "id": "T401-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik vlasů přibližně denně běžně vypadne ze zdravé hlavy?",
+    "en": "Roughly how many hairs does a healthy scalp normally shed each day?"
+   },
+   "moznosti": {
+    "cs": [
+     "5–10",
+     "50–100",
+     "500–1 000",
+     "5 000–10 000"
+    ],
+    "en": [
+     "5–10",
+     "50–100",
+     "500–1,000",
+     "5,000–10,000"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ze zdravé hlavy denně vypadne asi 50 až 100 vlasů. Jde o normální obměnu: ze stejných vlasových váčků pak začnou růst nové vlasy.",
+    "en": "A healthy scalp sheds about 50 to 100 hairs a day. This is normal turnover: new hairs then start growing from the same follicles."
+   }
+  },
+  {
+   "id": "T401-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdy bývají pihy obvykle nejvýraznější?",
+    "en": "When do freckles usually look most prominent?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hned po probuzení",
+     "Po horké koupeli",
+     "Po pobytu na slunci",
+     "Po fyzické námaze"
+    ],
+    "en": [
+     "Right after waking up",
+     "After a hot bath",
+     "After time in the sun",
+     "After physical exercise"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pihy jsou shluky buněk s nahromaděným pigmentem. UVB záření pigmentové buňky povzbudí k tvorbě dalšího pigmentu, takže pihy na slunci tmavnou a při menším slunění blednou; nejčastěji je mají lidé se světlou pletí.",
+    "en": "Freckles are clusters of cells packed with pigment. UVB radiation spurs the pigment cells to make more, so freckles darken in the sun and fade with less sun exposure; they are most common in people with fair skin."
+   }
+  },
+  {
+   "id": "T401-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Husí kůže je nejspíš pozůstatek po chlupatých předcích. Co jim zježení srsti přinášelo?",
+    "en": "Goosebumps are thought to be a leftover from our furry ancestors. What did raising the fur do for them?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ostřejší sluch a lepší čich",
+     "Lepší odvod potu a tepla z kůže",
+     "Zahřátí a vzhled většího zvířete",
+     "Odpuzování deště a vody ze srsti"
+    ],
+    "en": [
+     "Sharper hearing and sense of smell",
+     "Better removal of sweat and heat",
+     "Trapped warm air and a bigger outline",
+     "Shedding rain and water from the fur"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Drobné svaly u vlasových váčků při chladu nebo strachu chloupky napřímí. Huňatá srst tak zadrží víc teplého vzduchu a zvíře vypadá větší; u člověka s řídkým ochlupením z toho zbyly jen pupínky.",
+    "en": "Tiny muscles at the hair follicles raise the hairs in cold or fear. Thick fur then traps more warm air and the animal looks bigger; in sparsely haired humans only the bumps remain."
+   }
+  },
+  {
+   "id": "T401-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Lidé s jakou přirozenou barvou vlasů jich mívají na hlavě nejvíc?",
+    "en": "People with which natural hair colour tend to have the most hairs on their head?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hnědou",
+     "Černou",
+     "Zrzavou",
+     "Blond"
+    ],
+    "en": [
+     "Brown",
+     "Black",
+     "Red",
+     "Blond"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Blonďáci mají v průměru asi 150 000 vlasů, lidé s hnědými asi 110 000, s černými asi 100 000. Nejméně jich mívají zrzaví lidé, asi 90 000.",
+    "en": "Blond people have about 150,000 hairs on average, those with brown hair about 110,000 and with black about 100,000. Redheads usually have the fewest, about 90,000."
+   }
+  },
+  {
+   "id": "T401-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím se tmavá kůže liší od světlé na úrovni buněk?",
+    "en": "How does dark skin differ from light skin at the cellular level?"
+   },
+   "moznosti": {
+    "cs": [
+     "Její pigmentové buňky tvoří víc pigmentu",
+     "Má výrazně silnější vrchní vrstvu kůže",
+     "Má mnohonásobně víc pigmentových buněk",
+     "Obsahuje mnohem víc drobných cév"
+    ],
+    "en": [
+     "Its pigment cells make more pigment",
+     "Its outer skin layer is much thicker",
+     "It has many times more pigment cells",
+     "It contains many more tiny blood vessels"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Světlá i tmavá kůže obsahuje podobný počet melanocytů. Liší se množstvím a druhem melaninu, který tyto buňky vyrábějí, a tím, jak se pigment v kůži rozloží.",
+    "en": "Light and dark skin contain similar numbers of melanocytes. They differ in the amount and type of melanin these cells make and in how the pigment is distributed in the skin."
+   }
+  },
+  {
+   "id": "T401-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Odkud získává vnější vrstva kůže většinu kyslíku?",
+    "en": "Where does the outer layer of the skin get most of its oxygen?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z potu vylučovaného na povrch",
+     "Z tukových buněk pod kůží",
+     "Z drobných cév, které ji prostupují",
+     "Přímo z okolního vzduchu"
+    ],
+    "en": [
+     "From sweat released onto the surface",
+     "From fat cells beneath the skin",
+     "From tiny blood vessels running through it",
+     "Directly from the surrounding air"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vnější vrstva kůže nemá vlastní krevní zásobení, cévy jsou až ve vrstvě pod ní. Kyslík proto získává převážně difuzí přímo z okolního vzduchu.",
+    "en": "The skin's outer layer has no blood supply of its own; the vessels lie in the layer beneath it. It therefore gets its oxygen mostly by diffusion straight from the surrounding air."
+   }
+  },
+  {
+   "id": "T401-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se jmenuje bělavý půlměsíc u kořene nehtu?",
+    "en": "What is the whitish crescent at the base of a nail called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hyponychium",
+     "Kutikula",
+     "Lunula",
+     "Areola"
+    ],
+    "en": [
+     "Hyponychium",
+     "Cuticle",
+     "Lunula",
+     "Areola"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Lunula znamená latinsky „měsíček“. Bílá se zdá proto, že se v místě, kde se nehtová matrice stýká s nehtovým lůžkem, odráží světlo.",
+    "en": "Lunula is Latin for 'little moon'. It looks white because light is reflected where the nail matrix meets the nail bed."
+   }
+  },
+  {
+   "id": "T401-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co způsobuje typický pach potu?",
+    "en": "What causes the typical smell of sweat?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bakterie, které pot na kůži rozkládají",
+     "Sůl, která se z potu vysráží",
+     "Kyslík, který pot na vzduchu oxiduje",
+     "Tuky, které pot vyplavuje z těla"
+    ],
+    "en": [
+     "Bacteria breaking down sweat on the skin",
+     "Salt that crystallises out of the sweat",
+     "Oxygen that oxidises sweat in the air",
+     "Fats that sweat flushes out of the body"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Čerstvý pot je bez zápachu. Pach vzniká, když kožní bakterie rozkládají pot hlavně z takzvaných apokrinních žláz.",
+    "en": "Fresh sweat is odourless. The smell arises when skin bacteria break down sweat, mainly from the so-called apocrine glands."
+   }
+  },
+  {
+   "id": "T401-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se prasata v horku hlavně ochlazují?",
+    "en": "How do pigs mainly cool down in hot weather?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ovíváním se velkýma ušima",
+     "Silným pocením celého těla",
+     "Olizováním předních nohou",
+     "Válením v bahně nebo ve vodě"
+    ],
+    "en": [
+     "By fanning their large ears",
+     "By heavy sweating all over",
+     "By licking their front legs",
+     "By wallowing in mud or water"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Anglické rčení „sweat like a pig“ (potit se jako prase) neplatí: prasata mají ekrinní potní žlázy jen na rypáku a k ochlazování pot nepoužívají. V horku se chladí odpařováním bahna či vody z kůže; bahenní koupel je navíc může chránit před spálením od slunce a před parazity.",
+    "en": "The saying 'sweat like a pig' is misleading: pigs have eccrine sweat glands only on the snout and do not use sweat to cool down. In the heat they cool off as mud or water evaporates from their skin; wallowing may also protect them from sunburn and parasites."
+   }
+  },
+  {
+   "id": "T401-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které australské zvíře má otisky prstů tak podobné lidským, že je ani pod mikroskopem nelze snadno rozlišit?",
+    "en": "Which Australian animal has fingerprints so similar to human ones that they are hard to tell apart even under a microscope?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ptakopysk",
+     "Vombat",
+     "Koala",
+     "Klokan"
+    ],
+    "en": [
+     "Platypus",
+     "Wombat",
+     "Koala",
+     "Kangaroo"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Koalí otisky popsal v polovině 90. let antropolog Maciej Henneberg. Jde o sbíhavý vývoj: společný předek koal a lidí žil před více než 100 miliony let a otisky koalám možná pomáhají při manipulaci s listy a větvemi.",
+    "en": "Koala fingerprints were described in the mid-1990s by anthropologist Maciej Henneberg. It is convergent evolution: koalas and humans last shared an ancestor over 100 million years ago, and the prints may help koalas handle leaves and branches."
+   }
+  },
+  {
+   "id": "T401-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Za jak dlouho přibližně doroste celý nehet na ruce?",
+    "en": "Roughly how long does it take for a whole fingernail to grow back?"
+   },
+   "moznosti": {
+    "cs": [
+     "Za 2–3 týdny",
+     "Za 3–6 měsíců",
+     "Za 2–3 roky",
+     "Za 5–6 let"
+    ],
+    "en": [
+     "2–3 weeks",
+     "3–6 months",
+     "2–3 years",
+     "5–6 years"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Nehty na rukou rostou v průměru asi 3,5 mm za měsíc, takže celý nehet doroste zhruba za 3 až 6 měsíců. Nehet ukazováčku roste rychleji než nehet malíčku.",
+    "en": "Fingernails grow on average about 3.5 mm (0.14 inches) a month, so a whole nail regrows in roughly 3 to 6 months. The index fingernail grows faster than the little fingernail."
+   }
+  },
+  {
+   "id": "T401-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který pigment převládá ve zrzavých vlasech?",
+    "en": "Which pigment predominates in red hair?"
+   },
+   "moznosti": {
+    "cs": [
+     "Karoten",
+     "Eumelanin",
+     "Bilirubin",
+     "Feomelanin"
+    ],
+    "en": [
+     "Carotene",
+     "Eumelanin",
+     "Bilirubin",
+     "Pheomelanin"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Zrzavé vlasy obsahují hodně načervenalého feomelaninu a málo tmavého eumelaninu. Feomelanin je ve větším množství přítomen také ve rtech.",
+    "en": "Red hair contains a lot of reddish pheomelanin and relatively little dark eumelanin. Pheomelanin is also found in larger amounts in the lips."
+   }
+  },
+  {
+   "id": "T401-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik přibližně za měsíc vyrostou vlasy na hlavě?",
+    "en": "Roughly how much does scalp hair grow in a month?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 1 mm",
+     "Asi 1 cm",
+     "Asi 5 cm",
+     "Asi 10 cm"
+    ],
+    "en": [
+     "About 1 mm (0.04 inches)",
+     "About 1 cm (0.4 inches)",
+     "About 5 cm (2 inches)",
+     "About 10 cm (4 inches)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Obvykle se uvádí průměr asi 1 cm za měsíc, tedy zhruba 12 cm za rok. Silnější vlasy rostou rychleji než tenké: asi 11,4 mm oproti 7,6 mm za měsíc.",
+    "en": "The usual average is about 1 cm (0.4 inches) a month, roughly 12 cm (4.7 inches) a year. Thicker hairs grow faster than thin ones: about 11.4 mm versus 7.6 mm (0.45 versus 0.3 inches) a month."
+   }
+  },
+  {
+   "id": "T401-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Varianty kterého genu jsou hlavní příčinou zrzavých vlasů?",
+    "en": "Variants of which gene are the main cause of red hair?"
+   },
+   "moznosti": {
+    "cs": [
+     "CFTR",
+     "BRCA1",
+     "MC1R",
+     "FOXP2"
+    ],
+    "en": [
+     "CFTR",
+     "BRCA1",
+     "MC1R",
+     "FOXP2"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Zrzavé vlasy má většinou člověk se dvěma kopiemi recesivní varianty genu MC1R na chromozomu 16. Proto se zrzavé dítě může narodit i rodičům, kteří zrzaví nejsou.",
+    "en": "Most redheads carry two copies of a recessive variant of the MC1R gene on chromosome 16. That is why two parents without red hair can have a red-haired child."
+   }
+  },
+  {
+   "id": "T401-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Vzácná dědičná porucha, při níž člověk nemá otisky prstů, dostala neformální přezdívku. Jakou?",
+    "en": "A rare inherited condition in which a person has no fingerprints earned an informal nickname. What is it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nemoc imigračního zdržení",
+     "Nemoc neviditelného muže",
+     "Syndrom hladkých dlaní",
+     "Syndrom prstů ducha"
+    ],
+    "en": [
+     "Immigration delay disease",
+     "Invisible man disease",
+     "Smooth palm syndrome",
+     "Ghost finger syndrome"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Přezdívku dal adermatoglyfii švýcarský dermatolog Peter Itin podle první pacientky, která bez otisků prstů měla potíže při cestě do USA. Způsobuje ji mutace genu SMARCAD1.",
+    "en": "Swiss dermatologist Peter Itin coined the nickname for adermatoglyphia after his first patient, who had trouble travelling to the US without fingerprints. It is caused by a mutation in the SMARCAD1 gene."
+   }
+  },
+  {
+   "id": "T401-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Studie z roku 2009 testovala, zda otisky prstů zlepšují úchop hladkého plastu (plexiskla). Co zjistila?",
+    "en": "A 2009 study tested whether fingerprints improve grip on smooth plastic (Perspex). What did it find?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zvyšují tření zhruba o třetinu",
+     "Snižují tření, zmenšují plochu dotyku",
+     "Přisávají se jako drobné přísavky",
+     "Na tření nemají vůbec žádný vliv"
+    ],
+    "en": [
+     "They raise friction by about a third",
+     "They cut friction by reducing skin contact",
+     "They grip like rows of tiny suction cups",
+     "They make no difference to friction"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Roland Ennos a Peter Warman z Manchesterské univerzity zjistili, že rýhy zmenšují plochu kontaktu kůže s předmětem asi o 33 %, a tím tření snižují. Podle jiné studie z téhož roku otisky spíš pomáhají vnímat jemné textury, protože zesilují vibrace.",
+    "en": "Roland Ennos and Peter Warman of the University of Manchester found that the ridges cut the skin's contact area with an object by about 33%, reducing friction. Another 2009 study suggested fingerprints help us sense fine textures by amplifying vibrations."
+   }
+  },
+  {
+   "id": "T401-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Legenda o vlasech, které po šoku zbělají přes noc, dala jméno syndromu. Po které královně?",
+    "en": "The legend of hair turning white overnight from shock gave its name to a syndrome. Which queen is it named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kateřině Veliké",
+     "Anně Boleynové",
+     "Marii Stuartovně",
+     "Marii Antoinettě"
+    ],
+    "en": [
+     "Catherine the Great",
+     "Anne Boleyn",
+     "Mary, Queen of Scots",
+     "Marie Antoinette"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Marii Antoinettě údajně zbělaly vlasy přes noc po zajetí při neúspěšném útěku do Varennes. Stav se odborně nazývá canities subita a podle podobného příběhu i syndrom Thomase Mora.",
+    "en": "Marie Antoinette's hair supposedly turned white overnight after her capture following the failed flight to Varennes. The condition is medically called canities subita and, after a similar story, also Thomas More syndrome."
+   }
+  },
+  {
+   "id": "T401-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Studie Harvardovy univerzity z roku 2020 na myších vysvětlila, proč stres urychluje šedivění. Co zjistila?",
+    "en": "A 2020 Harvard study in mice explained why stress speeds up greying. What did it find?"
+   },
+   "moznosti": {
+    "cs": [
+     "Stres zastavil tvorbu bílkovin ve vlasech",
+     "Stresový hormon kortizol vlasy odbarvil",
+     "Nervy vyčerpaly kmenové buňky pigmentu",
+     "Imunitní systém napadl pigmentové buňky"
+    ],
+    "en": [
+     "Stress halted protein production in the hair",
+     "The stress hormone cortisol bleached the hair",
+     "Nerves drained the pigment stem cells",
+     "The immune system attacked the pigment cells"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Sympatické nervy (reakce „bojuj, nebo uteč“) při stresu uvolňují noradrenalin, který přiměje kmenové buňky ve vlasových váčcích, aby se naráz přeměnily v pigmentové buňky, a zásoba se vyčerpá. Myši bez imunitních buněk i bez hormonů nadledvin šedivěly stejně.",
+    "en": "Under stress, sympathetic (fight-or-flight) nerves release noradrenaline, which makes the stem cells in hair follicles turn into pigment cells all at once, exhausting the reserve. Mice without immune cells or adrenal hormones went grey just the same."
+   }
+  },
+  {
+   "id": "T401-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Podle vlivné hypotézy se tmavá kůže u lidí v tropech vyvinula hlavně proto, aby chránila před UV zářením důležitou živinu. Kterou?",
+    "en": "According to an influential hypothesis, dark skin evolved in people in the tropics mainly to shield a key nutrient from UV radiation. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Fylochinon (vitamin K)",
+     "Kyselinu askorbovou (vitamin C)",
+     "Folát (vitamin B9)",
+     "Kobalamin (vitamin B12)"
+    ],
+    "en": [
+     "Phylloquinone (vitamin K)",
+     "Ascorbic acid (vitamin C)",
+     "Folate (vitamin B9)",
+     "Cobalamin (vitamin B12)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "UV záření rozkládá folát kolující těsně pod kůží; hypotézu prosazuje hlavně antropoložka Nina Jablonski. Dále od rovníku je UV méně, a tak tam převládla světlejší kůže, která dokáže vytvořit víc vitaminu D.",
+    "en": "UV radiation breaks down folate circulating just beneath the skin; the idea is championed above all by anthropologist Nina Jablonski. Farther from the equator there is less UV, so lighter skin, which can make more vitamin D, prevailed there."
+   }
+  },
+  {
+   "id": "T401-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se hustota chloupků na lidském těle liší od lidoopů naší velikosti?",
+    "en": "How does the density of body hair on humans compare with apes of our size?"
+   },
+   "moznosti": {
+    "cs": [
+     "Je zhruba poloviční",
+     "Je zhruba desetkrát nižší",
+     "Stejná, chloupky jsou jen jemnější",
+     "Na většině těla žádné nejsou"
+    ],
+    "en": [
+     "About half as high as in apes",
+     "About ten times lower overall",
+     "About the same, just much finer",
+     "Most of the body has none at all"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ochlupení máme podobně husté jako lidoopi, jen je převážně jemné a bezbarvé. Studie Sheffieldské univerzity z roku 2011 ukázala, že tyto jemné chloupky pomáhají včas ucítit parazity lezoucí po kůži.",
+    "en": "Our body hair is about as dense as that of apes, but it is mostly fine and colourless. A 2011 University of Sheffield study showed that this fine hair helps us detect parasites crawling on the skin."
+   }
+  },
+  {
+   "id": "T401-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se nazývá jemné ochlupení, které pokrývá plod v děloze a obvykle zmizí ještě před narozením?",
+    "en": "What is the fine hair that covers a fetus in the womb and is usually shed before birth called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lanugo",
+     "Vellusové chloupky",
+     "Vibrisy",
+     "Terminální vlasy"
+    ],
+    "en": [
+     "Lanugo",
+     "Vellus hair",
+     "Vibrissae",
+     "Terminal hair"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Lanugo je první ochlupení, které vlasové váčky plodu vytvoří, objevuje se zhruba v 16. týdnu těhotenství. Obvykle vypadne v 7. až 8. měsíci a nahradí ho jemné vellusové chloupky, někdy je ale miminko má ještě při narození.",
+    "en": "Lanugo is the first hair produced by fetal hair follicles and appears at about week 16 of pregnancy. It is usually shed in the 7th to 8th month and replaced by fine vellus hair, though some babies still have it at birth."
+   }
+  },
+  {
+   "id": "T401-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč obočí nenaroste tak dlouhé jako vlasy na hlavě, ani když se nezastřihuje?",
+    "en": "Why doesn't an eyebrow grow as long as scalp hair, even if it is never trimmed?"
+   },
+   "moznosti": {
+    "cs": [
+     "Je tvořeno jinou bílkovinou než vlasy",
+     "Jeho růstová fáze trvá jen pár měsíců",
+     "Kůže obočí má méně drobných cév",
+     "Chloupky se neustále odírají o kůži"
+    ],
+    "en": [
+     "It is made of a different protein than hair",
+     "Its growth phase lasts only a few months",
+     "Brow skin has fewer tiny blood vessels",
+     "The hairs constantly wear down against the skin"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Růstová fáze (anagen) chloupků obočí trvá asi 4–7 měsíců, u vlasů na hlavě 2–7 let. Pak chloupek přestane růst, vypadne a nahradí ho nový, takže nestihne narůst do délky.",
+    "en": "The growth phase (anagen) of eyebrow hairs lasts about 4–7 months, compared with 2–7 years for scalp hair. The hair then stops growing, falls out and is replaced, so it never gets the chance to grow long."
+   }
+  },
+  {
+   "id": "T401-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kde má člověk nejhustěji rozmístěné ekrinní potní žlázy?",
+    "en": "Where are eccrine sweat glands most densely packed on the human body?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na čele a temeni",
+     "Na dlaních a chodidlech",
+     "V podpaží a tříslech",
+     "Na zádech a ramenou"
+    ],
+    "en": [
+     "On the forehead and scalp",
+     "On the palms and soles",
+     "In the armpits and groin",
+     "On the back and shoulders"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ekrinní žlázy jsou nejhustěji na dlaních a chodidlech (na dlani asi 370 na cm²), pak na hlavě. V podpaží a tříslech jsou typické větší apokrinní žlázy.",
+    "en": "Eccrine glands are densest on the palms and soles (about 370 per cm², or roughly 2,400 per square inch, on the palm), followed by the head. The armpits and groin are known for the larger apocrine glands."
+   }
+  }
+ ]
+}

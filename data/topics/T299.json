@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T299",
+ "nazev": {
+  "cs": "Zaniklá řemesla a povolání",
+  "en": "Vanished Crafts and Occupations"
+ },
+ "kategorie": {
+  "id": "kuriozity",
+  "nazev": {
+   "cs": "Kuriozity",
+   "en": "Curiosities"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T299-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co vyráběl bednář?",
+    "en": "What did a cooper make?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dřevěné lodě a čluny",
+     "Kožené postroje pro koně",
+     "Sudy a kádě",
+     "Lana a provazy"
+    ],
+    "en": [
+     "Wooden boats",
+     "Leather horse harnesses",
+     "Casks and vats",
+     "Ropes and cords"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Bednář skládal sudy, kádě a vědra z dřevěných dužin stažených obručemi. Od anglického názvu řemesla (cooper) pochází příjmení Cooper a bednářské dílně se anglicky říká cooperage.",
+    "en": "A cooper built casks, vats and buckets from wooden staves held together by hoops. The trade gave rise to the surname Cooper, and a cooper's workshop is called a cooperage."
+   }
+  },
+  {
+   "id": "T299-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Smith je nejčastější příjmení ve Spojeném království i v USA. Od jakého povolání je odvozeno?",
+    "en": "Smith is the most common surname in both the United Kingdom and the United States. Which occupation does it come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Švec",
+     "Kovář",
+     "Tesař",
+     "Mlynář"
+    ],
+    "en": [
+     "Shoemaker",
+     "Metalworker",
+     "Carpenter",
+     "Miller"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Staroanglické smiþ označovalo člověka, který pracuje s kovem. Stejné řemeslo se skrývá v německém příjmení Schmidt nebo v polském Kowalski.",
+    "en": "Old English smiþ meant someone who works in metal. The same trade lies behind the German surname Schmidt and the Polish Kowalski."
+   }
+  },
+  {
+   "id": "T299-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "K čemu sloužila valcha – žebrovaná deska v dřevěném rámu, běžná v domácnostech 19. a počátku 20. století?",
+    "en": "What was a ridged board in a wooden frame, a common household tool in the 19th and early 20th centuries, used for?"
+   },
+   "moznosti": {
+    "cs": [
+     "K drcení obilí",
+     "K ručnímu praní prádla",
+     "K mandlování ubrusů",
+     "K hnětení těsta"
+    ],
+    "en": [
+     "Crushing grain",
+     "Washing laundry by hand",
+     "Pressing tablecloths",
+     "Kneading dough"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Na žebrované valše se ručně drhlo prádlo; žebra bývala v 19. století často dřevěná, ve 20. století spíš kovová. Když praní převzaly stroje, proslavila se valcha jako hudební nástroj.",
+    "en": "Laundry was scrubbed by hand on the ridged board; in the 19th century the ridges were often wooden, in the 20th mostly metal. Once machines took over the washing, the washboard became better known as a musical instrument."
+   }
+  },
+  {
+   "id": "T299-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co vyráběl šindelář?",
+    "en": "What did a shingle maker make?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dřevěné destičky na střechy",
+     "Břidlicové desky na fasády",
+     "Slaměné došky na chalupy",
+     "Pálené tašky na střechy"
+    ],
+    "en": [
+     "Thin wooden roof boards",
+     "Slate panels for facades",
+     "Straw thatch for cottages",
+     "Fired clay roof tiles"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Šindele se tradičně ručně štípaly palicí a štípacím nožem (anglicky froe); ve střední Evropě hlavně z borovice a smrku. Na počátku 19. století je začaly hromadně řezat parní pily.",
+    "en": "Shingles were traditionally split by hand with a mallet and a froe; in Central Europe mostly from pine and spruce. In the early 19th century, steam-powered sawmills began mass-producing sawn shingles."
+   }
+  },
+  {
+   "id": "T299-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které knize potká hlavní hrdina lampáře, který musí lampu rozsvěcet a zhasínat tak často, že si nikdy neodpočine?",
+    "en": "In which book does the hero meet a lamplighter who has to light and put out his lamp so often that he never gets any rest?"
+   },
+   "moznosti": {
+    "cs": [
+     "Alenka v říši divů",
+     "Pinocchio",
+     "Petr Pan",
+     "Malý princ"
+    ],
+    "en": [
+     "Alice's Adventures in Wonderland",
+     "Pinocchio",
+     "Peter Pan",
+     "The Little Prince"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Lampářova planetka se otočí jednou za minutu, a tak musí lampu jednou za minutu rozsvítit a zase zhasnout. Skuteční lampáři rozsvěceli pouliční lampy za soumraku knotem na dlouhé tyči a za úsvitu je háčkem na téže tyči zhasínali.",
+    "en": "The lamplighter's tiny planet turns once a minute, so once every minute he has to light his lamp and put it out. Real lamplighters lit street lamps at dusk with a wick on a long pole and put them out at dawn with a hook on the same pole."
+   }
+  },
+  {
+   "id": "T299-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím se v britských průmyslových městech živil takzvaný knocker-up?",
+    "en": "How did a so-called knocker-up earn a living in British industrial towns?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vybíral nájemné ode dveří ke dveřím",
+     "Vyvolával na ulicích nejnovější zprávy",
+     "Zatloukal hřebíky do podrážek bot",
+     "Budil lidi do práce ťukáním na okna"
+    ],
+    "en": [
+     "Collecting rent door to door",
+     "Calling out the latest news in the streets",
+     "Hammering nails into shoe soles",
+     "Waking people for work by tapping on their windows"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Budíky byly tehdy drahé a nespolehlivé, a tak budiči obcházeli domy s dlouhou tyčí, často bambusovou; Londýňanka Mary Smithová na okna střílela sušený hrách. Ve 40. a 50. letech 20. století povolání převážně zaniklo, v některých průmyslových oblastech Anglie ale přežilo až do počátku 70. let.",
+    "en": "Alarm clocks were then expensive and unreliable, so knocker-ups made their rounds with a long stick, often bamboo; Londoner Mary Smith shot dried peas at windows. The job had largely died out by the 1940s and 1950s, though in some industrial parts of England it lasted into the early 1970s."
+   }
+  },
+  {
+   "id": "T299-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Koho najímaly bowlingové herny, aby ručně stavěly sražené kuželky, než je nahradily automaty?",
+    "en": "Before machines took over, whom did bowling alleys hire to reset the knocked-down pins by hand?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vysloužilé vojáky",
+     "Rozhodčí utkání",
+     "Chlapce a mladíky",
+     "Číšníky z výčepu"
+    ],
+    "en": [
+     "Retired soldiers",
+     "Match referees",
+     "Boys and young men",
+     "Barmen from the taproom"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Těmto stavěčům se anglicky říkalo pin boys. Patent na první mechanický stavěč kuželek od Gottfrieda (Freda) Schmidta koupila firma AMF a své automaty začala prodávat v roce 1952.",
+    "en": "These pinsetters were known as pin boys. AMF bought the patent for the first mechanical pinsetter from Gottfried (Fred) Schmidt and began marketing its machines in 1952."
+   }
+  },
+  {
+   "id": "T299-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Led se v zimě sekal na jezerech a řekách a ukládal do ledáren. Čím se prokládal, aby vydržel až do léta?",
+    "en": "In winter, ice was cut from lakes and rivers and stored in icehouses. What was it packed with so it would last until summer?"
+   },
+   "moznosti": {
+    "cs": [
+     "Slámou nebo pilinami",
+     "Kamennou kuchyňskou solí",
+     "Hašeným stavebním vápnem",
+     "Mokrým říčním pískem"
+    ],
+    "en": [
+     "Straw or sawdust",
+     "Coarse rock salt",
+     "Slaked building lime",
+     "Wet river sand"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Sláma a piliny led izolovaly, takže v ledárně vydržel mnoho měsíců, často až do další zimy. V Británii se ledárny rozšířily v 17. století; jednu nechal roku 1619 postavit král Jakub I.",
+    "en": "Straw and sawdust insulated the ice, so it lasted for many months, often until the following winter. Icehouses spread in Britain in the 17th century; King James I commissioned one in 1619."
+   }
+  },
+  {
+   "id": "T299-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč angličtí kominíci v 18. a 19. století zaměstnávali malé chlapce?",
+    "en": "Why did English chimney sweeps of the 18th and 19th centuries employ small boys?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aby za ně vybírali od zákazníků platby",
+     "Aby rozváželi zákazníkům uhlí",
+     "Aby hlídali jejich koně a vozy",
+     "Aby lezli dovnitř úzkých komínů"
+    ],
+    "en": [
+     "To collect payments from customers",
+     "To deliver coal to customers",
+     "To mind their horses and carts",
+     "To climb up inside narrow chimneys"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Běžný průduch měřil jen asi 23 × 36 cm, a tak do něj lezli učni, často sirotci z chudobinců; za vhodný věk k zaučení se považovalo šest let. Praxi fakticky ukončil až zákon z roku 1875, který prosadil lord Shaftesbury: kominíci od té doby potřebovali povolení od policie.",
+    "en": "A typical flue measured only about 23 by 36 cm (9 by 14 inches), so apprentices – often orphans from workhouses, with six considered a good age to start training – climbed inside. The practice was effectively ended by an 1875 act pushed through by Lord Shaftesbury, which required sweeps to be licensed by the police."
+   }
+  },
+  {
+   "id": "T299-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co vyráběli uhlíři v milířích?",
+    "en": "What did the workers who tended smouldering, earth-covered wood piles in the forest produce?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pálené vápno",
+     "Dřevěné uhlí",
+     "Hnědé uhlí",
+     "Koks"
+    ],
+    "en": [
+     "Quicklime",
+     "Charcoal",
+     "Lignite",
+     "Coke"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Hromada polen se zakryla chvojím, listím nebo trávou a utěsnila hlínou, aby k ní mělo přístup jen málo vzduchu a dřevo zuhelnatělo, místo aby shořelo. Dřevěné uhlí bylo dlouho jediným palivem dost žhavým pro tavbu železa.",
+    "en": "The pile of logs was covered with branches, leaves or grass and sealed with earth so that only a little air got in and the wood charred instead of burning away. For a long time charcoal was the only fuel hot enough to smelt iron."
+   }
+  },
+  {
+   "id": "T299-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč mají dřevěné sudy uprostřed vypouklý tvar?",
+    "en": "Why do wooden barrels bulge in the middle?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lépe se skládají na sebe",
+     "Lépe se z nich vylévá obsah",
+     "Víno v nich rychleji zraje",
+     "Dají se snadno kutálet a otáčet"
+    ],
+    "en": [
+     "They stack more easily",
+     "They are easier to pour from",
+     "Wine matures faster in them",
+     "They are easy to roll and turn"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vypouklý střed (anglicky bilge) umožňuje sud naklopit na bok a kutálet nebo s ním měnit směr s menším třením než u válce. Dužiny stahují obruče, které v 19. století postupně nahradily pevnější kovové.",
+    "en": "The bulge (the bilge) lets a barrel be tipped on its side and rolled or turned with less friction than a cylinder. The staves are held by hoops, which in the 19th century were gradually replaced by stronger metal ones."
+   }
+  },
+  {
+   "id": "T299-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč se železná obruč nasazovala na dřevěné kolo rozžhavená?",
+    "en": "Why was the iron tyre fitted onto a wooden wheel while red-hot?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rozžhavené železo se k dřevu přivařilo",
+     "Žár zahubil škůdce ve dřevě kola",
+     "Při chladnutí se smrštila a pevně stáhla kolo",
+     "Horké železo se snáz přibíjelo hřebíky"
+    ],
+    "en": [
+     "The hot iron welded itself to the wood",
+     "The heat killed pests in the wood",
+     "As it cooled it shrank and gripped the wheel tightly",
+     "Hot iron was easier to nail on"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Obruč se dělala o něco menší než obvod kola; v žáru se roztáhla a po polití vodou se smrštila tak, že stáhla k sobě i spoje dřevěných loukotí. Anglické wright v názvu koláře (wheelwright) pochází ze staroanglického wryhta – řemeslník; odtud příjmení Wright, Wainwright či Cartwright.",
+    "en": "The tyre was made slightly smaller than the wheel; heat expanded it, and when doused with water it shrank so tightly that it closed the joints between the wooden felloes. The 'wright' in wheelwright comes from Old English wryhta, a worker, which gave surnames such as Wright, Wainwright and Cartwright."
+   }
+  },
+  {
+   "id": "T299-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co kromě kol k vozům a kočárům vyráběli angličtí koláři (wheelwrights)?",
+    "en": "Besides wheels for carts and carriages, what else did English wheelwrights make?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kostelní zvony",
+     "Kola a rámy kolovratů",
+     "Pivovarské sudy",
+     "Mlýnské kameny"
+    ],
+    "en": [
+     "Church bells",
+     "Wheels and frames for spinning wheels",
+     "Brewery casks",
+     "Millstones"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Kolář stavěl a opravoval dřevěná kola pro káry, vozy a kočáry, ale vyráběl i kola a rámy kolovratů a v době parních strojů také kola pro jejich řemenové pohony.",
+    "en": "A wheelwright built and repaired wooden wheels for carts, wagons and carriages, but also made wheels and frames for spinning wheels and, in the age of steam, wheels for the belt drives of steam machinery."
+   }
+  },
+  {
+   "id": "T299-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Hamburská ulice Reeperbahn, srdce zábavní čtvrti St. Pauli, nese jméno podle…",
+    "en": "Hamburg's Reeperbahn, the heart of the St. Pauli entertainment district, is named after…"
+   },
+   "moznosti": {
+    "cs": [
+     "provaznické dráhy",
+     "cvičiště vojenských rekrutů",
+     "dostihové dráhy pro koně",
+     "kotviště rybářských lodí"
+    ],
+    "en": [
+     "a ropewalk",
+     "a drill ground for army recruits",
+     "a horse-racing track",
+     "a mooring for fishing boats"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Reeperbahn znamená provaznická dráha – dlouhá rovná ulička, kde se kroutila lodní lana. Podobný původ má londýnská Cable Street.",
+    "en": "Reeperbahn means 'ropewalk' – a long straight lane where ships' ropes were twisted. London's Cable Street has a similar origin."
+   }
+  },
+  {
+   "id": "T299-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jakým zvoláním tradičně začíná své oznámení anglický městský vyvolávač (town crier)?",
+    "en": "With what call does an English town crier traditionally begin an announcement?"
+   },
+   "moznosti": {
+    "cs": [
+     "„Huzzah!“",
+     "„Oyez!“",
+     "„Ahoy!“",
+     "„Tally-ho!“"
+    ],
+    "en": [
+     "“Huzzah!”",
+     "“Oyez!”",
+     "“Ahoy!”",
+     "“Tally-ho!”"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Oyez pochází z anglonormanského slova pro „slyšte“ a vyzývá k tichu a pozornosti. Vyvolávači mluvili jménem panovníka a nosili i nepopulární zprávy, třeba o zvýšení daní, proto je chránil zákon: ublížit jim se považovalo za velezradu.",
+    "en": "Oyez comes from the Anglo-Norman word for 'listen' and calls for silence and attention. Criers spoke in the monarch's name and also delivered unwelcome news such as tax rises, so they were protected by law: harming one was considered treason."
+   }
+  },
+  {
+   "id": "T299-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaké povolání má Bartleby, hrdina povídky Hermana Melvilla z roku 1853, proslulý větou „Raději bych ne“ (I would prefer not to)?",
+    "en": "What is the job of Bartleby, the hero of Herman Melville's 1853 story, famous for the line 'I would prefer not to'?"
+   },
+   "moznosti": {
+    "cs": [
+     "Písař v advokátní kanceláři",
+     "Pokladník v obchodní bance",
+     "Vykonavatel u městského soudu",
+     "Stevard na zaoceánské lodi"
+    ],
+    "en": [
+     "A copyist in a law office",
+     "A teller in a commercial bank",
+     "A bailiff at the city court",
+     "A steward on an ocean liner"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Bartleby opisuje právní dokumenty pro advokáta na Wall Street, dokud nezačne každý úkol odmítat. Povídka vyšla na pokračování v listopadu a prosinci 1853 v Putnam's Magazine.",
+    "en": "Bartleby copies legal documents for a lawyer on Wall Street until he starts refusing every task. The story was serialised in Putnam's Magazine in November and December 1853."
+   }
+  },
+  {
+   "id": "T299-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím se v 18. a 19. století živili londýnští mudlarks?",
+    "en": "How did London's mudlarks make a living in the 18th and 19th centuries?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vybírali mýto na mostech přes Temži",
+     "Rozváželi po městě vodu z řeky",
+     "Lovili úhoře v londýnských stokách",
+     "Sbírali v bahně Temže věci na prodej"
+    ],
+    "en": [
+     "Collecting tolls on the Thames bridges",
+     "Delivering river water around the city",
+     "Catching eels in London's sewers",
+     "Scavenging the Thames mud for things to sell"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Byly to většinou děti od 8 do 15 let nebo staří lidé; podrobně je popsal Henry Mayhew v díle London Labour and the London Poor (1851). Dnes je mudlarking koníček, k němuž je potřeba povolení přístavní správy Port of London Authority.",
+    "en": "They were mostly children aged 8 to 15 or elderly people; Henry Mayhew described them in detail in London Labour and the London Poor (1851). Today mudlarking is a hobby that requires a licence from the Port of London Authority."
+   }
+  },
+  {
+   "id": "T299-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Anglické výrazy uppercase a lowercase pro velká a malá písmena pocházejí z práce sazečů. Proč?",
+    "en": "The English terms uppercase and lowercase come from the work of typesetters. Why?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kasa s velkými literami stála výš než s malými",
+     "Velká písmena se odlévala z horní vrstvy kovu",
+     "Malé litery ležely ve sklepě, velké v patře",
+     "Velká písmena se sázela jen do horních řádků"
+    ],
+    "en": [
+     "The case of capitals stood higher than that of small letters",
+     "Capitals were cast from the top layer of metal",
+     "Small letters were kept in the cellar, capitals upstairs",
+     "Capitals were set only in the top lines"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Sazeč měl před sebou dvě kasy: tu s velkými písmeny vzadu a strměji skloněnou, tu s malými níž a blíž po ruce. Přihrádky na malá písmena byly různě velké podle toho, jak často se které písmeno používá.",
+    "en": "The compositor worked with two cases: the one with capitals stood at the back at a steeper angle, the one with small letters lower and within easy reach. The compartments for small letters varied in size according to how often each letter was used."
+   }
+  },
+  {
+   "id": "T299-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co dělal v tudorovské Anglii takzvaný gong farmer?",
+    "en": "What did a so-called gong farmer do in Tudor England?"
+   },
+   "moznosti": {
+    "cs": [
+     "Odchytával toulavé psy",
+     "Vybíral latríny a žumpy",
+     "Zvonil na poplach při požárech",
+     "Pěstoval chmel pro pivovary"
+    ],
+    "en": [
+     "Caught stray dogs",
+     "Emptied privies and cesspits",
+     "Rang the alarm in case of fire",
+     "Grew hops for breweries"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Slovo gong (ze staroanglického gang – jít) znamenalo latrínu i její obsah. Gong farmers směli pracovat jen v noci mezi 21. a 5. hodinou a byli dobře placení, lidé se jim ale vyhýbali.",
+    "en": "The word gong (from Old English gang – to go) meant both a privy and its contents. Gong farmers were allowed to work only at night, between 9 p.m. and 5 a.m., and were well paid, but people shunned them."
+   }
+  },
+  {
+   "id": "T299-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jakou délku lan zhruba potřebovala Nelsonova vlajková loď HMS Victory?",
+    "en": "Roughly how much rope did Nelson's flagship HMS Victory need?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 0,5 km",
+     "Asi 5 km",
+     "Asi 50 km",
+     "Asi 500 km"
+    ],
+    "en": [
+     "About 0.5 km (0.31 mi)",
+     "About 5 km (3.1 mi)",
+     "About 50 km (31 mi)",
+     "About 500 km (310 mi)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Šlo asi o 50 km lan. Standardní lano britského námořnictva mělo asi 300 m, proto byly provaznické dráhy tak dlouhé – ta v loděnici Chatham měří 346 m a lana se v ní vyrábějí dodnes.",
+    "en": "It needed about 50 km (31 mi) of rope. The standard British naval rope was about 300 m (1,000 ft) long, which is why ropewalks were so long – the one at Chatham Dockyard measures 346 m (1,135 ft) and still produces rope today."
+   }
+  },
+  {
+   "id": "T299-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím se kominíci zapsali do dějin medicíny?",
+    "en": "How did chimney sweeps make their mark on the history of medicine?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jejich saze se předepisovaly jako lék na ekzémy",
+     "U nich byla popsána první známá rakovina z povolání",
+     "Jako první byli hromadně očkováni proti neštovicím",
+     "Jako první skupina dostali nárok na nemocenskou"
+    ],
+    "en": [
+     "Their soot was prescribed as a cure for eczema",
+     "In them the first known occupational cancer was described",
+     "They were the first group vaccinated against smallpox en masse",
+     "They were the first group entitled to sick pay"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Chirurg Percivall Pott si roku 1775 všiml, že kominíci onemocní rakovinou kůže šourku, a dal ji do souvislosti se sazemi. Považuje se za první popsanou rakovinu z povolání a první doklad, že zhoubný nádor může vyvolat látka z prostředí.",
+    "en": "In 1775 surgeon Percivall Pott noticed that chimney sweeps developed cancer of the scrotal skin and linked it to soot. It is regarded as the first reported occupational cancer and showed that an environmental carcinogen could cause a malignancy."
+   }
+  },
+  {
+   "id": "T299-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím se po odchodu z úřadu živil mistr Franz Schmidt, v letech 1578–1617 kat v Norimberku?",
+    "en": "What did Master Franz Schmidt, executioner of Nuremberg from 1578 to 1617, do for a living after leaving office?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pohřbíval mrtvé",
+     "Vyučoval šerm",
+     "Vedl hostinec",
+     "Léčil nemocné"
+    ],
+    "en": [
+     "He buried the dead",
+     "He taught fencing",
+     "He ran an inn",
+     "He treated the sick"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Schmidt léčil už během služby a po odchodu do penze se stal výdělečným lékařským poradcem; podle vlastního odhadu poskytl asi 15 000 konzultací. Císař Ferdinand II. ho prohlásil za „počestného“ (ehrlich), čímž z něj sňal stigma katovského řemesla.",
+    "en": "Schmidt already worked as a healer while in office and after retiring became a well-paid medical consultant; by his own estimate he gave some 15,000 consultations. Emperor Ferdinand II declared him 'ehrlich' (honourable), lifting the stigma of the executioner's trade."
+   }
+  },
+  {
+   "id": "T299-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém roce byl automatizován maják North Foreland v Kentu, poslední maják správy Trinity House ve Spojeném království, který ještě obsluhovali strážci?",
+    "en": "In which year was the North Foreland lighthouse in Kent – the last Trinity House lighthouse in the UK still staffed by keepers – automated?"
+   },
+   "moznosti": {
+    "cs": [
+     "1958",
+     "1978",
+     "1998",
+     "2008"
+    ],
+    "en": [
+     "1958",
+     "1978",
+     "1998",
+     "2008"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Automatizaci provázel obřad za účasti vévody z Edinburghu. Úplně posledním obsluhovaným majákem v Británii byl ale Walney, který Trinity House nepatří a automatizován byl v roce 2003.",
+    "en": "The automation was marked by a ceremony attended by the Duke of Edinburgh. The very last manned lighthouse in Britain, however, was Walney, which does not belong to Trinity House and was automated in 2003."
+   }
+  },
+  {
+   "id": "T299-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč dostal pařížský dům s ateliéry, kde Picasso namaloval Avignonské slečny, jméno Bateau-Lavoir (prádelní loď)?",
+    "en": "Why was the Paris studio building where Picasso painted Les Demoiselles d'Avignon named the Bateau-Lavoir (laundry boat)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Za bouře se kymácel a vrzal jako prádelní lodě",
+     "Dříve v něm sídlila velká veřejná prádelna",
+     "Jeho majitel provozoval prádelní lodě na Seině",
+     "Stál na místě, kde kotvila prádelní loď"
+    ],
+    "en": [
+     "In storms it swayed and creaked like laundry boats",
+     "It used to house a large public laundry",
+     "Its owner ran laundry boats on the Seine",
+     "It stood where a laundry boat was once moored"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jméno vymyslel básník Max Jacob: tmavá a špinavá budova, dřív taneční sál a továrna na piana, se za bouře viditelně houpala a vrzala jako prádelní lodě na Seině. Avignonské slečny tu Picasso namaloval v roce 1907.",
+    "en": "The name was coined by the poet Max Jacob: in stormy weather the dark, dirty building, formerly a ballroom and piano factory, swayed and creaked like the laundry boats on the Seine. Picasso painted Les Demoiselles d'Avignon there in 1907."
+   }
+  },
+  {
+   "id": "T299-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Odkud pochází slovo fiakr, kterým se dodnes označují vídeňské kočáry pro turisty?",
+    "en": "Where does the word fiacre come from, still used in Vienna (Fiaker) for tourist carriages?"
+   },
+   "moznosti": {
+    "cs": [
+     "Od jména vídeňského vozky, který jezdil první linku",
+     "Od francouzského vynálezce odpruženého kočáru",
+     "Od pařížského domu Saint-Fiacre, kde se půjčovaly kočáry",
+     "Z italského fiacco (unavený) podle pomalých koní"
+    ],
+    "en": [
+     "From the name of the Viennese coachman who drove the first route",
+     "From the French inventor of the sprung carriage",
+     "From the Hôtel de Saint-Fiacre in Paris, which hired out carriages",
+     "From Italian fiacco (tired), after the slow horses"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kočáry se v pařížském Hôtelu de Saint-Fiacre pronajímaly zhruba od poloviny 17. století a vozkové si později svatého Fiakra zvolili za patrona. V roce 1789 jezdilo po Paříži přes 800 fiakrů.",
+    "en": "Carriages were hired out at the Hôtel de Saint-Fiacre in Paris from about the mid-17th century, and cab drivers later adopted Saint Fiacre as their patron saint. By 1789 more than 800 fiacres operated in Paris."
+   }
+  },
+  {
+   "id": "T299-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč podle tradované verze dostala kubánská značka doutníků Montecristo (1935) jméno podle Dumasova Hraběte Monte Christa?",
+    "en": "According to the traditional account, why was the Cuban cigar brand Montecristo (1935) named after Dumas's The Count of Monte Cristo?"
+   },
+   "moznosti": {
+    "cs": [
+     "Román oblíbili balíči, jimž ho v továrně předčítal předčítač",
+     "Román prý vyšel na Kubě poprvé v roce založení značky",
+     "Dumas prý kouřil doutníky z továrny, kde značka vznikla",
+     "Zakladatel značky byl potomkem Dumasova nakladatele"
+    ],
+    "en": [
+     "The rollers loved the novel, read to them in the factory by a reader",
+     "The novel supposedly first came out in Cuba the year the brand was founded",
+     "Dumas supposedly smoked cigars from the factory where the brand began",
+     "The brand's founder was a descendant of Dumas's publisher"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Román prý balíčům v dílně nahlas předčítal předčítač (lector), zatímco ručně balili doutníky. Značku založil Alonso Menéndez poté, co v červenci 1935 koupil továrnu Particulares.",
+    "en": "The novel was reportedly read aloud to the rollers by a lector while they worked on the rolling floor. The brand was created by Alonso Menéndez after he bought the Particulares factory in July 1935."
+   }
+  },
+  {
+   "id": "T299-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Krakovský hejnał zaznívá každou hodinu z věže Mariánského kostela a uprostřed melodie se náhle utne. Kdo ho dnes troubí?",
+    "en": "The Kraków Hejnał is played every hour from the tower of St Mary's Church and breaks off mid-melody. Who plays it today?"
+   },
+   "moznosti": {
+    "cs": [
+     "Studenti hudební akademie",
+     "Kostelníci zdejší farnosti",
+     "Vojáci čestné stráže",
+     "Členové hasičského sboru"
+    ],
+    "en": [
+     "Music academy students",
+     "Sextons of the parish",
+     "Honour guard soldiers",
+     "Members of the fire brigade"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Troubí ho členové hasičského sboru do čtyř světových stran a polední hejnał vysílá polský rozhlas od roku 1927. Legenda o trubači zasaženém šípem je písemně doložena až z dětské knihy z roku 1928.",
+    "en": "It is played by members of the fire brigade towards the four cardinal directions, and Polish Radio has broadcast the noon call since 1927. The legend of the trumpeter struck by an arrow is first recorded in a 1928 children's book."
+   }
+  },
+  {
+   "id": "T299-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co v nejstarších zprávách o pištci z Hamelnu, který měl roku 1284 odvést z města 130 dětí, ještě chybí a do příběhu se dostalo až kolem roku 1559?",
+    "en": "What is missing from the earliest accounts of the Pied Piper of Hamelin, who supposedly led 130 children out of the town in 1284, and was only added around 1559?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pištcův pestrý oděv",
+     "Krysy",
+     "Odvedené děti",
+     "Pištcova hudba"
+    ],
+    "en": [
+     "The piper's colourful clothes",
+     "The rats",
+     "The children led away",
+     "The piper's music"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Starší prameny znají jen pištce, který odvedl děti; krysy se do příběhu dostaly teprve ve verzi z doby kolem roku 1559. Nejstarší prameny se přitom shodují na roce 1284 a 130 dětech odvedených v den svatých Jana a Pavla.",
+    "en": "Earlier sources mention only a piper who led the children away; the rats first appear in a version from around 1559. The earliest accounts agree on the year 1284 and on 130 children led away on the Feast of Saints John and Paul."
+   }
+  },
+  {
+   "id": "T299-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jack Black, samozvaný „krysař královny Viktorie“, se zapsal do dějin tím, že…",
+    "en": "Jack Black, the self-proclaimed 'rat-catcher to Queen Victoria', went down in history because he…"
+   },
+   "moznosti": {
+    "cs": [
+     "vycvičil krysy k vyhledávání zasypaných lidí",
+     "vynalezl sklapovací pružinovou past na krysy",
+     "ochočoval barevné krysy a prodával je jako mazlíčky",
+     "jako první popsal, že mor přenášejí krysí blechy"
+    ],
+    "en": [
+     "trained rats to find people buried under rubble",
+     "invented the spring-loaded snap trap for rats",
+     "tamed coloured rats and sold them as pets",
+     "was the first to describe that plague is spread by rat fleas"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "V době rozkvětu sázkových zápasů, v nichž teriéři zabíjeli krysy, si krysaři začali nechávat neobvykle zbarvené kusy; Black je krotil, zdobil stužkami a prodával jako mazlíčky. S Jimmym Shawem bývá považován za původce mnoha dnešních barevných variet.",
+    "en": "At the height of rat-baiting, in which terriers killed rats for bets, rat-catchers began keeping unusually coloured rats; Black tamed them, decorated them with ribbons and sold them as pets. He and Jimmy Shaw are credited with starting many of today's colour varieties."
+   }
+  },
+  {
+   "id": "T299-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V tiskárnách se strojovou sazbou Linotype se objevovaly nesmyslné řádky „etaoin shrdlu“. Jak vznikaly?",
+    "en": "In print shops using Linotype machines, nonsense lines reading 'etaoin shrdlu' appeared. How did they come about?"
+   },
+   "moznosti": {
+    "cs": [
+     "Stroj je vysázel sám, když mu došel roztavený kov",
+     "Mechanici jimi zkoušeli odlévání všech písmen",
+     "Korektoři jimi označovali místa určená k přepsání",
+     "Sazeč přejel prsty po prvních dvou sloupcích kláves"
+    ],
+    "en": [
+     "The machine set them by itself when it ran out of molten metal",
+     "Mechanics used them to test the casting of every letter",
+     "Proofreaders used them to mark passages to be rewritten",
+     "The operator ran his fingers down the first two columns of keys"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Linotype odléval z olověné slitiny celý řádek najednou, takže chybu nešlo opravit po písmenech; sazeč chybný řádek rychle dovyplnil přejetím po klávesách. Stroj vynalezl německý hodinář Ottmar Mergenthaler a první komerční kus začal pracovat v roce 1886 v New York Tribune.",
+    "en": "The Linotype cast an entire line at once from a lead alloy, so a mistake could not be fixed letter by letter; the operator quickly filled out the faulty line by running his fingers down the keys. The machine was invented by German clockmaker Ottmar Mergenthaler, and the first commercial unit went to work at the New York Tribune in 1886."
+   }
+  }
+ ]
+}

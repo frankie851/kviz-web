@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T033",
+ "nazev": {
+  "cs": "Středověk: rytíři, cechy a mor",
+  "en": "The Middle Ages: Knights, Guilds and the Plague"
+ },
+ "kategorie": {
+  "id": "historie",
+  "nazev": {
+   "cs": "Historie",
+   "en": "History"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T033-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém roce vydal Karel IV. zakládací listinu pražské univerzity, dnešní Univerzity Karlovy?",
+    "en": "In which year did Charles IV issue the founding charter of the university in Prague, today's Charles University?"
+   },
+   "moznosti": {
+    "cs": [
+     "1212",
+     "1348",
+     "1415",
+     "1526"
+    ],
+    "en": [
+     "1212",
+     "1348",
+     "1415",
+     "1526"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Zakládací listina Karla IV. je datována 7. dubna 1348 a k tomuto dni se vztahují výročí založení. Už 26. ledna 1347 ale na jeho žádost vydal papež Klement VI. zakládací bulu.",
+    "en": "Charles IV's founding charter is dated 7 April 1348, and the founding anniversaries are marked on that day. At his request, Pope Clement VI had already issued a founding bull on 26 January 1347."
+   }
+  },
+  {
+   "id": "T033-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo zavedl v Evropě v polovině 15. století knihtisk s pohyblivými literami?",
+    "en": "Who introduced printing with movable type to Europe in the mid-15th century?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aldus Manutius",
+     "Johannes Gutenberg",
+     "William Caxton",
+     "Leonardo da Vinci"
+    ],
+    "en": [
+     "Aldus Manutius",
+     "Johannes Gutenberg",
+     "William Caxton",
+     "Leonardo da Vinci"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Gutenberg svou metodu údajně zdokonalil kolem roku 1440 ve Štrasburku a v rodné Mohuči pak vytiskl slavnou Bibli, dokončenou roku 1455.",
+    "en": "Gutenberg is said to have perfected his method around 1440 in Strasbourg, and in his hometown of Mainz he then printed the famous Bible, completed in 1455."
+   }
+  },
+  {
+   "id": "T033-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která dívka pomohla roku 1429 osvobodit obležený Orléans a stala se hrdinkou stoleté války?",
+    "en": "Which young woman helped lift the siege of Orléans in 1429 and became a heroine of the Hundred Years' War?"
+   },
+   "moznosti": {
+    "cs": [
+     "Eleonora Akvitánská",
+     "Kateřina Medicejská",
+     "Anna Bretaňská",
+     "Johanka z Arku"
+    ],
+    "en": [
+     "Eleanor of Aquitaine",
+     "Catherine de' Medici",
+     "Anne of Brittany",
+     "Joan of Arc"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Obléhání Orléansu skončilo devět dní po jejím příjezdu. Ještě téhož léta doprovodila Karla VII. ke korunovaci v Remeši.",
+    "en": "The siege of Orléans was lifted nine days after she arrived. That same summer she accompanied Charles VII to his coronation at Reims."
+   }
+  },
+  {
+   "id": "T033-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který český kazatel a reformátor byl roku 1415 upálen v Kostnici?",
+    "en": "Which Czech preacher and reformer was burned at the stake in Constance in 1415?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jan Rokycana",
+     "Petr Chelčický",
+     "Jan Milíč z Kroměříže",
+     "Jan Hus"
+    ],
+    "en": [
+     "Jan Rokycana",
+     "Petr Chelčický",
+     "Jan Milíč of Kroměříž",
+     "Jan Hus"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jan Hus byl odsouzen za kacířství na kostnickém koncilu a upálen 6. července 1415. Předtím léta kázal česky v pražské Betlémské kapli.",
+    "en": "Jan Hus was condemned for heresy at the Council of Constance and burned on 6 July 1415. Before that he had preached in Czech for years in Prague's Bethlehem Chapel."
+   }
+  },
+  {
+   "id": "T033-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazýval obřad, při kterém byl panoš přijat mezi rytíře?",
+    "en": "What was the ceremony called in which a squire was admitted into knighthood?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pasování",
+     "Investitura",
+     "Biřmování",
+     "Korunovace"
+    ],
+    "en": [
+     "Dubbing",
+     "Investiture",
+     "Confirmation",
+     "Coronation"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pasování bylo ústředním aktem obřadů, jimiž se ve středověku udělovalo rytířství. Zpočátku šlo o opásání mečem, později o úder rukou do šíje, zmírněný nakonec na lehký úder mečem.",
+    "en": "The accolade, or dubbing, was the central act of the ceremonies conferring knighthood in the Middle Ages. Early on it meant girding the candidate with a sword, later a blow of the hand to the neck, eventually softened into a light blow with a sword."
+   }
+  },
+  {
+   "id": "T033-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co byl ve středověkém městě cech?",
+    "en": "What was a guild in a medieval town?"
+   },
+   "moznosti": {
+    "cs": [
+     "Strážní věž v městských hradbách",
+     "Soud, který soudil jen šlechtice",
+     "Sdružení řemeslníků jednoho oboru",
+     "Daň placená z prodeje na trhu"
+    ],
+    "en": [
+     "A watchtower in the town walls",
+     "A court that tried only nobles",
+     "An association of craftsmen of one trade",
+     "A tax paid on sales at the market"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Cechy sdružovaly řemeslníky nebo obchodníky stejného oboru a dohlížely na jejich práci. Jejich členové mívali ve městě výhradní právo daný obor provozovat.",
+    "en": "Guilds were associations of craftsmen or merchants of the same trade that oversaw their work. Their members usually held the exclusive right to practise that trade in the town."
+   }
+  },
+  {
+   "id": "T033-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kteří živočichové podle dnešního poznání nejčastěji přenášeli na člověka bakterii, která způsobila Černou smrt?",
+    "en": "According to current knowledge, what most commonly transmitted the bacterium behind the Black Death to humans?"
+   },
+   "moznosti": {
+    "cs": [
+     "Klíšťata",
+     "Mouchy",
+     "Komáři",
+     "Blechy"
+    ],
+    "en": [
+     "Ticks",
+     "Flies",
+     "Mosquitoes",
+     "Fleas"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Bakterii Yersinia pestis přenášelo hlavně kousnutí blech, klasicky krysí blechy Xenopsylla cheopis; podle novějších modelů se ale mohla šířit i lidskými blechami a vešmi. V plicní formě přecházel mor i přímo mezi lidmi kapénkami.",
+    "en": "Yersinia pestis was spread mainly by flea bites, classically by the rat flea Xenopsylla cheopis, though newer models suggest human fleas and body lice may also have spread it. In its pneumonic form the plague also passed directly between people via droplets."
+   }
+  },
+  {
+   "id": "T033-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které dvě země proti sobě hlavně bojovaly ve stoleté válce?",
+    "en": "Which two countries were the main opponents in the Hundred Years' War?"
+   },
+   "moznosti": {
+    "cs": [
+     "Anglie a Francie",
+     "Polsko a Řád německých rytířů",
+     "Francie a Španělsko",
+     "Anglie a Skotsko"
+    ],
+    "en": [
+     "England and France",
+     "Poland and the Teutonic Order",
+     "France and Spain",
+     "England and Scotland"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hlavními válčícími stranami byly Anglické a Francouzské království, obě však měly spojence, třeba Burgundsko nebo Skotsko. Spor se vedl hlavně o francouzský trůn.",
+    "en": "The main belligerents were the Kingdoms of England and France, though each had allies such as Burgundy or Scotland. The conflict was largely about the French throne."
+   }
+  },
+  {
+   "id": "T033-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které město dobyli účastníci první křížové výpravy roku 1099?",
+    "en": "Which city did the participants of the First Crusade capture in 1099?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jeruzalém",
+     "Káhiru",
+     "Konstantinopol",
+     "Bagdád"
+    ],
+    "en": [
+     "Jerusalem",
+     "Cairo",
+     "Constantinople",
+     "Baghdad"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Křižáci vtrhli do Jeruzaléma 15. července 1099. Výpravu vyhlásil papež Urban II. roku 1095 na koncilu v Clermontu.",
+    "en": "The crusaders stormed Jerusalem on 15 July 1099. Pope Urban II had called the crusade in 1095 at the Council of Clermont."
+   }
+  },
+  {
+   "id": "T033-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "S jakou bojovou taktikou je spojován husitský vojevůdce Jan Žižka?",
+    "en": "Which battle tactic is the Hussite commander Jan Žižka associated with?"
+   },
+   "moznosti": {
+    "cs": [
+     "Se želvou ze štítů",
+     "S klínovým útokem těžké jízdy",
+     "S vozovou hradbou",
+     "S obléhacími věžemi"
+    ],
+    "en": [
+     "The shield-wall tortoise",
+     "The wedge charge of heavy cavalry",
+     "The wagon fort",
+     "Siege towers"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Husitské vozy se spojovaly řetězy do obranného kruhu a z nich pálili střelci; po zlomení nepřítele přešli husité do protiútoku. Žižka velel i poté, co roku 1421 přišel o zrak i na druhé oko.",
+    "en": "Hussite wagons were chained into a defensive ring from which gunners and crossbowmen fired; once the enemy faltered the Hussites counter-attacked. Žižka kept commanding even after losing the sight of his second eye in 1421."
+   }
+  },
+  {
+   "id": "T033-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který anglický král roku 1215 zpečetil Magnu chartu?",
+    "en": "Which English king sealed Magna Carta in 1215?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vilém Dobyvatel",
+     "Jan Bezzemek",
+     "Richard I. Lví srdce",
+     "Jindřich II."
+    ],
+    "en": [
+     "William the Conqueror",
+     "King John",
+     "Richard I the Lionheart",
+     "Henry II"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jan Bezzemek listinu zpečetil 15. června 1215 na louce Runnymede u Windsoru pod tlakem vzbouřených baronů. Byl nejmladším synem Jindřicha II. a mladším bratrem Richarda Lví srdce.",
+    "en": "King John sealed the charter on 15 June 1215 at Runnymede, near Windsor, under pressure from rebel barons. He was the youngest son of Henry II and a younger brother of Richard the Lionheart."
+   }
+  },
+  {
+   "id": "T033-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Před čím v Boccacciově Dekameronu uteče deset mladých lidí z Florencie na venkov, kde si vyprávějí příběhy?",
+    "en": "In Boccaccio's Decameron, what do ten young people flee from when they leave Florence for the countryside and tell each other stories?"
+   },
+   "moznosti": {
+    "cs": [
+     "Před povodní na Arnu",
+     "Před inkvizicí",
+     "Před morovou epidemií",
+     "Před obléháním města"
+    ],
+    "en": [
+     "A flood of the Arno",
+     "The Inquisition",
+     "A plague epidemic",
+     "A siege of the city"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Sedm žen a tři muži prchnou před Černou smrtí do vily u Fiesole, kde během dvou týdnů vyprávějí po deset dní celkem sto příběhů. Název vychází z řeckých slov pro „deset“ a „den“.",
+    "en": "Seven women and three men flee the Black Death to a villa near Fiesole, where over two weeks they spend ten days telling one hundred stories. The title comes from the Greek words for 'ten' and 'day'."
+   }
+  },
+  {
+   "id": "T033-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jakou část obyvatel Evropy podle odhadů zahubila Černá smrt?",
+    "en": "According to estimates, what share of Europe's population did the Black Death kill?"
+   },
+   "moznosti": {
+    "cs": [
+     "1–5 %",
+     "10–15 %",
+     "25–60 %",
+     "80–90 %"
+    ],
+    "en": [
+     "1–5%",
+     "10–15%",
+     "25–60%",
+     "80–90%"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Odhady se různí, zhruba od 25 do 60 % obyvatel Evropy. Na úroveň ze 14. století se počet obyvatel Evropy vrátil až v 16. století.",
+    "en": "Estimates vary, roughly from 25 to 60% of Europe's population. Europe's population did not regain its 14th-century level until the 16th century."
+   }
+  },
+  {
+   "id": "T033-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který český král padl roku 1346 v bitvě u Kresčaku (Crécy), přestože byl už léta slepý?",
+    "en": "Which King of Bohemia was killed at the Battle of Crécy in 1346, despite having been blind for years?"
+   },
+   "moznosti": {
+    "cs": [
+     "Václav II.",
+     "Jindřich Korutanský",
+     "Jan Lucemburský",
+     "Přemysl Otakar II."
+    ],
+    "en": [
+     "Wenceslaus II",
+     "Henry of Carinthia",
+     "John of Luxembourg",
+     "Ottokar II"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jan Lucemburský oslepl roku 1336 a v bitvě si podle Froissarta nechal přivázat uzdy koní svých rytířů ke svému a vést se do boje. Jeho syn Karel, pozdější Karel IV., byl z bojiště odveden zraněný.",
+    "en": "John of Luxembourg went blind in 1336, and according to Froissart he had his knights tie their horses' bridles to his own and lead him into the fight. His son Charles, later Charles IV, left the field wounded."
+   }
+  },
+  {
+   "id": "T033-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Anglické slovo masterpiece (mistrovské dílo) původně označovalo…",
+    "en": "The English word 'masterpiece' originally referred to…"
+   },
+   "moznosti": {
+    "cs": [
+     "Dar, který město předávalo panovníkovi",
+     "Nejdražší zboží nabízené na trhu",
+     "Oltářní obraz objednaný pro katedrálu",
+     "Zkušební výrobek tovaryše pro přijetí za mistra"
+    ],
+    "en": [
+     "A gift the town presented to the ruler",
+     "The most expensive goods offered at the market",
+     "An altarpiece commissioned for a cathedral",
+     "A journeyman's test piece to be accepted as a master"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Tovaryš jím prokazoval, že řemeslo ovládá natolik, aby mohl být přijat za mistra. Teprve později se slovo začalo užívat pro jakékoli vynikající dílo.",
+    "en": "With it a journeyman proved that he had mastered his craft well enough to be accepted as a master. Only later did the word come to mean any outstanding work."
+   }
+  },
+  {
+   "id": "T033-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se nazývala klášterní písárna, v níž mniši opisovali a zdobili rukopisy?",
+    "en": "What was the monastery writing room called where monks copied and decorated manuscripts?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ambit",
+     "Kapitulní síň",
+     "Refektář",
+     "Skriptorium"
+    ],
+    "en": [
+     "Cloister",
+     "Chapter house",
+     "Refectory",
+     "Scriptorium"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Historici upozorňují, že samostatnou písárnu měly jen některé kláštery a písaři často pracovali v knihovně nebo ve svých celách.",
+    "en": "Historians note that only some monasteries had a dedicated writing room, and scribes often worked in the library or their own cells."
+   }
+  },
+  {
+   "id": "T033-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaké jméno dostal pozdější císař Karel IV. při narození?",
+    "en": "What name was the future Emperor Charles IV given at birth?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jan",
+     "Václav",
+     "Zikmund",
+     "Otakar"
+    ],
+    "en": [
+     "John",
+     "Wenceslaus",
+     "Sigismund",
+     "Ottokar"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Narodil se roku 1316 v Praze jako Václav a jméno Karel přijal až při biřmování. Císařem byl korunován roku 1355 v Římě.",
+    "en": "He was born in Prague in 1316 as Wenceslaus and took the name Charles only at his confirmation. He was crowned emperor in Rome in 1355."
+   }
+  },
+  {
+   "id": "T033-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč se kalich stal symbolem husitů?",
+    "en": "Why did the chalice become the symbol of the Hussites?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kalich byl rodovým erbem Jana Žižky",
+     "Požadovali, aby i laici přijímali víno z kalicha",
+     "Kalich byl erbem krále Václava IV.",
+     "Kalich byl znakem pražské univerzity"
+    ],
+    "en": [
+     "The chalice was Jan Žižka's family coat of arms",
+     "They demanded that lay people also receive wine from the chalice",
+     "The chalice was the coat of arms of King Wenceslaus IV",
+     "The chalice was the emblem of Prague University"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Utrakvisté (z latinského sub utraque specie, „pod obojí způsobou“) chtěli, aby věřící přijímali při přijímání chléb i víno, které tehdy pili jen kněží. Říkalo se jim i kališníci.",
+    "en": "The Utraquists (from Latin sub utraque specie, 'under both kinds') wanted the faithful to receive both bread and wine at communion, when only priests drank the wine. They were also called Calixtines, from calix, cup."
+   }
+  },
+  {
+   "id": "T033-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kterou událostí v červenci 1419 začala husitská revoluce?",
+    "en": "Which event in July 1419 marked the start of the Hussite revolution?"
+   },
+   "moznosti": {
+    "cs": [
+     "Založením Tábora",
+     "První pražskou defenestrací",
+     "Smrtí krále Václava IV.",
+     "Bitvou na Vítkově"
+    ],
+    "en": [
+     "The founding of Tábor",
+     "The First Defenestration of Prague",
+     "The death of King Wenceslaus IV",
+     "The Battle of Vítkov Hill"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Dav vedený knězem Janem Želivským vtrhl 30. července 1419 do Novoměstské radnice a vyházel z oken purkmistra, rychtáře a konšely. V březnu 1420 pak papež Martin V. vyhlásil proti husitům křížovou výpravu.",
+    "en": "On 30 July 1419 a crowd led by the priest Jan Želivský stormed the New Town Hall and threw the burgomaster, the judge and councillors out of the windows. In March 1420 Pope Martin V then proclaimed a crusade against the Hussites."
+   }
+  },
+  {
+   "id": "T033-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která z těchto tělesných šťáv NEPATŘILA mezi čtyři šťávy, na nichž stála středověká humorální medicína?",
+    "en": "Which of these bodily fluids was NOT one of the four humours on which medieval humoral medicine was based?"
+   },
+   "moznosti": {
+    "cs": [
+     "Míza (lymfa)",
+     "Hlen",
+     "Černá žluč",
+     "Krev"
+    ],
+    "en": [
+     "Lymph",
+     "Phlegm",
+     "Black bile",
+     "Blood"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Humorální teorie rozlišovala krev, hlen, žlutou a černou žluč; nemoc prý způsobovala jejich nerovnováha. Proto se pouštělo žilou, aby tělo zbavilo přebytku krve.",
+    "en": "Humoral theory recognised blood, phlegm, yellow bile and black bile, and blamed illness on their imbalance. That is why bloodletting was used to rid the body of excess blood."
+   }
+  },
+  {
+   "id": "T033-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik původních vyhotovení Magny charty z roku 1215 se dochovalo?",
+    "en": "How many original copies of the 1215 Magna Carta survive?"
+   },
+   "moznosti": {
+    "cs": [
+     "1",
+     "4",
+     "13",
+     "25"
+    ],
+    "en": [
+     "1",
+     "4",
+     "13",
+     "25"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Dochovala se čtyři vyhotovení: dvě v Britské knihovně, jedno na hradě Lincoln a jedno v katedrále v Salisbury.",
+    "en": "Four exemplifications survive: two at the British Library, one at Lincoln Castle and one at Salisbury Cathedral."
+   }
+  },
+  {
+   "id": "T033-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém městě je dnes uložen Codex gigas (Ďáblova bible), obří rukopis vzniklý ve 13. století v klášteře v Podlažicích?",
+    "en": "In which city is the Codex Gigas (the Devil's Bible), a giant manuscript created in the 13th century at the Podlažice monastery, kept today?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Stockholmu",
+     "V Mnichově",
+     "Ve Vídni",
+     "Ve Vatikánu"
+    ],
+    "en": [
+     "Stockholm",
+     "Munich",
+     "Vienna",
+     "The Vatican"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Švédská vojska ho odvezla z Prahy jako válečnou kořist z Rudolfových sbírek na konci třicetileté války roku 1648. Přezdívku má podle celostránkové kresby ďábla.",
+    "en": "Swedish troops took it from Prague as war booty from Rudolf II's collections at the end of the Thirty Years' War in 1648. Its nickname comes from a full-page picture of the Devil."
+   }
+  },
+  {
+   "id": "T033-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik kurfiřtů mělo podle Zlaté buly Karla IV. z roku 1356 volit římského krále?",
+    "en": "According to Charles IV's Golden Bull of 1356, how many prince-electors were to elect the King of the Romans?"
+   },
+   "moznosti": {
+    "cs": [
+     "3",
+     "5",
+     "7",
+     "12"
+    ],
+    "en": [
+     "3",
+     "5",
+     "7",
+     "12"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Volili tři arcibiskupové (mohučský, kolínský a trevírský) a čtyři světská knížata včetně českého krále. K volbě stačila většina čtyř hlasů.",
+    "en": "The electors were three archbishops (of Mainz, Cologne and Trier) and four secular princes, including the King of Bohemia. A majority of four votes was enough to elect."
+   }
+  },
+  {
+   "id": "T033-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co změnil Kutnohorský dekret krále Václava IV. z roku 1409?",
+    "en": "What did King Wenceslaus IV's Decree of Kutná Hora of 1409 change?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dal českému národu na univerzitě tři hlasy",
+     "Zavedl na univerzitě výuku v češtině",
+     "Zakázal šířit spisy Jana Viklefa",
+     "Přenesl pražskou univerzitu do Kutné Hory"
+    ],
+    "en": [
+     "It gave the Bohemian nation three votes at the university",
+     "It introduced teaching in Czech at the university",
+     "It banned the spread of John Wycliffe's writings",
+     "It moved Prague University to Kutná Hora"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Dosud měl každý ze čtyř univerzitních národů jeden hlas; nově měl český tři a ostatní tři národy dohromady jeden. Většina německých mistrů a studentů pak odešla a podílela se na založení univerzity v Lipsku.",
+    "en": "Until then each of the four university nations had one vote; now the Bohemian nation had three and the other three together had one. Most German masters and students left and helped found the University of Leipzig."
+   }
+  },
+  {
+   "id": "T033-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém městě působila středověká lékařská škola, která je považována za první svého druhu v Evropě?",
+    "en": "In which city was the medieval medical school that is considered the first of its kind in Europe?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Salernu",
+     "V Paříži",
+     "V Bologni",
+     "V Oxfordu"
+    ],
+    "en": [
+     "Salerno",
+     "Paris",
+     "Bologna",
+     "Oxford"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Schola Medica Salernitana vznikla nejspíš v 9. století a největší slávu měla v 10.–13. století. Byla tehdy nejdůležitějším zdrojem lékařských znalostí v západní Evropě.",
+    "en": "The Schola Medica Salernitana probably arose in the 9th century and was most famous from the 10th to the 13th century, when it was Western Europe's most important source of medical knowledge."
+   }
+  },
+  {
+   "id": "T033-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ze kterého století pochází první popis typického oděvu morového lékaře s maskou ve tvaru ptačího zobáku?",
+    "en": "Which century does the first description of the typical plague doctor's outfit with a bird-beak mask date from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ze 13. století",
+     "Ze 14. století",
+     "Z 15. století",
+     "Ze 17. století"
+    ],
+    "en": [
+     "13th century",
+     "14th century",
+     "15th century",
+     "17th century"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Poprvé ho zmínil Charles de Lorme, lékař Ludvíka XIII., v souvislosti s morem v Paříži roku 1619. Žádný doklad, že by se zobáková maska nosila za Černé smrti nebo ve středověku, neexistuje.",
+    "en": "It was first mentioned by Charles de Lorme, physician to Louis XIII, in connection with a 1619 plague outbreak in Paris. There is no evidence that the beak mask was worn during the Black Death or in the Middle Ages."
+   }
+  },
+  {
+   "id": "T033-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém roce byla Johanka z Arku svatořečena?",
+    "en": "In which year was Joan of Arc canonised?"
+   },
+   "moznosti": {
+    "cs": [
+     "1456",
+     "1803",
+     "1909",
+     "1920"
+    ],
+    "en": [
+     "1456",
+     "1803",
+     "1909",
+     "1920"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Svatořečil ji papež Benedikt XV. roku 1920, blahořečena byla už roku 1909. Upálena byla 30. května 1431 v Rouenu, zhruba v devatenácti letech.",
+    "en": "She was canonised by Pope Benedict XV in 1920, having been beatified in 1909. She was burned at the stake in Rouen on 30 May 1431, aged about nineteen."
+   }
+  },
+  {
+   "id": "T033-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak dlouho podle obvyklého datování trvala stoletá válka?",
+    "en": "By the usual dating, how long did the Hundred Years' War last?"
+   },
+   "moznosti": {
+    "cs": [
+     "99 let",
+     "100 let",
+     "116 let",
+     "135 let"
+    ],
+    "en": [
+     "99 years",
+     "100 years",
+     "116 years",
+     "135 years"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Válka trvala přes 116 let, ale ne nepřetržitě: přerušovala ji dlouhá příměří a třeba i Černá smrt. Za začátek se bere 24. květen 1337 a za konec 19. říjen 1453.",
+    "en": "The war lasted over 116 years but not continuously; it was interrupted by long truces and even by the Black Death. It is dated from 24 May 1337 to 19 October 1453."
+   }
+  },
+  {
+   "id": "T033-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Které křesťanské město vyplenili roku 1204 účastníci čtvrté křížové výpravy?",
+    "en": "Which Christian city did the participants of the Fourth Crusade sack in 1204?"
+   },
+   "moznosti": {
+    "cs": [
+     "Akkon",
+     "Antiochii",
+     "Jeruzalém",
+     "Konstantinopol"
+    ],
+    "en": [
+     "Acre",
+     "Antioch",
+     "Jerusalem",
+     "Constantinople"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Výprava měla původně mířit na Egypt, ale odklonila se k byzantské metropoli, kterou křižáci tři dny drancovali. Událost prohloubila rozkol mezi západní a východní církví.",
+    "en": "The crusade was originally meant to target Egypt but was diverted to the Byzantine capital, which the crusaders plundered for three days. The event deepened the schism between the Western and Eastern churches."
+   }
+  },
+  {
+   "id": "T033-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který francouzský král dal v říjnu 1307 zatknout templáře?",
+    "en": "Which French king had the Knights Templar arrested in October 1307?"
+   },
+   "moznosti": {
+    "cs": [
+     "Karel V. Moudrý",
+     "Filip IV. Sličný",
+     "Filip II. August",
+     "Ludvík IX. Svatý"
+    ],
+    "en": [
+     "Charles V the Wise",
+     "Philip IV the Fair",
+     "Philip II Augustus",
+     "Louis IX (Saint Louis)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Velmistr Jacques de Molay a další templáři byli zatčeni za úsvitu v pátek 13. října 1307. Papež Klement V. pak řád roku 1312 zrušil.",
+    "en": "Grand Master Jacques de Molay and other Templars were arrested at dawn on Friday 13 October 1307. Pope Clement V then dissolved the order in 1312."
+   }
+  }
+ ]
+}

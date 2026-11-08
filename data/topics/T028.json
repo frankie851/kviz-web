@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T028",
+ "nazev": {
+  "cs": "Káva, čaj a čokoláda",
+  "en": "Coffee, Tea and Chocolate"
+ },
+ "kategorie": {
+  "id": "jidlo-a-piti",
+  "nazev": {
+   "cs": "Jídlo a pití",
+   "en": "Food & Drink"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T028-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Zelený, černý i bílý čaj se vyrábějí z listů jediné rostliny, čajovníku. Jaký má vědecký název?",
+    "en": "Green, black and white tea are all made from the leaves of a single plant, the tea plant. What is its scientific name?"
+   },
+   "moznosti": {
+    "cs": [
+     "Matricaria chamomilla",
+     "Ilex paraguariensis",
+     "Camellia sinensis",
+     "Hibiscus sabdariffa"
+    ],
+    "en": [
+     "Matricaria chamomilla",
+     "Ilex paraguariensis",
+     "Camellia sinensis",
+     "Hibiscus sabdariffa"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Za pravý čaj se považuje jen nálev z listů čajovníku čínského. Rozdíly mezi zeleným, bílým a černým čajem vznikají až zpracováním listů.",
+    "en": "Only an infusion of the leaves of Camellia sinensis counts as true tea. The difference between green, white and black tea comes from how the leaves are processed."
+   }
+  },
+  {
+   "id": "T028-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá espresso s malým množstvím mléčné pěny navrchu?",
+    "en": "What is an espresso with just a small amount of milk foam on top called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lungo",
+     "Macchiato",
+     "Ristretto",
+     "Americano"
+    ],
+    "en": [
+     "Lungo",
+     "Macchiato",
+     "Ristretto",
+     "Americano"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Caffè macchiato je espresso s trochou mléka, obvykle napěněného. Italské slovo macchiato znamená „poznačený“ či „skvrnitý“.",
+    "en": "A caffè macchiato is an espresso with a small amount of milk, usually foamed. In Italian, macchiato means \"stained\" or \"spotted\"."
+   }
+  },
+  {
+   "id": "T028-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která čokoláda neobsahuje beztučnou kakaovou sušinu (kakaový prášek), jen kakaové máslo, cukr a mléko?",
+    "en": "Which chocolate contains no non-fat cocoa solids (cocoa powder), only cocoa butter, sugar and milk?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hořká",
+     "Mléčná",
+     "Bílá",
+     "Na vaření"
+    ],
+    "en": [
+     "Dark",
+     "Milk",
+     "White",
+     "Baking"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Bílé čokoládě chybí tmavá beztučná složka kakaa, proto má slonovinovou barvu. Za první komerční bílou čokoládu se obvykle považuje Galak od Nestlé z roku 1936.",
+    "en": "White chocolate lacks the dark non-fat cocoa solids, which is why it is ivory-coloured. Nestlé's Galak bar of 1936 is generally considered the first commercial white chocolate."
+   }
+  },
+  {
+   "id": "T028-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proti čemu protestovali američtí kolonisté, když roku 1773 vysypali čaj do bostonského přístavu?",
+    "en": "What were the American colonists protesting when they dumped tea into Boston Harbor in 1773?"
+   },
+   "moznosti": {
+    "cs": [
+     "Proti povinné vojenské službě",
+     "Proti zákazu pití kávy",
+     "Proti britskému zdanění",
+     "Proti otroctví na plantážích"
+    ],
+    "en": [
+     "Compulsory military service",
+     "A ban on drinking coffee",
+     "British taxation",
+     "Slavery on plantations"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Bostonský čajový dýchánek byl protestem proti čajovému zákonu pod heslem „žádné zdanění bez zastoupení“. Do moře skončil čaj Východoindické společnosti.",
+    "en": "The Boston Tea Party protested the Tea Act under the slogan \"no taxation without representation\". The tea thrown into the sea belonged to the East India Company."
+   }
+  },
+  {
+   "id": "T028-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co je z botanického hlediska kávové „zrno“?",
+    "en": "Botanically speaking, what is a coffee \"bean\"?"
+   },
+   "moznosti": {
+    "cs": [
+     "Semeno z plodu kávovníku",
+     "Usušený květní pupen",
+     "Kousek kořenové hlízy",
+     "Celý drobný plod"
+    ],
+    "en": [
+     "A seed from the coffee plant's fruit",
+     "A dried flower bud",
+     "A piece of root tuber",
+     "A whole small fruit"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kávové zrno je semeno z červené bobule, které se říká kávová třešeň. V plodu bývají dvě semena přiložená plochou stranou k sobě.",
+    "en": "A coffee bean is the seed of a red berry known as the coffee cherry. Each fruit usually holds two seeds lying with their flat sides together."
+   }
+  },
+  {
+   "id": "T028-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Se kterým městem je tradičně spojen slavný čokoládový Sachrův dort (Sachertorte)?",
+    "en": "Which city is the famous chocolate Sachertorte traditionally associated with?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Praze",
+     "Ve Vídni",
+     "V Budapešti",
+     "V Salcburku"
+    ],
+    "en": [
+     "Prague",
+     "Vienna",
+     "Budapest",
+     "Salzburg"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Podle tradice ho roku 1832 ve Vídni vymyslel mladý Franz Sacher pro knížete Metternicha, sám Sacher ale později zmiňoval i Prešpurk (Bratislavu). Hotel Sacher a cukrárna Demel se o název soudily až do roku 1963.",
+    "en": "By tradition the young Franz Sacher created it in Vienna in 1832 for Prince Metternich, though Sacher himself later also mentioned Pressburg (Bratislava). Hotel Sacher and the Demel patisserie fought over the name until 1963."
+   }
+  },
+  {
+   "id": "T028-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím je ochucený černý čaj Earl Grey?",
+    "en": "What is Earl Grey black tea flavoured with?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jasmínovými květy",
+     "Skořicovou kůrou",
+     "Mátovými lístky",
+     "Bergamotovým olejem"
+    ],
+    "en": [
+     "Jasmine flowers",
+     "Cinnamon bark",
+     "Mint leaves",
+     "Bergamot oil"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Earl Grey vzniká přidáním vonného oleje z kůry bergamotu, citrusu velikosti pomeranče. Že byl skutečně pojmenován po druhém hraběti Greyovi, doloženo není.",
+    "en": "Earl Grey gets its flavour from fragrant oil taken from the rind of the bergamot orange, a citrus fruit the size of an orange. That it was really named after the 2nd Earl Grey is not documented."
+   }
+  },
+  {
+   "id": "T028-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co používali Aztékové mimo jiné jako platidlo?",
+    "en": "What did the Aztecs use, among other things, as money?"
+   },
+   "moznosti": {
+    "cs": [
+     "Čajové cihly",
+     "Kakaové boby",
+     "Pepřová zrna",
+     "Kávová zrna"
+    ],
+    "en": [
+     "Tea bricks",
+     "Cocoa beans",
+     "Peppercorns",
+     "Coffee beans"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "V předkolumbovské Mezoamerice sloužily kakaové boby jako peníze. Podle španělského záznamu z roku 1545 stála krůta sto bobů a velké rajče jeden.",
+    "en": "In pre-Columbian Mesoamerica cocoa beans served as money. According to a Spanish record from 1545, a turkey hen cost a hundred beans and a large tomato just one."
+   }
+  },
+  {
+   "id": "T028-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaký čaj se připravuje při tradičním japonském čajovém obřadu?",
+    "en": "What kind of tea is prepared in the traditional Japanese tea ceremony?"
+   },
+   "moznosti": {
+    "cs": [
+     "Práškový zelený čaj matcha",
+     "Jasmínový zelený čaj",
+     "Lisovaný čaj pu-erh",
+     "Kouřový černý čaj"
+    ],
+    "en": [
+     "Powdered green tea, matcha",
+     "Jasmine green tea",
+     "Pressed pu'er tea",
+     "Smoky black tea"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Při obřadu čanoju se matcha šlehá s horkou vodou bambusovou metličkou časen. Ta se vyřezává z jediného kusu bambusu.",
+    "en": "In the chanoyu ceremony, matcha is whisked with hot water using a bamboo whisk called a chasen, carved from a single piece of bamboo."
+   }
+  },
+  {
+   "id": "T028-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která země je největším producentem kávy na světě (k roku 2026)?",
+    "en": "Which country is the world's largest coffee producer (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kolumbie",
+     "Vietnam",
+     "Etiopie",
+     "Brazílie"
+    ],
+    "en": [
+     "Colombia",
+     "Vietnam",
+     "Ethiopia",
+     "Brazil"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Brazílie je největším producentem kávy už zhruba 150 let a sklízí asi třetinu světové úrody (k roku 2026). Na druhém místě je Vietnam.",
+    "en": "Brazil has been the world's largest coffee producer for about 150 years and grows about a third of the world's coffee (as of 2026). Vietnam is second."
+   }
+  },
+  {
+   "id": "T028-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který druh kávy obsahuje zhruba dvakrát víc kofeinu?",
+    "en": "Which type of coffee contains roughly twice as much caffeine?"
+   },
+   "moznosti": {
+    "cs": [
+     "Robusta",
+     "Záleží jen na stupni pražení",
+     "Arabika",
+     "Oba ho mají stejně"
+    ],
+    "en": [
+     "Robusta",
+     "It depends only on the roast level",
+     "Arabica",
+     "Both have the same amount"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Robusta má kolem 2,7 % kofeinu, arabika asi 1,5 %. Do italských espresso směsí se robusta přidává pro plnější tělo a lepší cremu.",
+    "en": "Robusta contains about 2.7% caffeine, arabica about 1.5%. Robusta is added to Italian espresso blends for fuller body and a better crema."
+   }
+  },
+  {
+   "id": "T028-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která látka v čokoládě je jedovatá pro psy?",
+    "en": "Which substance in chocolate is poisonous to dogs?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kakaové máslo",
+     "Vanilin",
+     "Lecitin",
+     "Theobromin"
+    ],
+    "en": [
+     "Cocoa butter",
+     "Vanillin",
+     "Lecithin",
+     "Theobromine"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Psi theobromin odbourávají velmi pomalu, malého psa může otrávit i zhruba 50 g mléčné čokolády. Hořká čokoláda je mnohem nebezpečnější, protože ho obsahuje několikanásobně víc.",
+    "en": "Dogs break down theobromine very slowly, so about 50 g (1.8 oz) of milk chocolate can poison a small dog. Dark chocolate is far more dangerous because it contains several times more of it."
+   }
+  },
+  {
+   "id": "T028-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím se liší „tein“ v čaji od kofeinu v kávě?",
+    "en": "How does \"theine\" in tea differ from caffeine in coffee?"
+   },
+   "moznosti": {
+    "cs": [
+     "Je to jedna a tatáž látka",
+     "Tein na rozdíl od kofeinu nepovzbuzuje",
+     "Tein se v těle nevstřebává",
+     "Tein je slabší obměna kofeinu"
+    ],
+    "en": [
+     "They are one and the same substance",
+     "Unlike caffeine, theine is not a stimulant",
+     "Theine is not absorbed by the body",
+     "Theine is a weaker variant of caffeine"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Tein je jen starší název pro kofein. Rostlinám slouží jako přírodní pesticid, který dokáže ochromit a zabít hmyz, jenž je okusuje.",
+    "en": "Theine is simply an older name for caffeine. In plants it acts as a natural pesticide that can paralyse and kill insects feeding on them."
+   }
+  },
+  {
+   "id": "T028-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který z těchto nápojů NENÍ pravý čaj?",
+    "en": "Which of these drinks is NOT a true tea?"
+   },
+   "moznosti": {
+    "cs": [
+     "Darjeeling",
+     "Rooibos",
+     "Sencha",
+     "Assam"
+    ],
+    "en": [
+     "Darjeeling",
+     "Rooibos",
+     "Sencha",
+     "Assam"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Rooibos se vyrábí z jihoafrického keře Aspalathus linearis z čeledi bobovitých, ne z čajovníku, a proto neobsahuje kofein. Jméno znamená v afrikánštině „červený keř“.",
+    "en": "Rooibos is made from the South African shrub Aspalathus linearis of the legume family, not from the tea plant, so it contains no caffeine. Its name is Afrikaans for \"red bush\"."
+   }
+  },
+  {
+   "id": "T028-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím se v podstatě liší výroba černého čaje od zeleného?",
+    "en": "What is the essential difference between making black tea and green tea?"
+   },
+   "moznosti": {
+    "cs": [
+     "Černý čaj se sklízí až na podzim",
+     "Černý čaj se praží jako káva",
+     "Černý čaj se nechává oxidovat, zelený ne",
+     "Černý čaj se déle suší na slunci"
+    ],
+    "en": [
+     "Black tea is harvested only in autumn",
+     "Black tea is roasted like coffee",
+     "Black tea is allowed to oxidise, green is not",
+     "Black tea is sun-dried for longer"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "U černého čaje se listy nechají zavadnout a plně oxidovat vlastními enzymy, zelený čaj oxidaci uniká. Oolong stojí mezi nimi, je oxidovaný jen částečně.",
+    "en": "For black tea the leaves are withered and fully oxidised by their own enzymes, while green tea is not oxidised. Oolong sits in between, being only partially oxidised."
+   }
+  },
+  {
+   "id": "T028-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Za koho se převlékla část účastníků Bostonského čajového dýchánku?",
+    "en": "Who did some participants in the Boston Tea Party disguise themselves as?"
+   },
+   "moznosti": {
+    "cs": [
+     "Za britské vojáky",
+     "Za piráty",
+     "Za celníky",
+     "Za indiány kmene Mohawků"
+    ],
+    "en": [
+     "British soldiers",
+     "Pirates",
+     "Customs officers",
+     "Mohawk warriors"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Převlek za mohawské bojovníky byl symbolický, měl ukázat, že se cítí Američany. Británie odpověděla roku 1774 uzavřením bostonského přístavu.",
+    "en": "Dressing as Mohawk warriors was symbolic, showing that they identified as Americans. Britain responded in 1774 by closing the port of Boston."
+   }
+  },
+  {
+   "id": "T028-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Podle čeho dostalo jméno cappuccino?",
+    "en": "What is cappuccino named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Podle opice malpy kapucínské",
+     "Podle italského města Capua",
+     "Podle baristy Luigiho Cappucciho",
+     "Podle kapucínských mnichů"
+    ],
+    "en": [
+     "The capuchin monkey",
+     "The Italian town of Capua",
+     "A barista called Luigi Cappucci",
+     "Capuchin friars"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jméno odkazuje na hnědou barvu hábitů kapucínů. Ve Vídni se už dříve pil „Kapuziner“, tmavá káva s několika kapkami smetany.",
+    "en": "The name refers to the brown colour of the Capuchin friars' habits. Vienna earlier had the \"Kapuziner\", a dark coffee with a few drops of cream."
+   }
+  },
+  {
+   "id": "T028-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Naproti které pražské budově stojí kavárna Slavia, oblíbené místo Václava Havla?",
+    "en": "Which Prague building does Café Slavia, a favourite haunt of Václav Havel, stand opposite?"
+   },
+   "moznosti": {
+    "cs": [
+     "Naproti Rudolfinu",
+     "Naproti Obecnímu domu",
+     "Naproti Národnímu divadlu",
+     "Naproti Státní opeře"
+    ],
+    "en": [
+     "The Rudolfinum",
+     "The Municipal House",
+     "The National Theatre",
+     "The State Opera"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Slavia funguje od roku 1884 na nároží Národní třídy a Smetanova nábřeží. Interiér je od přestavby v letech 1931–1932 ve stylu art deco a visí v ní obraz Viktora Olivy Piják absintu.",
+    "en": "Café Slavia has operated since 1884 on the corner of Národní Street and Smetanovo nábřeží. Its interior dates from the Art Deco rebuild of 1931–1932, and it houses Viktor Oliva's painting The Absinthe Drinker."
+   }
+  },
+  {
+   "id": "T028-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které barevné čokoládové dražé se v Česku vyrábělo od roku 1907, dokud Nestlé roku 2021 nepřesunulo výrobu do Hamburku?",
+    "en": "Which colourful sugar-coated chocolate sweets were made in Czechia from 1907 until Nestlé moved production to Hamburg in 2021?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hašlerky",
+     "Kofila",
+     "Lentilky",
+     "Bonpari"
+    ],
+    "en": [
+     "Hašlerky",
+     "Kofila",
+     "Lentilky",
+     "Bonpari"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vyráběly se v Holešově, v továrně pozdějšího Sfinxu, kterou roku 1992 převzalo Nestlé. S přesunem do Hamburku se jejich složení sjednotilo se Smarties.",
+    "en": "They were made in Holešov, at the factory later known as Sfinx, which Nestlé took over in 1992. With the move to Hamburg their recipe was harmonised with Smarties."
+   }
+  },
+  {
+   "id": "T028-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaký tlak vody předepisuje italský standard pro přípravu espressa?",
+    "en": "What water pressure does the Italian standard specify for making espresso?"
+   },
+   "moznosti": {
+    "cs": [
+     "1 bar",
+     "3 bary",
+     "9 barů",
+     "30 barů"
+    ],
+    "en": [
+     "1 bar",
+     "3 bar",
+     "9 bar",
+     "30 bar"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Italský institut pro espresso udává 9 ± 1 bar. Moka konvička dosahuje jen 1–2 barů, a proto se káva z ní za espresso nepovažuje.",
+    "en": "The Italian Espresso National Institute specifies 9 ± 1 bar. A moka pot reaches only 1–2 bar, which is why its coffee is not considered espresso."
+   }
+  },
+  {
+   "id": "T028-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Arabika vznikla přirozeným křížením robusty s jiným druhem kávovníku. S kterým?",
+    "en": "Arabica arose from a natural cross between robusta and another coffee species. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Coffea racemosa",
+     "Coffea stenophylla",
+     "Coffea liberica",
+     "Coffea eugenioides"
+    ],
+    "en": [
+     "Coffea racemosa",
+     "Coffea stenophylla",
+     "Coffea liberica",
+     "Coffea eugenioides"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Arabika je kříženec robusty (Coffea canephora) a druhu Coffea eugenioides, který vznikl zhruba před 1,08 milionu až 543 000 lety. Má proto zdvojenou sadu chromozomů, celkem 44.",
+    "en": "Arabica is a hybrid of robusta (Coffea canephora) and Coffea eugenioides that arose roughly 1.08 million to 543,000 years ago. As a result it has a doubled set of chromosomes, 44 in total."
+   }
+  },
+  {
+   "id": "T028-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kde na kakaovníku rostou květy a plody?",
+    "en": "Where on the cacao tree do the flowers and pods grow?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jen v nejvyšší části koruny",
+     "Jen na koncích mladých výhonů",
+     "V přízemní růžici u kořenů",
+     "Přímo na kmeni a starších větvích"
+    ],
+    "en": [
+     "Only at the very top of the crown",
+     "Only at the tips of young shoots",
+     "In a rosette at ground level by the roots",
+     "Directly on the trunk and older branches"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Tomuto jevu se říká kauliflorie. Drobné květy neopylují včely, ale malé mušky rodu Forcipomyia.",
+    "en": "This trait is called cauliflory. The tiny flowers are pollinated not by bees but by small midges of the genus Forcipomyia."
+   }
+  },
+  {
+   "id": "T028-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč se kakaové máslo používá jako základ čípků?",
+    "en": "Why is cocoa butter used as a base for suppositories?"
+   },
+   "moznosti": {
+    "cs": [
+     "Při pokojové teplotě je pevné, v těle taje",
+     "Samo o sobě tlumí bolest a zánět",
+     "Okamžitě se vstřebá přímo do krve",
+     "Ničí škodlivé bakterie ve střevě"
+    ],
+    "en": [
+     "It is solid at room temperature but melts in the body",
+     "It relieves pain and inflammation on its own",
+     "It is absorbed directly into the blood at once",
+     "It kills harmful bacteria in the gut"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kakaové máslo taje zhruba při 34–38 °C, tedy kolem teploty lidského těla, a to je i důvod, proč se čokoláda rozplývá v ústech. Díky přírodním antioxidantům navíc dlouho nežlukne.",
+    "en": "Cocoa butter melts at about 34–38 °C (93–100 °F), around body temperature, which is also why chocolate melts in the mouth. Its natural antioxidants also keep it from going rancid for a long time."
+   }
+  },
+  {
+   "id": "T028-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč čokolatiéři čokoládu temperují, tedy řízeně ohřívají a ochlazují?",
+    "en": "Why do chocolatiers temper chocolate, heating and cooling it in a controlled way?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aby se zničily bakterie, které zbyly z kvašení bobů",
+     "Aby se z čokoládové hmoty odpařila zbylá voda",
+     "Aby kakaové máslo ztuhlo ve stabilní krystalické formě",
+     "Aby se v ní úplně rozpustily krystalky cukru"
+    ],
+    "en": [
+     "So bacteria left over from bean fermentation are killed",
+     "So any remaining water evaporates from the mass",
+     "So the cocoa butter sets in a stable crystal form",
+     "So the sugar crystals dissolve completely"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kakaové máslo může krystalizovat v šesti formách a jen forma V dává čokoládě lesk a pěkné křupnutí. Netemperovaná čokoláda snadno dostane bělavé skvrny, tzv. tukový výkvět.",
+    "en": "Cocoa butter can crystallise in six forms, and only Form V gives chocolate its gloss and clean snap. Untempered chocolate easily develops whitish patches known as fat bloom."
+   }
+  },
+  {
+   "id": "T028-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co přineslo konšování, dlouhé míchání čokolády ve stroji zvaném conche, které roku 1879 zavedl Rodolphe Lindt?",
+    "en": "What did conching, the long stirring of chocolate in a machine called a conche, introduced by Rodolphe Lindt in 1879, make possible?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hladkou čokoládu, která taje na jazyku",
+     "První plněné pralinky",
+     "Čokoládu, která netaje v tropech",
+     "Kakaový prášek rozpustný ve vodě"
+    ],
+    "en": [
+     "Smooth chocolate that melts on the tongue",
+     "The first filled pralines",
+     "Chocolate that does not melt in the tropics",
+     "Cocoa powder that dissolves in water"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Stroj hodiny až dny zahřívá a promíchává tekutou čokoládu, takže je hladší, lesklejší a voňavější. Jméno conche dostal podle prvních nádob, které tvarem připomínaly mušli (anglicky conch).",
+    "en": "The machine heats and stirs liquid chocolate for hours or even days, making it smoother, glossier and more aromatic. It is named after the early vessels, which resembled conch shells."
+   }
+  },
+  {
+   "id": "T028-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo podle vyprávění dal roku 1819 chemiku Friedliebu Rungemu krabičku kávových zrn ke zkoumání, takže Runge v nich objevil kofein?",
+    "en": "Who, according to the story, gave the chemist Friedlieb Runge a box of coffee beans to study in 1819, leading him to discover caffeine?"
+   },
+   "moznosti": {
+    "cs": [
+     "Alexander von Humboldt",
+     "Johann Wolfgang von Goethe",
+     "Napoleon Bonaparte",
+     "Ludwig van Beethoven"
+    ],
+    "en": [
+     "Alexander von Humboldt",
+     "Johann Wolfgang von Goethe",
+     "Napoleon Bonaparte",
+     "Ludwig van Beethoven"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Runge předtím Goethovi předvedl, jak výtažek z rulíku rozšiřuje zornice. Básník mu pak daroval zrna, která sám dostal od jednoho Řeka jako pochoutku.",
+    "en": "Runge had just shown Goethe how belladonna extract dilates the pupils. The poet then gave him beans that he himself had received from a Greek as a delicacy."
+   }
+  },
+  {
+   "id": "T028-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co podle Ludwiga Roseliuse přivedlo k první průmyslové výrobě kávy bez kofeinu (1903)?",
+    "en": "According to Ludwig Roselius, what led to the first industrial decaffeinated coffee (1903)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zrna, která omylem vyluhoval v alkoholu",
+     "Káva, kterou omylem spražil dvakrát",
+     "Zrna, která přes zimu zmrzla ve skladu",
+     "Zásilka zrn nasáklá mořskou vodou"
+    ],
+    "en": [
+     "Beans he had accidentally steeped in alcohol",
+     "Coffee he had accidentally roasted twice",
+     "Beans that froze in a warehouse over winter",
+     "A shipment of beans soaked in seawater"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Zrna nasáklá mořskou vodou ztratila většinu kofeinu, ale skoro žádnou chuť. Roselius pak kofein vyluhoval benzenem a kávu prodával jako Kaffee HAG, v USA jako Sanka.",
+    "en": "The seawater-soaked beans had lost most of their caffeine but little of their flavour. Roselius went on to extract caffeine with benzene and sold the coffee as Kaffee HAG, known in the US as Sanka."
+   }
+  },
+  {
+   "id": "T028-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak skončil čajový mistr Sen no Rikjú (Sen no Rikyū), který zásadně formoval japonský čajový obřad?",
+    "en": "How did the tea master Sen no Rikyū, who decisively shaped the Japanese tea ceremony, meet his end?"
+   },
+   "moznosti": {
+    "cs": [
+     "Odplul do Číny a už se nevrátil",
+     "Na rozkaz vládce musel spáchat rituální sebevraždu",
+     "Padl v bitvě jako samuraj",
+     "Odešel do kláštera a zemřel v ústraní"
+    ],
+    "en": [
+     "He sailed to China and never returned",
+     "He was ordered by the ruler to commit ritual suicide",
+     "He fell in battle as a samurai",
+     "He retired to a monastery and died in seclusion"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Rikjú byl hlavním čajovým mistrem regenta Tojotomiho Hidejošiho, který mu roku 1591 nařídil spáchat rituální sebevraždu. Jeho styl je spojený s estetikou wabi – prostotou, skromností a střídmostí.",
+    "en": "Rikyū was chief tea master to the regent Toyotomi Hideyoshi, who ordered him to commit ritual suicide in 1591. His style is tied to the wabi aesthetic of simplicity, humility and restraint."
+   }
+  },
+  {
+   "id": "T028-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Švýcar Daniel Peter uvedl roku 1875 na trh první mléčnou čokoládu. S kterým sousedem z Vevey roku 1879 uzavřel partnerství?",
+    "en": "Swiss chocolatier Daniel Peter brought the first milk chocolate to market in 1875. Which neighbour from Vevey did he go into partnership with in 1879?"
+   },
+   "moznosti": {
+    "cs": [
+     "S Jeanem Toblerem",
+     "S Henrim Nestlém",
+     "S Rodolphem Lindtem",
+     "S Philippem Suchardem"
+    ],
+    "en": [
+     "Jean Tobler",
+     "Henri Nestlé",
+     "Rodolphe Lindt",
+     "Philippe Suchard"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Petrovi dělala potíže voda z mléka, kvůli níž čokoláda plesnivěla, a pomohl mu Nestlé, vynálezce postupu zahušťování mléka. Firmy Peter, Cailler a Kohler nakonec roku 1929 skoupilo Nestlé.",
+    "en": "Peter struggled to remove the water from milk, which made the chocolate go mouldy, and Nestlé, inventor of a milk-condensing process, helped him. Nestlé eventually bought the Peter, Cailler and Kohler brands in 1929."
+   }
+  },
+  {
+   "id": "T028-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém městě si Angelo Moriondo roku 1884 patentoval parní stroj na kávu, předchůdce espresso kávovarů?",
+    "en": "In which city did Angelo Moriondo patent a steam-driven coffee machine, a forerunner of espresso machines, in 1884?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Turíně",
+     "V Neapoli",
+     "V Římě",
+     "V Miláně"
+    ],
+    "en": [
+     "Turin",
+     "Naples",
+     "Rome",
+     "Milan"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Moriondův stroj zvlášť řídil přívod páry a vody, ale vařil kávu ve velkém, ne po šálcích. Milánský Luigi Bezzera ho od roku 1901 zdokonaloval a jeho patent koupil Desiderio Pavoni.",
+    "en": "Moriondo's machine controlled steam and water separately but brewed coffee in bulk rather than by the cup. From 1901 Luigi Bezzera of Milan improved the design, and Desiderio Pavoni bought his patent."
+   }
+  }
+ ]
+}

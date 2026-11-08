@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T203",
+ "nazev": {
+  "cs": "První světová válka",
+  "en": "The First World War"
+ },
+ "kategorie": {
+  "id": "historie",
+  "nazev": {
+   "cs": "Historie",
+   "en": "History"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T203-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém městě byl 28. června 1914 zastřelen následník rakousko-uherského trůnu František Ferdinand d'Este?",
+    "en": "In which city was Archduke Franz Ferdinand, heir to the Austro-Hungarian throne, shot dead on 28 June 1914?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Vídni",
+     "V Budapešti",
+     "V Bělehradě",
+     "V Sarajevu"
+    ],
+    "en": [
+     "Vienna",
+     "Budapest",
+     "Belgrade",
+     "Sarajevo"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Arcivévodu a jeho manželku Žofii zastřelil v bosenském Sarajevu student Gavrilo Princip. Atentát rozpoutal červencovou krizi, která přerostla ve světovou válku.",
+    "en": "The archduke and his wife Sophie were shot in Sarajevo, Bosnia, by the student Gavrilo Princip. The assassination set off the July Crisis, which escalated into a world war."
+   }
+  },
+  {
+   "id": "T203-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývalo spojenectví Francie, Spojeného království a Ruska, které ve válce stálo proti Německu a Rakousku-Uhersku?",
+    "en": "What was the name of the alignment of France, the United Kingdom and Russia that fought against Germany and Austria-Hungary in the war?"
+   },
+   "moznosti": {
+    "cs": [
+     "Osa",
+     "Ústřední mocnosti",
+     "Svatá aliance",
+     "Dohoda"
+    ],
+    "en": [
+     "Axis",
+     "Central Powers",
+     "Holy Alliance",
+     "Entente"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Trojdohodu (Triple Entente) tvořily Rusko, Francie a Spojené království. Francouzské entente znamená porozumění – nešlo o formální obrannou alianci.",
+    "en": "The Triple Entente was made up of Russia, France and the United Kingdom. The French word entente means understanding – it was not a formal mutual-defence alliance."
+   }
+  },
+  {
+   "id": "T203-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se první světové válce běžně říkalo, než vypukla druhá světová válka?",
+    "en": "What was the First World War commonly called before the Second World War broke out?"
+   },
+   "moznosti": {
+    "cs": [
+     "Studená válka",
+     "Velká válka",
+     "Dlouhá válka",
+     "Podivná válka"
+    ],
+    "en": [
+     "The Cold War",
+     "The Great War",
+     "The Long War",
+     "The Phoney War"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Před druhou světovou válkou se jí běžně říkalo Velká válka nebo prostě světová válka. Výraz „první světová válka“ ale použil už v září 1914 německý biolog Ernst Haeckel.",
+    "en": "Before the Second World War it was commonly called the Great War, or simply the World War. Yet the German biologist Ernst Haeckel had already used the term 'first world war' in September 1914."
+   }
+  },
+  {
+   "id": "T203-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá způsob boje, který na západní frontě na roky ustrnul v souvislé linii od švýcarských hranic po Severní moře?",
+    "en": "What is the name of the type of warfare that froze the Western Front for years in a continuous line from the Swiss border to the North Sea?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zákopová válka",
+     "Blesková válka",
+     "Pohyblivá válka",
+     "Partyzánská válka"
+    ],
+    "en": [
+     "Trench warfare",
+     "Lightning war (Blitzkrieg)",
+     "Mobile warfare",
+     "Guerrilla warfare"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Po „závodu k moři“ na podzim 1914 se obě strany zakopaly a fronta se až do německé jarní ofenzivy v březnu 1918 téměř nepohnula. Válka se změnila ve vyčerpávací.",
+    "en": "After the 'race to the sea' in autumn 1914 both sides dug in, and the front barely moved until the German Spring Offensive of March 1918. It became a war of attrition."
+   }
+  },
+  {
+   "id": "T203-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazýval pás území mezi frontovými liniemi znepřátelených armád, který nekontrolovala žádná strana?",
+    "en": "What was the strip of ground between the front lines of opposing armies, controlled by neither side, called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Spálená země",
+     "Země nikoho",
+     "Nárazníkové pásmo",
+     "Mrtvá zóna"
+    ],
+    "en": [
+     "Scorched earth",
+     "No man's land",
+     "Buffer zone",
+     "Dead zone"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Země nikoho byla rozrytá krátery a zatarasená ostnatým drátem; přejít ji pod palbou bylo nesmírně nebezpečné.",
+    "en": "No man's land was cratered and strung with barbed wire, and crossing it under fire was extremely dangerous."
+   }
+  },
+  {
+   "id": "T203-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím proslul německý „Rudý baron“ Manfred von Richthofen?",
+    "en": "What was Germany's 'Red Baron', Manfred von Richthofen, famous as?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jako špion v Paříži",
+     "Jako velitel ponorky",
+     "Jako generál jezdectva",
+     "Jako stíhací pilot"
+    ],
+    "en": [
+     "A spy in Paris",
+     "A submarine commander",
+     "A cavalry general",
+     "A fighter pilot"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Richthofen měl na kontě 80 uznaných sestřelů, nejvíc ze všech pilotů války. Přezdívku získal díky červeně natřeným letounům a šlechtickému titulu Freiherr (baron).",
+    "en": "Richthofen was credited with 80 aerial victories, more than any other pilot of the war. He got his nickname from his red-painted aircraft and his title Freiherr (baron)."
+   }
+  },
+  {
+   "id": "T203-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co se o Vánocích 1914 odehrálo na mnoha místech západní fronty?",
+    "en": "What happened at many places along the Western Front at Christmas 1914?"
+   },
+   "moznosti": {
+    "cs": [
+     "Oficiální mírová jednání vlád",
+     "Rozsáhlá společná ofenziva spojenců",
+     "Výměna všech válečných zajatců",
+     "Neoficiální příměří mezi vojáky"
+    ],
+    "en": [
+     "Official peace talks between governments",
+     "A major joint Allied offensive",
+     "An exchange of all prisoners of war",
+     "An unofficial truce among the troops"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vojáci si zpívali koledy, vyměňovali jídlo a tabák a pohřbívali padlé; podle některých svědectví si i zakopali fotbal. Příměří nikdo nenařídil – vlády výzvu papeže Benedikta XV. odmítly.",
+    "en": "Soldiers sang carols, swapped food and tobacco and buried their dead; some accounts even describe football games. Nobody ordered the truce – governments had rejected Pope Benedict XV's appeal for one."
+   }
+  },
+  {
+   "id": "T203-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Příměří ukončilo boje 11. listopadu 1918. V kolik hodin (pařížského času) vstoupilo v platnost?",
+    "en": "The armistice ended the fighting on 11 November 1918. At what time (Paris time) did it come into effect?"
+   },
+   "moznosti": {
+    "cs": [
+     "V 0:00",
+     "V 6:00",
+     "V 11:00",
+     "V 12:00"
+    ],
+    "en": [
+     "0:00",
+     "6:00",
+     "11:00",
+     "12:00"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Příměří bylo podepsáno už kolem páté ráno, ale platit začala v 11 hodin – „jedenáctou hodinu jedenáctého dne jedenáctého měsíce“ dodnes připomínají pietní akce.",
+    "en": "The agreement was signed around 5 a.m. but took effect at 11 a.m. – 'the eleventh hour of the eleventh day of the eleventh month' is still marked by remembrance ceremonies."
+   }
+  },
+  {
+   "id": "T203-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které zemi vyhlásilo Rakousko-Uhersko 28. července 1914 válku, přesně měsíc po atentátu na Františka Ferdinanda?",
+    "en": "Which country did Austria-Hungary declare war on on 28 July 1914, exactly one month after the assassination of Franz Ferdinand?"
+   },
+   "moznosti": {
+    "cs": [
+     "Srbsku",
+     "Itálii",
+     "Rusku",
+     "Černé Hoře"
+    ],
+    "en": [
+     "Serbia",
+     "Italy",
+     "Russia",
+     "Montenegro"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vídeň vinila z atentátu Srbsko. Vyhlášení války spustilo řetěz spojeneckých závazků: Rusko mobilizovalo, Německo vyhlásilo válku Rusku a Francii a do týdne válčila většina Evropy.",
+    "en": "Vienna blamed Serbia for the assassination. The declaration triggered a chain of alliance commitments: Russia mobilised, Germany declared war on Russia and France, and within a week most of Europe was at war."
+   }
+  },
+  {
+   "id": "T203-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo napsal protiválečný román Na západní frontě klid (Im Westen nichts Neues)?",
+    "en": "Who wrote the anti-war novel All Quiet on the Western Front (Im Westen nichts Neues)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Erich Maria Remarque",
+     "Ernst Jünger",
+     "Thomas Mann",
+     "Ernest Hemingway"
+    ],
+    "en": [
+     "Erich Maria Remarque",
+     "Ernst Jünger",
+     "Thomas Mann",
+     "Ernest Hemingway"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Německý veterán Remarque román vydal v letech 1928–1929. Nacisté knihu zakázali a v roce 1933 patřila k prvním, které veřejně pálili.",
+    "en": "The German veteran Remarque published the novel in 1928–1929. The Nazis banned it, and in 1933 it was among the first books they publicly burned."
+   }
+  },
+  {
+   "id": "T203-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který český zámek koupil roku 1887 František Ferdinand d'Este a stal se jeho oblíbeným sídlem?",
+    "en": "Which Czech castle did Franz Ferdinand buy in 1887, making it his favourite residence?"
+   },
+   "moznosti": {
+    "cs": [
+     "Karlštejn",
+     "Lány",
+     "Konopiště",
+     "Hluboká"
+    ],
+    "en": [
+     "Karlštejn",
+     "Lány",
+     "Konopiště",
+     "Hluboká"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vášnivý lovec dal Konopiště přestavět a dával mu přednost i před vídeňským Belvederem. Zámek dnes ukazuje jeho obrovskou sbírku loveckých trofejí a zbraní.",
+    "en": "A passionate hunter, he had Konopiště rebuilt and preferred it even to the Belvedere in Vienna. Today the castle displays his huge collection of hunting trophies and weapons."
+   }
+  },
+  {
+   "id": "T203-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Vpád do které země, jejíž neutralitu zaručovala smlouva z roku 1839, byl hlavním oficiálním důvodem, proč Spojené království 4. srpna 1914 vyhlásilo Německu válku?",
+    "en": "The invasion of which country, whose neutrality was guaranteed by an 1839 treaty, was the main official reason why the United Kingdom declared war on Germany on 4 August 1914?"
+   },
+   "moznosti": {
+    "cs": [
+     "Švýcarska",
+     "Belgie",
+     "Nizozemska",
+     "Dánska"
+    ],
+    "en": [
+     "Switzerland",
+     "Belgium",
+     "The Netherlands",
+     "Denmark"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Německý plán počítal s obchvatem Francie přes Belgii. Kancléř Bethmann Hollweg prý londýnskou smlouvu z roku 1839 odbyl jako „cár papíru“.",
+    "en": "Germany's plan was to outflank France through Belgium. Chancellor Bethmann Hollweg reportedly dismissed the 1839 Treaty of London as a 'scrap of paper'."
+   }
+  },
+  {
+   "id": "T203-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím podle slavné historky nechal pařížský vojenský guvernér Gallieni v září 1914 dopravit posily k řece Marně?",
+    "en": "According to a famous story, how did the military governor of Paris, Gallieni, get reinforcements to the River Marne in September 1914?"
+   },
+   "moznosti": {
+    "cs": [
+     "Poštovními dostavníky",
+     "Vzducholoděmi",
+     "Pařížskými taxíky",
+     "Říčními parníky"
+    ],
+    "en": [
+     "By mail coach",
+     "By airship",
+     "By Paris taxis",
+     "By river steamer"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Asi 600 taxíků svezlo vojáky zhruba 50 km k frontě a státní pokladna pak zaplatila jízdné přes 70 000 franků. Historici jejich vojenský význam zpochybňují, ale morálku Francouzů nesporně posílily.",
+    "en": "About 600 taxis carried soldiers some 50 km (31 mi) to the front, and the treasury later paid a fare of over 70,000 francs. Historians question their military value, but their boost to French morale was undeniable."
+   }
+  },
+  {
+   "id": "T203-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která bitva roku 1916 trvala 302 dní a stala se nejdelší bitvou první světové války?",
+    "en": "Which 1916 battle lasted 302 days and became the longest battle of the First World War?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bitva u Jutska",
+     "Bitva u Verdunu",
+     "Bitva na Sommě",
+     "Brusilovova ofenziva"
+    ],
+    "en": [
+     "Battle of Jutland",
+     "Battle of Verdun",
+     "Battle of the Somme",
+     "Brusilov Offensive"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "U Verdunu se bojovalo od února do prosince 1916 a ztráty obou stran (padlí, ranění, zajatí) přesáhly dohromady 700 000 mužů. Francouzi z obrany města udělali symbol – generál Nivelle vojákům vzkázal: „Nepustíte je dál!“",
+    "en": "Verdun was fought from February to December 1916, and combined casualties on both sides exceeded 700,000. The French made the city's defence a symbol – General Nivelle told his troops: 'You will not let them pass!'"
+   }
+  },
+  {
+   "id": "T203-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve které bitvě v září 1916 poprvé zasáhly do boje tanky?",
+    "en": "In which battle did tanks first go into action, in September 1916?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Sommě",
+     "U Cambrai",
+     "U Verdunu",
+     "U Arrasu"
+    ],
+    "en": [
+     "The Somme",
+     "Cambrai",
+     "Verdun",
+     "Arras"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Britové nasadili tanky 15. září 1916 u Flers-Courcelette, v rámci bitvy na Sommě. Šlo o tanky Mark I a z těch, které zaútočily, se přes území mezi liniemi dostala jen zhruba třetina.",
+    "en": "The British sent tanks into battle on 15 September 1916 at Flers-Courcelette, part of the Battle of the Somme. They were Mark I tanks, and of those that attacked, only about a third made it across the ground between the lines."
+   }
+  },
+  {
+   "id": "T203-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kde Němci 22. dubna 1915 poprvé na západní frontě hromadně použili otravný plyn (chlór)?",
+    "en": "Where did the Germans first use poison gas (chlorine) on a mass scale on the Western Front, on 22 April 1915?"
+   },
+   "moznosti": {
+    "cs": [
+     "U Yper",
+     "U Lutychu",
+     "Na Sommě",
+     "U Verdunu"
+    ],
+    "en": [
+     "Ypres",
+     "Liège",
+     "The Somme",
+     "Verdun"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Útok chlórem přišel ve druhé bitvě u Yper. U stejného města byl v roce 1917 poprvé použit i hořčičný plyn, který Francouzi podle Yper pojmenovali yperit.",
+    "en": "The chlorine attack came at the Second Battle of Ypres. Mustard gas was also first used near the same town in 1917, and the French named it yperite after Ypres."
+   }
+  },
+  {
+   "id": "T203-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém roce vyhlásily Spojené státy válku Německu?",
+    "en": "In which year did the United States declare war on Germany?"
+   },
+   "moznosti": {
+    "cs": [
+     "1915",
+     "1916",
+     "1917",
+     "1918"
+    ],
+    "en": [
+     "1915",
+     "1916",
+     "1917",
+     "1918"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kongres válku schválil 6. dubna 1917 po obnovení neomezené ponorkové války a odhalení Zimmermannova telegramu. Rakousku-Uhersku USA vyhlásily válku až v prosinci 1917.",
+    "en": "Congress declared war on 6 April 1917 after Germany resumed unrestricted submarine warfare and the Zimmermann Telegram was revealed. The US only declared war on Austria-Hungary in December 1917."
+   }
+  },
+  {
+   "id": "T203-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který britský politik jako první lord admirality prosazoval útok na Dardanely a neúspěch tažení na Gallipoli (1915) mu výrazně poškodil pověst?",
+    "en": "Which British politician, as First Lord of the Admiralty, championed the attack on the Dardanelles, with the failure of the Gallipoli campaign (1915) badly damaging his reputation?"
+   },
+   "moznosti": {
+    "cs": [
+     "Winston Churchill",
+     "Herbert Asquith",
+     "David Lloyd George",
+     "Neville Chamberlain"
+    ],
+    "en": [
+     "Winston Churchill",
+     "Herbert Asquith",
+     "David Lloyd George",
+     "Neville Chamberlain"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Churchill navrhl námořní útok už v listopadu 1914. Na osmanské straně se u Gallipoli proslavil Mustafa Kemal, pozdější zakladatel moderního Turecka.",
+    "en": "Churchill proposed the naval attack as early as November 1914. On the Ottoman side, Gallipoli made the name of Mustafa Kemal, later the founder of modern Turkey."
+   }
+  },
+  {
+   "id": "T203-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve které bitvě se v červenci 1917 proslavila Československá střelecká brigáda bojující v ruské armádě?",
+    "en": "In which battle did the Czechoslovak Rifle Brigade, fighting in the Russian army, win fame in July 1917?"
+   },
+   "moznosti": {
+    "cs": [
+     "U Bachmače",
+     "U Doss Alto",
+     "U Terronu",
+     "U Zborova"
+    ],
+    "en": [
+     "Bakhmach",
+     "Doss Alto",
+     "Terron",
+     "Zborov"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Asi 3 500 legionářů 2. července 1917 prorazilo rakousko-uherské linie. Na průběh ofenzivy měl úspěch malý vliv, politicky byl ale klíčový: Rusko pak povolilo rozšířit československé jednotky.",
+    "en": "About 3,500 legionaries broke through the Austro-Hungarian lines on 2 July 1917. The success hardly affected the offensive, but it was politically vital: Russia then allowed the Czechoslovak units to expand."
+   }
+  },
+  {
+   "id": "T203-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kde bylo 11. listopadu 1918 podepsáno příměří, které ukončilo boje na západní frontě?",
+    "en": "Where was the armistice that ended the fighting on the Western Front signed on 11 November 1918?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Elysejském paláci v Paříži",
+     "V Zrcadlovém sále zámku ve Versailles",
+     "Na britské bitevní lodi v Lamanšském průlivu",
+     "V železničním vagonu v lese u Compiègne"
+    ],
+    "en": [
+     "In the Élysée Palace in Paris",
+     "In the Hall of Mirrors at Versailles",
+     "On a British battleship in the English Channel",
+     "In a railway carriage in the forest near Compiègne"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Za spojence podepsali v salonním vagonu maršál Foch a britský admirál Wemyss. Hitler si v červnu 1940 vynutil, aby Francie podepsala kapitulační příměří ve stejném voze.",
+    "en": "Marshal Foch and the British Admiral Wemyss signed for the Allies in a railway saloon car. In June 1940 Hitler insisted that France sign its own armistice in the very same carriage."
+   }
+  },
+  {
+   "id": "T203-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kde zemřel atentátník Gavrilo Princip v dubnu 1918?",
+    "en": "Where did the assassin Gavrilo Princip die in April 1918?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Vídni",
+     "V Bělehradě",
+     "V Sarajevu",
+     "V Terezíně"
+    ],
+    "en": [
+     "Vienna",
+     "Belgrade",
+     "Sarajevo",
+     "Terezín"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Princip nemohl být popraven, protože mu v době činu chybělo 27 dní do 20 let. Dostal 20 let žaláře, byl vězněn v Malé pevnosti v Terezíně a zemřel tam na tuberkulózu.",
+    "en": "Princip could not be executed because he was 27 days short of turning 20 at the time of the crime. He was sentenced to 20 years, held in the Small Fortress at Terezín (Theresienstadt) and died there of tuberculosis."
+   }
+  },
+  {
+   "id": "T203-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který chemik, pozdější nositel Nobelovy ceny za syntézu amoniaku, navrhl použít chlór a byl osobně přítomen prvnímu velkému útoku chlórem v dubnu 1915?",
+    "en": "Which chemist, later awarded the Nobel Prize for synthesising ammonia, proposed using chlorine and was personally present at the first large-scale chlorine attack in April 1915?"
+   },
+   "moznosti": {
+    "cs": [
+     "Walther Nernst",
+     "Fritz Haber",
+     "Paul Ehrlich",
+     "Otto Hahn"
+    ],
+    "en": [
+     "Walther Nernst",
+     "Fritz Haber",
+     "Paul Ehrlich",
+     "Otto Hahn"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Haber dostal Nobelovu cenu za rok 1918 za syntézu amoniaku ze vzdušného dusíku, základ výroby hnojiv. Zároveň je označován za „otce chemické války“.",
+    "en": "Haber received the 1918 Nobel Prize for synthesising ammonia from atmospheric nitrogen, the basis of fertiliser production. He is also called the 'father of chemical warfare'."
+   }
+  },
+  {
+   "id": "T203-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik obětí (padlých, raněných a zajatých) utrpěla britská armáda za první den bitvy na Sommě, 1. července 1916?",
+    "en": "How many casualties (killed, wounded and captured) did the British Army suffer on the first day of the Battle of the Somme, 1 July 1916?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 6 000",
+     "Asi 20 000",
+     "Asi 57 000",
+     "Asi 120 000"
+    ],
+    "en": [
+     "About 6,000",
+     "About 20,000",
+     "About 57,000",
+     "About 120,000"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ztráty dosáhly 57 470 mužů, z toho 19 240 padlých. Obrovské oběti za nepatrné územní zisky jsou v Británii dodnes zdrojem smutku a sporů.",
+    "en": "Casualties reached 57,470, of whom 19,240 were killed. The huge losses for meagre gains remain a source of grief and controversy in Britain."
+   }
+  },
+  {
+   "id": "T203-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik bitev svedly v letech 1915–1917 Itálie a Rakousko-Uhersko na řece Soči (Isonzo)?",
+    "en": "How many battles did Italy and Austria-Hungary fight on the Soča (Isonzo) River between 1915 and 1917?"
+   },
+   "moznosti": {
+    "cs": [
+     "3",
+     "6",
+     "12",
+     "20"
+    ],
+    "en": [
+     "3",
+     "6",
+     "12",
+     "20"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Dvanáct bitev na soční frontě (Soča je slovinský název řeky Isonzo) zakončila v říjnu a listopadu 1917 bitva u Caporetta (Kobaridu), kterou vyhrály Rakousko-Uhersko a Německo.",
+    "en": "The twelve battles of the Isonzo front (Soča is the Slovene name of the river) ended in October–November 1917 with the Battle of Caporetto (Kobarid), won by Austria-Hungary and Germany."
+   }
+  },
+  {
+   "id": "T203-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co padlo legionářům a jejich spojencům do rukou při dobytí Kazaně v srpnu 1918?",
+    "en": "What fell into the hands of the legionaries and their allies when they captured Kazan in August 1918?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ruský carský zlatý poklad",
+     "Jantarová komnata",
+     "Leninův osobní archiv",
+     "Car Mikuláš II. s rodinou"
+    ],
+    "en": [
+     "The Russian imperial gold reserve",
+     "The Amber Room",
+     "Lenin's personal archive",
+     "Tsar Nicholas II and his family"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Zlato pak vezly vlaky admirála Kolčaka. V únoru 1920 se legionáři zavázali nechat zbývající zlato v Irkutsku a za to dostali volnou cestu do Vladivostoku, odkud odpluli domů.",
+    "en": "The gold was then carried on Admiral Kolchak's trains. In February 1920 the legionaries agreed to leave the remaining gold in Irkutsk in exchange for free passage to Vladivostok, from where they sailed home."
+   }
+  },
+  {
+   "id": "T203-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na které univerzitě zahájil exilový Masaryk roku 1915 novou školu slovanských studií a stal se tam profesorem?",
+    "en": "At which university did the exiled Masaryk inaugurate a new school of Slavonic studies in 1915, also becoming a professor there?"
+   },
+   "moznosti": {
+    "cs": [
+     "Harvardova univerzita",
+     "King's College London",
+     "Sorbonna v Paříži",
+     "Univerzita v Ženevě"
+    ],
+    "en": [
+     "Harvard University",
+     "King's College London",
+     "The Sorbonne in Paris",
+     "University of Geneva"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Školu založil v roce 1915 britský historik Robert Seton-Watson jako součást King's College London. Dnes je to School of Slavonic and East European Studies při University College London.",
+    "en": "The school was founded in 1915 by the British historian Robert Seton-Watson as part of King's College London. Today it is UCL's School of Slavonic and East European Studies."
+   }
+  },
+  {
+   "id": "T203-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Brestlitevský mír z 3. března 1918 ukončil válku Německa a jeho spojenců s bolševickým Ruskem. Co díky němu mohlo Německo udělat?",
+    "en": "The Treaty of Brest-Litovsk of 3 March 1918 ended the war between Bolshevik Russia and Germany and its allies. What did it allow Germany to do?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přesunout statisíce vojáků na západní frontu",
+     "Obsadit Petrohrad a dosadit nového cara",
+     "Získat zpět své kolonie v Africe",
+     "Uzavřít separátní mír s Francií"
+    ],
+    "en": [
+     "Move hundreds of thousands of troops to the Western Front",
+     "Occupy Petrograd and install a new tsar",
+     "Win back its colonies in Africa",
+     "Make a separate peace with France"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Zkušené divize z východu posílily jarní ofenzivu roku 1918, která západní spojence šokovala, ale nakonec selhala. Rusko jím přišlo o rozsáhlá území na západě říše.",
+    "en": "Veteran divisions from the east reinforced the 1918 Spring Offensive, which shocked the Allies but ultimately failed. Russia lost vast territories in the west of its former empire."
+   }
+  },
+  {
+   "id": "T203-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na kolik mužů omezila Versailleská smlouva německou armádu?",
+    "en": "To how many men did the Treaty of Versailles limit the German army?"
+   },
+   "moznosti": {
+    "cs": [
+     "10 000",
+     "100 000",
+     "500 000",
+     "1 000 000"
+    ],
+    "en": [
+     "10,000",
+     "100,000",
+     "500,000",
+     "1,000,000"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Německo muselo zrušit brannou povinnost a generální štáb a nesmělo mít letectvo ani ponorky. Článek 231 navíc přiřkl Německu a jeho spojencům odpovědnost za válečné škody.",
+    "en": "Germany had to abolish conscription and its General Staff and was banned from having an air force or submarines. Article 231 also held Germany and its allies responsible for the war's losses."
+   }
+  },
+  {
+   "id": "T203-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaroslav Hašek padl v roce 1915 do ruského zajetí a vstoupil do československých legií. Co udělal v dubnu 1918?",
+    "en": "Jaroslav Hašek was captured by the Russians in 1915 and joined the Czechoslovak Legion. What did he do in April 1918?"
+   },
+   "moznosti": {
+    "cs": [
+     "Utekl přes Sibiř do Ameriky",
+     "Odplul s legionáři do Francie",
+     "Přešel k Rudé armádě",
+     "Vrátil se do rakousko-uherské armády"
+    ],
+    "en": [
+     "He fled across Siberia to America",
+     "He sailed to France with the legionaries",
+     "He joined the Red Army",
+     "He returned to the Austro-Hungarian army"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Autor Švejka spolupracoval s bolševiky a koncem roku 1918 byl zástupcem vojenského velitele okresu Bugulma. Do Prahy se vrátil až v prosinci 1920 s ruskou manželkou Šurou.",
+    "en": "The author of Švejk worked with the Bolsheviks and in late 1918 was deputy military commander of the Bugulma district. He only returned to Prague in December 1920, with his Russian wife Shura."
+   }
+  },
+  {
+   "id": "T203-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Po kom dostal jméno obří německá obléhací houfnice „Tlustá Berta“ (Dicke Berta), která v roce 1914 rozstřílela nepřátelské pevnosti?",
+    "en": "Who was the giant German howitzer 'Big Bertha' (Dicke Berta), which smashed enemy forts in 1914, named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Po manželce císaře Viléma II.",
+     "Po Bertě Benzové, průkopnici automobilismu",
+     "Po Bertě von Suttnerové, nositelce Nobelovy ceny míru",
+     "Po Bertě Kruppové, majitelce zbrojovky"
+    ],
+    "en": [
+     "Kaiser Wilhelm II's wife",
+     "Bertha Benz, motoring pioneer",
+     "Bertha von Suttner, Nobel Peace Prize laureate",
+     "Bertha Krupp, owner of the arms works"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Houfnici vyrobila firma Krupp z Essenu, kterou Bertha zdědila po otci. Tlustá Berta se často plete s Pařížským dělem, železničním dělem, které v roce 1918 ostřelovalo Paříž.",
+    "en": "The howitzer was built by the Krupp works in Essen, which Bertha had inherited from her father. Big Bertha is often confused with the Paris Gun, a railway gun that shelled Paris in 1918."
+   }
+  }
+ ]
+}

@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T352",
+ "nazev": {
+  "cs": "Deštné pralesy: život v korunách stromů",
+  "en": "Rainforests: Life in the Canopy"
+ },
+ "kategorie": {
+  "id": "priroda-a-zvirata",
+  "nazev": {
+   "cs": "Příroda a zvířata",
+   "en": "Nature & Animals"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T352-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který tropický deštný prales je největší na světě?",
+    "en": "Which tropical rainforest is the largest in the world?"
+   },
+   "moznosti": {
+    "cs": [
+     "Amazonský",
+     "Konžský",
+     "Bornejský",
+     "Novoguinejský"
+    ],
+    "en": [
+     "The Amazon",
+     "The Congo",
+     "Borneo's",
+     "New Guinea's"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Odhaduje se, že Amazonský prales pokrývá 5,5–6 milionů km². Je zároveň druhově nejbohatším tropickým pralesem světa.",
+    "en": "The Amazon rainforest is estimated to cover 5.5–6 million km² (2.1–2.3 million sq mi). It is also the most biodiverse tract of tropical rainforest on Earth."
+   }
+  },
+  {
+   "id": "T352-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který savec z pralesů Střední a Jižní Ameriky tráví většinu života zavěšený hlavou dolů ve větvích a pohybuje se velmi pomalu?",
+    "en": "Which mammal of the Central and South American rainforests spends most of its life hanging upside down in the branches and moves very slowly?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lenochod",
+     "Pásovec",
+     "Kapybara",
+     "Mravenečník"
+    ],
+    "en": [
+     "Sloth",
+     "Armadillo",
+     "Capybara",
+     "Anteater"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Lenochodi se živí hlavně listím, které dává jen málo energie, a mají velmi pomalý metabolismus – proto šetří každým pohybem. Trávení jednoho jídla jim může trvat měsíc i déle.",
+    "en": "Sloths live mainly on leaves, which provide very little energy, and have a very low metabolic rate, so they save every movement. Digesting a meal can take them a month or more."
+   }
+  },
+  {
+   "id": "T352-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který pták z tropických pralesů Střední a Jižní Ameriky je známý obrovským, pestře zbarveným zobákem?",
+    "en": "Which bird of the Central and South American rainforests is known for its huge, brightly coloured bill?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hoacin",
+     "Tukan",
+     "Zoborožec",
+     "Kolibřík"
+    ],
+    "en": [
+     "Hoatzin",
+     "Toucan",
+     "Hornbill",
+     "Hummingbird"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Tukani žijí od jižního Mexika po Jižní Ameriku. Jejich zobák je navzdory velikosti velmi lehký. Hnízdí v dutinách stromů a živí se hlavně ovocem.",
+    "en": "Toucans live from southern Mexico to South America. Despite their size, their bills are very light. They nest in tree cavities and feed mainly on fruit."
+   }
+  },
+  {
+   "id": "T352-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Okapi má na nohou pruhy jako zebra. Které zvíře je ale jeho nejbližším žijícím příbuzným?",
+    "en": "The okapi has zebra-like stripes on its legs. But which animal is its closest living relative?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tapír",
+     "Žirafa",
+     "Hroch",
+     "Kůň"
+    ],
+    "en": [
+     "Tapir",
+     "Giraffe",
+     "Hippo",
+     "Horse"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Okapi a žirafa jsou jediní žijící zástupci čeledi žirafovitých. Okapi žije jen v pralesích Demokratické republiky Kongo a věda ho formálně popsala až v roce 1901.",
+    "en": "The okapi and the giraffe are the only living members of the family Giraffidae. The okapi lives only in the rainforests of the Democratic Republic of the Congo and was formally described by science as late as 1901."
+   }
+  },
+  {
+   "id": "T352-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaké je počasí v tropickém deštném pralese během roku?",
+    "en": "What is the weather like in a tropical rainforest over the course of a year?"
+   },
+   "moznosti": {
+    "cs": [
+     "Půl roku sucho, půl roku sníh",
+     "Horké léto a mrazivá zima",
+     "Teplo a vlhko po celý rok",
+     "Chladno a sucho po celý rok"
+    ],
+    "en": [
+     "Half a year of drought, half a year of snow",
+     "Hot summers and freezing winters",
+     "Warm and wet all year round",
+     "Cool and dry all year round"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "V tropickém deštném pralese je teplo po celý rok – průměrná teplota každého měsíce přesahuje 18 °C – a prší ve všech měsících, takže výrazná roční období chybějí.",
+    "en": "In a tropical rainforest it is warm all year – the mean temperature of every month is above 18 °C (64 °F) – and it rains in every month, so there are no marked seasons."
+   }
+  },
+  {
+   "id": "T352-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývají dřevnaté popínavé rostliny, které zakořeňují v zemi a šplhají po kmenech stromů vzhůru ke světlu?",
+    "en": "What are the woody climbing plants called that root in the ground and climb up tree trunks towards the light?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lišejníky",
+     "Kapradiny",
+     "Mechy",
+     "Liány"
+    ],
+    "en": [
+     "Lichens",
+     "Ferns",
+     "Mosses",
+     "Lianas"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Liány jsou typické pro tropické vlhké lesy. V korunách vytvářejí „mosty“, po kterých se mezi stromy přesouvají opice i lenochodi; jedna liána rodu Bauhinia v Surinamu dosáhla délky asi 600 m.",
+    "en": "Lianas are characteristic of tropical moist forests. In the canopy they form 'bridges' that monkeys and sloths use to move between trees; one Bauhinia liana in Suriname reached a length of about 600 m (2,000 ft)."
+   }
+  },
+  {
+   "id": "T352-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Z čeho se získává přírodní kaučuk?",
+    "en": "What is natural rubber obtained from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z pryskyřice tropických borovic",
+     "Z lisovaných semen palmy olejné",
+     "Z mléčné šťávy kaučukovníku",
+     "Z kůry korkového dubu"
+    ],
+    "en": [
+     "The resin of tropical pines",
+     "Pressed oil palm seeds",
+     "The milky sap of the rubber tree",
+     "The bark of the cork oak"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Latex se získává naříznutím kůry kaučukovníku brazilského (Hevea brasiliensis) a stéká do malých nádobek. Strom pochází z Amazonie, ale dnes je většina plantáží v jižní a jihovýchodní Asii.",
+    "en": "Latex is collected by cutting into the bark of the rubber tree (Hevea brasiliensis) and flows into small buckets. The tree comes from the Amazon, but most plantations today are in South and Southeast Asia."
+   }
+  },
+  {
+   "id": "T352-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na kterém kontinentu leží povodí řeky Kongo s rozsáhlým tropickým deštným pralesem?",
+    "en": "On which continent is the Congo Basin, home to a vast tropical rainforest?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Austrálii",
+     "V Jižní Americe",
+     "V Asii",
+     "V Africe"
+    ],
+    "en": [
+     "Australia",
+     "South America",
+     "Asia",
+     "Africa"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Konžský prales je největším deštným pralesem Afriky. Žijí v něm okapi, sloni pralesní i gorily západní nížinné.",
+    "en": "The Congo rainforest is the largest rainforest in Africa. It is home to okapis, forest elephants and western lowland gorillas."
+   }
+  },
+  {
+   "id": "T352-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Pěstování které plodiny je spojováno s rozsáhlým kácením pralesů na Borneu?",
+    "en": "The growing of which crop is linked to large-scale clearing of the rainforests of Borneo?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vinné révy",
+     "Čajovníku",
+     "Kávovníku",
+     "Palmy olejné"
+    ],
+    "en": [
+     "Grapevine",
+     "Tea",
+     "Coffee",
+     "Oil palm"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Plantáže palmy olejné se rozšiřují do posledních zbytků původního pralesa. Na Borneu se kácí v průmyslovém měřítku od 60. let 20. století a orangutan bornejský je od roku 2016 kriticky ohrožený (k roku 2026).",
+    "en": "Oil palm plantations are spreading into the last remnants of primary rainforest. Borneo has been logged on an industrial scale since the 1960s, and the Bornean orangutan has been critically endangered since 2016 (as of 2026)."
+   }
+  },
+  {
+   "id": "T352-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kde ve volné přírodě roste raflézie (Rafflesia), parazitická rostlina s obřími květy páchnoucími po zdechlině?",
+    "en": "Where does Rafflesia, a parasitic plant with giant flowers that smell of rotting flesh, grow in the wild?"
+   },
+   "moznosti": {
+    "cs": [
+     "V jihovýchodní Asii",
+     "V povodí Konga",
+     "V Amazonii",
+     "Na Madagaskaru"
+    ],
+    "en": [
+     "Southeast Asia",
+     "The Congo Basin",
+     "The Amazon",
+     "Madagascar"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Všechny druhy raflézie rostou v jihovýchodní Asii – například na Borneu, Sumatře, Jávě, Malajském poloostrově a na Filipínách. Druh Rafflesia arnoldii má největší jednotlivý květ ze všech kvetoucích rostlin (přinejmenším hmotností): přes 1 m v průměru a až 10 kg.",
+    "en": "All Rafflesia species are found in Southeast Asia – for example on Borneo, Sumatra, Java, the Malay Peninsula and in the Philippines. Rafflesia arnoldii has the largest single flower of any flowering plant (at least by weight): over 1 m (3.3 ft) across and up to 10 kg (22 lb)."
+   }
+  },
+  {
+   "id": "T352-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik procent slunečního světla dopadne přibližně až na zem tropického deštného pralesa?",
+    "en": "Roughly what percentage of sunlight reaches the floor of a tropical rainforest?"
+   },
+   "moznosti": {
+    "cs": [
+     "2 %",
+     "15 %",
+     "30 %",
+     "50 %"
+    ],
+    "en": [
+     "2%",
+     "15%",
+     "30%",
+     "50%"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Na zem pralesa dopadnou jen asi 2 % slunečního světla. Proto na ní roste překvapivě málo rostlin.",
+    "en": "Only about 2% of sunlight reaches the forest floor. That is why surprisingly few plants grow there."
+   }
+  },
+  {
+   "id": "T352-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Nad souvislé koruny tropického deštného pralesa vyčnívají jednotlivé obří stromy nejvyššího patra (anglicky emergent layer). Jakou výšku obvykle mají?",
+    "en": "Individual giant trees of the highest layer, the emergent layer, tower above the continuous canopy of a tropical rainforest. How tall are they usually?"
+   },
+   "moznosti": {
+    "cs": [
+     "15–20 m",
+     "25–30 m",
+     "45–55 m",
+     "100–120 m"
+    ],
+    "en": [
+     "15–20 m (50–65 ft)",
+     "25–30 m (80–100 ft)",
+     "45–55 m (150–180 ft)",
+     "100–120 m (330–390 ft)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Stromy emergentního patra obvykle dorůstají 45–55 m a vyčnívají nad souvislé koruny. V tomto patře hnízdí a loví například harpyje pralesní, která si staví hnízdo často v koruně vlnovce pětimužného (Ceiba pentandra).",
+    "en": "Emergent trees usually reach 45–55 m (150–180 ft) and tower above the continuous canopy. The harpy eagle nests and hunts in this layer, often building its nest in the crown of a kapok tree (Ceiba pentandra)."
+   }
+  },
+  {
+   "id": "T352-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč mají rostliny v podrostu tropického pralesa často mnohem větší listy než rostliny na otevřených místech?",
+    "en": "Why do plants in the understory of a tropical rainforest often have much larger leaves than plants in open places?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aby zadržely dešťovou vodu na zimu",
+     "Aby zachytily co nejvíc vzácného světla",
+     "Aby se ubránily býložravcům",
+     "Aby se ochladily v horku"
+    ],
+    "en": [
+     "To store rainwater for the winter",
+     "To catch as much of the scarce light as possible",
+     "To defend themselves against herbivores",
+     "To cool down in the heat"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Husté koruny stromů propustí do podrostu jen málo slunečního světla, a tak velká listová plocha pomáhá zachytit co nejvíc z toho, co prosvitne.",
+    "en": "The dense treetops let little sunlight through to the understory, so a large leaf area helps capture as much as possible of what filters through."
+   }
+  },
+  {
+   "id": "T352-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik srážek nejméně obvykle spadne za rok v tropickém deštném pralese?",
+    "en": "Roughly what is the least rainfall a tropical rainforest usually gets in a year?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 250 mm",
+     "Asi 600 mm",
+     "Asi 1 700 mm",
+     "Asi 6 000 mm"
+    ],
+    "en": [
+     "About 250 mm (10 in)",
+     "About 600 mm (24 in)",
+     "About 1,700 mm (67 in)",
+     "About 6,000 mm (236 in)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Průměrné roční srážky v deštném pralese nejsou nižší než asi 1 680 mm, typicky činí 1 750–3 000 mm.",
+    "en": "Average annual rainfall in a rainforest is no less than about 1,680 mm (66 in), typically 1,750–3,000 mm (69–118 in)."
+   }
+  },
+  {
+   "id": "T352-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co tvoří hlavní kořist harpyje pralesní, velkého orla tropických lesů Ameriky?",
+    "en": "What makes up the main prey of the harpy eagle, a large eagle of the American tropical forests?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lenochodi a opice",
+     "Hadi a ještěrky",
+     "Ryby a želvy",
+     "Netopýři a hmyz"
+    ],
+    "en": [
+     "Sloths and monkeys",
+     "Snakes and lizards",
+     "Fish and turtles",
+     "Bats and insects"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Harpyje loví hlavně savce v korunách stromů; v jedné brazilské studii tvořili lenochodi 79 % kořisti. Samice váží 6–9 kg a má největší drápy ze všech žijících orlů.",
+    "en": "Harpy eagles hunt mainly tree-dwelling mammals; in one Brazilian study sloths made up 79% of the prey. Females weigh 6–9 kg (13–20 lb) and have the largest talons of any living eagle."
+   }
+  },
+  {
+   "id": "T352-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "V čem jsou lenochodi překvapivě zdatní?",
+    "en": "What are sloths surprisingly good at?"
+   },
+   "moznosti": {
+    "cs": [
+     "Běhat po zemi",
+     "Klouzat vzduchem",
+     "Plavat",
+     "Skákat ze stromu na strom"
+    ],
+    "en": [
+     "Running on the ground",
+     "Gliding through the air",
+     "Swimming",
+     "Leaping from tree to tree"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Lenochodi jsou překvapivě zdatní plavci a dokážou pod vodou zadržet dech až 40 minut, protože si zpomalí srdeční tep.",
+    "en": "Sloths are surprisingly strong swimmers and can hold their breath underwater for up to 40 minutes by slowing their heart rate."
+   }
+  },
+  {
+   "id": "T352-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Bromélie rostoucí na větvích stromů patří do čeledi broméliovitých (Bromeliaceae). Která známá ovocná rostlina je jejich příbuznou ze stejné čeledi?",
+    "en": "Bromeliads growing on tree branches belong to the bromeliad family (Bromeliaceae). Which well-known fruit plant is their relative from the same family?"
+   },
+   "moznosti": {
+    "cs": [
+     "Banánovník",
+     "Ananas",
+     "Mangovník",
+     "Papája"
+    ],
+    "en": [
+     "Banana",
+     "Pineapple",
+     "Mango",
+     "Papaya"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ananas je jedinou hospodářsky významnou potravinovou plodinou z čeledi broméliovitých. Téměř všechny bromélie pocházejí z tropické a subtropické Ameriky – jen jediný druh, Pitcairnia feliciana, roste v západní Africe.",
+    "en": "The pineapple is the only bromeliad that is a commercially important food crop. Almost all bromeliads are native to the tropical and subtropical Americas – just one species, Pitcairnia feliciana, grows in West Africa."
+   }
+  },
+  {
+   "id": "T352-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kam rodiče některých pralesniček (Dendrobatidae) odnášejí na zádech vylíhlé pulce?",
+    "en": "Where do the parents of some poison dart frogs (Dendrobatidae) carry their newly hatched tadpoles on their backs?"
+   },
+   "moznosti": {
+    "cs": [
+     "Do mořských lagun na pobřeží",
+     "Do podzemních nor mravenců",
+     "Do velkých řek, kde je silný proud",
+     "Do vody v rostlinách vysoko v korunách"
+    ],
+    "en": [
+     "Into coastal sea lagoons",
+     "Into underground ant burrows",
+     "Into large rivers with strong currents",
+     "Into water in plants high in the treetops"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pulci se přilepí ke slizu na zádech rodiče, který je vynese do korun a uloží do vody nahromaděné v epifytech, například v bromeliích. Jed pralesniček nevzniká v jejich těle – získávají ho z kořisti, jako jsou mravenci a roztoči.",
+    "en": "The tadpoles stick to the mucus on a parent's back and are carried up into the canopy, where they are placed in water collected in epiphytes such as bromeliads. The frogs do not make their own poison – they get it from prey such as ants and mites."
+   }
+  },
+  {
+   "id": "T352-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém státě USA leží deštný les Hoh, považovaný za nejvlhčí les v pevninských Spojených státech?",
+    "en": "In which U.S. state is the Hoh Rain Forest, considered the wettest forest in the contiguous United States?"
+   },
+   "moznosti": {
+    "cs": [
+     "Louisiana",
+     "Maine",
+     "Florida",
+     "Washington"
+    ],
+    "en": [
+     "Louisiana",
+     "Maine",
+     "Florida",
+     "Washington"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Mírný deštný les Hoh leží na Olympijském poloostrově v národním parku Olympic na západě státu Washington a ročně v něm spadne přes 3 000 mm srážek.",
+    "en": "The temperate Hoh Rain Forest lies on the Olympic Peninsula in Olympic National Park in western Washington and gets over 3,000 mm (118 in) of rain a year."
+   }
+  },
+  {
+   "id": "T352-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Náčelník Raoni z brazilského kmene Kajapó, známý talířkem ve spodním rtu, objel v roce 1989 se slavným hudebníkem 17 zemí, aby upozornil na ničení pralesa. S kým?",
+    "en": "Chief Raoni of Brazil's Kayapo people, known for the lip plate in his lower lip, toured 17 countries in 1989 with a famous musician to raise awareness of rainforest destruction. With whom?"
+   },
+   "moznosti": {
+    "cs": [
+     "S Bonem",
+     "S Peterem Gabrielem",
+     "Se Stingem",
+     "S Paulem McCartneym"
+    ],
+    "en": [
+     "Bono",
+     "Peter Gabriel",
+     "Sting",
+     "Paul McCartney"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Sting za Raonim přijel do oblasti Xingu v roce 1987 a se svou ženou Trudie Styler pak spoluzaložil nadaci Rainforest Foundation. V roce 2019 byl Raoni navržen na Nobelovu cenu míru.",
+    "en": "Sting visited Raoni in the Xingu region in 1987 and later co-founded the Rainforest Foundation with his wife Trudie Styler. In 2019 Raoni was nominated for the Nobel Peace Prize."
+   }
+  },
+  {
+   "id": "T352-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč je půda tropických deštných pralesů navzdory bujné vegetaci obvykle chudá na živiny?",
+    "en": "Why is the soil of tropical rainforests usually poor in nutrients despite the lush vegetation?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vydatné deště rozpustné živiny vyplavují",
+     "Kořeny stromů vylučují látky, které živiny ničí",
+     "Půda je stále zmrzlá v hloubce",
+     "Hustý stín brání rozkladu opadu"
+    ],
+    "en": [
+     "Heavy rain leaches the soluble nutrients away",
+     "Tree roots release substances that destroy nutrients",
+     "The soil is permanently frozen deeper down",
+     "Dense shade prevents leaf litter from decomposing"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vydatné srážky vyplavují z půdy rozpustné živiny a většina zbývajících živin se drží jen blízko povrchu. Po vykácení pralesa proto deště živiny z polí rychle vyplaví.",
+    "en": "Heavy rainfall leaches soluble nutrients out of the soil, and most of the remaining nutrients occur only near the surface. That is why heavy rain quickly leaches nutrients from land cleared for cultivation."
+   }
+  },
+  {
+   "id": "T352-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Lenochodům se podle počtu prstů říká dvouprstí a tříprstí. Kde se ale počet prstů u obou skupin skutečně liší?",
+    "en": "Sloths are called two-toed and three-toed after their number of digits. But where do the two groups actually differ in the number of digits?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jen na zadních končetinách",
+     "Jen na předních končetinách",
+     "Neliší se nikde, jde jen o název",
+     "Na předních i zadních končetinách"
+    ],
+    "en": [
+     "Only on the hind limbs",
+     "Only on the forelimbs",
+     "Nowhere – it's just a name",
+     "On both forelimbs and hind limbs"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Všichni lenochodi mají na zadních končetinách tři prsty; dvouprstí lenochodi mají jen dva prsty na předních končetinách.",
+    "en": "All sloths have three toes on each hind limb; two-toed sloths have only two digits on each forelimb."
+   }
+  },
+  {
+   "id": "T352-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaká část srážek v oblasti Amazonie podle odhadů pochází z vody, kterou do ovzduší odpaří samotný prales?",
+    "en": "What share of the rainfall in the Amazon region is estimated to come from water released into the air by the forest itself?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi setina",
+     "Asi dvacetina",
+     "Asi polovina",
+     "Téměř všechny"
+    ],
+    "en": [
+     "About a hundredth",
+     "About a twentieth",
+     "About half",
+     "Almost all of it"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Odhaduje se, že asi polovinu srážek v oblasti Amazonie vytvářejí samotné lesy: stromy přes listy odpařují obrovské množství vody, která pak znovu spadne jako déšť.",
+    "en": "It is estimated that about half of the rainfall in the Amazon area is produced by the forests themselves: trees release huge amounts of water through their leaves, which falls again as rain."
+   }
+  },
+  {
+   "id": "T352-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "K čemu se podle údajů od roku 1970 využívala naprostá většina (přes 90 %) vykácené plochy amazonského pralesa?",
+    "en": "According to data since 1970, what has the vast majority (over 90%) of the deforested land in the Amazon been used for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na těžbu zlata",
+     "Jako pastviny pro dobytek",
+     "Na plantáže kávy",
+     "Na stavbu měst a silnic"
+    ],
+    "en": [
+     "Gold mining",
+     "Cattle pasture",
+     "Coffee plantations",
+     "Building cities and roads"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Podle zprávy Organizace OSN pro výživu a zemědělství (FAO) z roku 2006 se 91 % plochy odlesněné v Amazonii od roku 1970 využívá jako pastviny pro dobytek. Chov dobytka je považován za hlavní příčinu odlesňování brazilské Amazonie.",
+    "en": "According to a 2006 report by the UN Food and Agriculture Organization (FAO), 91% of the Amazon land deforested since 1970 is used as livestock pasture. Cattle ranching is considered the main cause of deforestation in the Brazilian Amazon."
+   }
+  },
+  {
+   "id": "T352-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Masožravá láčkovka Nepenthes lowii roste jen na Borneu. Odkud podle studie z roku 2009 získávají dospělé rostliny většinu dusíku?",
+    "en": "The carnivorous pitcher plant Nepenthes lowii grows only on Borneo. According to a 2009 study, where do mature plants get most of their nitrogen?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z trusu tan, které ji navštěvují",
+     "Z mravenců a much chycených do láček",
+     "Z bakterií žijících v hlízkách kořenů",
+     "Z listí, které se rozkládá v láčkách"
+    ],
+    "en": [
+     "From droppings of visiting tree shrews",
+     "From ants and flies caught in the pitchers",
+     "From bacteria living in root nodules",
+     "From leaves decomposing in the pitchers"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Podle studie z roku 2009 získávají dospělé rostliny z trusu tan 57–100 % dusíku v listech. Tvar a velikost ústí láčky přesně odpovídají rozměrům tany, jejíž trus při hodování na nektaru padá do láčky.",
+    "en": "According to a 2009 study, mature plants get 57–100% of the nitrogen in their leaves from tree shrew droppings. The shape and size of the pitcher opening exactly match the dimensions of a tree shrew, whose droppings fall into the pitcher while it feeds on the nectar."
+   }
+  },
+  {
+   "id": "T352-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Strom Menara z Bornea (žlutý meranti, Richetia faguetiana, dříve Shorea faguetiana), změřený v roce 2019, je nejvyšším známým tropickým stromem (k roku 2026). Jakou výšku měření ukázalo?",
+    "en": "The Menara tree from Borneo (a yellow meranti, Richetia faguetiana, formerly Shorea faguetiana), measured in 2019, is the tallest known tropical tree (as of 2026). What height did the measurement show?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 60 m",
+     "Asi 80 m",
+     "Asi 100 m",
+     "Asi 120 m"
+    ],
+    "en": [
+     "About 60 m (200 ft)",
+     "About 80 m (260 ft)",
+     "About 100 m (330 ft)",
+     "About 120 m (390 ft)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Lezci Menaru v lednu 2019 změřili na 97,58 m. Roste v chráněném území Danum Valley v malajsijském státě Sabah a je druhou nejvyšší známou kvetoucí rostlinou světa (k roku 2026) – vyšší je jen eukalyptus Centurion na Tasmánii.",
+    "en": "In January 2019 climbers measured Menara at 97.58 m (320.1 ft). It grows in the Danum Valley Conservation Area in the Malaysian state of Sabah and is the world's second-tallest known flowering plant (as of 2026) – only the Centurion eucalyptus in Tasmania is taller."
+   }
+  },
+  {
+   "id": "T352-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak obvykle začíná život škrtící fíkovník (anglicky strangler fig) – tropický fíkovník, který postupně obroste jiný strom?",
+    "en": "How does a strangler fig – a tropical fig that gradually envelops another tree – usually begin its life?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jako výhonek z kořenů staršího fíkovníku",
+     "Jako semenáček na zemi, který se ovine kolem kmene souseda",
+     "Jako parazit, který vrůstá do kořenů hostitele",
+     "Jako semeno vyklíčené vysoko na větvi hostitelského stromu"
+    ],
+    "en": [
+     "As a shoot from the roots of an older fig",
+     "As a seedling on the ground that twines around a neighbour's trunk",
+     "As a parasite that grows into the host's roots",
+     "As a seed germinating high on a branch of a host tree"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Semena roznášejí ptáci a ta klíčí ve štěrbinách vysoko na jiném stromě. Fíkovník pak pouští kořeny dolů a hostitele obrůstá; když hostitel odumře, zůstane po něm uvnitř fíkovníku dutina.",
+    "en": "The seeds are spread by birds and germinate in crevices high on another tree. The fig then sends its roots downwards and envelops the host; when the host dies, a hollow core is left inside the fig."
+   }
+  },
+  {
+   "id": "T352-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Brazilský ochránce amazonského pralesa Chico Mendes byl v roce 1988 zavražděn najatým vrahem. Jak se živil?",
+    "en": "Brazilian Amazon rainforest defender Chico Mendes was killed by a hired gunman in 1988. How did he make his living?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jako sběrač kaučuku",
+     "Jako rybář na Amazonce",
+     "Jako botanik v Manausu",
+     "Jako pilot malých letadel"
+    ],
+    "en": [
+     "As a rubber tapper",
+     "As a fisherman on the Amazon",
+     "As a botanist in Manaus",
+     "As a bush pilot"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Mendes byl sběrač kaučuku (seringueiro), odborář a ekolog ze státu Acre. Zastřelen byl 22. prosince 1988 v Xapuri; v roce 1990 vznikla extraktivní rezervace nesoucí jeho jméno.",
+    "en": "Mendes was a rubber tapper (seringueiro), trade union leader and environmentalist from the state of Acre. He was shot on 22 December 1988 in Xapuri; in 1990 an extractive reserve named after him was created."
+   }
+  },
+  {
+   "id": "T352-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Tvrdé tobolky para ořechů (Bertholletia excelsa) dokáže v pralese rozhryzat jen málokdo. Které zvíře to umí a semena navíc zahrabává, čímž strom šíří?",
+    "en": "Few animals in the rainforest can gnaw open the hard pods of the Brazil nut (Bertholletia excelsa). Which animal can, and also buries the seeds, thereby spreading the tree?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pásovec (Dasypus)",
+     "Lenochod (Bradypus)",
+     "Tukan (Ramphastos)",
+     "Aguti (Dasyprocta)"
+    ],
+    "en": [
+     "The armadillo (Dasypus)",
+     "The sloth (Bradypus)",
+     "The toucan (Ramphastos)",
+     "The agouti (Dasyprocta)"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Tobolka má na jednom konci malý otvor, díky kterému ji velký hlodavec aguti dokáže rozhryzat. Většinu semen pak v období dešťů ukládá do skrýší, a tak strom vlastně „sází“. Jedna tobolka obsahuje 8–24 ořechů.",
+    "en": "The pod has a small hole at one end that lets large rodents like the agouti gnaw it open. It then caches most of the seeds during the wet season, effectively 'planting' the tree. One pod contains 8–24 nuts."
+   }
+  },
+  {
+   "id": "T352-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Lidoop bonobo žije jen v jedné zemi a jen na jednom břehu velké řeky. Které?",
+    "en": "The bonobo, a great ape, lives in only one country and on only one bank of a great river. Which?"
+   },
+   "moznosti": {
+    "cs": [
+     "Západně od řeky Niger v Mali",
+     "Jižně od řeky Kongo v DR Kongo",
+     "Severně od řeky Kongo v Kamerunu",
+     "Východně od Nilu v Ugandě"
+    ],
+    "en": [
+     "West of the Niger River in Mali",
+     "South of the Congo River in the DR Congo",
+     "North of the Congo River in Cameroon",
+     "East of the Nile in Uganda"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Řeka Kongo odděluje areály obou druhů: bonobové žijí na jižním břehu, šimpanzi na severním. Bonobové obývají vlhké lesy Demokratické republiky Kongo.",
+    "en": "The Congo River separates the two species' ranges: bonobos live on the southern bank and chimpanzees on the northern. Bonobos inhabit the humid forests of the Democratic Republic of the Congo."
+   }
+  }
+ ]
+}

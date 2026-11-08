@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T195",
+ "nazev": {
+  "cs": "Mosty světa",
+  "en": "Bridges of the World"
+ },
+ "kategorie": {
+  "id": "veda-a-technika",
+  "nazev": {
+   "cs": "Věda a technika",
+   "en": "Science & Technology"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T195-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém městě stojí most Golden Gate?",
+    "en": "In which city does the Golden Gate Bridge stand?"
+   },
+   "moznosti": {
+    "cs": [
+     "San Diego",
+     "Los Angeles",
+     "San Francisco",
+     "Seattle"
+    ],
+    "en": [
+     "San Diego",
+     "Los Angeles",
+     "San Francisco",
+     "Seattle"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Golden Gate spojuje San Francisco s okresem Marin přes stejnojmennou úžinu. Otevřen byl roku 1937.",
+    "en": "The Golden Gate Bridge links San Francisco with Marin County across the strait of the same name. It opened in 1937."
+   }
+  },
+  {
+   "id": "T195-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co udělá londýnský Tower Bridge, když pod ním potřebuje proplout vysoká loď?",
+    "en": "What does London's Tower Bridge do when a tall ship needs to pass beneath it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Celá vozovka vyjede svisle nahoru",
+     "Vozovka se odsune do strany",
+     "Most se otočí kolem středového pilíře",
+     "Dvě poloviny vozovky se zvednou"
+    ],
+    "en": [
+     "The whole roadway rises straight up",
+     "The roadway slides aside",
+     "The bridge swings around a central pier",
+     "The two halves of the roadway are raised"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Střední pole tvoří dvě sklopná ramena (zvedací most typu bascule) vyvážená protizávažím, která se zvednou asi za pět minut. Most byl otevřen roku 1894.",
+    "en": "The central span consists of two counterweighted leaves (a bascule bridge) that can be raised in about five minutes. The bridge opened in 1894."
+   }
+  },
+  {
+   "id": "T195-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na čem spočívá mostovka pontonového mostu?",
+    "en": "What supports the deck of a pontoon bridge?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na ocelových lanech",
+     "Na plovácích nebo lodích",
+     "Na kamenných obloucích",
+     "Na betonových pilířích"
+    ],
+    "en": [
+     "Steel cables",
+     "Floats or boats",
+     "Stone arches",
+     "Concrete piers"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pontonový (plovoucí) most nese vztlak plováků nebo člunů, proto unese jen omezenou zátěž. Většinou jde o dočasné stavby pro armádu nebo při mimořádných událostech.",
+    "en": "A pontoon (floating) bridge is held up by the buoyancy of floats or boats, which limits how much it can carry. Most are temporary, built for military use or emergencies."
+   }
+  },
+  {
+   "id": "T195-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá typ mostu, jehož mostovku nesou dva hlavní kabely napnuté mezi věžemi a ukotvené na obou březích?",
+    "en": "What type of bridge has a deck carried by two main cables strung between towers and anchored on both banks?"
+   },
+   "moznosti": {
+    "cs": [
+     "Visutý most",
+     "Příhradový most",
+     "Obloukový most",
+     "Trámový most"
+    ],
+    "en": [
+     "Suspension bridge",
+     "Truss bridge",
+     "Arch bridge",
+     "Beam bridge"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Mostovka visutého mostu visí na závěsech z hlavních kabelů, které přenášejí zatížení do věží a kotevních bloků. Visuté jsou například Golden Gate nebo Akaši-Kaikjó.",
+    "en": "A suspension bridge deck hangs from the main cables, which pass the load to the towers and anchorages. Examples include the Golden Gate and the Akashi Kaikyō Bridge."
+   }
+  },
+  {
+   "id": "T195-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo postavil slavný akvadukt Pont du Gard na jihu Francie?",
+    "en": "Who built the famous Pont du Gard aqueduct in southern France?"
+   },
+   "moznosti": {
+    "cs": [
+     "Keltové",
+     "Féničané",
+     "Římané",
+     "Řekové"
+    ],
+    "en": [
+     "The Celts",
+     "The Phoenicians",
+     "The Romans",
+     "The Greeks"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pont du Gard vznikl zhruba v polovině 1. století n. l. jako součást římského akvaduktu, který přiváděl vodu do Nîmes. Od roku 1985 je na seznamu UNESCO.",
+    "en": "The Pont du Gard was built around the mid-1st century AD as part of a Roman aqueduct supplying Nîmes. It has been a UNESCO World Heritage Site since 1985."
+   }
+  },
+  {
+   "id": "T195-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém italském městě stojí kamenný most Rialto?",
+    "en": "In which Italian city does the stone Rialto Bridge stand?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Římě",
+     "Ve Veroně",
+     "V Benátkách",
+     "Ve Florencii"
+    ],
+    "en": [
+     "Rome",
+     "Verona",
+     "Venice",
+     "Florence"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Most Rialto překlenuje Canal Grande a je nejstarším ze čtyř mostů přes něj. Kamenný most nahradil roku 1591 dřevěné předchůdce.",
+    "en": "The Rialto Bridge spans the Grand Canal and is the oldest of the four bridges across it. The stone bridge replaced earlier wooden ones in 1591."
+   }
+  },
+  {
+   "id": "T195-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které dvě země spojuje Øresundský most s navazujícím tunelem?",
+    "en": "Which two countries are linked by the Øresund Bridge and its connecting tunnel?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dánsko a Švédsko",
+     "Dánsko a Německo",
+     "Norsko a Švédsko",
+     "Švédsko a Finsko"
+    ],
+    "en": [
+     "Denmark and Sweden",
+     "Denmark and Germany",
+     "Norway and Sweden",
+     "Sweden and Finland"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Spojení vede od roku 2000 mezi Kodaní a Malmö a nese dálnici i železnici. Most proslavil skandinávský kriminální seriál Bron/Broen.",
+    "en": "Open since 2000, the link runs between Copenhagen and Malmö and carries both a motorway and a railway. It was made famous by the Scandinavian crime series The Bridge (Bron/Broen)."
+   }
+  },
+  {
+   "id": "T195-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi stojí viadukt Millau?",
+    "en": "In which country is the Millau Viaduct?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Španělsku",
+     "Ve Švýcarsku",
+     "V Itálii",
+     "Ve Francii"
+    ],
+    "en": [
+     "Spain",
+     "Switzerland",
+     "Italy",
+     "France"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Zavěšený viadukt Millau překlenuje údolí řeky Tarn na jihu Francie a byl otevřen v prosinci 2004. Navrhli ho inženýr Michel Virlogeux a architekt Norman Foster.",
+    "en": "The cable-stayed Millau Viaduct spans the Tarn valley in southern France and opened in December 2004. It was designed by engineer Michel Virlogeux and architect Norman Foster."
+   }
+  },
+  {
+   "id": "T195-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi stojí visutý most Akaši-Kaikjó (Akashi Kaikyō)?",
+    "en": "In which country is the Akashi Kaikyō suspension bridge?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Číně",
+     "V Japonsku",
+     "V Jižní Koreji",
+     "Na Tchaj-wanu"
+    ],
+    "en": [
+     "China",
+     "Japan",
+     "South Korea",
+     "Taiwan"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Most z roku 1998 spojuje Kóbe s ostrovem Awadži. Jeho hlavní pole měří 1 991 m.",
+    "en": "Opened in 1998, the bridge links Kobe with Awaji Island. Its main span is 1,991 m (6,532 ft) long."
+   }
+  },
+  {
+   "id": "T195-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá most přes hradní příkop, který lze pomocí řetězů vytáhnout nahoru a zatarasit tak bránu?",
+    "en": "What is the name of a bridge over a castle moat that can be pulled up by chains to block the gate?"
+   },
+   "moznosti": {
+    "cs": [
+     "Visutý most",
+     "Otočný most",
+     "Padací most",
+     "Pontonový most"
+    ],
+    "en": [
+     "Suspension bridge",
+     "Swing bridge",
+     "Drawbridge",
+     "Pontoon bridge"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Padací most se zvedal řetězy navinutými na rumpál v místnosti nad bránou. Často měl protizávaží – stejný princip dnes využívají sklopné zvedací mosty.",
+    "en": "A drawbridge was raised by chains wound on a windlass in a chamber above the gate. Many used counterweights, the same principle used today by bascule bridges."
+   }
+  },
+  {
+   "id": "T195-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Barvu mostu Golden Gate vybral architekt Irving Morrow, aby most ladil s okolím a byl lépe vidět v mlze. Jak se tento odstín oficiálně jmenuje?",
+    "en": "The colour of the Golden Gate Bridge was chosen by architect Irving Morrow to suit its surroundings and make it more visible in fog. What is the official name of the shade?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pacific Vermilion",
+     "Golden Poppy",
+     "California Red",
+     "International Orange"
+    ],
+    "en": [
+     "Pacific Vermilion",
+     "Golden Poppy",
+     "California Red",
+     "International Orange"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Odstín International Orange je oranžová rumělka. Most tedy navzdory jménu není zlatý – jméno má po úžině Golden Gate.",
+    "en": "International Orange is an orange vermilion. Despite its name, the bridge is not golden – it is named after the Golden Gate strait."
+   }
+  },
+  {
+   "id": "T195-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který londýnský most koupil roku 1968 americký podnikatel Robert McCulloch a nechal ho znovu postavit v Arizoně?",
+    "en": "Which London bridge did American entrepreneur Robert McCulloch buy in 1968 and have rebuilt in Arizona?"
+   },
+   "moznosti": {
+    "cs": [
+     "Westminster Bridge",
+     "Waterloo Bridge",
+     "London Bridge",
+     "Southwark Bridge"
+    ],
+    "en": [
+     "Westminster Bridge",
+     "Waterloo Bridge",
+     "London Bridge",
+     "Southwark Bridge"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "London Bridge z 19. století dnes stojí v Lake Havasu City, znovu otevřen byl roku 1971. Historku, že si kupec myslel, že kupuje Tower Bridge, McCulloch i zprostředkovatel prodeje rázně popřeli.",
+    "en": "The 19th-century London Bridge now stands in Lake Havasu City and was rededicated in 1971. McCulloch and the man who arranged the sale both firmly denied the story that he thought he was buying Tower Bridge."
+   }
+  },
+  {
+   "id": "T195-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co vede uvnitř pražského Nuselského mostu, pod šestiproudou silnicí?",
+    "en": "What runs inside Prague's Nusle Bridge, beneath its six-lane road?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tramvajová trať",
+     "Podzemní parkoviště",
+     "Vodovodní řad pro celou Prahu",
+     "Trasa metra C"
+    ],
+    "en": [
+     "A tram line",
+     "An underground car park",
+     "The water main for all of Prague",
+     "Metro line C"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "V tubusu mostu jezdí metro C mezi stanicemi I. P. Pavlova a Vyšehrad. Most přes Nuselské údolí byl otevřen v únoru 1973.",
+    "en": "Metro line C runs through a conduit in the bridge between I. P. Pavlova and Vyšehrad stations. The bridge over the Nusle Valley opened in February 1973."
+   }
+  },
+  {
+   "id": "T195-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co je typické pro zavěšený most, na rozdíl od visutého?",
+    "en": "What is typical of a cable-stayed bridge, as opposed to a suspension bridge?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lana vedou přímo z pylonů k mostovce",
+     "Mostovka se dá otočit kolem středového pilíře",
+     "Mostovka spočívá na kamenném oblouku",
+     "Lana kotví mostovku ke dnu řeky"
+    ],
+    "en": [
+     "Cables run straight from the towers to the deck",
+     "The deck can swing around a central pier",
+     "The deck rests on a stone arch",
+     "Cables anchor the deck to the riverbed"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "U zavěšeného mostu nesou zatížení pylony a lana z nich vedou rovnou k mostovce, často do vějíře nebo jako struny harfy. U symetrického mostu se vodorovné síly vyruší, takže nepotřebuje velké kotevní bloky.",
+    "en": "In a cable-stayed bridge the towers carry the load and cables run straight from them to the deck, often in a fan or harp pattern. On a symmetrical bridge the horizontal forces cancel out, so large anchorages are not needed."
+   }
+  },
+  {
+   "id": "T195-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím byl florentský most Ponte Vecchio výjimečný v srpnu 1944?",
+    "en": "What made Florence's Ponte Vecchio exceptional in August 1944?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jako jediný ho strhla povodeň",
+     "Jako jediný ho Němci rozebrali a odvezli",
+     "Jako jediný ho zničilo spojenecké bombardování",
+     "Jako jediný ho ustupující Němci nezničili"
+    ],
+    "en": [
+     "It was the only one swept away by a flood",
+     "It was the only one the Germans dismantled and took away",
+     "It was the only one destroyed by Allied bombing",
+     "It was the only one the retreating Germans did not destroy"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Ostatní florentské mosty Němci vyhodili do povětří, přístupy k Ponte Vecchio jen zatarasili sutí z okolních domů. Často se tvrdí, že most ušetřil přímý Hitlerův rozkaz, to však není doloženo.",
+    "en": "The Germans blew up Florence's other bridges but only blocked the approaches to the Ponte Vecchio with rubble from nearby buildings. It is often said Hitler personally ordered it spared, but this is unconfirmed."
+   }
+  },
+  {
+   "id": "T195-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co v britské angličtině vyjadřuje rčení „natírat Forth Bridge“ (painting the Forth Bridge)?",
+    "en": "What does the British expression \"painting the Forth Bridge\" describe?"
+   },
+   "moznosti": {
+    "cs": [
+     "Práci odbytou na poslední chvíli",
+     "Práci, která nikdy nekončí",
+     "Zbytečný luxus",
+     "Riskantní podnik"
+    ],
+    "en": [
+     "A job rushed at the last minute",
+     "A never-ending task",
+     "A needless luxury",
+     "A risky venture"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Rčení vychází z představy, že natěrači začínali znovu hned po dokončení, což tak doslova nikdy nebylo. Skotský železniční most z roku 1890 je od roku 2015 na seznamu UNESCO.",
+    "en": "The phrase rests on the mistaken belief that painters started again as soon as they finished, which never literally happened. The Scottish railway bridge of 1890 has been a UNESCO World Heritage Site since 2015."
+   }
+  },
+  {
+   "id": "T195-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Most Danyang–Kunshan v Číně (164,8 km) zapsala Guinnessova kniha rekordů v roce 2011 jako nejdelší most světa. Co po něm vede?",
+    "en": "In 2011 Guinness World Records listed China's Danyang–Kunshan Grand Bridge (164.8 km / 102.4 mi) as the world's longest bridge. What does it carry?"
+   },
+   "moznosti": {
+    "cs": [
+     "Šestiproudá dálnice",
+     "Vysokorychlostní železnice",
+     "Zavlažovací kanál",
+     "Dálkový ropovod"
+    ],
+    "en": [
+     "A six-lane motorway",
+     "A high-speed railway",
+     "An irrigation canal",
+     "A long-distance oil pipeline"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jde o viadukt vysokorychlostní trati Peking–Šanghaj otevřený v roce 2011. Vede deltou Jang-c'-ťiangu a asi 9 km z něj přechází jezero Jang-čcheng.",
+    "en": "It is a viaduct on the Beijing–Shanghai High-Speed Railway, opened in 2011. It crosses the Yangtze River Delta, including about 9 km (5.6 mi) over Yangcheng Lake."
+   }
+  },
+  {
+   "id": "T195-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo za nemocného hlavního inženýra Washingtona Roeblinga roky fakticky řídil stavbu Brooklynského mostu a je oficiálně uznávána jako první člověk, který most přešel?",
+    "en": "Who effectively ran construction of the Brooklyn Bridge for years in place of the ill chief engineer Washington Roebling, and is officially recognised as the first person to cross it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jeho matka Johanna",
+     "Jeho dcera Mary",
+     "Jeho sestra Elvira",
+     "Jeho manželka Emily"
+    ],
+    "en": [
+     "His mother Johanna",
+     "His daughter Mary",
+     "His sister Elvira",
+     "His wife Emily"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Emily Warren Roeblingová zhruba 11 let předávala manželovy pokyny a převzala velkou část povinností hlavního inženýra. Most byl otevřen v květnu 1883.",
+    "en": "Emily Warren Roebling spent about 11 years relaying her husband's instructions and took on much of the chief engineer's work. The bridge opened in May 1883."
+   }
+  },
+  {
+   "id": "T195-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč část spojení přes Øresund vede v podmořském tunelu místo po mostě?",
+    "en": "Why does part of the Øresund crossing run through an undersea tunnel instead of over a bridge?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aby most nepřekážel letům z nedalekého letiště",
+     "Protože to kvůli obraně požadovala armáda",
+     "Protože dno průlivu bylo pro pilíře příliš hluboké",
+     "Aby se ušetřilo za drahou ocel"
+    ],
+    "en": [
+     "So the bridge would not interfere with flights from a nearby airport",
+     "Because the military required it for defence",
+     "Because the strait was too deep for piers",
+     "To save on expensive steel"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vysoké pylony by překážely letadlům z nedalekého letiště a tunel navíc nechává volnou plavební dráhu. Most a tunel se potkávají na umělém ostrově Peberholm.",
+    "en": "Tall towers would have interfered with aircraft at the nearby airport, and the tunnel also keeps a clear shipping channel. The bridge and tunnel meet on the artificial island of Peberholm."
+   }
+  },
+  {
+   "id": "T195-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak P. T. Barnum v květnu 1884 předvedl, že je nový Brooklynský most bezpečný?",
+    "en": "How did P. T. Barnum demonstrate in May 1884 that the new Brooklyn Bridge was safe?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přejel ho parní lokomotivou",
+     "Převedl přes něj 21 slonů",
+     "Nechal se přes něj nést v kleci se lvy",
+     "Uspořádal na něm cirkusové představení pro tisíce diváků"
+    ],
+    "en": [
+     "He drove a steam locomotive across it",
+     "He led 21 elephants across it",
+     "He had himself carried across in a cage with lions",
+     "He staged a circus show on it for thousands of spectators"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Průvod vedl slavný slon Jumbo. Akce rozptýlila pochybnosti o stabilitě mostu a zároveň udělala reklamu Barnumovu cirkusu.",
+    "en": "The parade was led by the famous elephant Jumbo. The stunt eased doubts about the bridge's stability and promoted Barnum's circus."
+   }
+  },
+  {
+   "id": "T195-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co během stavby mostu Akaši-Kaikjó prodloužilo jeho hlavní pole asi o 1 metr?",
+    "en": "What lengthened the main span of the Akashi Kaikyō Bridge by about 1 metre (3.3 ft) during construction?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chyba v původních výpočtech",
+     "Zemětřesení v roce 1995",
+     "Tepelná roztažnost ocelových kabelů",
+     "Pokles mořského dna pod pylony"
+    ],
+    "en": [
+     "An error in the original calculations",
+     "An earthquake in 1995",
+     "Thermal expansion of the steel cables",
+     "Subsidence of the seabed under the towers"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Velké zemětřesení Hanšin odsunulo už stojící, ale ještě nepropojené pylony od sebe, takže rozpětí vzrostlo z 1 990 na 1 991 m. Most byl otevřen v roce 1998.",
+    "en": "The Great Hanshin earthquake pushed the already standing but unconnected towers apart, increasing the span from 1,990 to 1,991 m (6,529 to 6,532 ft). The bridge opened in 1998."
+   }
+  },
+  {
+   "id": "T195-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Turecký most Çanakkale 1915 přes Dardanely měl při otevření v roce 2022 nejdelší hlavní pole visutého mostu na světě. Proč měří právě 2 023 m?",
+    "en": "When it opened in 2022, Turkey's 1915 Çanakkale Bridge over the Dardanelles had the world's longest suspension bridge main span. Why is it exactly 2,023 m (6,637 ft) long?"
+   },
+   "moznosti": {
+    "cs": [
+     "Je to největší délka, kterou unesla použitá lana",
+     "Odpovídá šířce průlivu v nejužším místě",
+     "Připomíná 100. výročí Turecké republiky",
+     "Překonává dosavadní rekord přesně o délku fotbalového hřiště"
+    ],
+    "en": [
+     "It is the maximum length the cables used could carry",
+     "It matches the width of the strait at its narrowest point",
+     "It commemorates the centenary of the Turkish Republic",
+     "It beats the previous record by exactly one football pitch"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Délka odkazuje na sté výročí republiky (1923–2023), číslo 1915 v názvu na osmanské vítězství u Gallipoli. Most je o 32 m delší než dosavadní rekordman Akaši-Kaikjó z roku 1998.",
+    "en": "The length refers to the Republic's centenary (1923–2023), while 1915 in the name honours the Ottoman victory at Gallipoli. The span exceeds the previous record holder, the Akashi Kaikyō Bridge (1998), by 32 m (105 ft)."
+   }
+  },
+  {
+   "id": "T195-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo navrhl kamenný most Rialto, dokončený roku 1591?",
+    "en": "Who designed the stone Rialto Bridge, completed in 1591?"
+   },
+   "moznosti": {
+    "cs": [
+     "Antonio da Ponte",
+     "Andrea Palladio",
+     "Michelangelo Buonarroti",
+     "Jacopo Sansovino"
+    ],
+    "en": [
+     "Antonio da Ponte",
+     "Andrea Palladio",
+     "Michelangelo Buonarroti",
+     "Jacopo Sansovino"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Zakázku získal Antonio da Ponte – příjmení příznačně znamená „z mostu“. Palladio i Sansovino předložili návrhy s více oblouky, které byly odmítnuty, a uvažovalo se i o Michelangelovi.",
+    "en": "The commission went to Antonio da Ponte – fittingly, his surname means \"of the bridge\". Palladio and Sansovino submitted multi-arch designs that were rejected, and Michelangelo was also considered."
+   }
+  },
+  {
+   "id": "T195-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Hlavní inženýr Brooklynského mostu Washington Roebling byl na začátku stavby ochrnut a řídil ji pak z ložnice. Čím onemocněl?",
+    "en": "Brooklyn Bridge chief engineer Washington Roebling was paralysed early in construction and then directed it from his bedroom. What illness did he suffer from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Plicní tuberkulózou",
+     "Tetanovou infekcí",
+     "Otravou olovem",
+     "Kesonovou nemocí"
+    ],
+    "en": [
+     "Pulmonary tuberculosis",
+     "A tetanus infection",
+     "Lead poisoning",
+     "Caisson disease"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kesonovou (dekompresní) nemoc dostal při práci v kesonech pod vodou, kde se pracovalo ve stlačeném vzduchu. Tetanus zabil jeho otce Johna, autora návrhu mostu, poté co mu trajekt přimáčkl nohu k pilotě a rozdrtil prsty.",
+    "en": "He contracted caisson disease (decompression sickness) working in the underwater caissons, which were pressurised with compressed air. Tetanus killed his father John, the bridge's designer, after a ferry pinned his foot against a piling and crushed his toes."
+   }
+  },
+  {
+   "id": "T195-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo byl jedinou obětí zřícení mostu Tacoma Narrows 7. listopadu 1940?",
+    "en": "Who was the only fatality when the Tacoma Narrows Bridge collapsed on 7 November 1940?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pes",
+     "Mostní strážný",
+     "Fotograf, který most dokumentoval",
+     "Řidič nákladního auta"
+    ],
+    "en": [
+     "A dog",
+     "A bridge guard",
+     "A photographer documenting the bridge",
+     "A truck driver"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Zahynul kokršpaněl Tubby, který zůstal v autě opuštěném na mostě; řidič Leonard Coatsworth, jehož dceři pes patřil, utekl pěšky. Most kvůli kymácení přezdívali Galloping Gertie (Cválající Gertie).",
+    "en": "The victim was Tubby, a cocker spaniel left in a car abandoned on the bridge; the driver, Leonard Coatsworth, whose daughter owned the dog, escaped on foot. Because of its swaying, the bridge was nicknamed Galloping Gertie."
+   }
+  },
+  {
+   "id": "T195-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Viadukt Millau byl od roku 2004 nejvyšším mostem světa podle výšky konstrukce, než ho v roce 2025 překonal čínský most. Kolik měří jeho nejvyšší pilíř i s pylonem?",
+    "en": "From 2004 the Millau Viaduct was the world's tallest bridge by structural height until a Chinese bridge surpassed it in 2025. How tall is its highest pier including the mast?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 260 m",
+     "Asi 300 m",
+     "Asi 340 m",
+     "Asi 380 m"
+    ],
+    "en": [
+     "About 260 m (850 ft)",
+     "About 300 m (980 ft)",
+     "About 340 m (1,120 ft)",
+     "About 380 m (1,250 ft)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Konstrukční výška viaduktu je 343 m, samotný pilíř P2 měří po úroveň vozovky 245 m. V roce 2025 ho překonal čínský most Changtai přes Jang-c'-ťiang (352 m).",
+    "en": "The viaduct's structural height is 343 m (1,125 ft), while Pier P2 alone is 245 m (804 ft) up to deck level. In 2025 it was surpassed by China's Changtai Yangtze River Bridge (352 m / 1,155 ft)."
+   }
+  },
+  {
+   "id": "T195-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se jmenoval pražský Nuselský most při svém otevření v roce 1973?",
+    "en": "What was Prague's Nusle Bridge called when it opened in 1973?"
+   },
+   "moznosti": {
+    "cs": [
+     "Most Vítězného února",
+     "Most Československé armády",
+     "Most Klementa Gottwalda",
+     "Most Julia Fučíka"
+    ],
+    "en": [
+     "Victorious February Bridge",
+     "Czechoslovak Army Bridge",
+     "Klement Gottwald Bridge",
+     "Julius Fučík Bridge"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Most nesl jméno prvního komunistického prezidenta Klementa Gottwalda. Je 485 m dlouhý a nad údolím se tyčí asi 42,5 m.",
+    "en": "The bridge was named after Klement Gottwald, the first communist president. It is 485 m (1,591 ft) long and rises about 42.5 m (139 ft) above the valley."
+   }
+  },
+  {
+   "id": "T195-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Žďákovský most přes Vltavu u Orlíku byl po dokončení v roce 1967 světovým rekordmanem. V čem?",
+    "en": "Upon completion in 1967, the Žďákov Bridge over the Vltava near Orlík held a world record. For what?"
+   },
+   "moznosti": {
+    "cs": [
+     "V rychlosti stavby mezi mosty své velikosti",
+     "V rozpětí oblouku u mostů svého typu",
+     "Ve výšce mostovky nad vodní hladinou",
+     "V celkové délce mezi silničními mosty"
+    ],
+    "en": [
+     "The fastest construction for its size",
+     "The longest arch span of its type",
+     "The greatest deck height above the water",
+     "The greatest total length among road bridges"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ocelový obloukový most byl při dokončení obloukovým mostem svého typu (s podepřenou mostovkou) s nejdelším rozpětím na světě. Stavba začala souběžně s Orlickou přehradou a roku 2001 získal ocenění Most století v kategorii ocelových silničních mostů.",
+    "en": "At completion the steel arch bridge had the longest span of any supported arch bridge in the world. Work began alongside the Orlík Dam, and in 2001 it won the Bridge of the Century award for steel road bridges."
+   }
+  },
+  {
+   "id": "T195-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který pražský most přes Vltavu je po Karlově mostu druhý nejstarší dochovaný?",
+    "en": "Which Prague bridge over the Vltava is the second oldest surviving one after Charles Bridge?"
+   },
+   "moznosti": {
+    "cs": [
+     "Palackého most",
+     "Čechův most",
+     "Most Legií",
+     "Negrelliho viadukt"
+    ],
+    "en": [
+     "Palacký Bridge",
+     "Čech Bridge",
+     "Legion Bridge",
+     "Negrelli Viaduct"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Železniční Negrelliho viadukt byl zprovozněn roku 1850 a až do roku 1910 byl nejdelším mostem v Evropě. Nese jméno inženýra Aloise Negrelliho, který stavbu vedl po smrti Jana Pernera.",
+    "en": "The Negrelli railway viaduct opened in 1850 and was the longest bridge in Europe until 1910. It is named after engineer Alois Negrelli, who led construction after Jan Perner's death."
+   }
+  },
+  {
+   "id": "T195-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co převážně drží pohromadě kamenné bloky akvaduktu Pont du Gard?",
+    "en": "What mainly holds together the stone blocks of the Pont du Gard aqueduct?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přesné opracování a vlastní váha kamenů",
+     "Dřevěné kolíky mezi bloky",
+     "Malta z vápna a sopečného popela",
+     "Železné spony zalité olovem"
+    ],
+    "en": [
+     "Precise cutting and the stones' own weight",
+     "Wooden pegs between the blocks",
+     "Mortar of lime and volcanic ash",
+     "Iron clamps set in lead"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Akvadukt byl postaven převážně bez malty a spon – bloky drží díky přesnému opracování, tření a gravitaci. Tři patra oblouků se tyčí asi 49 m nad řekou Gardon.",
+    "en": "The aqueduct was built largely without mortar or clamps; the blocks stay in place through precise cutting, friction and gravity. Its three tiers of arches rise about 49 m (161 ft) above the Gardon River."
+   }
+  }
+ ]
+}

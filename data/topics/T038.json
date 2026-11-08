@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T038",
+ "nazev": {
+  "cs": "Fotbal: historie a kuriozity",
+  "en": "Football: History and Curiosities"
+ },
+ "kategorie": {
+  "id": "sport",
+  "nazev": {
+   "cs": "Sport",
+   "en": "Sport"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T038-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která země pořádala a zároveň vyhrála první mistrovství světa ve fotbale v roce 1930?",
+    "en": "Which country both hosted and won the first FIFA World Cup in 1930?"
+   },
+   "moznosti": {
+    "cs": [
+     "Uruguay",
+     "Argentina",
+     "Brazílie",
+     "Itálie"
+    ],
+    "en": [
+     "Uruguay",
+     "Argentina",
+     "Brazil",
+     "Italy"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Uruguay porazil ve finále v Montevideu Argentinu 4:2. Z Evropy připluly jen čtyři týmy, protože cesta lodí byla dlouhá a drahá.",
+    "en": "Uruguay beat Argentina 4–2 in the final in Montevideo. Only four European teams made the trip, because the sea voyage was long and expensive."
+   }
+  },
+  {
+   "id": "T038-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolikrát vyhrál Pelé jako hráč mistrovství světa?",
+    "en": "How many times did Pelé win the World Cup as a player?"
+   },
+   "moznosti": {
+    "cs": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "en": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pelé je jediný hráč se třemi tituly mistra světa: první získal v roce 1958 jako sedmnáctiletý, poslední v roce 1970. Jeden z vítězných turnajů ale kvůli zranění z druhého zápasu skoro celý promeškal.",
+    "en": "Pelé is the only player to have won three World Cups: the first in 1958 at the age of 17 and the last in 1970. However, he missed most of one of those winning tournaments after being injured in his team's second match."
+   }
+  },
+  {
+   "id": "T038-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který fotbalista vstřelil na MS 1986 Anglii gól rukou, který vešel do dějin jako „Boží ruka“?",
+    "en": "Which footballer scored a handball goal against England at the 1986 World Cup that went down in history as the \"Hand of God\"?"
+   },
+   "moznosti": {
+    "cs": [
+     "Diego Maradona",
+     "Gabriel Batistuta",
+     "Lionel Messi",
+     "Mario Kempes"
+    ],
+    "en": [
+     "Diego Maradona",
+     "Gabriel Batistuta",
+     "Lionel Messi",
+     "Mario Kempes"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Maradona po čtvrtfinále prohlásil, že gól padl „trochu hlavou Maradony a trochu rukou Boží“. Ve stejném zápase pak dal po sólu přes zhruba 55 metrů i takzvaný gól století.",
+    "en": "After the quarter-final Maradona said the goal was scored \"a little with the head of Maradona and a little with the hand of God\". In the same match he also scored the so-called Goal of the Century after a solo run of about 55 m (60 yards)."
+   }
+  },
+  {
+   "id": "T038-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak proměnil Antonín Panenka rozhodující penaltu ve finále ME 1976 proti Západnímu Německu?",
+    "en": "How did Antonín Panenka convert the decisive penalty in the Euro 1976 final against West Germany?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přízemní střelou těsně k tyči",
+     "Tvrdou ranou pod břevno",
+     "Kopem s falší, který se stočil k tyči",
+     "Jemným lobem doprostřed branky"
+    ],
+    "en": [
+     "With a low shot just inside the post",
+     "With a hard shot under the crossbar",
+     "With a curling shot that bent towards the post",
+     "With a gentle chip into the middle of the goal"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Brankář Sepp Maier skočil do strany a Panenka míč lehce naťukl doprostřed branky. Československo vyhrálo rozstřel 5:3 a získalo titul mistra Evropy; tomuto způsobu kopání penalty se dodnes říká „panenka“.",
+    "en": "Goalkeeper Sepp Maier dived to one side and Panenka gently chipped the ball into the middle of the net. Czechoslovakia won the shoot-out 5–3 and became European champions; this kind of penalty is still called a \"panenka\"."
+   }
+  },
+  {
+   "id": "T038-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik hráčů včetně brankáře nastupuje ve fotbale za jeden tým na hřiště?",
+    "en": "How many players, including the goalkeeper, does one football team field on the pitch?"
+   },
+   "moznosti": {
+    "cs": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "en": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jedenáct hráčů na tým uváděla pravidla už v roce 1897. Pravidla fotbalu dnes spravuje rada IFAB, která se poprvé sešla v roce 1886.",
+    "en": "The Laws of the Game already specified 11 players per team in 1897. Today the Laws are maintained by the IFAB, which first met in 1886."
+   }
+  },
+  {
+   "id": "T038-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak daleko od brankové čáry je značka pokutového kopu?",
+    "en": "How far from the goal line is the penalty mark?"
+   },
+   "moznosti": {
+    "cs": [
+     "9 m",
+     "11 m",
+     "16 m",
+     "20 m"
+    ],
+    "en": [
+     "9 m (30 ft)",
+     "11 m (36 ft)",
+     "16 m (52 ft)",
+     "20 m (66 ft)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Značka je 12 yardů, tedy asi 11 metrů, od brankové čáry. Zpočátku se penalta kopala z kteréhokoli místa 12 yardů od brankové čáry, značka a pokutové území přibyly až v roce 1902.",
+    "en": "The mark is about 11 metres (12 yards) from the goal line. At first the kick could be taken from any point 12 yards from the goal line; the penalty spot and penalty area were only added in 1902."
+   }
+  },
+  {
+   "id": "T038-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak dlouho trvá řádná hrací doba fotbalového zápasu dospělých (bez nastavení a prodloužení)?",
+    "en": "How long is the regular playing time of an adult football match (without stoppage time and extra time)?"
+   },
+   "moznosti": {
+    "cs": [
+     "60 minut",
+     "80 minut",
+     "90 minut",
+     "120 minut"
+    ],
+    "en": [
+     "60 minutes",
+     "80 minutes",
+     "90 minutes",
+     "120 minutes"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Délku 90 minut zakotvila úprava pravidel z roku 1897. Dnešní pravidla fotbalu tvoří 17 článků.",
+    "en": "An 1897 amendment to the Laws set the match length at 90 minutes. Today's Laws of the Game consist of 17 individual laws."
+   }
+  },
+  {
+   "id": "T038-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi vznikla v roce 1863 Football Association, jejíž pravidla jsou základem dnešního fotbalu?",
+    "en": "In which country was the Football Association founded in 1863, whose rules form the basis of modern football?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Francii",
+     "V Anglii",
+     "V Itálii",
+     "Ve Skotsku"
+    ],
+    "en": [
+     "France",
+     "England",
+     "Italy",
+     "Scotland"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "FA vznikla 26. října 1863 v londýnské hospodě Freemasons' Tavern. První zápas podle nových pravidel sehrály v prosinci 1863 kluby Barnes a Richmond a skončil 0:0.",
+    "en": "The FA was founded on 26 October 1863 at the Freemasons' Tavern in London. The first match under the new rules, Barnes v Richmond in December 1863, ended 0–0."
+   }
+  },
+  {
+   "id": "T038-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který pražský klub hraje na stadionu na Letné?",
+    "en": "Which Prague club plays at the stadium in Letná?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bohemians Praha 1905",
+     "AC Sparta Praha",
+     "SK Slavia Praha",
+     "FK Dukla Praha"
+    ],
+    "en": [
+     "Bohemians Prague 1905",
+     "AC Sparta Prague",
+     "SK Slavia Prague",
+     "FK Dukla Prague"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Sparta hraje na Letné, kde stadion dnes nese sponzorský název. Klub vznikl v roce 1893 pod jménem Athletic Club Královské Vinohrady.",
+    "en": "Sparta plays at Letná, where the stadium now carries a sponsor's name. The club was founded in 1893 as Athletic Club Královské Vinohrady."
+   }
+  },
+  {
+   "id": "T038-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá postavení, kdy je útočník v okamžiku přihrávky spoluhráče blíž brankové čáře soupeře než míč i předposlední hráč soupeře?",
+    "en": "What is it called when, at the moment a teammate passes, an attacker is nearer to the opponents' goal line than both the ball and the second-last opponent?"
+   },
+   "moznosti": {
+    "cs": [
+     "Faul",
+     "Ofsajd",
+     "Aut",
+     "Roh"
+    ],
+    "en": [
+     "Foul",
+     "Offside",
+     "Throw-in",
+     "Corner"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Samotné postavení v ofsajdu přestupkem není, trestá se až zapojení do hry. Na vlastní polovině hřiště v ofsajdu být nelze a od roku 1990 platí, že hráč na stejné úrovni s předposledním obráncem v ofsajdu není.",
+    "en": "Being in an offside position is not an offence in itself; a player is penalised only when involved in active play. A player cannot be offside in their own half, and since 1990 a player level with the second-last defender is onside."
+   }
+  },
+  {
+   "id": "T038-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co podle vlastního vyprávění přivedlo anglického rozhodčího Kena Astona na nápad se žlutou a červenou kartou?",
+    "en": "According to his own account, what gave the English referee Ken Aston the idea for yellow and red cards?"
+   },
+   "moznosti": {
+    "cs": [
+     "Barvy signálních vlajek na lodích",
+     "Výstražné tabulky na stavbě",
+     "Barevné žetony v kasinu",
+     "Semafor na křižovatce"
+    ],
+    "en": [
+     "The colours of ships' signal flags",
+     "Warning signs on a building site",
+     "Coloured casino chips",
+     "Traffic lights at a junction"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Po zmatcích kolem napomínání v zápase Anglie–Argentina na MS 1966 si Aston u semaforu v londýnské Kensington High Street uvědomil, že barvy pochopí hráči všech jazyků. Karty se poprvé použily na MS 1970.",
+    "en": "After confusion over cautions in the England v Argentina match at the 1966 World Cup, Aston realised at a traffic light on Kensington High Street in London that colours would work across language barriers. The cards were first used at the 1970 World Cup."
+   }
+  },
+  {
+   "id": "T038-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na kterém mistrovství světa se poprvé použil videorozhodčí (VAR)?",
+    "en": "At which World Cup was the video assistant referee (VAR) used for the first time?"
+   },
+   "moznosti": {
+    "cs": [
+     "2010",
+     "2014",
+     "2018",
+     "2022"
+    ],
+    "en": [
+     "2010",
+     "2014",
+     "2018",
+     "2022"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "IFAB zařadila VAR natrvalo do pravidel 3. března 2018 a MS v Rusku ho pak použilo ve všech zápasech. První penaltu po zhlédnutí videa na MS dostala 16. června 2018 Francie v zápase s Austrálií.",
+    "en": "The IFAB permanently wrote VAR into the Laws on 3 March 2018, and the World Cup in Russia then used it in every match. The first World Cup penalty awarded after a video review went to France against Australia on 16 June 2018."
+   }
+  },
+  {
+   "id": "T038-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který československý fotbalista získal v roce 1962 Zlatý míč pro nejlepšího fotbalistu Evropy?",
+    "en": "Which Czechoslovak footballer won the 1962 Ballon d'Or as Europe's best footballer?"
+   },
+   "moznosti": {
+    "cs": [
+     "František Plánička",
+     "Josef Bican",
+     "Antonín Panenka",
+     "Josef Masopust"
+    ],
+    "en": [
+     "František Plánička",
+     "Josef Bican",
+     "Antonín Panenka",
+     "Josef Masopust"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Záložník Dukly Praha Josef Masopust téhož roku vstřelil gól i ve finále MS v Chile. Druhým českým držitelem Zlatého míče se v roce 2003 stal Pavel Nedvěd.",
+    "en": "Dukla Prague midfielder Josef Masopust also scored in that year's World Cup final in Chile. The second Czech Ballon d'Or winner was Pavel Nedvěd in 2003."
+   }
+  },
+  {
+   "id": "T038-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čí rekord 15 gólů na mistrovstvích světa překonal Miroslav Klose v roce 2014 svým 16. gólem?",
+    "en": "Whose record of 15 World Cup goals did Miroslav Klose break with his 16th goal in 2014?"
+   },
+   "moznosti": {
+    "cs": [
+     "Gerd Müller",
+     "Just Fontaine",
+     "Pelé",
+     "Ronaldo (Brazílie)"
+    ],
+    "en": [
+     "Gerd Müller",
+     "Just Fontaine",
+     "Pelé",
+     "Ronaldo (Brazil)"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Klose dal rekordní gól v semifinále proti Brazílii, které Německo vyhrálo 7:1. Skóroval na čtyřech šampionátech v letech 2002–2014; jeho rekord 16 gólů vydržel do MS 2026, kdy ho překonali Lionel Messi a Kylian Mbappé.",
+    "en": "Klose scored the record goal in the semi-final against Brazil, which Germany won 7–1. He scored at four tournaments from 2002 to 2014; his record of 16 goals stood until the 2026 World Cup, when Lionel Messi and Kylian Mbappé surpassed it."
+   }
+  },
+  {
+   "id": "T038-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který tým porazil Československo 2:1 po prodloužení ve finále MS 1934?",
+    "en": "Which team beat Czechoslovakia 2–1 after extra time in the 1934 World Cup final?"
+   },
+   "moznosti": {
+    "cs": [
+     "Německo",
+     "Itálie",
+     "Rakousko",
+     "Maďarsko"
+    ],
+    "en": [
+     "Germany",
+     "Italy",
+     "Austria",
+     "Hungary"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ve finále v Římě vedlo Československo po gólu Antonína Puče, Itálie ale vyrovnala a v prodloužení vyhrála. Bylo to první finále MS, které se prodlužovalo, a hrálo se při teplotách kolem 40 °C.",
+    "en": "In the final in Rome Czechoslovakia led through Antonín Puč, but Italy equalised and won in extra time. It was the first World Cup final to go to extra time, played in temperatures approaching 40 °C (104 °F)."
+   }
+  },
+  {
+   "id": "T038-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "S kým prohrálo Československo 1:3 finále MS 1962 v chilském Santiagu?",
+    "en": "Who beat Czechoslovakia 3–1 in the 1962 World Cup final in Santiago, Chile?"
+   },
+   "moznosti": {
+    "cs": [
+     "S Uruguayí",
+     "S Brazílií",
+     "S Jugoslávií",
+     "S Argentinou"
+    ],
+    "en": [
+     "Uruguay",
+     "Brazil",
+     "Yugoslavia",
+     "Argentina"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Brazílie obhájila titul, i když jí chyběl zraněný Pelé. Oba týmy se na turnaji potkaly už ve skupině a tehdy remizovaly 0:0.",
+    "en": "Brazil defended their title even without the injured Pelé. The two teams had already met in the group stage, where they drew 0–0."
+   }
+  },
+  {
+   "id": "T038-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který sport se postupně oddělil od fotbalu poté, co Football Association v roce 1863 vyškrtla z pravidel běh s míčem v rukou a kopání soupeře do holení?",
+    "en": "Which sport gradually split from football after the Football Association removed running with the ball in hand and kicking opponents' shins from its rules in 1863?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ragby",
+     "Házená",
+     "Gaelský fotbal",
+     "Pozemní hokej"
+    ],
+    "en": [
+     "Rugby",
+     "Handball",
+     "Gaelic football",
+     "Field hockey"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Klub Blackheath kvůli tomu z FA vystoupil a ragbyové kluby později založily v roce 1871 Rugby Football Union. Z tohoto rozkolu pochází i anglické slovo „soccer“.",
+    "en": "The Blackheath club left the FA over this, and rugby clubs later formed the Rugby Football Union in 1871. The English word \"soccer\" also dates back to this split."
+   }
+  },
+  {
+   "id": "T038-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kterému italskému klubu pomohl Diego Maradona v roce 1987 k vůbec prvnímu titulu mistra Itálie?",
+    "en": "Which Italian club did Diego Maradona help to its first-ever Italian league title in 1987?"
+   },
+   "moznosti": {
+    "cs": [
+     "AC Milán",
+     "AS Řím",
+     "Juventus Turín",
+     "SSC Neapol"
+    ],
+    "en": [
+     "AC Milan",
+     "AS Roma",
+     "Juventus",
+     "Napoli"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "S Neapolí vyhrál Maradona ligu ještě v roce 1990 a v roce 1989 Pohár UEFA. Po jeho smrti v roce 2020 klub přejmenoval svůj stadion na Stadio Diego Armando Maradona.",
+    "en": "With Napoli Maradona also won the league in 1990 and the UEFA Cup in 1989. After his death in 2020 the club renamed its stadium Stadio Diego Armando Maradona."
+   }
+  },
+  {
+   "id": "T038-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Podle kterého anglického klubu si Sparta Praha v roce 1906 pořídila červené dresy?",
+    "en": "Which English club inspired Sparta Prague's red shirts in 1906?"
+   },
+   "moznosti": {
+    "cs": [
+     "Liverpool",
+     "Nottingham Forest",
+     "Arsenal",
+     "Manchester United"
+    ],
+    "en": [
+     "Liverpool",
+     "Nottingham Forest",
+     "Arsenal",
+     "Manchester United"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "V roce 1906 viděl zástupce klubu v Anglii hrát Woolwich Arsenal v červeném a sadu dresů přivezl do Prahy. Od té doby hraje Sparta v tmavě červené a přezdívá se jí „rudí“ i „železná Sparta“.",
+    "en": "In 1906 a club official saw Woolwich Arsenal playing in red in England and brought a set of shirts back to Prague. Sparta has played in dark red ever since, and its nicknames include \"the Reds\" and \"Iron Sparta\"."
+   }
+  },
+  {
+   "id": "T038-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč se fotbalistům Slavie Praha přezdívá „sešívaní“?",
+    "en": "Why are Slavia Prague players nicknamed \"sešívaní\" (\"the stitched ones\")?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kvůli dresu ze dvou barevných polovin, které se dřív sešívaly",
+     "Kvůli míčům, které si hráči sami sešívali",
+     "Kvůli hráčům, kteří kdysi hráli se šitými ranami",
+     "Kvůli klubu, který vznikl sloučením několika spolků"
+    ],
+    "en": [
+     "Because the shirt has two coloured halves that used to be sewn together",
+     "Because the players used to stitch their own balls",
+     "Because players once played with stitched wounds",
+     "Because the club was formed by merging several societies"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Domácí dres má červenou a bílou polovinu, které se tradičně sešívaly. Červená znamená srdce a krev, bílá fair play a obrácená pěticípá hvězda novou naději.",
+    "en": "The home shirt has a red half and a white half, which were traditionally sewn together. Red stands for heart and blood, white for fair play, and the inverted five-pointed star for new hope."
+   }
+  },
+  {
+   "id": "T038-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím se proslavil brankář František Plánička v zápase s Brazílií na MS 1938, přezdívaném „bitva o Bordeaux“?",
+    "en": "What made goalkeeper František Plánička famous in the match against Brazil at the 1938 World Cup, nicknamed the \"Battle of Bordeaux\"?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vstřelil gól z pokutového kopu",
+     "Dohrál zápas i prodloužení se zlomenou rukou",
+     "Jako první brankář byl na MS vyloučen",
+     "Chytil v něm tři pokutové kopy"
+    ],
+    "en": [
+     "He scored from a penalty kick",
+     "He played on through the match and extra time with a broken arm",
+     "He became the first goalkeeper sent off at a World Cup",
+     "He saved three penalties"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Kapitán Československa vydržel na hřišti i se zraněnou rukou. Za 20 let kariéry nebyl ani jednou napomenut ani vyloučen a v roce 1985 dostal mezinárodní cenu UNESCO za fair play.",
+    "en": "Czechoslovakia's captain stayed on the pitch despite his injured arm. In a 20-year career he was never cautioned or sent off, and in 1985 he received the UNESCO International Fair Play Award."
+   }
+  },
+  {
+   "id": "T038-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo se stal s 5 góly nejlepším střelcem MS 1934?",
+    "en": "Who was the top scorer of the 1934 World Cup with 5 goals?"
+   },
+   "moznosti": {
+    "cs": [
+     "Oldřich Nejedlý",
+     "Antonín Puč",
+     "Giuseppe Meazza",
+     "Josef Bican"
+    ],
+    "en": [
+     "Oldřich Nejedlý",
+     "Antonín Puč",
+     "Giuseppe Meazza",
+     "Josef Bican"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Československo se na svém prvním mistrovství světa probojovalo až do finále. MS 1934 bylo zároveň prvním, na které se muselo kvalifikovat, dokonce i pořadatel Itálie.",
+    "en": "At its first World Cup Czechoslovakia went all the way to the final. The 1934 tournament was also the first to require qualification, even for the host, Italy."
+   }
+  },
+  {
+   "id": "T038-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo v březnu 1966 v Londýně našel ukradenou trofej pro mistry světa (Pohár Julese Rimeta)?",
+    "en": "Who found the stolen World Cup trophy (the Jules Rimet Trophy) in London in March 1966?"
+   },
+   "moznosti": {
+    "cs": [
+     "Uklízečka výstavní haly",
+     "Detektiv ze Scotland Yardu",
+     "Pes jménem Pickles",
+     "Brankář anglické reprezentace"
+    ],
+    "en": [
+     "A cleaner at the exhibition hall",
+     "A Scotland Yard detective",
+     "A dog named Pickles",
+     "England's national team goalkeeper"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pohár zmizel z výstavy známek ve Westminsteru a pes ho o týden později vyčenichal zabalený v novinách u zaparkovaného auta. Originál trofeje, který Brazílie získala natrvalo, byl v roce 1983 znovu ukraden v Riu de Janeiru a už se nenašel.",
+    "en": "The trophy vanished from a stamp exhibition in Westminster, and a week later the dog sniffed it out, wrapped in newspaper next to a parked car. The original trophy, awarded permanently to Brazil, was stolen again in Rio de Janeiro in 1983 and never recovered."
+   }
+  },
+  {
+   "id": "T038-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co se změnilo na brazilské reprezentaci po porážce 1:2 s Uruguayí v rozhodujícím zápase MS 1950 („Maracanazo“)?",
+    "en": "What changed for the Brazilian national team after the 2–1 defeat by Uruguay in the deciding match of the 1950 World Cup (the \"Maracanazo\")?"
+   },
+   "moznosti": {
+    "cs": [
+     "Poprvé angažovala zahraničního trenéra",
+     "Začala hrát na jiném národním stadionu",
+     "Změnila svůj znak na dresu",
+     "Bílé dresy vyměnila za žluté"
+    ],
+    "en": [
+     "It hired a foreign coach for the first time",
+     "It started playing at a different national stadium",
+     "It changed the badge on its shirt",
+     "It swapped its white shirts for yellow ones"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Bílé dresy byly po porážce kritizovány jako „nevlastenecké“ a v soutěži roku 1953 vyhrál návrh žlutého dresu se zeleným lemem. Turnaj neměl finále: rozhodovala závěrečná skupina a Brazílii by na titul stačila remíza.",
+    "en": "After the defeat the white shirts were criticised as \"unpatriotic\", and a 1953 design competition produced the yellow shirt with green trim. The tournament had no final: a final group decided it, and a draw would have been enough for Brazil to win the title."
+   }
+  },
+  {
+   "id": "T038-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který klub považuje FIFA za nejstarší dosud existující nezávislý fotbalový klub na světě?",
+    "en": "Which club does FIFA consider the oldest existing independent football club in the world?"
+   },
+   "moznosti": {
+    "cs": [
+     "Celtic Glasgow",
+     "Aston Villa",
+     "Queen's Park",
+     "Sheffield FC"
+    ],
+    "en": [
+     "Celtic",
+     "Aston Villa",
+     "Queen's Park",
+     "Sheffield FC"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Sheffield FC vznikl v roce 1857 a jeho zakladatelé sepsali i vlastní Sheffieldská pravidla. V roce 2004 dostal od FIFA Řád za zásluhy, o který se dělí jen s Realem Madrid.",
+    "en": "Sheffield FC was founded in 1857, and its founders also drew up their own Sheffield Rules. In 2004 FIFA gave it the FIFA Order of Merit, an honour it shares only with Real Madrid."
+   }
+  },
+  {
+   "id": "T038-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo je považován za autora myšlenky pokutového kopu, který byl do pravidel zaveden v roce 1891?",
+    "en": "Who is credited with the idea of the penalty kick, introduced into the Laws in 1891?"
+   },
+   "moznosti": {
+    "cs": [
+     "William McCrum",
+     "Jules Rimet",
+     "Charles Alcock",
+     "Ebenezer Morley"
+    ],
+    "en": [
+     "William McCrum",
+     "Jules Rimet",
+     "Charles Alcock",
+     "Ebenezer Morley"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Návrh brankáře a podnikatele Williama McCruma předložila Irská fotbalová asociace radě IFAB v roce 1890, schválen byl 2. června 1891. První penalta byla nařízena už 6. června 1891 ve finále skotského Airdrie Charity Cupu.",
+    "en": "The Irish Football Association put the idea of goalkeeper and businessman William McCrum to the IFAB in 1890, and it was approved on 2 June 1891. The first penalty was awarded as early as 6 June 1891, in the Airdrie Charity Cup final in Scotland."
+   }
+  },
+  {
+   "id": "T038-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se změnil počet gólů v anglické lize v sezoně 1925/26, kdy pravidlo o ofsajdu poprvé vyžadovalo místo tří soupeřů jen dva?",
+    "en": "How did the number of goals in the English league change in the 1925–26 season, when the offside law first required only two opponents instead of three?"
+   },
+   "moznosti": {
+    "cs": [
+     "Klesl asi o čtvrtinu",
+     "Zůstal téměř stejný",
+     "Vzrostl asi o třetinu",
+     "Více než se zdvojnásobil"
+    ],
+    "en": [
+     "It fell by about a quarter",
+     "It stayed almost the same",
+     "It rose by about a third",
+     "It more than doubled"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Při stejném počtu 1 848 zápasů stoupl počet gólů ze 4 700 na 6 373. Změna vedla k delším přihrávkám a k rozestavení W-M.",
+    "en": "Over the same 1,848 matches, goals rose from 4,700 to 6,373. The change led to longer passing and the W-M formation."
+   }
+  },
+  {
+   "id": "T038-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Odkud pocházel John Madden, první profesionální trenér Slavie Praha, který ji vedl v letech 1905–1930?",
+    "en": "Where did John Madden, Slavia Prague's first professional coach, who led the club from 1905 to 1930, come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ze Skotska",
+     "Z Anglie",
+     "Z Walesu",
+     "Z Irska"
+    ],
+    "en": [
+     "Scotland",
+     "England",
+     "Wales",
+     "Ireland"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Bývalý hráč Celticu přivezl do Prahy skotskou taktiku a Slavia pod ním vyhrála 134 ze 169 tuzemských zápasů. V Praze pak zůstal až do konce života.",
+    "en": "The former Celtic player brought Scottish tactics to Prague, and under him Slavia won 134 of 169 domestic matches. He stayed in Prague for the rest of his life."
+   }
+  },
+  {
+   "id": "T038-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Hráč které země vstřelil vůbec první gól v historii mistrovství světa?",
+    "en": "A player from which country scored the very first goal in World Cup history?"
+   },
+   "moznosti": {
+    "cs": [
+     "USA",
+     "Francie",
+     "Argentiny",
+     "Uruguaye"
+    ],
+    "en": [
+     "USA",
+     "France",
+     "Argentina",
+     "Uruguay"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Lucien Laurent skóroval 13. července 1930 při výhře Francie 4:1 nad Mexikem. První hattrick na MS dal na stejném turnaji Američan Bert Patenaude proti Paraguayi.",
+    "en": "Lucien Laurent scored on 13 July 1930 in France's 4–1 win over Mexico. The first World Cup hat-trick came at the same tournament from American Bert Patenaude against Paraguay."
+   }
+  },
+  {
+   "id": "T038-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč nemohl Josef Bican hrát za Československo na MS 1938?",
+    "en": "Why was Josef Bican unable to play for Czechoslovakia at the 1938 World Cup?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kvůli úřední chybě při udělení občanství",
+     "Kvůli zranění kolena z ligového zápasu",
+     "Kvůli sporu s vedením Slavie",
+     "Kvůli trestu za vyloučení v kvalifikaci"
+    ],
+    "en": [
+     "Because of a clerical error over his citizenship",
+     "Because of a knee injury from a league match",
+     "Because of a dispute with Slavia's management",
+     "Because of a suspension for a sending-off in qualifying"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Bican se narodil ve Vídni a na MS 1934 ještě hrál za Rakousko. Československé občanství sice získal, ale kvůli úřední chybě nemohl na MS 1938 nastoupit. Reprezentoval celkem tři týmy: Rakousko, Československo a Čechy a Moravu.",
+    "en": "Bican was born in Vienna and played for Austria at the 1934 World Cup. He did obtain Czechoslovak citizenship, but a clerical error kept him out of the 1938 World Cup. In total he represented three teams: Austria, Czechoslovakia, and Bohemia and Moravia."
+   }
+  }
+ ]
+}

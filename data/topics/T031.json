@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T031",
+ "nazev": {
+  "cs": "Počítače a internet: jak to začalo",
+  "en": "Computers and the Internet: How It All Began"
+ },
+ "kategorie": {
+  "id": "veda-a-technika",
+  "nazev": {
+   "cs": "Věda a technika",
+   "en": "Science & Technology"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T031-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která matematička bývá často označována za první programátorku, protože k Babbageovu analytickému stroji popsala postup výpočtu Bernoulliho čísel?",
+    "en": "Which mathematician is often called the first programmer because she described a method for calculating Bernoulli numbers on Babbage's Analytical Engine?"
+   },
+   "moznosti": {
+    "cs": [
+     "Marie Curie-Skłodowská",
+     "Hedy Lamarrová",
+     "Grace Hopperová",
+     "Ada Lovelace"
+    ],
+    "en": [
+     "Marie Curie",
+     "Hedy Lamarr",
+     "Grace Hopper",
+     "Ada Lovelace"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Ada Lovelace přeložila roku 1843 článek o analytickém stroji a připojila k němu poznámky třikrát delší než samotný překlad. Poznámka G s výpočtem Bernoulliho čísel bývá považována za první publikovaný program, i když se historici přou, nakolik je její.",
+    "en": "In 1843 Ada Lovelace translated an article on the Analytical Engine and added notes three times longer than the translation. Note G, with its Bernoulli-number calculation, is often called the first published program, though historians debate how much of it was hers."
+   }
+  },
+  {
+   "id": "T031-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Šifru kterého německého stroje pomáhal Alan Turing za druhé světové války prolomit?",
+    "en": "Which German machine's cipher did Alan Turing help to break during the Second World War?"
+   },
+   "moznosti": {
+    "cs": [
+     "SIGABA",
+     "Purple",
+     "Typex",
+     "Enigma"
+    ],
+    "en": [
+     "SIGABA",
+     "Purple",
+     "Typex",
+     "Enigma"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Turing vedl v Bletchley Parku oddělení Hut 8 pro německé námořní šifry a navrhl elektromechanický stroj bombe, vylepšenou verzi polské „bomby“, který hledal nastavení Enigmy. Purple byl japonský stroj, Typex britský a SIGABA americký.",
+    "en": "At Bletchley Park Turing led Hut 8, which worked on German naval ciphers, and designed the electromechanical bombe, an improved version of the Polish bomba, which searched for Enigma settings. Purple was Japanese, Typex British and SIGABA American."
+   }
+  },
+  {
+   "id": "T031-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém výzkumném středisku vytvořil Tim Berners-Lee World Wide Web?",
+    "en": "At which research centre did Tim Berners-Lee create the World Wide Web?"
+   },
+   "moznosti": {
+    "cs": [
+     "MIT",
+     "CERN",
+     "Bell Labs",
+     "NASA"
+    ],
+    "en": [
+     "MIT",
+     "CERN",
+     "Bell Labs",
+     "NASA"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Berners-Lee předložil návrh v CERN u Ženevy v březnu 1989 a do konce roku 1990 tam měl funkční prohlížeč i server. Celému internetu byl web zpřístupněn v srpnu 1991.",
+    "en": "Berners-Lee submitted his proposal at CERN near Geneva in March 1989 and had a working browser and server there by the end of 1990. The web was opened to the whole Internet in August 1991."
+   }
+  },
+  {
+   "id": "T031-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterou firmu založili roku 1975 Bill Gates a Paul Allen?",
+    "en": "Which company did Bill Gates and Paul Allen found in 1975?"
+   },
+   "moznosti": {
+    "cs": [
+     "Commodore",
+     "Microsoft",
+     "Hewlett-Packard",
+     "Atari"
+    ],
+    "en": [
+     "Commodore",
+     "Microsoft",
+     "Hewlett-Packard",
+     "Atari"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Microsoft vznikl 4. dubna 1975 v Albuquerque v Novém Mexiku. Prvním produktem byl interpret jazyka BASIC pro mikropočítač Altair 8800.",
+    "en": "Microsoft was founded on 4 April 1975 in Albuquerque, New Mexico. Its first product was a BASIC interpreter for the Altair 8800 microcomputer."
+   }
+  },
+  {
+   "id": "T031-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Podle čeho dostalo jméno rozložení klávesnice QWERTY?",
+    "en": "What is the QWERTY keyboard layout named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Podle telegrafního kódu, jímž se značilo písmeno Q",
+     "Podle iniciál vynálezců, kteří ho navrhli",
+     "Podle zkratky firmy, která psací stroj vyráběla",
+     "Podle prvních šesti písmen v horní řadě"
+    ],
+    "en": [
+     "The telegraph code used for the letter Q",
+     "The initials of the inventors who designed it",
+     "The abbreviation of the company that made the typewriter",
+     "The first six letters on the top row"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jméno tvoří prvních šest kláves horní řady písmen. Rozložení vzniklo v 70. letech 19. století pro psací stroj Christophera Lathama Sholese, který pak vyráběla firma Remington.",
+    "en": "The name comes from the first six keys of the top letter row. The layout was developed in the 1870s for Christopher Latham Sholes's typewriter, later produced by Remington."
+   }
+  },
+  {
+   "id": "T031-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co doslova znamená japonské slovo emoji?",
+    "en": "What does the Japanese word emoji literally mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Emoce",
+     "Obrázkový znak",
+     "Usměvavý obličej",
+     "Elektronická zpráva"
+    ],
+    "en": [
+     "Emotion",
+     "Picture character",
+     "Smiling face",
+     "Electronic message"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Slovo emoji je japonské: e znamená obrázek a moji znak. Podobnost s anglickým emotion je čistě náhodná.",
+    "en": "The word emoji is Japanese: e means picture and moji means character. Its resemblance to the English word emotion is purely coincidental."
+   }
+  },
+  {
+   "id": "T031-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "K čemu slouží CAPTCHA, například opisování zkreslených písmen nebo vybírání obrázků se semafory?",
+    "en": "What is a CAPTCHA, such as retyping distorted letters or picking images with traffic lights, used for?"
+   },
+   "moznosti": {
+    "cs": [
+     "K rozlišení člověka od počítačového programu",
+     "K ověření rychlosti připojení",
+     "K měření času stráveného na stránce",
+     "K zašifrování hesla"
+    ],
+    "en": [
+     "Telling a human apart from a computer program",
+     "Checking the connection speed",
+     "Measuring time spent on a page",
+     "Encrypting a password"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "CAPTCHA je test typu výzva–odpověď, který má odhalit roboty, třeba ty, kteří rozesílají spam nebo hromadně zakládají účty. Název vymysleli v roce 2003 Luis von Ahn a jeho kolegové.",
+    "en": "A CAPTCHA is a challenge-response test meant to catch bots, for example those sending spam or creating accounts en masse. The name was coined in 2003 by Luis von Ahn and colleagues."
+   }
+  },
+  {
+   "id": "T031-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaký hmyz našli roku 1947 v relé počítače Harvard Mark II, na kterém pracovala Grace Hopperová?",
+    "en": "What insect was found in 1947 in a relay of the Harvard Mark II computer that Grace Hopper worked on?"
+   },
+   "moznosti": {
+    "cs": [
+     "Můru",
+     "Švába",
+     "Mouchu",
+     "Komára"
+    ],
+    "en": [
+     "A moth",
+     "A cockroach",
+     "A fly",
+     "A mosquito"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Obsluha můru vylepila do provozního deníku s poznámkou „First actual case of bug being found“ (první skutečný případ nalezeného „brouka“). Šlo o vtip: slovo bug pro technickou závadu inženýři používali už v 19. století.",
+    "en": "The operators taped the moth into the logbook with the note \"First actual case of bug being found\". It was a pun: engineers had been calling technical faults bugs since the 19th century."
+   }
+  },
+  {
+   "id": "T031-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Z čeho je odvozeno jméno Google?",
+    "en": "What does the name Google come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z čísla googol (jednička a sto nul)",
+     "Ze zkratky slov Global Online Search",
+     "Ze jména psa jednoho ze zakladatelů",
+     "Z dětského žvatlání syna jednoho ze zakladatelů"
+    ],
+    "en": [
+     "The number googol (a one followed by a hundred zeros)",
+     "An abbreviation of Global Online Search",
+     "The name of one founder's dog",
+     "The babbling of one founder's son"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Google je zkomolenina slova googol, označení pro číslo 10 na sto. Mělo naznačovat, že vyhledávač má prohledávat obrovské množství stránek.",
+    "en": "Google is a misspelling of googol, the name for 10 to the power of 100. It was meant to signal that the search engine would index a huge number of pages."
+   }
+  },
+  {
+   "id": "T031-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaký text obsahovala první SMS, odeslaná v prosinci 1992?",
+    "en": "What did the first SMS, sent in December 1992, say?"
+   },
+   "moznosti": {
+    "cs": [
+     "Can you hear me?",
+     "Merry Christmas",
+     "Happy New Year",
+     "Hello world"
+    ],
+    "en": [
+     "Can you hear me?",
+     "Merry Christmas",
+     "Happy New Year",
+     "Hello world"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Inženýr Neil Papworth z firmy Sema Group ji 3. prosince 1992 poslal z počítače na mobilní telefon Richarda Jarvise ze společnosti Vodafone v její britské síti. Standardní SMS je dodnes omezena na 160 znaků.",
+    "en": "On 3 December 1992 engineer Neil Papworth of Sema Group sent it from a computer to the mobile phone of Richard Jarvis of Vodafone, over Vodafone's UK network. A standard SMS is still limited to 160 characters."
+   }
+  },
+  {
+   "id": "T031-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaké součástky tvořily základ počítače ENIAC, kterých obsahoval kolem 18 000?",
+    "en": "Which components formed the basis of the ENIAC computer, which contained around 18,000 of them?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tranzistory",
+     "Mikroprocesory",
+     "Integrované obvody",
+     "Elektronky"
+    ],
+    "en": [
+     "Transistors",
+     "Microprocessors",
+     "Integrated circuits",
+     "Vacuum tubes"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "ENIAC dokončený roku 1945 vážil kolem 27 tun a měl zhruba 5 milionů ručně pájených spojů. Programovalo ho šest žen, mezi nimi Jean Bartik a Betty Holberton.",
+    "en": "ENIAC, completed in 1945, weighed about 27 tonnes (30 short tons) and had some 5 million hand-soldered joints. It was programmed by six women, including Jean Bartik and Betty Holberton."
+   }
+  },
+  {
+   "id": "T031-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kde sestrojili roku 1947 první funkční tranzistor?",
+    "en": "Where was the first working transistor built in 1947?"
+   },
+   "moznosti": {
+    "cs": [
+     "V laboratořích IBM",
+     "V Bellových laboratořích",
+     "Ve firmě Philips",
+     "Na univerzitě MIT"
+    ],
+    "en": [
+     "At IBM's laboratories",
+     "At Bell Labs",
+     "At Philips",
+     "At MIT"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "První hrotový tranzistor sestrojili v prosinci 1947 v Bell Labs v New Jersey. Jeho tři vynálezci za něj roku 1956 dostali Nobelovu cenu za fyziku.",
+    "en": "The first point-contact transistor was built at Bell Labs in New Jersey in December 1947. Its three inventors shared the 1956 Nobel Prize in Physics for it."
+   }
+  },
+  {
+   "id": "T031-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co se podle Mooreova zákona zhruba každé dva roky zdvojnásobí?",
+    "en": "According to Moore's law, what roughly doubles about every two years?"
+   },
+   "moznosti": {
+    "cs": [
+     "Počet tranzistorů na integrovaném obvodu",
+     "Počet webových stránek",
+     "Rychlost připojení k internetu",
+     "Kapacita baterií v noteboocích"
+    ],
+    "en": [
+     "The number of transistors on an integrated circuit",
+     "The number of web pages",
+     "Internet connection speed",
+     "Laptop battery capacity"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Gordon Moore, pozdější spoluzakladatel Intelu, roku 1965 odhadoval zdvojnásobení každý rok a v roce 1975 odhad upravil na dva roky. Nejde o přírodní zákon, ale o pozorování trendu.",
+    "en": "Gordon Moore, later a co-founder of Intel, predicted a doubling every year in 1965 and revised it to every two years in 1975. It is an observed trend, not a law of nature."
+   }
+  },
+  {
+   "id": "T031-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co znamená havajské slovo wiki, podle něhož dostala jméno i Wikipedie?",
+    "en": "What does the Hawaiian word wiki, which also gave Wikipedia its name, mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Společně",
+     "Vědění",
+     "Rychle",
+     "Kniha"
+    ],
+    "en": [
+     "Together",
+     "Knowledge",
+     "Quick",
+     "Book"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ward Cunningham pojmenoval roku 1995 svou WikiWikiWeb podle autobusu Wiki Wiki Shuttle na letišti v Honolulu. Wikipedie, spuštěná v lednu 2001, spojuje slova wiki a encyklopedie.",
+    "en": "Ward Cunningham named his 1995 WikiWikiWeb after the Wiki Wiki Shuttle bus at Honolulu airport. Wikipedia, launched in January 2001, blends the words wiki and encyclopedia."
+   }
+  },
+  {
+   "id": "T031-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém roce byla založena firma Apple?",
+    "en": "In which year was Apple founded?"
+   },
+   "moznosti": {
+    "cs": [
+     "1972",
+     "1976",
+     "1980",
+     "1984"
+    ],
+    "en": [
+     "1972",
+     "1976",
+     "1980",
+     "1984"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Apple vznikl 1. dubna 1976. Založili ho Steve Jobs a Steve Wozniak spolu s třetím, méně známým společníkem.",
+    "en": "Apple was founded on 1 April 1976 by Steve Jobs and Steve Wozniak, together with a third, less famous partner."
+   }
+  },
+  {
+   "id": "T031-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na vzniku kterého programovacího jazyka se výrazně podílela Grace Hopperová?",
+    "en": "Which programming language did Grace Hopper play a major part in creating?"
+   },
+   "moznosti": {
+    "cs": [
+     "COBOL",
+     "Fortran",
+     "C",
+     "BASIC"
+    ],
+    "en": [
+     "COBOL",
+     "Fortran",
+     "C",
+     "BASIC"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hopperová vyvinula jazyk FLOW-MATIC, který silně ovlivnil COBOL, a podílela se na jeho vzniku v konsorciu CODASYL roku 1959. Z amerického námořnictva odešla roku 1986 v hodnosti kontradmirálky.",
+    "en": "Hopper developed FLOW-MATIC, which strongly influenced COBOL, and helped shape COBOL itself in the CODASYL consortium in 1959. She retired from the US Navy in 1986 as a rear admiral."
+   }
+  },
+  {
+   "id": "T031-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém roce bylo Československo oficiálně připojeno k internetu?",
+    "en": "In which year was Czechoslovakia officially connected to the Internet?"
+   },
+   "moznosti": {
+    "cs": [
+     "1989",
+     "1992",
+     "1995",
+     "1998"
+    ],
+    "en": [
+     "1989",
+     "1992",
+     "1995",
+     "1998"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Oficiální připojení proběhlo 13. února 1992 na ČVUT v Praze. Navázalo na linku výpočetního centra ČVUT do akademické sítě EARN, jejíž rychlost se toho roku zdvojnásobila a která byla rozdělena na dva kanály: jeden pro EARN a druhý pro internet.",
+    "en": "The official connection took place on 13 February 1992 at the Czech Technical University in Prague. It built on the university computing centre's link to the EARN academic network, whose speed was doubled that year and which was split into two channels: one for EARN and one for the Internet."
+   }
+  },
+  {
+   "id": "T031-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo roku 1996 založil český internetový portál Seznam.cz?",
+    "en": "Who founded the Czech internet portal Seznam.cz in 1996?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pavel Baudiš",
+     "Eduard Kučera",
+     "Ivo Lukačovič",
+     "Radim Jančura"
+    ],
+    "en": [
+     "Pavel Baudiš",
+     "Eduard Kučera",
+     "Ivo Lukačovič",
+     "Radim Jančura"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ivo Lukačovič prý začínal s úsporami 50 000 Kč. Seznam byl prvním českým internetovým katalogem a vyhledávačem a později z něj vyrostl velký internetový portál.",
+    "en": "Ivo Lukačovič reportedly started with savings of 50,000 Czech koruna. Seznam was the first Czech internet directory and search engine and later grew into a major web portal."
+   }
+  },
+  {
+   "id": "T031-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jméno kterého vědce se skrývá ve zkratce CAPTCHA?",
+    "en": "Which scientist's name is hidden in the acronym CAPTCHA?"
+   },
+   "moznosti": {
+    "cs": [
+     "Alana Turinga",
+     "Clauda Shannona",
+     "Johna von Neumanna",
+     "Charlese Babbage"
+    ],
+    "en": [
+     "Alan Turing",
+     "Claude Shannon",
+     "John von Neumann",
+     "Charles Babbage"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Písmena P a T ve zkratce CAPTCHA znamenají Public Turing, tedy veřejný Turingův test. Alan Turing svůj slavný test navrhl roku 1950 v článku Computing Machinery and Intelligence.",
+    "en": "The letters P and T in CAPTCHA stand for Public Turing, as in a public Turing test. Alan Turing proposed his famous test in 1950 in the paper Computing Machinery and Intelligence."
+   }
+  },
+  {
+   "id": "T031-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "O čem byla vůbec první webová stránka, zveřejněná v prosinci 1990?",
+    "en": "What was the world's first web page, published in December 1990, about?"
+   },
+   "moznosti": {
+    "cs": [
+     "O samotném projektu World Wide Web",
+     "O jídelním lístku podnikové jídelny",
+     "O předpovědi počasí na příští týden",
+     "O výsledcích fotbalové ligy"
+    ],
+    "en": [
+     "The World Wide Web project itself",
+     "A staff canteen menu",
+     "Next week's weather forecast",
+     "Football league results"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Stránky popisovaly samotný projekt: co je web a jak ho používat. Zveřejněny byly 20. prosince 1990.",
+    "en": "The pages described the project itself: what the web was and how to use it. They went online on 20 December 1990."
+   }
+  },
+  {
+   "id": "T031-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "První zpráva v síti ARPANET (1969) měla být příkaz, ale systém po dvou písmenech spadl. Jaký příkaz chtěl student Charley Kline napsat?",
+    "en": "The first message on ARPANET (1969) was meant to be a command, but the system crashed after two letters. Which command was student Charley Kline trying to type?"
+   },
+   "moznosti": {
+    "cs": [
+     "LOOK",
+     "LOAD",
+     "LOGIN",
+     "LOCK"
+    ],
+    "en": [
+     "LOOK",
+     "LOAD",
+     "LOGIN",
+     "LOCK"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Zpráva šla 29. října 1969 z UCLA do Stanfordského výzkumného institutu a prošla jen písmena LO. Asi o hodinu později se druhý pokus podařil.",
+    "en": "The message went from UCLA to the Stanford Research Institute on 29 October 1969, and only the letters LO got through. A second attempt about an hour later succeeded."
+   }
+  },
+  {
+   "id": "T031-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na počítači od které firmy běžel vůbec první webový server?",
+    "en": "Which company made the computer that ran the world's first web server?"
+   },
+   "moznosti": {
+    "cs": [
+     "Apple",
+     "Sun Microsystems",
+     "IBM",
+     "NeXT"
+    ],
+    "en": [
+     "Apple",
+     "Sun Microsystems",
+     "IBM",
+     "NeXT"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Berners-Lee na počítači NeXT napsal první prohlížeč a provozoval na něm i server. Firmu NeXT založil roku 1985 Steve Jobs poté, co odešel z Applu.",
+    "en": "Berners-Lee wrote the first browser on a NeXT computer and also used it as the server. NeXT was founded in 1985 by Steve Jobs after he left Apple."
+   }
+  },
+  {
+   "id": "T031-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Třetí zakladatel Applu Ronald Wayne svůj podíl ve firmě prodal. Jak dlouho po jejím založení to podle úředních záznamů bylo?",
+    "en": "Apple's third founder, Ronald Wayne, sold his stake in the company. According to official records, how long after it was founded did he do so?"
+   },
+   "moznosti": {
+    "cs": [
+     "Po 12 dnech",
+     "Po 6 měsících",
+     "Po 2 letech",
+     "Po 10 letech"
+    ],
+    "en": [
+     "After 12 days",
+     "After 6 months",
+     "After 2 years",
+     "After 10 years"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Podle úředních záznamů prodal Wayne svůj podíl Jobsovi a Wozniakovi 12 dní po založení firmy, a to za 800 dolarů.",
+    "en": "According to official records, Wayne sold his share back to Jobs and Wozniak 12 days after the company was founded, for 800 dollars."
+   }
+  },
+  {
+   "id": "T031-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo už v dopise z roku 1878 označil drobné závady, které se objevují při vynalézání, slovem bugs?",
+    "en": "Who, in an 1878 letter, already used the word bugs for the small faults that crop up during invention?"
+   },
+   "moznosti": {
+    "cs": [
+     "Werner von Siemens",
+     "Nikola Tesla",
+     "Alexander Graham Bell",
+     "Thomas Edison"
+    ],
+    "en": [
+     "Werner von Siemens",
+     "Nikola Tesla",
+     "Alexander Graham Bell",
+     "Thomas Edison"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Edison v dopise ze 13. listopadu 1878 psal o „bugs“, které se ukážou, než je jasné, zda vynález uspěje. Slavný nález v počítači Harvard Mark II z roku 1947 tak byl spíš slovní hříčkou než původem výrazu.",
+    "en": "In a letter of 13 November 1878 Edison wrote of \"bugs\" that show up before it is clear whether an invention will succeed. The famous 1947 find in the Harvard Mark II was therefore more a pun than the origin of the term."
+   }
+  },
+  {
+   "id": "T031-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kterým strojem se Charles Babbage inspiroval, když navrhl zadávat svému analytickému stroji program na děrných štítcích?",
+    "en": "Which machine inspired Charles Babbage to feed programs to his Analytical Engine on punched cards?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mechanickou pianolou",
+     "Morseovým telegrafem",
+     "Jacquardovým stavem",
+     "Hrací skříňkou s válcem"
+    ],
+    "en": [
+     "The mechanical player piano",
+     "The Morse telegraph",
+     "The Jacquard loom",
+     "The cylinder music box"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jacquardův tkalcovský stav tkal složité vzory podle děrných štítků a Babbage tutéž techniku použil pro zadávání instrukcí a čísel. Analytický stroj popsaný roku 1837 ale nikdy nebyl dokončen.",
+    "en": "The Jacquard loom wove complex patterns controlled by punched cards, and Babbage used the same technique to enter instructions and numbers. The Analytical Engine, described in 1837, was never completed."
+   }
+  },
+  {
+   "id": "T031-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč Ray Tomlinson roku 1971 zvolil pro síťové e-mailové adresy znak @?",
+    "en": "Why did Ray Tomlinson choose the @ sign for network email addresses in 1971?"
+   },
+   "moznosti": {
+    "cs": [
+     "Svým tvarem připomínal logo sítě ARPANET",
+     "Byl na klávesnici terminálu nejblíž klávese Enter",
+     "Byl to jediný volný znak v tehdejším kódu ASCII",
+     "Nebyl ve jménech uživatelů a znamenal „u“ (at)"
+    ],
+    "en": [
+     "Its shape resembled the ARPANET logo",
+     "It was the key closest to Enter on his terminal",
+     "It was the only free character in ASCII at the time",
+     "It was not used in usernames and meant \"at\""
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Zápis uživatel@počítač odlišil adresu na jiném stroji od místního uživatelského jména. Znak @ se navíc nepoužíval ani v programování systému TENEX, takže nehrozila záměna.",
+    "en": "The form user@host distinguished an address on another machine from a local username. The @ sign was also unused in TENEX programming, so there was no risk of confusion."
+   }
+  },
+  {
+   "id": "T031-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Pro kterou firmu navrhl Šigetaka Kurita (Shigetaka Kurita) roku 1999 sadu 176 barevných emoji, dlouho považovanou za první?",
+    "en": "For which company did Shigetaka Kurita design a set of 176 colour emoji in 1999, long considered the first?"
+   },
+   "moznosti": {
+    "cs": [
+     "Toshiba",
+     "Nintendo",
+     "Sony",
+     "NTT DoCoMo"
+    ],
+    "en": [
+     "Toshiba",
+     "Nintendo",
+     "Sony",
+     "NTT DoCoMo"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kuritovy emoji vznikly pro mobilní službu i-mode. V roce 2019 se ale ukázalo, že už roku 1997 měl operátor SoftBank (J-Phone) v telefonu sadu 90 černobílých emoji. Dnes známe i starší sady z roku 1988, takže prvenství zůstává sporné.",
+    "en": "Kurita's emoji were created for the i-mode mobile service. In 2019, however, it emerged that the operator SoftBank (J-Phone) had already shipped a set of 90 monochrome emoji on a phone in 1997. Even older sets from 1988 are now known, so the question of the first remains disputed."
+   }
+  },
+  {
+   "id": "T031-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se jmenoval vyhledávací projekt Larryho Page a Sergeje Brina na Stanfordu, než dostal jméno Google?",
+    "en": "What was Larry Page and Sergey Brin's Stanford search project called before it was named Google?"
+   },
+   "moznosti": {
+    "cs": [
+     "WebCrawler",
+     "PageFinder",
+     "BackRub",
+     "LinkSeeker"
+    ],
+    "en": [
+     "WebCrawler",
+     "PageFinder",
+     "BackRub",
+     "LinkSeeker"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Projekt z roku 1996 sledoval zpětné odkazy (backlinks), tedy které stránky odkazují na danou stránku. WebCrawler byl samostatný konkurenční vyhledávač.",
+    "en": "The 1996 project tracked backlinks, meaning which pages link to a given page. WebCrawler was a separate, rival search engine."
+   }
+  },
+  {
+   "id": "T031-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jeden ze tří vynálezců tranzistoru je jediným člověkem, který dostal Nobelovu cenu za fyziku dvakrát. Kdo to je?",
+    "en": "One of the three inventors of the transistor is the only person to have won the Nobel Prize in Physics twice. Who is it?"
+   },
+   "moznosti": {
+    "cs": [
+     "William Shockley",
+     "Gordon Moore",
+     "John Bardeen",
+     "Walter Brattain"
+    ],
+    "en": [
+     "William Shockley",
+     "Gordon Moore",
+     "John Bardeen",
+     "Walter Brattain"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Bardeen dostal cenu roku 1956 za tranzistor a roku 1972 za BCS teorii supravodivosti, kterou vypracoval s Leonem Cooperem a Johnem Robertem Schriefferem.",
+    "en": "Bardeen won in 1956 for the transistor and in 1972 for the BCS theory of superconductivity, developed with Leon Cooper and John Robert Schrieffer."
+   }
+  },
+  {
+   "id": "T031-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak podle Raye Tomlinsona nejspíš zněl jeho první testovací síťový e-mail z roku 1971?",
+    "en": "According to Ray Tomlinson, what did his first test network email of 1971 most likely say?"
+   },
+   "moznosti": {
+    "cs": [
+     "What hath God wrought",
+     "Mr. Watson, come here",
+     "Náhodná písmena",
+     "Hello, world"
+    ],
+    "en": [
+     "What hath God wrought",
+     "Mr. Watson, come here",
+     "Random letters",
+     "Hello, world"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Text se nedochoval. Tomlinson řekl, že testovací zprávy byly „naprosto zapomenutelné“, a tak je zapomněl; nejspíš šlo o náhodnou řadu písmen. Poslal je mezi dvěma počítači, které stály vedle sebe.",
+    "en": "The text was not preserved. Tomlinson said the test messages were \"entirely forgettable\" and that he had therefore forgotten them; most likely they were a random string of letters. He sent them between two computers placed side by side."
+   }
+  }
+ ]
+}

@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T024",
+ "nazev": {
+  "cs": "Sopky a zemětřesení",
+  "en": "Volcanoes and Earthquakes"
+ },
+ "kategorie": {
+  "id": "zemepis",
+  "nazev": {
+   "cs": "Zeměpis",
+   "en": "Geography"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T024-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které starověké římské město zasypal v roce 79 n. l. výbuch Vesuvu?",
+    "en": "Which ancient Roman town was buried by the eruption of Vesuvius in AD 79?"
+   },
+   "moznosti": {
+    "cs": [
+     "Syrakusy",
+     "Pompeje",
+     "Ostia",
+     "Paestum"
+    ],
+    "en": [
+     "Syracuse",
+     "Pompeii",
+     "Ostia",
+     "Paestum"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Kromě Pompejí zanikly i Herculaneum, Oplontis a Stabie. Popel a sopečný materiál města zakonzervovaly tak dobře, že dnes ukazují všední život Římanů.",
+    "en": "Besides Pompeii, Herculaneum, Oplontis and Stabiae were also destroyed. Ash and volcanic debris preserved the towns so well that they now show everyday Roman life."
+   }
+  },
+  {
+   "id": "T024-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá roztavená hornina, dokud je ještě pod zemským povrchem?",
+    "en": "What is molten rock called while it is still beneath the Earth's surface?"
+   },
+   "moznosti": {
+    "cs": [
+     "Magma",
+     "Čedič",
+     "Pemza",
+     "Láva"
+    ],
+    "en": [
+     "Magma",
+     "Basalt",
+     "Pumice",
+     "Lava"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Láva se magmatu říká až poté, co vyteče na povrch. Tam chladne mnohem rychleji, a proto v ní zůstávají jen drobné krystaly.",
+    "en": "Magma is only called lava once it is extruded onto the surface. There it cools much faster, so its crystals stay small."
+   }
+  },
+  {
+   "id": "T024-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolem kterého oceánu se táhne pás sopek a zemětřesení zvaný Ohnivý kruh?",
+    "en": "Which ocean is encircled by the belt of volcanoes and earthquakes known as the Ring of Fire?"
+   },
+   "moznosti": {
+    "cs": [
+     "Indického",
+     "Atlantského",
+     "Severního ledového",
+     "Tichého"
+    ],
+    "en": [
+     "The Indian",
+     "The Atlantic",
+     "The Arctic",
+     "The Pacific"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Ohnivý kruh obepíná většinu Tichého oceánu podél okrajů litosférických desek. Leží v něm zhruba dvě třetiny sopek světa.",
+    "en": "The Ring of Fire encircles most of the Pacific Ocean along tectonic plate boundaries. It holds about two-thirds of the world's volcanoes."
+   }
+  },
+  {
+   "id": "T024-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co vyjadřuje Richterova škála?",
+    "en": "What does the Richter scale express?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rychlost větru",
+     "Výšku mořských vln",
+     "Teplotu lávy",
+     "Sílu zemětřesení"
+    ],
+    "en": [
+     "Wind speed",
+     "The height of sea waves",
+     "The temperature of lava",
+     "The strength of an earthquake"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Škálu představil Charles Richter ve spolupráci s Beno Gutenbergem v roce 1935. Je logaritmická, takže každý stupeň navíc znamená mnohem silnější otřes.",
+    "en": "Charles Richter presented the scale in 1935, in collaboration with Beno Gutenberg. It is logarithmic, so each extra step means a much stronger quake."
+   }
+  },
+  {
+   "id": "T024-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá přístroj, který zaznamenává otřesy půdy při zemětřesení?",
+    "en": "What is the instrument that records ground shaking during an earthquake called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Barograf",
+     "Anemometr",
+     "Hygrometr",
+     "Seismograf"
+    ],
+    "en": [
+     "Barograph",
+     "Anemometer",
+     "Hygrometer",
+     "Seismograph"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Seismograf vytváří souvislý záznam pohybu půdy zvaný seismogram. Dříve se kreslil na papír nebo film, dnes se ukládá digitálně.",
+    "en": "A seismograph produces a continuous record of ground motion called a seismogram. It used to be drawn on paper or film; today it is stored digitally."
+   }
+  },
+  {
+   "id": "T024-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém oceánu vyvolalo zemětřesení 26. prosince 2004 ničivou tsunami?",
+    "en": "In which ocean did the earthquake of 26 December 2004 trigger a devastating tsunami?"
+   },
+   "moznosti": {
+    "cs": [
+     "Severním ledovém",
+     "Indickém",
+     "Atlantském",
+     "Tichém"
+    ],
+    "en": [
+     "The Arctic",
+     "The Indian",
+     "The Atlantic",
+     "The Pacific"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Tsunami si vyžádala kolem 228 000 obětí. Nejhůř byla zasažena Indonésie, ale vlny dorazily až k pobřeží Afriky, například do Somálska a Keni.",
+    "en": "The tsunami killed about 228,000 people. Indonesia was hit hardest, but the waves reached as far as Africa, including Somalia and Kenya."
+   }
+  },
+  {
+   "id": "T024-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi udeřilo 11. března 2011 zemětřesení o magnitudě 9,0–9,1, po němž tsunami poškodila jadernou elektrárnu?",
+    "en": "In which country did a magnitude 9.0–9.1 earthquake strike on 11 March 2011, after which a tsunami damaged a nuclear power plant?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Japonsku",
+     "V Indonésii",
+     "Na Filipínách",
+     "V Jižní Koreji"
+    ],
+    "en": [
+     "Japan",
+     "Indonesia",
+     "The Philippines",
+     "South Korea"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Zemětřesení Tóhoku vyvolalo tsunami, která způsobila havárii elektrárny Fukušima I s roztavením tří reaktorů. Otřes byl nejprve odhadnut na magnitudu 7,9 a později zvýšen.",
+    "en": "The Tōhoku earthquake triggered a tsunami that caused the Fukushima Daiichi disaster, with meltdowns in three reactors. The quake was first reported as magnitude 7.9 and later upgraded."
+   }
+  },
+  {
+   "id": "T024-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Slovo vulkán je přes italský ostrov Vulcano odvozeno od jména římského boha. Čeho byl tento bůh vládcem?",
+    "en": "The word volcano comes, via the Italian island of Vulcano, from the name of a Roman god. What was this god the ruler of?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ohně",
+     "Obchodu",
+     "Války",
+     "Moře"
+    ],
+    "en": [
+     "Fire",
+     "Trade",
+     "War",
+     "The sea"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vulkán (Vulcanus) byl římský bůh ohně. Ostrov Vulcano patří k Liparským ostrovům a anglické slovo volcano je doloženo od počátku 17. století.",
+    "en": "Vulcan (Vulcanus) was the Roman god of fire. Vulcano is one of the Aeolian Islands, and the English word volcano dates from the early 17th century."
+   }
+  },
+  {
+   "id": "T024-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která sopečná hornina je tak pórovitá, že často plave na vodě?",
+    "en": "Which volcanic rock is so porous that it often floats on water?"
+   },
+   "moznosti": {
+    "cs": [
+     "Obsidián",
+     "Pemza",
+     "Andezit",
+     "Čedič"
+    ],
+    "en": [
+     "Obsidian",
+     "Pumice",
+     "Andesite",
+     "Basalt"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Bublinky plynu tvoří 64–85 % objemu pemzy, takže bývá lehčí než voda. Po výbuchu Krakatoy v roce 1883 pluly „vory“ pemzy Indickým oceánem až 20 let.",
+    "en": "Gas bubbles make up 64–85% of pumice's volume, so it is often lighter than water. After Krakatoa erupted in 1883, pumice rafts drifted across the Indian Ocean for up to 20 years."
+   }
+  },
+  {
+   "id": "T024-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na kterém ostrově leží sopka Etna?",
+    "en": "On which island does Mount Etna stand?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sardinie",
+     "Sicílie",
+     "Korsika",
+     "Kréta"
+    ],
+    "en": [
+     "Sardinia",
+     "Sicily",
+     "Corsica",
+     "Crete"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Etna leží na východním pobřeží Sicílie a patří k nejaktivnějším sopkám světa. V roce 2013 byla zapsána na seznam světového dědictví UNESCO.",
+    "en": "Etna stands on the east coast of Sicily and is one of the world's most active volcanoes. In 2013 it was added to the UNESCO World Heritage List."
+   }
+  },
+  {
+   "id": "T024-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo je autorem dopisů, které jsou nejznámějším očitým svědectvím o výbuchu Vesuvu v roce 79?",
+    "en": "Who wrote the letters that are the best-known eyewitness account of the eruption of Vesuvius in AD 79?"
+   },
+   "moznosti": {
+    "cs": [
+     "Seneca",
+     "Tacitus",
+     "Suetonius",
+     "Plinius mladší"
+    ],
+    "en": [
+     "Seneca",
+     "Tacitus",
+     "Suetonius",
+     "Pliny the Younger"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Plinius mladší sledoval erupci z Misena a asi o 25 let později ji popsal ve dvou dopisech historikovi Tacitovi. Jeho strýc Plinius starší při výbuchu zahynul.",
+    "en": "Pliny the Younger watched the eruption from Misenum and described it some 25 years later in two letters to the historian Tacitus. His uncle, Pliny the Elder, died in the eruption."
+   }
+  },
+  {
+   "id": "T024-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Výbuch které indonéské sopky v roce 1815 ochladil podnebí natolik, že rok 1816 vešel do dějin jako „rok bez léta“?",
+    "en": "The eruption of which Indonesian volcano in 1815 cooled the climate so much that 1816 went down in history as the \"Year Without a Summer\"?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tambora",
+     "Merapi",
+     "Krakatoa",
+     "Agung"
+    ],
+    "en": [
+     "Tambora",
+     "Merapi",
+     "Krakatoa",
+     "Agung"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Erupce Tambory na ostrově Sumbawa je považována za nejsilnější výbuch sopky v zaznamenané historii. Následné ochlazení způsobilo neúrody v mnoha částech světa.",
+    "en": "The eruption of Tambora on Sumbawa is considered the most powerful volcanic eruption in recorded history. The cooling that followed caused harvest failures in many parts of the world."
+   }
+  },
+  {
+   "id": "T024-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co způsobilo většinu z nejméně 36 000 obětí výbuchu Krakatoy v roce 1883?",
+    "en": "What caused most of the at least 36,000 deaths from the 1883 eruption of Krakatoa?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jedovaté plyny",
+     "Vlny tsunami",
+     "Následný hladomor",
+     "Lávové proudy"
+    ],
+    "en": [
+     "Poisonous gases",
+     "Tsunami waves",
+     "The famine that followed",
+     "Lava flows"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Krakatoa leží v Sundském průlivu mezi Jávou a Sumatrou a vlny tsunami zpustošily pobřeží obou ostrovů. Pyroklastické proudy způsobily asi 10 % úmrtí.",
+    "en": "Krakatoa lies in the Sunda Strait between Java and Sumatra, and the tsunamis devastated the coasts of both islands. Pyroclastic flows caused about 10% of the deaths."
+   }
+  },
+  {
+   "id": "T024-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které zemětřesení je považováno za nejsilnější přístrojově zaznamenané?",
+    "en": "Which earthquake is considered the strongest ever recorded by instruments?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kamčatka 1952",
+     "Aljaška 1964",
+     "Sumatra 2004",
+     "Valdivia (Chile) 1960"
+    ],
+    "en": [
+     "Kamchatka, 1952",
+     "Alaska, 1964",
+     "Sumatra, 2004",
+     "Valdivia (Chile), 1960"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Většina studií uvádí pro chilské zemětřesení z 22. května 1960 magnitudu 9,4–9,6. Jím vyvolaná tsunami zabíjela i na Havaji a v Japonsku.",
+    "en": "Most studies put the Chilean earthquake of 22 May 1960 at magnitude 9.4–9.6. The tsunami it generated also killed people in Hawaii and Japan."
+   }
+  },
+  {
+   "id": "T024-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která hora je některými autoritami označována za nejvyšší na Zemi, pokud ji měříme od úpatí na mořském dně?",
+    "en": "Which mountain is described by some authorities as the tallest on Earth when measured from its base on the ocean floor?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kilimandžáro",
+     "Denali",
+     "Mauna Kea",
+     "Mount Everest"
+    ],
+    "en": [
+     "Kilimanjaro",
+     "Denali",
+     "Mauna Kea",
+     "Mount Everest"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Havajská sopka Mauna Kea se zvedá jen 4 207 m nad hladinu moře, ale nad okolním mořským dnem se tyčí asi 9 330 m. Everest je nejvyšší podle nadmořské výšky, ne podle výšky od úpatí.",
+    "en": "The Hawaiian volcano Mauna Kea rises only 4,207 m (13,802 ft) above sea level, but about 9,330 m (30,600 ft) above the surrounding seafloor. Everest is the highest by elevation, not by base-to-peak height."
+   }
+  },
+  {
+   "id": "T024-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co je lahar?",
+    "en": "What is a lahar?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bahnotok ze sopečného materiálu a vody",
+     "Proud řídké čedičové lávy",
+     "Výron oxidu uhličitého z půdy",
+     "Žhavé mračno sopečných plynů"
+    ],
+    "en": [
+     "A mudflow of volcanic debris and water",
+     "A stream of runny basaltic lava",
+     "An escape of carbon dioxide from the ground",
+     "A glowing cloud of volcanic gases"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Slovo pochází z jávštiny. V roce 1985 lahary ze sopky Nevado del Ruiz pohřbily kolumbijské město Armero a zahynulo v něm přes 20 000 z necelých 29 000 obyvatel.",
+    "en": "The word comes from Javanese. In 1985, lahars from Nevado del Ruiz buried the Colombian town of Armero, killing more than 20,000 of its almost 29,000 inhabitants."
+   }
+  },
+  {
+   "id": "T024-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se nazývá rychlý proud žhavých plynů a sopečného materiálu, který se valí po svahu sopky?",
+    "en": "What is the fast-moving current of hot gas and volcanic matter that rushes down a volcano's slope called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pyroklastický proud",
+     "Fumarola",
+     "Sopečná bomba",
+     "Lávový proud"
+    ],
+    "en": [
+     "Pyroclastic flow",
+     "Fumarole",
+     "Volcanic bomb",
+     "Lava flow"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pyroklastický proud se řítí obvykle kolem 100 km/h, výjimečně až 700 km/h, a jeho teplota bývá 200–700 °C. Patří k nejsmrtelnějším sopečným jevům.",
+    "en": "A pyroclastic flow typically moves at around 100 km/h (62 mph), exceptionally up to 700 km/h (435 mph), at temperatures of 200–700 °C (392–1,292 °F). It is among the deadliest volcanic hazards."
+   }
+  },
+  {
+   "id": "T024-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaký podíl zemětřesení na světě zhruba připadá na pás zvaný Ohnivý kruh?",
+    "en": "Roughly what share of the world's earthquakes occur in the belt known as the Ring of Fire?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 10 %",
+     "Asi 30 %",
+     "Asi 60 %",
+     "Asi 90 %"
+    ],
+    "en": [
+     "About 10%",
+     "About 30%",
+     "About 60%",
+     "About 90%"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Na Ohnivý kruh připadá asi 90 % zemětřesení světa. Desky se tu podsouvají pod sebe, což vede k silným otřesům i sopečné činnosti.",
+    "en": "About 90% of the world's earthquakes occur in the Ring of Fire. Plates here dive beneath one another, causing strong quakes as well as volcanism."
+   }
+  },
+  {
+   "id": "T024-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Česká hora Říp, z níž podle pověsti shlížel na zemi praotec Čech, je pozůstatkem čeho?",
+    "en": "The Czech hill of Říp, from which Forefather Čech surveyed the land according to legend, is the remnant of what?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dopadu meteoritu",
+     "Prvohorního korálového útesu",
+     "Třetihorní sopky",
+     "Ledovcové morény"
+    ],
+    "en": [
+     "A meteorite impact",
+     "A Palaeozoic coral reef",
+     "A Tertiary volcano",
+     "A glacial moraine"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Říp je erozí obnažený zbytek třetihorní sopky z oligocénu. Hornina obsahuje magnetit, který místy vychyluje střelku kompasu.",
+    "en": "Říp is the eroded remnant of a Tertiary volcano from the Oligocene. Its rock contains magnetite, which can deflect a compass needle."
+   }
+  },
+  {
+   "id": "T024-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "V pohraničí západních Čech a saského Vogtlandu se opakují série mnoha otřesů, mezi nimiž chybí jasný hlavní otřes. Jak se tento jev nazývá?",
+    "en": "In the border area of western Bohemia and the Saxon Vogtland, series of many tremors recur with no clear main shock. What is this phenomenon called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dotřesy",
+     "Předtřesy",
+     "Sopečný tremor",
+     "Zemětřesný roj"
+    ],
+    "en": [
+     "Aftershocks",
+     "Foreshocks",
+     "Volcanic tremor",
+     "Earthquake swarm"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Právě v této oblasti se zemětřesné roje začaly vědecky zkoumat. Výrazný roj proběhl například v říjnu 2008 u Nového Kostela na Chebsku.",
+    "en": "Earthquake swarms were first studied in this very region. A notable swarm occurred, for example, in October 2008 near Nový Kostel in the Cheb district."
+   }
+  },
+  {
+   "id": "T024-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na podnět J. W. Goetha byly do vrchu Komorní hůrka u Chebu vyraženy průzkumné štoly, dokončené roku 1837. Ve prospěch které teorie o vzniku hornin rozhodly?",
+    "en": "At J. W. Goethe's urging, exploratory adits were dug into the Komorní hůrka hill near Cheb and completed in 1837. Which theory of rock formation did they decide in favour of?"
+   },
+   "moznosti": {
+    "cs": [
+     "Katastrofismu",
+     "Teorie kontinentálního driftu",
+     "Plutonismu",
+     "Neptunismu"
+    ],
+    "en": [
+     "Catastrophism",
+     "Continental drift theory",
+     "Plutonism",
+     "Neptunism"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Štoly potvrdily sopečný původ hůrky, a tím i plutonisty, podle nichž horniny vznikly z ohně, proti neptunistům, kteří je odvozovali z krystalizace v pravěkém oceánu. Štolu nechal vyrazit hrabě Sternberg na základě dřívějšího slibu Goethovi.",
+    "en": "The adits confirmed the hill's volcanic origin and thus the plutonists, who held that rocks formed in fire, against the neptunists, who derived them from crystallisation in the early oceans. Count Sternberg had the adit dug on the basis of an earlier promise to Goethe."
+   }
+  },
+  {
+   "id": "T024-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Výbuch Krakatoy v roce 1883 byl slyšet až na ostrově Rodrigues nedaleko Mauricia. Jak daleko to od sopky zhruba je?",
+    "en": "The 1883 eruption of Krakatoa was heard as far away as the island of Rodrigues near Mauritius. Roughly how far is that from the volcano?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 480 km",
+     "Asi 1 500 km",
+     "Asi 4 800 km",
+     "Asi 15 000 km"
+    ],
+    "en": [
+     "About 480 km (300 mi)",
+     "About 1,500 km (930 mi)",
+     "About 4,800 km (3,000 mi)",
+     "About 15,000 km (9,300 mi)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Rodrigues leží v Indickém oceánu asi 4 800 km od Krakatoy. Výbuch tak byl slyšet přes velkou část oceánu.",
+    "en": "Rodrigues lies in the Indian Ocean about 4,800 km (3,000 mi) from Krakatoa. The explosion was thus heard across much of the ocean."
+   }
+  },
+  {
+   "id": "T024-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolikrát víc energie zhruba uvolní zemětřesení o magnitudě 7 než zemětřesení o magnitudě 6?",
+    "en": "Roughly how many times more energy does a magnitude 7 earthquake release than a magnitude 6 one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 2krát",
+     "Asi 10krát",
+     "Asi 32krát",
+     "Asi 100krát"
+    ],
+    "en": [
+     "About 2 times",
+     "About 10 times",
+     "About 32 times",
+     "About 100 times"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Každý celý stupeň magnitudy znamená asi 31,6krát víc uvolněné energie. Rozdíl dvou stupňů tedy odpovídá zhruba tisícinásobku.",
+    "en": "Each whole step in magnitude means about 31.6 times more energy released. A difference of two steps therefore corresponds to roughly a thousandfold increase."
+   }
+  },
+  {
+   "id": "T024-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč se síla velkých zemětřesení dnes neudává původní magnitudovou škálou z roku 1935, ale momentovou magnitudou (Mw)?",
+    "en": "Why is the strength of large earthquakes now given by moment magnitude (Mw) rather than the original 1935 magnitude scale?"
+   },
+   "moznosti": {
+    "cs": [
+     "Původní škálou nelze měřit otřesy pod mořským dnem",
+     "Původní škála u silných otřesů saturuje a podhodnocuje je",
+     "Původní škála hodnotí jen škody na budovách",
+     "Původní škála vychází jen z délky trvání otřesů"
+    ],
+    "en": [
+     "The original scale cannot measure quakes under the seabed",
+     "The original scale saturates and underestimates strong quakes",
+     "The original scale only rates damage to buildings",
+     "The original scale is based only on how long shaking lasts"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Původní škála, dnes označovaná jako lokální magnituda (ML), má efektivní horní mez měření zhruba u magnitudy 7. Momentová magnituda (Mw; Hanks a Kanamori, 1979) vychází z plochy zlomu, velikosti posunu a tuhosti hornin, a proto nesaturuje.",
+    "en": "The original scale, now known as local magnitude (ML), has an effective upper limit of about magnitude 7. Moment magnitude (Mw; Hanks and Kanamori, 1979) is based on the fault area, the amount of slip and the rigidity of the rock, so it does not saturate."
+   }
+  },
+  {
+   "id": "T024-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Které město na ostrově Martinik zničil v roce 1902 žhavý pyroklastický proud ze sopky Mont Pelée?",
+    "en": "Which town on Martinique was destroyed in 1902 by a scorching pyroclastic current from Mount Pelée?"
+   },
+   "moznosti": {
+    "cs": [
+     "Le Lamentin",
+     "Saint-Pierre",
+     "Fort-de-France",
+     "La Trinité"
+    ],
+    "en": [
+     "Le Lamentin",
+     "Saint-Pierre",
+     "Fort-de-France",
+     "La Trinité"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Zahynuli téměř všichni z asi 28 000 obyvatel města, šlo o nejsmrtelnější erupci 20. století. Mezi několika málo přeživšími byl vězeň, kterého ochránila cela bez oken.",
+    "en": "Almost all of the town's roughly 28,000 inhabitants died, making it the deadliest eruption of the 20th century. Among the very few survivors was a prisoner shielded by his windowless cell."
+   }
+  },
+  {
+   "id": "T024-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím je výjimečná Vila papyrů v Herculaneu, kterou zasypal výbuch Vesuvu?",
+    "en": "What makes the Villa of the Papyri in Herculaneum, buried by Vesuvius, exceptional?"
+   },
+   "moznosti": {
+    "cs": [
+     "Byla v ní největší římská dílna na výrobu papyru",
+     "Našel se v ní nejstarší papyrus s mapou světa",
+     "Ukrývala největší poklad římských mincí",
+     "Zachovala se v ní jediná celá antická knihovna"
+    ],
+    "en": [
+     "It housed the largest Roman workshop making papyrus",
+     "The oldest papyrus map of the world was found there",
+     "It hid the largest hoard of Roman coins",
+     "It preserved the only intact library from antiquity"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jde o jedinou knihovnu řecko-římského světa, která se dochovala celá. Přes 1 800 svitků papyru žár zuhelnatil, a tím je zároveň zakonzervoval.",
+    "en": "It is the only library from the Graeco-Roman world to survive in its entirety. The heat charred over 1,800 papyrus scrolls, which at the same time preserved them."
+   }
+  },
+  {
+   "id": "T024-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Před jakou dobou zhruba proběhla zatím poslední supererupce v Yellowstonu?",
+    "en": "Roughly how long ago did the most recent supereruption at Yellowstone take place?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi před 6 000 lety",
+     "Asi před 60 000 lety",
+     "Asi před 630 000 lety",
+     "Asi před 6 miliony let"
+    ],
+    "en": [
+     "About 6,000 years ago",
+     "About 60,000 years ago",
+     "About 630,000 years ago",
+     "About 6 million years ago"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Poslední supererupce proběhla asi před 631 000 lety a vytvořila vrstvu tufu zvanou Lava Creek Tuff. Menší lávové výlevy tu pokračovaly i potom.",
+    "en": "The most recent supereruption happened about 631,000 years ago and produced the Lava Creek Tuff. Smaller lava eruptions continued afterwards."
+   }
+  },
+  {
+   "id": "T024-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který slavný román začal vznikat v deštivém létě 1816 u Ženevského jezera, kdy chladné počasí po velkém sopečném výbuchu drželo skupinu přátel uvnitř?",
+    "en": "Which famous novel was begun in the rainy summer of 1816 by Lake Geneva, when the cold weather after a major volcanic eruption kept a group of friends indoors?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mnich",
+     "Frankenstein",
+     "Drákula",
+     "Podivný případ dr. Jekylla a pana Hyda"
+    ],
+    "en": [
+     "The Monk",
+     "Frankenstein",
+     "Dracula",
+     "Strange Case of Dr Jekyll and Mr Hyde"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Lord Byron ve Vile Diodati navrhl soutěž o nejstrašidelnější příběh a Mary Shelleyová napsala Frankensteina. Z Byronova fragmentu později vznikla Polidoriho povídka Upír (The Vampyre), raný předchůdce Drákuly.",
+    "en": "At the Villa Diodati, Lord Byron proposed a contest to write the scariest story, and Mary Shelley wrote Frankenstein. Byron's fragment later became Polidori's The Vampyre, an early ancestor of Dracula."
+   }
+  },
+  {
+   "id": "T024-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Doupovské hory v západních Čechách jsou pozůstatkem čeho?",
+    "en": "The Doupov Mountains in western Bohemia are the remnant of what?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pískovcové tabule křídového moře",
+     "Rozsáhlého stratovulkánu",
+     "Žulového tělesa obnaženého erozí",
+     "Kry vyzdvižené při alpínském vrásnění"
+    ],
+    "en": [
+     "A sandstone plateau of a Cretaceous sea",
+     "A large stratovolcano",
+     "A granite body exposed by erosion",
+     "A block uplifted during the Alpine folding"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Doupovské hory jsou sopečné pohoří se stavbou stratovulkánu, jehož střed ležel v místě zaniklého města Doupov. Od roku 1953 slouží oblast jako vojenský výcvikový prostor.",
+    "en": "The Doupov Mountains are a volcanic range with the structure of a stratovolcano whose centre lay at the site of the vanished town of Doupov. Since 1953 the area has served as a military training ground."
+   }
+  },
+  {
+   "id": "T024-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "O kolik se podle odhadů posunula Země na své ose při velkém zemětřesení 11. března 2011?",
+    "en": "According to estimates, by how much did the great earthquake of 11 March 2011 shift the Earth on its axis?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi o 1–2,5 mm",
+     "Asi o 1–2,5 cm",
+     "Asi o 10–25 cm",
+     "Asi o 1–2,5 m"
+    ],
+    "en": [
+     "About 1–2.5 mm (0.04–0.1 in)",
+     "About 1–2.5 cm (0.4–1 in)",
+     "About 10–25 cm (4–10 in)",
+     "About 1–2.5 m (3.3–8.2 ft)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Odhady posunu Země na ose se pohybují mezi 10 a 25 cm. Otřes zároveň zkrátil den o 1,8 mikrosekundy.",
+    "en": "Estimates of the shift of the Earth on its axis range from 10 to 25 cm (4 to 10 in). The quake also shortened the day by 1.8 microseconds."
+   }
+  }
+ ]
+}

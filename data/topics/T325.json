@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T325",
+ "nazev": {
+  "cs": "Elektronická hudba: syntezátory, DJové a techno",
+  "en": "Electronic Music: Synthesizers, DJs and Techno"
+ },
+ "kategorie": {
+  "id": "hudba",
+  "nazev": {
+   "cs": "Hudba",
+   "en": "Music"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T325-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která německá skupina z Düsseldorfu, známá albem Autobahn (1974) a vystupováním v roli „robotů“, je považována za průkopníky elektronického popu?",
+    "en": "Which German band from Düsseldorf, known for the album Autobahn (1974) and for performing as “robots”, is regarded as a pioneer of electronic pop?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rammstein",
+     "Tangerine Dream",
+     "Kraftwerk",
+     "Scorpions"
+    ],
+    "en": [
+     "Rammstein",
+     "Tangerine Dream",
+     "Kraftwerk",
+     "Scorpions"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kraftwerk založili v roce 1970 v Düsseldorfu Ralf Hütter a Florian Schneider. Svou hudbu nazývali „robotí pop“ a při skladbě The Robots stavěli na pódium figuríny sebe samých.",
+    "en": "Kraftwerk were founded in Düsseldorf in 1970 by Ralf Hütter and Florian Schneider. They called their music “robot pop”, and during The Robots they placed mannequins of themselves on stage."
+   }
+  },
+  {
+   "id": "T325-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co znamená zkratka DJ?",
+    "en": "What does the abbreviation DJ stand for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dance judge",
+     "Digital jockey",
+     "Disco junior",
+     "Disc jockey"
+    ],
+    "en": [
+     "Dance judge",
+     "Digital jockey",
+     "Disco junior",
+     "Disc jockey"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "DJ je disc jockey – „disc“ původně označovalo gramofonovou desku. Výraz údajně vymyslel v roce 1935 americký rozhlasový komentátor Walter Winchell pro moderátora Martina Blocka, který v rádiu pouštěl desky.",
+    "en": "DJ stands for disc jockey – “disc” originally meant a gramophone record. The term was reportedly coined in 1935 by American radio commentator Walter Winchell for host Martin Block, who played records on the radio."
+   }
+  },
+  {
+   "id": "T325-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ze které země pochází duo Daft Punk, jehož členové vystupovali v robotických helmách?",
+    "en": "Which country does the duo Daft Punk, whose members performed in robot helmets, come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Německo",
+     "Francie",
+     "Belgie",
+     "Nizozemsko"
+    ],
+    "en": [
+     "Germany",
+     "France",
+     "Belgium",
+     "Netherlands"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Daft Punk založili v roce 1993 v Paříži Thomas Bangalter a Guy-Manuel de Homem-Christo. Jméno si vzali z posměšné recenze časopisu Melody Maker, která hudbu jejich předchozí kapely nazvala „a daft punky thrash“ (přihlouplý punkový randál).",
+    "en": "Daft Punk were formed in Paris in 1993 by Thomas Bangalter and Guy-Manuel de Homem-Christo. They took their name from a scathing Melody Maker review that called their earlier band's music “a daft punky thrash”."
+   }
+  },
+  {
+   "id": "T325-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který hit švédského DJe Avicii z roku 2013 spojil taneční elektroniku s country a folkovou kytarou?",
+    "en": "Which 2013 hit by Swedish DJ Avicii blended electronic dance music with country and folk guitar?"
+   },
+   "moznosti": {
+    "cs": [
+     "„Wake Me Up“",
+     "„Animals“",
+     "„Clarity“",
+     "„Lean On“"
+    ],
+    "en": [
+     "“Wake Me Up”",
+     "“Animals”",
+     "“Clarity”",
+     "“Lean On”"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "„Wake Me Up“ s vokály Aloe Blacca vyšel v červnu 2013 a ukázal, jak úspěšné může být spojení EDM a country. Do hlavního proudu Aviciiho předtím vynesla skladba „Levels“ (2011).",
+    "en": "“Wake Me Up”, with vocals by Aloe Blacc, came out in June 2013 and showed how successful mixing EDM and country could be. Avicii had broken into the mainstream earlier with “Levels” (2011)."
+   }
+  },
+  {
+   "id": "T325-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který francouzský hudebník vydal v roce 1976 album Oxygène, jedno z nejprodávanějších francouzských instrumentálních alb?",
+    "en": "Which French musician released the album Oxygène in 1976, one of the best-selling French instrumental albums?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vangelis",
+     "Mike Oldfield",
+     "Jean-Michel Jarre",
+     "Klaus Schulze"
+    ],
+    "en": [
+     "Vangelis",
+     "Mike Oldfield",
+     "Jean-Michel Jarre",
+     "Klaus Schulze"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jean-Michel Jarre nahrál Oxygène na syntezátorech v provizorním studiu ve svém pařížském bytě. Album se podle odhadů prodalo asi v 18 milionech kusů a znamenalo jeho průlom.",
+    "en": "Jean-Michel Jarre recorded Oxygène on synthesizers in a makeshift studio in his Paris apartment. The album has sold an estimated 18 million copies and became his breakthrough."
+   }
+  },
+  {
+   "id": "T325-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který americký inženýr představil v roce 1964 syntezátor, jehož jméno se na čas stalo synonymem pro syntezátory vůbec?",
+    "en": "Which American engineer presented a synthesizer in 1964 whose name for a time became synonymous with synthesizers in general?"
+   },
+   "moznosti": {
+    "cs": [
+     "Les Paul",
+     "Laurens Hammond",
+     "Robert Moog",
+     "Leo Fender"
+    ],
+    "en": [
+     "Les Paul",
+     "Laurens Hammond",
+     "Robert Moog",
+     "Leo Fender"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Robert Moog představil svůj syntezátor v roce 1964. Hlavní novinkou bylo řízení napětím (voltage control) a jediná součástka, kterou si Moog patentoval, byl jeho typický „žebříkový“ filtr.",
+    "en": "Robert Moog presented his synthesizer in 1964. Its main innovation was voltage control, and the only part of the design Moog patented was his distinctive “ladder” filter."
+   }
+  },
+  {
+   "id": "T325-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Elektronický nástroj theremin vynalezl v roce 1920 Lev Těrmen (Léon Theremin). Jak se na něj hraje?",
+    "en": "The electronic instrument called the theremin was invented in 1920 by Lev Termen (Leon Theremin). How is it played?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mačkáním kláves jako na klavíru",
+     "Drnkáním na kovové struny",
+     "Pohybem rukou u dvou antén",
+     "Foukáním do náustku s plátkem"
+    ],
+    "en": [
+     "By pressing keys like a piano",
+     "By plucking metal strings",
+     "By moving the hands near two antennas",
+     "By blowing into a reed mouthpiece"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Theremin se ovládá zcela bez dotyku a jeho dvě antény fungují jako snímače polohy. Vzdálenost jedné ruky od antény určuje výšku tónu, druhá ruka u druhé antény řídí hlasitost.",
+    "en": "The theremin is played entirely without physical contact, and its two antennas act as position sensors. The distance of one hand from one antenna sets the pitch, while the other hand controls the volume at the second antenna."
+   }
+  },
+  {
+   "id": "T325-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém městě se v roce 1989 poprvé konal technový průvod Love Parade?",
+    "en": "In which city was the techno street parade Love Parade first held in 1989?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mnichov",
+     "Berlín",
+     "Amsterdam",
+     "Vídeň"
+    ],
+    "en": [
+     "Munich",
+     "Berlin",
+     "Amsterdam",
+     "Vienna"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "První Love Parade prošel v červenci 1989 Západním Berlínem a zúčastnilo se ho jen asi 150 lidí. V nejslavnějších letech hlásili pořadatelé přes milion návštěvníků, tato čísla jsou ale zpochybňována.",
+    "en": "The first Love Parade passed through West Berlin in July 1989 with only about 150 participants. At its height, organisers claimed more than a million visitors, though these figures have been disputed."
+   }
+  },
+  {
+   "id": "T325-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které americké město je považováno za kolébku techna?",
+    "en": "Which American city is regarded as the birthplace of techno?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chicago",
+     "Los Angeles",
+     "New York",
+     "Detroit"
+    ],
+    "en": [
+     "Chicago",
+     "Los Angeles",
+     "New York",
+     "Detroit"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Techno vzniklo v 80. letech v Detroitu. Jeho tvůrci spojili mechanický zvuk skupin jako Kraftwerk s funkem; Chicago je naproti tomu domovem house music.",
+    "en": "Techno emerged in Detroit in the 1980s. Its creators fused the mechanical sound of groups such as Kraftwerk with funk; Chicago, by contrast, is the home of house music."
+   }
+  },
+  {
+   "id": "T325-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co se v hudbě myslí samplováním (sampling)?",
+    "en": "What does sampling mean in music?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ladění nástroje podle ladičky před nahráváním",
+     "Nahrávání více nástrojů najednou do jedné stopy",
+     "Postupné zpomalování tempa skladby ke konci",
+     "Použití úryvku existující nahrávky v nové skladbě"
+    ],
+    "en": [
+     "Tuning an instrument to a tuning fork before recording",
+     "Recording several instruments at once onto one track",
+     "Gradually slowing the tempo of a track towards the end",
+     "Reusing a snippet of an existing recording in a new track"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Sampling je opětovné použití části (vzorku) zvukové nahrávky v jiné nahrávce. Kořeny má v musique concrète Pierra Schaeffera ze 40. let, kdy se zvuky stříhaly na magnetofonovém pásku.",
+    "en": "Sampling is the reuse of a portion (sample) of a sound recording in another recording. Its roots lie in Pierre Schaeffer's musique concrète of the 1940s, when sounds were spliced on tape."
+   }
+  },
+  {
+   "id": "T325-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Podle nejčastěji uváděné verze dostala house music jméno podle chicagského klubu, kde hrál DJ Frankie Knuckles. Jak se klub jmenoval?",
+    "en": "According to the most commonly cited account, house music got its name from a Chicago club where DJ Frankie Knuckles played. What was the club called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Studio 54",
+     "The Warehouse",
+     "The Loft",
+     "Paradise Garage"
+    ],
+    "en": [
+     "Studio 54",
+     "The Warehouse",
+     "The Loft",
+     "Paradise Garage"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Knuckles, přezdívaný „kmotr house“, byl rezidentním DJem klubu The Warehouse od roku 1977 do roku 1982. Chicago v roce 2004 pojmenovalo úsek ulice, kde klub stál, Frankie Knuckles Way.",
+    "en": "Knuckles, nicknamed “the godfather of house”, was the resident DJ at the Warehouse from 1977 to 1982. In 2004 Chicago named the stretch of street where the club stood Frankie Knuckles Way."
+   }
+  },
+  {
+   "id": "T325-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kanye West pojmenoval album 808s & Heartbreak (2008) podle legendárního přístroje Roland TR-808. Co je TR-808?",
+    "en": "Kanye West named his album 808s & Heartbreak (2008) after the legendary Roland TR-808. What is the TR-808?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mixážní pult",
+     "Bicí automat",
+     "Vokodér",
+     "Gramofon pro DJe"
+    ],
+    "en": [
+     "A mixing desk",
+     "A drum machine",
+     "A vocoder",
+     "A DJ turntable"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "TR-808 (1980–1983) zvuky nesampluje, ale vytváří analogovou syntézou. Při uvedení propadl a prodalo se ho méně než 12 000 kusů, přesto zazněl v „Sexual Healing“ Marvina Gaye (1982), prvním americkém hitu s tímto přístrojem.",
+    "en": "The TR-808 (1980–1983) does not play samples but generates its sounds by analog synthesis. It flopped at launch, selling fewer than 12,000 units, yet it featured on Marvin Gaye's “Sexual Healing” (1982), the first US hit single to use it."
+   }
+  },
+  {
+   "id": "T325-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Pronikavé „kvákavé“ zvuky přístroje Roland TB-303 se staly základem kterého žánru?",
+    "en": "The squelching sounds of the Roland TB-303 became the foundation of which genre?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dubstep",
+     "Trip hop",
+     "Drum and bass",
+     "Acid house"
+    ],
+    "en": [
+     "Dubstep",
+     "Trip hop",
+     "Drum and bass",
+     "Acid house"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Acid house vznikl v polovině 80. let v Chicagu. Název žánru pomohla zpopularizovat dvanáctiminutová skladba „Acid Tracks“ skupiny Phuture z roku 1987.",
+    "en": "Acid house emerged in Chicago in the mid-1980s. Phuture's twelve-minute “Acid Tracks” from 1987 helped popularise the name of the genre."
+   }
+  },
+  {
+   "id": "T325-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik úderů za minutu (BPM) má typicky house music?",
+    "en": "What is the typical tempo of house music in beats per minute (BPM)?"
+   },
+   "moznosti": {
+    "cs": [
+     "60–70",
+     "85–95",
+     "120–130",
+     "170–180"
+    ],
+    "en": [
+     "60–70",
+     "85–95",
+     "120–130",
+     "170–180"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "House má obvykle zhruba 115–130 BPM a pravidelný rytmus „four-on-the-floor“, kdy basový buben dopadá na každou ze čtyř dob taktu. Drum and bass je výrazně rychlejší, typicky kolem 160–180 BPM.",
+    "en": "House usually runs at roughly 115–130 BPM with a steady four-on-the-floor beat, the bass drum landing on each of the four beats of the bar. Drum and bass is much faster, typically around 160–180 BPM."
+   }
+  },
+  {
+   "id": "T325-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co umožnil standard MIDI zavedený v roce 1983?",
+    "en": "What did the MIDI standard, introduced in 1983, make possible?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vícestopé nahrávání na kazetu",
+     "Bezdrátový přenos zvuku do reproduktorů",
+     "Kompresi hudby do souborů MP3",
+     "Propojení nástrojů různých výrobců"
+    ],
+    "en": [
+     "Multitrack recording on cassette",
+     "Wireless audio transmission to speakers",
+     "Compressing music into MP3 files",
+     "Connecting instruments from different makers"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "MIDI (Musical Instrument Digital Interface) samo neobsahuje žádný zvuk, posílá jen pokyny, třeba kterou notu a jak silně zahrát. Ikutaro Kakehashi (Roland) a Dave Smith (Sequential Circuits) za něj v roce 2013 dostali technickou cenu Grammy.",
+    "en": "MIDI (Musical Instrument Digital Interface) contains no sound itself; it only sends instructions, such as which note to play and how hard. Ikutaro Kakehashi (Roland) and Dave Smith (Sequential Circuits) received Technical Grammy Awards for it in 2013."
+   }
+  },
+  {
+   "id": "T325-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Pod jakým jménem duo The Chemical Brothers začínalo, než ho muselo změnit?",
+    "en": "Under what name did the duo The Chemical Brothers start out before they had to change it?"
+   },
+   "moznosti": {
+    "cs": [
+     "The Dust Brothers",
+     "The Acid Brothers",
+     "The Chemical Twins",
+     "The Rave Brothers"
+    ],
+    "en": [
+     "The Dust Brothers",
+     "The Acid Brothers",
+     "The Chemical Twins",
+     "The Rave Brothers"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Ed Simons a Tom Rowlands, kteří se poznali na univerzitě v Manchesteru, si jméno vypůjčili od amerického producentského dua Dust Brothers. Po jeho námitkách se v roce 1995 přejmenovali a debut nazvali Exit Planet Dust.",
+    "en": "Ed Simons and Tom Rowlands, who met at the University of Manchester, borrowed the name from the American production duo the Dust Brothers. After that duo objected, they renamed themselves in 1995 and called their debut Exit Planet Dust."
+   }
+  },
+  {
+   "id": "T325-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím proslul otec Jeana-Michela Jarra, Maurice Jarre?",
+    "en": "What was Jean-Michel Jarre's father, Maurice Jarre, famous for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vedl Pařížskou konzervatoř",
+     "Zpíval šansony",
+     "Skládal filmovou hudbu",
+     "Vyráběl syntezátory"
+    ],
+    "en": [
+     "He headed the Paris Conservatoire",
+     "He sang chansons",
+     "He composed film scores",
+     "He built synthesizers"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Maurice Jarre získal tři Oscary za hudbu k filmům Lawrence z Arábie, Doktor Živago a Cesta do Indie. Se synem se po rozchodu rodičů neviděl od jeho pěti do osmnácti let.",
+    "en": "Maurice Jarre won three Oscars for the scores of Lawrence of Arabia, Doctor Zhivago and A Passage to India. After his parents split, his son did not see him from the age of five until eighteen."
+   }
+  },
+  {
+   "id": "T325-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Hudbu kterého skladatele nahrála Wendy Carlos na syntezátor na albu z roku 1968, které tři roky vedlo žebříček klasické hudby časopisu Billboard?",
+    "en": "Whose music did Wendy Carlos record on a synthesizer for a 1968 album that topped Billboard's classical chart for three years?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ludwig van Beethoven",
+     "Johann Sebastian Bach",
+     "Wolfgang Amadeus Mozart",
+     "Antonio Vivaldi"
+    ],
+    "en": [
+     "Ludwig van Beethoven",
+     "Johann Sebastian Bach",
+     "Wolfgang Amadeus Mozart",
+     "Antonio Vivaldi"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Album Switched-On Bach získalo tři ceny Grammy a v roce 1986 se stalo teprve druhým klasickým albem s platinovou deskou. Pomohlo prosadit syntezátory v populární hudbě.",
+    "en": "Switched-On Bach won three Grammy Awards and in 1986 became only the second classical album to be certified platinum. It helped bring synthesizers into popular music."
+   }
+  },
+  {
+   "id": "T325-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který hit Donny Summer z roku 1977, produkovaný Giorgiem Moroderem, měl hudební doprovod vytvořený téměř celý na syntezátoru?",
+    "en": "Which 1977 Donna Summer hit, produced by Giorgio Moroder, had a backing track made almost entirely on a synthesizer?"
+   },
+   "moznosti": {
+    "cs": [
+     "„I Feel Love“",
+     "„Last Dance“",
+     "„Hot Stuff“",
+     "„Bad Girls“"
+    ],
+    "en": [
+     "“I Feel Love”",
+     "“Last Dance”",
+     "“Hot Stuff”",
+     "“Bad Girls”"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kromě zpěvu byl jediným „lidským“ prvkem basový buben, který nahrál bubeník Keith Forsey. Brian Eno tehdy podle Davida Bowieho prohlásil, že slyšel „zvuk budoucnosti“.",
+    "en": "Apart from the vocals, the only element not played by a machine was the kick drum, recorded by drummer Keith Forsey. According to David Bowie, Brian Eno declared at the time that he had heard “the sound of the future”."
+   }
+  },
+  {
+   "id": "T325-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která zpěvačka nazpívala hit Davida Guetty „Titanium“ (2011)?",
+    "en": "Which singer performed David Guetta's hit “Titanium” (2011)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sia",
+     "Nicki Minaj",
+     "Rihanna",
+     "Kelly Rowland"
+    ],
+    "en": [
+     "Sia",
+     "Nicki Minaj",
+     "Rihanna",
+     "Kelly Rowland"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Sia píseň napsala pro jinou zpěvačku a nahrála jen demo, ale Guetta její vokál nakonec na finální verzi ponechal. V Británii se „Titanium“ v roce 2012 dostalo na první místo žebříčku.",
+    "en": "Sia wrote the song for another singer and recorded only a demo, but Guetta kept her vocal on the final version. In the UK, “Titanium” reached number one in 2012."
+   }
+  },
+  {
+   "id": "T325-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Juan Atkins, Derrick May a Kevin Saunderson, průkopníci techna, jsou známí jako „Belleville Three“. Na co odkazuje slovo Belleville?",
+    "en": "Juan Atkins, Derrick May and Kevin Saunderson, the pioneers of techno, are known as the “Belleville Three”. What does Belleville refer to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na městečko, kde spolu chodili do školy",
+     "Na klub, kde poprvé společně hráli",
+     "Na studio, kde nahráli první desku",
+     "Na ulici, kde sídlilo jejich vydavatelství"
+    ],
+    "en": [
+     "The small town where they went to school together",
+     "The club where they first played together",
+     "The studio where they recorded their first record",
+     "The street where their record label was based"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kamarádi ze školy v Belleville se sblížili při poslechu hudby, mimo jiné Kraftwerk, a první skladby skládali ve sklepech. Derrick May jejich zvuk popsal jako „George Clinton a Kraftwerk uvízlí ve výtahu jen se sekvencerem“.",
+    "en": "The school friends from Belleville bonded over music including Kraftwerk and made their first tracks in basements. Derrick May described their sound as “like George Clinton and Kraftwerk caught in an elevator, with only a sequencer to keep them company”."
+   }
+  },
+  {
+   "id": "T325-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "K čemu byl Roland TB-303 (1981) původně určen, než se z propadáku stal kultovní nástroj?",
+    "en": "What was the Roland TB-303 (1981) originally intended for, before this commercial flop became a cult instrument?"
+   },
+   "moznosti": {
+    "cs": [
+     "K ladění kytar na pódiu",
+     "K tvorbě zvukových efektů pro rozhlas",
+     "K výuce hry na klavír",
+     "K nahrazení baskytary jako doprovod"
+    ],
+    "en": [
+     "Tuning guitars on stage",
+     "Creating sound effects for radio",
+     "Teaching piano",
+     "Replacing the bass guitar as accompaniment"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Roland ho nabízel jako „počítačový basový stroj“, který nahradí baskytaru. Zněl ale nerealisticky, neprodával se a v roce 1984 skončil, takže levné kusy z druhé ruky objevili až producenti elektronické hudby.",
+    "en": "Roland marketed it as a “computerised bass machine” to replace the bass guitar. But it sounded unrealistic, failed to sell and was discontinued in 1984, so cheap second-hand units were taken up by electronic musicians."
+   }
+  },
+  {
+   "id": "T325-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak Delia Derbyshire v roce 1963 vytvořila elektronickou podobu znělky seriálu Doctor Who podle skladby Rona Grainera?",
+    "en": "How did Delia Derbyshire create the electronic version of the Doctor Who theme in 1963, based on Ron Grainer's composition?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na počítači BBC s děrnými štítky",
+     "Na elektrické varhany Hammond",
+     "Stříháním magnetofonového pásku se zvuky oscilátorů",
+     "Hrou na theremin"
+    ],
+    "en": [
+     "On a BBC punched-card computer",
+     "On a Hammond electric organ",
+     "By splicing magnetic tape of oscillator sounds",
+     "By playing a theremin"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "V BBC Radiophonic Workshop vznikl každý tón zvlášť stříháním, lepením a změnou rychlosti přehrávání pásku se zvuky testovacích oscilátorů, drnknuté struny a bílého šumu. Grainer se po poslechu zeptal: „To jsem napsal já?“ a ona odpověděla: „Většinu.“",
+    "en": "At the BBC Radiophonic Workshop, each note was made separately by cutting, splicing and changing the playback speed of tape of test-tone oscillators, a plucked string and white noise. On hearing it, Grainer asked, “Did I write that?” and she replied, “Most of it.”"
+   }
+  },
+  {
+   "id": "T325-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak duo Daft Punk v únoru 2021 oznámilo svůj konec?",
+    "en": "How did Daft Punk announce their split in February 2021?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sundáním helem v přímém přenosu",
+     "Videem, v němž jeden z robotů vybuchne",
+     "Celostránkovým inzerátem v novinách",
+     "Posledním koncertem na festivalu Coachella"
+    ],
+    "en": [
+     "By removing their helmets on live TV",
+     "With a video in which one of the robots explodes",
+     "With a full-page newspaper advert",
+     "With a final concert at Coachella"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Video Epilogue použilo scénu z jejich filmu Electroma (2006): jeden robot vybuchne, druhý odchází do západu slunce a objeví se titulek „1993–2021“. Důvod duo tehdy neuvedlo, Bangalter později zmínil mimo jiné obavy z umělé inteligence.",
+    "en": "The Epilogue video used a scene from their film Electroma (2006): one robot explodes, the other walks off into the sunset, and the title card “1993–2021” appears. No reason was given at the time; Bangalter later cited concerns about artificial intelligence, among other things."
+   }
+  },
+  {
+   "id": "T325-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Se kterým zpěvákem hrál Vangelis koncem 60. let ve skupině Aphrodite's Child?",
+    "en": "Which singer did Vangelis play with in the band Aphrodite's Child in the late 1960s?"
+   },
+   "moznosti": {
+    "cs": [
+     "S Demisem Roussosem",
+     "S Juliem Iglesiasem",
+     "S Yannim",
+     "S Georgesem Moustakim"
+    ],
+    "en": [
+     "Demis Roussos",
+     "Julio Iglesias",
+     "Yanni",
+     "Georges Moustaki"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Skupinu založili v roce 1967 a jejich dvojalbum 666 (1972) podle knihy Zjevení je považováno za klasiku progresivního a psychedelického rocku. Vangelis nikdy nechodil do hudební školy a noty se číst ani psát nenaučil.",
+    "en": "The band was formed in 1967, and their double album 666 (1972), based on the Book of Revelation, is considered a progressive-psychedelic rock classic. Vangelis never attended music school and never learned to read or write music."
+   }
+  },
+  {
+   "id": "T325-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Lev Těrmen, vynálezce thereminu, sestrojil pro Sověty i slavné odposlouchávací zařízení „The Thing“. Kde bylo ukryto?",
+    "en": "Lev Termen, the inventor of the theremin, also built a famous listening device for the Soviets known as “The Thing”. Where was it hidden?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve dřevěné replice pečeti USA",
+     "V telefonu v Bílém domě",
+     "V psacím stroji velvyslance",
+     "V lustru budovy OSN"
+    ],
+    "en": [
+     "In a wooden replica of the US Great Seal",
+     "In a telephone in the White House",
+     "In the ambassador's typewriter",
+     "In a chandelier at the UN building"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vyřezávanou pečeť darovali v roce 1945 sovětští pionýři americkému velvyslanci a ta pak visela v pracovně jeho moskevské rezidence. Pasivní štěnici bez baterie a vlastního zdroje napájení Američané náhodou odhalili až na počátku 50. let.",
+    "en": "Soviet Young Pioneers presented the carved seal to the US ambassador in 1945, and it hung in the study of his Moscow residence. The passive bug, with no battery or power supply, was discovered by chance only in the early 1950s."
+   }
+  },
+  {
+   "id": "T325-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Z čeho vychází umělecké jméno švédského DJe Avicii (vlastním jménem Tim Bergling)?",
+    "en": "Where does the stage name of Swedish DJ Avicii (real name Tim Bergling) come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z přezdívky, kterou dostal ve škole",
+     "Ze jména severské bohyně hudby",
+     "Z názvu nejnižšího pekla v buddhismu",
+     "Ze zkratky jmen jeho sourozenců"
+    ],
+    "en": [
+     "A nickname he was given at school",
+     "The name of a Norse goddess of music",
+     "The name of the lowest hell in Buddhism",
+     "An acronym of his siblings' names"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Avicii je upravený zápis slova Avīci, nejnižší úrovně pekla (naraka) v buddhismu. Bergling si ho zvolil, protože jeho vlastní jméno už na Myspace někdo používal.",
+    "en": "Avicii is a respelling of Avīci, the lowest level of hell (naraka) in Buddhism. Bergling chose it because his real name was already taken on Myspace."
+   }
+  },
+  {
+   "id": "T325-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak britský zákon Criminal Justice and Public Order Act z roku 1994, namířený proti nelegálním rave párty, definoval hudbu?",
+    "en": "How did the UK's Criminal Justice and Public Order Act 1994, aimed at illegal raves, define music?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jako elektronickou hudbu bez zpěvu",
+     "Jako zvuky tvořené sledem opakujících se úderů",
+     "Jako zvuky hlasitější než 85 decibelů",
+     "Jako hudbu pouštěnou z desek bez živé kapely"
+    ],
+    "en": [
+     "As electronic music without vocals",
+     "As sounds made up of a succession of repetitive beats",
+     "As sounds louder than 85 decibels",
+     "As music played from records without a live band"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Zákon za hudbu považoval zvuky „zcela nebo převážně charakterizované vydáváním sledu opakujících se úderů“. Definice je uvedena v paragrafu 63 zákona.",
+    "en": "The act defined music as including sounds “wholly or predominantly characterised by the emission of a succession of repetitive beats”. The definition appears in section 63 of the act."
+   }
+  },
+  {
+   "id": "T325-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Podle čeho se pojmenovala britská skupina The Prodigy, známá hitem „Firestarter“ (1996)?",
+    "en": "What did the British band The Prodigy, known for the hit “Firestarter” (1996), name themselves after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Podle londýnského klubu",
+     "Podle modelu syntezátoru",
+     "Podle přezdívky Keitha Flinta",
+     "Podle hororového filmu"
+    ],
+    "en": [
+     "A London club",
+     "A synthesizer model",
+     "Keith Flint's nickname",
+     "A horror film"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Liam Howlett napsal „Prodigy“ na kazetu podle syntezátoru Prodigy, na který nahrál část hudby. „Firestarter“ se stal jejich prvním singlem na čele britského žebříčku.",
+    "en": "Liam Howlett wrote “Prodigy” on a cassette after the Prodigy synthesizer he had used to make some of the music. “Firestarter” became their first UK number one single."
+   }
+  },
+  {
+   "id": "T325-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Sedmisekundové bicí sólo zvané „Amen break“ ze soulové skladby z roku 1969 patří k nejsamplovanějším nahrávkám historie. Pro který žánr 90. let se stalo typickým stavebním kamenem?",
+    "en": "The seven-second drum solo known as the “Amen break”, from a 1969 soul track, is one of the most sampled recordings in history. Which 1990s genre made it a staple building block?"
+   },
+   "moznosti": {
+    "cs": [
+     "Trance",
+     "Detroit techno",
+     "Chicago house",
+     "Jungle a drum and bass"
+    ],
+    "en": [
+     "Trance",
+     "Detroit techno",
+     "Chicago house",
+     "Jungle and drum and bass"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Break pochází ze skladby „Amen, Brother“ skupiny The Winstons a zahrál ho bubeník Gregory Coleman. Objevil se v tisících skladeb, ale kapelník Richard Spencer ani bubeník Coleman za něj nedostali žádné autorské poplatky.",
+    "en": "The break comes from the Winstons' “Amen, Brother” and was played by drummer Gregory Coleman. It has appeared in thousands of tracks, yet neither bandleader Richard Spencer nor Coleman received any royalties for it."
+   }
+  }
+ ]
+}

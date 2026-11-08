@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T198",
+ "nazev": {
+  "cs": "Polární oblasti: Arktida a Antarktida",
+  "en": "Polar Regions: The Arctic and Antarctica"
+ },
+ "kategorie": {
+  "id": "zemepis",
+  "nazev": {
+   "cs": "Zeměpis",
+   "en": "Geography"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T198-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které z těchto zvířat můžete potkat ve volné přírodě v Antarktidě?",
+    "en": "Which of these animals could you meet in the wild in Antarctica?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tučňáka",
+     "Lišku polární",
+     "Mrože",
+     "Ledního medvěda"
+    ],
+    "en": [
+     "A penguin",
+     "An Arctic fox",
+     "A walrus",
+     "A polar bear"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Tučňáci žijí téměř výhradně na jižní polokouli, zatímco lední medvědi, polární lišky i mroži jsou obyvateli Arktidy. Lední medvěd se proto s tučňákem v přírodě nikdy nepotká.",
+    "en": "Penguins live almost exclusively in the Southern Hemisphere, while polar bears, Arctic foxes and walruses are Arctic animals. A polar bear and a penguin therefore never meet in the wild."
+   }
+  },
+  {
+   "id": "T198-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na čem stojí člověk přesně na severním zeměpisném pólu?",
+    "en": "What is a person standing on at the geographic North Pole?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na mořském ledu nad oceánem",
+     "Na pevnině pod silným ledovcem",
+     "Na malém skalnatém ostrově",
+     "Na zamrzlém sladkovodním jezeře"
+    ],
+    "en": [
+     "Sea ice above the ocean",
+     "Land beneath a thick glacier",
+     "A small rocky island",
+     "A frozen freshwater lake"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Severní pól leží uprostřed Severního ledového oceánu, který je tam hluboký přes 4 000 m a pokrytý neustále se posouvajícím mořským ledem. Jižní pól naopak leží na pevnině Antarktidy, a proto tam může stát stálá stanice.",
+    "en": "The North Pole lies in the middle of the Arctic Ocean, over 4,000 m (13,100 ft) deep there and covered by constantly shifting sea ice. The South Pole, by contrast, is on the Antarctic landmass, which is why a permanent station can stand there."
+   }
+  },
+  {
+   "id": "T198-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co způsobuje, že za polárním kruhem v létě Slunce nezapadá a v zimě nevyjde?",
+    "en": "What causes the Sun not to set in summer and not to rise in winter beyond the Arctic Circle?"
+   },
+   "moznosti": {
+    "cs": [
+     "Měnící se vzdálenost Země od Slunce",
+     "Sklon zemské osy",
+     "Změny sluneční aktivity",
+     "Stín Měsíce"
+    ],
+    "en": [
+     "Earth's changing distance from the Sun",
+     "The tilt of Earth's axis",
+     "Changes in solar activity",
+     "The Moon's shadow"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Zemská osa je skloněná asi o 23,4°, takže každý pól je část roku přivrácen ke Slunci a část roku odvrácen. Stejný sklon způsobuje i střídání ročních období.",
+    "en": "Earth's axis is tilted by about 23.4°, so each pole spends part of the year facing the Sun and part facing away. The same tilt is what causes the seasons."
+   }
+  },
+  {
+   "id": "T198-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Z čeho se tradičně staví iglú?",
+    "en": "What is an igloo traditionally built from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z tulení kůže napnuté na kostech",
+     "Z kamenů a drnů",
+     "Z ledových ker vyřezaných z moře",
+     "Z bloků udusaného sněhu"
+    ],
+    "en": [
+     "Seal skin stretched over bones",
+     "Stones and turf",
+     "Ice floes cut from the sea",
+     "Blocks of compacted snow"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Iglú je kupole z bloků udusaného, větrem navátého sněhu. V inuitských jazycích ale slovo iglu znamená jakýkoli dům; sněhový příbytek se nazývá igluvijaq.",
+    "en": "An igloo is a dome of blocks of compacted, wind-packed snow. In Inuit languages, however, iglu means any house; a snow house is called an igluvijaq."
+   }
+  },
+  {
+   "id": "T198-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se v zimě mění srst většiny lišek polárních (Vulpes lagopus)?",
+    "en": "How does the coat of most Arctic foxes (Vulpes lagopus) change in winter?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zezrzaví",
+     "Získá tmavé skvrny",
+     "Zbělá",
+     "Zkrátí se"
+    ],
+    "en": [
+     "It turns reddish",
+     "It gets dark spots",
+     "It turns white",
+     "It gets shorter"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Bílá forma lišky polární je v létě hnědá a v zimě úplně bílá, takže splyne se sněhem. Zimní srst je navíc delší a hustší; liška nespí zimním spánkem a je aktivní celý rok.",
+    "en": "The white morph of the Arctic fox is brown in summer and entirely white in winter, blending in with the snow. The winter coat is also longer and thicker; the fox does not hibernate and stays active all year."
+   }
+  },
+  {
+   "id": "T198-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co uchovává trezor na Špicberkách přezdívaný „trezor soudného dne“?",
+    "en": "What does the vault on Svalbard nicknamed the 'Doomsday Vault' store?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zlaté rezervy Norska",
+     "Semena zemědělských plodin",
+     "Zmrazené vzorky DNA zvířat",
+     "Vzorky ledovcového ledu"
+    ],
+    "en": [
+     "Norway's gold reserves",
+     "Seeds of crop plants",
+     "Frozen animal DNA samples",
+     "Samples of glacier ice"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Globální semenný trezor, otevřený v roce 2008, ukládá záložní vzorky semen z genových bank celého světa, aby se rozmanitost plodin neztratila při katastrofě. Semena se uchovávají při −18 °C.",
+    "en": "The Svalbard Global Seed Vault, opened in 2008, stores backup seed samples from gene banks around the world so that crop diversity is not lost in a disaster. The seeds are kept at −18 °C (0 °F)."
+   }
+  },
+  {
+   "id": "T198-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kde leží druhý největší ledový příkrov světa (po antarktickém)?",
+    "en": "Where is the world's second-largest ice sheet (after the Antarctic one)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Sibiři",
+     "Na Islandu",
+     "Na Aljašce",
+     "V Grónsku"
+    ],
+    "en": [
+     "Siberia",
+     "Iceland",
+     "Alaska",
+     "Greenland"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Grónský ledový příkrov je druhou největší masou ledu na světě a pokrývá asi čtyři pětiny ostrova. Přesto má jen zhruba 12 % rozlohy antarktického příkrovu.",
+    "en": "The Greenland ice sheet is the second-largest body of ice in the world and covers about four-fifths of the island. Even so, it is only about 12% the area of the Antarctic ice sheet."
+   }
+  },
+  {
+   "id": "T198-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se jmenuje oceán, který ze všech stran obklopuje Antarktidu?",
+    "en": "What is the name of the ocean that surrounds Antarctica on all sides?"
+   },
+   "moznosti": {
+    "cs": [
+     "Indický oceán",
+     "Jižní oceán",
+     "Severní ledový oceán",
+     "Atlantský oceán"
+    ],
+    "en": [
+     "The Indian Ocean",
+     "The Southern Ocean",
+     "The Arctic Ocean",
+     "The Atlantic Ocean"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jižní oceán zcela obepíná Antarktidu. Jeho samostatnost se dlouho nepřijímala všude – například National Geographic ho za pátý světový oceán oficiálně uznal až v roce 2021.",
+    "en": "The Southern Ocean completely encircles Antarctica. Its status as a separate ocean was long not accepted everywhere – National Geographic, for example, only officially recognised it as the world's fifth ocean in 2021."
+   }
+  },
+  {
+   "id": "T198-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá původní národ Grónska a kanadské Arktidy, kterému Evropané dříve říkali Eskymáci?",
+    "en": "What is the name of the indigenous people of Greenland and the Canadian Arctic whom Europeans used to call Eskimos?"
+   },
+   "moznosti": {
+    "cs": [
+     "Čukčové",
+     "Něnci",
+     "Inuité",
+     "Sámové"
+    ],
+    "en": [
+     "The Chukchi",
+     "The Nenets",
+     "The Inuit",
+     "The Sámi"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Slovo Inuit znamená v jejich jazyce „lidé“. Označení Eskymák považuje část Inuitů v Kanadě a Grónsku za urážlivé, proto se tam používá název Inuité.",
+    "en": "The word Inuit means 'the people' in their language. Some Inuit in Canada and Greenland consider the term Eskimo offensive, so Inuit is the preferred name there."
+   }
+  },
+  {
+   "id": "T198-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterou kořist loví lední medvěd nejčastěji?",
+    "en": "Which prey does the polar bear hunt most often?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zajíce polární",
+     "Lososy",
+     "Soby",
+     "Tuleně"
+    ],
+    "en": [
+     "Arctic hares",
+     "Salmon",
+     "Reindeer",
+     "Seals"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Lední medvěd loví hlavně tuleně kroužkované, na které číhá na mořském ledu u děr na dýchání. Je na moři tak závislý, že se řadí mezi mořské savce.",
+    "en": "Polar bears mainly hunt ringed seals, waiting for them on the sea ice by their breathing holes. The bear depends on the sea so much that it is classed as a marine mammal."
+   }
+  },
+  {
+   "id": "T198-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co stanoví Antarktická smlouva z roku 1959 o územních nárocích na Antarktidu?",
+    "en": "What does the 1959 Antarctic Treaty state about territorial claims to Antarctica?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zakazuje nové a stávající ponechává beze změny",
+     "Rozdělila Antarktidu mezi sedm států",
+     "Svěřila Antarktidu do správy OSN",
+     "Přidělila Antarktidu USA a SSSR"
+    ],
+    "en": [
+     "It bans new ones and leaves existing ones unchanged",
+     "It divided Antarctica among seven states",
+     "It placed Antarctica under UN administration",
+     "It assigned Antarctica to the USA and the USSR"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Smlouva zakazuje vznášet nové územní nároky a stávající nároky „zmrazila“ ve stavu z doby podpisu. Antarktida je zároveň vyhrazena mírovému využití – zakázány jsou vojenské operace i jaderné zkoušky.",
+    "en": "The treaty forbids new territorial claims and 'froze' existing ones as they stood at signing. Antarctica is also reserved for peaceful use – military operations and nuclear tests are banned."
+   }
+  },
+  {
+   "id": "T198-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se jmenuje mezinárodní dohoda z roku 1987, která začala omezovat výrobu látek ničících ozonovou vrstvu?",
+    "en": "What is the name of the 1987 international agreement that began restricting production of substances that destroy the ozone layer?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pařížská dohoda",
+     "Ženevská úmluva",
+     "Montrealský protokol",
+     "Kjótský protokol"
+    ],
+    "en": [
+     "The Paris Agreement",
+     "The Geneva Convention",
+     "The Montreal Protocol",
+     "The Kyoto Protocol"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Montrealský protokol postupně zakázal freony (CFC), halony a další látky, které nad Antarktidou každé jaro vytvářejí ozonovou díru. Stal se první smlouvou v dějinách OSN, kterou ratifikovaly všechny státy.",
+    "en": "The Montreal Protocol phased out CFCs, halons and other substances that create the ozone hole over Antarctica each spring. It became the first universally ratified treaty in United Nations history."
+   }
+  },
+  {
+   "id": "T198-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na které zeměpisné šířce přibližně leží severní polární kruh?",
+    "en": "At approximately what latitude is the Arctic Circle?"
+   },
+   "moznosti": {
+    "cs": [
+     "23,5° s. š.",
+     "45° s. š.",
+     "66,5° s. š.",
+     "80° s. š."
+    ],
+    "en": [
+     "23.5° N",
+     "45° N",
+     "66.5° N",
+     "80° N"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Severní polární kruh leží zhruba na 66°33′ s. š. a jeho poloha závisí na sklonu zemské osy, proto se pomalu posouvá – v současnosti asi o 14,5 m ročně k pólu.",
+    "en": "The Arctic Circle lies at roughly 66°33′ N; its position depends on Earth's axial tilt, so it slowly shifts – currently by about 14.5 m (48 ft) a year towards the pole."
+   }
+  },
+  {
+   "id": "T198-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolikrát za rok vyjde Slunce na severním zeměpisném pólu?",
+    "en": "How many times a year does the Sun rise at the geographic North Pole?"
+   },
+   "moznosti": {
+    "cs": [
+     "1",
+     "2",
+     "12",
+     "365"
+    ],
+    "en": [
+     "1",
+     "2",
+     "12",
+     "365"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Na pólu Slunce vyjde jen jednou, kolem březnové rovnodennosti, a zapadne až po zářijové. Následuje zhruba půl roku nepřetržitého dne a půl roku tmy.",
+    "en": "At the pole the Sun rises just once, around the March equinox, and sets only after the September equinox. The result is roughly six months of continuous daylight and six months of darkness."
+   }
+  },
+  {
+   "id": "T198-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Za roh kterého bájného tvora byly v Evropě po staletí považovány kly narvala?",
+    "en": "For centuries in Europe, narwhal tusks were believed to be the horn of which mythical creature?"
+   },
+   "moznosti": {
+    "cs": [
+     "Draka",
+     "Baziliška",
+     "Gryfa",
+     "Jednorožce"
+    ],
+    "en": [
+     "The dragon",
+     "The basilisk",
+     "The griffin",
+     "The unicorn"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kly narvala se cenily jako rohy jednorožce s kouzelnou mocí proti jedům a nemocem a dostávali je darem i panovníci. Ve skutečnosti jde o zub – levý horní špičák, který prorůstá pyskem hlavně u samců.",
+    "en": "Narwhal tusks were prized as unicorn horns with magical power against poisons and diseases, and were even given as gifts to monarchs. In fact the tusk is a tooth – the left upper canine, which grows through the lip mainly in males."
+   }
+  },
+  {
+   "id": "T198-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jakou barvu má kůže ledního medvěda pod srstí?",
+    "en": "What colour is a polar bear's skin beneath its fur?"
+   },
+   "moznosti": {
+    "cs": [
+     "Černou",
+     "Žlutavou",
+     "Narůžovělou",
+     "Bílou"
+    ],
+    "en": [
+     "Black",
+     "Yellowish",
+     "Pinkish",
+     "White"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kůže ledního medvěda je černá a dobře pohlcuje teplo. Srst bílá jen vypadá – chlupy nemají pigment, jsou průhledné a bílé se jeví jen díky rozptylu dopadajícího světla.",
+    "en": "A polar bear's skin is black and absorbs heat well. The fur only looks white – the hairs have no pigment and are transparent, and look white only because they scatter incident light."
+   }
+  },
+  {
+   "id": "T198-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Do které skupiny živočichů patří antarktický kril (krunýřovka krillová, Euphausia superba), klíčový tvor potravního řetězce v mořích kolem Antarktidy?",
+    "en": "Which group of animals does Antarctic krill (Euphausia superba), a key creature in the food chain of the seas around Antarctica, belong to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Žahavci",
+     "Korýši",
+     "Ryby",
+     "Měkkýši"
+    ],
+    "en": [
+     "Cnidarians",
+     "Crustaceans",
+     "Fish",
+     "Molluscs"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Kril je drobný korýš, který se živí fytoplanktonem. Jeho celková biomasa se odhaduje asi na 500 milionů tun a závisí na něm velryby, tuleni, tučňáci i albatrosi.",
+    "en": "Krill is a small crustacean that feeds on phytoplankton. Its total biomass is estimated at about 500 million tonnes (550 million short tons), and whales, seals, penguins and albatrosses all depend on it."
+   }
+  },
+  {
+   "id": "T198-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která instituce vlastní a provozuje českou vědeckou stanici Johanna Gregora Mendela v Antarktidě?",
+    "en": "Which institution owns and operates the Czech Johann Gregor Mendel research station in Antarctica?"
+   },
+   "moznosti": {
+    "cs": [
+     "Masarykova univerzita",
+     "Univerzita Karlova",
+     "Akademie věd ČR",
+     "Mendelova univerzita v Brně"
+    ],
+    "en": [
+     "Masaryk University",
+     "Charles University",
+     "The Czech Academy of Sciences",
+     "Mendel University in Brno"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Stanici vlastní brněnská Masarykova univerzita a funguje jen sezónně během antarktického léta. Nese jméno brněnského opata a zakladatele genetiky – s Mendelovou univerzitou však nemá nic společného.",
+    "en": "The station is owned by Masaryk University in Brno and operates only seasonally during the Antarctic summer. It is named after the Brno abbot and founder of genetics, but has nothing to do with Mendel University."
+   }
+  },
+  {
+   "id": "T198-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč střelka kompasu v Arktidě neukazuje přesně k severnímu zeměpisnému pólu?",
+    "en": "Why doesn't a compass needle in the Arctic point exactly to the geographic North Pole?"
+   },
+   "moznosti": {
+    "cs": [
+     "Střelku přitahuje ledový příkrov Grónska",
+     "Střelku vychyluje rotace mořského ledu",
+     "V mrazu střelka zamrzá a zpožďuje se",
+     "Severní magnetický pól leží jinde a posouvá se"
+    ],
+    "en": [
+     "The Greenland ice sheet attracts the needle",
+     "The rotation of sea ice deflects the needle",
+     "In the cold the needle freezes and lags",
+     "The north magnetic pole lies elsewhere and moves"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kompas míří k severnímu magnetickému pólu, který podle NOAA ležel v roce 2024 na 86° s. š., asi 450 km od zeměpisného. Ten se navíc stěhuje – na přelomu tisíciletí se posouval o desítky kilometrů ročně z kanadské Arktidy k Sibiři.",
+    "en": "A compass points to the north magnetic pole, which according to NOAA lay at 86° N in 2024, about 450 km (280 mi) from the geographic pole. It also wanders – around the turn of the millennium it moved tens of kilometres a year from the Canadian Arctic towards Siberia."
+   }
+  },
+  {
+   "id": "T198-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik veškeré sladké vody na Zemi je podle odhadů uloženo v antarktickém ledovém příkrovu?",
+    "en": "Roughly how much of all the fresh water on Earth is estimated to be stored in the Antarctic ice sheet?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 5 %",
+     "Asi 25 %",
+     "Asi 60 %",
+     "Asi 95 %"
+    ],
+    "en": [
+     "About 5%",
+     "About 25%",
+     "About 60%",
+     "About 95%"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Antarktický ledový příkrov odpovídá asi 61 % veškeré sladké vody na Zemi. Je v průměru přes 2 km silný, místy téměř 5 km, a pokrývá 98 % kontinentu.",
+    "en": "The Antarctic ice sheet is equivalent to about 61% of all fresh water on Earth. It averages over 2 km (1.2 mi) thick, reaches almost 5 km (3.1 mi) in places, and covers 98% of the continent."
+   }
+  },
+  {
+   "id": "T198-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik států původně podepsalo v roce 1959 Antarktickou smlouvu?",
+    "en": "How many countries originally signed the Antarctic Treaty in 1959?"
+   },
+   "moznosti": {
+    "cs": [
+     "7",
+     "12",
+     "27",
+     "54"
+    ],
+    "en": [
+     "7",
+     "12",
+     "27",
+     "54"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Smlouvu podepsalo 1. prosince 1959 ve Washingtonu 12 států, které byly v Antarktidě aktivní během Mezinárodního geofyzikálního roku 1957–58. Do platnosti vstoupila v roce 1961.",
+    "en": "The treaty was signed in Washington on 1 December 1959 by 12 countries that had been active in Antarctica during the International Geophysical Year of 1957–58. It entered into force in 1961."
+   }
+  },
+  {
+   "id": "T198-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co v Antarktidě zakazuje Protokol o ochraně životního prostředí k Antarktické smlouvě, podepsaný roku 1991 v Madridu?",
+    "en": "What does the Protocol on Environmental Protection to the Antarctic Treaty, signed in Madrid in 1991, ban in Antarctica?"
+   },
+   "moznosti": {
+    "cs": [
+     "Těžbu nerostných surovin",
+     "Veškerý turistický ruch",
+     "Lov krilu",
+     "Lety letadel nad kontinentem"
+    ],
+    "en": [
+     "Mining of mineral resources",
+     "All tourism",
+     "Krill fishing",
+     "Aircraft flights over the continent"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Madridský protokol zakazuje veškeré činnosti související s nerostnými surovinami, s výjimkou vědeckého výzkumu. Turistika i rybolov krilu jsou dál povoleny, jen podléhají pravidlům.",
+    "en": "The Madrid Protocol bans all activities relating to mineral resources except scientific research. Tourism and krill fishing remain allowed, though subject to regulation."
+   }
+  },
+  {
+   "id": "T198-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Vědci které instituce ohlásili v roce 1985 v časopise Nature objev ozonové díry nad Antarktidou?",
+    "en": "Scientists from which institution reported the discovery of the Antarctic ozone hole in the journal Nature in 1985?"
+   },
+   "moznosti": {
+    "cs": [
+     "Australské antarktické divize",
+     "Institutu Alfreda Wegenera",
+     "Britské antarktické služby",
+     "NASA"
+    ],
+    "en": [
+     "The Australian Antarctic Division",
+     "The Alfred Wegener Institute",
+     "The British Antarctic Survey",
+     "NASA"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Objev ohlásili Joe Farman, Brian Gardiner a Jon Shanklin z British Antarctic Survey. Satelitní přístroj TOMS díru zaznamenal také, ale software nečekaně nízké hodnoty vyřadil jako chybné.",
+    "en": "The discovery was reported by Joe Farman, Brian Gardiner and Jon Shanklin of the British Antarctic Survey. The TOMS satellite instrument had also recorded the hole, but its software discarded the unexpectedly low values as errors."
+   }
+  },
+  {
+   "id": "T198-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co leží asi 4 km pod povrchem ledu u ruské antarktické stanice Vostok?",
+    "en": "What lies about 4 km (2.5 mi) below the ice surface at Russia's Vostok Station in Antarctica?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ložisko uhlí",
+     "Činná sopka",
+     "Rozsáhlé jezero",
+     "Meteoritový kráter"
+    ],
+    "en": [
+     "A coal deposit",
+     "An active volcano",
+     "A vast lake",
+     "A meteorite crater"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vostocké jezero je největší ze stovek známých podledovcových jezer Antarktidy. Ruští vědci se k jeho hladině provrtali ledem v únoru 2012.",
+    "en": "Lake Vostok is the largest of Antarctica's hundreds of known subglacial lakes. Russian scientists drilled through the ice to its surface in February 2012."
+   }
+  },
+  {
+   "id": "T198-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na kterém ostrově u Antarktického poloostrova stojí česká vědecká stanice Johanna Gregora Mendela?",
+    "en": "On which island near the Antarctic Peninsula does the Czech Johann Gregor Mendel research station stand?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na ostrově Krále Jiřího",
+     "Na ostrově Jamese Rosse",
+     "Na Livingstonově ostrově",
+     "Na ostrově Deception"
+    ],
+    "en": [
+     "King George Island",
+     "James Ross Island",
+     "Livingston Island",
+     "Deception Island"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Stanice stojí na severním pobřeží ostrova Jamese Rosse a slavnostně byla otevřena 22. února 2007. Na ostrově Krále Jiřího je naopak nahuštěna řada stanic jiných zemí.",
+    "en": "The station stands on the northern coast of James Ross Island and was officially opened on 22 February 2007. King George Island, by contrast, is crowded with stations of other countries."
+   }
+  },
+  {
+   "id": "T198-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč mohou na norských Špicberkách těžit uhlí i Rusové, například v osadě Barentsburg?",
+    "en": "Why can Russians also mine coal on Norway's Svalbard, for example at the settlement of Barentsburg?"
+   },
+   "moznosti": {
+    "cs": [
+     "Smlouva z roku 1920 dává smluvním státům rovná práva",
+     "Rusko má souostroví od Norska v pronájmu",
+     "Souostroví spravuje OSN jako mezinárodní území",
+     "Rusko tam získalo doly jako válečnou náhradu"
+    ],
+    "en": [
+     "A 1920 treaty gives all its parties equal rights",
+     "Russia leases the archipelago from Norway",
+     "The UN administers it as international territory",
+     "Russia gained mines there as war reparations"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Smlouva o Špicberkách (1920) uznala norskou svrchovanost, ale občanům všech smluvních států – Sovětský svaz přistoupil roku 1935 – zaručila rovný přístup k rybolovu, lovu i těžbě. Norsko nesmí žádnou národnost zvýhodňovat.",
+    "en": "The Svalbard Treaty (1920) recognised Norwegian sovereignty but guaranteed citizens of all its parties – the Soviet Union acceded in 1935 – equal access to fishing, hunting and mining. Norway may not favour any nationality."
+   }
+  },
+  {
+   "id": "T198-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kterému ptákovi severního Atlantiku se slovo „penguin“ (tučňák) říkalo dřív, než ho Evropané přenesli na ptáky jižní polokoule?",
+    "en": "Which North Atlantic bird was called a 'penguin' before Europeans transferred the name to Southern Hemisphere birds?"
+   },
+   "moznosti": {
+    "cs": [
+     "Papuchalkovi severnímu",
+     "Kormoránu velkému",
+     "Potáplici lední",
+     "Alce velké"
+    ],
+    "en": [
+     "The Atlantic puffin",
+     "The great cormorant",
+     "The common loon",
+     "The great auk"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Slovo penguin se v 16. století objevilo jako jiné jméno nelétavé alky velké; tučňáci ho dostali kvůli podobnosti, ačkoli nejsou příbuzní. Alka velká byla vyhubena – poslední jisté kusy zabili roku 1844 na islandském ostrůvku Eldey.",
+    "en": "The word penguin appeared in the 16th century as another name for the flightless great auk; penguins got the name because of the resemblance, though they are not related. The great auk was hunted to extinction – the last confirmed birds were killed in 1844 on the Icelandic islet of Eldey."
+   }
+  },
+  {
+   "id": "T198-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který tučňák jako jediný žije i nepatrně severně od rovníku?",
+    "en": "Which penguin is the only one that also lives slightly north of the equator?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tučňák Humboldtův",
+     "Tučňák galapážský",
+     "Tučňák brýlový",
+     "Tučňák nejmenší"
+    ],
+    "en": [
+     "The Humboldt penguin",
+     "The Galápagos penguin",
+     "The African penguin",
+     "The little penguin"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Tučňák galapážský (Spheniscus mendiculus) žije na Galapágách přímo na rovníku a místy kousek severně od něj. Všichni ostatní tučňáci žijí na jižní polokouli.",
+    "en": "The Galápagos penguin (Spheniscus mendiculus) lives on the Galápagos Islands, right on the equator and in places slightly north of it. All other penguins live in the Southern Hemisphere."
+   }
+  },
+  {
+   "id": "T198-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na základně které země se v roce 1978 narodil Emilio Palma, podle Guinnessovy knihy rekordů první člověk narozený na antarktickém kontinentu?",
+    "en": "At which country's base was Emilio Palma born in 1978, according to Guinness World Records the first person born on the Antarctic continent?"
+   },
+   "moznosti": {
+    "cs": [
+     "Norska",
+     "Chile",
+     "Spojeného království",
+     "Argentiny"
+    ],
+    "en": [
+     "Norway",
+     "Chile",
+     "The United Kingdom",
+     "Argentina"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Narodil se 7. ledna 1978 na argentinské základně Esperanza, kam jeho matku v pokročilém těhotenství přepravili letecky; otec velel tamnímu oddílu armády. Na základně se od té doby narodilo nejméně deset dalších dětí.",
+    "en": "He was born on 7 January 1978 at Argentina's Esperanza Base, where his heavily pregnant mother had been flown in; his father commanded the army detachment there. At least ten more children have been born at the base since."
+   }
+  },
+  {
+   "id": "T198-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kam se Ernest Shackleton v roce 1916 vydal s pěti muži v otevřeném člunu James Caird, aby sehnal pomoc pro posádku ztracené lodi Endurance?",
+    "en": "Where did Ernest Shackleton head in 1916 with five men in the open boat James Caird to get help for the crew of the lost ship Endurance?"
+   },
+   "moznosti": {
+    "cs": [
+     "Do Ohňové země",
+     "Na Falklandy",
+     "Na Jižní Georgii",
+     "Na Jižní Shetlandy"
+    ],
+    "en": [
+     "Tierra del Fuego",
+     "The Falkland Islands",
+     "South Georgia",
+     "The South Shetland Islands"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Člun urazil asi 1 300 km z Elephant Islandu (v souostroví Jižní Shetlandy) k Jižní Georgii, kde byly velrybářské stanice. Shackleton pak zachránil všechny muže z Endurance, nikdo z nich nezahynul.",
+    "en": "The boat covered about 1,300 km (810 mi) from Elephant Island (in the South Shetlands) to South Georgia, where there were whaling stations. Shackleton then rescued all the Endurance men without loss of life."
+   }
+  }
+ ]
+}

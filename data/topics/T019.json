@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T019",
+ "nazev": {
+  "cs": "Písma a abecedy světa",
+  "en": "Writing Systems and Alphabets of the World"
+ },
+ "kategorie": {
+  "id": "jazyk-a-slova",
+  "nazev": {
+   "cs": "Jazyk a slova",
+   "en": "Language & Words"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T019-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterým směrem se píše arabské písmo?",
+    "en": "In which direction is Arabic script written?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zleva doprava",
+     "Shora dolů",
+     "Zprava doleva",
+     "Střídavě po řádcích"
+    ],
+    "en": [
+     "Left to right",
+     "Top to bottom",
+     "Right to left",
+     "Alternating line by line"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Arabské písmo se píše zprava doleva a písmena se uvnitř slova většinou spojují. Základní arabská abeceda má 28 písmen.",
+    "en": "Arabic script runs from right to left, and letters within a word are mostly joined. The basic Arabic alphabet has 28 letters."
+   }
+  },
+  {
+   "id": "T019-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které písmo nechal v 15. století vytvořit korejský král Sedžong Veliký?",
+    "en": "Which script did the Korean king Sejong the Great have created in the 15th century?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hangul",
+     "Thajské písmo",
+     "Mongolské písmo",
+     "Devanágarí"
+    ],
+    "en": [
+     "Hangul",
+     "Thai script",
+     "Mongolian script",
+     "Devanagari"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hangul byl dvoru představen na přelomu let 1443/1444 a oficiálně vyhlášen roku 1446 v dokumentu Hunmindžongum (Hunminjeongeum).",
+    "en": "Hangul was presented to the court around the turn of 1443/1444 and officially promulgated in 1446 in the document Hunminjeongeum."
+   }
+  },
+  {
+   "id": "T019-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Pro koho je určeno Braillovo písmo?",
+    "en": "Who is Braille intended for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pro neslyšící",
+     "Pro nevidomé",
+     "Pro námořní signalizaci",
+     "Pro telegrafisty"
+    ],
+    "en": [
+     "For deaf people",
+     "For blind people",
+     "For naval signalling",
+     "For telegraph operators"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Braillovo písmo tvoří vystouplé body, které se čtou hmatem. Louis Braille sám oslepl jako malé dítě po úrazu šídlem v otcově sedlářské dílně.",
+    "en": "Braille consists of raised dots read by touch. Louis Braille himself went blind as a small child after an accident with an awl in his father's harness workshop."
+   }
+  },
+  {
+   "id": "T019-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Rosettská deska se stala klíčem k rozluštění kterého písma?",
+    "en": "The Rosetta Stone became the key to deciphering which script?"
+   },
+   "moznosti": {
+    "cs": [
+     "Egyptských hieroglyfů",
+     "Mayského písma",
+     "Klínového písma",
+     "Fénického písma"
+    ],
+    "en": [
+     "Egyptian hieroglyphs",
+     "Maya script",
+     "Cuneiform",
+     "Phoenician script"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Na desce je tentýž text hieroglyfy, démotickým písmem a starořecky – řecká verze posloužila jako vodítko. Champollion oznámil rozluštění roku 1822; deska je od roku 1802 v Britském muzeu.",
+    "en": "The stone carries the same text in hieroglyphs, Demotic and Ancient Greek, and the Greek version served as the key. Champollion announced his decipherment in 1822; the stone has been in the British Museum since 1802."
+   }
+  },
+  {
+   "id": "T019-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterým písmem se píše ruština?",
+    "en": "Which script is Russian written in?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hlaholicí",
+     "Řeckým písmem",
+     "Cyrilicí",
+     "Latinkou"
+    ],
+    "en": [
+     "Glagolitic",
+     "Greek script",
+     "Cyrillic",
+     "Latin script"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ruština používá cyrilici, kterou na počátku 18. století výrazně reformoval car Petr Veliký (vznikla tzv. graždanka neboli civilní písmo). Dnešní ruská abeceda má 33 písmen.",
+    "en": "Russian uses Cyrillic, which Tsar Peter the Great substantially reformed in the early 18th century (creating the so-called Civil script). The modern Russian alphabet has 33 letters."
+   }
+  },
+  {
+   "id": "T019-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se jmenují první dvě písmena řecké abecedy?",
+    "en": "What are the first two letters of the Greek alphabet called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Alfa a omega",
+     "Alfa a beta",
+     "Alfa a delta",
+     "Alfa a gama"
+    ],
+    "en": [
+     "Alpha and omega",
+     "Alpha and beta",
+     "Alpha and delta",
+     "Alpha and gamma"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Z jejich jmen vzniklo řecké slovo alphábētos, a z něj přes latinu i slovo „alfabeta“ (anglicky alphabet). Řecká abeceda má 24 písmen, od alfy po omegu.",
+    "en": "Their names gave the Greek word alphábētos, which via Latin became 'alphabet'. The Greek alphabet has 24 letters, from alpha to omega."
+   }
+  },
+  {
+   "id": "T019-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá písmo starověké Mezopotámie, jehož znaky se vtlačovaly rydlem do hliněných tabulek?",
+    "en": "What is the name of the ancient Mesopotamian script whose signs were pressed into clay tablets with a stylus?"
+   },
+   "moznosti": {
+    "cs": [
+     "Runové písmo",
+     "Ogam",
+     "Hieroglyfy",
+     "Klínové písmo"
+    ],
+    "en": [
+     "Runic script",
+     "Ogham",
+     "Hieroglyphs",
+     "Cuneiform"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Rydlo se seříznutým hrotem zanechávalo v měkké hlíně otisky ve tvaru klínků. Písmo vzniklo původně pro sumerštinu a později se jím psalo mnoha dalšími jazyky.",
+    "en": "A wedge-tipped stylus left wedge-shaped marks in the soft clay. The script was first developed for Sumerian and was later used for many other languages."
+   }
+  },
+  {
+   "id": "T019-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "S kterou skupinou národů jsou spojeny runy?",
+    "en": "Which group of peoples are runes associated with?"
+   },
+   "moznosti": {
+    "cs": [
+     "Slovanské",
+     "Baltské",
+     "Keltské",
+     "Germánské"
+    ],
+    "en": [
+     "Slavic",
+     "Baltic",
+     "Celtic",
+     "Germanic"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Runy používaly germánské národy už od 1. či 2. století n. l. – patřili k nim i Vikingové ze Skandinávie.",
+    "en": "Runes were used by the Germanic peoples from the 1st or 2nd century AD, including the Viking-age Scandinavians."
+   }
+  },
+  {
+   "id": "T019-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se jmenuje znaménko nad písmeny č, š, ř a ž, které se pod svým českým názvem používá i v angličtině?",
+    "en": "What is the name of the mark above the letters č, š, ř and ž, which is also known in English by its Czech name?"
+   },
+   "moznosti": {
+    "cs": [
+     "Háček",
+     "Kroužek",
+     "Stříška",
+     "Čárka"
+    ],
+    "en": [
+     "Háček",
+     "Kroužek",
+     "Stříška",
+     "Čárka"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "V angličtině se mu říká háček nebo caron; podle Oxfordského slovníku se slovo háček v angličtině poprvé objevilo roku 1953. Lingvisté dávají přednost názvu háček, typografové spíš caron.",
+    "en": "In English it is called a háček or caron; the Oxford English Dictionary dates the first English use of 'háček' to 1953. Linguists tend to say háček, typographers caron."
+   }
+  },
+  {
+   "id": "T019-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co v e-mailové adrese odděluje znak @?",
+    "en": "What does the @ sign separate in an email address?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jméno od příjmení",
+     "Uživatelské jméno od domény",
+     "Doménu od koncovky .com",
+     "Heslo od uživatelského jména"
+    ],
+    "en": [
+     "The first name from the surname",
+     "The user name from the domain",
+     "The domain from the .com ending",
+     "The password from the user name"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Adresa jan@example.com znamená uživatele „jan“ na doméně example.com. Takto znak @ poprvé použil Ray Tomlinson v roce 1971; dříve sloužil v obchodě k udání ceny za kus.",
+    "en": "The address jan@example.com means the user 'jan' at the domain example.com. Ray Tomlinson introduced this use in 1971; earlier, @ was used in commerce to give a price per item."
+   }
+  },
+  {
+   "id": "T019-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které písmo podle převládajícího názoru vytvořil Konstantin (svatý Cyril) pro misii na Velkou Moravu?",
+    "en": "Which script is generally believed to have been created by Constantine (Saint Cyril) for the mission to Great Moravia?"
+   },
+   "moznosti": {
+    "cs": [
+     "Latinku",
+     "Řecké písmo",
+     "Cyrilici",
+     "Hlaholici"
+    ],
+    "en": [
+     "Latin script",
+     "Greek script",
+     "Cyrillic",
+     "Glagolitic"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Hlaholice sloužila na Velké Moravě od roku 863 zhruba do let 885–886. Cyrilice nese Cyrilovo jméno jen na jeho počest – vznikla až později.",
+    "en": "Glagolitic was used in Great Moravia from 863 until about 885–886. Cyrillic bears Cyril's name only in his honour – it arose later."
+   }
+  },
+  {
+   "id": "T019-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které písmo je považováno za předka řecké abecedy, a tím i latinky a cyrilice?",
+    "en": "Which script is considered the ancestor of the Greek alphabet, and thus also of the Latin and Cyrillic scripts?"
+   },
+   "moznosti": {
+    "cs": [
+     "Démotické",
+     "Klínové",
+     "Aramejské",
+     "Fénické"
+    ],
+    "en": [
+     "Demotic",
+     "Cuneiform",
+     "Aramaic",
+     "Phoenician"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Řekové převzali fénické písmo a upravili ho pro svůj jazyk. Z řecké abecedy se pak vyvinula latinka i cyrilice.",
+    "en": "The Greeks adopted the Phoenician script and adapted it to their own language. The Latin and Cyrillic scripts later developed from the Greek alphabet."
+   }
+  },
+  {
+   "id": "T019-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co Řekové přidali do převzatého písma, protože v něm chybělo?",
+    "en": "What did the Greeks add to the script they adopted, because it was missing?"
+   },
+   "moznosti": {
+    "cs": [
+     "Znaky pro slabiky",
+     "Znaky pro souhlásky",
+     "Obrázkové znaky pro celá slova",
+     "Znaky pro samohlásky"
+    ],
+    "en": [
+     "Signs for syllables",
+     "Letters for consonants",
+     "Picture signs for whole words",
+     "Letters for vowels"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Převzaté písmo zapisovalo jen souhlásky (tzv. abdžad), samohlásky si čtenář domýšlel. Řecká abeceda je nejstarší známá abeceda, která soustavně zapisuje samohlásky i souhlásky.",
+    "en": "The adopted script wrote only consonants (an abjad) and the reader supplied the vowels. Greek is the earliest known alphabetic script to systematically write vowels as well as consonants."
+   }
+  },
+  {
+   "id": "T019-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které české osobnosti je připisován latinský spis De orthographia Bohemica, který zavedl do češtiny znaménka nad písmeny?",
+    "en": "Which Czech figure is credited with the Latin treatise De orthographia Bohemica, which introduced marks above letters into Czech?"
+   },
+   "moznosti": {
+    "cs": [
+     "Petru Chelčickému",
+     "Janu Blahoslavovi",
+     "Janu Amosi Komenskému",
+     "Janu Husovi"
+    ],
+    "en": [
+     "Petr Chelčický",
+     "Jan Blahoslav",
+     "John Amos Comenius",
+     "Jan Hus"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Spis vznikl mezi lety 1406 a 1412 a Husovo autorství je jen připisované, ne zcela jisté. Spřežky v něm nahradila jednoduchá znaménka nad písmeny.",
+    "en": "The treatise was written between 1406 and 1412, and Hus's authorship is attributed rather than certain. It replaced letter combinations (digraphs) with simple marks above letters."
+   }
+  },
+  {
+   "id": "T019-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Z kolika bodů se skládá jedno políčko (buňka) Braillova písma v jeho původní podobě?",
+    "en": "How many dots make up one cell of Braille in its original form?"
+   },
+   "moznosti": {
+    "cs": [
+     "4",
+     "6",
+     "8",
+     "9"
+    ],
+    "en": [
+     "4",
+     "6",
+     "8",
+     "9"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Šest bodů je uspořádáno do dvou sloupců po třech, což dává 64 kombinací včetně prázdné buňky. Braille svůj systém poprvé publikoval roku 1829.",
+    "en": "The six dots are arranged in two columns of three, giving 64 combinations including the empty cell. Braille first published his system in 1829."
+   }
+  },
+  {
+   "id": "T019-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které japonské písmo se používá hlavně pro slova přejatá z cizích jazyků?",
+    "en": "Which Japanese script is mainly used for words borrowed from foreign languages?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hiragana",
+     "Katakana",
+     "Kandži",
+     "Rómadži"
+    ],
+    "en": [
+     "Hiragana",
+     "Katakana",
+     "Kanji",
+     "Rōmaji"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Japonština kombinuje čínské znaky kandži se dvěma slabičnými písmy: hiragana slouží pro domácí slova a gramatické koncovky, katakana pro přejatá slova. Katakanou se také zdůrazňuje, podobně jako u nás kurzívou.",
+    "en": "Japanese combines Chinese-derived kanji with two syllabaries: hiragana for native words and grammatical endings, katakana for loanwords. Katakana is also used for emphasis, much like italics in English."
+   }
+  },
+  {
+   "id": "T019-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který z těchto jazyků se dnes píše písmem odvozeným z arabského?",
+    "en": "Which of these languages is written today in a script derived from Arabic?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hindština",
+     "Turečtina",
+     "Hebrejština",
+     "Perština"
+    ],
+    "en": [
+     "Hindi",
+     "Turkish",
+     "Hebrew",
+     "Persian"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Perská abeceda je téměř shodná s arabskou, jen má čtyři písmena navíc (پ, چ, ژ, گ) pro hlásky, které arabština nezná. Turečtina se arabským písmem psala také, ale roku 1928 přešla za Atatürka na latinku.",
+    "en": "The Persian alphabet is almost identical to the Arabic one, with four extra letters (پ, چ, ژ, گ) for sounds Arabic lacks. Turkish was also once written in Arabic script but switched to the Latin alphabet under Atatürk in 1928."
+   }
+  },
+  {
+   "id": "T019-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se nazývá runová abeceda, pojmenovaná podle svých prvních šesti znaků?",
+    "en": "What is the runic alphabet called, named after its first six letters?"
+   },
+   "moznosti": {
+    "cs": [
+     "Alefbet",
+     "Ogam",
+     "Futhark",
+     "Abugida"
+    ],
+    "en": [
+     "Alefbet",
+     "Ogham",
+     "Futhark",
+     "Abugida"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Runy jsou řazeny F, U, Þ, A, R, K. Starší futhark měl 24 run, mladší futhark jen 16.",
+    "en": "The runes are ordered F, U, Þ, A, R, K. The Elder Futhark had 24 runes, the Younger Futhark only 16."
+   }
+  },
+  {
+   "id": "T019-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ze kterého latinského slova vznikl znak &?",
+    "en": "Which Latin word did the symbol & originate from?"
+   },
+   "moznosti": {
+    "cs": [
+     "et",
+     "in",
+     "per",
+     "ad"
+    ],
+    "en": [
+     "et",
+     "in",
+     "per",
+     "ad"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Znak & je ligatura písmen E a T, tedy latinského „et“ (a), kterou spojovali už římští písaři kolem 1. století. Anglický název ampersand vznikl zkomolením odříkávané fráze „and per se and“.",
+    "en": "The & is a ligature of the letters E and T, the Latin 'et' (and), joined by Roman scribes as early as the 1st century. Its English name 'ampersand' is a slurred form of the recited phrase 'and per se and'."
+   }
+  },
+  {
+   "id": "T019-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kde se dnes oficiálně používají tradiční (nezjednodušené) čínské znaky?",
+    "en": "Where are traditional (unsimplified) Chinese characters officially used today?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Singapuru",
+     "V Šanghaji",
+     "Na Tchaj-wanu",
+     "V Pekingu"
+    ],
+    "en": [
+     "In Singapore",
+     "In Shanghai",
+     "In Taiwan",
+     "In Beijing"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pevninská Čína zavedla zjednodušené znaky v polovině 20. století a Singapur je přijal roku 1969. Tradiční znaky zůstaly na Tchaj-wanu a také v Hongkongu a Macau.",
+    "en": "Mainland China introduced simplified characters in the mid-20th century and Singapore adopted them in 1969. Traditional characters remained in Taiwan, as well as in Hong Kong and Macau."
+   }
+  },
+  {
+   "id": "T019-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co napodobují tvary základních souhlásek korejského písma?",
+    "en": "What do the shapes of the basic consonants of the Korean alphabet imitate?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tvar mluvidel při výslovnosti",
+     "Tahy štětce v kaligrafii",
+     "Tvary čínských znaků",
+     "Siluety zvířat"
+    ],
+    "en": [
+     "The shape of the speech organs",
+     "Brush strokes in calligraphy",
+     "The shapes of Chinese characters",
+     "Animal silhouettes"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pět základních souhlásek kreslí např. kořen jazyka (ㄱ), ústa (ㅁ) nebo řezáky (ㅅ). Další souhlásky vznikají přidáním tahů, které značí ostřejší výslovnost.",
+    "en": "The five basic consonants depict, for example, the root of the tongue (ㄱ), the mouth (ㅁ) or the incisors (ㅅ). Other consonants are formed by adding strokes for harsher sounds."
+   }
+  },
+  {
+   "id": "T019-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve které zemi se hlaholice v bohoslužbě udržela nejdéle, místy až do 20. století?",
+    "en": "In which country did Glagolitic survive longest in church use, in places into the 20th century?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Polsku",
+     "V Chorvatsku",
+     "V Rusku",
+     "V Bulharsku"
+    ],
+    "en": [
+     "Poland",
+     "Croatia",
+     "Russia",
+     "Bulgaria"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Roku 1248 papež Inocenc IV. povolil v jižní Dalmácii (výsadu získal senjský biskup Filip) užívat v liturgii vlastní jazyk a hlaholici; výsada se později rozšířila na další chorvatská území. V Chorvatsku se tak hlaholice místy udržela až do 20. století.",
+    "en": "In 1248 Pope Innocent IV granted the privilege of using the vernacular and Glagolitic in the liturgy in southern Dalmatia (formally to Bishop Philip of Senj); it was later extended to other Croatian lands. In Croatia the script thus survived in places into the 20th century."
+   }
+  },
+  {
+   "id": "T019-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co znamenalo jméno semitského písmene alef?",
+    "en": "What did the name of the Semitic letter aleph mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vůl",
+     "Voda",
+     "Orel",
+     "Dům"
+    ],
+    "en": [
+     "Ox",
+     "Water",
+     "Eagle",
+     "House"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Alef znamenal vůl (dobytče) a druhé písmeno bet znamenalo dům. Stejné názvy písmen má dodnes hebrejská abeceda.",
+    "en": "Aleph meant ox (head of cattle) and the second letter, bet, meant house. The Hebrew alphabet still uses the same letter names today."
+   }
+  },
+  {
+   "id": "T019-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který nápis sehrál klíčovou roli při rozluštění klínového písma?",
+    "en": "Which inscription played a key role in the decipherment of cuneiform?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kýrův válec",
+     "Chammurapiho zákoník",
+     "Méšova stéla",
+     "Behistunský nápis"
+    ],
+    "en": [
+     "The Cyrus Cylinder",
+     "The Code of Hammurabi",
+     "The Mesha Stele",
+     "The Behistun Inscription"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Trojjazyčný nápis krále Dareia I. (staroperština, elamština, babylonština) je vytesán vysoko ve skalní stěně hory Behistun v íránské provincii Kermánšáh. Henry Rawlinson ho opisoval od 30. do 40. let 19. století a šplhal kvůli tomu po útesu.",
+    "en": "King Darius I's trilingual inscription (Old Persian, Elamite, Babylonian) is carved high on a cliff of Mount Behistun in Iran's Kermanshah Province. Henry Rawlinson copied it from the 1830s to the 1840s, scaling the cliff to do so."
+   }
+  },
+  {
+   "id": "T019-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Až kolik různých tvarů může mít jedno písmeno arabské abecedy podle své pozice ve slově?",
+    "en": "Up to how many different forms can a letter of the Arabic alphabet have depending on its position in a word?"
+   },
+   "moznosti": {
+    "cs": [
+     "2",
+     "3",
+     "4",
+     "6"
+    ],
+    "en": [
+     "2",
+     "3",
+     "4",
+     "6"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Písmeno může mít tvar samostatný, počáteční, střední a koncový, protože se v psaní spojuje se sousedními písmeny. Většina z 28 písmen takové poziční tvary má.",
+    "en": "A letter can have isolated, initial, medial and final forms, because it joins neighbouring letters in writing. Most of the 28 letters have such positional forms."
+   }
+  },
+  {
+   "id": "T019-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jakou podobu měl ve spisu De orthographia Bohemica předchůdce dnešního znaménka nad písmeny č, š, ř a ž?",
+    "en": "In the treatise De orthographia Bohemica, what form did the forerunner of today's mark above č, š, ř and ž take?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tečky nad písmenem",
+     "Vlnovky nad písmenem",
+     "Čárky nad písmenem",
+     "Kroužku nad písmenem"
+    ],
+    "en": [
+     "A dot above the letter",
+     "A tilde above the letter",
+     "An acute stroke above the letter",
+     "A ring above the letter"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Tečka nad písmenem se dodnes zachovala v polském ż. Spis byl ve své době málo známý a dnešní podoba znaménka se rozšířila až v 16. století s knihtiskem.",
+    "en": "The dot above survives to this day in the Polish ż. The treatise was little known in its time, and the mark's modern form spread only in the 16th century with printing."
+   }
+  },
+  {
+   "id": "T019-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na čí hmatový kód, později nazývaný „noční písmo“, navázal Louis Braille?",
+    "en": "Whose tactile code, later called 'night writing', did Louis Braille build on?"
+   },
+   "moznosti": {
+    "cs": [
+     "Clauda Chappa",
+     "Valentina Haüyho",
+     "Charlese Barbiera",
+     "Samuela Morse"
+    ],
+    "en": [
+     "Claude Chappe",
+     "Valentin Haüy",
+     "Charles Barbier",
+     "Samuel Morse"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Barbierův kód používal až 12 bodů na znak; Braille ho výrazně zjednodušil. Valentin Haüy založil pařížskou školu, kterou Braille navštěvoval, a tiskl knihy s vystouplými latinskými písmeny.",
+    "en": "Barbier's code used up to 12 dots per sign; Braille greatly simplified it. Valentin Haüy founded the Paris school that Braille attended and printed books with raised Latin letters."
+   }
+  },
+  {
+   "id": "T019-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Prostřednictvím kterého národa se podle převládajícího názoru dostalo řecké písmo k Římanům?",
+    "en": "Through which people, according to the prevailing view, did the Greek script reach the Romans?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kartaginců",
+     "Keltů",
+     "Etrusků",
+     "Féničanů"
+    ],
+    "en": [
+     "The Carthaginians",
+     "The Celts",
+     "The Etruscans",
+     "The Phoenicians"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Latinka se vyvinula z podobné etruské abecedy, která vycházela z řecké varianty používané v řecké osadě Kúmy (Cumae) v Itálii. Řecká abeceda tak do Itálie dorazila prostřednictvím jejích kolonií.",
+    "en": "The Latin alphabet evolved from the similar Etruscan alphabet, which came from the Greek variant used in the Greek colony of Cumae in Italy. The Greek alphabet thus reached Italy through its colonies."
+   }
+  },
+  {
+   "id": "T019-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém státě podle většiny badatelů vznikla cyrilice?",
+    "en": "In which state, according to most scholars, did the Cyrillic script originate?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Kyjevské Rusi",
+     "V První bulharské říši",
+     "V Byzantské říši",
+     "Na Velké Moravě"
+    ],
+    "en": [
+     "Kievan Rus'",
+     "The First Bulgarian Empire",
+     "The Byzantine Empire",
+     "Great Moravia"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Cyrilice vznikla koncem 9. století na preslavské literární škole za vlády cara Simeona I. Preslav byl tehdy hlavním městem bulharské říše.",
+    "en": "Cyrillic was developed in the late 9th century at the Preslav Literary School during the reign of Tsar Simeon I. Preslav was then the capital of the Bulgarian Empire."
+   }
+  },
+  {
+   "id": "T019-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na čem jsou zachovány nejstarší doložené čínské nápisy z doby dynastie Šang?",
+    "en": "On what are the oldest attested Chinese inscriptions, from the Shang dynasty, preserved?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na kostech a želvích krunýřích",
+     "Na hliněných tabulkách a cihlách",
+     "Na hedvábí a papírových svitcích",
+     "Na bambusových a dřevěných proužcích"
+    ],
+    "en": [
+     "On bones and turtle shells",
+     "On clay tablets and bricks",
+     "On silk and paper scrolls",
+     "On bamboo and wooden strips"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jde o tzv. věštebné kosti – lopatky skotu a spodní části želvích krunýřů, do nichž se vyrývaly otázky při věštění. Nápisy dokládají čínské písmo zhruba od 13. století př. n. l.",
+    "en": "These are the so-called oracle bones – cattle shoulder blades and turtle plastrons into which questions were carved during divination. They attest Chinese writing from around the 13th century BC."
+   }
+  }
+ ]
+}

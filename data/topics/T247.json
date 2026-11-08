@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T247",
+ "nazev": {
+  "cs": "Renesance: Leonardo, Michelangelo a Medicejové",
+  "en": "The Renaissance: Leonardo, Michelangelo and the Medici"
+ },
+ "kategorie": {
+  "id": "umeni-a-literatura",
+  "nazev": {
+   "cs": "Umění a literatura",
+   "en": "Art & Literature"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T247-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Slovo renesance pochází z francouzštiny. Co doslova znamená?",
+    "en": "The word Renaissance comes from French. What does it literally mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Probuzení",
+     "Osvícení",
+     "Zušlechtění",
+     "Znovuzrození"
+    ],
+    "en": [
+     "Awakening",
+     "Enlightenment",
+     "Refinement",
+     "Rebirth"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Renaissance znamená francouzsky znovuzrození – myslí se tím návrat k umění a vzdělanosti antického Řecka a Říma. Hnutí začalo ve Florencii.",
+    "en": "Renaissance is French for rebirth – meaning the revival of the art and learning of ancient Greece and Rome. The movement began in Florence."
+   }
+  },
+  {
+   "id": "T247-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém italském městě vládl rod Medicejských?",
+    "en": "In which Italian city did the Medici family rule?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Miláně",
+     "V Neapoli",
+     "Ve Florencii",
+     "V Benátkách"
+    ],
+    "en": [
+     "Milan",
+     "Naples",
+     "Florence",
+     "Venice"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Medicejští ovládli Florentskou republiku v 15. století a později se stali velkovévody toskánskými. Jejich mecenášství udělalo z Florencie kolébku renesance.",
+    "en": "The Medici took control of the Republic of Florence in the 15th century and later became Grand Dukes of Tuscany. Their patronage made Florence the cradle of the Renaissance."
+   }
+  },
+  {
+   "id": "T247-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakým zvláštním způsobem psal Leonardo da Vinci většinu poznámek ve svých sešitech?",
+    "en": "In what unusual way did Leonardo da Vinci write most of the notes in his notebooks?"
+   },
+   "moznosti": {
+    "cs": [
+     "Číselnou šifrou",
+     "Zrcadlově, zprava doleva",
+     "Těsnopisem vlastního vynálezu",
+     "Výhradně řecky"
+    ],
+    "en": [
+     "In a numerical cipher",
+     "Mirror-image, from right to left",
+     "In a shorthand of his own invention",
+     "Only in Greek"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Leonardo psal zrcadlově obráceným písmem. Byl levák, takže psaní zprava doleva pro něj bylo nejspíš prostě pohodlnější.",
+    "en": "Leonardo wrote in mirror-image script. He was left-handed, so writing from right to left was probably simply easier for him."
+   }
+  },
+  {
+   "id": "T247-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které dílo o tom, jak získat a udržet moc, napsal Niccolò Machiavelli?",
+    "en": "Which work on how to gain and keep power did Niccolò Machiavelli write?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dekameron",
+     "Leviatan",
+     "Vladař",
+     "Utopie"
+    ],
+    "en": [
+     "The Decameron",
+     "Leviathan",
+     "The Prince",
+     "Utopia"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vladaře (Il Principe) napsal Machiavelli roku 1513, vyšel ale až v roce 1532, pět let po autorově smrti. Roku 1559 se ocitl na papežském seznamu zakázaných knih.",
+    "en": "Machiavelli wrote The Prince (Il Principe) in 1513, but it was only published in 1532, five years after his death. In 1559 it was put on the papal Index of forbidden books."
+   }
+  },
+  {
+   "id": "T247-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Želvy nindža nesou jména čtyř renesančních umělců. Které z těchto jmen mezi nimi NENÍ?",
+    "en": "The Teenage Mutant Ninja Turtles are named after four Renaissance artists. Which of these names is NOT one of them?"
+   },
+   "moznosti": {
+    "cs": [
+     "Botticelli",
+     "Raphael",
+     "Leonardo",
+     "Michelangelo"
+    ],
+    "en": [
+     "Botticelli",
+     "Raphael",
+     "Leonardo",
+     "Michelangelo"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Želvy se jmenují Leonardo, Michelangelo, Raphael a Donatello. Botticelli mezi nimi chybí, přestože patří k nejslavnějším florentským malířům.",
+    "en": "The turtles are called Leonardo, Michelangelo, Raphael and Donatello. Botticelli is missing, although he is one of the most famous Florentine painters."
+   }
+  },
+  {
+   "id": "T247-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím Medicejští především zbohatli?",
+    "en": "What was the main source of the Medici family's wealth?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bankovnictvím",
+     "Obchodem s kořením",
+     "Stavbou lodí",
+     "Těžbou stříbra"
+    ],
+    "en": [
+     "Banking",
+     "The spice trade",
+     "Shipbuilding",
+     "Silver mining"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Banka Medicejských, založená roku 1397, patřila k nejvýznamnějším finančním domům Evropy. Lorenzo Medicejský (1449–1492) se ale o bankovnictví příliš nestaral, což přispělo k jejímu úpadku.",
+    "en": "The Medici Bank, founded in 1397, was one of the most important financial houses in Europe. Lorenzo de' Medici (1449–1492), however, neglected the banking business, which contributed to its decline."
+   }
+  },
+  {
+   "id": "T247-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která slavná freska ve Vatikánu má uprostřed filozofy Platóna a Aristotela?",
+    "en": "Which famous fresco in the Vatican has the philosophers Plato and Aristotle at its centre?"
+   },
+   "moznosti": {
+    "cs": [
+     "Poslední soud",
+     "Parnas",
+     "Stvoření Adama",
+     "Athénská škola"
+    ],
+    "en": [
+     "The Last Judgment",
+     "The Parnassus",
+     "The Creation of Adam",
+     "The School of Athens"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Athénskou školu namaloval Rafael v letech 1509–1511 ve Stanze della Segnatura. Ve tváři Platóna je prý zachycen Leonardo da Vinci, Rafael sám se namaloval vedle Ptolemaia.",
+    "en": "Raphael painted The School of Athens in 1509–1511 in the Stanza della Segnatura. Plato is believed to bear the features of Leonardo da Vinci, and Raphael painted himself beside Ptolemy."
+   }
+  },
+  {
+   "id": "T247-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Po kterém renesančním učenci je pojmenován evropský program výměnných pobytů vysokoškolských studentů, spuštěný v roce 1987?",
+    "en": "Which Renaissance scholar is the European university student exchange programme, launched in 1987, named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Francesco Petrarca",
+     "Niccolò Machiavelli",
+     "Erasmus Rotterdamský",
+     "Tomáš Morus"
+    ],
+    "en": [
+     "Francesco Petrarca",
+     "Niccolò Machiavelli",
+     "Erasmus of Rotterdam",
+     "Thomas More"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Program Erasmus nese jméno humanisty, který sám putoval po evropských univerzitách. Název je zároveň dodatečně vymyšlenou zkratkou anglického European Community Action Scheme for the Mobility of University Students.",
+    "en": "The Erasmus Programme is named after a humanist who himself travelled between European universities. The name is also a backronym for European Community Action Scheme for the Mobility of University Students."
+   }
+  },
+  {
+   "id": "T247-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co vyjadřuje „da Vinci“ ve jménu Leonarda da Vinci?",
+    "en": "What does \"da Vinci\" in Leonardo da Vinci's name express?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přezdívku „vítěz“",
+     "Jméno jeho mistra",
+     "Odkud pocházel",
+     "Šlechtický titul"
+    ],
+    "en": [
+     "The nickname \"the winner\"",
+     "His master's name",
+     "Where he came from",
+     "A noble title"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Celým jménem Leonardo di ser Piero da Vinci – Leonardo, syn pana Piera z Vinci. Narodil se roku 1452 v toskánském městečku Vinci nebo poblíž, asi 35 km od Florencie.",
+    "en": "His full name was Leonardo di ser Piero da Vinci – Leonardo, son of ser Piero from Vinci. He was born in 1452 in or near the Tuscan town of Vinci, about 35 km (22 mi) from Florence."
+   }
+  },
+  {
+   "id": "T247-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterému dnešnímu stroji se podobá „vzdušný šroub“, který Leonardo nakreslil kolem roku 1489?",
+    "en": "Which modern machine does the \"aerial screw\" that Leonardo drew around 1489 resemble?"
+   },
+   "moznosti": {
+    "cs": [
+     "Raketě",
+     "Jízdnímu kolu",
+     "Ponorce",
+     "Vrtulníku"
+    ],
+    "en": [
+     "A rocket",
+     "A bicycle",
+     "A submarine",
+     "A helicopter"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vzdušný šroub bývá kvůli svému šroubovitému tvaru označován za předchůdce vrtulníku. Létání Leonarda fascinovalo po velkou část života.",
+    "en": "Because of its shape, the spiral aerial screw is often called a forerunner of the helicopter. Flight fascinated Leonardo for much of his life."
+   }
+  },
+  {
+   "id": "T247-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém německém městě se narodil Johannes Gutenberg a kde kolem roku 1450 provozoval tiskárnu?",
+    "en": "In which German city was Johannes Gutenberg born, and where was he running a printing workshop around 1450?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Kolíně nad Rýnem",
+     "V Mohuči",
+     "V Norimberku",
+     "V Augsburgu"
+    ],
+    "en": [
+     "Cologne",
+     "Mainz",
+     "Nuremberg",
+     "Augsburg"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Gutenberg pocházel z Mohuče na Rýně. Tajemství tisku prý zdokonalil kolem roku 1440 ve Štrasburku, ale tiskárnu, z níž vyšla jeho Bible, měl v rodné Mohuči.",
+    "en": "Gutenberg came from Mainz on the Rhine. He is said to have perfected the secret of printing in Strasbourg around 1440, but the workshop that produced his Bible was in his native Mainz."
+   }
+  },
+  {
+   "id": "T247-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Malíř Sandro Botticelli zdědil přezdívku po svém bratrovi. Co znamená italsky?",
+    "en": "The painter Sandro Botticelli inherited his nickname from his brother. What does it mean in Italian?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zvoneček",
+     "Lahvička",
+     "Kamínek",
+     "Soudeček"
+    ],
+    "en": [
+     "Little bell",
+     "Little bottle",
+     "Little pebble",
+     "Little barrel"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vlastním jménem se jmenoval Alessandro di Mariano di Vanni Filipepi. Přezdívka „soudeček“ patřila původně jeho bratrovi Giovannimu, zřejmě kvůli jeho kulaté postavě, a přešla i na Sandra.",
+    "en": "His real name was Alessandro di Mariano di Vanni Filipepi. The nickname \"little barrel\" originally belonged to his brother Giovanni, apparently because of his round stature, and passed on to Sandro too."
+   }
+  },
+  {
+   "id": "T247-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaký přídomek získal renesanční vládce a mecenáš Lorenzo Medicejský (1449–1492)?",
+    "en": "What epithet did the Renaissance ruler and patron Lorenzo de' Medici (1449–1492) earn?"
+   },
+   "moznosti": {
+    "cs": [
+     "Starší (il Vecchio)",
+     "Veliký (il Grande)",
+     "Nádherný (il Magnifico)",
+     "Moudrý (il Saggio)"
+    ],
+    "en": [
+     "The Elder (il Vecchio)",
+     "The Great (il Grande)",
+     "The Magnificent (il Magnifico)",
+     "The Wise (il Saggio)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Lorenzo Nádherný podporoval Botticelliho i Michelangela, který u něj jako mladík tři roky bydlel. Jeho syn Giovanni se roku 1513 stal papežem Lvem X.",
+    "en": "Lorenzo the Magnificent supported Botticelli as well as Michelangelo, who lived in his household for three years as a youth. His son Giovanni became Pope Leo X in 1513."
+   }
+  },
+  {
+   "id": "T247-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který papež objednal u Michelangela výmalbu stropu Sixtinské kaple?",
+    "en": "Which pope commissioned Michelangelo to paint the ceiling of the Sistine Chapel?"
+   },
+   "moznosti": {
+    "cs": [
+     "Julius II.",
+     "Lev X.",
+     "Alexandr VI.",
+     "Sixtus IV."
+    ],
+    "en": [
+     "Julius II",
+     "Leo X",
+     "Alexander VI",
+     "Sixtus IV"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Strop vznikl v letech 1508–1512 na objednávku papeže Julia II. a hotové dílo bylo odhaleno 31. října 1512.",
+    "en": "The ceiling was painted in 1508–1512, commissioned by Pope Julius II, and the finished work was unveiled on 31 October 1512."
+   }
+  },
+  {
+   "id": "T247-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Stoupenci kterého kazatele pálili roku 1497 ve Florencii na takzvané hranici marností (falò delle vanità) zrcadla, kosmetiku, hrací karty a knihy?",
+    "en": "Followers of which preacher burned mirrors, cosmetics, playing cards and books on the so-called Bonfire of the Vanities in Florence in 1497?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jana Kalvína",
+     "Ulricha Zwingliho",
+     "Tomáse de Torquemady",
+     "Girolama Savonaroly"
+    ],
+    "en": [
+     "John Calvin",
+     "Ulrich Zwingli",
+     "Tomás de Torquemada",
+     "Girolamo Savonarola"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Stoupenci dominikána Savonaroly spálili 7. února 1497, o masopustním úterý, množství „hříšných“ předmětů včetně uměleckých děl a hudebních nástrojů. Pozdější zprávy, že do ohně házel své obrazy i Botticelli, rané prameny nepotvrzují.",
+    "en": "On Shrove Tuesday, 7 February 1497, supporters of the Dominican friar Savonarola burned a great many \"sinful\" objects, including works of art and musical instruments. Later claims that Botticelli threw his own paintings into the fire are not supported by early records."
+   }
+  },
+  {
+   "id": "T247-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Erasmus Rotterdamský napsal roku 1509 v londýnském domě Tomáše Mora satiru, jejíž název je zároveň slovní hříčkou na Morovo jméno. Jak se jmenuje?",
+    "en": "In 1509, at Thomas More's house in London, Erasmus of Rotterdam wrote a satire whose title is also a pun on More's name. What is it called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Loď bláznů",
+     "Gargantua a Pantagruel",
+     "Chvála bláznivosti",
+     "O důstojnosti člověka"
+    ],
+    "en": [
+     "Ship of Fools",
+     "Gargantua and Pantagruel",
+     "The Praise of Folly",
+     "Oration on the Dignity of Man"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Latinský název Moriae Encomium znamená Chvála bláznivosti (řecky mória = pošetilost), ale dá se číst i jako „Chvála Mora“. Mluví v ní sama Pošetilost, která velebí sebe.",
+    "en": "The Latin title Moriae Encomium means The Praise of Folly (Greek moria = folly) but can also be read as \"In Praise of More\". It is narrated by Folly herself, who praises herself at length."
+   }
+  },
+  {
+   "id": "T247-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve které zemi strávil Leonardo da Vinci poslední tři roky života a kde roku 1519 zemřel?",
+    "en": "In which country did Leonardo da Vinci spend the last three years of his life and die in 1519?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Anglii",
+     "Ve Francii",
+     "Ve Španělsku",
+     "V Uhrách"
+    ],
+    "en": [
+     "England",
+     "France",
+     "Spain",
+     "Hungary"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Leonardo přijal pozvání krále Františka I. a usadil se na zámečku Clos Lucé u Amboise, kde 2. května 1519 zemřel.",
+    "en": "Leonardo accepted King Francis I's invitation and settled at Clos Lucé near Amboise, where he died on 2 May 1519."
+   }
+  },
+  {
+   "id": "T247-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kupoli které stavby navrhl Michelangelo? Dokončena byla až po jeho smrti.",
+    "en": "Which building's dome did Michelangelo design? It was only completed after his death."
+   },
+   "moznosti": {
+    "cs": [
+     "Pantheonu v Římě",
+     "Baziliky svatého Petra v Římě",
+     "Baziliky svatého Marka v Benátkách",
+     "Florentské katedrály"
+    ],
+    "en": [
+     "The Pantheon in Rome",
+     "St Peter's Basilica in Rome",
+     "St Mark's Basilica in Venice",
+     "Florence Cathedral"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Michelangelo navrhl kupoli nové baziliky svatého Petra, ale jejího dokončení se nedožil. Roku 1590 ji s jistými úpravami dostavěli Giacomo della Porta a Domenico Fontana.",
+    "en": "Michelangelo designed the dome of the new St Peter's Basilica but did not live to see it finished. It was completed in 1590, with some modifications, by Giacomo della Porta and Domenico Fontana."
+   }
+  },
+  {
+   "id": "T247-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se v lineární perspektivě nazývá bod, v němž se na obraze zdánlivě sbíhají rovnoběžky mířící do hloubky?",
+    "en": "In linear perspective, what is the point called where parallel lines receding into depth appear to converge in a picture?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zlatý řez",
+     "Úběžník",
+     "Ohnisko",
+     "Těžiště"
+    ],
+    "en": [
+     "Golden section",
+     "Vanishing point",
+     "Focal point",
+     "Centre of gravity"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pojem úběžníku (angl. vanishing point) poprvé zavedl Leon Battista Alberti v pojednání O malířství (De pictura) z roku 1435. Díky perspektivě začaly renesanční obrazy působit jako okno do skutečného prostoru.",
+    "en": "The concept of the vanishing point was first introduced by Leon Battista Alberti in his treatise On Painting (De pictura) of 1435. Perspective made Renaissance paintings look like a window onto real space."
+   }
+  },
+  {
+   "id": "T247-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Albrecht Dürer vytvořil roku 1515 slavný dřevořez zvířete, které nikdy na vlastní oči neviděl – jen podle popisu a náčrtu. Které zvíře to bylo?",
+    "en": "In 1515 Albrecht Dürer made a famous woodcut of an animal he never saw with his own eyes – only from a description and a sketch. Which animal was it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Slon",
+     "Krokodýl",
+     "Velbloud",
+     "Nosorožec"
+    ],
+    "en": [
+     "An elephant",
+     "A crocodile",
+     "A camel",
+     "A rhinoceros"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Indický nosorožec dorazil roku 1515 do Lisabonu a při plavbě k papeži jako dar zahynul ve ztroskotané lodi. Dürer mu přimaloval pancéřové pláty i malý roh na hřbetě, které skutečný nosorožec nemá.",
+    "en": "The Indian rhinoceros reached Lisbon in 1515 and died in a shipwreck while being sent to the pope as a gift. Dürer gave it armour-like plates and a small horn on its back, which a real rhinoceros does not have."
+   }
+  },
+  {
+   "id": "T247-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Roku 1401 se Filippo Brunelleschi utkal v soutěži o bronzové dveře florentského baptisteria. Kdo dveře nakonec sám vytvořil, když Brunelleschi odešel do Říma?",
+    "en": "In 1401 Filippo Brunelleschi took part in the competition for the bronze doors of the Florence Baptistery. Who eventually made the doors alone after Brunelleschi left for Rome?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jacopo della Quercia",
+     "Luca della Robbia",
+     "Andrea Pisano",
+     "Lorenzo Ghiberti"
+    ],
+    "en": [
+     "Jacopo della Quercia",
+     "Luca della Robbia",
+     "Andrea Pisano",
+     "Lorenzo Ghiberti"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Soutěžící měli zpracovat reliéf Obětování Izáka. Porota se nemohla rozhodnout mezi Ghibertim a Brunelleschim, a když Brunelleschi odešel studovat architekturu do Říma, dveře zhotovil Ghiberti sám. Jeho druhé, východní dveře (zakázka z roku 1425) pak Michelangelo nazval Rajskou bránou.",
+    "en": "The competitors had to make a relief of the Sacrifice of Isaac. The judges could not decide between Ghiberti and Brunelleschi, and when Brunelleschi left for Rome to study architecture, Ghiberti made the doors alone. Michelangelo later dubbed his second set, the east doors (commissioned in 1425), the Gates of Paradise."
+   }
+  },
+  {
+   "id": "T247-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kde se roku 1478 spiklenci kolem rodu Pazziů pokusili zavraždit bratry Lorenza a Giuliana Medicejské?",
+    "en": "Where did the conspirators around the Pazzi family try to murder the brothers Lorenzo and Giuliano de' Medici in 1478?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve florentské katedrále",
+     "Na mostě Ponte Vecchio",
+     "Na hostině v paláci Medici",
+     "Na lovu za Florencií"
+    ],
+    "en": [
+     "In Florence Cathedral",
+     "On the Ponte Vecchio",
+     "At a banquet in the Medici palace",
+     "At a hunt outside Florence"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Útok přišel v neděli 26. dubna 1478 v katedrále Santa Maria del Fiore. Giuliano byl ubodán, Lorenzo vyvázl jen s lehkým zraněním na krku.",
+    "en": "The attack came on Sunday, 26 April 1478, in the Cathedral of Santa Maria del Fiore. Giuliano was stabbed to death, while Lorenzo escaped with only a minor wound to the neck."
+   }
+  },
+  {
+   "id": "T247-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který spolužák zlomil mladému Michelangelovi nos? Později odešel do Anglie a vytvořil náhrobek krále Jindřicha VII. ve Westminsterském opatství.",
+    "en": "Which fellow pupil broke the young Michelangelo's nose? He later went to England and made the tomb of King Henry VII in Westminster Abbey."
+   },
+   "moznosti": {
+    "cs": [
+     "Pietro Torrigiano",
+     "Benvenuto Cellini",
+     "Baccio Bandinelli",
+     "Andrea Sansovino"
+    ],
+    "en": [
+     "Pietro Torrigiano",
+     "Benvenuto Cellini",
+     "Baccio Bandinelli",
+     "Andrea Sansovino"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Podle Celliniho Torrigiano udeřil Michelangela, když spolu kreslili Masacciovy fresky, kvůli jeho posměšné poznámce. Vasari uvádí jako důvod závist; deformovaný nos je vidět na Michelangelových portrétech.",
+    "en": "According to Cellini, Torrigiano punched Michelangelo over a mocking remark while they were copying Masaccio's frescoes. Vasari blames envy; the misshapen nose shows in Michelangelo's portraits."
+   }
+  },
+  {
+   "id": "T247-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Leonardo vytvořil pro jezdecký pomník, který objednal Ludovico Sforza, obří hliněný model koně. Co se s ním stalo?",
+    "en": "Leonardo made a giant clay model of a horse for the equestrian monument commissioned by Ludovico Sforza. What happened to it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Francouzi ho odvezli jako kořist do Paříže",
+     "Leonardo ho sám rozbil, když byl nespokojen",
+     "Francouzští vojáci ho použili jako terč",
+     "Zřítil se při zemětřesení v Miláně"
+    ],
+    "en": [
+     "The French carried it off to Paris as booty",
+     "Leonardo smashed it himself when dissatisfied",
+     "French soldiers used it as a target",
+     "It collapsed in an earthquake in Milan"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Při vpádu do Milána roku 1499 do modelu stříleli francouzští vojáci jako do terče a zbytek zničily deště a mrazy. Bronz určený na sochu daroval Ludovico už roku 1494 Ercolovi d'Este na výrobu děl.",
+    "en": "When they invaded Milan in 1499, French soldiers used the model for archery practice, and cycles of rain and frost destroyed the rest. Ludovico had already given the bronze intended for the statue to Ercole d'Este in 1494 to be made into cannons."
+   }
+  },
+  {
+   "id": "T247-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo v roce 1994 koupil v aukci za více než 30 milionů dolarů Leonardův rukopis Codex Leicester o pohybu vody a fosiliích?",
+    "en": "Who bought Leonardo's Codex Leicester, a manuscript on the movement of water and fossils, at auction in 1994 for more than 30 million dollars?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bill Gates",
+     "Larry Ellison",
+     "Paul Allen",
+     "Steve Jobs"
+    ],
+    "en": [
+     "Bill Gates",
+     "Larry Ellison",
+     "Paul Allen",
+     "Steve Jobs"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Bill Gates zaplatil v aukční síni Christie's 30,8 milionu dolarů. Rukopis je pojmenován po hraběti z Leicesteru, který ho koupil roku 1719; Leonardo v něm mimo jiné vysvětluje, proč jsou na horách mořské zkameněliny.",
+    "en": "Bill Gates paid 30.8 million dollars at Christie's. The manuscript is named after the Earl of Leicester, who bought it in 1719; in it Leonardo explains, among other things, why sea fossils are found on mountains."
+   }
+  },
+  {
+   "id": "T247-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Rafael zemřel na Velký pátek roku 1520. Kolik mu bylo let?",
+    "en": "Raphael died on Good Friday in 1520. How old was he?"
+   },
+   "moznosti": {
+    "cs": [
+     "27",
+     "37",
+     "47",
+     "57"
+    ],
+    "en": [
+     "27",
+     "37",
+     "47",
+     "57"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Rafael zemřel v 37 letech, možná přesně v den svých narozenin. Na vlastní přání byl pohřben v římském Pantheonu.",
+    "en": "Raphael died aged 37, possibly on his very birthday. At his own request he was buried in the Pantheon in Rome."
+   }
+  },
+  {
+   "id": "T247-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Komu nakonec Niccolò Machiavelli věnoval své nejslavnější politické dílo?",
+    "en": "To whom did Niccolò Machiavelli ultimately dedicate his most famous political treatise?"
+   },
+   "moznosti": {
+    "cs": [
+     "Papežovu synovi Cesaru Borgiovi",
+     "Lorenzovi di Piero Medicejskému",
+     "Císaři Karlu V. Habsburskému",
+     "Papeži Lvu X. z rodu Medicejských"
+    ],
+    "en": [
+     "The pope's son Cesare Borgia",
+     "Lorenzo di Piero de' Medici",
+     "Emperor Charles V of Habsburg",
+     "Pope Leo X of the Medici family"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Věnování patří Lorenzovi di Piero, vnukovi jeho slavného stejnojmenného děda; původně mělo dílo patřit Giulianovi Medicejskému. Cesare Borgia v knize vystupuje jako obdivovaný příklad bezohledného vladaře.",
+    "en": "The dedication is to Lorenzo di Piero, grandson and namesake of his famous grandfather; the work had originally been intended for Giuliano de' Medici. Cesare Borgia appears in the book as an admired example of a ruthless ruler."
+   }
+  },
+  {
+   "id": "T247-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Poslední z hlavní linie Medicejských, Anna Maria Luisa, odkázala roku 1737 rodové sbírky toskánskému státu pod jednou podmínkou. Jakou?",
+    "en": "The last of the main Medici line, Anna Maria Luisa, left the family collections to the Tuscan state in 1737 on one condition. What was it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Musí se rozdělit mezi florentské kostely",
+     "Správcem musí být vždy potomek rodu",
+     "Díla cizích umělců se musí prodat",
+     "Nic z nich nesmí nikdy opustit Florencii"
+    ],
+    "en": [
+     "They must be divided among Florence's churches",
+     "A family descendant must always be the curator",
+     "Works by foreign artists must be sold",
+     "Nothing may ever leave Florence"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Takzvaná Rodinná smlouva (Patto di famiglia), kterou podepsala 31. října 1737, zajistila, že poklady Medicejských zůstaly ve Florencii. Anna Maria Luisa zemřela o pět let později, v únoru 1743.",
+    "en": "The so-called Family Pact (Patto di famiglia), which she signed on 31 October 1737, ensured that the Medici treasures stayed in Florence. Anna Maria Luisa died five years later, in February 1743."
+   }
+  },
+  {
+   "id": "T247-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Pod Masacciovou freskou Nejsvětější Trojice ve florentském kostele Santa Maria Novella leží kostra s nápisem. Co sděluje?",
+    "en": "Below Masaccio's Holy Trinity fresco in the Florentine church of Santa Maria Novella lies a skeleton with an inscription. What does it say?"
+   },
+   "moznosti": {
+    "cs": [
+     "Umění trvá dlouho, ale lidský život je krátký",
+     "Byl jsem tím, čím jste vy, a čím jsem já, budete i vy",
+     "Zde odpočívá dárce, jenž nechal tuto fresku namalovat",
+     "Věčně trvá jen sláva, kterou člověk po sobě zanechá"
+    ],
+    "en": [
+     "Art lasts long, but human life is short",
+     "I once was what you are, and what I am you also will be",
+     "Here rests the donor who had this fresco painted",
+     "Only the glory a man leaves behind lasts forever"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Nápis je memento mori – připomínka smrti pro diváky. Freska z let kolem 1425–1427 patří k prvním monumentálním renesančním malbám s lineární perspektivou.",
+    "en": "The inscription is a memento mori – a reminder of death for viewers. Painted around 1425–1427, the fresco is one of the first monumental Renaissance paintings to use linear perspective."
+   }
+  },
+  {
+   "id": "T247-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak přišel Johannes Gutenberg o kontrolu nad dílnou, v níž se tiskla jeho Bible?",
+    "en": "How did Johannes Gutenberg lose control of the workshop where his Bible was being printed?"
+   },
+   "moznosti": {
+    "cs": [
+     "Prohrál soud se svým věřitelem Johannem Fustem",
+     "Musel ji prodat městské radě kvůli daním",
+     "Dílnu mu zabavila církev pro podezření z kacířství",
+     "Dílna vyhořela při velkém požáru města"
+    ],
+    "en": [
+     "He lost a lawsuit to his creditor Johann Fust",
+     "He had to sell it to the city council over taxes",
+     "The Church seized it on suspicion of heresy",
+     "It burned down in a great city fire"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Finančník Fust požadoval vrácení půjček a obvinil Gutenberga ze zneužití peněz. Soud rozhodl v jeho prospěch a Fust získal kontrolu nad tiskem Bible, které vyšlo asi 180 výtisků.",
+    "en": "The financier Fust demanded his loans back and accused Gutenberg of misusing the funds. The court ruled in his favour, giving Fust control of printing the Bible, of which about 180 copies were made."
+   }
+  }
+ ]
+}

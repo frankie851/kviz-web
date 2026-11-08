@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T035",
+ "nazev": {
+  "cs": "Mozek a smysly",
+  "en": "The Brain and the Senses"
+ },
+ "kategorie": {
+  "id": "lidske-telo",
+  "nazev": {
+   "cs": "Lidské tělo",
+   "en": "Human Body"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T035-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik neuronů má přibližně mozek dospělého člověka?",
+    "en": "Roughly how many neurons does an adult human brain contain?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 86 milionů",
+     "Asi 860 milionů",
+     "Asi 86 miliard",
+     "Asi 86 bilionů"
+    ],
+    "en": [
+     "About 86 million",
+     "About 860 million",
+     "About 86 billion",
+     "About 86 trillion"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Lidský mozek má podle současných odhadů asi 86 miliard neuronů a zhruba stejný počet dalších, nenervových buněk.",
+    "en": "Current estimates put the human brain at about 86 billion neurons, plus a roughly equal number of non-neuronal cells."
+   }
+  },
+  {
+   "id": "T035-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá místo, kde nervová buňka předává signál jiné buňce?",
+    "en": "What is the name of the junction where a nerve cell passes a signal to another cell?"
+   },
+   "moznosti": {
+    "cs": [
+     "Synapse",
+     "Axon",
+     "Dendrit",
+     "Myelinová pochva"
+    ],
+    "en": [
+     "Synapse",
+     "Axon",
+     "Dendrite",
+     "Myelin sheath"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "V synapsi neuron obvykle vypustí chemického posla, neurotransmiter, který se naváže na receptory sousední buňky. Slovo synapse zavedl do fyziologie Charles Sherrington v roce 1897.",
+    "en": "At a synapse a neuron usually releases a chemical messenger, a neurotransmitter, which binds to receptors on the next cell. Charles Sherrington introduced the word synapse into physiology in 1897."
+   }
+  },
+  {
+   "id": "T035-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Spánková fáze REM je spojená s živými sny. Co znamená zkratka REM?",
+    "en": "The REM phase of sleep is linked to vivid dreams. What does REM stand for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rytmická elektrická paměť (Rhythmic Electrical Memory)",
+     "Rychlé pohyby očí (Rapid Eye Movement)",
+     "Klidový elektrický režim (Resting Electrical Mode)",
+     "Snížený energetický metabolismus (Reduced Energy Metabolism)"
+    ],
+    "en": [
+     "Rhythmic Electrical Memory",
+     "Rapid Eye Movement",
+     "Resting Electrical Mode",
+     "Reduced Energy Metabolism"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ve fázi REM se oči pod zavřenými víčky rychle pohybují a lidé probuzení z této fáze si nejčastěji vybavují živé sny. Fázi popsali v roce 1953 Eugene Aserinsky a Nathaniel Kleitman.",
+    "en": "During REM sleep the eyes move rapidly under closed lids, and sleepers woken from it most often recall vivid dreams. Eugene Aserinsky and Nathaniel Kleitman described it in 1953."
+   }
+  },
+  {
+   "id": "T035-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "U koho je vrozená červeno-zelená barvoslepost výrazně častější?",
+    "en": "Who is congenital red–green colour blindness far more common in?"
+   },
+   "moznosti": {
+    "cs": [
+     "U leváků",
+     "U mužů",
+     "U lidí s modrýma očima",
+     "U žen"
+    ],
+    "en": [
+     "Left-handed people",
+     "Men",
+     "People with blue eyes",
+     "Women"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Geny pro příslušné zrakové pigmenty leží na chromozomu X. Mužům, kteří mají jen jeden X, chybí „záloha“, a proto se týká až 8 % mužů, ale jen asi 0,5 % žen.",
+    "en": "The genes for the relevant visual pigments sit on the X chromosome. Men have only one X and so no backup copy, which is why it affects up to 8% of men but only about 0.5% of women."
+   }
+  },
+  {
+   "id": "T035-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která část mozku je klíčová pro vytváření nových vzpomínek?",
+    "en": "Which part of the brain is key to forming new memories?"
+   },
+   "moznosti": {
+    "cs": [
+     "Prodloužená mícha",
+     "Mozeček",
+     "Šišinka",
+     "Hipokampus"
+    ],
+    "en": [
+     "Medulla oblongata",
+     "Cerebellum",
+     "Pineal gland",
+     "Hippocampus"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Hlavní funkcí hipokampu je ukládání vědomých (deklarativních) vzpomínek. Jméno dostal v 16. století podle tvaru, který anatomovi Aranziovi připomínal mořského koníka.",
+    "en": "The hippocampus's hallmark function is forming explicit (declarative) memories. It was named in the 16th century because its shape reminded the anatomist Aranzi of a seahorse."
+   }
+  },
+  {
+   "id": "T035-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Fotografie šatů („The Dress“) v roce 2015 rozdělila internet: jedni je viděli bílozlaté, druzí modročerné. Jakou barvu měly šaty ve skutečnosti?",
+    "en": "In 2015 a photo of a dress (\"The Dress\") split the internet: some saw it as white and gold, others as blue and black. What colour was the dress really?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bílou a zlatou",
+     "Modrou a zlatou",
+     "Bílou a černou",
+     "Modrou a černou"
+    ],
+    "en": [
+     "White and gold",
+     "Blue and gold",
+     "White and black",
+     "Blue and black"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Skutečné šaty byly modročerné. Rozdílné vnímání se vysvětluje tím, že mozek si u přeexponované fotky jinak „domýšlí“ osvětlení, a podle toho barvy přepočítá.",
+    "en": "The real dress was blue and black. The split is explained by brains making different assumptions about the lighting in the overexposed photo and correcting the colours accordingly."
+   }
+  },
+  {
+   "id": "T035-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Slavný obrazec dánského psychologa Edgara Rubina lze vidět jako bílou vázu, nebo jako…",
+    "en": "A famous figure by the Danish psychologist Edgar Rubin can be seen either as a white vase or as…"
+   },
+   "moznosti": {
+    "cs": [
+     "Dvě labutě na vodě",
+     "Hořící svíčku",
+     "Dvě dlaně proti sobě",
+     "Dva obličeje z profilu"
+    ],
+    "en": [
+     "Two swans on water",
+     "A burning candle",
+     "Two palms facing each other",
+     "Two faces in profile"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Rubinova váza (Rubin's vase) z doby kolem roku 1915 ukazuje, jak mozek rozhoduje, co je předmět a co pozadí. Obě varianty najednou vidět nelze, vjem jen přeskakuje.",
+    "en": "Rubin's vase, from around 1915, shows how the brain decides what is figure and what is background. You can never see both versions at once; perception flips between them."
+   }
+  },
+  {
+   "id": "T035-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která struktura propojuje levou a pravou mozkovou hemisféru?",
+    "en": "Which structure connects the left and right hemispheres of the brain?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kalózní těleso (corpus callosum)",
+     "Hypotalamus (hypothalamus)",
+     "Šišinka (epiphysis)",
+     "Mozeček (cerebellum)"
+    ],
+    "en": [
+     "Corpus callosum",
+     "Hypothalamus",
+     "Pineal gland",
+     "Cerebellum"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hemisféry spojuje pět spojek (komisur) a kalózní těleso je z nich zdaleka největší. Tvoří ho 200–300 milionů nervových vláken (axonů) a je to největší struktura bílé hmoty v mozku.",
+    "en": "The hemispheres are linked by five commissures, and the corpus callosum is by far the largest. Made up of 200–300 million axons, it is the largest white-matter structure in the brain."
+   }
+  },
+  {
+   "id": "T035-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá jev, kdy člověk například vidí písmena a čísla jako barevná nebo „vidí“ hudbu?",
+    "en": "What is the phenomenon called in which a person, for example, sees letters and numbers as coloured or \"sees\" music?"
+   },
+   "moznosti": {
+    "cs": [
+     "Synestezie",
+     "Prosopagnosie",
+     "Ataxie",
+     "Amnézie"
+    ],
+    "en": [
+     "Synaesthesia",
+     "Prosopagnosia",
+     "Ataxia",
+     "Amnesia"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Při synestezii podnět jednoho smyslu nebo myšlenkového pochodu mimovolně vyvolá ještě další vjem. Jednou z poměrně častých forem je barevné vnímání písmen a číslic, které má víc než 1 % lidí.",
+    "en": "In synaesthesia, stimulating one sensory or cognitive pathway involuntarily triggers a further experience. One relatively common form, coloured letters and numbers, is found in more than 1% of people."
+   }
+  },
+  {
+   "id": "T035-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaký obraz vzniká na sítnici oka?",
+    "en": "What kind of image forms on the retina of the eye?"
+   },
+   "moznosti": {
+    "cs": [
+     "Převrácený vzhůru nohama",
+     "Stejný, jak svět vidíme",
+     "Zrcadlový jen zleva doprava",
+     "Černobílý"
+    ],
+    "en": [
+     "Upside down",
+     "The same as we see the world",
+     "Mirrored only left to right",
+     "Black and white"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Obraz na sítnici je převrácený a vzpřímený svět z něj „skládá“ až mozek. S převráceným obrazem na sítnici počítal už Johannes Kepler.",
+    "en": "The retinal image is inverted, and it is the brain that produces our upright view of the world. Johannes Kepler already worked with the inverted retinal image."
+   }
+  },
+  {
+   "id": "T035-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Lidé se prý dělí na „levomozkové“ (logické) a „pravomozkové“ (tvůrčí). Co ukázala studie Univerzity v Utahu z roku 2013 na skenech mozků?",
+    "en": "People are supposedly either \"left-brained\" (logical) or \"right-brained\" (creative). What did a 2013 University of Utah study of brain scans show?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tvůrčí lidé mají větší pravou hemisféru",
+     "Lidé se celkově nedělí na levo- a pravomozkové",
+     "Ženy jsou častěji „pravomozkové“",
+     "Většina lidí je „levomozková“"
+    ],
+    "en": [
+     "Creative people have a larger right hemisphere",
+     "People are not left- or right-brained overall",
+     "Women are more often \"right-brained\"",
+     "Most people are \"left-brained\""
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Vědci porovnali propojení mozkových oblastí na skenech 1 011 lidí ve věku 7–29 let. Specializace hemisfér (třeba řeč bývá vlevo) se ukázala jako vlastnost jednotlivých sítí, ne celého mozku, takže dělení lidí na levo- a pravomozkové je mýtus.",
+    "en": "Researchers compared connections between brain regions in scans of 1,011 people aged 7–29. Lateralisation (language, for instance, is usually on the left) turned out to be a property of individual networks, not of the whole brain, so sorting people into left- and right-brained types is a myth."
+   }
+  },
+  {
+   "id": "T035-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Každé oko má slepou skvrnu, místo bez světločivných buněk, kudy z oka vychází zrakový nerv. Proč si jí běžně nevšimneme?",
+    "en": "Each eye has a blind spot, an area without light-sensitive cells where the optic nerve leaves the eye. Why do we not normally notice it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Překrývá ji ostrý obraz ze žluté skvrny",
+     "Objevuje se jen při velké únavě a nevyspání",
+     "Mozek ji doplní podle okolí a podle druhého oka",
+     "Vzniká jen při dlouhém pohledu do úplné tmy"
+    ],
+    "en": [
+     "It is covered by the sharp image from the macula",
+     "It only appears when we are very tired and short of sleep",
+     "The brain fills it in from the surroundings and the other eye",
+     "It only arises when looking into total darkness for long"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Mozek chybějící místo dopočítá z okolních detailů a z obrazu druhého oka. Jako první ji popsal v 60. letech 17. století francouzský vědec Edme Mariotte.",
+    "en": "The brain interpolates the missing patch from the surrounding detail and from the other eye. It was first described in the 1660s by the French scientist Edme Mariotte."
+   }
+  },
+  {
+   "id": "T035-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Phineas Gage roku 1848 přežil, když mu hlavou prolétla železná tyč. Proč se jeho případ zapsal do dějin neurologie?",
+    "en": "In 1848 Phineas Gage survived an iron rod passing through his head. Why did his case enter the history of neurology?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ukázal, že poškození čelního laloku může změnit povahu",
+     "Ukázal, že řeč řídí hlavně levá mozková hemisféra",
+     "Vedl k vůbec prvnímu rentgenovému snímku lidské lebky",
+     "Dokázal, že se poškozený mozek dokáže zcela obnovit"
+    ],
+    "en": [
+     "It showed that frontal lobe damage can change personality",
+     "It showed that speech is controlled mainly by the left hemisphere",
+     "It led to the very first X-ray of a human skull",
+     "It proved that a damaged brain can fully regenerate"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Tyč zničila velkou část levého čelního laloku a přátelé o Gageovi prý říkali, že „už to není Gage“. Pozdější vyprávění změny jeho povahy často přehánějí; nejvážnější potíže byly podle všeho dočasné.",
+    "en": "The rod destroyed much of his left frontal lobe, and friends reportedly said he was \"no longer Gage\". Later retellings often exaggerate the change, and his worst problems appear to have been temporary."
+   }
+  },
+  {
+   "id": "T035-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kvůli jaké nemoci podstoupil Henry Molaison (pacient H. M.) roku 1953 operaci mozku, po níž přestal vytvářet nové vzpomínky?",
+    "en": "Which illness led Henry Molaison (patient H.M.) to undergo the 1953 brain operation after which he could no longer form new memories?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kvůli těžké migréně",
+     "Kvůli epilepsii",
+     "Kvůli mozkovému nádoru",
+     "Kvůli Parkinsonově nemoci"
+    ],
+    "en": [
+     "Severe migraine",
+     "Epilepsy",
+     "A brain tumour",
+     "Parkinson's disease"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Chirurg William Scoville mu kvůli záchvatům odstranil vnitřní části obou spánkových laloků. Vědci ho pak zkoumali desítky let, až do jeho smrti v roce 2008.",
+    "en": "To treat his seizures, surgeon William Scoville removed the inner (medial) parts of both temporal lobes. Researchers then studied him for decades, until his death in 2008."
+   }
+  },
+  {
+   "id": "T035-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Červeno-zelené barvosleposti se říká daltonismus podle chemika Johna Daltona. Proč právě podle něj?",
+    "en": "Red–green colour blindness is called daltonism after the chemist John Dalton. Why was it named after him?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sestavil první test barvocitu",
+     "Vyrobil první brýle pro barvoslepé",
+     "Objevil v sítnici tyčinky a čípky",
+     "Sám jí trpěl a podrobně ji popsal"
+    ],
+    "en": [
+     "He devised the first colour vision test",
+     "He made the first glasses for the colour-blind",
+     "He discovered the rods and cones in the retina",
+     "He had it himself and described it in detail"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Dalton ji popsal v roce 1794 a protože ji měl i jeho bratr, usoudil, že je dědičná. Rozbor jeho uchovaného oka v roce 1995 ukázal, že trpěl deuteranopií.",
+    "en": "Dalton described it in 1794 and, since his brother had it too, concluded it was hereditary. An examination of his preserved eye in 1995 showed he had deuteranopia."
+   }
+  },
+  {
+   "id": "T035-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Díky kterému smyslu se se zavřenýma očima trefíte prstem do nosu?",
+    "en": "Which sense lets you touch your nose with your finger with your eyes closed?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chemorecepce",
+     "Nocicepce",
+     "Termorecepce",
+     "Propriocepce"
+    ],
+    "en": [
+     "Chemoreception",
+     "Nociception",
+     "Thermoreception",
+     "Proprioception"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Propriocepce je vnímání polohy, pohybu a síly vlastního těla, mimo jiné díky svalovým vřeténkům, která zachycují natažení svalů. Dotek nosu se zavřenýma očima používá i americká policie jako test opilosti.",
+    "en": "Proprioception is the sense of body position, movement and force, supplied partly by muscle spindles that detect stretch. US police use the eyes-closed nose touch as a sobriety test."
+   }
+  },
+  {
+   "id": "T035-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak dlouho trvá u dospělého člověka přibližně jeden spánkový cyklus, v němž se vystřídá spánek NREM a REM?",
+    "en": "Roughly how long does one adult sleep cycle, in which NREM and REM sleep alternate, last?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 30 minut",
+     "Asi 60 minut",
+     "Asi 90 minut",
+     "Asi 180 minut"
+    ],
+    "en": [
+     "About 30 minutes",
+     "About 60 minutes",
+     "About 90 minutes",
+     "About 180 minutes"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Cyklus trvá zhruba 90 minut a za noc jich proběhne několik. Fáze REM tvoří u dospělých asi 20–25 % spánku, tedy zhruba 90–120 minut za noc.",
+    "en": "A cycle lasts about 90 minutes, and several follow one another each night. In adults REM makes up about 20–25% of sleep, roughly 90–120 minutes a night."
+   }
+  },
+  {
+   "id": "T035-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Za co v mozku odpovídá hlavně Brocovo centrum (Broca's area)?",
+    "en": "What is Broca's area in the brain mainly responsible for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Za udržování rovnováhy",
+     "Za porozumění řeči",
+     "Za tvorbu řeči",
+     "Za rozpoznávání tváří"
+    ],
+    "en": [
+     "Maintaining balance",
+     "Understanding speech",
+     "Producing speech",
+     "Recognising faces"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Brocovo centrum leží v čelním laloku dominantní, obvykle levé hemisféry. Jmenuje se podle francouzského lékaře Paula Broca, který ho popsal v roce 1861.",
+    "en": "Broca's area lies in the frontal lobe of the dominant, usually left, hemisphere. It is named after the French physician Paul Broca, who described it in 1861."
+   }
+  },
+  {
+   "id": "T035-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který spisovatel popsal, jak mu madlenka (madeleine) namočená v čaji nečekaně vybavila dávno zapomenuté vzpomínky z dětství?",
+    "en": "Which writer described how a madeleine dipped in tea unexpectedly brought back long-forgotten childhood memories?"
+   },
+   "moznosti": {
+    "cs": [
+     "Victor Hugo",
+     "Gustave Flaubert",
+     "Marcel Proust",
+     "Émile Zola"
+    ],
+    "en": [
+     "Victor Hugo",
+     "Gustave Flaubert",
+     "Marcel Proust",
+     "Émile Zola"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Scéna z románu Hledání ztraceného času se stala symbolem mimovolné paměti. Výzkumy naznačují, že takové náhlé vzpomínky vyvolává zvlášť silně a často právě čich.",
+    "en": "The scene from In Search of Lost Time became the emblem of involuntary memory. Research suggests such sudden recollections are especially strong and frequent when triggered by smell."
+   }
+  },
+  {
+   "id": "T035-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč lze některé operace mozku provádět, když je pacient při vědomí?",
+    "en": "Why can some brain operations be performed while the patient is awake?"
+   },
+   "moznosti": {
+    "cs": [
+     "Samotná mozková tkáň nemá receptory bolesti",
+     "Mozkomíšní mok bolest spolehlivě tlumí",
+     "Bolest z mozku se vnímá až po několika hodinách",
+     "Mozek při otevření lebky vyplaví endorfiny"
+    ],
+    "en": [
+     "Brain tissue itself has no pain receptors",
+     "Cerebrospinal fluid reliably dampens pain",
+     "Pain from the brain is only felt hours later",
+     "The brain releases endorphins when the skull is opened"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Mozek sám bolest necítí, znecitlivět je proto třeba hlavně kůži a kost hlavy. Pacient při vědomí pomáhá chirurgům najít oblasti řeči a pohybu, které nesmějí poškodit.",
+    "en": "The brain itself does not feel pain, so mainly the scalp and skull need numbing. An awake patient helps surgeons map language and movement areas that must not be damaged."
+   }
+  },
+  {
+   "id": "T035-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve které části mozku je soustředěna většina všech jeho neuronů?",
+    "en": "Which part of the brain contains most of all its neurons?"
+   },
+   "moznosti": {
+    "cs": [
+     "V mozkové kůře",
+     "V mozkovém kmeni",
+     "V thalamu",
+     "V mozečku"
+    ],
+    "en": [
+     "The cerebral cortex",
+     "The brainstem",
+     "The thalamus",
+     "The cerebellum"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Mozeček zabírá jen asi 10 % objemu mozku, ale obsahuje kolem 80 % všech jeho neuronů.",
+    "en": "The cerebellum takes up only about 10% of the brain's volume but holds around 80% of all its neurons."
+   }
+  },
+  {
+   "id": "T035-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Pacientovi s chirurgicky oddělenými hemisférami (split-brain) ukážou předmět jen v levé polovině zorného pole. Co obvykle nastane?",
+    "en": "A patient whose hemispheres have been surgically separated (split-brain) is shown an object only in the left half of the visual field. What usually happens?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nedokáže ho pojmenovat, ale levou rukou ho najde",
+     "Pojmenuje ho až s několikasekundovým zpožděním",
+     "Pojmenuje ho, ale rukou ho najít nedokáže",
+     "Předmět vůbec nezaznamená"
+    ],
+    "en": [
+     "They cannot name it, but find it with the left hand",
+     "They name it only after a delay of several seconds",
+     "They name it but cannot find it by hand",
+     "They do not register the object at all"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Levé zorné pole zpracovává pravá hemisféra, ale řeč sídlí obvykle v levé, ke které se informace bez propojení nedostane. Za výzkum těchto pacientů dostal Roger Sperry Nobelovu cenu za rok 1981.",
+    "en": "The left visual field goes to the right hemisphere, while speech usually sits in the left one, which no longer receives the information. Roger Sperry won the 1981 Nobel Prize for this research."
+   }
+  },
+  {
+   "id": "T035-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč dostal slavný pacient Paula Broca, pan Leborgne, přezdívku „Tan“?",
+    "en": "Why was Paul Broca's famous patient, Mr Leborgne, nicknamed \"Tan\"?"
+   },
+   "moznosti": {
+    "cs": [
+     "Byla to zkratka jeho latinské diagnózy",
+     "Uměl vyslovit jen slabiku „tan“",
+     "Tak se podepisoval, protože neuměl psát",
+     "Tak se jmenovala jeho rodná vesnice"
+    ],
+    "en": [
+     "It was an abbreviation of his Latin diagnosis",
+     "He could only say the syllable \"tan\"",
+     "He signed his name that way because he could not write",
+     "It was the name of his home village"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Leborgne na otázky odpovídal jen opakovanou slabikou „tan“. Po jeho smrti Broca našel poškození na povrchu levého čelního laloku a případ se stal jedním z prvních dokladů, že různé funkce mají v mozku své místo.",
+    "en": "Leborgne answered questions only with the repeated syllable \"tan\". After his death Broca found damage on the surface of the left frontal lobe, and the case became one of the first pieces of evidence that different functions have their own place in the brain."
+   }
+  },
+  {
+   "id": "T035-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak typicky mluví člověk s Wernickeovou afázií, tedy s poškozeným Wernickeovým centrem?",
+    "en": "How does a person with Wernicke's aphasia, i.e. damage to Wernicke's area, typically speak?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jen šeptem, protože nemůže zapojit hlasivky",
+     "Plynule, ale často nesmyslně a chyb si nevšímá",
+     "Pomalu a s námahou, ale smysluplně",
+     "Jen opakuje slova, která právě slyšel"
+    ],
+    "en": [
+     "Only in a whisper, as they cannot use their vocal cords",
+     "Fluently, but often meaninglessly and without noticing errors",
+     "Slowly and effortfully, but meaningfully",
+     "They only repeat words they have just heard"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Řeč plyne, ale obsahuje zaměněná či vymyšlená slova až „slovní salát“ a postižený špatně rozumí. Svých chyb si přitom obvykle není vědom.",
+    "en": "Speech flows but contains wrong or invented words, even \"word salad\", and comprehension is impaired. The person is usually unaware of their errors."
+   }
+  },
+  {
+   "id": "T035-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Pacient H. M. si po operaci nedokázal vytvářet nové vzpomínky. Co ukázal jeho několikadenní trénink kreslení obrazce podle zrcadla?",
+    "en": "After his operation patient H.M. could not form new memories. What did several days of practising drawing a shape in a mirror reveal?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zlepšoval se jen při kreslení levou rukou",
+     "Nezlepšoval se, protože si pokusy nepamatoval",
+     "Zlepšoval se, jen když viděl své starší kresby",
+     "Zlepšoval se, ačkoli si předchozí pokusy nepamatoval"
+    ],
+    "en": [
+     "He improved only when drawing with his left hand",
+     "He did not improve because he did not remember the attempts",
+     "He improved only when shown his earlier drawings",
+     "He improved, although he did not remember previous attempts"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pokus ukázal, že naučené pohybové dovednosti (procedurální paměť) se ukládají jinak než vzpomínky na události, v částech mozku, které mu operace nepoškodila. To byl jeden ze zásadních objevů výzkumu paměti.",
+    "en": "The experiment showed that motor skills (procedural memory) are stored differently from memories of events, in parts of the brain his operation had left intact. It was one of the landmark findings of memory research."
+   }
+  },
+  {
+   "id": "T035-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč má Penfieldův homunkulus (cortical homunculus), postavička ukazující, kolik mozkové kůry připadá na jednotlivé části těla, obrovské ruce a rty?",
+    "en": "Why does Penfield's homunculus (a figure showing how much brain cortex is devoted to each body part) have huge hands and lips?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mají ze všech částí těla nejtenčí kůži",
+     "Jsou hustě inervované, a tak jim patří nejvíc kůry",
+     "Jsou to části těla, které nejvíc rostou",
+     "Spotřebovávají ze všech částí těla nejvíc kyslíku"
+    ],
+    "en": [
+     "They have the thinnest skin of all body parts",
+     "They are densely innervated, so they get the most cortex",
+     "They are the parts of the body that grow most",
+     "They consume the most oxygen of all body parts"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Plocha kůry neodpovídá velikosti části těla, ale tomu, jak hustě je inervovaná. Neurochirurg Wilder Penfield se spolupracovníky sestavil zvlášť homunkula smyslového a pohybového.",
+    "en": "The area of cortex reflects not the size of a body part but how richly it is innervated. Neurosurgeon Wilder Penfield and colleagues drew separate sensory and motor homunculi."
+   }
+  },
+  {
+   "id": "T035-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím se dráha čichu v mozku liší od drah ostatních smyslů?",
+    "en": "How does the brain's pathway for smell differ from those of the other senses?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jako jediná vede přímo do mozečku",
+     "Jako jediná nemá vlastní hlavový nerv",
+     "Jako jediná se kříží do opačné hemisféry",
+     "Jako jediná nevede nejdřív přes thalamus"
+    ],
+    "en": [
+     "It is the only one that leads straight to the cerebellum",
+     "It is the only one without its own cranial nerve",
+     "It is the only one that crosses to the opposite hemisphere",
+     "It is the only one that does not pass through the thalamus first"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Čichové signály míří přímo do předního mozku a mají těsné spoje s oblastmi, které zpracovávají emoce a paměť. I proto bývají vůně tak silně spojené s emocemi a vzpomínkami.",
+    "en": "Smell signals go straight to the forebrain and are closely linked to regions that handle emotion and memory, which helps explain why odours are so strongly tied to emotions and memories."
+   }
+  },
+  {
+   "id": "T035-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Když člověk slyší slabiku „ba“, ale současně vidí rty, které vyslovují „ga“, co obvykle uslyší?",
+    "en": "When a person hears the syllable \"ba\" while seeing lips that say \"ga\", what do they usually hear?"
+   },
+   "moznosti": {
+    "cs": [
+     "„ba“",
+     "„ga“",
+     "„da“",
+     "„bga“"
+    ],
+    "en": [
+     "\"ba\"",
+     "\"ga\"",
+     "\"da\"",
+     "\"bga\""
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Takzvaný McGurkův efekt (McGurk effect) popsali Harry McGurk a John MacDonald v roce 1976. Je velmi odolný: funguje, i když o něm člověk ví.",
+    "en": "The McGurk effect was described by Harry McGurk and John MacDonald in 1976. It is very robust and works even when you know about it."
+   }
+  },
+  {
+   "id": "T035-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč v Amesově pokoji (Ames room) vypadá člověk v jednom rohu jako obr a ve druhém jako trpaslík?",
+    "en": "Why does a person in one corner of an Ames room look like a giant and in the other like a dwarf?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jeden roh je osvětlen výrazně jasněji, takže postava v něm působí větší",
+     "Stěny pokoje jsou pokryté zakřivenými zrcadly, které postavy deformují",
+     "Pokoj je zkosený a jeden roh je mnohem dál, ale vypadá pravoúhle",
+     "V kukátku je na jedné straně zvětšovací a na druhé zmenšovací čočka"
+    ],
+    "en": [
+     "One corner is lit much more brightly, so the figure in it looks bigger",
+     "The walls are covered in curved mirrors that distort the figures",
+     "The room is skewed and one corner is much farther away, but it looks rectangular",
+     "The peephole has a magnifying lens on one side and a reducing one on the other"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Mozek předpokládá obvyklý pravoúhlý pokoj, a rozdíl ve vzdálenosti si proto vyloží jako rozdíl ve velikosti. Amesovy pokoje se použily třeba při natáčení Pána prstenů, aby hobiti vedle Gandalfa vypadali malí.",
+    "en": "The brain assumes an ordinary rectangular room, so it reads the difference in distance as a difference in size. Ames room sets were used in The Lord of the Rings to make the hobbits look small next to Gandalf."
+   }
+  },
+  {
+   "id": "T035-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se nazývá vnímání vnitřního stavu těla, například hladu, sytosti nebo vlastního tlukotu srdce?",
+    "en": "What is the sense of the body's internal state, such as hunger, fullness or one's own heartbeat, called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nocicepce",
+     "Kinestezie",
+     "Interocepce",
+     "Termorecepce"
+    ],
+    "en": [
+     "Nociception",
+     "Kinaesthesia",
+     "Interoception",
+     "Thermoreception"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Interocepce je soubor smyslů, které hlásí, co se děje uvnitř těla. Pojem vnitřních (interoceptivních) receptorů zavedl už v roce 1906 fyziolog Charles Sherrington.",
+    "en": "Interoception is the set of senses reporting on the body's internal state. The physiologist Charles Sherrington introduced the idea of interoceptive receptors as early as 1906."
+   }
+  }
+ ]
+}

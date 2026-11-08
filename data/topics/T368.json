@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T368",
+ "nazev": {
+  "cs": "Francouzská kuchyně: croissanty, šneci a haute cuisine",
+  "en": "French Cuisine: Croissants, Snails and Haute Cuisine"
+ },
+ "kategorie": {
+  "id": "jidlo-a-piti",
+  "nazev": {
+   "cs": "Jídlo a pití",
+   "en": "Food & Drink"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T368-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Řemeslo a kultura pečení kterého francouzského pečiva byly v roce 2022 zapsány na seznam nehmotného kulturního dědictví UNESCO?",
+    "en": "The artisanal know-how and culture of which French bread or pastry were inscribed on UNESCO's Intangible Cultural Heritage list in 2022?"
+   },
+   "moznosti": {
+    "cs": [
+     "Briošky",
+     "Makronky",
+     "Bagety",
+     "Croissantu"
+    ],
+    "en": [
+     "The brioche",
+     "The macaron",
+     "The baguette",
+     "The croissant"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "UNESCO zapsalo „řemeslné know-how a kulturu bagety“ v roce 2022. Od roku 1994 navíc Paříž každoročně vyhlašuje nejlepší tradiční bagetu ve městě.",
+    "en": "UNESCO inscribed the \"artisanal know-how and culture of baguette bread\" in 2022. Since 1994 the city of Paris has also named the best traditional baguette in the city every year."
+   }
+  },
+  {
+   "id": "T368-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co jsou francouzské escargots, které se tradičně podávají v ulitách s česnekovým máslem?",
+    "en": "What are French escargots, traditionally served in their shells with garlic butter?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ústřice",
+     "Mušle",
+     "Žabí stehýnka",
+     "Hlemýždi"
+    ],
+    "en": [
+     "Oysters",
+     "Mussels",
+     "Frog legs",
+     "Snails"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Escargots jsou jedlí suchozemští plži; ve Francii se nejvíc jí hlemýžď zahradní (Helix pomatia), zvaný také burgundský. K jídlu se podávají speciální kleštičky na ulitu a vidlička na vytažení masa.",
+    "en": "Escargots are edible land snails; the most consumed species in France is Helix pomatia, the Roman snail or Burgundy escargot. Special tongs for holding the shell and forks for extracting the meat are provided."
+   }
+  },
+  {
+   "id": "T368-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaké zvíře je Remy, hrdina animovaného filmu Ratatouille (2007), který touží vařit v pařížské restauraci?",
+    "en": "What kind of animal is Remy, the hero of the animated film Ratatouille (2007), who dreams of cooking in a Paris restaurant?"
+   },
+   "moznosti": {
+    "cs": [
+     "Krysa",
+     "Myš",
+     "Veverka",
+     "Křeček"
+    ],
+    "en": [
+     "A rat",
+     "A mouse",
+     "A squirrel",
+     "A hamster"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Remy je krysa s výjimečným čichem a chutí. Film studia Pixar získal Oscara za nejlepší animovaný film.",
+    "en": "Remy is a rat with an exceptional sense of smell and taste. The Pixar film won the Oscar for Best Animated Feature."
+   }
+  },
+  {
+   "id": "T368-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím se liší francouzský teplý sendvič croque-madame od croque-monsieur?",
+    "en": "How does the French hot sandwich croque-madame differ from a croque-monsieur?"
+   },
+   "moznosti": {
+    "cs": [
+     "Místo šunky má lososa",
+     "Navrchu má vejce",
+     "Peče se úplně bez sýra",
+     "Je sladký, s čokoládou"
+    ],
+    "en": [
+     "It has salmon instead of ham",
+     "It is topped with an egg",
+     "It is made without any cheese",
+     "It is sweet, with chocolate"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Croque-monsieur je pečená nebo vařená šunka se sýrem (tradičně gruyère) mezi plátky toustového chleba pain de mie. Croque-madame má navíc navrchu ztracené nebo lehce osmažené vejce.",
+    "en": "A croque-monsieur is baked or boiled ham and cheese (traditionally Gruyère) between slices of pain de mie. A croque-madame adds a poached or lightly fried egg on top."
+   }
+  },
+  {
+   "id": "T368-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím se tradičně zapéká povrch francouzské cibulové polévky?",
+    "en": "What is French onion soup traditionally topped with and browned under the grill?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vaječným sněhem",
+     "Chlebem a sýrem",
+     "Bramborovou kaší",
+     "Strouhanými mandlemi"
+    ],
+    "en": [
+     "Beaten egg white",
+     "Bread and cheese",
+     "Mashed potato",
+     "Grated almonds"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Polévka z pomalu osmahnuté cibule a nejčastěji hovězího vývaru se podává gratinovaná s krutony nebo plátkem chleba pokrytým sýrem, obvykle gruyère, comté nebo ementálem. Moderní podoba vznikla v 19. století na pařížské tržnici Les Halles.",
+    "en": "The soup of slowly sautéed onions, most often simmered in beef stock, is served gratinéed with croutons or a piece of bread covered with cheese, usually Gruyère, Comté or Emmental. Its modern form emerged in the 19th century at the Les Halles market in Paris."
+   }
+  },
+  {
+   "id": "T368-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které burgundské město dalo jméno slavné ostré hořčici?",
+    "en": "Which Burgundy city gave its name to a famous strong mustard?"
+   },
+   "moznosti": {
+    "cs": [
+     "Grenoble",
+     "Nantes",
+     "Dijon",
+     "Lyon"
+    ],
+    "en": [
+     "Grenoble",
+     "Nantes",
+     "Dijon",
+     "Lyon"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Dijon byl v pozdním středověku centrem výroby hořčice. Název „dijonská hořčice“ ale není chráněným zeměpisným označením, takže se smí vyrábět kdekoli.",
+    "en": "Dijon was the centre of mustard making in the late Middle Ages. However, \"Dijon mustard\" has no protected geographical indication, so it may be made anywhere."
+   }
+  },
+  {
+   "id": "T368-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které přístavní město je domovem rybí polévky bouillabaisse?",
+    "en": "Which port city is the home of the fish soup bouillabaisse?"
+   },
+   "moznosti": {
+    "cs": [
+     "Brest",
+     "Nice",
+     "Marseille",
+     "Bordeaux"
+    ],
+    "en": [
+     "Brest",
+     "Nice",
+     "Marseille",
+     "Bordeaux"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Bouillabaisse je provensálská rybí polévka z Marseille. Vznikla jako jídlo rybářů, kteří do ní dávali kostnaté skalní ryby, jež se nedaly prodat. Roku 1980 sepsalo 11 marseillských restauratérů Chartu bouillabaisse, která určuje suroviny a postup.",
+    "en": "Bouillabaisse is a Provençal fish stew from Marseille. It began as a fishermen's meal made from bony rockfish they could not sell. In 1980, 11 Marseille restaurateurs drew up the Bouillabaisse Charter, which codifies its ingredients and preparation."
+   }
+  },
+  {
+   "id": "T368-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaké maso se tradičně dusí na víně v pokrmu coq au vin?",
+    "en": "What meat is traditionally braised in wine in the dish coq au vin?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hovězí",
+     "Kohoutí",
+     "Kachní",
+     "Králičí"
+    ],
+    "en": [
+     "Beef",
+     "Rooster",
+     "Duck",
+     "Rabbit"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Coq znamená francouzsky kohout. Dlouhé dušení, typicky v červeném burgundském víně, změkčí tuhé maso starého kohouta; dnes se ale nejčastěji používá kuře.",
+    "en": "Coq is French for rooster. Long braising, typically in red Burgundy, tenderises the tough meat of an old rooster, though chicken is most commonly used today."
+   }
+  },
+  {
+   "id": "T368-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Z čeho se vyrábí francouzská pochoutka foie gras?",
+    "en": "What is the French delicacy foie gras made from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z kachních nebo husích jater",
+     "Z vepřové krkovice",
+     "Z jeseteřích jiker",
+     "Z telecího brzlíku"
+    ],
+    "en": [
+     "Duck or goose liver",
+     "Pork neck",
+     "Sturgeon roe",
+     "Veal sweetbreads"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Foie gras znamená „tučná játra“. Podle francouzského práva jde o játra kachen nebo hus vykrmených nuceným krmením (gavage); nucené krmení či výrobu foie gras proto řada zemí zakazuje, třeba Švýcarsko už od roku 1978.",
+    "en": "Foie gras means \"fat liver\". Under French law it is the liver of a duck or goose fattened by force-feeding (gavage), which is why several countries ban force-feeding or foie gras production – Switzerland, for example, since 1978."
+   }
+  },
+  {
+   "id": "T368-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "V čem se dusí hovězí maso v klasickém francouzském pokrmu bœuf bourguignon?",
+    "en": "What is the beef braised in for the classic French dish bœuf bourguignon?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve smetaně",
+     "V jablečném moštu",
+     "V pivu",
+     "V červeném víně"
+    ],
+    "en": [
+     "Cream",
+     "Apple cider",
+     "Beer",
+     "Red wine"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Hovězí se dusí v červeném víně, často burgundském, a hovězím vývaru s mrkví, cibulí, česnekem a bouquet garni a podává se s perličkovými cibulkami a houbami. Pokrm je poprvé doložen roku 1867.",
+    "en": "The beef is braised in red wine, often red Burgundy, and beef stock with carrots, onions, garlic and a bouquet garni, and garnished with pearl onions and mushrooms. The dish was first documented in 1867."
+   }
+  },
+  {
+   "id": "T368-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "S kterým městem a jeho okolím je zeleninové ratatouille nejvíce spojováno?",
+    "en": "Which city and its surroundings is the vegetable dish ratatouille most closely associated with?"
+   },
+   "moznosti": {
+    "cs": [
+     "S Lyonem",
+     "S Nice",
+     "S Bordeaux",
+     "S Lille"
+    ],
+    "en": [
+     "Lyon",
+     "Nice",
+     "Bordeaux",
+     "Lille"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ratatouille pochází z Provence a je spojováno hlavně s Nice a okolím. Dusí se v něm rajčata, cibule, česnek, cukety, lilky a papriky.",
+    "en": "Ratatouille comes from Provence and is particularly associated with Nice and its surroundings. It is a stew of tomatoes, onions, garlic, courgettes, aubergines and bell peppers."
+   }
+  },
+  {
+   "id": "T368-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaká luštěnina je hlavní surovinou jihofrancouzského pokrmu cassoulet?",
+    "en": "Which pulse is the principal ingredient of the southern French dish cassoulet?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hrách",
+     "Cizrna",
+     "Čočka",
+     "Fazole"
+    ],
+    "en": [
+     "Peas",
+     "Chickpeas",
+     "Lentils",
+     "Beans"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Cassoulet vznikl v Castelnaudary v departementu Aude a vlastní varianty mají i Toulouse a Carcassonne. Fazole se v něm zapékají s masem, třeba vepřovým, klobásami, husou nebo kachnou; název je podle Francouzské akademie zdrobnělina langdockého cassolo, hrnce na vaření.",
+    "en": "Cassoulet originated in Castelnaudary in the Aude department, and Toulouse and Carcassonne have their own variants. The beans are slow-cooked with meat such as pork, sausages, goose or duck; according to the Académie française the name is a diminutive of the Languedoc cassolo, a cooking pot."
+   }
+  },
+  {
+   "id": "T368-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím je zvláštní příprava jablečného koláče tarte Tatin, který podle legendy vznikl omylem v hotelu sester Tatinových?",
+    "en": "What is special about how the apple tart tarte Tatin is made – a tart said to have been created by mistake at the hotel of the Tatin sisters?"
+   },
+   "moznosti": {
+    "cs": [
+     "Peče se v páře místo v troubě",
+     "Jablka se přidávají syrová až po upečení",
+     "Těsto se smaží v oleji",
+     "Peče se vzhůru nohama"
+    ],
+    "en": [
+     "It is steamed instead of baked",
+     "Raw apples are added after baking",
+     "The pastry is deep-fried in oil",
+     "It is baked upside down"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jablka se karamelizují v másle a cukru, přikryjí se těstem a po upečení se koláč obrátí. Podle oblíbené legendy nechala Stéphanie Tatinová jablka na ohni příliš dlouho a pokrm zachránila těstem a dopečením v troubě. Hotel Tatin v Lamotte-Beuvron leží 169 km jižně od Paříže.",
+    "en": "The apples are caramelised in butter and sugar, covered with pastry and turned upside down after baking. A popular legend says Stéphanie Tatin left the apples cooking too long and rescued them by adding pastry and finishing the dish in the oven. The Hôtel Tatin in Lamotte-Beuvron is 169 km (105 mi) south of Paris."
+   }
+  },
+  {
+   "id": "T368-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co doslova znamená název francouzského dezertu mille-feuille?",
+    "en": "What does the name of the French dessert mille-feuille literally mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Královský dort",
+     "Sladký sen",
+     "Tisíc listů",
+     "Tisíc mandlí"
+    ],
+    "en": [
+     "Royal cake",
+     "Sweet dream",
+     "A thousand sheets",
+     "A thousand almonds"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Název odkazuje na mnoho vrstev listového těsta. Klasický mille-feuille má tři vrstvy listového těsta proložené dvěma vrstvami cukrářského krému (crème pâtissière); v Rusku se mu říká Napoleon.",
+    "en": "The name refers to the many layers of puff pastry. A classic mille-feuille has three layers of puff pastry alternating with two layers of pastry cream (crème pâtissière); in Russia it is called Napoleon."
+   }
+  },
+  {
+   "id": "T368-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Z jaké mouky se tradičně připravují slané bretaňské palačinky galettes?",
+    "en": "What flour are savoury Breton galettes traditionally made from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z kukuřičné",
+     "Z kaštanové",
+     "Z pohankové",
+     "Ze žitné"
+    ],
+    "en": [
+     "Cornmeal",
+     "Chestnut flour",
+     "Buckwheat flour",
+     "Rye flour"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Bretaňské galettes se dělají z pohankové mouky. Pohankové těsto neobsahuje lepek, takže je mohou jíst i lidé s alergií na pšenici nebo s nesnášenlivostí lepku.",
+    "en": "Breton galettes are made from buckwheat flour. Buckwheat batter is gluten-free, so people with wheat allergies or gluten intolerance can eat them."
+   }
+  },
+  {
+   "id": "T368-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na který svátek je ve Francii tradicí péct palačinky crêpes?",
+    "en": "On which feast is it traditional in France to make crêpes?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Hromnice",
+     "Na Tři krále",
+     "Na svatého Martina",
+     "Na svatého Mikuláše"
+    ],
+    "en": [
+     "Candlemas",
+     "Epiphany",
+     "St Martin's Day",
+     "St Nicholas' Day"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Na Hromnice (La Chandeleur) 2. února se ve Francii pečou crêpes; podle pověry přinese v nadcházejícím roce bohatství, když palačinku obrátíte se zlatou mincí v levé ruce.",
+    "en": "On Candlemas (La Chandeleur), 2 February, the French make crêpes; according to superstition, flipping a crêpe with a gold coin in your left hand brings wealth in the coming year."
+   }
+  },
+  {
+   "id": "T368-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co má v klasické kuchyňské brigádě na starosti plongeur?",
+    "en": "What is the plongeur responsible for in the classic kitchen brigade?"
+   },
+   "moznosti": {
+    "cs": [
+     "Myje nádobí a náčiní",
+     "Obsluhuje hosty",
+     "Peče chléb",
+     "Připravuje ryby"
+    ],
+    "en": [
+     "Washing dishes and utensils",
+     "Serving the guests",
+     "Baking bread",
+     "Preparing fish"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Plongeur myje nádobí a náčiní a může dostat i jednoduché přípravné práce. Systém kuchařské brigády vyvinul Auguste Escoffier (1846–1935).",
+    "en": "The plongeur cleans dishes and utensils and may be given basic preparatory jobs. The brigade system was developed by Auguste Escoffier (1846–1935)."
+   }
+  },
+  {
+   "id": "T368-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který sýr se zapéká s bramborami, slaninou a cibulí v savojském pokrmu tartiflette?",
+    "en": "Which cheese is baked with potatoes, lardons and onions in the Savoyard dish tartiflette?"
+   },
+   "moznosti": {
+    "cs": [
+     "Camembert",
+     "Roquefort",
+     "Reblochon",
+     "Brie"
+    ],
+    "en": [
+     "Camembert",
+     "Roquefort",
+     "Reblochon",
+     "Brie"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Tartiflette pochází ze Savojska ve francouzských Alpách. V dnešní podobě se objevila v 80. letech v restauracích lyžařských středisek a k její oblibě přispěla propagace svazu výrobců reblochonu, který chtěl zvýšit prodej sýra.",
+    "en": "Tartiflette comes from Savoy in the French Alps. In its modern form it began appearing on ski-resort restaurant menus in the 1980s, and its popularity owes something to promotion by the reblochon producers' association, which wanted to boost sales of the cheese."
+   }
+  },
+  {
+   "id": "T368-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Podle francouzského dekretu z roku 1993 se tradiční bageta (baguette de tradition française) peče ze čtyř základních surovin: pšeničné mouky, vody, soli a…",
+    "en": "Under a 1993 French decree, a traditional baguette (baguette de tradition française) is made from four basic ingredients: wheat flour, water, salt and…"
+   },
+   "moznosti": {
+    "cs": [
+     "mléka",
+     "droždí",
+     "cukru",
+     "másla"
+    ],
+    "en": [
+     "milk",
+     "yeast",
+     "sugar",
+     "butter"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Takzvaný chlebový dekret (Décret Pain) z roku 1993 zakazuje u tradiční bagety předem připravené těsto. Vedle pšeničné mouky smí bageta obsahovat i nepatrné množství bobové, sójové a sladové mouky.",
+    "en": "The so-called Bread Decree (Décret Pain) of 1993 bans pre-made dough from the traditional baguette. Besides wheat flour, a traditional baguette may contain tiny amounts of broad bean, soya and wheat malt flour."
+   }
+  },
+  {
+   "id": "T368-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která země je podle dostupných údajů největším vývozcem žabího masa na světě a dodává ho hlavně do Francie, Belgie a Lucemburska?",
+    "en": "According to available data, which country is the world's largest exporter of frog meat, shipping it mostly to France, Belgium and Luxembourg?"
+   },
+   "moznosti": {
+    "cs": [
+     "Maroko",
+     "Kanada",
+     "Polsko",
+     "Indonésie"
+    ],
+    "en": [
+     "Morocco",
+     "Canada",
+     "Poland",
+     "Indonesia"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Podle údajů z roku 2009 vyvážela Indonésie přes 5 000 tun žabího masa ročně a podle studie z roku 2023 (dovozy 2010–2019) je největším dodavatelem žabích stehýnek do EU. Francie podle odhadu z roku 2009 sní zhruba 4 000 tun žabích stehýnek ročně.",
+    "en": "Data from 2009 show Indonesia exporting more than 5,000 tonnes (5,500 short tons) of frog meat a year, and a 2023 study (imports 2010–2019) found it is the largest supplier of frog legs to the EU. A 2009 estimate puts France's consumption at roughly 4,000 tonnes (4,400 short tons) of frog legs a year."
+   }
+  },
+  {
+   "id": "T368-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Omáčka béarnaise nese jméno po provincii Béarn. Podle běžného vysvětlení vznikla roku 1836 v restauraci v bývalém sídle slavného rodáka z Béarnu. Kdo to byl?",
+    "en": "Béarnaise sauce is named after the province of Béarn. According to a common explanation it was created in 1836 at a restaurant in the former residence of a famous native of Béarn. Who was he?"
+   },
+   "moznosti": {
+    "cs": [
+     "František I.",
+     "Ludvík XIV.",
+     "Napoleon Bonaparte",
+     "Jindřich IV."
+    ],
+    "en": [
+     "Francis I",
+     "Louis XIV",
+     "Napoleon Bonaparte",
+     "Henry IV"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Omáčku prý omylem vymyslel kuchař Jean-Louis-François Collinet při otevření restaurace Le Pavillon Henri IV v Saint-Germain-en-Laye, bývalém sídle krále a labužníka Jindřicha IV. Je z přepuštěného másla, žloutků, bílého vinného octa, šalotky, černého pepře a estragonu.",
+    "en": "The sauce is said to have been accidentally invented by the chef Jean-Louis-François Collinet at the opening of Le Pavillon Henri IV in Saint-Germain-en-Laye, the former residence of the gourmet king Henry IV. It is made of clarified butter, egg yolk, white wine vinegar, shallot, black pepper and tarragon."
+   }
+  },
+  {
+   "id": "T368-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo je autorem knihy Physiologie du goût (1825), z níž pochází výrok „Řekni mi, co jíš, a já ti řeknu, kdo jsi“?",
+    "en": "Who wrote the book Physiologie du goût (1825), the source of the saying \"Tell me what you eat, and I will tell you what you are\"?"
+   },
+   "moznosti": {
+    "cs": [
+     "Alexandre Dumas starší",
+     "Jean Anthelme Brillat-Savarin",
+     "Marie-Antoine Carême",
+     "Auguste Escoffier"
+    ],
+    "en": [
+     "Alexandre Dumas père",
+     "Jean Anthelme Brillat-Savarin",
+     "Marie-Antoine Carême",
+     "Auguste Escoffier"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Brillat-Savarin byl francouzský právník a politik. Kniha vyšla v prosinci 1825, dva měsíce před jeho smrtí; po něm je od 30. let pojmenován i měkký sýr Brillat-Savarin.",
+    "en": "Brillat-Savarin was a French lawyer and politician. The book was published in December 1825, two months before his death; the soft Brillat-Savarin cheese was named after him in the 1930s."
+   }
+  },
+  {
+   "id": "T368-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kterým likérem se nejčastěji flambují palačinky crêpes Suzette s pomerančovou kůrou?",
+    "en": "Which liqueur is most often used to flambé crêpes Suzette with orange peel?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chartreuse",
+     "Bénédictine",
+     "Grand Marnier",
+     "Pastis"
+    ],
+    "en": [
+     "Chartreuse",
+     "Bénédictine",
+     "Grand Marnier",
+     "Pastis"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Crêpe Suzette je palačinka s jemně nastrouhanou pomerančovou kůrou a likérem, obvykle Grand Marnier, který se při servírování zapálí.",
+    "en": "A crêpe Suzette is made with lightly grated orange peel and liqueur, usually Grand Marnier, which is set alight during presentation."
+   }
+  },
+  {
+   "id": "T368-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Marie-Antoine Carême roztřídil francouzské omáčky podle několika „velkých“ základních omáček (grandes sauces). Kolik jich popsal?",
+    "en": "Marie-Antoine Carême classified French sauces under a few basic \"great sauces\" (grandes sauces). How many did he describe?"
+   },
+   "moznosti": {
+    "cs": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "en": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Carême v roce 1833 popsal čtyři velké omáčky. Dnešní seznam pěti mateřských omáček pochází nejspíš až z anglického vydání Escoffierovy příručky z roku 1907.",
+    "en": "In 1833 Carême described four grandes sauces. Today's list of five mother sauces probably derives from the 1907 English edition of Escoffier's guide."
+   }
+  },
+  {
+   "id": "T368-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kterou omáčku zařadilo mezi základní omáčky až anglické vydání Escoffierovy kuchařské příručky z roku 1907 (ve francouzském vydání byla jen odvozenou omáčkou)?",
+    "en": "Which sauce was placed among the basic sauces only in the 1907 English edition of Escoffier's cookery guide (in the French edition it was just a daughter sauce)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vinaigrettu",
+     "Béarnaise",
+     "Majonézu",
+     "Holandskou"
+    ],
+    "en": [
+     "Vinaigrette",
+     "Béarnaise",
+     "Mayonnaise",
+     "Hollandaise"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Ve francouzském vydání z roku 1903 byla holandská omáčka mezi odvozenými omáčkami; anglické vydání ji přesunulo mezi základní, což je nejspíš původ dnešního seznamu pěti mateřských omáček. Majonézu naopak anglické vydání přestalo označovat za mateřskou omáčku studených omáček a béarnaise je odvozená od holandské.",
+    "en": "In the 1903 French edition hollandaise appeared among the daughter sauces; the English edition moved it among the basic sauces, the likely origin of the modern five-sauce list. Conversely, the English edition dropped the description of mayonnaise as a mother sauce for cold sauces, and béarnaise is a derivative of hollandaise."
+   }
+  },
+  {
+   "id": "T368-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co roku 1856 použil burgundský výrobce Jean Naigeon v hořčici místo obvyklého octa, čímž jí dal její dnešní slavnou podobu?",
+    "en": "In 1856, what did the Burgundian mustard maker Jean Naigeon use instead of the usual vinegar, giving the mustard its famous present-day form?"
+   },
+   "moznosti": {
+    "cs": [
+     "Verjus z nezralých hroznů",
+     "Šťávu z citronů a limet",
+     "Světlé pivo",
+     "Kvašený jablečný mošt"
+    ],
+    "en": [
+     "Verjuice from unripe grapes",
+     "Lemon and lime juice",
+     "Pale beer",
+     "Fermented apple cider"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Naigeon nahradil ocet kyselou šťávou verjus. Dnes se verjus obvykle napodobuje směsí bílého vína, octa, vody a soli; asi 80 % hořčičného semínka dováží Francie z Kanady, hlavně z Alberty a Saskatchewanu.",
+    "en": "Naigeon replaced vinegar with verjuice. Today it is usually imitated with a mixture of white wine, vinegar, water and salt, and about 80% of France's mustard seed is imported from Canada, mainly from Alberta and Saskatchewan."
+   }
+  },
+  {
+   "id": "T368-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který šéfkuchař navrhl tvůrcům animovaného filmu Ratatouille (2007) efektní vrstvenou verzi titulního pokrmu, kterou Remy připraví ve vrcholné scéně?",
+    "en": "Which chef suggested to the makers of the animated film Ratatouille (2007) the fancy layered version of the title dish that Remy prepares in the climax?"
+   },
+   "moznosti": {
+    "cs": [
+     "Thomas Keller",
+     "Wolfgang Puck",
+     "Gordon Ramsay",
+     "Anthony Bourdain"
+    ],
+    "en": [
+     "Thomas Keller",
+     "Wolfgang Puck",
+     "Gordon Ramsay",
+     "Anthony Bourdain"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Producent Brad Lewis byl na stáži v Kellerově kuchyni a Keller navrhl pro vrcholnou scénu filmu rafinovanou vrstvenou verzi – confit byaldi. Vrstvenou úpravu z tence nakrájené zeleniny vymyslel francouzský kuchař Michel Guérard.",
+    "en": "Producer Brad Lewis interned in Keller's kitchen, and Keller suggested a fancy layered version for the film's climax – confit byaldi. The layered preparation of thinly sliced vegetables was created by the French chef Michel Guérard."
+   }
+  },
+  {
+   "id": "T368-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co o foie gras prohlašuje francouzský zákoník Code rural?",
+    "en": "What does the French Rural Code (Code rural) declare about foie gras?"
+   },
+   "moznosti": {
+    "cs": [
+     "Smí se prodávat jen o Vánocích",
+     "Smí se vyrábět pouze v Alsasku",
+     "Jeho výroba se do roku 2030 ukončí",
+     "Je chráněným kulturním dědictvím Francie"
+    ],
+    "en": [
+     "It may be sold only at Christmas",
+     "It may be made only in Alsace",
+     "Its production will end by 2030",
+     "It is part of France's protected heritage"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Článek L654-27-1 zní: „Foie gras patří k chráněnému kulturnímu a gastronomickému dědictví Francie.“ Francie je největším producentem i spotřebitelem foie gras; v roce 2020 vyrobila asi 64 % světové produkce.",
+    "en": "Article L654-27-1 states: \"Foie gras belongs to the protected cultural and gastronomical heritage of France.\" France is the largest producer and consumer of foie gras, making about 64% of world output in 2020."
+   }
+  },
+  {
+   "id": "T368-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo zpopularizoval pojem nouvelle cuisine pro lehčí francouzskou kuchyni s kratší dobou vaření a bez těžkých omáček?",
+    "en": "Who popularised the term nouvelle cuisine for a lighter style of French cooking with shorter cooking times and no heavy sauces?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kritici Henri Gault a Christian Millau",
+     "Bratři André a Édouard Michelinové",
+     "Alexandre Dumas a Marie-Antoine Carême",
+     "Bratři Jean a Pierre Troisgrosové"
+    ],
+    "en": [
+     "The critics Henri Gault and Christian Millau",
+     "The brothers André and Édouard Michelin",
+     "Alexandre Dumas and Marie-Antoine Carême",
+     "The brothers Jean and Pierre Troisgros"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pojem zpopularizoval v 60. letech kritik Henri Gault, který ho s Christianem Millauem a Andrém Gayotem používal v průvodci Gault Millau pro kuchyni Paula Bocuse, Alaina Chapela, bratrů Troisgrosových či Michela Guérarda. Těžké omáčky jako espagnole a béchamel nahradilo koření čerstvými bylinkami.",
+    "en": "The term was popularised in the 1960s by the critic Henri Gault, who with Christian Millau and André Gayot used it in the Gault Millau guide for the cooking of Paul Bocuse, Alain Chapel, Jean and Pierre Troisgros and Michel Guérard. Heavy sauces such as espagnole and béchamel were replaced by seasoning with fresh herbs."
+   }
+  },
+  {
+   "id": "T368-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co kromě peněžní odměny získává vítěz soutěže Grand Prix de la baguette o nejlepší bagetu?",
+    "en": "Besides prize money, what does the winner of the Grand Prix de la baguette competition for the best baguette receive?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jeho bageta se vystaví v Louvru",
+     "Smí na rok zvýšit cenu bagety",
+     "Rok dodává chléb francouzskému prezidentovi",
+     "Doživotně nemusí platit daně"
+    ],
+    "en": [
+     "A display of their baguette in the Louvre",
+     "The right to raise the baguette price for a year",
+     "A year supplying the French president's bread",
+     "A lifetime exemption from taxes"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vítěz získá 4 000 eur a celý rok pak dodává francouzskému prezidentovi jeho každodenní chléb.",
+    "en": "The winner receives €4,000 and supplies the French president with his daily bread for the following year."
+   }
+  }
+ ]
+}

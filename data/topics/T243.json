@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T243",
+ "nazev": {
+  "cs": "Energie: od uhlí po jádro a obnovitelné zdroje",
+  "en": "Energy: from Coal to Nuclear and Renewables"
+ },
+ "kategorie": {
+  "id": "veda-a-technika",
+  "nazev": {
+   "cs": "Věda a technika",
+   "en": "Science & Technology"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T243-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které palivo vzniklo převážně z odumřelých rostlin pravěkých bažinných lesů?",
+    "en": "Which fuel formed mainly from the dead plants of prehistoric swamp forests?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ropa",
+     "Uran",
+     "Uhlí",
+     "Zemní plyn"
+    ],
+    "en": [
+     "Crude oil",
+     "Uranium",
+     "Coal",
+     "Natural gas"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Rostlinná hmota z mokřadů se nejprve změnila v rašelinu a teplem a tlakem během milionů let v uhlí. Většina uhelných slojí pochází z karbonu a permu, kdy tropy pokrývaly rozsáhlé bažinné lesy.",
+    "en": "Plant matter from wetlands first turned into peat, which heat and pressure transformed into coal over millions of years. Most coal beds date from the Carboniferous and Permian, when vast swamp forests covered the tropics."
+   }
+  },
+  {
+   "id": "T243-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém roce došlo k havárii Černobylské jaderné elektrárny?",
+    "en": "In which year did the Chernobyl nuclear power plant disaster happen?"
+   },
+   "moznosti": {
+    "cs": [
+     "1979",
+     "1986",
+     "1991",
+     "1996"
+    ],
+    "en": [
+     "1979",
+     "1986",
+     "1991",
+     "1996"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Čtvrtý reaktor explodoval 26. dubna 1986. Havárie dostala nejvyšší stupeň 7 mezinárodní stupnice jaderných událostí INES.",
+    "en": "Reactor No. 4 exploded on 26 April 1986. The accident was given the highest rating, Level 7, on the International Nuclear Event Scale (INES)."
+   }
+  },
+  {
+   "id": "T243-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která jaderná elektrárna stojí v Jihočeském kraji?",
+    "en": "Which nuclear power plant is located in the South Bohemian Region of the Czech Republic?"
+   },
+   "moznosti": {
+    "cs": [
+     "Temelín",
+     "Mochovce",
+     "Dukovany",
+     "Jaslovské Bohunice"
+    ],
+    "en": [
+     "Temelín",
+     "Mochovce",
+     "Dukovany",
+     "Jaslovské Bohunice"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Temelín má dva bloky s tlakovodními reaktory VVER-1000; stavbu třetího a čtvrtého bloku vláda v roce 1990 zastavila. Dukovany leží na Vysočině nedaleko Třebíče, Mochovce a Jaslovské Bohunice jsou na Slovensku.",
+    "en": "Temelín has two units with VVER-1000 pressurised water reactors; the government stopped construction of units 3 and 4 in 1990. Dukovany lies in the Vysočina Region near Třebíč, while Mochovce and Jaslovské Bohunice are in Slovakia."
+   }
+  },
+  {
+   "id": "T243-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co měří kilowatthodina (kWh), za kterou platíme ve vyúčtování za elektřinu?",
+    "en": "What does the kilowatt-hour (kWh) on an electricity bill measure?"
+   },
+   "moznosti": {
+    "cs": [
+     "Proud tekoucí vedením",
+     "Okamžitý výkon spotřebičů",
+     "Spotřebovanou energii",
+     "Napětí v zásuvce"
+    ],
+    "en": [
+     "The current flowing through the wires",
+     "The instantaneous power of appliances",
+     "The energy consumed",
+     "The voltage at the socket"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kilowatthodina je energie, kterou spotřebič o výkonu 1 kW odebere za jednu hodinu. Watt (kilowatt) je jednotka výkonu, kilowatthodina jednotka energie – proto se platí za kWh.",
+    "en": "A kilowatt-hour is the energy used by a 1 kW appliance running for one hour. The watt (kilowatt) is a unit of power, while the kilowatt-hour is a unit of energy, which is why bills are charged per kWh."
+   }
+  },
+  {
+   "id": "T243-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co vychází hlavně z výfuku auta poháněného vodíkovými palivovými články?",
+    "en": "What mainly comes out of the exhaust of a car powered by hydrogen fuel cells?"
+   },
+   "moznosti": {
+    "cs": [
+     "Metan",
+     "Vodní pára",
+     "Oxid uhličitý",
+     "Oxid uhelnatý"
+    ],
+    "en": [
+     "Methane",
+     "Water vapour",
+     "Carbon dioxide",
+     "Carbon monoxide"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "V palivovém článku se vodík slučuje s kyslíkem ze vzduchu, vzniká elektřina, teplo a voda. Znečištění ale obvykle vzniká při výrobě samotného vodíku, pokud se nevyrábí z obnovitelné energie.",
+    "en": "In a fuel cell, hydrogen combines with oxygen from the air to produce electricity, heat and water. Pollution usually arises when the hydrogen itself is produced, unless renewable energy is used."
+   }
+  },
+  {
+   "id": "T243-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik listů má rotor většiny moderních velkých větrných elektráren?",
+    "en": "How many blades does the rotor of most modern large wind turbines have?"
+   },
+   "moznosti": {
+    "cs": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "en": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Komerční turbíny s vodorovnou osou mají obvykle tři listy umístěné před stožárem (na návětrné straně). Generátor je ukrytý ve skříni na vrcholu stožáru, zvané gondola.",
+    "en": "Commercial horizontal-axis turbines usually have three blades, mounted upwind of the tower. The generator sits in a housing at the top of the tower called the nacelle."
+   }
+  },
+  {
+   "id": "T243-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který plyn tvoří hlavní složku zemního plynu?",
+    "en": "Which gas is the main component of natural gas?"
+   },
+   "moznosti": {
+    "cs": [
+     "Metan",
+     "Vodík",
+     "Propan",
+     "Oxid uhličitý"
+    ],
+    "en": [
+     "Methane",
+     "Hydrogen",
+     "Propane",
+     "Carbon dioxide"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Zemní plyn tvoří zhruba z 95 % metan, zbytek připadá na další uhlovodíky a stopové plyny. Sám o sobě je bezbarvý.",
+    "en": "Natural gas is roughly 95% methane, with the rest made up of other hydrocarbons and trace gases. On its own it is colourless."
+   }
+  },
+  {
+   "id": "T243-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které dnešní zemi leží Černobylská jaderná elektrárna?",
+    "en": "In which present-day country is the Chernobyl nuclear power plant located?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Litvě",
+     "V Bělorusku",
+     "Na Ukrajině",
+     "V Rusku"
+    ],
+    "en": [
+     "Lithuania",
+     "Belarus",
+     "Ukraine",
+     "Russia"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Elektrárna leží v Kyjevské oblasti. V době havárie byla Ukrajina součástí Sovětského svazu jako Ukrajinská SSR.",
+    "en": "The plant lies in Kyiv Oblast. At the time of the disaster, Ukraine was part of the Soviet Union as the Ukrainian SSR."
+   }
+  },
+  {
+   "id": "T243-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který prvek slouží jako palivo v reaktorech Temelína a Dukovan?",
+    "en": "Which element is used as fuel in the reactors at Temelín and Dukovany?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lithium",
+     "Wolfram",
+     "Uran",
+     "Radium"
+    ],
+    "en": [
+     "Lithium",
+     "Tungsten",
+     "Uranium",
+     "Radium"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Lehkovodní reaktory, mezi něž patří i tlakovodní reaktory VVER v Temelíně a Dukovanech, používají obohacený uran. Obohacením se v palivu zvyšuje podíl štěpitelného izotopu uran-235.",
+    "en": "Light-water reactors, including the VVER pressurised water reactors at Temelín and Dukovany, use enriched uranium. Enrichment increases the share of the fissile isotope uranium-235 in the fuel."
+   }
+  },
+  {
+   "id": "T243-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi se nejméně 90 % domů vytápí geotermální energií (k roku 2026)?",
+    "en": "In which country are at least 90% of homes heated with geothermal energy (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Finsku",
+     "V Irsku",
+     "V Norsku",
+     "Na Islandu"
+    ],
+    "en": [
+     "Finland",
+     "Ireland",
+     "Norway",
+     "Iceland"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Geotermální elektrárny tam v roce 2020 vyrobily víc než čtvrtinu elektřiny, většinu zbytku dodaly vodní elektrárny. Slavnou Modrou lagunu plní mimo jiné odpadní voda z nedaleké geotermální elektrárny Svartsengi.",
+    "en": "In 2020 geothermal plants produced more than a quarter of its electricity, with hydropower supplying most of the rest. The famous Blue Lagoon is filled partly with discharge water from the nearby Svartsengi geothermal power station."
+   }
+  },
+  {
+   "id": "T243-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Edwin Drake nechal roku 1859 vyvrtat vrt, který bývá označován za první komerční ropný vrt v USA. Ve kterém státě?",
+    "en": "In 1859 Edwin Drake had a well drilled that is often called the first commercial oil well in the USA. In which state?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Ohiu",
+     "V Texasu",
+     "V Kalifornii",
+     "V Pensylvánii"
+    ],
+    "en": [
+     "Ohio",
+     "Texas",
+     "California",
+     "Pennsylvania"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vrt u potoka Oil Creek nedaleko Titusvillu odstartoval první americkou ropnou horečku. Titul „první ropný vrt“ si ale nárokují i jiná místa, například Baku nebo Oil Springs v kanadském Ontariu, kde na ropu narazili už v roce 1858.",
+    "en": "The well on Oil Creek near Titusville sparked the first American oil boom. Other places also claim the title of 'first oil well', such as Baku or Oil Springs in Ontario, Canada, where oil was struck in 1858."
+   }
+  },
+  {
+   "id": "T243-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaderná elektrárna Obninsk se v červnu 1954 stala první jadernou elektrárnou na světě připojenou do elektrické sítě. Ve kterém státě stála?",
+    "en": "In June 1954 the Obninsk nuclear power plant became the world's first nuclear power plant connected to an electricity grid. In which country was it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Francii",
+     "Ve Velké Británii",
+     "Ve Spojených státech",
+     "V Sovětském svazu"
+    ],
+    "en": [
+     "France",
+     "United Kingdom",
+     "United States",
+     "Soviet Union"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Obninsk v Kalužské oblasti (dnes Rusko) dodával elektřinu do sítě až do roku 2002. Britské reaktory v Calder Hall začaly vyrábět elektřinu o dva roky později, v roce 1956.",
+    "en": "Obninsk in Kaluga Oblast (now Russia) supplied the grid until 2002. The British reactors at Calder Hall began producing electricity two years later, in 1956."
+   }
+  },
+  {
+   "id": "T243-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které město, založené roku 1970 pro pracovníky Černobylské elektrárny, bylo den po havárii evakuováno?",
+    "en": "Which town, founded in 1970 for workers of the Chernobyl power plant, was evacuated the day after the disaster?"
+   },
+   "moznosti": {
+    "cs": [
+     "Černihiv",
+     "Slavutyč",
+     "Pripjať",
+     "Vyšhorod"
+    ],
+    "en": [
+     "Chernihiv",
+     "Slavutych",
+     "Pripyat",
+     "Vyshhorod"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pripjať měla před havárií 49 360 obyvatel a evakuovali ji odpoledne 27. dubna. Z mladého sovětského města se stalo opuštěné město duchů a symbol katastrofy.",
+    "en": "Pripyat had 49,360 inhabitants before the disaster and was evacuated on the afternoon of 27 April. The young Soviet town became an abandoned ghost town and a symbol of the catastrophe."
+   }
+  },
+  {
+   "id": "T243-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč po zemětřesení v březnu 2011 selhalo chlazení reaktorů elektrárny Fukušima I (Fukushima Daiichi)?",
+    "en": "Why did reactor cooling fail at the Fukushima Daiichi power plant after the March 2011 earthquake?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zemětřesení roztrhlo tlakové nádoby reaktorů",
+     "Vlna tsunami zaplavila záložní dieselové generátory",
+     "Do chladicího okruhu se dostal mořský písek",
+     "Reaktory se po otřesech nepodařilo odstavit"
+    ],
+    "en": [
+     "The earthquake ruptured the reactor pressure vessels",
+     "A tsunami flooded the emergency diesel generators",
+     "Sea sand got into the cooling circuit",
+     "The reactors could not be shut down after the shaking"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Zemětřesení odpojilo elektrárnu od sítě, reaktory se odstavily a naskočily dieselové generátory. Vlny vysoké 13–14 m pak přelily ochrannou zeď a zaplavily je; havárie dostala stejně jako Černobyl nejvyšší stupeň 7 INES.",
+    "en": "The earthquake cut the plant off from the grid, the reactors shut down and the diesel generators started. Then 13–14 m (43–46 ft) waves overtopped the seawall and flooded them; like Chernobyl, the accident was rated INES Level 7, the highest."
+   }
+  },
+  {
+   "id": "T243-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které z těchto přírodních paliv má nejvyšší obsah uhlíku?",
+    "en": "Which of these natural fuels has the highest carbon content?"
+   },
+   "moznosti": {
+    "cs": [
+     "Antracit",
+     "Rašelina",
+     "Lignit",
+     "Dřevo"
+    ],
+    "en": [
+     "Anthracite",
+     "Peat",
+     "Lignite",
+     "Wood"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Čím déle a pod větším tlakem a teplem se uhlí přeměňovalo, tím víc uhlíku obsahuje; antracit je nejvýše prouhelněným druhem uhlí, lignit (měkké hnědé uhlí) naopak nejníže. Rašelina je teprve předstupněm uhlí.",
+    "en": "The longer coal has been transformed by heat and pressure, the more carbon it contains; anthracite is the highest rank of coal, while lignite (brown coal) is the lowest. Peat is merely a precursor of coal."
+   }
+  },
+  {
+   "id": "T243-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik reaktorových bloků měla jaderná elektrárna Dukovany v provozu v roce 2026?",
+    "en": "How many reactor units were in operation at the Dukovany nuclear power plant in 2026?"
+   },
+   "moznosti": {
+    "cs": [
+     "1",
+     "2",
+     "4",
+     "6"
+    ],
+    "en": [
+     "1",
+     "2",
+     "4",
+     "6"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "V Dukovanech pracují čtyři tlakovodní reaktory VVER-440. V roce 2024 vybrala česká vláda korejskou firmu KHNP, aby v lokalitě postavila dva nové bloky; první by měl začít zkušebně pracovat kolem roku 2036.",
+    "en": "Dukovany runs four VVER-440 pressurised water reactors. In 2024 the Czech government chose South Korea's KHNP to build two new units at the site, with the first expected to start trial operation around 2036."
+   }
+  },
+  {
+   "id": "T243-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které dvě země si dělí vodní elektrárnu Itaipú na řece Paraná?",
+    "en": "Which two countries share the Itaipu hydroelectric dam on the Paraná River?"
+   },
+   "moznosti": {
+    "cs": [
+     "Brazílie a Uruguay",
+     "Argentina a Paraguay",
+     "Brazílie a Argentina",
+     "Brazílie a Paraguay"
+    ],
+    "en": [
+     "Brazil and Uruguay",
+     "Argentina and Paraguay",
+     "Brazil and Argentina",
+     "Brazil and Paraguay"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Přehrada stojí přímo na hranici obou zemí. S instalovaným výkonem 14 GW ji předčí čínská přehrada Tři soutěsky (22,5 GW).",
+    "en": "The dam sits right on the border between the two countries. With an installed capacity of 14 GW, it is surpassed by China's Three Gorges Dam (22.5 GW)."
+   }
+  },
+  {
+   "id": "T243-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se označuje vodík vyrobený elektrolýzou vody pomocí elektřiny z obnovitelných zdrojů?",
+    "en": "What is hydrogen produced by electrolysis of water using renewable electricity called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zelený",
+     "Tyrkysový",
+     "Šedý",
+     "Modrý"
+    ],
+    "en": [
+     "Green",
+     "Turquoise",
+     "Grey",
+     "Blue"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Šedý vodík se vyrábí z fosilních paliv bez zachytávání CO₂, modrý je šedý vodík s jeho zachytáváním a ukládáním. Podle dosavadních zkušeností se ale u modrého vodíku nedaří zachytit víc než asi 60 % CO₂.",
+    "en": "Grey hydrogen is made from fossil fuels without capturing the CO₂; blue hydrogen is grey hydrogen with carbon capture and storage. So far, however, capture rates for blue hydrogen have not exceeded about 60%."
+   }
+  },
+  {
+   "id": "T243-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč zemní plyn v domácnosti charakteristicky zapáchá?",
+    "en": "Why does household natural gas have its typical smell?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zápach vzniká až reakcí plynu s vlhkým vzduchem",
+     "Kvůli bezpečnosti se do něj přidává páchnoucí látka",
+     "Obsahuje přirozeně sirovodík z ložiska",
+     "Zápach způsobuje koroze uvnitř plynového potrubí"
+    ],
+    "en": [
+     "The smell only forms when the gas reacts with humid air",
+     "A smelly substance is added for safety",
+     "It naturally contains hydrogen sulphide from the deposit",
+     "Corrosion inside the gas pipes causes the smell"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Zemní plyn je bezbarvý a téměř bez zápachu. Aby šel únik ucítit, přidávají se do něj sirné látky (merkaptany neboli thioly) s pachem zkažených vajec.",
+    "en": "Natural gas is colourless and almost odourless. Sulphur compounds (mercaptans, or thiols) with a rotten-egg smell are added so that leaks can be detected."
+   }
+  },
+  {
+   "id": "T243-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Arthur Compton po úspěšném spuštění prvního jaderného reaktoru v prosinci 1942 telefonicky oznámil: „Italský mořeplavec přistál v Novém světě.“ Koho tím myslel?",
+    "en": "After the first nuclear reactor was successfully started in December 1942, Arthur Compton announced by phone: 'The Italian navigator has landed in the New World.' Whom did he mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "J. Roberta Oppenheimera",
+     "Enrica Fermiho",
+     "Nielse Bohra",
+     "Leó Szilárda"
+    ],
+    "en": [
+     "J. Robert Oppenheimer",
+     "Enrico Fermi",
+     "Niels Bohr",
+     "Leó Szilárd"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Fermi vedl stavbu reaktoru Chicago Pile-1, v němž jako moderátor sloužily grafitové cihly. Na Conantovu otázku „Jak se chovali domorodci?“ Compton odpověděl: „Velmi přátelsky.“",
+    "en": "Fermi led the construction of Chicago Pile-1, which used graphite bricks as its moderator. When Conant asked 'How were the natives?', Compton replied 'Very friendly.'"
+   }
+  },
+  {
+   "id": "T243-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo roku 1839 jako devatenáctiletý objevil fotovoltaický jev, na němž fungují solární články?",
+    "en": "Who, at the age of 19 in 1839, discovered the photovoltaic effect on which solar cells work?"
+   },
+   "moznosti": {
+    "cs": [
+     "Heinrich Hertz",
+     "Henri Becquerel",
+     "Albert Einstein",
+     "Edmond Becquerel"
+    ],
+    "en": [
+     "Heinrich Hertz",
+     "Henri Becquerel",
+     "Albert Einstein",
+     "Edmond Becquerel"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Francouzský fyzik Edmond Becquerel při tom sestrojil i první fotovoltaický článek. Jeho syn Henri Becquerel později objevil radioaktivitu.",
+    "en": "The French physicist Edmond Becquerel also built the first photovoltaic cell. His son Henri Becquerel later discovered radioactivity."
+   }
+  },
+  {
+   "id": "T243-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve které zemi byla roku 1904 poprvé vyrobena elektřina z geotermální páry?",
+    "en": "In which country was electricity first generated from geothermal steam, in 1904?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Itálii",
+     "V USA",
+     "Na Novém Zélandu",
+     "Na Islandu"
+    ],
+    "en": [
+     "Italy",
+     "USA",
+     "New Zealand",
+     "Iceland"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kníže Piero Ginori Conti vyzkoušel první geotermální generátor 4. července 1904 v Larderellu v Toskánsku.",
+    "en": "Prince Piero Ginori Conti tested the first geothermal power generator on 4 July 1904 at Larderello in Tuscany."
+   }
+  },
+  {
+   "id": "T243-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve které dnešní zemi objevili francouzští vědci roku 1972 přírodní jaderné reaktory, v nichž zhruba před 1,7–2 miliardami let samovolně probíhala řetězová reakce?",
+    "en": "In which present-day country did French scientists discover, in 1972, natural nuclear reactors in which a chain reaction ran spontaneously some 1.7–2 billion years ago?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Kanadě",
+     "V Gabonu",
+     "V Kazachstánu",
+     "V Austrálii"
+    ],
+    "en": [
+     "Canada",
+     "Gabon",
+     "Kazakhstan",
+     "Australia"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Chemici si všimli, že uran z dolu Oklo obsahuje podezřele málo izotopu uran-235 – místy téměř o 40 % méně, než je v přírodním uranu běžné. Chybějící uran se „spotřeboval“ v dávných reaktorech.",
+    "en": "Chemists noticed that uranium from the Oklo mine contained suspiciously little uranium-235 – in places almost 40% less than is normal in natural uranium. The missing uranium had been 'burned' in the ancient reactors."
+   }
+  },
+  {
+   "id": "T243-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik procent přírodního uranu tvoří štěpitelný izotop uran-235?",
+    "en": "What percentage of natural uranium is the fissile isotope uranium-235?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 0,7 %",
+     "Asi 3 %",
+     "Asi 20 %",
+     "Asi 85 %"
+    ],
+    "en": [
+     "About 0.7%",
+     "About 3%",
+     "About 20%",
+     "About 85%"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Zbytek tvoří převážně uran-238. Palivo pro lehkovodní reaktory se proto obohacuje na 3–5 % uranu-235, uran pro zbraně obvykle na 85 % a víc.",
+    "en": "Most of the rest is uranium-238. Fuel for light-water reactors is therefore enriched to 3–5% uranium-235, and weapons-grade uranium usually to 85% or more."
+   }
+  },
+  {
+   "id": "T243-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaký typ reaktoru byl ve 4. bloku Černobylské elektrárny, který při havárii explodoval?",
+    "en": "What type of reactor was in Unit 4 of the Chernobyl plant, the one that exploded in the disaster?"
+   },
+   "moznosti": {
+    "cs": [
+     "CANDU",
+     "VVER",
+     "Magnox",
+     "RBMK"
+    ],
+    "en": [
+     "CANDU",
+     "VVER",
+     "Magnox",
+     "RBMK"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "RBMK je sovětský typ reaktoru moderovaného grafitem, v jehož tlakových kanálech se chladicí voda vaří. K černobylské havárii přispěly i konstrukční slabiny tohoto typu.",
+    "en": "The RBMK is a Soviet graphite-moderated reactor design in which the cooling water boils inside pressure tubes. Design flaws of this type contributed to the Chernobyl disaster."
+   }
+  },
+  {
+   "id": "T243-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik joulů odpovídá jedné kilowatthodině?",
+    "en": "How many joules are equal to one kilowatt-hour?"
+   },
+   "moznosti": {
+    "cs": [
+     "3 600",
+     "60 000",
+     "1 000 000",
+     "3 600 000"
+    ],
+    "en": [
+     "3,600",
+     "60,000",
+     "1,000,000",
+     "3,600,000"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Watt je joule za sekundu, takže 1 000 W × 3 600 s = 3 600 000 J neboli 3,6 MJ. Rychlovarná konvice s výkonem 2 kW spotřebuje 1 kWh za půl hodiny.",
+    "en": "A watt is one joule per second, so 1,000 W × 3,600 s = 3,600,000 J, or 3.6 MJ. A 2 kW electric kettle uses 1 kWh in half an hour."
+   }
+  },
+  {
+   "id": "T243-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co podle výpočtu vědců NASA z roku 2005 způsobí voda zadržovaná čínskou přehradou Tři soutěsky?",
+    "en": "According to a 2005 calculation by NASA scientists, what will the water held back by China's Three Gorges Dam do?"
+   },
+   "moznosti": {
+    "cs": [
+     "Prodlouží den asi o 0,06 mikrosekundy",
+     "Zkrátí den asi o 0,06 sekundy",
+     "Zvýší hladinu světového oceánu asi o 1 cm",
+     "Zpomalí oběh Měsíce kolem Země"
+    ],
+    "en": [
+     "Lengthen the day by about 0.06 microseconds",
+     "Shorten the day by about 0.06 seconds",
+     "Raise global sea level by about 1 cm",
+     "Slow the Moon's orbit around Earth"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Přesun obrovské masy vody mění rozložení hmoty Země a nepatrně zpomalí její rotaci; Země je pak o chlup baculatější na rovníku a plošší na pólech. Tři soutěsky jsou s instalovaným výkonem 22,5 GW největší elektrárnou světa (k roku 2026).",
+    "en": "Shifting such a huge mass of water changes Earth's mass distribution and very slightly slows its rotation, making the planet a touch rounder at the equator and flatter at the poles. With 22.5 GW of installed capacity, Three Gorges is the world's largest power station (as of 2026)."
+   }
+  },
+  {
+   "id": "T243-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém městě vznikla v září 1960 Organizace zemí vyvážejících ropu (OPEC)?",
+    "en": "In which city was the Organization of the Petroleum Exporting Countries (OPEC) founded in September 1960?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Caracasu",
+     "V Bagdádu",
+     "Ve Vídni",
+     "V Rijádu"
+    ],
+    "en": [
+     "Caracas",
+     "Baghdad",
+     "Vienna",
+     "Riyadh"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Zakládajícími členy byly Írán, Irák, Kuvajt, Saúdská Arábie a Venezuela. Od roku 1965 sídlí OPEC ve Vídni.",
+    "en": "The founding members were Iran, Iraq, Kuwait, Saudi Arabia and Venezuela. OPEC has had its headquarters in Vienna since 1965."
+   }
+  },
+  {
+   "id": "T243-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Která země vyrobila v roce 2023 z větru víc než polovinu své elektřiny?",
+    "en": "Which country generated more than half of its electricity from wind in 2023?"
+   },
+   "moznosti": {
+    "cs": [
+     "Německo",
+     "Nizozemsko",
+     "Dánsko",
+     "Spojené království"
+    ],
+    "en": [
+     "Germany",
+     "Netherlands",
+     "Denmark",
+     "United Kingdom"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vítr v roce 2023 pokryl asi 58 % dánské výroby elektřiny a přes 50 % měl i v letech 2019, 2020 a 2022. Dánsko patří k zemím s nejvyšším podílem větrné energie na světě.",
+    "en": "Wind covered about 58% of Denmark's electricity generation in 2023, and more than 50% in 2019, 2020 and 2022 as well. Denmark is among the countries with the highest share of wind power in the world."
+   }
+  },
+  {
+   "id": "T243-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který radioaktivní izotop stojí za tím, že fyzici žertem vyjadřují malé dávky záření v „banánovém ekvivalentu“?",
+    "en": "Which radioactive isotope is the reason physicists jokingly express small radiation doses as a 'banana equivalent dose'?"
+   },
+   "moznosti": {
+    "cs": [
+     "Radon-222",
+     "Cesium-137",
+     "Draslík-40",
+     "Stroncium-90"
+    ],
+    "en": [
+     "Radon-222",
+     "Caesium-137",
+     "Potassium-40",
+     "Strontium-90"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Banány jsou bohaté na draslík a asi 0,012 % přírodního draslíku tvoří radioaktivní izotop draslík-40. Dávka z jednoho banánu je nepatrná a nehromadí se, protože tělo přebytečný draslík vylučuje.",
+    "en": "Bananas are rich in potassium, and about 0.012% of natural potassium is the radioactive isotope potassium-40. The dose from one banana is tiny and does not accumulate, because the body excretes excess potassium."
+   }
+  }
+ ]
+}

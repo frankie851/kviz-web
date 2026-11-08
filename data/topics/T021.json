@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T021",
+ "nazev": {
+  "cs": "Dinosauři a pravěký život",
+  "en": "Dinosaurs and Prehistoric Life"
+ },
+ "kategorie": {
+  "id": "priroda-a-zvirata",
+  "nazev": {
+   "cs": "Příroda a zvířata",
+   "en": "Nature & Animals"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T021-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co doslova znamená slovo „dinosaurus“, odvozené z řečtiny?",
+    "en": "What does the word 'dinosaur', derived from Greek, literally mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Strašný ještěr",
+     "Rychlý lovec",
+     "Pradávný drak",
+     "Obrovský had"
+    ],
+    "en": [
+     "Terrible lizard",
+     "Swift hunter",
+     "Ancient dragon",
+     "Giant snake"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Název složil v roce 1842 britský anatom Richard Owen z řeckého deinos (strašný, úžasně velký) a sauros (ještěr).",
+    "en": "The name was coined in 1842 by British anatomist Richard Owen from Greek deinos (terrible, fearfully great) and sauros (lizard)."
+   }
+  },
+  {
+   "id": "T021-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterému geologickému údobí se přezdívá „věk dinosaurů“?",
+    "en": "Which geological era is nicknamed the 'Age of Dinosaurs'?"
+   },
+   "moznosti": {
+    "cs": [
+     "Prvohory",
+     "Druhohory",
+     "Třetihory",
+     "Čtvrtohory"
+    ],
+    "en": [
+     "Palaeozoic",
+     "Mesozoic",
+     "Tertiary",
+     "Quaternary"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Druhohory (mezozoikum) trvaly asi před 252 až 66 miliony let a dinosauři v nich většinu doby vládli souši. Starší přezdívku „věk plazů“ zavedl už v 19. století Gideon Mantell.",
+    "en": "The Mesozoic lasted from about 252 to 66 million years ago, and dinosaurs dominated the land for most of it. The older nickname 'Age of Reptiles' was introduced by Gideon Mantell in the 19th century."
+   }
+  },
+  {
+   "id": "T021-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "V jakém materiálu se dochoval kousek opeřeného ocasu dinosaura, který vědci popsali v roce 2016?",
+    "en": "In what material was a piece of a feathered dinosaur tail preserved, as described by scientists in 2016?"
+   },
+   "moznosti": {
+    "cs": [
+     "V ledu",
+     "V obsidiánu",
+     "V jantaru",
+     "V korálu"
+    ],
+    "en": [
+     "Ice",
+     "Obsidian",
+     "Amber",
+     "Coral"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ocas starý téměř 100 milionů let uvízl v jantaru z Myanmaru (Barmy). Jantar je zkamenělá pryskyřice stromů a dochovali se v něm i drobní živočichové, hlavně hmyz.",
+    "en": "The tail, nearly 100 million years old, was trapped in amber from Myanmar (Burma). Amber is fossilised tree resin, and small creatures, mainly insects, have also been preserved in it."
+   }
+  },
+  {
+   "id": "T021-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá věda, která zkoumá pravěký život podle zkamenělin?",
+    "en": "What is the science that studies prehistoric life through fossils called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Paleontologie",
+     "Antropologie",
+     "Archeologie",
+     "Mineralogie"
+    ],
+    "en": [
+     "Palaeontology",
+     "Anthropology",
+     "Archaeology",
+     "Mineralogy"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Paleontologie je věda o životě dávné minulosti a stojí na pomezí biologie a geologie. Archeologie naproti tomu zkoumá minulost lidí a jejich výtvory – dinosaury nevykopává.",
+    "en": "Palaeontology is the study of past life and sits between biology and geology. Archaeology, by contrast, studies the human past and its artefacts – it does not dig up dinosaurs."
+   }
+  },
+  {
+   "id": "T021-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který dinosaurus měl na hřbetě dvě řady velkých kostěných desek a na ocase bodce?",
+    "en": "Which dinosaur had two rows of large bony plates on its back and spikes on its tail?"
+   },
+   "moznosti": {
+    "cs": [
+     "Stegosaurus",
+     "Allosaurus",
+     "Brachiosaurus",
+     "Velociraptor"
+    ],
+    "en": [
+     "Stegosaurus",
+     "Allosaurus",
+     "Brachiosaurus",
+     "Velociraptor"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Stegosaurus žil asi před 155–145 miliony let. Ocasní bodce sloužily k obraně – asi desetina zkoumaných exemplářů má bodce poraněné, což svědčí o jejich použití v boji.",
+    "en": "Stegosaurus lived about 155–145 million years ago. Its tail spikes were used for defence – about a tenth of examined specimens show injured spikes, evidence that they were used in combat."
+   }
+  },
+  {
+   "id": "T021-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kteří dnešní plazi jsou nejbližšími žijícími příbuznými dinosaurů, nepočítáme-li ptáky?",
+    "en": "Apart from birds, which present-day reptiles are the closest living relatives of dinosaurs?"
+   },
+   "moznosti": {
+    "cs": [
+     "Želvy",
+     "Ještěrky",
+     "Hadi",
+     "Krokodýli"
+    ],
+    "en": [
+     "Turtles",
+     "Lizards",
+     "Snakes",
+     "Crocodilians"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Ptáci jsou sami dinosauři, takže mezi ostatními dnešními plazy mají k dinosaurům nejblíž krokodýli – spolu s ptáky jsou jedinými přežívajícími archosaury. Želvy, ještěrky a hadi stojí na vývojovém stromu dál.",
+    "en": "Birds are themselves dinosaurs, so among the other living reptiles the crocodilians are closest to dinosaurs – together with birds they are the only surviving archosaurs. Turtles, lizards and snakes sit further away on the family tree."
+   }
+  },
+  {
+   "id": "T021-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se jmenuje slavný film Stevena Spielberga z roku 1993 o dinosaurech oživených z DNA?",
+    "en": "What is the name of Steven Spielberg's famous 1993 film about dinosaurs brought back to life from DNA?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jurský park",
+     "Ztracený svět",
+     "Godzilla",
+     "King Kong"
+    ],
+    "en": [
+     "Jurassic Park",
+     "The Lost World",
+     "Godzilla",
+     "King Kong"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Film vznikl podle románu Michaela Crichtona z roku 1990. Crichton se podílel i na scénáři, spolu s Davidem Koeppem.",
+    "en": "The film was based on Michael Crichton's 1990 novel. Crichton also co-wrote the screenplay with David Koepp."
+   }
+  },
+  {
+   "id": "T021-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Se kterými dnešními zvířaty byli mamuti nejblíže příbuzní?",
+    "en": "Which present-day animals were mammoths most closely related to?"
+   },
+   "moznosti": {
+    "cs": [
+     "S nosorožci",
+     "S hrochy",
+     "Se slony",
+     "S tapíry"
+    ],
+    "en": [
+     "Rhinoceroses",
+     "Hippopotamuses",
+     "Elephants",
+     "Tapirs"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Mamuti patřili do čeledi slonovitých a nejbližším žijícím příbuzným mamuta srstnatého je slon indický (asijský), nikoli africký.",
+    "en": "Mammoths belonged to the elephant family, and the closest living relative of the woolly mammoth is the Asian elephant, not the African one."
+   }
+  },
+  {
+   "id": "T021-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Do které čeledi šelem patřil šavlozubý Smilodon?",
+    "en": "Which carnivore family did the sabre-toothed Smilodon belong to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hyenovité",
+     "Medvědovité",
+     "Psovité",
+     "Kočkovité"
+    ],
+    "en": [
+     "Hyenas (Hyaenidae)",
+     "Bears (Ursidae)",
+     "Dogs (Canidae)",
+     "Cats (Felidae)"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Smilodon byl kočkovitá šelma, ale tygrům blízce příbuzný nebyl – přezdívka „šavlozubý tygr“ je zavádějící. Jeho špičáky měřily u největšího druhu asi 28 cm.",
+    "en": "Smilodon was a member of the cat family, but it was not closely related to tigers – the nickname 'sabre-toothed tiger' is misleading. Its canines reached about 28 cm (11 inches) in the largest species."
+   }
+  },
+  {
+   "id": "T021-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Do které skupiny pravěkých plazů patřil obří Quetzalcoatlus?",
+    "en": "Which group of prehistoric reptiles did the giant Quetzalcoatlus belong to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Plesiosauři",
+     "Mosasauři",
+     "Ptakoještěři",
+     "Ichtyosauři"
+    ],
+    "en": [
+     "Plesiosaurs",
+     "Mosasaurs",
+     "Pterosaurs",
+     "Ichthyosaurs"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Quetzalcoatlus byl ptakoještěr (pterosaurus) z konce křídy s rozpětím křídel asi 10–11 m a patří k největším známým létajícím živočichům. Ptakoještěři byli dinosaurům příbuzní, ale nepatří mezi ně; jsou to nejstarší známí obratlovci, kteří zvládli aktivní let.",
+    "en": "Quetzalcoatlus was a pterosaur from the end of the Cretaceous with a wingspan of about 10–11 m (33–36 ft), one of the largest known flying animals. Pterosaurs were related to dinosaurs but are not classified as dinosaurs; they are the earliest vertebrates known to have evolved powered flight."
+   }
+  },
+  {
+   "id": "T021-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se odborně nazývá zkamenělý trus pravěkých zvířat?",
+    "en": "What is the scientific term for the fossilised dung of prehistoric animals?"
+   },
+   "moznosti": {
+    "cs": [
+     "Gastrolit",
+     "Koprolit",
+     "Amonit",
+     "Belemnit"
+    ],
+    "en": [
+     "Gastrolith",
+     "Coprolite",
+     "Ammonite",
+     "Belemnite"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Název koprolit pochází z řeckého kopros (trus) a lithos (kámen) a zavedl ho v roce 1829 William Buckland. Koprolity prozrazují, čím se pravěcí živočichové živili.",
+    "en": "The name comes from Greek kopros ('dung') and lithos ('stone') and was introduced by William Buckland in 1829. Coprolites reveal what prehistoric animals ate."
+   }
+  },
+  {
+   "id": "T021-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém geologickém období žil Tyrannosaurus rex?",
+    "en": "In which geological period did Tyrannosaurus rex live?"
+   },
+   "moznosti": {
+    "cs": [
+     "Perm",
+     "Trias",
+     "Jura",
+     "Křída"
+    ],
+    "en": [
+     "Permian",
+     "Triassic",
+     "Jurassic",
+     "Cretaceous"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "T. rex žil na samém konci křídy, asi před 69–66 miliony let, takže patřil k posledním neptačím dinosaurům. Od Stegosaura ho dělí delší doba než nás od T. rexe.",
+    "en": "T. rex lived at the very end of the Cretaceous, about 69–66 million years ago, making it one of the last non-avian dinosaurs. More time separates it from Stegosaurus than separates us from T. rex."
+   }
+  },
+  {
+   "id": "T021-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaké je správné pořadí těchto geologických období od nejstaršího po nejmladší?",
+    "en": "What is the correct order of these geological periods from oldest to youngest?"
+   },
+   "moznosti": {
+    "cs": [
+     "Trias – jura – křída",
+     "Trias – křída – jura",
+     "Křída – trias – jura",
+     "Jura – trias – křída"
+    ],
+    "en": [
+     "Triassic – Jurassic – Cretaceous",
+     "Triassic – Cretaceous – Jurassic",
+     "Cretaceous – Triassic – Jurassic",
+     "Jurassic – Triassic – Cretaceous"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Trias začal asi před 252 miliony let, po něm následovala jura a nakonec křída, která skončila asi před 66 miliony let. Jura je pojmenována podle pohoří Jura na pomezí Francie a Švýcarska.",
+    "en": "The Triassic began about 252 million years ago, followed by the Jurassic and finally the Cretaceous, which ended about 66 million years ago. The Jurassic is named after the Jura Mountains on the French–Swiss border."
+   }
+  },
+  {
+   "id": "T021-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který z těchto pravěkých tvorů byl dinosaurus?",
+    "en": "Which of these prehistoric creatures was a dinosaur?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mosasaurus",
+     "Dimetrodon",
+     "Triceratops",
+     "Plesiosaurus"
+    ],
+    "en": [
+     "Mosasaurus",
+     "Dimetrodon",
+     "Triceratops",
+     "Plesiosaurus"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Triceratops byl rohatý býložravý dinosaurus z konce křídy. Plesiosaurus a Mosasaurus byli mořští plazi mimo dinosaury a Dimetrodon s plachtou na zádech měl dokonce blíž k savcům než k dinosaurům.",
+    "en": "Triceratops was a horned, plant-eating dinosaur from the end of the Cretaceous. Plesiosaurus and Mosasaurus were non-dinosaur marine reptiles, and the sail-backed Dimetrodon was actually more closely related to mammals than to dinosaurs."
+   }
+  },
+  {
+   "id": "T021-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na území kterého dnešního státu leží kráter Chicxulub, spojovaný s vymřením dinosaurů?",
+    "en": "In which present-day country does the Chicxulub crater, linked to the extinction of the dinosaurs, lie?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mexiko",
+     "Indie",
+     "Rusko",
+     "Austrálie"
+    ],
+    "en": [
+     "Mexico",
+     "India",
+     "Russia",
+     "Australia"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kráter je pohřben pod poloostrovem Yucatán a jeho průměr se odhaduje asi na 200 km. Vytvořila ho planetka zhruba 10 km velká.",
+    "en": "The crater is buried beneath the Yucatán Peninsula and is estimated to be about 200 km (120 mi) across. It was made by an asteroid roughly 10 km (6.2 mi) wide."
+   }
+  },
+  {
+   "id": "T021-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik prstů s drápy měl Tyrannosaurus rex na každé ze svých krátkých předních končetin?",
+    "en": "How many clawed fingers did Tyrannosaurus rex have on each of its short forelimbs?"
+   },
+   "moznosti": {
+    "cs": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "en": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "T. rex měl na každé ruce dva prsty s drápy; ze třetího zůstala jen drobná zakrnělá záprstní kost. Jeho druhové jméno rex znamená latinsky „král“.",
+    "en": "T. rex had two clawed fingers on each hand; only a tiny splint-like bone remained of a third. Its species name rex is Latin for 'king'."
+   }
+  },
+  {
+   "id": "T021-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Mary Anningová z anglického Lyme Regis našla jako dvanáctiletá dívka s bratrem první odborně popsanou kostru kterého pravěkého plaza?",
+    "en": "As a twelve-year-old girl, Mary Anning of Lyme Regis in England found, together with her brother, the first scientifically described skeleton of which prehistoric reptile?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tyranosaura",
+     "Stegosaura",
+     "Pteranodona",
+     "Ichtyosaura"
+    ],
+    "en": [
+     "A tyrannosaur",
+     "A stegosaur",
+     "A Pteranodon",
+     "An ichthyosaur"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Bratr Joseph objevil v roce 1811 lebku a Mary pak vykopala zbytek asi pětimetrové kostry. Později našla i první kompletní kostru plesiosaura, o níž pak jednala Geologická společnost v Londýně – na schůzi, kam Mary ani nepozvali.",
+    "en": "Her brother Joseph found the skull in 1811 and Mary then dug out the rest of the roughly five-metre (16 ft) skeleton. She later found the first complete plesiosaur skeleton, which the Geological Society of London then discussed at a meeting Mary was not even invited to."
+   }
+  },
+  {
+   "id": "T021-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Pražská čtvrť Barrandov nese jméno Joachima Barranda. Čím se proslavil?",
+    "en": "Prague's Barrandov district is named after Joachim Barrande. What was he famous for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Výzkumem českých zkamenělin",
+     "Astronomickými objevy",
+     "Založením filmových ateliérů",
+     "Stavbou pražských mostů"
+    ],
+    "en": [
+     "Researching Bohemian fossils",
+     "Astronomical discoveries",
+     "Founding film studios",
+     "Building Prague's bridges"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Barrande popsal tisíce druhů zkamenělin ze starých prvohorních hornin středních Čech; první svazek jeho hlavního díla (1852) byl věnován trilobitům. Čtvrť po něm byla pojmenována v roce 1928.",
+    "en": "Barrande described thousands of fossil species from the ancient Palaeozoic rocks of central Bohemia; the first volume of his main work (1852) was devoted to trilobites. The district was named after him in 1928."
+   }
+  },
+  {
+   "id": "T021-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který český malíř proslul rekonstrukcemi pravěkých zvířat a krajin, které ovlivnily celé generace výtvarníků po celém světě?",
+    "en": "Which Czech painter became famous for reconstructions of prehistoric animals and landscapes that influenced generations of artists worldwide?"
+   },
+   "moznosti": {
+    "cs": [
+     "Alfons Mucha",
+     "Josef Lada",
+     "Zdeněk Burian",
+     "Ondřej Sekora"
+    ],
+    "en": [
+     "Alphonse Mucha",
+     "Josef Lada",
+     "Zdeněk Burian",
+     "Ondřej Sekora"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Zdeněk Burian (1905–1981) spolupracoval s vědcem a popularizátorem Josefem Augustou, který ho oslovil po jeho ilustracích ke Štorchovým Lovcům mamutů. Jeho obrazy pozdější výtvarníci hojně napodobovali.",
+    "en": "Zdeněk Burian (1905–1981) worked with the scientist and science popularizer Josef Augusta, who approached him after seeing his illustrations for Eduard Štorch's The Mammoth Hunters. His paintings were extensively copied by later artists."
+   }
+  },
+  {
+   "id": "T021-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve které zemi byly nalezeny všechny známé zkameněliny Archaeopteryxe (k roku 2026), slavného přechodného článku mezi dinosaury a ptáky?",
+    "en": "In which country have all known fossils of Archaeopteryx (as of 2026), the famous transitional link between dinosaurs and birds, been found?"
+   },
+   "moznosti": {
+    "cs": [
+     "V USA",
+     "V Anglii",
+     "V Číně",
+     "V Německu"
+    ],
+    "en": [
+     "USA",
+     "England",
+     "China",
+     "Germany"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Všechny exempláře pocházejí z vápenců u Solnhofenu v Bavorsku a jsou staré asi 150 milionů let. Archaeopteryx měl peří, ale také zuby, drápy na prstech a dlouhý kostěný ocas.",
+    "en": "All specimens come from limestone near Solnhofen in Bavaria and are about 150 million years old. Archaeopteryx had feathers, but also teeth, clawed fingers and a long bony tail."
+   }
+  },
+  {
+   "id": "T021-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Zvýšené množství kterého prvku v tenké vrstvě horniny z doby vymření dinosaurů přivedlo v roce 1980 Luise a Waltera Alvarezovy k teorii o dopadu planetky?",
+    "en": "An unusually high amount of which element in a thin rock layer from the time of the dinosaur extinction led Luis and Walter Alvarez to propose an asteroid impact in 1980?"
+   },
+   "moznosti": {
+    "cs": [
+     "Olova",
+     "Iridia",
+     "Rtuti",
+     "Uranu"
+    ],
+    "en": [
+     "Lead",
+     "Iridium",
+     "Mercury",
+     "Uranium"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Iridium je v zemské kůře vzácné, ale v planetkách hojné, proto jeho nadbytek ukazoval na mimozemský původ. Otec Luis byl nositel Nobelovy ceny za fyziku, syn Walter geolog.",
+    "en": "Iridium is rare in Earth's crust but common in asteroids, so its excess pointed to an extraterrestrial source. The father, Luis, was a Nobel Prize-winning physicist; his son Walter was a geologist."
+   }
+  },
+  {
+   "id": "T021-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který neptačí dinosaurus byl jako první platně vědecky pojmenován (roku 1824)?",
+    "en": "Which non-avian dinosaur was the first to be validly named by science (in 1824)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tyrannosaurus",
+     "Iguanodon",
+     "Brontosaurus",
+     "Megalosaurus"
+    ],
+    "en": [
+     "Tyrannosaurus",
+     "Iguanodon",
+     "Brontosaurus",
+     "Megalosaurus"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Megalosaura popsal oxfordský profesor geologie William Buckland. Jediné jisté pozůstatky Megalosaura pocházejí z Oxfordshiru a samotné slovo dinosaurus vzniklo až v roce 1842. (Ptáci, kteří jsou také dinosauři, dostávali vědecká jména už dříve.)",
+    "en": "Megalosaurus was described by William Buckland, Professor of Geology at Oxford. The only certain remains of Megalosaurus come from Oxfordshire, and the word 'dinosaur' itself was only coined in 1842. (Birds, which are also dinosaurs, had received scientific names earlier.)"
+   }
+  },
+  {
+   "id": "T021-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kde přežívali poslední mamuti srstnatí ještě asi před 4 000 lety, tedy v době, kdy už v Egyptě stály pyramidy?",
+    "en": "Where did the last woolly mammoths survive until about 4,000 years ago, when the pyramids were already standing in Egypt?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Grónsku",
+     "Na Wrangelově ostrově",
+     "Na Špicberkách",
+     "Na Islandu"
+    ],
+    "en": [
+     "Greenland",
+     "Wrangel Island",
+     "Svalbard",
+     "Iceland"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Malá populace přežívala na Wrangelově ostrově v Severním ledovém oceánu ještě staletí poté, co byla postavena Velká pyramida v Gíze. Přežívala tam zhruba do roku 2000 př. n. l.",
+    "en": "A small population survived on Wrangel Island in the Arctic Ocean for centuries after the Great Pyramid of Giza was built. It survived there until around 2000 BCE."
+   }
+  },
+  {
+   "id": "T021-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Z jakého materiálu byly podle převládajícího názoru čočky ve složených očích trilobitů?",
+    "en": "According to the prevailing view, what material were the lenses in the compound eyes of trilobites made of?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z kolagenu",
+     "Z kalcitu",
+     "Z apatitu",
+     "Z křemene"
+    ],
+    "en": [
+     "Collagen",
+     "Calcite",
+     "Apatite",
+     "Quartz"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Podle převládajícího názoru měli trilobiti čočky z kalcitu (uhličitanu vápenatého); někteří využívali čiré krystaly kalcitu, přesně orientované tak, aby každý tvořil jednu čočku oka. Studie z roku 2019 ale připustila, že kalcit mohl v čočkách vzniknout až při fosilizaci.",
+    "en": "According to the prevailing view, trilobites had lenses of calcite (calcium carbonate); some used clear calcite crystals, precisely oriented so that each formed one lens of the eye. A 2019 study, however, suggested that the calcite may have formed only during fossilisation."
+   }
+  },
+  {
+   "id": "T021-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdy definitivně vymřeli trilobiti?",
+    "en": "When did the trilobites finally die out?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na konci kambria",
+     "Na konci ordoviku",
+     "Na konci permu",
+     "Na konci křídy"
+    ],
+    "en": [
+     "At the end of the Cambrian",
+     "At the end of the Ordovician",
+     "At the end of the Permian",
+     "At the end of the Cretaceous"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Trilobiti obývali moře téměř 270 milionů let a zmizeli při velkém vymírání na konci permu asi před 252 miliony let. Popsáno je přes 20 000 jejich druhů (k roku 2026).",
+    "en": "Trilobites inhabited the seas for almost 270 million years and vanished in the great end-Permian extinction about 252 million years ago. Over 20,000 species have been described (as of 2026)."
+   }
+  },
+  {
+   "id": "T021-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč francouzský inženýr Joachim Barrande přesídlil počátkem 30. let 19. století do Prahy?",
+    "en": "Why did the French engineer Joachim Barrande move to Prague in the early 1830s?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přijal místo na pražské hvězdárně",
+     "Byl pozván pražskou univerzitou",
+     "Doprovázel do exilu rodinu krále Karla X.",
+     "Prchal před trestem za účast v revoluci"
+    ],
+    "en": [
+     "He took a post at the Prague observatory",
+     "He was invited by Prague University",
+     "He accompanied the family of King Charles X into exile",
+     "He was fleeing punishment for joining a revolution"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Barrande byl vychovatelem vnuka krále Karla X. (pozdějšího hraběte de Chambord) a po pádu krále v roce 1830 doprovázel exulanty přes Británii až do Prahy, kam dorazil v roce 1831.",
+    "en": "Barrande was tutor to the grandson of King Charles X (later the Count of Chambord), and after the king's fall in 1830 he followed the exiles via Britain to Prague, arriving in 1831."
+   }
+  },
+  {
+   "id": "T021-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Do které skupiny plazů patřili mosasauři, obří mořští predátoři z konce křídy?",
+    "en": "Which group of reptiles did mosasaurs, the giant marine predators of the late Cretaceous, belong to?"
+   },
+   "moznosti": {
+    "cs": [
+     "K želvám",
+     "K ptakoještěrům",
+     "K šupinatým plazům",
+     "Ke krokodýlům"
+    ],
+    "en": [
+     "Turtles",
+     "Pterosaurs",
+     "Squamates",
+     "Crocodilians"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Mosasauři patří mezi šupinaté plazy (ještěry a hady); vědci dodnes diskutují, zda jsou jim nejbližší varani, nebo hadi. Vymřeli na konci křídy asi před 66 miliony let.",
+    "en": "Mosasaurs were squamates (lizards and snakes); scientists still debate whether monitor lizards or snakes are their closest living relatives. They died out at the end of the Cretaceous, about 66 million years ago."
+   }
+  },
+  {
+   "id": "T021-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak přiváděli na svět potomstvo mořští plazi ichtyosauři?",
+    "en": "How did the marine reptiles known as ichthyosaurs bring their offspring into the world?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nosili vejce přilepená na těle",
+     "Rodili živá mláďata ve vodě",
+     "Kladli vejce na písečné pláže",
+     "Kladli vejce do plovoucích hnízd"
+    ],
+    "en": [
+     "They carried eggs stuck to their bodies",
+     "They gave birth to live young in the water",
+     "They laid eggs on sandy beaches",
+     "They laid eggs in floating nests"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ichtyosauři byli živorodí – v německých břidlicích se našly samice se zárodky v těle. Kvůli rozmnožování se tak nemuseli vracet na souš, podobně jako dnešní delfíni.",
+    "en": "Ichthyosaurs were viviparous – females with embryos inside them have been found in German shales. So, like today's dolphins, they did not need to return to land to breed."
+   }
+  },
+  {
+   "id": "T021-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jakým typem dinosaura byl první platně pojmenovaný dinosaurus z území Česka, popsaný v roce 2017?",
+    "en": "What type of dinosaur was the first validly named dinosaur from the Czech Republic, named in 2017?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dravý teropod",
+     "Obří sauropod",
+     "Obrněný ankylosaurus",
+     "Býložravý ornitopod"
+    ],
+    "en": [
+     "A predatory theropod",
+     "A giant sauropod",
+     "An armoured ankylosaur",
+     "A plant-eating ornithopod"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Tento dinosaurus je znám jen ze stehenní kosti, kterou našli v roce 2003 v usazeninách perucko-korycanského souvrství z období křídy.",
+    "en": "This dinosaur is known only from a thigh bone found in 2003 in Cretaceous sediments of the Peruc-Korycany Formation."
+   }
+  },
+  {
+   "id": "T021-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kde bylo nalezeno zdaleka nejvíce zkamenělin šavlozubého Smilodona na světě?",
+    "en": "Where have by far the most fossils of the sabre-toothed Smilodon in the world been found?"
+   },
+   "moznosti": {
+    "cs": [
+     "V poušti Gobi v Mongolsku",
+     "V asfaltových jezírkách La Brea v Los Angeles",
+     "Na útesech u Lyme Regis v Anglii",
+     "Ve vápencích u Solnhofenu v Bavorsku"
+    ],
+    "en": [
+     "The Gobi Desert in Mongolia",
+     "The La Brea Tar Pits in Los Angeles",
+     "The cliffs near Lyme Regis in England",
+     "The limestone near Solnhofen in Bavaria"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Asfaltová jezírka La Brea vydala přes 166 000 kosterních pozůstatků druhu Smilodon fatalis (k roku 2026), protože zvířata v lepkavém asfaltu uvízla jako v pasti. Smilodon žil jen v Americe, od Kanady po Patagonii.",
+    "en": "The La Brea Tar Pits have yielded over 166,000 Smilodon fatalis specimens (as of 2026), as animals became trapped in the sticky asphalt. Smilodon lived only in the Americas, from Canada to Patagonia."
+   }
+  }
+ ]
+}

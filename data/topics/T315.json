@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T315",
+ "nazev": {
+  "cs": "Křížové výpravy a rytířské řády",
+  "en": "The Crusades and the Military Orders"
+ },
+ "kategorie": {
+  "id": "historie",
+  "nazev": {
+   "cs": "Historie",
+   "en": "History"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T315-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který papež vyhlásil v listopadu 1095 na koncilu v Clermontu výzvu k první křížové výpravě?",
+    "en": "Which pope called for the First Crusade at the Council of Clermont in November 1095?"
+   },
+   "moznosti": {
+    "cs": [
+     "Řehoř VII.",
+     "Bonifác VIII.",
+     "Urban II.",
+     "Inocenc III."
+    ],
+    "en": [
+     "Gregory VII",
+     "Boniface VIII",
+     "Urban II",
+     "Innocent III"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Urban II. pronesl svou výzvu 27. listopadu 1095 na závěr koncilu v Clermontu. Inocenc III. později vyhlásil čtvrtou křížovou výpravu.",
+    "en": "Urban II delivered his call on 27 November 1095 at the close of the Council of Clermont. Innocent III later called the Fourth Crusade."
+   }
+  },
+  {
+   "id": "T315-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co znamená latinské heslo „Deus vult“, které podle kronikáře provolávali posluchači papežovy výzvy v Clermontu?",
+    "en": "What does the Latin cry “Deus vult”, which according to a chronicler was shouted by the audience of the pope's call at Clermont, mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bůh je veliký",
+     "Bůh nás ochrání",
+     "Bůh to chce",
+     "Bůh je s námi"
+    ],
+    "en": [
+     "God is great",
+     "God will protect us",
+     "God wills it",
+     "God is with us"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "„Deus vult“ znamená „Bůh to chce“. Výkřik zaznamenal Robert Mnich; varianty jako „Deus lo vult“ jsou ovlivněné románskými jazyky a v klasické latině nesprávné.",
+    "en": "“Deus vult” means “God wills it”. The cry is recorded by Robert the Monk; variants such as “Deus lo vult” are influenced by Romance languages and incorrect in Classical Latin."
+   }
+  },
+  {
+   "id": "T315-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který muslimský vládce dobyl roku 1187 zpět Jeruzalém?",
+    "en": "Which Muslim ruler recaptured Jerusalem in 1187?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mehmed II.",
+     "Sulejman I. Nádherný",
+     "Saladin",
+     "Hárún ar-Rašíd"
+    ],
+    "en": [
+     "Mehmed II",
+     "Suleiman the Magnificent",
+     "Saladin",
+     "Harun al-Rashid"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jeruzalém se Saladinovi vzdal 2. října 1187, tři měsíce po jeho vítězství u Hattínu. Saladin byl kurdského původu a založil dynastii Ajjúbovců.",
+    "en": "Jerusalem surrendered to Saladin on 2 October 1187, three months after his victory at Hattin. Saladin was of Kurdish origin and founded the Ayyubid dynasty."
+   }
+  },
+  {
+   "id": "T315-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou přezdívku nese anglický král Richard I., jeden z vůdců třetí křížové výpravy?",
+    "en": "What nickname is borne by the English king Richard I, one of the leaders of the Third Crusade?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dobyvatel",
+     "Lví srdce",
+     "Vyznavač",
+     "Bezzemek"
+    ],
+    "en": [
+     "the Conqueror",
+     "the Lionheart",
+     "the Confessor",
+     "Lackland"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Přízvisko „Lví srdce“ je poprvé doloženo v Ambroisově líčení bojů u Akkonu roku 1191. Bezzemkem se přezdívalo jeho bratrovi a nástupci Janovi.",
+    "en": "The byname “Lionheart” first appears in Ambroise's account of the fighting at Acre in 1191. “Lackland” was the nickname of his brother and successor John."
+   }
+  },
+  {
+   "id": "T315-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které stavbě, stojící podle tehdejší víry nad zbytky Šalamounova chrámu, měli templáři v Jeruzalémě své první sídlo?",
+    "en": "In which building, believed at the time to stand over the ruins of Solomon's Temple, did the Templars have their first headquarters in Jerusalem?"
+   },
+   "moznosti": {
+    "cs": [
+     "V chrámu Božího hrobu",
+     "V Davidově věži",
+     "V mešitě al-Aksá",
+     "Ve Večeřadle"
+    ],
+    "en": [
+     "The Church of the Holy Sepulchre",
+     "The Tower of David",
+     "The al-Aqsa Mosque",
+     "The Cenacle"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Král Balduin II. jim přidělil sídlo v křídle královského paláce v dobyté mešitě al-Aksá na Chrámové hoře, a podle Šalamounova chrámu dostal řád jméno. Řád založil kolem roku 1118 francouzský rytíř Hugo z Payns (Hugues de Payens) k ochraně poutníků.",
+    "en": "King Baldwin II granted them a headquarters in a wing of the royal palace in the captured al-Aqsa Mosque on the Temple Mount, and the order took its name from Solomon's Temple. The order was founded around 1118 by the French knight Hugues de Payens to protect pilgrims."
+   }
+  },
+  {
+   "id": "T315-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Pod jakým jménem jsou johanité známí podle ostrova, který získali roku 1530?",
+    "en": "By what name are the Knights Hospitaller known, after the island they received in 1530?"
+   },
+   "moznosti": {
+    "cs": [
+     "Maltézští rytíři",
+     "Sicilští rytíři",
+     "Krétští rytíři",
+     "Kyperští rytíři"
+    ],
+    "en": [
+     "Knights of Malta",
+     "Knights of Sicily",
+     "Knights of Crete",
+     "Knights of Cyprus"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Maltu jim roku 1530 předal císař Karel V. a řád ji držel až do roku 1798. Dnešní Suverénní řád maltézských rytířů je považován za nejstarší dosud existující rytířský řád.",
+    "en": "Emperor Charles V granted them Malta in 1530 and the order held it until 1798. Today's Sovereign Military Order of Malta is regarded as the oldest surviving order of chivalry."
+   }
+  },
+  {
+   "id": "T315-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak vypadal plášť templářských rytířů?",
+    "en": "What did the mantle of the Templar knights look like?"
+   },
+   "moznosti": {
+    "cs": [
+     "Červený s bílým křížem",
+     "Černý s bílým křížem",
+     "Bílý s červeným křížem",
+     "Bílý s černým křížem"
+    ],
+    "en": [
+     "Red with a white cross",
+     "Black with a white cross",
+     "White with a red cross",
+     "White with a black cross"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Templářští rytíři nosili bílé pláště s červeným křížem; kříž k nim přibyl nejspíš kolem roku 1147. Bílý plášť s černým křížem byl znakem řádu německých rytířů.",
+    "en": "Templar knights wore white mantles with a red cross, the cross most probably being added around 1147. A white mantle with a black cross was the mark of the Teutonic Order."
+   }
+  },
+  {
+   "id": "T315-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak středověcí Evropané v době křížových výprav běžně označovali muslimy?",
+    "en": "What term did medieval Europeans commonly use for Muslims at the time of the Crusades?"
+   },
+   "moznosti": {
+    "cs": [
+     "Saracéni",
+     "Hunové",
+     "Kelti",
+     "Vandalové"
+    ],
+    "en": [
+     "Saracens",
+     "Huns",
+     "Celts",
+     "Vandals"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Slovo Saracén se v době křížových výprav stalo běžným označením muslimů i všeho z muslimského světa. Na Západě se v tomto smyslu používalo až do 18. století.",
+    "en": "During the Crusades “Saracen” became the standard term for Muslims and everything from the Muslim world. In the West it remained in use in this sense until the 18th century."
+   }
+  },
+  {
+   "id": "T315-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který francouzský král nechal roku 1307 zatknout templáře?",
+    "en": "Which French king had the Templars arrested in 1307?"
+   },
+   "moznosti": {
+    "cs": [
+     "Filip IV. Sličný",
+     "Ludvík IX. Svatý",
+     "Filip II. August",
+     "Karel V. Moudrý"
+    ],
+    "en": [
+     "Philip IV the Fair",
+     "Louis IX (Saint Louis)",
+     "Philip II Augustus",
+     "Charles V the Wise"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Filip IV. Sličný nechal templáře ve Francii zatknout za úsvitu v pátek 13. října 1307; podle části historiků se tak chtěl zbavit dluhů vůči řádu. Pod jeho tlakem papež Klement V. roku 1312 řád zrušil.",
+    "en": "Philip IV the Fair had the Templars in France arrested at dawn on Friday 13 October 1307; some historians believe he wanted to escape his debts to the order. Under his pressure Pope Clement V disbanded the order in 1312."
+   }
+  },
+  {
+   "id": "T315-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které dnešní zemi stojí křižácký hrad Krak des Chevaliers?",
+    "en": "In which present-day country does the crusader castle Krak des Chevaliers stand?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Sýrii",
+     "V Jordánsku",
+     "V Izraeli",
+     "V Libanonu"
+    ],
+    "en": [
+     "Syria",
+     "Jordan",
+     "Israel",
+     "Lebanon"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Krak des Chevaliers stojí v Sýrii nedaleko libanonských hranic. T. E. Lawrence ho nazval možná nejzachovalejším a nejobdivuhodnějším hradem na světě; od roku 2006 je na seznamu UNESCO.",
+    "en": "Krak des Chevaliers stands in Syria near the Lebanese border. T. E. Lawrence called it perhaps the best preserved and most wholly admirable castle in the world; it has been a UNESCO World Heritage Site since 2006."
+   }
+  },
+  {
+   "id": "T315-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo vedl tzv. lidovou křížovou výpravu z roku 1096?",
+    "en": "Who led the so-called People's Crusade of 1096?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bernard z Clairvaux",
+     "Tankred",
+     "Petr Poustevník",
+     "Godefroy z Bouillonu"
+    ],
+    "en": [
+     "Bernard of Clairvaux",
+     "Tancred",
+     "Peter the Hermit",
+     "Godfrey of Bouillon"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Lidovou výpravu prostých poutníků vedl francouzský kněz Petr Poustevník. Bernard z Clairvaux kázal až druhou křížovou výpravu roku 1146 ve Vézelay, po pádu Edesy.",
+    "en": "The People's Crusade of ordinary pilgrims was led by the French priest Peter the Hermit. Bernard of Clairvaux preached the Second Crusade only in 1146 at Vézelay, after the fall of Edessa."
+   }
+  },
+  {
+   "id": "T315-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve které dnešní zemi byl anglický král Richard I. zajat při návratu z třetí křížové výpravy?",
+    "en": "In which present-day country was King Richard I of England captured on his way home from the Third Crusade?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Francii",
+     "V Rakousku",
+     "V Maďarsku",
+     "V Itálii"
+    ],
+    "en": [
+     "France",
+     "Austria",
+     "Hungary",
+     "Italy"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Před Vánoci 1192 ho u Vídně zajal rakouský vévoda Leopold V. a věznil na hradě Dürnstein. Pak ho vydal císaři Jindřichu VI., který požadoval výkupné 150 000 marek.",
+    "en": "Shortly before Christmas 1192 Duke Leopold V of Austria captured him near Vienna and held him at Dürnstein Castle. He then handed him over to Emperor Henry VI, who demanded a ransom of 150,000 marks."
+   }
+  },
+  {
+   "id": "T315-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak zahynul císař Fridrich I. Barbarossa během třetí křížové výpravy?",
+    "en": "How did Emperor Frederick I Barbarossa die during the Third Crusade?"
+   },
+   "moznosti": {
+    "cs": [
+     "Utonul v řece",
+     "Padl v bitvě u Akkonu",
+     "Zabili ho asasíni",
+     "Zemřel na úplavici v Antiochii"
+    ],
+    "en": [
+     "He drowned in a river",
+     "He fell in battle at Acre",
+     "He was killed by the Assassins",
+     "He died of dysentery in Antioch"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Fridrich utonul 10. června 1190 v řece Saleph v dnešním Turecku. Pokus uchovat jeho tělo v octu pro pohřeb v Jeruzalémě selhal a ostatky byly pohřbeny ve třech městech: v Antiochii, Tyru a Tarsu.",
+    "en": "Frederick drowned in the Saleph River in present-day Turkey on 10 June 1190. An attempt to preserve his body in vinegar for burial in Jerusalem failed, and his remains were buried in three cities: Antioch, Tyre and Tarsus."
+   }
+  },
+  {
+   "id": "T315-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co výrazně oslabilo křižácké vojsko v bitvě u Hattínu roku 1187?",
+    "en": "What severely weakened the crusader army at the Battle of Hattin in 1187?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zemětřesení",
+     "Epidemie moru",
+     "Žízeň po noci bez vody",
+     "Zrada Benátčanů"
+    ],
+    "en": [
+     "An earthquake",
+     "A plague epidemic",
+     "Thirst after a night without water",
+     "Betrayal by the Venetians"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vyčerpané a žíznivé křižáky navíc oslepoval kouř z požárů suché trávy, které založili muslimští vojáci. Vítězové v bitvě ukořistili i relikvii Pravého kříže, kterou vojsko neslo jako zástavu.",
+    "en": "The exhausted, thirsty crusaders were also blinded by smoke from dry-grass fires set by the Muslim troops. The victors also captured the relic of the True Cross that the army carried as its standard."
+   }
+  },
+  {
+   "id": "T315-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které město postavilo loďstvo pro čtvrtou křížovou výpravu?",
+    "en": "Which city built the fleet for the Fourth Crusade?"
+   },
+   "moznosti": {
+    "cs": [
+     "Janov",
+     "Benátky",
+     "Pisa",
+     "Marseille"
+    ],
+    "en": [
+     "Genoa",
+     "Venice",
+     "Pisa",
+     "Marseille"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Benátky postavily loďstvo za 85 000 stříbrných marek, z nichž křižáci zprvu dokázali zaplatit jen 35 000. Dluh pak výpravu odklonil k útokům na křesťanská města.",
+    "en": "Venice built the fleet for 85,000 silver marks, of which the crusaders could initially pay only 35,000. The debt then diverted the expedition into attacks on Christian cities."
+   }
+  },
+  {
+   "id": "T315-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co podle kronik očekávali účastníci dětské křížové výpravy, kteří v srpnu 1212 dorazili do Janova?",
+    "en": "According to the chronicles, what did the participants of the Children's Crusade who reached Genoa in August 1212 expect?"
+   },
+   "moznosti": {
+    "cs": [
+     "Že jim byzantský císař pošle lodě",
+     "Že se před nimi rozestoupí moře",
+     "Že moře zamrzne a přejdou po ledu",
+     "Že je přes moře přenesou andělé"
+    ],
+    "en": [
+     "That the Byzantine emperor would send them ships",
+     "That the sea would part before them",
+     "That the sea would freeze and they could walk across the ice",
+     "That angels would carry them across the sea"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Asi 7 000 účastníků z německé skupiny vedené Mikulášem dorazilo koncem srpna 1212 do Janova a mnozí byli zklamáni, když se moře nerozestoupilo. Většina pak přijala janovskou nabídku občanství a v Janově zůstala.",
+    "en": "About 7,000 members of Nicholas's German group reached Genoa in late August 1212, and many were disappointed when the sea did not part. Most then accepted the Genoese offer of citizenship and settled there."
+   }
+  },
+  {
+   "id": "T315-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Díky jaké službě poutníkům bývají templáři označováni za průkopníky bankovnictví?",
+    "en": "Thanks to which service for pilgrims are the Templars often called pioneers of banking?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zavedli první papírové bankovky",
+     "Vydávali listiny, na něž si vklad z Evropy vybrali ve Svaté zemi",
+     "Pojišťovali poutnické lodě proti ztroskotání",
+     "Razili zlaté mince platné v celé Evropě"
+    ],
+    "en": [
+     "They introduced the first paper banknotes",
+     "They issued documents that let a deposit made in Europe be withdrawn in the Holy Land",
+     "They insured pilgrim ships against shipwreck",
+     "They minted gold coins valid throughout Europe"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Od roku 1150 mohl poutník uložit cennosti v templářské komendě a dostal listinu, za kterou ve Svaté zemi obdržel stejnou hodnotu. Nemusel tak cestou nosit peníze a riskovat oloupení.",
+    "en": "From 1150 a pilgrim could deposit valuables at a Templar house and receive a document for which he was paid the same value in the Holy Land, so he did not have to carry money and risk robbery on the way."
+   }
+  },
+  {
+   "id": "T315-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kde sídlili johanité v letech 1310–1522, než je odtud vyhnali osmanští Turci?",
+    "en": "Where were the Knights Hospitaller based from 1310 to 1522, before the Ottoman Turks drove them out?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Rhodu",
+     "Na Sicílii",
+     "Na Kypru",
+     "Na Krétě"
+    ],
+    "en": [
+     "Rhodes",
+     "Sicily",
+     "Cyprus",
+     "Crete"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Johanité drželi Rhodos přes dvě století, dokud ho osmanské vojsko roku 1522 po šestiměsíčním obléhání nedobylo. Přeživším rytířům bylo dovoleno odejít.",
+    "en": "The Hospitallers held Rhodes for over two centuries until an Ottoman army took it in 1522 after a six-month siege. The surviving knights were allowed to leave."
+   }
+  },
+  {
+   "id": "T315-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo roku 1291 dobyl Akkon, poslední velkou baštu křižáků ve Svaté zemi?",
+    "en": "Who captured Acre, the crusaders' last major stronghold in the Holy Land, in 1291?"
+   },
+   "moznosti": {
+    "cs": [
+     "Osmanští Turci",
+     "Mongolové",
+     "Seldžučtí Turci",
+     "Egyptští mamlúci"
+    ],
+    "en": [
+     "The Ottoman Turks",
+     "The Mongols",
+     "The Seljuk Turks",
+     "The Egyptian Mamluks"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Město po šestitýdenním obléhání dobylo 18. května 1291 vojsko mamlúckého sultána al-Ašrafa Chalíla. Templářská pevnost na pobřeží vydržela ještě deset dní; pád Akkonu je považován za konec křížových výprav do Svaté země.",
+    "en": "The army of the Mamluk sultan al-Ashraf Khalil took the city on 18 May 1291 after a six-week siege. The Templar fortress on the shore held out ten more days; the fall of Acre is regarded as the end of the crusades to the Holy Land."
+   }
+  },
+  {
+   "id": "T315-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kam přesunul řád německých rytířů roku 1309 své hlavní sídlo z Benátek?",
+    "en": "Where did the Teutonic Order move its headquarters from Venice in 1309?"
+   },
+   "moznosti": {
+    "cs": [
+     "Do Gdaňsku (Danzig)",
+     "Do Královce (Königsberg)",
+     "Do Toruně (Thorn)",
+     "Do Malborku (Marienburg)"
+    ],
+    "en": [
+     "Danzig (Gdańsk)",
+     "Königsberg",
+     "Thorn (Toruń)",
+     "Marienburg (Malbork)"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Řád vznikl kolem roku 1190 v Akkonu, ale těžiště jeho moci se přesunulo do Pruska, a proto si sídlo zřídil v hradu Marienburg (dnes Malbork v Polsku). Dnes má řád sídlo ve Vídni.",
+    "en": "The order was founded around 1190 in Acre, but the centre of its power shifted to Prussia, so it made its seat at Marienburg Castle (today Malbork in Poland). Today the order is headquartered in Vienna."
+   }
+  },
+  {
+   "id": "T315-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který křižácký stát vznikl během první křížové výpravy jako úplně první?",
+    "en": "Which crusader state was the very first to be founded during the First Crusade?"
+   },
+   "moznosti": {
+    "cs": [
+     "Edesské hrabství",
+     "Antiochijské knížectví",
+     "Tripolské hrabství",
+     "Jeruzalémské království"
+    ],
+    "en": [
+     "The County of Edessa",
+     "The Principality of Antioch",
+     "The County of Tripoli",
+     "The Kingdom of Jerusalem"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Balduin z Boulogne se stal edesským hrabětem v březnu 1098, ještě než křižáci v červnu téhož roku dobyli Antiochii. Jeruzalém padl až v červenci 1099.",
+    "en": "Baldwin of Boulogne became Count of Edessa in March 1098, before the crusaders took Antioch in June of that year. Jerusalem fell only in July 1099."
+   }
+  },
+  {
+   "id": "T315-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Godefroy z Bouillonu po dobytí Jeruzaléma odmítl královský titul. Jaký titul podle tradice přijal místo toho?",
+    "en": "After the capture of Jerusalem, Godfrey of Bouillon refused the royal title. According to tradition, what title did he take instead?"
+   },
+   "moznosti": {
+    "cs": [
+     "Velmistr Svatého města",
+     "Místodržitel Svaté země",
+     "Patriarcha jeruzalémský",
+     "Ochránce Svatého hrobu"
+    ],
+    "en": [
+     "Grand Master of the Holy City",
+     "Governor of the Holy Land",
+     "Patriarch of Jerusalem",
+     "Defender of the Holy Sepulchre"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Godefroy prý nechtěl nosit zlatou korunu tam, kde Kristus nosil trnovou, a přijal titul Ochránce Svatého hrobu (Advocatus Sancti Sepulchri). Králem se po jeho smrti roku 1100 stal jeho bratr Balduin.",
+    "en": "Godfrey reportedly refused to wear a crown of gold where his Saviour had worn a crown of thorns and preferred the title Defender of the Holy Sepulchre (Advocatus Sancti Sepulchri). After his death in 1100 his brother Baldwin became king."
+   }
+  },
+  {
+   "id": "T315-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se o dobytí Jeruzaléma v červenci 1099 dozvěděl papež, který k první křížové výpravě vyzval?",
+    "en": "How did the pope who had called the First Crusade learn of the capture of Jerusalem in July 1099?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nedozvěděl se, zemřel dřív, než zpráva dorazila do Říma",
+     "Byl u toho, výpravy se sám účastnil",
+     "Od posla, kterého vyslal Godefroy z Bouillonu",
+     "Z dopisu byzantského císaře"
+    ],
+    "en": [
+     "He never did; he died before the news reached Rome",
+     "He was there, having joined the crusade himself",
+     "From a messenger sent by Godfrey of Bouillon",
+     "From a letter of the Byzantine emperor"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Papež zemřel 29. července 1099, čtrnáct dní po pádu Jeruzaléma, a zpráva o úspěchu výpravy do Říma dorazila až po jeho smrti.",
+    "en": "The pope died on 29 July 1099, fourteen days after Jerusalem fell, and the news of the crusade's success reached Rome only after his death."
+   }
+  },
+  {
+   "id": "T315-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Které katolické město na Jadranu dobyla čtvrtá křížová výprava už roku 1202, aby splatila dluh za loďstvo?",
+    "en": "Which Catholic Adriatic city did the Fourth Crusade capture as early as 1202 in order to pay off its debt for the fleet?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zadar",
+     "Split",
+     "Dubrovník",
+     "Ancona"
+    ],
+    "en": [
+     "Zara (Zadar)",
+     "Split",
+     "Dubrovnik",
+     "Ancona"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Věřitelé navrhli křižákům, aby si dluh „odpracovali“ dobytím vzbouřeného Zadaru (Zary), který padl 24. listopadu 1202. Papež Inocenc III. za to celou výpravu exkomunikoval.",
+    "en": "The creditors proposed that the crusaders work off their debt by taking the rebellious city of Zara (Zadar), which fell on 24 November 1202. Pope Innocent III excommunicated the whole army for it."
+   }
+  },
+  {
+   "id": "T315-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak roku 1271 padl hrad Krak des Chevaliers do rukou sultána Bajbarse?",
+    "en": "How did Krak des Chevaliers fall to Sultan Baibars in 1271?"
+   },
+   "moznosti": {
+    "cs": [
+     "Obránci po letech obléhání vyhladověli",
+     "Posádka se vzdala kvůli podvrženému dopisu od velmistra",
+     "Johanité hrad prodali za výkupné pro zajatce",
+     "Hrad zničilo zemětřesení a obránci ho opustili"
+    ],
+    "en": [
+     "The defenders starved after years of siege",
+     "The garrison surrendered because of a forged letter from the Grand Master",
+     "The Hospitallers sold it for a ransom for prisoners",
+     "An earthquake wrecked it and the defenders abandoned it"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Po 36denním obléhání dostala johanitská posádka dopis údajně od velmistra z Tripolisu s rozkazem kapitulovat. Byl to padělek, ale posádka se vzdala a sultán jí ušetřil život.",
+    "en": "After a 36-day siege the Hospitaller garrison received a letter supposedly from the Grand Master in Tripoli ordering it to surrender. It was a forgery, but the garrison capitulated and the sultan spared their lives."
+   }
+  },
+  {
+   "id": "T315-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak získal roku 1229 Jeruzalém císař Fridrich II., přestože byl v té době exkomunikován?",
+    "en": "How did Emperor Frederick II obtain Jerusalem in 1229, even though he was excommunicated at the time?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vítězstvím v bitvě u Damašku",
+     "Koupí od Benátčanů",
+     "Překvapivým nočním útokem na hradby",
+     "Smlouvou vyjednanou se sultánem al-Kámilem"
+    ],
+    "en": [
+     "By a victory in battle near Damascus",
+     "By buying it from the Venetians",
+     "By a surprise night assault on the walls",
+     "By a treaty negotiated with Sultan al-Kamil"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Fridrichovo vojsko bylo na velkou bitvu příliš malé, a tak vyjednával. Smlouva z února 1229 mu vydala Jeruzalém s desetiletým příměřím, muslimská svatá místa na Chrámové hoře však zůstala muslimům.",
+    "en": "Frederick's army was too small for a major battle, so he negotiated. The treaty of February 1229 handed him Jerusalem with a ten-year truce, but the Muslim holy sites on the Temple Mount stayed in Muslim hands."
+   }
+  },
+  {
+   "id": "T315-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Templáři byli ve Francii hromadně zatčeni v pátek 13. října 1307. Proč je sporné, že odtud pochází pověra o nešťastném pátku třináctého?",
+    "en": "The Templars were arrested en masse in France on Friday 13 October 1307. Why is it doubtful that the superstition about unlucky Friday the 13th comes from this event?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zatčení ve skutečnosti proběhlo v neděli",
+     "Pověra pochází z antického Říma",
+     "Ve 14. století se ještě nepoužíval sedmidenní týden",
+     "Tato pověra je doložena až z 19. století"
+    ],
+    "en": [
+     "The arrests actually took place on a Sunday",
+     "The superstition comes from ancient Rome",
+     "The seven-day week was not yet in use in the 14th century",
+     "The superstition is first recorded in the 19th century"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pátek a číslo 13 nejsou jako nešťastná kombinace doloženy před 19. stoletím; nejstarší anglický doklad je zmínka v životopise Rossiniho, který zemřel v pátek 13. listopadu 1868. Původ pověry zůstává nejasný.",
+    "en": "There is no record of Friday and 13 being considered unlucky together before the 19th century; the earliest English reference is in a biography of Rossini, who died on Friday 13 November 1868. The origin of the superstition remains murky."
+   }
+  },
+  {
+   "id": "T315-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaký výjev patří ke známým symbolům templářů a měl zdůrazňovat chudobu řádu?",
+    "en": "Which image is one of the well-known emblems of the Templars, meant to emphasise the order's poverty?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rytíř klečící u prázdného hrobu",
+     "Lev s mečem v tlapě",
+     "Loď s křížem na plachtě",
+     "Dva rytíři na jednom koni"
+    ],
+    "en": [
+     "A knight kneeling at an empty tomb",
+     "A lion holding a sword in its paw",
+     "A ship with a cross on its sail",
+     "Two knights riding a single horse"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Dva rytíři na jednom koni připomínali, že řád vznikl jako „chudí rytíři Kristovi“. Paradoxně tentýž řád později proslul jako průkopník bankovnictví.",
+    "en": "Two knights on one horse recalled that the order began as the “poor knights of Christ”. Paradoxically, the same order later became known as a pioneer of banking."
+   }
+  },
+  {
+   "id": "T315-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Johanité dostali roku 1530 od císaře Karla V. jako sicilského krále v léno ostrovní území. Jaký symbolický poplatek za něj každoročně odváděli?",
+    "en": "In 1530 Emperor Charles V, as King of Sicily, granted the Knights Hospitaller an island fief. What symbolic payment did they make for it every year?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sud vína",
+     "Jeden zlatý dukát",
+     "Jednoho sokola",
+     "Bílého koně"
+    ],
+    "en": [
+     "A barrel of wine",
+     "One gold ducat",
+     "One falcon",
+     "A white horse"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Za léno, k němuž patřil i severoafrický přístav Tripolis, odváděli johanité každý rok o Dušičkách jednoho sokola sicilskému místokráli. Poplatek vyjadřoval, že řád drží území jako vazal sicilského krále.",
+    "en": "For the fief, which also included the North African port of Tripoli, the Hospitallers sent one falcon every year on All Souls' Day to the Viceroy of Sicily. The payment marked the Order's status as a vassal of the King of Sicily."
+   }
+  },
+  {
+   "id": "T315-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co udělal roku 1525 velmistr řádu německých rytířů Albrecht (Albrecht von Brandenburg)?",
+    "en": "What did Albert of Brandenburg, Grand Master of the Teutonic Order, do in 1525?"
+   },
+   "moznosti": {
+    "cs": [
+     "Prodal celé řádové Prusko polskému králi za vysokou sumu",
+     "Porazil u Grunwaldu polsko-litevské vojsko a rozšířil řádové Prusko",
+     "Přenesl hlavní sídlo řádu do Vídně, kde zůstalo dodnes",
+     "Přestoupil k luteránství a z řádového Pruska udělal světské vévodství"
+    ],
+    "en": [
+     "He sold all of the order's Prussia to the King of Poland for a large sum",
+     "He defeated the Polish–Lithuanian army at Grunwald and expanded the order's Prussia",
+     "He moved the order's headquarters to Vienna, where it remains today",
+     "He converted to Lutheranism and turned the order's Prussia into a secular duchy"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Albrecht sekularizoval řádové území, přijal luteránství a stal se pruským vévodou jako vazal polského krále. U Grunwaldu naopak řád roku 1410 drtivě prohrál s polsko-litevským vojskem.",
+    "en": "Albert secularised the order's lands, converted to Lutheranism and became Duke of Prussia as a vassal of the King of Poland. At Grunwald in 1410, by contrast, the order was decisively defeated by a Polish–Lithuanian army."
+   }
+  }
+ ]
+}

@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T013",
+ "nazev": {
+  "cs": "Hudební nástroje a jejich příběhy",
+  "en": "Musical Instruments and Their Stories"
+ },
+ "kategorie": {
+  "id": "hudba",
+  "nazev": {
+   "cs": "Hudba",
+   "en": "Music"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T013-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik kláves má standardní moderní klavír?",
+    "en": "How many keys does a standard modern piano have?"
+   },
+   "moznosti": {
+    "cs": [
+     "76",
+     "85",
+     "88",
+     "92"
+    ],
+    "en": [
+     "76",
+     "85",
+     "88",
+     "92"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Moderní klavír má 88 kláves – 52 bílých a 36 černých – a pokrývá rozsah něco přes sedm oktáv.",
+    "en": "A modern piano has 88 keys – 52 white and 36 black – covering a range of just over seven octaves."
+   }
+  },
+  {
+   "id": "T013-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik strun mají housle?",
+    "en": "How many strings does a violin have?"
+   },
+   "moznosti": {
+    "cs": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ],
+    "en": [
+     "3",
+     "4",
+     "5",
+     "6"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Housle mají čtyři struny laděné v kvintách: g, d1, a1 a e2. Stejně ladí i mandolína, jen má struny zdvojené.",
+    "en": "The violin has four strings tuned in fifths: G, D, A and E. The mandolin uses the same tuning, but with paired strings."
+   }
+  },
+  {
+   "id": "T013-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik strun má běžná kytara?",
+    "en": "How many strings does a standard guitar have?"
+   },
+   "moznosti": {
+    "cs": [
+     "4",
+     "5",
+     "6",
+     "8"
+    ],
+    "en": [
+     "4",
+     "5",
+     "6",
+     "8"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Běžná kytara má šest strun laděných E–A–d–g–h–e1. Existují i dvanáctistrunné kytary, kde je každá struna zdvojená.",
+    "en": "A standard guitar has six strings tuned E–A–D–G–B–E. Twelve-string guitars also exist, with each string doubled."
+   }
+  },
+  {
+   "id": "T013-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Do které skupiny nástrojů patří trubka?",
+    "en": "Which group of instruments does the trumpet belong to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Smyčcové nástroje",
+     "Dřevěné dechové nástroje",
+     "Žesťové nástroje",
+     "Bicí nástroje"
+    ],
+    "en": [
+     "String instruments",
+     "Woodwind instruments",
+     "Brass instruments",
+     "Percussion instruments"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Trubka je žesťový nástroj: tón vzniká chvěním rtů hráče v nátrubku. Tři ventily pak mění délku trubice a tím výšku tónu.",
+    "en": "The trumpet is a brass instrument: the sound comes from the player's lips buzzing in the mouthpiece. Three valves change the tube length and therefore the pitch."
+   }
+  },
+  {
+   "id": "T013-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který smyčcový nástroj je v orchestru největší a hraje nejhlubší tóny?",
+    "en": "Which bowed string instrument is the largest in the orchestra and plays the lowest notes?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kontrabas",
+     "Violoncello",
+     "Viola",
+     "Housle"
+    ],
+    "en": [
+     "Double bass",
+     "Cello",
+     "Viola",
+     "Violin"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kontrabas měří obvykle kolem 180 cm, takže se na něj hraje vestoje nebo na vysoké stoličce. Jako jediný z orchestrálních smyčců se obvykle ladí v kvartách.",
+    "en": "The double bass is usually around 180 cm (71 inches) tall, so it is played standing or sitting on a high stool. It is the only orchestral string instrument normally tuned in fourths."
+   }
+  },
+  {
+   "id": "T013-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který žesťový nástroj hraje v symfonickém orchestru nejhlubší tóny?",
+    "en": "Which brass instrument plays the lowest notes in a symphony orchestra?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lesní roh",
+     "Tuba",
+     "Pozoun",
+     "Eufonium"
+    ],
+    "en": [
+     "Horn",
+     "Tuba",
+     "Trombone",
+     "Euphonium"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Tuba je nejhlubší a největší žesťový nástroj orchestru. Do orchestru se dostala až v 19. století – patent na ni byl udělen v Prusku roku 1835.",
+    "en": "The tuba is the lowest and largest brass instrument in the orchestra. It only arrived in the 19th century – it was patented in Prussia in 1835."
+   }
+  },
+  {
+   "id": "T013-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Z které země pochází didgeridoo, dlouhý dřevěný dechový nástroj?",
+    "en": "Which country does the didgeridoo, a long wooden wind instrument, come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jihoafrická republika",
+     "Nový Zéland",
+     "Austrálie",
+     "Papua Nová Guinea"
+    ],
+    "en": [
+     "South Africa",
+     "New Zealand",
+     "Australia",
+     "Papua New Guinea"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Didgeridoo vyvinuli australští domorodci na severu kontinentu. Tradičně se vyrábí z eukalyptového kmene, který zevnitř vyžrali termiti.",
+    "en": "The didgeridoo was developed by Aboriginal Australians in the north of the continent. It is traditionally made from a eucalyptus trunk hollowed out by termites."
+   }
+  },
+  {
+   "id": "T013-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Z jakého materiálu jsou tradičně destičky xylofonu?",
+    "en": "What material are the bars of a xylophone traditionally made of?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z kovu",
+     "Ze skla",
+     "Z kamene",
+     "Ze dřeva"
+    ],
+    "en": [
+     "Metal",
+     "Glass",
+     "Stone",
+     "Wood"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Název xylofon pochází z řeckého xylon (dřevo) a fóné (zvuk). Podobný nástroj s kovovými deskami se jmenuje zvonkohra nebo vibrafon.",
+    "en": "The name comes from Greek xylon (wood) and phōnē (sound). Similar instruments with metal bars are the glockenspiel and the vibraphone."
+   }
+  },
+  {
+   "id": "T013-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který nástroj je symbolem lidové hudby na Chodsku a Strakonicku?",
+    "en": "Which instrument is the symbol of folk music in the Chodsko and Strakonice regions of Bohemia?"
+   },
+   "moznosti": {
+    "cs": [
+     "Heligonka",
+     "Dudy",
+     "Fujara",
+     "Cimbál"
+    ],
+    "en": [
+     "Heligonka (button accordion)",
+     "Bagpipes",
+     "Fujara",
+     "Cimbalom"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Nejvíce proslavili dudy v Čechách dudáci ze Strakonicka a Chodska. Ve Strakonicích se koná Mezinárodní dudácký festival.",
+    "en": "Bagpipers from the Strakonice and Chodsko regions made the bagpipes famous in Bohemia. Strakonice hosts the International Bagpipe Festival."
+   }
+  },
+  {
+   "id": "T013-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak vzniká zvuk u píšťalových varhan?",
+    "en": "How is sound produced in a pipe organ?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vzduchem proudícím píšťalami",
+     "Drnkáním strun",
+     "Údery kladívek do kovových píšťal",
+     "Elektronickými obvody"
+    ],
+    "en": [
+     "Air flowing through pipes",
+     "Plucked strings",
+     "Hammers striking metal pipes",
+     "Electronic circuits"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Varhany jsou dechový nástroj: vzduch ze vzdušnice proudí do píšťal, které hráč otevírá klávesami. Už ve 14. století je básník a skladatel Guillaume de Machaut nazval „králem nástrojů“.",
+    "en": "The organ is a wind instrument: air from the wind chest flows into pipes that the player opens with the keys. As early as the 14th century, the poet and composer Guillaume de Machaut called it 'the king of instruments'."
+   }
+  },
+  {
+   "id": "T013-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Klavír se dříve nazýval pianoforte. Co toto italské slovo doslova znamená?",
+    "en": "The piano used to be called the pianoforte. What does this Italian word literally mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vysoko–nízko",
+     "Tiše–silně",
+     "Malý–velký",
+     "Pomalu–rychle"
+    ],
+    "en": [
+     "High–low",
+     "Soft–loud",
+     "Small–large",
+     "Slow–fast"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Na rozdíl od cembala uměl nový nástroj hrát tiše i silně podle síly úhozu – odtud název. Dnešní „piano“ je jen jeho zkrácenina.",
+    "en": "Unlike the harpsichord, the new instrument could play soft or loud depending on how hard the key was struck – hence the name. Today's 'piano' is simply a shortening of it."
+   }
+  },
+  {
+   "id": "T013-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Italský nástrojář Bartolomeo Cristofori je považován za vynálezce kterého nástroje?",
+    "en": "Italian instrument maker Bartolomeo Cristofori is regarded as the inventor of which instrument?"
+   },
+   "moznosti": {
+    "cs": [
+     "Housle",
+     "Cembalo",
+     "Klavír",
+     "Mandolína"
+    ],
+    "en": [
+     "Violin",
+     "Harpsichord",
+     "Piano",
+     "Mandolin"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Cristofori pracoval ve Florencii pro Medicejské. Jeho nový nástroj uvádí už inventář jejich sbírky z roku 1700.",
+    "en": "Cristofori worked in Florence for the Medici. His new instrument is already listed in their collection inventory of 1700."
+   }
+  },
+  {
+   "id": "T013-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Z které země pocházel Adolphe Sax, vynálezce saxofonu?",
+    "en": "Which country did Adolphe Sax, the inventor of the saxophone, come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Německo",
+     "Francie",
+     "Rakousko",
+     "Belgie"
+    ],
+    "en": [
+     "Germany",
+     "France",
+     "Austria",
+     "Belgium"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Sax se narodil roku 1814 v belgickém Dinantu. Saxofon si nechal patentovat roku 1846, kdy už žil v Paříži.",
+    "en": "Sax was born in 1814 in Dinant, Belgium. He patented the saxophone in 1846, by which time he was living in Paris."
+   }
+  },
+  {
+   "id": "T013-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč se saxofon, ačkoli je kovový, řadí mezi dřevěné dechové nástroje?",
+    "en": "Why is the saxophone classed as a woodwind even though it is made of metal?"
+   },
+   "moznosti": {
+    "cs": [
+     "Má dřevěný náustek",
+     "Uvnitř má dřevěnou vložku",
+     "Ladí se dřevěným kolíkem",
+     "Tón vzniká chvěním plátku"
+    ],
+    "en": [
+     "It has a wooden mouthpiece",
+     "It has a wooden lining inside",
+     "It is tuned with a wooden peg",
+     "Its sound comes from a vibrating reed"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "O zařazení nerozhoduje materiál, ale způsob tvorby tónu: saxofon má stejně jako klarinet jednoduchý plátek, který se při hře chvěje. Sax si nástroj nechal patentovat roku 1846.",
+    "en": "Classification depends on how the sound is made, not on the material: like the clarinet, the saxophone uses a single reed that vibrates as it is played. Sax patented the instrument in 1846."
+   }
+  },
+  {
+   "id": "T013-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na který elektronický nástroj se hraje bez jakéhokoli dotyku, jen pohybem rukou u dvou antén?",
+    "en": "Which electronic instrument is played without any touch at all, just by moving the hands near two antennas?"
+   },
+   "moznosti": {
+    "cs": [
+     "Theremin",
+     "Hammondovy varhany",
+     "Syntezátor Moog",
+     "Mellotron"
+    ],
+    "en": [
+     "Theremin",
+     "Hammond organ",
+     "Moog synthesizer",
+     "Mellotron"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jedna anténa thereminu řídí výšku tónu, druhá hlasitost. Jeho strašidelně kvílivý zvuk se proslavil ve sci-fi filmech 50. let.",
+    "en": "One of the theremin's antennas controls pitch and the other volume. Its eerie, wailing sound became famous in 1950s science-fiction films."
+   }
+  },
+  {
+   "id": "T013-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který nástroj tradičně zahraje tón A, podle kterého se před koncertem ladí symfonický orchestr?",
+    "en": "Which instrument traditionally plays the A that a symphony orchestra tunes to before a concert?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hoboj",
+     "Klarinet",
+     "Lesní roh",
+     "Trubka"
+    ],
+    "en": [
+     "Oboe",
+     "Clarinet",
+     "Horn",
+     "Trumpet"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Ladicí áčko dává první hoboj, protože jeho tón je stabilní a pronikavý, takže ho slyší celý orchestr.",
+    "en": "The tuning A is given by the first oboe, because its pitch is stable and its penetrating sound carries across the whole orchestra."
+   }
+  },
+  {
+   "id": "T013-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co způsobí sešlápnutí pravého pedálu klavíru?",
+    "en": "What happens when you press the right pedal of a piano?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kladívka udeří do strun dvakrát",
+     "Celý klavír hraje o oktávu výš",
+     "Všechny tóny se ztiší a zjemní",
+     "Struny znějí dál i po puštění kláves"
+    ],
+    "en": [
+     "The hammers strike the strings twice",
+     "The whole piano plays an octave higher",
+     "All notes become softer and gentler",
+     "The strings keep sounding after the keys are released"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pravý pedál (anglicky sustain či damper pedal) zvedne ze strun všechna dusítka, takže struny doznívají. Ztišení tónu má na starosti levý pedál.",
+    "en": "The right (sustain or damper) pedal lifts all the dampers off the strings so they keep ringing. Softening the sound is the job of the left pedal."
+   }
+  },
+  {
+   "id": "T013-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se hraje na cimbál?",
+    "en": "How is the cimbalom played?"
+   },
+   "moznosti": {
+    "cs": [
+     "Smyčcem",
+     "Paličkami do strun",
+     "Drnkáním prsty",
+     "Pomocí klávesnice"
+    ],
+    "en": [
+     "With a bow",
+     "By striking the strings with beaters",
+     "By plucking with the fingers",
+     "Using a keyboard"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Cimbalista udeří do strun dvěma paličkami, často obalenými vatou. Velký koncertní cimbál s pedálem vznikl v 19. století v Budapešti.",
+    "en": "The player strikes the strings with two beaters, often wrapped in cotton. The large concert cimbalom with a pedal was developed in Budapest in the 19th century."
+   }
+  },
+  {
+   "id": "T013-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém městě vyrábí klavíry od roku 1864 česká firma Petrof?",
+    "en": "In which city has the Czech company Petrof been making pianos since 1864?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ústí nad Labem",
+     "Olomouc",
+     "České Budějovice",
+     "Hradec Králové"
+    ],
+    "en": [
+     "Ústí nad Labem",
+     "Olomouc",
+     "České Budějovice",
+     "Hradec Králové"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Firmu založil v Hradci Králové Antonín Petrof a dodnes ji vede jeho rodina. Patří k předním evropským výrobcům klavírů.",
+    "en": "The company was founded in Hradec Králové by Antonín Petrof and is still run by his family. It is one of Europe's leading piano makers."
+   }
+  },
+  {
+   "id": "T013-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který americký státník a vědec vynalezl skleněnou harmoniku?",
+    "en": "Which American statesman and scientist invented the glass armonica?"
+   },
+   "moznosti": {
+    "cs": [
+     "Thomas Edison",
+     "Thomas Jefferson",
+     "Alexander Graham Bell",
+     "Benjamin Franklin"
+    ],
+    "en": [
+     "Thomas Edison",
+     "Thomas Jefferson",
+     "Alexander Graham Bell",
+     "Benjamin Franklin"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Franklin ji sestrojil roku 1761: skleněné misky na otáčející se ose se rozeznívají vlhkými prsty. Skladby pro ni napsal i Mozart.",
+    "en": "Franklin built it in 1761: glass bowls on a rotating spindle are made to sing with moistened fingers. Mozart also wrote music for it."
+   }
+  },
+  {
+   "id": "T013-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik strun má obvykle koncertní pedálová harfa?",
+    "en": "How many strings does a concert pedal harp usually have?"
+   },
+   "moznosti": {
+    "cs": [
+     "36",
+     "41",
+     "47",
+     "52"
+    ],
+    "en": [
+     "36",
+     "41",
+     "47",
+     "52"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pedálová harfa má 47 strun a sedm pedálů – každý přeladí všechny struny jednoho tónu o půltón nahoru či dolů. Struny C jsou pro orientaci červené.",
+    "en": "The pedal harp has 47 strings and seven pedals, each retuning all strings of one note up or down a semitone. The C strings are coloured red to help the player find their way."
+   }
+  },
+  {
+   "id": "T013-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se v Hornbostelově–Sachsově třídění nazývají nástroje, u nichž zvuk vzniká chvěním napjaté blány (např. bubny)?",
+    "en": "In the Hornbostel–Sachs classification, what are instruments called whose sound comes from a vibrating stretched membrane (e.g. drums)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chordofony",
+     "Idiofony",
+     "Aerofony",
+     "Membranofony"
+    ],
+    "en": [
+     "Chordophones",
+     "Idiophones",
+     "Aerophones",
+     "Membranophones"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Systém z roku 1914 třídí nástroje podle toho, co kmitá: blána (membranofony), struna (chordofony), vzduch (aerofony) nebo samo těleso nástroje (idiofony, např. činely).",
+    "en": "The 1914 system classifies instruments by what vibrates: a membrane (membranophones), a string (chordophones), air (aerophones) or the body itself (idiophones, such as cymbals)."
+   }
+  },
+  {
+   "id": "T013-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Anglický roh je ve skutečnosti altovou variantou kterého nástroje?",
+    "en": "The cor anglais (English horn) is actually an alto version of which instrument?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hoboje",
+     "Trubky",
+     "Lesního rohu",
+     "Klarinetu"
+    ],
+    "en": [
+     "Oboe",
+     "Trumpet",
+     "Horn",
+     "Clarinet"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Anglický roh není anglický ani žesťový roh: je to dvouplátkový nástroj laděný o kvintu níž než hoboj. Název se zřejmě vyvinul z německého engellisches Horn – „andělský roh“.",
+    "en": "The cor anglais is neither English nor a brass horn: it is a double-reed instrument pitched a fifth below the oboe. The name probably evolved from German engellisches Horn – 'angelic horn'."
+   }
+  },
+  {
+   "id": "T013-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kde má hráč na lesní roh při hře obvykle pravou ruku?",
+    "en": "Where does a horn (French horn) player usually keep the right hand while playing?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na ventilech nástroje",
+     "Na náustku nástroje",
+     "Pod tělem nástroje",
+     "V rozšířeném ústí"
+    ],
+    "en": [
+     "On the valves",
+     "On the mouthpiece",
+     "Under the instrument",
+     "Inside the bell"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Ventily ovládá levá ruka, pravá je vložená do rozšířeného ústí nástroje (anglicky bell). Její polohou hráč dolaďuje výšku tónu a ovlivňuje barvu zvuku.",
+    "en": "The valves are worked by the left hand, while the right hand sits inside the bell. Its position lets the player adjust the pitch and affects the tone colour."
+   }
+  },
+  {
+   "id": "T013-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Roku 1829 získal Cyrill Demian patent na nástroj s názvem „Accordion“. Ve kterém městě?",
+    "en": "In 1829, Cyrill Demian received a patent for an instrument called the 'Accordion'. In which city?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vídeň",
+     "Berlín",
+     "Paříž",
+     "Praha"
+    ],
+    "en": [
+     "Vienna",
+     "Berlin",
+     "Paris",
+     "Prague"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Demianův akordeon měl měch a knoflíky, které hrály celé akordy – odtud název. Tón vzniká chvěním kovových průrazných jazýčků.",
+    "en": "Demian's accordion had a bellows and buttons that played whole chords – hence the name. The sound comes from vibrating metal free reeds."
+   }
+  },
+  {
+   "id": "T013-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Varhany v Boardwalk Hall v Atlantic City jsou podle počtu píšťal považovány za největší na světě. Kolik jich přibližně mají?",
+    "en": "The organ in Boardwalk Hall, Atlantic City, is considered the world's largest by number of pipes. Roughly how many does it have?"
+   },
+   "moznosti": {
+    "cs": [
+     "3 000",
+     "12 000",
+     "33 000",
+     "90 000"
+    ],
+    "en": [
+     "3,000",
+     "12,000",
+     "33,000",
+     "90,000"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Oficiálně se uvádí 33 112 píšťal. Varhany postavila v letech 1929–1932 firma Midmer-Losh; podle počtu řad píšťal (anglicky ranks) jsou ale větší Wanamakerovy varhany ve Filadelfii.",
+    "en": "The official count is 33,112 pipes. The organ was built in 1929–1932 by the Midmer-Losh company; by number of ranks, however, Philadelphia's Wanamaker Organ is larger."
+   }
+  },
+  {
+   "id": "T013-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Great Stalacpipe Organ v jeskyních Luray v USA je nástroj rozložený zhruba na 1,4 hektaru jeskyně. Jak vydává tón?",
+    "en": "The Great Stalacpipe Organ in Luray Caverns, USA, is an instrument spread over about 1.4 hectares (3.5 acres) of the cave. How does it make sound?"
+   },
+   "moznosti": {
+    "cs": [
+     "Gumové paličky ťukají do krápníků",
+     "Kapky vody dopadají na kamenné desky",
+     "Vzduch proudí puklinami ve skále",
+     "Struny jsou napnuté mezi krápníky"
+    ],
+    "en": [
+     "Rubber mallets tap stalactites",
+     "Water drops fall on stone slabs",
+     "Air flows through cracks in the rock",
+     "Strings are stretched between stalactites"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Stisk klávesy aktivuje elektromagnet a ten udeří gumovou paličkou do krápníku vybraného a upraveného na určitý tón. Guinnessova kniha rekordů ho uvádí jako největší hudební nástroj světa.",
+    "en": "Pressing a key fires a solenoid that strikes a stalactite, selected and shaped to a specific pitch, with a rubber mallet. Guinness World Records lists it as the world's largest musical instrument."
+   }
+  },
+  {
+   "id": "T013-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve které zemi vznikly ocelové bubny (steelpan), vyráběné z vyřazených sudů od ropy?",
+    "en": "In which country did the steelpan, made from discarded oil drums, originate?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dominikánská republika",
+     "Jamajka",
+     "Trinidad a Tobago",
+     "Kuba"
+    ],
+    "en": [
+     "Dominican Republic",
+     "Jamaica",
+     "Trinidad and Tobago",
+     "Cuba"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Steelpan se vyvinul ve 30. a 40. letech 20. století z karnevalových bicích nástrojů. Trinidad a Tobago ho prohlásil za svůj národní nástroj.",
+    "en": "The steelpan developed in the 1930s and 1940s out of Carnival percussion. Trinidad and Tobago has declared it its national instrument."
+   }
+  },
+  {
+   "id": "T013-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na které z těchto dud se nefouká ústy, protože vak plní měch připnutý k paži?",
+    "en": "Which of these bagpipes is not mouth-blown, because its bag is filled by bellows strapped to the arm?"
+   },
+   "moznosti": {
+    "cs": [
+     "Skotské dudy Great Highland",
+     "Irské dudy uilleann",
+     "Bulharská kaba gajda",
+     "Galicijská gaita"
+    ],
+    "en": [
+     "Scottish Great Highland bagpipe",
+     "Irish uilleann pipes",
+     "Bulgarian kaba gaida",
+     "Galician gaita"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Irské dudy uilleann mají malý měch připnutý v pase a na pravé paži, takže hráč nemusí do vaku foukat. Jejich název znamená „loketní dudy“ – podle způsobu plnění vzduchem.",
+    "en": "The Irish uilleann pipes have a small bellows strapped around the waist and the right arm, so the player does not have to blow into the bag. Their name means 'pipes of the elbow', after the way they are filled with air."
+   }
+  },
+  {
+   "id": "T013-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se obvykle překládá havajské slovo ukulele?",
+    "en": "How is the Hawaiian word ukulele usually translated?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zpívající dřevo",
+     "Skákající blecha",
+     "Malá kytara",
+     "Tančící prsty"
+    ],
+    "en": [
+     "Singing wood",
+     "Jumping flea",
+     "Little guitar",
+     "Dancing fingers"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Název se obvykle překládá jako „skákající blecha“, což se vysvětluje rychlými pohyby prstů hráče. Nástroj vznikl v 80. letech 19. století z malých kytarovitých nástrojů, které na Havaj přivezli portugalští přistěhovalci, mj. z Madeiry.",
+    "en": "The name is usually translated as 'jumping flea', explained by the quick movement of the player's fingers. The instrument developed in the 1880s from small guitar-like instruments brought to Hawaii by Portuguese immigrants, including some from Madeira."
+   }
+  }
+ ]
+}

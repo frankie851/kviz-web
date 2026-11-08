@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T023",
+ "nazev": {
+  "cs": "Planety sluneční soustavy",
+  "en": "Planets of the Solar System"
+ },
+ "kategorie": {
+  "id": "vesmir",
+  "nazev": {
+   "cs": "Vesmír",
+   "en": "Space"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T023-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik planet má sluneční soustava podle současné definice?",
+    "en": "How many planets does the Solar System have under the current definition?"
+   },
+   "moznosti": {
+    "cs": [
+     "7",
+     "8",
+     "9",
+     "10"
+    ],
+    "en": [
+     "7",
+     "8",
+     "9",
+     "10"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Planet je osm: Merkur, Venuše, Země, Mars, Jupiter, Saturn, Uran a Neptun. Pluto bylo dříve počítáno jako devátá planeta.",
+    "en": "There are eight planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune. Pluto used to be counted as the ninth."
+   }
+  },
+  {
+   "id": "T023-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která planeta je nejblíže Slunci?",
+    "en": "Which planet is closest to the Sun?"
+   },
+   "moznosti": {
+    "cs": [
+     "Země",
+     "Venuše",
+     "Merkur",
+     "Mars"
+    ],
+    "en": [
+     "Earth",
+     "Venus",
+     "Mercury",
+     "Mars"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Merkur je první planetou od Slunce. Nemá prakticky žádnou atmosféru, takže teploty na něm kolísají zhruba od −170 °C v noci do 420 °C ve dne.",
+    "en": "Mercury is the first planet from the Sun. It has almost no atmosphere, so temperatures swing from about −170 °C (−274 °F) at night to 420 °C (788 °F) in sunlight."
+   }
+  },
+  {
+   "id": "T023-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která planeta je největší ve sluneční soustavě?",
+    "en": "Which planet is the largest in the Solar System?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jupiter",
+     "Uran",
+     "Neptun",
+     "Saturn"
+    ],
+    "en": [
+     "Jupiter",
+     "Uranus",
+     "Neptune",
+     "Saturn"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jupiter má průměr asi 11krát větší než Země a je zhruba 2,5krát hmotnější než všechny ostatní planety dohromady.",
+    "en": "Jupiter is about 11 times wider than Earth and roughly 2.5 times as massive as all the other planets combined."
+   }
+  },
+  {
+   "id": "T023-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která planeta se přezdívá „rudá planeta“?",
+    "en": "Which planet is nicknamed the 'Red Planet'?"
+   },
+   "moznosti": {
+    "cs": [
+     "Merkur",
+     "Jupiter",
+     "Venuše",
+     "Mars"
+    ],
+    "en": [
+     "Mercury",
+     "Jupiter",
+     "Venus",
+     "Mars"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Mars má červenooranžový povrch. Jméno dostal po římském bohu války, obdobě řeckého Area.",
+    "en": "Mars has a reddish-orange surface. It is named after the Roman god of war, the counterpart of the Greek Ares."
+   }
+  },
+  {
+   "id": "T023-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která planeta je proslulá prstenci, které jsou ze Země snadno pozorovatelné i malým dalekohledem?",
+    "en": "Which planet is famous for rings that are easily observed from Earth even with a small telescope?"
+   },
+   "moznosti": {
+    "cs": [
+     "Saturn",
+     "Jupiter",
+     "Neptun",
+     "Uran"
+    ],
+    "en": [
+     "Saturn",
+     "Jupiter",
+     "Neptune",
+     "Uranus"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Prstence mají všechny čtyři obří planety, ale jen Saturnovy jsou ze Země snadno pozorovatelné. Tvoří je hlavně částečky vodního ledu.",
+    "en": "All four giant planets have rings, but only Saturn's are easily observed from Earth. They are made mostly of water-ice particles."
+   }
+  },
+  {
+   "id": "T023-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se od roku 2006 oficiálně klasifikuje Pluto?",
+    "en": "How has Pluto been officially classified since 2006?"
+   },
+   "moznosti": {
+    "cs": [
+     "Měsíc Neptunu",
+     "Kometa",
+     "Hnědý trpaslík",
+     "Trpasličí planeta"
+    ],
+    "en": [
+     "Moon of Neptune",
+     "Comet",
+     "Brown dwarf",
+     "Dwarf planet"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Mezinárodní astronomická unie v roce 2006 nově definovala planetu a Pluto přeřadila mezi trpasličí planety. Objevil ho Clyde Tombaugh v roce 1930.",
+    "en": "In 2006 the International Astronomical Union redefined 'planet' and moved Pluto to the new dwarf planet category. It was discovered by Clyde Tombaugh in 1930."
+   }
+  },
+  {
+   "id": "T023-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která planeta je na obloze známá jako Jitřenka a Večernice?",
+    "en": "Which planet is known in the sky as the morning star and the evening star?"
+   },
+   "moznosti": {
+    "cs": [
+     "Venuše",
+     "Saturn",
+     "Mars",
+     "Jupiter"
+    ],
+    "en": [
+     "Venus",
+     "Saturn",
+     "Mars",
+     "Jupiter"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Venuše je po Slunci a Měsíci nejjasnějším objektem na obloze a nejsnáze ji uvidíme nízko nad obzorem ráno nebo večer. Římané jí jako ranní hvězdě říkali Lucifer a jako večerní Vesper.",
+    "en": "After the Sun and the Moon, Venus is the brightest object in the sky and is most easily seen low on the horizon in the morning or evening. The Romans called it Lucifer as the morning star and Vesper as the evening star."
+   }
+  },
+  {
+   "id": "T023-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která planeta je nejmenší ve sluneční soustavě?",
+    "en": "Which planet is the smallest in the Solar System?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mars",
+     "Merkur",
+     "Venuše",
+     "Neptun"
+    ],
+    "en": [
+     "Mars",
+     "Mercury",
+     "Venus",
+     "Neptune"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Merkur má poloměr jen asi 2 440 km. Je dokonce menší než Jupiterův měsíc Ganymed a Saturnův Titan.",
+    "en": "Mercury has a radius of only about 2,440 km (1,520 mi). It is even smaller than Jupiter's moon Ganymede and Saturn's moon Titan."
+   }
+  },
+  {
+   "id": "T023-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co je Velká rudá skvrna na Jupiteru?",
+    "en": "What is the Great Red Spot on Jupiter?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sopka",
+     "Lávové jezero",
+     "Impaktní kráter",
+     "Obří bouře"
+    ],
+    "en": [
+     "A volcano",
+     "A lava lake",
+     "An impact crater",
+     "A giant storm"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jde o vytrvalou anticyklónu větší než Země, pozorovanou nejméně od roku 1831. Od objevu se ale výrazně zmenšila.",
+    "en": "It is a persistent anticyclonic storm larger than Earth, observed since at least 1831. It has, however, shrunk considerably since its discovery."
+   }
+  },
+  {
+   "id": "T023-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která planeta nese jméno římského boha moří?",
+    "en": "Which planet is named after the Roman god of the sea?"
+   },
+   "moznosti": {
+    "cs": [
+     "Merkur",
+     "Neptun",
+     "Saturn",
+     "Jupiter"
+    ],
+    "en": [
+     "Mercury",
+     "Neptune",
+     "Saturn",
+     "Jupiter"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Neptun je římský bůh moří, obdoba řeckého Poseidona. Jméno se hodí i k modré barvě planety.",
+    "en": "Neptune is the Roman god of the sea, equivalent to the Greek Poseidon. The name also suits the planet's blue colour."
+   }
+  },
+  {
+   "id": "T023-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která planeta má nejvyšší průměrnou povrchovou teplotu?",
+    "en": "Which planet has the highest average surface temperature?"
+   },
+   "moznosti": {
+    "cs": [
+     "Merkur",
+     "Venuše",
+     "Jupiter",
+     "Mars"
+    ],
+    "en": [
+     "Mercury",
+     "Venus",
+     "Jupiter",
+     "Mars"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Venuše má na povrchu kolem 464 °C, víc než Merkur, a je tak nejteplejší planetou. Teplo zadržuje hustá atmosféra z oxidu uhličitého, která vytváří nejsilnější skleníkový efekt ve sluneční soustavě.",
+    "en": "Venus's surface averages about 464 °C (867 °F), more than Mercury, making it the hottest planet. Its thick carbon dioxide atmosphere traps the heat, creating the strongest greenhouse effect in the Solar System."
+   }
+  },
+  {
+   "id": "T023-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na které planetě leží sopka Olympus Mons, jedna z nejvyšších hor sluneční soustavy?",
+    "en": "On which planet is the volcano Olympus Mons, one of the tallest mountains in the Solar System?"
+   },
+   "moznosti": {
+    "cs": [
+     "Venuše",
+     "Jupiter",
+     "Merkur",
+     "Mars"
+    ],
+    "en": [
+     "Venus",
+     "Jupiter",
+     "Mercury",
+     "Mars"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Olympus Mons na Marsu je štítová sopka vysoká asi 21 km, zhruba 2,5krát víc než Mount Everest nad hladinou moře.",
+    "en": "Olympus Mons on Mars is a shield volcano about 21 km (13 mi) high, roughly 2.5 times the height of Mount Everest above sea level."
+   }
+  },
+  {
+   "id": "T023-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která planeta obíhá Slunce prakticky „na boku“, s osou skloněnou téměř do roviny své oběžné dráhy?",
+    "en": "Which planet orbits the Sun practically 'on its side', with its axis tilted almost into the plane of its orbit?"
+   },
+   "moznosti": {
+    "cs": [
+     "Uran",
+     "Saturn",
+     "Venuše",
+     "Neptun"
+    ],
+    "en": [
+     "Uranus",
+     "Saturn",
+     "Venus",
+     "Neptune"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Osa Uranu je skloněná asi o 98°. Kolem slunovratu proto jeden jeho pól míří nepřetržitě ke Slunci a druhý od něj.",
+    "en": "Uranus's axis is tilted by about 98°. Near the solstices, one pole therefore faces the Sun continuously while the other faces away."
+   }
+  },
+  {
+   "id": "T023-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na které planetě trvá jedna otočka kolem osy déle než jeden oběh kolem Slunce?",
+    "en": "On which planet does one rotation on its axis take longer than one orbit around the Sun?"
+   },
+   "moznosti": {
+    "cs": [
+     "Merkur",
+     "Venuše",
+     "Mars",
+     "Neptun"
+    ],
+    "en": [
+     "Mercury",
+     "Venus",
+     "Mars",
+     "Neptune"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Venuše se otočí jednou za 243 pozemských dní, ale kolem Slunce oběhne za necelých 225 dní. Rotuje navíc opačně než většina planet, takže tam Slunce vychází na západě. Merkur se otočí za asi 59 dní a oběhne za 88; delší než jeho rok je jen sluneční den (asi 176 dní).",
+    "en": "Venus rotates once every 243 Earth days but orbits the Sun in under 225 days. It also spins backwards compared with most planets, so the Sun rises in the west there. Mercury rotates in about 59 days and orbits in 88; only its solar day (about 176 days) is longer than its year."
+   }
+  },
+  {
+   "id": "T023-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která planeta má nižší průměrnou hustotu než voda?",
+    "en": "Which planet has a lower average density than water?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jupiter",
+     "Uran",
+     "Neptun",
+     "Saturn"
+    ],
+    "en": [
+     "Jupiter",
+     "Uranus",
+     "Neptune",
+     "Saturn"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Saturn má průměrnou hustotu asi 0,69 g/cm³, tedy zhruba o 30 % méně než voda. Jako jediná planeta by tak teoreticky plaval v dostatečně velké vaně.",
+    "en": "Saturn's average density is about 0.69 g/cm³, roughly 30% less than water. It is the only planet that would, in theory, float in a big enough bathtub."
+   }
+  },
+  {
+   "id": "T023-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která planeta byla objevena díky matematickému výpočtu dřív, než ji kdokoli poznal v dalekohledu?",
+    "en": "Which planet was found by mathematical calculation before anyone recognised it through a telescope?"
+   },
+   "moznosti": {
+    "cs": [
+     "Uran",
+     "Saturn",
+     "Neptun",
+     "Jupiter"
+    ],
+    "en": [
+     "Uranus",
+     "Saturn",
+     "Neptune",
+     "Jupiter"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Astronomové si všimli, že Uran se odchyluje od vypočtené dráhy, a z těchto odchylek spočítali polohu neznámé planety. Neptun byl pak nalezen méně než 1° od předpovězeného místa.",
+    "en": "Astronomers noticed that Uranus strayed from its calculated path and used those deviations to work out where an unknown planet should be. Neptune was then found less than 1° from the predicted position."
+   }
+  },
+  {
+   "id": "T023-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co dává povrchu Marsu jeho typickou barvu?",
+    "en": "What gives the surface of Mars its characteristic colour?"
+   },
+   "moznosti": {
+    "cs": [
+     "Oxidy železa",
+     "Oxid měďnatý",
+     "Sopečná síra",
+     "Uhlíkatý prach"
+    ],
+    "en": [
+     "Iron oxides",
+     "Copper oxide",
+     "Volcanic sulphur",
+     "Carbon-rich dust"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Povrch Marsu pokrývá prach s oxidem železitým, v podstatě jemná rez. Podle složení hornin ale může povrch místy působit i zlatavě, hnědě nebo nazelenale.",
+    "en": "The Martian surface is covered in dust containing iron(III) oxide, essentially fine rust. Depending on the minerals present, parts of the surface can also look golden, brown or greenish."
+   }
+  },
+  {
+   "id": "T023-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která planeta má nejkratší den, tedy rotuje nejrychleji?",
+    "en": "Which planet has the shortest day, i.e. rotates the fastest?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mars",
+     "Země",
+     "Jupiter",
+     "Neptun"
+    ],
+    "en": [
+     "Mars",
+     "Earth",
+     "Jupiter",
+     "Neptune"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jupiter se otočí kolem osy za necelých 10 hodin, a je tak nejrychleji rotující planetou sluneční soustavy.",
+    "en": "Jupiter turns on its axis in just under 10 hours, making it the fastest-rotating planet in the Solar System."
+   }
+  },
+  {
+   "id": "T023-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které dvě planety nemají žádný přirozený měsíc?",
+    "en": "Which two planets have no natural moons?"
+   },
+   "moznosti": {
+    "cs": [
+     "Venuše a Mars",
+     "Merkur a Mars",
+     "Merkur a Venuše",
+     "Mars a Neptun"
+    ],
+    "en": [
+     "Venus and Mars",
+     "Mercury and Mars",
+     "Mercury and Venus",
+     "Mars and Neptune"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Merkur ani Venuše žádný měsíc nemají. Mars má dva malé měsíce, Phobos a Deimos, pojmenované po synech řeckého boha války Area.",
+    "en": "Neither Mercury nor Venus has a moon. Mars has two small ones, Phobos and Deimos, named after the sons of Ares, the Greek god of war."
+   }
+  },
+  {
+   "id": "T023-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která planeta má nejvíce známých měsíců (k roku 2026)?",
+    "en": "Which planet has the most known moons (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Uran",
+     "Neptun",
+     "Saturn",
+     "Jupiter"
+    ],
+    "en": [
+     "Uranus",
+     "Neptune",
+     "Saturn",
+     "Jupiter"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Saturn má přes 290 měsíců s potvrzenou dráhou a Jupiter 115 známých měsíců (k roku 2026). Počty se stále mění, protože se objevují další drobné měsíce.",
+    "en": "Saturn has more than 290 moons with confirmed orbits and Jupiter 115 known moons (as of 2026). The counts keep changing as more small moons are discovered."
+   }
+  },
+  {
+   "id": "T023-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který astronom jen na základě výpočtů předpověděl, kde na obloze hledat dosud neznámou planetu, a ta byla pak skutečně nalezena téměř přesně na tom místě?",
+    "en": "Which astronomer predicted purely by calculation where in the sky to look for a then-unknown planet, which was then found almost exactly at that spot?"
+   },
+   "moznosti": {
+    "cs": [
+     "William Herschel",
+     "Urbain Le Verrier",
+     "Johannes Kepler",
+     "Edmond Halley"
+    ],
+    "en": [
+     "William Herschel",
+     "Urbain Le Verrier",
+     "Johannes Kepler",
+     "Edmond Halley"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Francouz Urbain Le Verrier poslal svou předpověď do Berlínské hvězdárny a Johann Galle tam planetu našel hned první noc, méně než 1° od vypočteného místa. Nezávisle na něm počítal i Angličan John Couch Adams.",
+    "en": "The Frenchman Urbain Le Verrier sent his prediction to the Berlin Observatory, where Johann Galle found the planet on the very first night, less than 1° from the calculated spot. The Englishman John Couch Adams made independent calculations too."
+   }
+  },
+  {
+   "id": "T023-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který měsíc je jako jediný ve sluneční soustavě obklopen hustou atmosférou?",
+    "en": "Which moon is the only one in the Solar System with a dense atmosphere?"
+   },
+   "moznosti": {
+    "cs": [
+     "Europa",
+     "Triton",
+     "Ganymed",
+     "Titan"
+    ],
+    "en": [
+     "Europa",
+     "Triton",
+     "Ganymede",
+     "Titan"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Saturnův Titan má dusíkovou atmosféru s tlakem asi 1,5násobku pozemského. Je také jediným tělesem kromě Země, kde jsou na povrchu známé kapaliny, jezera metanu a etanu.",
+    "en": "Saturn's moon Titan has a nitrogen atmosphere with a surface pressure about 1.5 times Earth's. It is also the only body besides Earth known to have surface liquids: lakes of methane and ethane."
+   }
+  },
+  {
+   "id": "T023-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jméno které planety nepochází z římské, ale z řecké mytologie?",
+    "en": "Which planet's name comes from Greek rather than Roman mythology?"
+   },
+   "moznosti": {
+    "cs": [
+     "Merkur",
+     "Saturn",
+     "Uran",
+     "Jupiter"
+    ],
+    "en": [
+     "Mercury",
+     "Saturn",
+     "Uranus",
+     "Jupiter"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Uran je pojmenován po řeckém bohu nebes Úranovi a je jedinou planetou, jejíž jméno pochází z řecké mytologie. Jméno navrhl v roce 1782 německý astronom Johann Elert Bode.",
+    "en": "Uranus is named after Ouranos, the Greek god of the sky, and it is the only planet whose name comes from Greek mythology. The name was proposed in 1782 by the German astronomer Johann Elert Bode."
+   }
+  },
+  {
+   "id": "T023-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na které planetě obepíná severní pól obří útvar v oblačnosti ve tvaru šestiúhelníku?",
+    "en": "On which planet does a giant hexagon-shaped cloud pattern surround the north pole?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jupiter",
+     "Uran",
+     "Neptun",
+     "Saturn"
+    ],
+    "en": [
+     "Jupiter",
+     "Uranus",
+     "Neptune",
+     "Saturn"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Saturnův šestiúhelník leží kolem 78° severní šířky a obklopuje polární vír. Jde o stálý vzor proudění v atmosféře.",
+    "en": "Saturn's hexagon lies at about 78°N and surrounds the polar vortex. It is a persistent wave pattern in the atmospheric flow."
+   }
+  },
+  {
+   "id": "T023-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na které planetě byly naměřeny nejrychlejší stálé větry ve sluneční soustavě, kolem 2 000 km/h?",
+    "en": "On which planet have the fastest sustained winds in the Solar System, around 2,000 km/h (1,200 mph), been measured?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jupiter",
+     "Saturn",
+     "Venuše",
+     "Neptun"
+    ],
+    "en": [
+     "Jupiter",
+     "Saturn",
+     "Venus",
+     "Neptune"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Na Neptunu vanou větry rychlostí až kolem 2 100 km/h, přestože je od Slunce nejdál a dostává nejméně energie.",
+    "en": "Neptune's winds reach about 2,100 km/h (1,300 mph), even though it is the farthest planet from the Sun and receives the least energy."
+   }
+  },
+  {
+   "id": "T023-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Zhruba kolikrát vyšší je atmosférický tlak na povrchu Venuše než na povrchu Země?",
+    "en": "Roughly how many times higher is the atmospheric pressure on Venus's surface than on Earth's?"
+   },
+   "moznosti": {
+    "cs": [
+     "2krát",
+     "10krát",
+     "90krát",
+     "500krát"
+    ],
+    "en": [
+     "2 times",
+     "10 times",
+     "90 times",
+     "500 times"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Tlak na Venuši je asi 93 barů, přibližně 92krát víc než na Zemi.",
+    "en": "The pressure on Venus is about 93 bar, roughly 92 times that on Earth."
+   }
+  },
+  {
+   "id": "T023-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Která planeta má nejvyšší průměrnou hustotu?",
+    "en": "Which planet has the highest average density?"
+   },
+   "moznosti": {
+    "cs": [
+     "Země",
+     "Merkur",
+     "Saturn",
+     "Jupiter"
+    ],
+    "en": [
+     "Earth",
+     "Mercury",
+     "Saturn",
+     "Jupiter"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Země má průměrnou hustotu asi 5,5 g/cm³ a těsně předčí Merkur (5,4 g/cm³). Merkur by ale bez stlačení vlastní gravitací byl hustší, protože obsahuje víc kovu.",
+    "en": "Earth's average density is about 5.5 g/cm³, just ahead of Mercury (5.4 g/cm³). Without compression by its own gravity, though, Mercury would be denser because it contains more metal."
+   }
+  },
+  {
+   "id": "T023-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak v roce 2017 skončila mise sondy Cassini?",
+    "en": "How did the Cassini mission end in 2017?"
+   },
+   "moznosti": {
+    "cs": [
+     "Úmyslně vstoupila do atmosféry Saturnu",
+     "Přistála na měsíci Enceladus",
+     "Zamířila k Uranu",
+     "Byla ponechána na oběžné dráze Titanu"
+    ],
+    "en": [
+     "It deliberately entered Saturn's atmosphere",
+     "It landed on the moon Enceladus",
+     "It headed off to Uranus",
+     "It was left in orbit around Titan"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Cassini zakončila misi takzvaným Velkým finále: několikrát proletěla mezi Saturnem a jeho vnitřními prstenci a pak vlétla do atmosféry planety.",
+    "en": "Cassini ended its mission with the so-called Grand Finale: it made a series of passes between Saturn and its inner rings and then plunged into the planet's atmosphere."
+   }
+  },
+  {
+   "id": "T023-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Neptun v roce 2011 poprvé od svého objevu oběhl Slunce. Kolik let mu trvá jeden oběh?",
+    "en": "In 2011 Neptune completed its first orbit of the Sun since its discovery. How long does one orbit take?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 84 let",
+     "Asi 120 let",
+     "Asi 165 let",
+     "Asi 248 let"
+    ],
+    "en": [
+     "About 84 years",
+     "About 120 years",
+     "About 165 years",
+     "About 248 years"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Neptun oběhne Slunce zhruba za 164,8 roku, takže první celý oběh od objevu v roce 1846 dokončil v červenci 2011. Pro srovnání: Uran má oběh 84 let a Pluto 248 let.",
+    "en": "Neptune orbits the Sun in about 164.8 years, so it completed its first full orbit since its 1846 discovery in July 2011. For comparison, Uranus takes 84 years and Pluto 248."
+   }
+  },
+  {
+   "id": "T023-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Která sonda jako jediná navštívila Uran i Neptun (k roku 2026)?",
+    "en": "Which spacecraft is the only one to have visited Uranus and Neptune (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Voyager 1",
+     "Voyager 2",
+     "New Horizons",
+     "Pioneer 11"
+    ],
+    "en": [
+     "Voyager 1",
+     "Voyager 2",
+     "New Horizons",
+     "Pioneer 11"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Voyager 2, vypuštěný v roce 1977, prolétl kolem Uranu v roce 1986 a kolem Neptunu v roce 1989. Žádná jiná sonda ledové obry nenavštívila (k roku 2026).",
+    "en": "Voyager 2, launched in 1977, flew past Uranus in 1986 and Neptune in 1989. No other spacecraft has visited the ice giants (as of 2026)."
+   }
+  }
+ ]
+}

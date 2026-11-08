@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T287",
+ "nazev": {
+  "cs": "Třicetiletá válka",
+  "en": "The Thirty Years' War"
+ },
+ "kategorie": {
+  "id": "historie",
+  "nazev": {
+   "cs": "Historie",
+   "en": "History"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T287-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Výraz defenestrace se ujal kolem pražské události z roku 1618. Co znamená latinské slovo fenestra, od něhož je odvozen?",
+    "en": "The term defenestration caught on around the Prague incident of 1618. What does the Latin word fenestra, from which it is derived, mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Věž",
+     "Hradba",
+     "Schodiště",
+     "Okno"
+    ],
+    "en": [
+     "Tower",
+     "Rampart",
+     "Staircase",
+     "Window"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Defenestrace je doslova „vyhození z okna“ (de- = dolů z, fenestra = okno). Slovo se ujalo kolem události na Pražském hradě 23. května 1618, kdy stavové vyhodili z okna místodržící Martinice a Slavatu a jejich písaře Filipa Fabricia. Všichni tři pád přežili: katolíci to vykládali jako zázrak, pozdější protestantské pamflety tvrdily, že dopadli na hnůj.",
+    "en": "Defenestration literally means 'throwing out of a window' (de- = down from, fenestra = window). The term arose around the incident at Prague Castle on 23 May 1618, when the Estates threw the governors Martinice and Slavata and their secretary Philip Fabricius out of a window. All three survived the fall: Catholics saw it as a miracle, while later Protestant pamphlets claimed they had landed on a dung heap."
+   }
+  },
+  {
+   "id": "T287-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "U kterého města se 8. listopadu 1620 odehrála bitva na Bílé hoře?",
+    "en": "Near which city was the Battle of White Mountain fought on 8 November 1620?"
+   },
+   "moznosti": {
+    "cs": [
+     "U Brna",
+     "U Prahy",
+     "U Vídně",
+     "U Drážďan"
+    ],
+    "en": [
+     "Brno",
+     "Prague",
+     "Vienna",
+     "Dresden"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Bílá hora je ve skutečnosti nízká plošina, která tehdy ležela za Prahou a dnes je součástí města, nedaleko letohrádku Hvězda. Císařská vojska vstoupila do Prahy hned následující den, 9. listopadu.",
+    "en": "White Mountain is actually a low plateau that lay just outside Prague at the time and is now part of the city, near the Star Summer Palace. The Imperial forces entered Prague the very next day, 9 November."
+   }
+  },
+  {
+   "id": "T287-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který švédský král padl roku 1632 v bitvě u Lützenu?",
+    "en": "Which Swedish king was killed at the Battle of Lützen in 1632?"
+   },
+   "moznosti": {
+    "cs": [
+     "Gustav II. Adolf",
+     "Karel XII.",
+     "Gustav I. Vasa",
+     "Karel X. Gustav"
+    ],
+    "en": [
+     "Gustavus Adolphus",
+     "Charles XII",
+     "Gustav I Vasa",
+     "Charles X Gustav"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "V kouři a zmatku bitvy Gustav II. Adolf se svým doprovodem zabloudil, narazil na císařskou jízdu a byl třikrát zasažen. Švédové bitvu přesto vyhráli a zvlášť hustou mlhu dodnes přezdívají „lützenská mlha“ (Lützendimma).",
+    "en": "In the smoke and confusion of the battle, Gustavus Adolphus and his entourage lost their way, ran into Imperial cavalry and he was shot three times. The Swedes still won the battle, and to this day they call especially thick fog 'Lützen fog' (Lützendimma)."
+   }
+  },
+  {
+   "id": "T287-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ke kterému vyznání se hlásili královští místodržící Jaroslav Bořita z Martinic a Vilém Slavata, oběti pražské defenestrace roku 1618?",
+    "en": "Which faith did the royal governors Jaroslav Bořita of Martinice and Vilém Slavata, victims of the Defenestration of Prague in 1618, profess?"
+   },
+   "moznosti": {
+    "cs": [
+     "K luteránskému",
+     "Ke katolickému",
+     "K utrakvistickému",
+     "Ke kalvínskému"
+    ],
+    "en": [
+     "Lutheran",
+     "Catholic",
+     "Utraquist",
+     "Calvinist"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Oba místodržící byli katolíci a stavové je podezírali, že císaře navedli k zastavení stavby protestantských kostelů. Dva další přítomné místodržící, Adama ze Šternberka a Popela z Lobkovic, prohlásili za nevinné a nechali je z místnosti odvést.",
+    "en": "Both governors were Catholics, and the Estates suspected them of persuading the Emperor to halt the building of Protestant churches. Two other governors present, Adam of Sternberg and Popel Lobkowicz, were declared innocent and escorted out of the room."
+   }
+  },
+  {
+   "id": "T287-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Pro koho postavil a vedl Albrecht z Valdštejna za třicetileté války obrovskou armádu?",
+    "en": "For whom did Albrecht von Wallenstein raise and command a huge army during the Thirty Years' War?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pro české stavy",
+     "Pro švédského krále",
+     "Pro francouzského krále",
+     "Pro císaře Ferdinanda II."
+    ],
+    "en": [
+     "The Bohemian Estates",
+     "The King of Sweden",
+     "The King of France",
+     "Emperor Ferdinand II"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Valdštejn pocházel z protestantské české šlechtické rodiny, roku 1606 ale přestoupil ke katolictví. Roku 1625 nabídl císaři, že mu postaví celou armádu, a stal se císařským generalissimem.",
+    "en": "Wallenstein came from a Protestant Bohemian noble family but converted to Catholicism in 1606. In 1625 he offered to raise an entire army for the Emperor and became the imperial generalissimo."
+   }
+  },
+  {
+   "id": "T287-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která instituce dnes sídlí ve Valdštejnském paláci, který si Albrecht z Valdštejna postavil v letech 1623–1630 na Malé Straně?",
+    "en": "Which institution is housed today in the Wallenstein Palace, built by Albrecht von Wallenstein in Prague's Lesser Town in 1623–1630?"
+   },
+   "moznosti": {
+    "cs": [
+     "Poslanecká sněmovna",
+     "Úřad vlády",
+     "Senát",
+     "Kancelář prezidenta republiky"
+    ],
+    "en": [
+     "The Chamber of Deputies",
+     "The Office of the Government",
+     "The Senate",
+     "The Office of the President"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "V paláci sídlí Senát Parlamentu České republiky. Aby měl na stavbu místo, dal Valdštejn zbourat 26 domů, šest zahrad a dvě cihelny.",
+    "en": "The palace houses the Senate of the Czech Republic. To make room for it, Wallenstein had 26 houses, six gardens and two brickworks demolished."
+   }
+  },
+  {
+   "id": "T287-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které dílo Jana Amose Komenského je proslulá učebnice, v níž výklad provázejí obrázky?",
+    "en": "Which work by John Amos Comenius is the famous textbook in which the text is accompanied by pictures?"
+   },
+   "moznosti": {
+    "cs": [
+     "Orbis pictus",
+     "Janua linguarum",
+     "Didactica magna",
+     "Via lucis"
+    ],
+    "en": [
+     "Orbis pictus",
+     "Janua linguarum",
+     "Didactica magna",
+     "Via lucis"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Orbis sensualium pictus (Svět v obrazech) vyšel roku 1658 a celé další století patřil k nejrozšířenějším školním knihám. Nebyl první ilustrovanou knihou pro děti, ale první, která obrázky úspěšně zapojila do výuky.",
+    "en": "Orbis sensualium pictus (The Visible World in Pictures) appeared in 1658 and was one of the most widely used school books for the next century. It was not the first illustrated children's book, but the first to use pictures successfully in teaching."
+   }
+  },
+  {
+   "id": "T287-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč musel Jan Amos Komenský roku 1628 odejít z Čech do exilu?",
+    "en": "Why did John Amos Comenius have to leave Bohemia for exile in 1628?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přijal místo učitele ve Švédsku",
+     "Prchal před morovou epidemií",
+     "Odmítl přestoupit ke katolictví",
+     "Byl obviněn z čarodějnictví"
+    ],
+    "en": [
+     "He accepted a teaching post in Sweden",
+     "He was fleeing a plague epidemic",
+     "He refused to convert to Catholicism",
+     "He was accused of witchcraft"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Komenský, od roku 1616 kněz Jednoty bratrské, odmítl přestoupit ke katolictví, a proto roku 1628 odešel do exilu v Polsku. Později se stal posledním biskupem exilové Jednoty.",
+    "en": "Comenius, a priest of the Unity of the Brethren since 1616, refused to convert to Catholicism and so in 1628 he went into exile in Poland. He later became the last bishop of the exiled Unity."
+   }
+  },
+  {
+   "id": "T287-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak dlouho zhruba trvala samotná bitva na Bílé hoře?",
+    "en": "Roughly how long did the actual Battle of White Mountain last?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zhruba hodinu",
+     "Zhruba tři dny",
+     "Zhruba dva týdny",
+     "Zhruba dva měsíce"
+    ],
+    "en": [
+     "About an hour",
+     "About three days",
+     "About two weeks",
+     "About two months"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Rozhodující střetnutí trvalo jen asi hodinu a stavovskou armádu rozprášilo. Zvolený král Fridrich Falcký pak uprchl z Prahy do Slezska.",
+    "en": "The decisive clash lasted only about an hour and left the Estates' army in tatters. The elected king, Frederick of the Palatinate, then fled from Prague to Silesia."
+   }
+  },
+  {
+   "id": "T287-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém městě byl v únoru 1634 zavražděn Albrecht z Valdštejna?",
+    "en": "In which town was Albrecht von Wallenstein assassinated in February 1634?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Praze",
+     "V Chebu",
+     "V Plzni",
+     "V Jičíně"
+    ],
+    "en": [
+     "Prague",
+     "Cheb (Eger)",
+     "Pilsen (Plzeň)",
+     "Jičín"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "V noci 25. února 1634 ho v domě chebského purkmistra probodl irský kapitán Walter Devereux; vražedná zbraň je vystavena v chebském muzeu. Předtím spiklenci pobili Valdštejnovy věrné důstojníky na hostině na chebském hradě.",
+    "en": "On the night of 25 February 1634 the Irish captain Walter Devereux ran him through in the house of Cheb's burgomaster; the murder weapon is displayed in the Cheb museum. Earlier, the conspirators had killed Wallenstein's loyal officers at a feast in Cheb Castle."
+   }
+  },
+  {
+   "id": "T287-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který šlechtic vedl povstalé české stavy při pražské defenestraci 23. května 1618?",
+    "en": "Which nobleman led the rebellious Bohemian Estates in the Defenestration of Prague on 23 May 1618?"
+   },
+   "moznosti": {
+    "cs": [
+     "Karel starší ze Žerotína",
+     "Petr Vok z Rožmberka",
+     "Albrecht z Valdštejna",
+     "Jindřich Matyáš Thurn"
+    ],
+    "en": [
+     "Karel the Elder of Žerotín",
+     "Peter Vok of Rosenberg",
+     "Albrecht von Wallenstein",
+     "Heinrich Matthias von Thurn"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Hrabě Thurn, kterého císař předtím zbavil úřadu karlštejnského purkrabího, prý přítomné přesvědčoval, že nechat místodržící naživu by znamenalo přijít o Majestát i o víru. Na Bílé hoře pak velel levému křídlu stavovského vojska.",
+    "en": "Count Thurn, whom the Emperor had removed as burgrave of Karlštejn, reportedly argued that leaving the governors alive would mean losing the Letter of Majesty and their faith. At White Mountain he commanded the left wing of the Estates' army."
+   }
+  },
+  {
+   "id": "T287-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čeští stavové roku 1619 zvolili králem Fridricha Falckého. Kterého panovníka předtím prohlásili za sesazeného?",
+    "en": "In 1619 the Bohemian Estates elected Frederick of the Palatinate as king. Which ruler had they declared deposed beforehand?"
+   },
+   "moznosti": {
+    "cs": [
+     "Maxmiliána II.",
+     "Ferdinanda II.",
+     "Rudolfa II.",
+     "Matyáše"
+    ],
+    "en": [
+     "Maximilian II",
+     "Ferdinand II",
+     "Rudolf II",
+     "Matthias"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "V srpnu 1619 generální sněm prohlásil, že Ferdinand II. ztratil nárok na český trůn, a 26. srpna zvolil kalvinistu Fridricha Falckého. Korunován byl 4. listopadu 1619 ve svatovítské katedrále.",
+    "en": "In August 1619 the general diet declared that Ferdinand II had forfeited the Bohemian throne, and on 26 August it elected the Calvinist Frederick of the Palatinate. He was crowned in St Vitus Cathedral on 4 November 1619."
+   }
+  },
+  {
+   "id": "T287-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které vyznání Vestfálský mír (1648) poprvé právně uznal ve Svaté říši římské vedle katolictví a luteránství?",
+    "en": "Which faith did the Peace of Westphalia (1648) legally recognise for the first time in the Holy Roman Empire, alongside Catholicism and Lutheranism?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pravoslaví",
+     "Kalvinismus",
+     "Anglikánství",
+     "Utrakvismus"
+    ],
+    "en": [
+     "Orthodoxy",
+     "Calvinism",
+     "Anglicanism",
+     "Utraquism"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Vestfálský mír zaručil vedle katolictví a luteránství i kalvinismus, k němuž se hlásil i „zimní král“ Fridrich Falcký. Za rozhodné datum pro náboženské poměry stanovil 1. leden 1624.",
+    "en": "The Peace of Westphalia guaranteed Calvinism alongside Catholicism and Lutheranism; the 'Winter King' Frederick of the Palatinate was a Calvinist too. It set 1 January 1624 as the normative date for religious arrangements."
+   }
+  },
+  {
+   "id": "T287-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který slavný astronom sestavil roku 1608 na objednávku mladého Albrechta z Valdštejna jeho horoskop?",
+    "en": "Which famous astronomer drew up a horoscope commissioned by the young Albrecht von Wallenstein in 1608?"
+   },
+   "moznosti": {
+    "cs": [
+     "Galileo Galilei",
+     "Mikuláš Koperník",
+     "Johannes Kepler",
+     "Tycho Brahe"
+    ],
+    "en": [
+     "Galileo Galilei",
+     "Nicolaus Copernicus",
+     "Johannes Kepler",
+     "Tycho Brahe"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kepler ho popsal jako ctižádostivého a bažícího po moci a předpověděl mu, že nebezpeční nepřátelé ho budou ohrožovat, ale většinou nad nimi zvítězí. Hotový horoskop Valdštejn patrně dostal až na přelomu let 1614 a 1615.",
+    "en": "Kepler described him as ambitious and power-seeking and predicted that dangerous enemies would challenge him but that he would mostly prevail. Wallenstein apparently received the finished horoscope only in late 1614 or early 1615."
+   }
+  },
+  {
+   "id": "T287-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik lidí podle dnešních odhadů zemřelo v důsledku třicetileté války?",
+    "en": "According to current estimates, how many people died as a result of the Thirty Years' War?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 50 tisíc",
+     "Asi 500 tisíc",
+     "4,5 až 8 milionů",
+     "Přes 50 milionů"
+    ],
+    "en": [
+     "About 50,000",
+     "About 500,000",
+     "4.5 to 8 million",
+     "Over 50 million"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Většina obětí připadá na období po roce 1630 a šlo převážně o civilisty. Některé části Německa přišly o víc než polovinu obyvatel, do úbytku se ale počítá i emigrace.",
+    "en": "Most of the deaths came after 1630 and most of the victims were civilians. Some parts of Germany lost more than half their population, though that decline also includes emigration."
+   }
+  },
+  {
+   "id": "T287-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na jaké zásadě postavil Albrecht z Valdštejna financování obrovské armády, kterou začal verbovat roku 1625?",
+    "en": "On what principle did Albrecht von Wallenstein base the financing of the huge army he began raising in 1625?"
+   },
+   "moznosti": {
+    "cs": [
+     "Náklady ponese španělský král",
+     "Armádu zaplatí papež",
+     "Válka má živit sama sebe",
+     "Vojáci budou sloužit bez žoldu"
+    ],
+    "en": [
+     "The King of Spain would bear the costs",
+     "The Pope would pay for the army",
+     "War should feed itself",
+     "Soldiers would serve without pay"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Heslo bellum se ipsum alet („válka se uživí sama“) znamenalo, že vojsko si prostředky obstará na válčištích: Valdštejn vymáhal od měst výkupné a jeho vojáci plenili okolí bez ohledu na to, zda patřilo spojencům, či nepřátelům. Díky své popularitě naverboval nejprve 30 000 a brzy nato 50 000 mužů.",
+    "en": "The motto bellum se ipsum alet ('war will feed itself') meant the army would find its means where it fought: Wallenstein demanded ransoms from towns, and his men plundered the surrounding land whether it belonged to allies or enemies. Thanks to his popularity he recruited first 30,000 and soon afterwards 50,000 men."
+   }
+  },
+  {
+   "id": "T287-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč katolická Francie za kardinála Richelieua finančně podporovala protestantské Švédsko a nakonec sama vstoupila do války?",
+    "en": "Why did Catholic France under Cardinal Richelieu fund Protestant Sweden and eventually enter the war itself?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chtěla oslabit Habsburky",
+     "Usilovala o švédskou korunu pro Ludvíka XIII.",
+     "Švédský král byl Richelieuův synovec",
+     "Chtěla obnovit protestantismus ve Francii"
+    ],
+    "en": [
+     "To weaken the Habsburgs",
+     "To win the Swedish crown for Louis XIII",
+     "The Swedish king was Richelieu's nephew",
+     "To restore Protestantism in France"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Francii obklopovala habsburská území na severu, na jihu i za Pyrenejemi a Richelieu chtěl moc Habsburků zlomit. Švédsko podporoval penězi od smlouvy z Bärwalde (1631) a roku 1635 Francie vyhlásila válku Španělsku.",
+    "en": "France was surrounded by Habsburg lands to the north, the south and beyond the Pyrenees, and Richelieu aimed to break Habsburg power. He funded Sweden from the Treaty of Bärwalde (1631) onwards, and in 1635 France declared war on Spain."
+   }
+  },
+  {
+   "id": "T287-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "V létě 1648 Švédové přepadem dobyli Pražský hrad a Malou Stranu. Kde je obránci zastavili, když se pokusili proniknout na Staré Město?",
+    "en": "In summer 1648 the Swedes took Prague Castle and the Lesser Town in a surprise attack. Where did the defenders stop them when they tried to break through to the Old Town?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Petříně",
+     "U Prašné brány",
+     "Na Vyšehradě",
+     "Na Karlově mostě"
+    ],
+    "en": [
+     "On Petřín Hill",
+     "At the Powder Tower",
+     "At Vyšehrad",
+     "On Charles Bridge"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Obránci most udrželi a o odpor měšťanských milic a studentské Akademické legie, kterou vedl mimo jiné jezuita Jiří Plachý, se rozbily i další útoky. Švédové s nimi přestali, až když se dozvěděli o podepsání míru.",
+    "en": "The defenders held the bridge, and further attacks broke against the burghers' militia and the students' Academic Legion, led among others by the Jesuit Jiří Plachý. The Swedes stopped attacking only when they learned that the peace had been signed."
+   }
+  },
+  {
+   "id": "T287-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím se živí hlavní hrdinka Brechtovy hry Matka Kuráž a její děti, odehrávající se za třicetileté války?",
+    "en": "How does the title character of Brecht's play Mother Courage and Her Children, set during the Thirty Years' War, make a living?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ošetřuje raněné ve vojenském lazaretu",
+     "Hraje s kočovnou společností na jarmarcích",
+     "Prodává vojákům zboží ze svého vozu",
+     "Vaří na zámku švédského generála"
+    ],
+    "en": [
+     "She nurses the wounded in a military hospital",
+     "She performs with a travelling troupe at fairs",
+     "She sells goods to soldiers from her cart",
+     "She cooks at a Swedish general's castle"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Anna Fierlingová táhne vůz se zásobami za švédskou armádou a válka jí postupně vezme všechny tři děti. Přezdívku převzal Brecht od Courasche, hrdinky Grimmelshausenova románu z roku 1670.",
+    "en": "Anna Fierling pulls a cart of provisions behind the Swedish army, and the war takes all three of her children one by one. Brecht took the name from Courasche, the heroine of Grimmelshausen's 1670 novel."
+   }
+  },
+  {
+   "id": "T287-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co mimo jiné zavedlo Obnovené zřízení zemské, vydané pro Čechy roku 1627?",
+    "en": "Among other things, what did the Renewed Land Ordinance, issued for Bohemia in 1627, introduce?"
+   },
+   "moznosti": {
+    "cs": [
+     "Svobodnou volbu krále stavy",
+     "Zrovnoprávnění němčiny s češtinou",
+     "Zrušení nevolnictví",
+     "Náboženskou svobodu pro luterány"
+    ],
+    "en": [
+     "Free election of the king by the Estates",
+     "Equal status for German alongside Czech",
+     "The abolition of serfdom",
+     "Religious freedom for Lutherans"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Němčina se formálně stala rovnocennou češtině, ve skutečnosti jí byla nadřazena. Zřízení také prohlásilo českou korunu za dědičnou v habsburském rodu; pro Moravu vyšlo o rok později, 10. května 1628.",
+    "en": "German formally gained equal status with Czech but in practice took precedence over it. The ordinance also made the Bohemian crown hereditary in the Habsburg dynasty; a version for Moravia followed a year later, on 10 May 1628."
+   }
+  },
+  {
+   "id": "T287-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Hlavy dvanácti vůdců stavovského povstání popravených roku 1621 byly vystaveny v železných koších. Na které stavbě?",
+    "en": "The heads of twelve leaders of the Bohemian Revolt executed in 1621 were put on display in iron baskets. On which structure?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Staroměstské mostecké věži",
+     "Na Jindřišské věži",
+     "Na Malostranské mostecké věži",
+     "Na věži Novoměstské radnice"
+    ],
+    "en": [
+     "The Old Town Bridge Tower",
+     "The Jindřišská Tower",
+     "The Lesser Town Bridge Tower",
+     "The New Town Hall tower"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Koše s hlavami visely na Staroměstské mostecké věži deset let, až do vpádu saského vojska do Prahy roku 1631. Těla bez hlav dostaly rodiny, aby je mohly pohřbít.",
+    "en": "The baskets with the heads hung on the Old Town Bridge Tower for ten years, until the Saxon army invaded Prague in 1631. The headless bodies were handed over to the families for burial."
+   }
+  },
+  {
+   "id": "T287-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Alžběta Stuartovna, manželka „zimního krále“ a dcera anglického krále Jakuba I., byla příbuzná s Jiřím I., který roku 1714 usedl na britský trůn. Jak?",
+    "en": "Elizabeth Stuart, wife of the 'Winter King' and daughter of King James I of England, was related to George I, who took the British throne in 1714. How?"
+   },
+   "moznosti": {
+    "cs": [
+     "Byla jeho tetou",
+     "Byla jeho babičkou",
+     "Byla jeho matkou",
+     "Byla jeho prababičkou"
+    ],
+    "en": [
+     "She was his aunt",
+     "She was his grandmother",
+     "She was his mother",
+     "She was his great-grandmother"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Její dcera Žofie Hannoverská byla matkou Jiřího I. a zákon o nástupnictví z roku 1701 svěřil trůn právě Žofii a jejím dědicům. Alžběta, „zimní královna“, je pohřbena ve Westminsterském opatství.",
+    "en": "Her daughter Sophia of Hanover was the mother of George I, and the Act of Settlement 1701 settled the throne on Sophia and her heirs. Elizabeth, the 'Winter Queen', is buried in Westminster Abbey."
+   }
+  },
+  {
+   "id": "T287-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Římský kostel Santa Maria della Vittoria, proslulý Berniniho sochou Extáze svaté Terezie, dostal jméno na oslavu vítězství v bitvě. Které?",
+    "en": "The Roman church of Santa Maria della Vittoria, famous for Bernini's Ecstasy of Saint Teresa, was named to celebrate a victory in battle. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "U Lepanta (1571)",
+     "Na Bílé hoře (1620)",
+     "U Lützenu (1632)",
+     "U Vídně (1683)"
+    ],
+    "en": [
+     "Lepanto (1571)",
+     "White Mountain (1620)",
+     "Lützen (1632)",
+     "Vienna (1683)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Kostel postavený původně jako kaple sv. Pavla byl po katolickém vítězství na Bílé hoře znovu zasvěcen Panně Marii Vítězné. Berniniho Extáze se nachází v jeho Cornarově kapli.",
+    "en": "Originally built as a chapel of St Paul, the church was rededicated to the Virgin Mary after the Catholic victory at White Mountain. Bernini's Ecstasy is in its Cornaro Chapel."
+   }
+  },
+  {
+   "id": "T287-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo byl vrchním velitelem vojska českých stavů v bitvě na Bílé hoře?",
+    "en": "Who was the commander-in-chief of the Bohemian Estates' army at the Battle of White Mountain?"
+   },
+   "moznosti": {
+    "cs": [
+     "Petr Arnošt Mansfeld",
+     "Karel Bonaventura Buquoy",
+     "Kristián I. z Anhaltu",
+     "Albrecht z Valdštejna"
+    ],
+    "en": [
+     "Ernst von Mansfeld",
+     "Charles Bonaventure de Bucquoy",
+     "Christian I of Anhalt",
+     "Albrecht von Wallenstein"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kristián z Anhaltu velel středu stavovské armády a jeho syn Kristián II. vedl protiútok, při němž padl do zajetí. Buquoy naopak velel spolu s Tillym vítězným císařským.",
+    "en": "Christian of Anhalt commanded the centre of the Estates' army, and his son Christian II led a counterattack in which he was captured. Bucquoy, by contrast, commanded the victorious Imperial side together with Tilly."
+   }
+  },
+  {
+   "id": "T287-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Bitva u Lützenu (1632) nestála život jen švédského krále. Který proslulý velitel císařské armády tam byl smrtelně raněn?",
+    "en": "The Battle of Lützen (1632) claimed more than the Swedish king's life. Which renowned Imperial commander was mortally wounded there?"
+   },
+   "moznosti": {
+    "cs": [
+     "Gottfried Heinrich Pappenheim",
+     "Johann Tserclaes Tilly",
+     "Heinrich Holk",
+     "Ottavio Piccolomini"
+    ],
+    "en": [
+     "Gottfried Heinrich zu Pappenheim",
+     "Johann Tserclaes, Count of Tilly",
+     "Heinrich Holk",
+     "Ottavio Piccolomini"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pappenheim zemřel při převozu z bojiště v kočáře. Císařská armáda se po bitvě stáhla a zanechala na místě raněné, mnoho děl i většinu zásob.",
+    "en": "Pappenheim died while being carried from the field in a coach. After the battle the Imperial army withdrew, abandoning its wounded, many guns and most of its supply train."
+   }
+  },
+  {
+   "id": "T287-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Švédové roku 1648 odvezli z Prahy i Stříbrnou bibli (Codex argenteus) – evangelia v gótštině psaná stříbrným a zlatým inkoustem na purpurovém pergamenu. Ve kterém městě je dnes uložena?",
+    "en": "In 1648 the Swedes also carried off from Prague the Silver Bible (Codex Argenteus) – Gothic gospels written in silver and gold ink on purple vellum. In which city is it kept today?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Göteborgu",
+     "V Uppsale",
+     "V Lundu",
+     "Ve Stockholmu"
+    ],
+    "en": [
+     "Gothenburg",
+     "Uppsala",
+     "Lund",
+     "Stockholm"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Rukopis s gótským překladem Bible připisovaným biskupu Wulfilovi je uložen v univerzitní knihovně Carolina Rediviva v Uppsale. Z Prahy ho však Švédové nejprve odvezli do knihovny královny Kristiny ve Stockholmu.",
+    "en": "The manuscript of the Gothic Bible translation attributed to Bishop Wulfila is kept in the Carolina Rediviva university library in Uppsala. From Prague, however, it was first taken to Queen Christina's library in Stockholm."
+   }
+  },
+  {
+   "id": "T287-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém polském městě působil Komenský v exilu, než při jeho vypálení roku 1656 přišel o většinu rukopisů?",
+    "en": "In which Polish town did Comenius live in exile until he lost most of his manuscripts when it was burned in 1656?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Toruni",
+     "V Krakově",
+     "V Gdaňsku",
+     "V Lešně"
+    ],
+    "en": [
+     "Toruń",
+     "Kraków",
+     "Gdańsk",
+     "Leszno"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "V požáru shořel i česko-latinský slovník Poklad jazyka českého, na němž Komenský pracoval téměř celý život, a většina Pansofie. Polští partyzáni vypálili jeho dům poté, co Komenský podpořil Švédy během jejich vpádu do Polska.",
+    "en": "The fire destroyed his Czech-Latin dictionary, the Treasury of the Czech Language, on which he had worked nearly all his life, and most of his Pansophia. Polish partisans burned his house after Comenius sided with the Swedes during their invasion of Poland."
+   }
+  },
+  {
+   "id": "T287-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kryštof Harant z Polžic a Bezdružic, jeden z popravených na Staroměstském náměstí roku 1621, je dnes známý i jako…",
+    "en": "Kryštof Harant of Polžice and Bezdružice, one of those executed on Old Town Square in 1621, is known today also as…"
+   },
+   "moznosti": {
+    "cs": [
+     "stavitel letohrádku Hvězda",
+     "autor první tištěné české mluvnice",
+     "alchymista na dvoře Rudolfa II.",
+     "skladatel a autor cestopisu do Svaté země"
+    ],
+    "en": [
+     "the builder of the Star Summer Palace",
+     "the author of the first printed Czech grammar",
+     "an alchemist at the court of Rudolf II",
+     "a composer and author of a travel book on the Holy Land"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Harant patřil k nejvýznamnějším českým skladatelům své doby a pouť do Svaté země popsal v knize vydané v Praze roku 1608. Za povstání dal ostřelovat císařský palác ve Vídni, v němž byl právě císař.",
+    "en": "Harant was one of the most important Bohemian composers of his time and described his pilgrimage to the Holy Land in a book published in Prague in 1608. During the revolt he had the imperial palace in Vienna bombarded while the Emperor was inside."
+   }
+  },
+  {
+   "id": "T287-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Lékař a rektor pražské univerzity Jan Jesenius, popravený roku 1621, je známý i tím, že roku 1600 v Praze…",
+    "en": "The physician and rector of Prague University Jan Jesenius, executed in 1621, is also known for having in Prague in 1600…"
+   },
+   "moznosti": {
+    "cs": [
+     "vyléčil Rudolfa II. z moru",
+     "založil první pražskou nemocnici",
+     "provedl veřejnou pitvu popraveného",
+     "zavedl očkování proti neštovicím"
+    ],
+    "en": [
+     "cured Rudolf II of the plague",
+     "founded Prague's first hospital",
+     "performed a public dissection of an executed man",
+     "introduced vaccination against smallpox"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Veřejnou pitvu těla popraveného provedl v Rečkově koleji a roku 1601 vydal anatomický spis Anatomiae Pragae. Rozsudek z roku 1621 nařídil vyříznout mu zaživa jazyk, teprve pak ho sťít a tělo rozčtvrtit.",
+    "en": "He performed the public dissection of an executed man's body at the Reček College and in 1601 published the anatomical work Anatomiae Pragae. His 1621 sentence ordered his tongue to be cut out alive before he was beheaded and his body quartered."
+   }
+  },
+  {
+   "id": "T287-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč jsou bronzové sochy Adriaena de Vriese ve Valdštejnské zahradě jen kopiemi?",
+    "en": "Why are the bronze statues by Adriaen de Vries in the Wallenstein Garden only copies?"
+   },
+   "moznosti": {
+    "cs": [
+     "Originály odvezli Švédové roku 1648",
+     "Originály dali Švédové roku 1648 roztavit na děla",
+     "Originály zničila povodeň roku 2002",
+     "Originály ukradli nacisté roku 1944"
+    ],
+    "en": [
+     "The Swedes carried off the originals in 1648",
+     "The Swedes had the originals melted down for cannons in 1648",
+     "The originals were destroyed by the 2002 flood",
+     "The Nazis stole the originals in 1944"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Originály dnes stojí u zámku Drottningholm nedaleko Stockholmu. Podle švédského soupisu z roku 1652 si Švédové z Prahy odvezli také 472 obrazů.",
+    "en": "The originals now stand at Drottningholm Palace near Stockholm. According to a Swedish inventory of 1652, the Swedes also took 472 paintings from Prague."
+   }
+  }
+ ]
+}

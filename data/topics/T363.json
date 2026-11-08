@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T363",
+ "nazev": {
+  "cs": "Ruská literatura: od Puškina po Bulgakova",
+  "en": "Russian Literature: from Pushkin to Bulgakov"
+ },
+ "kategorie": {
+  "id": "umeni-a-literatura",
+  "nazev": {
+   "cs": "Umění a literatura",
+   "en": "Art & Literature"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T363-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo napsal román ve verších Evžen Oněgin?",
+    "en": "Who wrote the novel in verse Eugene Onegin?"
+   },
+   "moznosti": {
+    "cs": [
+     "Alexandr Puškin",
+     "Michail Lermontov",
+     "Ivan Turgeněv",
+     "Nikolaj Gogol"
+    ],
+    "en": [
+     "Alexander Pushkin",
+     "Mikhail Lermontov",
+     "Ivan Turgenev",
+     "Nikolai Gogol"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Puškin vydával Oněgina po částech v letech 1825–1832, celý knižně vyšel roku 1833. Petr Iljič Čajkovskij podle něj složil operu (1879), která patří k nejhranějším na světě.",
+    "en": "Pushkin published Onegin in instalments from 1825 to 1832, and the complete book appeared in 1833. Tchaikovsky based an opera on it (1879), one of the most performed operas in the world."
+   }
+  },
+  {
+   "id": "T363-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém Dostojevského románu zabije zchudlý bývalý student Raskolnikov sekerou starou lichvářku?",
+    "en": "In which Dostoevsky novel does the destitute former student Raskolnikov kill an old pawnbroker with an axe?"
+   },
+   "moznosti": {
+    "cs": [
+     "Běsi",
+     "Výrostek",
+     "Idiot",
+     "Zločin a trest"
+    ],
+    "en": [
+     "Demons",
+     "The Adolescent",
+     "The Idiot",
+     "Crime and Punishment"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Zločin a trest vycházel roku 1866 na pokračování v časopise Ruský věstník (Русский вестник). Raskolnikov se nakonec přizná a Soňa Marmeladovová ho následuje na Sibiř.",
+    "en": "Crime and Punishment was serialised in 1866 in The Russian Messenger. Raskolnikov eventually confesses, and Sonya Marmeladova follows him to Siberia."
+   }
+  },
+  {
+   "id": "T363-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo napsal román Vojna a mír?",
+    "en": "Who wrote the novel War and Peace?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ivan Turgeněv",
+     "Fjodor Dostojevskij",
+     "Anton Čechov",
+     "Lev Tolstoj"
+    ],
+    "en": [
+     "Ivan Turgenev",
+     "Fyodor Dostoevsky",
+     "Anton Chekhov",
+     "Leo Tolstoy"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Tolstoj psal Vojnu a mír v letech 1862–1869 na svém rodném panství Jasná Poljana u Tuly. Tam později vznikla i Anna Karenina.",
+    "en": "Tolstoy wrote War and Peace from 1862 to 1869 at Yasnaya Polyana, his family estate near Tula, where he later also wrote Anna Karenina."
+   }
+  },
+  {
+   "id": "T363-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaké zvíře je Behemot, jeden z Wolandových pomocníků v románu Mistr a Markétka?",
+    "en": "What kind of animal is Behemoth, one of Woland's assistants in The Master and Margarita?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pes",
+     "Kocour",
+     "Opice",
+     "Havran"
+    ],
+    "en": [
+     "A dog",
+     "A cat",
+     "A monkey",
+     "A raven"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Behemot je obrovský černý kocour velký jako prase, který chodí po dvou a mluví. Jméno si půjčil od biblické nestvůry.",
+    "en": "Behemoth is a huge black cat the size of a hog that walks on two legs and talks. His name comes from a biblical monster."
+   }
+  },
+  {
+   "id": "T363-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo se v románu Mistr a Markétka skrývá za záhadným zahraničním „profesorem“ Wolandem, který přijede do Moskvy pořádat představení černé magie?",
+    "en": "Who is hiding behind the mysterious foreign 'professor' Woland, who comes to Moscow to give a black magic show in The Master and Margarita?"
+   },
+   "moznosti": {
+    "cs": [
+     "Duch zesnulého cara",
+     "Archanděl Gabriel",
+     "Satan",
+     "Poncius Pilát"
+    ],
+    "en": [
+     "The ghost of a dead tsar",
+     "The Archangel Gabriel",
+     "Satan",
+     "Pontius Pilate"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Woland je ďábel v přestrojení. Když se mu Mistr omlouvá, že svůj román spálil, odpoví slavnou větou „Rukopisy nehoří“.",
+    "en": "Woland is the Devil in disguise. When the Master apologises for having burned his novel, Woland replies with the famous line 'Manuscripts don't burn.'"
+   }
+  },
+  {
+   "id": "T363-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak v roce 1837 zemřel Alexandr Puškin?",
+    "en": "How did Alexander Pushkin die in 1837?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na tuberkulózu",
+     "Na zranění ze souboje",
+     "Utonul v Něvě",
+     "Byl popraven za spiknutí"
+    ],
+    "en": [
+     "Of tuberculosis",
+     "From a wound received in a duel",
+     "He drowned in the Neva",
+     "He was executed for conspiracy"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Puškina v souboji postřelil francouzský důstojník Georges d'Anthès, manžel sestry jeho ženy, o němž se šuškalo, že se jeho ženě dvoří. Básník zemřel o dva dny později.",
+    "en": "Pushkin was shot in a duel by the French officer Georges d'Anthès, who was married to his wife's sister and was rumoured to be courting his wife. The poet died two days later."
+   }
+  },
+  {
+   "id": "T363-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo napsal komedii Revizor, v níž úředníci zapadlého městečka považují bezvýznamného mladíka za tajného inspektora?",
+    "en": "Who wrote the comedy The Government Inspector, in which the officials of a provincial town mistake an insignificant young man for a secret inspector?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nikolaj Gogol",
+     "Alexandr Puškin",
+     "Maxim Gorkij",
+     "Anton Čechov"
+    ],
+    "en": [
+     "Nikolai Gogol",
+     "Alexander Pushkin",
+     "Maxim Gorky",
+     "Anton Chekhov"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Revizor měl premiéru v roce 1836 a hrát se směl jen díky osobnímu zásahu cara Mikuláše I. Hejtman se v závěru obrací k publiku: „Čemu se smějete? Sami sobě se smějete!“",
+    "en": "The Government Inspector premiered in 1836 and was staged only after Tsar Nicholas I personally intervened. Near the end the Mayor turns to the audience: 'What are you laughing about? You are laughing at yourselves!'"
+   }
+  },
+  {
+   "id": "T363-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo napsal Souostroví Gulag, rozsáhlé dílo o sovětských pracovních táborech?",
+    "en": "Who wrote The Gulag Archipelago, a vast work about the Soviet labour camps?"
+   },
+   "moznosti": {
+    "cs": [
+     "Michail Bulgakov",
+     "Vladimir Nabokov",
+     "Boris Pasternak",
+     "Alexandr Solženicyn"
+    ],
+    "en": [
+     "Mikhail Bulgakov",
+     "Vladimir Nabokov",
+     "Boris Pasternak",
+     "Aleksandr Solzhenitsyn"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Souostroví Gulag vyšlo v roce 1973 mimo SSSR. V únoru 1974 byl Solženicyn zatčen, zbaven občanství a vyhoštěn; Nobelovu cenu za literaturu dostal už v roce 1970.",
+    "en": "The Gulag Archipelago was published outside the USSR in 1973. In February 1974 Solzhenitsyn was arrested, stripped of his citizenship and deported; he had already won the Nobel Prize in Literature in 1970."
+   }
+  },
+  {
+   "id": "T363-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo napsal román Mistr a Markétka?",
+    "en": "Who wrote the novel The Master and Margarita?"
+   },
+   "moznosti": {
+    "cs": [
+     "Michail Bulgakov",
+     "Maxim Gorkij",
+     "Alexandr Solženicyn",
+     "Boris Pasternak"
+    ],
+    "en": [
+     "Mikhail Bulgakov",
+     "Maxim Gorky",
+     "Aleksandr Solzhenitsyn",
+     "Boris Pasternak"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Bulgakov na románu pracoval v letech 1928–1940 a přestal asi čtyři týdny před svou smrtí. Poprvé vyšel až v letech 1966–1967 v časopise Moskva, a to se škrty asi 12 % textu.",
+    "en": "Bulgakov worked on the novel from 1928 to 1940, stopping about four weeks before his death. It first appeared only in 1966–1967 in the magazine Moskva, with about 12 per cent of the text cut."
+   }
+  },
+  {
+   "id": "T363-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo je autorem her Strýček Váňa, Tři sestry a Višňový sad?",
+    "en": "Who wrote the plays Uncle Vanya, Three Sisters and The Cherry Orchard?"
+   },
+   "moznosti": {
+    "cs": [
+     "Maxim Gorkij",
+     "Lev Tolstoj",
+     "Nikolaj Gogol",
+     "Anton Čechov"
+    ],
+    "en": [
+     "Maxim Gorky",
+     "Leo Tolstoy",
+     "Nikolai Gogol",
+     "Anton Chekhov"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Spolu s Rackem jde o čtyři velké Čechovovy hry. Čechov zemřel na tuberkulózu v roce 1904 v německých lázních Badenweiler.",
+    "en": "Together with The Seagull these are Chekhov's four major plays. He died of tuberculosis in 1904 at the German spa town of Badenweiler."
+   }
+  },
+  {
+   "id": "T363-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Puškinův pradědeček Abram Gannibal se dostal do Ruska jako africký chlapec. Který panovník ho propustil na svobodu a vychovával u dvora jako svého kmotřence?",
+    "en": "Pushkin's great-grandfather Abram Gannibal came to Russia as an African boy. Which ruler freed him and raised him at court as his godson?"
+   },
+   "moznosti": {
+    "cs": [
+     "Petr Veliký",
+     "Kateřina Veliká",
+     "Ivan Hrozný",
+     "Alexandr I."
+    ],
+    "en": [
+     "Peter the Great",
+     "Catherine the Great",
+     "Ivan the Terrible",
+     "Alexander I"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Gannibala dostal Petr Veliký darem z Konstantinopole. Podle novějších badatelů pocházel ze střední Afriky, z oblasti u Čadského jezera v dnešním Kamerunu.",
+    "en": "Gannibal was given to Peter the Great from Constantinople. More recent scholars conclude he came from Central Africa, near Lake Chad in present-day Cameroon."
+   }
+  },
+  {
+   "id": "T363-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Koho zabije Evžen Oněgin v souboji?",
+    "en": "Whom does Eugene Onegin kill in a duel?"
+   },
+   "moznosti": {
+    "cs": [
+     "Svého přítele, básníka Lenského",
+     "Svého bohatého strýce",
+     "Důstojníka, který ho urazil",
+     "Taťánina manžela, knížete"
+    ],
+    "en": [
+     "His friend, the poet Lensky",
+     "His rich uncle",
+     "An officer who insulted him",
+     "Tatiana's husband, the prince"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Oněgin na plese tančí a flirtuje s Lenského snoubenkou Olgou, aby se Lenskému pomstil. Lenskij ho vyzve a Oněgin ho nerad zastřelí. Olga je mladší sestra Taťány.",
+    "en": "At a ball Onegin dances and flirts with Lensky's fiancée Olga to get back at Lensky. Lensky challenges him and Onegin reluctantly kills him. Olga is Tatiana's younger sister."
+   }
+  },
+  {
+   "id": "T363-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Hlavní postavou kterého románu je znuděný a rozčarovaný mladý šlechtic a důstojník Pečorin?",
+    "en": "Which novel centres on Pechorin, a bored and disenchanted young nobleman and officer?"
+   },
+   "moznosti": {
+    "cs": [
+     "Šlechtické hnízdo",
+     "Kdo je vinen?",
+     "Hrdina naší doby",
+     "Všední příběh"
+    ],
+    "en": [
+     "Home of the Gentry",
+     "Who Is to Blame?",
+     "A Hero of Our Time",
+     "A Common Story"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Lermontovův román z roku 1840 tvoří pět propojených příběhů. Bývá považován za průkopnické dílo ruského psychologického realismu.",
+    "en": "Lermontov's 1840 novel consists of five linked stories and is often seen as a pioneering work of Russian psychological realism."
+   }
+  },
+  {
+   "id": "T363-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co skupuje Čičikov, hrdina Gogolových Mrtvých duší?",
+    "en": "What does Chichikov, the hero of Gogol's Dead Souls, buy up?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zemřelé nevolníky vedené v soupisech",
+     "Pozůstalosti zesnulých statkářů",
+     "Hrobová místa na venkovských hřbitovech",
+     "Dluhy po zemřelých šlechticích"
+    ],
+    "en": [
+     "Dead serfs still on the registers",
+     "Estates of deceased landowners",
+     "Burial plots in village cemeteries",
+     "Debts of deceased noblemen"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Statkáři platili daň i z nevolníků, kteří zemřeli, ale v úředních soupisech dosud figurovali. Čičikov je chce levně získat a vzít si na ně velkou půjčku.",
+    "en": "Landowners still paid tax on serfs who had died but remained on the official registers. Chichikov wants to get them cheaply and take out a large loan against them."
+   }
+  },
+  {
+   "id": "T363-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co se 22. prosince 1849 stalo Fjodoru Dostojevskému na Semjonovském náměstí v Petrohradu?",
+    "en": "What happened to Fyodor Dostoevsky on Semyonov Square in Saint Petersburg on 22 December 1849?"
+   },
+   "moznosti": {
+    "cs": [
+     "Utkal se v souboji s kritikem",
+     "Car mu předal vyznamenání",
+     "Stál před popravou, ale dostal milost",
+     "Veřejně předčítal svůj první román"
+    ],
+    "en": [
+     "He fought a duel with a critic",
+     "The tsar presented him with an award",
+     "He faced execution but was reprieved",
+     "He gave a public reading of his first novel"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jako člen Petraševského kroužku byl odsouzen k smrti, ale na poslední chvíli přivezli carův dopis o změně trestu. Následovaly čtyři roky katorgy v sibiřském Omsku a nucená vojenská služba.",
+    "en": "As a member of the Petrashevsky Circle he was sentenced to death, but at the last moment a letter from the tsar commuting the sentence arrived. He then served four years of hard labour in Omsk, Siberia, followed by compulsory military service."
+   }
+  },
+  {
+   "id": "T363-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který pojem zpopularizoval Ivan Turgeněv postavou Bazarova v románu Otcové a děti (1862)?",
+    "en": "Which term did Ivan Turgenev popularise through the character of Bazarov in Fathers and Sons (1862)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Existencialismus",
+     "Dekadence",
+     "Anarchismus",
+     "Nihilismus"
+    ],
+    "en": [
+     "Existentialism",
+     "Decadence",
+     "Anarchism",
+     "Nihilism"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Bazarov odmítá všechny zděděné hodnoty včetně umění a poezie a uznává jen to, co je užitečné. Je to student medicíny a umírá na otravu krve, když se pořeže při pitvě.",
+    "en": "Bazarov rejects all received values, including art and poetry, and accepts only what is useful. He is a medical student and dies of blood poisoning after cutting himself during an autopsy."
+   }
+  },
+  {
+   "id": "T363-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Puškinova novela, v níž se důstojník Hermann snaží vyzvědět od staré hraběnky tajemství tří vítězných karet, se stala předlohou Čajkovského opery. Jak se jmenuje?",
+    "en": "Pushkin's story in which the officer Hermann tries to learn the secret of three winning cards from an old countess became the basis for a Tchaikovsky opera. What is it called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dubrovskij",
+     "Maškaráda",
+     "Kapitánova dcera",
+     "Piková dáma"
+    ],
+    "en": [
+     "Dubrovsky",
+     "Masquerade",
+     "The Captain's Daughter",
+     "The Queen of Spades"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Tajemstvím jsou trojka, sedma a eso, které se hraběnka údajně dozvěděla od hraběte Saint-Germaina. Novela vyšla roku 1834, Čajkovského opera roku 1890.",
+    "en": "The secret is the three, seven and ace, which the countess supposedly learned from the Count of St. Germain. The story was published in 1834 and Tchaikovsky's opera in 1890."
+   }
+  },
+  {
+   "id": "T363-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaký obor vystudovali Anton Čechov i Michail Bulgakov?",
+    "en": "What did both Anton Chekhov and Mikhail Bulgakov study?"
+   },
+   "moznosti": {
+    "cs": [
+     "Práva",
+     "Medicínu",
+     "Teologii",
+     "Inženýrství"
+    ],
+    "en": [
+     "Law",
+     "Medicine",
+     "Theology",
+     "Engineering"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Čechov o sobě říkal, že medicína je jeho zákonná manželka a literatura milenka. Bulgakov vystudoval medicínu v Kyjevě, za první světové války pracoval jako lékař a psaní se plně věnoval až od roku 1920.",
+    "en": "Chekhov said medicine was his lawful wife and literature his mistress. Bulgakov studied medicine in Kiev, worked as a doctor during the First World War and turned fully to writing only in 1920."
+   }
+  },
+  {
+   "id": "T363-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Rodné město Maxima Gorkého neslo v letech 1932–1990 na jeho počest název Gorkij. Které město to je?",
+    "en": "Maxim Gorky's home city was named Gorky in his honour from 1932 to 1990. Which city is it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nižnij Novgorod",
+     "Jekatěrinburg",
+     "Volgograd",
+     "Samara"
+    ],
+    "en": [
+     "Nizhny Novgorod",
+     "Yekaterinburg",
+     "Volgograd",
+     "Samara"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pseudonym Gorkij znamená rusky „hořký“. Po návratu do SSSR byl oficiálně prohlášen za zakladatele socialistického realismu.",
+    "en": "The pen name Gorky means 'bitter' in Russian. After returning to the USSR he was officially proclaimed the founder of Socialist Realism."
+   }
+  },
+  {
+   "id": "T363-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kde je pohřben Lev Tolstoj?",
+    "en": "Where is Leo Tolstoy buried?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na hřbitově v Petrohradu",
+     "Na nádraží v Astapovu",
+     "Na svém panství Jasná Poljana",
+     "U Kremelské zdi v Moskvě"
+    ],
+    "en": [
+     "In a cemetery in Saint Petersburg",
+     "At the railway station in Astapovo",
+     "On his estate, Yasnaya Polyana",
+     "By the Kremlin Wall in Moscow"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Tolstoj zemřel v roce 1910 ve věku 82 let na nádraží v Astapovu, ale pohřben je v prostém hrobě bez ozdob na lesní mýtině rodného panství, kde se i narodil. Podle jeho bratra Nikolaje tam byla ukrytá kouzelná zelená hůlka a kdo by ji našel, nikdy by nezemřel ani neonemocněl.",
+    "en": "Tolstoy died in 1910 aged 82 at Astapovo railway station, but he is buried in a plain, unadorned grave in a forest clearing on the estate where he was born. His brother Nikolai claimed that whoever found a magic green wand hidden there would never die or fall ill."
+   }
+  },
+  {
+   "id": "T363-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Nikolaj Gogol v únoru 1852, krátce před svou smrtí, spálil rukopisy. Co v ohni zmizelo?",
+    "en": "In February 1852, shortly before his death, Nikolai Gogol burned his manuscripts. What was lost in the fire?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jeho deníky z cest po Itálii",
+     "Většina druhého dílu Mrtvých duší",
+     "Dopisy carovi Mikuláši I.",
+     "Jeho nedokončené paměti"
+    ],
+    "en": [
+     "His diaries from his travels in Italy",
+     "Most of the second part of Dead Souls",
+     "His letters to Tsar Nicholas I",
+     "His unfinished memoirs"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Gogol to pak označil za omyl a ďáblův žert. Přestal jíst a zemřel asi o devět dní později; dnešní vydání obsahují jen zachované zlomky druhého dílu.",
+    "en": "Gogol later called it a mistake, a prank played on him by the Devil. He stopped eating and died about nine days later; modern editions include only the surviving fragments of the second part."
+   }
+  },
+  {
+   "id": "T363-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Román Borise Pasternaka Doktor Živago nesměl v SSSR vyjít. Ve které zemi poprvé vyšel, a to v překladu, v roce 1957?",
+    "en": "Boris Pasternak's novel Doctor Zhivago could not be published in the USSR. In which country was it first published, in translation, in 1957?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Francii",
+     "V Itálii",
+     "Ve Velké Británii",
+     "V USA"
+    ],
+    "en": [
+     "France",
+     "Italy",
+     "United Kingdom",
+     "USA"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Rukopis se ze SSSR propašovaně dostal k milánskému nakladateli Giangiacomu Feltrinellimu a román vyšel v listopadu 1957 italsky. Oficiálně v SSSR vyšel až v roce 1988 v časopise Novyj mir (Новый мир).",
+    "en": "The manuscript was smuggled out of the USSR for the Milan publisher Giangiacomo Feltrinelli, and the novel came out in Italian in November 1957. It was officially published in the USSR only in 1988, in the journal Novy Mir."
+   }
+  },
+  {
+   "id": "T363-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Otec Vladimira Nabokova, liberální politik Vladimir Dmitrijevič Nabokov, zahynul v březnu 1922 v Berlíně. Jak?",
+    "en": "Vladimir Nabokov's father, the liberal politician Vladimir Dmitrievich Nabokov, was killed in Berlin in March 1922. How?"
+   },
+   "moznosti": {
+    "cs": [
+     "Padl v souboji s monarchistou",
+     "Zahynul při požáru redakce svého listu",
+     "Kryl jiného politika před atentátníky",
+     "Unesli ho agenti sovětské tajné policie"
+    ],
+    "en": [
+     "In a duel with a monarchist",
+     "In a fire at his newspaper's office",
+     "Shielding another politician from assassins",
+     "Kidnapped by Soviet secret police agents"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Dva ruští monarchisté chtěli zastřelit Pavla Miljukova, jednoho z exilových vůdců kadetů, a Nabokov starší ho kryl vlastním tělem. Syn tehdy psal rusky pod pseudonymem V. Sirin podle báječného ptáka z ruských pověstí.",
+    "en": "Two Russian monarchists were trying to shoot Pavel Milyukov, one of the exiled leaders of the Constitutional Democrats, and Nabokov's father shielded him. His son was then writing in Russian under the pen name V. Sirin, after a fabulous bird of Russian folklore."
+   }
+  },
+  {
+   "id": "T363-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Dostojevskij musel nakladateli Stellovskému dodat do listopadu 1866 nový román, Hráče. Dokončil ho za 26 dní s pomocí mladé stenografky Anny Snitkinové. Kým se mu později stala?",
+    "en": "Dostoevsky had to deliver a new novel, The Gambler, to the publisher Stellovsky by November 1866. He finished it in 26 days with the help of a young stenographer, Anna Snitkina. What did she later become to him?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jeho manželkou",
+     "Jeho švagrovou",
+     "Kritičkou, která ho proslavila v Evropě",
+     "Jeho překladatelkou do němčiny"
+    ],
+    "en": [
+     "His wife",
+     "His sister-in-law",
+     "The critic who made him famous in Europe",
+     "His German translator"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vzali se 15. února 1867 v Petrohradu. Hráč čerpá z Dostojevského vlastní vášně pro ruletu: v roce 1863 prohrál ve Wiesbadenu a Baden-Badenu téměř všechny peníze.",
+    "en": "They married on 15 February 1867 in Saint Petersburg. The Gambler draws on Dostoevsky's own passion for roulette: in 1863 he lost nearly all his money in Wiesbaden and Baden-Baden."
+   }
+  },
+  {
+   "id": "T363-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Rozsáhlou báseň Rekviem (Реквием) psala Anna Achmatovová tajně v letech 1935–1940. Co ji k ní přivedlo?",
+    "en": "Anna Akhmatova wrote her long poem Requiem in secret between 1935 and 1940. What led her to write it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zimní válka s Finskem",
+     "Zatčení syna a fronty před věznicemi",
+     "Hladomor na Ukrajině",
+     "Její vlastní vyhnanství na Sibiř"
+    ],
+    "en": [
+     "The Winter War with Finland",
+     "Her son's arrest and the prison queues",
+     "The famine in Ukraine",
+     "Her own exile to Siberia"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Její syn Lev Gumiljov byl opakovaně zatčen a ona hodiny čekala ve frontách před věznicí. Jedna žena s promodralými rty se jí tam zeptala „A tohle dokážete popsat?“ a Achmatovová odpověděla „Dokážu.“ Rusky Rekviem knižně vyšlo v Mnichově 1963, celé v SSSR až 1987.",
+    "en": "Her son Lev Gumilev was arrested repeatedly and she queued for hours outside the prison. A woman with blue lips there asked her, 'Can you describe this?' and Akhmatova replied, 'I can.' The Russian text first appeared in book form in Munich in 1963, and in full in the USSR only in 1987."
+   }
+  },
+  {
+   "id": "T363-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kde žil Alexandr Solženicyn většinu svého exilu poté, co byl v roce 1974 vyhoštěn ze SSSR?",
+    "en": "Where did Aleksandr Solzhenitsyn spend most of his exile after being deported from the USSR in 1974?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Západním Berlíně",
+     "V Paříži",
+     "Ve státě Vermont v USA",
+     "V Curychu ve Švýcarsku"
+    ],
+    "en": [
+     "In West Berlin",
+     "In Paris",
+     "In the state of Vermont, USA",
+     "In Zurich, Switzerland"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Po vyhoštění do západního Německa bydlel nejprve u Heinricha Bölla, pak krátce v Curychu a od roku 1976 v městečku Cavendish ve Vermontu. Do Ruska se vrátil v roce 1994.",
+    "en": "After being deported to West Germany he stayed first at Heinrich Böll's house, then briefly in Zurich, and from 1976 in the small town of Cavendish, Vermont. He returned to Russia in 1994."
+   }
+  },
+  {
+   "id": "T363-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Michail Lermontov reagoval na Puškinovu smrt v roce 1837 básní Smrt básníka (Смерть поэта), v níž vinil dvorské kruhy. Jaké to pro něj mělo následky?",
+    "en": "Mikhail Lermontov responded to Pushkin's death in 1837 with the poem Death of the Poet, blaming circles at court. What were the consequences for him?"
+   },
+   "moznosti": {
+    "cs": [
+     "Musel odejít do emigrace v Paříži",
+     "Byl poslán na katorgu do Omsku",
+     "Byl zatčen a poslán na Kavkaz",
+     "Car mu udělil dvorskou hodnost"
+    ],
+    "en": [
+     "He had to emigrate to Paris",
+     "He was sent to hard labour in Omsk",
+     "He was arrested and sent to the Caucasus",
+     "The tsar gave him a court rank"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Lermontov byl zatčen a v únoru 1837 odvelen jako kornet k dragounskému pluku na Kavkaz. V roce 1841 zahynul u Pjatigorsku v souboji s Nikolajem Martynovem.",
+    "en": "Lermontov was arrested and in February 1837 banished to the Caucasus as a cornet in a dragoon regiment. He was killed in 1841 near Pyatigorsk in a duel with Nikolai Martynov."
+   }
+  },
+  {
+   "id": "T363-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Za vraždu Fjodora Pavloviče Karamazova je v románu Bratři Karamazovi odsouzen jeho syn Dmitrij. Kdo otce ve skutečnosti zabil?",
+    "en": "In The Brothers Karamazov, his son Dmitri is convicted of murdering Fyodor Pavlovich Karamazov. Who actually killed the father?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dmitrijova snoubenka Kateřina",
+     "Starec Zosima",
+     "Nejmladší syn Aljoša",
+     "Sluha Smerďakov"
+    ],
+    "en": [
+     "Dmitri's fiancée Katerina",
+     "The elder Zosima",
+     "The youngest son, Alyosha",
+     "The servant Smerdyakov"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Smerďakov, o němž se povídá, že je Fjodorovým nemanželským synem, se přizná Ivanovi a oběsí se. Dmitrij dostane dvacet let katorgy; Dostojevskij zemřel necelé čtyři měsíce po vydání románu.",
+    "en": "Smerdyakov, rumoured to be Fyodor's illegitimate son, confesses to Ivan and hangs himself. Dmitri gets twenty years of hard labour; Dostoevsky died less than four months after the novel was published."
+   }
+  },
+  {
+   "id": "T363-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kam se v roce 1890 vydal Anton Čechov přes celou Sibiř, aby tam sepsal a vyzpovídal tisíce trestanců a osadníků?",
+    "en": "Where did Anton Chekhov travel across the whole of Siberia in 1890 to interview and register thousands of convicts and settlers?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Čukotku",
+     "Na Kurilské ostrovy",
+     "Na ostrov Sachalin",
+     "Na Kamčatku"
+    ],
+    "en": [
+     "To Chukotka",
+     "To the Kuril Islands",
+     "To Sakhalin Island",
+     "To Kamchatka"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Na trestanecké kolonii provedl vlastní sčítání. Výsledkem je kniha Ostrov Sachalin (Остров Сахалин, 1893–1894), která je spíš sociologickou studií než literaturou.",
+    "en": "At the penal colony he carried out his own census. The result was the book The Island of Sakhalin (1893–1894), more a work of social science than of literature."
+   }
+  },
+  {
+   "id": "T363-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Román ve verších Evžen Oněgin je napsán takzvanou oněginskou strofou. Kolik veršů má každá strofa?",
+    "en": "The novel in verse Eugene Onegin is written in the so-called Onegin stanza. How many lines does each stanza have?"
+   },
+   "moznosti": {
+    "cs": [
+     "12",
+     "14",
+     "16",
+     "18"
+    ],
+    "en": [
+     "12",
+     "14",
+     "16",
+     "18"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Každá strofa má 14 veršů ve čtyřstopém jambu s rýmovým schématem AbAbCCddEffEgg, kde velká písmena značí ženské rýmy. Počtem veršů připomíná sonet.",
+    "en": "Each stanza has 14 lines of iambic tetrameter with the rhyme scheme AbAbCCddEffEgg, where capitals mark feminine rhymes. Its length echoes the sonnet."
+   }
+  }
+ ]
+}

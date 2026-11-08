@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T230",
+ "nazev": {
+  "cs": "Kosti, svaly a pohyb",
+  "en": "Bones, Muscles and Movement"
+ },
+ "kategorie": {
+  "id": "lidske-telo",
+  "nazev": {
+   "cs": "Lidské tělo",
+   "en": "Human Body"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T230-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá pevná vazivová struktura, která připojuje sval ke kosti?",
+    "en": "What is the tough fibrous structure that attaches a muscle to a bone called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vaz",
+     "Okostice",
+     "Chrupavka",
+     "Šlacha"
+    ],
+    "en": [
+     "Ligament",
+     "Periosteum",
+     "Cartilage",
+     "Tendon"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Šlacha spojuje sval s kostí, kdežto vaz spojuje kost s kostí. Šlachy tvoří hlavně pevná kolagenová vlákna.",
+    "en": "A tendon connects muscle to bone, whereas a ligament connects bone to bone. Tendons are made mainly of strong collagen fibres."
+   }
+  },
+  {
+   "id": "T230-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik žeber má obvykle dospělý člověk?",
+    "en": "How many ribs does an adult human usually have?"
+   },
+   "moznosti": {
+    "cs": [
+     "20",
+     "22",
+     "24",
+     "26"
+    ],
+    "en": [
+     "20",
+     "22",
+     "24",
+     "26"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hrudník tvoří 12 párů žeber, a to u mužů i žen – představa, že muži mají o žebro méně (podle příběhu o Adamovi), je mýtus. Asi 1 člověk z 200–500 má navíc krční žebro.",
+    "en": "The rib cage has 12 pairs of ribs in both men and women – the idea that men have one fewer (from the Adam story) is a myth. About 1 in 200–500 people has an extra cervical rib."
+   }
+  },
+  {
+   "id": "T230-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaká tkáň dává tvar ušnímu boltci?",
+    "en": "Which tissue gives the outer ear (auricle) its shape?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kost",
+     "Sval",
+     "Chrupavka",
+     "Šlacha"
+    ],
+    "en": [
+     "Bone",
+     "Muscle",
+     "Cartilage",
+     "Tendon"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Boltec vyztužuje pružná (elastická) chrupavka, proto ho lze ohnout a vrátí se do původního tvaru. Stejná chrupavka tvoří i hrtanovou příklopku.",
+    "en": "The auricle is supported by elastic cartilage, so it can be bent and springs back into shape. The same type of cartilage forms the epiglottis."
+   }
+  },
+  {
+   "id": "T230-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá onemocnění, při kterém kosti řídnou, ztrácejí hmotu a snadno se lámou?",
+    "en": "What is the disease in which bones become thinner, lose mass and break easily called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dna",
+     "Skolióza",
+     "Artróza",
+     "Osteoporóza"
+    ],
+    "en": [
+     "Gout",
+     "Scoliosis",
+     "Osteoarthritis",
+     "Osteoporosis"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Při osteoporóze kost ztrácí hmotu i vnitřní stavbu a stává se pórovitou. Nejčastěji se lámou zápěstí, obratle, rameno a kyčel; podle odhadů postihuje celosvětově asi pětinu žen nad 50 let.",
+    "en": "In osteoporosis bone loses mass and inner structure and becomes porous. The wrist, vertebrae, shoulder and hip break most often; it is estimated to affect about a fifth of women over 50 worldwide."
+   }
+  },
+  {
+   "id": "T230-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který sval na přední straně paže ohýbá loket a vyboulí se, když někdo „ukazuje svaly“?",
+    "en": "Which muscle on the front of the upper arm bends the elbow and bulges when someone \"shows off their muscles\"?"
+   },
+   "moznosti": {
+    "cs": [
+     "Široký sval zádový (latissimus)",
+     "Deltový sval (deltoideus)",
+     "Trojhlavý sval pažní (triceps)",
+     "Dvojhlavý sval pažní (biceps)"
+    ],
+    "en": [
+     "Latissimus dorsi",
+     "Deltoid",
+     "Triceps brachii",
+     "Biceps brachii"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Biceps ohýbá loket a také otáčí předloktí dlaní vzhůru. Jméno znamená „dvojhlavý“ – sval začíná dvěma hlavami, které se na paži spojují v jednu svalovou hmotu.",
+    "en": "The biceps bends the elbow and also rotates the forearm palm-up. Its name means \"two-headed\" – it starts with two heads that join in the upper arm into a single muscle mass."
+   }
+  },
+  {
+   "id": "T230-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá zlomenina, při níž úlomek kosti pronikne kůží ven?",
+    "en": "What is a fracture in which a piece of broken bone pierces through the skin called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Otevřená",
+     "Zavřená",
+     "Únavová",
+     "Tříštivá"
+    ],
+    "en": [
+     "Open",
+     "Closed",
+     "Stress",
+     "Comminuted"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "U otevřené zlomeniny prorazí kost kůži, a proto hrozí mnohem vyšší riziko infekce. Zavřená zlomenina kůži neporuší.",
+    "en": "In an open fracture the bone breaks through the skin, so the risk of infection is much higher. A closed fracture leaves the skin intact."
+   }
+  },
+  {
+   "id": "T230-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která kost je u člověka považována za pozůstatek ocasu?",
+    "en": "Which human bone is regarded as the remnant of a tail?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kostrč",
+     "Hrudní kost",
+     "Stydká kost",
+     "Křížová kost"
+    ],
+    "en": [
+     "Coccyx",
+     "Sternum",
+     "Pubis",
+     "Sacrum"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kostrč je u lidí a dalších bezocasých primátů zakrnělým zbytkem ocasu. Tvoří ji tři až pět drobných obratlů, které mohou být srostlé i oddělené.",
+    "en": "In humans and other tailless primates the coccyx is the remnant of a vestigial tail. It consists of three to five small vertebrae, which may be fused or separate."
+   }
+  },
+  {
+   "id": "T230-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která kost spojuje lopatku s hrudní kostí a patří k nejčastěji zlomeným kostem?",
+    "en": "Which bone connects the shoulder blade to the breastbone and is one of the most frequently broken bones?"
+   },
+   "moznosti": {
+    "cs": [
+     "Klíční kost",
+     "První žebro",
+     "Vřetenní kost",
+     "Pažní kost"
+    ],
+    "en": [
+     "Clavicle",
+     "First rib",
+     "Radius",
+     "Humerus"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Klíční kost funguje jako vzpěra mezi lopatkou a hrudní kostí. Je to jediná dlouhá kost uložená vodorovně a kostnatět začíná velmi brzy, už v 5.–6. týdnu těhotenství.",
+    "en": "The clavicle acts as a strut between the shoulder blade and the breastbone. It is the only long bone lying horizontally and starts to ossify very early, in weeks 5–6 of pregnancy."
+   }
+  },
+  {
+   "id": "T230-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kde je v lidském těle uložena naprostá většina vápníku?",
+    "en": "Where is almost all of the calcium in the human body stored?"
+   },
+   "moznosti": {
+    "cs": [
+     "V játrech a ledvinách",
+     "V kostech a zubech",
+     "Ve svalech a šlachách",
+     "V krvi a mízě"
+    ],
+    "en": [
+     "In the liver and kidneys",
+     "In the bones and teeth",
+     "In the muscles and tendons",
+     "In the blood and lymph"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "V kostech a zubech je uložen téměř všechen vápník v těle (kolem 99 %) a dodává jim pevnost a tvrdost. Malé množství mimo kosti je ale nezbytné pro stah svalů a přenos nervových signálů.",
+    "en": "Almost all of the body's calcium (roughly 99%) is stored in the bones and teeth, giving them structure and hardness. The small amount outside the bones is nevertheless essential for muscle contraction and nerve signalling."
+   }
+  },
+  {
+   "id": "T230-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který sval je považován za největší jednotlivý sval lidského těla?",
+    "en": "Which muscle is considered the single largest muscle in the human body?"
+   },
+   "moznosti": {
+    "cs": [
+     "Velký sval hýžďový (gluteus maximus)",
+     "Deltový sval (deltoideus)",
+     "Široký sval zádový (latissimus dorsi)",
+     "Velký sval prsní (pectoralis major)"
+    ],
+    "en": [
+     "Gluteus maximus",
+     "Deltoid",
+     "Latissimus dorsi",
+     "Pectoralis major"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Velký sval hýžďový je největší jednotlivý sval těla. Jeho mohutnost souvisí se vzpřímeným držením trupu a s během, při chůzi po rovině je přitom jen minimálně aktivní.",
+    "en": "The gluteus maximus is the single largest muscle in the body. Its size is linked to keeping the trunk upright and to running, yet it shows only minimal activity during level walking."
+   }
+  },
+  {
+   "id": "T230-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik kosterních svalů má přibližně lidské tělo?",
+    "en": "Roughly how many skeletal muscles does the human body have?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 100",
+     "Asi 250",
+     "Přes 600",
+     "Přes 2 000"
+    ],
+    "en": [
+     "About 100",
+     "About 250",
+     "Over 600",
+     "Over 2,000"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Podle způsobu počítání se uvádí 600 až 840 svalů. Rozdíl vzniká hlavně tím, zda se části složených svalů počítají zvlášť.",
+    "en": "Depending on how they are counted, the figure is between 600 and 840 muscles. The difference comes mainly from whether parts of compound muscles are counted separately."
+   }
+  },
+  {
+   "id": "T230-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který sval bývá považován za nejsilnější vzhledem ke své hmotnosti?",
+    "en": "Which muscle is often considered the strongest relative to its weight?"
+   },
+   "moznosti": {
+    "cs": [
+     "Velký sval hýžďový (gluteus maximus)",
+     "Žvýkač (musculus masseter)",
+     "Čtyřhlavý sval stehenní (quadriceps)",
+     "Dvojhlavý sval pažní (biceps)"
+    ],
+    "en": [
+     "Gluteus maximus",
+     "Masseter",
+     "Quadriceps femoris",
+     "Biceps brachii"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Žvýkač spolu s ostatními žvýkacími svaly dokáže stisknout stoličky silou kolem 90 kg. Jiná kritéria vedou k jiným „vítězům“ – například nejpracovitějším svalem je srdce.",
+    "en": "Together with the other jaw muscles, the masseter can close the molars with a force of about 90 kg (200 lb). Other criteria give other \"winners\" – the heart, for example, is the hardest-working muscle."
+   }
+  },
+  {
+   "id": "T230-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co jsou menisky, které si sportovci často poraní?",
+    "en": "What are the menisci that athletes often injure?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vazy v hlezenním kloubu",
+     "Chrupavčité destičky v koleni",
+     "Drobné kůstky v zápěstí",
+     "Šlachy na zadní straně stehna"
+    ],
+    "en": [
+     "Ligaments in the ankle joint",
+     "Cartilage pads in the knee",
+     "Small bones in the wrist",
+     "Tendons at the back of the thigh"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "V každém koleni jsou dva menisky – půlměsíčité destičky z vazivové chrupavky mezi stehenní a holenní kostí. Rozkládají zatížení, tlumí nárazy a zpevňují kloub.",
+    "en": "Each knee has two menisci – crescent-shaped pads of fibrocartilage between the thigh bone and the shin bone. They spread the load, absorb shocks and stabilise the joint."
+   }
+  },
+  {
+   "id": "T230-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se nazývají měkká místa mezi kostmi lebky novorozence?",
+    "en": "What are the soft spots between the skull bones of a newborn called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Alveoly",
+     "Kondyly",
+     "Epifýzy",
+     "Fontanely"
+    ],
+    "en": [
+     "Alveoli",
+     "Condyles",
+     "Epiphyses",
+     "Fontanelles"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Fontanely umožňují, aby se kosti lebky při porodu posunuly a hlavička prošla porodními cestami, a dávají prostor rychle rostoucímu mozku. Velká fontanela se uzavírá zhruba mezi 9. a 18. měsícem.",
+    "en": "Fontanelles let the skull bones shift so the head can pass through the birth canal, and give room to the fast-growing brain. The anterior fontanelle closes at roughly 9 to 18 months."
+   }
+  },
+  {
+   "id": "T230-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Díky čemu rostou dlouhé kosti dětí do délky?",
+    "en": "What makes children's long bones grow in length?"
+   },
+   "moznosti": {
+    "cs": [
+     "Díky kostní dřeni, která kost natahuje zevnitř",
+     "Díky chrupavčitým ploténkám u konců kosti",
+     "Díky vápníku, který se ukládá na kloubní plochy",
+     "Díky tahu svalů, který kost postupně prodlužuje"
+    ],
+    "en": [
+     "Bone marrow stretching the bone from inside",
+     "Cartilage plates near the ends of the bone",
+     "Calcium being deposited on the joint surfaces",
+     "Muscle pull gradually lengthening the bone"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Růstová (epifyzární) ploténka z hyalinní chrupavky se postupně mění v kost a kost se tak prodlužuje. Po skončení růstu, obvykle v 15–17 letech u chlapců a 14–15 u dívek, ploténka zkostnatí a zbude po ní jen epifyzární linie.",
+    "en": "The growth (epiphyseal) plate of hyaline cartilage is gradually replaced by bone, lengthening it. When growth ends, usually around 15–17 in boys and 14–15 in girls, the plate ossifies and leaves only an epiphyseal line."
+   }
+  },
+  {
+   "id": "T230-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které buňky kost odbourávají, aby ji tělo mohlo průběžně přestavovat?",
+    "en": "Which cells break down bone so that the body can continually remodel it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chondrocyty",
+     "Osteoklasty",
+     "Osteoblasty",
+     "Fibroblasty"
+    ],
+    "en": [
+     "Chondrocytes",
+     "Osteoclasts",
+     "Osteoblasts",
+     "Fibroblasts"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Osteoklasty kost rozkládají a osteoblasty vytvářejí novou. Díky jejich souhře se kost opravuje po mikropoškozeních a přizpůsobuje se zátěži.",
+    "en": "Osteoclasts break bone down and osteoblasts lay down new bone. Their teamwork lets bone repair micro-damage and adapt to load."
+   }
+  },
+  {
+   "id": "T230-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Maratonci často kolem 30. kilometru „narazí na zeď“ a prudce jim dojdou síly. Čeho se jim v těle nedostává?",
+    "en": "Marathon runners often \"hit the wall\" around the 30 km (19 mi) mark and suddenly run out of energy. What has their body run short of?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hemoglobinu",
+     "Vápníku",
+     "Kolagenu",
+     "Glykogenu"
+    ],
+    "en": [
+     "Haemoglobin",
+     "Calcium",
+     "Collagen",
+     "Glycogen"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Glykogen je zásobní forma cukru ve svalech a játrech. Když se jeho zásoby vyčerpají, energie i výkon náhle prudce klesnou.",
+    "en": "Glycogen is the stored form of sugar in the muscles and liver. When these stores run out, energy and performance suddenly drop sharply."
+   }
+  },
+  {
+   "id": "T230-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "U koho se typicky objevuje zlomenina typu „zelené větvičky“ (greenstick), kdy se kost ohne a praskne jen z jedné strany?",
+    "en": "In whom does a \"greenstick\" fracture, where the bone bends and cracks on one side only, typically occur?"
+   },
+   "moznosti": {
+    "cs": [
+     "U astronautů",
+     "U sprinterů",
+     "U seniorů",
+     "U dětí"
+    ],
+    "en": [
+     "Astronauts",
+     "Sprinters",
+     "Elderly people",
+     "Children"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kosti dětí ještě rostou a jsou pružnější a méně křehké než kosti dospělých, takže se jako mladá větvička spíš ohnou a natrhnou, než aby se zlomily úplně.",
+    "en": "Children's bones are still growing and are more flexible and less brittle than adult bones, so like a young twig they tend to bend and crack rather than break right through."
+   }
+  },
+  {
+   "id": "T230-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Přibližně jakou část hmotnosti těla tvoří kosterní svaly u zdravého mladého dospělého?",
+    "en": "Roughly what share of body weight do skeletal muscles make up in a healthy young adult?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 10 %",
+     "Asi 20 %",
+     "Asi 40 %",
+     "Asi 60 %"
+    ],
+    "en": [
+     "About 10%",
+     "About 20%",
+     "About 40%",
+     "About 60%"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kosterní svaly tvoří u zdravých mladých dospělých asi 40 % celkové hmotnosti těla. Jejich hlavní funkcí je stah, kterým pohybují kostmi.",
+    "en": "In healthy young adults, skeletal muscle makes up about 40% of total body mass. Its main function is contraction, which moves the bones."
+   }
+  },
+  {
+   "id": "T230-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kterých svalových vláken mají vytrvalci, například maratonci, ve svalech víc než sprinteři?",
+    "en": "Which muscle fibres do endurance athletes, such as marathon runners, have more of in their muscles than sprinters?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rychlých vláken typu IIX",
+     "Srdečních svalových vláken",
+     "Hladkých svalových vláken",
+     "Pomalých vláken typu I"
+    ],
+    "en": [
+     "Fast type IIX fibres",
+     "Cardiac muscle fibres",
+     "Smooth muscle fibres",
+     "Slow type I fibres"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pomalá vlákna typu I jsou červená a získávají energii hlavně spalováním za přístupu kyslíku, takže se jen málo unaví. Sprinteři naopak potřebují hodně rychlých vláken typu IIX.",
+    "en": "Slow type I fibres are red and get their energy mainly by oxidative (oxygen-using) metabolism, so they tire very little. Sprinters, by contrast, need many fast type IIX fibres."
+   }
+  },
+  {
+   "id": "T230-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Nejmenší kosterní sval člověka, třmínkový sval (musculus stapedius), měří jen něco přes 1 mm. Jakou má úlohu?",
+    "en": "The smallest skeletal muscle in the human body, the stapedius, is only just over 1 mm (0.04 inches) long. What does it do?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tlumí kmitání sluchových kůstek",
+     "Hýbe ušním boltcem",
+     "Napíná bubínek při polykání",
+     "Otevírá Eustachovu trubici"
+    ],
+    "en": [
+     "Dampens vibration of the ear ossicles",
+     "Moves the outer ear",
+     "Tenses the eardrum when swallowing",
+     "Opens the Eustachian tube"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Stapedius tahem za třmínek (stapes) omezuje jeho kmitání a reguluje intenzitu zvuku, který dorazí do vnitřního ucha (akustický reflex). Při jeho ochrnutí, např. u Bellovy obrny, se běžné zvuky zdají nepříjemně hlasité.",
+    "en": "By pulling on the stapes, the stapedius limits its vibration and regulates the intensity of sound reaching the inner ear (the acoustic reflex). When it is paralysed, for example in Bell's palsy, ordinary sounds seem unpleasantly loud."
+   }
+  },
+  {
+   "id": "T230-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Lékař Donald Unger přes 50 let denně křupal klouby prstů jen na levé ruce, pravou nechával být. K jakému výsledku došel?",
+    "en": "Doctor Donald Unger cracked the knuckles of only his left hand every day for over 50 years, leaving the right alone. What did he find?"
+   },
+   "moznosti": {
+    "cs": [
+     "Artritidu měla jen pravá ruka",
+     "Levá ruka měla slabší stisk",
+     "Artritidu neměla ani jedna ruka",
+     "Artritidu měla jen levá ruka"
+    ],
+    "en": [
+     "Only the right hand had arthritis",
+     "The left hand had a weaker grip",
+     "Neither hand had arthritis",
+     "Only the left hand had arthritis"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Na žádné ruce se mu artritida ani jiné potíže neobjevily, což zpochybnilo rozšířené varování. Za tento pokus na sobě dostal v roce 2009 Ig Nobelovu cenu za medicínu.",
+    "en": "Neither hand developed arthritis or other problems, casting doubt on the common warning. He received the 2009 Ig Nobel Prize in Medicine for this self-experiment."
+   }
+  },
+  {
+   "id": "T230-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč po smrti nastává posmrtná ztuhlost (rigor mortis)?",
+    "en": "Why does rigor mortis set in after death?"
+   },
+   "moznosti": {
+    "cs": [
+     "Svalům dojde ATP potřebné k jejich uvolnění",
+     "Krev ve svalech ztuhne a svaly zablokuje",
+     "Klouby přestanou tvořit kloubní maz a zadřou se",
+     "Šlachy po smrti vysychají a zkracují se"
+    ],
+    "en": [
+     "Muscles run out of the ATP needed to relax",
+     "Blood in the muscles solidifies and locks them",
+     "Joints stop producing synovial fluid and seize up",
+     "Tendons dry out and shorten after death"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "K uvolnění spojení mezi myosinem a aktinem je potřeba ATP; po zastavení dýchání ho tělo bez kyslíku brzy přestane vytvářet a svaly zůstanou „zamčené“. Ztuhlost může začít už hodinu po smrti a vrcholí asi po 13 hodinách.",
+    "en": "ATP is needed to release the link between myosin and actin; once breathing stops, the body soon runs out of it without oxygen and the muscles stay locked. Stiffness can start as soon as an hour after death and peaks at about 13 hours."
+   }
+  },
+  {
+   "id": "T230-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kosti v paži, ve které tenista drží raketu, bývají pevnější než ve druhé paži. Jak se nazývá princip, že se kost přizpůsobuje zátěži?",
+    "en": "The bones of a tennis player's racquet arm tend to be stronger than those of the other arm. What is the principle that bone adapts to the load placed on it called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Wolffův zákon",
+     "Hookův zákon",
+     "Pascalův zákon",
+     "Archimédův zákon"
+    ],
+    "en": [
+     "Wolff's law",
+     "Hooke's law",
+     "Pascal's law",
+     "Archimedes' principle"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Podle Wolffova zákona se kost při vyšší zátěži přestavuje a zpevňuje, při nižší řídne. Formuloval ho v 19. století německý anatom a chirurg Julius Wolff; opačný jev zažívají astronauti v beztíži.",
+    "en": "According to Wolff's law, bone remodels and strengthens under greater load and thins under less. It was formulated in the 19th century by the German anatomist and surgeon Julius Wolff; astronauts in weightlessness experience the opposite."
+   }
+  },
+  {
+   "id": "T230-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kost se neustále přestavuje. Zhruba jakou část kostry dospělého člověka tělo obnoví za rok?",
+    "en": "Bone is constantly being remodelled. Roughly what share of an adult's skeleton does the body renew each year?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 1 %",
+     "Asi 10 %",
+     "Asi 30 %",
+     "Asi 50 %"
+    ],
+    "en": [
+     "About 1%",
+     "About 10%",
+     "About 30%",
+     "About 50%"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "U dospělých se přestavbou obnoví asi 10 % kostry ročně. V prvním roce života se přitom vymění téměř celá kostra.",
+    "en": "In adults, remodelling renews about 10% of the skeleton per year. In the first year of life, almost the entire skeleton is replaced."
+   }
+  },
+  {
+   "id": "T230-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čéška je největší kostí zvláštní skupiny kostí zanořených ve šlaše nebo svalu. Jak se tyto kosti nazývají?",
+    "en": "The kneecap is the largest of a special group of bones embedded in a tendon or muscle. What are these bones called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ploché kosti (ossa plana)",
+     "Pneumatické kosti (ossa pneumatica)",
+     "Sezamské kosti (ossa sesamoidea)",
+     "Krátké kosti (ossa brevia)"
+    ],
+    "en": [
+     "Flat bones",
+     "Pneumatic bones",
+     "Sesamoid bones",
+     "Short bones"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Čéška je největší sezamskou kostí v těle a je spojená se šlachou čtyřhlavého svalu stehenního (quadriceps femoris). U novorozence je ještě chrupavčitá a kostnatět začíná zhruba ve třech letech.",
+    "en": "The kneecap is the largest sesamoid bone in the body and is attached to the tendon of the quadriceps femoris muscle. In newborns it is still cartilage and starts to ossify at around age three."
+   }
+  },
+  {
+   "id": "T230-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Únavové zlomenině nártních kostí se anglicky říká „march fracture“, tedy pochodová zlomenina. Proč?",
+    "en": "A stress fracture of the metatarsal bones is called a \"march fracture\". Why?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nejvíc případů přibývá v březnu (anglicky March)",
+     "Poprvé ji popsal lékař jménem March",
+     "Často postihuje vojáky při dlouhých pochodech",
+     "Lom postupně „pochoduje“ napříč kostí"
+    ],
+    "en": [
+     "Most cases occur in the month of March",
+     "It was first described by a doctor named March",
+     "It often affects soldiers on long marches",
+     "The crack gradually \"marches\" across the bone"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vzniká opakovaným přetěžováním, nejčastěji na druhé a třetí nártní kosti. Jméno dostala podle vojáků, u nichž se objevovala po dlouhých pochodech.",
+    "en": "It is caused by repeated overloading, most often of the second and third metatarsals. It is named after soldiers, who developed it during long periods of marching."
+   }
+  },
+  {
+   "id": "T230-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Při takzvané operaci Tommyho Johna, běžné u baseballových nadhazovačů, se poškozený vaz nahrazuje šlachou z jiného místa těla. Ve kterém kloubu?",
+    "en": "In so-called Tommy John surgery, common among baseball pitchers, a damaged ligament is replaced with a tendon from elsewhere in the body. In which joint?"
+   },
+   "moznosti": {
+    "cs": [
+     "V zápěstním",
+     "V ramenním",
+     "V kolenním",
+     "V loketním"
+    ],
+    "en": [
+     "The wrist",
+     "The shoulder",
+     "The knee",
+     "The elbow"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Operace rekonstruuje vnitřní postranní (ulnární kolaterální) vaz lokte. Poprvé ji provedl v roce 1974 chirurg Frank Jobe na nadhazovači Tommym Johnovi, který pak v kariéře pokračoval.",
+    "en": "The surgery reconstructs the ulnar collateral ligament on the inner side of the elbow. Surgeon Frank Jobe first performed it in 1974 on pitcher Tommy John, who then continued his career."
+   }
+  },
+  {
+   "id": "T230-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik kostní hmoty ztrácejí astronauti ve stavu beztíže v průměru za každý měsíc?",
+    "en": "How much bone mass do astronauts in weightlessness lose on average per month?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 0,1 %",
+     "Přes 1 %",
+     "Asi 10 %",
+     "Asi 25 %"
+    ],
+    "en": [
+     "About 0.1%",
+     "Over 1%",
+     "About 10%",
+     "About 25%"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Bez zátěže od gravitace kosti řídnou a astronauti ztrácejí průměrně přes 1 % kostní hmoty měsíčně. Měření na stanici Mir ukázala úbytek kolem 1–2 % za měsíc.",
+    "en": "Without the load of gravity, bones thin and astronauts lose on average more than 1% of bone mass per month. Measurements on the Mir station showed losses of about 1–2% per month."
+   }
+  },
+  {
+   "id": "T230-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Svalová horečka se dlouho vysvětlovala hromaděním kyseliny mléčné. Co toto vysvětlení vyvrací?",
+    "en": "Muscle soreness (DOMS) was long blamed on a build-up of lactic acid. What disproves this explanation?"
+   },
+   "moznosti": {
+    "cs": [
+     "Laktát zmizí do hodiny, bolest vrcholí až za 1–3 dny",
+     "Laktát se při zátěži ve svalech vůbec netvoří",
+     "Laktát se hromadí jen ve svalech netrénovaných lidí",
+     "Laktát se z těla vyloučí potem ještě během cvičení"
+    ],
+    "en": [
+     "Lactate clears within an hour, soreness peaks 1–3 days later",
+     "Lactate is not produced in muscles during exercise at all",
+     "Lactate builds up only in untrained people's muscles",
+     "Lactate leaves the body in sweat during the exercise"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hladina laktátu se vrátí k normálu zhruba do hodiny, kdežto svalová horečka vrcholí 24–72 hodin po výkonu. Vyvolává ji hlavně excentrická zátěž, kdy se sval pod zatížením prodlužuje.",
+    "en": "Lactate levels return to normal within about an hour, whereas soreness peaks 24–72 hours after exercise. It is caused mainly by eccentric exercise, in which the muscle lengthens under load."
+   }
+  }
+ ]
+}

@@ -234,7 +234,7 @@
    "obtiznost": 1,
    "otazka": {
     "cs": "Pražské metro zahájilo provoz 9. května 1974 úsekem Kačerov – Sokolovská (dnes Florenc). Jakou barvou je na plánech značena linka, na které tento první úsek leží?",
-    "en": "The Prague Metro opened on 9 May 1974 with the Kačerov – Sokolovská (today Florenc) section. What colour is the line on which this first section lies shown on maps?"
+    "en": "The Prague Metro opened on 9 May 1974 with the Kačerov – Sokolovská (today Florenc) section. On maps, what colour is the line this first section belongs to?"
    },
    "moznosti": {
     "cs": [
@@ -287,8 +287,8 @@
    "id": "T172-11",
    "obtiznost": 2,
    "otazka": {
-    "cs": "Arménský kupec z Damašku Jiří Deodat nejprve roznášel horký nápoj po pražských ulicích a pak v domě v Karlově ulici otevřel podle tradice roku 1714 první pražskou kavárnu. Jaké znamení ten dům dnes nese?",
-    "en": "Jiří Deodat, an Armenian merchant from Damascus, first sold a hot drink in Prague's streets and then, traditionally in 1714, opened Prague's first café in a house on Karlova Street. What sign does that house bear today?"
+    "cs": "Arménský kupec z Damašku Jiří Deodat podle tradice od roku 1714 roznášel po pražských ulicích horký nápoj a později ho nabízel ve vlastních kavárnách. Jedna z nich byla v rohovém domě v Karlově ulici. Jaké znamení ten dům dnes nese?",
+    "en": "According to tradition, from 1714 Jiří Deodat, an Armenian merchant from Damascus, sold a hot drink in Prague's streets and later served it in his own cafés. One of them was in a corner house on Karlova Street. What sign does that house bear today?"
    },
    "moznosti": {
     "cs": [
@@ -306,8 +306,8 @@
    },
    "spravne": 1,
    "vysvetleni": {
-    "cs": "Káva se tehdy v Praze prodávala jen v lékárnách. Deodat (Georgius Deodatus Damascenus) díky oblibě získal měšťanské právo a otevřel kavárnu v domě na rohu s Liliovou ulicí, dnes zvaném U Zlatého hada. Část pramenů ale klade jeho první kavárnu do domu U Tří pštrosů u Karlova mostu.",
-    "en": "At the time, coffee in Prague was sold only in pharmacies. Thanks to his success Deodat (Georgius Deodatus Damascenus) gained burgher rights and opened his café in the corner house by Liliová Street, now called At the Golden Snake. Some sources, however, place his first café in the house At the Three Ostriches (U Tří pštrosů) by Charles Bridge."
+    "cs": "Deodat (Georgius Deodatus) prodával kávu, tehdy exotickou novinku, a provozoval kavárny v domě U Zlatého hada na rohu Karlovy a Liliové ulice a v domě U Tří pštrosů u Karlova mostu. Prameny se rozcházejí v tom, která byla první; řada z nich klade první pražskou kavárnu do domu U Tří pštrosů.",
+    "en": "Deodat (Georgius Deodatus) sold coffee, then an exotic novelty, and ran cafés in the house At the Golden Snake on the corner of Karlova and Liliová streets and in the house At the Three Ostriches (U Tří pštrosů) by Charles Bridge. Sources differ on which came first; many place Prague's first café in the Three Ostriches house."
    }
   },
   {
@@ -387,8 +387,8 @@
    },
    "spravne": 0,
    "vysvetleni": {
-    "cs": "Šlo o konskripci, soupis obyvatel pro odvody do armády; čísla přidělovali vojáci postupně, jak procházeli obcí. Odpor je pochopitelný – čísla usnadňovala odvody do armády.",
-    "en": "It was a conscription, a census of inhabitants for army recruitment; soldiers assigned the numbers one by one as they walked through each settlement. The resistance is understandable – the numbers made army recruitment easier."
+    "cs": "Šlo o konskripci, soupis obyvatel pro odvody do armády; čísla přidělovali vojáci postupně, jak procházeli obcí. Většina vesnic používá tuto číselnou řadu z let 1770–1771 dodnes.",
+    "en": "It was a conscription, a census of inhabitants for army recruitment; soldiers assigned the numbers one by one as they walked through each settlement. Most villages still use that 1770–1771 number series today."
    }
   },
   {
@@ -455,13 +455,13 @@
    "moznosti": {
     "cs": [
      "Pohřbívalo se vestoje, aby se ušetřilo místo",
-     "Náhrobky sem svezli ze zrušených hřbitovů",
+     "Půdu i náhrobky nadzvedlo dávné zemětřesení",
      "Kameníci tu skladovali náhrobky na prodej",
      "Hroby se nerušily a navážela se na ně zemina"
     ],
     "en": [
      "The dead were buried upright to save space",
-     "Tombstones were brought here from closed cemeteries",
+     "An old earthquake heaved up ground and stones",
      "Stonemasons stored tombstones here for sale",
      "Graves were never removed and new soil was heaped on"
     ]
@@ -523,7 +523,7 @@
    "spravne": 1,
    "vysvetleni": {
     "cs": "Jméno U Fleků pochází od Jakuba Flekovského, který pivovar koupil roku 1762. Vaří se tu jen třináctistupňový ležák, tmavý a světlý, a jinde se neprodává.",
-    "en": "The name U Fleků comes from Jakub Flekovský, who bought the brewery in 1762. It brews only a 13° lager, dark and light, which is not sold anywhere else."
+    "en": "The name U Fleků comes from Jakub Flekovský, who bought the brewery in 1762. It brews only a 13° Plato lager (about 5% ABV), dark and light, which is not sold anywhere else."
    }
   },
   {
@@ -576,8 +576,8 @@
    },
    "spravne": 0,
    "vysvetleni": {
-    "cs": "Juditin most nesl jméno Judity Durynské, manželky Vladislava II. Tehdy ve střední Evropě stály jen dva starší kamenné mosty, v Řezně a Drážďanech; jeho druhý oblouk je dodnes součástí jednoho malostranského domu.",
-    "en": "The Judith Bridge (Juditin most) was named after Judith of Thuringia, wife of Vladislaus II. At that time only two other stone bridges stood in Central Europe, in Regensburg and Dresden; its second arch still forms part of a house in Malá Strana."
+    "cs": "Juditin most nesl jméno Judity Durynské, manželky Vladislava II., která jeho stavbu štědře podporovala. Zbytky jeho oblouků jsou dodnes k vidění ve sklepích malostranských domů a z mostu se dochovala i menší z Malostranských mostních věží.",
+    "en": "The Judith Bridge (Juditin most) was named after Judith of Thuringia, wife of Vladislaus II, who generously supported its construction. Remains of its arches can still be seen in the cellars of Malá Strana houses, and the smaller of the two Malá Strana bridge towers also survives from it."
    }
   },
   {
@@ -630,8 +630,8 @@
    },
    "spravne": 3,
    "vysvetleni": {
-    "cs": "Anglický alchymista Edward Kelley získal Faustův dům kolem roku 1587; výbuchy v jeho laboratoři prý prorazily strop. Historický doktor Faust v domě nikdy nebydlel a v Praze patrně vůbec nebyl; Kelley, kterého Rudolf II. nejprve povýšil na rytíře, zemřel jako vězeň na hradě Hněvín.",
-    "en": "The English alchemist Edward Kelley acquired the Faust House (Faustův dům) around 1587; explosions in his laboratory reportedly blew holes in the ceiling. The historical Doctor Faust never lived in the house and probably never even visited Prague; Kelley, first knighted by Rudolf II, died a prisoner in Hněvín Castle."
+    "cs": "Anglický alchymista Edward Kelley získal Faustův dům kolem roku 1590; výbuchy v jeho laboratoři prý prorazily strop. Historický doktor Faust v domě nikdy nebydlel a v Praze patrně vůbec nebyl; Kelley, kterého Rudolf II. nejprve povýšil na rytíře, zemřel jako vězeň na hradě Hněvín.",
+    "en": "The English alchemist Edward Kelley acquired the Faust House (Faustův dům) around 1590; explosions in his laboratory reportedly blew holes in the ceiling. The historical Doctor Faust never lived in the house and probably never even visited Prague; Kelley, first knighted by Rudolf II, died a prisoner in Hněvín Castle."
    }
   },
   {
@@ -712,7 +712,7 @@
    "spravne": 1,
    "vysvetleni": {
     "cs": "Vysílač stojí v Mahlerových sadech na místě Starého olšanského židovského hřbitova. Dohled Židovské obce a přenesení ostatků na Nový židovský hřbitov stavitel nedodržel a část hrobů a náhrobků byla nenávratně zničena. V anketě serveru VirtualTourist skončil jako druhá nejošklivější stavba světa.",
-    "en": "The tower stands in Mahler Gardens on the site of the old Olšany Jewish cemetery. The agreed supervision by the Jewish community and reburial of remains at the New Jewish Cemetery were not respected by the builders, and many graves and tombstones were irreversibly destroyed. A VirtualTourist poll ranked it the world's second ugliest building."
+    "en": "The tower stands in Mahler Gardens on the site of the old Olšany Jewish cemetery. The agreed supervision by the Jewish community and reburial of remains at the New Jewish Cemetery were not respected by the builders, and some of the graves and tombstones were irreversibly destroyed. A VirtualTourist poll ranked it the world's second ugliest building."
    }
   },
   {
@@ -765,8 +765,8 @@
    },
    "spravne": 1,
    "vysvetleni": {
-    "cs": "Josef Václav Myslbek dal podle tradice svou tvář sv. Prokopovi, sv. Vojtěch nese rysy arcibiskupa Františka Schönborna. Modelem pro koně byl černý oldenburský hřebec Ardo; sv. Ivan byl v plánech, ale nahradila ho sv. Anežka.",
-    "en": "According to tradition, Josef Václav Myslbek gave his own face to St Procopius, while St Adalbert bears the features of Archbishop František Schönborn. The horse was modelled on a black Oldenburg stallion named Ardo; St Ivan was planned but replaced by St Agnes."
+    "cs": "Josef Václav Myslbek dal podle tradice svou tvář sv. Prokopovi. Modelem pro koně byl vojenský hřebec Ardo; sv. Ivan byl v plánech, ale nahradila ho sv. Anežka.",
+    "en": "According to tradition, Josef Václav Myslbek gave his own face to St Procopius. The horse was modelled on an army stallion named Ardo; St Ivan was planned but replaced by St Agnes."
    }
   },
   {
@@ -819,8 +819,8 @@
    },
    "spravne": 2,
    "vysvetleni": {
-    "cs": "Pařížská třída nese jméno od roku 1926 a připomíná pařížské bulváry, jimiž se asanace inspirovala. Z původní čtvrti zůstalo jen šest synagog, starý hřbitov a židovská radnice; dnes patří Pařížská k nejdražším nákupním ulicím v Česku i ve světě.",
-    "en": "Pařížská has borne its name since 1926, recalling the Paris boulevards that inspired the clearance. Only six synagogues, the old cemetery and the Jewish Town Hall survived from the original quarter; today Pařížská ranks among the most expensive shopping streets in Czechia and the world."
+    "cs": "Pařížská třída nese jméno od roku 1926 a připomíná pařížské bulváry, jimiž se asanace inspirovala. Z původní čtvrti zůstalo jen šest synagog, starý hřbitov a židovská radnice; Pařížská patří k nejdražším nákupním ulicím v Česku i ve světě (k roku 2026).",
+    "en": "Pařížská has borne its name since 1926, recalling the Paris boulevards that inspired the clearance. Only six synagogues, the old cemetery and the Jewish Town Hall survived from the original quarter; Pařížská ranks among the most expensive shopping streets in Czechia and the world (as of 2026)."
    }
   }
  ]

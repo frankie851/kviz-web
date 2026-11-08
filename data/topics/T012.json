@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T012",
+ "nazev": {
+  "cs": "Ptačí rekordmani",
+  "en": "Record-Breaking Birds"
+ },
+ "kategorie": {
+  "id": "priroda-a-zvirata",
+  "nazev": {
+   "cs": "Příroda a zvířata",
+   "en": "Nature & Animals"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T012-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který pták je považován za nejvyššího a nejtěžšího žijícího ptáka?",
+    "en": "Which bird is considered the tallest and heaviest living bird?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pštros dvouprstý",
+     "Kasuár přílbový",
+     "Kondor andský",
+     "Emu hnědý"
+    ],
+    "en": [
+     "Common ostrich",
+     "Southern cassowary",
+     "Andean condor",
+     "Emu"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Samci pštrosa dvouprstého (Struthio camelus) měří 2,1–2,75 m a váží 100–130 kg. Pštros také snáší největší vejce ze všech žijících ptáků.",
+    "en": "Male common ostriches (Struthio camelus) stand 2.1–2.75 m (6.9–9.0 ft) tall and weigh 100–130 kg (220–290 lb). The ostrich also lays the largest eggs of any living bird."
+   }
+  },
+  {
+   "id": "T012-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který pták je považován za nejrychlejšího živočicha při střemhlavém letu?",
+    "en": "Which bird is considered the fastest animal in a hunting dive?"
+   },
+   "moznosti": {
+    "cs": [
+     "Čáp bílý",
+     "Sokol stěhovavý",
+     "Výr velký",
+     "Labuť velká"
+    ],
+    "en": [
+     "White stork",
+     "Peregrine falcon",
+     "Eurasian eagle-owl",
+     "Mute swan"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Při střemhlavém útoku na kořist může sokol stěhovavý podle některých zdrojů přesáhnout 320 km/h. Spolehlivě radarem změřená rychlost je nižší, kolem 184 km/h.",
+    "en": "Some sources state that a stooping peregrine falcon can exceed 320 km/h (200 mph). The highest speed reliably measured by radar is lower, around 184 km/h (114 mph)."
+   }
+  },
+  {
+   "id": "T012-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Do které skupiny ptáků patří nejmenší pták světa?",
+    "en": "Which group of birds does the world's smallest bird belong to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sýkory",
+     "Střízlíci",
+     "Pěnkavy",
+     "Kolibříci"
+    ],
+    "en": [
+     "Tits",
+     "Wrens",
+     "Finches",
+     "Hummingbirds"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Nejmenším žijícím ptákem je kalypta nejmenší (Mellisuga helenae), kolibřík žijící jen na Kubě. Samci měří asi 5,5 cm a vajíčka tohoto druhu jsou velká jako kávové zrno.",
+    "en": "The smallest living bird is the bee hummingbird (Mellisuga helenae), found only in Cuba. Males are about 5.5 cm (2.2 inches) long and its eggs are the size of a coffee bean."
+   }
+  },
+  {
+   "id": "T012-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který pták má největší rozpětí křídel ze všech žijících ptáků?",
+    "en": "Which bird has the largest wingspan of any living bird?"
+   },
+   "moznosti": {
+    "cs": [
+     "Albatros stěhovavý",
+     "Čáp bílý",
+     "Kondor andský",
+     "Orel skalní"
+    ],
+    "en": [
+     "Wandering albatross",
+     "White stork",
+     "Andean condor",
+     "Golden eagle"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Rozpětí křídel albatrosa stěhovavého (Diomedea exulans) je v průměru kolem 3 m a u největších jedinců dosahuje asi 3,7 m. Na dlouhých křídlech dokáže plachtit nad oceánem celé hodiny téměř bez mávání.",
+    "en": "The wandering albatross (Diomedea exulans) has an average wingspan of about 3 m (9.8 ft), and the longest-winged birds reach about 3.7 m (12 ft). Its long wings let it glide over the ocean for hours with hardly a wingbeat."
+   }
+  },
+  {
+   "id": "T012-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který pták každoročně létá z dalekého severu až k Antarktidě a zpět a zažívá víc denního světla než kterýkoli jiný tvor?",
+    "en": "Which bird flies every year from the far north to Antarctica and back, seeing more daylight than any other creature?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rybák dlouhoocasý",
+     "Husa velká",
+     "Čáp bílý",
+     "Vlaštovka obecná"
+    ],
+    "en": [
+     "Arctic tern",
+     "Greylag goose",
+     "White stork",
+     "Barn swallow"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Rybák dlouhoocasý (Sterna paradisaea) hnízdí v Arktidě a zimuje v Antarktidě, takže každý rok prožije dvě léta. Za život nalétá podle odhadů asi 2,4 milionu km.",
+    "en": "The Arctic tern (Sterna paradisaea) breeds in the Arctic and winters in the Antarctic, so it sees two summers every year. It is estimated to fly about 2.4 million km (1.5 million mi) in its lifetime."
+   }
+  },
+  {
+   "id": "T012-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který pták je na Zemi zdaleka nejpočetnější?",
+    "en": "Which bird is by far the most numerous on Earth?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kachna divoká",
+     "Kur domácí",
+     "Vrabec domácí",
+     "Holub skalní"
+    ],
+    "en": [
+     "Mallard",
+     "Chicken",
+     "House sparrow",
+     "Rock dove"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Domácích slepic žilo v roce 2023 na světě přes 26,5 miliardy. Žádný volně žijící pták se jim početně ani zdaleka nepřibližuje.",
+    "en": "In 2023 there were more than 26.5 billion chickens in the world. No wild bird comes anywhere close to that number."
+   }
+  },
+  {
+   "id": "T012-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který tučňák je nejvyšší a nejtěžší?",
+    "en": "Which penguin is the tallest and heaviest?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tučňák patagonský",
+     "Tučňák oslí",
+     "Tučňák kroužkový",
+     "Tučňák císařský"
+    ],
+    "en": [
+     "King penguin",
+     "Gentoo penguin",
+     "Adélie penguin",
+     "Emperor penguin"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Tučňák císařský (Aptenodytes forsteri) váží 22–45 kg a je největším žijícím tučňákem. Samec zahřívá vejce na nohou pod kožním záhybem zhruba 65–75 dní uprostřed antarktické zimy.",
+    "en": "The emperor penguin (Aptenodytes forsteri) weighs 22–45 kg (49–99 lb) and is the largest living penguin. The male incubates the egg on his feet under a fold of skin for about 65–75 days in the Antarctic winter."
+   }
+  },
+  {
+   "id": "T012-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou rychlostí dokáže pštros krátce běžet?",
+    "en": "How fast can an ostrich run in short bursts?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 20 km/h",
+     "Asi 70 km/h",
+     "Asi 150 km/h",
+     "Asi 250 km/h"
+    ],
+    "en": [
+     "About 20 km/h (12 mph)",
+     "About 70 km/h (43 mph)",
+     "About 150 km/h (93 mph)",
+     "About 250 km/h (155 mph)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pštros vydrží dlouho běžet rychlostí kolem 50–55 km/h a krátce zrychlí až na asi 70 km/h. Je nejrychlejším dvounohým živočichem.",
+    "en": "An ostrich can keep up about 50–55 km/h (31–34 mph) for a long time and reach about 70 km/h (43 mph) in short bursts, the fastest land speed of any two-legged animal."
+   }
+  },
+  {
+   "id": "T012-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který pták, národní symbol Bolívie, Chile, Kolumbie, Ekvádoru a Peru, patří podle průměrné hmotnosti a rozpětí křídel k největším létajícím ptákům?",
+    "en": "Which bird, a national symbol of Bolivia, Chile, Colombia, Ecuador and Peru, is among the largest flying birds by average weight and wingspan?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kondor andský",
+     "Orel skalní",
+     "Sup bělohlavý",
+     "Káně lesní"
+    ],
+    "en": [
+     "Andean condor",
+     "Golden eagle",
+     "Griffon vulture",
+     "Common buzzard"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kondor andský (Vultur gryphus) váží až 15 kg a jeho rozpětí křídel dosahuje až 3,3 m. Patří také k nejdéle žijícím ptákům, v zajetí se někteří dožili přes 70 let.",
+    "en": "The Andean condor (Vultur gryphus) weighs up to 15 kg (33 lb) and has a wingspan of up to 3.3 m (10.8 ft). It is also one of the longest-living birds, with some exceeding 70 years in captivity."
+   }
+  },
+  {
+   "id": "T012-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který dravec, národní pták USA, postavil největší zaznamenané hnízdo na stromě?",
+    "en": "Which bird of prey, the national bird of the USA, built the largest tree nest ever recorded?"
+   },
+   "moznosti": {
+    "cs": [
+     "Orel skalní",
+     "Orel bělohlavý",
+     "Sokol stěhovavý",
+     "Kondor kalifornský"
+    ],
+    "en": [
+     "Golden eagle",
+     "Bald eagle",
+     "Peregrine falcon",
+     "California condor"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Rekordní hnízdo orla bělohlavého (Haliaeetus leucocephalus) nalezené na Floridě v roce 1963 bylo 2,9 m široké, 6,1 m hluboké a vážilo odhadem kolem 2,7 tuny. Orli hnízdo používají a přistavují rok co rok.",
+    "en": "The record bald eagle (Haliaeetus leucocephalus) nest, found in Florida in 1963, was 2.9 m (9.5 ft) wide, 6.1 m (20 ft) deep and weighed an estimated 2.7 tonnes (3.0 short tons). The eagles reuse and add to the nest year after year."
+   }
+  },
+  {
+   "id": "T012-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik přibližně váží kalypta nejmenší (Mellisuga helenae), nejmenší pták světa?",
+    "en": "Roughly how much does Mellisuga helenae, the world's smallest bird, weigh?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 0,2 g",
+     "Asi 2 g",
+     "Asi 20 g",
+     "Asi 200 g"
+    ],
+    "en": [
+     "About 0.2 g (0.007 oz)",
+     "About 2 g (0.07 oz)",
+     "About 20 g (0.7 oz)",
+     "About 200 g (7 oz)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Samci kalypty nejmenší váží v průměru asi 1,95 g, samice kolem 2,6 g. Tento druh žije pouze na Kubě a přilehlých ostrovech.",
+    "en": "Males of this species weigh about 1.95 g (0.069 oz) on average and females about 2.6 g (0.092 oz). It lives only in the Cuban archipelago."
+   }
+  },
+  {
+   "id": "T012-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který pták dokáže podle studie z roku 2016 strávit ve vzduchu až 10 měsíců bez jediného přistání?",
+    "en": "According to a 2016 study, which bird can stay airborne for up to 10 months without landing once?"
+   },
+   "moznosti": {
+    "cs": [
+     "Čáp bílý",
+     "Poštolka obecná",
+     "Vlaštovka obecná",
+     "Rorýs obecný"
+    ],
+    "en": [
+     "White stork",
+     "Common kestrel",
+     "Barn swallow",
+     "Common swift"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Rorýsi obecní (Apus apus) ve vzduchu loví, pijí, často se páří i spí. Někteří jedinci podle měření z roku 2016 nepřistáli celých 10 měsíců.",
+    "en": "Common swifts (Apus apus) feed, drink, and often mate and sleep on the wing. According to a 2016 study, some individuals did not land for 10 whole months."
+   }
+  },
+  {
+   "id": "T012-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Nejméně kolik let bylo samici albatrosa laysanského jménem Wisdom, když v roce 2024 nakladla vejce?",
+    "en": "At least how old was the female Laysan albatross named Wisdom when she laid an egg in 2024?"
+   },
+   "moznosti": {
+    "cs": [
+     "33 let",
+     "53 let",
+     "73 let",
+     "93 let"
+    ],
+    "en": [
+     "33 years",
+     "53 years",
+     "73 years",
+     "93 years"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Wisdom (Moudrost) byla okroužkována v roce 1956 na atolu Midway, kdy jí bylo odhadem pět let, takže se vylíhla nejpozději kolem roku 1951. Tato samice albatrosa laysanského (Phoebastria immutabilis) je považována za nejstaršího potvrzeného volně žijícího ptáka na světě.",
+    "en": "Wisdom was banded on Midway Atoll in 1956, when she was estimated to be five years old, so she hatched around 1951 at the latest. This female Laysan albatross (Phoebastria immutabilis) is considered the oldest confirmed wild bird in the world."
+   }
+  },
+  {
+   "id": "T012-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který pták snáší vejce, které může vážit až čtvrtinu hmotnosti samice?",
+    "en": "Which bird lays an egg that can weigh up to a quarter of the female's body weight?"
+   },
+   "moznosti": {
+    "cs": [
+     "Slepice",
+     "Pštros",
+     "Emu",
+     "Kivi"
+    ],
+    "en": [
+     "Chicken",
+     "Ostrich",
+     "Emu",
+     "Kiwi"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vejce kiviů patří v poměru k velikosti těla k největším mezi ptáky. Pštrosí vejce je sice absolutně největší (asi 1,4 kg), ale vůči tělu samice je drobné.",
+    "en": "Kiwi eggs are among the largest of any bird in proportion to body size. The ostrich egg is the largest in absolute terms (about 1.4 kg / 3.1 lb), but small relative to the female's body."
+   }
+  },
+  {
+   "id": "T012-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Novozélandský kakapo (Strigops habroptilus) je nejtěžší papoušek světa. Čím se ještě liší od všech ostatních papoušků?",
+    "en": "New Zealand's kākāpō (Strigops habroptilus) is the world's heaviest parrot. What else sets it apart from all other parrots?"
+   },
+   "moznosti": {
+    "cs": [
+     "Je aktivní jen ve dne",
+     "Živí se hlavně rybami",
+     "Je hnízdní parazit",
+     "Neumí létat"
+    ],
+    "en": [
+     "It is active only by day",
+     "It feeds mainly on fish",
+     "It is a brood parasite",
+     "It cannot fly"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kakapo je jediný papoušek na světě, který neumí létat, a navíc je aktivní hlavně v noci. Jde o kriticky ohrožený druh, jehož známá populace čítá jen 325 jedinců (k roku 2026).",
+    "en": "The kākāpō is the world's only flightless parrot and is mainly nocturnal. It is critically endangered, with a known population of only 325 birds (as of 2026)."
+   }
+  },
+  {
+   "id": "T012-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím proslul australský lyrochvost nádherný (Menura novaehollandiae)?",
+    "en": "What is Australia's superb lyrebird (Menura novaehollandiae) famous for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hlubokým potápěním",
+     "Napodobováním zvuků",
+     "Nejdelším tahem",
+     "Stavbou obřích hnízd"
+    ],
+    "en": [
+     "Deep diving",
+     "Mimicking sounds",
+     "The longest migration",
+     "Building giant nests"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Lyrochvost je mistrem napodobování zvuků. V dokumentu Davida Attenborougha samec napodoboval autoalarm, motorovou pilu i závěrky fotoaparátů (dva ze tří natáčených ptáků ale žili v zajetí).",
+    "en": "The lyrebird is a master mimic. In a David Attenborough documentary a male imitated a car alarm, a chainsaw and camera shutters (though two of the three birds filmed were captive)."
+   }
+  },
+  {
+   "id": "T012-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "V čem jsou kolibříci rekordmany mezi všemi teplokrevnými živočichy?",
+    "en": "In what are hummingbirds record holders among all warm-blooded animals?"
+   },
+   "moznosti": {
+    "cs": [
+     "V nejrychlejší látkové přeměně",
+     "V nejdelším životě",
+     "V nejdelších ponorech",
+     "V největších vejcích"
+    ],
+    "en": [
+     "The fastest metabolism",
+     "The longest lifespan",
+     "The longest dives",
+     "The largest eggs"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kolibříci mají ze všech teplokrevných živočichů nejvyšší látkovou přeměnu vztaženou na gram hmotnosti. Když nemají dost potravy, třeba v noci, dokážou metabolismus zpomalit a šetřit energii.",
+    "en": "Hummingbirds have the highest mass-specific metabolic rate of any warm-blooded animal. When food is scarce, for example at night, they can slow their metabolism to save energy."
+   }
+  },
+  {
+   "id": "T012-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který pták, žijící i v Evropě, patří k nejtěžším létajícím ptákům světa?",
+    "en": "Which bird, also found in Europe, is among the heaviest flying birds in the world?"
+   },
+   "moznosti": {
+    "cs": [
+     "Drop velký",
+     "Orel skalní",
+     "Výr velký",
+     "Čáp bílý"
+    ],
+    "en": [
+     "Great bustard",
+     "Golden eagle",
+     "Eurasian eagle-owl",
+     "White stork"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Dospělí samci dropa velkého (Otis tarda) běžně váží až kolem 18 kg, nejtěžší ověřený jedinec z Mandžuska vážil asi 21 kg. Více než polovina světové populace dnes žije ve Španělsku.",
+    "en": "Adult male great bustards (Otis tarda) typically weigh up to about 18 kg (40 lb), and the heaviest verified specimen, from Manchuria, weighed about 21 kg (46 lb). More than half of the world population now lives in Spain."
+   }
+  },
+  {
+   "id": "T012-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolibřík mečozobec (Ensifera ensifera) je jediný známý pták, jehož zobák je delší než zbytek těla (bez ocasu). Kde žije?",
+    "en": "The sword-billed hummingbird (Ensifera ensifera) is the only known bird whose bill is longer than the rest of its body (excluding the tail). Where does it live?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Andách",
+     "Na Madagaskaru",
+     "V Himálaji",
+     "Na Kubě"
+    ],
+    "en": [
+     "In the Andes",
+     "In Madagascar",
+     "In the Himalayas",
+     "In Cuba"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kolibřík mečozobec žije v Andách od Venezuely po Bolívii ve výškách 1 700–3 500 m. Dlouhým zobákem sává nektar z květů s dlouhou korunní trubkou, a protože si jím nedosáhne na peří, čechrá se nohama.",
+    "en": "The sword-billed hummingbird lives in the Andes from Venezuela to Bolivia at 1,700–3,500 m (5,600–11,500 ft). It uses its bill to sip nectar from long-tubed flowers, and since the bill is too long for preening, it grooms with its feet."
+   }
+  },
+  {
+   "id": "T012-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který pták je považován za nejvýše létajícího ptáka?",
+    "en": "Which bird is considered the highest-flying bird?"
+   },
+   "moznosti": {
+    "cs": [
+     "Albatros stěhovavý",
+     "Orel skalní",
+     "Kondor andský",
+     "Sup krahujový"
+    ],
+    "en": [
+     "Wandering albatross",
+     "Golden eagle",
+     "Andean condor",
+     "Rüppell's vulture"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Africký sup krahujový (Gyps rueppelli) se v roce 1973 srazil s dopravním letadlem nad Abidžanem ve výšce asi 11 300 m. Ve řídkém vzduchu mu pomáhá hemoglobin s mimořádnou afinitou ke kyslíku.",
+    "en": "In 1973 a Rüppell's vulture collided with an airliner over Abidjan at about 11,300 m (37,100 ft). A haemoglobin with an unusually high affinity for oxygen helps it in the thin air."
+   }
+  },
+  {
+   "id": "T012-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Do jaké hloubky se podle záznamu z roku 1994 ponořil tučňák císařský?",
+    "en": "According to a 1994 record, how deep did an emperor penguin dive?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 60 m",
+     "Asi 160 m",
+     "Asi 560 m",
+     "Asi 1 600 m"
+    ],
+    "en": [
+     "About 60 m (200 ft)",
+     "About 160 m (520 ft)",
+     "About 560 m (1,800 ft)",
+     "About 1,600 m (5,200 ft)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Tučňák z kolonie Auster se v roce 1994 ponořil do hloubky 564 m a celý ponor trval 21,8 minuty. Vědci připouštějí, že tito tučňáci možná dokážou ještě hlubší ponory.",
+    "en": "In 1994 a penguin from the Auster colony dived to 564 m (1,850 ft), and the whole dive lasted 21.8 minutes. Researchers think emperor penguins may be able to dive even deeper."
+   }
+  },
+  {
+   "id": "T012-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který pták podle záznamu z roku 2022 uletěl bez přistání nejméně 13 560 km z Aljašky do Tasmánie?",
+    "en": "According to a 2022 record, which bird flew at least 13,560 km (8,426 mi) non-stop from Alaska to Tasmania?"
+   },
+   "moznosti": {
+    "cs": [
+     "Břehouš rudý",
+     "Rybák dlouhoocasý",
+     "Albatros stěhovavý",
+     "Rorýs obecný"
+    ],
+    "en": [
+     "Bar-tailed godwit",
+     "Arctic tern",
+     "Wandering albatross",
+     "Common swift"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Mladý břehouš rudý (Limosa lapponica) označený B6 vyletěl z Aljašky 13. října a do Tasmánie doletěl za 11 dní a 1 hodinu, což je rekordní vzdálenost bez přistání. Šlo o vůbec prvního označeného ptáka, u něhož byl zaznamenán přímý let touto trasou.",
+    "en": "A juvenile bar-tailed godwit (Limosa lapponica) tagged B6 left Alaska on 13 October and reached Tasmania in 11 days and 1 hour, a record non-stop distance. It was the first tagged bird recorded flying this route non-stop."
+   }
+  },
+  {
+   "id": "T012-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik kilometrů podle studie z roku 2010 nalétá rybák dlouhoocasý z Grónska či Islandu v průměru za rok?",
+    "en": "According to a 2010 study, how many kilometres does an Arctic tern from Greenland or Iceland fly in an average year?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 7 000 km",
+     "Asi 20 000 km",
+     "Asi 70 000 km",
+     "Asi 400 000 km"
+    ],
+    "en": [
+     "About 7,000 km (4,300 mi)",
+     "About 20,000 km (12,000 mi)",
+     "About 70,000 km (43,000 mi)",
+     "About 400,000 km (250,000 mi)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Studie zjistila průměr asi 70 900 km ročně, protože rybáci neletí přímo, ale klikatě podle převládajících větrů. Jeden jedinec sledovaný v letech 2015–2017 urazil za 10 měsíců dokonce 96 000 km.",
+    "en": "The study found an average of about 70,900 km (44,100 mi) a year, because the terns follow a winding route with the prevailing winds. One bird tracked in 2015–2017 covered as much as 96,000 km (59,700 mi) in 10 months."
+   }
+  },
+  {
+   "id": "T012-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kakadu inka (Cacatua leadbeateri) jménem Cookie z Brookfieldské zoo u Chicaga byl podle Guinnessovy knihy rekordů nejstarším žijícím papouškem. Kolika let se dožil?",
+    "en": "A Major Mitchell's cockatoo (Cacatua leadbeateri) named Cookie at Brookfield Zoo near Chicago was listed by Guinness World Records as the oldest living parrot. How old was he when he died?"
+   },
+   "moznosti": {
+    "cs": [
+     "43 let",
+     "63 let",
+     "83 let",
+     "103 let"
+    ],
+    "en": [
+     "43 years",
+     "63 years",
+     "83 years",
+     "103 years"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Cookie se vylíhl v roce 1933 v zoo Taronga v Sydney a zemřel 27. srpna 2016 ve věku 83 let. Většinu života strávil v Brookfieldské zoo.",
+    "en": "Cookie hatched in 1933 at Taronga Zoo in Sydney and died on 27 August 2016 at the age of 83. He spent most of his life at Brookfield Zoo."
+   }
+  },
+  {
+   "id": "T012-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Bělořit šedý (Oenanthe oenanthe), pěvec vážící jen 17–30 g, podniká jeden z nejdelších známých tahů pěvců. Kam táhnou na zimu bělořiti hnízdící na Aljašce?",
+    "en": "The northern wheatear (Oenanthe oenanthe), a songbird weighing only 17–30 g (0.6–1.1 oz), makes one of the longest known songbird migrations. Where do wheatears breeding in Alaska spend the winter?"
+   },
+   "moznosti": {
+    "cs": [
+     "Do Austrálie",
+     "Do subsaharské Afriky",
+     "Do jihovýchodní Asie",
+     "Do Jižní Ameriky"
+    ],
+    "en": [
+     "Australia",
+     "Sub-Saharan Africa",
+     "Southeast Asia",
+     "South America"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Aljašští bělořiti letí přes Sibiř a Arabskou poušť do Afriky, takže urazí téměř 15 000 km jedním směrem. Ptáci z východní Kanady naopak podle všeho letí přes Grónsko, Irsko a Portugalsko.",
+    "en": "Alaskan wheatears fly across Siberia and the Arabian Desert to Africa, covering almost 15,000 km (9,300 mi) each way. Birds from eastern Canada are instead thought to fly via Greenland, Ireland and Portugal."
+   }
+  },
+  {
+   "id": "T012-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Do jaké výšky může dorůst jeřáb indický (Antigone antigone), nejvyšší z létajících ptáků?",
+    "en": "How tall can the sarus crane (Antigone antigone), the tallest of the flying birds, grow?"
+   },
+   "moznosti": {
+    "cs": [
+     "Až 0,9 m",
+     "Až 1,3 m",
+     "Až 1,8 m",
+     "Až 2,5 m"
+    ],
+    "en": [
+     "Up to 0.9 m (3 ft)",
+     "Up to 1.3 m (4.3 ft)",
+     "Up to 1.8 m (5.9 ft)",
+     "Up to 2.5 m (8.2 ft)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jeřáb indický dosahuje výšky až 1,8 m a žije na Indickém subkontinentu, v jihovýchodní Asii a na severu Austrálie. Páry spolu zůstávají dlouhodobě.",
+    "en": "The sarus crane stands up to 1.8 m (5.9 ft) tall and lives on the Indian subcontinent, in Southeast Asia and in northern Australia. Pairs form long-lasting bonds."
+   }
+  },
+  {
+   "id": "T012-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Africký snovač rudozobý (Quelea quelea) tvoří obrovská hejna. Kolik jedinců může podle odhadů čítat jeho populace po hnízdění?",
+    "en": "Africa's red-billed quelea (Quelea quelea) gathers in enormous flocks. How many individuals can its post-breeding population reach, by estimates?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 1,5 milionu",
+     "Asi 15 milionů",
+     "Asi 150 milionů",
+     "Asi 1,5 miliardy"
+    ],
+    "en": [
+     "About 1.5 million",
+     "About 15 million",
+     "About 150 million",
+     "About 1.5 billion"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Po hnízdní sezoně může populace snovače rudozobého dosáhnout odhadem až 1,5 miliardy ptáků. Kvůli škodám na úrodě se mu přezdívá africká opeřená kobylka.",
+    "en": "After the breeding season the red-billed quelea population can reach an estimated 1.5 billion birds. Because of the crop damage it causes, it is nicknamed Africa's feathered locust."
+   }
+  },
+  {
+   "id": "T012-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jihoamerický Procnias albus (anglicky white bellbird) je považován za nejhlasitějšího ptáka světa. Jakou hlasitost jeho volání naměřili vědci (přepočteno na vzdálenost 1 m)?",
+    "en": "South America's white bellbird (Procnias albus) is believed to be the world's loudest bird. How loud did scientists measure its call (at an equivalent distance of 1 m / 3.3 ft)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 65 dB",
+     "Asi 95 dB",
+     "Asi 125 dB",
+     "Asi 185 dB"
+    ],
+    "en": [
+     "About 65 dB",
+     "About 95 dB",
+     "About 125 dB",
+     "About 185 dB"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Samci tohoto ptáka podle studie z roku 2019 dosahují až 125 dB. Předchozí rekord držel Lipaugus vociferans (anglicky screaming piha) se 116 dB.",
+    "en": "According to a 2019 study, males reach up to 125 dB. The previous record holder was the screaming piha (Lipaugus vociferans) at 116 dB."
+   }
+  },
+  {
+   "id": "T012-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Pelikán australský (Pelecanus conspicillatus) má nejdelší zobák ze všech žijících ptáků. Jak dlouhý byl rekordní zaznamenaný zobák?",
+    "en": "The Australian pelican (Pelecanus conspicillatus) has the longest bill of any living bird. How long was the record bill?"
+   },
+   "moznosti": {
+    "cs": [
+     "15 cm",
+     "30 cm",
+     "50 cm",
+     "90 cm"
+    ],
+    "en": [
+     "15 cm (5.9 inches)",
+     "30 cm (11.8 inches)",
+     "50 cm (19.7 inches)",
+     "90 cm (35.4 inches)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Rekordní zobák pelikána australského měřil 50 cm. Samice jsou menší a jejich zobák může v dospělosti měřit i jen 34,6 cm. Rozpětí křídel tohoto pelikána dosahuje 2,3–2,6 m.",
+    "en": "The record Australian pelican bill was 50 cm (19.7 inches) long. Females are smaller, and their bills can measure as little as 34.6 cm (13.6 inches) at maturity. This pelican's wingspan reaches 2.3–2.6 m (7.5–8.5 ft)."
+   }
+  },
+  {
+   "id": "T012-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Drop velký je považován za ptáka s největším rozdílem ve velikosti mezi pohlavími. Kolikrát víc v průměru vážili samci než samice při měření ve Španělsku?",
+    "en": "The great bustard is considered the bird with the greatest size difference between the sexes. How many times heavier than females were males on average, as measured in Spain?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 1,2krát",
+     "Asi 2,5krát",
+     "Asi 5krát",
+     "Asi 10krát"
+    ],
+    "en": [
+     "About 1.2 times",
+     "About 2.5 times",
+     "About 5 times",
+     "About 10 times"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Dospělí samci dropa velkého měření ve Španělsku vážili v průměru 2,48krát víc než samice. Právě ve středním Španělsku dnes žije víc než polovina světové populace, asi 30 000 ptáků.",
+    "en": "Adult male great bustards measured in Spain weighed on average 2.48 times more than females. Central Spain is now home to more than half of the world population, around 30,000 birds."
+   }
+  }
+ ]
+}

@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T006",
+ "nazev": {
+  "cs": "Olympijské hry: historie a kuriozity",
+  "en": "The Olympic Games: History and Curiosities"
+ },
+ "kategorie": {
+  "id": "sport",
+  "nazev": {
+   "cs": "Sport",
+   "en": "Sport"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T006-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak často se konají letní olympijské hry?",
+    "en": "How often are the Summer Olympic Games held?"
+   },
+   "moznosti": {
+    "cs": [
+     "Každé 2 roky",
+     "Každé 3 roky",
+     "Každé 4 roky",
+     "Každých 5 let"
+    ],
+    "en": [
+     "Every 2 years",
+     "Every 3 years",
+     "Every 4 years",
+     "Every 5 years"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Letní hry se konají jednou za čtyři roky, tedy jednou za olympiádu, jak se nazývá čtyřleté období mezi hrami. Hry v Tokiu 2020 byly jako první v historii odloženy, kvůli pandemii covidu-19 na rok 2021.",
+    "en": "The Summer Games are held once every four years, i.e. once per Olympiad, as the four-year period between Games is called. Tokyo 2020 became the first Games ever to be postponed, to 2021 because of the COVID-19 pandemic."
+   }
+  },
+  {
+   "id": "T006-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik kruhů je v olympijském symbolu?",
+    "en": "How many rings are there in the Olympic symbol?"
+   },
+   "moznosti": {
+    "cs": [
+     "4",
+     "5",
+     "6",
+     "7"
+    ],
+    "en": [
+     "4",
+     "5",
+     "6",
+     "7"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pět propojených kruhů navrhl Pierre de Coubertin. Podle něj jejich barvy spolu s bílým pozadím obsahují barvy vlajek všech zemí.",
+    "en": "The five interlocking rings were designed by Pierre de Coubertin. He claimed that their colours, together with the white background, reproduce the colours of every national flag."
+   }
+  },
+  {
+   "id": "T006-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kde se konaly olympijské hry ve starověkém Řecku?",
+    "en": "Where were the Olympic Games held in ancient Greece?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Olympii",
+     "V Athénách",
+     "Na hoře Olymp",
+     "V Delfách"
+    ],
+    "en": [
+     "At Olympia",
+     "In Athens",
+     "On Mount Olympus",
+     "At Delphi"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Antické hry se konaly v Diově svatyni v Olympii na Peloponésu, ne na hoře Olymp na severu Řecka. Delfy hostily jiné slavné hry, tzv. pýthijské.",
+    "en": "The ancient Games were held at the sanctuary of Zeus at Olympia in the Peloponnese, not on Mount Olympus in northern Greece. Delphi hosted a different famous festival, the Pythian Games."
+   }
+  },
+  {
+   "id": "T006-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém městě se v roce 1896 konaly první novodobé olympijské hry?",
+    "en": "In which city were the first modern Olympic Games held in 1896?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Athénách",
+     "V Londýně",
+     "V Paříži",
+     "V Římě"
+    ],
+    "en": [
+     "Athens",
+     "London",
+     "Paris",
+     "Rome"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "První novodobé hry se symbolicky vrátily do Řecka, kolébky olympismu. Hlavním dějištěm byl mramorový stadion Panathinaiko.",
+    "en": "The first modern Games symbolically returned to Greece, the birthplace of the Olympics. The main venue was the marble Panathenaic Stadium."
+   }
+  },
+  {
+   "id": "T006-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co znamená olympijské heslo „Citius, altius, fortius“?",
+    "en": "What does the Olympic motto “Citius, altius, fortius” mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rychleji, výše, silněji",
+     "Výše, dále, krásněji",
+     "Silněji, vytrvaleji, čestněji",
+     "Dále, déle, odvážněji"
+    ],
+    "en": [
+     "Faster, higher, stronger",
+     "Higher, further, more beautifully",
+     "Stronger, tougher, fairer",
+     "Further, longer, braver"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Latinské heslo převzal Coubertin od svého přítele, dominikánského kněze Henriho Didona. V roce 2021 k němu MOV připojil slovo „Communiter“ – společně.",
+    "en": "Coubertin borrowed the Latin motto from his friend, the Dominican priest Henri Didon. In 2021 the IOC added the word “Communiter” – together."
+   }
+  },
+  {
+   "id": "T006-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který plavec získal na LOH 2008 v Pekingu rekordních osm zlatých medailí?",
+    "en": "Which swimmer won a record eight gold medals at the 2008 Beijing Olympics?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ryan Lochte",
+     "Ian Thorpe",
+     "Michael Phelps",
+     "Mark Spitz"
+    ],
+    "en": [
+     "Ryan Lochte",
+     "Ian Thorpe",
+     "Michael Phelps",
+     "Mark Spitz"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Phelps v Pekingu překonal sedm zlatých Marka Spitze z Mnichova 1972. Za kariéru získal 28 olympijských medailí, z toho 23 zlatých – víc než kdokoli jiný.",
+    "en": "In Beijing Phelps beat Mark Spitz's seven golds from Munich 1972. Over his career he won 28 Olympic medals, 23 of them gold – more than anyone else."
+   }
+  },
+  {
+   "id": "T006-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterému československému atletovi se přezdívalo „Česká lokomotiva“?",
+    "en": "Which Czechoslovak athlete was nicknamed “the Czech Locomotive”?"
+   },
+   "moznosti": {
+    "cs": [
+     "Romanu Šebrlemu",
+     "Emilu Zátopkovi",
+     "Janu Železnému",
+     "Josefu Odložilovi"
+    ],
+    "en": [
+     "Roman Šebrle",
+     "Emil Zátopek",
+     "Jan Železný",
+     "Josef Odložil"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Přezdívku dostal za hlasité funění a sípání při běhu, které připomínalo supící parní lokomotivu. Na LOH 1948 v Londýně vyhrál běh na 10 000 m a na 5 000 m skončil druhý.",
+    "en": "He earned the nickname for his loud wheezing and panting while running, which sounded like a steam locomotive. At the 1948 London Games he won the 10,000 m and took silver in the 5,000 m."
+   }
+  },
+  {
+   "id": "T006-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém japonském městě vyhráli čeští hokejisté v roce 1998 olympijské zlato?",
+    "en": "In which Japanese city did the Czech ice hockey team win Olympic gold in 1998?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Sapporu",
+     "V Naganu",
+     "V Ósace",
+     "V Tokiu"
+    ],
+    "en": [
+     "Sapporo",
+     "Nagano",
+     "Osaka",
+     "Tokyo"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ve finále Češi porazili Rusko 1:0. Šlo o první olympijský turnaj s hráči NHL, a proto se mu v Česku říká „turnaj století“.",
+    "en": "The Czechs beat Russia 1–0 in the final. It was the first Olympic tournament with NHL players, which is why Czechs call it the “Tournament of the Century”."
+   }
+  },
+  {
+   "id": "T006-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kde se konalo slavnostní zahájení LOH 2024 v Paříži?",
+    "en": "Where was the opening ceremony of the 2024 Paris Olympics held?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Stade de France",
+     "Na zámku ve Versailles",
+     "Na Champs-Élysées",
+     "Na řece Seině"
+    ],
+    "en": [
+     "At the Stade de France",
+     "At the Palace of Versailles",
+     "On the Champs-Élysées",
+     "On the River Seine"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Sportovci propluli na lodích po Seině od mostu Pont d'Austerlitz kolem Eiffelovy věže k mostu Pont d'Iéna, oficiální část pak proběhla na Trocadéru. Bylo to poprvé v novodobé historii, kdy se zahájení letních her nekonalo na stadionu.",
+    "en": "Athletes sailed in boats along the Seine from the Pont d'Austerlitz past the Eiffel Tower to the Pont d'Iéna, and the official protocol took place at the Trocadéro. It was the first time in modern history that a Summer Games opening ceremony was held outside a stadium."
+   }
+  },
+  {
+   "id": "T006-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který sprinter vyhrál olympijský běh na 100 m třikrát po sobě (2008, 2012, 2016)?",
+    "en": "Which sprinter won the Olympic 100 m three times in a row (2008, 2012, 2016)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Usain Bolt",
+     "Yohan Blake",
+     "Justin Gatlin",
+     "Carl Lewis"
+    ],
+    "en": [
+     "Usain Bolt",
+     "Yohan Blake",
+     "Justin Gatlin",
+     "Carl Lewis"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jamajčan Bolt vyhrál stovku v Pekingu, Londýně i Riu. Carl Lewis to dokázal „jen“ dvakrát, v letech 1984 a 1988.",
+    "en": "Jamaica's Bolt won the 100 m in Beijing, London and Rio. Carl Lewis managed it “only” twice, in 1984 and 1988."
+   }
+  },
+  {
+   "id": "T006-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na kterých hrách se poprvé konala štafeta s olympijskou pochodní z řecké Olympie?",
+    "en": "At which Games was the Olympic torch relay from Olympia in Greece held for the first time?"
+   },
+   "moznosti": {
+    "cs": [
+     "Amsterdam 1928",
+     "Los Angeles 1932",
+     "Berlín 1936",
+     "Londýn 1948"
+    ],
+    "en": [
+     "Amsterdam 1928",
+     "Los Angeles 1932",
+     "Berlin 1936",
+     "London 1948"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Olympijský oheň hořel poprvé už v Amsterdamu 1928, štafetu z Olympie ale zavedli až organizátoři her v Berlíně. Oheň se v Olympii dodnes zapaluje slunečními paprsky soustředěnými parabolickým zrcadlem.",
+    "en": "The Olympic flame first burned in Amsterdam in 1928, but the relay from Olympia was introduced by the organisers of the Berlin Games. The flame is still lit at Olympia with sunlight focused by a parabolic mirror."
+   }
+  },
+  {
+   "id": "T006-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak Věra Čáslavská na LOH 1968 v Mexiku vyjádřila nesouhlas s okupací Československa?",
+    "en": "How did Věra Čáslavská express her opposition to the occupation of Czechoslovakia at the 1968 Mexico City Olympics?"
+   },
+   "moznosti": {
+    "cs": [
+     "Odmítla na stupních převzít zlatou medaili",
+     "Na stupních vítězů zvedla zaťatou pěst v rukavici",
+     "Odmítla nastoupit k finále na kladině",
+     "Při sovětské hymně sklopila hlavu a odvrátila se"
+    ],
+    "en": [
+     "She refused to accept her gold medal on the podium",
+     "She raised a gloved clenched fist on the podium",
+     "She refused to compete in the balance beam final",
+     "She bowed her head and turned away during the Soviet anthem"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Gesto zopakovala při ceremoniích kladiny a prostných, kde stála vedle sovětských gymnastek. V Mexiku získala čtyři zlaté a dvě stříbrné medaile, celkem má sedm olympijských zlatých.",
+    "en": "She made the gesture at the balance beam and floor ceremonies, where she stood beside Soviet gymnasts. In Mexico City she won four golds and two silvers, giving her seven Olympic golds in total."
+   }
+  },
+  {
+   "id": "T006-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik olympijských zlatých medailí získal oštěpař Jan Železný?",
+    "en": "How many Olympic gold medals did javelin thrower Jan Železný win?"
+   },
+   "moznosti": {
+    "cs": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "en": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Železný vyhrál v Barceloně 1992, Atlantě 1996 a Sydney 2000, k tomu přidal stříbro ze Soulu 1988. Drží světový rekord 98,48 m z roku 1996 (k roku 2026).",
+    "en": "Železný won in Barcelona 1992, Atlanta 1996 and Sydney 2000, plus silver in Seoul 1988. He holds the world record of 98.48 m (323.1 ft), set in 1996 (as of 2026)."
+   }
+  },
+  {
+   "id": "T006-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém roce poprvé startovaly ženy na novodobých olympijských hrách?",
+    "en": "In which year did women first compete at the modern Olympic Games?"
+   },
+   "moznosti": {
+    "cs": [
+     "1896",
+     "1900",
+     "1904",
+     "1908"
+    ],
+    "en": [
+     "1896",
+     "1900",
+     "1904",
+     "1908"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "V Paříži startovalo 22 žen, jen asi 2 % všech sportovců. První individuální olympijskou vítězkou se stala britská tenistka Charlotte Cooperová.",
+    "en": "Twenty-two women competed in Paris, only about 2% of all athletes. British tennis player Charlotte Cooper became the first individual female Olympic champion."
+   }
+  },
+  {
+   "id": "T006-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč ukázala výsledková tabule po prvním dokonalém cvičení Nadii Comăneciové v Montrealu 1976 hodnotu 1.00?",
+    "en": "Why did the scoreboard show 1.00 after Nadia Comăneci's first perfect routine in Montreal in 1976?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hodnocení se tehdy udávalo v desetinách",
+     "Tabule zobrazovala jen srážky za chyby",
+     "Tabule nebyla navržena pro zobrazení 10.00",
+     "Rozhodčí omylem zadali špatné číslo"
+    ],
+    "en": [
+     "Scores were given in tenths at the time",
+     "The board showed only deductions for errors",
+     "The board was not designed to display 10.00",
+     "The judges entered the wrong number by mistake"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Výrobce tabulí počítal s tím, že desítka je nedosažitelná, a dal jim jen tři číslice. Čtrnáctiletá Rumunka získala první „desítku“ v historii olympijské gymnastiky na bradlech.",
+    "en": "The scoreboard maker assumed a perfect 10 was impossible and gave the boards only three digits. The 14-year-old Romanian earned the first perfect 10 in Olympic gymnastics history on the uneven bars."
+   }
+  },
+  {
+   "id": "T006-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterých dvou sportech získala Ester Ledecká zlato na ZOH 2018 v Pchjongčchangu?",
+    "en": "In which two sports did Ester Ledecká win gold at the 2018 PyeongChang Winter Olympics?"
+   },
+   "moznosti": {
+    "cs": [
+     "Alpské lyžování a skikros",
+     "Akrobatické lyžování a snowboarding",
+     "Alpské lyžování a snowboarding",
+     "Biatlon a běh na lyžích"
+    ],
+    "en": [
+     "Alpine skiing and ski cross",
+     "Freestyle skiing and snowboarding",
+     "Alpine skiing and snowboarding",
+     "Biathlon and cross-country skiing"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vyhrála super-G na lyžích a paralelní obří slalom na snowboardu. Stala se tak první ženou, která na jedněch zimních hrách vyhrála zlato ve dvou různých disciplínách, navíc na dvou různých typech vybavení – lyžích a snowboardu.",
+    "en": "She won the super-G on skis and the parallel giant slalom on a snowboard. She thus became the first woman to win gold in two different disciplines at the same Winter Games, and on two different types of equipment – skis and a snowboard."
+   }
+  },
+  {
+   "id": "T006-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který sport měl olympijskou premiéru na LOH 2024 v Paříži?",
+    "en": "Which sport made its Olympic debut at the 2024 Paris Games?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sportovní lezení",
+     "Surfing",
+     "Skateboarding",
+     "Breaking"
+    ],
+    "en": [
+     "Sport climbing",
+     "Surfing",
+     "Skateboarding",
+     "Breaking"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Skateboarding, surfing i sportovní lezení debutovaly už v Tokiu 2020, breaking až v Paříži. Do programu LOH 2028 v Los Angeles se ale breaking nedostal.",
+    "en": "Skateboarding, surfing and sport climbing all debuted at Tokyo 2020; breaking only arrived in Paris. However, breaking was not included in the programme for Los Angeles 2028."
+   }
+  },
+  {
+   "id": "T006-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím zaujal Etiopan Abebe Bikila, když v roce 1960 vyhrál maraton v Římě?",
+    "en": "What was remarkable about Ethiopia's Abebe Bikila when he won the 1960 marathon in Rome?"
+   },
+   "moznosti": {
+    "cs": [
+     "Běžel v kožených vojenských botách",
+     "Běžel celou trať bos",
+     "Běžel s vlajkou své země v ruce",
+     "Běžel se sádrou na ruce"
+    ],
+    "en": [
+     "He ran in leather army boots",
+     "He ran the whole race barefoot",
+     "He ran holding his country's flag",
+     "He ran with his arm in a plaster cast"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Nové boty, které si opatřil až v Římě, mu nepadly a dělaly puchýře, a tak běžel bos. O čtyři roky později v Tokiu vyhrál znovu, tentokrát v botách, a jako první obhájil olympijský maraton.",
+    "en": "The new shoes he obtained in Rome did not fit well and gave him blisters, so he ran barefoot. Four years later in Tokyo he won again, this time in shoes, becoming the first to defend the Olympic marathon title."
+   }
+  },
+  {
+   "id": "T006-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Z čeho jsou převážně vyrobeny dnešní olympijské „zlaté“ medaile?",
+    "en": "What are today's Olympic “gold” medals mostly made of?"
+   },
+   "moznosti": {
+    "cs": [
+     "Převážně z mědi",
+     "Převážně z mosazi",
+     "Převážně ze zlata",
+     "Převážně ze stříbra"
+    ],
+    "en": [
+     "Mostly copper",
+     "Mostly brass",
+     "Mostly gold",
+     "Mostly silver"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pravidla vyžadují nejméně 92,5 % stříbra a pozlacení nejméně 6 gramy zlata. Z ryzího zlata byly medaile naposledy na LOH 1912 ve Stockholmu.",
+    "en": "The rules require at least 92.5% silver, plated with at least 6 grams (0.21 oz) of gold. The last solid gold medals were awarded at the 1912 Stockholm Games."
+   }
+  },
+  {
+   "id": "T006-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které zimní olympijské hry se jako první konaly v jiném roce než letní?",
+    "en": "Which Winter Olympics were the first to be held in a different year from the Summer Games?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sarajevo 1984",
+     "Calgary 1988",
+     "Albertville 1992",
+     "Lillehammer 1994"
+    ],
+    "en": [
+     "Sarajevo 1984",
+     "Calgary 1988",
+     "Albertville 1992",
+     "Lillehammer 1994"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "MOV rozhodl, že se zimní a letní hry budou střídat po dvou letech, takže Lillehammer přišel jen dva roky po Albertville. Do té doby se oboje konaly ve stejném roce.",
+    "en": "The IOC decided that the Winter and Summer Games would alternate every two years, so Lillehammer came just two years after Albertville. Until then both were held in the same year."
+   }
+  },
+  {
+   "id": "T006-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč má maraton délku právě 42,195 km?",
+    "en": "Why is the marathon exactly 42.195 km (26 mi 385 yd) long?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tak dlouhou trať vyměřili v Londýně 1908 až ke královské lóži",
+     "Přesně tolik měřila trať prvního olympijského maratonu v roce 1896",
+     "Přesně tolik měřila trať prvního Bostonského maratonu v roce 1897",
+     "Tolik podle legendy uběhl posel z Marathónu až do Athén"
+    ],
+    "en": [
+     "That was the London 1908 course, measured all the way to the royal box",
+     "That was the exact length of the first Olympic marathon in 1896",
+     "That was the exact length of the first Boston Marathon in 1897",
+     "That is how far the legendary messenger ran from Marathon to Athens"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "V Londýně 1908 start umístili pod okna Windsorského hradu a cíl před královskou lóži na stadionu. Tuto délku pak v roce 1921 přijala atletická federace jako oficiální.",
+    "en": "In London 1908 the start was placed beneath the windows of Windsor Castle and the finish in front of the royal box in the stadium. The athletics federation adopted this distance as official in 1921."
+   }
+  },
+  {
+   "id": "T006-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo vstřelil jediný gól finále olympijského hokejového turnaje 1998 proti Rusku?",
+    "en": "Who scored the only goal of the 1998 Olympic ice hockey final against Russia?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jaromír Jágr",
+     "Pavel Patera",
+     "Robert Reichel",
+     "Petr Svoboda"
+    ],
+    "en": [
+     "Jaromír Jágr",
+     "Pavel Patera",
+     "Robert Reichel",
+     "Petr Svoboda"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Gól dal obránce Petr Svoboda ve třetí třetině. Robert Reichel zase proměnil rozhodující nájezd v semifinále s Kanadou, kde Dominik Hašek nepustil ani jeden.",
+    "en": "Defenceman Petr Svoboda scored in the third period. Robert Reichel had scored the deciding shootout goal in the semi-final against Canada, in which Dominik Hašek stopped every attempt."
+   }
+  },
+  {
+   "id": "T006-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co se 24. července 1952 v Helsinkách povedlo manželům Zátopkovým?",
+    "en": "What did the married couple Emil and Dana Zátopek achieve in Helsinki on 24 July 1952?"
+   },
+   "moznosti": {
+    "cs": [
+     "Oba shodně skončili druzí",
+     "Vzali se v olympijské vesnici",
+     "Oba vytvořili světový rekord",
+     "Oba vyhráli olympijské zlato"
+    ],
+    "en": [
+     "Both finished second",
+     "They got married in the Olympic Village",
+     "Both set a world record",
+     "Both won Olympic gold"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Emil vyhrál běh na 5 000 m a Dana krátce nato hod oštěpem. Zajímavost navíc: oba se narodili ve stejný den, 19. září 1922.",
+    "en": "Emil won the 5,000 m and Dana won the javelin shortly afterwards. A bonus fact: they were born on the same day, 19 September 1922."
+   }
+  },
+  {
+   "id": "T006-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čí rekord v počtu olympijských medailí (18) překonal Michael Phelps v roce 2012?",
+    "en": "Whose record for the most Olympic medals (18) did Michael Phelps break in 2012?"
+   },
+   "moznosti": {
+    "cs": [
+     "Larisy Latyninové",
+     "Carla Lewise",
+     "Nadii Comăneciové",
+     "Paava Nurmiho"
+    ],
+    "en": [
+     "Larisa Latynina's",
+     "Carl Lewis's",
+     "Nadia Comăneci's",
+     "Paavo Nurmi's"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Sovětská gymnastka Latyninová získala v letech 1956–1964 celkem 18 medailí, z toho 9 zlatých. Rekord držela 48 let.",
+    "en": "Soviet gymnast Larisa Latynina won 18 medals, nine of them gold, between 1956 and 1964. She held the record for 48 years."
+   }
+  },
+  {
+   "id": "T006-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se jmenovalo posvátné příměří, které Řekové vyhlašovali kvůli olympijským hrám?",
+    "en": "What was the name of the sacred truce the Greeks declared for the Olympic Games?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pankration",
+     "Palaistra",
+     "Hellanodikai",
+     "Ekecheiria"
+    ],
+    "en": [
+     "Pankration",
+     "Palaistra",
+     "Hellanodikai",
+     "Ekecheiria"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Příměří umožňovalo sportovcům a divákům bezpečně cestovat na hry a vrátit se domů. Pankration byl bojový sport, hellanodikové rozhodčí a palaistra zápasiště.",
+    "en": "The truce let athletes and spectators travel safely to the Games and back home. Pankration was a combat sport, the Hellanodikai were the judges and the palaestra was a wrestling school."
+   }
+  },
+  {
+   "id": "T006-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na kterých olympijských hrách poprvé zavlála olympijská vlajka s pěti kruhy?",
+    "en": "At which Olympic Games was the Olympic flag with the five rings first flown?"
+   },
+   "moznosti": {
+    "cs": [
+     "Stockholm 1912",
+     "Antverpy 1920",
+     "Paříž 1924",
+     "Amsterdam 1928"
+    ],
+    "en": [
+     "Stockholm 1912",
+     "Antwerp 1920",
+     "Paris 1924",
+     "Amsterdam 1928"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Coubertin vlajku navrhl už před válkou, ale hry 1916 se kvůli první světové válce nekonaly. V Antverpách zazněl poprvé i olympijský slib sportovců.",
+    "en": "Coubertin designed the flag before the war, but the 1916 Games were cancelled because of the First World War. Antwerp also saw the first athletes' Olympic oath."
+   }
+  },
+  {
+   "id": "T006-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč se jezdecké soutěže LOH 1956 v Melbourne konaly ve Stockholmu?",
+    "en": "Why were the equestrian events of the 1956 Melbourne Olympics held in Stockholm?"
+   },
+   "moznosti": {
+    "cs": [
+     "Austrálie vyžadovala u koní dlouhou karanténu",
+     "Švédsko si je vymohlo hrozbou bojkotu",
+     "V Melbourne nestihli postavit jízdárnu",
+     "Koně by nevydrželi dlouhý let do Austrálie"
+    ],
+    "en": [
+     "Australia required a long quarantine for horses",
+     "Sweden demanded them under threat of a boycott",
+     "Melbourne failed to build an equestrian venue in time",
+     "Horses could not have survived the long flight to Australia"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Australské zákony vyžadovaly šestiměsíční karanténu a výjimku vláda nepovolila. Jezdci proto soutěžili už v červnu, zatímco zbytek her proběhl v listopadu a prosinci.",
+    "en": "Australian law required a six-month quarantine and the government refused an exemption. The riders therefore competed in June, while the rest of the Games took place in November and December."
+   }
+  },
+  {
+   "id": "T006-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kde je uloženo srdce Pierra de Coubertina, zakladatele moderních olympijských her?",
+    "en": "Where is the heart of Pierre de Coubertin, founder of the modern Olympic Games, kept?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Paříži",
+     "V Olympii",
+     "V Lausanne",
+     "V Athénách"
+    ],
+    "en": [
+     "In Paris",
+     "In Olympia",
+     "In Lausanne",
+     "In Athens"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jeho tělo je pohřbeno v Lausanne, kde sídlí MOV, srdce ale podle jeho přání spočívá ve stéle v Olympii, kam bylo uloženo v březnu 1938.",
+    "en": "His body is buried in Lausanne, home of the IOC, but his heart, as he wished, rests in a stele at Olympia, where it was placed in March 1938."
+   }
+  },
+  {
+   "id": "T006-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaká disciplína byla podle tradice jedinou soutěží prvních antických olympijských her v roce 776 př. n. l.?",
+    "en": "According to tradition, which event was the only contest at the first ancient Olympic Games in 776 BC?"
+   },
+   "moznosti": {
+    "cs": [
+     "Závod vozatajů",
+     "Zápas",
+     "Hod diskem",
+     "Běh na jeden stadion"
+    ],
+    "en": [
+     "Chariot racing",
+     "Wrestling",
+     "Discus throw",
+     "The stadion footrace"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Šlo o sprint na délku stadionu, necelých 200 metrů. Prvním známým vítězem byl Koroibos z Élidy a další disciplíny přibyly až po více než padesáti letech.",
+    "en": "It was a sprint the length of the stadium, just under 200 metres (660 ft). The first recorded winner was Coroebus of Elis, and other events were added only more than fifty years later."
+   }
+  },
+  {
+   "id": "T006-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V jaké nesportovní oblasti se v letech 1912–1948 na olympijských hrách udělovaly medaile?",
+    "en": "In which non-sporting field were medals awarded at the Olympic Games between 1912 and 1948?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve vědě",
+     "V řečnictví",
+     "V umění",
+     "Ve vaření"
+    ],
+    "en": [
+     "Science",
+     "Oratory",
+     "Art",
+     "Cooking"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Soutěžilo se v architektuře, literatuře, hudbě, malířství a sochařství. Sám Coubertin vyhrál v roce 1912 zlato za báseň Óda na sport, kterou přihlásil pod pseudonymem.",
+    "en": "Medals were given for architecture, literature, music, painting and sculpture. Coubertin himself won gold in 1912 for his poem Ode to Sport, submitted under a pseudonym."
+   }
+  }
+ ]
+}

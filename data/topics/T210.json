@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T210",
+ "nazev": {
+  "cs": "Průplavy, přístavy a světový obchod",
+  "en": "Canals, Ports and World Trade"
+ },
+ "kategorie": {
+  "id": "ekonomika-a-penize",
+  "nazev": {
+   "cs": "Ekonomika a peníze",
+   "en": "Economy & Money"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T210-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která dvě moře propojuje Suezský průplav?",
+    "en": "Which two seas does the Suez Canal connect?"
+   },
+   "moznosti": {
+    "cs": [
+     "Středozemní a Kaspické moře",
+     "Rudé a Arabské moře",
+     "Středozemní a Rudé moře",
+     "Černé a Středozemní moře"
+    ],
+    "en": [
+     "The Mediterranean and the Caspian Sea",
+     "The Red Sea and the Arabian Sea",
+     "The Mediterranean and the Red Sea",
+     "The Black Sea and the Mediterranean"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Průplav vede přes Suezskou šíji v Egyptě a spojuje Středozemní moře s Rudým. Lodě mezi Evropou a Asií tak nemusí obeplouvat celou Afriku.",
+    "en": "The canal crosses the Isthmus of Suez in Egypt, linking the Mediterranean with the Red Sea, so ships between Europe and Asia no longer have to sail around Africa."
+   }
+  },
+  {
+   "id": "T210-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Obeplouvání kterého kontinentu lodím ušetří Panamský průplav?",
+    "en": "Thanks to the Panama Canal, ships no longer have to sail around which continent?"
+   },
+   "moznosti": {
+    "cs": [
+     "Afriky",
+     "Jižní Ameriky",
+     "Austrálie",
+     "Antarktidy"
+    ],
+    "en": [
+     "Africa",
+     "South America",
+     "Australia",
+     "Antarctica"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Průplav protíná Panamskou šíji a spojuje Atlantik s Tichým oceánem. Bez něj by lodě musely obeplouvat Jižní Ameriku kolem mysu Horn nebo proplouvat Magalhãesovým průlivem.",
+    "en": "The canal cuts across the Isthmus of Panama, linking the Atlantic with the Pacific. Without it, ships would have to sail around South America via Cape Horn or the Strait of Magellan."
+   }
+  },
+  {
+   "id": "T210-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Obří kontejnerová loď Ever Given v březnu 2021 najela na mělčinu a na několik dní zablokovala jeden z nejdůležitějších průplavů světa. Který?",
+    "en": "In March 2021 the giant container ship Ever Given ran aground and blocked one of the world's most important canals for several days. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Korintský",
+     "Panamský",
+     "Kielský",
+     "Suezský"
+    ],
+    "en": [
+     "The Corinth Canal",
+     "The Panama Canal",
+     "The Kiel Canal",
+     "The Suez Canal"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Loď dlouhá 400 m uvízla 23. března 2021 při písečné bouři a silném větru a uvolnit se ji podařilo až 29. března. Na proplutí tou dobou čekalo přes 400 lodí.",
+    "en": "The 400-metre (1,312 ft) ship ran aground on 23 March 2021 during a sandstorm with strong winds and was not refloated until 29 March, by which time more than 400 ships were waiting."
+   }
+  },
+  {
+   "id": "T210-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na které řece leží německý přístav Hamburk?",
+    "en": "On which river does the German port of Hamburg lie?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Odře",
+     "Na Labi",
+     "Na Vezeře",
+     "Na Rýnu"
+    ],
+    "en": [
+     "The Oder",
+     "The Elbe",
+     "The Weser",
+     "The Rhine"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Hamburský přístav leží na Labi asi 110 km od jeho ústí do Severního moře. Němci mu říkají „brána do světa“ (Tor zur Welt).",
+    "en": "The Port of Hamburg lies on the Elbe, about 110 km (68 mi) from its mouth on the North Sea. Germans call it the \"Gateway to the World\" (Tor zur Welt)."
+   }
+  },
+  {
+   "id": "T210-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Podél které řeky vede Baťův kanál v Česku, postavený ve 30. letech 20. století?",
+    "en": "Along which river does the Baťa Canal in the Czech Republic, built in the 1930s, run?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bečva",
+     "Svratka",
+     "Morava",
+     "Dyje"
+    ],
+    "en": [
+     "The Bečva",
+     "The Svratka",
+     "The Morava",
+     "The Dyje"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Baťův kanál vede z Otrokovic do Rohatce. Zhruba polovinu jeho asi 52 km tvoří koryto řeky Moravy, zbytek uměle vyhloubené úseky. Dnes slouží hlavně turistické plavbě.",
+    "en": "The Baťa Canal runs from Otrokovice to Rohatec. Roughly half of its approximately 52 km (32 mi) follows the bed of the Morava river, the rest consists of artificially dug sections. Today it is used mainly for leisure boating."
+   }
+  },
+  {
+   "id": "T210-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který přístav byl v roce 2024 podle počtu přeložených kontejnerů největším na světě?",
+    "en": "Which port was the world's largest by container throughput in 2024?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rotterdam",
+     "Šanghaj",
+     "Singapur",
+     "Los Angeles"
+    ],
+    "en": [
+     "Rotterdam",
+     "Shanghai",
+     "Singapore",
+     "Los Angeles"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Šanghaj v roce 2024 odbavila přes 51 milionů TEU, zhruba o 10 milionů víc než druhý přístav v pořadí. Šest přístavů z první desítky leží v Číně.",
+    "en": "In 2024 Shanghai handled more than 51 million TEU, about 10 million more than the second-placed port. Six of the top ten ports are in China."
+   }
+  },
+  {
+   "id": "T210-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Středověká Hanza byla spolek obchodních měst, který ovládal obchod hlavně ve kterých mořích?",
+    "en": "The medieval Hanseatic League was an alliance of merchant towns that dominated trade mainly in which seas?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Kaspickém a Černém moři",
+     "V Jaderském a Egejském moři",
+     "V Baltském a Severním moři",
+     "Ve Středozemním a Černém moři"
+    ],
+    "en": [
+     "The Caspian and the Black Sea",
+     "The Adriatic and the Aegean",
+     "The Baltic and the North Sea",
+     "The Mediterranean and the Black Sea"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hanza ovládala námořní obchod v Baltském a Severním moři, jejím neformálním hlavním městem byl Lübeck. Hlavní obchodní stanice (kontory) měla v Londýně, Bruggách, Bergenu a Novgorodu.",
+    "en": "The Hanseatic League dominated maritime trade in the Baltic and North Seas, with Lübeck as its informal capital. Its main trading posts (kontors) were in London, Bruges, Bergen and Novgorod."
+   }
+  },
+  {
+   "id": "T210-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kapacita kontejnerových lodí a přístavů se udává v jednotkách TEU. Kontejneru jaké délky odpovídá jedna TEU?",
+    "en": "The capacity of container ships and ports is measured in TEU. One TEU corresponds to a container of what length?"
+   },
+   "moznosti": {
+    "cs": [
+     "10 stop",
+     "20 stop",
+     "30 stop",
+     "40 stop"
+    ],
+    "en": [
+     "10 feet",
+     "20 feet",
+     "30 feet",
+     "40 feet"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "TEU znamená twenty-foot equivalent unit, tedy jeden kontejner dlouhý 20 stop (asi 6,1 m). Delší 40stopý kontejner se počítá jako dvě TEU.",
+    "en": "TEU stands for twenty-foot equivalent unit, one container 20 feet (about 6.1 m) long. The longer 40-foot container counts as two TEU."
+   }
+  },
+  {
+   "id": "T210-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které město má největší námořní přístav v Evropě?",
+    "en": "Which city has the largest seaport in Europe?"
+   },
+   "moznosti": {
+    "cs": [
+     "Marseille",
+     "Antverpy",
+     "Hamburk",
+     "Rotterdam"
+    ],
+    "en": [
+     "Marseille",
+     "Antwerp",
+     "Hamburg",
+     "Rotterdam"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Rotterdam v deltě Rýna a Mázy je největším námořním přístavem Evropy. Kvůli rozšiřování přístavu Nizozemci dokonce vysypali do Severního moře nové území Maasvlakte.",
+    "en": "Rotterdam, in the Rhine–Meuse delta, is Europe's largest seaport. To expand it, the Dutch even reclaimed new land from the North Sea, the Maasvlakte."
+   }
+  },
+  {
+   "id": "T210-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém městě sídlí Světová obchodní organizace (WTO)?",
+    "en": "In which city is the World Trade Organization (WTO) headquartered?"
+   },
+   "moznosti": {
+    "cs": [
+     "V New Yorku",
+     "V Bruselu",
+     "V Ženevě",
+     "Ve Vídni"
+    ],
+    "en": [
+     "New York",
+     "Brussels",
+     "Geneva",
+     "Vienna"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "WTO sídlí v Ženevě v budově Centre William Rappard. Vznikla 1. ledna 1995 a má 166 členů (k roku 2026).",
+    "en": "The WTO is based in Geneva, in the Centre William Rappard. It was founded on 1 January 1995 and has 166 members (as of 2026)."
+   }
+  },
+  {
+   "id": "T210-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém roce byl otevřen Suezský průplav?",
+    "en": "In which year was the Suez Canal opened?"
+   },
+   "moznosti": {
+    "cs": [
+     "1847",
+     "1858",
+     "1869",
+     "1876"
+    ],
+    "en": [
+     "1847",
+     "1858",
+     "1869",
+     "1876"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Průplav byl slavnostně otevřen 17. listopadu 1869. Na rozdíl od Panamského nemá žádná zdymadla, protože terén je rovný a hladiny obou moří se liší jen málo.",
+    "en": "The canal officially opened on 17 November 1869. Unlike the Panama Canal it has no locks, because the terrain is flat and the two seas differ little in level."
+   }
+  },
+  {
+   "id": "T210-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Francouzský diplomat Ferdinand de Lesseps prosadil stavbu Suezského průplavu. Který další průplav se v 80. letech 19. století pokusil postavit, ale jeho projekt zkrachoval?",
+    "en": "French diplomat Ferdinand de Lesseps pushed through the building of the Suez Canal. Which other canal did he try to build in the 1880s, only for the project to go bankrupt?"
+   },
+   "moznosti": {
+    "cs": [
+     "Panamský",
+     "Manchesterský",
+     "Kielský",
+     "Erijský"
+    ],
+    "en": [
+     "The Panama Canal",
+     "The Manchester Ship Canal",
+     "The Kiel Canal",
+     "The Erie Canal"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Francouzi začali v Panamě kopat v roce 1881, ale technické potíže a tropické nemoci jako žlutá zimnice a malárie si do roku 1889 vyžádaly přes 22 000 obětí a firma zkrachovala. Průplav byl nakonec dokončen až v roce 1914.",
+    "en": "The French began digging in Panama in 1881, but engineering problems and tropical diseases such as yellow fever and malaria claimed over 22,000 lives by 1889, and the company went bankrupt. The canal was not completed until 1914."
+   }
+  },
+  {
+   "id": "T210-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo v červenci 1956 znárodnil Suezský průplav, čímž vyvolal Suezskou krizi?",
+    "en": "Who nationalised the Suez Canal in July 1956, triggering the Suez Crisis?"
+   },
+   "moznosti": {
+    "cs": [
+     "Gamál Abd an-Násir",
+     "Anvar as-Sádát",
+     "Husní Mubarak",
+     "Král Farúk I."
+    ],
+    "en": [
+     "Gamal Abdel Nasser",
+     "Anwar Sadat",
+     "Hosni Mubarak",
+     "King Farouk I"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Egyptský prezident Násir znárodnil průplav 26. července 1956. Izrael, Británie a Francie pak Egypt napadly, ale pod tlakem USA, SSSR a OSN se musely stáhnout.",
+    "en": "Egyptian President Nasser nationalised the canal on 26 July 1956. Israel, Britain and France then invaded Egypt but had to withdraw under pressure from the US, the USSR and the UN."
+   }
+  },
+  {
+   "id": "T210-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Od kterého státu převzala Panama 31. prosince 1999 plnou kontrolu nad Panamským průplavem?",
+    "en": "From which country did Panama take full control of the Panama Canal on 31 December 1999?"
+   },
+   "moznosti": {
+    "cs": [
+     "Od Kolumbie",
+     "Od Francie",
+     "Od Spojeného království",
+     "Od Spojených států"
+    ],
+    "en": [
+     "Colombia",
+     "France",
+     "The United Kingdom",
+     "The United States"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Spojené státy získaly práva k průplavu smlouvou z roku 1903 a od roku 1904 spravovaly průplav i okolní pásmo. O předání rozhodly smlouvy Torrijos–Carter z roku 1977 a Panama převzala plnou kontrolu nad průplavem v poledne 31. prosince 1999.",
+    "en": "The United States gained rights to the canal by a 1903 treaty and from 1904 controlled the canal and the surrounding zone. The 1977 Torrijos–Carter Treaties arranged the handover, and Panama took full control at noon on 31 December 1999."
+   }
+  },
+  {
+   "id": "T210-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč potřebuje Panamský průplav zdymadla?",
+    "en": "Why does the Panama Canal need locks?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hladina Tichého oceánu leží o desítky metrů výš než hladina Atlantiku",
+     "Zdymadla zabraňují tomu, aby se slaná voda dostala do pitné vody",
+     "Lodě musí vystoupat na Gatúnské jezero asi 26 m nad mořem",
+     "Zdymadla brzdí silné mořské proudy, které by lodě strhávaly"
+    ],
+    "en": [
+     "The Pacific lies tens of metres higher than the Atlantic",
+     "The locks stop salt water from getting into drinking water",
+     "Ships must climb to Gatun Lake, about 26 m (85 ft) above sea level",
+     "The locks slow down strong currents that would sweep ships away"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Gatúnské jezero vzniklo přehrazením řeky Chagres a leží 26 m nad mořem. Lodě na něj zdymadla zvednou a na druhé straně zase spustí, což ušetřilo obrovské množství výkopů.",
+    "en": "Gatun Lake was created by damming the Chagres River and lies 26 m (85 ft) above sea level. The locks lift ships up to it and lower them on the other side, which saved an enormous amount of excavation."
+   }
+  },
+  {
+   "id": "T210-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Korintský průplav, dokončený v roce 1893, prořízl úzkou šíji. Který poloostrov tím oddělil od řecké pevniny?",
+    "en": "The Corinth Canal, completed in 1893, cut through a narrow isthmus. Which peninsula did it separate from the Greek mainland?"
+   },
+   "moznosti": {
+    "cs": [
+     "Peloponés",
+     "Chalkidiki",
+     "Attiku",
+     "Gallipoli"
+    ],
+    "en": [
+     "The Peloponnese",
+     "Chalkidiki",
+     "Attica",
+     "Gallipoli"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Průplav dlouhý asi 6,3 km spojuje Korintský a Saronský záliv. Je široký jen kolem 25 m, takže jím velké moderní lodě neproplují.",
+    "en": "The canal, about 6.3 km (3.9 mi) long, links the Gulf of Corinth with the Saronic Gulf. It is only about 25 m (82 ft) wide, so large modern ships cannot pass through it."
+   }
+  },
+  {
+   "id": "T210-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která dvě moře propojuje Kielský průplav v severním Německu?",
+    "en": "Which two seas does the Kiel Canal in northern Germany connect?"
+   },
+   "moznosti": {
+    "cs": [
+     "Severní moře a Lamanšský průliv",
+     "Baltské a Černé moře",
+     "Baltské a Bílé moře",
+     "Severní a Baltské moře"
+    ],
+    "en": [
+     "The North Sea and the English Channel",
+     "The Baltic and the Black Sea",
+     "The Baltic and the White Sea",
+     "The North Sea and the Baltic"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Průplav otevřený v roce 1895 vede napříč Šlesvickem-Holštýnskem a lodě nemusí obeplouvat Dánsko. V roce 2025 jím proplulo přes 22 000 obchodních lodí, takže patří k nejvytíženějším umělým vodním cestám světa.",
+    "en": "Opened in 1895, the canal crosses Schleswig-Holstein so ships need not sail around Denmark. More than 22,000 commercial ships used it in 2025, making it one of the world's most frequented artificial waterways."
+   }
+  },
+  {
+   "id": "T210-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Světová obchodní organizace (WTO) v roce 1995 převzala roli mezinárodní dohody o snižování cel z roku 1947. Jak se tato dohoda jmenovala?",
+    "en": "In 1995 the World Trade Organization (WTO) took over the role of an international agreement on cutting tariffs dating from 1947. What was it called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Římské smlouvy",
+     "GATT",
+     "Brettonwoodská dohoda",
+     "Marshallův plán"
+    ],
+    "en": [
+     "The Treaties of Rome",
+     "GATT",
+     "The Bretton Woods Agreement",
+     "The Marshall Plan"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Všeobecnou dohodu o clech a obchodu (General Agreement on Tariffs and Trade) podepsalo 30. října 1947 celkem 23 států. WTO vzešla z Uruguayského kola jednání (1986–1994) a GATT v ní žije dál v aktualizované podobě jako GATT 1994.",
+    "en": "The General Agreement on Tariffs and Trade was signed on 30 October 1947 by 23 nations. The WTO emerged from the Uruguay Round of negotiations (1986–1994), and GATT lives on within it in updated form as GATT 1994."
+   }
+  },
+  {
+   "id": "T210-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím se živil Američan Malcom McLean, než v roce 1956 odstartoval éru kontejnerové přepravy?",
+    "en": "What did the American Malcom McLean do for a living before launching the era of container shipping in 1956?"
+   },
+   "moznosti": {
+    "cs": [
+     "Stavěl zaoceánské lodě",
+     "Byl přístavním jeřábníkem",
+     "Vlastnil kamionovou dopravní firmu",
+     "Vlastnil železniční společnost"
+    ],
+    "en": [
+     "He built ocean-going ships",
+     "He was a harbour crane operator",
+     "He owned a trucking company",
+     "He owned a railway company"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "McLean v roce 1935 založil se sourozenci firmu McLean Trucking a pak přišel s nápadem nakládat na lodě rovnou celé návěsy a kontejnery. Kontejner snížil náklady na nakládku z 5,86 dolaru na 16 centů za tunu.",
+    "en": "McLean founded McLean Trucking with his siblings in 1935 and later came up with the idea of loading whole trailers and containers straight onto ships. Containers cut loading costs from $5.86 to 16 cents per ton."
+   }
+  },
+  {
+   "id": "T210-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která panovnice udělila 31. prosince 1600 výsadní listinu anglické Východoindické společnosti?",
+    "en": "Which queen granted the royal charter to the English East India Company on 31 December 1600?"
+   },
+   "moznosti": {
+    "cs": [
+     "Anna Stuartovna",
+     "Alžběta I.",
+     "Marie I. Tudorovna",
+     "Viktorie"
+    ],
+    "en": [
+     "Queen Anne",
+     "Elizabeth I",
+     "Mary I",
+     "Queen Victoria"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Společnost přezdívaná „John Company“ postupně ovládla velkou část Indie a na vrcholu měla armádu kolem 260 000 vojáků. Po povstání v roce 1857 převzala její indická území britská koruna.",
+    "en": "Nicknamed \"John Company\", it gradually took control of much of India and at its peak had armies of about 260,000 soldiers. After the rebellion of 1857 the British Crown took over its Indian territories."
+   }
+  },
+  {
+   "id": "T210-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Česko má v hamburském přístavu do roku 2028 pronajaté území Moldauhafen (Vltavský přístav). Na základě které smlouvy ho Československo získalo?",
+    "en": "Czechia leases an area in the Port of Hamburg called Moldauhafen (Vltava Harbour) until 2028. Under which treaty did Czechoslovakia obtain it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mnichovské dohody",
+     "Postupimské dohody",
+     "Versailleské mírové smlouvy",
+     "Saint-Germainské mírové smlouvy"
+    ],
+    "en": [
+     "The Munich Agreement",
+     "The Potsdam Agreement",
+     "The Treaty of Versailles",
+     "The Treaty of Saint-Germain"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Článek 363 Versailleské smlouvy zavazoval Německo pronajmout Československu na 99 let pásma v přístavu Hamburk. Nájem začal v roce 1929 a vyprší v roce 2028. Vnitrozemský stát tak získal vlastní přístup k moři.",
+    "en": "Article 363 of the Treaty of Versailles required Germany to lease zones in the Port of Hamburg to Czechoslovakia for 99 years. The lease began in 1929 and expires in 2028, giving the landlocked country its own access to the sea."
+   }
+  },
+  {
+   "id": "T210-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaký náklad měly podle plánu vozit lodě po Baťově kanálu v Česku do Otrokovic pro tamní závody firmy Baťa?",
+    "en": "What cargo were boats on the Baťa Canal in the Czech Republic meant to carry to Otrokovice for the Baťa works there?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hnědé uhlí (lignit)",
+     "Kaučuk na výrobu pneumatik",
+     "Dřevo z Bílých Karpat",
+     "Surové kůže na výrobu obuvi"
+    ],
+    "en": [
+     "Brown coal (lignite)",
+     "Rubber for making tyres",
+     "Timber from the White Carpathians",
+     "Raw hides for making shoes"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hlavním důvodem stavby kanálu, otevřeného v roce 1938, byla doprava lignitu z Baťových dolů v Ratíškovicích do otrokovické tepelné elektrárny, která zásobovala Baťovy závody. Prvním nákladem bylo 200 tun lignitu z dolu Tomáš.",
+    "en": "The main reason for building the canal, opened in 1938, was to carry lignite from Baťa's mines at Ratíškovice to the Otrokovice thermal power plant that supplied the Baťa works. Its first cargo was 200 tonnes (220 short tons) of lignite from the Tomáš mine."
+   }
+  },
+  {
+   "id": "T210-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Po šestidenní válce v roce 1967 zůstalo v uzavřeném Suezském průplavu na osm let uvězněno 15 nákladních lodí. Proč se jim začalo říkat „Žlutá flotila“?",
+    "en": "After the Six-Day War in 1967, 15 cargo ships were trapped in the closed Suez Canal for eight years. Why did they become known as the \"Yellow Fleet\"?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vztyčily žlutou karanténní vlajku",
+     "Vezly náklad síry",
+     "Natřely si trupy žlutě na znamení neutrality",
+     "Pokryl je pouštní písek"
+    ],
+    "en": [
+     "They flew the yellow quarantine flag",
+     "They were carrying sulphur",
+     "They painted their hulls yellow as a sign of neutrality",
+     "They were covered in desert sand"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Lodě kotvily většinou ve Velkém Hořkém jezeře a posádky založily vlastní spolek a vydávaly ručně vyrobené známky, po nichž dnes pátrají sběratelé. Jen dvě německé lodě doplouly v roce 1975 domů po vlastní ose.",
+    "en": "Most of the ships were anchored in the Great Bitter Lake, where the crews formed their own association and produced hand-made stamps now sought by collectors. Only two German ships sailed home under their own power in 1975."
+   }
+  },
+  {
+   "id": "T210-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se v antice dostávaly lodě přes Korintskou šíji, dokud neexistoval průplav?",
+    "en": "In antiquity, before a canal existed, how did ships get across the Isthmus of Corinth?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rozebraly se a na druhé straně znovu složily",
+     "Proplouvaly mělkým kanálem, který zaplavoval příliv",
+     "Táhly se po kamenné dráze zvané Diolkos",
+     "Proplouvaly soustavou jezer a říčních ramen"
+    ],
+    "en": [
+     "They were taken apart and reassembled on the other side",
+     "They sailed through a shallow channel flooded by the tide",
+     "They were hauled along a stone trackway called the Diolkos",
+     "They sailed through a chain of lakes and river channels"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Dráhu Diolkos nechal postavit korintský tyran Periandros jako levnější náhradu průplavu. Kopat průplav začal až římský císař Nero v roce 67 n. l., po jeho smrti však práce ustaly. Zbytky dráhy jsou vidět dodnes vedle moderního průplavu.",
+    "en": "The Diolkos was built by the Corinthian tyrant Periander as a cheaper alternative to a canal. Emperor Nero only started digging a canal in AD 67, and work stopped after his death. Remains of the trackway can still be seen beside the modern canal."
+   }
+  },
+  {
+   "id": "T210-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Loď Ideal X v dubnu 1956 převezla z Newarku do Houstonu 58 kontejnerů Malcoma McLeana a zahájila tak éru kontejnerové přepravy. Čím byla původně?",
+    "en": "In April 1956 the ship Ideal X carried 58 of Malcom McLean's containers from Newark to Houston, launching the age of container shipping. What had she originally been?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zaoceánským parníkem pro cestující",
+     "Tankerem z druhé světové války",
+     "Letadlovou lodí",
+     "Říčním nákladním člunem"
+    ],
+    "en": [
+     "An ocean liner",
+     "A Second World War tanker",
+     "An aircraft carrier",
+     "A river barge"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "McLean nechal přestavět levný válečný tanker typu T2. Úspora byla obrovská a jeho rejdařská firma Pan-Atlantic se později přejmenovala na Sea-Land a stala se velkou rejdařskou společností.",
+    "en": "McLean had a cheap wartime T2 tanker converted. The savings were huge, and his shipping firm Pan-Atlantic was later renamed Sea-Land and grew into a major shipping line."
+   }
+  },
+  {
+   "id": "T210-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Velký čínský kanál, považovaný za nejdelší umělou vodní cestu na světě, vede z Pekingu na jih. Ve kterém městě končí?",
+    "en": "The Grand Canal of China, considered the world's longest artificial waterway, runs south from Beijing. In which city does it end?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Sia-menu (Xiamen)",
+     "V Šanghaji",
+     "V Kantonu (Guangzhou)",
+     "V Chang-čou (Hangzhou)"
+    ],
+    "en": [
+     "Xiamen",
+     "Shanghai",
+     "Guangzhou (Canton)",
+     "Hangzhou"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Hlavní trasa kanálu měří asi 1 776 km, propojuje povodí několika velkých řek včetně Jang-c'-ťiangu a od roku 2014 je na seznamu světového dědictví UNESCO. Jeho síť dokončil kolem let 604–609 císař Jang z dynastie Suej.",
+    "en": "The main route is about 1,776 km (1,100 mi) long, links the basins of several major rivers including the Yangtze, and has been a UNESCO World Heritage Site since 2014. Emperor Yang of the Sui dynasty completed the network around 604–609."
+   }
+  },
+  {
+   "id": "T210-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Canal du Midi na jihu Francie, od roku 1996 památka UNESCO, propojil Toulouse se Středozemním mořem. Za vlády kterého krále byl postaven?",
+    "en": "The Canal du Midi in southern France, a UNESCO site since 1996, linked Toulouse with the Mediterranean. In which king's reign was it built?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ludvíka XIV.",
+     "Jindřicha IV.",
+     "Ludvíka XIII.",
+     "Ludvíka XV."
+    ],
+    "en": [
+     "Louis XIV",
+     "Henry IV",
+     "Louis XIII",
+     "Louis XV"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kanál dokončený v roce 1681 navrhl Pierre-Paul Riquet. Spolu s řekou Garonnou a pozdějším Garonnským kanálem tvoří „Kanál dvou moří“ mezi Atlantikem a Středozemním mořem.",
+    "en": "Completed in 1681 and designed by Pierre-Paul Riquet, it forms, together with the Garonne and the later Canal de Garonne, the \"Canal of the Two Seas\" between the Atlantic and the Mediterranean."
+   }
+  },
+  {
+   "id": "T210-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ke každé komoře nových, větších zdymadel Panamského průplavu, otevřených v roce 2016, patří tři boční nádrže. K čemu slouží?",
+    "en": "Each chamber of the Panama Canal's new, larger locks, opened in 2016, has three side basins. What are they for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zachytávají vodu, která se pak při dalším proplutí použije znovu",
+     "Vyrovnávají vysoký příliv na tichomořské straně",
+     "Zachytávají bahno a písek, aby nezanášely komory",
+     "Slouží jako kotviště pro lodě čekající na proplutí"
+    ],
+    "en": [
+     "They store water that is then reused in the next transit",
+     "They balance out the high tides on the Pacific side",
+     "They trap mud and sand so it does not silt up the chambers",
+     "They serve as moorings for ships waiting to pass"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Každé proplutí spotřebuje obrovské množství sladké vody z Gatúnského jezera. Nádrže šetří vodu, protože asi 60 % jí jde znovu použít. Nová zdymadla pojmou lodě velikosti Neopanamax.",
+    "en": "Every transit uses a huge amount of fresh water from Gatun Lake. The basins save water by allowing about 60 per cent of it to be reused. The new locks can take Neopanamax-size ships."
+   }
+  },
+  {
+   "id": "T210-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Atlantik leží východně od Panamské šíje a Tichý oceán západně. Kterým směrem ale pluje loď Panamským průplavem z Atlantiku do Tichého oceánu?",
+    "en": "The Atlantic lies east of the Isthmus of Panama and the Pacific to the west. But in which direction does a ship travel through the Panama Canal from the Atlantic to the Pacific?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ze severozápadu na jihovýchod",
+     "Ze severovýchodu na jihozápad",
+     "Z východu na západ",
+     "Z jihovýchodu na severozápad"
+    ],
+    "en": [
+     "From northwest to southeast",
+     "From northeast to southwest",
+     "From east to west",
+     "From southeast to northwest"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kvůli zakřivení šíje leží atlantský vjezd do průplavu severozápadně od tichomořského. Proplutí se proto oficiálně označuje jako „jižní“ a „severní“, nikoli jako západní a východní.",
+    "en": "Because of the way the isthmus curves, the Atlantic entrance lies northwest of the Pacific one. Transits are therefore officially called southbound and northbound rather than westbound and eastbound."
+   }
+  },
+  {
+   "id": "T210-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který přístav se v roce 2004 poprvé stal nejrušnějším přístavem světa podle ročního objemu nákladu v tunách?",
+    "en": "Which port became the world's busiest by annual cargo tonnage for the first time in 2004?"
+   },
+   "moznosti": {
+    "cs": [
+     "Antverpy",
+     "Singapur",
+     "Los Angeles",
+     "Hongkong"
+    ],
+    "en": [
+     "Antwerp",
+     "Singapore",
+     "Los Angeles",
+     "Hong Kong"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Singapur v roce 2004 předstihl dosavadního lídra, který světovému pořadí podle tonáže vévodil od roku 1962. Leží u jižního konce Malackého průlivu, jedné z nejrušnějších námořních tras světa.",
+    "en": "In 2004 Singapore overtook the previous leader, which had topped the world ranking by tonnage since 1962. It lies at the southern end of the Strait of Malacca, one of the world's busiest shipping lanes."
+   }
+  }
+ ]
+}

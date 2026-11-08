@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T020",
+ "nazev": {
+  "cs": "Ostrovy světa",
+  "en": "Islands of the World"
+ },
+ "kategorie": {
+  "id": "zemepis",
+  "nazev": {
+   "cs": "Zeměpis",
+   "en": "Geography"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T020-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Pokud Austrálii považujeme za kontinent, a ne za ostrov, který ostrov je největší na světě?",
+    "en": "If Australia is treated as a continent rather than an island, which island is the largest in the world?"
+   },
+   "moznosti": {
+    "cs": [
+     "Grónsko",
+     "Madagaskar",
+     "Borneo",
+     "Baffinův ostrov"
+    ],
+    "en": [
+     "Greenland",
+     "Madagascar",
+     "Borneo",
+     "Baffin Island"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Grónsko má asi 2,1 milionu km² a většinu jeho povrchu pokrývá ledovec. Austrálie je ještě větší, ale obvykle se řadí mezi kontinenty.",
+    "en": "Greenland covers about 2.1 million km² (810,000 sq mi), most of it under an ice sheet. Australia is even bigger, but it is usually classed as a continent."
+   }
+  },
+  {
+   "id": "T020-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ke kterému státu patří Grónsko jako autonomní území?",
+    "en": "Which country does Greenland belong to as an autonomous territory?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kanada",
+     "Norsko",
+     "Island",
+     "Dánsko"
+    ],
+    "en": [
+     "Canada",
+     "Norway",
+     "Iceland",
+     "Denmark"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Grónsko je autonomní součástí Dánského království s vlastní vládou a parlamentem; Dánsko si ponechává zahraniční politiku a obranu.",
+    "en": "Greenland is an autonomous part of the Kingdom of Denmark with its own government and parliament; Denmark keeps control of foreign affairs and defence."
+   }
+  },
+  {
+   "id": "T020-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na kterém ostrově zemřel v roce 1821 Napoleon Bonaparte ve vyhnanství?",
+    "en": "On which island did Napoleon Bonaparte die in exile in 1821?"
+   },
+   "moznosti": {
+    "cs": [
+     "Elba",
+     "Sardinie",
+     "Korsika",
+     "Svatá Helena"
+    ],
+    "en": [
+     "Elba",
+     "Sardinia",
+     "Corsica",
+     "Saint Helena"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Po porážce u Waterloo byl Napoleon v roce 1815 poslán na odlehlou Svatou Helenu v jižním Atlantiku a zemřel tam v usedlosti Longwood House. Z dřívějšího vyhnanství na Elbě dokázal uprchnout.",
+    "en": "After his defeat at Waterloo, Napoleon was sent in 1815 to remote Saint Helena in the South Atlantic and died there at Longwood House. He had managed to escape from his earlier exile on Elba."
+   }
+  },
+  {
+   "id": "T020-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývají obří kamenné sochy na Velikonočním ostrově?",
+    "en": "What are the giant stone statues on Easter Island called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Totemy",
+     "Moai",
+     "Menhiry",
+     "Tiki"
+    ],
+    "en": [
+     "Totem poles",
+     "Moai",
+     "Menhirs",
+     "Tiki"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Asi 95 % soch moai vytesali dávní obyvatelé ostrova (Rapa Nui) v lomu Rano Raraku ze sopečného tufu, tedy ze zpevněného sopečného popela.",
+    "en": "The early Rapa Nui people carved about 95% of the moai at the Rano Raraku quarry from volcanic tuff, which is compressed volcanic ash."
+   }
+  },
+  {
+   "id": "T020-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ke kterému státu patří Galapágy?",
+    "en": "Which country do the Galápagos Islands belong to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Chile",
+     "Kolumbie",
+     "Peru",
+     "Ekvádor"
+    ],
+    "en": [
+     "Chile",
+     "Colombia",
+     "Peru",
+     "Ecuador"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Galapágy tvoří ekvádorskou provincii a leží asi 900 km západně od pevniny Jižní Ameriky. Národní park pokrývá asi 97 % jejich pevniny a okolní moře chrání mořská rezervace.",
+    "en": "The Galápagos form a province of Ecuador and lie about 900 km (560 mi) west of the South American mainland. A national park covers about 97% of their land, and the surrounding waters are a marine reserve."
+   }
+  },
+  {
+   "id": "T020-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo napsal román Robinson Crusoe?",
+    "en": "Who wrote the novel Robinson Crusoe?"
+   },
+   "moznosti": {
+    "cs": [
+     "Robert Louis Stevenson",
+     "Daniel Defoe",
+     "Walter Scott",
+     "Jonathan Swift"
+    ],
+    "en": [
+     "Robert Louis Stevenson",
+     "Daniel Defoe",
+     "Walter Scott",
+     "Jonathan Swift"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Daniel Defoe vydal Robinsona Crusoe v roce 1719. Jeho hrdina stráví na pustém ostrově 28 let a pojmenuje svého společníka Pátek podle dne, kdy ho zachránil.",
+    "en": "Daniel Defoe published Robinson Crusoe in 1719. Its hero spends 28 years on a desert island and names his companion Friday after the day he rescued him."
+   }
+  },
+  {
+   "id": "T020-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který ostrov proslul lemury, skupinou primátů, která je jeho endemitem?",
+    "en": "Which island is famous for lemurs, a group of primates endemic to it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Madagaskar",
+     "Borneo",
+     "Srí Lanka",
+     "Nová Guinea"
+    ],
+    "en": [
+     "Madagascar",
+     "Borneo",
+     "Sri Lanka",
+     "New Guinea"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Lemuři jsou endemity Madagaskaru, kde žije kolem stovky jejich druhů. Endemitů je na ostrově vůbec nezvykle mnoho: přes 90 % tamních živočichů jinde nežije.",
+    "en": "Lemurs are endemic to Madagascar, home to around a hundred species of them. The island is unusually rich in endemics overall: over 90% of its wildlife lives nowhere else."
+   }
+  },
+  {
+   "id": "T020-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolikátým státem USA se v roce 1959 stala Havaj?",
+    "en": "Which number US state did Hawaii become in 1959?"
+   },
+   "moznosti": {
+    "cs": [
+     "48.",
+     "49.",
+     "50.",
+     "51."
+    ],
+    "en": [
+     "48th",
+     "49th",
+     "50th",
+     "51st"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Havaj se stala 50. státem USA 21. srpna 1959, několik měsíců po Aljašce. Hlavní město Honolulu i přístav Pearl Harbor leží na ostrově Oahu.",
+    "en": "Hawaii became the 50th US state on 21 August 1959, a few months after Alaska. The capital Honolulu and Pearl Harbor are both on the island of Oʻahu."
+   }
+  },
+  {
+   "id": "T020-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který ostrov je největší ve Středozemním moři?",
+    "en": "Which is the largest island in the Mediterranean Sea?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sicílie",
+     "Korsika",
+     "Kypr",
+     "Sardinie"
+    ],
+    "en": [
+     "Sicily",
+     "Corsica",
+     "Cyprus",
+     "Sardinia"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Sicílie má rozlohu přes 25 000 km² a je i nejlidnatějším středomořským ostrovem. Tyčí se na ní Etna, jedna z nejaktivnějších sopek světa.",
+    "en": "Sicily covers over 25,000 km² (9,700 sq mi) and is also the most populous Mediterranean island. It is home to Etna, one of the most active volcanoes in the world."
+   }
+  },
+  {
+   "id": "T020-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který ostrov se pro svou svěže zelenou krajinu přezdívá Smaragdový ostrov?",
+    "en": "Which island is nicknamed the Emerald Isle for its lush green landscape?"
+   },
+   "moznosti": {
+    "cs": [
+     "Island",
+     "Kréta",
+     "Irsko",
+     "Mallorca"
+    ],
+    "en": [
+     "Iceland",
+     "Crete",
+     "Ireland",
+     "Majorca"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Zeleň Irska udržuje mírné a často deštivé podnebí. Ostrov je rozdělen mezi Irskou republiku a Severní Irsko, které patří ke Spojenému království.",
+    "en": "Ireland's greenery comes from its mild and frequently rainy climate. The island is divided between the Republic of Ireland and Northern Ireland, which is part of the United Kingdom."
+   }
+  },
+  {
+   "id": "T020-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který ostrov je druhý největší na světě (Austrálii nepočítáme)?",
+    "en": "Which island is the second largest in the world (not counting Australia)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Borneo",
+     "Nová Guinea",
+     "Madagaskar",
+     "Baffinův ostrov"
+    ],
+    "en": [
+     "Borneo",
+     "New Guinea",
+     "Madagascar",
+     "Baffin Island"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Nová Guinea má asi 780 000 km² a dělí se o ni Indonésie na západě a Papua Nová Guinea na východě. Tyčí se na ní Puncak Jaya (4 884 m), nejvyšší hora ze všech ostrovů na Zemi.",
+    "en": "New Guinea covers about 780,000 km² (300,000 sq mi) and is shared by Indonesia in the west and Papua New Guinea in the east. It is home to Puncak Jaya (4,884 m / 16,024 ft), the highest mountain on any island on Earth."
+   }
+  },
+  {
+   "id": "T020-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který je největší ostrov Evropy?",
+    "en": "Which is the largest island in Europe?"
+   },
+   "moznosti": {
+    "cs": [
+     "Island",
+     "Velká Británie",
+     "Spitsbergen (Západní Špicberk)",
+     "Irsko"
+    ],
+    "en": [
+     "Iceland",
+     "Great Britain",
+     "Spitsbergen",
+     "Ireland"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Velká Británie má přes 200 000 km², zhruba dvakrát víc než druhý Island. Grónsko je sice větší, ale zeměpisně patří k Severní Americe.",
+    "en": "Great Britain covers over 200,000 km² (77,000 sq mi), about twice the area of second-placed Iceland. Greenland is larger, but geographically it belongs to North America."
+   }
+  },
+  {
+   "id": "T020-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které tři státy si dělí ostrov Borneo?",
+    "en": "Which three countries share the island of Borneo?"
+   },
+   "moznosti": {
+    "cs": [
+     "Indonésie, Malajsie a Filipíny",
+     "Indonésie, Brunej a Východní Timor",
+     "Malajsie, Brunej a Singapur",
+     "Indonésie, Malajsie a Brunej"
+    ],
+    "en": [
+     "Indonesia, Malaysia and the Philippines",
+     "Indonesia, Brunei and East Timor",
+     "Malaysia, Brunei and Singapore",
+     "Indonesia, Malaysia and Brunei"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Indonésii patří asi 73 % Bornea, Malajsii (státy Sabah a Sarawak) asi 26 % a Bruneji zhruba 1 %. Nejvyšší horou ostrova je Kinabalu (4 095 m) v malajsijském Sabahu.",
+    "en": "Indonesia holds about 73% of Borneo, Malaysia (the states of Sabah and Sarawak) about 26% and Brunei roughly 1%. The island's highest peak is Mount Kinabalu (4,095 m / 13,435 ft) in Malaysian Sabah."
+   }
+  },
+  {
+   "id": "T020-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Island leží na Středoatlantském hřbetu. Které dvě litosférické desky se tu od sebe vzdalují?",
+    "en": "Iceland sits on the Mid-Atlantic Ridge. Which two tectonic plates are moving apart there?"
+   },
+   "moznosti": {
+    "cs": [
+     "Severoamerická a euroasijská",
+     "Jihoamerická a africká",
+     "Pacifická a severoamerická",
+     "Africká a euroasijská"
+    ],
+    "en": [
+     "North American and Eurasian",
+     "South American and African",
+     "Pacific and North American",
+     "African and Eurasian"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Západní část Islandu leží na severoamerické desce, východní na euroasijské. Rozestupování desek je jedním z hlavních důvodů, proč je ostrov tak sopečně aktivní.",
+    "en": "Western Iceland lies on the North American plate and eastern Iceland on the Eurasian plate. The plates pulling apart is one of the main reasons the island is so volcanically active."
+   }
+  },
+  {
+   "id": "T020-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdy vznikl sopečný ostrov Surtsey u jižního pobřeží Islandu?",
+    "en": "When did the volcanic island of Surtsey form off the south coast of Iceland?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve 20. letech 20. století",
+     "Ve 40. letech 20. století",
+     "V 60. letech 20. století",
+     "V 80. letech 20. století"
+    ],
+    "en": [
+     "In the 1920s",
+     "In the 1940s",
+     "In the 1960s",
+     "In the 1980s"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Erupce vynořila Surtsey nad hladinu 14. listopadu 1963 a trvala do roku 1967. Na ostrov smí jen pár vědců, kteří sledují, jak novou zemi osidlují rostliny a živočichové.",
+    "en": "The eruption pushed Surtsey above the sea on 14 November 1963 and lasted until 1967. Only a few scientists may land there to study how plants and animals colonise new land."
+   }
+  },
+  {
+   "id": "T020-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na palubě které lodi připlul Charles Darwin v roce 1835 na Galapágy?",
+    "en": "Aboard which ship did Charles Darwin reach the Galápagos in 1835?"
+   },
+   "moznosti": {
+    "cs": [
+     "HMS Victory",
+     "HMS Bounty",
+     "HMS Beagle",
+     "HMS Endeavour"
+    ],
+    "en": [
+     "HMS Victory",
+     "HMS Bounty",
+     "HMS Beagle",
+     "HMS Endeavour"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Beagle dorazila k Galapágám 15. září 1835. Exempláře, které tam Darwin nasbíral, mu později pomohly zformulovat teorii evoluce.",
+    "en": "The Beagle reached the Galápagos on 15 September 1835. The specimens Darwin collected there later helped him develop his theory of evolution."
+   }
+  },
+  {
+   "id": "T020-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím se od sebe nejvíc liší jednotlivé druhy Darwinových pěnkav z Galapág?",
+    "en": "What is the main difference between the various species of Darwin's finches from the Galápagos?"
+   },
+   "moznosti": {
+    "cs": [
+     "Délkou ocasu",
+     "Způsobem stavby hnízda",
+     "Barvou peří na hlavě",
+     "Tvarem a velikostí zobáku"
+    ],
+    "en": [
+     "The length of their tail",
+     "The way they build their nests",
+     "The colour of their head feathers",
+     "The shape and size of their beak"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Zobáky se přizpůsobily různé potravě, například hmyzu nebo plodům a dužnině kaktusů. Navzdory jménu nejde o pravé pěnkavy, ale o ptáky z čeledi tangarovitých (Thraupidae).",
+    "en": "Their beaks are adapted to different foods, such as insects or cactus fruit and pulp. Despite the name, they are not true finches but belong to the tanager family (Thraupidae)."
+   }
+  },
+  {
+   "id": "T020-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč se Velikonoční ostrov jmenuje právě takto?",
+    "en": "Why is Easter Island called that?"
+   },
+   "moznosti": {
+    "cs": [
+     "Domorodci na něm slavili jarní svátek plodnosti",
+     "Misionáři na něm o Velikonocích postavili kostel",
+     "Evropané k němu poprvé připluli o Velikonoční neděli",
+     "Jeho tvar připomíná velikonoční vajíčko"
+    ],
+    "en": [
+     "Its native people held a spring fertility festival there",
+     "Missionaries built a church there at Easter",
+     "Europeans first reached it on Easter Sunday",
+     "Its shape resembles an Easter egg"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Nizozemský mořeplavec Jacob Roggeveen k ostrovu připlul na Velikonoční neděli 5. dubna 1722. Domorodý název ostrova je Rapa Nui a dnes patří Chile.",
+    "en": "Dutch explorer Jacob Roggeveen reached the island on Easter Sunday, 5 April 1722. Its native name is Rapa Nui, and today it belongs to Chile."
+   }
+  },
+  {
+   "id": "T020-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "U kterého města vzniklo souostroví umělých ostrovů ve tvaru palmy Palm Jumeirah?",
+    "en": "Near which city was the palm-shaped artificial archipelago Palm Jumeirah built?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dubaj",
+     "Dauhá",
+     "Singapur",
+     "Abú Zabí"
+    ],
+    "en": [
+     "Dubai",
+     "Doha",
+     "Singapore",
+     "Abu Dhabi"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Palm Jumeirah se začala navršovat z písku v roce 2001 v Perském zálivu. Z výšky má kmen, listy palmy a ochranný vnější půlměsíc.",
+    "en": "Palm Jumeirah was built up from reclaimed land in the Persian Gulf from 2001. From above it shows a trunk, palm fronds and a protective outer crescent."
+   }
+  },
+  {
+   "id": "T020-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který ostrovní stát má nejvíce obyvatel?",
+    "en": "Which island country has the largest population?"
+   },
+   "moznosti": {
+    "cs": [
+     "Spojené království",
+     "Japonsko",
+     "Filipíny",
+     "Indonésie"
+    ],
+    "en": [
+     "United Kingdom",
+     "Japan",
+     "Philippines",
+     "Indonesia"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Indonésie měla podle odhadu z roku 2025 asi 288 milionů obyvatel a je čtvrtým nejlidnatějším státem světa (k roku 2026). Leží na tisících ostrovů, podle způsobu počítání na 13 000 až více než 17 000.",
+    "en": "Indonesia had about 288 million people according to a 2025 estimate and is the world's fourth most populous country (as of 2026). It spans thousands of islands: between 13,000 and more than 17,000, depending on how they are counted."
+   }
+  },
+  {
+   "id": "T020-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se jmenuje jediná osada na Tristan da Cunha, považovaném za nejodlehlejší obydlené místo světa?",
+    "en": "What is the name of the only settlement on Tristan da Cunha, regarded as the most remote inhabited place in the world?"
+   },
+   "moznosti": {
+    "cs": [
+     "Edinburgh of the Seven Seas",
+     "Georgetown",
+     "Jamestown",
+     "King Edward Point"
+    ],
+    "en": [
+     "Edinburgh of the Seven Seas",
+     "Georgetown",
+     "Jamestown",
+     "King Edward Point"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Podle sčítání z roku 2026 tu žilo jen asi 220 lidí a Svatá Helena, nejbližší ostrov se stálým obyvatelstvem, je přes 2 000 km daleko. Jamestown je hlavní město Svaté Heleny.",
+    "en": "The 2026 census counted only about 220 residents, and Saint Helena, the nearest island with a permanent population, is more than 2,000 km (1,200 mi) away. Jamestown is the capital of Saint Helena."
+   }
+  },
+  {
+   "id": "T020-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Od které pevniny se Madagaskar oddělil naposledy, zhruba před 90 miliony let?",
+    "en": "Which landmass did Madagascar last split away from, roughly 90 million years ago?"
+   },
+   "moznosti": {
+    "cs": [
+     "Od Antarktidy",
+     "Od Indie",
+     "Od Austrálie",
+     "Od Afriky"
+    ],
+    "en": [
+     "Antarctica",
+     "India",
+     "Australia",
+     "Africa"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Od Afriky se Madagaskar odtrhl už v juře asi před 180 miliony let, od Indie v pozdní křídě. Dlouhá izolace vysvětluje, proč je přes 90 % jeho živočichů endemických.",
+    "en": "Madagascar broke away from Africa in the Jurassic, about 180 million years ago, and from India in the Late Cretaceous. This long isolation explains why over 90% of its wildlife is endemic."
+   }
+  },
+  {
+   "id": "T020-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím byla známá galapážská želva přezdívaná Osamělý George (Lonesome George), která uhynula v roce 2012?",
+    "en": "What was the Galápagos tortoise nicknamed Lonesome George, who died in 2012, known for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jako jediná doplavala z Galapág na pevninu",
+     "Byla nejstarší želvou, kterou chytil Darwin",
+     "Byla posledním známým jedincem želvy z ostrova Pinta",
+     "Byla nejtěžší želvou, jaká byla kdy zvážena"
+    ],
+    "en": [
+     "He was the only one to swim from the Galápagos to the mainland",
+     "He was the oldest tortoise ever caught by Darwin",
+     "He was the last known Pinta Island tortoise",
+     "He was the heaviest tortoise ever weighed"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "George zemřel v roce 2012 bez potomků a s ním zřejmě vymřel čistokrevný poddruh z ostrova Pinta; na sopce Wolf ale žijí kříženci s částečným pintským původem. Stal se světovým symbolem ochrany přírody.",
+    "en": "George died in 2012 without offspring, and with him the purebred Pinta Island subspecies apparently died out, although hybrids with partial Pinta ancestry live on Wolf Volcano. He became a worldwide symbol of conservation."
+   }
+  },
+  {
+   "id": "T020-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se nazývá dosud nerozluštěné písmo z Velikonočního ostrova, dochované na dřevěných předmětech?",
+    "en": "What is the name of the still undeciphered script from Easter Island, preserved on wooden objects?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ogam",
+     "Futhark",
+     "Rongorongo",
+     "Lineární písmo A"
+    ],
+    "en": [
+     "Ogham",
+     "Futhark",
+     "Rongorongo",
+     "Linear A"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Dochovalo se jen asi 26 textů, rozptýlených v muzeích po světě. Čte se zvláštním způsobem: po každém řádku se destička otočí vzhůru nohama.",
+    "en": "Only about 26 texts survive, scattered across museums around the world. It is read in an unusual way: the tablet is turned upside down after each line."
+   }
+  },
+  {
+   "id": "T020-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který ostrov je považován za největší ostrov ve sladkovodním jezeře?",
+    "en": "Which island is regarded as the largest island in a freshwater lake?"
+   },
+   "moznosti": {
+    "cs": [
+     "Isle Royale",
+     "Manitoulin",
+     "Ukerewe",
+     "Olchon"
+    ],
+    "en": [
+     "Isle Royale",
+     "Manitoulin",
+     "Ukerewe",
+     "Olkhon"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Manitoulin v kanadské části Huronského jezera má rozlohu asi 2 766 km². Na ostrově je 108 jezer a v některých z nich leží další ostrovy.",
+    "en": "Manitoulin, in the Canadian part of Lake Huron, covers about 2,766 km² (1,068 sq mi). The island has 108 lakes, and some of them contain islands of their own."
+   }
+  },
+  {
+   "id": "T020-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který ostrov je podle některých definic považován za největší umělý ostrov světa?",
+    "en": "Which island is, by some definitions, regarded as the largest artificial island in the world?"
+   },
+   "moznosti": {
+    "cs": [
+     "Flevopolder",
+     "Odaiba",
+     "Ostrov letiště Kansai",
+     "Palm Jumeirah"
+    ],
+    "en": [
+     "Flevopolder",
+     "Odaiba",
+     "Kansai Airport island",
+     "Palm Jumeirah"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Flevopolder v Nizozemsku má asi 970 km². Vznikl jako polder: část bývalého zálivu Zuiderzee obehnali hrázemi a vodu z ní odčerpali, hotovo bylo v roce 1968.",
+    "en": "Flevopolder in the Netherlands covers about 970 km² (375 sq mi). It is a polder: part of the former Zuiderzee was enclosed by dikes and pumped dry, with work completed in 1968."
+   }
+  },
+  {
+   "id": "T020-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V románu Robinson Crusoe stráví hlavní hrdina na ostrově 28 let. Jak dlouho žil sám na ostrově Más a Tierra námořník Alexander Selkirk, považovaný za jeden z možných předobrazů této postavy?",
+    "en": "In the novel Robinson Crusoe, the hero spends 28 years on his island. How long did sailor Alexander Selkirk, regarded as one of the possible models for the character, live alone on the island of Más a Tierra?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 8 měsíců",
+     "Přes 4 roky",
+     "Přes 12 let",
+     "Přes 20 let"
+    ],
+    "en": [
+     "About 8 months",
+     "Over 4 years",
+     "Over 12 years",
+     "Over 20 years"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Selkirk byl na ostrově v letech 1704–1709, celkem 4 roky a 4 měsíce. Chile ostrov v roce 1966 přejmenovalo na Ostrov Robinsona Crusoe.",
+    "en": "Selkirk was marooned from 1704 to 1709, four years and four months in all. In 1966 Chile renamed the island Robinson Crusoe Island."
+   }
+  },
+  {
+   "id": "T020-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč jsou Havajské ostrovy tím starší, čím dál leží na severozápad?",
+    "en": "Why are the Hawaiian Islands older the farther northwest they lie?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sopky postupně vznikaly podél zlomu San Andreas",
+     "Severozápadní ostrovy jsou zbytky dávného kontinentu",
+     "Mořské proudy tam odnášejí sopečný materiál",
+     "Pacifická deska se sune nad téměř nehybnou horkou skvrnou"
+    ],
+    "en": [
+     "The volcanoes formed one by one along the San Andreas Fault",
+     "The northwestern islands are remnants of an ancient continent",
+     "Ocean currents carry volcanic material that way",
+     "The Pacific Plate moves over an almost stationary hotspot"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Každá sopka vznikne nad horkou skvrnou, deska ji pak odsune pryč od zdroje magmatu, sopka vyhasne, eroduje a klesá. Nejmladší je ostrov Havaj, kde soptí Kīlauea.",
+    "en": "Each volcano forms over the hotspot, then the plate carries it away from its magma supply, so it goes extinct, erodes and sinks. The youngest is Hawaiʻi Island, where Kīlauea erupts."
+   }
+  },
+  {
+   "id": "T020-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "S kterou skupinou šelem je fosa madagaskarská podle molekulárních studií nejblíže příbuzná?",
+    "en": "According to molecular studies, which group of carnivores is the fossa of Madagascar most closely related to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Se psovitými (Canidae)",
+     "S promykovitými (Herpestidae)",
+     "S kočkovitými (Felidae)",
+     "S lasicovitými (Mustelidae)"
+    ],
+    "en": [
+     "Dogs (Canidae)",
+     "Mongooses (Herpestidae)",
+     "Cats (Felidae)",
+     "Weasels (Mustelidae)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Fosa madagaskarská (Cryptoprocta ferox) je největší žijící šelmou Madagaskaru a ocas má téměř tak dlouhý jako tělo. Vzhledem připomíná kočku, a proto ji někteří zoologové kdysi řadili ke kočkovitým.",
+    "en": "The fossa (Cryptoprocta ferox) is Madagascar's largest living carnivore, with a tail almost as long as its body. It looks like a cat, which is why some zoologists once classified it among the cats."
+   }
+  },
+  {
+   "id": "T020-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který tichomořský ostrovní stát zasahuje do všech čtyř polokoulí – severní, jižní, východní i západní?",
+    "en": "Which Pacific island country extends into all four hemispheres – northern, southern, eastern and western?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tuvalu",
+     "Fidži",
+     "Samoa",
+     "Kiribati"
+    ],
+    "en": [
+     "Tuvalu",
+     "Fiji",
+     "Samoa",
+     "Kiribati"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kiribati tvoří 32 atolů a ostrov Banaba roztroušené přes rovník i 180. poledník. Jeho Liniové ostrovy (Line Islands) vítají nový rok jako první místo na světě.",
+    "en": "Kiribati consists of 32 atolls and the island of Banaba spread across both the equator and the 180th meridian. Its Line Islands are the first place in the world to enter the new year."
+   }
+  }
+ ]
+}

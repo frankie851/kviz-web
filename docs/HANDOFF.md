@@ -7,6 +7,7 @@ datum: 2026-11-08 · předává: prompt 01 (D-023 vč. Davidovy volby barev B, p
 ## Stav dat
 - 2026-11-04 – 35 otázek, 1 téma (T001 Chobotnice a další hlavonožci), režim vzorek
 - 2026-11-04 – 120 otázek, 4 témata (T146 České pohádky, T172 Praha – domovní znamení, T204 Československo 1918–1992, T254 Čeští sportovci), režim web (nahrazuje vzorek T001)
+- 2026-11-08 – 3480 otázek, 116 témat, režim web (všechny prošly revizí; T146, T172, T204, T254 zůstávají; +3360 / −0; 3 otázky s Drobnou: T354-04, T363-24, T398-23); `pruchod.py` prošel (133 kontrol)
 
 ## Hotovo
 - 2026-11-06 (Davidův pokyn – D-019): export v režimu „web“ bere jen otázky, které prošly nezávislou revizí (skill kviz-revize, sloupec Revize v Excelu = OK / Opraveno / Drobná). **Před příštím exportem** (prompt 03) nejdřív na počítači `python3 nastroje/kviz_db.py revize-kontrola --web` a nezrevidované otázky (zatím všechny, i T146, T172, T204, T254) nech zrevidovat skillem kviz-revize – jinak je export přeskočí. Data na webu se touto změnou nezměnila.

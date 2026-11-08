@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T369",
+ "nazev": {
+  "cs": "Gotické katedrály Evropy",
+  "en": "The Gothic Cathedrals of Europe"
+ },
+ "kategorie": {
+  "id": "umeni-a-literatura",
+  "nazev": {
+   "cs": "Umění a literatura",
+   "en": "Art & Literature"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T369-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se jmenuje hrbatý zvoník z katedrály Notre-Dame v románu Victora Huga?",
+    "en": "What is the name of the hunchbacked bell-ringer of Notre-Dame in Victor Hugo's novel?"
+   },
+   "moznosti": {
+    "cs": [
+     "Frollo",
+     "Phoebus",
+     "Gringoire",
+     "Quasimodo"
+    ],
+    "en": [
+     "Frollo",
+     "Phoebus",
+     "Gringoire",
+     "Quasimodo"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Quasimodo je hrdinou románu Chrám Matky Boží v Paříži (1831), Frollo je arcijáhen a hlavní záporák, Gringoire chudý básník a Phoebus kapitán královských lučištníků. Quasimodovo jméno se stalo symbolem statečného srdce pod ošklivým zevnějškem.",
+    "en": "Quasimodo is the hero of The Hunchback of Notre-Dame (1831); Frollo is the archdeacon and main villain, Gringoire a struggling poet and Phoebus captain of the King's Archers. Quasimodo's name has come to stand for a courageous heart beneath a grotesque exterior."
+   }
+  },
+  {
+   "id": "T369-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "K čemu sloužily chrliče na gotických katedrálách?",
+    "en": "What was the purpose of gargoyles on Gothic cathedrals?"
+   },
+   "moznosti": {
+    "cs": [
+     "Větraly podkroví",
+     "Sloužily jako zvonice",
+     "Odváděly dešťovou vodu od zdí",
+     "Nesly váhu klenby"
+    ],
+    "en": [
+     "They ventilated the roof space",
+     "They served as bell towers",
+     "They carried rainwater away from the walls",
+     "They bore the weight of the vault"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Chrlič je ozdobný kamenný odtok, který vyvrhuje vodu ze střechy daleko od zdí, aby nevymílala maltu ve spárách. Anglický název gargoyle pochází z francouzského gargouille, jehož základ napodobuje bublání vody; sochy bez odtoku jsou správně groteskní figury neboli chiméry.",
+    "en": "A gargoyle is a carved stone spout that throws roof water well clear of the walls so it does not wash out the mortar joints. The word comes from the French gargouille, whose root imitates the gurgling of water; carvings without a spout are properly called grotesques or chimeras."
+   }
+  },
+  {
+   "id": "T369-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím je proslulá katedrála Panny Marie v Chartres?",
+    "en": "What is Chartres Cathedral famous for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zlatou kupolí",
+     "Barokními freskami",
+     "Středověkými vitrážemi",
+     "Byzantskými mozaikami"
+    ],
+    "en": [
+     "Its golden dome",
+     "Its Baroque frescoes",
+     "Its medieval stained glass",
+     "Its Byzantine mosaics"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Z původních 176 vitrážových oken se v Chartres dochovalo asi 152, mnohem víc než v kterékoli jiné středověké katedrále. Nejstarší okna na západním průčelí pocházejí z doby kolem roku 1145.",
+    "en": "About 152 of Chartres' original 176 stained-glass windows survive, far more than in any other medieval cathedral. The oldest, in the west front, date from around 1145."
+   }
+  },
+  {
+   "id": "T369-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které katedrále byli po staletí korunováni francouzští králové?",
+    "en": "In which cathedral were French kings crowned for centuries?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Lyonu",
+     "V Rouenu",
+     "V Remeši",
+     "V Amiens"
+    ],
+    "en": [
+     "Lyon",
+     "Rouen",
+     "Reims",
+     "Amiens"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Tradici korunovací v Remeši zahájil roku 1027 Jindřich I., posledním zde korunovaným králem byl roku 1825 Karel X. Navazovala na křest franského krále Chlodvíka, kterého tu kolem roku 496 pokřtil svatý Remigius.",
+    "en": "The tradition of coronations at Reims began with Henry I in 1027, and the last king crowned there was Charles X in 1825. It looked back to the baptism of the Frankish king Clovis by Saint Remigius here around 496."
+   }
+  },
+  {
+   "id": "T369-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které katedrále zavraždili roku 1170 čtyři rytíři arcibiskupa Tomáše Becketa?",
+    "en": "In which cathedral did four knights murder Archbishop Thomas Becket in 1170?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Canterbury",
+     "Ve Winchesteru",
+     "V Yorku",
+     "V Salisbury"
+    ],
+    "en": [
+     "Canterbury",
+     "Winchester",
+     "York",
+     "Salisbury"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Rytíři loajální ke králi Jindřichu II. zabili Becketa 29. prosince 1170 přímo v katedrále. Už roku 1173 byl svatořečen a počet poutníků do Canterbury rychle vzrostl.",
+    "en": "Knights loyal to King Henry II killed Becket inside the cathedral on 29 December 1170. He was canonised as early as 1173, and the number of pilgrims to Canterbury rose rapidly."
+   }
+  },
+  {
+   "id": "T369-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém italském městě stojí obří gotický dóm, jehož věž vysokou 108,5 m korunuje socha Panny Marie zvaná Madonnina?",
+    "en": "In which Italian city does the huge Gothic cathedral stand whose 108.5 m (356 ft) spire is crowned by a statue of the Virgin Mary called the Madonnina?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Sieně",
+     "Ve Florencii",
+     "V Miláně",
+     "V Benátkách"
+    ],
+    "en": [
+     "Siena",
+     "Florence",
+     "Milan",
+     "Venice"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Milánský dóm se začal stavět roku 1386 a poslední detaily byly dokončeny až roku 1965. Je největším kostelem Italské republiky – větší Svatopetrská bazilika stojí ve Vatikánu.",
+    "en": "Construction of Milan Cathedral began in 1386 and its final details were completed only in 1965. It is the largest church in the Italian Republic – the larger St Peter's Basilica stands in Vatican City."
+   }
+  },
+  {
+   "id": "T369-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ostatky kterých biblických postav jsou uloženy ve zlatém relikviáři v kolínském dómu?",
+    "en": "The relics of which biblical figures are kept in a golden shrine in Cologne Cathedral?"
+   },
+   "moznosti": {
+    "cs": [
+     "Svaté rodiny",
+     "Tří králů",
+     "Čtyř evangelistů",
+     "Dvanácti apoštolů"
+    ],
+    "en": [
+     "The Holy Family",
+     "The Three Kings (Magi)",
+     "The Four Evangelists",
+     "The Twelve Apostles"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Kosti Tří králů (mudrců) přivezl 23. července 1164 z Milána do Kolína arcibiskup Rainald von Dassel. Obří katedrála byla od roku 1248 stavěna právě jako důstojná schránka pro jejich relikviář.",
+    "en": "Archbishop Rainald of Dassel brought the bones of the Three Kings (Magi) from Milan to Cologne on 23 July 1164. The huge cathedral, begun in 1248, was planned as a worthy home for their shrine."
+   }
+  },
+  {
+   "id": "T369-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která španělská katedrála je považována za největší gotickou katedrálu světa?",
+    "en": "Which Spanish cathedral is considered the largest Gothic cathedral in the world?"
+   },
+   "moznosti": {
+    "cs": [
+     "Burgoská",
+     "Sevillská",
+     "Toledská",
+     "Leónská"
+    ],
+    "en": [
+     "Burgos",
+     "Seville",
+     "Toledo",
+     "León"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Sevillská katedrála nahradila velkou almohadskou mešitu a stavěla se v 15. a na počátku 16. století. Po dokončení překonala Hagii Sofii jako největší katedrála světa.",
+    "en": "Seville Cathedral replaced the great Almohad mosque and was built in the 15th and early 16th centuries. On completion it overtook Hagia Sophia as the largest cathedral in the world."
+   }
+  },
+  {
+   "id": "T369-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na kterém pařížském ostrově na Seině stojí katedrála Notre-Dame?",
+    "en": "On which Paris island in the Seine does Notre-Dame Cathedral stand?"
+   },
+   "moznosti": {
+    "cs": [
+     "Île aux Cygnes",
+     "Île de la Cité",
+     "Île de la Jatte",
+     "Île Saint-Louis"
+    ],
+    "en": [
+     "Île aux Cygnes",
+     "Île de la Cité",
+     "Île de la Jatte",
+     "Île Saint-Louis"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Notre-Dame stojí na ostrově Île de la Cité ve 4. pařížském obvodu. Základní kámen byl položen na jaře roku 1163.",
+    "en": "Notre-Dame stands on the Île de la Cité in the 4th arrondissement of Paris. Its cornerstone was laid in the spring of 1163."
+   }
+  },
+  {
+   "id": "T369-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím byly ve středověkých vitrážích spojeny jednotlivé kousky barevného skla?",
+    "en": "What held together the individual pieces of coloured glass in medieval stained-glass windows?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dřevěnými lištami",
+     "Železnými hřebíky",
+     "Voskem",
+     "Olověnými pásky"
+    ],
+    "en": [
+     "Wooden strips",
+     "Iron nails",
+     "Wax",
+     "Strips of lead"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Sklo se vsazovalo do olověných profilů ve tvaru H a všechny spoje se spájely. Rozmístění tmavých olověných linek bylo součástí promyšleného výtvarného účinku.",
+    "en": "The glass was slotted into H-section lead strips (cames) and all the joints were soldered. The placing of the dark lead lines was part of the calculated visual effect."
+   }
+  },
+  {
+   "id": "T369-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se román Victora Huga Chrám Matky Boží v Paříži (1831) zapsal do dějin samotné katedrály?",
+    "en": "How did Victor Hugo's novel The Hunchback of Notre-Dame (1831) leave its mark on the history of the cathedral itself?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vedl ke stavbě její severní věže",
+     "Vzbudil zájem, který vedl k její velké obnově",
+     "Vedl k barokní přestavbě jejího průčelí",
+     "Přiměl papeže povýšit ji na baziliku"
+    ],
+    "en": [
+     "It led to the building of its north tower",
+     "It stirred interest that led to its major restoration",
+     "It led to a Baroque remodelling of its façade",
+     "It persuaded the Pope to make it a basilica"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Katedrála byla tehdy zchátralá a Hugo v románu hájil gotické stavby jako součást francouzského dědictví. Zájem, který kniha vzbudila, vedl k obnově v letech 1844–1864 pod vedením Eugèna Viollet-le-Duca.",
+    "en": "The cathedral had fallen into disrepair, and Hugo used the novel to argue for preserving Gothic buildings as part of France's heritage. The interest it stirred led to the restoration of 1844–1864 under Eugène Viollet-le-Duc."
+   }
+  },
+  {
+   "id": "T369-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím je proslulá socha anděla vlevo od severního portálu západního průčelí katedrály v Remeši?",
+    "en": "What is the statue of an angel to the left of the north portal of the west front of Reims Cathedral famous for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Úsměvem",
+     "Plačící tváří",
+     "Zlatou svatozáří",
+     "Jediným křídlem"
+    ],
+    "en": [
+     "Its smile",
+     "Its weeping face",
+     "Its golden halo",
+     "Its single wing"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "„Usměvavý anděl“ (L'Ange au Sourire) patří k nejznámějším sochám Remeše. Za první světové války byl poškozen, ale opraven a vrácen na své místo.",
+    "en": "The 'Smiling Angel' (L'Ange au Sourire) is one of the most recognisable sculptures of Reims. It was damaged during the First World War but repaired and returned to its place."
+   }
+  },
+  {
+   "id": "T369-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která francouzská katedrála má největší vnitřní objem ze všech katedrál ve Francii?",
+    "en": "Which French cathedral has the largest interior volume of all cathedrals in France?"
+   },
+   "moznosti": {
+    "cs": [
+     "Remeš",
+     "Amiens",
+     "Chartres",
+     "Bourges"
+    ],
+    "en": [
+     "Reims",
+     "Amiens",
+     "Chartres",
+     "Bourges"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Katedrála v Amiens má objem asi 200 000 m³, víc než dvojnásobek pařížské Notre-Dame. Při čištění laserem se na průčelí našly stopy původní barevné malby, které se dnes promítají světlem.",
+    "en": "Amiens Cathedral has a volume of about 200,000 m³ (7.1 million cu ft), more than double that of Notre-Dame in Paris. Laser cleaning revealed traces of the façade's original paintwork, whose colours are now projected onto it with light."
+   }
+  },
+  {
+   "id": "T369-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co je od počátku 13. století vyskládáno v podlaze uprostřed hlavní lodi katedrály v Chartres?",
+    "en": "What has been laid into the floor in the centre of the nave of Chartres Cathedral since the early 13th century?"
+   },
+   "moznosti": {
+    "cs": [
+     "Labyrint",
+     "Hrob Karla Velikého",
+     "Hvězdná mapa",
+     "Sluneční hodiny"
+    ],
+    "en": [
+     "A labyrinth",
+     "Charlemagne's tomb",
+     "A star chart",
+     "A sundial"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Na rozdíl od bludiště vede labyrintem jediná cesta a poutníci jím pomalu procházejí v modlitbě. Od postní doby do Všech svatých se kvůli tomu v pátek odklízejí židle, které ho jinak zakrývají.",
+    "en": "Unlike a maze, the labyrinth has a single path, which pilgrims walk slowly in prayer. From Lent to All Saints' Day the chairs that normally cover it are removed on Fridays."
+   }
+  },
+  {
+   "id": "T369-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co se roku 1284 stalo v katedrále v Beauvais, jejíž chór má nejvyšší gotickou klenbu na světě?",
+    "en": "What happened in 1284 at Beauvais Cathedral, whose choir has the highest Gothic vault in the world?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vyhořela celá střecha",
+     "Zřítily se obě věže průčelí",
+     "Zřítila se část klenby chóru",
+     "Zasáhlo ji zemětřesení"
+    ],
+    "en": [
+     "The whole roof burned down",
+     "Both façade towers collapsed",
+     "Part of the choir vault collapsed",
+     "It was struck by an earthquake"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Klenba ve výšce kolem 48 m se zřítila jen 12 let po dokončení chóru; dnes se za příčinu považují rezonanční vibrace při silném větru. Chór byl obnoven ve stejné výšce s více sloupy a hlavní loď nebyla nikdy dostavěna.",
+    "en": "The vault, about 48 m (157 ft) high, collapsed only 12 years after the choir was completed; resonant vibrations in high winds are now thought to be the cause. The choir was rebuilt at the same height with more columns, and the nave was never completed."
+   }
+  },
+  {
+   "id": "T369-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která anglická katedrála má nejvyšší kostelní věž v Anglii a vystavuje jeden z originálů Magny charty z roku 1215?",
+    "en": "Which English cathedral has the tallest church spire in England and displays one of the originals of the 1215 Magna Carta?"
+   },
+   "moznosti": {
+    "cs": [
+     "Salisbury",
+     "Winchesterská",
+     "Durhamská",
+     "Yorská"
+    ],
+    "en": [
+     "Salisbury",
+     "Winchester",
+     "Durham",
+     "York"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Věž katedrály v Salisbury měří 123 m. Výtisk Magny charty, vystavený v kapitulní síni, je nejlépe dochovaným ze čtyř původních exemplářů.",
+    "en": "Salisbury Cathedral's spire is 123 m (404 ft) tall. The copy of Magna Carta displayed in its chapter house is the best preserved of the four surviving originals."
+   }
+  },
+  {
+   "id": "T369-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ulmský chrám (Ulmer Münster) je obří gotická stavba, přesto NENÍ katedrálou. Proč?",
+    "en": "Ulm Minster (Ulmer Münster) is a huge Gothic church, yet it is NOT a cathedral. Why?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nikdy nebyl sídlem biskupa",
+     "Nemá chór",
+     "Slouží jen jako muzeum",
+     "Nebyl nikdy vysvěcen"
+    ],
+    "en": [
+     "It has never been a bishop's seat",
+     "It has no choir",
+     "It serves only as a museum",
+     "It was never consecrated"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Katedrála je kostel s biskupským stolcem. Ulmský chrám si jako farní kostel zaplatili sami měšťané a od reformace (1530/31) je luterský; do jeho 161,5 m vysoké věže vede 768 schodů.",
+    "en": "A cathedral is a church with a bishop's throne. Ulm Minster was paid for by the townspeople themselves as a parish church and has been Lutheran since the Reformation (1530/31); 768 steps lead up its 161.5 m (530 ft) spire."
+   }
+  },
+  {
+   "id": "T369-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo byl prvním stavitelem katedrály sv. Víta v Praze, jejíž stavba začala roku 1344?",
+    "en": "Who was the first master builder of St Vitus Cathedral in Prague, begun in 1344?"
+   },
+   "moznosti": {
+    "cs": [
+     "Benedikt Rejt",
+     "Petr Parléř",
+     "Matěj Rejsek",
+     "Matyáš z Arrasu"
+    ],
+    "en": [
+     "Benedikt Rejt",
+     "Peter Parler",
+     "Matěj Rejsek",
+     "Matthias of Arras"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Francouz Matyáš z Arrasu přišel z papežského paláce v Avignonu a katedrálu navrhl v duchu francouzské gotiky. Po jeho smrti roku 1352 převzal stavební huť teprve třiadvacetiletý Petr Parléř.",
+    "en": "The Frenchman Matthias of Arras came from the Papal Palace in Avignon and designed the cathedral in the French Gothic manner. After his death in 1352 the workshop was taken over by Peter Parler, then only 23."
+   }
+  },
+  {
+   "id": "T369-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čí rakev v sevillské katedrále nesou na ramenou čtyři postavy představující krále Kastilie, Leónu, Aragonie a Navarry?",
+    "en": "Whose coffin in Seville Cathedral is carried on the shoulders of four figures representing the kings of Castile, León, Aragon and Navarre?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kryštofa Kolumba",
+     "Miguela de Cervantes",
+     "Fernão de Magalhãese",
+     "Hernána Cortése"
+    ],
+    "en": [
+     "Christopher Columbus",
+     "Miguel de Cervantes",
+     "Ferdinand Magellan",
+     "Hernán Cortés"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kolumbovy ostatky putovaly z Valladolidu do Sevilly, odtud kolem roku 1536 do Santo Dominga, podle některých zpráv roku 1793 do Havany a po roce 1898 zpět do Sevilly. Rozbory DNA zahájené roku 2003 vedly vědce k závěru, že v Seville leží skutečně Kolumbovy kosti.",
+    "en": "Columbus's remains travelled from Valladolid to Seville, then around 1536 to Santo Domingo, by some accounts in 1793 to Havana, and after 1898 back to Seville. DNA analysis begun in 2003 led researchers to conclude that the bones in Seville really are Columbus's."
+   }
+  },
+  {
+   "id": "T369-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které bratrstvo odvozuje svůj původ a symboly, například úhelník a kružidlo, od středověkých kamenických cechů a hutí?",
+    "en": "Which fraternity traces its origins and symbols, such as the square and compasses, to the medieval stonemasons' guilds and lodges?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jezuité",
+     "Svobodní zednáři",
+     "Templáři",
+     "Rosekruciáni"
+    ],
+    "en": [
+     "Jesuits",
+     "Freemasons",
+     "Knights Templar",
+     "Rosicrucians"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Svobodné zednářství se hlásí ke středověkým cechům kameníků a jeho symbolika čerpá hlavně z jejich nástrojů. Jak přesně se z kamenických lóží staly dnešní zednářské lóže, však jasné není.",
+    "en": "Freemasonry traces its origins to medieval stonemasons' guilds, and its symbolism is drawn mainly from their tools. Exactly how the masons' lodges turned into today's Masonic lodges, however, is unclear."
+   }
+  },
+  {
+   "id": "T369-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolínský dóm byl po dokončení roku 1880 čtyři roky nejvyšší stavbou světa. Která stavba ho překonala roku 1884?",
+    "en": "After its completion in 1880, Cologne Cathedral was the tallest structure in the world for four years. Which structure overtook it in 1884?"
+   },
+   "moznosti": {
+    "cs": [
+     "Eiffelova věž",
+     "Katedrála v Rouenu",
+     "Socha Svobody",
+     "Washingtonův monument"
+    ],
+    "en": [
+     "The Eiffel Tower",
+     "Rouen Cathedral",
+     "The Statue of Liberty",
+     "The Washington Monument"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Severní věž kolínského dómu měří 157 m. Stavba začala roku 1248 a dokončena byla roku 1880 podle původního středověkého plánu.",
+    "en": "The north tower of Cologne Cathedral is 157 m (516 ft) tall. Construction began in 1248 and was completed in 1880 to the original medieval plan."
+   }
+  },
+  {
+   "id": "T369-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co bylo po celá staletí, kdy byla stavba kolínského dómu přerušena, charakteristickou součástí panoramatu města?",
+    "en": "During the centuries when work on Cologne Cathedral stood still, what was a characteristic feature of the city's skyline?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lešení obepínající celou loď",
+     "Kamenný sloup s křížem na staveništi",
+     "Provizorní dřevěná zvonice",
+     "Obří jeřáb na nedostavěné jižní věži"
+    ],
+    "en": [
+     "Scaffolding wrapped around the whole nave",
+     "A stone column with a cross on the building site",
+     "A temporary wooden bell tower",
+     "A huge crane on the unfinished south tower"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Práce na jižní věži ustaly roku 1473 a jeřáb na jejím torzu zůstal jako dominanta Kolína 400 let. Dostavbu v 19. století podnítil i objev původního středověkého plánu průčelí.",
+    "en": "Work on the south tower ceased in 1473, and the crane on its stump remained a landmark of Cologne's skyline for 400 years. Completion in the 19th century was spurred partly by the discovery of the original medieval plan of the façade."
+   }
+  },
+  {
+   "id": "T369-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co roku 1538 nařídil král Jindřich VIII. se svatyní svatého Tomáše Becketa?",
+    "en": "What did King Henry VIII order in 1538 regarding the shrine of St Thomas Becket?"
+   },
+   "moznosti": {
+    "cs": [
+     "Převézt ostatky do Westminsteru",
+     "Prodat relikvie papeži do Říma",
+     "Zničit svatyni i světcovy ostatky",
+     "Ponechat hrob, ale zakázat poutě"
+    ],
+    "en": [
+     "The transfer of the relics to Westminster",
+     "The sale of the relics to the Pope in Rome",
+     "The destruction of the shrine and the saint's bones",
+     "Keeping the tomb but banning pilgrimages"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Svatyně byla zničena při rušení klášterů a Jindřich nechal zničit i Becketovy kosti a odstranit všechny zmínky o jeho jménu.",
+    "en": "The shrine was destroyed during the Dissolution of the Monasteries, and Henry also had Becket's bones destroyed and every mention of his name removed."
+   }
+  },
+  {
+   "id": "T369-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který anglický král dal od roku 1245 přestavět Westminsterské opatství v gotickém slohu, aby uctil Eduarda Vyznavače?",
+    "en": "Which English king had Westminster Abbey rebuilt in the Gothic style from 1245 to honour Edward the Confessor?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jindřich III.",
+     "Richard Lví srdce",
+     "Jan Bezzemek",
+     "Eduard I."
+    ],
+    "en": [
+     "Henry III",
+     "Richard the Lionheart",
+     "John",
+     "Edward I"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jindřich III. chtěl Eduardovi zřídit svatyni, která by se vyrovnala velkým francouzským kostelům; Eduardův předchozí kostel byl románský. Od korunovace Viléma Dobyvatele roku 1066 se zde korunují angličtí a britští panovníci.",
+    "en": "Henry III wanted a shrine for Edward that would match the great French churches; Edward's earlier church was Romanesque. Since the coronation of William the Conqueror in 1066, English and British monarchs have been crowned there."
+   }
+  },
+  {
+   "id": "T369-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Průčelí milánského dómu zůstávalo po staletí nedokončené. Kdo roku 1805 nařídil jeho dostavbu?",
+    "en": "The façade of Milan Cathedral remained unfinished for centuries. Who ordered its completion in 1805?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rakouský císař František I.",
+     "Papež Pius VII.",
+     "Viktor Emanuel II.",
+     "Napoleon Bonaparte"
+    ],
+    "en": [
+     "Austrian Emperor Francis I",
+     "Pope Pius VII",
+     "Victor Emmanuel II",
+     "Napoleon Bonaparte"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Napoleon to nařídil 20. května 1805, krátce před korunovací na italského krále, a slíbil, že náklady uhradí francouzská pokladna; slíbená náhrada však nikdy nebyla vyplacena. Na vrcholu jedné z věžiček dómu stojí jeho socha.",
+    "en": "Napoleon gave the order on 20 May 1805, shortly before his coronation as King of Italy, promising that the French treasury would cover the costs; the promised reimbursement was never paid. A statue of Napoleon stands on top of one of the cathedral's spires."
+   }
+  },
+  {
+   "id": "T369-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co je považováno za nejstarší dosud fungující mechanické hodiny na světě (z doby kolem roku 1386)?",
+    "en": "What is considered the oldest working mechanical clock in the world (from around 1386)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pražský orloj",
+     "Orloj ve Štrasburku",
+     "Hodiny v katedrále v Salisbury",
+     "Hodiny na Big Benu"
+    ],
+    "en": [
+     "The Prague astronomical clock",
+     "The Strasbourg astronomical clock",
+     "The clock in Salisbury Cathedral",
+     "The Big Ben clock"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hodiny v Salisbury nemají ciferník, jen odbíjejí hodiny na zvon. Roku 1928 je našli na půdě katedrály a roku 1956 je znovu zprovoznili.",
+    "en": "The Salisbury clock has no face; it only strikes the hours on a bell. It was found in an attic of the cathedral in 1928 and restored to working order in 1956."
+   }
+  },
+  {
+   "id": "T369-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Po požáru katedrály v Chartres roku 1194 se myslelo, že shořela i její nejslavnější relikvie. Za tři dny se ale našla nepoškozená. Jaká?",
+    "en": "After the fire at Chartres Cathedral in 1194, its most famous relic was thought lost, but three days later it was found unharmed. Which relic?"
+   },
+   "moznosti": {
+    "cs": [
+     "Úlomek Kristova kříže",
+     "Roucho Panny Marie",
+     "Trnová koruna",
+     "Ostatky svatého Martina"
+    ],
+    "en": [
+     "A fragment of the True Cross",
+     "The tunic of the Virgin Mary",
+     "The Crown of Thorns",
+     "The relics of Saint Martin"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Sancta Camisa, roucho, které měla Panna Maria nosit při narození Krista, přečkala požár s kněžími ukrytými za železnými poklopy. Katedrále ji roku 876 daroval Karel Holý.",
+    "en": "The Sancta Camisa, said to have been worn by Mary at Christ's birth, survived the fire with priests who sheltered behind iron trapdoors. Charles the Bald gave it to the cathedral in 876."
+   }
+  },
+  {
+   "id": "T369-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaká relikvie z kořisti čtvrté křížové výpravy v Konstantinopoli, uložená roku 1206 v Amiens, dala první podnět ke stavbě tamní katedrály?",
+    "en": "Which relic from the Fourth Crusade's loot of Constantinople, installed at Amiens in 1206, provided the initial impetus for building Amiens Cathedral?"
+   },
+   "moznosti": {
+    "cs": [
+     "Trnová koruna",
+     "Ostatky svatého Mikuláše",
+     "Kopí svatého Longina",
+     "Údajná hlava Jana Křtitele"
+    ],
+    "en": [
+     "The Crown of Thorns",
+     "The relics of Saint Nicholas",
+     "The Holy Lance of Saint Longinus",
+     "The reputed head of John the Baptist"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Relikvie přilákala do Amiens poutníky; když roku 1218 vyhořela starší románská katedrála, položil biskup Evrard de Fouilloy roku 1220 základní kámen nové.",
+    "en": "The relic drew pilgrims to Amiens; after the older Romanesque cathedral burned in 1218, Bishop Evrard de Fouilloy laid the first stone of the new one in 1220."
+   }
+  },
+  {
+   "id": "T369-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který umělec z Pikardie zanechal ve 13. století album asi 250 kreseb s katedrálami, stroji, zvířaty a lidskými postavami?",
+    "en": "Which 13th-century artist from Picardy left an album of about 250 drawings showing cathedrals, machines, animals and human figures?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jean d'Orbais",
+     "Villard de Honnecourt",
+     "Pierre de Montreuil",
+     "Robert de Luzarches"
+    ],
+    "en": [
+     "Jean d'Orbais",
+     "Villard de Honnecourt",
+     "Pierre de Montreuil",
+     "Robert de Luzarches"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Villardovo album na 33 pergamenových listech obsahuje například věž katedrály v Laonu, části katedrály v Remeši či obléhací stroj trebuchet; uchovává ho Francouzská národní knihovna. Zda sám pracoval jako architekt, není doloženo.",
+    "en": "Villard's album of 33 parchment sheets includes, for example, a tower of Laon Cathedral, parts of Reims Cathedral and a trebuchet siege engine; it is kept at the Bibliothèque nationale de France. There is no evidence that he himself worked as an architect."
+   }
+  },
+  {
+   "id": "T369-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kapitula v Seville se roku 1401 rozhodla postavit novou katedrálu. Podle místní tradice prohlásila, že bude tak krásná a velká, že si o nich ti, kdo ji uvidí hotovou, budou myslet… co?",
+    "en": "In 1401 the chapter of Seville decided to build a new cathedral. According to local tradition, they declared it would be so beautiful and grand that those who saw it finished would think… what about them?"
+   },
+   "moznosti": {
+    "cs": [
+     "Že jim pomáhali andělé",
+     "Že jsou nejbohatší v Evropě",
+     "Že se zbláznili",
+     "Že ji stavěli obři"
+    ],
+    "en": [
+     "That angels had helped them",
+     "That they were the richest in Europe",
+     "That they were mad",
+     "That giants had built it"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Výrok zní: „Hagamos una iglesia tan hermosa y tan grandiosa que los que la vieren labrada nos tengan por locos.“ Stavba byla v podstatě dokončena v letech 1506–1507.",
+    "en": "The phrase runs: 'Hagamos una iglesia tan hermosa y tan grandiosa que los que la vieren labrada nos tengan por locos' – let us build a church so beautiful and grand that those who see it finished will take us for mad. Construction was largely completed in 1506–1507."
+   }
+  }
+ ]
+}

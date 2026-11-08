@@ -90,8 +90,8 @@
    },
    "spravne": 1,
    "vysvetleni": {
-    "cs": "Popelčin kůň se jmenuje Jurášek. Libuše Šafránková jezdila tak dobře, že dublérku potřebovala jen na skok přes padlý strom.",
-    "en": "Cinderella's horse is called Jurášek. Libuše Šafránková rode so well that she needed a stunt double only for the jump over a fallen tree."
+    "cs": "Popelčin kůň se jmenuje Jurášek. Představitelka Popelky jezdila tak dobře, že dublérku potřebovala jen na skok přes padlý strom.",
+    "en": "Cinderella's horse is called Jurášek. The actress playing Cinderella rode so well that she needed a stunt double only for the jump over a fallen tree."
    }
   },
   {
@@ -319,22 +319,22 @@
    },
    "moznosti": {
     "cs": [
-     "Miroslav",
+     "Hostivít",
      "Kazisvět VI.",
      "Já I.",
      "Dobromysl"
     ],
     "en": [
-     "Miroslav",
+     "Hostivít",
      "Kazisvět VI",
-     "Myself the First",
+     "Já I",
      "Dobromysl"
     ]
    },
    "spravne": 2,
    "vysvetleni": {
     "cs": "Werichův král si říká Já I. Jeho rádce Atakdále hraje Vlasta Burian, takže se ve filmu potkali dva velmi populární komici.",
-    "en": "Werich's king calls himself Myself the First. His counsellor Atakdále ('Et cetera') is played by Vlasta Burian, bringing together two hugely popular comedians."
+    "en": "Werich's king calls himself Já I ('Myself the First'). His counsellor Atakdále ('Et cetera') is played by Vlasta Burian, bringing together two hugely popular comedians."
    }
   },
   {
@@ -584,8 +584,8 @@
    "id": "T146-22",
    "obtiznost": 3,
    "otazka": {
-    "cs": "Z čeho se při natáčení Tří oříšků pro Popelku v Německu vyráběl umělý sníh?",
-    "en": "What was the artificial snow made of during the German shoot of Three Wishes for Cinderella?"
+    "cs": "Z čeho se podle pamětníků vyráběl umělý sníh při natáčení Tří oříšků pro Popelku?",
+    "en": "According to witnesses, what was the artificial snow used in filming Three Wishes for Cinderella made of?"
    },
    "moznosti": {
     "cs": [

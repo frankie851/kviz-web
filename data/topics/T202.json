@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T202",
+ "nazev": {
+  "cs": "Průmyslová revoluce",
+  "en": "The Industrial Revolution"
+ },
+ "kategorie": {
+  "id": "historie",
+  "nazev": {
+   "cs": "Historie",
+   "en": "History"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T202-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi začala v 18. století průmyslová revoluce?",
+    "en": "In which country did the Industrial Revolution begin in the 18th century?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Prusku",
+     "Ve Francii",
+     "V Nizozemsku",
+     "Ve Velké Británii"
+    ],
+    "en": [
+     "Prussia",
+     "France",
+     "The Netherlands",
+     "Great Britain"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Průmyslová revoluce začala v 18. století v Británii a odtud se šířila do dalších zemí. Historik Arnold Toynbee, který pojem zpopularizoval, ji vymezil lety 1760–1840.",
+    "en": "The Industrial Revolution began in Britain in the 18th century and spread from there to other countries. Historian Arnold Toynbee, who popularised the term, dated it 1760–1840."
+   }
+  },
+  {
+   "id": "T202-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ze které země pocházel James Watt, slavný konstruktér parních strojů?",
+    "en": "Which country was James Watt, the famous steam-engine pioneer, from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Anglie",
+     "Ze Skotska",
+     "Z Walesu",
+     "Z Irska"
+    ],
+    "en": [
+     "England",
+     "Scotland",
+     "Wales",
+     "Ireland"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "James Watt se narodil roku 1736 ve skotském Greenocku a pracoval jako výrobce přístrojů na univerzitě v Glasgow. Podle něj se jmenuje jednotka výkonu watt.",
+    "en": "James Watt was born in 1736 in Greenock, Scotland, and worked as an instrument maker at the University of Glasgow. The unit of power, the watt, is named after him."
+   }
+  },
+  {
+   "id": "T202-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co dělali v Anglii v 10. letech 19. století takzvaní luddité?",
+    "en": "What did the so-called Luddites do in England in the 1810s?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rozbíjeli textilní stroje",
+     "Zakládali družstevní obchody",
+     "Vyráběli parní stroje",
+     "Stavěli první továrny"
+    ],
+    "en": [
+     "Smashed textile machinery",
+     "Founded cooperative shops",
+     "Manufactured steam engines",
+     "Built the first factories"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Luddité, angličtí textilní dělníci, v letech 1811–1816 ničili při organizovaných nájezdech stroje. Vadily jim hlavně mzdy a pracovní podmínky, ne stroje samy o sobě. Dodnes se „ludditou“ (Luddite) říká člověku, který odmítá nové technologie.",
+    "en": "The Luddites, English textile workers, destroyed machines in organised raids between 1811 and 1816. Their grievances were mainly pay and working conditions rather than machines as such. Today a 'Luddite' still means someone opposed to new technologies."
+   }
+  },
+  {
+   "id": "T202-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co umožnil stroj spinning jenny, který si roku 1770 patentoval James Hargreaves?",
+    "en": "What did the spinning jenny, patented by James Hargreaves in 1770, make possible?"
+   },
+   "moznosti": {
+    "cs": [
+     "Předení s pohonem parním strojem",
+     "Zcela automatické předení bez obsluhy",
+     "Předení i tkaní na jednom stroji",
+     "Předení více nití naráz jedním člověkem"
+    ],
+    "en": [
+     "Spinning powered by a steam engine",
+     "Fully automatic spinning with no operator",
+     "Spinning and weaving on one machine",
+     "One person spinning several threads at once"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Spinning jenny byl ručně poháněný spřádací stroj s více vřeteny, takže jeden člověk mohl příst několik nití zároveň. Hodil se na vlnu i bavlnu.",
+    "en": "The spinning jenny was a hand-powered spinning machine with multiple spindles, so one person could spin several threads at once. It worked with both wool and cotton."
+   }
+  },
+  {
+   "id": "T202-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se v 19. století přezdívalo Manchesteru podle jeho hlavního průmyslu?",
+    "en": "What was Manchester nicknamed in the 19th century after its main industry?"
+   },
+   "moznosti": {
+    "cs": [
+     "Cottonopolis",
+     "Linenopolis",
+     "Worstedopolis",
+     "Steel City"
+    ],
+    "en": [
+     "Cottonopolis",
+     "Linenopolis",
+     "Worstedopolis",
+     "Steel City"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Manchester s okolními městy Lancashiru byl největším centrem předení bavlny na světě; roku 1871 tu zpracovávali 32 % světové produkce bavlny. Přezdívka spojuje anglické cotton (bavlna) a metropolis (velkoměsto). Linenopolis byl lnářský Belfast, Worstedopolis vlnařský Bradford a Steel City ocelářský Sheffield.",
+    "en": "Manchester and the surrounding Lancashire towns formed the world's largest cotton-spinning centre, using 32% of global cotton production in 1871. The nickname combines 'cotton' and 'metropolis'. Linenopolis was linen-making Belfast, Worstedopolis wool-working Bradford and Steel City Sheffield."
+   }
+  },
+  {
+   "id": "T202-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo tvořil většinu z asi 200 prvních zaměstnanců Arkwrightovy přádelny v Cromfordu (1771)?",
+    "en": "Who made up most of the roughly 200 first workers at Arkwright's Cromford Mill (1771)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ženy a děti",
+     "Přistěhovalci z Irska",
+     "Vězni",
+     "Vysloužilí vojáci"
+    ],
+    "en": [
+     "Women and children",
+     "Irish immigrants",
+     "Convicts",
+     "Discharged soldiers"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Přádelna v Cromfordu zaměstnávala hlavně ženy a děti; nejmladšímu bylo sedm let. Minimální věk se později zvýšil na deset let.",
+    "en": "Cromford Mill employed mostly women and children; the youngest was seven. The minimum age was later raised to ten."
+   }
+  },
+  {
+   "id": "T202-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se jmenovala obří budova ze skla a železa, v níž se roku 1851 konala Velká výstava v Londýně?",
+    "en": "What was the name of the huge glass-and-iron building that housed the Great Exhibition in London in 1851?"
+   },
+   "moznosti": {
+    "cs": [
+     "Palmový skleník v Kew",
+     "Křišťálový palác",
+     "Alexandra Palace",
+     "Westminsterský palác"
+    ],
+    "en": [
+     "The Palm House at Kew",
+     "The Crystal Palace",
+     "Alexandra Palace",
+     "The Palace of Westminster"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Křišťálový palác (Crystal Palace) stál v Hyde Parku a od zahájení příprav po otevření výstavy uběhlo jen asi devět měsíců. Výstavu navštívilo zhruba šest milionů lidí.",
+    "en": "The Crystal Palace stood in Hyde Park, and it took only about nine months from organisation to the opening of the exhibition. Some six million people visited."
+   }
+  },
+  {
+   "id": "T202-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "S kterým komunikačním vynálezem je spojeno jméno Američana Samuela Morse?",
+    "en": "Which communication invention is the American Samuel Morse associated with?"
+   },
+   "moznosti": {
+    "cs": [
+     "S elektrickým telegrafem",
+     "S telefonní ústřednou",
+     "S rozhlasovým vysíláním",
+     "S fonografem na váleček"
+    ],
+    "en": [
+     "The electric telegraph",
+     "The telephone exchange",
+     "Radio broadcasting",
+     "The cylinder phonograph"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Morse vyvinul jednodrátový elektrický telegraf a podílel se na vzniku kódu z teček a čárek, který nese jeho jméno. 24. května 1844 odeslal z Washingtonu do Baltimoru zprávu „What hath God wrought“ (Co Bůh učinil).",
+    "en": "Morse developed a single-wire electric telegraph and co-developed the dot-and-dash code that bears his name. On 24 May 1844 he sent the message 'What hath God wrought' from Washington to Baltimore."
+   }
+  },
+  {
+   "id": "T202-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém městě vyrostly Škodovy závody, které se před 1. světovou válkou staly největší zbrojovkou Rakousko-Uherska?",
+    "en": "In which city did the Škoda Works grow up, becoming the largest arms manufacturer in Austria-Hungary before World War I?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Ostravě",
+     "V Mladé Boleslavi",
+     "V Plzni",
+     "V Brně"
+    ],
+    "en": [
+     "Ostrava",
+     "Mladá Boleslav",
+     "Plzeň (Pilsen)",
+     "Brno"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Strojírnu v Plzni založil roku 1859 hrabě z rodu Valdštejnů (Ernst von Waldstein-Wartenberg) a roku 1869 ji koupil inženýr Emil Škoda. S Mladou Boleslaví se jméno Škoda spojilo až 12. září 1925 fúzí s tamní automobilkou Laurin & Klement.",
+    "en": "The Plzeň engineering works were founded in 1859 by Count Ernst von Waldstein-Wartenberg and bought in 1869 by engineer Emil Škoda. The Škoda name only came to Mladá Boleslav on 12 September 1925, through a merger with the local carmaker Laurin & Klement."
+   }
+  },
+  {
+   "id": "T202-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který zdroj energie je typický pro druhou průmyslovou revoluci (zhruba 1870–1914)?",
+    "en": "Which energy source is typical of the Second Industrial Revolution (roughly 1870–1914)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Síla tažných zvířat",
+     "Vodní kolo",
+     "Elektřina",
+     "Větrný mlýn"
+    ],
+    "en": [
+     "Draught animals",
+     "The water wheel",
+     "Electricity",
+     "The windmill"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Druhá průmyslová revoluce přinesla elektrické osvětlení, první elektrárny a elektromotory v továrnách, ale také levnou ocel, chemii a ropu.",
+    "en": "The Second Industrial Revolution brought electric lighting, the first power stations and electric motors in factories, along with cheap steel, chemicals and oil."
+   }
+  },
+  {
+   "id": "T202-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Bridgewaterský průplav (Bridgewater Canal), otevřený roku 1761, nechal vévoda z Bridgewateru postavit hlavně kvůli dopravě jednoho zboží do Manchesteru. Kterého?",
+    "en": "The Bridgewater Canal, opened in 1761, was commissioned by the Duke of Bridgewater mainly to carry one commodity to Manchester. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Obilí",
+     "Bavlny",
+     "Uhlí",
+     "Železné rudy"
+    ],
+    "en": [
+     "Grain",
+     "Cotton",
+     "Coal",
+     "Iron ore"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Průplav vedl z vévodových uhelných dolů ve Worsley do Manchesteru a do roka od otevření tam cena uhlí klesla zhruba na polovinu. Bývá označován za první velký úspěch éry průplavů; na jeho stavbě se podílel inženýr James Brindley.",
+    "en": "The canal ran from the Duke's coal mines at Worsley to Manchester, and within a year of opening the price of coal there fell by about half. It is described as the first great achievement of the canal age; engineer James Brindley helped build it."
+   }
+  },
+  {
+   "id": "T202-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím Abraham Darby roku 1709 v Coalbrookdale nahradil při tavbě železa dřevěné uhlí?",
+    "en": "What did Abraham Darby use instead of charcoal to smelt iron at Coalbrookdale in 1709?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rašelinou",
+     "Sušeným dřevem",
+     "Zemním plynem",
+     "Koksem"
+    ],
+    "en": [
+     "Peat",
+     "Seasoned wood",
+     "Natural gas",
+     "Coke"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Darbyho vysoká pec byla poprvé zapálena 10. ledna 1709 a jako palivo používala koks z černého uhlí. Výroba železa tak přestala záviset na ubývajících lesích.",
+    "en": "Darby's blast furnace was first fired on 10 January 1709 and burned coke made from coal. Iron production no longer depended on dwindling forests."
+   }
+  },
+  {
+   "id": "T202-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co pohánělo stroje v přádelně, kterou Richard Arkwright roku 1771 založil v anglickém Cromfordu?",
+    "en": "What powered the machines in the mill Richard Arkwright founded at Cromford, England, in 1771?"
+   },
+   "moznosti": {
+    "cs": [
+     "Větrný mlýn",
+     "Parní stroj",
+     "Vodní kolo",
+     "Koňský žentour"
+    ],
+    "en": [
+     "A windmill",
+     "A steam engine",
+     "A water wheel",
+     "A horse gin"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Cromford je považován za první bavlnářskou přádelnu poháněnou vodou. Vodní kolo napájel potok a štola odvodňující olověné doly, které dávaly vodu po celý rok.",
+    "en": "Cromford is described as the world's first water-powered cotton-spinning mill. Its water wheel was fed by a brook and a sough draining nearby lead mines, which supplied water all year round."
+   }
+  },
+  {
+   "id": "T202-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "S kterým podnikatelem založil James Watt roku 1775 společnou firmu na výrobu parních strojů?",
+    "en": "With which businessman did James Watt form a partnership in 1775 to produce steam engines?"
+   },
+   "moznosti": {
+    "cs": [
+     "S Richardem Arkwrightem",
+     "S Matthew Boultonem",
+     "S Josiahem Wedgwoodem",
+     "S Johnem Wilkinsonem"
+    ],
+    "en": [
+     "Richard Arkwright",
+     "Matthew Boulton",
+     "Josiah Wedgwood",
+     "John Wilkinson"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Firma Boulton & Watt vyráběla stroje v Boultonových závodech Soho, kam Boulton nechal přestěhovat i Wattův prototyp z Kinneilu.",
+    "en": "Boulton & Watt built engines at Boulton's Soho works, where Boulton had Watt's prototype Kinneil engine moved."
+   }
+  },
+  {
+   "id": "T202-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co se při Bessemerově procesu, patentovaném roku 1856, vhání do roztaveného surového železa, aby z něj vznikla ocel?",
+    "en": "In the Bessemer process, patented in 1856, what is blown through molten pig iron to turn it into steel?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vodík",
+     "Oxid uhličitý",
+     "Vzduch",
+     "Vodní pára"
+    ],
+    "en": [
+     "Hydrogen",
+     "Carbon dioxide",
+     "Air",
+     "Steam"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kyslík ze vzduchu spálí přebytečný uhlík a další nečistoty, jako křemík a mangan. Ocel se tak stala levnou a dostupnou pro koleje, mosty i lodě.",
+    "en": "Oxygen in the air burns off excess carbon and other impurities such as silicon and manganese. This made steel cheap enough for rails, bridges and ships."
+   }
+  },
+  {
+   "id": "T202-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které město se pro svůj rozvinutý průmysl přezdívalo „moravský Manchester“?",
+    "en": "Which city was nicknamed the 'Moravian Manchester' for its developed industry?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ostrava",
+     "Olomouc",
+     "Zlín",
+     "Brno"
+    ],
+    "en": [
+     "Ostrava",
+     "Olomouc",
+     "Zlín",
+     "Brno"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Brno se díky textilkám stalo jedním z průmyslových center Moravy i celé monarchie. První vlak do něj přijel už roku 1839.",
+    "en": "Thanks to its textile mills Brno became one of the industrial centres of Moravia and the whole monarchy. The first train reached it as early as 1839."
+   }
+  },
+  {
+   "id": "T202-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Vítkovické železárny, založené roku 1828, se staly největšími železárnami a ocelárnami v Rakousko-Uhersku. Součástí kterého dnešního města jsou Vítkovice?",
+    "en": "The Vítkovice ironworks, founded in 1828, became the largest iron and steel works in Austria-Hungary. Which present-day city is Vítkovice part of?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kladna",
+     "Ostravy",
+     "Plzně",
+     "Třince"
+    ],
+    "en": [
+     "Kladno",
+     "Ostrava",
+     "Plzeň",
+     "Třinec"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Vítkovice jsou dnes městským obvodem Ostravy. Tamní železárny jako první v Rakouském císařství zavedly pudlování, tedy zkujňování železa v pudlovací peci.",
+    "en": "Vítkovice is now a district of Ostrava. Its ironworks were the first in the Austrian Empire to use puddling, a way of refining iron in a puddling furnace."
+   }
+  },
+  {
+   "id": "T202-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který člen britské královské rodiny patřil k hlavním organizátorům Velké výstavy roku 1851?",
+    "en": "Which member of the British royal family was one of the main organisers of the Great Exhibition of 1851?"
+   },
+   "moznosti": {
+    "cs": [
+     "Král Jiří IV.",
+     "Princ Albert",
+     "Princ z Walesu Eduard",
+     "Král Vilém IV."
+    ],
+    "en": [
+     "King George IV",
+     "Prince Albert",
+     "Edward, Prince of Wales",
+     "King William IV"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Výstavu připravil princ Albert, manžel královny Viktorie, spolu s Henrym Colem. Ze zisku se postavila londýnská muzea v South Kensingtonu, oblasti přezdívané Albertopolis.",
+    "en": "Prince Albert, Queen Victoria's husband, organised the exhibition together with Henry Cole. Its profits built the South Kensington museums in London, an area nicknamed Albertopolis."
+   }
+  },
+  {
+   "id": "T202-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kniha Postavení dělnické třídy v Anglii (1845) Friedricha Engelse vychází hlavně z pozorování v jednom průmyslovém městě. Ve kterém?",
+    "en": "Friedrich Engels's book The Condition of the Working Class in England (1845) draws mainly on observations in one industrial city. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Leedsu",
+     "V Glasgow",
+     "V Birminghamu",
+     "V Manchesteru"
+    ],
+    "en": [
+     "Leeds",
+     "Glasgow",
+     "Birmingham",
+     "Manchester"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Engels, syn německého textilního podnikatele, žil v Manchesteru a sousedním Salfordu v letech 1842–1844. Kniha vyšla německy roku 1845, anglický překlad až roku 1887.",
+    "en": "Engels, the son of a German textile industrialist, lived in Manchester and neighbouring Salford from 1842 to 1844. The book came out in German in 1845; the English translation appeared only in 1887."
+   }
+  },
+  {
+   "id": "T202-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč se výroba cukru z cukrové řepy rozšířila po Evropě právě za napoleonských válek?",
+    "en": "Why did beet sugar production spread across Europe during the Napoleonic Wars?"
+   },
+   "moznosti": {
+    "cs": [
+     "Třtinové plantáže zničila epidemie",
+     "Řepu šlo pěstovat i v zimě",
+     "Blokáda ztížila dovoz třtinového cukru",
+     "Řepný cukr se používal na výrobu střelného prachu"
+    ],
+    "en": [
+     "An epidemic destroyed the cane plantations",
+     "Beet could be grown even in winter",
+     "A blockade made cane sugar hard to import",
+     "Beet sugar was used to make gunpowder"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kontinentální blokáda za napoleonských válek ztížila dovoz třtinového cukru z kolonií, a výroba cukru z řepy se proto v Evropě rychle rozšířila.",
+    "en": "The continental blockade during the Napoleonic Wars made it hard to import colonial cane sugar, so beet sugar production quickly spread across Europe."
+   }
+  },
+  {
+   "id": "T202-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím James Watt nejvíce zvýšil účinnost Newcomenova parního stroje?",
+    "en": "How did James Watt most improve the efficiency of Newcomen's steam engine?"
+   },
+   "moznosti": {
+    "cs": [
+     "Odděleným kondenzátorem",
+     "Vyšším tlakem páry v kotli",
+     "Lehčím dřevěným vahadlem",
+     "Dvěma válci zapojenými za sebou"
+    ],
+    "en": [
+     "A separate condenser",
+     "Higher steam pressure in the boiler",
+     "A lighter wooden beam",
+     "Two cylinders working in series"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Newcomenův stroj chladil vodou přímo pracovní válec, který se pak musel znovu ohřát. Watt roku 1765 přesunul kondenzaci do zvláštní komory a válec tak zůstával horký.",
+    "en": "Newcomen's engine cooled the working cylinder itself with water, so it had to be reheated each stroke. In 1765 Watt moved condensation into a separate chamber, keeping the cylinder hot."
+   }
+  },
+  {
+   "id": "T202-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Luddité podepisovali své dopisy a výzvy jménem Ned Ludd. Kdo to byl?",
+    "en": "The Luddites signed their letters and proclamations with the name Ned Ludd. Who was he?"
+   },
+   "moznosti": {
+    "cs": [
+     "Majitel první přádelny v Nottinghamu",
+     "Legendární postava, údajný tkadlec",
+     "Vůdce tkalců popravený roku 1812",
+     "Poslanec hájící práva dělníků"
+    ],
+    "en": [
+     "The owner of Nottingham's first spinning mill",
+     "A legendary figure, a supposed weaver",
+     "A weavers' leader executed in 1812",
+     "An MP who defended workers' rights"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Podle legendy byl Ned Ludd tkadlec z Anstey u Leicesteru, jehož údajný čin z roku 1779 dal hnutí jméno. Příběh pochází až z článku v novinách The Nottingham Review z 20. prosince 1811 a nic jiného ho nedokládá; luddité mluvili o „generálu“ či „králi“ Luddovi.",
+    "en": "Legend says Ned Ludd was a weaver from Anstey near Leicester whose supposed deed of 1779 gave the movement its name. The story traces to an article in The Nottingham Review of 20 December 1811, with no independent evidence; the Luddites spoke of 'General' or 'King' Ludd."
+   }
+  },
+  {
+   "id": "T202-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč dostal spřádací stroj Samuela Cromptona (1779) jméno mule, tedy mezek?",
+    "en": "Why was Samuel Crompton's spinning machine (1779) called the mule?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vznikl na farmě, kde se chovali mezci",
+     "Poháněli ho mezci v žentouru",
+     "Byl mimořádně odolný a těžký",
+     "Byl křížencem dvou starších strojů"
+    ],
+    "en": [
+     "It was devised on a farm that bred mules",
+     "It was driven by mules in a horse gin",
+     "It was unusually tough and heavy",
+     "It was a hybrid of two earlier machines"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jako je mezek kříženec koně a osla, spojil Cromptonův stroj principy Hargreavesovy spinning jenny a Arkwrightova spřádacího stroje (spinning frame). Crompton si nemohl dovolit svůj vynález patentovat.",
+    "en": "Just as a mule is a cross between a horse and a donkey, Crompton's machine combined Hargreaves's spinning jenny and Arkwright's spinning frame. Crompton could not afford to patent his invention."
+   }
+  },
+  {
+   "id": "T202-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaké povolání měl Edmund Cartwright, který si roku 1785 patentoval mechanický tkalcovský stav?",
+    "en": "What was the profession of Edmund Cartwright, who patented a power loom in 1785?"
+   },
+   "moznosti": {
+    "cs": [
+     "Byl lodní tesař",
+     "Byl lékař",
+     "Byl anglikánský duchovní",
+     "Byl hodinář"
+    ],
+    "en": [
+     "Ship's carpenter",
+     "Physician",
+     "Anglican clergyman",
+     "Clockmaker"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Cartwright byl vysvěcen na kněze anglikánské církve a byl mimo jiné rektorem v Kilvingtonu. Stroje začal vymýšlet po setkání s textilníky z Manchesteru; patentoval i česací stroj na vlnu.",
+    "en": "Cartwright was ordained a priest in the Church of England and was, among other posts, rector of Kilvington. He took up invention after meeting textile men from Manchester and also patented a wool-combing machine."
+   }
+  },
+  {
+   "id": "T202-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "První velký litinový most na světě, přes řeku Severn u Coalbrookdale (otevřen 1781), má litinové díly spojené zvláštním způsobem. Jakým?",
+    "en": "The world's first major cast-iron bridge, over the River Severn at Coalbrookdale (opened 1781), has its cast-iron parts joined in an unusual way. How?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tesařskými spoji, jako jsou čepy a rybiny",
+     "Svary kovanými v ohni výhně",
+     "Šrouby s maticemi z tepaného železa",
+     "Nýty roztepanými za tepla"
+    ],
+    "en": [
+     "Carpentry joints such as mortises and dovetails",
+     "Forge welds made in a smithy fire",
+     "Wrought-iron nuts and bolts",
+     "Rivets hammered while red-hot"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Litinový most byl novinkou, a tak stavitelé spojili žebra konstrukce tesařskými spoji, jako jsou čepy s dlaby a rybiny. Most navrhl Thomas Farnolls Pritchard a železné části odlil Abraham Darby III.",
+    "en": "A cast-iron bridge was something new, so the builders joined the ribs with carpentry joints such as mortise and tenon joints and dovetails. Thomas Farnolls Pritchard designed the bridge and Abraham Darby III cast the ironwork."
+   }
+  },
+  {
+   "id": "T202-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Joseph Paxton, autor výstavní budovy pro Velkou výstavu 1851, nezačínal jako architekt. Jaké místo zastával od svých dvaceti let?",
+    "en": "Joseph Paxton, who designed the building for the Great Exhibition of 1851, did not start out as an architect. What post did he hold from the age of twenty?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hlavní zahradník vévody z Devonshiru",
+     "Důstojník ženijního vojska",
+     "Majitel sklárny",
+     "Inženýr železničních mostů"
+    ],
+    "en": [
+     "Head gardener to the Duke of Devonshire",
+     "Officer in the Royal Engineers",
+     "Glassworks owner",
+     "Railway bridge engineer"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Paxton byl hlavním zahradníkem v Chatsworthu a od roku 1836 tam stavěl Velký skleník (Great Conservatory), tehdy největší skleněnou stavbu světa. Konstrukci jeho skleníků inspirovaly i obří listy viktorie amazonské (tehdy Victoria regia).",
+    "en": "Paxton was head gardener at Chatsworth, where from 1836 he built the Great Conservatory, then the largest glass building in the world. The design of his glasshouses was also inspired by the huge leaves of the Victoria regia water lily."
+   }
+  },
+  {
+   "id": "T202-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na Velké výstavě 1851 si návštěvníci mohli poprvé vyzkoušet moderní veřejné splachovací záchody George Jenningse. Které anglické rčení se s nimi spojuje?",
+    "en": "At the Great Exhibition of 1851 visitors could try George Jennings's modern public flush toilets for the first time. Which English phrase is associated with them?"
+   },
+   "moznosti": {
+    "cs": [
+     "„Pay the piper“ (zaplatit dudákovi)",
+     "„Pay through the nose“ (platit nosem)",
+     "„Penny for your thoughts“ (penny za tvé myšlenky)",
+     "„Spend a penny“ (utratit penny)"
+    ],
+    "en": [
+     "'Pay the piper'",
+     "'Pay through the nose'",
+     "'A penny for your thoughts'",
+     "'Spend a penny'"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Použití záchodu stálo jednu penny a zaplatilo ji 827 280 návštěvníků. „Spend a penny“ se pak v britské angličtině vžilo jako slušný výraz pro návštěvu toalety.",
+    "en": "Using the toilet cost one penny, and 827,280 visitors paid it. 'Spend a penny' then became a polite British expression for going to the toilet."
+   }
+  },
+  {
+   "id": "T202-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Vítkovické železárny vznikly roku 1828 z podnětu geologa Franze Xavera Riepla. Kdo je nechal postavit?",
+    "en": "The Vítkovice ironworks were founded in 1828 at the urging of geologist Franz Xaver Riepl. Who had them built?"
+   },
+   "moznosti": {
+    "cs": [
+     "Arcivévoda Rudolf Jan, olomoucký arcibiskup",
+     "Hrabě Valdštejn",
+     "Bankéř Salomon Mayer Rothschild",
+     "Císař František I."
+    ],
+    "en": [
+     "Archduke Rudolf, Archbishop of Olomouc",
+     "Count Waldstein",
+     "The banker Salomon Mayer Rothschild",
+     "Emperor Francis I"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Huť nesla podle zakladatele, bratra císaře Františka I., jméno Rudolfova huť (Rudolfshütte). Vídeňský bankéř Salomon Mayer Rothschild ji koupil až roku 1843.",
+    "en": "The works were named Rudolfshütte (Rudolf's Works) after their founder, a brother of Emperor Francis I. The Viennese banker Salomon Mayer Rothschild bought them only in 1843."
+   }
+  },
+  {
+   "id": "T202-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Britský továrenský zákon z roku 1833 zakázal zaměstnávat v továrnách (s výjimkou hedvábnických) děti mladší než kolik let?",
+    "en": "The British Factory Act of 1833 banned the employment in factories (except silk mills) of children younger than what age?"
+   },
+   "moznosti": {
+    "cs": [
+     "7",
+     "9",
+     "12",
+     "14"
+    ],
+    "en": [
+     "7",
+     "9",
+     "12",
+     "14"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Zákon zároveň zakázal noční práci osob mladších 18 let a zavedl tovární inspektory, kteří jeho dodržování kontrolovali.",
+    "en": "The act also banned night work for anyone under 18 and set up factory inspectors to enforce it."
+   }
+  },
+  {
+   "id": "T202-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaký problém v textilní výrobě způsobil létající člunek (flying shuttle), který si John Kay patentoval roku 1733?",
+    "en": "What problem in textile production did the flying shuttle, patented by John Kay in 1733, cause?"
+   },
+   "moznosti": {
+    "cs": [
+     "Látky z něj byly příliš úzké na oděvy",
+     "Vyžadoval drahý pohon parním strojem",
+     "Tkalci potřebovali víc příze, než přadleny stačily vyrobit",
+     "Na širokou látku byli nově potřeba dva tkalci"
+    ],
+    "en": [
+     "Its cloth was too narrow for clothing",
+     "It required an expensive steam engine to drive it",
+     "Weavers needed more yarn than spinners could produce",
+     "Wide cloth now needed two weavers instead of one"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Létající člunek zhruba zdvojnásobil výkon tkalce a umožnil tkát širší látky, takže předení nestačilo. Tento nedostatek příze podnítil vznik spinning jenny, Arkwrightova spřádacího stroje i mule.",
+    "en": "The flying shuttle roughly doubled a weaver's output and allowed wider cloth, so spinning could not keep up. The yarn shortage spurred the spinning jenny, Arkwright's spinning frame and the mule."
+   }
+  }
+ ]
+}

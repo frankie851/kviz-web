@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T007",
+ "nazev": {
+  "cs": "Vikingové: mořeplavci a dobyvatelé",
+  "en": "The Vikings: Seafarers and Conquerors"
+ },
+ "kategorie": {
+  "id": "historie",
+  "nazev": {
+   "cs": "Historie",
+   "en": "History"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T007-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ze které oblasti Evropy pocházeli Vikingové?",
+    "en": "Which region of Europe did the Vikings come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Apeninského poloostrova",
+     "Z Pyrenejského poloostrova",
+     "Z Balkánu",
+     "Ze Skandinávie"
+    ],
+    "en": [
+     "The Italian Peninsula",
+     "The Iberian Peninsula",
+     "The Balkans",
+     "Scandinavia"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vikingové pocházeli z území dnešního Dánska, Norska a Švédska. Odtud se plavili až do Severní Ameriky, Středomoří i na Kaspické moře.",
+    "en": "The Vikings came from what is now Denmark, Norway and Sweden. From there they sailed as far as North America, the Mediterranean and the Caspian Sea."
+   }
+  },
+  {
+   "id": "T007-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se běžně označuje štíhlá vikinská válečná loď?",
+    "en": "What is the slender Viking warship commonly called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Drakkar",
+     "Karavela",
+     "Koga",
+     "Karaka"
+    ],
+    "en": [
+     "Longship",
+     "Caravel",
+     "Cog",
+     "Carrack"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vikinské dlouhé lodě byly dlouhé, úzké, lehké a rychlé a poháněla je plachta i vesla. Označení drakkar souvisí se staroseverským dreki (drak) a s vyřezávanými dračími hlavami, které někdy zdobily příď.",
+    "en": "Viking longships were long, narrow, light and fast, and could be driven by both sail and oars. The modern term 'drakkar' comes from Old Norse dreki ('dragon'), after the carved dragon heads that sometimes adorned the prow."
+   }
+  },
+  {
+   "id": "T007-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakým písmem Vikingové vyrývali nápisy do kamene, dřeva a kostí?",
+    "en": "What script did the Vikings use to carve inscriptions into stone, wood and bone?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hlaholicí",
+     "Hieroglyfy",
+     "Runami",
+     "Klínovým písmem"
+    ],
+    "en": [
+     "Glagolitic",
+     "Hieroglyphs",
+     "Runes",
+     "Cuneiform"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ve vikinském věku se používala runová abeceda zvaná mladší futhark, která měla jen 16 znaků. Ve Skandinávii se dochovaly tisíce runových kamenů.",
+    "en": "In the Viking Age people used a runic alphabet called the Younger Futhark, which had only 16 characters. Thousands of runestones survive in Scandinavia."
+   }
+  },
+  {
+   "id": "T007-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který severský mořeplavec vedl podle ság kolem roku 1000 výpravu do Vinlandu v Severní Americe?",
+    "en": "According to the sagas, which Norse seafarer led an expedition to Vinland in North America around the year 1000?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sven Vidlí vous",
+     "Ragnar Lodbrok",
+     "Knut Veliký",
+     "Leif Eriksson"
+    ],
+    "en": [
+     "Sweyn Forkbeard",
+     "Ragnar Lodbrok",
+     "Cnut the Great",
+     "Leif Erikson"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Leif Eriksson, syn Erika Rudého, doplul do Ameriky asi o 500 let dříve než Kolumbus. Ve Spojených státech se mu na počest slaví 9. října Den Leifa Erikssona.",
+    "en": "Leif Erikson, son of Erik the Red, reached America about 500 years before Columbus. In the United States, Leif Erikson Day is celebrated on 9 October."
+   }
+  },
+  {
+   "id": "T007-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která francouzská oblast dostala jméno podle Seveřanů, kteří se v ní usadili?",
+    "en": "Which French region is named after the Northmen who settled there?"
+   },
+   "moznosti": {
+    "cs": [
+     "Normandie",
+     "Provence",
+     "Burgundsko",
+     "Bretaň"
+    ],
+    "en": [
+     "Normandy",
+     "Provence",
+     "Burgundy",
+     "Brittany"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Normandie znamená „země Normanů“, tedy Seveřanů. Roku 911 francouzský král Karel III. Prostý přenechal vikinskému vůdci území mezi řekou Epte a mořem výměnou za obranu ústí Seiny před dalšími nájezdy.",
+    "en": "Normandy means 'land of the Normans', i.e. the Northmen. In 911 the French king Charles the Simple granted a Viking leader the lands between the River Epte and the sea in exchange for defending the Seine estuary against further raids."
+   }
+  },
+  {
+   "id": "T007-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývali vikinští válečníci, kteří podle pramenů bojovali v nezkrotné zuřivosti?",
+    "en": "What were the Viking warriors called who, according to the sources, fought in an uncontrollable frenzy?"
+   },
+   "moznosti": {
+    "cs": [
+     "Janičáři",
+     "Berserkové",
+     "Mamlúkové",
+     "Samurajové"
+    ],
+    "en": [
+     "Janissaries",
+     "Berserkers",
+     "Mamluks",
+     "Samurai"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Berserkové podle pramenů bojovali v transu podobné zuřivosti a věřilo se, že je nebere železo ani oheň. Z jejich jména pochází anglické slovo „berserk“, odtud „go berserk“, tedy zuřit.",
+    "en": "According to the sources, berserkers fought in a trance-like fury and were believed to be immune to iron and fire. Their name gave English the word 'berserk', as in 'go berserk'."
+   }
+  },
+  {
+   "id": "T007-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který Viking podle ság založil první trvalé severské osady v Grónsku?",
+    "en": "According to the sagas, which Viking founded the first lasting Norse settlements in Greenland?"
+   },
+   "moznosti": {
+    "cs": [
+     "Knut Veliký",
+     "Olaf Tryggvason",
+     "Erik Rudý",
+     "Sven Vidlí vous"
+    ],
+    "en": [
+     "Cnut the Great",
+     "Olaf Tryggvason",
+     "Erik the Red",
+     "Sweyn Forkbeard"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Erik Rudý byl kvůli zabití na tři roky vyhoštěn, a tak se vydal na západ. Roku 985 přivedl do Grónska první osadníky; severské osady tam vydržely až do 15. století.",
+    "en": "Erik the Red was outlawed for three years after killings and sailed west. In 985 he brought the first settlers to Greenland, where the Norse settlements lasted until the 15th century."
+   }
+  },
+  {
+   "id": "T007-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který anglický den v týdnu nese jméno boha hromu, kterého Seveřané nazývali Thór?",
+    "en": "Which English day of the week is named after the god of thunder whom the Norse called Thor?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tuesday",
+     "Wednesday",
+     "Thursday",
+     "Friday"
+    ],
+    "en": [
+     "Tuesday",
+     "Wednesday",
+     "Thursday",
+     "Friday"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Thursday znamená „den boha hromu“: staroanglicky se jmenoval Thunor, seversky Thór. I další anglické dny nesou jména germánských bohů: Wednesday patří Wodenovi (Ódinovi) a Tuesday bohu Tiwovi (Týrovi).",
+    "en": "Thursday means 'day of the thunder god', called Thunor in Old English and Thor in Old Norse. Other English days also carry the names of Germanic gods: Wednesday belongs to Woden (Odin) and Tuesday to Tiw (Týr)."
+   }
+  },
+  {
+   "id": "T007-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který ostrov v severním Atlantiku Vikingové osídlili v 9. století a kde se dodnes mluví jazykem velmi blízkým staré severštině?",
+    "en": "Which North Atlantic island did the Vikings settle in the 9th century, where a language very close to Old Norse is still spoken today?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sicílie",
+     "Island",
+     "Kypr",
+     "Irsko"
+    ],
+    "en": [
+     "Sicily",
+     "Iceland",
+     "Cyprus",
+     "Ireland"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Islandština se od staré severštiny změnila tak málo, že dnešní Islanďané původním středověkým ságám rozumějí; obvykle je čtou v modernizovaném pravopisu.",
+    "en": "Icelandic has changed so little from Old Norse that modern Icelanders can understand the original medieval sagas, usually reading them in modernised spelling."
+   }
+  },
+  {
+   "id": "T007-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Bitva u Stamford Bridge, kterou se často symbolicky uzavírá vikinský věk, proběhla jen pár týdnů před bitvou u Hastingsu. Ve kterém roce?",
+    "en": "The Battle of Stamford Bridge, often seen as the symbolic end of the Viking Age, took place just weeks before the Battle of Hastings. In which year?"
+   },
+   "moznosti": {
+    "cs": [
+     "966",
+     "1016",
+     "1066",
+     "1116"
+    ],
+    "en": [
+     "966",
+     "1016",
+     "1066",
+     "1116"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "25. září 1066 u Stamford Bridge padl norský král Harald III. (zvaný Hardrada). Vítězný anglický král Harold II. však o necelé tři týdny později podlehl u Hastingsu Vilému Dobyvateli.",
+    "en": "On 25 September 1066 the Norwegian king Harald Hardrada was killed at Stamford Bridge. The victorious English king Harold II fell less than three weeks later at Hastings to William the Conqueror."
+   }
+  },
+  {
+   "id": "T007-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Přepadení kterého anglického kláštera roku 793 se tradičně považuje za začátek vikinského věku?",
+    "en": "The raid on which English monastery in 793 is traditionally regarded as the start of the Viking Age?"
+   },
+   "moznosti": {
+    "cs": [
+     "Canterbury",
+     "Westminster",
+     "Glastonbury",
+     "Lindisfarne"
+    ],
+    "en": [
+     "Canterbury",
+     "Westminster",
+     "Glastonbury",
+     "Lindisfarne"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Útok na klášter na ostrově Lindisfarne u pobřeží Northumbrie šokoval křesťanskou Evropu. Učenec Alcuin psal, že takovou hrůzu Británie dosud nezažila.",
+    "en": "The attack on the island monastery of Lindisfarne off the Northumbrian coast shocked Christian Europe. The scholar Alcuin wrote that such a terror had never before appeared in Britain."
+   }
+  },
+  {
+   "id": "T007-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která moderní technologie je pojmenována po dánském králi Haraldu Gormssonovi z 10. století?",
+    "en": "Which modern technology is named after the 10th-century Danish king Harald Gormsson?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bluetooth",
+     "Wi-Fi",
+     "Zigbee",
+     "Ethernet"
+    ],
+    "en": [
+     "Bluetooth",
+     "Wi-Fi",
+     "Zigbee",
+     "Ethernet"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Harald měl přezdívku Modrozub (Bluetooth). Stejně jako on sjednotil dánské kmeny, má technologie spojovat různá zařízení; logo tvoří jeho spojené iniciály H a B.",
+    "en": "Harald's nickname was Bluetooth. Just as he united the Danish tribes, the technology unites different devices; its logo combines his initials H and B."
+   }
+  },
+  {
+   "id": "T007-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se nazývala tělesná stráž byzantského císaře, v níž sloužilo mnoho Seveřanů?",
+    "en": "What was the name of the Byzantine emperor's bodyguard, in which many Norsemen served?"
+   },
+   "moznosti": {
+    "cs": [
+     "Varjažská garda",
+     "Janičářský sbor",
+     "Pretoriánská garda",
+     "Švýcarská garda"
+    ],
+    "en": [
+     "The Varangian Guard",
+     "The Janissary corps",
+     "The Praetorian Guard",
+     "The Swiss Guard"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Varjažská garda vznikla koncem 10. století a byla proslulá věrností a širokými dánskými sekerami. Sloužil v ní i budoucí norský král Harald III. (zvaný Hardrada).",
+    "en": "The Varangian Guard was formed in the late 10th century and was famed for its loyalty and broad-bladed Dane axes. The future Norwegian king Harald Hardrada served in it."
+   }
+  },
+  {
+   "id": "T007-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který panovník vládl na počátku 11. století současně Anglii, Dánsku a Norsku?",
+    "en": "Which ruler in the early 11th century reigned over England, Denmark and Norway at the same time?"
+   },
+   "moznosti": {
+    "cs": [
+     "Erik Krvavá sekyra",
+     "Harald I. Krásnovlasý",
+     "Olaf Tryggvason",
+     "Knut Veliký"
+    ],
+    "en": [
+     "Eric Bloodaxe",
+     "Harald Fairhair",
+     "Olaf Tryggvason",
+     "Cnut the Great"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Knut Veliký vytvořil takzvanou Severskou říši (North Sea Empire). Ke známé legendě patří, že nechal postavit trůn na pobřeží, aby dvořanům ukázal, že ani král neporučí přílivu.",
+    "en": "Cnut the Great built the so-called North Sea Empire. A famous legend has him set his throne on the shore to show his courtiers that even a king cannot command the tide."
+   }
+  },
+  {
+   "id": "T007-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který král Wessexu porazil roku 878 vikinské vojsko u Edingtonu a zastavil jeho postup na jih Anglie?",
+    "en": "Which king of Wessex defeated the Viking army at Edington in 878 and halted its advance into southern England?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ethelred II.",
+     "Alfréd Veliký",
+     "Eduard Vyznavač",
+     "Eduard Starší"
+    ],
+    "en": [
+     "Æthelred the Unready",
+     "Alfred the Great",
+     "Edward the Confessor",
+     "Edward the Elder"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Tři týdny po bitvě u Edingtonu se vikinský vůdce Guthrum nechal pokřtít. Pozdější smlouva mezi Alfrédem a Guthrumem rozdělila zemi; území pod vládou Dánů na severu a východě se nazývá Danelaw.",
+    "en": "Three weeks after Edington the Viking leader Guthrum was baptised. A later treaty between Alfred and Guthrum divided the land; the Danish-ruled territory in the north and east is known as the Danelaw."
+   }
+  },
+  {
+   "id": "T007-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "V místě kterého dnešního hlavního města zřídili Vikingové roku 841 opevněnou základnu?",
+    "en": "At the site of which present-day capital city did the Vikings establish a fortified base in 841?"
+   },
+   "moznosti": {
+    "cs": [
+     "Cardiff",
+     "Dublin",
+     "Edinburgh",
+     "Londýn"
+    ],
+    "en": [
+     "Cardiff",
+     "Dublin",
+     "Edinburgh",
+     "London"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Vikinská osada Dyflin vznikla u tůně, kde se říčka Poddle vlévá do Liffey, poblíž starší irské církevní osady Duibhlinn. Vikinský Dublin se stal významným obchodním střediskem s velkým trhem s otroky.",
+    "en": "The Viking settlement of Dyflin grew up by a tidal pool where the River Poddle enters the Liffey, near an earlier Irish church settlement called Duibhlinn. Viking Dublin became an important trading centre with a large slave market."
+   }
+  },
+  {
+   "id": "T007-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které anglické město Vikingové nazývali Jórvík?",
+    "en": "Which English city did the Vikings call Jórvík?"
+   },
+   "moznosti": {
+    "cs": [
+     "Norwich",
+     "Londýn",
+     "York",
+     "Winchester"
+    ],
+    "en": [
+     "Norwich",
+     "London",
+     "York",
+     "Winchester"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vikingové dobyli York roku 866 a z Jórvíku se stalo hlavní město vikinského království i rušné obchodní středisko. Dnešní název York vznikl právě z Jórvíku.",
+    "en": "The Vikings captured York in 866 and Jórvík became the capital of a Viking kingdom and a busy trading centre. The modern name York derives from Jórvík."
+   }
+  },
+  {
+   "id": "T007-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Potomkem kterého vikinského náčelníka byl Vilém Dobyvatel?",
+    "en": "Which Viking leader was William the Conqueror descended from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Guthruma",
+     "Rolla",
+     "Ragnara Lodbroka",
+     "Ivara Bezkostého"
+    ],
+    "en": [
+     "Guthrum",
+     "Rollo",
+     "Ragnar Lodbrok",
+     "Ivar the Boneless"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Rollo získal roku 911 od francouzského krále Karla III. Prostého území na dolním toku Seiny, z něhož později vzniklo vévodství. Vilém Dobyvatel byl jeho praprapravnuk.",
+    "en": "In 911 Rollo received land on the lower Seine from the French king Charles the Simple, which later grew into a duchy. William the Conqueror was his great-great-great-grandson."
+   }
+  },
+  {
+   "id": "T007-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč podle ság dostalo Grónsko od Seveřanů jméno „Zelená země“?",
+    "en": "According to the sagas, why did the Norse give Greenland the name 'green land'?"
+   },
+   "moznosti": {
+    "cs": [
+     "Protože ostrov tehdy pokrývaly lesy",
+     "Podle kraje, odkud pocházeli",
+     "Podle zelené barvy ledovců",
+     "Aby přilákali osadníky"
+    ],
+    "en": [
+     "Because the island was then covered in forest",
+     "After their home region",
+     "After the green colour of the glaciers",
+     "To attract settlers"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Podle ság se lidé spíš vydají do země, která má lákavé jméno. Šlo tak o jakousi středověkou „reklamu“, většinu ostrova totiž pokrývá led.",
+    "en": "According to the sagas, people would be more eager to go to a land with an attractive name. It was a kind of medieval marketing, as most of the island is covered in ice."
+   }
+  },
+  {
+   "id": "T007-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Díky čemu mohly vikinské lodě proplout po řekách hluboko do vnitrozemí?",
+    "en": "What allowed Viking ships to sail up rivers deep inland?"
+   },
+   "moznosti": {
+    "cs": [
+     "Díky mělkému ponoru",
+     "Díky železnému oplechování trupu",
+     "Díky třem stěžňům",
+     "Díky kolům pro jízdu po souši"
+    ],
+    "en": [
+     "Their shallow draught",
+     "Iron plating on the hull",
+     "Their three masts",
+     "Wheels for travelling over land"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vikinské lodě potřebovaly jen asi metr vody, takže mohly plout po řekách i přistát přímo na pláži. Mezi řekami je posádky přetahovaly po souši.",
+    "en": "Viking ships needed only about a metre (3.3 ft) of water, so they could sail up rivers and land directly on beaches. Between rivers the crews hauled them overland."
+   }
+  },
+  {
+   "id": "T007-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Letokruhy dřeva z vikinské osady L'Anse aux Meadows na Newfoundlandu prozradily, kdy tam Seveřané káceli stromy. Který rok to byl?",
+    "en": "Tree rings in wood from the Viking site of L'Anse aux Meadows in Newfoundland revealed when the Norse were felling trees there. Which year was it?"
+   },
+   "moznosti": {
+    "cs": [
+     "921",
+     "971",
+     "1021",
+     "1071"
+    ],
+    "en": [
+     "921",
+     "971",
+     "1021",
+     "1071"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vědci využili stopu prudkého nárůstu kosmického záření z roku 993, kterou je možné najít v letokruzích. Studie z roku 2021 tak ukázala, že Seveřané byli v Americe přesně o 1000 let dříve.",
+    "en": "Researchers used the signature of a sudden cosmic-ray spike in 993 that can be found in tree rings. A 2021 study thus showed the Norse were in America exactly 1,000 years earlier."
+   }
+  },
+  {
+   "id": "T007-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Anglické slovo „starboard“ (pravobok) má stejný původ jako staroseverské „stjórnborði“. Co původně označovalo?",
+    "en": "The English word 'starboard' shares its origin with Old Norse 'stjórnborði'. What did it originally mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Stranu s kormidelním veslem",
+     "Stranu natočenou ke hvězdám",
+     "Stranu, kde stál kapitán",
+     "Stranu, ze které se vykládal náklad"
+    ],
+    "en": [
+     "The side with the steering oar",
+     "The side turned towards the stars",
+     "The side where the captain stood",
+     "The side where cargo was unloaded"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Staroanglické steorbord i staroseverské stjórnborði znamenaly „kormidelní strana“: kormidelní veslo bývalo vpravo, pravděpodobně proto, že většina lidí je pravoruká. Loď proto přirážela k přístavišti levým bokem, kterému se v angličtině později začalo říkat port.",
+    "en": "Old English steorbord and Old Norse stjórnborði both meant 'steering side': the steering oar was on the right, probably because most people are right-handed. Ships therefore docked on the left side, which later came to be called 'port' in English."
+   }
+  },
+  {
+   "id": "T007-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Anglické slovo „window“ pochází ze staroseverského „vindauga“. Co doslova znamenalo?",
+    "en": "The English word 'window' comes from Old Norse 'vindauga'. What did it literally mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kouřová cesta",
+     "Světelný otvor",
+     "Větrné oko",
+     "Díra ve zdi"
+    ],
+    "en": [
+     "Smoke path",
+     "Light opening",
+     "Wind eye",
+     "Hole in the wall"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vindauga se skládá z vindr (vítr) a auga (oko); původně šlo o nezasklený otvor ve střeše. Ze severštiny se do angličtiny dostala i slova sky, egg nebo knife.",
+    "en": "Vindauga combines vindr (wind) and auga (eye); it originally meant an unglazed hole in the roof. English also borrowed words such as sky, egg and knife from Old Norse."
+   }
+  },
+  {
+   "id": "T007-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak Seveřané nazývali Konstantinopol?",
+    "en": "What did the Norse call Constantinople?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aldeigjuborg",
+     "Holmgard",
+     "Kænugard",
+     "Miklagard"
+    ],
+    "en": [
+     "Aldeigjuborg",
+     "Holmgard",
+     "Kænugard",
+     "Miklagard"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Miklagard znamená zhruba „velké hrazené město“. Holmgard byl Novgorod, Kænugard Kyjev a Aldeigjuborg Staraja Ladoga; v chrámu Hagia Sofia se dochovaly nápisy, které tam zřejmě vyryli seveřanští vojáci.",
+    "en": "Miklagard roughly means 'the great walled city'. Holmgard was Novgorod, Kænugard was Kyiv and Aldeigjuborg was Staraya Ladoga; graffiti probably carved by Norse soldiers survive in the Hagia Sophia."
+   }
+  },
+  {
+   "id": "T007-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na území kterého dnešního státu leží významné vikinské obchodní středisko Hedeby?",
+    "en": "In which present-day country does the major Viking trading centre of Hedeby lie?"
+   },
+   "moznosti": {
+    "cs": [
+     "Německa",
+     "Dánska",
+     "Polska",
+     "Švédska"
+    ],
+    "en": [
+     "Germany",
+     "Denmark",
+     "Poland",
+     "Sweden"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hedeby bylo dánské město, ale leží ve spolkové zemi Šlesvicko-Holštýnsko, která dnes patří Německu. Je zapsáno na seznamu světového dědictví UNESCO.",
+    "en": "Hedeby was a Danish town, but it lies in Schleswig-Holstein, which now belongs to Germany. It is a UNESCO World Heritage Site."
+   }
+  },
+  {
+   "id": "T007-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč Vikingové kolem roku 1070 záměrně potopili pět lodí ve fjordu u Roskilde?",
+    "en": "Why did the Vikings deliberately sink five ships in the fjord near Roskilde around 1070?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aby pohřbili padlého krále",
+     "Jako oběť bohům moře",
+     "Aby zničili lodě po epidemii",
+     "Aby zablokovali plavební dráhu"
+    ],
+    "en": [
+     "To bury a fallen king",
+     "As an offering to the sea gods",
+     "To destroy ships after an epidemic",
+     "To block the navigation channel"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Takzvané lodě ze Skuldelevu měly chránit Roskilde před útokem z moře. Archeologové je vyzvedli v 60. letech 20. století a dnes jsou chloubou Muzea vikinských lodí v Roskilde.",
+    "en": "The so-called Skuldelev ships were meant to protect Roskilde from attack by sea. Archaeologists raised them in the 1960s and they are now the centrepiece of the Viking Ship Museum in Roskilde."
+   }
+  },
+  {
+   "id": "T007-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "U které řeky popsal arabský vyslanec Ibn Fadlán ve 20. letech 10. století pohřeb náčelníka Rusů, při němž byla spálena loď?",
+    "en": "On which river did the Arab envoy Ibn Fadlan describe, in the 920s, the funeral of a Rus chieftain in which a ship was burned?"
+   },
+   "moznosti": {
+    "cs": [
+     "U Visly",
+     "U Volhy",
+     "U Rýna",
+     "U Dunaje"
+    ],
+    "en": [
+     "The Vistula",
+     "The Volga",
+     "The Rhine",
+     "The Danube"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ibn Fadlán cestoval z Bagdádu do Povolžského Bulharska a setkal se tam se seveřanskými obchodníky. Jeho zpráva je jedním z nejpodrobnějších dobových popisů Vikingů.",
+    "en": "Ibn Fadlan travelled from Baghdad to Volga Bulgaria, where he met Norse traders. His account is one of the most detailed contemporary descriptions of the Vikings."
+   }
+  },
+  {
+   "id": "T007-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Které město v muslimské Andalusii Vikingové roku 844 vyplenili poté, co k němu dopluli po řece?",
+    "en": "Which city in Muslim al-Andalus did the Vikings sack in 844 after sailing up a river to reach it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Granadu",
+     "Córdobu",
+     "Sevillu",
+     "Toledo"
+    ],
+    "en": [
+     "Granada",
+     "Córdoba",
+     "Seville",
+     "Toledo"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vikingové pluli po Guadalquivíru, Sevillu dobyli a z okolí ji ohrožovali několik týdnů, než je porazilo vojsko córdobského emíra. Emír pak dal město opevnit a zřídil v něm loděnici pro nové loďstvo.",
+    "en": "The Vikings sailed up the Guadalquivir, took Seville and menaced the area for several weeks before being defeated by the army of the Emir of Córdoba. The emir then had the city walled and set up a naval arsenal there for a new fleet."
+   }
+  },
+  {
+   "id": "T007-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co znamená název islandské metropole Reykjavík?",
+    "en": "What does the name of the Icelandic capital Reykjavík mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ledová zátoka",
+     "Kouřová zátoka",
+     "Velrybí zátoka",
+     "Zátoka racků"
+    ],
+    "en": [
+     "Icy bay",
+     "Smoky bay",
+     "Whale bay",
+     "Gull bay"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Název vznikl ze slov reykr (kouř) a vík (zátoka) a podle tradice ho inspirovala pára stoupající z horkých pramenů v okolí. Reykjavík je nejsevernějším hlavním městem suverénního státu na světě.",
+    "en": "The name combines reykr (smoke) and vík (bay) and, according to tradition, was inspired by steam rising from the hot springs in the area. Reykjavík is the world's northernmost capital of a sovereign state."
+   }
+  },
+  {
+   "id": "T007-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který irský velekrál porazil roku 1014 u Clontarfu Vikingy a jejich spojence, ale sám bitvu nepřežil?",
+    "en": "Which Irish High King defeated the Vikings and their allies at Clontarf in 1014 but did not survive the battle?"
+   },
+   "moznosti": {
+    "cs": [
+     "Niall Noígíallach",
+     "Brian Bóruma",
+     "Máel Sechnaill II.",
+     "Cormac mac Airt"
+    ],
+    "en": [
+     "Niall of the Nine Hostages",
+     "Brian Boru",
+     "Máel Sechnaill II",
+     "Cormac mac Airt"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Brian Bóruma (Brian Boru) byl podle nejrozšířenější verze zabit ve svém stanu prchajícími Seveřany. Bitva u Clontarfu se tradičně uvádí jako konec vikinské moci v Irsku.",
+    "en": "According to the most common account, Brian Boru was killed in his tent by fleeing Norsemen. Clontarf is traditionally cited as the end of Viking power in Ireland."
+   }
+  }
+ ]
+}

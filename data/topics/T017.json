@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T017",
+ "nazev": {
+  "cs": "Historické mýty, kterým věříme",
+  "en": "Historical Myths We Still Believe"
+ },
+ "kategorie": {
+  "id": "kuriozity",
+  "nazev": {
+   "cs": "Kuriozity",
+   "en": "Curiosities"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T017-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakým způsobem bylo roku 1692 popraveno devatenáct lidí odsouzených v Salemu za čarodějnictví?",
+    "en": "How were the nineteen people convicted of witchcraft in Salem executed in 1692?"
+   },
+   "moznosti": {
+    "cs": [
+     "Stětím mečem",
+     "Oběšením",
+     "Upálením na hranici",
+     "Utopením"
+    ],
+    "en": [
+     "By beheading with a sword",
+     "By hanging",
+     "By burning at the stake",
+     "By drowning"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Všech 19 odsouzených v Salemu bylo oběšeno; představa upalovaných amerických čarodějnic je rozšířený omyl. Giles Corey zemřel jinak – umačkali ho kameny, protože se odmítl k obžalobě vyjádřit.",
+    "en": "All 19 people convicted in Salem were hanged; the idea that American witches were burned is a popular myth. Giles Corey died differently – he was pressed to death under stones after refusing to enter a plea."
+   }
+  },
+  {
+   "id": "T017-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Napoleon bývá líčen jako mrňous. Kolik ve skutečnosti měřil?",
+    "en": "Napoleon is often portrayed as a tiny man. How tall was he actually?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 1,45 m",
+     "Asi 1,55 m",
+     "Asi 1,70 m",
+     "Asi 1,90 m"
+    ],
+    "en": [
+     "About 1.45 m (4 ft 9 in)",
+     "About 1.55 m (5 ft 1 in)",
+     "About 1.70 m (5 ft 7 in)",
+     "About 1.90 m (6 ft 3 in)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Napoleon měřil asi 1,70 m, tedy zhruba jako průměrný Francouz své doby. Zmatek způsobil údaj „5 stop 2 palce“ – byl ve francouzských jednotkách, které byly delší než anglické.",
+    "en": "Napoleon was about 1.70 m (5 ft 7 in) tall, roughly the average height of a Frenchman of his time. The confusion came from the figure '5 feet 2 inches', which was given in French units that were longer than English ones."
+   }
+  },
+  {
+   "id": "T017-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Je Velká čínská zeď vidět pouhým okem z Měsíce?",
+    "en": "Can the Great Wall of China be seen with the naked eye from the Moon?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ano, jako jediná stavba lidí na Zemi",
+     "Ano, ale jen v noci díky osvětlení",
+     "Ne, z Měsíce ji pouhým okem vidět nelze",
+     "Ano, ale jen za jasného počasí"
+    ],
+    "en": [
+     "Yes, as the only human-made structure on Earth",
+     "Yes, but only at night thanks to its lighting",
+     "No, it cannot be seen from the Moon with the naked eye",
+     "Yes, but only in clear weather"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Z Měsíce zeď pouhým okem rozeznat nelze. I z nízké oběžné dráhy je podle NASA vidět jen stěží a za téměř ideálních podmínek – první čínský kosmonaut Jang Li-wej (Yang Liwei) ji neviděl.",
+    "en": "The wall cannot be made out with the naked eye from the Moon. According to NASA, even from low Earth orbit it is barely visible, and only under nearly perfect conditions – China's first astronaut, Yang Liwei, said he could not see it."
+   }
+  },
+  {
+   "id": "T017-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co si o tvaru Země myslela většina vzdělanců v době Kolumbovy plavby roku 1492?",
+    "en": "What did most educated people believe about the shape of the Earth at the time of Columbus's voyage in 1492?"
+   },
+   "moznosti": {
+    "cs": [
+     "Že má tvar válce",
+     "Že je kulatá",
+     "Že je plochá a plave na oceánu",
+     "Že je plochá jako disk"
+    ],
+    "en": [
+     "That it was shaped like a cylinder",
+     "That it was round",
+     "That it was flat and floated on the ocean",
+     "That it was flat like a disc"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Kulatost Země byla mezi učenci známá už od antiky. Kolumbovi kritici se s ním přeli o velikost Země a vzdálenost Asie – a pravdu měli oni, Kolumbus vzdálenost do Japonska výrazně podcenil.",
+    "en": "Scholars had known the Earth was round since antiquity. Columbus's critics argued with him about the size of the Earth and the distance to Asia – and they were right, as Columbus badly underestimated the distance to Japan."
+   }
+  },
+  {
+   "id": "T017-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Podle známého rčení Nero „hrál na housle, zatímco hořel Řím“. Proč to nemůže být doslova pravda?",
+    "en": "According to the well-known saying, Nero 'fiddled while Rome burned'. Why can't this be literally true?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nero neuměl hrát na žádný nástroj",
+     "Řím za Nerovy vlády nikdy nehořel",
+     "Housle tehdy ještě neexistovaly",
+     "Nero byl v té době už po smrti"
+    ],
+    "en": [
+     "Nero could not play any instrument",
+     "Rome never burned during Nero's reign",
+     "The violin did not exist yet",
+     "Nero was already dead at the time"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Housle vznikly až počátkem 16. století v severní Itálii. Nero hrál na kitharu, druh lyry, a podle Tacita byl navíc v době vypuknutí požáru roku 64 mimo Řím, v Antiu.",
+    "en": "The violin only emerged in northern Italy in the early 16th century. Nero played the cithara, a type of lyre, and according to Tacitus he was away from Rome, in Antium, when the fire broke out in AD 64."
+   }
+  },
+  {
+   "id": "T017-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Je pravda, že Albert Einstein ve škole propadal z matematiky?",
+    "en": "Is it true that Albert Einstein failed mathematics at school?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ano, na gymnáziu v Mnichově",
+     "Ano, kvůli ní nedokončil univerzitu",
+     "Ne, v matematice naopak vynikal",
+     "Ano, ale jen v prvních třídách"
+    ],
+    "en": [
+     "Yes, at secondary school in Munich",
+     "Yes, it made him drop out of university",
+     "No, he actually excelled at mathematics",
+     "Yes, but only in the early grades"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Einstein zvládl diferenciální a integrální počet už ve 14 letech. V 16 letech sice neprošel přijímací zkouškou na curyšskou polytechniku (ETH), ale kvůli všeobecné části – z matematiky a fyziky exceloval.",
+    "en": "Einstein had mastered differential and integral calculus by the age of 14. At 16 he did fail the entrance exam to the Zurich Polytechnic (ETH), but because of the general part – he performed with distinction in mathematics and physics."
+   }
+  },
+  {
+   "id": "T017-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Z čeho byly zubní protézy prvního amerického prezidenta George Washingtona?",
+    "en": "What were the dentures of George Washington, the first US president, made of?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z broušeného baltského jantaru",
+     "Z vyřezávaného dubového dřeva",
+     "Z bílého karrarského mramoru",
+     "Ze slonoviny a pravých zubů"
+    ],
+    "en": [
+     "Cut Baltic amber",
+     "Carved oak wood",
+     "White Carrara marble",
+     "Ivory and real teeth"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Washingtonovy protézy obsahovaly slonovinu, zvířecí a nejspíš i lidské zuby, olovo a zlato, ale žádné dřevo. Zabarvená slonovina ovšem mohla dřevo připomínat.",
+    "en": "Washington's dentures contained ivory, animal and probably human teeth, lead and gold, but no wood. Stained ivory, however, may have looked like wood."
+   }
+  },
+  {
+   "id": "T017-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který román nejvíc zpopularizoval představu pirátů se zakopaným pokladem a mapou s křížkem?",
+    "en": "Which novel did the most to popularise the image of pirates with buried treasure and a map marked with an X?"
+   },
+   "moznosti": {
+    "cs": [
+     "Robinson Crusoe",
+     "Moby Dick",
+     "Dvacet tisíc mil pod mořem",
+     "Ostrov pokladů"
+    ],
+    "en": [
+     "Robinson Crusoe",
+     "Moby-Dick",
+     "Twenty Thousand Leagues Under the Seas",
+     "Treasure Island"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Ostrov pokladů R. L. Stevensona (1883) dal pirátům mapy s křížkem i jednonohé námořníky s papouškem na rameni. Skuteční piráti poklady zakopávali jen výjimečně.",
+    "en": "R. L. Stevenson's Treasure Island (1883) gave pirates their X-marked maps and one-legged sailors with parrots on their shoulders. Real pirates buried treasure only rarely."
+   }
+  },
+  {
+   "id": "T017-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak podle Newtonova vlastního vyprávění vypadala slavná příhoda s jablkem?",
+    "en": "According to Newton's own account, what happened in the famous apple incident?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jablko mu spadlo na hlavu",
+     "Viděl jablko padat ze stromu",
+     "Jablkem po něm hodila sestra",
+     "Jablko mu upadlo ze stolu"
+    ],
+    "en": [
+     "An apple fell on his head",
+     "He saw an apple fall from a tree",
+     "His sister threw an apple at him",
+     "An apple fell off his table"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Newton vyprávěl příteli Williamu Stukeleymu, že se při pohledu na padající jablko zamyslel, proč padá vždy kolmo k zemi. Jablko na hlavě je pozdější přikrášlení.",
+    "en": "Newton told his friend William Stukeley that watching an apple fall made him wonder why it always descends perpendicularly to the ground. The apple hitting his head is a later embellishment."
+   }
+  },
+  {
+   "id": "T017-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Je pravda, že Santa Clause v červenobílém oblečení vymyslela pro svou reklamu Coca-Cola?",
+    "en": "Is it true that Coca-Cola invented the red-and-white Santa Claus for its advertising?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ne, v červenobílém se objevoval už dřív",
+     "Ano, předtím nosil vždy zelený kabát",
+     "Ano, v reklamě ze 30. let 20. století",
+     "Ne, vymyslela ho konkurenční Pepsi"
+    ],
+    "en": [
+     "No, he had appeared in red and white before",
+     "Yes, before that he always wore a green coat",
+     "Yes, in an advertisement from the 1930s",
+     "No, its rival Pepsi invented him"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Santa v červenobílém byl například už na obálkách časopisu Puck na začátku 20. století. Reklamy Coca-Coly s ilustracemi Haddona Sundbloma ve 30. letech jeho podobu jen proslavily.",
+    "en": "Santa had appeared in red and white, for example, on covers of Puck magazine in the early 20th century. Coca-Cola's 1930s adverts illustrated by Haddon Sundblom merely made that image famous."
+   }
+  },
+  {
+   "id": "T017-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co nejvíc zpopularizovalo představu Vikingů s rohatými přilbami?",
+    "en": "What did the most to popularise the image of Vikings wearing horned helmets?"
+   },
+   "moznosti": {
+    "cs": [
+     "Opery Richarda Wagnera v 19. století",
+     "Nálezy z vikinských hrobů v Norsku",
+     "Kroniky anglických mnichů z 9. století",
+     "Islandské ságy ze 13. století"
+    ],
+    "en": [
+     "Richard Wagner's operas in the 19th century",
+     "Finds from Viking graves in Norway",
+     "Chronicles by English monks from the 9th century",
+     "Icelandic sagas from the 13th century"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Dobové texty přilby zmiňují často, ale nikdy s rohy, a rohy nemá ani žádná z mála nalezených vikinských přileb. Rohatý Viking je moderní představa, kterou zpopularizovaly Wagnerovy opery na severské náměty.",
+    "en": "Viking Age texts often mention helmets but never horned ones, and none of the few Viking helmets found has horns. The horned Viking is a modern image popularised by Wagner's operas on Norse themes."
+   }
+  },
+  {
+   "id": "T017-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Výrok „Nemají-li chleba, ať jedí koláče“ (v originále briošky) zapsal Rousseau ve Vyznáních a připsal ho „jedné velké kněžně“. Proč jím nemohl mířit na Marii Antoinettu?",
+    "en": "Rousseau recorded the phrase 'If they have no bread, let them eat cake' (brioche in the original) in his Confessions and attributed it to 'a great princess'. Why could he not have meant Marie Antoinette?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kniha vznikla až po její popravě",
+     "Žila tehdy v klášteře v Itálii",
+     "Rousseau zemřel ještě před jejím narozením",
+     "Bylo jí asi devět let a žila v Rakousku"
+    ],
+    "en": [
+     "The book was written after her execution",
+     "She was living in a convent in Italy",
+     "Rousseau died before she was born",
+     "She was about nine and living in Austria"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Prvních šest knih Vyznání vzniklo roku 1765, kdy bylo Marii Antoinettě devět let a do Francie ještě nepřijela. Jí výrok připsal až Alphonse Karr v roce 1843, půl století po její smrti.",
+    "en": "The first six books of the Confessions were written in 1765, when Marie Antoinette was nine and had never been to France. The phrase was first attributed to her by Alphonse Karr in 1843, half a century after her death."
+   }
+  },
+  {
+   "id": "T017-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč Fernão de Magalhães (Magellan) sám nedokončil první plavbu kolem světa?",
+    "en": "Why did Ferdinand Magellan not complete the first voyage around the world himself?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zabili ho vzbouřenci v Patagonii",
+     "Ztroskotal u mysu Dobré naděje",
+     "Zahynul v boji na Filipínách",
+     "Zemřel na kurděje v Tichém oceánu"
+    ],
+    "en": [
+     "He was killed by mutineers in Patagonia",
+     "He was shipwrecked off the Cape of Good Hope",
+     "He was killed in a battle in the Philippines",
+     "He died of scurvy in the Pacific Ocean"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Magalhães padl v dubnu 1521 v bitvě u Mactanu proti mužům náčelníka Lapulapua. Plavbu dokončil Juan Sebastián Elcano s lodí Victoria – z asi 270 mužů se roku 1522 vrátilo jen 18 nebo 19.",
+    "en": "Magellan was killed in April 1521 at the Battle of Mactan by the men of chief Lapulapu. Juan Sebastián Elcano completed the voyage aboard the Victoria – of about 270 men, only 18 or 19 returned in 1522."
+   }
+  },
+  {
+   "id": "T017-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak původně vypadaly mramorové sochy antického Řecka a Říma?",
+    "en": "What did the marble statues of ancient Greece and Rome originally look like?"
+   },
+   "moznosti": {
+    "cs": [
+     "Byly pestře pomalované",
+     "Byly obložené mozaikou",
+     "Byly čistě bílé a leštěné",
+     "Byly natřené černou barvou"
+    ],
+    "en": [
+     "They were brightly painted",
+     "They were covered in mosaic",
+     "They were pure white and polished",
+     "They were painted black"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Antické sochy byly malované živými barvami, někdy po celém povrchu. Dnes je vidíme bílé, béžové nebo šedé jen proto, že barva během staletí zmizela.",
+    "en": "Ancient statues were painted in vivid colours, sometimes over their entire surface. We see them as white, beige or grey today only because the paint has disappeared over the centuries."
+   }
+  },
+  {
+   "id": "T017-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik zhruba vážila kompletní bojová plátová zbroj z kvalitní kalené oceli?",
+    "en": "Roughly how much did a complete suit of battlefield plate armour made of good tempered steel weigh?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 5 kg",
+     "Asi 15–25 kg",
+     "Asi 50–60 kg",
+     "Asi 90–100 kg"
+    ],
+    "en": [
+     "About 5 kg (11 lb)",
+     "About 15–25 kg (33–55 lb)",
+     "About 50–60 kg (110–130 lb)",
+     "About 90–100 kg (200–220 lb)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Bojová plátová zbroj vážila asi 15–25 kg, rozložených po celém těle. Rytíř v ní mohl běhat i skákat a na koně nasedal sám, žádný jeřáb nepotřeboval – mnohem těžší (až kolem 50 kg) a méně pohyblivé byly jen speciální zbroje pro klání.",
+    "en": "A suit of battlefield plate armour weighed about 15–25 kg (33–55 lb), spread over the whole body. A knight could run and jump in it and mounted his horse unaided, with no need for a crane – only special jousting armour was much heavier, up to around 50 kg (110 lb), and more restrictive."
+   }
+  },
+  {
+   "id": "T017-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "K čemu sloužilo v římském amfiteátru vomitorium?",
+    "en": "What was a vomitorium used for in a Roman amphitheatre?"
+   },
+   "moznosti": {
+    "cs": [
+     "K ustájení divokých zvířat",
+     "K rychlému odchodu diváků",
+     "Ke zvracení během hostin",
+     "K odvodu dešťové vody"
+    ],
+    "en": [
+     "Housing wild animals",
+     "Letting spectators leave quickly",
+     "Vomiting during feasts",
+     "Draining rainwater"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Vomitoria byly chodby pod hledištěm nebo za ním, kterými se dav rychle „vyvalil“ ven – z latinského vomere, chrlit. Místnosti, kde by se Římané vyprazdňovali, aby mohli jíst dál, jsou mýtus.",
+    "en": "Vomitoria were passages below or behind the tiers of seats through which crowds could 'spew forth' quickly – from the Latin vomere, to spew. Rooms where Romans purged so they could keep eating are a myth."
+   }
+  },
+  {
+   "id": "T017-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém období vrcholily v Evropě hony na čarodějnice?",
+    "en": "In which period did witch hunts in Europe reach their peak?"
+   },
+   "moznosti": {
+    "cs": [
+     "V 9.–10. století",
+     "V 12.–13. století",
+     "V 16.–17. století",
+     "V 19. století"
+    ],
+    "en": [
+     "In the 9th–10th centuries",
+     "In the 12th–13th centuries",
+     "In the 16th–17th centuries",
+     "In the 19th century"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Nejvíc procesů a obětí připadá zhruba na léta 1560–1630, tedy na raný novověk, ne na středověk. Popraveno bylo podle odhadů 40 000 až 60 000 lidí.",
+    "en": "Most trials and deaths fall roughly between 1560 and 1630, in the early modern period rather than the Middle Ages. An estimated 40,000 to 60,000 people were executed."
+   }
+  },
+  {
+   "id": "T017-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaký trest čekal Galilea Galileiho po procesu s inkvizicí v roce 1633?",
+    "en": "What punishment did Galileo Galilei receive after his trial by the Inquisition in 1633?"
+   },
+   "moznosti": {
+    "cs": [
+     "Domácí vězení do konce života",
+     "Vyhnanství z Itálie",
+     "Nucené veslování na galejích",
+     "Upálení na hranici"
+    ],
+    "en": [
+     "House arrest for the rest of his life",
+     "Exile from Italy",
+     "Forced rowing in the galleys",
+     "Burning at the stake"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vyměřené vězení bylo hned druhý den změněno na domácí vězení, v němž Galileo dožil – od roku 1634 ve své vile v Arcetri u Florencie. Slavné „A přece se točí!“ nejspíš nikdy neřekl – první písemný záznam legendy pochází až zhruba ze století po jeho smrti.",
+    "en": "His sentence of imprisonment was commuted the next day to house arrest, under which Galileo lived out his life – from 1634 at his villa in Arcetri near Florence. He most likely never said the famous 'And yet it moves!' – the first written account of the legend dates from about a century after his death."
+   }
+  },
+  {
+   "id": "T017-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kterého skladatele podezírala pověst, kterou zpopularizoval i film Miloše Formana Amadeus, že otrávil Mozarta?",
+    "en": "Which composer was suspected, in a rumour also popularised by Miloš Forman's film Amadeus, of poisoning Mozart?"
+   },
+   "moznosti": {
+    "cs": [
+     "Antonia Salieriho",
+     "Christopha Willibalda Glucka",
+     "Josepha Haydna",
+     "Muzia Clementiho"
+    ],
+    "en": [
+     "Antonio Salieri",
+     "Christoph Willibald Gluck",
+     "Joseph Haydn",
+     "Muzio Clementi"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Fáma, že Mozarta otrávil právě Salieri, se začala šířit až desítky let po Mozartově smrti a jeho příznaky otravě neodpovídaly. Salieri byl uznávaný pedagog – učil mimo jiné Beethovena, Schuberta a Liszta.",
+    "en": "The rumour that Salieri in particular had poisoned Mozart began to circulate only decades after Mozart's death, and his symptoms did not indicate poisoning. Salieri was a respected teacher whose pupils included Beethoven, Schubert and Liszt."
+   }
+  },
+  {
+   "id": "T017-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Průměrná délka života ve středověku se uvádí kolem 30 let. Co to ve skutečnosti znamená?",
+    "en": "Life expectancy in the Middle Ages is often given as around 30 years. What does that actually mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Údaj zahrnuje jen padlé ve válkách",
+     "Lidé tehdy stárli dvakrát rychleji",
+     "Průměr snižovala vysoká úmrtnost dětí",
+     "Většina dospělých umírala kolem třicítky"
+    ],
+    "en": [
+     "The figure only includes those killed in wars",
+     "People aged twice as fast back then",
+     "The average was pulled down by high child mortality",
+     "Most adults died around the age of thirty"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jde o naději dožití při narození, kterou silně snižovala úmrtnost kojenců a dětí. Kdo se dožil dospělosti, žil obvykle mnohem déle – jednadvacetiletý Angličan mohl ve středověku čekat, že se dožije zhruba 64 let.",
+    "en": "It is life expectancy at birth, which was pulled down heavily by infant and child mortality. Those who reached adulthood usually lived much longer – a 21-year-old English man in the Middle Ages could expect to live to about 64."
+   }
+  },
+  {
+   "id": "T017-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co dnes historici soudí o „železné panně“, údajném středověkém mučicím nástroji?",
+    "en": "What do historians now think of the 'iron maiden', the supposed medieval torture device?"
+   },
+   "moznosti": {
+    "cs": [
+     "Je to nejspíš novověký výmysl",
+     "Přivezli ji z Orientu křižáci",
+     "Pochází už ze starověkého Říma",
+     "Používala ji hlavně španělská inkvizice"
+    ],
+    "en": [
+     "It is most likely a modern invention",
+     "Crusaders brought it back from the East",
+     "It dates back to ancient Rome",
+     "It was used mainly by the Spanish Inquisition"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pro existenci železných panen před 19. stoletím chybí jakékoli doklady. Známé exponáty, třeba norimberský, byly zřejmě sestaveny z různých muzejních předmětů pro výstavy a příběh o popravě z roku 1515 mohl vymyslet Johann Philipp Siebenkees.",
+    "en": "There is no evidence that iron maidens existed before the 19th century. Famous examples such as the Nuremberg one were apparently pieced together from various museum artefacts for exhibition, and the story of an execution in 1515 may have been invented by Johann Philipp Siebenkees."
+   }
+  },
+  {
+   "id": "T017-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč se Julius Caesar téměř jistě nenarodil císařským řezem?",
+    "en": "Why was Julius Caesar almost certainly not born by caesarean section?"
+   },
+   "moznosti": {
+    "cs": [
+     "Římské právo tento zákrok zakazovalo",
+     "Jeho matka porod přežila o desítky let",
+     "Zákrok vymysleli až za císaře Nerona",
+     "Narodil se v Egyptě, nikoli v Římě"
+    ],
+    "en": [
+     "Roman law prohibited the procedure",
+     "His mother survived the birth by decades",
+     "The procedure was only invented under Nero",
+     "He was born in Egypt, not in Rome"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "V antickém Římě se zákrok dělal jen u zemřelých či umírajících rodiček – u zemřelých to zákon dokonce přikazoval. Caesarova matka Aurelie ale žila ještě téměř 50 let. Původ názvu není jistý, může souviset s latinským caedere, řezat.",
+    "en": "In ancient Rome the procedure was performed only on dead or dying mothers – for mothers who had died, the law even required it. Caesar's mother Aurelia, however, lived for nearly 50 more years. The origin of the name is uncertain; it may come from the Latin caedere, to cut."
+   }
+  },
+  {
+   "id": "T017-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Latinské heslo lékařů „Primum non nocere“ (Především neškodit) v Hippokratově přísaze v tomto znění není. Ve kterém století se začalo šířit lékařskou literaturou?",
+    "en": "The Latin medical maxim 'Primum non nocere' (First, do no harm) does not appear in this form in the Hippocratic Oath. In which century did it start spreading through medical literature?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve 4. století př. n. l.",
+     "Ve 2. století n. l.",
+     "V 15. století",
+     "V 19. století"
+    ],
+    "en": [
+     "In the 4th century BC",
+     "In the 2nd century AD",
+     "In the 15th century",
+     "In the 19th century"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Myšlenku zpopularizoval roku 1847 Worthington Hooker, i když latinské znění nepoužil; to se objevuje v knize Thomase Inmana z roku 1860. V hippokratovském spise Epidemie stojí jen podobná myšlenka: lékař má konat dobro, nebo neškodit.",
+    "en": "The idea was popularised in 1847 by Worthington Hooker, although he did not use the Latin wording; that appears in a book by Thomas Inman in 1860. The Hippocratic work Epidemics contains only a similar idea: a physician should do good or do no harm."
+   }
+  },
+  {
+   "id": "T017-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kronikář Jindřich z Huntingdonu (Henry of Huntingdon) ve 12. století zapsal, jak král Knut Veliký (Cnut) přikázal přílivu, aby se zastavil. Co tím Knut podle něj chtěl ukázat?",
+    "en": "The 12th-century chronicler Henry of Huntingdon recorded how King Cnut the Great ordered the tide to stop. According to him, what did Cnut want to show?"
+   },
+   "moznosti": {
+    "cs": [
+     "Že moc králů je proti Bohu nicotná",
+     "Že jeho dvůr potřebuje nové přístavy",
+     "Že mu jako králi podléhá i samo moře",
+     "Že dokáže přesně předpovědět příliv"
+    ],
+    "en": [
+     "That kings' power is nothing beside God's",
+     "That his court needed new harbours",
+     "That even the sea was subject to him as king",
+     "That he could predict the tide precisely"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Knut chtěl podlézavým dvořanům ukázat, jak prázdná je moc králů – skutečným králem je jen ten, jehož věčné zákony poslouchá nebe, země i moře. Pak prý pověsil svou zlatou korunu na krucifix a už ji nikdy nenosil. Příběh tedy líčí jeho pokoru, ne pýchu.",
+    "en": "Cnut wanted to show his flattering courtiers how empty the power of kings is – the only true king is He whom heaven, earth and sea obey by eternal laws. He then supposedly hung his gold crown on a crucifix and never wore it again. The story thus portrays his humility, not arrogance."
+   }
+  },
+  {
+   "id": "T017-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kresby dánského cestovatele Frederika Nordena z roku 1737 ukazují Velkou sfingu v Gíze už bez nosu. Kterou rozšířenou pověst tím vyvracejí?",
+    "en": "Drawings made by the Danish traveller Frederic Norden in 1737 already show the Great Sphinx of Giza without its nose. Which popular legend do they disprove?"
+   },
+   "moznosti": {
+    "cs": [
+     "Že sfinga nos nikdy vůbec neměla",
+     "Že nos ulomili vojáci Alexandra Velikého",
+     "Že nos odvezli Římané jako trofej do Říma",
+     "Že nos ustřelili Napoleonovi vojáci"
+    ],
+    "en": [
+     "That the Sphinx never had a nose at all",
+     "That Alexander the Great's soldiers broke off the nose",
+     "That the Romans took the nose to Rome as a trophy",
+     "That Napoleon's soldiers shot the nose off"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Napoleonova výprava dorazila do Egypta až roku 1798. Nos chybí nejméně od 10. století a stopy po tyčích či dlátech ukazují na úmyslné poškození.",
+    "en": "Napoleon's expedition only reached Egypt in 1798. The nose has been missing since at least the 10th century, and marks left by rods or chisels point to deliberate damage."
+   }
+  },
+  {
+   "id": "T017-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jmenoval římský císař Caligula svého koně Incitata skutečně konzulem?",
+    "en": "Did the Roman emperor Caligula really make his horse Incitatus a consul?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ano, ale senát volbu zrušil",
+     "Ano, kůň pak zasedal v senátu",
+     "Ne, udělal ho „jen“ senátorem",
+     "Ne, podle pramenů to jen plánoval"
+    ],
+    "en": [
+     "Yes, but the Senate annulled the election",
+     "Yes, and the horse then sat in the Senate",
+     "No, he 'only' made him a senator",
+     "No, according to the sources he only planned to"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Suetonius píše jen, že se traduje, že ho „zamýšlel učinit konzulem“, a Cassius Dio uvádí, že k tomu nikdy nedošlo. Kůň měl ale prý mramorovou stáj, žlab ze slonoviny a purpurové přikrývky.",
+    "en": "Suetonius only writes that Caligula was said to have 'planned to make him consul', and Cassius Dio states the plan was never carried out. The horse did supposedly have a marble stable, an ivory manger and purple blankets."
+   }
+  },
+  {
+   "id": "T017-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Pověst vypráví o 300 Sparťanech. Kolik řeckých vojáků přibližně bránilo průsmyk Thermopyly na začátku bitvy roku 480 př. n. l.?",
+    "en": "Legend tells of 300 Spartans. Roughly how many Greek soldiers defended the pass of Thermopylae at the start of the battle in 480 BC?"
+   },
+   "moznosti": {
+    "cs": [
+     "300",
+     "Asi 1 000",
+     "Asi 7 000",
+     "Asi 70 000"
+    ],
+    "en": [
+     "300",
+     "About 1,000",
+     "About 7,000",
+     "About 70,000"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Řecké vojsko čítalo zhruba 7 000 mužů z různých obcí. I poslední den, kdy většina odešla, zůstalo kromě 300 Sparťanů ještě asi 700 mužů z Thespií a 400 Thébanů.",
+    "en": "The Greek force numbered about 7,000 men from various city-states. Even on the last day, after most had left, about 700 Thespians and 400 Thebans remained alongside the 300 Spartans."
+   }
+  },
+  {
+   "id": "T017-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč se pandemii chřipky z let 1918–1920 říká „španělská“?",
+    "en": "Why is the 1918–1920 influenza pandemic called the 'Spanish' flu?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Španělsku si vyžádala nejvíc obětí",
+     "Španělský tisk o ní psal bez cenzury",
+     "První případy byly zjištěny v Madridu",
+     "Do Evropy ji zavlekli španělští námořníci"
+    ],
+    "en": [
+     "It claimed the most victims in Spain",
+     "The Spanish press reported on it uncensored",
+     "The first cases were detected in Madrid",
+     "Spanish sailors brought it to Europe"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Neutrální Španělsko nemělo válečnou cenzuru, takže jeho noviny o epidemii psaly otevřeně a vypadalo to, že řádí hlavně tam. Odkud nemoc skutečně pochází, není jisté; nejstarší doložené případy jsou z USA.",
+    "en": "Neutral Spain had no wartime censorship, so its newspapers reported the epidemic freely and it seemed to be raging mainly there. Where the disease really started is uncertain; the earliest documented cases were in the United States."
+   }
+  },
+  {
+   "id": "T017-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Pozdrav „Ave, Imperator, morituri te salutant“ (Zdráv buď, císaři, jdoucí na smrt tě zdraví) je v antických pramenech doložen jen u jediné události. Kdo ho podle Suetonia pronesl?",
+    "en": "The salute 'Ave, Imperator, morituri te salutant' (Hail, Emperor, those about to die salute you) is recorded in ancient sources for only one occasion. According to Suetonius, who said it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Spartakovi muži před svou popravou",
+     "Odsouzenci před inscenovanou námořní bitvou",
+     "Legionáři před bitvou u Alesie",
+     "Gladiátoři při otevření Kolosea"
+    ],
+    "en": [
+     "Spartacus's men before their execution",
+     "Condemned men before a staged naval battle",
+     "Legionaries before the Battle of Alesia",
+     "Gladiators at the opening of the Colosseum"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Roku 52 n. l. tak na Fucinském jezeře (Lacus Fucinus) volali na císaře Claudia zajatci a zločinci odsouzení k inscenované námořní bitvě. Že by šlo o běžný pozdrav gladiátorů, pro to historici žádný doklad nemají.",
+    "en": "In AD 52, captives and criminals condemned to a staged naval battle on Lake Fucinus called it out to Emperor Claudius. Historians have found no evidence that it was a regular gladiators' salute."
+   }
+  },
+  {
+   "id": "T017-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který spisovatel vydal roku 1828 romantizovaný životopis Kryštofa Kolumba, který mnozí čtenáři mylně považovali za odborné historické dílo?",
+    "en": "Which writer published a romanticised biography of Christopher Columbus in 1828 that many readers mistook for a scholarly historical work?"
+   },
+   "moznosti": {
+    "cs": [
+     "James Fenimore Cooper",
+     "Edgar Allan Poe",
+     "Mark Twain",
+     "Washington Irving"
+    ],
+    "en": [
+     "James Fenimore Cooper",
+     "Edgar Allan Poe",
+     "Mark Twain",
+     "Washington Irving"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Irving v knize vylíčil z velké části smyšlené jednání komise učenců, kteří prý Kolumbovi oponovali námitkami z Bible, a výrazně tak přispěl k rozšíření jednoho z nejtrvalejších mýtů o Kolumbovi. Irving je dnes známější jako autor povídky Legenda o Ospalé díře (The Legend of Sleepy Hollow).",
+    "en": "In the book Irving gave a largely fictional account of a commission of scholars who supposedly raised scriptural objections to Columbus, which did much to spread one of the most enduring myths about him. Irving is better known today as the author of The Legend of Sleepy Hollow."
+   }
+  }
+ ]
+}

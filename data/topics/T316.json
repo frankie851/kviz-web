@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T316",
+ "nazev": {
+  "cs": "Severské země: Norsko, Švédsko, Dánsko, Finsko a Island",
+  "en": "The Nordic Countries: Norway, Sweden, Denmark, Finland and Iceland"
+ },
+ "kategorie": {
+  "id": "zemepis",
+  "nazev": {
+   "cs": "Zeměpis",
+   "en": "Geography"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T316-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která z těchto severských zemí NENÍ členem Evropské unie?",
+    "en": "Which of these Nordic countries is NOT a member of the European Union?"
+   },
+   "moznosti": {
+    "cs": [
+     "Švédsko",
+     "Norsko",
+     "Dánsko",
+     "Finsko"
+    ],
+    "en": [
+     "Sweden",
+     "Norway",
+     "Denmark",
+     "Finland"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Norové členství v EU odmítli ve dvou referendech, v letech 1972 a 1994. S Unií je Norsko spojeno přes Evropský hospodářský prostor a je i součástí schengenského prostoru.",
+    "en": "Norwegians rejected EU membership in two referendums, in 1972 and 1994. Norway is linked to the Union through the European Economic Area and is also part of the Schengen Area."
+   }
+  },
+  {
+   "id": "T316-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo vymyslel Mumínky?",
+    "en": "Who created the Moomins?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hans Christian Andersen",
+     "Tove Janssonová",
+     "Astrid Lindgrenová",
+     "Selma Lagerlöfová"
+    ],
+    "en": [
+     "Hans Christian Andersen",
+     "Tove Jansson",
+     "Astrid Lindgren",
+     "Selma Lagerlöf"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Mumínky vymyslela finská spisovatelka a ilustrátorka Tove Janssonová; první kniha vyšla v roce 1945. Její rodina si práva drží dodnes a nabídky od Disneyho odmítla.",
+    "en": "The Moomins were created by the Finnish writer and illustrator Tove Jansson; the first book came out in 1945. Her family still holds the rights and has turned down offers from Disney."
+   }
+  },
+  {
+   "id": "T316-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se jmenuje původní národ severu Skandinávie a Finska, proslulý chovem sobů?",
+    "en": "What is the name of the indigenous people of northern Scandinavia and Finland, famous for herding reindeer?"
+   },
+   "moznosti": {
+    "cs": [
+     "Něnci",
+     "Inuité",
+     "Sámové",
+     "Jakuti"
+    ],
+    "en": [
+     "The Nenets",
+     "The Inuit",
+     "The Sámi",
+     "The Yakuts"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Domovina Sámů, Sápmi, zahrnuje sever Norska, Švédska a Finska a ruský poloostrov Kola. Chov sobů je jejich nejznámější obživou, podle údaje z roku 2007 se mu ale věnuje jen asi desetina Sámů.",
+    "en": "The Sámi homeland, Sápmi, covers northern Norway, Sweden and Finland and Russia's Kola Peninsula. Reindeer herding is their best-known livelihood, but according to a 2007 figure only about a tenth of Sámi are involved in it."
+   }
+  },
+  {
+   "id": "T316-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která severská země platí eurem?",
+    "en": "Which Nordic country uses the euro?"
+   },
+   "moznosti": {
+    "cs": [
+     "Finsko",
+     "Švédsko",
+     "Norsko",
+     "Dánsko"
+    ],
+    "en": [
+     "Finland",
+     "Sweden",
+     "Norway",
+     "Denmark"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Finsko platí eurem od jeho zavedení v roce 1999, bankovky a mince má od roku 2002. Švédsko, Norsko a Dánsko si ponechávají vlastní koruny.",
+    "en": "Finland has used the euro since it was introduced in 1999, with notes and coins since 2002. Sweden, Norway and Denmark have each kept their own krona or krone."
+   }
+  },
+  {
+   "id": "T316-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Anglické slovo geyser (gejzír) pochází od jména horkého pramene v které zemi?",
+    "en": "The English word geyser comes from the name of a hot spring in which country?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Norsku",
+     "V USA",
+     "Na Novém Zélandu",
+     "Na Islandu"
+    ],
+    "en": [
+     "Norway",
+     "The USA",
+     "New Zealand",
+     "Iceland"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pramen Geysir leží v údolí Haukadalur na jihozápadě Islandu. Jeho jméno pochází od islandského slovesa geysa, které znamená zhruba „prudce se hnát vpřed“.",
+    "en": "The Geysir hot spring lies in the Haukadalur valley in south-western Iceland. Its name comes from the Icelandic verb geysa, meaning roughly 'to go quickly forward'."
+   }
+  },
+  {
+   "id": "T316-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ke kterému státu patří Faerské ostrovy?",
+    "en": "Which country do the Faroe Islands belong to?"
+   },
+   "moznosti": {
+    "cs": [
+     "K Norsku",
+     "K Velké Británii",
+     "K Dánsku",
+     "K Islandu"
+    ],
+    "en": [
+     "Norway",
+     "The United Kingdom",
+     "Denmark",
+     "Iceland"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Faerské ostrovy jsou samosprávným územím v rámci Dánského království, podobně jako Grónsko. Dánsko za ně řídí obranu, policii, justici a měnu.",
+    "en": "The Faroe Islands are a self-governing territory within the Kingdom of Denmark, like Greenland. Denmark handles their defence, policing, justice and currency."
+   }
+  },
+  {
+   "id": "T316-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi leží Rovaniemi, které se prezentuje jako „oficiální domovské město Santa Clause“?",
+    "en": "In which country is Rovaniemi, which promotes itself as the 'official hometown of Santa Claus'?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Islandu",
+     "V Norsku",
+     "Ve Finsku",
+     "Ve Švédsku"
+    ],
+    "en": [
+     "Iceland",
+     "Norway",
+     "Finland",
+     "Sweden"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Rovaniemi je správním střediskem finského Laponska a vesnička Santa Clause stojí přímo na severním polárním kruhu. Město si slogan o Santově domovském městě dokonce nechalo zaregistrovat jako ochrannou známku.",
+    "en": "Rovaniemi is the administrative capital of Finnish Lapland, and Santa Claus Village stands right on the Arctic Circle. The city has even registered the 'hometown of Santa Claus' slogan as a trademark."
+   }
+  },
+  {
+   "id": "T316-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi vznikla v roce 2006 hudební streamovací služba Spotify?",
+    "en": "In which country was the music streaming service Spotify founded in 2006?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Švédsku",
+     "Ve Finsku",
+     "V Nizozemsku",
+     "V Norsku"
+    ],
+    "en": [
+     "Sweden",
+     "Finland",
+     "The Netherlands",
+     "Norway"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Spotify založili v dubnu 2006 ve Stockholmu Daniel Ek a Martin Lorentzon. Provozní centrála je stále ve Stockholmu, právně je ale firma registrována v Lucembursku.",
+    "en": "Spotify was founded in Stockholm in April 2006 by Daniel Ek and Martin Lorentzon. Its operational headquarters is still in Stockholm, but the company is legally registered in Luxembourg."
+   }
+  },
+  {
+   "id": "T316-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co způsobila v dubnu 2010 erupce islandské sopky Eyjafjallajökull?",
+    "en": "What did the eruption of Iceland's Eyjafjallajökull volcano cause in April 2010?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ochromení letecké dopravy nad Evropou",
+     "Evakuaci celého Reykjavíku",
+     "Vlnu tsunami u pobřeží Norska",
+     "Výrazně chladnější léto v Evropě"
+    ],
+    "en": [
+     "The paralysis of air travel over Europe",
+     "The evacuation of all of Reykjavík",
+     "A tsunami off the coast of Norway",
+     "A markedly colder summer in Europe"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Oblak sopečného popela uzavřel od 15. do 20. dubna většinu evropského vzdušného prostoru a postihl asi 10 milionů cestujících. Šlo o největší narušení letecké dopravy od druhé světové války.",
+    "en": "The volcanic ash cloud closed most of European airspace from 15 to 20 April and affected about 10 million travellers. It was the biggest disruption to air travel since the Second World War."
+   }
+  },
+  {
+   "id": "T316-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi leží fjordy Geirangerfjord a Nærøyfjord, zapsané na seznam světového dědictví UNESCO?",
+    "en": "In which country are the Geirangerfjord and the Nærøyfjord, listed as a UNESCO World Heritage Site?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Švédsku",
+     "V Norsku",
+     "Na Islandu",
+     "V Dánsku"
+    ],
+    "en": [
+     "Sweden",
+     "Norway",
+     "Iceland",
+     "Denmark"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Oba fjordy tvoří společnou lokalitu Západonorské fjordy na jihozápadě Norska, severovýchodně od Bergenu. Fjordy jsou dlouhé, úzké a hluboké mořské zátoky sevřené strmými horskými stěnami.",
+    "en": "Together the two fjords make up the West Norwegian Fjords site in south-western Norway, north-east of Bergen. Fjords are long, narrow, deep sea inlets flanked by steep mountain walls."
+   }
+  },
+  {
+   "id": "T316-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který jazyk je vedle finštiny druhým úředním jazykem Finska?",
+    "en": "Which language is Finland's second official language alongside Finnish?"
+   },
+   "moznosti": {
+    "cs": [
+     "Estonština",
+     "Němčina",
+     "Ruština",
+     "Švédština"
+    ],
+    "en": [
+     "Estonian",
+     "German",
+     "Russian",
+     "Swedish"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Úředními jazyky Finska jsou finština a švédština. Finština je mateřštinou asi 83,5 % obyvatel, švédština jen asi 5 % (k roku 2026), přesto je i ona úředním jazykem.",
+    "en": "Finland's official languages are Finnish and Swedish. Finnish is the mother tongue of about 83.5% of the population and Swedish of only about 5% (as of 2026), yet it is still an official language."
+   }
+  },
+  {
+   "id": "T316-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém dánském městě sídlí firma LEGO a kde byl v roce 1968 otevřen úplně první Legoland?",
+    "en": "In which Danish town is the LEGO Group headquartered, and where did the very first Legoland open in 1968?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Aarhusu",
+     "V Aalborgu",
+     "V Odense",
+     "V Billundu"
+    ],
+    "en": [
+     "Aarhus",
+     "Aalborg",
+     "Odense",
+     "Billund"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Billund leží na Jutském poloostrově a sídlí v něm vedení skupiny LEGO. Od roku 2017 tu stojí i zážitkové centrum LEGO House od architektonického studia Bjarke Ingels Group.",
+    "en": "Billund lies on the Jutland peninsula and is home to the LEGO Group's head office. Since 2017 it has also had the LEGO House experience centre, designed by Bjarke Ingels Group."
+   }
+  },
+  {
+   "id": "T316-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co vyjadřuje finské slovo sisu?",
+    "en": "What does the Finnish word sisu express?"
+   },
+   "moznosti": {
+    "cs": [
+     "Houževnatou odhodlanost v nepřízni osudu",
+     "Pohodu u svíček v teple domova",
+     "Střídmost – ani moc, ani málo",
+     "Chvilku u kávy s přáteli"
+    ],
+    "en": [
+     "Dogged determination in the face of adversity",
+     "Cosiness by candlelight in a warm home",
+     "Moderation – not too much, not too little",
+     "A coffee break with friends"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Sisu je odvozeno od slova pro „nitro, vnitřnosti“, podobně jako anglické „guts“. Do angličtiny proniklo za zimní války 1939–1940, kdy Finové vzdorovali sovětské invazi.",
+    "en": "Sisu derives from a word meaning 'interior' or 'entrails', much like the English 'guts'. It entered English during the Winter War of 1939–1940, when the Finns resisted the Soviet invasion."
+   }
+  },
+  {
+   "id": "T316-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ke kterému státu patří autonomní a demilitarizované Alandy (Åland)?",
+    "en": "Which country do the autonomous, demilitarised Åland Islands belong to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ke Švédsku",
+     "K Finsku",
+     "K Estonsku",
+     "K Dánsku"
+    ],
+    "en": [
+     "Sweden",
+     "Finland",
+     "Estonia",
+     "Denmark"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "O sporu rozhodla v roce 1921 Společnost národů: Alandy zůstaly Finsku, které jim však muselo zaručit politickou autonomii. Se zhruba 30 000 obyvateli (k roku 2026) jsou nejméně lidnatým finským regionem.",
+    "en": "The dispute was settled by the League of Nations in 1921: Åland stayed with Finland, which had to guarantee it political autonomy. With about 30,000 inhabitants (as of 2026), it is Finland's least populous region."
+   }
+  },
+  {
+   "id": "T316-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co obvykle vyjadřuje příjmení většiny Islanďanů, například Jónsdóttir?",
+    "en": "What does the last name of most Icelanders, such as Jónsdóttir, usually express?"
+   },
+   "moznosti": {
+    "cs": [
+     "Křestní jméno otce",
+     "Řemeslo předků",
+     "Jméno rodového statku",
+     "Rodnou obec"
+    ],
+    "en": [
+     "Their father's first name",
+     "Their ancestors' trade",
+     "The name of the family farm",
+     "Their home village"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Většina islandských příjmení se tvoří z otcova křestního jména a přípony -son (syn) nebo -dóttir (dcera); Jónsdóttir je tedy „Jónova dcera“. Sourozenci proto často mají různá příjmení a telefonní seznam se řadí podle křestních jmen.",
+    "en": "Most Icelandic last names are formed from the father's first name plus -son (son) or -dóttir (daughter), so Jónsdóttir means 'Jón's daughter'. Siblings therefore often have different last names, and the phone directory is sorted by first name."
+   }
+  },
+  {
+   "id": "T316-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím se Island liší od všech ostatních členů NATO?",
+    "en": "How does Iceland differ from all other NATO members?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jeho členství se musí každých deset let obnovovat",
+     "Nemá stálou armádu",
+     "Nemá v Severoatlantické radě hlasovací právo",
+     "Vstoupil do NATO až po skončení studené války"
+    ],
+    "en": [
+     "Its membership must be renewed every ten years",
+     "It has no standing army",
+     "It has no vote in the North Atlantic Council",
+     "It joined NATO only after the Cold War ended"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Island byl v roce 1949 zakládajícím členem NATO, vstoupil ale s podmínkou, že nebude muset zřídit armádu. Obranné úkoly plní hlavně pobřežní stráž, která hlídá i vzdušný prostor.",
+    "en": "Iceland was a founding member of NATO in 1949, but joined on the condition that it would not have to establish an army. Defence tasks are carried out mainly by the Coast Guard, which also monitors the airspace."
+   }
+  },
+  {
+   "id": "T316-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co je Kalevala?",
+    "en": "What is the Kalevala?"
+   },
+   "moznosti": {
+    "cs": [
+     "Islandská sbírka ság",
+     "Švédský středověký zákoník",
+     "Norská sbírka pohádek",
+     "Finský národní epos"
+    ],
+    "en": [
+     "An Icelandic collection of sagas",
+     "A medieval Swedish law code",
+     "A Norwegian collection of fairy tales",
+     "The Finnish national epic"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kalevalu sestavil lékař Elias Lönnrot z finských a karelských lidových zpěvů, poprvé vyšla v roce 1835. Inspirovala i Tolkiena: příběh Kullerva se stal předlohou pro Túrina Turambara.",
+    "en": "The Kalevala was compiled by the physician Elias Lönnrot from Finnish and Karelian folk poetry and first published in 1835. It also inspired Tolkien: the tale of Kullervo became the basis for Túrin Turambar."
+   }
+  },
+  {
+   "id": "T316-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo složil symfonickou báseň Finlandia, skrytý protest proti ruské cenzuře?",
+    "en": "Who composed the tone poem Finlandia, a covert protest against Russian censorship?"
+   },
+   "moznosti": {
+    "cs": [
+     "Carl Nielsen",
+     "Edvard Grieg",
+     "Franz Berwald",
+     "Jean Sibelius"
+    ],
+    "en": [
+     "Carl Nielsen",
+     "Edvard Grieg",
+     "Franz Berwald",
+     "Jean Sibelius"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Sibelius ji napsal v roce 1899 a v Ruském impériu se kvůli cenzuře hrála pod krycími názvy, třeba „Impromptu“. Její klidná závěrečná část, takzvaný Hymnus Finlandia, se často navrhuje jako finská hymna.",
+    "en": "Sibelius wrote it in 1899, and because of censorship it was performed in the Russian Empire under disguised titles such as 'Impromptu'. Its serene closing section, the Finlandia Hymn, is often proposed as Finland's national anthem."
+   }
+  },
+  {
+   "id": "T316-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co mohou ve Finsku nastávající matky dostat od státu podle tradice, která sahá do roku 1938?",
+    "en": "What can expectant mothers in Finland receive from the state, a tradition dating back to 1938?"
+   },
+   "moznosti": {
+    "cs": [
+     "Roční zásobu látkových plen",
+     "Dřevěnou kolébku z finské břízy",
+     "Poukaz na rok bezplatného hlídání",
+     "Krabici s výbavičkou, která slouží i jako postýlka"
+    ],
+    "en": [
+     "A year's supply of cloth nappies",
+     "A wooden cradle made of Finnish birch",
+     "A voucher for a year of free childminding",
+     "A box of baby supplies that doubles as a cot"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Balíček od sociální pojišťovny Kela obsahuje oblečení, povlečení i hygienické potřeby a krabice má na dně matraci, takže může sloužit jako postýlka. Zpočátku byl jen pro chudší rodiny, od roku 1949 pro všechny. Místo něj lze vzít 210 eur (k roku 2026), většina matek ale volí krabici.",
+    "en": "The package from the social security institution Kela contains clothes, bedding and care products, and the box has a mattress in the bottom, so it can serve as a cot. At first it was only for low-income families, and since 1949 it has been for all. Mothers can take 210 euros instead (as of 2026), but most choose the box."
+   }
+  },
+  {
+   "id": "T316-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se jmenuje hlavní město Grónska?",
+    "en": "What is the capital of Greenland?"
+   },
+   "moznosti": {
+    "cs": [
+     "Longyearbyen",
+     "Nuuk",
+     "Ilulissat",
+     "Tórshavn"
+    ],
+    "en": [
+     "Longyearbyen",
+     "Nuuk",
+     "Ilulissat",
+     "Tórshavn"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Do roku 1979 se Nuuk oficiálně nazýval dánsky Godthåb. Žije v něm asi 20 000 lidí (k roku 2026), víc než třetina obyvatel Grónska, a leží o kousek severněji než Reykjavík.",
+    "en": "Until 1979 Nuuk was officially known by its Danish name, Godthåb. It has about 20,000 inhabitants (as of 2026), more than a third of Greenland's population, and lies slightly further north than Reykjavík."
+   }
+  },
+  {
+   "id": "T316-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na kterém místě se od roku 930 každoročně scházel islandský sněm Althing?",
+    "en": "Where did Iceland's parliament, the Althing, meet every year from 930 onwards?"
+   },
+   "moznosti": {
+    "cs": [
+     "Reykjavík",
+     "Þingvellir",
+     "Akureyri",
+     "Skálholt"
+    ],
+    "en": [
+     "Reykjavík",
+     "Þingvellir",
+     "Akureyri",
+     "Skálholt"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Sněm zasedal na Þingvelliru (přepisováno i Thingvellir) až do roku 1798, od roku 1881 sídlí v budově v Reykjavíku. Místo leží v příkopové propadlině mezi severoamerickou a euroasijskou litosférickou deskou a od roku 2004 je na seznamu UNESCO.",
+    "en": "The assembly met at Þingvellir (also spelled Thingvellir) until 1798, and since 1881 it has been housed in a building in Reykjavík. The site lies in a rift valley between the North American and Eurasian plates and has been a UNESCO World Heritage Site since 2004."
+   }
+  },
+  {
+   "id": "T316-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co změnila novela švédského zákona o nástupnictví na trůn, platná od 1. ledna 1980?",
+    "en": "What did the amendment to the Swedish Act of Succession, in force from 1 January 1980, change?"
+   },
+   "moznosti": {
+    "cs": [
+     "Panovník musí v 70 letech abdikovat",
+     "Krále si nově volí parlament",
+     "Trůn zdědí nejstarší dítě bez ohledu na pohlaví",
+     "Následník se nesmí oženit s neurozenou"
+    ],
+    "en": [
+     "The monarch must abdicate at 70",
+     "The king is now elected by parliament",
+     "The eldest child inherits regardless of sex",
+     "The heir may not marry a commoner"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Díky změně se následnicí stala princezna Victoria místo svého mladšího bratra Carla Philipa, který byl následníkem jen asi sedm měsíců. Šlo o první zákon v západní Evropě, který zavedl absolutní primogenituru.",
+    "en": "Thanks to the change, Princess Victoria became heir instead of her younger brother Carl Philip, who had been heir for only about seven months. It was the first law in Western Europe to adopt absolute primogeniture."
+   }
+  },
+  {
+   "id": "T316-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Finsku se přezdívá „země tisíců jezer“. Kolik jezer v něm zhruba je?",
+    "en": "Finland is nicknamed the 'land of a thousand lakes'. Roughly how many lakes does it have?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 1 000",
+     "Asi 18 000",
+     "Asi 180 000",
+     "Asi 1,8 milionu"
+    ],
+    "en": [
+     "About 1,000",
+     "About 18,000",
+     "About 180,000",
+     "About 1.8 million"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Finsko má přes 180 000 jezer, nejčastěji se uvádí 187 888 jezer větších než 500 m². Přezdívka tedy skutečnost podceňuje zhruba 180krát.",
+    "en": "Finland has over 180,000 lakes; the most often cited figure is 187,888 lakes larger than 500 m² (5,382 sq ft). The nickname therefore understates reality roughly 180 times."
+   }
+  },
+  {
+   "id": "T316-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč turisté v údolí Haukadalur sledují hlavně gejzír Strokkur, a ne slavnější Geysir?",
+    "en": "Why do tourists in the Haukadalur valley mainly watch the Strokkur geyser rather than the more famous Geysir?"
+   },
+   "moznosti": {
+    "cs": [
+     "Geysir byl ve 20. století zasypán lávou",
+     "Geysir tryská jen jednou ročně o slunovratu",
+     "Geysir dnes tryská vzácně, Strokkur každých pár minut",
+     "Ke Geysiru je kvůli jedovatým plynům zakázán přístup"
+    ],
+    "en": [
+     "Geysir was buried by lava in the 20th century",
+     "Geysir erupts only once a year, at the solstice",
+     "Geysir erupts rarely now, Strokkur every few minutes",
+     "Access to Geysir is banned because of toxic gases"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Geysir je dnes většinou klidný a erupce v roce 2016 byla zprávou právě proto, že jsou vzácné. Strokkur, asi 50 m jižněji, vystřelí vodu každých několik minut, až do výšky 35 m.",
+    "en": "Geysir is mostly quiet today, and an eruption in 2016 made news precisely because they are so rare. Strokkur, about 50 m (160 ft) to the south, shoots water every few minutes, up to 35 m (115 ft) high."
+   }
+  },
+  {
+   "id": "T316-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Které zvíře má ve finském jezeře Saimaa vlastní sladkovodní populaci, která nežije nikde jinde na světě?",
+    "en": "Which animal has its own freshwater population in Finland's Lake Saimaa, found nowhere else in the world?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tuleň",
+     "Mrož",
+     "Běluga",
+     "Sviňucha"
+    ],
+    "en": [
+     "The seal",
+     "The walrus",
+     "The beluga",
+     "The porpoise"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Saimaaští tuleni (Pusa saimensis) jsou izolovaní asi 9 500 let, od chvíle, kdy se po době ledové zvedla pevnina. Jde o ohrožený druh s populací kolem 550 zvířat (k roku 2026).",
+    "en": "Saimaa seals (Pusa saimensis) have been isolated for about 9,500 years, ever since the land rose after the last ice age. They are an endangered species with a population of around 550 animals (as of 2026)."
+   }
+  },
+  {
+   "id": "T316-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V jakém jazyce původně vycházely knihy o Mumíncích?",
+    "en": "In which language were the Moomin books originally published?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve švédštině",
+     "V angličtině",
+     "Ve finštině",
+     "V norštině"
+    ],
+    "en": [
+     "Swedish",
+     "English",
+     "Finnish",
+     "Norwegian"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Původní švédský název série zní Mumintrollen a knihy vydávalo finské nakladatelství Schildts. Prvním dílem přeloženým do angličtiny byla kniha Čarodějův klobouk (švédsky 1948, anglicky jako Finn Family Moomintroll 1950), která se stala mezinárodním bestsellerem.",
+    "en": "The original Swedish title of the series is Mumintrollen, and the books were published by the Finnish publisher Schildts. The first one translated into English was Finn Family Moomintroll (Swedish original 1948, English edition 1950), which became an international bestseller."
+   }
+  },
+  {
+   "id": "T316-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč se švédské město Kiruna stěhuje o několik kilometrů dál?",
+    "en": "Why is the Swedish town of Kiruna moving several kilometres away?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ohrožuje ho stoupající hladina moře",
+     "Musí ustoupit nové vodní nádrži",
+     "Pod městem se rozšiřuje železnorudný důl",
+     "Domy se naklánějí kvůli tání permafrostu"
+    ],
+    "en": [
+     "It is threatened by rising sea levels",
+     "It has to make way for a new reservoir",
+     "An iron ore mine is expanding beneath the town",
+     "Buildings are tilting as the permafrost thaws"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Důl Kirunavaara společnosti LKAB podkopává staré centrum a půda se propadá, proto se centrum přesouvá asi o 3 km na východ. V srpnu 2025 převezli v celku i 113 let starý kostel chráněný jako kulturní památka.",
+    "en": "LKAB's Kirunavaara mine is undermining the old centre and the ground is subsiding, so the centre is moving about 3 km (1.9 mi) east. In August 2025 even the protected 113-year-old church was moved there in one piece."
+   }
+  },
+  {
+   "id": "T316-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jakým rekordem (k roku 2026) se pyšní norský tunel Lærdal, otevřený v roce 2000?",
+    "en": "Which record does Norway's Lærdal Tunnel, opened in 2000, hold (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nejsevernější dálniční tunel na světě",
+     "Nejhlouběji položený podmořský tunel na světě",
+     "Nejdelší železniční tunel na světě",
+     "Nejdelší silniční tunel na světě"
+    ],
+    "en": [
+     "The world's northernmost motorway tunnel",
+     "The world's deepest undersea tunnel",
+     "The world's longest railway tunnel",
+     "The world's longest road tunnel"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Tunel měří 24,5 km a průjezd trvá asi 20 minut. Aby jízda nebyla monotónní, jsou v něm tři velké jeskyně osvětlené modře se žlutými okraji, které připomínají východ slunce a slouží i jako místa k odpočinku a otočení.",
+    "en": "The tunnel is 24.5 km (15.2 mi) long and takes about 20 minutes to drive through. To break the monotony, it has three large caverns lit in blue with yellow edges to suggest a sunrise, which also serve as rest and turnaround areas."
+   }
+  },
+  {
+   "id": "T316-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Odkud pochází tzv. zákon Jante (Janteloven), skandinávská zásada „nemysli si, že jsi něco víc“?",
+    "en": "Where does the so-called Law of Jante (Janteloven), the Scandinavian principle of 'don't think you're anyone special', come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Lutherova Malého katechismu z roku 1529",
+     "Z dánského zákoníku Kristiána V. z roku 1683",
+     "Z válečných článků švédské armády z roku 1621",
+     "Z románu Aksela Sandemoseho z roku 1933"
+    ],
+    "en": [
+     "Luther's Small Catechism of 1529",
+     "Christian V's Danish Code of 1683",
+     "The Swedish army's Articles of War of 1621",
+     "A 1933 novel by Aksel Sandemose"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Desatero pravidel sepsal dánsko-norský spisovatel Aksel Sandemose v satirickém románu En flyktning krysser sitt spor. Smyšlené městečko Jante vymodeloval podle svého rodného Nykøbingu na ostrově Mors.",
+    "en": "The ten rules were written by the Danish-Norwegian author Aksel Sandemose in his satirical novel A Fugitive Crosses His Tracks (En flyktning krysser sitt spor). He modelled the fictional town of Jante on his native Nykøbing Mors."
+   }
+  },
+  {
+   "id": "T316-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co podle nejrozšířenějšího výkladu znamená název Faerských ostrovů?",
+    "en": "According to the most widely held theory, what does the name of the Faroe Islands mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ovčí ostrovy",
+     "Vzdálené ostrovy",
+     "Skalnaté ostrovy",
+     "Ptačí ostrovy"
+    ],
+    "en": [
+     "Sheep Islands",
+     "Distant Islands",
+     "Rocky Islands",
+     "Bird Islands"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Název pochází ze staroseverského Færeyjar; výklad „ovčí ostrovy“ je nejrozšířenější, i když jej někteří badatelé zpochybňují. Ovce je i ve znaku ostrovů a ovčí DNA v jezerních usazeninách naznačuje, že ovce tu byly už kolem roku 500, před příchodem Seveřanů.",
+    "en": "The name comes from the Old Norse Færeyjar; 'sheep islands' is the most widely held reading, although some scholars dispute it. A sheep also appears on the islands' coat of arms, and sheep DNA in lake sediments suggests sheep were there around the year 500, before the Norse arrived."
+   }
+  }
+ ]
+}

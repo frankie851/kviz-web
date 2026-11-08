@@ -36,8 +36,8 @@
    },
    "spravne": 0,
    "vysvetleni": {
-    "cs": "Sáblíková vyhrála ve Vancouveru 2010 závody na 3 000 a 5 000 m a v Soči 2014 obhájila pětikilometrovou trať. Uspěla, přestože Česko nemá žádný rychlobruslařský ovál.",
-    "en": "Sáblíková won the 3,000 m and 5,000 m in Vancouver 2010 and defended her 5,000 m title in Sochi 2014. She succeeded even though the Czech Republic has no speed skating oval."
+    "cs": "Sáblíková vyhrála ve Vancouveru 2010 závody na 3 000 a 5 000 m a v Soči 2014 obhájila pětikilometrovou trať. Uspěla, přestože Česko nemá krytou rychlobruslařskou halu (k roku 2026).",
+    "en": "Sáblíková won the 3,000 m and 5,000 m in Vancouver 2010 and defended her 5,000 m title in Sochi 2014. She succeeded even though the Czech Republic has no indoor speed skating oval (as of 2026)."
    }
   },
   {
@@ -63,35 +63,35 @@
    },
    "spravne": 2,
    "vysvetleni": {
-    "cs": "Kvitová vyhrála na wimbledonské trávě dvakrát, v letech 2011 a 2014. Levačka z Bílovce byla na svém maximu světovou dvojkou a v Riu 2016 získala olympijský bronz.",
-    "en": "Kvitová won on the Wimbledon grass twice, in 2011 and 2014. The left-hander from Bílovec peaked at world No. 2 and won Olympic bronze in Rio 2016."
+    "cs": "Kvitová vyhrála na wimbledonské trávě dvakrát, v letech 2011 a 2014. Levačka z Bílovce získala v Riu 2016 také olympijský bronz ve dvouhře.",
+    "en": "Kvitová won on the Wimbledon grass twice, in 2011 and 2014. The left-hander from Bílovec also won Olympic singles bronze in Rio 2016."
    }
   },
   {
    "id": "T254-03",
    "obtiznost": 1,
    "otazka": {
-    "cs": "V jaké disciplíně získal Roman Šebrle olympijské zlato v Athénách 2004?",
-    "en": "In which event did Roman Šebrle win Olympic gold in Athens 2004?"
+    "cs": "Na kterých olympijských hrách získal desetibojař Roman Šebrle zlatou medaili?",
+    "en": "At which Olympic Games did decathlete Roman Šebrle win the gold medal?"
    },
    "moznosti": {
     "cs": [
-     "Skok o tyči",
-     "Desetiboj",
-     "Skok do výšky",
-     "Hod oštěpem"
+     "Atlanta 1996",
+     "Sydney 2000",
+     "Athény 2004",
+     "Peking 2008"
     ],
     "en": [
-     "Pole vault",
-     "Decathlon",
-     "High jump",
-     "Javelin throw"
+     "Atlanta 1996",
+     "Sydney 2000",
+     "Athens 2004",
+     "Beijing 2008"
     ]
    },
-   "spravne": 1,
+   "spravne": 2,
    "vysvetleni": {
-    "cs": "Šebrle vyhrál v Athénách desetiboj výkonem 8 893 bodů, což byl olympijský rekord. Vítězi desetiboje se tradičně přezdívá „největší atlet světa“.",
-    "en": "Šebrle won the Athens decathlon with 8,893 points, an Olympic record. The decathlon champion is traditionally called the 'world's greatest athlete'."
+    "cs": "Šebrle vyhrál desetiboj v Athénách 2004 výkonem 8 893 bodů, což byl olympijský rekord; v Sydney 2000 bral stříbro. Vítězi desetiboje se tradičně přezdívá „největší atlet světa“.",
+    "en": "Šebrle won the decathlon in Athens 2004 with 8,893 points, an Olympic record; in Sydney 2000 he took silver. The decathlon champion is traditionally called the 'world's greatest athlete'."
    }
   },
   {
@@ -117,8 +117,8 @@
    },
    "spravne": 1,
    "vysvetleni": {
-    "cs": "Neumannová vyhrála v Turíně závod na 30 km volně a stala se jeho nejstarší vítězkou. V roce 2003 se jí narodila dcera Lucie, takže zlato získala jako matka.",
-    "en": "Neumannová won the 30 km freestyle in Turin, becoming the event's oldest winner. Her daughter Lucie was born in 2003, so she won the gold as a mother."
+    "cs": "Neumannová vyhrála v Turíně závod na 30 km volně s hromadným startem ve 33 letech. V roce 2003 se jí narodila dcera Lucie, takže zlato získala jako matka.",
+    "en": "Neumannová won the 30 km freestyle mass start in Turin at the age of 33. Her daughter Lucie was born in 2003, so she won the gold as a mother."
    }
   },
   {
@@ -144,8 +144,8 @@
    },
    "spravne": 3,
    "vysvetleni": {
-    "cs": "Špotáková je oštěpařka a v září 2008 ve Stuttgartu hodila světový rekord 72,28 m. Podle Wikipedie (2026) je stále jeho držitelkou.",
-    "en": "Špotáková is a javelin thrower, and in September 2008 in Stuttgart she set the world record of 72.28 m (237.1 ft). According to Wikipedia (2026) she still holds it."
+    "cs": "Špotáková je oštěpařka a v září 2008 ve Stuttgartu hodila světový rekord 72,28 m, který stále drží (k roku 2026).",
+    "en": "Špotáková is a javelin thrower, and in September 2008 in Stuttgart she set the world record of 72.28 m (237.1 ft), which she still holds (as of 2026)."
    }
   },
   {
@@ -333,8 +333,8 @@
    },
    "spravne": 3,
    "vysvetleni": {
-    "cs": "Pod Lendlovým vedením vyhrál Murray tři grandslamy (US Open 2012, Wimbledon 2013 a 2016) a dostal se až na post světové jedničky. Lendl tak Murraymu pomohl k titulu, který sám nikdy nezískal.",
-    "en": "Under Lendl, Murray won three majors (2012 US Open, Wimbledon 2013 and 2016) and reached world No. 1. Lendl thus helped Murray win the title he himself never won."
+    "cs": "Pod Lendlovým vedením vyhrál Murray tři grandslamy (US Open 2012, Wimbledon 2013 a 2016) a dostal se až na post světové jedničky.",
+    "en": "Under Lendl, Murray won three majors (2012 US Open, Wimbledon 2013 and 2016) and reached world No. 1."
    }
   },
   {
@@ -368,8 +368,8 @@
    "id": "T254-14",
    "obtiznost": 2,
    "otazka": {
-    "cs": "V jaké běžecké disciplíně drží Jarmila Kratochvílová světový rekord z roku 1983, který podle stavu z roku 2026 stále platí?",
-    "en": "In which running event does Jarmila Kratochvílová hold a world record from 1983 that still stands as of 2026?"
+    "cs": "V jaké běžecké disciplíně drží Jarmila Kratochvílová světový rekord z roku 1983, který stále platí (k roku 2026)?",
+    "en": "In which running event does Jarmila Kratochvílová hold a world record from 1983 that still stands (as of 2026)?"
    },
    "moznosti": {
     "cs": [
@@ -414,8 +414,8 @@
    },
    "spravne": 2,
    "vysvetleni": {
-    "cs": "Šebrle nasbíral 9 026 bodů a jako první prolomil magickou hranici 9 000. O tři roky později vyhrál olympijský desetiboj v Athénách.",
-    "en": "Šebrle scored 9,026 points, becoming the first to break the magic 9,000 barrier. Three years later he won the Olympic decathlon in Athens."
+    "cs": "Šebrle nasbíral 9 026 bodů a jako první prolomil magickou hranici 9 000. Jako světový rekord vydržel tento výkon až do roku 2012, kdy ho překonal Američan Ashton Eaton.",
+    "en": "Šebrle scored 9,026 points, becoming the first to break the magic 9,000 barrier. The score stood as the world record until 2012, when American Ashton Eaton surpassed it."
    }
   },
   {
@@ -468,8 +468,8 @@
    },
    "spravne": 1,
    "vysvetleni": {
-    "cs": "Karolína Plíšková z Loun se dostala do čela žebříčku 17. července 2017. Grandslam nevyhrála, prohrála finále US Open 2016 a Wimbledonu 2021.",
-    "en": "Karolína Plíšková from Louny reached the top of the rankings on 17 July 2017. She never won a major, losing the finals of the 2016 US Open and 2021 Wimbledon."
+    "cs": "Karolína Plíšková z Loun se dostala do čela žebříčku 17. července 2017. Grandslam nevyhrála (k roku 2026), prohrála finále US Open 2016 a Wimbledonu 2021.",
+    "en": "Karolína Plíšková from Louny reached the top of the rankings on 17 July 2017. She has not won a major (as of 2026), losing the finals of the 2016 US Open and 2021 Wimbledon."
    }
   },
   {
@@ -638,8 +638,8 @@
    "id": "T254-24",
    "obtiznost": 3,
    "otazka": {
-    "cs": "Ve kterém sportu startovala lyžařka Kateřina Neumannová na letních olympijských hrách 1996 v Atlantě?",
-    "en": "In which sport did skier Kateřina Neumannová compete at the 1996 Summer Olympics in Atlanta?"
+    "cs": "Ve kterém sportu startovala Kateřina Neumannová, pozdější olympijská vítězka ze zimních her, na letních olympijských hrách 1996 v Atlantě?",
+    "en": "In which sport did Kateřina Neumannová, a future Winter Olympic champion, compete at the 1996 Summer Olympics in Atlanta?"
    },
    "moznosti": {
     "cs": [
@@ -746,8 +746,8 @@
    "id": "T254-28",
    "obtiznost": 3,
    "otazka": {
-    "cs": "Kolik es nastřílela Kristýna Plíšková v jednom zápase na Australian Open 2016, což je podle stavu z roku 2026 rekord okruhu WTA?",
-    "en": "How many aces did Kristýna Plíšková serve in a single match at the 2016 Australian Open, a WTA Tour record as of 2026?"
+    "cs": "Kolik es nastřílela Kristýna Plíšková v jednom zápase na Australian Open 2016, což je rekord okruhu WTA (k roku 2026)?",
+    "en": "How many aces did Kristýna Plíšková serve in a single match at the 2016 Australian Open, a WTA Tour record (as of 2026)?"
    },
    "moznosti": {
     "cs": [
@@ -765,8 +765,8 @@
    },
    "spravne": 2,
    "vysvetleni": {
-    "cs": "Levačka Kristýna Plíšková zahrála 31 es ve druhém kole proti Monice Puigové. Je dvojčetem Karolíny Plíškové, bývalé světové jedničky.",
-    "en": "Left-hander Kristýna Plíšková hit 31 aces in the second round against Monica Puig. She is the identical twin of Karolína Plíšková, a former world No. 1."
+    "cs": "Levačka Kristýna Plíšková zahrála 31 es ve druhém kole proti Monice Puigové. Její jednovaječné dvojče Karolína je rovněž profesionální tenistkou.",
+    "en": "Left-hander Kristýna Plíšková hit 31 aces in the second round against Monica Puig. Her identical twin, Karolína, is also a professional tennis player."
    }
   },
   {

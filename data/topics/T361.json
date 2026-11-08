@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T361",
+ "nazev": {
+  "cs": "Jules Verne a romány budoucnosti",
+  "en": "Jules Verne and Novels of the Future"
+ },
+ "kategorie": {
+  "id": "umeni-a-literatura",
+  "nazev": {
+   "cs": "Umění a literatura",
+   "en": "Art & Literature"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T361-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaké národnosti byl spisovatel Jules Verne?",
+    "en": "What nationality was the writer Jules Verne?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kanaďan",
+     "Švýcar",
+     "Belgičan",
+     "Francouz"
+    ],
+    "en": [
+     "Canadian",
+     "Swiss",
+     "Belgian",
+     "French"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jules Verne byl Francouz a všechna svá díla psal francouzsky. Zemřel roku 1905 v Amiens, kde byl zhruba patnáct let městským radním.",
+    "en": "Jules Verne was French and wrote all his works in French. He died in 1905 in Amiens, where he had served for about fifteen years as a town councillor."
+   }
+  },
+  {
+   "id": "T361-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kteří mořští živočichové napadnou Nautilus v jedné z nejslavnějších scén románu Dvacet tisíc mil pod mořem?",
+    "en": "Which sea creatures attack the Nautilus in one of the most famous scenes of Twenty Thousand Leagues Under the Seas?"
+   },
+   "moznosti": {
+    "cs": [
+     "Žraloci",
+     "Kosatky",
+     "Obří krakatice",
+     "Mořští hadi"
+    ],
+    "en": [
+     "Sharks",
+     "Killer whales",
+     "Giant squid",
+     "Sea serpents"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Když se Nautilus vrátí do Atlantiku, napadne ho hejno obřích krakatic a jedna z nich zabije dalšího člena posádky. Se žralokem se v románu bojuje jinde – při záchraně indického lovce perel.",
+    "en": "When the Nautilus returns to the Atlantic, a school of giant squid attacks it and kills another crew member. A shark appears elsewhere in the novel, attacking an Indian pearl diver."
+   }
+  },
+  {
+   "id": "T361-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se jmenuje francouzský sluha, který doprovází Philease Fogga na cestě kolem světa za 80 dní?",
+    "en": "What is the name of the French valet who accompanies Phileas Fogg on his journey around the world in 80 days?"
+   },
+   "moznosti": {
+    "cs": [
+     "Planchet",
+     "Passepartout",
+     "Conseil",
+     "Jeeves"
+    ],
+    "en": [
+     "Planchet",
+     "Passepartout",
+     "Conseil",
+     "Jeeves"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jean Passepartout nastoupil k Foggovi 2. října 1872 – a hned večer s ním vyrazil na cestu. Conseil je pro změnu sluha profesora Aronnaxe z Dvaceti tisíc mil pod mořem.",
+    "en": "Jean Passepartout was hired by Fogg on 2 October 1872 – and set off with him that very evening. Conseil, by contrast, is Professor Aronnax's servant in Twenty Thousand Leagues Under the Seas."
+   }
+  },
+  {
+   "id": "T361-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kráterem sopky ve které zemi sestoupí hrdinové Cesty do středu Země do podzemí?",
+    "en": "In which country do the heroes of Journey to the Center of the Earth descend into the underground through a volcano's crater?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Islandu",
+     "V Japonsku",
+     "V Grónsku",
+     "V Norsku"
+    ],
+    "en": [
+     "Iceland",
+     "Japan",
+     "Greenland",
+     "Norway"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Profesor Lidenbrock z Hamburku se synovcem Axelem a průvodcem Hansem sestoupí nečinnou sopkou Snæfellsjökull; cestu jim ukázal rozluštěný runový zápis islandského alchymisty Arneho Saknussemma ze 16. století.",
+    "en": "Hamburg professor Lidenbrock, his nephew Axel and their guide Hans descend through the inactive volcano Snæfellsjökull, following a deciphered runic note by the 16th-century Icelandic alchemist Arne Saknussemm."
+   }
+  },
+  {
+   "id": "T361-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se hrdinové Verneova románu Ze Země na Měsíc vydají k Měsíci?",
+    "en": "How do the heroes of Verne's novel From the Earth to the Moon set off for the Moon?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vynese je vzducholoď",
+     "Vystřelí je obří dělo",
+     "Přenese je magnetický paprsek",
+     "Odletí balonem"
+    ],
+    "en": [
+     "An airship carries them up",
+     "They are fired from a giant cannon",
+     "A magnetic beam transports them",
+     "They fly off in a balloon"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Baltimorský klub dělostřelců (Gun Club) postaví obří dělo Columbiad a vystřelí z něj projektil se třemi muži na palubě.",
+    "en": "The Baltimore Gun Club builds the giant cannon Columbiad and fires a projectile with three men on board from it."
+   }
+  },
+  {
+   "id": "T361-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který anglický spisovatel napsal romány Stroj času a Válka světů?",
+    "en": "Which English writer wrote the novels The Time Machine and The War of the Worlds?"
+   },
+   "moznosti": {
+    "cs": [
+     "H. G. Wells",
+     "Rudyard Kipling",
+     "Arthur Conan Doyle",
+     "Charles Dickens"
+    ],
+    "en": [
+     "H. G. Wells",
+     "Rudyard Kipling",
+     "Arthur Conan Doyle",
+     "Charles Dickens"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Herbert George Wells vydal Stroj času jako svou první novelu v roce 1895 a Válku světů knižně v roce 1898.",
+    "en": "Herbert George Wells published The Time Machine, his first novella, in 1895 and The War of the Worlds in book form in 1898."
+   }
+  },
+  {
+   "id": "T361-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jules Verne bývá označován za „otce“ kterého literárního žánru?",
+    "en": "Jules Verne is often called the 'father' of which literary genre?"
+   },
+   "moznosti": {
+    "cs": [
+     "Historického románu",
+     "Detektivky",
+     "Hororu",
+     "Science fiction"
+    ],
+    "en": [
+     "The historical novel",
+     "Detective fiction",
+     "Horror",
+     "Science fiction"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Verne psal o letech k Měsíci a dlouhých podmořských plavbách desítky let předtím, než se staly skutečností. Titul „otec science fiction“ se dává i dalším autorům, například Hugu Gernsbackovi.",
+    "en": "Verne wrote about voyages to the Moon and long undersea journeys decades before they became reality. The title 'father of science fiction' has also been given to other authors, such as Hugo Gernsback."
+   }
+  },
+  {
+   "id": "T361-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém městě začíná i končí cesta kolem světa Philease Fogga?",
+    "en": "In which city does Phileas Fogg's journey around the world begin and end?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Edinburghu",
+     "V Paříži",
+     "V New Yorku",
+     "V Londýně"
+    ],
+    "en": [
+     "Edinburgh",
+     "Paris",
+     "New York",
+     "London"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Fogg se vsadil s členy londýnského Reform Clubu a musel se do klubu vrátit nejpozději 21. prosince ve 20:45.",
+    "en": "Fogg made his bet with members of London's Reform Club and had to be back at the club by 8:45 p.m. on 21 December."
+   }
+  },
+  {
+   "id": "T361-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém Verneově románu se kapitán Nemo znovu objeví jako tajemný ochránce skupiny trosečníků?",
+    "en": "In which of Verne's novels does Captain Nemo reappear as the mysterious protector of a group of castaways?"
+   },
+   "moznosti": {
+    "cs": [
+     "Michail Strogov",
+     "Patnáctiletý kapitán",
+     "Dva roky prázdnin",
+     "Tajuplný ostrov"
+    ],
+    "en": [
+     "Michael Strogoff",
+     "A Captain at Fifteen",
+     "Two Years' Vacation",
+     "The Mysterious Island"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "V Tajuplném ostrově (1875) Nemo trosečníkům nepozorovaně pomáhá; nakonec je Nautilus potopen a stane se kapitánovou hrobkou.",
+    "en": "In The Mysterious Island (1875), Nemo secretly helps the castaways; in the end the Nautilus is scuttled and becomes the captain's tomb."
+   }
+  },
+  {
+   "id": "T361-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Komu slouží jako kurýr hrdina románu Michail Strogov?",
+    "en": "Whom does the hero of the novel Michael Strogoff serve as a courier?"
+   },
+   "moznosti": {
+    "cs": [
+     "Francouzskému císaři",
+     "Ruskému carovi",
+     "Tureckému sultánovi",
+     "Britské královně"
+    ],
+    "en": [
+     "The French emperor",
+     "The Russian tsar",
+     "The Ottoman sultan",
+     "The British queen"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Strogov má přes Sibiř donést do obklíčeného Irkutsku carovo varování před zrádcem Ivanem Ogarevem; povstání vyvolal chán Feofar. Román vyšel v roce 1876.",
+    "en": "Strogoff must carry the tsar's warning about the traitor Ivan Ogareff across Siberia to encircled Irkutsk; the rebellion was incited by Feofar Khan. The novel came out in 1876."
+   }
+  },
+  {
+   "id": "T361-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém francouzském přístavním městě se Jules Verne v roce 1828 narodil?",
+    "en": "In which French port city was Jules Verne born in 1828?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bordeaux",
+     "Marseille",
+     "Nantes",
+     "Le Havre"
+    ],
+    "en": [
+     "Bordeaux",
+     "Marseille",
+     "Nantes",
+     "Le Havre"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Verne se narodil na ostrově Feydeau na řece Loiře v Nantes. Podle legendy se jako jedenáctiletý pokusil tajně dostat na loď Coralie a otec ho chytil až v Paimbœufu.",
+    "en": "Verne was born on the Île Feydeau in the Loire in Nantes. According to legend, at 11 he tried to sneak aboard the ship Coralie and his father caught him only at Paimbœuf."
+   }
+  },
+  {
+   "id": "T361-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se jmenuje souborná řada Verneových románů, kterou vydával nakladatel Pierre-Jules Hetzel?",
+    "en": "What is the name of the series of Verne's novels published by Pierre-Jules Hetzel?"
+   },
+   "moznosti": {
+    "cs": [
+     "Cesty fantazie",
+     "Neznámé světy",
+     "Podivuhodné cesty",
+     "Dobrodružné výpravy"
+    ],
+    "en": [
+     "Journeys of Fantasy",
+     "Unknown Worlds",
+     "Extraordinary Voyages",
+     "Adventurous Expeditions"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Řada Voyages extraordinaires (česky vycházela jako Podivuhodné cesty) začíná Pěti nedělemi v balónu z roku 1863, název jí ale Hetzel dal až roku 1866. Chtěl, aby čtenářům přiblížila veškeré zeměpisné, geologické, fyzikální, historické a astronomické poznání moderní vědy.",
+    "en": "The Voyages extraordinaires begin with Five Weeks in a Balloon (1863), although Hetzel gave the series its name only in 1866. He wanted it to outline all the geographical, geological, physical, historical and astronomical knowledge amassed by modern science."
+   }
+  },
+  {
+   "id": "T361-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co pohání Nautilus kapitána Nema?",
+    "en": "What powers Captain Nemo's Nautilus?"
+   },
+   "moznosti": {
+    "cs": [
+     "Benzínový motor",
+     "Parní stroj",
+     "Elektřina",
+     "Stlačený vzduch"
+    ],
+    "en": [
+     "A petrol engine",
+     "A steam engine",
+     "Electricity",
+     "Compressed air"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Nautilus je v románu z let 1869–1870 poháněn elektřinou. Jméno si Verne vypůjčil od ponorky Nautilus, kterou roku 1800 postavil Robert Fulton.",
+    "en": "In the novel of 1869–1870, the Nautilus is electrically powered. Verne borrowed the name from the submarine Nautilus built by Robert Fulton in 1800."
+   }
+  },
+  {
+   "id": "T361-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co v názvu románu Dvacet tisíc mil pod mořem vyjadřuje číslo 20 000?",
+    "en": "In the title Twenty Thousand Leagues Under the Seas, what does the number 20,000 refer to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Největší hloubku, do které se Nautilus ponoří",
+     "Vzdálenost, kterou Nautilus urazí pod hladinou",
+     "Vzdálenost Nemovy tajné základny od Evropy",
+     "Délku podmořského kabelu, který Nautilus sleduje"
+    ],
+    "en": [
+     "The greatest depth the Nautilus dives to",
+     "The distance the Nautilus travels underwater",
+     "The distance of Nemo's secret base from Europe",
+     "The length of an undersea cable the Nautilus follows"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jde o uraženou vzdálenost, ne o hloubku: 20 000 metrických mil (lieues po 4 km) je 80 000 km, tedy téměř dvojnásobek obvodu Země.",
+    "en": "It is the distance travelled, not the depth: 20,000 metric leagues (lieues) of 4 km (2.5 mi) each make 80,000 km (about 50,000 mi), nearly twice the Earth's circumference."
+   }
+  },
+  {
+   "id": "T361-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Před čím zachrání Fogg a jeho sluha v Indii mladou vdovu?",
+    "en": "What do Fogg and his valet save a young widow from in India?"
+   },
+   "moznosti": {
+    "cs": [
+     "Před upálením na hranici zemřelého manžela",
+     "Před útokem tygra v džungli",
+     "Před popravou za krádež chrámového pokladu",
+     "Před prodejem do otroctví na trhu v Bombaji"
+    ],
+    "en": [
+     "Being burned on her dead husband's pyre",
+     "Being attacked by a tiger in the jungle",
+     "Being executed for stealing temple treasure",
+     "Being sold into slavery at a Bombay market"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vdova Aouda měla být zdrogovaná upálena zaživa na pohřební hranici svého manžela (obřad satí). Foggův sluha se převlékl za mrtvého manžela, vstal z hranice a odnesl ji.",
+    "en": "The widow Aouda was to be burned alive, drugged, on her husband's funeral pyre (sati). Fogg's valet disguised himself as the dead husband, rose from the pyre and carried her away."
+   }
+  },
+  {
+   "id": "T361-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč Fogga na cestě kolem světa pronásleduje detektiv Fix?",
+    "en": "Why does Detective Fix pursue Fogg on his journey around the world?"
+   },
+   "moznosti": {
+    "cs": [
+     "Má ho z pověření klubu připravit o sázku",
+     "Podezírá ho ze špionáže",
+     "Vymáhá po něm dluhy",
+     "Považuje ho za bankovního lupiče"
+    ],
+    "en": [
+     "The club has hired him to make Fogg lose the bet",
+     "He suspects Fogg of espionage",
+     "He is collecting Fogg's debts",
+     "He thinks Fogg is a bank robber"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Fix ze Scotland Yardu hledá bankovního lupiče, který se Foggovi nejasně podobá, a proto ho sleduje celou cestu.",
+    "en": "Fix of Scotland Yard is hunting a bank robber who vaguely resembles Fogg, so he follows him all the way."
+   }
+  },
+  {
+   "id": "T361-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co nakonec zahubí Marťany v románu Válka světů?",
+    "en": "What finally kills the Martians in the novel The War of the Worlds?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sluneční žár",
+     "Pozemské bakterie",
+     "Mořská voda",
+     "Dělostřelectvo"
+    ],
+    "en": [
+     "The heat of the Sun",
+     "Earthly bacteria",
+     "Seawater",
+     "Artillery"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Marťané neměli proti pozemským choroboplodným zárodkům žádnou imunitu. Román vyšel časopisecky v roce 1897 a knižně v roce 1898.",
+    "en": "The Martians had no immunity to earthly pathogens. The novel was serialised in 1897 and published as a book in 1898."
+   }
+  },
+  {
+   "id": "T361-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se pět mužů z Tajuplného ostrova na ostrov dostane?",
+    "en": "How do the five men in The Mysterious Island reach the island?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vysadí je tam vzbouřená posádka",
+     "Připlují na voru z Austrálie",
+     "Uprchnou balonem z obléhaného Richmondu",
+     "Ztroskotají s velrybářskou lodí"
+    ],
+    "en": [
+     "A mutinous crew maroons them there",
+     "They drift there on a raft from Australia",
+     "They escape from besieged Richmond in a balloon",
+     "They are shipwrecked on a whaler"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Roku 1865, za americké občanské války, unesou severanští zajatci pozorovací balon plněný vodíkem. Ostrov pak pojmenují po Abrahamu Lincolnovi.",
+    "en": "In 1865, during the American Civil War, the Northern prisoners hijack a hydrogen-filled observation balloon. They later name the island after Abraham Lincoln."
+   }
+  },
+  {
+   "id": "T361-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém americkém státě umístil Verne v románu Ze Země na Měsíc místo startu k Měsíci?",
+    "en": "In which US state did Verne place the launch site for the Moon in From the Earth to the Moon?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Texasu",
+     "Na Floridě",
+     "V Kalifornii",
+     "V Novém Mexiku"
+    ],
+    "en": [
+     "Texas",
+     "Florida",
+     "California",
+     "New Mexico"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Místo startu leží na pahorku Stone's Hill u Tampy. Neil Armstrong při návratu Apolla 11 připomněl, že Verneova loď také odstartovala z Floridy a přistála v Tichém oceánu.",
+    "en": "The launch site is on Stone's Hill near Tampa. During Apollo 11's return, Neil Armstrong noted that Verne's craft had also taken off from Florida and landed in the Pacific Ocean."
+   }
+  },
+  {
+   "id": "T361-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co Jules Verne vystudoval v Paříži, než se naplno věnoval psaní?",
+    "en": "What did Jules Verne study in Paris before devoting himself fully to writing?"
+   },
+   "moznosti": {
+    "cs": [
+     "Námořní navigaci",
+     "Práva",
+     "Medicínu",
+     "Inženýrství"
+    ],
+    "en": [
+     "Naval navigation",
+     "Law",
+     "Medicine",
+     "Engineering"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "V lednu 1851 získal v Paříži právnický diplom (licence en droit). Mezitím se spřátelil se synem Alexandra Dumase a společně přepracovali Verneovu veselohru Les Pailles rompues.",
+    "en": "In January 1851 he obtained a law degree (licence en droit) in Paris. Meanwhile he became friends with Alexandre Dumas's son, and together they revised Verne's comedy Les Pailles rompues."
+   }
+  },
+  {
+   "id": "T361-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kým byl kapitán Nemo původně, jak sám nakonec prozradí?",
+    "en": "Who was Captain Nemo originally, as he himself eventually reveals?"
+   },
+   "moznosti": {
+    "cs": [
+     "Irským rebelem",
+     "Řeckým námořním důstojníkem",
+     "Americkým vynálezcem",
+     "Indickým princem"
+    ],
+    "en": [
+     "An Irish rebel",
+     "A Greek naval officer",
+     "An American inventor",
+     "An Indian prince"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Na smrtelné posteli prozradí, že je ztracený indický princ Dakkar, syn rádži z Bundelkhandu, který se účastnil nezdařeného indického povstání roku 1857.",
+    "en": "On his deathbed he reveals that he is the lost Indian prince Dakkar, son of a raja of Bundelkhand, who took part in the failed Indian Rebellion of 1857."
+   }
+  },
+  {
+   "id": "T361-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Román Paříž ve 20. století vyšel až v roce 1994, téměř 90 let po Verneově smrti. Proč nevyšel dřív?",
+    "en": "The novel Paris in the Twentieth Century was not published until 1994, almost 90 years after Verne's death. Why did it not appear earlier?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zakázala ho cenzura Napoleona III.",
+     "Verne ho nestihl dokončit",
+     "Nakladatel Hetzel rukopis odmítl",
+     "Verne si přál, aby vyšel až po sto letech"
+    ],
+    "en": [
+     "Napoleon III's censors banned it",
+     "Verne never finished it",
+     "The publisher Hetzel rejected the manuscript",
+     "Verne wanted it published only after a hundred years"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hetzel ho považoval za příliš nevěrohodný a bál se, že jeho pesimismus Verneovi uškodí. Román zasazený do roku 1960 přitom popisuje auta se spalovacím motorem, rychlovlaky i obrazový telegraf podobný faxu.",
+    "en": "Hetzel thought it too unbelievable and feared its pessimism would harm Verne's career. Yet the novel, set in 1960, describes cars with internal combustion engines, high-speed trains and a picture-telegraph much like a fax."
+   }
+  },
+  {
+   "id": "T361-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V Patnáctiletém kapitánovi míří loď Pilgrim do Jižní Ameriky, ale kuchař Negoro zmanipuluje kompas magnetem. Kde loď nakonec přistane?",
+    "en": "In A Captain at Fifteen, the ship Pilgrim is heading for South America, but the cook Negoro tampers with the compass using a magnet. Where does the ship end up?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Angole",
+     "Na Aljašce",
+     "V Austrálii",
+     "V Mexiku"
+    ],
+    "en": [
+     "Angola",
+     "Alaska",
+     "Australia",
+     "Mexico"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Cestující chtěli do chilského Valparaísa a zrádce Harris je přesvědčil, že jsou na bolivijském pobřeží. Ve skutečnosti skončili v Africe a román se pak věnuje hlavně obchodu s otroky.",
+    "en": "The passengers wanted to reach Valparaíso in Chile, and the traitor Harris convinced them they were on the Bolivian coast. In fact they were in Africa, and the novel then deals mainly with the slave trade."
+   }
+  },
+  {
+   "id": "T361-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "O kolik liber se Phileas Fogg vsadil, že objede svět za 80 dní?",
+    "en": "How many pounds did Phileas Fogg wager that he could travel around the world in 80 days?"
+   },
+   "moznosti": {
+    "cs": [
+     "1 000",
+     "5 000",
+     "20 000",
+     "100 000"
+    ],
+    "en": [
+     "1,000",
+     "5,000",
+     "20,000",
+     "100,000"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Sázka 20 000 liber představovala polovinu Foggova jmění. Na cestu vyrazil 2. října 1872 večer.",
+    "en": "The £20,000 wager was half of Fogg's fortune. He set off on the evening of 2 October 1872."
+   }
+  },
+  {
+   "id": "T361-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který dopravní prostředek Phileas Fogg v románu Cesta kolem světa za osmdesát dní NEPOUŽIJE?",
+    "en": "Which means of transport does Phileas Fogg NOT use in the novel Around the World in Eighty Days?"
+   },
+   "moznosti": {
+    "cs": [
+     "Parník",
+     "Balon",
+     "Slona",
+     "Saně"
+    ],
+    "en": [
+     "A steamship",
+     "A balloon",
+     "An elephant",
+     "A sledge"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Let balonem je jednou z nejslavnějších scén filmu z roku 1956, v románu ale není. V Indii Fogg jede na slonovi a část Ameriky přejede na saních poháněných větrem.",
+    "en": "The balloon flight is one of the most famous sequences of the 1956 film, but it is not in the novel. In India Fogg rides an elephant, and he crosses part of America on a wind-powered sledge."
+   }
+  },
+  {
+   "id": "T361-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kudy se profesor Lidenbrock, jeho synovec Axel a průvodce Hans vrátí z podzemí na povrch?",
+    "en": "How do Professor Lidenbrock, his nephew Axel and their guide Hans return from the underground to the surface?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sopkou Vesuv",
+     "Sopkou Heklou",
+     "Sopkou Etnou",
+     "Sopkou Stromboli"
+    ],
+    "en": [
+     "Through Mount Vesuvius",
+     "Through the Hekla volcano",
+     "Through Mount Etna",
+     "Through the Stromboli volcano"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Do podzemí vstoupili nečinnou sopkou a ven je vyvrhne erupce činné sopky Stromboli v jižní Itálii. Cestou spatří i pravěké mořské plazy, například plesiosaura v boji s ichtyosaurem.",
+    "en": "They entered through an inactive volcano and are thrown out by an eruption of the active Stromboli in southern Italy. Along the way they even see prehistoric marine reptiles, such as a plesiosaur fighting an ichthyosaur."
+   }
+  },
+  {
+   "id": "T361-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Tataři mají Michaila Strogova oslepit rozžhavenou čepelí. Co mu podle románu zachrání zrak?",
+    "en": "The Tatars are to blind Michael Strogoff with a red-hot blade. According to the novel, what saves his sight?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kat, kterého podplatí Nadia",
+     "Obvaz namočený v ledové vodě",
+     "Slzy při pohledu na matku",
+     "Čepel, která nebyla dost žhavá"
+    ],
+    "en": [
+     "An executioner bribed by Nadia",
+     "A bandage soaked in icy water",
+     "His tears as he looks at his mother",
+     "A blade that was not hot enough"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Slzy pro matku se žárem odpařily a ochránily mu rohovky. Strogov pak slepotu jen předstírá.",
+    "en": "His tears for his mother evaporated in the heat and protected his corneas. Strogoff then only pretends to be blind."
+   }
+  },
+  {
+   "id": "T361-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na motivy kterých dvou Verneových románů natočil Karel Zeman film Ukradená vzducholoď?",
+    "en": "Which two Verne novels inspired Karel Zeman's film The Stolen Airship?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dva roky prázdnin a Tajuplný ostrov",
+     "Michail Strogov a Patnáctiletý kapitán",
+     "Pět neděl v balónu a Cesta kolem světa za osmdesát dní",
+     "Cesta do středu Země a Ze Země na Měsíc"
+    ],
+    "en": [
+     "Two Years' Vacation and The Mysterious Island",
+     "Michael Strogoff and A Captain at Fifteen",
+     "Five Weeks in a Balloon and Around the World in Eighty Days",
+     "Journey to the Center of the Earth and From the Earth to the Moon"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Film z roku 1966 volně vychází z Dvou let prázdnin a Tajuplného ostrova a je laděn do secese, s hranými scénami kombinovanými s animací.",
+    "en": "The 1966 film is loosely based on Two Years' Vacation and The Mysterious Island and is made in Art Nouveau style, combining live action with animation."
+   }
+  },
+  {
+   "id": "T361-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co vyslala Evropská kosmická agentura (ESA) v roce 2008 pod jménem Jules Verne k Mezinárodní vesmírné stanici?",
+    "en": "What did the European Space Agency (ESA) send to the International Space Station in 2008 under the name Jules Verne?"
+   },
+   "moznosti": {
+    "cs": [
+     "Automatickou nákladní loď",
+     "Vědecký modul stanice",
+     "Robotickou ruku",
+     "Pilotovanou kosmickou loď"
+    ],
+    "en": [
+     "An automated cargo spacecraft",
+     "A science module for the station",
+     "A robotic arm",
+     "A crewed spacecraft"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jules Verne byla první z pěti lodí ATV a odstartovala 9. března 2008. K ISS přivezla mimo jiné palivo, vodu a kyslík – a také dva originální Verneovy rukopisy.",
+    "en": "Jules Verne was the first of five ATV spacecraft and was launched on 9 March 2008. It brought propellant, water and oxygen, among other cargo, to the ISS – along with two original Verne manuscripts."
+   }
+  },
+  {
+   "id": "T361-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Fogg se vrátí z cesty v domnění, že sázku o jeden den prohrál. Proč ji nakonec vyhraje?",
+    "en": "Fogg returns from his journey believing he has lost the bet by one day. Why does he win after all?"
+   },
+   "moznosti": {
+    "cs": [
+     "Cestoval na východ, a tak „získal“ jeden den",
+     "Kalendář v klubu se o den předcházel",
+     "Soudce mu započítal den strávený ve vězení",
+     "Klub kvůli bouři posunul termín sázky"
+    ],
+    "en": [
+     "He travelled east and so 'gained' a day",
+     "The club's calendar was a day ahead",
+     "A judge credited him with the day he spent in jail",
+     "The club postponed the deadline because of a storm"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Při cestě na východ přes poledníky se mu dny postupně zkracovaly, takže Fogg zažil 80 východů slunce, zatímco doma v klubu uplynulo jen 79 dní.",
+    "en": "Travelling east across the meridians made his days progressively shorter, so Fogg experienced 80 sunrises while only 79 days had passed back at his club."
+   }
+  }
+ ]
+}

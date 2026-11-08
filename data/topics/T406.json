@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T406",
+ "nazev": {
+  "cs": "Magnety a magnetismus: od kompasu po magnetickou rezonanci",
+  "en": "Magnets and Magnetism: From the Compass to MRI"
+ },
+ "kategorie": {
+  "id": "veda-a-technika",
+  "nazev": {
+   "cs": "Věda a technika",
+   "en": "Science & Technology"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T406-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč musí pacient před vyšetřením magnetickou rezonancí odložit klíče, mince a další kovové předměty?",
+    "en": "Why must patients leave keys, coins and other metal objects outside before an MRI scan?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kov by zesílil hluk přístroje",
+     "Silný magnet přístroje je může prudce přitáhnout",
+     "Kov by pohlcoval rentgenové záření",
+     "Kov by se rozpustil v chladicí kapalině"
+    ],
+    "en": [
+     "Metal would make the machine louder",
+     "The scanner's powerful magnet can yank them in",
+     "Metal would absorb the X-rays",
+     "Metal would dissolve in the coolant"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "V poli přístroje se železné předměty mění v nebezpečné projektily. Magnet takto k sobě strhl muže s těžkým řetězem na krku, který doprovázel manželku, nebo nabitou pistoli doprovázejícího syna, která při nárazu vystřelila.",
+    "en": "In the scanner's field, iron-containing objects become dangerous projectiles. MRI magnets have yanked in a man wearing a heavy chain who was accompanying his wife, and a loaded pistol carried by a patient's son, which fired on impact."
+   }
+  },
+  {
+   "id": "T406-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co ukážou železné piliny nasypané na papír položený na tyčovém magnetu?",
+    "en": "What do iron filings sprinkled on a sheet of paper over a bar magnet reveal?"
+   },
+   "moznosti": {
+    "cs": [
+     "Siločáry magnetického pole",
+     "Místa, kde je magnet nejtěžší",
+     "Směr elektrického proudu v magnetu",
+     "Teplotu jednotlivých částí magnetu"
+    ],
+    "en": [
+     "The magnetic field lines",
+     "Where the magnet is heaviest",
+     "The direction of electric current in the magnet",
+     "The temperature of each part of the magnet"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Každá pilina se zmagnetuje a natočí jako malá střelka kompasu, takže dohromady vykreslí tvar pole. Nejhustěji se shluknou u pólů, kde je pole nejsilnější.",
+    "en": "Each filing becomes magnetised and lines up like a tiny compass needle, so together they trace the field's shape. They crowd most densely at the poles, where the field is strongest."
+   }
+  },
+  {
+   "id": "T406-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která planeta Sluneční soustavy má nejsilnější magnetické pole?",
+    "en": "Which planet in the Solar System has the strongest magnetic field?"
+   },
+   "moznosti": {
+    "cs": [
+     "Země",
+     "Mars",
+     "Venuše",
+     "Jupiter"
+    ],
+    "en": [
+     "Earth",
+     "Mars",
+     "Venus",
+     "Jupiter"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jupiterovo pole vzniká v hluboké vrstvě kovového vodíku a jeho magnetický moment je asi 18 000krát větší než zemský. Jupiterova magnetosféra je po heliosféře největší souvislý útvar ve Sluneční soustavě.",
+    "en": "Jupiter's field is generated in a deep layer of metallic hydrogen, and its magnetic moment is about 18,000 times Earth's. Its magnetosphere is the largest continuous structure in the Solar System after the heliosphere."
+   }
+  },
+  {
+   "id": "T406-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Samice mořských želv kladou vejce po letech na moři. Kam se k tomu podle výzkumů obvykle vracejí?",
+    "en": "Female sea turtles lay eggs after years at sea. According to research, where do they usually return to do so?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na nejbližší pláž od místa, kde právě loví",
+     "Na pláž s nejteplejším pískem v okolí",
+     "Na pobřeží, kde se samy vylíhly",
+     "Na stejný ostrov jako jejich partner"
+    ],
+    "en": [
+     "To the beach nearest their current feeding grounds",
+     "To the beach with the warmest sand nearby",
+     "To the coast where they themselves hatched",
+     "To the same island as their mate"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Mláďata si podle všeho „vtisknou“ magnetický podpis rodné pláže a jako dospělá se podle něj vracejí. Studie týmu Kennetha Lohmanna z 19 let hnízdění na Floridě ukázala, že hnízda houstnou tam, kde se magnetické podpisy pobřeží k sobě přibližují.",
+    "en": "Hatchlings appear to imprint on the magnetic signature of their natal beach and use it to return as adults. A study by Kenneth Lohmann's team covering 19 years of nesting in Florida found that nests cluster more densely where the coast's magnetic signatures drift closer together."
+   }
+  },
+  {
+   "id": "T406-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Tyčový magnet přeříznete napůl. Co dostanete?",
+    "en": "You cut a bar magnet in half. What do you get?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jeden magnet a jeden nemagnetický kus",
+     "Dva kusy, které už nejsou magnetické",
+     "Jeden kus jen se severním a druhý jen s jižním pólem",
+     "Dva menší magnety, každý se severním i jižním pólem"
+    ],
+    "en": [
+     "One magnet and one non-magnetic piece",
+     "Two pieces that are no longer magnetic",
+     "One piece with only a north pole and one with only a south pole",
+     "Two smaller magnets, each with a north and a south pole"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Magnetismus vzniká z drobných magnetických momentů atomů, takže každý úlomek má opět oba póly. Osamocený magnetický pól (monopól) zatím nikdo nenašel (k roku 2026).",
+    "en": "Magnetism comes from the tiny magnetic moments of atoms, so every fragment again has both poles. No isolated magnetic pole (monopole) has been found (as of 2026)."
+   }
+  },
+  {
+   "id": "T406-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co je hlavním zdrojem magnetického pole Země?",
+    "en": "What mainly generates Earth's magnetic field?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přitažlivost Měsíce",
+     "Sluneční vítr dopadající na atmosféru",
+     "Obří ložiska železné rudy v zemské kůře",
+     "Proudění roztaveného železa ve vnějším jádře"
+    ],
+    "en": [
+     "The Moon's gravity",
+     "The solar wind striking the atmosphere",
+     "Huge iron-ore deposits in the crust",
+     "Flowing molten iron in the outer core"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pohyby vodivé taveniny železa a niklu ve vnějším jádře fungují jako samobudicí dynamo (geodynamo). Pole se v jádře neustále obnovuje, jinak by jeho dipólová složka zanikla během několika desítek tisíc let.",
+    "en": "Movements of conductive molten iron and nickel in the outer core act as a self-sustaining dynamo (the geodynamo). The field is constantly regenerated in the core; otherwise its dipole part would die away within a few tens of thousands of years."
+   }
+  },
+  {
+   "id": "T406-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co rozkmitá membránu (kónus) klasického reproduktoru, takže vydává zvuk?",
+    "en": "What makes the cone of a classic loudspeaker vibrate and produce sound?"
+   },
+   "moznosti": {
+    "cs": [
+     "Malý elektrický ventilátor",
+     "Cívka s proudem v poli magnetu",
+     "Pružina natahovaná motorkem",
+     "Střídavé ohřívání a chladnutí vzduchu"
+    ],
+    "en": [
+     "A small electric fan",
+     "A current-carrying coil in a magnet's field",
+     "A spring wound by a little motor",
+     "Alternate heating and cooling of the air"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Proud ze zesilovače mění směr a cívka připojená ke kónusu se v poli trvalého magnetu tlačí sem a tam. Stejný princip obráceně využívá dynamický mikrofon.",
+    "en": "The amplifier's current keeps changing direction, so the coil attached to the cone is pushed back and forth in the permanent magnet's field. A dynamic microphone uses the same principle in reverse."
+   }
+  },
+  {
+   "id": "T406-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Před čím nás chrání magnetosféra, tedy oblast ovládaná magnetickým polem Země?",
+    "en": "What does the magnetosphere, the region controlled by Earth's magnetic field, protect us from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Před dopady meteoroidů a úlomků komet",
+     "Před mrazem a chladem vesmíru",
+     "Před nabitými částicemi slunečního větru",
+     "Před ultrafialovým zářením Slunce"
+    ],
+    "en": [
+     "Meteoroid and comet-debris impacts",
+     "The bitter cold of outer space",
+     "Charged particles of the solar wind",
+     "Ultraviolet radiation from the Sun"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pole odklání proud nabitých částic ze Slunce kolem planety, takže nedopadá přímo na atmosféru. Ultrafialové záření, které je elektricky neutrální, zachycuje ozonová vrstva.",
+    "en": "The field deflects the stream of charged particles from the Sun around the planet, so it does not hit the atmosphere head-on. Ultraviolet light, which is electrically neutral, is blocked by the ozone layer instead."
+   }
+  },
+  {
+   "id": "T406-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proč jeřáby na šrotištích zvedají kovový odpad elektromagnetem, a ne trvalým magnetem?",
+    "en": "Why do scrapyard cranes lift metal scrap with an electromagnet rather than a permanent magnet?"
+   },
+   "moznosti": {
+    "cs": [
+     "Elektromagnet jde vypnout, a tak náklad pustit",
+     "Elektromagnet přitahuje i hliník a měď",
+     "Trvalé magnety se na vzduchu rozpadají",
+     "Elektromagnet nepotřebuje elektřinu"
+    ],
+    "en": [
+     "An electromagnet can be switched off to drop the load",
+     "An electromagnet also attracts aluminium and copper",
+     "Permanent magnets crumble in air",
+     "An electromagnet needs no electricity"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Elektromagnet je magnetem jen tehdy, když vinutím teče proud, takže obsluha náklad jednoduše pustí vypnutím. Síla se navíc dá řídit velikostí proudu.",
+    "en": "An electromagnet is only magnetic while current flows through its windings, so the operator drops the load simply by switching it off. Its strength can also be adjusted by changing the current."
+   }
+  },
+  {
+   "id": "T406-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který z těchto nosičů ukládá nahrávku magneticky?",
+    "en": "Which of these media stores a recording magnetically?"
+   },
+   "moznosti": {
+    "cs": [
+     "Gramofonová deska",
+     "Audiokazeta",
+     "DVD",
+     "CD"
+    ],
+    "en": [
+     "Vinyl record",
+     "Audio cassette",
+     "DVD",
+     "CD"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pásek kazety je pokrytý drobnými částicemi oxidu železitého, které záznamová hlava zmagnetizuje podle zvuku. Kompaktní kazetu uvedla firma Philips v roce 1963.",
+    "en": "A cassette's tape is coated with tiny iron-oxide particles that the recording head magnetises in step with the sound. Philips introduced the compact cassette in 1963."
+   }
+  },
+  {
+   "id": "T406-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Přírodní magnety jsou kusy magnetitu, které se samy zmagnetovaly. Co je podle převládající teorie zmagnetovalo?",
+    "en": "Lodestones are pieces of magnetite that became magnetised naturally. According to the leading theory, what magnetised them?"
+   },
+   "moznosti": {
+    "cs": [
+     "Teplo sopečných výbuchů",
+     "Silná pole při úderech blesku",
+     "Tlak pohybujících se ledovců",
+     "Magnetické pole samotné Země"
+    ],
+    "en": [
+     "The heat of volcanic eruptions",
+     "Strong fields from lightning strikes",
+     "The pressure of moving glaciers",
+     "Earth's own magnetic field"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Magnetit (Fe₃O₄) je silně magnetický, ale přirozeně zmagnetovaná je jen malá část nalezišť, a to hlavně u povrchu. Magnetické pole Země (asi 0,5 gaussu) je na to podle vědců příliš slabé, proto se za hlavního viníka považují blesky.",
+    "en": "Magnetite (Fe₃O₄) is strongly magnetic, but only a small share of it is naturally magnetised, mostly near the surface. Earth's field (about 0.5 gauss) is too weak to do it, so lightning is considered the main culprit."
+   }
+  },
+  {
+   "id": "T406-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co byla „terrella“ („malá Země“), se kterou experimentoval William Gilbert pro svou knihu De Magnete (1600)?",
+    "en": "What was the 'terrella' ('little Earth') that William Gilbert experimented with for his book De Magnete (1600)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Koule vybroušená z přírodního magnetu",
+     "Měděná koule roztáčená klikou",
+     "Mapa vyrytá do železné desky",
+     "Skleněný glóbus naplněný vodou"
+    ],
+    "en": [
+     "A sphere carved from lodestone",
+     "A copper ball spun by a crank",
+     "A map engraved on an iron plate",
+     "A glass globe filled with water"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Gilbert pozoroval, že se malé střelky kolem koule chovají stejně jako kompasy na různých místech Země, a usoudil, že Země je sama obří magnet. Terrelly se pak používaly ke studiu magnetosféry ještě ve 20. století.",
+    "en": "Gilbert saw that small needles around the sphere behaved like compasses at different places on Earth, and concluded that Earth itself is a giant magnet. Terrellas were still used to study the magnetosphere in the 20th century."
+   }
+  },
+  {
+   "id": "T406-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co se stane s trvalým magnetem, když ho zahřejete nad jeho Curieovu teplotu?",
+    "en": "What happens to a permanent magnet heated above its Curie temperature?"
+   },
+   "moznosti": {
+    "cs": [
+     "Stane se z něj supravodič",
+     "Jeho magnetismus se znásobí",
+     "Ztratí trvalou magnetizaci",
+     "Prohodí se mu severní a jižní pól"
+    ],
+    "en": [
+     "It becomes a superconductor",
+     "Its magnetism multiplies",
+     "It loses its permanent magnetisation",
+     "Its north and south poles swap"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Tepelný pohyb rozhází uspořádané magnetické momenty atomů a materiál přestane být feromagnetický. U železa je to asi 770 °C a teplota nese jméno Pierra Curieho.",
+    "en": "Thermal agitation scrambles the aligned magnetic moments of the atoms, and the material stops being ferromagnetic. For iron this happens at about 770 °C (1,418 °F), and the temperature is named after Pierre Curie."
+   }
+  },
+  {
+   "id": "T406-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Z čeho se skládají neodymové magnety, nejsilnější běžně vyráběné trvalé magnety?",
+    "en": "What are neodymium magnets, the strongest permanent magnets in mass production, made of?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z neodymu, niklu a mědi",
+     "Z neodymu, železa a boru",
+     "Z neodymu, kobaltu a uhlíku",
+     "Z neodymu, hliníku a křemíku"
+    ],
+    "en": [
+     "Neodymium, nickel and copper",
+     "Neodymium, iron and boron",
+     "Neodymium, cobalt and carbon",
+     "Neodymium, aluminium and silicon"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Slitinu Nd₂Fe₁₄B vyvinuly v roce 1984 nezávisle na sobě General Motors a japonská firma Sumitomo Special Metals. Najdete ji v pevných discích, sluchátkách i motorech elektromobilů a větrných elektráren.",
+    "en": "The Nd₂Fe₁₄B alloy was developed independently in 1984 by General Motors and Japan's Sumitomo Special Metals. It is found in hard drives, headphones and the motors of electric cars and wind turbines."
+   }
+  },
+  {
+   "id": "T406-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Takzvaný severní magnetický pól Země leží v Arktidě. Jaký pól to ale z fyzikálního hlediska je?",
+    "en": "Earth's so-called north magnetic pole lies in the Arctic. In physical terms, though, what kind of pole is it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Není to pól, jen místo nejsilnějšího pole",
+     "Střídavě severní a jižní podle ročního období",
+     "Severní pól zemského magnetu",
+     "Jižní pól zemského magnetu"
+    ],
+    "en": [
+     "Not a pole, just the place where the field is strongest",
+     "North or south depending on the season",
+     "The north pole of Earth's magnet",
+     "The south pole of Earth's magnet"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Severní konec střelky kompasu je „severní pól“ malého magnetu a míří tam, protože ho přitahuje pól opačného druhu. Název „severní“ odkazuje jen na zeměpisnou polohu.",
+    "en": "The north end of a compass needle is the 'north pole' of a small magnet, and it points there because it is drawn to a pole of the opposite kind. The name 'north' refers only to geography."
+   }
+  },
+  {
+   "id": "T406-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Severní magnetický pól putuje. Kam se v posledních desetiletích (k roku 2026) přesouvá z kanadské Arktidy?",
+    "en": "The north magnetic pole wanders. In recent decades (as of 2026), where has it been moving from the Canadian Arctic?"
+   },
+   "moznosti": {
+    "cs": [
+     "K Aljašce",
+     "K Sibiři",
+     "K Grónsku",
+     "Ke Špicberkům"
+    ],
+    "en": [
+     "Towards Alaska",
+     "Towards Siberia",
+     "Towards Greenland",
+     "Towards Svalbard"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Od 70. let 20. století se jeho pohyb zrychlil z asi 9 až na více než 50 km ročně, takže vědci v roce 2019 museli mimořádně dřív aktualizovat Světový magnetický model používaný v navigaci. K Rusku se pól posouvá nejméně od svého objevení v roce 1831.",
+    "en": "Since the 1970s its motion has sped up from about 9 km (6 mi) to more than 50 km (31 mi) a year, so in 2019 scientists had to update the World Magnetic Model used in navigation ahead of schedule. The pole has been heading towards Russia at least since it was first located in 1831."
+   }
+  },
+  {
+   "id": "T406-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik gaussů odpovídá jedné teslě, jednotce magnetické indukce v soustavě SI?",
+    "en": "How many gauss equal one tesla, the SI unit of magnetic flux density?"
+   },
+   "moznosti": {
+    "cs": [
+     "10",
+     "100",
+     "1 000",
+     "10 000"
+    ],
+    "en": [
+     "10",
+     "100",
+     "1,000",
+     "10,000"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Gauss je starší jednotka soustavy CGS pojmenovaná po Carlu Friedrichu Gaussovi. Magnetické pole Země má na povrchu jen asi 0,25 až 0,60 gaussu.",
+    "en": "The gauss is an older CGS unit named after Carl Friedrich Gauss. Earth's magnetic field at the surface is only about 0.25 to 0.60 gauss."
+   }
+  },
+  {
+   "id": "T406-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co způsobuje hlasité bouchání a klepání během vyšetření magnetickou rezonancí?",
+    "en": "What causes the loud banging and knocking during an MRI scan?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kmitající gradientní cívky",
+     "Motory, které posouvají lehátko",
+     "Vzduch proudící ventilací tunelu",
+     "Rentgenka otáčející se kolem pacienta"
+    ],
+    "en": [
+     "Vibrating gradient coils",
+     "The motors moving the patient table",
+     "Air rushing through the bore's ventilation",
+     "An X-ray tube rotating around the patient"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Cívky, které vytvářejí proměnné pole pro určení polohy signálu, se při každém rychlém přepnutí proudu nepatrně pohnou a vinutí se rozkmitá. Hluk může dosáhnout až 120 dB(A), proto jsou chrániče sluchu nezbytné.",
+    "en": "The coils that create varying fields to locate the signal shift slightly each time their current is rapidly switched, making the windings vibrate. The noise can reach 120 dB(A), so hearing protection is essential."
+   }
+  },
+  {
+   "id": "T406-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč se z původního názvu „zobrazování nukleární magnetickou rezonancí“ v lékařství vypustilo slovo „nukleární“?",
+    "en": "Why was the word 'nuclear' dropped from the original medical name 'nuclear magnetic resonance imaging'?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kvůli sporu o ochrannou známku",
+     "Lidé si ho spojovali s radioaktivitou",
+     "Vyžádala si to mezinárodní norma pro jednotky",
+     "Delší zkratka se nevešla na přístroje"
+    ],
+    "en": [
+     "Because of a trademark dispute",
+     "People linked it with radioactivity",
+     "An international standard for units required it",
+     "The longer acronym did not fit on the machines"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Slovo „nukleární“ znamená jen to, že metoda měří odezvu atomových jader, hlavně vodíku ve vodě a tucích. Vypustilo se, aby vyšetření nebudilo zbytečné obavy.",
+    "en": "'Nuclear' only means that the method measures the response of atomic nuclei, mainly hydrogen in water and fat. It was dropped so the scan would not cause needless fear."
+   }
+  },
+  {
+   "id": "T406-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Studie v časopise Frontiers in Zoology (2013) sledovala 70 psů dva roky. Při čem se psi za klidného magnetického pole přednostně natáčeli podél osy sever–jih?",
+    "en": "A study in Frontiers in Zoology (2013) followed 70 dogs for two years. While doing what did the dogs prefer to align along the north–south axis when the magnetic field was calm?"
+   },
+   "moznosti": {
+    "cs": [
+     "Při vyměšování",
+     "Při pití",
+     "Při jídle",
+     "Při spánku"
+    ],
+    "en": [
+     "Relieving themselves",
+     "Drinking",
+     "Eating",
+     "Sleeping"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vědci zaznamenali téměř 1 900 „velkých potřeb“ a více než 5 500 „malých“ a vliv mizel, když se pole měnilo. Práce, kterou vedli vědci z České zemědělské univerzity v Praze, získala v roce 2014 Ig Nobelovu cenu za biologii.",
+    "en": "The researchers logged almost 1,900 defecations and over 5,500 urinations, and the effect vanished when the field was fluctuating. The work, led by researchers from the Czech University of Life Sciences Prague, earned the 2014 Ig Nobel Prize in Biology."
+   }
+  },
+  {
+   "id": "T406-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čínský učenec Šen Kua (Shen Kuo) popsal kolem roku 1088 zmagnetizovanou jehlu kompasu. Čeho si na ní jako jeden z prvních všiml?",
+    "en": "Around 1088, the Chinese scholar Shen Kuo described a magnetised compass needle. What was he among the first to notice about it?"
+   },
+   "moznosti": {
+    "cs": [
+     "V noci míří k Polárce, ve dne ke Slunci",
+     "Na železných lodích přestává fungovat",
+     "Kmitá rychleji v zimě než v létě",
+     "Odchyluje se mírně od jihu k východu"
+    ],
+    "en": [
+     "It points to the Pole Star at night and to the Sun by day",
+     "It stops working on iron ships",
+     "It swings faster in winter than in summer",
+     "It deviates slightly east of due south"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Šen Kua tak popsal magnetickou deklinaci, tedy rozdíl mezi zeměpisným a magnetickým směrem, ve spisu Meng-si pi-tchan (Dream Pool Essays). V Evropě se deklinace začala soustavně měřit až o staletí později.",
+    "en": "Shen Kuo thus described magnetic declination, the difference between geographic and magnetic direction, in his Dream Pool Essays. In Europe, declination was systematically measured only centuries later."
+   }
+  },
+  {
+   "id": "T406-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V roce 1821 Michael Faraday přiměl drát, aby nepřetržitě obíhal kolem magnetu, a sestrojil tak zařízení často označované za první elektromotor. Do čeho byl dolní konec drátu ponořen?",
+    "en": "In 1821 Michael Faraday made a wire circle continuously around a magnet, building what is often called the first electric motor. What was the lower end of the wire dipped in?"
+   },
+   "moznosti": {
+    "cs": [
+     "Do misky se rtutí",
+     "Do misky s roztaveným voskem",
+     "Do misky s octem",
+     "Do misky se slanou vodou"
+    ],
+    "en": [
+     "A bowl of mercury",
+     "A bowl of molten wax",
+     "A bowl of vinegar",
+     "A bowl of salt water"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Rtuť je tekutý kov, takže vedla proud a zároveň nechala drát volně se pohybovat. Faraday tím předvedl „elektromagnetickou rotaci“ deset let před svým objevem indukce.",
+    "en": "Mercury is a liquid metal, so it carried the current while letting the wire move freely. Faraday demonstrated this 'electromagnetic rotation' ten years before he discovered induction."
+   }
+  },
+  {
+   "id": "T406-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Hans Christian Ørsted, objevitel souvislosti elektřiny a magnetismu, v roce 1825 jako první připravil (byť nečistý) vzorek kterého kovu?",
+    "en": "Hans Christian Ørsted, who discovered the link between electricity and magnetism, was in 1825 the first to produce a (still impure) sample of which metal?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sodíku",
+     "Titanu",
+     "Hliníku",
+     "Zinku"
+    ],
+    "en": [
+     "Sodium",
+     "Titanium",
+     "Aluminium",
+     "Zinc"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ørsted redukoval bezvodý chlorid hlinitý draslíkem a získal hrudku kovu, která barvou a leskem připomínala cín. Objevu se dál nevěnoval, a zásluhy proto dlouho připisovali Friedrichu Wöhlerovi, který metodu v roce 1827 vylepšil.",
+    "en": "Ørsted reduced anhydrous aluminium chloride with potassium and obtained a lump of metal resembling tin in colour and lustre. He never returned to it, so credit long went to Friedrich Wöhler, who refined the method in 1827."
+   }
+  },
+  {
+   "id": "T406-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Horniny mořského dna tvoří po obou stranách středooceánských hřbetů zrcadlově souměrné pruhy se střídavou magnetickou polaritou. Co z toho v roce 1963 vyvodili Frederick Vine a Drummond Matthews?",
+    "en": "Seafloor rocks on both sides of mid-ocean ridges form mirror-image stripes of alternating magnetic polarity. What did Frederick Vine and Drummond Matthews conclude from this in 1963?"
+   },
+   "moznosti": {
+    "cs": [
+     "Že horniny zmagnetovaly slapy způsobené Měsícem",
+     "Že pruhy vytvořily dopady meteoritů",
+     "Že magnetický písek ukládají mořské proudy",
+     "Že se na hřbetech tvoří nové dno a rozpíná se do stran"
+    ],
+    "en": [
+     "Lunar tides magnetised the rocks",
+     "Meteorite impacts created the stripes",
+     "Ocean currents laid down magnetic sand",
+     "Seafloor forms at ridges and spreads"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Láva tuhnoucí na hřbetu „zamrazí“ směr tehdejšího pole a dno pak odplouvá do stran jako pás, na němž se zapisují obraty pole. Byl to jeden z klíčových důkazů pro teorii deskové tektoniky.",
+    "en": "Lava solidifying at the ridge 'freezes in' the direction of the field at the time, and the floor then moves away like a conveyor belt recording each field reversal. This became one of the key pieces of evidence for plate tectonics."
+   }
+  },
+  {
+   "id": "T406-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Zhruba před kolika lety došlo k poslednímu úplnému přepólování magnetického pole Země (Brunhesův–Matuyamův obrat)?",
+    "en": "Roughly how long ago did Earth's magnetic field last fully reverse (the Brunhes–Matuyama reversal)?"
+   },
+   "moznosti": {
+    "cs": [
+     "7 800",
+     "78 000",
+     "780 000",
+     "7,8 milionu"
+    ],
+    "en": [
+     "7,800 years",
+     "78,000 years",
+     "780,000 years",
+     "7.8 million years"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Přesněji se uvádí asi 781 000 let; před obratem by severní konec střelky kompasu ukazoval k jihu. Obrat nese jména francouzského geofyzika Bernarda Brunhese a japonského geofyzika Motonoriho Matuyamy.",
+    "en": "The usual estimate is about 781,000 years; before it, the north end of a compass needle would have pointed south. The reversal is named after French geophysicist Bernard Brunhes and Japanese geophysicist Motonori Matuyama."
+   }
+  },
+  {
+   "id": "T406-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "První komerčně provozovaná magnetická dráha (maglev) na světě začala vozit cestující v roce 1984. Krátká kyvadlová trať spojovala letiště s nádražím. Ve kterém městě?",
+    "en": "The world's first commercially operated maglev began carrying passengers in 1984. The short shuttle line linked an airport with a railway station. In which city?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Chicagu",
+     "V Birminghamu",
+     "V Mnichově",
+     "V Ósace"
+    ],
+    "en": [
+     "Chicago",
+     "Birmingham",
+     "Munich",
+     "Osaka"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Vozy se vznášely asi 15 mm nad 600 m dlouhou tratí a cesta trvala asi 90 sekund. Zastaralá elektronika a nedostatek náhradních dílů vedly v roce 1995 k ukončení provozu a nahrazení autobusy.",
+    "en": "The cars floated about 15 mm (0.6 inches) above a 600 m (1,969 ft) track, and a trip took about 90 seconds. Obsolete electronics and a lack of spare parts ended service in 1995, and buses took over."
+   }
+  },
+  {
+   "id": "T406-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na co zaznamenával zvuk telegrafon dánského inženýra Valdemara Poulsena (1898), první přístroj pro magnetický záznam zvuku?",
+    "en": "What did Danish engineer Valdemar Poulsen's telegraphone (1898), the first device to record sound magnetically, record onto?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na papírový pásek s oxidem železa",
+     "Na ocelový drát",
+     "Na plastový pásek s oxidem železa",
+     "Na niklový drát"
+    ],
+    "en": [
+     "Iron-oxide-coated paper tape",
+     "Steel wire",
+     "Iron-oxide-coated plastic tape",
+     "Nickel wire"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Drát se posouval kolem elektromagnetu, který ho magnetizoval podle proudu z mikrofonu. Na světové výstavě v Paříži v roce 1900 jím Poulsen nahrál hlas císaře Františka Josefa I.; záznam je považován za nejstarší dochovaný magnetický zvukový záznam.",
+    "en": "The wire moved past an electromagnet that magnetised it in step with the current from a microphone. At the 1900 Paris Exposition Poulsen recorded the voice of Emperor Franz Joseph, believed to be the oldest surviving magnetic audio recording."
+   }
+  },
+  {
+   "id": "T406-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Inženýr IBM Forrest Parry počátkem 60. let nemohl pevně přichytit magnetický pásek na plastovou kartu. Co problém vyřešilo?",
+    "en": "In the early 1960s, IBM engineer Forrest Parry could not get a strip of magnetic tape to stick firmly to a plastic card. What solved the problem?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vteřinové lepidlo",
+     "Kuchyňská trouba",
+     "Žehlička jeho manželky",
+     "Fén jeho dcery"
+    ],
+    "en": [
+     "Superglue",
+     "A kitchen oven",
+     "His wife's clothes iron",
+     "His daughter's hair dryer"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Manželka Dorothea právě žehlila prádlo a navrhla pásek ke kartě přitavit žehličkou. Fungovalo to a vznikl magnetický proužek, původně pro identifikační karty pro CIA, později na platebních kartách.",
+    "en": "His wife Dorothea was ironing clothes and suggested melting the tape onto the card with the iron. It worked, creating the magnetic stripe, first for CIA identity cards and later for payment cards."
+   }
+  },
+  {
+   "id": "T406-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ferrofluid, kapalina, která u magnetu vytváří ostré bodliny, vymyslel v roce 1963 Steve Papell z NASA. K čemu měl původně sloužit?",
+    "en": "Ferrofluid, a liquid that forms sharp spikes near a magnet, was invented in 1963 by NASA's Steve Papell. What was it originally meant for?"
+   },
+   "moznosti": {
+    "cs": [
+     "K ovládání raketového paliva ve stavu beztíže",
+     "K zachycování mikrometeoritů",
+     "K ochraně astronautů před kosmickým zářením",
+     "Jako inkoust pro psaní ve vesmíru"
+    ],
+    "en": [
+     "Controlling rocket fuel in weightlessness",
+     "Capturing micrometeorites",
+     "Shielding astronauts from cosmic radiation",
+     "Ink for writing in space"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kapalné palivo s magnetickými nanočásticemi by se dalo magnetem přitáhnout k čerpadlu i bez gravitace. Od roku 1973 se ferrofluidy používají v reproduktorech, kde odvádějí teplo a tlumí kmity.",
+    "en": "Liquid fuel with magnetic nanoparticles could be pulled towards a pump by a magnet even without gravity. Since 1973 ferrofluids have been used in loudspeakers to carry away heat and damp vibrations."
+   }
+  },
+  {
+   "id": "T406-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Slovo „magnet“ pochází od starověkého kraje Magnésie, stejně jako název hořčíku (magnesium). Název kterého dalšího prvku má stejný původ?",
+    "en": "The word 'magnet' comes from the ancient region of Magnesia, as does the name of magnesium. Which other element's name shares this origin?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ytterbium",
+     "Stroncium",
+     "Mangan",
+     "Molybden"
+    ],
+    "en": [
+     "Ytterbium",
+     "Strontium",
+     "Manganese",
+     "Molybdenum"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hořčík je pojmenován podle minerálu „magnesia alba“ a mangan podle tmavé „magnesia nigra“, obojí podle řecké Magnésie v Thesálii. Stroncium a ytterbium jsou pojmenované podle míst ve Skotsku a ve Švédsku.",
+    "en": "Magnesium is named after the mineral 'magnesia alba' and manganese after the dark 'magnesia nigra', both from Magnesia in Thessaly, Greece. Strontium and ytterbium are named after places in Scotland and Sweden."
+   }
+  }
+ ]
+}

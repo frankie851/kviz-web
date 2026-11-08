@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T211",
+ "nazev": {
+  "cs": "Vitamíny a objevy výživy",
+  "en": "Vitamins and the Discovery of Nutrition"
+ },
+ "kategorie": {
+  "id": "lidske-telo",
+  "nazev": {
+   "cs": "Lidské tělo",
+   "en": "Human Body"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T211-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který prvek se v mnoha zemích přidává do kuchyňské soli, aby chránil před strumou (zvětšením štítné žlázy)?",
+    "en": "Which element is added to table salt in many countries to prevent goitre (an enlarged thyroid gland)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vápník",
+     "Železo",
+     "Jód",
+     "Zinek"
+    ],
+    "en": [
+     "Calcium",
+     "Iron",
+     "Iodine",
+     "Zinc"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jód je nezbytný pro tvorbu hormonů štítné žlázy, tyroxinu (T4) a trijodtyroninu (T3). Jodizovanou sůl jako první země zavedlo roku 1922 Švýcarsko, v USA se začala prodávat roku 1924.",
+    "en": "Iodine is essential for the thyroid hormones thyroxine (T4) and triiodothyronine (T3). Switzerland was the first country to introduce iodised salt, in 1922, and it went on sale in the US in 1924."
+   }
+  },
+  {
+   "id": "T211-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím se skotský lékař James Lind roku 1747 na palubě lodi HMS Salisbury zapsal do dějin medicíny?",
+    "en": "How did Scottish physician James Lind make medical history aboard HMS Salisbury in 1747?"
+   },
+   "moznosti": {
+    "cs": [
+     "Provedl jedno z prvních očkování",
+     "Provedl jednu z prvních transfuzí krve",
+     "Provedl jednu z prvních operací v narkóze",
+     "Provedl jeden z prvních klinických pokusů"
+    ],
+    "en": [
+     "He carried out one of the first vaccinations",
+     "He carried out one of the first blood transfusions",
+     "He performed one of the first operations under anaesthesia",
+     "He conducted one of the first clinical trials"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Lind rozdělil 12 námořníků nemocných kurdějemi do šesti dvojic; všichni měli stejnou stravu a každá dvojice navíc jiný prostředek, například cidr, ocet, mořskou vodu nebo citrusy. Díky srovnávacím skupinám se jeho pokus považuje za jeden z prvních kontrolovaných klinických pokusů v dějinách.",
+    "en": "Lind divided 12 sailors with scurvy into six pairs; all ate the same diet, and each pair also received a different remedy, such as cider, vinegar, seawater or citrus fruit. Because of its comparison groups, it is regarded as one of the first controlled clinical trials in history."
+   }
+  },
+  {
+   "id": "T211-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Díky čemu si lidské tělo dokáže samo vytvořit vitamin D?",
+    "en": "What enables the human body to make its own vitamin D?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hlubokému spánku",
+     "Slunečnímu světlu",
+     "Tělesnému pohybu",
+     "Pitné vodě"
+    ],
+    "en": [
+     "Deep sleep",
+     "Sunlight",
+     "Physical exercise",
+     "Drinking water"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ultrafialové záření UVB ze slunečního světla přemění v kůži prekurzor na cholekalciferol (vitamin D3). Přísně vzato proto vitamin D není vitamin, ale spíš hormon.",
+    "en": "The UVB component of sunlight converts a precursor in the skin into cholecalciferol (vitamin D3). Strictly speaking, vitamin D is therefore not a vitamin but rather a hormone."
+   }
+  },
+  {
+   "id": "T211-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proti které nemoci dávali rodiče v Evropě a USA dětem ještě v 50. letech 20. století lžičku rybího tuku?",
+    "en": "Against which disease did parents in Europe and the US still give children a spoonful of cod liver oil in the 1950s?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pelagře",
+     "Kurdějím",
+     "Beri-beri",
+     "Křivici"
+    ],
+    "en": [
+     "Pellagra",
+     "Scurvy",
+     "Beriberi",
+     "Rickets"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Rybí tuk z tresčích jater je bohatý na vitamin D, který chrání před křivicí (rachitidou, tj. měknutím a deformací kostí). Obsahuje i hodně vitaminu A.",
+    "en": "Cod liver oil is rich in vitamin D, which protects against rickets (softening and deformity of the bones). It also contains a lot of vitamin A."
+   }
+  },
+  {
+   "id": "T211-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Nedostatek kterého vitaminu způsobuje šeroslepost (noční slepotu), tedy špatné vidění za šera?",
+    "en": "A deficiency of which vitamin causes night blindness, i.e. poor vision in dim light?"
+   },
+   "moznosti": {
+    "cs": [
+     "A",
+     "K",
+     "B12",
+     "C"
+    ],
+    "en": [
+     "A",
+     "K",
+     "B12",
+     "C"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vitamin A (ve formě retinalu) je součástí rhodopsinu, světločivého barviva tyčinek v sítnici. Za výzkum chemie zraku, včetně role vitaminu A, získal George Wald roku 1967 spolu s dalšími dvěma vědci Nobelovu cenu za fyziologii nebo lékařství.",
+    "en": "Vitamin A (as retinal) is part of rhodopsin, the light-sensitive pigment of the retina's rods. George Wald shared the 1967 Nobel Prize in Physiology or Medicine with two other scientists for research on the chemistry of vision, including vitamin A's role."
+   }
+  },
+  {
+   "id": "T211-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Většina savců si tento vitamin vytváří sama v játrech. Člověk to nedokáže, a proto ho musí přijímat v potravě. O který vitamin jde?",
+    "en": "Most mammals make this vitamin themselves in their liver. Humans cannot, so they must get it from food. Which vitamin is it?"
+   },
+   "moznosti": {
+    "cs": [
+     "K",
+     "B12",
+     "E",
+     "C"
+    ],
+    "en": [
+     "K",
+     "B12",
+     "E",
+     "C"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Gen pro enzym, který vitamin C vyrábí (L-gulonolaktonoxidázu), je u člověka zmutovaný a nefunkční. Stejnou schopnost ztratilo i asi 96 % dnešních druhů ryb.",
+    "en": "In humans, the gene for the enzyme that makes vitamin C (L-gulonolactone oxidase) is mutated and non-functional. About 96% of today's fish species have lost the same ability."
+   }
+  },
+  {
+   "id": "T211-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které domácí zvířátko si neumí samo vytvořit vitamin C, a musí ho proto dostávat v potravě?",
+    "en": "Which pet cannot make its own vitamin C and must therefore get it from its food?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pes",
+     "Králík",
+     "Morče",
+     "Kočka"
+    ],
+    "en": [
+     "Dog",
+     "Rabbit",
+     "Guinea pig",
+     "Cat"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Norští lékaři Axel Holst a Theodor Frølich roku 1907 zkoumali na morčatech beri-beri a místo toho u nich nečekaně vyvolali kurděje. Morče se tak stalo zvířecím modelem pro výzkum kurdějí a vitaminu C.",
+    "en": "In 1907, Norwegian physicians Axel Holst and Theodor Frølich were studying beriberi in guinea pigs and unexpectedly induced scurvy instead. The guinea pig thus became an animal model for research on scurvy and vitamin C."
+   }
+  },
+  {
+   "id": "T211-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaký obrázek nahradil v USA v roce 2011 potravinovou pyramidu jako oficiální výživové vodítko?",
+    "en": "Which image replaced the food pyramid as the official US nutrition guide in 2011?"
+   },
+   "moznosti": {
+    "cs": [
+     "Žebřík",
+     "Kolo",
+     "Semafor",
+     "Talíř"
+    ],
+    "en": [
+     "A ladder",
+     "A wheel",
+     "A traffic light",
+     "A plate"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Talíř MyPlate nahradil 2. června 2011 dosavadní MyPyramid. Je rozdělený na ovoce, zeleninu, obiloviny a bílkoviny a vedle něj stojí menší kruh pro mléčné výrobky. V lednu 2026 ho vystřídala nová, obrácená pyramida.",
+    "en": "MyPlate replaced MyPyramid on 2 June 2011. It is divided into fruits, vegetables, grains and protein, with a smaller circle beside it for dairy. In January 2026 it was succeeded by a new, inverted pyramid."
+   }
+  },
+  {
+   "id": "T211-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Za druhé světové války britské ministerstvo informací šířilo historku, že piloti RAF vidí v noci tak dobře díky jedné zelenině. Které?",
+    "en": "During World War II, the British Ministry of Information spread a story that RAF pilots could see so well at night thanks to one vegetable. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mrkvi",
+     "Špenátu",
+     "Červené řepě",
+     "Dýni"
+    ],
+    "en": [
+     "Carrots",
+     "Spinach",
+     "Beetroot",
+     "Pumpkin"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Historka měla zakrýt, že britské noční stíhačky používají palubní radar. Tvrzení, že mrkev výrazně zlepšuje vidění v noci, nebylo nikdy prokázáno.",
+    "en": "The story was meant to hide the fact that British night fighters were using airborne radar. The claim that carrots greatly improve night vision has never been proven."
+   }
+  },
+  {
+   "id": "T211-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Koho Američané ve slangu nazývají „limey“?",
+    "en": "Whom do Americans call a \"limey\" in slang?"
+   },
+   "moznosti": {
+    "cs": [
+     "Brity",
+     "Kanaďany",
+     "Australany",
+     "Iry"
+    ],
+    "en": [
+     "The British",
+     "Canadians",
+     "Australians",
+     "The Irish"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Přezdívka vznikla v 19. století ze slova „lime-juicer“: britské Královské námořnictvo přidávalo do grogu námořníků citronovou a později limetkovou šťávu proti kurdějím.",
+    "en": "The nickname arose in the 19th century from \"lime-juicer\": the Royal Navy added lemon and later lime juice to sailors' grog to prevent scurvy."
+   }
+  },
+  {
+   "id": "T211-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo v roce 1912 zavedl slovo „vitamine“, z něhož vzniklo dnešní „vitamin“?",
+    "en": "Who coined the word \"vitamine\" in 1912, from which today's \"vitamin\" comes?"
+   },
+   "moznosti": {
+    "cs": [
+     "Frederick Hopkins",
+     "Christiaan Eijkman",
+     "Louis Pasteur",
+     "Kazimierz Funk"
+    ],
+    "en": [
+     "Frederick Hopkins",
+     "Christiaan Eijkman",
+     "Louis Pasteur",
+     "Casimir Funk"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "V Polsku narozený biochemik tehdy pracoval v Listerově institutu v Londýně. Slovo navrhl pro dosud neznámé látky v potravě, jejichž nedostatek vyvolává nemoci.",
+    "en": "The Polish-born biochemist was then working at the Lister Institute in London. He proposed the word for the still-unknown substances in food whose lack causes disease."
+   }
+  },
+  {
+   "id": "T211-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Nedostatek kterého vitaminu způsobuje nemoc beri-beri?",
+    "en": "A deficiency of which vitamin causes beriberi?"
+   },
+   "moznosti": {
+    "cs": [
+     "B1",
+     "B2",
+     "B5",
+     "B6"
+    ],
+    "en": [
+     "B1",
+     "B2",
+     "B5",
+     "B6"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Beri-beri je těžká forma nedostatku thiaminu (vitaminu B1). „Vlhká“ forma postihuje srdce a krevní oběh, „suchá“ forma nervovou soustavu.",
+    "en": "Beriberi is a severe form of thiamine (vitamin B1) deficiency. “Wet” beriberi affects the heart and circulation, “dry” beriberi the nervous system."
+   }
+  },
+  {
+   "id": "T211-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Albert Szent-Györgyi na univerzitě v maďarském Szegedu objevil, že bohatým zdrojem vitaminu C je jedna plodina. Která?",
+    "en": "At the University of Szeged in Hungary, Albert Szent-Györgyi discovered that a certain crop was a rich source of vitamin C. Which one?"
+   },
+   "moznosti": {
+    "cs": [
+     "Cibule",
+     "Paprika",
+     "Kukuřice",
+     "Červená řepa"
+    ],
+    "en": [
+     "Onion",
+     "Paprika (pepper)",
+     "Maize",
+     "Beetroot"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Szent-Györgyi předtím izoloval tutéž látku (dnes známou jako kyselina askorbová) z nadledvin. Roku 1937 dostal Nobelovu cenu za fyziologii nebo lékařství, mimo jiné i za objevy spojené s vitaminem C.",
+    "en": "Szent-Györgyi had earlier isolated the same substance (now known as ascorbic acid) from adrenal glands. In 1937 he received the Nobel Prize in Physiology or Medicine, partly for his work connected with vitamin C."
+   }
+  },
+  {
+   "id": "T211-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč dostal vitamin K právě písmeno K?",
+    "en": "Why was vitamin K given the letter K?"
+   },
+   "moznosti": {
+    "cs": [
+     "Podle slova Koagulation (srážení krve)",
+     "Podle chemické značky draslíku",
+     "Podle příjmení objevitele",
+     "Byl jedenáctým objeveným vitaminem"
+    ],
+    "en": [
+     "After the word Koagulation (blood clotting)",
+     "After the chemical symbol for potassium",
+     "After its discoverer's surname",
+     "It was the eleventh vitamin discovered"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Dán Henrik Dam si roku 1929 všiml, že kuřata na stravě bez cholesterolu krvácejí. Objev byl zveřejněn v německém časopise jako Koagulationsvitamin; Dam a Edward Doisy dostali Nobelovu cenu za fyziologii nebo lékařství za rok 1943.",
+    "en": "In 1929 the Dane Henrik Dam noticed that chicks on a cholesterol-free diet suffered bleeding. The discovery was reported in a German journal as Koagulationsvitamin; Dam and Edward Doisy won the 1943 Nobel Prize in Physiology or Medicine."
+   }
+  },
+  {
+   "id": "T211-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Elmer McCollum roku 1922 zjistil, že rybí tuk vyléčí nemocné pokusné psy i poté, co v něm zničil vitamin A. Proč novou látku nazval vitamin D?",
+    "en": "In 1922 Elmer McCollum found that cod liver oil still cured sick test dogs even after he had destroyed its vitamin A. Why did he call the new substance vitamin D?"
+   },
+   "moznosti": {
+    "cs": [
+     "Podle Dánska, kde ji objevili",
+     "Podle německého Dorsch (treska)",
+     "Byl to čtvrtý pojmenovaný vitamin",
+     "Podle latinského dies (den)"
+    ],
+    "en": [
+     "After Denmark, where it was discovered",
+     "After the German Dorsch (cod)",
+     "It was the fourth vitamin to be named",
+     "After the Latin dies (day)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vitaminy dostávaly písmena postupně podle pořadí, v jakém byly pojmenovány, a A, B a C už byly obsazené. Upravený tresčí tuk bez vitaminu A přesto vyléčil nemocná zvířata, takže šlo o jinou látku.",
+    "en": "Vitamins were given letters in the order they were named, and A, B and C were already taken. The modified cod liver oil without vitamin A still cured the sick animals, so a different substance had to be responsible."
+   }
+  },
+  {
+   "id": "T211-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "V USA onemocněly v letech 1906–1940 pelagrou přes 3 miliony lidí, hlavně na chudém jihu. Na čem stála strava nejpostiženějších rodin?",
+    "en": "In the US, more than 3 million people developed pellagra between 1906 and 1940, mostly in the poor South. What was the diet of the hardest-hit families based on?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na bramborách",
+     "Na kukuřici",
+     "Na rýži",
+     "Na ovsu"
+    ],
+    "en": [
+     "Potatoes",
+     "Maize (corn)",
+     "Rice",
+     "Oats"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pelagru způsobuje nedostatek niacinu (vitaminu B3) a projevuje se „čtyřmi D“: dermatitidou, průjmem (diarrhoea), demencí a smrtí. Epidemie skončila, když se niacin začal přidávat do potravin.",
+    "en": "Pellagra is caused by a lack of niacin (vitamin B3) and is described by the \"four Ds\": dermatitis, diarrhoea, dementia and death. The epidemic ended after niacin fortification of food."
+   }
+  },
+  {
+   "id": "T211-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Wilbur Atwater položil základy počítání energie v potravinách. Kolik kilokalorií má podle jeho obecných faktorů jeden gram tuku?",
+    "en": "Wilbur Atwater laid the foundations of measuring food energy. According to his general factors, how many kilocalories does one gram of fat contain?"
+   },
+   "moznosti": {
+    "cs": [
+     "4",
+     "7",
+     "9",
+     "12"
+    ],
+    "en": [
+     "4",
+     "7",
+     "9",
+     "12"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Podle Atwaterova systému mají sacharidy a bílkoviny 4 kcal na gram a tuky 9 kcal. Systém vznikl z pokusů na Wesleyanově univerzitě v Connecticutu na přelomu 19. a 20. století.",
+    "en": "In the Atwater system, carbohydrates and proteins provide 4 kcal per gram and fats 9 kcal. It grew out of experiments at Wesleyan University in Connecticut around 1900."
+   }
+  },
+  {
+   "id": "T211-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Atom kterého kovu je uprostřed molekuly vitaminu B12?",
+    "en": "An atom of which metal sits at the centre of the vitamin B12 molecule?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zinku",
+     "Hořčíku",
+     "Kobaltu",
+     "Železa"
+    ],
+    "en": [
+     "Zinc",
+     "Magnesium",
+     "Cobalt",
+     "Iron"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Proto se vitaminu B12 říká kobalamin. Jeho složitou strukturu rozluštila Dorothy Hodgkinová, která roku 1964 dostala Nobelovu cenu za chemii.",
+    "en": "That is why vitamin B12 is called cobalamin. Its complex structure was worked out by Dorothy Hodgkin, who won the 1964 Nobel Prize in Chemistry."
+   }
+  },
+  {
+   "id": "T211-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Játra ledního medvěda jsou pro člověka jedovatá. Obrovské množství kterého vitaminu za to může?",
+    "en": "Polar bear liver is toxic to humans. An enormous amount of which vitamin is responsible?"
+   },
+   "moznosti": {
+    "cs": [
+     "B12",
+     "A",
+     "C",
+     "K"
+    ],
+    "en": [
+     "B12",
+     "A",
+     "C",
+     "K"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Existují historické zprávy o arktických cestovatelích, kteří se otrávili vitaminem A z jater ledního medvěda nebo tuleně vousatého. Játra ledního medvěda mohou obsahovat přes 2 000 mikrogramů vitaminu A v jednom gramu.",
+    "en": "There are historical reports of Arctic explorers poisoned by vitamin A from polar bear or bearded seal liver. Polar bear liver can contain more than 2,000 micrograms of vitamin A per gram."
+   }
+  },
+  {
+   "id": "T211-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které čtyři vitaminy jsou rozpustné v tucích?",
+    "en": "Which four vitamins are fat-soluble?"
+   },
+   "moznosti": {
+    "cs": [
+     "B1, D, E, B12",
+     "C, E, K, B6",
+     "A, C, D, K",
+     "A, D, E, K"
+    ],
+    "en": [
+     "B1, D, E, B12",
+     "C, E, K, B6",
+     "A, C, D, K",
+     "A, D, E, K"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vitaminy A, D, E a K se rozpouštějí v tucích. Zbylých devět – osm vitaminů skupiny B a vitamin C – je rozpustných ve vodě.",
+    "en": "Vitamins A, D, E and K dissolve in fats. The other nine – the eight B vitamins and vitamin C – are water-soluble."
+   }
+  },
+  {
+   "id": "T211-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Slovo „vitamine“ přišlo v angličtině roku 1920 o koncové „e“. Proč?",
+    "en": "In 1920 the English word \"vitamine\" lost its final \"e\". Why?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ukázalo se, že ne všechny vitaminy jsou aminy",
+     "Mělo se odlišit od francouzského slova",
+     "Původní tvar byl chráněn jako ochranná známka",
+     "Pravopisná reforma odstranila němá e"
+    ],
+    "en": [
+     "It turned out that not all vitamins are amines",
+     "It was to be distinguished from a French word",
+     "The original form was protected as a trademark",
+     "A spelling reform removed silent e's"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Zkrácení navrhl britský biochemik Jack Drummond, když se ukázalo, že například vitamin A žádnou aminovou skupinu nemá. Odkaz na „amin“ tím zeslábl.",
+    "en": "The change was proposed by British biochemist Jack Drummond after it emerged that vitamin A, for example, has no amine group. Dropping the \"e\" played down the \"amine\" reference."
+   }
+  },
+  {
+   "id": "T211-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Christiaan Eijkman zkoumal v Batávii (dnešní Jakartě) beri-beri. Slepice v jeho laboratoři onemocněly podobnou nemocí a pak se samy uzdravily. Proč?",
+    "en": "Christiaan Eijkman was studying beriberi in Batavia (today's Jakarta). The chickens in his lab fell ill with a similar disease and then recovered on their own. Why?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nový kuchař jim přestal dávat zbytky leštěné rýže",
+     "Nákaza mezi nimi sama vyhasla",
+     "Přestěhovaly se do slunného výběhu",
+     "Dostaly sérum od uzdravených slepic"
+    ],
+    "en": [
+     "A new cook stopped giving them leftover polished rice",
+     "The infection among them died out by itself",
+     "They were moved to a sunny run",
+     "They received serum from recovered chickens"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Slepice dostávaly zbytky leštěné rýže z vojenských přídělů; nový kuchař odmítl krmit „civilní“ zvířata vojenskou rýží a po změně krmiva se slepice uzdravily. Eijkman z toho vyvodil, že leštěné rýži chybí ochranná látka, a roku 1929 za to dostal spolu s Frederickem Hopkinsem Nobelovu cenu za fyziologii nebo lékařství.",
+    "en": "The chickens had been fed leftover polished rice from military rations; a new cook refused to give military rice to 'civilian' animals, and once their feed changed they recovered. Eijkman concluded that polished rice lacked a protective factor and shared the 1929 Nobel Prize in Physiology or Medicine with Frederick Hopkins."
+   }
+  },
+  {
+   "id": "T211-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jedno námořnictvo v 19. století nahradilo v přídělech citronovou šťávu limetkovou, která však chránila před kurdějemi mnohem hůř. Proč?",
+    "en": "In the 19th century, one navy replaced lemon juice in its rations with lime juice, which protected against scurvy far less well. Why?"
+   },
+   "moznosti": {
+    "cs": [
+     "Šťáva se kvůli úsporám ředila mořskou vodou",
+     "Námořníci ji pro hořkou chuť často vylévali",
+     "Limetky mají méně vitaminu C a zpracování ho ničilo",
+     "Limetky se sklízely nezralé a téměř bez šťávy"
+    ],
+    "en": [
+     "To save money the juice was diluted with seawater",
+     "Sailors often poured it away because of its bitter taste",
+     "Limes have less vitamin C, and processing destroyed it",
+     "The limes were picked unripe and almost juiceless"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Západoindické limetky z karibských kolonií obsahovaly výrazně méně vitaminu C než středomořské citrony a šťáva byla navíc vystavena světlu a vzduchu a vedena měděným potrubím. Pokus na zvířatech z roku 1918 ukázal, že námořní limetková šťáva proti kurdějím téměř nepůsobí.",
+    "en": "West Indian limes from Caribbean colonies had much less vitamin C than Mediterranean lemons, and the juice was also exposed to light and air and piped through copper tubing. A 1918 animal experiment found the navy's lime juice had virtually no antiscorbutic power."
+   }
+  },
+  {
+   "id": "T211-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Lékař Takaki Kanehiro v 80. letech 19. století výrazně omezil beri-beri v japonském loďstvu změnou stravy. Které dnes oblíbené jídlo se díky tomu rozšířilo v japonském námořnictvu?",
+    "en": "In the 1880s, physician Takaki Kanehiro sharply reduced beriberi in the Japanese navy by changing its diet. Which now-popular dish became widespread in the Japanese navy as a result?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tempura",
+     "Sushi",
+     "Kari (karē)",
+     "Ramen"
+    ],
+    "en": [
+     "Tempura",
+     "Sushi",
+     "Curry (karē)",
+     "Ramen"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Takaki přidal k rýži ječmen, maso, mléko, chléb a zeleninu; na zkušební plavbě roku 1884 onemocnělo jen 16 z 333 námořníků. Japonskému kari se dodnes říká „námořní kari“ a Takakimu přezdívali „ječný baron“.",
+    "en": "Takaki added barley, meat, milk, bread and vegetables to the rice; on the 1884 test voyage only 16 of 333 seamen fell ill. Japanese curry is still nicknamed \"navy curry\", and Takaki was dubbed the \"Barley Baron\"."
+   }
+  },
+  {
+   "id": "T211-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Joseph Goldberger chtěl roku 1915 dokázat, že pelagru způsobuje jednostranná strava. Co slíbil guvernér Mississippi vězňům, kteří se přihlásili k jeho pokusu?",
+    "en": "In 1915 Joseph Goldberger wanted to prove that pellagra was caused by a poor diet. What did the governor of Mississippi promise the prisoners who volunteered for his experiment?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kus půdy po propuštění",
+     "Milost",
+     "Přeřazení na lehčí práci",
+     "Peněžní odměnu"
+    ],
+    "en": [
+     "A plot of land on release",
+     "A pardon",
+     "A transfer to lighter work",
+     "A cash reward"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Dobrovolníci z věznice Rankin dostávali měsíce jen jednostrannou stravu bez masa, mléka a zeleniny a část z nich pelagrou onemocněla. Goldberger si později dokonce nechal vpíchnout krev nemocných, aby vyvrátil, že jde o nákazu.",
+    "en": "The Rankin prison farm volunteers lived for months on a monotonous diet without meat, milk or vegetables, and several developed pellagra. Goldberger later even had himself injected with patients' blood to counter claims that the disease was infectious."
+   }
+  },
+  {
+   "id": "T211-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Lékařka Lucy Willsová v roce 1928 v Bombaji zkoumala chudokrevnost těhotných dělnic z textilek. Čím ji dokázala předcházet i léčit?",
+    "en": "In 1928 in Bombay, physician Lucy Wills studied anaemia in pregnant textile workers. What did she use to prevent and cure it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rybím tukem",
+     "Kvasnicovým extraktem Marmite",
+     "Arašídovým máslem",
+     "Pomerančovou marmeládou"
+    ],
+    "en": [
+     "Cod liver oil",
+     "Marmite yeast extract",
+     "Peanut butter",
+     "Orange marmalade"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Marmite byl nejlevnějším dostupným kvasnicovým extraktem. Neznámé látce se říkalo „Willsův faktor“ a ve 40. letech se ukázalo, že jde o folát (vitamin B9); kyselina listová je jeho syntetická forma.",
+    "en": "Marmite was simply the cheapest available yeast extract. The unknown substance was called the \"Wills factor\" and in the 1940s was shown to be folate (vitamin B9); folic acid is its synthetic form."
+   }
+  },
+  {
+   "id": "T211-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "George Minot, William Murphy a George Whipple dostali Nobelovu cenu za rok 1934 za účinnou léčbu zhoubné chudokrevnosti (perniciózní anémie). Co pacientům pomáhalo?",
+    "en": "George Minot, William Murphy and George Whipple received the 1934 Nobel Prize for an effective treatment of pernicious anaemia. What helped the patients?"
+   },
+   "moznosti": {
+    "cs": [
+     "Játra",
+     "Citrusy",
+     "Rybí tuk",
+     "Ječmen"
+    ],
+    "en": [
+     "Liver",
+     "Citrus fruit",
+     "Cod liver oil",
+     "Barley"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Whipple zjistil, že syrová játra nejrychleji léčí chudokrevnost psů po ztrátě krve. Látka v játrech byla později izolována a pojmenována vitamin B12.",
+    "en": "Whipple found that raw liver most rapidly cured anaemia from blood loss in dogs. The active substance in liver was later isolated and named vitamin B12."
+   }
+  },
+  {
+   "id": "T211-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Biotin se dřív označoval jako vitamin H. Pod jakým označením ho známe dnes?",
+    "en": "Biotin used to be called vitamin H. What is its designation today?"
+   },
+   "moznosti": {
+    "cs": [
+     "B4",
+     "B5",
+     "B6",
+     "B7"
+    ],
+    "en": [
+     "B4",
+     "B5",
+     "B6",
+     "B7"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Písmena F až J zmizela, protože se příslušné látky ukázaly jako součást skupiny B, nebo vůbec nešlo o vitaminy. Podobně se z vitaminu G stal riboflavin B2 a z PP niacin B3.",
+    "en": "The letters F to J disappeared because the substances turned out to belong to the B group or were not vitamins at all. Likewise vitamin G became riboflavin (B2) and PP became niacin (B3)."
+   }
+  },
+  {
+   "id": "T211-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Francouzský mořeplavec Jacques Cartier roku 1536 v Kanadě léčil své muže nemocné kurdějemi podle rady domorodých obyvatel. Co jim pomohlo?",
+    "en": "In 1536 in Canada, French explorer Jacques Cartier treated his scurvy-stricken men on the advice of the local people. What helped them?"
+   },
+   "moznosti": {
+    "cs": [
+     "Medvědí sádlo",
+     "Kouření tabáku",
+     "Odvar z jehličí stromu",
+     "Javorový sirup"
+    ],
+    "en": [
+     "Bear fat",
+     "Smoking tobacco",
+     "A brew of tree needles",
+     "Maple syrup"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Cartierovi muži vařili jehličí stromu, kterému domorodci říkali „aneda“. Později se zjistilo, že takový odvar obsahuje asi 50 mg vitaminu C na 100 gramů.",
+    "en": "Cartier's men boiled the needles of a tree the locals called “aneda”. This brew was later found to contain about 50 mg of vitamin C per 100 g (3.5 oz)."
+   }
+  },
+  {
+   "id": "T211-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve které zemi byla v roce 1974 představena veřejnosti první potravinová pyramida?",
+    "en": "In which country was the first food pyramid introduced to the public in 1974?"
+   },
+   "moznosti": {
+    "cs": [
+     "Japonsko",
+     "USA",
+     "Švédsko",
+     "Německo"
+    ],
+    "en": [
+     "Japan",
+     "USA",
+     "Sweden",
+     "Germany"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pyramidu nakreslila Anna-Britt Agnsäterová ze zkušební kuchyně švédského družstva KF a otiskl ji časopis Vi. Americká pyramida USDA přišla až roku 1992.",
+    "en": "The pyramid was drawn by Anna-Britt Agnsäter of the Swedish cooperative KF's test kitchen and published in KF's Vi magazine. The USDA pyramid followed only in 1992."
+   }
+  }
+ ]
+}

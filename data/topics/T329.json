@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T329",
+ "nazev": {
+  "cs": "Zlatý věk islámu: věda, čísla a Tisíc a jedna noc",
+  "en": "The Islamic Golden Age: Science, Numbers and the Thousand and One Nights"
+ },
+ "kategorie": {
+  "id": "historie",
+  "nazev": {
+   "cs": "Historie",
+   "en": "History"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T329-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Al-Chorezmí (al-Khwarizmi) i Avicenna psali svá vědecká díla převážně arabsky. Jakého byli původu?",
+    "en": "Al-Khwarizmi and Avicenna wrote their scholarly works mainly in Arabic. What was their origin?"
+   },
+   "moznosti": {
+    "cs": [
+     "Perského",
+     "Arabského",
+     "Řeckého",
+     "Berberského"
+    ],
+    "en": [
+     "Persian",
+     "Arab",
+     "Greek",
+     "Berber"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Al-Chorezmí pocházel z Chorezmu, oblasti Velkého Íránu, a Avicenna se narodil do perské rodiny u Buchary. Arabština se v Abbásovské říši stala hlavním jazykem vzdělanosti, a proto v ní psali i učenci jiného původu.",
+    "en": "Al-Khwarizmi came from Khwarazm, a region of Greater Iran, and Avicenna was born into a Persian family near Bukhara. Arabic had become the main scholarly language of the Abbasid empire, so scholars of other origins wrote in it too."
+   }
+  },
+  {
+   "id": "T329-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "K čemu sloužil astroláb, který astronomové islámského světa výrazně zdokonalili?",
+    "en": "What was the astrolabe, greatly refined by astronomers of the Islamic world, used for?"
+   },
+   "moznosti": {
+    "cs": [
+     "K měření hloubky moře pod lodí",
+     "K destilaci lihu a vonných olejů",
+     "K vážení zlata a drahých kamenů",
+     "K měření výšky hvězd a Slunce nad obzorem"
+    ],
+    "en": [
+     "Measuring the depth of the sea beneath a ship",
+     "Distilling spirits and fragrant oils",
+     "Weighing gold and precious stones",
+     "Measuring the altitude of stars and the Sun above the horizon"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Astroláb měří výšku nebeských těles nad obzorem ve dne i v noci a z ní lze určit čas nebo zeměpisnou šířku. V islámském světě pomáhal stanovit časy modliteb a směr k Mekce; arabsky se mu říkalo i „lapač hvězd“.",
+    "en": "The astrolabe measures the altitude of celestial bodies above the horizon by day or night, from which time or latitude can be worked out. In the Islamic world it helped set prayer times and the direction of Mecca; Arabic texts also called it the 'star-taker'."
+   }
+  },
+  {
+   "id": "T329-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývala proslulá knihovna a středisko učenců v abbásovském Bagdádu, kde působili překladatelé i vědci?",
+    "en": "What was the name of the famous library and centre of scholars in Abbasid Baghdad, home to translators and scientists?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zahrada hvězd",
+     "Palác světla",
+     "Dům moudrosti",
+     "Brána poznání"
+    ],
+    "en": [
+     "The Garden of Stars",
+     "The Palace of Light",
+     "The House of Wisdom",
+     "The Gate of Knowledge"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Dům moudrosti vznikl nejspíš koncem 8. století jako knihovna chalífy Hárúna ar-Rašída (podle jiné verze ze sbírky al-Mansúra) a za chalífy al-Ma'múna se z něj stala veřejná knihovna a akademie. Zanikl roku 1258 při mongolském obléhání Bagdádu.",
+    "en": "The House of Wisdom probably began in the late 8th century as the library of Caliph Harun al-Rashid (another version traces it to al-Mansur's collection), and under Caliph al-Ma'mun it became a public academy and library. It was destroyed in 1258 during the Mongol siege of Baghdad."
+   }
+  },
+  {
+   "id": "T329-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který čínský vynález se ve 8. století rozšířil do islámského světa, kde se vyráběl například v Samarkandu a Bagdádu, a odtud se dostal do Evropy?",
+    "en": "Which Chinese invention spread to the Islamic world in the 8th century, was manufactured in places such as Samarkand and Baghdad, and reached Europe from there?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kompas",
+     "Papír",
+     "Střelný prach",
+     "Porcelán"
+    ],
+    "en": [
+     "The compass",
+     "Paper",
+     "Gunpowder",
+     "Porcelain"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Samarkand proslul výrobou kvalitního papíru a papírny v abbásovském Bagdádu historici dokládají už v letech 794–795. První doložená papírna na Pyrenejském poloostrově stála roku 1056 v Xàtivě.",
+    "en": "Samarkand became famous for high-quality paper, and historians have identified paper mills in Abbasid Baghdad as early as 794–795. The first recorded paper mill on the Iberian Peninsula stood in Xàtiva in 1056."
+   }
+  },
+  {
+   "id": "T329-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaký předmět vynese Aladin z kouzelné jeskyně, ukrývá se v něm totiž mocný džin?",
+    "en": "What object does Aladdin bring out of the magic cave, because a powerful genie lives inside it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lampu",
+     "Džbán",
+     "Zrcadlo",
+     "Koberec"
+    ],
+    "en": [
+     "A lamp",
+     "A jug",
+     "A mirror",
+     "A carpet"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Olejovou lampu s džinem chtěl získat zlý čaroděj z Maghrebu, který se vydával za Aladinova strýce. Aladin má od něj navíc kouzelný prsten se slabším džinem, který ho z uzavřené jeskyně vysvobodí.",
+    "en": "The oil lamp and its genie were wanted by an evil sorcerer from the Maghreb posing as Aladdin's uncle. Aladdin also has a magic ring from him with a weaker genie, which frees him from the sealed cave."
+   }
+  },
+  {
+   "id": "T329-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývalo území Pyrenejského poloostrova pod muslimskou vládou v letech 711–1492?",
+    "en": "What was the name of the Muslim-ruled part of the Iberian Peninsula between 711 and 1492?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hidžáz",
+     "Anatolie",
+     "Levanta",
+     "al-Andalus"
+    ],
+    "en": [
+     "The Hejaz",
+     "Anatolia",
+     "The Levant",
+     "Al-Andalus"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Muslimská vláda tu začala roku 711 invazí vojska, které se přeplavilo ze severní Afriky, a skončila 2. ledna 1492 kapitulací Granady; hranice al-Andalusu se mezitím neustále posouvaly. Córdoba měla za chalífátu podle odhadů přes půl milionu obyvatel.",
+    "en": "Muslim rule began in 711 with an invasion by an army that crossed from North Africa and ended with the surrender of Granada on 2 January 1492; the borders of al-Andalus shifted constantly in between. Under the caliphate, Córdoba is estimated to have had more than half a million inhabitants."
+   }
+  },
+  {
+   "id": "T329-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Slovo zenit se do evropských jazyků dostalo z arabštiny. Co v astronomii označuje?",
+    "en": "The word zenith came into European languages from Arabic. What does it mean in astronomy?"
+   },
+   "moznosti": {
+    "cs": [
+     "Místo na obzoru, kde vychází Slunce",
+     "Okamžik úplného zatmění Slunce",
+     "Bod na obloze přímo nad hlavou pozorovatele",
+     "Nejjasnější hvězdu souhvězdí"
+    ],
+    "en": [
+     "The place on the horizon where the Sun rises",
+     "The moment of a total solar eclipse",
+     "The point in the sky directly above the observer",
+     "The brightest star in a constellation"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Zenit vznikl zkomolením arabského samt („cesta“), zkráceného ze samt ar-ra's – „cesta nad hlavou“; středověcí písaři přečetli m jako ni. Opačný bod pod pozorovatelem se jmenuje nadir a pochází rovněž z arabštiny (nazír – „protilehlý“).",
+    "en": "Zenith arose as a garbling of the Arabic samt ('path'), short for samt ar-ras, 'the way over the head'; medieval scribes misread the m as ni. The opposite point beneath the observer, the nadir, also comes from Arabic (nazir, 'opposite')."
+   }
+  },
+  {
+   "id": "T329-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Z jakého jazyka se v Bagdádu za Abbásovců (8.–10. století) překládalo do arabštiny nejvíc vědeckých a filozofických děl?",
+    "en": "From which language were most scientific and philosophical works translated into Arabic in Abbasid Baghdad (8th–10th centuries)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z hebrejštiny",
+     "Z řečtiny",
+     "Z čínštiny",
+     "Z latiny"
+    ],
+    "en": [
+     "Hebrew",
+     "Greek",
+     "Chinese",
+     "Latin"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Překládala se hlavně řecká díla, často přes syrštinu – Aristotelés, Galénos, Eukleidés nebo Ptolemaios. Nejplodnějším překladatelem byl nestoriánský křesťan a lékař Hunajn ibn Isháq (Hunayn ibn Ishaq).",
+    "en": "Mainly Greek works were translated, often via Syriac – Aristotle, Galen, Euclid and Ptolemy. The most prolific translator was the Nestorian Christian physician Hunayn ibn Ishaq."
+   }
+  },
+  {
+   "id": "T329-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na které řece leží Bagdád, za Abbásovců jedno z největších měst světa?",
+    "en": "On which river does Baghdad, one of the world's largest cities under the Abbasids, stand?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Tigridu",
+     "Na Eufratu",
+     "Na Nilu",
+     "Na Jordánu"
+    ],
+    "en": [
+     "The Tigris",
+     "The Euphrates",
+     "The Nile",
+     "The Jordan"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Bagdád leží na březích Tigridu ve středním Iráku. Od založení roku 762 až do 30. let 10. století byl nejspíš největším městem světa.",
+    "en": "Baghdad lies on the banks of the Tigris in central Iraq. From its founding in 762 until the 930s it was probably the largest city in the world."
+   }
+  },
+  {
+   "id": "T329-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik plaveb podnikl Sindibád námořník z Bagdádu?",
+    "en": "How many voyages did Sinbad the Sailor of Baghdad make?"
+   },
+   "moznosti": {
+    "cs": [
+     "3",
+     "5",
+     "7",
+     "10"
+    ],
+    "en": [
+     "3",
+     "5",
+     "7",
+     "10"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Bohatý kupec Sindibád vypráví o svých sedmi plavbách chudému nosiči, který se jmenuje stejně jako on. V nejstarším dochovaném arabském rukopisu Tisíce a jedné noci ze 14. století jeho příběhy chybějí, do sbírky přibyly až v pozdějších rukopisech a překladech.",
+    "en": "The wealthy merchant Sinbad recounts his seven voyages to a poor porter who shares his name. His tales are missing from the earliest surviving Arabic manuscript of the Thousand and One Nights, from the 14th century, and were added only in later manuscripts and translations."
+   }
+  },
+  {
+   "id": "T329-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Slovo algebra pochází z arabského al-džabr v názvu spisu, který kolem roku 820 napsal al-Chorezmí (al-Khwarizmi). Co al-džabr znamená?",
+    "en": "The word algebra comes from the Arabic al-jabr in the title of a treatise written by al-Khwarizmi around 820. What does al-jabr mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Obnovení",
+     "Výpočet",
+     "Kořen",
+     "Neznámá"
+    ],
+    "en": [
+     "Restoration",
+     "Calculation",
+     "Root",
+     "Unknown"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Al-džabr („obnovení“, „doplnění“) označovalo krok, kdy se přičtením stejné hodnoty k oběma stranám rovnice odstraní záporné členy. Al-Chorezmí působil v Bagdádu jako astronom a správce chalífovy knihovny a jeho jméno znamená „z Chorezmu“ – oblasti v dnešním Uzbekistánu a Turkmenistánu.",
+    "en": "Al-jabr ('restoration', 'completion') was the step of removing negative terms by adding the same quantity to both sides of an equation. Al-Khwarizmi worked in Baghdad as astronomer and head of the caliph's library, and his name means 'from Khwarazm', a region now in Uzbekistan and Turkmenistan."
+   }
+  },
+  {
+   "id": "T329-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který skutečný panovník je častým hrdinou příběhů Tisíce a jedné noci, které se odehrávají v Bagdádu?",
+    "en": "Which real ruler is a frequent protagonist of the Thousand and One Nights stories set in Baghdad?"
+   },
+   "moznosti": {
+    "cs": [
+     "Saladin",
+     "Tímúr (Tamerlán)",
+     "Hárún ar-Rašíd",
+     "Mehmed II. Dobyvatel"
+    ],
+    "en": [
+     "Saladin",
+     "Timur (Tamerlane)",
+     "Harun al-Rashid",
+     "Mehmed II the Conqueror"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hárún ar-Rašíd vládl jako pátý abbásovský chalífa v letech 786–809 a jeho vláda bývá považována za začátek zlatého věku islámu. V příbězích ho často doprovází vezír Džafar a básník Abú Nuwás.",
+    "en": "Harun al-Rashid ruled as the fifth Abbasid caliph from 786 to 809, and his reign is traditionally seen as the start of the Islamic Golden Age. In the tales he is often accompanied by his vizier Jafar and the poet Abu Nuwas."
+   }
+  },
+  {
+   "id": "T329-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co znamená arabský název Alhambra (al-Hamrá)?",
+    "en": "What does the Arabic name Alhambra (al-Hamra) mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Červená",
+     "Nedobytná",
+     "Nebeská",
+     "Zlatá"
+    ],
+    "en": [
+     "The red one",
+     "The impregnable one",
+     "The heavenly one",
+     "The golden one"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Celý původní název zněl „červená pevnost“. Barvu dávají hradbám z dusané hlíny oxidy železa obsažené v místní zemině.",
+    "en": "The full original name was 'the red fortress'. The colour comes from iron oxide in the local clay used for its rammed-earth walls."
+   }
+  },
+  {
+   "id": "T329-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co bylo od roku 1523 vestavěno přímo doprostřed bývalé Velké mešity v Córdobě?",
+    "en": "What was built, from 1523, right in the middle of the former Great Mosque of Córdoba?"
+   },
+   "moznosti": {
+    "cs": [
+     "Býčí aréna",
+     "Královský palác",
+     "Renesanční katedrála",
+     "Městská tržnice"
+    ],
+    "en": [
+     "A bullring",
+     "A royal palace",
+     "A Renaissance cathedral",
+     "A city market hall"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Mešitu se slavnými oblouky ze střídavě červených cihel a bílého kamene začal stavět roku 785 Abd ar-Rahmán I., dnes slouží jako katolická katedrála. Císař Karel V. prý stavitelům vytkl, že zničili něco, co bylo na světě jedinečné.",
+    "en": "The mosque, famous for its arches of alternating red brick and white stone, was begun in 785 by Abd al-Rahman I and today serves as a Catholic cathedral. Emperor Charles V reportedly told the builders that they had destroyed something unique in the world."
+   }
+  },
+  {
+   "id": "T329-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která z těchto vojenských hodností má původ v arabštině?",
+    "en": "Which of these military ranks comes from Arabic?"
+   },
+   "moznosti": {
+    "cs": [
+     "Generál",
+     "Admirál",
+     "Kapitán",
+     "Maršál"
+    ],
+    "en": [
+     "General",
+     "Admiral",
+     "Captain",
+     "Marshal"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Admirál pochází z arabského amír – „velitel“. Evropští písaři považovali obvyklé spojení amír al- (velitel …) za jedno slovo a význam „velitel loďstva“ se ustálil nejspíš na Sicílii ve 12. století.",
+    "en": "Admiral comes from the Arabic amir, 'commander'. European writers took the common phrase amir al- ('commander of the …') as a single word, and the sense 'fleet commander' probably arose in 12th-century Sicily."
+   }
+  },
+  {
+   "id": "T329-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Slovo šifra (anglicky cipher) i anglické zero (nula) pocházejí z arabského slova sifr. Co původně znamenalo?",
+    "en": "Both the word cipher and the word zero come from the Arabic word sifr. What did it originally mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Prázdný",
+     "Kulatý",
+     "Tajný",
+     "Desátý"
+    ],
+    "en": [
+     "Empty",
+     "Round",
+     "Secret",
+     "Tenth"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Arabské sifr znamenalo „prázdný, nic“ a bylo překladem sanskrtského šúnja (prázdný). Přes středověkou latinu (cifra) a starou francouzštinu (cifre) z něj vzniklo anglické cipher, anglické zero přišlo přes italštinu ze středolatinského zephirum.",
+    "en": "The Arabic sifr meant 'empty, nothing' and was a loan-translation of the Sanskrit sunya ('empty'). Through Medieval Latin cifra and Old French cifre it became the English cipher, while zero came via Italian from Medieval Latin zephirum."
+   }
+  },
+  {
+   "id": "T329-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Abbásovský chalífa al-Mansúr založil roku 762 Bagdád jako město s neobvyklým půdorysem. Jakým?",
+    "en": "In 762 the Abbasid caliph al-Mansur founded Baghdad as a city with an unusual ground plan. What shape was it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Čtvercovým",
+     "Osmiúhelníkovým",
+     "Kruhovým",
+     "Hvězdicovým"
+    ],
+    "en": [
+     "Square",
+     "Octagonal",
+     "Circular",
+     "Star-shaped"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kruhové město o poloměru asi 1 km mělo čtyři brány a oficiálně se jmenovalo Madínat as-salám – Město míru.",
+    "en": "The Round City, about 1 km (0.6 mi) in radius, had four gates and was officially named Madinat as-Salam – the City of Peace."
+   }
+  },
+  {
+   "id": "T329-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který perský učenec, v Evropě proslulý hlavně čtyřveršími (rubáijját) v překladu Edwarda FitzGeralda, se podílel na reformě kalendáře a změřil délku roku s mimořádnou přesností?",
+    "en": "Which Persian scholar, famous in Europe mainly for his quatrains (rubaiyat) in Edward FitzGerald's translation, took part in a calendar reform and measured the length of the year with remarkable accuracy?"
+   },
+   "moznosti": {
+    "cs": [
+     "Omar Chajjám",
+     "Firdausí",
+     "Rúmí",
+     "Háfiz"
+    ],
+    "en": [
+     "Omar Khayyam",
+     "Ferdowsi",
+     "Rumi",
+     "Hafez"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Chajjámův tým změřil délku roku na 365,24219858156 dne a takzvaný džalálský kalendář (Jalali), zavedený roku 1079, se v Íránu používal po staletí. Chajjám také patrně jako první vytvořil obecnou teorii kubických rovnic a geometricky je řešil.",
+    "en": "Khayyam's team measured the year as 365.24219858156 days, and the Jalali calendar introduced in 1079 remained in use in Iran for centuries. Khayyam also seems to have been the first to conceive a general theory of cubic equations, which he solved geometrically."
+   }
+  },
+  {
+   "id": "T329-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Lékař ar-Rází (Rhazes), přednosta nemocnic v Bagdádu a v Rajji, napsal jeden z nejstarších spisů, které rozlišují dvě podobné nemoci. Které?",
+    "en": "The physician al-Razi (Rhazes), head of hospitals in Baghdad and Ray, wrote one of the earliest works distinguishing two similar diseases. Which ones?"
+   },
+   "moznosti": {
+    "cs": [
+     "Lepru a kožní tuberkulózu",
+     "Pravé neštovice a spalničky",
+     "Malárii a skvrnitý tyfus",
+     "Dýmějový mor a choleru"
+    ],
+    "en": [
+     "Leprosy and skin tuberculosis",
+     "Smallpox and measles",
+     "Malaria and epidemic typhus",
+     "Bubonic plague and cholera"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jeho spis O neštovicích a spalničkách (al-Džudarí wa-l-hasba) patří k nejstarším dochovaným textům, které obě nemoci popisují jako odlišné. Ar-Rází patří k prvním lékařům, kteří je od sebe rozlišili podle klinického obrazu.",
+    "en": "His treatise On Smallpox and Measles (al-Judari wa al-hasba) is among the earliest surviving texts to describe the two as distinct diseases. Al-Razi was among the first physicians to distinguish them clinically."
+   }
+  },
+  {
+   "id": "T329-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Gibraltar nese jméno po skutečném muži. Kým byl?",
+    "en": "Gibraltar is named after a real man. Who was he?"
+   },
+   "moznosti": {
+    "cs": [
+     "Fénickým mořeplavcem, který tu založil přístav",
+     "Vojevůdcem, který zahájil muslimské dobytí Hispánie",
+     "Římským místodržitelem provincie Hispánie",
+     "Vizigótským králem, který tu postavil hrad"
+    ],
+    "en": [
+     "A Phoenician seafarer who founded a port there",
+     "The commander who began the Muslim conquest of Hispania",
+     "A Roman governor of the province of Hispania",
+     "A Visigothic king who built a castle there"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jméno pochází z arabského Džabal Táriq – „Táriqova hora“ – podle vojevůdce Táriqa ibn Zijáda (Tariq ibn Ziyad), jehož vojsko se tu roku 711 vylodilo. Arabské jméno se časem zkomolilo na Gibraltar.",
+    "en": "The name comes from the Arabic Jabal Tariq – 'Mount of Tariq' – after Tariq ibn Ziyad, whose army landed there in 711. The Arabic name was gradually corrupted into Gibraltar."
+   }
+  },
+  {
+   "id": "T329-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Podle perského historika z 11. století přinesli do Samarkandu nové řemeslo čínští zajatci. Ze které bitvy podle něj pocházeli?",
+    "en": "According to an 11th-century Persian historian, Chinese prisoners brought a new craft to Samarkand. From which battle did they come, according to him?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z bitvy u Poitiers",
+     "Z bitvy u Kádisíje",
+     "Z bitvy u Ajn Džálút",
+     "Z bitvy na řece Talas"
+    ],
+    "en": [
+     "The Battle of Poitiers",
+     "The Battle of al-Qadisiyyah",
+     "The Battle of Ain Jalut",
+     "The Battle of Talas"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "As-Sa'álibí (al-Tha'alibi) psal, že toto řemeslo zavedli v Samarkandu zajatci z bitvy u Talasu roku 751. Historici o tom pochybují: archeologické nálezy ukazují, že jeho výrobky se v Samarkandu užívaly už o desítky let dřív, a čínský zajatec, který se později vrátil domů, jmenuje mezi zajatci tkalce, malíře, zlatníky a stříbrníky, ale žádné řemeslníky tohoto oboru.",
+    "en": "Al-Tha'alibi wrote that prisoners from the Battle of Talas in 751 introduced this craft to Samarkand. Historians doubt it: archaeological finds show that its products were already in use in Samarkand decades earlier, and a Chinese captive who later returned home lists weavers, painters, goldsmiths and silversmiths among the prisoners, but no practitioners of this craft."
+   }
+  },
+  {
+   "id": "T329-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaký neobvyklý dar od abbásovského chalífy dorazil v červenci 802 do Cách ke Karlu Velikému?",
+    "en": "What unusual gift from the Abbasid caliph reached Charlemagne in Aachen in July 802?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nosorožec",
+     "Žirafa",
+     "Slon",
+     "Lev"
+    ],
+    "en": [
+     "A rhinoceros",
+     "A giraffe",
+     "An elephant",
+     "A lion"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Slona Abul-Abbáse (Abul-Abbas) poslal Hárún ar-Rašíd. Na podzim 801 ho Karlův vyslanec Izák přivezl z Afriky do přístavu Porto Venere, zimu strávili ve Vercelli a na jaře překročili Alpy. Slon uhynul roku 810 během Karlova tažení proti Dánům.",
+    "en": "The elephant Abul-Abbas was sent by Harun al-Rashid. In autumn 801 Charlemagne's envoy Isaac brought him from Africa to the port of Porto Venere; they wintered in Vercelli and crossed the Alps in spring. The elephant died in 810 during Charlemagne's campaign against the Danes."
+   }
+  },
+  {
+   "id": "T329-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ptolemaiovo astronomické dílo Mathématiké syntaxis známe pod arabským jménem Almagest. Co toto jméno znamená?",
+    "en": "Ptolemy's astronomical work Mathematike Syntaxis is known by the Arabic name Almagest. What does the name mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hvězdná",
+     "Největší",
+     "Nebeská",
+     "Úplná"
+    ],
+    "en": [
+     "The starry one",
+     "The greatest",
+     "The heavenly one",
+     "The complete one"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Arabské al-madžistí je člen al- a zkomolené řecké megisté – „největší“. Do latiny dílo přeložil z arabštiny Gerard z Cremony v Toledu roku 1175.",
+    "en": "The Arabic al-majisti is the article al- plus a corruption of the Greek megiste, 'greatest'. Gerard of Cremona translated it into Latin from Arabic in Toledo in 1175."
+   }
+  },
+  {
+   "id": "T329-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak al-Bírúní (al-Biruni) v 11. století určil poloměr Země?",
+    "en": "How did al-Biruni determine the radius of the Earth in the 11th century?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z doby, za kterou Měsíc oběhne Zemi",
+     "Z rychlosti, jakou se šíří zvuk v horách",
+     "Z poledních stínů ve dvou vzdálených městech",
+     "Ze sklonu obzoru pozorovaného z vrcholu kopce"
+    ],
+    "en": [
+     "From the time the Moon takes to orbit the Earth",
+     "From the speed at which sound travels in mountains",
+     "From noon shadows in two distant cities",
+     "From the dip of the horizon seen from a hilltop"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Al-Bírúní změřil, o kolik klesá obzor při pohledu z vrcholu kopce u pevnosti Nandana (dnes Pákistán), a poloměr dopočítal trigonometricky. Polední stíny ve dvou městech použil už antický Eratosthenés.",
+    "en": "Al-Biruni measured how far the horizon dips when seen from a hilltop near the fort of Nandana (now Pakistan) and worked out the radius with trigonometry. Noon shadows in two cities had been used by Eratosthenes in antiquity."
+   }
+  },
+  {
+   "id": "T329-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ibn al-Hajsam (Alhazen) měl pro káhirského chalífu al-Hákima zkrotit záplavy Nilu, ale zjistil, že plán je neproveditelný. Jak se podle tradovaného vyprávění vyhnul chalífově hněvu?",
+    "en": "Ibn al-Haytham (Alhazen) was supposed to tame the Nile floods for the Cairo caliph al-Hakim, but found the plan impracticable. According to the traditional account, how did he escape the caliph's wrath?"
+   },
+   "moznosti": {
+    "cs": [
+     "Odešel na pouť do Mekky",
+     "Vykoupil se zlatem",
+     "Uprchl do Bagdádu",
+     "Předstíral šílenství"
+    ],
+    "en": [
+     "He went on pilgrimage to Mecca",
+     "He bought his way out with gold",
+     "He fled to Baghdad",
+     "He feigned madness"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Podle jedné legendy pak žil v domácím vězení až do al-Hákimovy smrti roku 1021 a právě tehdy napsal Knihu o optice. Jako první také jasně popsal camera obscuru.",
+    "en": "According to one legend he then lived under house arrest until al-Hakim's death in 1021, and wrote his Book of Optics during that time. He also gave the first clear description of the camera obscura."
+   }
+  },
+  {
+   "id": "T329-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Córdobskému filozofovi Averroovi (Ibn Rušd) se v latinské Evropě říkalo prostě „Komentátor“. Díky komentářům k dílu kterého myslitele si tuto přezdívku vysloužil?",
+    "en": "In Latin Europe the Córdoban philosopher Averroes (Ibn Rushd) was simply called 'The Commentator'. Commentaries on the work of which thinker earned him this nickname?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pýthagora",
+     "Hippokrata",
+     "Aristotela",
+     "Sókrata"
+    ],
+    "en": [
+     "Pythagoras",
+     "Hippocrates",
+     "Aristotle",
+     "Socrates"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Averroes (1126–1198) byl také soudcem (kádím) v Seville a Córdobě a dvorním lékařem almohadských vládců. Rafael ho namaloval na fresce Athénská škola v turbanu za Pýthagorem.",
+    "en": "Averroes (1126–1198) was also a judge (qadi) in Seville and Córdoba and court physician to the Almohad rulers. Raphael painted him in The School of Athens, turbaned, behind Pythagoras."
+   }
+  },
+  {
+   "id": "T329-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo roku 1206 popsal v Knize o poznání důmyslných mechanických zařízení vodní hodiny s figurkou bijící v pravidelných intervalech do činelu, mechanickou kapelu na lodičce a automat podávající vodu k mytí rukou?",
+    "en": "Who, in 1206, described in his Book of Knowledge of Ingenious Mechanical Devices a water clock with a figure striking a cymbal at set intervals, a mechanical band on a boat and an automaton serving water for hand-washing?"
+   },
+   "moznosti": {
+    "cs": [
+     "al-Džazarí (al-Jazari)",
+     "al-Fárábí",
+     "al-Kindí",
+     "Ibn Síná (Avicenna)"
+    ],
+    "en": [
+     "Al-Jazari",
+     "Al-Farabi",
+     "Al-Kindi",
+     "Ibn Sina (Avicenna)"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Al-Džazarí byl hlavním inženýrem v paláci artukovských vládců v Mardinu v Horní Mezopotámii a popsal 50 zařízení, která sám sestrojil. K jeho nejslavnějším vynálezům patří sloní hodiny; popsal i čerpadlo s klikovým hřídelem a ojnicí.",
+    "en": "Al-Jazari was chief engineer at the palace of the Artuqid rulers in Mardin in Upper Mesopotamia and described 50 devices he had built himself. Among his most famous inventions is the elephant clock; he also described a pump with a crankshaft and connecting rod."
+   }
+  },
+  {
+   "id": "T329-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Rámcový příběh Tisíce a jedné noci pochází podle badatelů nejspíš ze ztracené sbírky Hazár afsán (Hezār Afsān, „Tisíc příběhů“). V jakém jazyce byla napsána?",
+    "en": "According to scholars, the frame story of the Thousand and One Nights probably comes from a lost collection called Hazar Afsan ('A Thousand Tales'). What language was it written in?"
+   },
+   "moznosti": {
+    "cs": [
+     "V aramejštině",
+     "V řečtině",
+     "V turečtině",
+     "Ve střední perštině"
+    ],
+    "en": [
+     "Aramaic",
+     "Greek",
+     "Turkish",
+     "Middle Persian"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Nejstarší zmínky popisují Tisíc a jednu noc jako arabský překlad této perské (pahlavské) knihy, která sama čerpala i z indických motivů. Rámcový příběh se proto odehrává v době sásánovských králů, tedy před arabským dobytím Persie.",
+    "en": "The earliest references describe the Nights as an Arabic translation of this Persian (Pahlavi) book, which itself drew partly on Indian elements. That is why the frame story is set in the era of the Sassanid kings, before the Arab conquest of Persia."
+   }
+  },
+  {
+   "id": "T329-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Antoine Galland si do deníku zapsal, že příběhy o Aladinovi a Ali Babovi slyšel od živého vypravěče. Kdo to byl?",
+    "en": "Antoine Galland recorded in his diary that he heard the tales of Aladdin and Ali Baba from a living storyteller. Who was he?"
+   },
+   "moznosti": {
+    "cs": [
+     "Egyptský dvorní písař z Káhiry",
+     "Perský kupec z Isfahánu",
+     "Turecký vyslanec v Paříži",
+     "Syrský maronita z Aleppa"
+    ],
+    "en": [
+     "An Egyptian court scribe from Cairo",
+     "A Persian merchant from Isfahan",
+     "A Turkish envoy in Paris",
+     "A Syrian Maronite from Aleppo"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Hanna Diyab, maronitský křesťan z Aleppa, se s Gallandem setkal v Paříži v březnu 1709 a vyprávěl mu nejznámější verze obou příběhů. Ve stáří sepsal vlastní cestopis, anglicky vydaný roku 2021 jako The Book of Travels.",
+    "en": "Hanna Diyab, a Maronite Christian from Aleppo, met Galland in Paris in March 1709 and told him the best-known versions of both tales. In old age he wrote his own travelogue, published in English in 2021 as The Book of Travels."
+   }
+  },
+  {
+   "id": "T329-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Avicennovo rozsáhlé dílo Kniha uzdravení (Kitáb aš-šifá) navzdory názvu nepojednává o medicíně. O čem je?",
+    "en": "Despite its title, Avicenna's vast Book of Healing (Kitab al-Shifa) is not about medicine. What is it about?"
+   },
+   "moznosti": {
+    "cs": [
+     "O filozofii a vědách",
+     "O zemědělství a zavlažování",
+     "O mořeplavbě a obchodu",
+     "O válečném umění"
+    ],
+    "en": [
+     "Philosophy and science",
+     "Agriculture and irrigation",
+     "Seafaring and trade",
+     "The art of war"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Lékařství Avicenna (asi 980–1037, narozen u Buchary) shrnul zvlášť v pětidílném Kánonu medicíny. Jeho jméno je latinizovaná podoba Ibn Síná – „syn Síny“.",
+    "en": "Avicenna (c. 980–1037, born near Bukhara) covered medicine separately in his five-book Canon of Medicine. His name is a Latinised form of Ibn Sina, 'son of Sina'."
+   }
+  }
+ ]
+}

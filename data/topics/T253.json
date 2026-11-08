@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T253",
+ "nazev": {
+  "cs": "Horniny, minerály a geologie",
+  "en": "Rocks, Minerals and Geology"
+ },
+ "kategorie": {
+  "id": "zemepis",
+  "nazev": {
+   "cs": "Zeměpis",
+   "en": "Geography"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T253-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak vzniká žula?",
+    "en": "How does granite form?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rychlým chladnutím lávy na povrchu",
+     "Odpařováním mořské vody v mělkých lagunách",
+     "Pomalým tuhnutím magmatu hluboko pod povrchem",
+     "Usazováním písku na mořském dně"
+    ],
+    "en": [
+     "By lava cooling quickly at the surface",
+     "By seawater evaporating in shallow lagoons",
+     "By magma slowly solidifying deep underground",
+     "By sand settling on the seabed"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Žula je hlubinná vyvřelá hornina: magma tuhne pomalu pod povrchem, a proto má velká, okem viditelná zrna. Když stejná tavenina utuhne až na povrchu, vznikne jemnozrnný ryolit.",
+    "en": "Granite is an intrusive igneous rock: magma cools slowly underground, which is why its grains are large and visible. When the same melt solidifies at the surface, it forms fine-grained rhyolite."
+   }
+  },
+  {
+   "id": "T253-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který minerál je na Mohsově stupnici tvrdosti nejměkčí a má stupeň 1?",
+    "en": "Which mineral is the softest on the Mohs hardness scale, with a value of 1?"
+   },
+   "moznosti": {
+    "cs": [
+     "Křemen",
+     "Sádrovec",
+     "Kalcit",
+     "Mastek"
+    ],
+    "en": [
+     "Quartz",
+     "Gypsum",
+     "Calcite",
+     "Talc"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Stupnici otevírá mastek, uzavírá ji diamant (10). Sestavil ji roku 1812 německý mineralog Friedrich Mohs a každý minerál na ní rýpe ty, které stojí pod ním.",
+    "en": "The scale starts with talc and ends with diamond (10). German mineralogist Friedrich Mohs compiled it in 1812, and each mineral on it scratches those ranked below it."
+   }
+  },
+  {
+   "id": "T253-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá vrstva Země, která leží mezi zemskou kůrou a jádrem?",
+    "en": "What is the name of Earth's layer that lies between the crust and the core?"
+   },
+   "moznosti": {
+    "cs": [
+     "Biosféra",
+     "Atmosféra",
+     "Hydrosféra",
+     "Plášť"
+    ],
+    "en": [
+     "Biosphere",
+     "Atmosphere",
+     "Hydrosphere",
+     "Mantle"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Pod kůrou začíná zemský plášť. Rozhraní mezi kůrou a pláštěm objevil roku 1909 chorvatský seismolog Andrija Mohorovičić a podle něj se mu říká Moho.",
+    "en": "Beneath the crust lies the mantle. The boundary between them was discovered in 1909 by Croatian seismologist Andrija Mohorovičić and is called the Moho after him."
+   }
+  },
+  {
+   "id": "T253-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Těžba kterého kovu proslavila a obohatila středověkou Kutnou Horu?",
+    "en": "Mining of which metal made medieval Kutná Hora famous and rich?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mědi",
+     "Zlata",
+     "Cínu",
+     "Stříbra"
+    ],
+    "en": [
+     "Copper",
+     "Gold",
+     "Tin",
+     "Silver"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Stříbro se tu těžilo od 13. století a kolem roku 1300 sem byla soustředěna mincovna českých zemí, kde se razil pražský groš. Město je od roku 1995 na seznamu UNESCO.",
+    "en": "Silver was mined here from the 13th century, and around 1300 the town became the seat of the central mint of the Czech lands, striking the Prague groschen. It has been a UNESCO site since 1995."
+   }
+  },
+  {
+   "id": "T253-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou barvu mají typické vltavíny?",
+    "en": "What colour are typical moldavites?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zelenou",
+     "Modrou",
+     "Žlutou",
+     "Červenou"
+    ],
+    "en": [
+     "Green",
+     "Blue",
+     "Yellow",
+     "Red"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vltavíny jsou lesně až olivově zelené přírodní sklo staré asi 15 milionů let. Nacházejí se hlavně v jižních Čechách, v Českobudějovické a Třeboňské pánvi.",
+    "en": "Moldavites are forest-green to olive-green natural glass about 15 million years old. They are found mainly in southern Bohemia, in the České Budějovice and Třeboň basins."
+   }
+  },
+  {
+   "id": "T253-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Přeměnou které horniny nejčastěji vzniká mramor?",
+    "en": "From which rock is marble most commonly formed by metamorphism?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pískovce",
+     "Žuly",
+     "Vápence",
+     "Čediče"
+    ],
+    "en": [
+     "Sandstone",
+     "Granite",
+     "Limestone",
+     "Basalt"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Mramor je přeměněná (metamorfovaná) hornina: teplo a tlak přetvoří uhličitanové horniny, nejčastěji vápenec nebo dolomit, v horninu z překrystalizovaných zrn.",
+    "en": "Marble is a metamorphic rock: heat and pressure transform carbonate rocks, most commonly limestone or dolomite, into a rock of recrystallised grains."
+   }
+  },
+  {
+   "id": "T253-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co je hlavní složkou psací tyčinky v obyčejné tužce, které se v angličtině říká „lead“ (olovo)?",
+    "en": "What is the main component of the writing core of an ordinary pencil, known in English as the 'lead'?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dřevěné uhlí",
+     "Grafit",
+     "Olovo",
+     "Mastek"
+    ],
+    "en": [
+     "Charcoal",
+     "Graphite",
+     "Lead",
+     "Talc"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Tyčinka je z grafitu smíchaného s jílem a olovo nikdy neobsahovala. Grafit se dříve považoval za druh olova (latinsky plumbago); v 16. století objevili velmi čisté ložisko v anglickém Borrowdale.",
+    "en": "The core is graphite mixed with clay and has never contained lead. Graphite was once thought to be a form of lead (Latin plumbago); a very pure deposit was found in Borrowdale, England, in the 16th century."
+   }
+  },
+  {
+   "id": "T253-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi leží slavný solný důl Wieliczka s kaplí svaté Kingy, ve které jsou i lustry ze solných krystalů?",
+    "en": "In which country is the famous Wieliczka Salt Mine, with St. Kinga's Chapel and its chandeliers made of salt crystals?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Německu",
+     "Na Slovensku",
+     "V Rakousku",
+     "V Polsku"
+    ],
+    "en": [
+     "Germany",
+     "Slovakia",
+     "Austria",
+     "Poland"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Důl leží u Krakova a roku 1978 byl zapsán mezi vůbec první památky světového dědictví UNESCO. Komerční těžba soli v něm skončila roku 1996.",
+    "en": "The mine lies near Kraków and in 1978 was placed on UNESCO's very first World Heritage list. Commercial salt mining there ended in 1996."
+   }
+  },
+  {
+   "id": "T253-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak stará je Země podle současných odhadů?",
+    "en": "How old is Earth according to current estimates?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 450 milionů let",
+     "Asi 4,5 miliardy let",
+     "Asi 13,8 miliardy let",
+     "Asi 45 miliard let"
+    ],
+    "en": [
+     "About 450 million years",
+     "About 4.5 billion years",
+     "About 13.8 billion years",
+     "About 45 billion years"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Odhad 4,54 ± 0,05 miliardy let vychází hlavně z radiometrického datování meteoritů, které uchovávají materiál z doby vzniku Sluneční soustavy. Touto metodou dospěl roku 1956 Clair Patterson k hodnotě 4,55 miliardy let.",
+    "en": "The estimate of 4.54 ± 0.05 billion years rests mainly on radiometric dating of meteorites, which preserve material from the formation of the Solar System. Using this method, Clair Patterson arrived at 4.55 billion years in 1956."
+   }
+  },
+  {
+   "id": "T253-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaký tvar mají typicky krystaly kamenné soli (halitu)?",
+    "en": "What shape do crystals of rock salt (halite) typically have?"
+   },
+   "moznosti": {
+    "cs": [
+     "Krychle",
+     "Ploché lístky",
+     "Šestiboký hranol",
+     "Dlouhé jehlice"
+    ],
+    "en": [
+     "Cube",
+     "Flat flakes",
+     "Hexagonal prism",
+     "Long needles"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Halit je přírodní chlorid sodný, tedy kuchyňská sůl. Krystaluje v krychlové soustavě a nejčastěji tvoří právě krychle.",
+    "en": "Halite is natural sodium chloride – table salt. It crystallises in the cubic system and most often forms cubes."
+   }
+  },
+  {
+   "id": "T253-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Alfred Wegener, který roku 1912 přišel s myšlenkou pohybu kontinentů, byl povoláním především…",
+    "en": "Alfred Wegener, who proposed the idea of continental drift in 1912, was by profession mainly…"
+   },
+   "moznosti": {
+    "cs": [
+     "botanik",
+     "lékař",
+     "meteorolog",
+     "námořní důstojník"
+    ],
+    "en": [
+     "a botanist",
+     "a physician",
+     "a meteorologist",
+     "a naval officer"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Wegener byl meteorolog, geofyzik a polárník, doktorát ovšem získal z astronomie. Svou myšlenku představil 6. ledna 1912 ve Frankfurtu a zahynul v listopadu 1930 na výpravě v Grónsku.",
+    "en": "Wegener was a meteorologist, geophysicist and polar researcher, although his doctorate was in astronomy. He presented his idea on 6 January 1912 in Frankfurt and died in November 1930 on an expedition in Greenland."
+   }
+  },
+  {
+   "id": "T253-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který z těchto minerálů poškrábete nehtem?",
+    "en": "Which of these minerals can you scratch with your fingernail?"
+   },
+   "moznosti": {
+    "cs": [
+     "Topaz",
+     "Sádrovec",
+     "Kalcit",
+     "Křemen"
+    ],
+    "en": [
+     "Topaz",
+     "Gypsum",
+     "Calcite",
+     "Quartz"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Nehet má na Mohsově stupnici tvrdost asi 2–2,5, takže poškrábe sádrovec (2), ale už ne kalcit (3). Křemen (7) a topaz (8) dokonce rýpou sklo.",
+    "en": "A fingernail has a Mohs hardness of about 2–2.5, so it scratches gypsum (2) but not calcite (3). Quartz (7) and topaz (8) can even scratch glass."
+   }
+  },
+  {
+   "id": "T253-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém geologickém období vznikla většina světových ložisek uhlí?",
+    "en": "In which geological period did most of the world's coal deposits form?"
+   },
+   "moznosti": {
+    "cs": [
+     "V karbonu",
+     "V křídě",
+     "V juře",
+     "V kambriu"
+    ],
+    "en": [
+     "Carboniferous",
+     "Cretaceous",
+     "Jurassic",
+     "Cambrian"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Název karbon znamená „nesoucí uhlí“ (latinsky carbo = uhlí). Většina zemských ložisek uhlí vznikla v pozdním karbonu a raném permu, zhruba před 300 miliony let.",
+    "en": "The name Carboniferous means 'coal-bearing' (Latin carbo = coal). Most of Earth's coal deposits formed in the late Carboniferous and early Permian, roughly 300 million years ago."
+   }
+  },
+  {
+   "id": "T253-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak rychle se zhruba vzdalují litosférické desky na Středoatlantském hřbetu?",
+    "en": "Roughly how fast do the tectonic plates move apart at the Mid-Atlantic Ridge?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 1–4 mm za rok",
+     "Asi 1–4 cm za rok",
+     "Asi 1–4 dm za rok",
+     "Asi 1–4 m za rok"
+    ],
+    "en": [
+     "About 1–4 mm (0.04–0.16 inches) per year",
+     "About 1–4 cm (0.4–1.6 inches) per year",
+     "About 1–4 dm (4–16 inches) per year",
+     "About 1–4 m (3.3–13 ft) per year"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Rozestupování o 10–40 mm ročně odpovídá zhruba rychlosti, jakou rostou nehty. Deska Nazca se pohybuje asi 16 cm za rok, což se přirovnává k růstu vlasů.",
+    "en": "Spreading of 10–40 mm (0.4–1.6 inches) a year is about as fast as fingernails grow. The Nazca plate moves about 16 cm (6.3 inches) a year, which is compared to the growth of hair."
+   }
+  },
+  {
+   "id": "T253-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co v 50. letech 20. století těžili političtí vězni v pracovních táborech na Jáchymovsku?",
+    "en": "What did political prisoners mine in the labour camps around Jáchymov in the 1950s?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hnědé uhlí",
+     "Uranovou rudu",
+     "Stříbro",
+     "Cín"
+    ],
+    "en": [
+     "Brown coal",
+     "Uranium ore",
+     "Silver",
+     "Tin"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "V roce 1955 pracovalo v jáchymovských dolech přes 46 000 lidí a asi pětina z nich nedobrovolně. Ve stejném městě se v 16. století těžilo stříbro na slavné tolary.",
+    "en": "In 1955 more than 46,000 people worked in the Jáchymov mines, about a fifth of them involuntarily. In the 16th century the same town mined the silver for its famous thalers."
+   }
+  },
+  {
+   "id": "T253-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které středočeské město mělo v 18. století nejvýnosnější těžbu stříbra v celé habsburské monarchii?",
+    "en": "Which Central Bohemian town had the most profitable silver mining in the entire Habsburg monarchy in the 18th century?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kutná Hora",
+     "Kolín",
+     "Kladno",
+     "Příbram"
+    ],
+    "en": [
+     "Kutná Hora",
+     "Kolín",
+     "Kladno",
+     "Příbram"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Rudolf II. povýšil Příbram roku 1579 na královské horní město. Hornické muzeum Příbram, založené roku 1886, je největším hornickým muzeem v Česku.",
+    "en": "Rudolf II made Příbram a royal mining town in 1579. The Příbram Mining Museum, founded in 1886, is the largest mining museum in the Czech Republic."
+   }
+  },
+  {
+   "id": "T253-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které české město vzniklo ve 13. století spojením osad zlatokopů?",
+    "en": "Which Czech town arose in the 13th century from the merger of gold-mining settlements?"
+   },
+   "moznosti": {
+    "cs": [
+     "Beroun",
+     "Jílové u Prahy",
+     "Kolín",
+     "Mělník"
+    ],
+    "en": [
+     "Beroun",
+     "Jílové u Prahy",
+     "Kolín",
+     "Mělník"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Karel IV. povýšil Jílové roku 1350 na královské město. Těžba zlata tu za husitských válek upadla; Vladislav II. ji částečně obnovil, ale třicetiletá válka přinesla další úpadek.",
+    "en": "Charles IV made Jílové a royal town in 1350. Gold mining declined during the Hussite Wars; Vladislaus II partly revived it, but the Thirty Years' War brought another decline."
+   }
+  },
+  {
+   "id": "T253-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč je vnitřní jádro Země pevné, přestože má teplotu zhruba jako povrch Slunce?",
+    "en": "Why is Earth's inner core solid, even though it is about as hot as the surface of the Sun?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ochlazuje ho okolní plášť",
+     "Je z kamene s vysokým bodem tání",
+     "Udržuje ho pevné obrovský tlak",
+     "Rychle se otáčí a tím tuhne"
+    ],
+    "en": [
+     "The surrounding mantle cools it",
+     "It is made of rock with a high melting point",
+     "Enormous pressure keeps it solid",
+     "It spins fast and solidifies"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vnitřní jádro je převážně ze slitiny železa a niklu a na povrchu má asi 5 400 °C. Za tak obrovského tlaku ale teplota tání železa prudce stoupá, takže zůstává pevné.",
+    "en": "The inner core is mostly an iron–nickel alloy with a surface temperature of about 5,400 °C (9,800 °F). Under such enormous pressure, however, iron's melting point rises sharply, so the core stays solid."
+   }
+  },
+  {
+   "id": "T253-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč se v hodinkách používá krystal křemene?",
+    "en": "Why is a quartz crystal used in watches?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve tmě slabě svítí",
+     "Přitahuje kovové ručičky",
+     "Pod napětím velmi přesně kmitá",
+     "Nikdy se neopotřebuje"
+    ],
+    "en": [
+     "It glows faintly in the dark",
+     "It attracts the metal hands",
+     "It oscillates very precisely under voltage",
+     "It never wears out"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Křemen je piezoelektrický: elektrické napětí ho rozkmitá s velmi stálou frekvencí, obvykle 32 768 Hz. To je 2 na 15, takže 15 děliček dvěma z ní udělá přesně jeden impulz za sekundu.",
+    "en": "Quartz is piezoelectric: a voltage makes it oscillate at a very stable frequency, usually 32,768 Hz. That is 2 to the 15th power, so 15 divide-by-two stages turn it into exactly one pulse per second."
+   }
+  },
+  {
+   "id": "T253-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se nazývají zkameněliny druhů, které žily jen krátce, ale na velkém území, takže podle nich lze určovat stáří horninových vrstev?",
+    "en": "What are fossils of species that lived only briefly but over a wide area, so that they can be used to date rock layers, called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Stopové zkameněliny",
+     "Pseudofosilie",
+     "Živoucí fosilie",
+     "Vůdčí zkameněliny"
+    ],
+    "en": [
+     "Trace fossils",
+     "Pseudofossils",
+     "Living fossils",
+     "Index fossils"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vůdčí zkamenělina musí mít krátký časový rozsah, velké geografické rozšíření a rychlý vývoj. Klasickými příklady jsou amoniti, trilobiti a graptoliti.",
+    "en": "An index fossil needs a short time range, a wide geographic distribution and rapid evolution. Classic examples are ammonites, trilobites and graptolites."
+   }
+  },
+  {
+   "id": "T253-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Která vědkyně roku 1936 z rozboru seismických vln zjistila, že Země má uvnitř tekutého vnějšího jádra ještě pevné vnitřní jádro?",
+    "en": "Which scientist discovered in 1936, by analysing seismic waves, that Earth has a solid inner core inside its liquid outer core?"
+   },
+   "moznosti": {
+    "cs": [
+     "Marie Curie-Skłodowská",
+     "Lise Meitnerová (Lise Meitner)",
+     "Inge Lehmannová (Inge Lehmann)",
+     "Marie Tharpová (Marie Tharp)"
+    ],
+    "en": [
+     "Marie Curie",
+     "Lise Meitner",
+     "Inge Lehmann",
+     "Marie Tharp"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Dánská seismoložka Inge Lehmannová k objevu došla rozborem seismogramů zemětřesení na Novém Zélandu. Vnitřní jádro je podle dnešních poznatků převážně ze slitiny železa a niklu.",
+    "en": "Danish seismologist Inge Lehmann made the discovery by analysing seismograms of earthquakes in New Zealand. The inner core is now thought to be mostly an iron–nickel alloy."
+   }
+  },
+  {
+   "id": "T253-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který minerál je považován za nejhojnější minerál zemského pláště?",
+    "en": "Which mineral is considered the most abundant mineral in Earth's mantle?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bridgmanit",
+     "Křemen",
+     "Magnetit",
+     "Kalcit"
+    ],
+    "en": [
+     "Bridgmanite",
+     "Quartz",
+     "Magnetite",
+     "Calcite"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Bridgmanit tvoří velkou část spodního pláště v hloubce asi 670–2 700 km. Jméno dostal až roku 2014 po fyzikovi Percym Bridgmanovi a v přírodě ho poprvé našli v meteoritu Tenham.",
+    "en": "Bridgmanite makes up much of the lower mantle at depths of about 670–2,700 km (420–1,700 mi). It was only named in 2014, after physicist Percy Bridgman, and was first found in nature in the Tenham meteorite."
+   }
+  },
+  {
+   "id": "T253-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Nejstarší známé krystaly pozemského původu pocházejí z pohoří Jack Hills v Západní Austrálii. O jaký minerál jde?",
+    "en": "The oldest known crystals of terrestrial origin come from the Jack Hills in Western Australia. Which mineral are they?"
+   },
+   "moznosti": {
+    "cs": [
+     "Granát",
+     "Zirkon",
+     "Diamant",
+     "Křemen"
+    ],
+    "en": [
+     "Garnet",
+     "Zircon",
+     "Diamond",
+     "Quartz"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Zirkony z Jack Hills jsou nejstarším dosud nalezeným materiálem pozemského původu a pocházejí z hadaika, nejranějšího období dějin Země. Drobná zrnka se dochovala ve slepenci, který je mnohem mladší než ona sama.",
+    "en": "The Jack Hills zircons are the oldest material of terrestrial origin found to date and come from the Hadean, the earliest phase of Earth's history. The tiny grains survived in a conglomerate that is much younger than they are."
+   }
+  },
+  {
+   "id": "T253-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na lokalitě Klonk v Česku byl roku 1972 stanoven vůbec první „zlatý hřeb“ (GSSP), tedy mezinárodní vzorový bod hranice geologických útvarů. Hranici kterých dvou období vyznačuje?",
+    "en": "At the Klonk site in the Czech Republic, the very first 'golden spike' (GSSP) – an international reference point for a geological boundary – was established in 1972. Which two periods does it separate?"
+   },
+   "moznosti": {
+    "cs": [
+     "Permu a triasu",
+     "Siluru a devonu",
+     "Křídy a paleogénu",
+     "Kambria a ordoviku"
+    ],
+    "en": [
+     "Permian and Triassic",
+     "Silurian and Devonian",
+     "Cretaceous and Paleogene",
+     "Cambrian and Ordovician"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Zlatý hřeb je místo ve vrstvách, kde je hranice mezi dvěma útvary závazně určena pro celý svět. Na Klonku ho označuje bronzová deska a nejde o žádný skutečný zlatý hřeb.",
+    "en": "A golden spike is the place in the rock layers where the boundary between two units is fixed for the whole world. At Klonk it is marked by a bronze plaque, not an actual golden spike."
+   }
+  },
+  {
+   "id": "T253-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co se v březnu 2024 stalo s návrhem vyhlásit antropocén za novou oficiální geologickou epochu?",
+    "en": "What happened in March 2024 to the proposal to declare the Anthropocene a new official geological epoch?"
+   },
+   "moznosti": {
+    "cs": [
+     "Geologové ho odmítli",
+     "Byl přijat od roku 1610",
+     "Byl přijat od roku 1784",
+     "Byl přijat od roku 1950"
+    ],
+    "en": [
+     "Geologists rejected it",
+     "It was adopted from 1610",
+     "It was adopted from 1784",
+     "It was adopted from 1950"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hlasování skončilo 12 : 4 proti a Mezinárodní unie geologických věd výsledek potvrdila, takže oficiálně dál žijeme v holocénu. Jako vzorové místo se navrhovalo kanadské jezero Crawford Lake s plutoniem z jaderných testů v usazeninách.",
+    "en": "The vote ended 12 to 4 against and the International Union of Geological Sciences confirmed the result, so officially we still live in the Holocene. The proposed reference site was Crawford Lake in Canada, whose sediments hold plutonium from nuclear tests."
+   }
+  },
+  {
+   "id": "T253-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Dánský učenec Nicolas Steno (Niels Stensen) formuloval roku 1669 zákon superpozice, podle něhož jsou nižší vrstvy starší. Čím se později stal?",
+    "en": "Danish scholar Nicolas Steno (Niels Stensen) formulated the law of superposition in 1669, stating that lower layers are older. What did he later become?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ředitelem královské mincovny",
+     "Rektorem univerzity v Leidenu",
+     "Osobním lékařem francouzského krále",
+     "Katolickým biskupem"
+    ],
+    "en": [
+     "Director of the royal mint",
+     "Rector of Leiden University",
+     "Personal physician to the French king",
+     "A Catholic bishop"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Roku 1667 konvertoval ke katolictví, roku 1677 se stal biskupem a roku 1988 ho papež Jan Pavel II. blahořečil. K geologii ho přivedla pitva žraločí hlavy, při níž poznal, že „jazykové kameny“ v horninách jsou zkamenělé žraločí zuby.",
+    "en": "He converted to Catholicism in 1667, became a bishop in 1677 and was beatified by Pope John Paul II in 1988. Dissecting a shark's head led him to geology, when he realised that 'tongue stones' found in rocks were fossil shark teeth."
+   }
+  },
+  {
+   "id": "T253-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Skotský přírodovědec James Hutton, označovaný za otce moderní geologie, shrnul své poznání o stáří Země slavnou větou. Jak zní?",
+    "en": "Scottish naturalist James Hutton, called the father of modern geology, summed up his view of Earth's age in a famous sentence. What is it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Žádná stopa počátku, žádná vyhlídka na konec",
+     "Země vychladla z žhavé koule",
+     "Všechny horniny se usadily z dávného oceánu",
+     "Hory a údolí vytvořila potopa světa"
+    ],
+    "en": [
+     "No vestige of a beginning, no prospect of an end",
+     "The Earth cooled from a glowing ball",
+     "All rocks settled out of an ancient ocean",
+     "Mountains and valleys were carved by the Flood"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hutton pochopil, že pomalé procesy jako eroze a usazování potřebují nepředstavitelně dlouhý čas. Roku 1788 mu to potvrdila diskordance na skotském mysu Siccar Point, kde na skloněných starších vrstvách leží vodorovné mladší.",
+    "en": "Hutton realised that slow processes such as erosion and deposition require unimaginably long spans of time. In 1788 this was confirmed by the unconformity at Siccar Point in Scotland, where horizontal younger layers rest on tilted older ones."
+   }
+  },
+  {
+   "id": "T253-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Světlá slída muskovit dostala jméno podle země, kde se její průhledné tabulky ve středověku používaly místo okenního skla. O kterou zemi jde?",
+    "en": "The pale mica muscovite was named after the land where its transparent sheets were used instead of window glass in the Middle Ages. Which land was it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Moskevská Rus",
+     "Benátská republika",
+     "Osmanská říše",
+     "Polsko-litevská unie"
+    ],
+    "en": [
+     "Muscovy",
+     "Republic of Venice",
+     "Ottoman Empire",
+     "Polish–Lithuanian union"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "V alžbětinské Anglii se mu říkalo „Muscovy glass“, moskevské sklo, protože ve středověkém Rusku sloužil jako levnější náhrada skla v oknech. Slídy tvoří spolu s křemenem a živcem i žulu.",
+    "en": "In Elizabethan England it was called 'Muscovy glass' because in medieval Russia it served as a cheaper substitute for window glass. Together with quartz and feldspar, micas are also found in granite."
+   }
+  },
+  {
+   "id": "T253-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Fluorit, minerál se stupněm 4 na Mohsově stupnici, dal roku 1852 jméno jevu fluorescence. Podle čeho dostal jméno on sám?",
+    "en": "Fluorite, the mineral with a value of 4 on the Mohs scale, gave its name to the phenomenon of fluorescence in 1852. What was fluorite itself named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Podle květinovitých shluků krystalů",
+     "Podle řeky, u níž byl objeven",
+     "Podle fialové barvy, kterou mívá",
+     "Podle latinského „téct“ – sloužil jako tavidlo"
+    ],
+    "en": [
+     "Its flower-like clusters of crystals",
+     "The river where it was discovered",
+     "The violet colour it often has",
+     "The Latin 'to flow' – it served as a flux"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Latinské fluere znamená téct: fluorit se přidával při tavení rud, aby kov snáz tekl. Fluorescenci podle něj pojmenoval George Gabriel Stokes, protože některé fluority pod UV světlem výrazně svítí.",
+    "en": "Latin fluere means to flow: fluorite was added when smelting ores to help the metal flow. George Gabriel Stokes named fluorescence after it, because some fluorites glow strongly under UV light."
+   }
+  },
+  {
+   "id": "T253-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Diamant (10) a korund (9) dělí na Mohsově stupnici jediný stupeň. Kolikrát je diamant zhruba tvrdší podle měření sklerometrem?",
+    "en": "Diamond (10) and corundum (9) are just one step apart on the Mohs scale. Roughly how many times harder is diamond according to sclerometer measurements?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 1,1krát",
+     "Asi 2krát",
+     "Asi 4krát",
+     "Asi 10krát"
+    ],
+    "en": [
+     "About 1.1 times",
+     "About 2 times",
+     "About 4 times",
+     "About 10 times"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Mohsova stupnice je jen pořadová: říká, co co poškrábe, ne o kolik je to tvrdší. Na sklerometru má diamant hodnotu 1 500 a korund 400.",
+    "en": "The Mohs scale is only ordinal: it shows what scratches what, not how much harder it is. On a sclerometer diamond scores 1,500 and corundum 400."
+   }
+  }
+ ]
+}

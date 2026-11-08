@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T213",
+ "nazev": {
+  "cs": "Kuriózní sporty a hry světa",
+  "en": "Unusual Sports and Games of the World"
+ },
+ "kategorie": {
+  "id": "kuriozity",
+  "nazev": {
+   "cs": "Kuriozity",
+   "en": "Curiosities"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T213-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Sepak takraw, oblíbený sport jihovýchodní Asie, připomíná volejbal přes síť. Čím se od něj ale zásadně liší?",
+    "en": "Sepak takraw, a popular sport in Southeast Asia, resembles volleyball played over a net. What is the key difference?"
+   },
+   "moznosti": {
+    "cs": [
+     "Míč se nesmí hrát rukama ani pažemi",
+     "Hráči odbíjejí míč malými raketami",
+     "Míč musí před každým odbitím dopadnout na zem",
+     "Hraje se s míčem naplněným vodou"
+    ],
+    "en": [
+     "The ball may not be played with the hands or arms",
+     "Players hit the ball with small rackets",
+     "The ball must bounce on the ground before every hit",
+     "It is played with a water-filled ball"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hráči smějí míč hrát jen nohama, koleny, rameny, hrudí a hlavou – dotek ruky nebo paže je chyba. Hra je proto plná akrobatických kopů.",
+    "en": "Players may use only their feet, knees, shoulders, chest and head – touching the ball with a hand or arm is a fault. That is why the game is full of acrobatic kicks."
+   }
+  },
+  {
+   "id": "T213-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ze které země pochází pétanque, hra s kovovými koulemi, které se hází co nejblíž k malé dřevěné kuličce?",
+    "en": "Which country does pétanque come from – the game in which metal balls are thrown as close as possible to a small wooden ball?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Francie",
+     "Ze Španělska",
+     "Z Itálie",
+     "Z Belgie"
+    ],
+    "en": [
+     "France",
+     "Spain",
+     "Italy",
+     "Belgium"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pétanque vznikla v Provenci na jihu Francie. Malá cílová kulička se francouzsky jmenuje cochonnet, doslova „prasátko“.",
+    "en": "Pétanque originated in Provence in southern France. The small target ball is called the cochonnet in French, literally 'piglet'."
+   }
+  },
+  {
+   "id": "T213-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi vznikl moderní florbal, hra s plastovým děrovaným míčkem a lehkými hokejkami?",
+    "en": "In which country did modern floorball – the game with a plastic ball full of holes and light sticks – originate?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Česku",
+     "Ve Švédsku",
+     "Ve Finsku",
+     "V Kanadě"
+    ],
+    "en": [
+     "Czech Republic",
+     "Sweden",
+     "Finland",
+     "Canada"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Florbal vznikl ve Švédsku koncem 60. let a jeho první pravidla tam byla sepsána roku 1979. Míček má 26 otvorů a váží jen 23 gramů.",
+    "en": "Floorball was developed in Sweden in the late 1960s, and its first rules were drawn up there in 1979. The ball has 26 holes and weighs just 23 grams (0.81 oz)."
+   }
+  },
+  {
+   "id": "T213-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi se každoročně koná mistrovství světa v nošení manželek?",
+    "en": "In which country are the World Wife Carrying Championships held every year?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Finsku",
+     "V Irsku",
+     "V Estonsku",
+     "V Norsku"
+    ],
+    "en": [
+     "Finland",
+     "Ireland",
+     "Estonia",
+     "Norway"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Mistrovství se koná ve finském Sonkajärvi, kde soutěž vznikla. Estonsko zná svět tohoto sportu díky „estonskému stylu“, při němž žena visí hlavou dolů na zádech nosiče.",
+    "en": "The championships take place in Sonkajärvi, Finland, where the sport began. Estonia is known in the sport for the 'Estonian carry', in which the wife hangs upside down on the carrier's back."
+   }
+  },
+  {
+   "id": "T213-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Zápasník sumó prohraje, když je vytlačen z kruhu, nebo když…",
+    "en": "A sumo wrestler loses if he is forced out of the ring or if he…"
+   },
+   "moznosti": {
+    "cs": [
+     "třikrát za sebou ustoupí dozadu",
+     "ho soupeř udrží tři sekundy v klinči",
+     "ho soupeř zvedne ze země",
+     "se země dotkne jinou částí těla než chodidly"
+    ],
+    "en": [
+     "steps backwards three times in a row",
+     "is held in a clinch by his opponent for three seconds",
+     "is lifted off the ground by his opponent",
+     "touches the ground with any part of his body other than the soles of his feet"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Stačí, aby se země uvnitř kruhu dotkl třeba jen konečkem prstu nebo kolenem. Zápasy proto často trvají jen několik sekund.",
+    "en": "Touching the ground inside the ring with as little as a fingertip or a knee is enough to lose. That is why many bouts last only a few seconds."
+   }
+  },
+  {
+   "id": "T213-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Skutečný sport quadball, při kterém hráči běhají s tyčí mezi nohama, vznikl podle smyšlené hry z knih o…",
+    "en": "The real-life sport of quadball, in which players run with a stick between their legs, was based on a fictional game from the books about…"
+   },
+   "moznosti": {
+    "cs": [
+     "Harrym Potterovi",
+     "Percym Jacksonovi",
+     "Zaklínači",
+     "Letopisech Narnie"
+    ],
+    "en": [
+     "Harry Potter",
+     "Percy Jackson",
+     "The Witcher",
+     "The Chronicles of Narnia"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "V knihách J. K. Rowlingové se famfrpál (quidditch) hraje na létajících košťatech. Ve skutečné verzi hráči drží mezi nohama obvykle trubku z PVC a hrají s mírně podfouknutým volejbalovým míčem a třemi vybíjecími míči.",
+    "en": "In J. K. Rowling's books, quidditch is played on flying broomsticks. In the real version players usually hold a PVC pipe between their legs and use a slightly deflated volleyball and three dodgeballs."
+   }
+  },
+  {
+   "id": "T213-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ze které země pochází hurling, bleskově rychlá hra s dřevěnou holí a malým koženým míčkem?",
+    "en": "Which country does hurling come from – the lightning-fast game played with a wooden stick and a small leather ball?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Nového Zélandu",
+     "Z Walesu",
+     "Ze Skotska",
+     "Z Irska"
+    ],
+    "en": [
+     "New Zealand",
+     "Wales",
+     "Scotland",
+     "Ireland"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Hurling je starobylá gaelská irská hra, první písemné zmínky jsou v irských zákonech ze 7. století. Bývá považován za jeden z nejrychlejších polních sportů na světě.",
+    "en": "Hurling is an ancient Gaelic Irish game, first mentioned in seventh-century Irish law texts. It is often described as one of the fastest field sports on earth."
+   }
+  },
+  {
+   "id": "T213-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kolik hráčů má kriketový tým na hřišti?",
+    "en": "How many players does a cricket team have on the field?"
+   },
+   "moznosti": {
+    "cs": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ],
+    "en": [
+     "9",
+     "10",
+     "11",
+     "12"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kriket hrají dva týmy po jedenácti hráčích. Nadhazovač míří na branku (wicket) ze tří kolíků se dvěma příčnými špalíčky.",
+    "en": "Cricket is played by two teams of eleven players. The bowler aims at the wicket, made of three stumps topped by two bails."
+   }
+  },
+  {
+   "id": "T213-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ze které země pochází kabaddi, kontaktní hra dvou družstev, která je tam dodnes nesmírně populární?",
+    "en": "Which country does kabaddi come from – the contact team game that remains hugely popular there today?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Mongolska",
+     "Z Thajska",
+     "Z Indie",
+     "Z Indonésie"
+    ],
+    "en": [
+     "Mongolia",
+     "Thailand",
+     "India",
+     "Indonesia"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kabaddi pochází z indického subkontinentu; moderní pravidla vznikla v Indii (Maháráštra, 1921). Od roku 2014 tam funguje profesionální Pro Kabaddi League a kabaddi je také národním sportem Bangladéše.",
+    "en": "Kabaddi comes from the Indian subcontinent; its modern rules were drawn up in India (Maharashtra, 1921). The professional Pro Kabaddi League has run there since 2014, and kabaddi is also the national sport of Bangladesh."
+   }
+  },
+  {
+   "id": "T213-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo jako první hrál lakros, hru s holí zakončenou síťkou?",
+    "en": "Who were the first people to play lacrosse, the game played with a stick ending in a small net?"
+   },
+   "moznosti": {
+    "cs": [
+     "Francouzští misionáři",
+     "Britští vojáci v koloniích",
+     "Původní obyvatelé Severní Ameriky",
+     "Skotští přistěhovalci v Kanadě"
+    ],
+    "en": [
+     "French missionaries",
+     "British soldiers in the colonies",
+     "Indigenous peoples of North America",
+     "Scottish immigrants in Canada"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Lakros vychází z her, které domorodí Američané hráli už kolem roku 1100. Považuje se za nejstarší organizovaný sport Severní Ameriky.",
+    "en": "Lacrosse is based on games played by Native American communities as early as around 1100 AD. It is considered the oldest organised sport in North America."
+   }
+  },
+  {
+   "id": "T213-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co musí útočník v kabaddi během celého nájezdu na polovinu soupeře nepřetržitě opakovat?",
+    "en": "What must a kabaddi raider keep repeating throughout his raid into the opponents' half?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jména svých spoluhráčů",
+     "Slovo „kabaddi“",
+     "Počet soupeřů, kterých se dotkl",
+     "Odpočet sekund do konce nájezdu"
+    ],
+    "en": [
+     "The names of his teammates",
+     "The word 'kabaddi'",
+     "The number of opponents he has touched",
+     "A countdown to the end of the raid"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Nepřetržitým opakováním slova „kabaddi“ útočník rozhodčím dokazuje, že celý nájezd zvládl na jeden nádech. Během něj se snaží dotknout soupeřů a vrátit se na svou polovinu.",
+    "en": "By chanting 'kabaddi' without pause, the raider shows the referees that he completed the raid on a single breath. During it he tries to tag opponents and get back to his own half."
+   }
+  },
+  {
+   "id": "T213-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím hráči kolové, tedy míčové hry na jízdních kolech, odehrávají míč?",
+    "en": "In cycle ball, the ball game played on bicycles, what do the players use to play the ball?"
+   },
+   "moznosti": {
+    "cs": [
+     "Především koly svého kola",
+     "Nohama ze sedla",
+     "Pálkou připevněnou k řídítkům",
+     "Krátkou hokejkou"
+    ],
+    "en": [
+     "Mainly the wheels of their bicycle",
+     "Their feet from the saddle",
+     "A bat fixed to the handlebars",
+     "A short hockey stick"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Míč se hraje kolem a hlavou, výjimku mají pravidla jen pro obranu branky. Každé družstvo tvoří dva hráči na kolech s pevným převodem, bez brzd a bez volnoběžky.",
+    "en": "The ball is played with the bike and the head, with an exception only when defending the goal. Each team has two players riding fixed-gear bikes with no brakes or freewheel."
+   }
+  },
+  {
+   "id": "T213-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Nohejbal vznikl kolem roku 1922 v Praze. Členové kterého fotbalového klubu ho vymysleli?",
+    "en": "Futnet (nohejbal) was created in Prague around 1922. Members of which football club invented it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Viktorie Žižkov",
+     "Slavie Praha",
+     "Bohemians",
+     "Sparty Praha"
+    ],
+    "en": [
+     "Viktoria Žižkov",
+     "Slavia Prague",
+     "Bohemians",
+     "Sparta Prague"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Hru vymysleli členové SK Slavia Praha. Původně se jmenovala „fotbal přes šňůru“, protože se hrálo přes natažený provaz, který později nahradila síť.",
+    "en": "The game was invented by members of SK Slavia Prague. It was originally called 'football over the rope', because it was played over a stretched rope that was later replaced by a net."
+   }
+  },
+  {
+   "id": "T213-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak je uspořádán zápas v šachboxu (chess boxing)?",
+    "en": "How is a chess boxing match structured?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kdo prohraje šachovou partii, boxuje s jednou rukou za zády",
+     "Nejdřív se dobojuje box, pak se hraje šachová partie",
+     "Šachovou partii hrají trenéři, zatímco svěřenci boxují",
+     "Kola šachu a boxu se pravidelně střídají"
+    ],
+    "en": [
+     "Whoever loses the chess game boxes with one hand behind his back",
+     "The boxing is completed first, then a game of chess is played",
+     "The coaches play chess while their fighters box",
+     "Rounds of chess and boxing alternate"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Zápas má 11 tříminutových kol – začíná i končí šachem, takže je šest šachových a pět boxerských. Vyhrát se dá knokautem, matem nebo když soupeři dojde čas na šachových hodinách.",
+    "en": "A match has 11 three-minute rounds, starting and ending with chess, so there are six chess rounds and five boxing rounds. You can win by knockout, checkmate or when your opponent runs out of time on the chess clock."
+   }
+  },
+  {
+   "id": "T213-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "O co se přetahují jezdci na koních v buzkaši (buzkashi), národním sportu Afghánistánu?",
+    "en": "In buzkashi, the national sport of Afghanistan, what do the horse riders fight over?"
+   },
+   "moznosti": {
+    "cs": [
+     "O tělo kozy nebo telete",
+     "O praporec na dlouhé tyči",
+     "O dřevěný kruh",
+     "O kožený míč plněný pískem"
+    ],
+    "en": [
+     "A goat or calf carcass",
+     "A flag on a long pole",
+     "A wooden ring",
+     "A sand-filled leather ball"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Jezdci se snaží zvednout zvířecí tělo a dopravit ho do cíle. Perský název se obvykle překládá jako „tahání kozy“; za první vlády Talibanu byla hra zakázána.",
+    "en": "Riders try to pick up the carcass and carry it to the goal. The Persian name is usually translated as 'goat-pulling'; the Taliban banned the game during their first rule."
+   }
+  },
+  {
+   "id": "T213-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém městě se každý červen hraje calcio storico, drsná historická hra kombinující fotbal, ragby a zápas?",
+    "en": "In which city is calcio storico – a brutal historic game combining football, rugby and wrestling – played every June?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Sieně",
+     "Ve Florencii",
+     "V Benátkách",
+     "V Římě"
+    ],
+    "en": [
+     "Siena",
+     "Florence",
+     "Venice",
+     "Rome"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Hrají proti sobě čtyři florentské čtvrti po 27 hráčích na pískem posypaném náměstí Santa Croce. Finále je 24. června, na svátek patrona města sv. Jana Křtitele.",
+    "en": "Four Florentine districts field teams of 27 players on the sand-covered Piazza Santa Croce. The final is held on 24 June, the feast of the city's patron, St John the Baptist."
+   }
+  },
+  {
+   "id": "T213-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím je nizozemský korfbal mezi kolektivními míčovými sporty výjimečný?",
+    "en": "What makes Dutch korfball unusual among team ball sports?"
+   },
+   "moznosti": {
+    "cs": [
+     "Míč se smí hrát jen nohama a hlavou",
+     "Každý tým má dva brankáře",
+     "Každý tým tvoří 4 muži a 4 ženy",
+     "Hraje se na ledě v bruslích"
+    ],
+    "en": [
+     "The ball may only be played with the feet and head",
+     "Each team has two goalkeepers",
+     "Each team consists of 4 men and 4 women",
+     "It is played on ice in skates"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Korfbal je smíšený sport: v každém družstvu hrají čtyři muži a čtyři ženy. Míč se hází do koše bez sítě na 3,5 m vysoké tyči; „korf“ je nizozemsky koš.",
+    "en": "Korfball is a mixed sport: each team has four men and four women. The ball is thrown into a netless basket on a 3.5 m (11.5 ft) pole; 'korf' is Dutch for basket."
+   }
+  },
+  {
+   "id": "T213-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Gaelský fotbal je v Irsku nesmírně populární – finále mistrovství sleduje na stadionu přes 80 000 diváků. Čím se jeho hráči liší od hvězd většiny populárních týmových sportů?",
+    "en": "Gaelic football is hugely popular in Ireland – the championship final draws crowds of more than 80,000. How do its players differ from the stars of most popular team sports?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hrají bez rozhodčích",
+     "Nesmějí dostávat za hraní plat",
+     "Hrají naboso",
+     "Smějí hrát jen do 30 let"
+    ],
+    "en": [
+     "They play without referees",
+     "They may not be paid for playing",
+     "They play barefoot",
+     "They may only play until the age of 30"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Gaelský fotbal patří k posledním přísně amatérským sportům – hráči, trenéři ani manažeři nesmějí dostávat odměnu. Hraje se rukama i nohama, 15 hráčů na každé straně.",
+    "en": "Gaelic football is one of the few remaining strictly amateur sports – players, coaches and managers may not receive payment. It is played with both hands and feet, with 15 players a side."
+   }
+  },
+  {
+   "id": "T213-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Bandy je zimní sport příbuzný lednímu hokeji. Čím se ale hraje místo puku?",
+    "en": "Bandy is a winter sport related to ice hockey. What is it played with instead of a puck?"
+   },
+   "moznosti": {
+    "cs": [
+     "Plochým dřevěným kotoučem",
+     "Žulovým kamenem",
+     "Dvěma puky současně",
+     "Malým kulatým míčkem"
+    ],
+    "en": [
+     "A flat wooden disc",
+     "A granite stone",
+     "Two pucks at once",
+     "A small round ball"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Bandy se hraje míčkem na ledové ploše velké zhruba jako fotbalové hřiště, v každém týmu je 11 hráčů. Nejsilnějšími zeměmi jsou dlouhodobě Švédsko a Rusko.",
+    "en": "Bandy is played with a ball on an ice surface roughly the size of a football pitch, with 11 players per team. Sweden and Russia have long been the strongest nations."
+   }
+  },
+  {
+   "id": "T213-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím hráči baskické míčové hry jai alai chytají a vrhají míček proti stěně?",
+    "en": "What do players of the Basque ball game jai alai use to catch the ball and hurl it against the wall?"
+   },
+   "moznosti": {
+    "cs": [
+     "Krátkou dřevěnou pálkou s úchopem",
+     "Dlouhou zahnutou dřevěnou holí",
+     "Proutěným košíkem nasazeným na ruce",
+     "Raketou s napjatým výpletem"
+    ],
+    "en": [
+     "A short wooden bat with a grip",
+     "A long curved wooden stick",
+     "A wicker basket worn on the hand",
+     "A racket with taut strings"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Proutěný košík ve tvaru rukavice se nazývá xistera (cesta) a míček z něj vylétá obrovskou rychlostí. Název jai alai znamená baskicky „veselá slavnost“.",
+    "en": "The glove-like wicker basket is called a xistera (cesta), and the ball leaves it at tremendous speed. The name jai alai means 'merry festival' in Basque."
+   }
+  },
+  {
+   "id": "T213-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Českoslovenští bratři Jan a Jindřich Pospíšilové jsou nejúspěšnějšími hráči v historii kolové. Kolik titulů mistrů světa v ní získali v letech 1965–1988?",
+    "en": "The Czechoslovak brothers Jan and Jindřich Pospíšil are the most successful players in the history of cycle ball. How many world titles did they win in it between 1965 and 1988?"
+   },
+   "moznosti": {
+    "cs": [
+     "10",
+     "15",
+     "20",
+     "25"
+    ],
+    "en": [
+     "10",
+     "15",
+     "20",
+     "25"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pospíšilové byli mistry světa dvacetkrát. Kolová se hraje ve dvojicích na kolech s pevným převodem a bez brzd.",
+    "en": "The Pospíšils were world champions 20 times. Cycle ball is played in pairs on fixed-gear bikes with no brakes."
+   }
+  },
+  {
+   "id": "T213-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Pétanque vznikla na začátku 20. století ze starší hry, v níž se házelo z rozběhu. Proč se v ní hází z místa?",
+    "en": "Pétanque was born in the early 20th century from an older game in which players threw after a run-up. Why is the ball thrown from a standing position in pétanque?"
+   },
+   "moznosti": {
+    "cs": [
+     "Byla upravena pro hráče, který kvůli revmatu nemohl běhat",
+     "Hrála se v úzkých přístavních uličkách",
+     "Původně se hrála na palubách rybářských lodí",
+     "Místní vyhláška zakazovala běhat po náměstí"
+    ],
+    "en": [
+     "It was adapted for a player who could not run because of rheumatism",
+     "It was played in narrow harbour alleys",
+     "It was originally played on the decks of fishing boats",
+     "A local by-law banned running on the town square"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hráč Jules Lenoir kvůli revmatu už nemohl před hodem běžet, a tak jeho přítel Ernest Pitiot vymyslel variantu na zkráceném hřišti, v níž se hází ve stoje z kruhu. Název pochází z výrazu „pè tancat“ – pevně stojící noha.",
+    "en": "Player Jules Lenoir could no longer run before throwing because of rheumatism, so his friend Ernest Pitiot devised a variant on a shortened pitch with throws made standing inside a circle. The name comes from the expression 'pè tancat' – 'foot planted'."
+   }
+  },
+  {
+   "id": "T213-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Které pravidlo platí v pólu pro všechny hráče včetně leváků?",
+    "en": "Which rule applies to all polo players, including left-handers?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hůl musí držet oběma rukama",
+     "Musejí jezdit bez sedla",
+     "Hůl smějí držet jen v pravé ruce",
+     "Míč smějí odpálit jen z levé strany koně"
+    ],
+    "en": [
+     "They must hold the mallet with both hands",
+     "They must ride without a saddle",
+     "They may hold the mallet only in the right hand",
+     "They may hit the ball only from the horse's left side"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pólo se podle pravidel musí hrát pravou rukou, aby se předešlo čelním srážkám koní. Hra pochází ze starověké Persie a jméno dostala z baltského slova pro míč.",
+    "en": "The rules state polo must be played right-handed to prevent head-on collisions. The game comes from ancient Persia, and its name derives from the Balti word for 'ball'."
+   }
+  },
+  {
+   "id": "T213-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Nizozemský umělec Iepe Rubingh uspořádal první šachboxový zápas v roce 2003. Kde se ale tato kombinace sportů objevila už dřív?",
+    "en": "Dutch artist Iepe Rubingh staged the first chess boxing match in 2003. Where had this combination of sports appeared earlier?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Nabokovově Lužinově obraně",
+     "V Hemingwayově románu Fiesta",
+     "V Zweigově Šachové novele",
+     "V komiksu Francouze Enkiho Bilala"
+    ],
+    "en": [
+     "In Nabokov's The Luzhin Defense",
+     "In Hemingway's The Sun Also Rises",
+     "In Zweig's The Royal Game",
+     "In a comic by Frenchman Enki Bilal"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Šachbox popsal francouzský autor komiksů Enki Bilal v díle Froid Équateur (1992), tedy jedenáct let před prvním skutečným zápasem.",
+    "en": "French comic artist Enki Bilal depicted chess boxing in his 1992 comic Froid Équateur, eleven years before the first real match."
+   }
+  },
+  {
+   "id": "T213-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč se sport, který dnes nese název quadball, v roce 2022 přejmenoval?",
+    "en": "Why did the sport now known as quadball change its name in 2022?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kvůli sloučení s mezinárodní ragbyovou federací",
+     "Kvůli ochranné známce studia Warner Bros.",
+     "Kvůli přechodu na čtyři obruče místo tří",
+     "Kvůli podmínce MOV pro vstup na olympiádu"
+    ],
+    "en": [
+     "Because of a merger with the international rugby federation",
+     "Because of the Warner Bros. trademark",
+     "Because of a switch to four hoops instead of three",
+     "Because of an IOC condition for joining the Olympics"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ligy se chtěly vyhnout sporu o ochrannou známku studia Warner Bros. a zároveň se distancovat od názorů autorky knižní předlohy. Nový název odkazuje na čtyři míče ve hře a zachovává počáteční písmeno Q.",
+    "en": "The leagues wanted to avoid a trademark dispute with Warner Bros. and also distance themselves from the views of the author of the original books. The new name refers to the game's four balls and keeps the initial letter Q."
+   }
+  },
+  {
+   "id": "T213-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Slavný zápas calcia storica se hrál 17. února 1530. Co bylo na tehdejší situaci města, kde se hrál, výjimečné?",
+    "en": "A famous calcio storico match was played on 17 February 1530. What was unusual about the situation of the city where it took place at the time?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve městě se konala volba papeže",
+     "Město obléhala vojska císaře Karla V.",
+     "Řeka protékající městem zamrzla až ke dnu",
+     "Ve městě se konal církevní koncil"
+    ],
+    "en": [
+     "A papal election was being held in the city",
+     "The city was under siege by Emperor Charles V's troops",
+     "The river through the city had frozen solid",
+     "A church council was being held in the city"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Obyvatelé města hru uspořádali navzdory obléhání jako demonstraci vzdoru vůči císařským vojskům. Vítězové kdysi dostávali krávu plemene chianina, dnes jen večeři zdarma.",
+    "en": "The townspeople staged the game in defiance of the besieging imperial troops. Winners once received a Chianina cow; today they get a free dinner."
+   }
+  },
+  {
+   "id": "T213-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve velšském Llanwrtyd Wells se koná mistrovství světa v plavání bažinou (bog snorkelling): závodníci dvakrát proplavou 55 m dlouhý příkop v rašelině. Co přitom NENÍ dovoleno?",
+    "en": "The World Bog Snorkelling Championships are held in Llanwrtyd Wells, Wales: competitors swim two lengths of a 55 m (180 ft) trench cut through a peat bog. What is NOT allowed?"
+   },
+   "moznosti": {
+    "cs": [
+     "Potápěčská maska",
+     "Ploutve",
+     "Neoprenový oblek",
+     "Klasická plavecká tempa"
+    ],
+    "en": [
+     "A diving mask",
+     "Flippers",
+     "A wetsuit",
+     "Conventional swimming strokes"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Závodníci se smějí pohybovat jen silou ploutví; šnorchl, maska a ploutve jsou povinné, neopren je dobrovolný. Sport vznikl v Llanwrtyd Wells v roce 1976, mistrovství světa se tu koná od roku 1988.",
+    "en": "Competitors may move by flipper power alone; a snorkel, mask and flippers are compulsory and a wetsuit is optional. The sport began in Llanwrtyd Wells in 1976, and the world championship has been held there since 1988."
+   }
+  },
+  {
+   "id": "T213-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Při závodě na anglickém kopci Cooper's Hill dostane kolo sýra asi sekundový náskok a závodníci se za ním řítí po prudkém svahu. Kdo sýr vyhraje?",
+    "en": "In the race on England's Cooper's Hill, a wheel of cheese gets a head start of about a second and competitors hurtle after it down a steep slope. Who wins the cheese?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ten, kdo sýr najde, když se zastaví",
+     "Ten, koho diváci zvolí nejodvážnějším",
+     "Ten, kdo první proběhne cílem pod kopcem",
+     "Ten, kdo se při sběhu nejméně převalí"
+    ],
+    "en": [
+     "The person who finds the cheese once it stops",
+     "The person the crowd votes the bravest",
+     "The first person across the finish line at the bottom",
+     "The person who tumbles the fewest times on the way down"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Závodníci se sice snaží sýr chytit, ten však nabírá takovou rychlost, že ho prakticky nikdo nedostihne – vyhrává ten, kdo první doběhne (nebo dopadne) do cíle. Rekord drží Chris Anderson s 23 vítězstvími z let 2005–2022 (k roku 2026).",
+    "en": "Competitors do aim to catch the cheese, but it gathers so much speed that it is practically never caught – the winner is whoever reaches (or tumbles across) the finish line first. The record is held by Chris Anderson, with 23 wins between 2005 and 2022 (as of 2026)."
+   }
+  },
+  {
+   "id": "T213-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Curlingu se v jeho domovině Skotsku přezdívá „roaring game“ (hučící hra). Proč?",
+    "en": "In its Scottish homeland, curling is nicknamed 'the roaring game'. Why?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kvůli troubení rohů na zahájení zápasu",
+     "Kvůli hukotu kamenů klouzajících po ledu",
+     "Kvůli řevu diváků po každém endu",
+     "Kvůli hukotu větru na zamrzlých jezerech"
+    ],
+    "en": [
+     "Because horns were blown to start a match",
+     "Because of the rumbling sound of the stones sliding over the ice",
+     "Because of the crowd's roar after every end",
+     "Because of the wind roaring over frozen lochs"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Přezdívka vychází ze zvuku, který vydávají kameny jedoucí po zrnitém („pebbled“) ledu. Nejstarší písemný záznam o curlingu je z opatství Paisley z roku 1541.",
+    "en": "The nickname comes from the sound the stones make as they travel over the pebbled ice. The earliest written record of curling comes from Paisley Abbey in 1541."
+   }
+  },
+  {
+   "id": "T213-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co musí podle pravidel mistrovství světa v nošení manželek udělat dvojice, pokud nesená žena váží méně než 49 kg?",
+    "en": "Under the rules of the World Wife Carrying Championships, what must a couple do if the woman being carried weighs less than 49 kg (108 lb)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Muž ji musí nést v náručí",
+     "Dvojice dostane časovou penalizaci",
+     "Dvojice poběží trať dvakrát",
+     "Chybějící váha se doplní batohem se závažím"
+    ],
+    "en": [
+     "The man must carry her in his arms",
+     "The couple receives a time penalty",
+     "The couple runs the course twice",
+     "The missing weight is made up with a weighted backpack"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Chybějící kilogramy do 49 kg se doplní závažím v batohu. Trať měří 253,5 m a má vodní překážku hlubokou asi metr; vítězná dvojice dostane mimo jiné tolik „nápoje pro nošení manželek“, kolik váží nesená žena.",
+    "en": "The shortfall up to 49 kg (108 lb) is made up with weights in a backpack. The course is 253.5 m (831.7 ft) long with a water obstacle about a metre (3 ft) deep; among other prizes, the winning pair receives the wife's weight in 'wife-carrying drink'."
+   }
+  }
+ ]
+}

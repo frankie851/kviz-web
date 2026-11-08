@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T232",
+ "nazev": {
+  "cs": "Habsburkové a Rakousko-Uhersko",
+  "en": "The Habsburgs and Austria-Hungary"
+ },
+ "kategorie": {
+  "id": "historie",
+  "nazev": {
+   "cs": "Historie",
+   "en": "History"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T232-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které dnešní zemi stojí hrad Habsburg, podle něhož dostal rod Habsburků jméno?",
+    "en": "In which present-day country does Habsburg Castle, which gave the Habsburg dynasty its name, stand?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Švýcarsku",
+     "V Německu",
+     "V Česku",
+     "V Rakousku"
+    ],
+    "en": [
+     "Switzerland",
+     "Germany",
+     "Czech Republic",
+     "Austria"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hrad Habsburg leží ve švýcarském kantonu Aargau. Postavil ho kolem roku 1020 hrabě Radbot; rod se do Rakouska dostal až o více než 250 let později.",
+    "en": "Habsburg Castle stands in the Swiss canton of Aargau. Count Radbot built it around 1020; the family only reached Austria more than 250 years later."
+   }
+  },
+  {
+   "id": "T232-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Do kterého města přesunul císař Rudolf II. roku 1583 své sídlo a císařský dvůr?",
+    "en": "To which city did Emperor Rudolf II move his residence and the imperial court in 1583?"
+   },
+   "moznosti": {
+    "cs": [
+     "Do Prahy",
+     "Do Vídně",
+     "Do Brna",
+     "Do Innsbrucku"
+    ],
+    "en": [
+     "Prague",
+     "Vienna",
+     "Brno",
+     "Innsbruck"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Rudolf II. přenesl roku 1583 sídlo z Vídně do Prahy. Jako štědrý mecenáš k sobě přitahoval přední umělce a učence své doby.",
+    "en": "In 1583 Rudolf II moved the Habsburg seat from Vienna to Prague. A generous patron, he drew leading artists and scholars of his time to his court."
+   }
+  },
+  {
+   "id": "T232-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém roce se odehrála bitva na Bílé hoře?",
+    "en": "In which year was the Battle of White Mountain fought?"
+   },
+   "moznosti": {
+    "cs": [
+     "1609",
+     "1618",
+     "1620",
+     "1648"
+    ],
+    "en": [
+     "1609",
+     "1618",
+     "1620",
+     "1648"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Bitva na Bílé hoře u Prahy proběhla 8. listopadu 1620 a císařská vojska v ní porazila české stavy. Samotný boj trval jen zhruba hodinu.",
+    "en": "The Battle of White Mountain near Prague took place on 8 November 1620, and the imperial army defeated the Bohemian Estates. The fighting itself lasted only about an hour."
+   }
+  },
+  {
+   "id": "T232-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterou reformu zavedla Marie Terezie roku 1774 ve školství?",
+    "en": "Which reform did Maria Theresa introduce in education in 1774?"
+   },
+   "moznosti": {
+    "cs": [
+     "Výuku pouze v latině na všech školách",
+     "Povinnou školní docházku",
+     "Jednotné školní uniformy",
+     "Bezplatné studium na univerzitách"
+    ],
+    "en": [
+     "Latin-only teaching in all schools",
+     "Compulsory school attendance",
+     "Uniform school dress",
+     "Free university study"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Školská reforma z prosince 1774 zavedla povinnou docházku pro chlapce i dívky ve věku od šesti do dvanácti let.",
+    "en": "The school reform of December 1774 made attendance compulsory for both boys and girls aged six to twelve."
+   }
+  },
+  {
+   "id": "T232-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který tělesný rys byl u mnoha Habsburků tak častý, že dostal jejich jméno?",
+    "en": "Which physical trait was so common among the Habsburgs that it was named after them?"
+   },
+   "moznosti": {
+    "cs": [
+     "Orlí nos",
+     "Odstávající uši",
+     "Zrzavé vlasy",
+     "Vystouplá dolní čelist"
+    ],
+    "en": [
+     "An aquiline nose",
+     "Protruding ears",
+     "Red hair",
+     "A protruding lower jaw"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Vystouplé dolní čelisti (mandibulární prognatii) se říká „habsburská brada“ nebo také habsburský ret, protože byla mezi Habsburky velmi častá. Spojuje se s příbuzenskými sňatky; nejvýraznější ji podle všeho měl španělský král Karel II.",
+    "en": "A protruding lower jaw (mandibular prognathism) is called the 'Habsburg jaw' or 'Habsburg lip' because it was so common in the family. It is linked to inbreeding; Charles II of Spain is said to have had the most pronounced case on record."
+   }
+  },
+  {
+   "id": "T232-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo byl posledním panovníkem Rakouska-Uherska?",
+    "en": "Who was the last ruler of Austria-Hungary?"
+   },
+   "moznosti": {
+    "cs": [
+     "Karel I.",
+     "František Josef I.",
+     "František Ferdinand d'Este",
+     "Maxmilián I."
+    ],
+    "en": [
+     "Charles I",
+     "Franz Joseph I",
+     "Franz Ferdinand",
+     "Maximilian I"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Karel I. nastoupil na trůn roku 1916. V listopadu 1918 se vzdal účasti na vládě, formálně však nikdy neabdikoval. Roku 2004 ho papež Jan Pavel II. blahořečil.",
+    "en": "Charles I came to the throne in 1916. In November 1918 he gave up his part in state affairs but never formally abdicated. Pope John Paul II beatified him in 2004."
+   }
+  },
+  {
+   "id": "T232-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém vídeňském zámku se František Josef I. narodil a roku 1916 také zemřel?",
+    "en": "In which Vienna palace was Franz Joseph I born and, in 1916, also died?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hofburg",
+     "Lichtenštejnský palác",
+     "Belvedere",
+     "Schönbrunn"
+    ],
+    "en": [
+     "Hofburg",
+     "Liechtenstein Palace",
+     "Belvedere",
+     "Schönbrunn"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "František Josef I. se narodil 18. srpna 1830 na zámku Schönbrunn a zemřel tam večer 21. listopadu 1916 ve věku 86 let.",
+    "en": "Franz Joseph I was born at Schönbrunn Palace on 18 August 1830 and died there on the evening of 21 November 1916, aged 86."
+   }
+  },
+  {
+   "id": "T232-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co povolil toleranční patent, který vydal Josef II. roku 1781?",
+    "en": "What did the Patent of Toleration, issued by Joseph II in 1781, allow?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vyznávání víry luteránům, kalvinistům a pravoslavným",
+     "Návrat jezuitského řádu do habsburských zemí",
+     "Volbu panovníka zemským sněmem",
+     "Úplné zrušení roboty pro všechny poddané"
+    ],
+    "en": [
+     "Lutherans, Calvinists and Orthodox to practise their faith",
+     "The return of the Jesuit order to the Habsburg lands",
+     "The election of the monarch by the Estates",
+     "The complete abolition of corvée labour for all serfs"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Patent z 13. října 1781 zaručil luteránům, kalvinistům a pravoslavným omezenou svobodu vyznání. Evangelíci směli stavět jen modlitebny, které nesměly připomínat kostely – bez věží, zvonů a vchodu přímo z ulice.",
+    "en": "The patent of 13 October 1781 granted Lutherans, Calvinists and the Orthodox a limited freedom of worship. Protestants could build only prayer houses that were not allowed to resemble churches – no towers, no bells and no entrance directly from the street."
+   }
+  },
+  {
+   "id": "T232-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Přibližně kolik let vládl František Josef I.?",
+    "en": "Roughly how many years did Franz Joseph I reign?"
+   },
+   "moznosti": {
+    "cs": [
+     "38",
+     "48",
+     "58",
+     "68"
+    ],
+    "en": [
+     "38",
+     "48",
+     "58",
+     "68"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "František Josef I. vládl od 2. prosince 1848 do své smrti 21. listopadu 1916, tedy téměř 68 let. Na trůn nastoupil v Olomouci jako osmnáctiletý.",
+    "en": "Franz Joseph I reigned from 2 December 1848 until his death on 21 November 1916, almost 68 years. He came to the throne at Olmütz (Olomouc) aged eighteen."
+   }
+  },
+  {
+   "id": "T232-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém městě byla roku 1898 zavražděna císařovna Alžběta, zvaná Sisi?",
+    "en": "In which city was Empress Elisabeth, known as Sisi, assassinated in 1898?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Vídni",
+     "V Mnichově",
+     "V Budapešti",
+     "V Ženevě"
+    ],
+    "en": [
+     "Vienna",
+     "Munich",
+     "Budapest",
+     "Geneva"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Sisi byla napadena 10. září 1898 na ženevském nábřeží, když šla z hotelu Beau-Rivage k parníku do Montreux. Krvácení bylo zpočátku pomalé, takže ještě vystoupala po lávce na palubu a teprve tam se zhroutila.",
+    "en": "Sisi was attacked on 10 September 1898 on the Geneva promenade as she walked from the Hôtel Beau-Rivage to a steamer bound for Montreux. The bleeding was slow at first, so she still walked up the gangway and only collapsed on board."
+   }
+  },
+  {
+   "id": "T232-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kterého českého krále porazil Rudolf I. Habsburský roku 1278 v bitvě na Moravském poli?",
+    "en": "Which Bohemian king did Rudolf I of Habsburg defeat at the Battle on the Marchfeld in 1278?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jana Lucemburského",
+     "Přemysla Otakara II.",
+     "Václava II.",
+     "Václava I."
+    ],
+    "en": [
+     "John of Bohemia",
+     "Ottokar II",
+     "Wenceslaus II",
+     "Wenceslaus I"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Přemysl Otakar II. v bitvě padl a Rudolf I., první Habsburk na římském trůnu (od roku 1273), tak získal Rakousko a Štýrsko pro svůj rod. Otakarova syna Václava II. zasnoubil se svou dcerou Gutou (Judith).",
+    "en": "Ottokar II was killed, and Rudolf I, the first Habsburg King of the Romans (from 1273), secured Austria and Styria for his family. He betrothed Ottokar's son Wenceslaus II to his daughter Judith."
+   }
+  },
+  {
+   "id": "T232-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Latinské heslo „Bella gerant alii, tu felix Austria nube“ shrnuje, jak Habsburkové získávali nová území. Jakým způsobem?",
+    "en": "The Latin motto 'Bella gerant alii, tu felix Austria nube' sums up how the Habsburgs acquired new lands. By what means?"
+   },
+   "moznosti": {
+    "cs": [
+     "Koupí",
+     "Výhodnými sňatky",
+     "Papežskými dary",
+     "Válečnými výboji"
+    ],
+    "en": [
+     "By purchase",
+     "Through advantageous marriages",
+     "Through papal grants",
+     "Through military conquest"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Heslo znamená „Ať jiní vedou války, ty, šťastné Rakousko, se žeň“ a vztahovalo se k habsburským sňatkům z let 1477 a 1496. První polovina verše pochází z Ovidiových Heroid.",
+    "en": "The motto means 'Let others wage war; you, happy Austria, marry', and it referred to the Habsburg marriages of 1477 and 1496. The first half of the line comes from Ovid's Heroides."
+   }
+  },
+  {
+   "id": "T232-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Smrt kterého krále v bitvě u Moháče roku 1526 otevřela Habsburkům cestu na český a uherský trůn?",
+    "en": "The death of which king at the Battle of Mohács in 1526 opened the way for the Habsburgs to the Bohemian and Hungarian thrones?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jiřího z Poděbrad",
+     "Ludvíka Jagellonského",
+     "Matyáše Korvína",
+     "Vladislava Jagellonského"
+    ],
+    "en": [
+     "George of Poděbrady",
+     "Louis II Jagiello",
+     "Matthias Corvinus",
+     "Vladislaus II Jagiello"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ludvík Jagellonský se při útěku z bitvy s Turky utopil v bažinatém terénu u potoka Csele, stažen ke dnu brněním. Čechy pak připadly jeho švagrovi Ferdinandovi I. Habsburskému; v Uhrách byl Ferdinand zvolen také, ale soupeřil s Janem Zápolským.",
+    "en": "Louis II drowned in marshy ground near the Csele stream while fleeing the battle against the Ottomans, weighed down by his armour. Bohemia then passed to his brother-in-law Ferdinand I of Habsburg; in Hungary Ferdinand was also elected, but had a rival in John Zápolya."
+   }
+  },
+  {
+   "id": "T232-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který malíř zobrazil roku 1591 Rudolfa II. jako boha Vertumna s tváří složenou z ovoce, zeleniny a květin?",
+    "en": "Which painter portrayed Rudolf II in 1591 as the god Vertumnus, with a face made of fruit, vegetables and flowers?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bartholomeus Spranger",
+     "Giuseppe Arcimboldo",
+     "Hans von Aachen",
+     "Tizian"
+    ],
+    "en": [
+     "Bartholomeus Spranger",
+     "Giuseppe Arcimboldo",
+     "Hans von Aachen",
+     "Titian"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Arcimboldo sestavil císařovu tvář z plodů všech ročních období – hrušek, jablek, hroznů, dýní či artyčoků. Obraz dnes visí na zámku Skokloster ve Švédsku.",
+    "en": "Arcimboldo built the emperor's face from produce of every season, including pears, apples, grapes, gourds and artichokes. The painting now hangs at Skokloster Castle in Sweden."
+   }
+  },
+  {
+   "id": "T232-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč se Fridrichu Falckému, českému králi poraženému na Bílé hoře, přezdívá „zimní král“?",
+    "en": "Why is Frederick of the Palatinate, the Bohemian king defeated at White Mountain, nicknamed the 'Winter King'?"
+   },
+   "moznosti": {
+    "cs": [
+     "Proslul zimními plesy",
+     "Vládl jen zhruba jeden rok",
+     "Do Prahy přijel na saních",
+     "Po porážce se skrýval v ledárně"
+    ],
+    "en": [
+     "He was famous for his winter balls",
+     "He reigned for only about a year",
+     "He arrived in Prague by sleigh",
+     "He hid in an ice house after the defeat"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Stavové zvolili Fridricha českým králem, ale po porážce na Bílé hoře musel i s manželkou Alžbětou uprchnout. Posměšná přezdívka naznačuje, že jeho vláda vydržela jen jednu zimu.",
+    "en": "The Estates elected Frederick King of Bohemia, but after the defeat at White Mountain he had to flee with his wife Elizabeth. The mocking nickname implies his reign lasted only one winter."
+   }
+  },
+  {
+   "id": "T232-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Většinu které bohaté provincie ztratila Marie Terezie hned na začátku své vlády ve prospěch pruského krále Fridricha II.?",
+    "en": "Most of which wealthy province did Maria Theresa lose to King Frederick II of Prussia at the very start of her reign?"
+   },
+   "moznosti": {
+    "cs": [
+     "Haliče",
+     "Tyrolska",
+     "Slezska",
+     "Lombardie"
+    ],
+    "en": [
+     "Galicia",
+     "Tyrol",
+     "Silesia",
+     "Lombardy"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Fridrich II. vtrhl do Slezska krátce po jejím nástupu roku 1740. Mír z Cách roku 1748 uznal pruskou držbu, Habsburkům zůstal jen menší díl (Rakouské Slezsko).",
+    "en": "Frederick II invaded Silesia shortly after her accession in 1740. The Treaty of Aix-la-Chapelle in 1748 recognised Prussian possession, leaving the Habsburgs only a smaller part (Austrian Silesia)."
+   }
+  },
+  {
+   "id": "T232-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč se Habsburkové od 18. století označují jako rod habsbursko-lotrinský?",
+    "en": "Why have the Habsburgs been known as the House of Habsburg-Lorraine since the 18th century?"
+   },
+   "moznosti": {
+    "cs": [
+     "Josef II. dobyl Lotrinsko",
+     "Karel VI. adoptoval lotrinského prince",
+     "Marie Terezie si vzala lotrinského vévodu",
+     "Habsburkové koupili Lotrinsko od Francie"
+    ],
+    "en": [
+     "Joseph II conquered Lorraine",
+     "Charles VI adopted a prince of Lorraine",
+     "Maria Theresa married the Duke of Lorraine",
+     "The Habsburgs bought Lorraine from France"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Rod vznikl sňatkem Marie Terezie s lotrinským vévodou Františkem Štěpánem v únoru 1736 ve vídeňském Augustiniánském kostele. Jejich nejstarší syn Josef II. už byl Habsburk-Lotrinský.",
+    "en": "The house began with Maria Theresa's marriage to Francis Stephen, Duke of Lorraine, in February 1736 at Vienna's Augustinian Church. Their eldest son, Joseph II, was already a Habsburg-Lorraine."
+   }
+  },
+  {
+   "id": "T232-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Josef II. dal během několika let zrušit asi třetinu klášterů v Rakousku a Uhrách. Které kláštery rušil?",
+    "en": "Within a few years Joseph II had about a third of the monasteries in Austria and Hungary dissolved. Which ones did he close?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ty, které ležely v pohraničí",
+     "Ty, které byly založeny před rokem 1500",
+     "Ty, které měly méně než deset řeholníků",
+     "Ty, které neučily ani neošetřovaly nemocné"
+    ],
+    "en": [
+     "Those located in border regions",
+     "Those founded before 1500",
+     "Those with fewer than ten members",
+     "Those that neither taught nor nursed"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Josef II. považoval čistě rozjímavé řády za neužitečné. Majetek zrušených klášterů připadl fondu, z něhož se financovalo náboženství a dobročinnost.",
+    "en": "Joseph II regarded purely contemplative orders as useless. The assets of the dissolved monasteries went into a fund for religion and charity."
+   }
+  },
+  {
+   "id": "T232-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na společných úřadech Rakouska-Uherska stála zkratka k. u. k., tedy „císařský a královský“. Ke kterému titulu panovníka odkazovalo slovo „královský“?",
+    "en": "The shared institutions of Austria-Hungary bore the abbreviation k.u.k., 'imperial and royal'. Which of the monarch's titles did the word 'royal' refer to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Uherský král",
+     "Lombardsko-benátský král",
+     "Haličský král",
+     "Český král"
+    ],
+    "en": [
+     "King of Hungary",
+     "King of Lombardy–Venetia",
+     "King of Galicia",
+     "King of Bohemia"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "„Císařský“ označoval rakouského císaře, „královský“ uherského krále. Společná byla jen ministerstva zahraničí, války a financí. Ve starší zkratce k. k. naopak „královský“ odkazoval k Čechám.",
+    "en": "'Imperial' stood for the Emperor of Austria and 'royal' for the King of Hungary. Only foreign affairs, war and finance were common ministries. In the older abbreviation k.k., by contrast, 'royal' referred to Bohemia."
+   }
+  },
+  {
+   "id": "T232-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "S kým byl 30. ledna 1889 nalezen mrtev korunní princ Rudolf na loveckém zámečku Mayerling?",
+    "en": "With whom was Crown Prince Rudolf found dead at the Mayerling hunting lodge on 30 January 1889?"
+   },
+   "moznosti": {
+    "cs": [
+     "S milenkou Mizzi Kasparovou",
+     "S baronkou Mary Vetserovou",
+     "S herečkou Kateřinou Schrattovou",
+     "S manželkou Štěpánkou Belgickou"
+    ],
+    "en": [
+     "His mistress Mizzi Kaspar",
+     "Baroness Mary Vetsera",
+     "The actress Katharina Schratt",
+     "His wife, Stéphanie of Belgium"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Sedmnáctiletá baronka Mary Vetsera (Vetserová) zemřela s Rudolfem podle všeho na základě společné dohody o sebevraždě. Okolnosti se dodnes rozebírají a objevují se i alternativní teorie.",
+    "en": "Seventeen-year-old Baroness Mary Vetsera died with Rudolf in an apparent joint suicide pact. The circumstances are still debated and alternative theories exist."
+   }
+  },
+  {
+   "id": "T232-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Podle tradičního výkladu dostal hrad Habsburg jméno podle ptáka, kterého zakladatel spatřil na jeho zdech. Kterého?",
+    "en": "According to tradition, Habsburg Castle was named after a bird its founder saw on its walls. Which bird?"
+   },
+   "moznosti": {
+    "cs": [
+     "Orla",
+     "Jestřába",
+     "Havrana",
+     "Čápa"
+    ],
+    "en": [
+     "An eagle",
+     "A hawk",
+     "A raven",
+     "A stork"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Podle tradice zakladatel hrad pojmenoval po jestřábovi (německy Habicht), kterého viděl sedět na hradbách. Někteří historici a jazykovědci ale jméno odvozují od středohornoněmeckého hab/hap, tedy brod, protože hrad stojí nedaleko říčního brodu.",
+    "en": "According to tradition, the founder named the castle after a hawk (German: Habicht) he saw sitting on its walls. Some historians and linguists, however, derive the name from Middle High German hab/hap, 'ford', as the castle stands near a river ford."
+   }
+  },
+  {
+   "id": "T232-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Johannes Kepler vydal roku 1627 astronomické tabulky založené na pozorováních Tychona Brahe. Po kom je pojmenoval?",
+    "en": "In 1627 Johannes Kepler published astronomical tables based on Tycho Brahe's observations. After whom did he name them?"
+   },
+   "moznosti": {
+    "cs": [
+     "Po městě Praze",
+     "Po císaři Ferdinandovi II.",
+     "Po císaři Rudolfovi II.",
+     "Po Tychonu Brahovi"
+    ],
+    "en": [
+     "The city of Prague",
+     "Emperor Ferdinand II",
+     "Emperor Rudolf II",
+     "Tycho Brahe"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Rudolfinské tabulky nesou jméno císaře, v jehož službách na nich Brahe s Keplerem začali pracovat. Rudolf II. však zemřel už roku 1612, a tak byly věnovány jeho nástupci Ferdinandovi II.",
+    "en": "The Rudolphine Tables are named after the emperor in whose service Brahe and Kepler began the work. Rudolf II had died in 1612, however, so they were dedicated to his successor Ferdinand II."
+   }
+  },
+  {
+   "id": "T232-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Josef II. se jako uherský král nikdy nenechal korunovat svatoštěpánskou korunou. Proč?",
+    "en": "As King of Hungary, Joseph II never had himself crowned with the Holy Crown of St Stephen. Why?"
+   },
+   "moznosti": {
+    "cs": [
+     "Koruna byla v rukou Osmanů",
+     "Korunovaci mu zakázal papež",
+     "Nechtěl přísahat na uherskou ústavu",
+     "Uherský sněm ho odmítl zvolit"
+    ],
+    "en": [
+     "The crown was held by the Ottomans",
+     "The Pope forbade his coronation",
+     "He refused to swear to Hungary's constitution",
+     "The Hungarian Diet would not elect him"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Korunovační přísaha by ho zavazovala dodržovat uherskou ústavu, což by brzdilo jeho centralizační reformy. Kromě něj zůstali nekorunováni jen Vladislav I. a Jan Zikmund Zápolský; svatoštěpánskou korunu vrátil do Budy až krátce před smrtí.",
+    "en": "The coronation oath would have bound him to Hungary's constitution and hampered his centralising reforms. Apart from him, only Władysław I and John Sigismund Zápolya were never crowned; he returned the Holy Crown to Buda only shortly before his death."
+   }
+  },
+  {
+   "id": "T232-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Pod jakým jménem cestoval Josef II. inkognito, například na setkání s Kateřinou Velikou v Rusku?",
+    "en": "Under what name did Joseph II travel incognito, for example to meet Catherine the Great in Russia?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hrabě Lotrinský",
+     "Rytíř z Laxenburgu",
+     "Hrabě Falkenstein",
+     "Baron Trenck"
+    ],
+    "en": [
+     "Count of Lorraine",
+     "Knight of Laxenburg",
+     "Count Falkenstein",
+     "Baron Trenck"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jako „hrabě Falkenstein“ cestoval do Ruska za Kateřinou II.; inkognito jel už roku 1777 i do Francie. Sblížení s Kateřinou vedlo roku 1781 k rakousko-ruskému spojenectví.",
+    "en": "As 'Count Falkenstein' he travelled to Russia to meet Catherine II; he had already travelled incognito to France in 1777. His rapprochement with Catherine led to the Austro-Russian alliance of 1781."
+   }
+  },
+  {
+   "id": "T232-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím italský anarchista Luigi Lucheni roku 1898 smrtelně zranil císařovnu Alžbětu?",
+    "en": "With what did the Italian anarchist Luigi Lucheni fatally wound Empress Elisabeth in 1898?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kapesním revolverem",
+     "Otrávenou šipkou",
+     "Nabroušeným pilníkem",
+     "Podomácku vyrobenou bombou"
+    ],
+    "en": [
+     "A pocket revolver",
+     "A poisoned dart",
+     "A sharpened file",
+     "A home-made bomb"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Zbraní byl asi 10 cm dlouhý nabroušený jehlový pilník vsazený do dřevěné rukojeti. Lucheni prohlásil, že přijel „zabít panovníka“.",
+    "en": "The weapon was a sharpened needle file about 10 cm (3.9 inches) long set into a wooden handle. Lucheni said he had come 'to kill a sovereign'."
+   }
+  },
+  {
+   "id": "T232-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co dal František Josef I. zřídit z loveckého zámečku Mayerling po smrti svého syna Rudolfa?",
+    "en": "What did Franz Joseph I have the Mayerling hunting lodge turned into after the death of his son Rudolf?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mysliveckou školu",
+     "Vojenský lazaret",
+     "Sirotčinec",
+     "Klášter karmelitek"
+    ],
+    "en": [
+     "A forestry school",
+     "A military hospital",
+     "An orphanage",
+     "A Carmelite convent"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Císař nechal zámeček přestavět na klášter bosých karmelitek. Řeholnice se tu dodnes denně modlí za duše Rudolfa a jeho společnice.",
+    "en": "The emperor had the lodge converted into a convent of Discalced Carmelite nuns, who still pray daily for the souls of Rudolf and his companion."
+   }
+  },
+  {
+   "id": "T232-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Části Rakouska-Uherska se neoficiálně nazývaly podle hraniční řeky Litavy (Leitha) Předlitavsko a Zalitavsko. Co označovalo Zalitavsko?",
+    "en": "The parts of Austria-Hungary were unofficially named after the border river Leitha: Cisleithania and Transleithania. What did Transleithania denote?"
+   },
+   "moznosti": {
+    "cs": [
+     "Uherské země",
+     "Rakouské země",
+     "Halič a Bukovinu",
+     "Bosnu a Hercegovinu"
+    ],
+    "en": [
+     "The Hungarian lands",
+     "The Austrian lands",
+     "Galicia and Bukovina",
+     "Bosnia and Herzegovina"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Litava je přítok Dunaje jihovýchodně od Vídně; Zalitavsko leželo „za“ ní, tedy uherská část. Rakouská polovina se oficiálně jmenovala „Království a země na říšské radě zastoupené“.",
+    "en": "The Leitha is a Danube tributary south-east of Vienna; Transleithania lay 'beyond' it, i.e. the Hungarian half. The Austrian half was officially 'The Kingdoms and Lands represented in the Imperial Council'."
+   }
+  },
+  {
+   "id": "T232-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Poslední španělský Habsburk Karel II. (zemřel 1700) trpěl celý život vážnými zdravotními potížemi. Jakou přezdívku dostal?",
+    "en": "The last Spanish Habsburg, Charles II (died 1700), suffered serious health problems all his life. What was his nickname?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sličný",
+     "Moudrý",
+     "Smělý",
+     "Očarovaný"
+    ],
+    "en": [
+     "The Handsome",
+     "The Wise",
+     "The Bold",
+     "The Bewitched"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Karel II. byl přezdíván El Hechizado, Očarovaný. Jeho rodiče byli strýc a neteř a jeho smrt bez dědice vyvolala válku o španělské dědictví.",
+    "en": "Charles II was nicknamed El Hechizado, 'the Bewitched'. His parents were uncle and niece, and his death without an heir triggered the War of the Spanish Succession."
+   }
+  },
+  {
+   "id": "T232-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na kterém ostrově zemřel roku 1922 v exilu poslední habsburský panovník Rakouska-Uherska?",
+    "en": "On which island did the last Habsburg ruler of Austria-Hungary die in exile in 1922?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Korsice",
+     "Na Elbě",
+     "Na Maltě",
+     "Na Madeiře"
+    ],
+    "en": [
+     "Corsica",
+     "Elba",
+     "Malta",
+     "Madeira"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Zemřel 1. dubna 1922 ve Funchalu na portugalské Madeiře na zápal plic, který se rozvinul z obyčejného nachlazení.",
+    "en": "He died on 1 April 1922 in Funchal on Portuguese Madeira of pneumonia that developed from a common cold."
+   }
+  },
+  {
+   "id": "T232-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Mladší bratr Františka Josefa I. Maxmilián se roku 1864 stal císařem v zámoří a roku 1867 byl popraven. Které země?",
+    "en": "Franz Joseph I's younger brother Maximilian became an emperor overseas in 1864 and was executed in 1867. Of which country?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mexika",
+     "Brazílie",
+     "Argentiny",
+     "Peru"
+    ],
+    "en": [
+     "Mexico",
+     "Brazil",
+     "Argentina",
+     "Peru"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Maxmilián přijal mexickou korunu s podporou Napoleona III. Po odchodu francouzských vojsk byl zajat a 19. června 1867 zastřelen u Querétara.",
+    "en": "Maximilian accepted the Mexican crown with the backing of Napoleon III. After French troops withdrew he was captured and shot by firing squad near Querétaro on 19 June 1867."
+   }
+  }
+ ]
+}

@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T351",
+ "nazev": {
+  "cs": "Německo: od Berlína po Bavorsko",
+  "en": "Germany: from Berlin to Bavaria"
+ },
+ "kategorie": {
+  "id": "zemepis",
+  "nazev": {
+   "cs": "Zeměpis",
+   "en": "Geography"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T351-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která německá spolková země je rozlohou největší?",
+    "en": "Which German state is the largest by area?"
+   },
+   "moznosti": {
+    "cs": [
+     "Severní Porýní-Vestfálsko",
+     "Bavorsko",
+     "Dolní Sasko",
+     "Bádensko-Württembersko"
+    ],
+    "en": [
+     "North Rhine-Westphalia",
+     "Bavaria",
+     "Lower Saxony",
+     "Baden-Württemberg"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Bavorsko má asi 70 500 km², tedy zhruba pětinu rozlohy celého Německa. Oficiálně se nazývá Svobodný stát Bavorsko (Freistaat Bayern), stejně jako Sasko a Durynsko – titul je ale jen stylistický a nemá právní ani politický význam.",
+    "en": "Bavaria covers about 70,500 km² (27,200 sq mi), roughly a fifth of Germany. Its official name is the Free State of Bavaria (Freistaat Bayern), a title shared with Saxony and Thuringia, though it is merely stylistic and has no legal or political significance."
+   }
+  },
+  {
+   "id": "T351-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které pohoří na jihozápadě Německa je proslulé výrobou kukačkových hodin?",
+    "en": "Which mountain range in south-western Germany is famous for making cuckoo clocks?"
+   },
+   "moznosti": {
+    "cs": [
+     "Černý les (Schwarzwald)",
+     "Krušné hory (Erzgebirge)",
+     "Bavorský les (Bayerischer Wald)",
+     "Durynský les (Thüringer Wald)"
+    ],
+    "en": [
+     "The Black Forest (Schwarzwald)",
+     "The Ore Mountains (Erzgebirge)",
+     "The Bavarian Forest (Bayerischer Wald)",
+     "The Thuringian Forest (Thüringer Wald)"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Dřevěné kukačkové hodiny vyráběli v zimě mnozí sedláci v Černém lese v Bádensku-Württembersku, aby si přivydělali. Z regionu pochází i schwarzwaldská šunka a podle něj se jmenuje i schwarzwaldský dort, jehož skutečný původ je ale sporný.",
+    "en": "In winter, many Black Forest farmers made wooden cuckoo clocks to supplement their income. The region in Baden-Württemberg is also where Black Forest ham originated, and it gave its name to Black Forest gâteau, although the cake's actual origin is disputed."
+   }
+  },
+  {
+   "id": "T351-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím jsou proslulé německé dálnice (Autobahn)?",
+    "en": "What are German motorways (the Autobahn) famous for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jezdí se na nich vlevo jako v Británii",
+     "Na velké části z nich není rychlost aut omezena",
+     "Platí na nich jednotný limit 150 km/h",
+     "Jsou po celé délce osvětlené"
+    ],
+    "en": [
+     "Traffic drives on the left, as in Britain",
+     "On large parts of them, car speeds are not limited",
+     "They have a uniform limit of 150 km/h (93 mph)",
+     "They are lit along their entire length"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Obecný rychlostní limit na německých dálnicích neexistuje (k roku 2026), limity platí jen na vyznačených úsecích. Od roku 1978 je pouze doporučená (nezávazná) rychlost 130 km/h; kdo ji překročí a způsobí nehodu, může ale nést část odpovědnosti za škodu.",
+    "en": "There is no general speed limit on the German Autobahn (as of 2026); limits apply only on signposted sections. Since 1978 there has been just a non-binding advisory speed of 130 km/h (81 mph), although a driver who exceeds it and causes an accident may be held partly liable for the damage."
+   }
+  },
+  {
+   "id": "T351-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které německé slovo převzala angličtina jako označení pro mateřskou školku?",
+    "en": "Which German word did English borrow as the name for a nursery school?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kindergarten",
+     "Kinderhort",
+     "Spielplatz",
+     "Kinderstube"
+    ],
+    "en": [
+     "Kindergarten",
+     "Kinderhort",
+     "Spielplatz",
+     "Kinderstube"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Slovo Kindergarten („zahrada dětí“) vymyslel roku 1840 pedagog Friedrich Fröbel, když tak přejmenoval svůj ústav pro hry a činnosti malých dětí v Bad Blankenburgu. Angličtina ho převzala beze změny, jen s malým počátečním písmenem.",
+    "en": "The word Kindergarten ('garden of children') was coined in 1840 by educator Friedrich Fröbel, who gave the name to his play and activity institute for young children in Bad Blankenburg. English adopted it unchanged, merely dropping the capital letter."
+   }
+  },
+  {
+   "id": "T351-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaké barvy má německá vlajka, seřazeno odshora dolů?",
+    "en": "What are the colours of the German flag, from top to bottom?"
+   },
+   "moznosti": {
+    "cs": [
+     "Černá, červená, zlatá",
+     "Zlatá, červená, černá",
+     "Černá, zlatá, červená",
+     "Červená, černá, zlatá"
+    ],
+    "en": [
+     "Black, red, gold",
+     "Gold, red, black",
+     "Black, gold, red",
+     "Red, black, gold"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vodorovné pruhy jdou v pořadí černá, červená, zlatá – a oficiálně se opravdu mluví o zlaté, ne žluté. Barvy vyhlásil za německé už Frankfurtský parlament v roce 1848, Spolková republika je znovu přijala v roce 1949.",
+    "en": "The horizontal bands run black, red, gold – and the third colour is officially called gold, not yellow. The colours were declared Germany's by the Frankfurt Parliament in 1848 and readopted by the Federal Republic in 1949."
+   }
+  },
+  {
+   "id": "T351-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "S kolika státy sousedí Německo po souši?",
+    "en": "How many countries share a land border with Germany?"
+   },
+   "moznosti": {
+    "cs": [
+     "7",
+     "8",
+     "9",
+     "10"
+    ],
+    "en": [
+     "7",
+     "8",
+     "9",
+     "10"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Německo sousedí s devíti státy: Dánskem, Polskem, Českem, Rakouskem, Švýcarskem, Francií, Lucemburskem, Belgií a Nizozemskem. Jeho pozemní hranice měří celkem asi 3 714 km a patří tak k evropským zemím s nejvíce sousedy.",
+    "en": "Germany borders nine countries: Denmark, Poland, the Czech Republic, Austria, Switzerland, France, Luxembourg, Belgium and the Netherlands. Its land borders total about 3,714 km (2,308 mi), making it one of the European countries with the most neighbours."
+   }
+  },
+  {
+   "id": "T351-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které zvíře je ve znaku Berlína?",
+    "en": "Which animal appears on the coat of arms of Berlin?"
+   },
+   "moznosti": {
+    "cs": [
+     "Medvěd",
+     "Lev",
+     "Vlk",
+     "Orel"
+    ],
+    "en": [
+     "Bear",
+     "Lion",
+     "Wolf",
+     "Eagle"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Ve znaku je černý medvěd s červeným jazykem a drápy na stříbrném štítu; na městské pečeti se medvěd poprvé objevil v roce 1280. Jméno Berlín je ale slovanského původu a se slovem Bär (medvěd) nesouvisí.",
+    "en": "The arms show a black bear with red tongue and claws on a silver shield; a bear first appeared on a city seal in 1280. The name Berlin, however, is of Slavic origin and unrelated to the German word Bär (bear)."
+   }
+  },
+  {
+   "id": "T351-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se jmenuje nejvyšší hora Německa?",
+    "en": "What is the name of Germany's highest mountain?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zugspitze",
+     "Brocken",
+     "Feldberg",
+     "Watzmann"
+    ],
+    "en": [
+     "Zugspitze",
+     "Brocken",
+     "Feldberg",
+     "Watzmann"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Zugspitze (2 962 m) v pohoří Wetterstein leží v Bavorsku přímo na hranici s Rakouskem. Na jejích svazích jsou i dva největší německé ledovce (k roku 2026), Severní Schneeferner a Höllentalferner.",
+    "en": "The Zugspitze (2,962 m / 9,718 ft) in the Wetterstein Mountains lies in Bavaria right on the Austrian border. Its slopes also hold Germany's two largest glaciers (as of 2026), the Northern Schneeferner and the Höllentalferner."
+   }
+  },
+  {
+   "id": "T351-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která řeka protéká Bonnem, Düsseldorfem a Mohučí?",
+    "en": "Which river flows through Bonn, Düsseldorf and Mainz?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rýn",
+     "Mohan",
+     "Mosela",
+     "Neckar"
+    ],
+    "en": [
+     "Rhine",
+     "Main",
+     "Moselle",
+     "Neckar"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Rýn, dlouhý asi 1 230 km, se přes Nizozemsko vlévá do Severního moře. Na jeho březích leží i Kolín nad Rýnem, Duisburg a Koblenz.",
+    "en": "The Rhine, about 1,230 km (760 mi) long, flows through the Netherlands into the North Sea. Cologne, Duisburg and Koblenz also lie on its banks."
+   }
+  },
+  {
+   "id": "T351-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který orgán zasedá od roku 1999 v berlínské budově Reichstagu?",
+    "en": "Which body has met in Berlin's Reichstag building since 1999?"
+   },
+   "moznosti": {
+    "cs": [
+     "Spolková vláda",
+     "Spolkový sněm (Bundestag)",
+     "Spolková rada (Bundesrat)",
+     "Berlínská Poslanecká sněmovna (Abgeordnetenhaus)"
+    ],
+    "en": [
+     "The Federal Government",
+     "The Federal Diet (Bundestag)",
+     "The Federal Council (Bundesrat)",
+     "The Berlin House of Representatives (Abgeordnetenhaus)"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Spolkový sněm, německý parlament, zde oficiálně poprvé zasedl 19. dubna 1999 po přestavbě budovy. Čtyři roky předtím, v roce 1995, umělci Christo a Jeanne-Claude celý Reichstag zahalili do látky.",
+    "en": "The Bundestag, Germany's parliament, held its first official session here on 19 April 1999 after the building's reconstruction. Four years earlier, in 1995, the artists Christo and Jeanne-Claude wrapped the entire Reichstag in fabric."
+   }
+  },
+  {
+   "id": "T351-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Z kolika spolkových zemí se skládá Německo?",
+    "en": "How many federal states make up Germany?"
+   },
+   "moznosti": {
+    "cs": [
+     "12",
+     "14",
+     "16",
+     "18"
+    ],
+    "en": [
+     "12",
+     "14",
+     "16",
+     "18"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Šestnáct zemí má Německo od 3. října 1990, kdy se k deseti „starým“ zemím připojilo pět obnovených východoněmeckých zemí a sjednocený Berlín.",
+    "en": "Germany has had sixteen states since 3 October 1990, when five re-established eastern states and reunited Berlin joined the ten 'old' states."
+   }
+  },
+  {
+   "id": "T351-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které tři německé spolkové země jsou městskými státy?",
+    "en": "Which three German federal states are city-states?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hamburk, Brémy a Kolín nad Rýnem",
+     "Berlín, Brémy a Frankfurt nad Mohanem",
+     "Berlín, Hamburk a Brémy",
+     "Hamburk, Brémy a Mnichov"
+    ],
+    "en": [
+     "Hamburg, Bremen and Cologne",
+     "Berlin, Bremen and Frankfurt am Main",
+     "Berlin, Hamburg and Bremen",
+     "Hamburg, Bremen and Munich"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Berlín a Hamburk jsou zároveň městem i spolkovou zemí, Svobodné hanzovní město Brémy je třetím městským státem. Brémy jsou také rozlohou i počtem obyvatel nejmenší zemí Německa.",
+    "en": "Berlin and Hamburg are both a city and a federal state at once, and the Free Hanseatic City of Bremen is the third city-state. Bremen is also Germany's smallest state by both area and population."
+   }
+  },
+  {
+   "id": "T351-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co stojí na vrcholu berlínské Braniborské brány?",
+    "en": "What stands on top of Berlin's Brandenburg Gate?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jezdecká socha pruského krále",
+     "Kvadriga – čtyřspřeží s bohyní",
+     "Socha bohyně Germanie",
+     "Socha berlínského medvěda"
+    ],
+    "en": [
+     "An equestrian statue of a Prussian king",
+     "A quadriga – a four-horse chariot with a goddess",
+     "A statue of the goddess Germania",
+     "A statue of the Berlin bear"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Bronzovou kvadrigu vytvořil sochař Johann Gottfried Schadow. Vůz měla původně řídit Eiréné, řecká bohyně míru, později se z ní stala Victoria, římská bohyně vítězství.",
+    "en": "The bronze quadriga was made by sculptor Johann Gottfried Schadow. The chariot was originally meant to be driven by Eirene, the Greek goddess of peace, who was later rebranded as Victoria, the Roman goddess of victory."
+   }
+  },
+  {
+   "id": "T351-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na které řece leží berlínský Muzejní ostrov (Museumsinsel) s pěti slavnými muzei?",
+    "en": "On which river does Berlin's Museum Island (Museumsinsel), home to five famous museums, lie?"
+   },
+   "moznosti": {
+    "cs": [
+     "Odra",
+     "Labe",
+     "Spréva",
+     "Havola"
+    ],
+    "en": [
+     "Oder",
+     "Elbe",
+     "Spree",
+     "Havel"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Muzejní ostrov zabírá severní část ostrova na Sprévě. Tvoří ho Staré a Nové muzeum, Stará národní galerie, Bode-Museum a Pergamonské muzeum; od roku 1999 je na seznamu světového dědictví UNESCO.",
+    "en": "Museum Island occupies the northern part of an island in the Spree. It comprises the Altes Museum, Neues Museum, Alte Nationalgalerie, Bode Museum and Pergamon Museum, and has been a UNESCO World Heritage Site since 1999."
+   }
+  },
+  {
+   "id": "T351-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která velká evropská řeka pramení v Černém lese?",
+    "en": "Which major European river has its source in the Black Forest?"
+   },
+   "moznosti": {
+    "cs": [
+     "Labe",
+     "Dunaj",
+     "Rýn",
+     "Mohan"
+    ],
+    "en": [
+     "Elbe",
+     "Danube",
+     "Rhine",
+     "Main"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Dunaj vzniká v Černém lese soutokem potoků Brigach a Breg. Pramení tu i Neckar, zatímco Rýn začíná ve švýcarských Alpách.",
+    "en": "The Danube is formed in the Black Forest by the confluence of the Brigach and Breg streams. The Neckar also rises here, whereas the Rhine starts in the Swiss Alps."
+   }
+  },
+  {
+   "id": "T351-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který ostrov je největším ostrovem Německa?",
+    "en": "Which island is Germany's largest?"
+   },
+   "moznosti": {
+    "cs": [
+     "Fehmarn",
+     "Rujána (Rügen)",
+     "Uznojem (Usedom)",
+     "Sylt"
+    ],
+    "en": [
+     "Fehmarn",
+     "Rügen",
+     "Usedom",
+     "Sylt"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Rujána v Baltském moři (Meklenbursko-Přední Pomořansko) měří asi 926 km². Proslulé jsou její křídové útesy na poloostrově Jasmund se známým útesem Königsstuhl.",
+    "en": "Rügen in the Baltic Sea (Mecklenburg-Vorpommern) covers about 926 km² (358 sq mi). It is famous for the chalk cliffs of the Jasmund peninsula, including the well-known Königsstuhl."
+   }
+  },
+  {
+   "id": "T351-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Která koncertní síň, otevřená v roce 2017, vyrůstá ze starého přístavního skladu v Hamburku?",
+    "en": "Which concert hall, opened in 2017, rises from an old harbour warehouse in Hamburg?"
+   },
+   "moznosti": {
+    "cs": [
+     "Isarphilharmonie v Mnichově",
+     "Berlínská filharmonie (Philharmonie)",
+     "Gewandhaus v Lipsku",
+     "Labská filharmonie (Elbphilharmonie)"
+    ],
+    "en": [
+     "Munich Isarphilharmonie",
+     "Berlin Philharmonie",
+     "Leipzig Gewandhaus",
+     "Elbphilharmonie"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Skleněnou nástavbu na cihlovém skladu Kaispeicher A navrhlo švýcarské studio Herzog & de Meuron. Stavba měří 108 m a místo 241 milionů eur, s nimiž se počítalo v roce 2007, stála zhruba 866 milionů.",
+    "en": "The glass superstructure on top of the brick Kaispeicher A warehouse was designed by the Swiss firm Herzog & de Meuron. The building is 108 m (354 ft) tall and cost about €866 million instead of the €241 million estimated in 2007."
+   }
+  },
+  {
+   "id": "T351-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které německé slovo převzala angličtina pro škodolibou radost z cizího neštěstí?",
+    "en": "Which German word did English borrow for malicious pleasure at someone else's misfortune?"
+   },
+   "moznosti": {
+    "cs": [
+     "Weltschmerz",
+     "Fernweh",
+     "Torschlusspanik",
+     "Schadenfreude"
+    ],
+    "en": [
+     "Weltschmerz",
+     "Fernweh",
+     "Torschlusspanik",
+     "Schadenfreude"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Schadenfreude spojuje slova Schaden (škoda) a Freude (radost). V němčině je doložené už ve 40. letech 18. století, jako součást souvislého anglického textu se poprvé objevilo v roce 1895.",
+    "en": "Schadenfreude combines Schaden (harm) and Freude (joy). It is attested in German from the 1740s and was first used in English running text in 1895."
+   }
+  },
+  {
+   "id": "T351-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo od roku 1950 zahajuje mnichovský Oktoberfest naražením prvního sudu a zvoláním „O'zapft is!“?",
+    "en": "Who, since 1950, has opened Munich's Oktoberfest by tapping the first keg and shouting 'O'zapft is!'?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bavorský ministerský předseda",
+     "Mnichovský arcibiskup",
+     "Ředitel nejstaršího mnichovského pivovaru",
+     "Starosta Mnichova"
+    ],
+    "en": [
+     "The Minister-President of Bavaria",
+     "The Archbishop of Munich",
+     "The director of Munich's oldest brewery",
+     "The Mayor of Munich"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "„O'zapft is!“ znamená „Naraženo!“ a zahájení doprovází salva dvanácti výstřelů. První starosta, Thomas Wimmer, potřeboval v roce 1950 na naražení sudu devatenáct úderů.",
+    "en": "'O'zapft is!' means 'It's tapped!', and the opening is marked by a twelve-gun salute. The first mayor to do it, Thomas Wimmer, needed nineteen strokes to tap the keg in 1950."
+   }
+  },
+  {
+   "id": "T351-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které pivo nosí číšník zvaný Köbes ve štíhlých sklenicích Stange o objemu 0,2 l?",
+    "en": "Which beer does a waiter called a Köbes serve in slender Stange glasses holding 0.2 l (6.8 US fl oz)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kölsch",
+     "Pils",
+     "Weissbier",
+     "Bock"
+    ],
+    "en": [
+     "Kölsch",
+     "Pils",
+     "Weissbier",
+     "Bock"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kölsch je svrchně kvašené pivo z Kolína nad Rýnem, které pak dozrává za chladu jako ležák. Köbes nosí najednou jedenáct až dvanáct sklenic v kulatém nosiči zvaném Kranz a název Kölsch je od roku 1997 v EU chráněným zeměpisným označením.",
+    "en": "Kölsch is a top-fermented beer from Cologne that is then cold-conditioned like a lager. A Köbes carries eleven or twelve glasses at once in a round tray called a Kranz, and since 1997 the name Kölsch has been a protected geographical indication in the EU."
+   }
+  },
+  {
+   "id": "T351-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdy byl zámek Neuschwanstein zpřístupněn platícím návštěvníkům?",
+    "en": "When was Neuschwanstein Castle opened to paying visitors?"
+   },
+   "moznosti": {
+    "cs": [
+     "Až po skončení první světové války",
+     "Ještě za života Ludvíka II., aby splácel dluhy",
+     "Necelé dva měsíce po smrti Ludvíka II.",
+     "Až po smrti prince regenta Luitpolda"
+    ],
+    "en": [
+     "Only after the end of the First World War",
+     "During Ludwig II's lifetime, to pay off his debts",
+     "Less than two months after Ludwig II's death",
+     "Only after the death of Prince Regent Luitpold"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Princ regent Luitpold nechal zámek zpřístupnit platícím návštěvníkům jen šest až sedm týdnů po králově smrti 13. června 1886, přestože byl daleko od dokončení. Sám Ludvík v něm strávil celkem jen 172 dní.",
+    "en": "Prince Regent Luitpold had the castle opened to paying visitors just six to seven weeks after the king's death on 13 June 1886, even though it was far from complete. Ludwig himself spent a total of only 172 days there."
+   }
+  },
+  {
+   "id": "T351-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím kukačkové hodiny vytvářejí své „ku-kú“?",
+    "en": "How does a cuckoo clock produce its 'cuck-oo' call?"
+   },
+   "moznosti": {
+    "cs": [
+     "Strunou rozechvívanou kolečkem",
+     "Dvěma píšťalkami s malými měchy",
+     "Kovovým jazýčkem drnkaným o hřeben",
+     "Úderem kladívka na dva zvonky"
+    ],
+    "en": [
+     "With a string set vibrating by a wheel",
+     "With two small pipes fitted with bellows",
+     "With a metal tongue plucked against a comb",
+     "With a hammer striking two bells"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Na každé ze dvou krytých píšťalek je měch; strojek je při odbíjení postupně stlačí a každá píšťalka zahraje jeden tón. Kdo kukačkové hodiny vynalezl, není známo – tradovaná historka o Franzi Antonu Ketterovi ze Schönwaldu je nejspíš nepravdivá.",
+    "en": "Each of two stopped pipes has a bellows on top, which the movement presses in turn as the clock strikes, so each pipe sounds one note. Who invented the cuckoo clock is unknown – the popular story crediting Franz Anton Ketterer of Schönwald is probably inaccurate."
+   }
+  },
+  {
+   "id": "T351-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Německý roh (Deutsches Eck) v Koblenzi je ostroh na soutoku Rýna s kterou řekou?",
+    "en": "The German Corner (Deutsches Eck) in Koblenz is a promontory at the confluence of the Rhine and which river?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mohan",
+     "Neckar",
+     "Mosela",
+     "Lahn"
+    ],
+    "en": [
+     "Main",
+     "Neckar",
+     "Moselle",
+     "Lahn"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Mosela se zde vlévá do Rýna. Místo je pojmenováno podle komendy Řádu německých rytířů a stojí na něm jezdecká socha císaře Viléma I., jejíž replika se na podstavec vrátila po sporech v roce 1993.",
+    "en": "Here the Moselle joins the Rhine. The site is named after a local commandery of the Teutonic Order and bears an equestrian statue of Emperor William I, a replica of which returned to the pedestal in 1993 after controversial debate."
+   }
+  },
+  {
+   "id": "T351-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo volí německého spolkového prezidenta?",
+    "en": "Who elects the Federal President of Germany?"
+   },
+   "moznosti": {
+    "cs": [
+     "Občané v přímé volbě",
+     "Spolková vláda",
+     "Spolkové shromáždění (Bundesversammlung)",
+     "Spolková rada (Bundesrat)"
+    ],
+    "en": [
+     "Citizens in a direct vote",
+     "The Federal Government",
+     "The Federal Convention (Bundesversammlung)",
+     "The Federal Council (Bundesrat)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Spolkové shromáždění tvoří všichni poslanci Spolkového sněmu a stejný počet volitelů vyslaných zemskými sněmy. Schází se výhradně kvůli volbě prezidenta a žádnou jinou funkci nemá.",
+    "en": "The Federal Convention consists of all members of the Bundestag plus an equal number of electors sent by the state parliaments. It meets solely to elect the president and has no other function."
+   }
+  },
+  {
+   "id": "T351-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co je uprostřed skleněné kupole Reichstagu v Berlíně?",
+    "en": "What is at the centre of the glass dome of the Reichstag in Berlin?"
+   },
+   "moznosti": {
+    "cs": [
+     "Foucaultovo kyvadlo zavěšené ze stropu",
+     "Nádrž s vodou na chlazení budovy",
+     "Obří lustr zavěšený z vrcholu kupole",
+     "Kužel ze zrcadel odrážející světlo do budovy"
+    ],
+    "en": [
+     "A Foucault pendulum hanging from the top",
+     "A water tank for cooling the building",
+     "A giant chandelier hanging from the top of the dome",
+     "A cone of mirrors reflecting light into the building"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Zrcadlový kužel uprostřed kupole směruje sluneční světlo do budovy. Kupoli navrhl Norman Foster podle nápadu Gottfrieda Böhma; návštěvníci stoupají po dvou ocelových spirálových rampách nad jednací sál, což symbolizuje, že lid stojí nad vládou.",
+    "en": "The mirrored cone at the centre of the dome directs sunlight into the building. The dome was designed by Norman Foster from an idea by Gottfried Böhm; visitors climb two steel spiral ramps above the debating chamber, symbolising that the people are above the government."
+   }
+  },
+  {
+   "id": "T351-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Sousoší na vrcholu Braniborské brány v letech 1806–1814 v Berlíně chybělo. Proč?",
+    "en": "The sculpture on top of the Brandenburg Gate was missing from Berlin from 1806 to 1814. Why?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bylo ukryto před Napoleonovou armádou",
+     "Bylo sundáno k opravě po požáru",
+     "Napoleon ho odvezl jako kořist do Paříže",
+     "Pruský král ho daroval ruskému carovi"
+    ],
+    "en": [
+     "It was hidden from Napoleon's army",
+     "It was taken down for repair after a fire",
+     "Napoleon took it to Paris as war booty",
+     "The Prussian king gave it to the Russian tsar"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Po vítězství u Jeny a Auerstedtu v roce 1806 dal Napoleon sousoší odvézt do Paříže; po jeho porážce v roce 1814 se vrátilo do Berlína. Samotnou bránu podle vzoru athénských Propylají postavil v letech 1788–1791 Carl Gotthard Langhans.",
+    "en": "After his victory at Jena-Auerstedt in 1806, Napoleon had the sculpture taken to Paris; it was returned to Berlin after his defeat in 1814. The gate itself, modelled on the Propylaea of Athens, was built in 1788–1791 by Carl Gotthard Langhans."
+   }
+  },
+  {
+   "id": "T351-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Japonské slovo arubaito (アルバイト) pochází z německého Arbeit (práce). Co v japonštině znamená?",
+    "en": "The Japanese word arubaito (アルバイト) comes from the German Arbeit (work). What does it mean in Japanese?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přesčasová práce",
+     "Služební cesta",
+     "Brigáda",
+     "Domácí úkol"
+    ],
+    "en": [
+     "Overtime work",
+     "A business trip",
+     "A part-time job",
+     "Homework"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Arubaito, často zkracované na baito, označuje v japonštině brigádu, tedy práci na částečný úvazek. Japonština převzala z němčiny i další slova, třeba karute (z Karte) pro zdravotní kartu pacienta nebo gerende (z Gelände) pro sjezdovku.",
+    "en": "Arubaito, often shortened to baito, means a part-time job in Japanese. Japanese has borrowed other German words too, such as karute (from Karte) for a patient's medical record and gerende (from Gelände) for a ski slope."
+   }
+  },
+  {
+   "id": "T351-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém městě, rodišti bratří Grimmů, začíná Německá pohádková cesta (Deutsche Märchenstraße)?",
+    "en": "In which town, the birthplace of the Brothers Grimm, does the German Fairy Tale Route (Deutsche Märchenstraße) begin?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hanau",
+     "Marburg",
+     "Göttingen",
+     "Kassel"
+    ],
+    "en": [
+     "Hanau",
+     "Marburg",
+     "Göttingen",
+     "Kassel"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Turistická trasa založená v roce 1975 vede asi 600 km z Hanau ve středním Německu až do Brém na severu. Mnoho zastávek na ní připomíná Jacoba a Wilhelma Grimmovy a jejich pohádky.",
+    "en": "Established in 1975, the tourist route runs about 600 km (370 mi) from Hanau in central Germany to Bremen in the north. Many of its stops commemorate Jacob and Wilhelm Grimm and their fairy tales."
+   }
+  },
+  {
+   "id": "T351-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém městě sídlí německý Spolkový ústavní soud (Bundesverfassungsgericht)?",
+    "en": "In which city does Germany's Federal Constitutional Court (Bundesverfassungsgericht) sit?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kassel",
+     "Lipsko",
+     "Bonn",
+     "Karlsruhe"
+    ],
+    "en": [
+     "Kassel",
+     "Leipzig",
+     "Bonn",
+     "Karlsruhe"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Spolkový ústavní soud, založený v roce 1951, sídlí v Karlsruhe, a ne v hlavním městě Berlíně. Ve stejném městě má sídlo i Spolkový soudní dvůr (Bundesgerichtshof).",
+    "en": "The Federal Constitutional Court, established in 1951, sits in Karlsruhe rather than in the capital, Berlin. The same city is also the seat of the Federal Court of Justice (Bundesgerichtshof)."
+   }
+  },
+  {
+   "id": "T351-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Spolková země Brémy se skládá ze dvou od sebe oddělených měst. Které je to druhé, vedle samotných Brém?",
+    "en": "The state of Bremen consists of two cities that are separate from each other. Besides Bremen itself, which is the other?"
+   },
+   "moznosti": {
+    "cs": [
+     "Cuxhaven",
+     "Emden",
+     "Wilhelmshaven",
+     "Bremerhaven"
+    ],
+    "en": [
+     "Cuxhaven",
+     "Emden",
+     "Wilhelmshaven",
+     "Bremerhaven"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Svobodné hanzovní město Brémy tvoří dvě prostorově oddělená města, Brémy a Bremerhaven, proto se mu někdy říká „stát dvou měst“ (Zwei-Städte-Staat). Zatímco v Brémách plní zemská vláda zároveň roli městské správy, Bremerhaven má vlastní samosprávu.",
+    "en": "The Free Hanseatic City of Bremen is made up of two spatially separate cities, Bremen and Bremerhaven, which is why it is sometimes called a 'two-city state' (Zwei-Städte-Staat). While the state government also serves as Bremen's municipal administration, Bremerhaven has its own local administration."
+   }
+  }
+ ]
+}

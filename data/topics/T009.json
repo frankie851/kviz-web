@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T009",
+ "nazev": {
+  "cs": "Slavné obrazy a jejich tajemství",
+  "en": "Famous Paintings and Their Secrets"
+ },
+ "kategorie": {
+  "id": "umeni-a-literatura",
+  "nazev": {
+   "cs": "Umění a literatura",
+   "en": "Art & Literature"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T009-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo namaloval Monu Lisu?",
+    "en": "Who painted the Mona Lisa?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sandro Botticelli",
+     "Leonardo da Vinci",
+     "Raffael",
+     "Michelangelo"
+    ],
+    "en": [
+     "Sandro Botticelli",
+     "Leonardo da Vinci",
+     "Raphael",
+     "Michelangelo"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Monu Lisu maloval Leonardo da Vinci od roku 1503 a pracoval na ní ještě řadu let; obraz si nechal u sebe a vzal ho s sebou i do Francie.",
+    "en": "Leonardo da Vinci began the Mona Lisa around 1503 and kept working on it for years; he never handed it over and took it with him to France."
+   }
+  },
+  {
+   "id": "T009-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém muzeu je vystavena Mona Lisa?",
+    "en": "In which museum is the Mona Lisa displayed?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Ermitáži v Petrohradu",
+     "V Pradu v Madridu",
+     "V Uffizi ve Florencii",
+     "V Louvru v Paříži"
+    ],
+    "en": [
+     "The Hermitage in Saint Petersburg",
+     "The Prado in Madrid",
+     "The Uffizi in Florence",
+     "The Louvre in Paris"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Mona Lisa visí v Louvru za neprůstřelným sklem; muzeum plánuje přesunout ji do samostatného sálu (k roku 2026).",
+    "en": "The Mona Lisa hangs in the Louvre behind bulletproof glass; the museum plans to move it to a room of its own (as of 2026)."
+   }
+  },
+  {
+   "id": "T009-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo namaloval Hvězdnou noc?",
+    "en": "Who painted The Starry Night?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vincent van Gogh",
+     "Paul Gauguin",
+     "Claude Monet",
+     "Paul Cézanne"
+    ],
+    "en": [
+     "Vincent van Gogh",
+     "Paul Gauguin",
+     "Claude Monet",
+     "Paul Cézanne"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hvězdnou noc namaloval Vincent van Gogh v roce 1889. Od roku 1941 patří newyorskému Muzeu moderního umění (MoMA).",
+    "en": "Vincent van Gogh painted The Starry Night in 1889. It has belonged to the Museum of Modern Art (MoMA) in New York since 1941."
+   }
+  },
+  {
+   "id": "T009-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo je autorem Výkřiku?",
+    "en": "Who created The Scream?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vasilij Kandinskij",
+     "Egon Schiele",
+     "Edvard Munch",
+     "Gustav Klimt"
+    ],
+    "en": [
+     "Wassily Kandinsky",
+     "Egon Schiele",
+     "Edvard Munch",
+     "Gustav Klimt"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Výkřik je dílem Nora Edvarda Muncha. Existuje v několika verzích – dvou malovaných, dvou pastelových a v litografiích.",
+    "en": "The Scream is the work of Norwegian artist Edvard Munch. It exists in several versions – two painted, two in pastel, plus lithographs."
+   }
+  },
+  {
+   "id": "T009-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo namaloval Dívku s perlou?",
+    "en": "Who painted Girl with a Pearl Earring?"
+   },
+   "moznosti": {
+    "cs": [
+     "Frans Hals",
+     "Rembrandt",
+     "Johannes Vermeer",
+     "Jan van Eyck"
+    ],
+    "en": [
+     "Frans Hals",
+     "Rembrandt",
+     "Johannes Vermeer",
+     "Jan van Eyck"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Dívku s perlou namaloval Johannes Vermeer kolem roku 1665. Nemělo jít o portrét konkrétní osoby, ale o tzv. tronie – studii tváře a výrazu; obraz patří do sbírky Mauritshuisu v Haagu.",
+    "en": "Johannes Vermeer painted Girl with a Pearl Earring around 1665. It was not meant as a portrait of a specific person but as a 'tronie' – a study of a face and expression; it belongs to the Mauritshuis in The Hague."
+   }
+  },
+  {
+   "id": "T009-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co se „rozpouští“ na Dalího obraze Persistence paměti (La persistencia de la memoria)?",
+    "en": "What is 'melting' in Dalí's painting The Persistence of Memory?"
+   },
+   "moznosti": {
+    "cs": [
+     "Telefonní sluchátka",
+     "Kapesní hodinky",
+     "Staré housle",
+     "Voskové svíčky"
+    ],
+    "en": [
+     "Telephone receivers",
+     "Pocket watches",
+     "Old violins",
+     "Wax candles"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Měkké, roztékající se kapesní hodinky patří k nejznámějším obrazům surrealismu. Malý obraz z roku 1931 (jen asi 24 × 33 cm) je v MoMA v New Yorku.",
+    "en": "The soft, melting pocket watches are among the best-known images of Surrealism. The small 1931 painting (only about 24 × 33 cm / 9.4 × 13 inches) is at MoMA in New York."
+   }
+  },
+  {
+   "id": "T009-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo vymaloval strop Sixtinské kaple včetně slavného Stvoření Adama?",
+    "en": "Who painted the Sistine Chapel ceiling, including the famous Creation of Adam?"
+   },
+   "moznosti": {
+    "cs": [
+     "Michelangelo",
+     "Tizian",
+     "Leonardo da Vinci",
+     "Raffael"
+    ],
+    "en": [
+     "Michelangelo",
+     "Titian",
+     "Leonardo da Vinci",
+     "Raphael"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Strop maloval Michelangelo v letech 1508–1512 na objednávku papeže Julia II., ačkoli se sám považoval především za sochaře.",
+    "en": "Michelangelo painted the ceiling between 1508 and 1512 for Pope Julius II, even though he saw himself primarily as a sculptor."
+   }
+  },
+  {
+   "id": "T009-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na čem připlouvá ke břehu bohyně na Botticelliho obraze Zrození Venuše?",
+    "en": "What does the goddess ride to the shore in Botticelli's The Birth of Venus?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na velké mušli",
+     "Na oblaku",
+     "Na malé lodi",
+     "Na hřbetě delfína"
+    ],
+    "en": [
+     "A giant shell",
+     "A cloud",
+     "A small boat",
+     "A dolphin's back"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Venuše stojí na lastuře hřebenatky, kterou k pobřeží žene dech větrů. Obraz z 80. let 15. století visí v galerii Uffizi ve Florencii.",
+    "en": "Venus stands on a scallop shell blown to shore by the winds. The painting from the 1480s hangs in the Uffizi Gallery in Florence."
+   }
+  },
+  {
+   "id": "T009-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo namaloval Guernicu?",
+    "en": "Who painted Guernica?"
+   },
+   "moznosti": {
+    "cs": [
+     "Joan Miró",
+     "Francisco Goya",
+     "Pablo Picasso",
+     "Salvador Dalí"
+    ],
+    "en": [
+     "Joan Miró",
+     "Francisco Goya",
+     "Pablo Picasso",
+     "Salvador Dalí"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Guernicu namaloval Pablo Picasso v roce 1937 pro španělský pavilon na Světové výstavě v Paříži. Celé plátno je jen v černé, bílé a šedé.",
+    "en": "Pablo Picasso painted Guernica in 1937 for the Spanish pavilion at the Paris World's Fair. The entire canvas uses only black, white and grey."
+   }
+  },
+  {
+   "id": "T009-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém městě je Leonardova nástěnná malba Poslední večeře?",
+    "en": "In which city is Leonardo's mural The Last Supper?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Benátkách",
+     "V Římě",
+     "Ve Florencii",
+     "V Miláně"
+    ],
+    "en": [
+     "Venice",
+     "Rome",
+     "Florence",
+     "Milan"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Poslední večeře zdobí jídelnu kláštera Santa Maria delle Grazie v Miláně. Návštěvníci mají kvůli ochraně malby jen krátký časový limit.",
+    "en": "The Last Supper decorates the refectory of the Santa Maria delle Grazie convent in Milan. To protect the painting, visitors get only a short time slot."
+   }
+  },
+  {
+   "id": "T009-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Mona Lisa byla v srpnu 1911 ukradena. Jak dlouho byla nezvěstná?",
+    "en": "The Mona Lisa was stolen in August 1911. How long was it missing?"
+   },
+   "moznosti": {
+    "cs": [
+     "Necelý měsíc",
+     "Přes dva roky",
+     "Přes deset let",
+     "Přes dvacet let"
+    ],
+    "en": [
+     "Less than a month",
+     "Over two years",
+     "Over ten years",
+     "Over twenty years"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Obraz ukradl muzejní zaměstnanec Vincenzo Peruggia, který předtím pomáhal stavět jeho skleněnou vitrínu, a asi dva roky ho schovával ve svém bytě; dopaden byl v prosinci 1913, když se ho pokusil prodat v Itálii. Krádež výrazně přispěla ke světové slávě obrazu.",
+    "en": "It was stolen by museum worker Vincenzo Peruggia, who had helped build its glass case, and he hid it in his flat for about two years; he was caught in December 1913 trying to sell it in Italy. The theft did much to make the painting world-famous."
+   }
+  },
+  {
+   "id": "T009-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na jakou událost reagoval obraz Guernica z roku 1937?",
+    "en": "What event was the 1937 painting Guernica responding to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na bitvu u Verdunu za první světové války",
+     "Na bombardování baskického města za španělské občanské války",
+     "Na zemětřesení, které zničilo andaluské město",
+     "Na popravy madridských povstalců francouzskými vojáky"
+    ],
+    "en": [
+     "The Battle of Verdun in the First World War",
+     "The bombing of a Basque town during the Spanish Civil War",
+     "An earthquake that destroyed an Andalusian town",
+     "The execution of Madrid rebels by French soldiers"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Guernicu 26. dubna 1937 bombardovala německá Legie Condor a italské letectvo na podporu Franca. Autor si přál, aby obraz putoval do Španělska až po obnovení demokracie – stalo se tak v roce 1981 a dnes visí v Museo Reina Sofía v Madridu.",
+    "en": "Guernica was bombed on 26 April 1937 by the German Condor Legion and Italian aircraft supporting Franco. The artist wanted the painting to go to Spain only once democracy returned. It finally reached Spain in 1981 and now hangs in the Museo Reina Sofía in Madrid."
+   }
+  },
+  {
+   "id": "T009-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč je název Rembrandtovy Noční hlídky vlastně omyl?",
+    "en": "Why is the title of Rembrandt's The Night Watch actually a mistake?"
+   },
+   "moznosti": {
+    "cs": [
+     "Postavy jsou ve skutečnosti hosté na svatební hostině",
+     "Scéna se odehrává ve dne, temná je kvůli ztmavlému laku",
+     "Název vznikl záměnou s jiným Rembrandtovým obrazem",
+     "Rembrandt ji maloval v noci při svíčkách"
+    ],
+    "en": [
+     "The figures are actually guests at a wedding feast",
+     "The scene takes place in daytime; it looks dark because of darkened varnish",
+     "The title came from a mix-up with another Rembrandt painting",
+     "Rembrandt painted it at night by candlelight"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Obraz z roku 1642 zachycuje amsterdamskou měšťanskou milici za dne; tmavý lak, odstraněný až ve 40. letech 20. století, z něj udělal zdánlivě noční scénu. Visí v Rijksmuseu v Amsterdamu.",
+    "en": "The 1642 painting shows an Amsterdam civic militia company by day; dark varnish, removed only in the 1940s, made it look like a night scene. It hangs in the Rijksmuseum in Amsterdam."
+   }
+  },
+  {
+   "id": "T009-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Z kolika velkoformátových pláten se skládá Slovanská epopej Alfonse Muchy?",
+    "en": "How many large-format canvases make up Alphonse Mucha's Slav Epic?"
+   },
+   "moznosti": {
+    "cs": [
+     "10",
+     "20",
+     "30",
+     "50"
+    ],
+    "en": [
+     "10",
+     "20",
+     "30",
+     "50"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Mucha maloval 20 obrazů z dějin Slovanů v letech 1910–1928, z velké části na zámku Zbiroh. Největší plátna měří asi 6 × 8 metrů.",
+    "en": "Mucha painted the 20 canvases on Slavic history between 1910 and 1928, largely at Zbiroh Castle. The largest canvases measure about 6 × 8 metres (20 × 26 ft)."
+   }
+  },
+  {
+   "id": "T009-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Obraz Františka Kupky Amorfa. Dvoubarevná fuga byl v roce 1912 na pařížském Podzimním salonu jedním z prvních veřejně vystavených děl kterého směru?",
+    "en": "František Kupka's Amorpha, Fugue in Two Colors was shown at the 1912 Paris Salon d'Automne as one of the first publicly exhibited works of which movement?"
+   },
+   "moznosti": {
+    "cs": [
+     "Fauvismu",
+     "Surrealismu",
+     "Kubismu",
+     "Abstraktní malby"
+    ],
+    "en": [
+     "Fauvism",
+     "Surrealism",
+     "Cubism",
+     "Abstract painting"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kupka je považován za jednoho z průkopníků abstrakce; obraz nezobrazuje nic konkrétního, jen rytmus barev a tvarů, jako by šlo o hudbu. Patří Národní galerii Praha.",
+    "en": "Kupka is regarded as one of the pioneers of abstraction; the painting depicts nothing concrete, only a rhythm of colours and shapes, like music. It belongs to the National Gallery Prague."
+   }
+  },
+  {
+   "id": "T009-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jakou technikou vznikla Hokusaiova Velká vlna u Kanagawy?",
+    "en": "What technique was used to make Hokusai's The Great Wave off Kanagawa?"
+   },
+   "moznosti": {
+    "cs": [
+     "Freskou",
+     "Barevným dřevořezem",
+     "Akvarelem na hedvábí",
+     "Olejomalbou na plátně"
+    ],
+    "en": [
+     "Fresco",
+     "Colour woodblock print",
+     "Watercolour on silk",
+     "Oil on canvas"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Velká vlna je barevný dřevořez z cyklu 36 pohledů na horu Fudži (konec roku 1831). Otisků se vytisklo odhadem až 8 000, proto ho dnes vlastní řada muzeí po celém světě. Malá hora Fudži se skrývá v pozadí mezi vlnami.",
+    "en": "The Great Wave is a colour woodblock print from the series Thirty-six Views of Mount Fuji (late 1831). An estimated 8,000 impressions were printed, which is why many museums worldwide own one. A small Mount Fuji hides in the background between the waves."
+   }
+  },
+  {
+   "id": "T009-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se nazývá Leonardova technika jemných, kouřových přechodů mezi světlem a stínem bez ostrých obrysů?",
+    "en": "What is the name of Leonardo's technique of soft, smoky transitions between light and shadow without sharp outlines?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pointilismus",
+     "Impasto",
+     "Grisaille",
+     "Sfumato"
+    ],
+    "en": [
+     "Pointillism",
+     "Impasto",
+     "Grisaille",
+     "Sfumato"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Název pochází z italského sfumare – rozplynout se jako kouř. Leonardo tuto malbu popsal jako „bez linií a hranic, jako kouř“.",
+    "en": "The name comes from the Italian sfumare – to evaporate like smoke. Leonardo described the effect as 'without lines or borders, in the manner of smoke'."
+   }
+  },
+  {
+   "id": "T009-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který obraz se v roce 2017 prodal v aukci Christie's za rekordních 450,3 milionu dolarů?",
+    "en": "Which painting sold at Christie's in 2017 for a record $450.3 million?"
+   },
+   "moznosti": {
+    "cs": [
+     "Salvator Mundi (připisovaný Leonardovi)",
+     "Shot Sage Blue Marilyn (Andy Warhol)",
+     "Alžírské ženy (Pablo Picasso)",
+     "Lekníny (Claude Monet)"
+    ],
+    "en": [
+     "Salvator Mundi (attributed to Leonardo)",
+     "Shot Sage Blue Marilyn (Andy Warhol)",
+     "The Women of Algiers (Pablo Picasso)",
+     "Water Lilies (Claude Monet)"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Salvator Mundi je považován za nejdražší obraz, jaký se kdy prodal v aukci (k roku 2026). Jeho připsání Leonardovi je sporné a od prodeje nebyl veřejně vystaven (k roku 2026).",
+    "en": "Salvator Mundi is considered the most expensive painting ever sold at auction (as of 2026). Its attribution to Leonardo is disputed and it has not been publicly exhibited since the sale (as of 2026)."
+   }
+  },
+  {
+   "id": "T009-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč v bostonském Muzeu Isabelly Stewart Gardnerové dodnes visí prázdné rámy?",
+    "en": "Why do empty frames still hang in Boston's Isabella Stewart Gardner Museum?"
+   },
+   "moznosti": {
+    "cs": [
+     "Připomínají díla ukradená v roce 1990, která se dosud nenašla",
+     "Jde o konceptuální instalaci současného umělce",
+     "Obrazy jsou trvale zapůjčené jiným muzeím",
+     "Obrazy jsou dlouhodobě v restaurátorské dílně"
+    ],
+    "en": [
+     "They recall works stolen in 1990 that have never been found",
+     "They are a conceptual installation by a contemporary artist",
+     "The paintings are on permanent loan to other museums",
+     "The paintings are in a conservation studio long-term"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "V březnu 1990 odnesli zloději převlečení za policisty 13 děl, mezi nimi Vermeerův Koncert a jedinou Rembrandtovu mořskou scénu. Případ je dosud nevyřešený a muzeum, které ho označuje za největší majetkovou krádež na světě, nabízí odměnu 10 milionů dolarů (k roku 2026).",
+    "en": "In March 1990 thieves disguised as police officers took 13 works, including Vermeer's The Concert and Rembrandt's only seascape. The case is still unsolved, and the museum, which calls it the single largest property theft in the world, offers a $10 million reward (as of 2026)."
+   }
+  },
+  {
+   "id": "T009-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém vídeňském muzeu visí Klimtův Polibek?",
+    "en": "In which Vienna museum does Klimt's The Kiss hang?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Belvederu",
+     "V Albertině",
+     "V Uměleckohistorickém muzeu",
+     "V Leopoldově muzeu"
+    ],
+    "en": [
+     "The Belvedere",
+     "The Albertina",
+     "The Kunsthistorisches Museum",
+     "The Leopold Museum"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Polibek z let 1907–1908 koupil rakouský stát ještě v roce 1908 a od té doby patří Belvederu. Klimt na něm hojně použil plátkové zlato.",
+    "en": "The Kiss (1907–1908) was bought by the Austrian state already in 1908 and has belonged to the Belvedere ever since. Klimt used abundant gold leaf on it."
+   }
+  },
+  {
+   "id": "T009-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na Výkřiku z roku 1893 je tužkou drobný nápis „Mohl ho namalovat jen šílenec“. Kdo ho podle výzkumu z roku 2021 napsal?",
+    "en": "The 1893 Scream bears a small pencil inscription: 'Could only have been painted by a madman'. According to 2021 research, who wrote it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rozhořčený návštěvník výstavy",
+     "Malířova sestra Laura",
+     "Konzervativní umělecký kritik",
+     "Sám malíř"
+    ],
+    "en": [
+     "An outraged exhibition visitor",
+     "The painter's sister Laura",
+     "A conservative art critic",
+     "The painter himself"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Infračervené snímky a rozbor rukopisu v Národním muzeu v Oslu ukázaly, že nápis napsal sám autor obrazu – podle jedné teorie po kritice při první výstavě obrazu v Norsku v roce 1895, kdy se řešilo i jeho duševní zdraví. Dlouho se přitom myslelo, že ho připsal některý návštěvník nebo kritik.",
+    "en": "Infrared imaging and handwriting analysis at the National Museum in Oslo showed the artist wrote it himself – one theory says after criticism at the painting's first showing in Norway in 1895, when his mental health was questioned. For a long time it was thought to be the work of a visitor or critic."
+   }
+  },
+  {
+   "id": "T009-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Koho vidíme v zrcadle v pozadí Velázquezova obrazu Las Meninas?",
+    "en": "Who is reflected in the mirror at the back of Velázquez's Las Meninas?"
+   },
+   "moznosti": {
+    "cs": [
+     "Samotného Velázqueze",
+     "Papeže Inocence X.",
+     "Královský pár Filipa IV. a Marianu",
+     "Infantku Markétu Terezu"
+    ],
+    "en": [
+     "Velázquez himself",
+     "Pope Innocent X",
+     "The royal couple Philip IV and Mariana",
+     "Infanta Margaret Theresa"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "V zrcadle se odráží král Filip IV. a královna Mariana; zdá se tak, že stojí zhruba na místě diváka (výklad je ale sporný). Velázquez se namaloval vlevo u velkého plátna; obraz z roku 1656 je v Pradu.",
+    "en": "The mirror reflects King Philip IV and Queen Mariana, so they seem to stand roughly where the viewer stands (though this reading is debated). Velázquez painted himself on the left at a large canvas; the 1656 painting is in the Prado."
+   }
+  },
+  {
+   "id": "T009-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co stojí v latinském nápisu nad zrcadlem na Van Eyckově Portrétu manželů Arnolfiniových (The Arnolfini Portrait)?",
+    "en": "What does the Latin inscription above the mirror in Van Eyck's The Arnolfini Portrait say?"
+   },
+   "moznosti": {
+    "cs": [
+     "„Co Bůh spojil, člověk nerozlučuj“",
+     "„Pamatuj na smrt“",
+     "„Láska vše přemáhá“",
+     "„Jan van Eyck zde byl. 1434“"
+    ],
+    "en": [
+     "'What God has joined, let no man put asunder'",
+     "'Remember death'",
+     "'Love conquers all'",
+     "'Jan van Eyck was here. 1434'"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Nápis „Johannes de eyck fuit hic 1434“ bývá vykládán jako podpis i jako svědectví. V zrcadle pod ním jsou vidět dvě postavy ve dveřích – jednou z nich může být sám malíř. Obraz je v National Gallery v Londýně.",
+    "en": "The inscription 'Johannes de eyck fuit hic 1434' is often read as both a signature and a witness statement. The mirror below shows two figures in the doorway – one may be the painter himself. The painting is in the National Gallery, London."
+   }
+  },
+  {
+   "id": "T009-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co v roce 2014 přepsala americká studentka z pozadí jedné postavy v pekelné části Boschovy Zahrady pozemských rozkoší?",
+    "en": "What did an American student transcribe in 2014 from the backside of a figure in the Hell panel of Bosch's The Garden of Earthly Delights?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mapu Brabantska",
+     "Latinský citát z Bible",
+     "Notový zápis",
+     "Malířův skrytý podpis"
+    ],
+    "en": [
+     "A map of Brabant",
+     "A Latin Bible quote",
+     "Musical notation",
+     "The painter's hidden signature"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Na zadnici jednoho z trýzněných hříšníků jsou namalované noty. Studentka je převedla do moderního zápisu a nahrála – internet melodii přezdívá „píseň zadku z pekla“. Triptych je v Pradu.",
+    "en": "Musical notes are painted on the buttocks of one of the tormented sinners. The student transcribed and recorded them – the internet dubbed the tune the 'butt song from hell'. The triptych is in the Prado."
+   }
+  },
+  {
+   "id": "T009-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který panel Gentského oltáře byl ukraden v roce 1934 a dodnes se nenašel?",
+    "en": "Which panel of the Ghent Altarpiece was stolen in 1934 and has never been found?"
+   },
+   "moznosti": {
+    "cs": [
+     "Spravedliví soudci",
+     "Adam a Eva",
+     "Zvěstování",
+     "Klanění Beránku"
+    ],
+    "en": [
+     "The Just Judges",
+     "Adam and Eve",
+     "The Annunciation",
+     "The Adoration of the Lamb"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Panel Spravedliví soudci zmizel v noci z 10. na 11. dubna 1934; od roku 1945 ho nahrazuje kopie Jefa Van der Vekena. Podle historika Noaha Charneyho byl Gentský oltář obětí 13 zločinů, z toho sedmi krádeží.",
+    "en": "The Just Judges panel disappeared on the night of 10–11 April 1934; since 1945 a copy by Jef Van der Veken has taken its place. According to historian Noah Charney, the Ghent Altarpiece has been the victim of 13 crimes, including seven thefts."
+   }
+  },
+  {
+   "id": "T009-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo stál Grantu Woodovi modelem pro dvojici na obraze Americká gotika (1930)?",
+    "en": "Who posed for Grant Wood as the couple in American Gothic (1930)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jeho rodiče",
+     "Jeho sestra a jeho zubař",
+     "Manželé z místního kostelního sboru",
+     "Majitelé domu v Iowě, který je v pozadí"
+    ],
+    "en": [
+     "His parents",
+     "His sister and his dentist",
+     "A married couple from the local church choir",
+     "The owners of the Iowa house in the background"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pózovali Woodova sestra Nan Wood Grahamová a jeho zubař Byron McKeeby. Mnozí dvojici považují za manžele, Woodova sestra však trvala na tom, že jde o otce a dceru. Obraz je v Art Institute of Chicago.",
+    "en": "The models were Wood's sister Nan Wood Graham and his dentist Byron McKeeby. Many see the pair as husband and wife, but Wood's sister insisted they were father and daughter. The painting is at the Art Institute of Chicago."
+   }
+  },
+  {
+   "id": "T009-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na jakém podkladu je namalovaná Mona Lisa?",
+    "en": "What support is the Mona Lisa painted on?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na topolové desce",
+     "Na dubové desce",
+     "Na měděném plechu",
+     "Na plátně"
+    ],
+    "en": [
+     "A poplar panel",
+     "An oak panel",
+     "A copper sheet",
+     "Canvas"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Mona Lisa je olejomalba na desce z bílého topolu, velká jen asi 77 × 53 cm. Dřevo se časem zkroutilo a v horní části má prasklinu, proto je obraz v klimatizované vitríně.",
+    "en": "The Mona Lisa is an oil painting on a white poplar panel only about 77 × 53 cm (30 × 21 inches). The wood has warped over time and has a crack at the top, which is why it sits in a climate-controlled case."
+   }
+  },
+  {
+   "id": "T009-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kde byla v roce 1889 namalována Hvězdná noc?",
+    "en": "Where was The Starry Night painted in 1889?"
+   },
+   "moznosti": {
+    "cs": [
+     "V hostinci v Auvers-sur-Oise",
+     "V malířově pařížském ateliéru na Montmartru",
+     "Ve Žlutém domě v Arles",
+     "V ústavu pro duševně nemocné v Saint-Rémy-de-Provence"
+    ],
+    "en": [
+     "At an inn in Auvers-sur-Oise",
+     "In the painter's Paris studio in Montmartre",
+     "In the Yellow House in Arles",
+     "In the mental asylum at Saint-Rémy-de-Provence"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Malíř se dobrovolně nechal hospitalizovat v Saint-Rémy a obraz vychází z výhledu z okna jeho pokoje. Vesnici s kostelem ale přidal z fantazie podle skici a maloval přes den v přízemní místnosti, kterou mu ústav dal jako ateliér.",
+    "en": "The painter voluntarily admitted himself to the asylum at Saint-Rémy, and the painting is based on the view from his bedroom window. The village with its church, however, was an imaginary addition based on a sketch, and he painted it during the day in a ground-floor room he used as a studio."
+   }
+  },
+  {
+   "id": "T009-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kde byla v roce 1863 poprvé vystavena Manetova Snídaně v trávě, jež vyvolala pohoršení?",
+    "en": "Where was Manet's Le Déjeuner sur l'herbe first exhibited in 1863, causing a scandal?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na oficiálním Pařížském salonu",
+     "Na Světové výstavě v Paříži",
+     "Na Salonu odmítnutých",
+     "Na první výstavě impresionistů"
+    ],
+    "en": [
+     "At the official Paris Salon",
+     "At the Paris World's Fair",
+     "At the Salon des Refusés",
+     "At the first Impressionist exhibition"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Oficiální Salon obraz odmítl, a tak ho Manet vystavil na Salonu odmítnutých, který povolil Napoleon III. Publikum pohoršila nahá žena vedle mužů v moderním oblečení. Dnes je v Musée d'Orsay.",
+    "en": "The official Salon rejected it, so Manet showed it at the Salon des Refusés authorised by Napoleon III. The public was shocked by a naked woman beside men in modern clothes. It is now in the Musée d'Orsay."
+   }
+  },
+  {
+   "id": "T009-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč musel Klimtův Portrét Adele Bloch-Bauerové I v roce 2006 opustit Rakousko?",
+    "en": "Why did Klimt's Portrait of Adele Bloch-Bauer I have to leave Austria in 2006?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rakousko ho prodalo kvůli dluhům státu",
+     "Byl vyměněn za kolekci obrazů Egona Schieleho",
+     "Rozhodčí soud ho vrátil dědicům, jimž ho vzali nacisté",
+     "Byl ukraden a později se našel v USA"
+    ],
+    "en": [
+     "Austria sold it to pay off state debts",
+     "It was swapped for a collection of Egon Schiele works",
+     "An arbitration panel returned it to heirs robbed by the Nazis",
+     "It was stolen and later turned up in the USA"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Rakouský rozhodčí senát přiznal obraz dědicům rodiny Bloch-Bauerových, mezi nimiž byla Maria Altmannová. V červnu 2006 ho za 135 milionů dolarů koupil Ronald Lauder pro Neue Galerie v New Yorku. Příběh zachycuje film Dáma ve zlatém (2015).",
+    "en": "An Austrian arbitration panel awarded the painting to the Bloch-Bauer heirs, among them Maria Altmann. In June 2006 Ronald Lauder bought it for $135 million for the Neue Galerie in New York. The story is told in the film Woman in Gold (2015)."
+   }
+  }
+ ]
+}

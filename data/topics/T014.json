@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T014",
+ "nazev": {
+  "cs": "Historie peněz a měn",
+  "en": "The History of Money and Currencies"
+ },
+ "kategorie": {
+  "id": "ekonomika-a-penize",
+  "nazev": {
+   "cs": "Ekonomika a peníze",
+   "en": "Economy & Money"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T014-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ze kterého českého města pochází tolar, od jehož názvu je odvozeno slovo „dolar“?",
+    "en": "Which Czech town gave its name to the thaler, the coin from which the word “dollar” is derived?"
+   },
+   "moznosti": {
+    "cs": [
+     "Příbram",
+     "Kutná Hora",
+     "Jihlava",
+     "Jáchymov"
+    ],
+    "en": [
+     "Příbram",
+     "Kutná Hora",
+     "Jihlava",
+     "Jáchymov"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Stříbrné mince z Jáchymova (německy Joachimsthal) se nazývaly Joachimsthaler, zkráceně taler. Z toho vzniklo dolnoněmecké a nizozemské daler a odtud anglické dollar.",
+    "en": "Silver coins from Jáchymov (German Joachimsthal) were called Joachimsthaler, shortened to thaler. That gave the Low German and Dutch daler, and from it the English dollar."
+   }
+  },
+  {
+   "id": "T014-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém roce se v eurozóně začalo platit eurovými bankovkami a mincemi?",
+    "en": "In which year did people in the euro area start paying with euro banknotes and coins?"
+   },
+   "moznosti": {
+    "cs": [
+     "1999",
+     "2002",
+     "2004",
+     "2009"
+    ],
+    "en": [
+     "1999",
+     "2002",
+     "2004",
+     "2009"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Hotovost se objevila 1. ledna 2002. Samotné euro ale existovalo už od 1. ledna 1999, tři roky jen v bezhotovostní podobě.",
+    "en": "Cash appeared on 1 January 2002. The euro itself had existed since 1 January 1999, but for three years only in non-cash form."
+   }
+  },
+  {
+   "id": "T014-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi vznikly první papírové peníze na světě?",
+    "en": "In which country did the world's first paper money appear?"
+   },
+   "moznosti": {
+    "cs": [
+     "Čína",
+     "Itálie",
+     "Indie",
+     "Egypt"
+    ],
+    "en": [
+     "China",
+     "Italy",
+     "India",
+     "Egypt"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Papírové peníze se poprvé objevily v Číně; za dynastie Song je v 11. století začal vydávat i stát (tzv. jiaozi). Evropa je poznala o stovky let později.",
+    "en": "Paper money first appeared in China; under the Song dynasty in the 11th century the state itself began issuing it (the jiaozi). Europe adopted it centuries later."
+   }
+  },
+  {
+   "id": "T014-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která země vydala v lednu 2009 bankovku s nominální hodnotou 100 bilionů dolarů?",
+    "en": "Which country issued a banknote with a face value of 100 trillion dollars in January 2009?"
+   },
+   "moznosti": {
+    "cs": [
+     "Argentina",
+     "Zimbabwe",
+     "Jugoslávie",
+     "Venezuela"
+    ],
+    "en": [
+     "Argentina",
+     "Zimbabwe",
+     "Yugoslavia",
+     "Venezuela"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Zimbabwská centrální banka ji uvedla do oběhu 16. ledna 2009 na vrcholu hyperinflace. První den měla hodnotu jen asi 30 amerických dolarů.",
+    "en": "The Reserve Bank of Zimbabwe put it into circulation on 16 January 2009 at the height of hyperinflation. On its first day it was worth only about 30 US dollars."
+   }
+  },
+  {
+   "id": "T014-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Pod jakým pseudonymem vystupoval tvůrce bitcoinu?",
+    "en": "Under what pseudonym did the creator of Bitcoin operate?"
+   },
+   "moznosti": {
+    "cs": [
+     "Roger Ver",
+     "Vitalik Buterin",
+     "Charlie Lee",
+     "Satoshi Nakamoto"
+    ],
+    "en": [
+     "Roger Ver",
+     "Vitalik Buterin",
+     "Charlie Lee",
+     "Satoshi Nakamoto"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Satoshi Nakamoto zveřejnil 31. října 2008 popis bitcoinu (whitepaper) a v lednu 2009 spustil síť. Jeho skutečná identita není známa; Vitalik Buterin je spoluzakladatel Etherea a Charlie Lee vytvořil Litecoin.",
+    "en": "Satoshi Nakamoto published the Bitcoin whitepaper on 31 October 2008 and launched the network in January 2009. His real identity is unknown; Vitalik Buterin co-founded Ethereum and Charlie Lee created Litecoin."
+   }
+  },
+  {
+   "id": "T014-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co byly kauri, které po staletí sloužily jako platidlo v Africe a Asii?",
+    "en": "What were cowries, used as money for centuries in Africa and Asia?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mořské ulity",
+     "Kovové kroužky",
+     "Kamenné kotouče",
+     "Sušená semena"
+    ],
+    "en": [
+     "Sea shells",
+     "Metal rings",
+     "Stone discs",
+     "Dried seeds"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kauri jsou lesklé ulity mořských plžů z čeledi Cypraeidae. Jsou malé, odolné a těžko se padělají, takže sloužily jako platidlo od Číny po západní Afriku.",
+    "en": "Cowries are the glossy shells of sea snails of the family Cypraeidae. Small, durable and hard to fake, they served as money from China to West Africa."
+   }
+  },
+  {
+   "id": "T014-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém roce vznikla samostatná česká koruna?",
+    "en": "In which year was the independent Czech koruna created?"
+   },
+   "moznosti": {
+    "cs": [
+     "1990",
+     "1993",
+     "1995",
+     "2000"
+    ],
+    "en": [
+     "1990",
+     "1993",
+     "1995",
+     "2000"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Česká koruna platí od 8. února 1993, několik týdnů po rozdělení Československa k 1. lednu 1993. Slovensko zavedlo ve stejný den vlastní slovenskou korunu.",
+    "en": "The Czech koruna has been in use since 8 February 1993, a few weeks after Czechoslovakia split on 1 January 1993. Slovakia introduced its own Slovak koruna on the same day."
+   }
+  },
+  {
+   "id": "T014-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čí portrét je na české bankovce v hodnotě 5000 Kč?",
+    "en": "Whose portrait appears on the Czech 5,000-koruna banknote?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tomáš Garrigue Masaryk",
+     "Ema Destinnová",
+     "Božena Němcová",
+     "Karel IV."
+    ],
+    "en": [
+     "Tomáš Garrigue Masaryk",
+     "Emmy Destinn",
+     "Božena Němcová",
+     "Charles IV"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Nejvyšší česká bankovka nese portrét prvního československého prezidenta T. G. Masaryka. Karel IV. je na stokoruně, Božena Němcová na pětistovce a Ema Destinnová na dvoutisícovce.",
+    "en": "The highest Czech banknote shows the first Czechoslovak president, T. G. Masaryk. Charles IV is on the 100, Božena Němcová on the 500 and Emmy Destinn on the 2,000."
+   }
+  },
+  {
+   "id": "T014-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá měnový systém, v němž je hodnota peněz pevně navázána na určité množství zlata?",
+    "en": "What is the name of a monetary system in which the value of money is fixed to a set amount of gold?"
+   },
+   "moznosti": {
+    "cs": [
+     "Fiat měna",
+     "Měnový koš",
+     "Zlatý standard",
+     "Plovoucí kurz"
+    ],
+    "en": [
+     "Fiat currency",
+     "Currency basket",
+     "Gold standard",
+     "Floating exchange rate"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Při zlatém standardu šlo peníze teoreticky vyměnit za pevné množství zlata. Jeho mezinárodní zbytek skončil v roce 1971, kdy USA přestaly zahraničním vládám směňovat dolary za zlato.",
+    "en": "Under a gold standard, money could in principle be exchanged for a fixed amount of gold. Its last international remnant ended in 1971, when the US stopped converting dollars into gold for foreign governments."
+   }
+  },
+  {
+   "id": "T014-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou měnu používalo sjednocené Německo bezprostředně před zavedením eura?",
+    "en": "What currency did reunified Germany use immediately before the euro?"
+   },
+   "moznosti": {
+    "cs": [
+     "Říšskou marku",
+     "Šilink",
+     "Gulden",
+     "Německou marku"
+    ],
+    "en": [
+     "Reichsmark",
+     "Schilling",
+     "Gulden",
+     "Deutsche Mark"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Německá marka vznikla v roce 1948. Od 1. července 1990, ještě před sjednocením, platila i ve východním Německu a ve sjednoceném Německu zůstala měnou až do nástupu eura.",
+    "en": "The Deutsche Mark was introduced in 1948. From 1 July 1990, even before reunification, it was also used in East Germany, and it remained reunified Germany's currency until the euro arrived."
+   }
+  },
+  {
+   "id": "T014-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém starověkém království vznikly podle převládajícího názoru historiků první ražené mince západního světa?",
+    "en": "According to the prevailing view of historians, in which ancient kingdom were the Western world's first struck coins made?"
+   },
+   "moznosti": {
+    "cs": [
+     "Babylonie",
+     "Egypt",
+     "Fénicie",
+     "Lýdie"
+    ],
+    "en": [
+     "Babylonia",
+     "Egypt",
+     "Phoenicia",
+     "Lydia"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Lýdie v dnešním západním Turecku razila v 7. století př. n. l. mince z elektra, přirozené slitiny zlata a stříbra. Odtud se mincovnictví rozšířilo do řeckého světa.",
+    "en": "Lydia, in today's western Turkey, struck coins of electrum, a natural gold–silver alloy, in the 7th century BC. Coinage spread from there to the Greek world."
+   }
+  },
+  {
+   "id": "T014-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ze kterého latinského slova je odvozeno anglické slovo „salary“ (plat)?",
+    "en": "Which Latin word is the root of the English word “salary”?"
+   },
+   "moznosti": {
+    "cs": [
+     "sal – sůl",
+     "salus – zdraví",
+     "solidus – zlatá mince",
+     "solum – půda"
+    ],
+    "en": [
+     "sal – salt",
+     "salus – health",
+     "solidus – gold coin",
+     "solum – soil"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Anglické salary pochází z latinského salarium, které je odvozeno od slova sal (sůl). Oblíbená historka, že římští vojáci dostávali žold přímo v soli, však nemá oporu v antických pramenech.",
+    "en": "English salary comes from Latin salarium, derived from sal (salt). The popular story that Roman soldiers were paid in actual salt has no support in ancient sources."
+   }
+  },
+  {
+   "id": "T014-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém roce vyvrcholila hyperinflace ve Výmarské republice?",
+    "en": "In which year did hyperinflation in the Weimar Republic reach its peak?"
+   },
+   "moznosti": {
+    "cs": [
+     "1919",
+     "1923",
+     "1929",
+     "1933"
+    ],
+    "en": [
+     "1919",
+     "1923",
+     "1929",
+     "1933"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "V listopadu 1923 stál jeden americký dolar 4,2 bilionu marek. Bochník chleba v Berlíně podražil ze zhruba 160 marek na konci roku 1922 na 200 miliard marek na konci roku 1923.",
+    "en": "By November 1923 one US dollar was worth 4.2 trillion marks. A loaf of bread in Berlin rose from about 160 marks at the end of 1922 to 200 billion marks by late 1923."
+   }
+  },
+  {
+   "id": "T014-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který americký prezident v srpnu 1971 ukončil směnitelnost dolaru za zlato?",
+    "en": "Which US president ended the convertibility of the dollar into gold in August 1971?"
+   },
+   "moznosti": {
+    "cs": [
+     "John F. Kennedy",
+     "Jimmy Carter",
+     "Lyndon B. Johnson",
+     "Richard Nixon"
+    ],
+    "en": [
+     "John F. Kennedy",
+     "Jimmy Carter",
+     "Lyndon B. Johnson",
+     "Richard Nixon"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Krok známý jako „Nixonův šok“ byl ohlášen 15. srpna 1971 jako dočasný, ale přímá směnitelnost dolaru za zlato se už nikdy neobnovila. Tím fakticky přestal fungovat poválečný systém pevných kurzů.",
+    "en": "The move known as the “Nixon shock” was announced on 15 August 1971 as temporary, but direct convertibility of the dollar into gold was never restored. It effectively ended the post-war system of fixed exchange rates."
+   }
+  },
+  {
+   "id": "T014-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kde se v roce 1944 dohodl poválečný měnový systém, z něhož vzešel i Mezinárodní měnový fond?",
+    "en": "Where was the post-war monetary system, which also gave rise to the International Monetary Fund, agreed in 1944?"
+   },
+   "moznosti": {
+    "cs": [
+     "Camp David",
+     "Dumbarton Oaks",
+     "Bretton Woods",
+     "Jekyll Island"
+    ],
+    "en": [
+     "Camp David",
+     "Dumbarton Oaks",
+     "Bretton Woods",
+     "Jekyll Island"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "V hotelu v Bretton Woods v New Hampshiru se v červenci 1944 sešli zástupci 44 spojeneckých zemí. Měny navázali na dolar a dolar na zlato.",
+    "en": "In July 1944 delegates from 44 Allied nations met at a hotel in Bretton Woods, New Hampshire. They pegged currencies to the dollar and the dollar to gold."
+   }
+  },
+  {
+   "id": "T014-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na kterém tichomořském ostrově sloužily jako platidlo obří kamenné kotouče rai?",
+    "en": "On which Pacific island did giant stone discs called rai serve as money?"
+   },
+   "moznosti": {
+    "cs": [
+     "Velikonoční ostrov",
+     "Fidži",
+     "Tahiti",
+     "Yap"
+    ],
+    "en": [
+     "Easter Island",
+     "Fiji",
+     "Tahiti",
+     "Yap"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kameny rai se těžily hlavně na asi 400 km vzdáleném Palau a na Yap se dovážely na kánoích a vorech. Velké kameny se často vůbec nehýbaly: vlastnictví se předávalo dohodou a pamatovalo se v ústní tradici.",
+    "en": "Rai stones were quarried mainly on Palau, about 400 km (250 mi) away, and brought to Yap by canoe and raft. Large stones often never moved; ownership was transferred by agreement and remembered through oral tradition."
+   }
+  },
+  {
+   "id": "T014-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik bitcoinů zaplatil Laszlo Hanyecz v květnu 2010 za dvě pizzy?",
+    "en": "How many bitcoins did Laszlo Hanyecz pay for two pizzas in May 2010?"
+   },
+   "moznosti": {
+    "cs": [
+     "100",
+     "1 000",
+     "10 000",
+     "100 000"
+    ],
+    "en": [
+     "100",
+     "1,000",
+     "10,000",
+     "100,000"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Nákup z 22. května 2010 je považován za první obchodní transakci v bitcoinu. Tento den se dodnes slaví jako Bitcoin Pizza Day.",
+    "en": "The purchase on 22 May 2010 is regarded as the first commercial Bitcoin transaction. The date is still celebrated as Bitcoin Pizza Day."
+   }
+  },
+  {
+   "id": "T014-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolikátou členskou zemí eurozóny se 1. ledna 2026 stalo Bulharsko?",
+    "en": "Which member of the euro area, in order of joining, did Bulgaria become on 1 January 2026?"
+   },
+   "moznosti": {
+    "cs": [
+     "19.",
+     "20.",
+     "21.",
+     "22."
+    ],
+    "en": [
+     "19th",
+     "20th",
+     "21st",
+     "22nd"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Bulharsko přijalo euro 1. ledna 2026 jako 21. země; předtím se v roce 2023 jako 20. připojilo Chorvatsko. Bulharská měna se jmenovala lev.",
+    "en": "Bulgaria adopted the euro on 1 January 2026 as the 21st country; Croatia had joined as the 20th in 2023. Bulgaria's former currency was the lev."
+   }
+  },
+  {
+   "id": "T014-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak byly při měnové odluce po rozdělení Československa odlišeny československé bankovky, které dál platily v České republice?",
+    "en": "How were the Czechoslovak banknotes that remained valid in the Czech Republic marked during the currency separation after Czechoslovakia split?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vyraženou dírkou",
+     "Razítkem s nápisem ČR",
+     "Nalepeným kolkem",
+     "Ustřiženým rohem"
+    ],
+    "en": [
+     "A punched hole",
+     "An ink stamp reading ČR",
+     "An adhesive stamp",
+     "A clipped corner"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Na bankovky 100, 500 a 1000 Kčs se v utajené akci nalepovaly kolky. Neokolkované bankovky těchto hodnot přestaly platit dnem vzniku české koruny; stejnou metodu kolkování použilo Československo už při měnové odluce v roce 1919.",
+    "en": "In a secret operation, adhesive stamps were attached to 100, 500 and 1,000 Kčs notes. Unstamped notes of these values ceased to be valid the day the Czech koruna was introduced; Czechoslovakia had used the same stamping method in its 1919 currency separation."
+   }
+  },
+  {
+   "id": "T014-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Od přízviska které římské bohyně, u jejíhož chrámu sídlila mincovna, pochází anglické slovo „money“?",
+    "en": "The English word “money” comes from the epithet of which Roman goddess, next to whose temple the mint stood?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vesta",
+     "Juno",
+     "Venuše",
+     "Minerva"
+    ],
+    "en": [
+     "Vesta",
+     "Juno",
+     "Venus",
+     "Minerva"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Římská mincovna stála u chrámu Juno Moneta na Kapitolu. Latinské moneta tak začalo znamenat mincovnu a odtud pochází anglické money i mint.",
+    "en": "Rome's mint stood by the temple of Juno Moneta on the Capitoline Hill. Latin moneta thus came to mean “mint”, which gave English both money and mint."
+   }
+  },
+  {
+   "id": "T014-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který šlechtický rod, majitel stříbrných dolů, nechal razit tolary, jimž vděčí za jméno dolar?",
+    "en": "Which noble family, owners of silver mines, had the thalers struck that gave the dollar its name?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pernštejnové",
+     "Lobkovicové",
+     "Rožmberkové",
+     "Šlikové"
+    ],
+    "en": [
+     "The Pernštejns",
+     "The Lobkowiczs",
+     "The Rosenbergs",
+     "The Schlicks"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Štěpán Šlik získal pro rod v roce 1520 právo ražby a zřídil mincovnu. Jen v letech 1520–1528 se odtud do Lipska vyvezlo přes dva miliony tolarů.",
+    "en": "Stephan Schlick obtained minting rights for the family in 1520 and set up a mint. Between 1520 and 1528 alone, more than two million thalers were shipped from there to Leipzig."
+   }
+  },
+  {
+   "id": "T014-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Která země vydala v roce 1661 první bankovky v Evropě?",
+    "en": "Which country issued Europe's first banknotes in 1661?"
+   },
+   "moznosti": {
+    "cs": [
+     "Anglie",
+     "Švédsko",
+     "Benátská republika",
+     "Nizozemsko"
+    ],
+    "en": [
+     "England",
+     "Sweden",
+     "Republic of Venice",
+     "The Netherlands"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Vydala je banka Stockholms Banco. Švédsko tehdy platilo obřími měděnými deskami, takže papír byl velkou úlevou; banka ale vydala příliš mnoho bankovek a brzy zkrachovala.",
+    "en": "They were issued by Stockholms Banco. Sweden then used huge copper plate money, so paper was a big relief; the bank, however, issued too many notes and soon collapsed."
+   }
+  },
+  {
+   "id": "T014-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Která země zažila v letech 1945–1946 nejvyšší zaznamenanou hyperinflaci v dějinách?",
+    "en": "Which country experienced the highest recorded hyperinflation in history in 1945–1946?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rakousko",
+     "Itálie",
+     "Polsko",
+     "Maďarsko"
+    ],
+    "en": [
+     "Austria",
+     "Italy",
+     "Poland",
+     "Hungary"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "V červenci 1946 se ceny v Maďarsku zdvojnásobovaly zhruba každých 15 hodin. Vydána byla i bankovka na 100 trilionů (10^20) pengő, nejvyšší nominál v historii.",
+    "en": "In July 1946 prices in Hungary doubled roughly every 15 hours. A 100 quintillion (10^20) pengő note was issued, the highest denomination in history."
+   }
+  },
+  {
+   "id": "T014-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na základě zprávy kterého slavného vědce, tehdy správce královské mincovny, byla v roce 1717 hodnota zlaté guineje stanovena na 21 šilinků?",
+    "en": "On the report of which famous scientist, then Master of the Royal Mint, was the gold guinea fixed at 21 shillings in 1717?"
+   },
+   "moznosti": {
+    "cs": [
+     "Christopher Wren",
+     "Edmond Halley",
+     "Isaac Newton",
+     "Robert Hooke"
+    ],
+    "en": [
+     "Christopher Wren",
+     "Edmond Halley",
+     "Isaac Newton",
+     "Robert Hooke"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Newton vedl mincovnu jako Master of the Mint od roku 1699 až do své smrti v roce 1727. Jeho zpráva ze září 1717 připravila snížení guineje na 21 šilinků, po kterém v Británii začaly v oběhu převládat zlaté mince nad stříbrnými.",
+    "en": "Newton ran the Mint as Master from 1699 until his death in 1727. His report of September 1717 paved the way for fixing the guinea at 21 shillings, after which gold coins came to dominate over silver in Britain."
+   }
+  },
+  {
+   "id": "T014-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Titulek kterých novin je zapsán v úplně prvním (genesis) bloku bitcoinu z 3. ledna 2009?",
+    "en": "The headline of which newspaper is embedded in Bitcoin's very first (genesis) block of 3 January 2009?"
+   },
+   "moznosti": {
+    "cs": [
+     "The Times",
+     "The Guardian",
+     "The Wall Street Journal",
+     "Financial Times"
+    ],
+    "en": [
+     "The Times",
+     "The Guardian",
+     "The Wall Street Journal",
+     "Financial Times"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Blok obsahuje text „The Times 03/Jan/2009 Chancellor on brink of second bailout for banks“. Slouží jako časové razítko a bývá chápán i jako narážka na záchranu bank z veřejných peněz.",
+    "en": "The block contains the text “The Times 03/Jan/2009 Chancellor on brink of second bailout for banks”. It acts as a timestamp and is often read as a jab at bank bailouts."
+   }
+  },
+  {
+   "id": "T014-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který československý ministr financí prosadil v roce 1919 měnovou odluku od Rakouska-Uherska?",
+    "en": "Which Czechoslovak finance minister pushed through the 1919 currency separation from Austria-Hungary?"
+   },
+   "moznosti": {
+    "cs": [
+     "Antonín Švehla",
+     "Alois Rašín",
+     "Karel Engliš",
+     "Karel Kramář"
+    ],
+    "en": [
+     "Antonín Švehla",
+     "Alois Rašín",
+     "Karel Engliš",
+     "Karel Kramář"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Odluku odstartoval zákon z 25. února 1919: hranice se uzavřely a z hotovosti, kterou lidé v březnu předložili, stát polovinu zadržel jako nucenou půjčku. Republika se tak oddělila od rakousko-uherské měny, která se řítila do inflace.",
+    "en": "A law of 25 February 1919 launched the separation: the borders were sealed, and of the cash people handed in that March, the state withheld half as a forced loan. The republic thus broke away from the Austro-Hungarian currency, which was sliding into inflation."
+   }
+  },
+  {
+   "id": "T014-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který výtvarník navrhl oběžné bankovky české koruny zavedené po rozdělení Československa?",
+    "en": "Which artist designed the circulating Czech koruna banknotes introduced after the split of Czechoslovakia?"
+   },
+   "moznosti": {
+    "cs": [
+     "Max Švabinský",
+     "Zdeněk Sklenář",
+     "Oldřich Kulhánek",
+     "Alfons Mucha"
+    ],
+    "en": [
+     "Max Švabinský",
+     "Zdeněk Sklenář",
+     "Oldřich Kulhánek",
+     "Alfons Mucha"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Grafik Oldřich Kulhánek navrhl první sérii bankovek samostatné české koruny s portréty významných osobností českých dějin. Alfons Mucha navrhl několik prvních bankovek Československa po vzniku republiky.",
+    "en": "Printmaker Oldřich Kulhánek designed the first banknote series of the independent Czech koruna, featuring portraits of notable figures from Czech history. Alfons Mucha designed several of Czechoslovakia's first banknotes after the republic was founded."
+   }
+  },
+  {
+   "id": "T014-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik zemí zavedlo euro při jeho vzniku 1. ledna 1999?",
+    "en": "How many countries adopted the euro at its launch on 1 January 1999?"
+   },
+   "moznosti": {
+    "cs": [
+     "9",
+     "11",
+     "12",
+     "15"
+    ],
+    "en": [
+     "9",
+     "11",
+     "12",
+     "15"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Zakládajících zemí bylo jedenáct. Řecko se jako dvanácté připojilo 1. ledna 2001.",
+    "en": "There were eleven founding countries. Greece joined as the twelfth on 1 January 2001."
+   }
+  },
+  {
+   "id": "T014-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém městě rozhodla Evropská rada v prosinci 1995 o názvu společné měny „euro“?",
+    "en": "In which city did the European Council decide on the name “euro” for the single currency in December 1995?"
+   },
+   "moznosti": {
+    "cs": [
+     "Madrid",
+     "Brusel",
+     "Maastricht",
+     "Frankfurt nad Mohanem"
+    ],
+    "en": [
+     "Madrid",
+     "Brussels",
+     "Maastricht",
+     "Frankfurt am Main"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Název euro byl oficiálně přijat v Madridu 16. prosince 1995. Nahradil označení ECU, které nesla dřívější evropská účetní jednotka.",
+    "en": "The name euro was officially adopted in Madrid on 16 December 1995. It replaced the name ECU used for the earlier European accounting unit."
+   }
+  },
+  {
+   "id": "T014-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Se kterým německým názvem mince je podle běžného etymologického výkladu příbuzné české slovo „peníze“?",
+    "en": "According to the usual etymology, which German coin name is the Czech word “peníze” (money) related to?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pfennig",
+     "Taler",
+     "Heller",
+     "Kreuzer"
+    ],
+    "en": [
+     "Pfennig",
+     "Taler",
+     "Heller",
+     "Kreuzer"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Slovo peníze se podle běžného výkladu odvozuje z německého pfennig (česky fenik). Peníz přitom původně označoval jen některé mince, hlavně drobné mince či zlomky groše, a teprve později peníze obecně.",
+    "en": "According to the usual etymology, the word peníze derives from German pfennig. A peníz originally meant only certain coins, mainly small coins or fractions of a groschen, and only later money in general."
+   }
+  }
+ ]
+}

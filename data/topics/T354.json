@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T354",
+ "nazev": {
+  "cs": "Rallye, Dakar a motocyklový sport",
+  "en": "Rally, the Dakar and Motorcycle Racing"
+ },
+ "kategorie": {
+  "id": "sport",
+  "nazev": {
+   "cs": "Sport",
+   "en": "Sport"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T354-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co během rychlostní zkoušky v rallye dělá spolujezdec?",
+    "en": "What does the co-driver do during a rally special stage?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hlídá na displeji časy soupeřů",
+     "Střídá se s jezdcem za volantem",
+     "Předčítá jezdci rozpis trati",
+     "Podle mapy hledá zkratky"
+    ],
+    "en": [
+     "Watches rivals' times on a screen",
+     "Takes turns with the driver at the wheel",
+     "Reads the pace notes to the driver",
+     "Looks for shortcuts on a map"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Spolujezdec čte nahlas rozpis (anglicky pace notes) – zkratkovitý popis zatáček, horizontů a skoků – tak, aby jezdec věděl, co ho čeká za nejbližším zlomem. Rozpis si posádka obvykle sama připraví při průjezdech tratě před závodem (recce).",
+    "en": "The co-driver reads aloud the pace notes – a shorthand description of corners, crests and jumps – so the driver knows what lies beyond the next blind spot. Crews usually write their own notes during reconnaissance (the recce)."
+   }
+  },
+  {
+   "id": "T354-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které zemi se Rallye Dakar jezdí od roku 2020?",
+    "en": "In which country has the Dakar Rally been held since 2020?"
+   },
+   "moznosti": {
+    "cs": [
+     "Maroko",
+     "Egypt",
+     "Saúdská Arábie",
+     "Spojené arabské emiráty"
+    ],
+    "en": [
+     "Morocco",
+     "Egypt",
+     "Saudi Arabia",
+     "United Arab Emirates"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Od roku 2020 se Dakar jede v pouštích Saúdské Arábie. Předtím se v letech 2009–2019 jezdil v Jižní Americe a ještě dříve v Africe.",
+    "en": "Since 2020 the Dakar has been held in the deserts of Saudi Arabia. From 2009 to 2019 it ran in South America, and before that in Africa."
+   }
+  },
+  {
+   "id": "T354-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Rallye Dakar nese jméno po městě, kde původně končila. Ve které zemi Dakar leží?",
+    "en": "The Dakar Rally is named after the city where it originally finished. In which country is Dakar?"
+   },
+   "moznosti": {
+    "cs": [
+     "Senegal",
+     "Maroko",
+     "Mali",
+     "Mauritánie"
+    ],
+    "en": [
+     "Senegal",
+     "Morocco",
+     "Mali",
+     "Mauritania"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Dakar je hlavní město Senegalu na západním pobřeží Afriky. První ročník, označovaný jako 1979, startoval v Paříži a z 182 vozidel dojelo do cíle 74.",
+    "en": "Dakar is the capital of Senegal on Africa's west coast. The first edition, known as the 1979 rally, started in Paris; of 182 vehicles, 74 reached the finish."
+   }
+  },
+  {
+   "id": "T354-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "S kamiony které značky vyhrál Karel Loprais Rallye Dakar?",
+    "en": "With trucks of which make did Karel Loprais win the Dakar Rally?"
+   },
+   "moznosti": {
+    "cs": [
+     "Liaz",
+     "Tatra",
+     "Kamaz",
+     "Praga"
+    ],
+    "en": [
+     "Liaz",
+     "Tatra",
+     "Kamaz",
+     "Praga"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Karel Loprais vyhrál kategorii kamionů šestkrát (1988, 1994, 1995, 1998, 1999 a 2001), vždy s Tatrou. Po druhém vítězství v roce 1994 mu média začala říkat „Monsieur Dakar“.",
+    "en": "Karel Loprais won the truck category six times (1988, 1994, 1995, 1998, 1999 and 2001), always in a Tatra. After his second win in 1994 the media began calling him 'Monsieur Dakar'."
+   }
+  },
+  {
+   "id": "T354-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které startovní číslo, s nímž proslul Valentino Rossi, bylo v MotoGP na jeho počest vyřazeno z používání?",
+    "en": "Which race number, made famous by Valentino Rossi, was retired from MotoGP in his honour?"
+   },
+   "moznosti": {
+    "cs": [
+     "7",
+     "27",
+     "46",
+     "93"
+    ],
+    "en": [
+     "7",
+     "27",
+     "46",
+     "93"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Číslo 46 bylo slavnostně vyřazeno na Velké ceně Itálie 2022, rok poté, co Rossi ukončil kariéru v MotoGP. Rossi se narodil v Urbinu a vyrůstal v nedaleké Tavullii.",
+    "en": "Number 46 was retired at a ceremony at the 2022 Italian Grand Prix, a year after Rossi ended his MotoGP career. Rossi was born in Urbino and grew up in nearby Tavullia."
+   }
+  },
+  {
+   "id": "T354-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na kterém ostrově se od roku 1907 jezdí motocyklové závody Tourist Trophy (TT)?",
+    "en": "On which island have the Tourist Trophy (TT) motorcycle races been held since 1907?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ostrov Man",
+     "Jersey",
+     "Ostrov Wight",
+     "Anglesey"
+    ],
+    "en": [
+     "Isle of Man",
+     "Jersey",
+     "Isle of Wight",
+     "Anglesey"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "TT se jede na ostrově Man v Irském moři po veřejných silnicích uzavřených pro závod. Okruh Snaefell Mountain Course měří 60,72 km a má 219 zatáček.",
+    "en": "The TT is held on the Isle of Man in the Irish Sea on public roads closed for racing. The Snaefell Mountain Course is 60.72 km (37.73 mi) long with 219 turns."
+   }
+  },
+  {
+   "id": "T354-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co podle pravidel NESMĚJÍ mít závodní motocykly pro plochou dráhu?",
+    "en": "What are speedway racing motorcycles NOT allowed to have under the rules?"
+   },
+   "moznosti": {
+    "cs": [
+     "Řetězový převod",
+     "Brzdy",
+     "Zapalování",
+     "Spojku"
+    ],
+    "en": [
+     "A chain drive",
+     "Brakes",
+     "An ignition",
+     "A clutch"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pravidla FIM brzdy na plochodrážních motocyklech zakazují. Jezdci zpomalují a projíždějí zatáčky smykem po sypkém povrchu; motocykl má navíc jen jeden rychlostní stupeň.",
+    "en": "FIM rules prohibit brakes on speedway bikes. Riders slow down and take the bends by sliding on the loose surface; the bike also has only one gear."
+   }
+  },
+  {
+   "id": "T354-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou přezdívku má italský motocyklový šampion Valentino Rossi?",
+    "en": "What is the nickname of Italian motorcycle champion Valentino Rossi?"
+   },
+   "moznosti": {
+    "cs": [
+     "Baron",
+     "Doktor",
+     "Kapitán",
+     "Profesor"
+    ],
+    "en": [
+     "The Baron",
+     "The Doctor",
+     "The Captain",
+     "The Professor"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Rossi je známý jako „Doktor“ (the Doctor). Kariéru v MotoGP ukončil po sezóně 2021, poslední závod odjel na Velké ceně Valencie v listopadu 2021.",
+    "en": "Rossi is known as 'the Doctor'. He retired from MotoGP after the 2021 season, riding his final race at the Valencian Grand Prix in November 2021."
+   }
+  },
+  {
+   "id": "T354-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím se supercross liší od klasického motokrosu?",
+    "en": "How does supercross differ from traditional motocross?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jezdí se na uměle navršené trati na stadionu",
+     "Jezdí se na silničních motocyklech",
+     "Jezdí se na zamrzlých jezerech",
+     "Jezdci startují jednotlivě na čas"
+    ],
+    "en": [
+     "It is raced on a man-made dirt track inside a stadium",
+     "It is raced on road motorcycles",
+     "It is raced on frozen lakes",
+     "Riders start individually against the clock"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Supercross je motokros přenesený na stadion: trať z navezené hlíny je kratší a plná umělých překážek, například vln (whoops) a trojitých skoků. Na stavbu jedné trati je potřeba zhruba 500 nákladních aut hlíny.",
+    "en": "Supercross is motocross moved into a stadium: the track of hauled-in dirt is shorter and full of man-made obstacles such as whoops and triple jumps. Building one takes roughly 500 truckloads of dirt."
+   }
+  },
+  {
+   "id": "T354-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "S vozy které automobilky získal Sébastien Loeb všechny své tituly mistra světa v rallye?",
+    "en": "With cars from which manufacturer did Sébastien Loeb win all of his World Rally Championship titles?"
+   },
+   "moznosti": {
+    "cs": [
+     "Citroën",
+     "Peugeot",
+     "Subaru",
+     "Ford"
+    ],
+    "en": [
+     "Citroën",
+     "Peugeot",
+     "Subaru",
+     "Ford"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Loeb získal tituly mistra světa v nepřerušené řadě a vždy s Citroënem – v roce 2006 za soukromý tým Kronos Citroën, protože tovární tým na rok přerušil činnost. Většinu vítězství získal se spolujezdcem Danielem Elenou.",
+    "en": "Loeb won his world titles in an unbroken run, always with Citroën – in 2006 for the privateer Kronos Citroën team, as the factory team had taken a year out. He won most of his rallies with co-driver Daniel Elena."
+   }
+  },
+  {
+   "id": "T354-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "V roce 2025 vyrovnal Sébastien Ogier rekord Sébastiena Loeba v počtu titulů mistra světa v rallye. Kolik titulů tím dosáhl?",
+    "en": "In 2025 Sébastien Ogier equalled Sébastien Loeb's record for World Rally Championship titles. How many titles did that give him?"
+   },
+   "moznosti": {
+    "cs": [
+     "7",
+     "8",
+     "9",
+     "10"
+    ],
+    "en": [
+     "7",
+     "8",
+     "9",
+     "10"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Devátý titul získal Ogier v roce 2025 se spolujezdcem Vincentem Landaisem. Dohromady: čtyři s Volkswagenem (2013–2016), dva s Fordem týmu M-Sport (2017–2018) a tři s Toyotou (2020, 2021, 2025). Drží i rekord deseti vítězství na Rallye Monte Carlo (k roku 2026).",
+    "en": "Ogier won his ninth title in 2025 with co-driver Vincent Landais: four with Volkswagen (2013–2016), two with M-Sport Ford (2017–2018) and three with Toyota (2020, 2021, 2025). He also holds the record of ten Monte Carlo Rally wins (as of 2026)."
+   }
+  },
+  {
+   "id": "T354-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Marc Márquez v roce 2025 po šesti letech znovu vyhrál mistrovství světa MotoGP. Na motocyklu které značky?",
+    "en": "In 2025 Marc Márquez won the MotoGP world championship again after six years. On which make of motorcycle?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ducati",
+     "KTM",
+     "Honda",
+     "Yamaha"
+    ],
+    "en": [
+     "Ducati",
+     "KTM",
+     "Honda",
+     "Yamaha"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pro rok 2025 přestoupil do továrního týmu Ducati. Jeho kariéru předtím přibrzdilo zranění z roku 2020, kdy si v Jerezu zlomil pravou pažní kost; ještě týž rok podstoupil tři operace a v roce 2022 čtvrtou.",
+    "en": "He joined the factory Ducati team for 2025. His career had been held back by a 2020 crash at Jerez, where he broke his right upper arm; he had three operations that year and a fourth in 2022."
+   }
+  },
+  {
+   "id": "T354-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Valentino Rossi získal celkem devět titulů mistra světa. Kolik z nich vybojoval v královské třídě (500 cm³ a MotoGP)?",
+    "en": "Valentino Rossi won nine world titles in total. How many of them came in the premier class (500cc and MotoGP)?"
+   },
+   "moznosti": {
+    "cs": [
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "en": [
+     "5",
+     "6",
+     "7",
+     "8"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "V královské třídě vyhrál sedmkrát (2001–2005, 2008 a 2009), zbylé dva tituly získal ve třídách 125 cm³ (1997) a 250 cm³ (1999).",
+    "en": "He won seven premier-class titles (2001–2005, 2008 and 2009); the other two came in the 125cc (1997) and 250cc (1999) classes."
+   }
+  },
+  {
+   "id": "T354-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proč se Rallye Dakar v roce 2009 přesunula z Afriky do Jižní Ameriky?",
+    "en": "Why did the Dakar Rally move from Africa to South America in 2009?"
+   },
+   "moznosti": {
+    "cs": [
+     "Africké státy zakázaly závod kvůli škodám na přírodě",
+     "Ročník 2008 byl zrušen kvůli bezpečnostním hrozbám v Mauritánii",
+     "Sponzoři chtěli trať blíž americkým televizním divákům",
+     "Pořadatelé chtěli zařadit etapy ve vysokých horách"
+    ],
+    "en": [
+     "African countries banned the race over environmental damage",
+     "The 2008 edition was cancelled over security threats in Mauritania",
+     "Sponsors wanted the route closer to American TV audiences",
+     "The organisers wanted to add high-mountain stages"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ročník 2008 byl zrušen 4. ledna 2008 kvůli hrozbám v Mauritánii, kde koncem roku 2007 zavraždili čtyři francouzské turisty. První jihoamerický Dakar v roce 2009 vedl z Buenos Aires do chilského Valparaísa a zpět.",
+    "en": "The 2008 edition was cancelled on 4 January 2008 over threats in Mauritania, where four French tourists had been killed in late 2007. The first South American Dakar in 2009 ran from Buenos Aires to Valparaíso in Chile and back."
+   }
+  },
+  {
+   "id": "T354-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Z čího podnětu se začala připravovat Rallye Monte Carlo, poprvé uspořádaná v roce 1911?",
+    "en": "At whose request did preparations begin for the Monte Carlo Rally, first held in 1911?"
+   },
+   "moznosti": {
+    "cs": [
+     "Knížete Alberta I.",
+     "Knížete Rainiera III.",
+     "Jezdce Louise Chirona",
+     "Konstruktéra Ettora Bugattiho"
+    ],
+    "en": [
+     "Prince Albert I",
+     "Prince Rainier III",
+     "Driver Louis Chiron",
+     "Car maker Ettore Bugatti"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Monacký klub Sport Automobile et Vélocipédique de Monaco začal rallye plánovat na žádost knížete Alberta I. v roce 1909. První ročník se jel v lednu 1911.",
+    "en": "The Sport Automobile et Vélocipédique de Monaco club began planning the rally at the request of Prince Albert I in 1909. The first edition was held in January 1911."
+   }
+  },
+  {
+   "id": "T354-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím byl výjimečný pozemní rychlostní rekord, který v roce 1997 vytvořil britský vůz ThrustSSC?",
+    "en": "What was special about the land speed record set by the British car ThrustSSC in 1997?"
+   },
+   "moznosti": {
+    "cs": [
+     "Byl vytvořen na zamrzlém jezeře",
+     "Vůz jel bez řidiče, na dálkové ovládání",
+     "Jako první vůz oficiálně překonal rychlost zvuku",
+     "Jako první ho vytvořil elektromobil"
+    ],
+    "en": [
+     "It was set on a frozen lake",
+     "The car had no driver and was remote-controlled",
+     "It was the first car to officially break the sound barrier",
+     "It was the first set by an electric car"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Pilot RAF Andy Green dosáhl 15. října 1997 v poušti Black Rock v Nevadě rychlosti 1 228 km/h. Vůz poháněly dva proudové motory Rolls-Royce Spey ze stíhaček F-4 Phantom II.",
+    "en": "RAF pilot Andy Green reached 1,228 km/h (763 mph) in Nevada's Black Rock Desert on 15 October 1997. The car was powered by two Rolls-Royce Spey jet engines from F-4 Phantom II fighters."
+   }
+  },
+  {
+   "id": "T354-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím se Rallye Monte Carlo v prvních desetiletích po svém vzniku roku 1911 lišila od běžných závodů?",
+    "en": "How did the Monte Carlo Rally differ from ordinary races in the first decades after it began in 1911?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jezdila se výhradně v noci",
+     "Posádky vyjížděly z různých měst Evropy a sjížděly se do Monaka",
+     "Startovalo se z jachet kotvících v přístavu",
+     "Startovat směly jen vozy vyrobené v Monaku"
+    ],
+    "en": [
+     "It was run exclusively at night",
+     "Crews set off from various European cities and converged on Monaco",
+     "The start was from yachts moored in the harbour",
+     "Only cars built in Monaco could enter"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Šlo o hvězdicovou jízdu: posádky vyrážely třeba z Paříže, Berlína, Petrohradu, Stockholmu či Atén a sjížděly se do Monte Carla. V prvních ročnících se hodnotila i elegance vozu, pohodlí cestujících a stav vozu po příjezdu.",
+    "en": "It was a concentration rally: crews set off from places such as Paris, Berlin, St Petersburg, Stockholm or Athens and converged on Monte Carlo. Early editions were judged partly on the car's elegance, passenger comfort and its condition on arrival."
+   }
+  },
+  {
+   "id": "T354-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Francouzka Michèle Moutonová se v roce 1981 zapsala do historie rallye. Čím?",
+    "en": "Frenchwoman Michèle Mouton made rally history in 1981. How?"
+   },
+   "moznosti": {
+    "cs": [
+     "Stala se první mistryní světa v rallye",
+     "Jako první žena vyhrála 24 hodin Le Mans",
+     "Jako první žena vyhrála podnik mistrovství světa",
+     "Jako první žena startovala ve Formuli 1"
+    ],
+    "en": [
+     "She became the first female world rally champion",
+     "She became the first woman to win the 24 Hours of Le Mans",
+     "She became the first woman to win a World Championship event",
+     "She became the first woman to start a Formula One race"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Moutonová vyhrála s Audi Quattro a spolujezdkyní Fabrizií Ponsovou Rallye Sanremo 1981. O rok později skončila v mistrovství světa druhá za Walterem Röhrlem.",
+    "en": "Mouton won the 1981 Sanremo Rally in an Audi Quattro with co-driver Fabrizia Pons. A year later she finished runner-up in the world championship behind Walter Röhrl."
+   }
+  },
+  {
+   "id": "T354-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Novozélanďan Burt Munro vytvořil v roce 1967 na Bonneville motocyklový rekord na stroji vyrobeném roku 1920. Které značky byl jeho motocykl?",
+    "en": "In 1967 New Zealander Burt Munro set a motorcycle record at Bonneville on a machine built in 1920. What make was his motorcycle?"
+   },
+   "moznosti": {
+    "cs": [
+     "Harley-Davidson",
+     "Norton",
+     "Triumph",
+     "Indian"
+    ],
+    "en": [
+     "Harley-Davidson",
+     "Norton",
+     "Triumph",
+     "Indian"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Munrovi bylo 68 let, když s upraveným Indianem Scout dosáhl ve své třídě průměru asi 296 km/h; rekord dodnes platí. Jeho příběh vypráví film The World's Fastest Indian (2005) s Anthonym Hopkinsem.",
+    "en": "Munro was 68 when his modified Indian Scout averaged about 296 km/h (184 mph) in its class; the record still stands. His story is told in the 2005 film The World's Fastest Indian starring Anthony Hopkins."
+   }
+  },
+  {
+   "id": "T354-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím se motocyklové závody Tourist Trophy (TT) liší od běžných okruhových závodů?",
+    "en": "How do the Tourist Trophy (TT) motorcycle races differ from ordinary circuit races?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jede se jen jedno kolo a všichni startují najednou z jedné čáry",
+     "Jezdci startují jednotlivě v desetisekundových intervalech a jedou na čas",
+     "Každý jezdec musí během závodu přesednout na náhradní motocykl",
+     "O vítězi rozhodují rozhodčí, kteří hodnotí styl a plynulost jízdy"
+    ],
+    "en": [
+     "Only a single lap is run, with all riders starting together from one line",
+     "Riders start individually at ten-second intervals and race against the clock",
+     "Every rider must switch to a spare motorcycle during the race",
+     "The winner is decided by judges who score riding style and smoothness"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "TT je časovka na uzavřených veřejných silnicích: vyhrává nejrychlejší čas, ne pořadí na trati. Kvůli bezpečnosti ji od začátku 70. let bojkotovali přední jezdci a po roce 1976 přestala být součástí mistrovství světa.",
+    "en": "The TT is a time trial on closed public roads: the fastest time wins, not track position. Top riders boycotted it over safety from the early 1970s, and after 1976 it was no longer part of the world championship."
+   }
+  },
+  {
+   "id": "T354-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Francouz Stéphane Peterhansel drží rekord čtrnácti vítězství na Rallye Dakar (k roku 2026). Které tvrzení o jeho vítězstvích platí?",
+    "en": "Frenchman Stéphane Peterhansel holds the record of fourteen Dakar Rally wins (as of 2026). Which statement about his wins is true?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vítězil v kamionu i v automobilu",
+     "Vítězil na motocyklu i v automobilu",
+     "Vyhrál všech čtrnáct ročníků za sebou",
+     "Vítězil ve všech čtyřech kategoriích"
+    ],
+    "en": [
+     "He won in a truck and in a car",
+     "He won on a motorcycle and in a car",
+     "He won all fourteen editions in a row",
+     "He won in all four categories"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Peterhansel vyhrál šestkrát na motocyklu (1991–1998) a osmkrát v automobilu (2004–2021); poslední vítězství slavil v roce 2021, třicet let po prvním. Výhru na motocyklu i v autě před ním dokázal Hubert Auriol a později také Nani Roma.",
+    "en": "Peterhansel won six times on a motorcycle (1991–1998) and eight times in a car (2004–2021); his last win came in 2021, thirty years after his first. Hubert Auriol had won on both a bike and in a car before him, and Nani Roma later did the same."
+   }
+  },
+  {
+   "id": "T354-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Po smrtelné nehodě Henriho Toivonena a jeho spolujezdce na Korsice v roce 1986 byla z mistrovství světa v rallye vyřazena kategorie extrémně výkonných vozů. Jak se nazývala?",
+    "en": "After the fatal crash of Henri Toivonen and his co-driver in Corsica in 1986, a class of extremely powerful cars was banned from the World Rally Championship. What was it called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Skupina N (Group N)",
+     "Skupina A (Group A)",
+     "World Rally Car",
+     "Skupina B (Group B)"
+    ],
+    "en": [
+     "Group N",
+     "Group A",
+     "World Rally Car",
+     "Group B"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Skupina B (Group B), zavedená roku 1982, neomezovala plnicí tlak turbodmychadel, takže nejsilnější vozy jako Audi Sport Quattro S1 měly přes 450 kW (600 koní). Toivonen a Sergio Cresto zahynuli v hořícím voze Lancia Delta S4.",
+    "en": "Group B, introduced in 1982, placed no limit on turbo boost, so the most powerful cars, such as the Audi Sport Quattro S1, produced over 450 kW (600 hp). Toivonen and Sergio Cresto died in their burning Lancia Delta S4."
+   }
+  },
+  {
+   "id": "T354-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo drží rekord v počtu titulů mistra světa silničních motocyklů – celkem 15?",
+    "en": "Who holds the record for Grand Prix motorcycle world titles, with 15 in total?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mike Hailwood",
+     "Marc Márquez",
+     "Ángel Nieto",
+     "Giacomo Agostini"
+    ],
+    "en": [
+     "Mike Hailwood",
+     "Marc Márquez",
+     "Ángel Nieto",
+     "Giacomo Agostini"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Agostini získal osm titulů ve třídě 500 cm³ a sedm ve třídě 350 cm³, z toho 13 se značkou MV Agusta. Patří mu i rekord 122 vítězství ve Velkých cenách (k roku 2026).",
+    "en": "Agostini won eight 500cc and seven 350cc titles, 13 of them with MV Agusta. He also holds the record of 122 Grand Prix wins (as of 2026)."
+   }
+  },
+  {
+   "id": "T354-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve které zemi vznikl motokros, původně nazývaný „scrambles“?",
+    "en": "In which country did motocross, originally called 'scrambles', originate?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Spojených státech",
+     "Ve Francii",
+     "V Belgii",
+     "Ve Velké Británii"
+    ],
+    "en": [
+     "The United States",
+     "France",
+     "Belgium",
+     "Great Britain"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Motokros se vyvinul z britských motocyklových trialových soutěží; první známý závod „scramble“ se jel v roce 1924 v Camberley v hrabství Surrey. Mezinárodní název spojuje francouzské motocyclette a anglické cross-country.",
+    "en": "Motocross grew out of British motorcycle trials; the first known scramble was held in 1924 at Camberley, Surrey. The international name blends the French motocyclette with the English cross-country."
+   }
+  },
+  {
+   "id": "T354-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na jaké palivo musejí podle pravidel FIM jezdit motocykly pro plochou dráhu?",
+    "en": "Under FIM rules, what fuel must speedway motorcycles run on?"
+   },
+   "moznosti": {
+    "cs": [
+     "Čistý metanol",
+     "Motorová nafta",
+     "Nitrometan",
+     "Letecký benzin"
+    ],
+    "en": [
+     "Pure methanol",
+     "Diesel fuel",
+     "Nitromethane",
+     "Aviation gasoline"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Pravidla vyžadují čistý metanol. Povrch dráhy tvoří sypký materiál, například břidlice, žula nebo cihlová drť; asfalt a beton jsou zakázané.",
+    "en": "The rules require pure methanol. The track surface is loose material such as shale, granite or brick granules; asphalt and concrete are prohibited."
+   }
+  },
+  {
+   "id": "T354-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Pojem supercross vznikl po závodě z roku 1972, propagovaném jako „Super Bowl motokrosu“. Ve kterém městě se jel?",
+    "en": "The term supercross arose from a 1972 race billed as the 'Super Bowl of Motocross'. In which city was it held?"
+   },
+   "moznosti": {
+    "cs": [
+     "Los Angeles",
+     "Houston",
+     "Chicago",
+     "Detroit"
+    ],
+    "en": [
+     "Los Angeles",
+     "Houston",
+     "Chicago",
+     "Detroit"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Závod se jel v Los Angeles Memorial Coliseum.",
+    "en": "The race was held at the Los Angeles Memorial Coliseum."
+   }
+  },
+  {
+   "id": "T354-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo jako první překonal v roce 1935 na Bonneville rychlost 300 mil/h (asi 483 km/h)?",
+    "en": "Who became the first to exceed 483 km/h (300 mph) at Bonneville, in 1935?"
+   },
+   "moznosti": {
+    "cs": [
+     "Craig Breedlove",
+     "Mickey Thompson",
+     "John Cobb",
+     "Malcolm Campbell"
+    ],
+    "en": [
+     "Craig Breedlove",
+     "Mickey Thompson",
+     "John Cobb",
+     "Malcolm Campbell"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Brit Malcolm Campbell dosáhl 3. září 1935 s vozem Blue Bird rychlosti přes 484 km/h. Právě souboje o rekordy ve 30. letech udělaly ze solné pláně Bonneville slavné místo.",
+    "en": "Briton Malcolm Campbell exceeded 484 km/h (301 mph) in his Blue Bird on 3 September 1935. The record battles of the 1930s are what made the Bonneville Salt Flats popular."
+   }
+  },
+  {
+   "id": "T354-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Rekord Joeyho Dunlopa, 26 vítězství na Tourist Trophy, v roce 2024 překonal člen jeho rodiny. Kdo?",
+    "en": "Joey Dunlop's record of 26 Tourist Trophy wins was broken in 2024 by a member of his family. Who?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jeho vnuk",
+     "Jeho bratr",
+     "Jeho syn",
+     "Jeho synovec"
+    ],
+    "en": [
+     "His grandson",
+     "His brother",
+     "His son",
+     "His nephew"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Rekord překonal Michael Dunlop, syn Joeyho bratra Roberta. Na kontě má 36 vítězství na TT (k roku 2026).",
+    "en": "The record was broken by Michael Dunlop, son of Joey's brother Robert. He has 36 TT wins (as of 2026)."
+   }
+  },
+  {
+   "id": "T354-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Po smrtelné nehodě Henriho Toivonena na Rallye Korsika 1986 rozhodla federace FISA během několika hodin o zásadní změně pravidel. Kdo FISA tehdy vedl?",
+    "en": "After Henri Toivonen's fatal crash at the 1986 Tour de Corse, FISA decided on a major rule change within hours. Who was leading FISA at the time?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jean Todt",
+     "Jean-Marie Balestre",
+     "Bernie Ecclestone",
+     "Max Mosley"
+    ],
+    "en": [
+     "Jean Todt",
+     "Jean-Marie Balestre",
+     "Bernie Ecclestone",
+     "Max Mosley"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Balestre prosadil zákaz tehdejších nejvýkonnějších rallyových vozů od sezóny 1987. Toivonen v okamžiku nehody 2. května 1986 vedl závod; zahynul i jeho americký spolujezdec Sergio Cresto.",
+    "en": "Balestre pushed through a ban on the most powerful rally cars of the day from the 1987 season. Toivonen was leading the rally when he crashed on 2 May 1986; his American co-driver Sergio Cresto was also killed."
+   }
+  },
+  {
+   "id": "T354-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Český jezdec Martin Macík vyhrál Rallye Dakar v kategorii kamionů v letech 2024 a 2025. S vozem které značky?",
+    "en": "Czech driver Martin Macík won the Dakar Rally truck category in 2024 and 2025. In a vehicle of which make?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tatra",
+     "Kamaz",
+     "MAN",
+     "Iveco"
+    ],
+    "en": [
+     "Tatra",
+     "Kamaz",
+     "MAN",
+     "Iveco"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Macík jezdí od roku 2020 s italským Ivecem, předtím závodil s českým Liazem. Kategorii kamionů od přelomu tisíciletí jinak převážně ovládal ruský Kamaz.",
+    "en": "Macík has driven an Italian Iveco since 2020, having previously raced a Czech Liaz. Otherwise the truck category has largely been dominated by Russia's Kamaz since the turn of the century."
+   }
+  }
+ ]
+}

@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T005",
+ "nazev": {
+  "cs": "České vynálezy a objevy",
+  "en": "Czech Inventions and Discoveries"
+ },
+ "kategorie": {
+  "id": "cesko",
+  "nazev": {
+   "cs": "Česko",
+   "en": "Czechia"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T005-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který český chemik vynalezl měkké kontaktní čočky?",
+    "en": "Which Czech chemist invented soft contact lenses?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bohuslav Brauner",
+     "Emil Votoček",
+     "Vojtěch Šafařík",
+     "Otto Wichterle"
+    ],
+    "en": [
+     "Bohuslav Brauner",
+     "Emil Votoček",
+     "Vojtěch Šafařík",
+     "Otto Wichterle"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Otto Wichterle vyvinul s Drahoslavem Límem gel pHEMA, který nasaje vodu a zůstane měkký. První čočky z něj vyrobil doma koncem roku 1961.",
+    "en": "Otto Wichterle and his colleague Drahoslav Lím developed pHEMA, a gel that absorbs water and stays soft. He made the first lenses from it at home in late 1961."
+   }
+  },
+  {
+   "id": "T005-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které divadelní hře Karla Čapka se poprvé objevilo slovo „robot“?",
+    "en": "In which play by the Czech writer Karel Čapek did the word “robot” first appear?"
+   },
+   "moznosti": {
+    "cs": [
+     "R.U.R.",
+     "Matka",
+     "Ze života hmyzu",
+     "Bílá nemoc"
+    ],
+    "en": [
+     "R.U.R.",
+     "The Mother",
+     "The Insect Play",
+     "The White Disease"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hra R.U.R. (Rossumovi univerzální roboti) z roku 1920 vypráví o továrně na umělé lidi. Slovo se z ní rozšířilo do jazyků celého světa.",
+    "en": "R.U.R. (Rossum's Universal Robots), written in 1920, is about a factory that makes artificial people. From there the word spread into languages all over the world."
+   }
+  },
+  {
+   "id": "T005-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "S kterými rostlinami prováděl Gregor Mendel v Brně pokusy, jimiž položil základy genetiky?",
+    "en": "Which plants did Gregor Mendel use in Brno (Czech Republic) for the experiments that laid the foundations of genetics?"
+   },
+   "moznosti": {
+    "cs": [
+     "S kukuřicí",
+     "S bramborami",
+     "S hrachem",
+     "S pšenicí"
+    ],
+    "en": [
+     "Maize",
+     "Potatoes",
+     "Peas",
+     "Wheat"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "V letech 1856–1863 zkoumal v klášterní zahradě asi 28 000 rostlin, převážně hrachu, a sledoval, jak se dědí třeba barva semen. Výsledky zveřejnil roku 1866.",
+    "en": "Between 1856 and 1863 he studied about 28,000 plants in the monastery garden, mostly peas, tracking how traits such as seed colour are inherited. He published his results in 1866."
+   }
+  },
+  {
+   "id": "T005-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co si roku 1843 nechal patentovat Jakub Kryštof Rad, rodák ze Švýcarska?",
+    "en": "What did the Swiss-born Jakub Kryštof Rad patent in 1843?"
+   },
+   "moznosti": {
+    "cs": [
+     "Čajový sáček",
+     "Žvýkačku",
+     "Kancelářskou sponku",
+     "Kostkový cukr"
+    ],
+    "en": [
+     "The tea bag",
+     "Chewing gum",
+     "The paper clip",
+     "The sugar cube"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Rad, tehdy ředitel cukrovaru, získal patent na lis, který lisoval cukr do pravidelných kostiček. Podle tradovaného příběhu ho k tomu inspirovala manželka, která se pořezala při sekání cukrové homole.",
+    "en": "Rad, then director of a sugar factory, patented a press that shaped sugar into regular cubes. According to the popular story, he was inspired by his wife, who cut herself while breaking up a large sugar loaf."
+   }
+  },
+  {
+   "id": "T005-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Za vynález které metody chemické analýzy získal Jaroslav Heyrovský Nobelovu cenu?",
+    "en": "For inventing which method of chemical analysis did the Czech chemist Jaroslav Heyrovský win the Nobel Prize?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hmotnostní spektrometrie",
+     "Radiokarbonového datování",
+     "Chromatografie",
+     "Polarografie"
+    ],
+    "en": [
+     "Mass spectrometry",
+     "Radiocarbon dating",
+     "Chromatography",
+     "Polarography"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Polarografie určuje látky v roztoku podle toho, jak proud procházející kapající rtuťovou elektrodou závisí na napětí. Heyrovský ji objevil roku 1922.",
+    "en": "Polarography identifies substances in a solution by measuring how the current through a dropping mercury electrode changes with voltage. Heyrovský discovered it in 1922."
+   }
+  },
+  {
+   "id": "T005-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který vynález si roku 1827 patentoval lesník Josef Ressel, rodák z Chrudimi?",
+    "en": "What did Josef Ressel, a forester born in Chrudim (Bohemia), patent in 1827?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kormidelní kolo",
+     "Lodní šroub",
+     "Ponorku",
+     "Lodní kompas"
+    ],
+    "en": [
+     "The ship's wheel",
+     "The ship propeller",
+     "The submarine",
+     "The ship's compass"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ressel patentoval lodní šroub, jeden z prvních funkčních pohonů tohoto typu. O dva roky později jej vyzkoušel na parníku Civetta.",
+    "en": "Ressel patented the ship propeller, one of the first working designs of its kind. Two years later he tested it on the steamboat Civetta."
+   }
+  },
+  {
+   "id": "T005-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Prokop Diviš, farář z jižní Moravy, je připomínán jako jeden z průkopníků kterého zařízení?",
+    "en": "Prokop Diviš, a parish priest in southern Moravia, is remembered as one of the pioneers of which device?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dalekohledu",
+     "Kompasu",
+     "Bleskosvodu",
+     "Barometru"
+    ],
+    "en": [
+     "The telescope",
+     "The compass",
+     "The lightning rod",
+     "The barometer"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Roku 1754 postavil u fary v Příměticích u Znojma „povětrnostní stroj“, uzemněnou tyč s kovovými hroty. Bývá řazen k průkopníkům bleskosvodu vedle Benjamina Franklina; pokusy dělal ve stejné době a možná na něm nezávisle.",
+    "en": "In 1754 he built a “weather machine”, a grounded pole with metal spikes, at his parish in Přímětice near Znojmo. He is often counted among the pioneers of the lightning rod alongside Benjamin Franklin, experimenting at around the same time and possibly independently of him."
+   }
+  },
+  {
+   "id": "T005-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co je Semtex, vyvinutý v Československu koncem 50. let?",
+    "en": "What is Semtex, developed in Czechoslovakia in the late 1950s?"
+   },
+   "moznosti": {
+    "cs": [
+     "Plastická trhavina",
+     "Lék proti chřipce",
+     "Umělé vlákno",
+     "Druh tvrzeného skla"
+    ],
+    "en": [
+     "A plastic explosive",
+     "A flu medicine",
+     "A synthetic fibre",
+     "A type of toughened glass"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Semtex vyvinuli chemici Stanislav Brebera a Radim Fukátko. Používá se při trhacích a demoličních pracích a proslul i zneužitím teroristy.",
+    "en": "Semtex was developed by chemists Stanislav Brebera and Radim Fukátko. It is used in blasting and demolition, and it also became notorious through misuse by terrorists."
+   }
+  },
+  {
+   "id": "T005-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím se do dějin medicíny zapsal lékař Jan Janský?",
+    "en": "How did the Czech physician Jan Janský make his mark on the history of medicine?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vyvinul vakcínu proti vzteklině",
+     "Provedl první transplantaci srdce",
+     "Objevil inzulin",
+     "Rozdělil krev do čtyř skupin"
+    ],
+    "en": [
+     "He developed the rabies vaccine",
+     "He performed the first heart transplant",
+     "He discovered insulin",
+     "He classified blood into four groups"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Janský roku 1907 popsal čtyři krevní skupiny a označil je římskými číslicemi I–IV. O dřívější práci Karla Landsteinera, který objevil skupiny A, B a 0, nevěděl.",
+    "en": "In 1907 Janský described four blood groups and labelled them with Roman numerals I–IV. He was unaware of earlier work by Karl Landsteiner, who discovered the A, B and O groups."
+   }
+  },
+  {
+   "id": "T005-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Za které zařízení získal František Křižík zlatou medaili na elektrotechnické výstavě v Paříži roku 1881?",
+    "en": "For which device did František Křižík win a gold medal at the 1881 International Exposition of Electricity in Paris?"
+   },
+   "moznosti": {
+    "cs": [
+     "Obloukovou lampu",
+     "Telefonní ústřednu",
+     "Uhlíkovou žárovku",
+     "Elektrický zvonek"
+    ],
+    "en": [
+     "An arc lamp",
+     "A telephone exchange",
+     "A carbon-filament light bulb",
+     "An electric doorbell"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Obloukové lampy existovaly už dřív, Křižíkova lampa sestrojená roku 1880 v Plzni si ale sama udržovala vzdálenost uhlíků. V Paříži zvítězila mezi zhruba 50 podobnými zařízeními.",
+    "en": "Arc lamps already existed, but the lamp Křižík built in Plzeň in 1880 automatically kept its carbon rods the right distance apart. In Paris it beat about 50 similar devices."
+   }
+  },
+  {
+   "id": "T005-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo podle Karla Čapka skutečně vymyslel slovo „robot“?",
+    "en": "According to Karel Čapek himself, who actually came up with the word “robot”?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tomáš G. Masaryk",
+     "Jaroslav Hašek",
+     "Josef Čapek",
+     "Ferdinand Peroutka"
+    ],
+    "en": [
+     "Tomáš G. Masaryk",
+     "Jaroslav Hašek",
+     "Josef Čapek",
+     "Ferdinand Peroutka"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Karel chtěl umělé dělníky původně nazvat „laboři“ podle latinského labor. Jeho bratr, malíř Josef Čapek, mu navrhl „roboty“ podle slova robota, tedy nucené práce poddaných.",
+    "en": "Karel originally wanted to call his artificial workers “labori”, from the Latin labor. His brother, the painter Josef Čapek, suggested “roboti”, from robota, the forced labour serfs owed their lord."
+   }
+  },
+  {
+   "id": "T005-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém městě vyvinul rakouský inženýr Viktor Kaplan svou vodní turbínu?",
+    "en": "In which city did the Austrian engineer Viktor Kaplan develop his water turbine?"
+   },
+   "moznosti": {
+    "cs": [
+     "Plzeň",
+     "Ostrava",
+     "Praha",
+     "Brno"
+    ],
+    "en": [
+     "Plzeň",
+     "Ostrava",
+     "Prague",
+     "Brno"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kaplan působil asi 30 let jako profesor na německé technice v Brně a turbínu si tam patentoval v letech 1912–1913. Její nastavitelné lopatky umožňují vyrábět elektřinu i na řekách s malým spádem.",
+    "en": "Kaplan spent about 30 years as a professor at the German Technical University in Brno and patented his turbine there in 1912–1913. Its adjustable blades make it efficient even on rivers with a low head of water."
+   }
+  },
+  {
+   "id": "T005-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Z čeho sestavil vynálezce měkkých kontaktních čoček o Vánocích 1961 doma přístroj, na kterém vyrobil první čočky?",
+    "en": "What did the inventor of soft contact lenses use at Christmas 1961 to build the home-made machine on which he produced the first lenses?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z dětské stavebnice Merkur",
+     "Z dílů starého šicího stroje",
+     "Z rozbitého kuchyňského mixéru",
+     "Ze starého natahovacího budíku"
+    ],
+    "en": [
+     "A Merkur children's construction set",
+     "Parts of an old sewing machine",
+     "A broken kitchen blender",
+     "An old wind-up alarm clock"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Merkur je česká kovová stavebnice. Přístroj poháněl dynamem z jízdního kola a transformátorem od zvonku a čočky v něm odstřeďoval. Pomáhala mu manželka Linda u kuchyňského stolu.",
+    "en": "Merkur is a Czech metal construction toy. He powered the device with a bicycle dynamo and a bell transformer, and formed the lenses by spin casting. His wife Linda helped him at the kitchen table."
+   }
+  },
+  {
+   "id": "T005-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Proti kterým nemocem pomáhají nejznámější léky vycházející z látek chemika Antonína Holého?",
+    "en": "Which diseases are treated by the best-known drugs based on compounds made by the Czech chemist Antonín Holý?"
+   },
+   "moznosti": {
+    "cs": [
+     "HIV a hepatitida B",
+     "Chřipka a spalničky",
+     "Malárie a tuberkulóza",
+     "Rakovina a cukrovka"
+    ],
+    "en": [
+     "HIV and hepatitis B",
+     "Influenza and measles",
+     "Malaria and tuberculosis",
+     "Cancer and diabetes"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Holý v pražském Ústavu organické chemie a biochemie připravil antivirotika jako tenofovir a adefovir. Tenofovir se pod názvem Viread používá v USA od roku 2001.",
+    "en": "At the Institute of Organic Chemistry and Biochemistry in Prague, Holý created antivirals such as tenofovir and adefovir. Tenofovir has been used in the US under the name Viread since 2001."
+   }
+  },
+  {
+   "id": "T005-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím byl výjimečný automobil Tatra 77 představený roku 1934?",
+    "en": "What made the Tatra 77 car, unveiled in Czechoslovakia in 1934, exceptional?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jako první měl automatickou převodovku",
+     "Patřil k prvním sériovým aerodynamickým vozům",
+     "Byl prvním sériově vyráběným elektromobilem",
+     "Jako první měl bezpečnostní pásy"
+    ],
+    "en": [
+     "It was the first with an automatic gearbox",
+     "It was one of the first mass-produced aerodynamic cars",
+     "It was the first mass-produced electric car",
+     "It was the first with seat belts"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Proudnicovou karoserii navrhl Erich Übelacker pod vedením Hanse Ledwinky, poradcem byl aerodynamik Paul Jaray. Vzduchem chlazený motor V8 měl vůz vzadu.",
+    "en": "Its streamlined body was designed by Erich Übelacker under chief engineer Hans Ledwinka, with aerodynamicist Paul Jaray as consultant. The air-cooled V8 engine sat at the rear."
+   }
+  },
+  {
+   "id": "T005-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Semtex dostal jméno podle Semtína, části kterého města?",
+    "en": "Semtex is named after Semtín, a district of which Czech city?"
+   },
+   "moznosti": {
+    "cs": [
+     "Plzeň",
+     "Pardubice",
+     "Ostrava",
+     "Zlín"
+    ],
+    "en": [
+     "Plzeň",
+     "Pardubice",
+     "Ostrava",
+     "Zlín"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "V Semtíně sídlil chemický závod Synthesia, kde se Semtex poprvé vyráběl. Dnes ho vyrábí firma Explosia.",
+    "en": "Semtín was home to the Synthesia chemical works, where Semtex was first made. Today it is produced by the company Explosia."
+   }
+  },
+  {
+   "id": "T005-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém roce získal Jaroslav Heyrovský Nobelovu cenu za chemii?",
+    "en": "In which year did the Czech chemist Jaroslav Heyrovský receive the Nobel Prize in Chemistry?"
+   },
+   "moznosti": {
+    "cs": [
+     "1929",
+     "1949",
+     "1959",
+     "1969"
+    ],
+    "en": [
+     "1929",
+     "1949",
+     "1959",
+     "1969"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Cenu dostal roku 1959 za metodu, kterou objevil už v roce 1922. Bývá uváděn jako první Čech oceněný Nobelovou cenou.",
+    "en": "He won it in 1959 for a method he had discovered back in 1922. He is often described as the first Czech Nobel laureate."
+   }
+  },
+  {
+   "id": "T005-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kde má topné těleso Remoska, elektrická pečicí nádoba vyvinutá v Československu v 50. letech?",
+    "en": "Where is the heating element of the Remoska, a portable electric cooking pot developed in Czechoslovakia in the 1950s?"
+   },
+   "moznosti": {
+    "cs": [
+     "V bočních stěnách",
+     "Ve víku",
+     "Ve dně nádoby",
+     "V podstavci pod nádobou"
+    ],
+    "en": [
+     "In the side walls",
+     "In the lid",
+     "In the base of the pot",
+     "In a stand under the pot"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Remosku vymyslel elektrotechnik Oldřich Homuta a vyráběla se od roku 1957. Peče shora jako malá trouba a v Polsku se jí říká prodiż.",
+    "en": "The Remoska was invented by electrical engineer Oldřich Homuta and produced from 1957. It bakes from above like a small oven; in Poland it is known as a prodiż."
+   }
+  },
+  {
+   "id": "T005-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaké zařízení otevřel psychiatr Jaroslav Skála roku 1951 v Praze jako první svého druhu v Československu?",
+    "en": "What kind of facility did the psychiatrist Jaroslav Skála open in Prague in 1951, the first of its kind in Czechoslovakia?"
+   },
+   "moznosti": {
+    "cs": [
+     "Krajskou transfuzní stanici",
+     "Hospic pro nevyléčitelně nemocné",
+     "Nonstop zubní pohotovost",
+     "Protialkoholní záchytnou stanici"
+    ],
+    "en": [
+     "A regional blood transfusion centre",
+     "A hospice for the terminally ill",
+     "A 24-hour emergency dental clinic",
+     "A sobering-up station for drunk people"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Prvním klientem pražské „záchytky“ byl podle záznamů ruský námořní inženýr. Během prvních 30 let jí prošlo přes 180 000 lidí.",
+    "en": "The first client of the Prague sobering-up station was reportedly a Russian naval engineer. Over 180,000 people passed through it in its first 30 years."
+   }
+  },
+  {
+   "id": "T005-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém městě vznikl kostkový cukr?",
+    "en": "In which Czech town was the sugar cube invented?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dačice",
+     "Kolín",
+     "Hradec Králové",
+     "Litomyšl"
+    ],
+    "en": [
+     "Dačice",
+     "Kolín",
+     "Hradec Králové",
+     "Litomyšl"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Kostky cukru se poprvé vyráběly v dačickém cukrovaru. Vynález připomíná ve městě žulový pomník z roku 1983.",
+    "en": "The first sugar cubes were made at the sugar factory in Dačice. A granite monument from 1983 in the town commemorates the invention."
+   }
+  },
+  {
+   "id": "T005-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "S kterým svým žákem sestrojil Jaroslav Heyrovský roku 1924 první přístroj, který výsledky jeho analytické metody zapisoval automaticky?",
+    "en": "With which of his students did Jaroslav Heyrovský build, in 1924, the first instrument that recorded the results of his analytical method automatically?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jiří Koryta",
+     "Masuzo Šikata",
+     "Rudolf Brdička",
+     "Bohumil Kučera"
+    ],
+    "en": [
+     "Jiří Koryta",
+     "Masuzo Shikata",
+     "Rudolf Brdička",
+     "Bohumil Kučera"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Heyrovský přístroj sestrojil se svým japonským žákem Masuzem Šikatou. Analýza tak místo hodin trvala jen několik minut.",
+    "en": "Heyrovský built the instrument with his Japanese student Masuzo Shikata. It cut the time needed for an analysis from hours to a few minutes."
+   }
+  },
+  {
+   "id": "T005-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaký neobvyklý přístroj sestrojil kolem roku 1753 farář Prokop Diviš?",
+    "en": "What unusual device did the Moravian priest Prokop Diviš build around 1753?"
+   },
+   "moznosti": {
+    "cs": [
+     "Optický telegraf",
+     "Parní kočár",
+     "Mechanický šachový automat",
+     "Hudební nástroj"
+    ],
+    "en": [
+     "An optical telegraph",
+     "A steam carriage",
+     "A mechanical chess automaton",
+     "A musical instrument"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Nástroj zvaný Denis d'or napodoboval zvuky různých nástrojů a dokázal hráče pro legraci kopnout elektřinou. Jediný exemplář se brzy po Divišově smrti ztratil.",
+    "en": "Called the Denis d'or, it imitated the sounds of various instruments and could give the player an electric shock as a joke. The only known example disappeared shortly after Diviš's death."
+   }
+  },
+  {
+   "id": "T005-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který tiskový postup dovedl malíř Karel Klíč do praktické podoby?",
+    "en": "Which printing process did the Czech painter Karel Klíč develop into its practical form?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ofsetový tisk",
+     "Sítotisk",
+     "Heliogravuru",
+     "Litografii"
+    ],
+    "en": [
+     "Offset printing",
+     "Screen printing",
+     "Photogravure",
+     "Lithography"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Heliogravura je hlubotisková technika, která převádí fotografii na leptanou měděnou desku. Klíč ji dovedl do použitelné podoby kolem roku 1878 a později v Anglii zdokonalil.",
+    "en": "Photogravure is an intaglio technique that transfers a photograph onto an etched copper plate. Klíč perfected a workable version around 1878 and later improved it in England."
+   }
+  },
+  {
+   "id": "T005-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaké zemědělské nářadí sestrojili roku 1827 bratranci František a Václav Veverkovi z Rybitví u Pardubic?",
+    "en": "What farming implement did the cousins František and Václav Veverka from Rybitví near Pardubice build in 1827?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ruchadlo",
+     "Žací stroj",
+     "Mlátičku",
+     "Secí stroj"
+    ],
+    "en": [
+     "A new type of plough",
+     "A reaping machine",
+     "A threshing machine",
+     "A seed drill"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Ruchadlo půdu nejen obracelo, ale také rozrušovalo a usnadňovalo nastavení hloubky orby. Úředník Jan Kainz ho později vydával za svůj vynález a autorství bratranců se prosadilo až v 80. letech 19. století.",
+    "en": "The ruchadlo not only turned the soil over but also broke it up, and it made the ploughing depth easier to set. An official named Jan Kainz later presented it as his own invention, and the cousins' authorship was only recognised in the 1880s."
+   }
+  },
+  {
+   "id": "T005-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co předvedl mechanik Josef Božek v září 1815 v pražské Stromovce?",
+    "en": "What did the mechanic Josef Božek demonstrate in Stromovka park in Prague in September 1815?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ponorku",
+     "Elektrický telegraf",
+     "Parní vůz",
+     "Horkovzdušný balon"
+    ],
+    "en": [
+     "A submarine",
+     "An electric telegraph",
+     "A steam carriage",
+     "A hot-air balloon"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Božek sestavil vůz podobný kočáru s měděným kotlem mezi předními koly a řídil ho řídítky. Díly k němu kdysi přivezl z Anglie hrabě Jiří Buquoy.",
+    "en": "Božek built a carriage-like vehicle with a copper boiler between the front wheels, steered with handlebars. Count Georg Buquoy had earlier brought parts for it from England."
+   }
+  },
+  {
+   "id": "T005-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kterou železniční trať elektrizoval roku 1903 František Křižík jako první v českých zemích?",
+    "en": "Which railway line did František Křižík electrify in 1903, the first electrified railway in the Czech lands?"
+   },
+   "moznosti": {
+    "cs": [
+     "Brno–Vídeň",
+     "Ostrava–Bohumín",
+     "Tábor–Bechyně",
+     "Praha–Plzeň"
+    ],
+    "en": [
+     "Brno–Vienna",
+     "Ostrava–Bohumín",
+     "Tábor–Bechyně",
+     "Prague–Plzeň"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Trať od počátku jezdí na stejnosměrný proud a přes řeku Lužnici vede po Bechyňském mostě, národní kulturní památce. Bývá uváděna i jako první elektrizovaná železnice v Rakousku-Uhersku.",
+    "en": "The line has always run on DC and crosses the Lužnice river on the Bechyně Bridge, a national cultural monument. It is often described as the first electrified railway in Austria-Hungary."
+   }
+  },
+  {
+   "id": "T005-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém přístavu vyzkoušel Josef Ressel roku 1829 svůj vynález na parníku Civetta?",
+    "en": "In which port did Josef Ressel test his invention on the steamboat Civetta in 1829?"
+   },
+   "moznosti": {
+    "cs": [
+     "Benátky",
+     "Terst",
+     "Hamburk",
+     "Janov"
+    ],
+    "en": [
+     "Venice",
+     "Trieste",
+     "Hamburg",
+     "Genoa"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Civetta dosáhla rychlosti asi šesti uzlů, pak ale prasklo parní potrubí a policie další zkoušky zakázala. Za nehodu přitom Resselův vynález nemohl.",
+    "en": "The Civetta reached about six knots, but then a steam pipe burst and the police banned further trials. Ressel's invention was not to blame for the accident."
+   }
+  },
+  {
+   "id": "T005-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se jmenovalo první československé syntetické vlákno, na jehož vývoji se roku 1941 ve Zlíně podílel Otto Wichterle?",
+    "en": "What was the name of the first Czechoslovak synthetic fibre, developed in 1941 in Zlín with the help of Otto Wichterle?"
+   },
+   "moznosti": {
+    "cs": [
+     "Orlon",
+     "Dederon",
+     "Perlon",
+     "Silon"
+    ],
+    "en": [
+     "Orlon",
+     "Dederon",
+     "Perlon",
+     "Silon"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Silon vznikl ve výzkumném ústavu Baťových závodů ve Zlíně, kde Wichterle za války pracoval.",
+    "en": "Silon was developed at the research institute of the Baťa works in Zlín, where Wichterle worked during the war."
+   }
+  },
+  {
+   "id": "T005-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Ve kterém roce byly Mendelovy zákony dědičnosti „znovuobjeveny“ Hugem de Vriesem a Carlem Corrensem?",
+    "en": "In which year were Mendel's laws of inheritance “rediscovered” by Hugo de Vries and Carl Correns?"
+   },
+   "moznosti": {
+    "cs": [
+     "1885",
+     "1900",
+     "1915",
+     "1930"
+    ],
+    "en": [
+     "1885",
+     "1900",
+     "1915",
+     "1930"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Mendelova práce z roku 1866 zůstala desítky let téměř bez povšimnutí. Mendel se uznání nedožil, zemřel roku 1884 jako opat brněnského kláštera.",
+    "en": "Mendel's 1866 paper went almost unnoticed for decades. He did not live to see it recognised: he died in 1884 as abbot of the monastery in Brno."
+   }
+  },
+  {
+   "id": "T005-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím přispěl Jan Evangelista Purkyně roku 1823 k pozdější kriminalistice?",
+    "en": "How did the Czech physiologist Jan Evangelista Purkyně contribute in 1823 to what later became forensic science?"
+   },
+   "moznosti": {
+    "cs": [
+     "Zavedl měření lebek zločinců",
+     "Vyvinul důkaz arzenu v těle",
+     "Popsal a roztřídil vzory otisků prstů",
+     "Sestrojil první detektor lži"
+    ],
+    "en": [
+     "He introduced measuring criminals' skulls",
+     "He developed a test for arsenic in the body",
+     "He described and classified fingerprint patterns",
+     "He built the first lie detector"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ve své disertaci rozlišil devět základních typů papilárních linií. K identifikaci lidí se otisky prstů začaly používat až o desítky let později, mimo jiné díky Williamu Herschelovi a Henrymu Fauldsovi.",
+    "en": "In his dissertation he distinguished nine basic types of fingerprint patterns. Fingerprints only began to be used to identify people decades later, thanks in part to William Herschel and Henry Faulds."
+   }
+  }
+ ]
+}

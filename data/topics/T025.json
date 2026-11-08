@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T025",
+ "nazev": {
+  "cs": "Římská říše: císaři, legie a každodenní život",
+  "en": "The Roman Empire: Emperors, Legions and Daily Life"
+ },
+ "kategorie": {
+  "id": "historie",
+  "nazev": {
+   "cs": "Historie",
+   "en": "History"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T025-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo byl prvním římským císařem?",
+    "en": "Who was the first Roman emperor?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nero",
+     "Romulus",
+     "Julius Caesar",
+     "Augustus"
+    ],
+    "en": [
+     "Nero",
+     "Romulus",
+     "Julius Caesar",
+     "Augustus"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Prvním císařem byl Augustus (vládl 27 př. n. l. – 14 n. l.). Julius Caesar císařem nikdy nebyl – byl „doživotním diktátorem“ ještě v době republiky; Romulus byl podle pověsti prvním králem.",
+    "en": "The first emperor was Augustus (ruled 27 BC – AD 14). Julius Caesar was never emperor – he was 'dictator for life' while Rome was still a republic; Romulus was, according to legend, the first king."
+   }
+  },
+  {
+   "id": "T025-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Po kom je pojmenován měsíc červenec v latině a mnoha jazycích (anglicky July, německy Juli)?",
+    "en": "In Latin and many other languages (e.g. German Juli), who is the month of July named after?"
+   },
+   "moznosti": {
+    "cs": [
+     "Po Augustovi",
+     "Po Juliu Caesarovi",
+     "Po bohyni Junoně",
+     "Po bohu Janusovi"
+    ],
+    "en": [
+     "Augustus",
+     "Julius Caesar",
+     "The goddess Juno",
+     "The god Janus"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Senát ho roku 44 př. n. l. pojmenoval po Juliu Caesarovi, protože se v tomto měsíci narodil. Na Augusta zbyl následující měsíc – srpen (August).",
+    "en": "In 44 BC the Senate named it after Julius Caesar, because he was born in that month. Augustus got the following month – August."
+   }
+  },
+  {
+   "id": "T025-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "K čemu především sloužilo římské Koloseum?",
+    "en": "What was the Roman Colosseum mainly used for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Gladiátorským zápasům a štvanicím zvířat",
+     "Bohoslužbám římským bohům",
+     "Zasedáním římského senátu",
+     "Závodům válečných vozů"
+    ],
+    "en": [
+     "Gladiator fights and animal hunts",
+     "Worship of the Roman gods",
+     "Meetings of the Roman Senate",
+     "Chariot races"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "V Koloseu se konaly gladiátorské zápasy, štvanice zvířat (venationes) i veřejné popravy. Závody vozů se jezdily jinde – v Circu Maximu.",
+    "en": "The Colosseum hosted gladiator fights, animal hunts (venationes) and public executions. Chariot races were held elsewhere – in the Circus Maximus."
+   }
+  },
+  {
+   "id": "T025-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "K čemu sloužily římské akvadukty?",
+    "en": "What were Roman aqueducts used for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Odváděly z měst splašky",
+     "Sloužily jako mosty pro vozy",
+     "Chránily města jako hradby",
+     "Přiváděly do měst vodu"
+    ],
+    "en": [
+     "Carrying sewage out of cities",
+     "Serving as bridges for carts",
+     "Protecting cities as walls",
+     "Bringing water into cities"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Akvadukty přiváděly vodu do lázní, kašen, latrín i domů – jen samospádem, po mírném sklonu. Většina jejich trasy přitom vedla pod zemí, mohutné obloukové mosty jsou jen malá část.",
+    "en": "Aqueducts brought water to baths, fountains, latrines and homes – by gravity alone, along a gentle slope. Most of their length actually ran underground; the famous arched bridges are only a small part."
+   }
+  },
+  {
+   "id": "T025-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve které části dnešního Spojeného království leží Hadriánův val?",
+    "en": "In which part of today's United Kingdom does Hadrian's Wall lie?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Severním Irsku",
+     "V Anglii",
+     "Ve Skotsku",
+     "Ve Walesu"
+    ],
+    "en": [
+     "Northern Ireland",
+     "England",
+     "Scotland",
+     "Wales"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Val stavěný od roku 122 leží celý v severní Anglii a nikdy netvořil anglicko-skotskou hranici. Měří 117 km, tedy 80 římských mil.",
+    "en": "The wall, begun in AD 122, lies entirely in northern England and has never formed the Anglo-Scottish border. It is 117 km (73 mi) long – 80 Roman miles."
+   }
+  },
+  {
+   "id": "T025-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který rok se tradičně uvádí jako konec Západořímské říše?",
+    "en": "Which year is traditionally given as the end of the Western Roman Empire?"
+   },
+   "moznosti": {
+    "cs": [
+     "395",
+     "410",
+     "476",
+     "1453"
+    ],
+    "en": [
+     "395",
+     "410",
+     "476",
+     "1453"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Roku 476 byl sesazen poslední západořímský císař Romulus Augustulus a nástupce už nikdo nedosadil. Rok 410 je vyplenění Říma Góty, rok 1453 konec Východořímské říše.",
+    "en": "In 476 the last Western emperor, Romulus Augustulus, was deposed and no successor was appointed. 410 is the sack of Rome by the Goths, 1453 the end of the Eastern Roman Empire."
+   }
+  },
+  {
+   "id": "T025-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které město bylo hlavním městem Východořímské (Byzantské) říše?",
+    "en": "Which city was the capital of the Eastern Roman (Byzantine) Empire?"
+   },
+   "moznosti": {
+    "cs": [
+     "Alexandrie",
+     "Konstantinopol",
+     "Athény",
+     "Ravenna"
+    ],
+    "en": [
+     "Alexandria",
+     "Constantinople",
+     "Athens",
+     "Ravenna"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Hlavním městem byla Konstantinopol, dnešní Istanbul, postavená na místě řecké osady Byzantion. Říše skončila, když ji 29. května 1453 dobyli Osmané.",
+    "en": "The capital was Constantinople, today's Istanbul, built on the site of the Greek town of Byzantion. The empire ended when the Ottomans took it on 29 May 1453."
+   }
+  },
+  {
+   "id": "T025-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterou řeku překročil Julius Caesar roku 49 př. n. l., čímž rozpoutal občanskou válku?",
+    "en": "Which river did Julius Caesar cross in 49 BC, starting a civil war?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tiberu",
+     "Pád",
+     "Arno",
+     "Rubikon"
+    ],
+    "en": [
+     "The Tiber",
+     "The Po",
+     "The Arno",
+     "The Rubicon"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Překročit s vojskem Rubikon znamenalo vzepřít se senátu; Caesar při tom podle Suetonia pronesl „kostky jsou vrženy“ (alea iacta est). Řeka tvořila hranici mezi provincií Předalpská Galie a vlastní Itálií.",
+    "en": "Crossing the Rubicon with an army meant defying the Senate; according to Suetonius, Caesar said 'the die is cast' (alea iacta est). The river marked the boundary between the province of Cisalpine Gaul and Italy proper."
+   }
+  },
+  {
+   "id": "T025-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaký pták byl hlavní zástavou každé římské legie?",
+    "en": "Which bird was the main standard of every Roman legion?"
+   },
+   "moznosti": {
+    "cs": [
+     "Orel",
+     "Havran",
+     "Sokol",
+     "Sova"
+    ],
+    "en": [
+     "Eagle",
+     "Raven",
+     "Falcon",
+     "Owl"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Orla (aquila) nesl vojenský praporečník zvaný aquilifer. Ztráta orla byla obrovská hanba a Řím se ztracené orly snažil získat zpět i celá desetiletí.",
+    "en": "The eagle (aquila) was carried by a standard-bearer called the aquilifer. Losing it was a huge disgrace, and Rome spent decades trying to recover lost eagles."
+   }
+  },
+  {
+   "id": "T025-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývaly velké římské veřejné lázně, které sloužily i jako místo setkávání?",
+    "en": "What were the large Roman public baths, which also served as meeting places, called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Baziliky",
+     "Termy",
+     "Insuly",
+     "Fóra"
+    ],
+    "en": [
+     "Basilicas",
+     "Thermae",
+     "Insulae",
+     "Fora"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Termy měly teplou (tepidarium), horkou (caldarium) i studenou (frigidarium) místnost, vytápěné podlahy (hypokaust), knihovny a cvičiště. Lidé si tu zvali přátele na večeři a politici tu získávali stoupence.",
+    "en": "Thermae had a warm room (tepidarium), a hot room (caldarium) and a cold room (frigidarium), underfloor heating (hypocaust), libraries and exercise yards. People invited friends to dinner here, and politicians came to win supporters."
+   }
+  },
+  {
+   "id": "T025-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se jmenoval měsíc červenec, než roku 44 př. n. l. dostal nové jméno?",
+    "en": "What was the month of July called before it got its new name in 44 BC?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sextilis",
+     "Martius",
+     "Maius",
+     "Quintilis"
+    ],
+    "en": [
+     "Sextilis",
+     "Martius",
+     "Maius",
+     "Quintilis"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Quintilis znamená „pátý“ – nejstarší římský kalendář začínal březnem. Následující Sextilis („šestý“) byl roku 8 př. n. l. přejmenován na počest Augusta.",
+    "en": "Quintilis means 'fifth' – the oldest Roman calendar began in March. The following month, Sextilis ('sixth'), was renamed in honour of Augustus in 8 BC."
+   }
+  },
+  {
+   "id": "T025-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jaká přísada dodávala římskému betonu mimořádnou odolnost, dokonce i v mořské vodě?",
+    "en": "Which ingredient gave Roman concrete its exceptional durability, even in seawater?"
+   },
+   "moznosti": {
+    "cs": [
+     "Říční jíl",
+     "Rozdrcené mušle",
+     "Sopečný popel",
+     "Mletý mramor"
+    ],
+    "en": [
+     "River clay",
+     "Crushed shells",
+     "Volcanic ash",
+     "Ground marble"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Římané míchali vápno se sopečným popelem (pucolánem) z okolí Pozzuoli u Neapole. S mořskou vodou v něm rostou odolné krystaly, takže některé stavby v moři vydržely 2 000 let.",
+    "en": "The Romans mixed lime with volcanic ash (pozzolana) from around Pozzuoli near Naples. In seawater it grows durable crystals, which is why some marine structures have lasted 2,000 years."
+   }
+  },
+  {
+   "id": "T025-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Za vlády které dynastie bylo postaveno římské Koloseum?",
+    "en": "Under which dynasty was the Roman Colosseum built?"
+   },
+   "moznosti": {
+    "cs": [
+     "Flaviovské",
+     "Severovské",
+     "Juliovsko-klaudiovské",
+     "Antoninovské"
+    ],
+    "en": [
+     "Flavian",
+     "Severan",
+     "Julio-Claudian",
+     "Antonine"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Stavbu zahájil Vespasianus kolem roku 72 a jeho syn Titus ji roku 80 otevřel – proto mu pozdější badatelé začali říkat Flaviovský amfiteátr. Jméno Koloseum má nejspíš podle obří Neronovy sochy (Kolosu), která stála poblíž.",
+    "en": "Vespasian began building it around AD 72 and his son Titus opened it in AD 80 – hence the name Flavian Amphitheatre, given to it by later scholars. The name Colosseum most likely comes from a giant statue of Nero (the Colossus) that stood nearby."
+   }
+  },
+  {
+   "id": "T025-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co nejvíce zpopularizovalo představu, že palec dolů v aréně znamenal smrt poraženého gladiátora?",
+    "en": "What did most to popularise the idea that a thumbs-down in the arena meant death for a defeated gladiator?"
+   },
+   "moznosti": {
+    "cs": [
+     "Reliéf na Trajánově sloupu",
+     "Obraz francouzského malíře z roku 1872",
+     "Caesarovy zápisky o válce galské",
+     "Nápis nalezený v Koloseu"
+    ],
+    "en": [
+     "A relief on Trajan's Column",
+     "An 1872 painting by a French artist",
+     "Caesar's Commentaries on the Gallic War",
+     "An inscription found in the Colosseum"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Představu zpopularizoval obraz Pollice Verso Jeana-Léona Gérôma. Inspiroval i film Gladiátor (2000). Římské prameny uvádějí jen „pollice verso“ (obráceným palcem) a jak gesto skutečně vypadalo ani co znamenalo, nevíme.",
+    "en": "The idea was popularised by Jean-Léon Gérôme's painting Pollice Verso. It also inspired the film Gladiator (2000). Roman sources only say 'pollice verso' (with a turned thumb), and we do not know what the gesture actually looked like or meant."
+   }
+  },
+  {
+   "id": "T025-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kdo sesadil posledního západořímského císaře Romula Augustula?",
+    "en": "Who deposed the last Western Roman emperor, Romulus Augustulus?"
+   },
+   "moznosti": {
+    "cs": [
+     "Odoaker",
+     "Alarich",
+     "Attila",
+     "Geiserich"
+    ],
+    "en": [
+     "Odoacer",
+     "Alaric",
+     "Attila",
+     "Genseric"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Germánský velitel Odoaker nového císaře nedosadil a císařské insignie poslal východořímskému císaři Zenonovi. Někteří historici ale za posledního západního císaře považují Julia Nepota, který žil až do roku 480.",
+    "en": "The Germanic commander Odoacer appointed no new emperor and sent the imperial regalia to the Eastern emperor Zeno. Some historians, however, regard Julius Nepos, who lived until 480, as the last Western emperor."
+   }
+  },
+  {
+   "id": "T025-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který z těchto jazyků se vyvinul z latiny?",
+    "en": "Which of these languages developed from Latin?"
+   },
+   "moznosti": {
+    "cs": [
+     "Maďarština",
+     "Albánština",
+     "Rumunština",
+     "Řečtina"
+    ],
+    "en": [
+     "Hungarian",
+     "Albanian",
+     "Romanian",
+     "Greek"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Rumunština patří spolu se španělštinou, francouzštinou, portugalštinou, italštinou a katalánštinou k románským jazykům, které vznikly z lidové latiny. Maďarština, albánština ani řečtina mezi ně nepatří.",
+    "en": "Romanian, along with Spanish, French, Portuguese, Italian and Catalan, is a Romance language descended from Vulgar Latin. Hungarian, Albanian and Greek are not among them."
+   }
+  },
+  {
+   "id": "T025-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který římský císař, stoický filozof, napsal řecky dílo Hovory k sobě – zčásti přímo během válečného tažení?",
+    "en": "Which Roman emperor, a Stoic philosopher, wrote the Meditations in Greek – partly during a military campaign?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hadrián",
+     "Antoninus Pius",
+     "Marcus Aurelius",
+     "Septimius Severus"
+    ],
+    "en": [
+     "Hadrian",
+     "Antoninus Pius",
+     "Marcus Aurelius",
+     "Septimius Severus"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "První kniha Hovorů k sobě vznikla podle poznámky v textu „u Granovy“, tedy u dnešní řeky Hron na Slovensku. Druhá kniha vznikla v Carnuntu u Dunaje.",
+    "en": "According to a note in the text, the first book of the Meditations was written 'at the Granova', today's Hron river in Slovakia. The second book was written at Carnuntum on the Danube."
+   }
+  },
+  {
+   "id": "T025-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co bylo garum, oblíbená přísada římské kuchyně?",
+    "en": "What was garum, a favourite ingredient of Roman cuisine?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kvašená rybí omáčka",
+     "Kaše z prosa a luštěnin",
+     "Ovčí sýr nakládaný v soli",
+     "Kořeněné víno s medem"
+    ],
+    "en": [
+     "Fermented fish sauce",
+     "Porridge of millet and pulses",
+     "Sheep's cheese preserved in salt",
+     "Spiced wine with honey"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Garum vznikalo kvašením solených rybích vnitřností, často z makrel a ančoviček, a chutí se podobalo dnešním asijským rybím omáčkám. Ředěné vodou se vydávalo i legionářům.",
+    "en": "Garum was made by fermenting salted fish innards, often of mackerel and anchovies, and tasted much like today's Asian fish sauces. Diluted with water, it was also issued to legionaries."
+   }
+  },
+  {
+   "id": "T025-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak se nazýval vícepatrový činžovní dům, v němž bydlela většina obyvatel starověkého Říma?",
+    "en": "What was the multi-storey apartment block in which most inhabitants of ancient Rome lived called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Domus",
+     "Atrium",
+     "Insula",
+     "Villa"
+    ],
+    "en": [
+     "Domus",
+     "Atrium",
+     "Insula",
+     "Villa"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Insuly mohly mít až devět pater, v přízemí byly obchody a nejlevnější byty byly nahoře – kvůli schodům a riziku požáru či zřícení. Augustus proto omezil jejich výšku na zhruba 21 metrů.",
+    "en": "Insulae could have up to nine storeys, with shops on the ground floor and the cheapest flats at the top – because of the stairs and the risk of fire or collapse. Augustus therefore capped their height at about 21 metres (69 ft)."
+   }
+  },
+  {
+   "id": "T025-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které z těchto slov pro panovníka pochází ze jména Caesar?",
+    "en": "Which of these words for a ruler comes from the name Caesar?"
+   },
+   "moznosti": {
+    "cs": [
+     "Král",
+     "Kníže",
+     "Vévoda",
+     "Car"
+    ],
+    "en": [
+     "King",
+     "Prince",
+     "Duke",
+     "Tsar"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Z Caesarova jména vzešlo ruské car, německé Kaiser i české císař. Slovanské „král“ naopak nejspíš pochází ze jména Karla Velikého (Karolus).",
+    "en": "Caesar's name gave rise to the Russian tsar and the German Kaiser. King, prince and duke have other roots – prince, for example, comes from the Latin princeps and duke from dux."
+   }
+  },
+  {
+   "id": "T025-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se podle nápisu z roku 179 vytesaného do hradní skály v Trenčíně jmenovalo místo, kde tábořili římští vojáci?",
+    "en": "According to the inscription of AD 179 carved into the castle rock in Trenčín, what was the place where Roman soldiers camped called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Laugaricio",
+     "Brigetio",
+     "Gerulata",
+     "Aquincum"
+    ],
+    "en": [
+     "Laugaricio",
+     "Brigetio",
+     "Gerulata",
+     "Aquincum"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Nápis dal vytesat legát Marcus Valerius Maximianus za 855 vojáků II. legie Adiutrix během válek Marca Aurelia s Germány. Dlouho byl považován za nejsevernější doklad přítomnosti Římanů ve střední Evropě.",
+    "en": "The inscription was commissioned by the legate Marcus Valerius Maximianus on behalf of 855 soldiers of Legio II Adiutrix during Marcus Aurelius's wars with the Germanic tribes. For a long time it was considered the northernmost evidence of Romans in Central Europe."
+   }
+  },
+  {
+   "id": "T025-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kteří germánští sousedé Říma, sídlící i na území dnešní Moravy a Slovenska, byli hlavními protivníky Marca Aurelia v letech 166–180?",
+    "en": "Which Germanic neighbours of Rome, living partly in today's Moravia and Slovakia, were Marcus Aurelius's main enemies in 166–180?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sasové a Anglové",
+     "Gótové a Gepidové",
+     "Frankové a Alamani",
+     "Markomani a Kvádové"
+    ],
+    "en": [
+     "Saxons and Angles",
+     "Goths and Gepids",
+     "Franks and Alamanni",
+     "Marcomanni and Quadi"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Války se podle Markomanů nazývají markomanské; Marcus Aurelius dokonce plánoval z jejich území zřídit nové provincie. Války přerušila až jeho smrt roku 180.",
+    "en": "The wars are named the Marcomannic Wars after the Marcomanni; Marcus Aurelius even planned to turn their lands into new provinces. Only his death in 180 interrupted the wars."
+   }
+  },
+  {
+   "id": "T025-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Nálezy na kopci Hradisko (Burgstall) u Mušova – zbytky lázní s podlahovým vytápěním a cihly s kolkem X. legie – dokládají, že…",
+    "en": "Finds on the hill of Hradisko (Burgstall) near Mušov – remains of baths with underfloor heating and bricks stamped by the Tenth Legion – show that…"
+   },
+   "moznosti": {
+    "cs": [
+     "tu stálo římské město s vlastním amfiteátrem",
+     "tu Římané ve 2. století měli vojenskou stanici",
+     "tudy vedla dunajská hranice provincie Panonie",
+     "zde roku 180 zemřel císař Marcus Aurelius"
+    ],
+    "en": [
+     "a Roman town with its own amphitheatre stood here",
+     "the Romans had a military station here in the 2nd century",
+     "the Danube border of the province of Pannonia ran here",
+     "Emperor Marcus Aurelius died here in 180"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Římská základna na jižní Moravě, asi 80 km od Vindobony, nejspíš dohlížela na poražené Germány. Nedaleko byl roku 1988 objeven bohatý hrob germánského náčelníka, nejspíš spojence Říma.",
+    "en": "The Roman base in southern Moravia, about 80 km (50 mi) from Vindobona, probably kept watch over the defeated Germanic tribes. In 1988 a rich grave of a Germanic chieftain, apparently an ally of Rome, was discovered nearby."
+   }
+  },
+  {
+   "id": "T025-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čemu podle studie MIT z roku 2023 vděčí římský beton za schopnost „samo hojit“ drobné trhliny?",
+    "en": "According to a 2023 MIT study, what gives Roman concrete its ability to 'self-heal' small cracks?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bronzovým výztužím uvnitř",
+     "Vrstvě včelího vosku na povrchu",
+     "Hrudkám vápna vzniklým horkým mícháním",
+     "Příměsi olivového oleje"
+    ],
+    "en": [
+     "Bronze reinforcement inside",
+     "A layer of beeswax on the surface",
+     "Lime lumps formed by hot mixing",
+     "Added olive oil"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Bílé vápenné hrudky se dřív považovaly za známku špatného míchání. Když do trhliny pronikne voda, reagují s ní a vysrážený uhličitan vápenatý trhlinu zacelí.",
+    "en": "The white lime lumps were once thought to be a sign of poor mixing. When water enters a crack, they react with it and the precipitated calcium carbonate seals the crack."
+   }
+  },
+  {
+   "id": "T025-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který antický akvadukt dal roku 19 př. n. l. postavit Marcus Agrippa a v obnovené podobě funguje dodnes?",
+    "en": "Which ancient aqueduct was built by Marcus Agrippa in 19 BC and still functions today in restored form?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aqua Claudia",
+     "Aqua Virgo",
+     "Aqua Appia",
+     "Aqua Marcia"
+    ],
+    "en": [
+     "Aqua Claudia",
+     "Aqua Virgo",
+     "Aqua Appia",
+     "Aqua Marcia"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Aqua Virgo je pojmenována podle pověsti o dívce (virgo), která žíznivým vojákům ukázala pramen. Její renesanční obnova, Acqua Vergine, dnes končí u Fontány di Trevi.",
+    "en": "Aqua Virgo is named after a legend of a girl (virgo) who showed thirsty soldiers a spring. Its Renaissance restoration, the Acqua Vergine, now ends at the Trevi Fountain."
+   }
+  },
+  {
+   "id": "T025-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se jmenuje druhý, severnější římský val v Británii, postavený ve 2. století na území dnešního Skotska?",
+    "en": "What is the name of the second, more northerly Roman wall in Britain, built in the 2nd century in what is now Scotland?"
+   },
+   "moznosti": {
+    "cs": [
+     "Trajánův val",
+     "Antoninův val",
+     "Offův val (Offa's Dyke)",
+     "Konstantinův val"
+    ],
+    "en": [
+     "Trajan's Wall",
+     "The Antonine Wall",
+     "Offa's Dyke",
+     "Constantine's Wall"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Val dal od roku 142 postavit císař Antoninus Pius mezi zálivy Firth of Clyde a Firth of Forth. Byl z drnů na kamenném základu a Římané ho zhruba po dvaceti letech opustili a stáhli se zpět k Hadriánovu valu.",
+    "en": "Emperor Antoninus Pius had it built from AD 142 between the Firth of Clyde and the Firth of Forth. It was made of turf on stone foundations, and after about twenty years the Romans abandoned it and fell back to Hadrian's Wall."
+   }
+  },
+  {
+   "id": "T025-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik římských legií zničili Germáni v bitvě v Teutoburském lese roku 9 n. l.?",
+    "en": "How many Roman legions did the Germanic tribes destroy in the Battle of the Teutoburg Forest in AD 9?"
+   },
+   "moznosti": {
+    "cs": [
+     "1",
+     "2",
+     "3",
+     "5"
+    ],
+    "en": [
+     "1",
+     "2",
+     "3",
+     "5"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Arminius zničil legie XVII, XVIII a XIX vedené Varem. Augustus podle Suetonia volal „Quintilie Vare, vrať mi mé legie!“ a tato čísla legií už Římané nikdy nepoužili.",
+    "en": "Arminius destroyed Legions XVII, XVIII and XIX under Varus. According to Suetonius, Augustus cried 'Quintilius Varus, give me back my legions!', and the Romans never used those legion numbers again."
+   }
+  },
+  {
+   "id": "T025-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se sami nazývali obyvatelé říše, které dnes říkáme Byzantská?",
+    "en": "What did the inhabitants of the empire we now call Byzantine call themselves?"
+   },
+   "moznosti": {
+    "cs": [
+     "Římané",
+     "Latinové",
+     "Byzantinci",
+     "Achájci"
+    ],
+    "en": [
+     "Romans",
+     "Latins",
+     "Byzantines",
+     "Achaeans"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Nazývali se Rhómaioi, tedy Římané, a svůj stát Rhomania. Označení „Byzantská říše“ vzniklo až po zániku říše a rozšířil ho v 16. století učenec Hieronymus Wolf.",
+    "en": "They called themselves Rhomaioi, i.e. Romans, and their state Rhomania. The term 'Byzantine Empire' arose only after the empire's fall and was popularised by the 16th-century scholar Hieronymus Wolf."
+   }
+  },
+  {
+   "id": "T025-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Co dostal gladiátor jako doklad propuštění z arény, a tím i z otroctví?",
+    "en": "What did a gladiator receive as proof of his release from the arena, and thus from slavery?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vavřínový věnec",
+     "Palmovou ratolest",
+     "Železný prsten",
+     "Dřevěný meč"
+    ],
+    "en": [
+     "A laurel wreath",
+     "A palm branch",
+     "An iron ring",
+     "A wooden sword"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Dřevěný meč se jmenoval rudis. Palmovou ratolest a někdy i vavřínový věnec dostával vítěz zápasu – svobodu ale neznamenaly.",
+    "en": "The wooden sword was called the rudis. A palm branch, and sometimes a laurel wreath, were given to the winner of a bout – but they did not mean freedom."
+   }
+  },
+  {
+   "id": "T025-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Podle rozšířené historky dostal srpen 31 dní, aby Augustův měsíc nebyl kratší než červenec. Co je na tom pravdy?",
+    "en": "According to a popular story, August got 31 days so that Augustus's month would not be shorter than July. How much of it is true?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nic, srpen měl 31 dní už před přejmenováním",
+     "Den srpnu přidal až papež Řehoř XIII.",
+     "Augustus opravdu přidal den a vzal ho únoru",
+     "Den srpnu přidal až císař Konstantin"
+    ],
+    "en": [
+     "None – August had 31 days before it was renamed",
+     "The day was added only by Pope Gregory XIII",
+     "Augustus really added a day, taking it from February",
+     "The day was added only by Emperor Constantine"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Srpen měl 31 dní už od Caesarovy kalendářní reformy. Historku vymyslel až ve 13. století učenec Johannes de Sacrobosco. Augustus si měsíc vybral, protože v něm slavil velké triumfy včetně dobytí Egypta.",
+    "en": "The month had already had 31 days since Caesar's calendar reform. The story was invented in the 13th century by the scholar Johannes de Sacrobosco. Augustus chose the month because it marked great triumphs of his, including the conquest of Egypt."
+   }
+  }
+ ]
+}

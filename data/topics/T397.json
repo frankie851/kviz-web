@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T397",
+ "nazev": {
+  "cs": "Nizozemský zlatý věk: tulipány, VOC a Rembrandt",
+  "en": "The Dutch Golden Age: Tulips, the VOC and Rembrandt"
+ },
+ "kategorie": {
+  "id": "historie",
+  "nazev": {
+   "cs": "Historie",
+   "en": "History"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T397-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak zní celé příjmení malíře Rembrandta?",
+    "en": "What is the painter Rembrandt's surname?"
+   },
+   "moznosti": {
+    "cs": [
+     "van Dyck",
+     "van Rijn",
+     "van Gogh",
+     "van Eyck"
+    ],
+    "en": [
+     "van Dyck",
+     "van Rijn",
+     "van Gogh",
+     "van Eyck"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Celým jménem Rembrandt Harmenszoon van Rijn, narozen roku 1606 v Leidenu. Prostřední jméno je otčestvo – „syn Harmenův“.",
+    "en": "His full name was Rembrandt Harmenszoon van Rijn, born in Leiden in 1606. The middle name is a patronymic meaning \"son of Harmen\"."
+   }
+  },
+  {
+   "id": "T397-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "V kterém muzeu visí Rembrandtova Noční hlídka?",
+    "en": "In which museum does Rembrandt's The Night Watch hang?"
+   },
+   "moznosti": {
+    "cs": [
+     "National Gallery v Londýně",
+     "Prado v Madridu",
+     "Rijksmuseum v Amsterdamu",
+     "Louvre v Paříži"
+    ],
+    "en": [
+     "The National Gallery in London",
+     "The Prado in Madrid",
+     "The Rijksmuseum in Amsterdam",
+     "The Louvre in Paris"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Noční hlídka je hlavním lákadlem amsterdamského Rijksmuseum. Muzeum vlastní i další Rembrandtova díla, například Židovskou nevěstu.",
+    "en": "The Night Watch is the star attraction of Amsterdam's Rijksmuseum. The museum also holds other Rembrandt works, such as The Jewish Bride."
+   }
+  },
+  {
+   "id": "T397-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se nazývá výrazný kontrast světla a stínu, kterým jsou proslulé Rembrandtovy obrazy?",
+    "en": "What is the term for the dramatic contrast of light and shadow that Rembrandt's paintings are famous for?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pointilismus",
+     "Sfumato",
+     "Grisaille",
+     "Šerosvit"
+    ],
+    "en": [
+     "Pointillism",
+     "Sfumato",
+     "Grisaille",
+     "Chiaroscuro"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Šerosvit (italsky chiaroscuro, „světlo-tma“) znamená ostré kontrasty světla a tmy, obvykle v celé kompozici. Rembrandt v raných dílech z 20. let 17. století často maloval scény osvětlené jedinou svíčkou.",
+    "en": "Chiaroscuro (Italian for \"light-dark\") means bold contrasts of light and dark, usually across a whole composition. In his early works of the 1620s, Rembrandt often painted scenes lit by a single candle."
+   }
+  },
+  {
+   "id": "T397-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo namaloval Mlékařku (asi 1658), tichý výjev služebné, která nalévá mléko?",
+    "en": "Who painted The Milkmaid (c. 1658), a quiet scene of a maid pouring milk?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rembrandt",
+     "Frans Hals",
+     "Johannes Vermeer",
+     "Jan Steen"
+    ],
+    "en": [
+     "Rembrandt",
+     "Frans Hals",
+     "Johannes Vermeer",
+     "Jan Steen"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Mlékařku namaloval Johannes Vermeer. Služebná pečlivě nalévá mléko do hliněné nádoby a obraz ukazuje Vermeerovo mistrovství ve vykreslení denního světla z okna.",
+    "en": "The Milkmaid is by Johannes Vermeer. The maid carefully pours milk into an earthenware vessel, and the picture shows off Vermeer's mastery of daylight falling through a window."
+   }
+  },
+  {
+   "id": "T397-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Proti které zemi bojovali Nizozemci za nezávislost v osmdesátileté válce (1568–1648)?",
+    "en": "Which country did the Dutch fight for their independence in the Eighty Years' War (1568–1648)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Španělsku",
+     "Švédsku",
+     "Francii",
+     "Anglii"
+    ],
+    "en": [
+     "Spain",
+     "Sweden",
+     "France",
+     "England"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Nizozemské provincie se roku 1568 vzbouřily proti španělskému králi Filipu II. Válka skončila až v roce 1648, takže velká část zlatého věku proběhla ještě za ní.",
+    "en": "The Dutch provinces rose against King Philip II of Spain in 1568. The war ended only in 1648, so much of the golden age unfolded while it was still being fought."
+   }
+  },
+  {
+   "id": "T397-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Nizozemská republika byla svazem provincií. Kolik z nich mělo zastoupení a hlas v jejích generálních stavech?",
+    "en": "The Dutch Republic was a union of provinces. How many of them had a seat and a vote in its States General?"
+   },
+   "moznosti": {
+    "cs": [
+     "5",
+     "7",
+     "9",
+     "12"
+    ],
+    "en": [
+     "5",
+     "7",
+     "9",
+     "12"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Odtud oficiální název Republika spojených sedmi nizozemských provincií. Osmá provincie Drenthe neplatila spolkové daně, a proto v generálních stavech hlas neměla.",
+    "en": "Hence the official name, the Republic of the Seven United Netherlands. An eighth province, Drenthe, paid no federal taxes and so had no seat in the States General."
+   }
+  },
+  {
+   "id": "T397-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Čím se Nizozemská Východoindická společnost (VOC) roku 1602 zapsala do dějin akciových trhů?",
+    "en": "How did the Dutch East India Company (VOC) make stock-market history in 1602?"
+   },
+   "moznosti": {
+    "cs": [
+     "Založila první centrální banku",
+     "Nabídla své akcie široké veřejnosti",
+     "Vydala první papírové bankovky",
+     "Zavedla první daň z příjmu"
+    ],
+    "en": [
+     "It founded the first central bank",
+     "It offered its shares to the general public",
+     "It issued the first paper banknotes",
+     "It introduced the first income tax"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Zakládací listina VOC dovolovala koupit podíl každému obyvateli republiky a akcie se daly dál prodávat. Proto se úpis z roku 1602 často označuje za první moderní IPO.",
+    "en": "The VOC's charter let any citizen of the Dutch Republic buy shares, and the shares were tradable. That is why its 1602 share offering is often called the first modern IPO."
+   }
+  },
+  {
+   "id": "T397-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Roku 1652 založila Nizozemská Východoindická společnost u mysu Dobré naděje zásobovací stanici pro své lodě. Které město z ní vyrostlo?",
+    "en": "In 1652 the Dutch East India Company set up a supply station for its ships at the Cape of Good Hope. Which city grew out of it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Durban",
+     "Luanda",
+     "Port Elizabeth",
+     "Kapské Město"
+    ],
+    "en": [
+     "Durban",
+     "Luanda",
+     "Port Elizabeth",
+     "Cape Town"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Stanici založil Jan van Riebeeck 6. dubna 1652 jako zastávku pro lodě plující do Východní Indie. Z ní vznikla Kapská kolonie a dnešní Kapské Město.",
+    "en": "Jan van Riebeeck founded the station on 6 April 1652 as a way station for ships bound for the East Indies. It grew into the Cape Colony and today's Cape Town."
+   }
+  },
+  {
+   "id": "T397-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která část Amsterdamu, vybudovaná převážně v 17. století, je od roku 2010 na seznamu světového dědictví UNESCO?",
+    "en": "Which part of Amsterdam, built mostly in the 17th century, has been a UNESCO World Heritage Site since 2010?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vondelův park",
+     "Obchodní čtvrť Zuidas",
+     "Olympijský stadion",
+     "Okruh kanálů"
+    ],
+    "en": [
+     "The Vondelpark",
+     "The Zuidas business district",
+     "The Olympic Stadium",
+     "The canal ring"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Soustředné kanály vznikly koncem 16. a v 17. století jako plán zcela nového přístavního města. Vysoké úzké kupecké domy podél nich patří k symbolům zlatého věku.",
+    "en": "The concentric canals were dug in the late 16th and 17th centuries as a plan for an entirely new port city. The tall, narrow merchants' houses lining them are icons of the golden age."
+   }
+  },
+  {
+   "id": "T397-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co připomínají lebka, přesýpací hodiny nebo zhaslá svíčka na nizozemských zátiších typu vanitas?",
+    "en": "What do a skull, an hourglass or a snuffed-out candle in a Dutch vanitas still life remind the viewer of?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nebezpečí námořních plaveb",
+     "Slávu rodu Oranžských",
+     "Pomíjivost života",
+     "Bohatství majitele obrazu"
+    ],
+    "en": [
+     "The dangers of sea voyages",
+     "The glory of the House of Orange",
+     "The fleeting nature of life",
+     "The wealth of the painting's owner"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vanitas (latinsky „marnost“) je druh memento mori, který připomíná pomíjivost života a marnost pozemských radovánek. Nizozemští malíři 17. století jej proslavili natolik, že se stal samostatným žánrem.",
+    "en": "Vanitas (Latin for 'vanity' or 'futility') is a kind of memento mori pointing to the transience of life and the futility of earthly pleasures. Dutch painters of the 17th century made it popular enough to become a genre of its own."
+   }
+  },
+  {
+   "id": "T397-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Tulipány se ve 30. letech 17. století staly v Nizozemsku předmětem spekulací. Odkud se v 16. století dostaly do Evropy?",
+    "en": "Tulips became an object of speculation in the Netherlands in the 1630s. Where did they reach Europe from in the 16th century?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z Osmanské říše",
+     "Z mingské Číny",
+     "Z portugalské Brazílie",
+     "Z Mughalské říše"
+    ],
+    "en": [
+     "The Ottoman Empire",
+     "Ming China",
+     "Portuguese Brazil",
+     "The Mughal Empire"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Zavedení tulipánu do Evropy se často připisuje vyslanci Ogieru de Busbecqovi, který měl roku 1554 poslat první cibulky a semena z Osmanské říše do Vídně. Do Nizozemí je koncem 16. století rozšířil hlavně botanik Carolus Clusius.",
+    "en": "The tulip's introduction to Europe is often credited to the ambassador Ogier de Busbecq, who is said to have sent the first bulbs and seeds from the Ottoman Empire to Vienna in 1554. The botanist Carolus Clusius was largely responsible for spreading them in the Netherlands in the late 16th century."
+   }
+  },
+  {
+   "id": "T397-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Galileo viděl u Saturnu podivná „ouška“, která si neuměl vysvětlit. Čím podle Christiaana Huygense (1659) ve skutečnosti byla?",
+    "en": "Galileo saw strange \"ears\" on Saturn that he could not explain. What did Christiaan Huygens show them to be in 1659?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dvěma velkými měsíci těsně u planety",
+     "Obřími mračny sopečných plynů",
+     "Optickou vadou Galileových čoček",
+     "Tenkým plochým prstencem kolem planety"
+    ],
+    "en": [
+     "Two large moons close to the planet",
+     "Huge clouds of volcanic gas",
+     "An optical flaw in Galileo's lenses",
+     "A thin, flat ring around the planet"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Huygens popsal „tenký plochý prstenec, který se planety nikde nedotýká“ ve spise Systema Saturnium. Svůj objev nejprve zveřejnil jako zašifrovaný řetězec písmen, aby si zajistil prvenství.",
+    "en": "Huygens described \"a thin, flat ring, nowhere touching\" the planet in his Systema Saturnium. He first announced the idea as a scrambled string of letters to secure priority."
+   }
+  },
+  {
+   "id": "T397-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Čím se živil filozof Baruch Spinoza poté, co ho amsterdamská židovská obec roku 1656 vyloučila?",
+    "en": "How did the philosopher Baruch Spinoza support himself after Amsterdam's Jewish community expelled him in 1656?"
+   },
+   "moznosti": {
+    "cs": [
+     "Broušením optických čoček",
+     "Malováním portrétů",
+     "Jako profesor v Heidelbergu",
+     "Obchodem s tulipánovými cibulkami"
+    ],
+    "en": [
+     "By grinding optical lenses",
+     "By painting portraits",
+     "As a professor at Heidelberg",
+     "By trading tulip bulbs"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Spinoza žil skromně z broušení čoček a výroby dalekohledů a mikroskopů a pomáhali mu i přátelé. Nabídku katedry filozofie v Heidelbergu odmítl, možná aby si uchoval svobodu myšlení.",
+    "en": "Spinoza lived modestly by polishing lenses and making telescopes and microscopes, with help from friends. He turned down the chair of philosophy at Heidelberg, perhaps to keep his freedom of thought."
+   }
+  },
+  {
+   "id": "T397-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "V roce 1672 postupovalo francouzské vojsko k městům provincie Holandsko. Co ho zastavilo?",
+    "en": "In 1672 a French army was advancing on the cities of the province of Holland. What stopped it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nečekaně brzká zima",
+     "Úmyslné zaplavení pásu krajiny",
+     "Mor ve francouzském táboře",
+     "Obrovské výkupné Ludvíku XIV."
+    ],
+    "en": [
+     "An unexpectedly early winter",
+     "Deliberately flooding a strip of land",
+     "A plague outbreak in the French camp",
+     "A huge ransom paid to Louis XIV"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Nizozemci otevřeli Holandskou vodní linii a zaplavili pás polí vodou dost hlubokou, aby byl postup pěšky obtížný a nebezpečný, a zároveň příliš mělkou pro lodě. Nizozemské vodní obranné linie jsou od roku 2021 na seznamu UNESCO.",
+    "en": "The Dutch opened the Hollandic Water Line, flooding farmland with water deep enough to make an advance on foot precarious yet too shallow for boats. The Dutch Water Defence Lines have been a UNESCO site since 2021."
+   }
+  },
+  {
+   "id": "T397-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který nizozemský místodržitel (stadhouder) byl roku 1689 korunován anglickým králem spolu se svou manželkou Marií?",
+    "en": "Which Dutch stadtholder was crowned King of England together with his wife Mary in 1689?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vilém III. Oranžský",
+     "Vilém I. Oranžský (Mlčenlivý)",
+     "Frederik Hendrik",
+     "Mořic Oranžský"
+    ],
+    "en": [
+     "William III of Orange",
+     "William the Silent",
+     "Frederick Henry",
+     "Maurice of Orange"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Vilém III. se v roce 1688 vylodil v anglickém Brixhamu a takzvaná slavná revoluce svrhla Jakuba II. S Marií II. byli korunováni společně ve Westminsterském opatství 11. dubna 1689.",
+    "en": "William III landed at Brixham in England in 1688, and the Glorious Revolution toppled James II. He and Mary II were crowned together at Westminster Abbey on 11 April 1689."
+   }
+  },
+  {
+   "id": "T397-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co je zvláštního na slavném portrétu Franse Halse Smějící se kavalír (1624)?",
+    "en": "What is odd about Frans Hals's famous portrait The Laughing Cavalier (1624)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kavalír je ve skutečnosti převlečená žena",
+     "Byl vyříznut z většího skupinového portrétu",
+     "Muž se vůbec nesměje",
+     "Byl po staletí skrytý pod jiným obrazem"
+    ],
+    "en": [
+     "The cavalier is really a woman in disguise",
+     "It was cut out of a larger group portrait",
+     "He is not actually laughing",
+     "It lay hidden for centuries under another painting"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Neznámý šestadvacetiletý muž má jen záhadný úsměv; název vymyslelo až viktoriánské publikum při výstavě v Londýně v letech 1872–1875. Obraz dnes patří Wallace Collection v Londýně.",
+    "en": "The unknown 26-year-old sitter wears only an enigmatic smile; the title was coined by the Victorian public during an exhibition in London in 1872–1875. The painting now belongs to the Wallace Collection in London."
+   }
+  },
+  {
+   "id": "T397-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Posádka malé nizozemské lodi Duyfken vedená Willemem Janszoonem roku 1606 jako první doložení Evropané přistála na pobřeží, které považovala za součást Nové Guineje. Kde to ve skutečnosti bylo?",
+    "en": "In 1606 the crew of the small Dutch ship Duyfken, led by Willem Janszoon, became the first Europeans on record to land on a coast they took to be part of New Guinea. Where were they really?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na Novém Zélandu",
+     "Na Nové Kaledonii",
+     "Na Fidži",
+     "V Austrálii"
+    ],
+    "en": [
+     "New Zealand",
+     "New Caledonia",
+     "Fiji",
+     "Australia"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Janszoon přistál 26. února 1606 u řeky Pennefather na západním pobřeží poloostrova Cape York v dnešním Queenslandu. Šlo o první doložené přistání Evropanů na australském kontinentu a skončilo střetem s Aboridžinci.",
+    "en": "Janszoon landed on 26 February 1606 at the Pennefather River on the western shore of Cape York, in today's Queensland. It was the first recorded European landfall on the Australian continent, and it ended in a clash with Aboriginal people."
+   }
+  },
+  {
+   "id": "T397-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co se stalo s Rembrandtem v roce 1656?",
+    "en": "What happened to Rembrandt in 1656?"
+   },
+   "moznosti": {
+    "cs": [
+     "Byl zvolen amsterdamským purkmistrem",
+     "Úplně oslepl",
+     "Byl vyhoštěn z Amsterdamu",
+     "Zbankrotoval"
+    ],
+    "en": [
+     "He was elected burgomaster of Amsterdam",
+     "He went completely blind",
+     "He was banished from Amsterdam",
+     "He went bankrupt"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kvůli vášni pro nákupy umění, grafik a vzácností žil nad poměry a v červenci 1656 vyhlásil insolvenci. Jeho dům šel v únoru 1658 do dražby a dnes je v něm Rembrandtův dům (Rembrandthuis).",
+    "en": "His passion for buying art, prints and rarities led him to live beyond his means, and in July 1656 he declared insolvency. His house was auctioned off in February 1658 and is now the Rembrandt House Museum."
+   }
+  },
+  {
+   "id": "T397-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik obrazů se bez sporu připisuje Johannesu Vermeerovi (k roku 2026)?",
+    "en": "How many paintings are universally attributed to Johannes Vermeer (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 35",
+     "Asi 150",
+     "Asi 400",
+     "Asi 1 000"
+    ],
+    "en": [
+     "About 35",
+     "About 150",
+     "About 400",
+     "About 1,000"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Bez sporu se mu připisuje jen 34 obrazů (k roku 2026). Francouzský kritik Théophile Thoré-Bürger, který Vermeera v 19. století znovu objevil, mu v jedné ze svých studií připsal 66 děl.",
+    "en": "Only 34 paintings are universally attributed to him (as of 2026). The French critic Théophile Thoré-Bürger, who rediscovered Vermeer in the 19th century, credited him with 66 works in an essay."
+   }
+  },
+  {
+   "id": "T397-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Chirurg z Rembrandtova obrazu Anatomie doktora Tulpa (1632) se narodil jako Claes Pieterszoon. Odkud pochází jeho pozdější příjmení Tulp?",
+    "en": "The surgeon in Rembrandt's The Anatomy Lesson of Dr. Nicolaes Tulp (1632) was born Claes Pieterszoon. Where does his later surname Tulp come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z tulipánu, svého znaku",
+     "Z příjmení svého učitele",
+     "Z latinského slova pro lékaře",
+     "Z ulice, kde se narodil"
+    ],
+    "en": [
+     "The tulip, his emblem",
+     "His teacher's surname",
+     "The Latin word for physician",
+     "The street where he was born"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Tulp je nizozemsky tulipán; lékař si květinu zvolil za svůj znak a tulipány nechal vyvést i v zábradlí svého domu u kanálu Keizersgracht. Později se stal i amsterdamským purkmistrem.",
+    "en": "Tulp is Dutch for tulip; the doctor adopted the flower as his emblem and even had tulips worked into the railings of his house on the Keizersgracht. He later became mayor of Amsterdam."
+   }
+  },
+  {
+   "id": "T397-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Právník Hugo Grotius, odsouzený k doživotnímu vězení, uprchl roku 1621 z hradu Loevestein. Jak?",
+    "en": "In 1621 the jurist Hugo Grotius, sentenced to life imprisonment, escaped from Loevestein Castle. How?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ukrytý v truhle na knihy",
+     "Přeplaval hradní příkop",
+     "Ukrytý v sudu od vína",
+     "Po laně spleteném z prostěradel"
+    ],
+    "en": [
+     "Hidden in a book chest",
+     "By swimming across the moat",
+     "Hidden in a wine barrel",
+     "Down a rope made of bedsheets"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Útěk mu pomohly zorganizovat manželka a služka a Grotius pak uprchl do Paříže. Dnes bývá nazýván „otcem mezinárodního práva“.",
+    "en": "His wife and their maidservant helped him pull it off, and Grotius then fled to Paris. He has been called the \"father of international law\"."
+   }
+  },
+  {
+   "id": "T397-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Při nájezdu na Medway roku 1667 vpluly nizozemské lodě až k anglické námořní základně nedaleko Londýna. Co si odvezly domů jako trofej?",
+    "en": "During the Raid on the Medway in 1667, Dutch ships sailed right up to an English naval base near London. What did they carry home as a trophy?"
+   },
+   "moznosti": {
+    "cs": [
+     "Admirálský meč vévody z Yorku",
+     "Anglickou vlajkovou loď Royal Charles",
+     "Korunu krále Karla II.",
+     "Zvony katedrály v Rochesteru"
+    ],
+    "en": [
+     "The Duke of York's admiral's sword",
+     "The English flagship Royal Charles",
+     "King Charles II's crown",
+     "The bells of Rochester Cathedral"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Opuštěnou vlajkovou loď zajali a navzdory nepříznivému přílivu odvlekli do Nizozemska; nájezdu se účastnil i admirál Michiel de Ruyter. Záď lodi je dodnes vystavena v Amsterdamu (k roku 2026).",
+    "en": "They seized the abandoned flagship and carried it off to the Netherlands despite an unfavourable tide, in a raid that included Admiral Michiel de Ruyter. The ship's stern is still on display in Amsterdam (as of 2026)."
+   }
+  },
+  {
+   "id": "T397-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V „roce katastrof“ 1672, kdy republiku napadly Francie, Anglie a dvě německá biskupství, zabil v Haagu rozzuřený dav dlouholetého předního státníka republiky a jeho bratra. Kdo to byl?",
+    "en": "In the \"Disaster Year\" of 1672, when France, England and two German prince-bishoprics attacked the Republic, an angry mob in The Hague killed its long-time leading statesman and his brother. Who were they?"
+   },
+   "moznosti": {
+    "cs": [
+     "Cornelis a Andries Bickerové",
+     "Johan a Cornelis de Wittové",
+     "Constantijn a Christiaan Huygensové",
+     "Michiel a Engel de Ruyterové"
+    ],
+    "en": [
+     "Cornelis and Andries Bicker",
+     "Johan and Cornelis de Witt",
+     "Constantijn and Christiaan Huygens",
+     "Michiel and Engel de Ruyter"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Johan se úřadu velkopenzionáře vzdal začátkem srpna 1672. Cornelis byl uvězněn pro podezření ze zrady a Johana do věznice vylákal dopis, údajně od bratra; dav pak věznici vtrhl a zabil oba.",
+    "en": "Johan had resigned as Grand Pensionary in early August 1672. Cornelis had been jailed on suspicion of treason, and Johan was drawn to the prison by a letter supposedly from his brother; the mob then stormed it and killed both."
+   }
+  },
+  {
+   "id": "T397-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Vermeer zemřel roku 1675 a zanechal rodinu v dluzích. Komu jeho vdova předala dva jeho obrazy, aby vyrovnala velký účet?",
+    "en": "Vermeer died in 1675, leaving his family in debt. To whom did his widow hand over two of his paintings to settle a large bill?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rodinnému lékaři",
+     "Rodinnému pekaři",
+     "Obchodníkovi s pigmenty",
+     "Majiteli domu"
+    ],
+    "en": [
+     "The family doctor",
+     "The family baker",
+     "The pigment dealer",
+     "The landlord"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Pekař Hendrick van Buyten dodával rodině chléb a nahromadil u ní pohledávku přes 726 zlatých. Vdova Catharina na něj oba obrazy převedla v hodnotě 617 zlatých.",
+    "en": "The baker Hendrick van Buyten had supplied the family with bread, running up a credit of over 726 guilders. The widow, Catharina, transferred the two paintings to him at a value of 617 guilders."
+   }
+  },
+  {
+   "id": "T397-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Antonie van Leeuwenhoek a Johannes Vermeer se narodili ve stejném roce a ve stejném městě. Jaké spojení mezi nimi je doloženo?",
+    "en": "Antonie van Leeuwenhoek and Johannes Vermeer were born in the same year and the same town. What documented link is there between them?"
+   },
+   "moznosti": {
+    "cs": [
+     "Spravoval Vermeerovu pozůstalost",
+     "Byl Vermeerovým švagrem",
+     "Byl Vermeerovým prvním učitelem malby",
+     "Koupil většinu Vermeerových obrazů"
+    ],
+    "en": [
+     "He administered Vermeer's estate",
+     "He was Vermeer's brother-in-law",
+     "He was Vermeer's first painting teacher",
+     "He bought most of Vermeer's paintings"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Leeuwenhoek pracoval pro městskou radu jako zeměměřič a po Vermeerově smrti byl jmenován správcem jeho pozůstalosti. Oba se narodili roku 1632.",
+    "en": "Leeuwenhoek worked for the town council as a surveyor and was appointed trustee of the estate after Vermeer's death. Both men were born in 1632."
+   }
+  },
+  {
+   "id": "T397-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Carel Fabritius, jeden z nejvýznamnějších Rembrandtových žáků a autor obrazu Stehlík, zemřel roku 1654 ve 32 letech. Jak?",
+    "en": "Carel Fabritius, one of Rembrandt's most important pupils and the painter of The Goldfinch, died in 1654 at the age of 32. How?"
+   },
+   "moznosti": {
+    "cs": [
+     "V souboji",
+     "Při ztroskotání lodi",
+     "Při výbuchu prachárny",
+     "Na mor"
+    ],
+    "en": [
+     "In a duel",
+     "In a shipwreck",
+     "In a gunpowder explosion",
+     "Of the plague"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Výbuch městského skladu střelného prachu v Delftu 12. října 1654 zničil i jeho dům s ateliérem a většinu jeho díla; dochovalo se jen asi tucet obrazů. Stehlík byl přes dvě stě let nezvěstný a znovu se objevil až roku 1859.",
+    "en": "The explosion of Delft's gunpowder magazine on 12 October 1654 also destroyed his house, his studio and most of his life's work; only about a dozen paintings survive. The Goldfinch was lost for over two centuries and resurfaced only in 1859."
+   }
+  },
+  {
+   "id": "T397-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V zimě 1636–1637 nazývali Nizozemci obchod s tulipány windhandel, doslova „obchod se vzduchem“. Proč?",
+    "en": "In the winter of 1636–37, the Dutch called the tulip trade windhandel, literally \"air trade\". Why?"
+   },
+   "moznosti": {
+    "cs": [
+     "Cibulky se vozily plachetnicemi",
+     "Ceny se oznamovaly signály z větrných mlýnů",
+     "Cibulky se vůbec nepředávaly",
+     "Obchody se uzavíraly venku ve větru"
+    ],
+    "en": [
+     "The bulbs were shipped by sailing ship",
+     "Prices were signalled from windmills",
+     "No bulbs were actually changing hands",
+     "Deals were struck outdoors in the wind"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Cibulky byly přes zimu zasazené v půdě, takže se obchodovalo jen se smlouvami na jejich budoucí dodání a některé smlouvy během té zimy změnily majitele až pětkrát. Kupující ani prodávající přitom neskládali žádnou zálohu.",
+    "en": "The bulbs were in the ground over the winter, so people traded only contracts for future delivery, and some contracts changed hands five times that winter. Neither buyers nor sellers posted any initial margin."
+   }
+  },
+  {
+   "id": "T397-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Na vrcholu tulipánové horečky v únoru 1637 se prodávaly nejdražší cibulky. Jak zhruba se jejich cena měla k ročnímu příjmu zkušeného řemeslníka?",
+    "en": "At the peak of tulip mania in February 1637, how did the price of the most expensive single bulbs roughly compare with a skilled craftsman's annual income?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi polovina",
+     "Asi stejně",
+     "Asi trojnásobek",
+     "Víc než desetinásobek"
+    ],
+    "en": [
+     "About half",
+     "About the same",
+     "About three times as much",
+     "More than ten times as much"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jednotlivé cibulky se prodávaly za víc než desetinásobek ročního výdělku zkušeného řemeslníka. Obchodníci se scházeli v hospodách ve skupinách zvaných „kolegia“.",
+    "en": "Single bulbs sold for more than ten times the annual income of a skilled artisan. Traders met in groups called \"colleges\" in taverns."
+   }
+  },
+  {
+   "id": "T397-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kde vyšly roku 1620 první noviny v angličtině, Corrant out of Italy, Germany, etc.?",
+    "en": "Where was the first English-language newspaper, Corrant out of Italy, Germany, etc., published in 1620?"
+   },
+   "moznosti": {
+    "cs": [
+     "V Antverpách",
+     "V Amsterdamu",
+     "V Londýně",
+     "V Hamburku"
+    ],
+    "en": [
+     "In Antwerp",
+     "In Amsterdam",
+     "In London",
+     "In Hamburg"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Město bylo tehdy centrem evropského zpravodajství; jeho první noviny Courante uyt Italien, Duytslandt, &c. vycházely už od roku 1618. Anglické noviny vytištěné přímo v Anglii následovaly asi o rok a půl později.",
+    "en": "The city was then a hub of European news; its own first newspaper, the Courante uyt Italien, Duytslandt, &c., had appeared since 1618. An English coranto printed in England followed about a year and a half later."
+   }
+  },
+  {
+   "id": "T397-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik zhruba Evropanů vyslala Nizozemská Východoindická společnost v letech 1602–1796 pracovat do Asie?",
+    "en": "Roughly how many Europeans did the Dutch East India Company send to work in Asia between 1602 and 1796?"
+   },
+   "moznosti": {
+    "cs": [
+     "Asi 10 000",
+     "Asi 100 000",
+     "Téměř milion",
+     "Asi 10 milionů"
+    ],
+    "en": [
+     "About 10,000",
+     "About 100,000",
+     "Nearly a million",
+     "About 10 million"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Téměř milion lidí odplulo na 4 785 lodích. Společnost dostala roku 1602 na obchod v Asii monopol na 21 let a zanikla, když její privilegium 31. prosince 1799 vypršelo.",
+    "en": "Nearly a million people sailed on 4,785 ships. The company received a 21-year monopoly on trade in Asia in 1602 and was wound up when its charter expired on 31 December 1799."
+   }
+  }
+ ]
+}

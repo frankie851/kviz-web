@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T326",
+ "nazev": {
+  "cs": "Šerm, lukostřelba a sportovní střelba",
+  "en": "Fencing, Archery and Shooting Sports"
+ },
+ "kategorie": {
+  "id": "sport",
+  "nazev": {
+   "cs": "Sport",
+   "en": "Sport"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T326-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co musí šermíři podle pravidel udělat před začátkem zápasu?",
+    "en": "What must fencers do before a bout begins, according to the rules?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pozdravit se zbraní",
+     "Políbit čepel",
+     "Pokleknout před rozhodčím",
+     "Vyměnit si zbraně"
+    ],
+    "en": [
+     "Salute with their weapons",
+     "Kiss their blades",
+     "Kneel to the referee",
+     "Swap their weapons"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Před zápasem se šermíři musí zbraní pozdravit navzájem a pozdravit i rozhodčího. Kdo pozdrav odmítne, může dostat černou kartu, která znamená vyloučení ze soutěže.",
+    "en": "Before a bout, fencers must salute each other and the referee with their weapons. Refusing to salute can be punished with a black card, which excludes the fencer from the competition."
+   }
+  },
+  {
+   "id": "T326-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém jazyce zní tradiční povely rozhodčího na začátku šermířského zápasu: „En garde! Prêts? Allez!“?",
+    "en": "In which language are the traditional referee's commands at the start of a fencing bout: \"En garde! Prêts? Allez!\"?"
+   },
+   "moznosti": {
+    "cs": [
+     "V italštině",
+     "Ve francouzštině",
+     "V angličtině",
+     "Ve španělštině"
+    ],
+    "en": [
+     "Italian",
+     "French",
+     "English",
+     "Spanish"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Povely jsou francouzské: „En garde“ vyzývá šermíře, aby zaujali postoj, „Prêts?“ znamená „Připraveni?“ a „Allez!“ je pokyn „Jděte!“, kterým začíná boj.",
+    "en": "The commands are French: \"En garde\" tells the fencers to take their guard, \"Prêts?\" means \"Ready?\" and \"Allez!\" means \"Go!\", which starts the action."
+   }
+  },
+  {
+   "id": "T326-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou barvu má střed terče v olympijské lukostřelbě, kde se získává 9 nebo 10 bodů?",
+    "en": "What colour is the centre of the target in Olympic archery, where an arrow scores 9 or 10 points?"
+   },
+   "moznosti": {
+    "cs": [
+     "Modrou",
+     "Žlutou",
+     "Černou",
+     "Červenou"
+    ],
+    "en": [
+     "Blue",
+     "Yellow",
+     "Black",
+     "Red"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Střed terče (anglicky „gold“) dává 9 a 10 bodů, směrem ven následují červená (8–7), modrá (6–5), černá (4–3) a bílá (2–1). Ještě menší vnitřní desítka (X) rozhoduje při rovnosti bodů.",
+    "en": "The centre (called the \"gold\") scores 9 and 10, followed outwards by red (8–7), blue (6–5), black (4–3) and white (2–1). An even smaller inner ten (X) is used to break ties."
+   }
+  },
+  {
+   "id": "T326-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která země získala od roku 1984 drtivou většinu olympijských zlatých medailí v lukostřelbě – 32 ze 44 (k roku 2026)?",
+    "en": "Which country has won the vast majority of Olympic archery gold medals since 1984 – 32 out of 44 (as of 2026)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Japonsko",
+     "Jižní Korea",
+     "USA",
+     "Čína"
+    ],
+    "en": [
+     "Japan",
+     "South Korea",
+     "USA",
+     "China"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jižní Korea je v lukostřelbě suverénní velmocí; z celkem 44 zlatých medailí rozdaných od her v Los Angeles 1984 jich korejští lučištníci vybojovali 32.",
+    "en": "South Korea is archery's dominant power: of the 44 gold medals awarded since the 1984 Los Angeles Games, Korean archers have won 32."
+   }
+  },
+  {
+   "id": "T326-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na co střílejí sportovci v brokových disciplínách trap a skeet?",
+    "en": "What do athletes shoot at in the shotgun events of trap and skeet?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na terče vymrštěné do vzduchu",
+     "Na kovové siluety zvířat",
+     "Na nafukovací balonky",
+     "Na pohyblivé papírové terče"
+    ],
+    "en": [
+     "Targets launched into the air",
+     "Metal animal silhouettes",
+     "Inflatable balloons",
+     "Moving paper targets"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Terče (anglicky clay targets) vymršťuje vrhací zařízení; dříve se vyráběly i ze skla. První doložená organizovaná střelba na trap v USA se konala pravděpodobně roku 1831 v Cincinnati.",
+    "en": "The targets (clay targets) are launched by a throwing device; earlier they were also made of glass. The first recorded organised trap shooting in the USA probably took place in Cincinnati in 1831."
+   }
+  },
+  {
+   "id": "T326-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Které dvě disciplíny spojuje biatlon?",
+    "en": "Which two disciplines does biathlon combine?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sjezd na lyžích a střelbu z pušky",
+     "Běh na lyžích a lukostřelbu",
+     "Rychlobruslení a střelbu z pušky",
+     "Běh na lyžích a střelbu z pušky"
+    ],
+    "en": [
+     "Alpine skiing and rifle shooting",
+     "Cross-country skiing and archery",
+     "Speed skating and rifle shooting",
+     "Cross-country skiing and rifle shooting"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Biatlonisté střílejí z malorážky na terče vzdálené 50 m vleže a vestoje. Za každý minutý terč ve sprintu musí zajet trestné kolo dlouhé 150 m.",
+    "en": "Biathletes shoot a small-bore rifle at targets 50 m (164 ft) away, prone and standing. In the sprint, every miss means a 150 m (492 ft) penalty loop."
+   }
+  },
+  {
+   "id": "T326-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co podle švýcarské pověsti sestřelil Vilém Tell kuší ze synovy hlavy?",
+    "en": "According to the Swiss legend, what did William Tell shoot off his son's head with a crossbow?"
+   },
+   "moznosti": {
+    "cs": [
+     "Šišku",
+     "Hrušku",
+     "Klobouk",
+     "Jablko"
+    ],
+    "en": [
+     "A pine cone",
+     "A pear",
+     "A hat",
+     "An apple"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Tell se odmítl poklonit klobouku zemského fojta Gesslera na tyči v Altdorfu a za trest musel střelit jablko synovi z hlavy. Druhou šipku si prý připravil pro Gesslera, kdyby syna zabil.",
+    "en": "Tell refused to bow to the bailiff Gessler's hat on a pole in Altdorf and was forced to shoot an apple off his son's head. He kept a second bolt ready for Gessler in case he killed his son."
+   }
+  },
+  {
+   "id": "T326-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ve kterém lese podle populární tradice žil legendární lučištník Robin Hood?",
+    "en": "In which forest, according to popular tradition, did the legendary archer Robin Hood live?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ve Sherwoodském lese",
+     "V Černém lese (Schwarzwald)",
+     "V Ardenách",
+     "V Bělověžském pralese"
+    ],
+    "en": [
+     "Sherwood Forest",
+     "The Black Forest",
+     "The Ardennes",
+     "Białowieża Forest"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Populární tradice spojuje Robina Hooda a jeho družinu se Sherwoodským lesem v hrabství Nottinghamshire. Nejstarší balady ho ale umisťují do lesa Barnsdale v dnešním Jižním Yorkshiru.",
+    "en": "Popular tradition places Robin Hood and his Merry Men in Sherwood Forest in Nottinghamshire. The earliest ballads, however, set his adventures in Barnsdale, in what is now South Yorkshire."
+   }
+  },
+  {
+   "id": "T326-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Ze kterého sportu pochází výraz „touché“, kterým uznáváme trefnou poznámku protivníka?",
+    "en": "Which sport does the word \"touché\", used to acknowledge an opponent's clever remark, come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Ze šermu",
+     "Z tenisu",
+     "Z boxu",
+     "Ze šachů"
+    ],
+    "en": [
+     "Fencing",
+     "Tennis",
+     "Boxing",
+     "Chess"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Touché znamená „zasažen“. Šermíř tak uznával zásah soupeře; v přeneseném smyslu jím uznáváme, že protivníkův argument nebo vtip „sedl“.",
+    "en": "Touché means \"touched\". Fencers used it to acknowledge a hit; figuratively we use it to admit that an opponent's argument or quip has landed."
+   }
+  },
+  {
+   "id": "T326-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jakou zbraň nosí římský bůh lásky Amor?",
+    "en": "Which weapon does Cupid, the Roman god of love, carry?"
+   },
+   "moznosti": {
+    "cs": [
+     "Prak",
+     "Kuši",
+     "Oštěp",
+     "Luk a šípy"
+    ],
+    "en": [
+     "A sling",
+     "A crossbow",
+     "A javelin",
+     "A bow and arrows"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Amor (řecky Erós) bývá zobrazován s lukem a šípy. Zlatý šíp v zasaženém probouzí neovladatelnou touhu, olověný naopak odpor a chuť utéct.",
+    "en": "Cupid (Eros in Greek myth) is usually shown with a bow and arrows. A golden arrow fills the person it strikes with uncontrollable desire, while a lead one causes aversion and a wish to flee."
+   }
+  },
+  {
+   "id": "T326-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kam a čím se platně zasahuje šavlí?",
+    "en": "Where, and with what, is a valid hit scored in sabre?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jen čepelí, pouze na hlavu",
+     "Jen hrotem, pouze na trup",
+     "Jen hrotem, kamkoli na tělo",
+     "Hrotem i čepelí, kamkoli nad pas"
+    ],
+    "en": [
+     "With the blade only, on the head only",
+     "With the point only, on the torso only",
+     "With the point only, anywhere on the body",
+     "With the point or blade, anywhere above the waist"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Šavle je sečná i bodná zbraň a platí zásah hrotem i kteroukoli částí čepele nad pasem. Fleretem se zasahuje jen hrotem na trup, kordem jen hrotem kamkoli na tělo.",
+    "en": "The sabre is a cutting and thrusting weapon: hits with the point or any part of the blade above the waist count. In foil only point hits to the torso count, in épée point hits anywhere on the body."
+   }
+  },
+  {
+   "id": "T326-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "O čem ve fleretu a šavli rozhoduje pravidlo přednosti (right of way)?",
+    "en": "In foil and sabre, what does the right-of-way rule decide?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kdo začíná zápas útokem",
+     "Komu patří bod, když zasáhnou oba současně",
+     "Kdo smí jako první vstoupit na planš (piste)",
+     "Kdo si smí vybrat stranu planše (piste)"
+    ],
+    "en": [
+     "Who starts the bout by attacking",
+     "Who gets the point when both hit at the same time",
+     "Who may step onto the piste first",
+     "Who may choose their end of the piste"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Bod obvykle dostane ten, kdo útok zahájil jako první, případně ten, kdo útok odrazil a odpověděl. Pokud to rozhodčí nedokáže určit, bod se ve fleretu nepřizná. Kord přednost nezná, takže při současném zásahu se bod zpravidla připíše oběma šermířům.",
+    "en": "The point usually goes to the fencer who started the attack first, or to the one who parried it and riposted. If the referee cannot decide, no touch is awarded in foil. Épée has no right of way, so a simultaneous hit usually scores for both fencers."
+   }
+  },
+  {
+   "id": "T326-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na jakou vzdálenost stříleli lukostřelci na OH 2024 v Paříži?",
+    "en": "From what distance did archers shoot at the Paris 2024 Olympics?"
+   },
+   "moznosti": {
+    "cs": [
+     "30 m",
+     "50 m",
+     "70 m",
+     "90 m"
+    ],
+    "en": [
+     "30 m (98 ft)",
+     "50 m (164 ft)",
+     "70 m (230 ft)",
+     "90 m (295 ft)"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Ve všech pěti soutěžích stál lučištník 70 m od terče; na OH se používá terč o průměru 122 cm. Střílelo se jen z reflexních luků (recurve).",
+    "en": "In all five events the archer stood 70 m (230 ft) from the target; Olympic competition uses a 122 cm (48 inches) target face. Only recurve bows were used."
+   }
+  },
+  {
+   "id": "T326-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve které bitvě roku 1415 zdecimovali angličtí lučištníci s dlouhými luky francouzské rytířstvo?",
+    "en": "In which battle in 1415 did English longbowmen devastate the French knights?"
+   },
+   "moznosti": {
+    "cs": [
+     "U Bosworthu",
+     "U Waterloo",
+     "U Azincourtu",
+     "U Hastingsu"
+    ],
+    "en": [
+     "Bosworth",
+     "Waterloo",
+     "Agincourt",
+     "Hastings"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Francouzští rytíři postupovali většinou pěšky v těžké zbroji rozbahněným terénem, vyčerpali se a v boji zblízka podlehli. Anglický král Eduard III. už roku 1363 nařídil schopným mužům cvičit se o svátcích v lukostřelbě.",
+    "en": "The French knights mostly advanced on foot in heavy armour across wet, muddy ground, were worn down and then overwhelmed in close combat. As early as 1363 Edward III ordered able-bodied men to practise archery on holidays."
+   }
+  },
+  {
+   "id": "T326-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který typ luku má mít olympijskou premiéru na hrách v Los Angeles 2028 v soutěži smíšených družstev?",
+    "en": "Which type of bow is set to make its Olympic debut at the 2028 Los Angeles Games in a mixed team event?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kladkový luk (compound)",
+     "Holý luk (barebow)",
+     "Jezdecký luk (horse bow)",
+     "Dlouhý luk (longbow)"
+    ],
+    "en": [
+     "Compound bow",
+     "Barebow",
+     "Horse bow",
+     "Longbow"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "MOV přidání soutěže smíšených družstev s kladkovými luky oznámil 9. dubna 2025. Kladky na koncích ramen snižují sílu potřebnou k držení plně nataženého luku; kladkový luk vyvinul Holless Wilbur Allen roku 1966.",
+    "en": "The IOC announced the compound mixed team event on 9 April 2025. Cams at the ends of the limbs reduce the force needed to hold the bow at full draw; Holless Wilbur Allen developed the compound bow in 1966."
+   }
+  },
+  {
+   "id": "T326-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jakou postavu měl moderní pětiboj podle svých tvůrců napodobovat?",
+    "en": "What figure was modern pentathlon meant to imitate, according to its creators?"
+   },
+   "moznosti": {
+    "cs": [
+     "Antického atleta z olympijského pětiboje",
+     "Námořníka, který přežil ztroskotání",
+     "Středověkého rytíře na turnaji",
+     "Jezdce-vojáka, který se probíjí z nepřátelského území"
+    ],
+    "en": [
+     "An ancient athlete from the Olympic pentathlon",
+     "A sailor who survived a shipwreck",
+     "A medieval knight at a tournament",
+     "A cavalry soldier fighting his way out of enemy territory"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jezdec za nepřátelskými liniemi musí ujet na cizím koni, bojovat pistolí i mečem, přeplavat řeku a doběhnout ke svým. Pětiboj se poprvé objevil na OH 1912 ve Stockholmu, za tvůrce je většinou považován Pierre de Coubertin.",
+    "en": "A cavalryman behind enemy lines must ride an unfamiliar horse, fight with pistol and sword, swim and run back to his own lines. The pentathlon debuted at the 1912 Stockholm Olympics; Pierre de Coubertin is usually credited as its creator."
+   }
+  },
+  {
+   "id": "T326-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kterou disciplínu moderního pětiboje nahradil po kritice z OH v Tokiu (konaných v roce 2021) překážkový závod?",
+    "en": "Which modern pentathlon discipline was replaced by obstacle racing after criticism at the Tokyo Olympics (held in 2021)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jezdectví",
+     "Střelbu",
+     "Plavání",
+     "Šerm"
+    ],
+    "en": [
+     "Riding",
+     "Shooting",
+     "Swimming",
+     "Fencing"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "V Tokiu měli závodníci potíže s losem přidělenými koni a německá trenérka Kim Raisnerová byla ze soutěže vykázána, protože udeřila koně. Vyřazení jezdectví schválil svaz UIPM v listopadu 2021, překážkový závod zvolil o rok později; na olympijských hrách se má nový formát poprvé objevit v Los Angeles 2028.",
+    "en": "In Tokyo athletes struggled with randomly assigned horses, and German coach Kim Raisner was removed from the event for striking a horse. The UIPM ratified dropping riding in November 2021 and chose obstacle racing a year later; the new format is set to debut at the Olympics in Los Angeles 2028."
+   }
+  },
+  {
+   "id": "T326-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Maďar Károly Takács vyhrál na OH 1948 a 1952 rychlopalnou pistoli, ačkoli mu v roce 1938 granát při výcviku zmrzačil pravou ruku. Jak to dokázal?",
+    "en": "Hungarian Károly Takács won the rapid fire pistol at the 1948 and 1952 Olympics, although a grenade had maimed his right hand during training in 1938. How did he do it?"
+   },
+   "moznosti": {
+    "cs": [
+     "Spoušť mačkal palcem pravé ruky",
+     "Střílel s ruční protézou",
+     "Naučil se střílet levou rukou",
+     "Pistoli si opíral o stojan"
+    ],
+    "en": [
+     "He pulled the trigger with his right thumb",
+     "He shot with a prosthetic hand",
+     "He learned to shoot left-handed",
+     "He rested the pistol on a stand"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vadný granát mu při armádním výcviku těžce poranil pravou ruku, kterou střílel. Takács se přeučil na levou a s ní vyhrál olympijské zlato na 25 m v Londýně i v Helsinkách.",
+    "en": "A faulty grenade wrecked his shooting (right) hand during army training. Takács retrained with his left hand and won Olympic gold in the 25 m event in both London and Helsinki."
+   }
+  },
+  {
+   "id": "T326-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Turecký střelec Yusuf Dikeç se na OH 2024 v Paříži stal internetovou senzací. Čím zaujal?",
+    "en": "Turkish shooter Yusuf Dikeç became an internet sensation at the Paris 2024 Olympics. What caught people's attention?"
+   },
+   "moznosti": {
+    "cs": [
+     "Střílel se zavázanýma očima",
+     "Střílel střídavě levou a pravou rukou",
+     "Střílel s rukou v kapse",
+     "Po každé ráně zasalutoval divákům"
+    ],
+    "en": [
+     "He shot blindfolded",
+     "He alternated between his left and right hand",
+     "He shot with a hand in his pocket",
+     "He saluted the crowd after every shot"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Zatímco soupeři měli speciální střelecké brýle a velké chrániče sluchu, jednapadesátiletý Dikeç střílel v obyčejných brýlích a s nenápadnými špunty v uších. Se Şevval İlaydou Tarhanovou získal stříbro ve smíšených družstvech ze vzduchové pistole na 10 m.",
+    "en": "While rivals wore high-tech shooting glasses and bulky ear protection, 51-year-old Dikeç shot in regular glasses with barely visible earplugs. With Şevval İlayda Tarhan he won silver in the 10 m air pistol mixed team event."
+   }
+  },
+  {
+   "id": "T326-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Na OH 1900 v Paříži proběhla střelecká soutěž, kterou MOV nepočítá mezi oficiální, při níž bylo jedinkrát v olympijské historii úmyslně zabito téměř 300 zvířat. Na co se střílelo?",
+    "en": "At the 1900 Paris Olympics there was a shooting contest, not counted as official by the IOC, in which nearly 300 animals were deliberately killed – the only time in Olympic history. What was the target?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na bažanty",
+     "Na zajíce",
+     "Na živé holuby",
+     "Na kachny"
+    ],
+    "en": [
+     "Pheasants",
+     "Hares",
+     "Live pigeons",
+     "Ducks"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vítěz kategorie se vstupným 200 franků, Belgičan Léon de Lunden, sestřelil 21 holubů. Výsledky těchto soutěží MOV nevede mezi olympijskými.",
+    "en": "The winner of the 200-franc entry class, Belgian Léon de Lunden, killed 21 pigeons. The IOC does not list these contests among its Olympic results."
+   }
+  },
+  {
+   "id": "T326-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Elektrické hlášení zásahů se poprvé objevilo v roce 1933 u kordu. Ve kterém roce ho jako poslední zbraň dostala šavle?",
+    "en": "Electric scoring first appeared in 1933 in épée. In which year did sabre become the last weapon to get it?"
+   },
+   "moznosti": {
+    "cs": [
+     "1956",
+     "1968",
+     "1988",
+     "2004"
+    ],
+    "en": [
+     "1956",
+     "1968",
+     "1988",
+     "2004"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Kord se automatizoval jako první (přístroj Laurent-Pagan, 1933), fleret v roce 1956 a šavle až v roce 1988.",
+    "en": "Épée was automated first (Laurent-Pagan apparatus, 1933), foil in 1956 and sabre only in 1988."
+   }
+  },
+  {
+   "id": "T326-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik zlatých medailí vybojoval italský šermíř Nedo Nadi na OH 1920 v Antverpách?",
+    "en": "How many gold medals did Italian fencer Nedo Nadi win at the 1920 Antwerp Olympics?"
+   },
+   "moznosti": {
+    "cs": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ],
+    "en": [
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Nadi vyhrál fleret a šavli jednotlivců a všechny tři soutěže družstev, a je považován za jediného šermíře se zlatem ve všech třech zbraních na jedněch hrách. Jeho bratr Aldo přidal tři zlata.",
+    "en": "Nadi won individual foil and sabre plus all three team events, and is described as the only fencer to win gold in all three weapons at one Games. His brother Aldo added three golds."
+   }
+  },
+  {
+   "id": "T326-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Šavlista Aladár Gerevich vyhrál olympijské zlato na šesti hrách v letech 1932–1960. Kterou zemi reprezentoval?",
+    "en": "Sabre fencer Aladár Gerevich won Olympic gold at six Games between 1932 and 1960. Which country did he represent?"
+   },
+   "moznosti": {
+    "cs": [
+     "Maďarsko",
+     "Sovětský svaz",
+     "Itálii",
+     "Polsko"
+    ],
+    "en": [
+     "Hungary",
+     "Soviet Union",
+     "Italy",
+     "Poland"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Gerevich získal celkem sedm zlatých, všechny v šavli, a byl prvním sportovcem, který vyhrál stejnou soutěž (šavli družstev) na šesti olympiádách. Dvoje hry se kvůli druhé světové válce nekonaly; poslední zlato vybojoval v Římě v padesáti letech.",
+    "en": "Gerevich won seven golds, all in sabre, and was the first athlete to win the same event (team sabre) at six Olympics. Two Games were cancelled because of World War II; he won his last gold in Rome aged 50."
+   }
+  },
+  {
+   "id": "T326-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím je zvláštní tradiční japonský luk jumi (yumi), se kterým se střílí v kjúdó (kyūdō)?",
+    "en": "What is special about the traditional Japanese yumi bow used in kyūdō?"
+   },
+   "moznosti": {
+    "cs": [
+     "Napíná se pomocí kladek",
+     "Drží se v dolní třetině, ne uprostřed",
+     "Je kratší než jeden metr",
+     "Je celý vyroben z oceli"
+    ],
+    "en": [
+     "It is drawn using cams",
+     "It is held in its lower third, not in the middle",
+     "It is shorter than one metre",
+     "It is made entirely of steel"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Jumi je nesouměrný luk delší než 2 m, který lučištník drží asi v dolní třetině. V kjúdó se střílí na terč vzdálený 28 m.",
+    "en": "The yumi is an asymmetric bow over 2 m (6.6 ft) long, which the archer grips about a third of the way up. Kyūdō archers shoot at a target 28 m (92 ft) away."
+   }
+  },
+  {
+   "id": "T326-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jihokorejský lukostřelec Im Dong-hyun překonal na OH 2012 v Londýně světový rekord v kvalifikaci (699 bodů). Čím byl jeho výkon pozoruhodný?",
+    "en": "South Korean archer Im Dong-hyun set a world record in the ranking round at the 2012 London Olympics (699 points). What made his feat remarkable?"
+   },
+   "moznosti": {
+    "cs": [
+     "Střílel se zlomeným zápěstím",
+     "Má velmi slabý zrak",
+     "Bylo mu teprve čtrnáct let",
+     "Střílel pouze jednou rukou"
+    ],
+    "en": [
+     "He shot with a broken wrist",
+     "He has very poor eyesight",
+     "He was only fourteen years old",
+     "He shot with just one hand"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Im Dong-hyun má zrak 20/200 na levém a 20/100 na pravém oku. Rekord zastřílel na kriketovém stadionu Lord's a s korejským družstvem získal olympijská zlata v letech 2004 a 2008.",
+    "en": "Im Dong-hyun's vision is 20/200 in his left eye and 20/100 in his right. He set the record at Lord's Cricket Ground and won Olympic team golds with Korea in 2004 and 2008."
+   }
+  },
+  {
+   "id": "T326-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Švéd Oscar Swahn získal na OH 1920 stříbro ve střelbě na běžícího jelena. Kolik mu tehdy bylo let?",
+    "en": "Swede Oscar Swahn won silver in the running deer shooting event at the 1920 Olympics. How old was he?"
+   },
+   "moznosti": {
+    "cs": [
+     "52",
+     "62",
+     "72",
+     "82"
+    ],
+    "en": [
+     "52",
+     "62",
+     "72",
+     "82"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Swahn je považován za nejstaršího olympijského medailistu (mimo umělecké soutěže). Zlato vyhrál už v roce 1912 ve věku 64 let a závodil ve stejném družstvu jako jeho syn Alfred.",
+    "en": "Swahn is regarded as the oldest Olympic medallist (excluding art competitions). He had won gold in 1912 aged 64, competing in the same team as his son Alfred."
+   }
+  },
+  {
+   "id": "T326-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který pozdější americký generál skončil v moderním pětiboji na OH 1912 ve Stockholmu pátý?",
+    "en": "Which future American general finished fifth in the modern pentathlon at the 1912 Stockholm Olympics?"
+   },
+   "moznosti": {
+    "cs": [
+     "George S. Patton",
+     "Omar Bradley",
+     "Douglas MacArthur",
+     "Dwight D. Eisenhower"
+    ],
+    "en": [
+     "George S. Patton",
+     "Omar Bradley",
+     "Douglas MacArthur",
+     "Dwight D. Eisenhower"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Patton byl nejlepší ze všech, kdo nebyli Švédové, ale ve střelbě skončil až 21. Tvrdil, že jedna jeho střela proletěla otvorem po předchozí ráně ze služební pistole ráže .38, rozhodčí ji však počítali jako minutou.",
+    "en": "Patton was the best non-Swede, but placed only 21st in shooting. He claimed one bullet from his .38 service pistol went through an earlier hole, but the judges ruled it a complete miss."
+   }
+  },
+  {
+   "id": "T326-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak vznikl název brokové disciplíny skeet?",
+    "en": "How did the shotgun discipline skeet get its name?"
+   },
+   "moznosti": {
+    "cs": [
+     "Je to zkratka názvu klubu, kde vznikl",
+     "Napodobuje zvuk výstřelu",
+     "Je to příjmení vynálezce disciplíny",
+     "Vzešel ze čtenářské soutěže o nejlepší jméno"
+    ],
+    "en": [
+     "It is an acronym of the club where it began",
+     "It imitates the sound of a shot",
+     "It is the surname of the discipline's inventor",
+     "It came from a readers' contest for the best name"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "V roce 1926 vypsaly americké časopisy odměnu 100 dolarů za název a vyhrála Gertrude Hurlbuttová; slovo údajně vychází z norského „skyt“ (střílej). Hra původně nesla přezdívku „střelba kolem hodin“.",
+    "en": "In 1926 American magazines offered a $100 prize for a name and Gertrude Hurlbutt won; the word is said to derive from Norwegian \"skyt\" (shoot). The game was originally nicknamed \"shooting around the clock\"."
+   }
+  },
+  {
+   "id": "T326-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Novozélandská lukostřelkyně Neroli Fairhallová se v roce 1984 v Los Angeles zapsala do olympijské historie. Čím?",
+    "en": "New Zealand archer Neroli Fairhall made Olympic history in 1984 in Los Angeles. How?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jako první paraplegička na olympijských hrách",
+     "Jako nejstarší olympijská účastnice",
+     "Jako první lučištnice s maximálním skóre",
+     "Jako první žena v mužské soutěži"
+    ],
+    "en": [
+     "As the first paraplegic competitor at the Olympics",
+     "As the oldest Olympic competitor",
+     "As the first archer with a perfect score",
+     "As the first woman in a men's event"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Po nehodě na motorce byla ochrnutá od pasu dolů. V Los Angeles skončila 35. a už v roce 1982 vyhrála zlato na Hrách Commonwealthu v Brisbane, kde byla lukostřelba poprvé.",
+    "en": "A motorbike accident left her paralysed from the waist down. She finished 35th in Los Angeles and had won gold at the 1982 Commonwealth Games in Brisbane, where archery made its debut."
+   }
+  },
+  {
+   "id": "T326-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Šermířský útok, při kterém šermíř vyrazí vpřed, překříží nohy a po zásahu proběhne kolem soupeře, se nazývá flèche. Co to slovo znamená?",
+    "en": "A fencing attack in which the fencer launches forward, crosses their feet and runs past the opponent after the hit is called the flèche. What does the word mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Blesk",
+     "Šíp",
+     "Skok",
+     "Vítr"
+    ],
+    "en": [
+     "Lightning",
+     "Arrow",
+     "Jump",
+     "Wind"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Flèche znamená „šíp“. Při tomto útoku šermíř přenese zadní nohu před přední a proběhne kolem soupeře; v šavli je zakázán.",
+    "en": "Flèche means \"arrow\". In this attack the fencer brings the rear leg past the front one and runs past the opponent; it is not allowed in sabre."
+   }
+  }
+ ]
+}

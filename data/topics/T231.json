@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T231",
+ "nazev": {
+  "cs": "Antické Řecko: Athény, Sparta a filozofové",
+  "en": "Ancient Greece: Athens, Sparta and the Philosophers"
+ },
+ "kategorie": {
+  "id": "historie",
+  "nazev": {
+   "cs": "Historie",
+   "en": "History"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T231-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který řecký městský stát odebíral chlapce zhruba v sedmi letech z rodin a vychovával je k vojenské službě?",
+    "en": "Which Greek city-state took boys from their families at around age seven and raised them for military service?"
+   },
+   "moznosti": {
+    "cs": [
+     "Théby",
+     "Athény",
+     "Korint",
+     "Sparta"
+    ],
+    "en": [
+     "Thebes",
+     "Athens",
+     "Corinth",
+     "Sparta"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Spartský výchovný systém agógé začínal kolem sedmého roku a trval až do dospělosti. Výjimku měli jen následníci spartského trůnu.",
+    "en": "The Spartan education system, the agoge, began at about age seven and lasted into adulthood. Only heirs to the Spartan throne were exempt."
+   }
+  },
+  {
+   "id": "T231-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Který filozof byl učitelem mladého Alexandra Makedonského?",
+    "en": "Which philosopher was the teacher of the young Alexander the Great?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sókratés",
+     "Aristotelés",
+     "Platón",
+     "Pythagoras"
+    ],
+    "en": [
+     "Socrates",
+     "Aristotle",
+     "Plato",
+     "Pythagoras"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Filip II. pozval Aristotela kolem roku 343 př. n. l., aby vyučoval jeho třináctiletého syna. Výuka probíhala ve škole v Mieze nedaleko Pelly.",
+    "en": "Philip II invited Aristotle around 343 BC to tutor his thirteen-year-old son. The lessons took place at a school in Mieza, near Pella."
+   }
+  },
+  {
+   "id": "T231-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Při ostrakismu psali Athéňané jméno politika, kterého chtěli poslat do vyhnanství. Na co ho psali?",
+    "en": "In an ostracism, Athenians wrote down the name of a politician they wanted to send into exile. What did they write it on?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na voskové destičky",
+     "Na olověné destičky",
+     "Na papyrus",
+     "Na střepy keramiky"
+    ],
+    "en": [
+     "Wax tablets",
+     "Lead tablets",
+     "Papyrus",
+     "Pottery shards"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Jména se vyrývala do střepů zvaných ostraka, odtud název ostrakismos. Vyhnanec musel opustit Athény na deset let, ale o majetek nepřišel.",
+    "en": "Names were scratched onto pottery shards called ostraka, which gave ostracism its name. The exile had to leave Athens for ten years but kept his property."
+   }
+  },
+  {
+   "id": "T231-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kteří dva hlavní soupeři proti sobě stáli v Peloponéské válce (431–404 př. n. l.)?",
+    "en": "Which two main rivals fought each other in the Peloponnesian War (431–404 BC)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sparta a Persie",
+     "Athény a Kartágo",
+     "Athény a Sparta",
+     "Théby a Korint"
+    ],
+    "en": [
+     "Sparta and Persia",
+     "Athens and Carthage",
+     "Athens and Sparta",
+     "Thebes and Corinth"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Proti sobě stál athénský Délský spolek a spartský Peloponéský spolek. Válku vyhrála Sparta, k níž se od roku 413 př. n. l. přidala i perská finanční podpora.",
+    "en": "The Athenian-led Delian League faced the Spartan-led Peloponnesian League. Sparta won, helped from 413 BC by Persian money."
+   }
+  },
+  {
+   "id": "T231-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterou velkou říši dobyl Alexandr Veliký?",
+    "en": "Which great empire did Alexander the Great conquer?"
+   },
+   "moznosti": {
+    "cs": [
+     "Římskou",
+     "Asyrskou",
+     "Kartáginskou",
+     "Perskou"
+    ],
+    "en": [
+     "The Roman Empire",
+     "The Assyrian Empire",
+     "The Carthaginian Empire",
+     "The Persian Empire"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Po vítězstvích nad Dareiem III. ovládl celou Achaimenovskou (perskou) říši. Jeho tažení dospělo až na severozápad Indického subkontinentu.",
+    "en": "After defeating Darius III, he conquered the entire Achaemenid (Persian) Empire. His campaign reached as far as the northwest of the Indian subcontinent."
+   }
+  },
+  {
+   "id": "T231-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se jmenuje chrám bohyně Athény, který dominuje athénské Akropoli?",
+    "en": "What is the name of the temple of the goddess Athena that dominates the Athenian Acropolis?"
+   },
+   "moznosti": {
+    "cs": [
+     "Parthenón",
+     "Pantheon",
+     "Artemísion",
+     "Héraion"
+    ],
+    "en": [
+     "Parthenon",
+     "Pantheon",
+     "Artemision",
+     "Heraion"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Parthenón se stavěl od roku 447 př. n. l. z podnětu Periklea, navrhli ho Iktínos a Kallikratés a výzdobu řídil Feidiás. Pantheon je naproti tomu chrám v Římě.",
+    "en": "The Parthenon was begun in 447 BC under Pericles, designed by Iktinos and Callicrates, with Phidias overseeing the decoration. The Pantheon, by contrast, is a temple in Rome."
+   }
+  },
+  {
+   "id": "T231-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Co bylo ve starém Řecku sympozion?",
+    "en": "What was a symposium in ancient Greece?"
+   },
+   "moznosti": {
+    "cs": [
+     "Vědecká konference",
+     "Sportovní závod při slavnostech",
+     "Soudní líčení před porotou",
+     "Pánská pitka po hostině"
+    ],
+    "en": [
+     "A scholarly conference",
+     "A sporting contest at a festival",
+     "A trial before a jury",
+     "A men's drinking party after a banquet"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Sympozion byla část hostiny po jídle, kdy muži vleže na lehátkách pili víno a bavili se hovorem, hudbou a hrami. Vážené svobodné ženy se ho neúčastnily.",
+    "en": "The symposium was the part of a banquet after the meal, when men reclined on couches drinking wine and enjoying conversation, music and games. Respectable free women did not attend."
+   }
+  },
+  {
+   "id": "T231-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kterému řeckému autorovi dal Cicero přezdívku „otec dějepisu“?",
+    "en": "Which Greek author did Cicero call “the Father of History”?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hérodotovi",
+     "Plútarchovi",
+     "Xenofóntovi",
+     "Thúkydidovi"
+    ],
+    "en": [
+     "Herodotus",
+     "Plutarch",
+     "Xenophon",
+     "Thucydides"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Hérodotos z Halikarnássu popsal v Dějinách řecko-perské války. Kritici mu kvůli podivuhodným historkám přezdívali i „otec lží“.",
+    "en": "Herodotus of Halicarnassus described the Greco-Persian Wars in his Histories. Critics, put off by his tall tales, also called him the “Father of Lies”."
+   }
+  },
+  {
+   "id": "T231-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak podle nejznámější verze legendy vyřešil Alexandr Veliký úkol rozvázat gordický uzel?",
+    "en": "According to the best-known version of the legend, how did Alexander the Great solve the task of untying the Gordian Knot?"
+   },
+   "moznosti": {
+    "cs": [
+     "Rozťal ho mečem",
+     "Spálil ho pochodní",
+     "Rozvázal ho zuby",
+     "Nechal ho rozvázat kněze"
+    ],
+    "en": [
+     "He cut it with his sword",
+     "He burned it with a torch",
+     "He untied it with his teeth",
+     "He had the priests untie it"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Podle věštby měl ten, kdo uzel ve frygickém Gordiu rozváže, vládnout Asii; Alexandr ho roku 333 př. n. l. prý přesekl. Podle Aristobúla ale jen vytáhl kolík z oje.",
+    "en": "An oracle said whoever untied the knot at Gordium in Phrygia would rule Asia; in 333 BC Alexander reportedly sliced through it. According to Aristobulus, he simply pulled out the linchpin."
+   }
+  },
+  {
+   "id": "T231-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo měl v klasických Athénách právo hlasovat ve sněmu (ekklésii)?",
+    "en": "Who had the right to vote in the assembly (ekklesia) of classical Athens?"
+   },
+   "moznosti": {
+    "cs": [
+     "Jen příslušníci bohatých šlechtických rodů",
+     "Všichni muži včetně cizinců a otroků",
+     "Všichni svobodní dospělí obyvatelé včetně žen",
+     "Jen dospělí muži s athénským občanstvím"
+    ],
+    "en": [
+     "Only members of wealthy noble families",
+     "All men, including foreigners and slaves",
+     "All free adult residents, including women",
+     "Only adult male Athenian citizens"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Hlasovat směli jen dospělí muži s občanstvím, kteří prošli vojenským výcvikem efébů. Ženy, otroci a usedlí cizinci (metoikové) byli vyloučeni.",
+    "en": "Only adult male citizens who had completed their military training as ephebes could vote. Women, slaves and resident foreigners (metics) were excluded."
+   }
+  },
+  {
+   "id": "T231-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Sókratés sám nic nesepsal. Z děl kterého svého žáka známe jeho myšlenky nejvíce?",
+    "en": "Socrates wrote nothing himself. From the works of which of his pupils do we know his ideas best?"
+   },
+   "moznosti": {
+    "cs": [
+     "Démosthena",
+     "Platóna",
+     "Diogena",
+     "Aristotela"
+    ],
+    "en": [
+     "Demosthenes",
+     "Plato",
+     "Diogenes",
+     "Aristotle"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Hlavními prameny jsou Platón a historik Xenofón, oba jeho žáci; o Sókratovi psal i komediograf Aristofanés v Oblacích. Aristotelés se narodil až po Sókratově smrti.",
+    "en": "The main sources are Plato and the historian Xenophon, both his pupils; the comic playwright Aristophanes also wrote about him in The Clouds. Aristotle was born after Socrates had died."
+   }
+  },
+  {
+   "id": "T231-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Který athénský stratég prosadil stavbu velké flotily a lstí vylákal perské loďstvo do úžiny u Salamíny (480 př. n. l.)?",
+    "en": "Which Athenian general pushed through the building of a large fleet and lured the Persian navy into the straits of Salamis by a ruse (480 BC)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Miltiadés",
+     "Aristeidés",
+     "Themistoklés",
+     "Periklés"
+    ],
+    "en": [
+     "Miltiades",
+     "Aristides",
+     "Themistocles",
+     "Pericles"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Themistoklés poslal Xerxovi falešný vzkaz po svém sluhovi Sikinnovi a Peršané v těsné úžině prohráli. Paradoxně později skončil v ostrakismu a jako správce Magnésie ve službách perského krále.",
+    "en": "Themistocles sent Xerxes a false message via a servant, Sicinnus, and the Persians lost in the cramped straits. Ironically, he was later ostracised and ended his days governing Magnesia for the Persian king."
+   }
+  },
+  {
+   "id": "T231-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kolik králů vládlo Spartě současně?",
+    "en": "How many kings ruled Sparta at the same time?"
+   },
+   "moznosti": {
+    "cs": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "en": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Spartě vládli dva dědiční králové z rodů Agiovců a Eurypontovců (Eurypontidai) se stejnou mocí, takže jeden nemohl přehlasovat druhého.",
+    "en": "Sparta was ruled by two hereditary kings from the Agiad and Eurypontid families with equal authority, so neither could override the other."
+   }
+  },
+  {
+   "id": "T231-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak staří Řekové obvykle pili víno?",
+    "en": "How did the ancient Greeks usually drink their wine?"
+   },
+   "moznosti": {
+    "cs": [
+     "Svařené s medem a pepřem",
+     "Ředěné vodou",
+     "Neředěné, jak se pije dnes",
+     "Smíchané s kozím mlékem"
+    ],
+    "en": [
+     "Mulled with honey and pepper",
+     "Diluted with water",
+     "Undiluted, as it is drunk today",
+     "Mixed with goat's milk"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Víno se míchalo s vodou ve velké nádobě zvané kratér a sílu na celý večer určoval předsedající hostiny. Pít víno neředěné považovali Řekové za zvyk barbarů.",
+    "en": "Wine was mixed with water in a large vessel called a krater, and whoever presided over the gathering decided how strong it would be for the evening. Drinking it neat was seen as a habit of barbarians."
+   }
+  },
+  {
+   "id": "T231-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Které zvíře bylo vyraženo na slavných athénských stříbrných tetradrachmách?",
+    "en": "Which animal appeared on the famous Athenian silver tetradrachms?"
+   },
+   "moznosti": {
+    "cs": [
+     "Sova",
+     "Orel",
+     "Delfín",
+     "Lev"
+    ],
+    "en": [
+     "An owl",
+     "An eagle",
+     "A dolphin",
+     "A lion"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Na líci byla hlava bohyně Athény v přilbě, na rubu sova s olivovou ratolestí a zkratkou ΑΘΕ. Athéňané mincím říkali glaukes, „sovičky“.",
+    "en": "The obverse showed the helmeted head of Athena and the reverse an owl with an olive sprig and the letters ΑΘΕ. Athenians called the coins glaukes, “little owls”."
+   }
+  },
+  {
+   "id": "T231-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Krutě přísným pravidlům říkáme drakonická. Odkud tento výraz pochází?",
+    "en": "Harsh rules are called draconian. Where does the word come from?"
+   },
+   "moznosti": {
+    "cs": [
+     "Od spartského vojenského výcviku",
+     "Od draka, který hlídal zlaté rouno",
+     "Od latinského slova pro trest",
+     "Od jména athénského zákonodárce"
+    ],
+    "en": [
+     "From Spartan military training",
+     "From the dragon that guarded the Golden Fleece",
+     "From the Latin word for punishment",
+     "From the name of an Athenian lawgiver"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Drakón sepsal athénské zákony kolem roku 621 př. n. l. a smrtí trestal i drobnosti, třeba krádež zelí. Řečník Démadés o nich později prohlásil, že byly psány „ne inkoustem, ale krví“.",
+    "en": "Draco wrote Athens' laws around 621 BC and imposed death even for minor offences such as stealing a cabbage. The orator Demades later said they were written “not in ink but in blood”."
+   }
+  },
+  {
+   "id": "T231-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak byla v klasických Athénách obsazována většina úředních funkcí?",
+    "en": "How were most public offices filled in classical Athens?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dědičně v rámci rodů",
+     "Losováním",
+     "Doživotním jmenováním",
+     "Podle výše majetku"
+    ],
+    "en": [
+     "By inheritance within families",
+     "By lot",
+     "By appointment for life",
+     "According to wealth"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Athéňané považovali los za nejdemokratičtější způsob výběru úředníků. Volili jen asi stovku funkcí, kde byla potřeba odbornost, například deset stratégů.",
+    "en": "Athenians saw the lot as the most democratic way to choose officials. Only about a hundred posts requiring expertise, such as the ten generals, were filled by election."
+   }
+  },
+  {
+   "id": "T231-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Když Xerxés před bitvou u Thermopyl vyzval Sparťany, aby složili zbraně, Leónidás podle Plútarcha odpověděl „Molón labe“. Co to znamená?",
+    "en": "When Xerxes demanded before the Battle of Thermopylae that the Spartans lay down their arms, Leonidas, according to Plutarch, replied “Molon labe”. What does it mean?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nikdy se nevzdáme",
+     "Raději zemřeme",
+     "Přijď si pro ně",
+     "Sparta nezná strach"
+    ],
+    "en": [
+     "We will never surrender",
+     "We would rather die",
+     "Come and take them",
+     "Sparta knows no fear"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Řecké μολὼν λαβέ znamená zhruba „přijď a vezmi si [je]“. Plútarchos odpověď zaznamenal ve sbírce výroků Sparťanů.",
+    "en": "The Greek μολὼν λαβέ means roughly “come and take [them]”. Plutarch recorded it in his collection of Spartan sayings."
+   }
+  },
+  {
+   "id": "T231-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Výrok „Dejte mi místo, kde bych stál, a pohnu Zemí“ se připisuje Archimédovi. Kterého jednoduchého stroje se týkal?",
+    "en": "The saying “Give me a place to stand and I will move the Earth” is attributed to Archimedes. Which simple machine was it about?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nakloněné roviny",
+     "Páky",
+     "Šroubu",
+     "Klínu"
+    ],
+    "en": [
+     "The inclined plane",
+     "The lever",
+     "The screw",
+     "The wedge"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Výrok mu připsal Pappos Alexandrijský v souvislosti s pákou a mechanickou výhodou. Archimédés zahynul roku 212 př. n. l. při římském obléhání Syrakus.",
+    "en": "Pappus of Alexandria attributed the saying to him in the context of the lever and mechanical advantage. Archimedes was killed in 212 BC during the Roman siege of Syracuse."
+   }
+  },
+  {
+   "id": "T231-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kým byl ve starém Řecku paidagógos, od něhož pochází slovo pedagog?",
+    "en": "Who was the paidagogos in ancient Greece, the origin of the word pedagogue?"
+   },
+   "moznosti": {
+    "cs": [
+     "Otrokem, který doprovázel chlapce do školy",
+     "Úředníkem dohlížejícím na výchovu",
+     "Ředitelem městského gymnasia",
+     "Knězem, který učil mládež"
+    ],
+    "en": [
+     "A slave who escorted boys to school",
+     "An official supervising education",
+     "The head of a city gymnasium",
+     "A priest who taught the young"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Slovo znamená doslova „vodič dětí“ (pais = dítě, agógos = vůdce, od agein = vést). Otrok chlapce doprovázel a dohlížel na něj; teprve později slovo začalo označovat učitele.",
+    "en": "The word literally means “child leader” (pais = child, agogos = leader, from agein = to lead). The slave escorted and supervised the boy; only later did the word come to mean a teacher."
+   }
+  },
+  {
+   "id": "T231-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Makedonský král Filip II. vzkázal Spartě: „Jestliže vtrhnu do Lakónie, vyženu vás.“ Jak podle tradice zněla celá odpověď spartských eforů?",
+    "en": "Philip II of Macedon sent word to Sparta: “If I invade Laconia, I shall turn you out.” According to tradition, what was the ephors' entire reply?"
+   },
+   "moznosti": {
+    "cs": [
+     "„Přijď.“",
+     "„Zkus to.“",
+     "„Jestliže.“",
+     "„Nikdy.“"
+    ],
+    "en": [
+     "“Come.”",
+     "“Try it.”",
+     "“If.”",
+     "“Never.”"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Jednoslovná odpověď je učebnicovým příkladem lakonické stručnosti, pojmenované podle Lakónie, kraje kolem Sparty. Už na Filipovu otázku, zda má přijít jako přítel, nebo nepřítel, odpověděli Sparťané: „Ani jedno.“",
+    "en": "The one-word reply is the classic example of laconic brevity, named after Laconia, the region around Sparta. When Philip had earlier asked whether he should come as friend or foe, the Spartans answered: “Neither.”"
+   }
+  },
+  {
+   "id": "T231-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Které město se Athény pokusily dobýt během katastrofální výpravy v letech 415–413 př. n. l.?",
+    "en": "Which city did Athens try to conquer in its disastrous expedition of 415–413 BC?"
+   },
+   "moznosti": {
+    "cs": [
+     "Korint",
+     "Massalii",
+     "Byzantion",
+     "Syrakusy"
+    ],
+    "en": [
+     "Corinth",
+     "Massalia",
+     "Byzantium",
+     "Syracuse"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Sicilská výprava skončila zkázou: téměř celé vojsko padlo, bylo zajato nebo prodáno do otroctví. Její hlavní iniciátor Alkibiadés mezitím přeběhl ke Spartě.",
+    "en": "The Sicilian Expedition ended in disaster: nearly the whole force was killed, captured or sold into slavery. Its chief advocate, Alcibiades, had meanwhile defected to Sparta."
+   }
+  },
+  {
+   "id": "T231-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Sókratés v dialogu Theaitétos přirovnával svou filozofickou práci k povolání své matky Fainareté. Čím byla?",
+    "en": "In the dialogue Theaetetus, Socrates compared his philosophical work to the profession of his mother Phaenarete. What was she?"
+   },
+   "moznosti": {
+    "cs": [
+     "Kněžkou",
+     "Porodní bábou",
+     "Hrnčířkou",
+     "Tkadlenou"
+    ],
+    "en": [
+     "A priestess",
+     "A midwife",
+     "A potter",
+     "A weaver"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Fainareté byla porodní bábou a Sókratés v Theaitétovi přirovnává svou práci filozofa k její práci: pomáhá druhým „porodit“ jejich vlastní myšlenky. Jeho otec byl kameník.",
+    "en": "Phaenarete was a midwife, and in the Theaetetus Socrates compares his work as a philosopher to hers: he helps others “give birth” to their own ideas. His father was a stoneworker."
+   }
+  },
+  {
+   "id": "T231-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jaký byl princip kottabu, oblíbené starořecké hry při pití vína?",
+    "en": "What was the idea of kottabos, a popular ancient Greek drinking game?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pití vína na rychlost",
+     "Házení kostkami o džbán vína",
+     "Házení zbytků vína na terč",
+     "Skládání veršů na zadané slovo"
+    ],
+    "en": [
+     "Drinking wine against the clock",
+     "Throwing dice for a jug of wine",
+     "Flicking wine dregs at a target",
+     "Composing verses on a given word"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Hráč vleže mrštil jen pohybem předloktí zbytek vína z poháru (kylix) tak, aby shodil kotouček, který zazvonil o spodní misku. Vítěz dostal sladkosti, koláče nebo polibky.",
+    "en": "Reclining, the player flicked the last of his wine from the cup (kylix) with just his forearm to knock down a small disc so that it rang against a lower dish. The winner got sweets, cakes or kisses."
+   }
+  },
+  {
+   "id": "T231-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kterou potravinu měli podle tradice pythagorejci zakázanou?",
+    "en": "Which food was traditionally forbidden to the Pythagoreans?"
+   },
+   "moznosti": {
+    "cs": [
+     "Boby",
+     "Chléb",
+     "Olivy",
+     "Med"
+    ],
+    "en": [
+     "Beans",
+     "Bread",
+     "Olives",
+     "Honey"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Zákaz bobů mohl souviset se starými athénskými představami, které boby spojovaly s podsvětím. Pythagorejci také věřili v převtělování duší a zabíjení zvířat kvůli jídlu odmítali.",
+    "en": "The ban on beans may be linked to old Athenian ideas associating beans with Hades. Pythagoreans also believed in the transmigration of souls and opposed killing animals for food."
+   }
+  },
+  {
+   "id": "T231-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Které opatření, připisované Perikleovi, umožnilo i chudým Athéňanům zasedat v soudních porotách?",
+    "en": "Which measure, attributed to Pericles, enabled even poor Athenians to sit on juries?"
+   },
+   "moznosti": {
+    "cs": [
+     "Přidělení půdy porotcům",
+     "Osvobození porotců od daní",
+     "Osvobození porotců od vojenské služby",
+     "Plat za službu porotce"
+    ],
+    "en": [
+     "Granting land to jurors",
+     "Exempting jurors from taxes",
+     "Exempting jurors from military service",
+     "Pay for jury service"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Plat pro porotce byl zaveden kolem roku 462 př. n. l. a připisuje se Perikleovi. Plat za účast na sněmu přišel až o více než půl století později.",
+    "en": "Pay for jurors was introduced around 462 BC and is ascribed to Pericles. Pay for attending the assembly came more than fifty years later."
+   }
+  },
+  {
+   "id": "T231-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo byli převážně veslaři na athénských válečných triérách?",
+    "en": "Who mostly rowed the Athenian war triremes?"
+   },
+   "moznosti": {
+    "cs": [
+     "Svobodní muži",
+     "Odsouzení zločinci",
+     "Otroci připoutaní k veslům",
+     "Váleční zajatci"
+    ],
+    "en": [
+     "Free men",
+     "Convicted criminals",
+     "Slaves chained to the oars",
+     "Prisoners of war"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Athénské triéry obsazovali svobodní muži, ne galejní otroci: chudší občané (théti), usedlí cizinci (metoikové) a najatí cizinci. Typická posádka za Peloponéské války měla asi 80 občanů, 60 metoiků a 60 cizinců; otroky nasadili jen ve výjimečné nouzi a obvykle je předtím propustili.",
+    "en": "Athenian triremes were crewed by free men, not galley slaves: poorer citizens (thetes), resident foreigners (metics) and hired foreigners. A typical crew in the Peloponnesian War had about 80 citizens, 60 metics and 60 foreigners; slaves were used only in rare emergencies and were usually freed first."
+   }
+  },
+  {
+   "id": "T231-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak podle Plútarcha řečník Démosthenés překonával svou vadu řeči?",
+    "en": "According to Plutarch, how did the orator Demosthenes overcome his speech impediment?"
+   },
+   "moznosti": {
+    "cs": [
+     "Mluvil s oblázky v ústech",
+     "Recitoval s hlavou pod vodou",
+     "Zpíval v divadelním sboru",
+     "Rok mluvil jen šeptem"
+    ],
+    "en": [
+     "He spoke with pebbles in his mouth",
+     "He recited with his head under water",
+     "He sang in a theatre chorus",
+     "He spoke only in a whisper for a year"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Plútarchos píše, že cvičil s oblázky v ústech a recitoval verše při běhu či zadýchaný. V podzemní pracovně si prý oholil půl hlavy, aby ho to nelákalo ven.",
+    "en": "Plutarch writes that he practised with pebbles in his mouth and recited verses while running or out of breath. In his underground study he supposedly shaved half his head so he would not be tempted to go out."
+   }
+  },
+  {
+   "id": "T231-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč Alexandr Veliký u řeky Hyfasis (dnes Bjás) ukončil své tažení na východ?",
+    "en": "Why did Alexander the Great end his eastward campaign at the Hyphasis River (today's Beas)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Dostal zprávu o povstání v Řecku",
+     "Zemřel mu přítel Hefaistión",
+     "Vojsko se vzbouřilo a odmítlo jít dál",
+     "Indové mu nabídli mír a tribut"
+    ],
+    "en": [
+     "He received news of a revolt in Greece",
+     "His friend Hephaestion died",
+     "His army mutinied and refused to go further",
+     "The Indians offered him peace and tribute"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vyčerpaní vojáci po letech pochodů odmítli táhnout dál a Hyfasis se stal nejvýchodnější hranicí jeho výbojů. Alexandr zemřel o tři roky později v Babylóně, ve věku 32 let.",
+    "en": "Exhausted after years of marching, the soldiers refused to go on, and the Hyphasis became the easternmost limit of his conquests. Alexander died three years later in Babylon, aged 32."
+   }
+  },
+  {
+   "id": "T231-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Které dílo má podle odhadů od prvního tisku v roce 1482 nejvíce vydání hned po Bibli?",
+    "en": "Which work is estimated to have had the most editions after the Bible since its first printing in 1482?"
+   },
+   "moznosti": {
+    "cs": [
+     "Platónova Ústava",
+     "Homérova Odysseia",
+     "Eukleidovy Základy",
+     "Aristotelova Politika"
+    ],
+    "en": [
+     "Plato's Republic",
+     "Homer's Odyssey",
+     "Euclid's Elements",
+     "Aristotle's Politics"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Základy (Stoicheia), sepsané kolem roku 300 př. n. l., shrnují ve 13 knihách definice, postuláty a věty geometrie. Dva tisíce let sloužily jako běžná učebnice.",
+    "en": "The Elements (Stoicheia), written around 300 BC, collect definitions, postulates and theorems of geometry in 13 books. For two thousand years they were the standard textbook."
+   }
+  }
+ ]
+}

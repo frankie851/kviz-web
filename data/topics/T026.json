@@ -1,0 +1,827 @@
+{
+ "verze": 1,
+ "id": "T026",
+ "nazev": {
+  "cs": "Slavné knihy a jejich autoři",
+  "en": "Famous Books and Their Authors"
+ },
+ "kategorie": {
+  "id": "umeni-a-literatura",
+  "nazev": {
+   "cs": "Umění a literatura",
+   "en": "Art & Literature"
+  }
+ },
+ "otazky": [
+  {
+   "id": "T026-01",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo napsal Osudy dobrého vojáka Švejka za světové války?",
+    "en": "Who wrote The Good Soldier Švejk?"
+   },
+   "moznosti": {
+    "cs": [
+     "Karel Poláček",
+     "Jaroslav Hašek",
+     "Jan Werich",
+     "Karel Čapek"
+    ],
+    "en": [
+     "Karel Poláček",
+     "Jaroslav Hašek",
+     "Jan Werich",
+     "Karel Čapek"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Román napsal Jaroslav Hašek, nejznámější ilustrace k němu nakreslil Josef Lada. Hašek zemřel v roce 1923 a dílo nestihl dokončit.",
+    "en": "The novel was written by Jaroslav Hašek; its best-known illustrations were drawn by Josef Lada. Hašek died in 1923 before he could finish it."
+   }
+  },
+  {
+   "id": "T026-02",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo napsal novelu Proměna, jejíž hrdina se jednoho rána probudí proměněný v obrovskou havěť?",
+    "en": "Who wrote the novella The Metamorphosis, whose hero wakes up one morning transformed into monstrous vermin?"
+   },
+   "moznosti": {
+    "cs": [
+     "Hermann Hesse",
+     "Rainer Maria Rilke",
+     "Thomas Mann",
+     "Franz Kafka"
+    ],
+    "en": [
+     "Hermann Hesse",
+     "Rainer Maria Rilke",
+     "Thomas Mann",
+     "Franz Kafka"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Proměnu napsal pražský rodák Franz Kafka a vyšla v roce 1915. Kafka v originále použil výraz pro havěť, ne pro konkrétní hmyz, a nakladateli napsal, že samotný hmyz se na obálce kreslit nesmí.",
+    "en": "The Metamorphosis was written by Prague-born Franz Kafka and published in 1915. Kafka used a word meaning vermin rather than naming a specific insect, and told his publisher that the insect itself must not be drawn on the cover."
+   }
+  },
+  {
+   "id": "T026-03",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Která spisovatelka napsala Babičku?",
+    "en": "Which writer wrote The Grandmother (Babička)?"
+   },
+   "moznosti": {
+    "cs": [
+     "Božena Němcová",
+     "Eliška Krásnohorská",
+     "Teréza Nováková",
+     "Karolina Světlá"
+    ],
+    "en": [
+     "Božena Němcová",
+     "Eliška Krásnohorská",
+     "Teréza Nováková",
+     "Karolina Světlá"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Babička Boženy Němcové vyšla v roce 1855. Portrét Němcové je na české pětisetkorunové bankovce.",
+    "en": "Božena Němcová's The Grandmother was published in 1855. Her portrait appears on the Czech 500-koruna banknote."
+   }
+  },
+  {
+   "id": "T026-04",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo napsal Hobita?",
+    "en": "Who wrote The Hobbit?"
+   },
+   "moznosti": {
+    "cs": [
+     "C. S. Lewis",
+     "J. R. R. Tolkien",
+     "Roald Dahl",
+     "Terry Pratchett"
+    ],
+    "en": [
+     "C. S. Lewis",
+     "J. R. R. Tolkien",
+     "Roald Dahl",
+     "Terry Pratchett"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Hobita napsal oxfordský profesor J. R. R. Tolkien a kniha vyšla v roce 1937. Poklad v ní střeží drak Šmak (v originále Smaug).",
+    "en": "The Hobbit was written by Oxford professor J. R. R. Tolkien and published in 1937. Its treasure is guarded by the dragon Smaug."
+   }
+  },
+  {
+   "id": "T026-05",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Kdo nebo co se v románu Mary Shelleyové jmenuje Frankenstein?",
+    "en": "In Mary Shelley's novel, who or what is called Frankenstein?"
+   },
+   "moznosti": {
+    "cs": [
+     "Stvořená bytost",
+     "Vesnice ve Švýcarsku",
+     "Hrad, kde se děj odehrává",
+     "Vědec, který stvoří bytost"
+    ],
+    "en": [
+     "The creature itself",
+     "A village in Switzerland",
+     "The castle where the story takes place",
+     "The scientist who creates the creature"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Frankenstein je příjmení vědce Victora. Jeho výtvor v knize žádné jméno nemá, záměna se rozšířila hlavně po filmu z roku 1931.",
+    "en": "Frankenstein is the surname of the scientist Victor. His creation is never named in the book; the mix-up spread mainly after the 1931 film."
+   }
+  },
+  {
+   "id": "T026-06",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na co v nejslavnější scéně románu zaútočí Don Quijote, protože je považuje za obry?",
+    "en": "In the novel's most famous scene, what does Don Quixote attack because he believes they are giants?"
+   },
+   "moznosti": {
+    "cs": [
+     "Větrné mlýny",
+     "Kostelní věže",
+     "Stohy sena",
+     "Skalní útesy"
+    ],
+    "en": [
+     "Windmills",
+     "Church towers",
+     "Haystacks",
+     "Rocky cliffs"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Rytíř z La Manchi vidí ve větrných mlýnech obry a vrhne se na ně. Odtud pochází i rčení „bojovat s větrnými mlýny“.",
+    "en": "The knight of La Mancha sees the windmills as giants and charges at them, which gave rise to the phrase \"tilting at windmills\"."
+   }
+  },
+  {
+   "id": "T026-07",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak Robinson Crusoe pojmenuje domorodce, kterého na ostrově zachrání?",
+    "en": "What name does Robinson Crusoe give the native he rescues on the island?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pátek",
+     "Neděle",
+     "Středa",
+     "Sobota"
+    ],
+    "en": [
+     "Friday",
+     "Sunday",
+     "Wednesday",
+     "Saturday"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Robinson ho pojmenoval podle dne v týdnu, kdy ho zachránil. Defoeův román vyšel v roce 1719 a Robinson v něm na ostrově stráví 28 let.",
+    "en": "Crusoe names him after the day of the week on which he rescued him. Defoe's novel came out in 1719, and Crusoe spends 28 years on the island."
+   }
+  },
+  {
+   "id": "T026-08",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Na které londýnské ulici bydlí Sherlock Holmes?",
+    "en": "On which London street does Sherlock Holmes live?"
+   },
+   "moznosti": {
+    "cs": [
+     "Baker Street",
+     "Fleet Street",
+     "Abbey Road",
+     "Downing Street"
+    ],
+    "en": [
+     "Baker Street",
+     "Fleet Street",
+     "Abbey Road",
+     "Downing Street"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Holmes bydlí na adrese 221B Baker Street. Když Conan Doyle povídky psal, číslo 221 na této ulici vůbec neexistovalo.",
+    "en": "Holmes lives at 221B Baker Street. When Conan Doyle was writing the stories, Baker Street did not even have a number 221."
+   }
+  },
+  {
+   "id": "T026-09",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jaké povolání měl Antoine de Saint-Exupéry, autor Malého prince?",
+    "en": "What was the profession of Antoine de Saint-Exupéry, author of The Little Prince?"
+   },
+   "moznosti": {
+    "cs": [
+     "Pilot",
+     "Námořník",
+     "Učitel",
+     "Lékař"
+    ],
+    "en": [
+     "Pilot",
+     "Sailor",
+     "Teacher",
+     "Doctor"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Saint-Exupéry létal mimo jiné s poštou přes Afriku a Jižní Ameriku. V roce 1944 se nevrátil z průzkumného letu nad jižní Francií a zmizel nad Středozemním mořem.",
+    "en": "Saint-Exupéry flew airmail routes across Africa and South America, among others. In 1944 he failed to return from a reconnaissance flight over southern France and vanished over the Mediterranean."
+   }
+  },
+  {
+   "id": "T026-10",
+   "obtiznost": 1,
+   "otazka": {
+    "cs": "Jak se v Orwellově románu 1984 říká vůdci strany, jehož tvář je všude na plakátech?",
+    "en": "In Orwell's novel Nineteen Eighty-Four, what is the Party leader whose face is on posters everywhere called?"
+   },
+   "moznosti": {
+    "cs": [
+     "Velký vůdce",
+     "Otec národa",
+     "Velký bratr",
+     "Nejvyšší strážce"
+    ],
+    "en": [
+     "Great Leader",
+     "Father of the Nation",
+     "Big Brother",
+     "Supreme Guardian"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Velký bratr je tváří strany, která vládne Oceánii; z románu ani není jasné, zda vůbec existuje. Kniha vyšla v roce 1949.",
+    "en": "Big Brother is the figurehead of the Party ruling Oceania; the novel never reveals whether he actually exists. The book came out in 1949."
+   }
+  },
+  {
+   "id": "T026-11",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Pseudonym Mark Twain se spojuje s voláním lodníků na řece Mississippi. Co toto volání oznamovalo?",
+    "en": "The pen name Mark Twain is linked to a call used by boatmen on the Mississippi. What did the call announce?"
+   },
+   "moznosti": {
+    "cs": [
+     "Na řece je hustá mlha",
+     "Kapitán přebírá kormidlo",
+     "Loď připlouvá k přístavu",
+     "Voda je hluboká dva sáhy"
+    ],
+    "en": [
+     "There is thick fog on the river",
+     "The captain is taking the helm",
+     "The boat is approaching port",
+     "The water is two fathoms deep"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Hloubka dvou sáhů (asi 3,7 m) byla pro parník bezpečná. Samuel Clemens byl sám říčním pilotem; někteří historici ale jeho vysvětlení původu pseudonymu zpochybňují.",
+    "en": "Two fathoms, about 3.7 m (12 ft), was safe water for a steamboat. Samuel Clemens was a river pilot himself, though some historians doubt his own account of where the name came from."
+   }
+  },
+  {
+   "id": "T026-12",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Jak v roce 1816 u Ženevského jezera vznikl nápad na Frankensteina?",
+    "en": "How did the idea for Frankenstein come about by Lake Geneva in 1816?"
+   },
+   "moznosti": {
+    "cs": [
+     "Z úkolu, který Mary zadal Percy Shelley",
+     "Ze soutěže vyhlášené literárním časopisem",
+     "Z Byronovy výzvy napsat strašidelný příběh",
+     "Ze sázky s londýnským nakladatelem"
+    ],
+    "en": [
+     "From a task set by Percy Shelley",
+     "From a contest run by a literary magazine",
+     "From Byron's ghost story challenge",
+     "From a bet with a London publisher"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Za chladného a deštivého léta u Ženevského jezera navrhl lord Byron, ať každý napíše strašidelnou povídku. Mary (tehdy ještě Godwinové, Percyho Shelleyho si vzala až později) bylo 18 let a román vyšel anonymně v roce 1818.",
+    "en": "During a cold, rainy summer by Lake Geneva, Lord Byron proposed that each of them write a ghost story. Mary (then still Mary Godwin; she married Percy Shelley later) was 18, and the novel was published anonymously in 1818."
+   }
+  },
+  {
+   "id": "T026-13",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Při jaké činnosti podle svých vzpomínek napsal autor Hobita na prázdný list papíru úvodní větu knihy?",
+    "en": "According to his own recollection, what was the author of The Hobbit doing when he wrote the book's opening line on a blank sheet of paper?"
+   },
+   "moznosti": {
+    "cs": [
+     "Při čekání na vlak",
+     "Při pobytu v nemocnici",
+     "Při službě v zákopech",
+     "Při opravování písemek"
+    ],
+    "en": [
+     "Waiting for a train",
+     "Staying in hospital",
+     "Serving in the trenches",
+     "Marking exam papers"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "V dopise W. H. Audenovi z roku 1955 autor vzpomínal, že na počátku 30. let opravoval zkouškové písemky, narazil na prázdnou stránku a napsal na ni větu o hobitovi žijícím v noře.",
+    "en": "In a 1955 letter to W. H. Auden, the author recalled that in the early 1930s he was marking exam papers when he came across a blank page and wrote a line about a hobbit living in a hole in the ground."
+   }
+  },
+  {
+   "id": "T026-14",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Kde podle svých slov J. K. Rowlingová v roce 1990 dostala nápad na Harryho Pottera?",
+    "en": "By her own account, where did J. K. Rowling get the idea for Harry Potter in 1990?"
+   },
+   "moznosti": {
+    "cs": [
+     "V nemocniční čekárně",
+     "Na lodi do Portugalska",
+     "Ve vlaku do Londýna",
+     "Na výletě ve skotském hradu"
+    ],
+    "en": [
+     "In a hospital waiting room",
+     "On a ferry to Portugal",
+     "On a train to London",
+     "On a trip to a Scottish castle"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Vlak z Manchesteru do Londýna měl čtyřhodinové zpoždění a během cesty jí v hlavě vznikli Harry, Ron a Hermiona.",
+    "en": "Her train from Manchester to London was delayed by four hours, and during the journey Harry, Ron and Hermione came into her mind."
+   }
+  },
+  {
+   "id": "T026-15",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Film podle které knihy Bohumila Hrabala získal Oscara za nejlepší cizojazyčný film?",
+    "en": "A film based on which book by Bohumil Hrabal won the Oscar for Best Foreign Language Film?"
+   },
+   "moznosti": {
+    "cs": [
+     "Slavnosti sněženek",
+     "Ostře sledované vlaky",
+     "Obsluhoval jsem anglického krále",
+     "Postřižiny"
+    ],
+    "en": [
+     "The Snowdrop Festival",
+     "Closely Watched Trains",
+     "I Served the King of England",
+     "Cutting It Short"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ostře sledované vlaky natočil Jiří Menzel podle Hrabalovy novely z roku 1965 a Oscara film získal v roce 1968.",
+    "en": "Jiří Menzel directed Closely Watched Trains based on Hrabal's 1965 novella, and the film won the Oscar in 1968."
+   }
+  },
+  {
+   "id": "T026-16",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém díle Karla Čapka lidé zotročí inteligentní tvory objevené u ostrova v Indickém oceánu, kteří se jim pak vzbouří?",
+    "en": "In which work by Karel Čapek do humans enslave intelligent creatures discovered near an island in the Indian Ocean, who then rebel against them?"
+   },
+   "moznosti": {
+    "cs": [
+     "Továrna na Absolutno",
+     "Válka s mloky",
+     "Bílá nemoc",
+     "Krakatit"
+    ],
+    "en": [
+     "The Absolute at Large",
+     "War with the Newts",
+     "The White Disease",
+     "Krakatit"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Ve Válce s mloky (1936) kapitán van Toch objeví mloky u ostrova poblíž Sumatry. Lidé je využívají jako levnou pracovní sílu, až mloci začnou bourat pevninu kvůli novým pobřežím.",
+    "en": "In War with the Newts (1936), Captain van Toch discovers the newts near an island off Sumatra. Humans exploit them as cheap labour until the newts start destroying land to create new coastlines."
+   }
+  },
+  {
+   "id": "T026-17",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co žádal Franz Kafka po svém příteli Maxu Brodovi?",
+    "en": "What did Franz Kafka ask his friend Max Brod to do?"
+   },
+   "moznosti": {
+    "cs": [
+     "Aby jeho rukopisy prodal",
+     "Aby vydal jeho dopisy Mileně",
+     "Aby dokončil jeho román Zámek",
+     "Aby spálil jeho rukopisy"
+    ],
+    "en": [
+     "Sell his manuscripts",
+     "Publish his letters to Milena",
+     "Finish his novel The Castle",
+     "Burn his manuscripts"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kafka chtěl, aby Brod po jeho smrti spálil všechna nevydaná díla. Brod prosbu nesplnil a pozůstalost vydal: Proces (1925), Zámek (1926) a Amerika (1927) by jinak možná vůbec nevyšly.",
+    "en": "Kafka wanted Brod to burn all his unpublished work after his death. Brod ignored the request and published it instead: The Trial (1925), The Castle (1926) and Amerika (1927) might otherwise never have appeared."
+   }
+  },
+  {
+   "id": "T026-18",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Ve kterém románu se vypravěč hned v první větě představí jako Izmael?",
+    "en": "In which novel does the narrator introduce himself as Ishmael in the very first sentence?"
+   },
+   "moznosti": {
+    "cs": [
+     "Stařec a moře",
+     "Moby Dick",
+     "Ostrov pokladů",
+     "Dvacet tisíc mil pod mořem"
+    ],
+    "en": [
+     "The Old Man and the Sea",
+     "Moby-Dick",
+     "Treasure Island",
+     "Twenty Thousand Leagues Under the Seas"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Moby Dick Hermana Melvilla začíná slovy „Call me Ishmael“. Kniha z roku 1851 byla komerční neúspěch a když Melville zemřel, nebyla ani v prodeji.",
+    "en": "Herman Melville's Moby-Dick opens with \"Call me Ishmael\". The 1851 book was a commercial failure and was out of print when Melville died."
+   }
+  },
+  {
+   "id": "T026-19",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "Co vyučoval na Oxfordu Lewis Carroll, autor Alenky v říši divů?",
+    "en": "What did Lewis Carroll, author of Alice's Adventures in Wonderland, teach at Oxford?"
+   },
+   "moznosti": {
+    "cs": [
+     "Historii",
+     "Astronomii",
+     "Právo",
+     "Matematiku"
+    ],
+    "en": [
+     "History",
+     "Astronomy",
+     "Law",
+     "Mathematics"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Charles Lutwidge Dodgson vyučoval matematiku na koleji Christ Church 26 let. Příběh o Alence poprvé vyprávěl 4. července 1862 při projížďce na loďce s dcerkami děkana Liddella.",
+    "en": "Charles Lutwidge Dodgson held the mathematics lectureship at Christ Church for 26 years. He first told the Alice story on a boat trip with the daughters of Dean Liddell on 4 July 1862."
+   }
+  },
+  {
+   "id": "T026-20",
+   "obtiznost": 2,
+   "otazka": {
+    "cs": "V jakém jazyce psal pražský rodák Franz Kafka svá literární díla?",
+    "en": "In which language did Prague-born Franz Kafka write his literary works?"
+   },
+   "moznosti": {
+    "cs": [
+     "V češtině",
+     "V hebrejštině",
+     "V jidiš",
+     "V němčině"
+    ],
+    "en": [
+     "Czech",
+     "Hebrew",
+     "Yiddish",
+     "German"
+    ]
+   },
+   "spravne": 3,
+   "vysvetleni": {
+    "cs": "Kafka psal německy, česky se ale učil osm let na gymnáziu. Za života vydal jen málo a většina díla vyšla až po jeho smrti v roce 1924.",
+    "en": "Kafka wrote in German, although he studied Czech for eight years at secondary school. He published little in his lifetime, and most of his work appeared after his death in 1924."
+   }
+  },
+  {
+   "id": "T026-21",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se ve skutečnosti jmenoval George Orwell?",
+    "en": "What was George Orwell's real name?"
+   },
+   "moznosti": {
+    "cs": [
+     "Eric Arthur Blair",
+     "Hector Hugh Munro",
+     "David John Moore Cornwell",
+     "Henry Vincent Yorke"
+    ],
+    "en": [
+     "Eric Arthur Blair",
+     "Hector Hugh Munro",
+     "David John Moore Cornwell",
+     "Henry Vincent Yorke"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Eric Blair zvolil pseudonym koncem roku 1932, aby rodinu neuváděl do rozpaků knihou o životě tuláka v Paříži a Londýně (vyšla v lednu 1933). Příjmení Orwell převzal od řeky v hrabství Suffolk.",
+    "en": "Eric Blair chose the pen name in late 1932 to spare his family embarrassment over his book about living as a tramp in Paris and London (published in January 1933). He took the surname from the River Orwell in Suffolk."
+   }
+  },
+  {
+   "id": "T026-22",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kolik nakladatelství odmítlo rukopis prvního Harryho Pottera, než ho koupilo Bloomsbury?",
+    "en": "How many publishers rejected the first Harry Potter manuscript before Bloomsbury bought it?"
+   },
+   "moznosti": {
+    "cs": [
+     "3",
+     "7",
+     "12",
+     "25"
+    ],
+    "en": [
+     "3",
+     "7",
+     "12",
+     "25"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Rukopis odmítlo dvanáct nakladatelů. V Bloomsbury pomohla osmiletá dcera šéfa nakladatelství Nigela Newtona, která po první kapitole chtěla číst dál.",
+    "en": "Twelve publishers turned it down. At Bloomsbury, the eight-year-old daughter of its head, Nigel Newton, helped by wanting to read on after the first chapter."
+   }
+  },
+  {
+   "id": "T026-23",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Proč vyšel první Harry Potter pod iniciálami J. K. místo jména Joanne?",
+    "en": "Why was the first Harry Potter book published under the initials J. K. rather than the name Joanne?"
+   },
+   "moznosti": {
+    "cs": [
+     "Nakladatel se bál, že chlapci nebudou chtít číst knihu od ženy",
+     "Autorka se chtěla skrýt před bývalým manželem",
+     "Plné jméno se nevešlo na úzký hřbet knihy",
+     "Stejné jméno už používala jiná autorka dětských knih"
+    ],
+    "en": [
+     "The publisher feared boys would not want to read a book by a woman",
+     "The author wanted to hide from her ex-husband",
+     "The full name would not fit on the narrow spine",
+     "Another children's author already used the same name"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Lidé z Bloomsbury navrhli iniciály kvůli chlapcům jako hlavnímu cílovému čtenáři. Písmeno K si vybrala podle babičky Kathleen.",
+    "en": "Bloomsbury staff suggested initials because boys were the target readers. She chose the K after her grandmother Kathleen."
+   }
+  },
+  {
+   "id": "T026-24",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Kdo po smrti autora dokončil Osudy dobrého vojáka Švejka a napsal jejich pokračování?",
+    "en": "After its author's death, who completed The Good Soldier Švejk and wrote its continuation?"
+   },
+   "moznosti": {
+    "cs": [
+     "Karel Poláček",
+     "Jaroslav Žák",
+     "Karel Vaněk",
+     "Josef Lada"
+    ],
+    "en": [
+     "Karel Poláček",
+     "Jaroslav Žák",
+     "Karel Vaněk",
+     "Josef Lada"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Autor plánoval šest dílů, ale zemřel v lednu 1923 během psaní čtvrtého. Na žádost nakladatele Adolfa Synka ho dokončil novinář Karel Vaněk a dopsal i další dva díly.",
+    "en": "The author planned six volumes but died in January 1923 while writing the fourth. At publisher Adolf Synek's request, journalist Karel Vaněk finished it and wrote two more volumes."
+   }
+  },
+  {
+   "id": "T026-25",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "V jakém jazyce poprvé vyšla Kunderova Nesnesitelná lehkost bytí?",
+    "en": "In which language was Kundera's The Unbearable Lightness of Being first published?"
+   },
+   "moznosti": {
+    "cs": [
+     "Francouzsky",
+     "Německy",
+     "Česky",
+     "Anglicky"
+    ],
+    "en": [
+     "French",
+     "German",
+     "Czech",
+     "English"
+    ]
+   },
+   "spravne": 0,
+   "vysvetleni": {
+    "cs": "Román vyšel nejdřív v roce 1984 ve francouzském překladu u Gallimardu. Český originál vydalo až o rok později exilové nakladatelství 68 Publishers v Torontu.",
+    "en": "The novel first appeared in 1984 in a French translation from Gallimard. The Czech original was published a year later by the exile publisher 68 Publishers in Toronto."
+   }
+  },
+  {
+   "id": "T026-26",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Jak se rodným jménem jmenovala Božena Němcová?",
+    "en": "What was Božena Němcová's birth name?"
+   },
+   "moznosti": {
+    "cs": [
+     "Tereza Lanhausová",
+     "Alžběta Pechová",
+     "Barbora Panklová",
+     "Johana Rottová"
+    ],
+    "en": [
+     "Tereza Lanhausová",
+     "Alžběta Pechová",
+     "Barbora Panklová",
+     "Johana Rottová"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Němcová se narodila jako Barbora Panklová (Barbara Pankl). Ostatní možnosti jsou rodná jména Karoliny Světlé, Elišky Krásnohorské a Terézy Novákové.",
+    "en": "Němcová was born Barbora Panklová (Barbara Pankl). The other options are the birth names of Karolina Světlá, Eliška Krásnohorská and Teréza Nováková."
+   }
+  },
+  {
+   "id": "T026-27",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Čím se živí Haňťa, hrdina Hrabalovy Příliš hlučné samoty?",
+    "en": "What does Haňťa, the hero of Hrabal's Too Loud a Solitude, do for a living?"
+   },
+   "moznosti": {
+    "cs": [
+     "Je výpravčím na malém nádraží",
+     "Spravuje pivovar v malém městě",
+     "Lisuje ve sklepě starý papír",
+     "Obsluhuje jako číšník v hotelu"
+    ],
+    "en": [
+     "He is a dispatcher at a small station",
+     "He manages a brewery in a small town",
+     "He compacts waste paper in a cellar",
+     "He serves as a waiter in a hotel"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Haňťa už 35 let lisuje starý papír v pražském sklepě, včetně zakázaných knih určených ke zničení, a zachraňuje z něj knihy, které si odnáší domů.",
+    "en": "For 35 years Haňťa has compacted waste paper in a Prague cellar, including banned books ordered to be destroyed, and rescues books from it to take home."
+   }
+  },
+  {
+   "id": "T026-28",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Koho chtěl Robert Louis Stevenson pobavit, když v roce 1881 začal psát Ostrov pokladů?",
+    "en": "Whom did Robert Louis Stevenson want to entertain when he began writing Treasure Island in 1881?"
+   },
+   "moznosti": {
+    "cs": [
+     "Žáky ve vesnické škole",
+     "Spolucestující na lodi",
+     "Svého nevlastního syna",
+     "Svou nemocnou manželku"
+    ],
+    "en": [
+     "Pupils at a village school",
+     "Fellow passengers on a ship",
+     "His stepson",
+     "His sick wife"
+    ]
+   },
+   "spravne": 2,
+   "vysvetleni": {
+    "cs": "Příběh začal psát za deštivého léta ve Skotsku pro dvanáctiletého nevlastního syna Lloyda Osbourna. Časopisecky ho vydával pod pseudonymem Captain George North.",
+    "en": "He began it during a rainy Scottish summer for his twelve-year-old stepson Lloyd Osbourne. It was serialised under the pseudonym Captain George North."
+   }
+  },
+  {
+   "id": "T026-29",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Shakespeare a Cervantes se tradičně spojují s úmrtím 23. dubna 1616. Proč ve skutečnosti nezemřeli ve stejný den?",
+    "en": "Shakespeare and Cervantes are traditionally both said to have died on 23 April 1616. Why did they not actually die on the same day?"
+   },
+   "moznosti": {
+    "cs": [
+     "Cervantesovo úmrtí se plete s narozením",
+     "Anglie a Španělsko měly jiný kalendář",
+     "Shakespeare ve skutečnosti zemřel o rok dřív",
+     "Shakespearovo úmrtí určili až historici"
+    ],
+    "en": [
+     "Cervantes' death is confused with his birth",
+     "England and Spain used different calendars",
+     "Shakespeare actually died a year earlier",
+     "Shakespeare's death was dated only by historians"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Cervantes zemřel 22. dubna 1616 a 23. dubna byl pohřben; Španělsko už používalo gregoriánský kalendář. Shakespeare zemřel 23. dubna podle juliánského kalendáře, který platil v Anglii, tedy 3. května podle gregoriánského, 11 dní po Cervantesovi. 23. duben je dnes Světový den knihy a autorských práv.",
+    "en": "Cervantes died on 22 April 1616 and was buried on 23 April; Spain already used the Gregorian calendar. Shakespeare died on 23 April in the Julian calendar used in England, which was 3 May in the Gregorian calendar, 11 days after Cervantes. 23 April is now World Book and Copyright Day."
+   }
+  },
+  {
+   "id": "T026-30",
+   "obtiznost": 3,
+   "otazka": {
+    "cs": "Který román začíná postřehem, že všechny šťastné rodiny jsou si podobné?",
+    "en": "Which novel opens with the observation that all happy families are alike?"
+   },
+   "moznosti": {
+    "cs": [
+     "Bratři Karamazovi",
+     "Anna Karenina",
+     "Zločin a trest",
+     "Vojna a mír"
+    ],
+    "en": [
+     "The Brothers Karamazov",
+     "Anna Karenina",
+     "Crime and Punishment",
+     "War and Peace"
+    ]
+   },
+   "spravne": 1,
+   "vysvetleni": {
+    "cs": "Tolstého Anna Karenina vycházela časopisecky v letech 1875–1877. Úvodní věta pokračuje tím, že každá nešťastná rodina je nešťastná po svém.",
+    "en": "Tolstoy's Anna Karenina was serialised from 1875 to 1877. The opening line continues that every unhappy family is unhappy in its own way."
+   }
+  }
+ ]
+}
