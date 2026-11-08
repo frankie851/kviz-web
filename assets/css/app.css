@@ -21,8 +21,8 @@
   --tr: #7A5F70;          /* překlad */
   --track: #F6E3CF;
   --progress: linear-gradient(90deg, #FFC53D, #C2255C);
-  --bar-ok: var(--ok);          /* správné odpovědi v ukazatelích (otázka, Statistiky) – D-023 */
-  --bar-bad: var(--progress);   /* špatné odpovědi */
+  --bar-ok: var(--ok);   /* správné odpovědi v ukazatelích (otázka, Statistiky) – D-023, varianta B */
+  --bar-bad: var(--bad); /* špatné odpovědi – plná červená bez přechodu */
   --streak-bg: #FFE9B0;
   --streak-ink: #6B3A00;
   --letter-bg: #FFF0DD;
