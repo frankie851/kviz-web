@@ -17,7 +17,7 @@ s „omezit pohyb“ žádné animace ani konfety; odkaz na téma u nového hrá
 na téma; při pomalém stažení tématu hned „Načítám…“; klávesy po rychlém odchodu z načítané otázky
 nic nezodpoví; dlouhé slovo a adresa v otázce, možnostech a vysvětlení nic neroztáhnou (320 px);
 náhled odkazu (Open Graph) a ikony; žádné chyby
-v konzoli; žádný síťový požadavek mimo vlastní adresu. Pak screenshoty 8 obrazovek na šířkách 320, 360, 390, 768 a 1280 px
+v konzoli; žádný síťový požadavek mimo vlastní adresu. Pak screenshoty 9 obrazovek na šířkách 320, 360, 390, 768 a 1280 px
 a kontrola, že nic nepřetéká do stran. Potřebuje aspoň 3 témata se všemi obtížnostmi.
 
 Návratový kód 0 = vše prošlo, 1 = něco selhalo (vypíše co).
@@ -834,6 +834,116 @@ def scenar_razeni_kategorii(browser, zaklad, hlidac, index, vystup=None):
     ctx.close()
 
 
+def scenar_d026(browser, zaklad, hlidac, index, otazky, vystup=None):
+    """D-026: karta Pokračuj na Domů, hledání témat, filtr v kategorii, stupňové odznaky."""
+    import unicodedata
+    print("Pokračuj, hledání, filtr a stupňové odznaky (D-026):")
+    viditelna = [(k, t_) for k in index["kategorie"] for t_ in k["temata"] if t_["otazek"].get("1", 0) >= 3]
+    nast = {"ui": "cs", "otazky": "cs", "preklad": "vypnuto", "zvuky": False, "vibrace": False}
+    v = lambda s_, cas=0: {"s": s_, "c": 10, "pul": s_, "odpovedi": [], "datum": "2026-11-01", "j": "cs", "r": 0, "cas": cas}
+    prazdny = lambda: {"verze": 2, "vysledky": {}, "rozehrano": {}, "dny": {"posledni": None, "serie": 0, "nejdelsi": 0}, "stat": {"kol": 0, "nejdelsiRada": 0}, "odznaky": {}}
+
+    ctx = browser.new_context(viewport={"width": 390, "height": 844}, locale="cs-CZ")
+    page = ctx.new_page()
+    page.set_default_timeout(8000)
+    hlidac.pripoj(page)
+
+    def nacti(pokrok):
+        page.goto(zaklad)
+        page.evaluate("""([n, p]) => { localStorage.clear(); localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(n));
+            if (p) localStorage.setItem('kviz.v1.pokrok', JSON.stringify(p)); }""", [nast, pokrok])
+        page.reload()
+        jdi(page, zaklad, "#/")
+
+    # --- Pokračuj
+    nacti(None)
+    over(page.locator("[data-test=pokracuj]").count() == 0, "nový hráč: karta Pokračuj není")
+    (k1, T1), (k2, T2) = viditelna[0], viditelna[1]
+    d2 = json.loads((KOREN / "data" / T2["soubor"]).read_text(encoding="utf-8"))
+    ids = [q["id"] for q in d2["otazky"] if str(q["obtiznost"]) == "1"][:10]
+    odp = [[ids[0], otazky[ids[0]]["spravne"]], [ids[1], otazky[ids[1]]["spravne"]], [ids[2], (otazky[ids[2]]["spravne"] + 1) % 4]]
+    pk = prazdny()
+    pk["vysledky"] = {T1["id"]: {"1": v(8, 1000)}}
+    pk["rozehrano"] = {f'{T2["id"]}|1': {"poradi": ids, "odpovedi": odp, "rada": 0, "nejdelsiRada": 2, "prekladOtevren": False, "ziskaneBehem": [], "j": "cs", "spravne": 2, "cas": 2000}}
+    nacti(pk)
+    karta = page.locator("[data-test=pokracuj]")
+    over(karta.count() == 1 and karta.get_attribute("href") == f'#/hra/{T2["id"]}/1' and f"otázka 4 z {len(ids)}" in karta.inner_text(),
+         "Pokračuj: rozehrané kolo, „otázka 4 z 10“")
+    if vystup:
+        vystup.mkdir(parents=True, exist_ok=True)
+        page.wait_for_timeout(700)
+        page.screenshot(path=str(vystup / "d026-domu-pokracuj-390.png"))
+    karta.click()
+    page.wait_for_selector(".qcard")
+    over(page.inner_text("[data-test=pocitadlo]").replace(" ", "").startswith("4/"), "ťuknutí na Pokračuj otevře kolo na 4. otázce")
+    pk["rozehrano"] = {}
+    nacti(pk)
+    karta = page.locator("[data-test=pokracuj]")
+    over(karta.count() == 1 and karta.get_attribute("href") == f'#/hra/{T1["id"]}/2' and "nová obtížnost" in karta.inner_text(),
+         "Pokračuj bez rozehraného kola: další obtížnost naposledy hraného tématu")
+
+    # --- hledání
+    jmeno = T1["nazev"]["cs"]
+    slovo = next((w for w in jmeno.split() if len(w) >= 5), jmeno.split()[0])
+    dotaz = unicodedata.normalize("NFD", slovo[:5]).encode("ascii", "ignore").decode().lower()  # bez diakritiky
+    page.fill("[data-test=hledani]", dotaz)
+    page.wait_for_timeout(200)
+    over(page.locator(f'[data-test=vysledky-hledani] .hit[data-tema="{T1["id"]}"]').count() == 1 and not page.is_visible("[data-test=kategorie-domu]"),
+         f"hledání „{dotaz}“ (bez diakritiky) najde „{jmeno}“ a schová kategorie")
+    if vystup:
+        page.screenshot(path=str(vystup / "d026-hledani-390.png"))
+    page.fill("[data-test=hledani]", "qxqxzz")
+    over(page.locator("[data-test=nic-nenalezeno]").count() == 1, "nesmyslný dotaz: „Žádné téma tomu neodpovídá“")
+    page.fill("[data-test=hledani]", "")
+    over(page.is_visible("[data-test=kategorie-domu]"), "smazané hledání: kategorie zpět")
+
+    # --- filtr v kategorii (kategorie s nejvíc tématy)
+    kat = max(index["kategorie"], key=lambda k: len(k["temata"]))
+    tt = [t_ for t_ in kat["temata"] if t_["otazek"].get("1", 0) >= 3 and t_["otazek"].get("2", 0) >= 3]
+    if len(tt) >= 4:
+        pk = prazdny()
+        pk["vysledky"] = {tt[0]["id"]: {"1": v(5)}, tt[1]["id"]: {"1": v(8)}}  # 1 hotové (pod 70 %), 1 rozehrané
+        nacti(pk)
+        jdi(page, zaklad, f'#/kategorie/{kat["id"]}')
+        pocty = {f: page.inner_text(f'[data-filtr="{f}"] .chip-n') for f in ("vse", "nehrane", "rozehrane", "hotove")}
+        n = page.locator(".topic").count()
+        over(pocty == {"vse": str(n), "nehrane": str(n - 2), "rozehrane": "1", "hotove": "1"}, f"filtr: počty {pocty}")
+        page.click('[data-filtr="hotove"]')
+        vid = [x for x in page.eval_on_selector_all(".topic", "els => els.filter(e => !e.hidden).map(e => e.dataset.tema)")]
+        over(vid == [tt[0]["id"]], "filtr Hotové ukáže jen uzavřené téma")
+        if vystup:
+            page.screenshot(path=str(vystup / "d026-filtr-390.png"))
+        page.click('[data-filtr="nehrane"]')
+        over(page.eval_on_selector_all(".topic", "els => els.filter(e => !e.hidden).length") == n - 2, "filtr Nehrané")
+        page.click('[data-filtr="vse"]')
+
+    # --- stupňové odznaky: 9 uzavřených témat + 10. uzavřené kolem → Cestovatel – bronz
+    if len(viditelna) >= 11:
+        pk = prazdny()
+        pk["vysledky"] = {t_["id"]: {"1": v(5)} for _, t_ in viditelna[:9]}
+        nacti(pk)
+        T10 = viditelna[9][1]["id"]
+        zacni_kolo(page, zaklad, T10)
+        zahraj_kolo(page, otazky, spatnych=4)  # 60 % → další obtížnost zamčená natrvalo → 10. uzavřené téma
+        over("Cestovatel – bronz" in page.inner_text("[data-test=nove-odznaky]"), "10. dohrané téma: nový odznak „Cestovatel – bronz“")
+        jdi(page, zaklad, "#/odznaky")
+        rada = page.locator('[data-rada="temata"]')
+        over(rada.locator('.medal.on[data-odznak="temata-10"]').count() == 1 and "10 / 50 do stříbra" in rada.inner_text(),
+             "Odznaky: řada Cestovatel – bronz získán, „10 / 50 do stříbra“")
+        n_kat = len([k for k in index["kategorie"] if any(any(t_["otazek"].get(o, 0) >= 3 for o in "123") for t_ in k["temata"])])
+        over(page.locator("[data-test=rady-kategorie] .bfam").count() == n_kat, f"Znalec kategorií: {n_kat} řad")
+        bez_chybejicich_textu(page, "Odznaky (stupně)")
+        p_ = pretekani(page)
+        over(not p_, "Odznaky nepřetékají" + (f": {p_}" if p_ else ""))
+        if vystup:
+            page.wait_for_timeout(600)
+            page.screenshot(path=str(vystup / "d026-odznaky-390.png"), full_page=True)
+        jdi(page, zaklad, "#/")
+        celkem = 10 + 4 * 3 + 3 * n_kat
+        over(page.inner_text("[data-test=odznaky] b").endswith(f"/ {celkem}"), f"Domů: odznaky z celkem {celkem}")
+    ctx.close()
+
+
 def kontrola_nahledu_odkazu():
     print("Náhled odkazu (Open Graph) a ikony:")
     html = (KOREN / "index.html").read_text(encoding="utf-8")
@@ -876,7 +986,7 @@ def screenshoty(browser, zaklad, hlidac, otazky, T, vystup):
         # kolo s 3 špatnými (70 % = 3,5 ★), aby byl výsledek s půlhvězdou a otevřená Střední
         zacni_kolo(page, zaklad, T)
         zahraj_kolo(page, otazky, spatnych=3, klavesnice=True)
-        snimky = [("1-domu", "#/", None), ("2-kategorie", "#/kategorie", None), ("8-statistiky", "#/statistiky", None), ("3-otazka", f"#/hra/{T}/2", "odpoved"),
+        snimky = [("1-domu", "#/", None), ("2-kategorie", "#/kategorie", None), ("8-statistiky", "#/statistiky", None), ("9-odznaky", "#/odznaky", None), ("3-otazka", f"#/hra/{T}/2", "odpoved"),
                   ("4-vysledek", "#/vysledek", None), ("5-nastaveni", "#/nastaveni", None), ("6-prehled", f"#/prehled/{T}/1", None),
                   ("7-obtiznost", f"#/tema/{T}", None)]
         for nazev, h_, akce in snimky:
@@ -940,6 +1050,7 @@ def main():
             lambda: scenar_zvuku(page, zaklad, otazky, tema3["id"]),
             lambda: scenar_omezit_pohyb(browser, zaklad, hlidac, otazky, tema["id"]),
             lambda: scenar_statistik(browser, zaklad, hlidac, temata),
+            lambda: scenar_d026(browser, zaklad, hlidac, index, otazky, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_razeni_kategorii(browser, zaklad, hlidac, index, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_postupu(browser, zaklad, hlidac, otazky, tema2["id"]),
             lambda: scenar_mnoho_kategorii(browser, zaklad, hlidac, index, None if args.bez_screenshotu else Path(args.vystup)),
