@@ -64,7 +64,25 @@
     "odznaku": "odznaků",
     "bezUkladani": "Tento prohlížeč nedovoluje ukládat – pokrok se po zavření stránky ztratí.",
     "otazka": "Co si dnes zahraješ?",
-    "vsechnyKategorie": "Všechny kategorie ({n})"
+    "vsechnyKategorie": "Všechny kategorie ({n})",
+    "pokracuj": "Pokračuj",
+    "pokracujRozehrane": "{obtiznost} · otázka {i} z {n}",
+    "pokracujNova": "{obtiznost} · nová obtížnost",
+    "hledat": "Hledat téma",
+    "hledatPlaceholder": "Hledat téma…",
+    "nicNenalezeno": "Žádné téma tomu neodpovídá.",
+    "nalezeno": {
+      "one": "Nalezeno {n} téma",
+      "few": "Nalezena {n} témata",
+      "many": "Nalezeno {n} tématu",
+      "other": "Nalezeno {n} témat"
+    },
+    "dalsiVysledky": {
+      "one": "…a ještě {n} další – upřesni hledání.",
+      "few": "…a ještě {n} další – upřesni hledání.",
+      "many": "…a ještě {n} dalšího – upřesni hledání.",
+      "other": "…a ještě {n} dalších – upřesni hledání."
+    }
   },
   "kategorie": {
     "nadpis": "Kategorie",
@@ -78,7 +96,15 @@
   },
   "temata": {
     "vyberTema": "Vyber si téma",
-    "hraj": "Hraj"
+    "hraj": "Hraj",
+    "filtrNadpis": "Zobrazit témata",
+    "filtrPrazdny": "Tady zatím žádné téma není.",
+    "filtr": {
+      "vse": "Vše",
+      "nehrane": "Nehrané",
+      "rozehrane": "Rozehrané",
+      "hotove": "Hotové"
+    }
   },
   "obtiznost": {
     "1": "Lehká",
@@ -145,7 +171,23 @@
     "pocet": "Získáno {n} z {z}",
     "ziskano": "Získáno {datum}",
     "zamceno": "Zatím nezískáno",
-    "novy": "Nový!"
+    "novy": "Nový!",
+    "stupne": "Postup po stupních",
+    "jednotlive": "Jednotlivé odznaky",
+    "znalec": "Znalec kategorií",
+    "znalecPopis": "Bronz za čtvrtinu dohraných témat v kategorii, stříbro za polovinu, zlato za všechna.",
+    "stupen": {
+      "1": "bronz",
+      "2": "stříbro",
+      "3": "zlato"
+    },
+    "stupenDo": {
+      "1": "do bronzu",
+      "2": "do stříbra",
+      "3": "do zlata"
+    },
+    "doStupne": "{x} / {prah} {do}",
+    "vse": "Všechny stupně získány 🎉"
   },
   "odznak": {
     "prvni-kolo": {
@@ -195,6 +237,55 @@
     "bez-napovedy": {
       "nazev": "Bez nápovědy",
       "popis": "Kolo v cizím jazyce za 70 % a víc – s překladem na ťuknutí, ale ani jednou ho neotevři."
+    },
+    "rodina-temata": {
+      "nazev": "Cestovatel",
+      "popis": {
+        "one": "Dohraj {n} téma.",
+        "few": "Dohraj {n} témata.",
+        "many": "Dohraj {n} tématu.",
+        "other": "Dohraj {n} témat."
+      }
+    },
+    "rodina-spravne": {
+      "nazev": "Učenec",
+      "popis": {
+        "one": "Odpověz správně na {n} otázku.",
+        "few": "Odpověz správně na {n} otázky.",
+        "many": "Odpověz správně na {n} otázky.",
+        "other": "Odpověz správně na {n} otázek."
+      }
+    },
+    "rodina-hvezdy": {
+      "nazev": "Sběratel hvězd",
+      "popis": {
+        "one": "Získej {n} hvězdu.",
+        "few": "Získej {n} hvězdy.",
+        "many": "Získej {n} hvězdy.",
+        "other": "Získej {n} hvězd."
+      }
+    },
+    "rodina-dny": {
+      "nazev": "Vytrvalec",
+      "popis": {
+        "one": "Hraj {n} den po sobě.",
+        "few": "Hraj {n} dny po sobě.",
+        "many": "Hraj {n} dne po sobě.",
+        "other": "Hraj {n} dní po sobě."
+      }
+    },
+    "dny-30": {
+      "nazev": "Celý měsíc",
+      "popis": "Hraj 30 dní po sobě."
+    },
+    "kat": {
+      "nazev": "Znalec: {kategorie}",
+      "popis": {
+        "one": "Dohraj {p} % témat v kategorii {kategorie} ({n} téma).",
+        "few": "Dohraj {p} % témat v kategorii {kategorie} ({n} témata).",
+        "many": "Dohraj {p} % témat v kategorii {kategorie} ({n} tématu).",
+        "other": "Dohraj {p} % témat v kategorii {kategorie} ({n} témat)."
+      }
     }
   },
   "nastaveni": {

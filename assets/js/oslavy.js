@@ -3,6 +3,7 @@
 // S „omezit pohyb“ (prefers-reduced-motion) se konfety nespustí a upozornění se jen ukáže bez pohybu.
 import { h, prefersReducedMotion } from "./ui.js";
 import { t } from "./i18n.js";
+import { nazevOdznaku } from "./badges.js";
 
 const BARVY = ["#C2255C", "#FFC53D", "#2B1630", "#FF8FB1", "#1E9E5A", "#FFE3A1"];
 let bezi = null;
@@ -123,7 +124,7 @@ export function oznameniOdznaku(odznak) {
     h("span", { class: "toast-ico", "aria-hidden": "true", text: odznak.ikona }),
     h("span", { class: "toast-body" },
       h("span", { class: "toast-h", text: t("oslavy.novyOdznak") }),
-      h("span", { class: "toast-name", text: t(`odznak.${odznak.id}.nazev`) }))
+      h("span", { class: "toast-name", text: nazevOdznaku(odznak) }))
   );
   oblast.append(toast);
   setTimeout(zavri, 3200);

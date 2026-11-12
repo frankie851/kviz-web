@@ -6,7 +6,7 @@ import { t, jazyk } from "../i18n.js";
 import { h, hvezdicky, prefersReducedMotion } from "../ui.js";
 import { najdiTema, txt } from "../data.js";
 import { nacti, uloz } from "../storage.js";
-import { odznak } from "../badges.js";
+import { odznak, nazevOdznaku } from "../badges.js";
 import { zvuk, vibrace } from "../feedback.js";
 import { konfety, zastavKonfety } from "../oslavy.js";
 
@@ -58,7 +58,7 @@ export function vykresli() {
           h("ul", {}, nove.map((o) =>
             h("li", { class: "new-badge" },
               h("span", { class: "nb-ico", "aria-hidden": "true", text: o.ikona }),
-              h("span", { class: "nb-name", text: t(`odznak.${o.id}.nazev`) })))))
+              h("span", { class: "nb-name", text: nazevOdznaku(o) })))))
       : null,
     h("div", { class: "res-btns" },
       odemceno

@@ -3,7 +3,7 @@
 import { nacti, uloz } from "./storage.js";
 import { pulhvezdy, odemyka, stavObtiznosti, dalsiObtiznost, dnes, vcera, MAX_HVEZD } from "./game.js";
 import { najdiTema, viditelneObtiznosti, viditelnaTemata, viditelneKategorie, vsechnaTemata } from "./data.js";
-import { ODZNAKY } from "./badges.js";
+import { vsechnyOdznaky, odznak } from "./badges.js";
 
 const VERZE = 2; // verze 1 (3 hvězdy, opakování kol) se zahazuje – DECISIONS D-013
 const PRAZDNY = () => ({
@@ -101,6 +101,66 @@ export function uzavrenaVKategorii(kat) {
   return { x: vsech.filter(jeUzavrene).length, t: vsech.length };
 }
 
+/** Počet uzavřených témat ve všech kategoriích (stupňový odznak Cestovatel, D-026). */
+export function pocetUzavrenych() {
+  return vsechnaTemata().filter(jeUzavrene).length;
+}
+
+/** Správné odpovědi ze všech dohraných kol (stupňový odznak Učenec, D-026). */
+export function spravneCelkem() {
+  let s = 0;
+  for (const obt of Object.values(p.vysledky)) for (const v of Object.values(obt || {})) s += v?.s || 0;
+  return s;
+}
+
+/** Celé hvězdy (půlky dolů) ze všech témat na webu. */
+export function hvezdyCelych() {
+  return Math.floor(hvezdyCelkem().pul / 2);
+}
+
+/** Stav tématu pro filtr v kategorii (D-026): "hotove" | "rozehrane" | "nehrane". */
+export function stavTematu(temaInfo) {
+  if (jeUzavrene(temaInfo)) return "hotove";
+  const vid = viditelneObtiznosti(temaInfo);
+  const hrano = vid.some((o) => vysledek(temaInfo.id, o) || rozehrane(temaInfo.id, o)?.odpovedi?.length);
+  return hrano ? "rozehrane" : "nehrane";
+}
+
+/**
+ * Karta „Pokračuj“ na Domů (D-026): naposledy rozehrané kolo s aspoň jednou odpovědí, jinak další
+ * otevřená obtížnost naposledy hraného tématu. Vrací { info, obt, rozehrane, i, n, spravne } nebo null.
+ */
+export function pokracovani() {
+  const roz = Object.entries(p.rozehrano || {})
+    .map(([k, kolo]) => { const [temaId, obt] = k.split("|"); return { info: najdiTema(temaId), obt, kolo }; })
+    .filter((x) => x.info && x.kolo?.odpovedi?.length && x.kolo.odpovedi.length < (x.kolo.poradi?.length || 0) && stav(x.info.tema, x.obt) === "otevreno")
+    .sort((a, b) => (b.kolo.cas || 0) - (a.kolo.cas || 0));
+  if (roz.length) {
+    const { info, obt, kolo } = roz[0];
+    return { info, obt, rozehrane: true, i: kolo.odpovedi.length, n: kolo.poradi.length, spravne: typeof kolo.spravne === "number" ? kolo.spravne : null };
+  }
+  const hrane = [];
+  for (const [temaId, obt] of Object.entries(p.vysledky)) {
+    const info = najdiTema(temaId);
+    if (!info) continue;
+    const posledni = Object.values(obt || {}).reduce((m, v) => Math.max(m, v?.cas || 0), 0);
+    const datum = Object.values(obt || {}).map((v) => v?.datum || "").sort().pop() || "";
+    hrane.push({ info, posledni, datum });
+  }
+  hrane.sort((a, b) => b.posledni - a.posledni || b.datum.localeCompare(a.datum));
+  for (const { info } of hrane) {
+    const obt = viditelneObtiznosti(info.tema).find((o) => stav(info.tema, o) === "otevreno");
+    if (obt) return { info, obt, rozehrane: false };
+  }
+  return null;
+}
+
+/** Funkce pokroku pro podmínky odznaků (badges.js) a jejich postup na obrazovce Odznaky. */
+export const apiOdznaku = {
+  jeDohrane, pocetDohranych, hvezdyTematu, hvezdyKategorie,
+  pocetUzavrenych, spravneCelkem, hvezdyCelych, uzavrenaVKategorii, serieDni: () => serieDni(),
+};
+
 /** Aktuální série dní (když hráč včera ani dnes nehrál, je přerušená = 0). */
 export function serieDni() {
   const { posledni, serie } = p.dny;
@@ -135,7 +195,7 @@ export function ulozRozehrane(temaId, obt, kolo) {
  * Na výsledku kola se pak ukáže mezi novými odznaky (kolo si ho pamatuje v `ziskaneBehem`).
  */
 export function udelOdznak(id) {
-  if (p.odznaky[id] || !ODZNAKY.some((o) => o.id === id)) return false;
+  if (p.odznaky[id] || !odznak(id)) return false;
   p.odznaky[id] = dnes();
   ulozit();
   return true;
@@ -155,7 +215,7 @@ export function zapisKolo(kolo) {
   p.vysledky[temaId] = {
     ...(p.vysledky[temaId] || {}),
     // j = jazyk otázek, r = nejdelší série správných odpovědí v kole (pro Statistiky, D-021)
-    [String(obt)]: { s: spravne, c: celkem, pul, odpovedi: kolo.odpovedi.map(([id, v]) => [id, v]), datum: d, j: kolo.jazykOtazek, r: kolo.nejdelsiRada || 0 },
+    [String(obt)]: { s: spravne, c: celkem, pul, odpovedi: kolo.odpovedi.map(([id, v]) => [id, v]), datum: d, j: kolo.jazykOtazek, r: kolo.nejdelsiRada || 0, cas: Date.now() },
   };
   delete p.rozehrano[klic(temaId, obt)];
 
@@ -167,10 +227,11 @@ export function zapisKolo(kolo) {
   p.stat.kol += 1;
   p.stat.nejdelsiRada = Math.max(p.stat.nejdelsiRada, kolo.nejdelsiRada || 0);
 
-  const ctx = { kolo: { ...kolo, pul, odemyka: odemyka(spravne, celkem) }, info, pokrok: p, api: { jeDohrane, pocetDohranych, hvezdyTematu, hvezdyKategorie } };
+  const ctx = { kolo: { ...kolo, pul, odemyka: odemyka(spravne, celkem) }, info, pokrok: p, api: apiOdznaku };
   // odznaky získané už během kola patří taky mezi „nové“ na výsledku
-  const nove = ODZNAKY.filter((o) => (kolo.ziskaneBehem || []).includes(o.id) && p.odznaky[o.id]).map((o) => o.id);
-  for (const o of ODZNAKY) {
+  const vse = vsechnyOdznaky();
+  const nove = vse.filter((o) => (kolo.ziskaneBehem || []).includes(o.id) && p.odznaky[o.id]).map((o) => o.id);
+  for (const o of vse) {
     if (!p.odznaky[o.id] && o.splneno(ctx)) {
       p.odznaky[o.id] = d;
       nove.push(o.id);
