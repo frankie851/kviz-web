@@ -1,10 +1,14 @@
 // 4. Témata v kategorii – karty témat, u každé tři malé ukazatele hvězd (Lehká / Střední / Těžká).
+// Od 4 témat nahoře filtr Vše / Nehrané / Rozehrané / Hotové s počty (D-026).
 import { t, jazyk } from "../i18n.js";
 import { h, lista, hvezdicky, hvezdyText, ikonaKategorie } from "../ui.js";
 import { kategorie, viditelnaTemata, viditelneObtiznosti, txt } from "../data.js";
-import { pulV, stav, hvezdyTematu } from "../progress.js";
+import { pulV, stav, hvezdyTematu, stavTematu } from "../progress.js";
 
 export const ID = "temata";
+const FILTRY = ["vse", "nehrane", "rozehrane", "hotove"];
+const MIN_TEMAT_PRO_FILTR = 4;
+const zvolenyFiltr = new Map(); // kategorie → filtr (pamatuje se po dobu otevřené stránky)
 
 export function vykresli([katId]) {
   const kat = kategorie(katId);
@@ -24,7 +28,7 @@ export function vykresli([katId]) {
     });
     return h(
       "a",
-      { class: "card topic", href: `#/tema/${tema.id}`, "data-tema": tema.id },
+      { class: "card topic", href: `#/tema/${tema.id}`, "data-tema": tema.id, "data-stav-tematu": stavTematu(tema) },
       h("span", { class: "topic-head" },
         h("span", { class: "topic-name", text: txt(tema.nazev, jazyk()) }),
         h("span", { class: "topic-sum", text: hvezdyText(hv.pul, hv.max) })),
@@ -32,12 +36,38 @@ export function vykresli([katId]) {
     );
   });
 
+  // filtr: přepíná jen viditelnost karet (bez překreslení obrazovky)
+  let filtrEl = null;
+  const prazdne = h("p", { class: "empty-hledani", "data-test": "filtr-prazdny", hidden: true, text: t("temata.filtrPrazdny") });
+  if (karty.length >= MIN_TEMAT_PRO_FILTR) {
+    const pocty = { vse: karty.length };
+    for (const k of karty) pocty[k.dataset.stavTematu] = (pocty[k.dataset.stavTematu] || 0) + 1;
+    const tlacitka = FILTRY.map((f) => h("button", {
+      type: "button", class: "chip", "data-filtr": f, "aria-pressed": "false",
+      onclick: () => nastav(f),
+    }, t(`temata.filtr.${f}`), h("span", { class: "chip-n", text: String(pocty[f] || 0) })));
+    const nastav = (f) => {
+      zvolenyFiltr.set(kat.id, f);
+      tlacitka.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.filtr === f)));
+      let vidno = 0;
+      for (const k of karty) {
+        k.hidden = f !== "vse" && k.dataset.stavTematu !== f;
+        if (!k.hidden) vidno += 1;
+      }
+      prazdne.hidden = vidno > 0;
+    };
+    filtrEl = h("div", { class: "chips", role: "group", "aria-label": t("temata.filtrNadpis"), "data-test": "filtr" }, tlacitka);
+    nastav(zvolenyFiltr.get(kat.id) || "vse");
+  }
+
   const el = h(
     "main",
     { class: "screen" },
     lista({ zpet: "#/", nadpis: txt(kat.nazev, jazyk()) }),
     h("p", { class: "lead lead-center lead-ikona" }, ikonaKategorie(kat, "lead-ico"), h("span", { text: t("temata.vyberTema") })),
-    h("div", { class: "cards" }, karty)
+    filtrEl,
+    h("div", { class: "cards" }, karty),
+    prazdne
   );
   return { el, titulek: txt(kat.nazev, jazyk()) };
 }

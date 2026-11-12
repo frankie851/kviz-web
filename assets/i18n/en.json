@@ -62,7 +62,21 @@
     "odznaku": "badges",
     "bezUkladani": "This browser doesn't allow saving – your progress will be lost when you close the page.",
     "otazka": "What will you play today?",
-    "vsechnyKategorie": "All categories ({n})"
+    "vsechnyKategorie": "All categories ({n})",
+    "pokracuj": "Continue",
+    "pokracujRozehrane": "{obtiznost} · question {i} of {n}",
+    "pokracujNova": "{obtiznost} · new level",
+    "hledat": "Search topics",
+    "hledatPlaceholder": "Search topics…",
+    "nicNenalezeno": "No topic matches that.",
+    "nalezeno": {
+      "one": "{n} topic found",
+      "other": "{n} topics found"
+    },
+    "dalsiVysledky": {
+      "one": "…and {n} more – refine your search.",
+      "other": "…and {n} more – refine your search."
+    }
   },
   "kategorie": {
     "nadpis": "Categories",
@@ -74,7 +88,15 @@
   },
   "temata": {
     "vyberTema": "Pick a topic",
-    "hraj": "Play"
+    "hraj": "Play",
+    "filtrNadpis": "Show topics",
+    "filtrPrazdny": "No topics here yet.",
+    "filtr": {
+      "vse": "All",
+      "nehrane": "New",
+      "rozehrane": "In progress",
+      "hotove": "Done"
+    }
   },
   "obtiznost": {
     "1": "Easy",
@@ -137,7 +159,23 @@
     "pocet": "{n} of {z} earned",
     "ziskano": "Earned {datum}",
     "zamceno": "Not earned yet",
-    "novy": "New!"
+    "novy": "New!",
+    "stupne": "Levels",
+    "jednotlive": "Single badges",
+    "znalec": "Category expert",
+    "znalecPopis": "Bronze for finishing a quarter of the topics in a category, silver for half, gold for all of them.",
+    "stupen": {
+      "1": "bronze",
+      "2": "silver",
+      "3": "gold"
+    },
+    "stupenDo": {
+      "1": "to bronze",
+      "2": "to silver",
+      "3": "to gold"
+    },
+    "doStupne": "{x} / {prah} {do}",
+    "vse": "All levels earned 🎉"
   },
   "odznak": {
     "prvni-kolo": {
@@ -187,6 +225,45 @@
     "bez-napovedy": {
       "nazev": "No Hints",
       "popis": "Get 70% or more in a foreign-language round with translation on tap – without opening it once."
+    },
+    "rodina-temata": {
+      "nazev": "Globetrotter",
+      "popis": {
+        "one": "Finish {n} topic.",
+        "other": "Finish {n} topics."
+      }
+    },
+    "rodina-spravne": {
+      "nazev": "Scholar",
+      "popis": {
+        "one": "Answer {n} question correctly.",
+        "other": "Answer {n} questions correctly."
+      }
+    },
+    "rodina-hvezdy": {
+      "nazev": "Star collector",
+      "popis": {
+        "one": "Collect {n} star.",
+        "other": "Collect {n} stars."
+      }
+    },
+    "rodina-dny": {
+      "nazev": "Regular",
+      "popis": {
+        "one": "Play {n} day in a row.",
+        "other": "Play {n} days in a row."
+      }
+    },
+    "dny-30": {
+      "nazev": "Whole month",
+      "popis": "Play 30 days in a row."
+    },
+    "kat": {
+      "nazev": "Expert: {kategorie}",
+      "popis": {
+        "one": "Finish {p}% of the topics in {kategorie} ({n} topic).",
+        "other": "Finish {p}% of the topics in {kategorie} ({n} topics)."
+      }
     }
   },
   "nastaveni": {

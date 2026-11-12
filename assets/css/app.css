@@ -339,6 +339,56 @@ a.diff:active { transform: translateY(2px); }
 .switch[aria-checked="true"] .switch-knob { transform: translateX(32px); }
 .about p + p { margin-top: 8px; }
 
+/* ---------- Domů: Pokračuj, hledání (D-026) ---------- */
+.pokracuj { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 12px; margin-bottom: 12px;
+  text-decoration: none; color: var(--ink); box-shadow: 0 0 0 2px var(--primary) inset, var(--shadow-soft); }
+.pokracuj-body { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.pokracuj-name { font-family: var(--font-h); font-weight: 800; font-size: 19px; line-height: 1.15; overflow-wrap: anywhere; }
+.pokracuj-meta { display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: 14px; font-weight: 700; }
+.pokracuj-ico { font-size: 16px; line-height: 1; }
+.pokracuj-pruh { flex: none; height: 8px; margin-top: 6px; }
+.progress .p-neutral { background: #C9B3A1; }
+.pokracuj-go { width: 52px; height: 52px; border-radius: 50%; display: grid; place-items: center; background: var(--primary); color: #fff; font-size: 20px; }
+.hledani { position: relative; margin-bottom: 12px; }
+.hledani-ico { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); font-size: 18px; pointer-events: none; }
+.hledani-pole { width: 100%; min-height: 50px; padding: 10px 16px 10px 46px; border: 2px solid var(--line); border-radius: 999px;
+  background: var(--surface); color: var(--ink); font: inherit; font-size: 16px; box-shadow: var(--shadow-soft); -webkit-appearance: none; appearance: none; }
+.hledani-pole:focus { outline: none; border-color: var(--primary); }
+.hledani-pole::placeholder { color: var(--muted); }
+.hledani-vysledky { margin-bottom: 14px; }
+.hit-count { color: var(--muted); font-size: 14px; font-weight: 700; margin: 0 0 8px 4px; }
+.hit { display: grid; grid-template-columns: 36px minmax(0, 1fr) 20px; align-items: center; gap: 12px; text-decoration: none; border: 2px solid transparent; }
+.hit-ico { font-size: 26px; text-align: center; line-height: 1; }
+.hit-ico.kat-obr { display: flex; justify-content: center; font-size: 22px; }
+.hit-body { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.hit-name { font-family: var(--font-h); font-weight: 800; font-size: 18px; line-height: 1.2; overflow-wrap: anywhere; }
+.hit-meta { color: var(--muted); font-size: 14px; font-weight: 700; }
+.empty-hledani { text-align: center; color: var(--muted); padding: 16px 8px; }
+
+/* ---------- Témata: filtr (D-026) ---------- */
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 6px 14px; border: 2px solid var(--line); border-radius: 999px;
+  background: var(--surface); color: var(--ink); font: inherit; font-weight: 800; font-size: 15px; cursor: pointer; }
+.chip-n { min-width: 24px; padding: 0 6px; border-radius: 999px; background: var(--bg); color: var(--muted); font-size: 13px; text-align: center; }
+.chip[aria-pressed="true"] { background: var(--primary); border-color: var(--primary); color: var(--on-primary); }
+.chip[aria-pressed="true"] .chip-n { background: rgba(255, 255, 255, .25); color: #fff; }
+
+/* ---------- Odznaky po stupních (D-026) ---------- */
+.sekce-h { font-size: 21px; margin: 22px 0 10px; }
+.sekce-h:first-of-type { margin-top: 8px; }
+.bfams { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.bfam { position: relative; display: grid; gap: 6px; padding: 14px 16px; border-radius: var(--r-card); background: var(--surface); box-shadow: var(--shadow-soft); }
+.bfam-top { display: flex; align-items: center; gap: 10px; }
+.bfam-ico { font-size: 28px; line-height: 1; flex: none; }
+.bfam-name { flex: 1; min-width: 0; font-family: var(--font-h); font-weight: 800; font-size: 18px; line-height: 1.15; overflow-wrap: anywhere; }
+.medals { display: flex; gap: 2px; flex: none; }
+.medal { font-size: 24px; line-height: 1; filter: grayscale(1); opacity: .3; }
+.medal.on { filter: none; opacity: 1; }
+.meter-fam { height: 8px; }
+.bfam-state { font-weight: 800; font-size: 14px; }
+.bfam-desc { color: var(--muted); font-size: 14px; line-height: 1.35; }
+.bfam .bcard-new { top: -8px; right: 12px; }
+
 /* ---------- Statistiky (D-021) ---------- */
 .label { font-size: 13px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); margin: 0; }
 .stat-hero { text-align: center; }

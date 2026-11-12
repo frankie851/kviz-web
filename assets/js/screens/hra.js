@@ -55,6 +55,7 @@ export async function vykresli([temaId, obt], app) {
   const uloz = () => ulozRozehrane(temaId, obt, {
     poradi: otazky.map((q) => q.id), odpovedi, rada: stav.rada, nejdelsiRada: stav.nejdelsiRada, prekladOtevren: stav.prekladOtevren,
     ziskaneBehem: stav.ziskaneBehem, j: jo, // j = jazyk otázek (Statistiky, D-022)
+    spravne: stav.spravne, cas: Date.now(), // pro kartu Pokračuj na Domů (D-026)
   });
 
   // --- kostra obrazovky ---
