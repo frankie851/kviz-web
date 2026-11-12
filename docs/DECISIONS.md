@@ -1,6 +1,20 @@
 # DECISIONS – Kvízová webová aplikace
 Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový záznam s odkazem na původní.
 
+## D-026 · 2026-11-12 · Karta Pokračuj, hledání a filtr témat, stupňové odznaky (Davidova volba z návrhů 1–3)
+- **Pokračuj (Domů):** karta nad hledáním. Přednost má naposledy rozehrané kolo s aspoň jednou odpovědí („Lehká · otázka 4 z 10“ + pruh zeleně/červeně), jinak další otevřená obtížnost naposledy hraného tématu („Střední · nová obtížnost“). Bez obojího se karta neukáže. Rozehrané kolo nově ukládá `spravne` a `cas`, výsledek kola `cas` (pořadí „naposledy“); starší záznamy bez času mají nejnižší přednost. `progress.js` `pokracovani()`.
+- **Hledání (Domů):** pole „Hledat téma…“; od 2 znaků se místo dlaždic kategorií ukážou nalezená témata (v obou jazycích názvu, bez ohledu na diakritiku a velká písmena), nejvýš 30 + „…a ještě n dalších“. Dotaz se pamatuje do zavření stránky; Esc nebo smazání vrátí kategorie.
+- **Filtr v kategorii:** od 4 témat přepínač Vše / Nehrané / Rozehrané / Hotové s počty (Hotové = dál nejde hrát, stejně jako „dohráno x / t“ – D-021; Rozehrané = něco odehráno nebo rozehráno). Volba se pamatuje pro každou kategorii do zavření stránky. `progress.js` `stavTematu()`.
+- **Stupňové odznaky** (bronz 🥉 / stříbro 🥈 / zlato 🥇), každý stupeň je samostatný odznak (upozornění, „Nový!“, výsledek kola fungují jako dřív):
+  - Cestovatel – dohraná (uzavřená) témata 10 / 50 / 100;
+  - Učenec – správné odpovědi z dohraných kol 100 / 500 / 2000;
+  - Sběratel hvězd – celé hvězdy 50 / 250 / 1000;
+  - Vytrvalec – série dní 3 / 7 / 30 (původní odznaky „Tři dny v řadě“ a „Celý týden“ jsou jeho bronz a stříbro, nově „Celý měsíc“);
+  - Znalec: <kategorie> – 25 / 50 / 100 % témat kategorie dohráno (aspoň 1 téma; u malých kategorií může jedno téma dát víc stupňů najednou). Řady se tvoří podle kategorií v datech, takže s novými kategoriemi přibývají samy.
+  Odznaky se udělují po dohraném kole – hráč, který už podmínky splnil dřív, je dostane po příštím kole. Celkem dnes 73 odznaků (10 jednotlivých + 12 stupňů + 3 × 17 kategorií). Obrazovka Odznaky: Postup po stupních (medaile + pruh k dalšímu stupni + „10 / 50 do stříbra“), Jednotlivé odznaky, Znalec kategorií.
+- **Ověření:** `pruchod.py` scénář `scenar_d026` (Pokračuj z rozehraného kola i bez něj, hledání bez diakritiky, nic nenalezeno, filtr s počty, 10. dohrané téma → „Cestovatel – bronz“, 17 řad Znalec, počet odznaků na Domů); screenshot Odznaků na 5 šířkách.
+- **Kdo:** David (výběr návrhů 1, 2, 3), prompt 01 (provedení)
+
 ## D-025 · 2026-11-08 · Statistiky: kategorie seřazené od nejúspěšnější (Davidův pokyn)
 - **Rozhodnutí:** v části „Podle kategorií“ jsou kategorie seřazené sestupně podle úspěšnosti (i s odpovědmi z rozehraných kol, D-022); při shodě je výš kategorie s víc odpověďmi; kategorie bez jediné odpovědi jsou na konci v původním pořadí (jako na Domů).
 - **Ověření:** `pruchod.py` scénář `scenar_razeni_kategorii` – tři kategorie s 50 / 90 / 70 % se seřadí 90 → 70 → 50, za nimi nehrané v původním pořadí.

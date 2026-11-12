@@ -1,8 +1,8 @@
 # HANDOFF – Kvízová webová aplikace
-datum: 2026-11-08 · předává: prompt 01 (D-025 řazení kategorií ve Statistikách, prostředí A) · přebírá: David (sloučit pull request, vyzkoušet)
+datum: 2026-11-12 · předává: prompt 01 (D-026 Pokračuj, hledání a filtr, stupňové odznaky, prostředí A) · přebírá: David (sloučit pull request, vyzkoušet)
 
 ## Stav jednou větou
-Web je online s 3480 otázkami ve 116 tématech a 17 kategoriích (D-023 a D-024 sloučené). V pull requestu čeká D-025: kategorie ve Statistikách seřazené od nejúspěšnější.
+Web je online s 3480 otázkami (116 témat, 17 kategorií), D-025 sloučené. V pull requestu čeká D-026: karta Pokračuj, hledání témat, filtr v kategorii a stupňové odznaky (Davidovy návrhy 1–3 z 10).
 
 ## Stav dat
 - 2026-11-04 – 35 otázek, 1 téma (T001 Chobotnice a další hlavonožci), režim vzorek
@@ -42,6 +42,8 @@ Web je online s 3480 otázkami ve 116 tématech a 17 kategoriích (D-023 a D-024
 
 - D-025 (2026-11-08): Statistiky – kategorie od nejúspěšnější, nehrané na konci; `pruchod.py` 140 kontrol (s novými daty); náhled `docs/nahledy/d025-razeni-kategorii-390.png`.
 
+- D-026 (2026-11-12): karta Pokračuj, hledání a filtr témat, stupňové odznaky (73 odznaků); `pruchod.py` 155 kontrol; náhledy `docs/nahledy/d026-*.png`.
+
 ## Rozpracováno
 - ~~Volba barev pruhů~~ – David vybral B (plná zelená a červená), nastaveno (D-023).
 - **Posun k Další na skutečném telefonu** ověří David (v emulaci prošlo; rezerva po D-023 je 6 % výšky / max 40 px – kdyby nestačila nebo byla moc, upravit v `hra.js` `ukazDalsi`).
@@ -51,7 +53,8 @@ Web je online s 3480 otázkami ve 116 tématech a 17 kategoriích (D-023 a D-024
 - **Náhled odkazu** ověří až sdílení nasazené adresy (např. poslat si odkaz ve WhatsAppu/Messengeru). Sítě si náhled pamatují – kdyby ukazovaly starou zástupnou stránku, chce to chvíli počkat.
 
 ## Další krok
-1. **David:** sloučit pull request s D-025 a vyzkoušet Statistiky (a na mobilu posun k Další a barvy pruhů z D-023).
+1. **David:** sloučit pull request s D-026 a vyzkoušet na mobilu (Pokračuj, hledání, filtr v kategorii, Odznaky).
+2. **Zbylé návrhy z 2026-11-12** (David zatím nevybral): 4 Procvičit chyby, 5 Náhodné téma, 6 Tmavý režim a velikost písma; mimo rozsah 1. verze (potřebují souhlas): 7 Denní výzva, 8 Sdílet výsledek, 9 Instalace na plochu / offline; 10 Nahlásit chybu v otázce (potřebuje rozhodnutí o službě – e-mail by zveřejnil adresu, formulář = registrace).
 2. **Další témata (kdykoli):** v Excelu označit Web = Ano (u celého tématu stačí list Témata, D-017), uložit, zavřít; pak **prompt 03** v úkolu propojeném s počítačem (prostředí B). Prompt 03 po exportu spustí `python3 tools/pruchod.py`.
 3. Body „K zvážení“ z kontroly: K4 hotovo (D-018), K1 = krok 2, K2 a K3 beze změny (David nic nežádal), K5 jen informace. Kdyby David chtěl K2/K3 přece změnit, udělá to prompt 01.
 
@@ -61,6 +64,7 @@ Web je online s 3480 otázkami ve 116 tématech a 17 kategoriích (D-023 a D-024
 - `tools/pruchod.py`: 1. běh selhal na varování o preload písem, 2. běh prošel – viz nález D-1.
 
 ## Připomínky Davida (k zapracování)
+- 2026-11-12 – z 10 návrhů vybral 1 (Pokračuj), 2 (hledání a filtr), 3 (víc odznaků po stupních) → **zapracováno** (D-026).
 - 2026-11-08 – „u statistik kategorií seřazení od nejúspěšnější sestupně“ → **zapracováno** (D-025).
 - 2026-11-08 – „odskok je zbytečně velký“, pruh ve Statistikách zeleně jako u otázek → **zapracováno** (D-023); ukázat variantu A (i zelená s přechodem) a B (obě bez přechodu) → David vybral **B** (obě bez přechodu) → **zapracováno**.
 - 2026-11-08 – ukazatel u otázek zeleně správné + za nimi špatné v současné barvě; po odpovědi automaticky posunout dolů k Další (na telefonu musel posouvat ručně); statistiky započítávat i nedokončená kola, kde je to vhodné → **zapracováno** (D-022).
@@ -80,7 +84,6 @@ Web je online s 3480 otázkami ve 116 tématech a 17 kategoriích (D-023 a D-024
 - Odznaky Hvězda tématu a Král kategorie vyžadují 100 % ve všech obtížnostech – při pravidle „každá obtížnost jen jednou“ jsou hodně těžké (záměr: vzácné odznaky). Kdyby to Davidovi přišlo moc, jde snížit.
 
 ## Nápady na později (nestavět bez zadání)
-- „Pokračovat v posledním tématu“ na obrazovce Domů.
 - Tečka u tlačítka Odznaky na Domů, dokud si hráč nový odznak neprohlédne.
 
 ## Jak navázat
