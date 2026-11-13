@@ -11,7 +11,7 @@ export function jeNastaveno() {
 }
 
 export function nast() {
-  return { vzhled: VZHLED.AUTO, pismo: PISMO.NORMALNI, predcitani: "tlacitko", tydenniCil: 5, ...(nastaveni || { ui: "cs", otazky: "cs", preklad: PREKLAD.VYPNUTO, zvuky: true, vibrace: true }) };
+  return { vzhled: VZHLED.AUTO, pismo: PISMO.NORMALNI, predcitani: "tlacitko", tydenniCil: 5, oblibene: [], domu: {}, ...(nastaveni || { ui: "cs", otazky: "cs", preklad: PREKLAD.VYPNUTO, zvuky: true, vibrace: true }) };
 }
 
 // Vzhled (D-028): barevný režim podle telefonu / světlý / tmavý a velikost písma. Na <html> se zapíše
@@ -55,3 +55,23 @@ export const ZPUSOBY = {
   ucim: (ui) => ({ otazky: druhyJazyk(ui), preklad: PREKLAD.TUKNUTI }),
   obe: (ui) => ({ otazky: ui, preklad: PREKLAD.VZDY }),
 };
+
+// ---------- oblíbené kategorie a obsah Domů (D-037)
+/** Je kategorie připnutá mezi oblíbené? */
+export function jeOblibena(katId) {
+  return (nast().oblibene || []).includes(katId);
+}
+
+/** Připne / odepne kategorii. Vrátí true, když je po změně oblíbená. */
+export function prepniOblibenou(katId) {
+  const o = (nast().oblibene || []).filter((x) => x !== katId);
+  const nyni = o.length === (nast().oblibene || []).length;
+  zmen({ oblibene: nyni ? [...o, katId] : o });
+  return nyni;
+}
+
+/** Části Domů, které jde vypnout (výchozí všechny zapnuté). */
+export const CASTI_DOMU = ["pruh", "postup", "pokracuj", "vyzva", "nahoda", "nova"];
+export function ukazNaDomu(cast) {
+  return (nast().domu || {})[cast] !== false;
+}

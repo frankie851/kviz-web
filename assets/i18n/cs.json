@@ -581,5 +581,22 @@
       "text": "Když v kole odpovíš správně aspoň na 70 %, otevře se další obtížnost. Pod 70 % zůstane v tomhle tématu zamčená natrvalo – tak se soustřeď!",
       "tip": "Chyby si můžeš kdykoli procvičit v Historii – hvězdy se tím nemění."
     }
+  },
+  "oblibene": {
+    "pripnout": "Připnout mezi oblíbené",
+    "odepnout": "Odepnout z oblíbených",
+    "pripnuto": "★ Kategorie připnutá – na Domů bude první",
+    "odepnuto": "Kategorie odepnutá z oblíbených",
+    "oznaceni": "oblíbená"
+  },
+  "domuNastaveni": {
+    "nadpis": "Co ukazovat na Domů",
+    "popis": "Kategorie, Odznaky, Historie a Statistiky jsou na Domů vždy. Oblíbené kategorie připneš hvězdičkou ☆ v záhlaví kategorie.",
+    "pruh": "Pruh se sérií, hvězdami a úspěšností",
+    "postup": "Úroveň a týdenní cíl",
+    "pokracuj": "Pokračuj",
+    "vyzva": "Denní výzva",
+    "nahoda": "Překvap mě",
+    "nova": "Nová témata"
   }
 }

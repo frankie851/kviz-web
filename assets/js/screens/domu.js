@@ -6,10 +6,11 @@ import { h, logo, wordmark, celeHvezdy, ikonaKategorie } from "../ui.js";
 import { hvezdyCelkem, serieDni, pokrok, uspesnost, pokracovani, nahodneTema, vyzva, serieVyzev, urovenHrace, tydenniCil, novaTemata } from "../progress.js";
 import { dnes, dniDoKonceTydne } from "../game.js";
 import { OTAZEK as OTAZEK_VYZVY } from "../vyzva.js";
-import { viditelneKategorie, txt } from "../data.js";
+import { txt } from "../data.js";
 import { vsechnyOdznaky } from "../badges.js";
 import { ukladaniFunguje } from "../storage.js";
-import { dlazdiceKategorie } from "./kategorie.js";
+import { dlazdiceKategorie, poradiKategorii } from "./kategorie.js";
+import { ukazNaDomu } from "../settings.js";
 import { pruvodceKdyzTreba } from "../pruvodce.js";
 
 export const ID = "domu";
@@ -86,7 +87,7 @@ export function vykresli(_param, app) {
   const vse = vsechnyOdznaky();
   const ziskane = pokrok().odznaky;
   const odz = vse.filter((o) => ziskane[o.id]).length;
-  const kats = viditelneKategorie();
+  const kats = poradiKategorii(); // oblíbené kategorie první (D-037)
 
   const udaj = (ikona, hodnota, popis, test) =>
     h("span", { class: "strip-item", "data-test": test, title: popis },
@@ -112,20 +113,21 @@ export function vykresli(_param, app) {
     h("div", { class: "home-hello" },
       h("h1", { class: "home-title", text: t("domu.otazka") }),
       h("p", { class: "tagline", text: t("app.podtitul") })),
-    h("div", { class: "strip" },
+    !ukazNaDomu("pruh") ? null : h("div", { class: "strip" },
       udaj("🔥", t("domu.dni", { n: dny }), t("domu.serieDniTitulek"), "serie-dni"),
       udaj("★", `${celeHvezdy(hv.pul)} / ${celeHvezdy(hv.max)}`, t("domu.hvezd"), "hvezdy-celkem"),
       udaj("🎯", usp == null ? "–" : t("domu.procent", { n: usp }), t("domu.uspesnost"), "uspesnost"),
       udaj("🏅", `${odz} / ${vse.length}`, t("domu.odznaku"), "odznaky")),
-    (() => {
+    !ukazNaDomu("nova") ? null : (() => {
       const n = novaTemata().length; // ✨ přibyla nová témata (D-035)
       return n ? h("a", { class: "card nova-karta", href: "#/nova", "data-test": "nova-temata" },
         h("span", { "aria-hidden": "true", text: "✨" }), h("span", { text: t("nova.domu", { n }) }), h("span", { class: "hist-go", "aria-hidden": "true", text: "→" })) : null;
     })(),
-    kartaPostupu(),
-    kartaPokracuj(),
-    kartaVyzvy(),
-    h("button", {
+    // části Domů jdou v Nastavení vypnout (D-037)
+    ukazNaDomu("postup") ? kartaPostupu() : null,
+    ukazNaDomu("pokracuj") ? kartaPokracuj() : null,
+    ukazNaDomu("vyzva") ? kartaVyzvy() : null,
+    !ukazNaDomu("nahoda") ? null : h("button", {
       type: "button", class: "btn btn-sec btn-nahoda", "data-test": "nahodne",
       onclick: () => { const tema = nahodneTema(); if (tema) app.jdi(`#/tema/${tema.id}`); },
     }, h("span", { "aria-hidden": "true", text: "🎲" }), t("domu.nahodne")),

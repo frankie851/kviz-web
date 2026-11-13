@@ -4,8 +4,29 @@ import { t, jazyk } from "../i18n.js";
 import { h, lista, hvezdicky, hvezdyText, ikonaKategorie } from "../ui.js";
 import { kategorie, viditelnaTemata, viditelneObtiznosti, txt } from "../data.js";
 import { pulV, stav, hvezdyTematu, stavTematu, jeNoveTema } from "../progress.js";
+import { jeOblibena, prepniOblibenou } from "../settings.js";
+import { kratkeOznameni } from "../oslavy.js";
 
 export const ID = "temata";
+
+/** ☆ / ★ v záhlaví kategorie: připne kategorii mezi oblíbené – na Domů a ve Všech kategoriích bude první (D-037). */
+function tlacitkoOblibene(kat) {
+  const btn = h("button", { type: "button", class: "iconbtn iconbtn-oblibena", "data-test": "oblibena-prepnout" });
+  const obnov = () => {
+    const ano = jeOblibena(kat.id);
+    btn.setAttribute("aria-pressed", String(ano));
+    btn.setAttribute("aria-label", t(ano ? "oblibene.odepnout" : "oblibene.pripnout"));
+    btn.title = t(ano ? "oblibene.odepnout" : "oblibene.pripnout");
+    btn.replaceChildren(h("span", { "aria-hidden": "true", text: ano ? "★" : "☆" }));
+  };
+  btn.addEventListener("click", () => {
+    const ano = prepniOblibenou(kat.id);
+    obnov();
+    kratkeOznameni(t(ano ? "oblibene.pripnuto" : "oblibene.odepnuto"));
+  });
+  obnov();
+  return btn;
+}
 const FILTRY = ["vse", "nehrane", "rozehrane", "hotove"];
 // ikony místo textu, aby se filtr vešel na telefonu na jeden řádek (D-027); text je v title a pro čtečky
 const IKONY_FILTRU = { nehrane: "🚦", rozehrane: "🏃", hotove: "🏁" };
@@ -69,7 +90,7 @@ export function vykresli([katId]) {
   const el = h(
     "main",
     { class: "screen" },
-    lista({ zpet: "#/", nadpis: txt(kat.nazev, jazyk()) }),
+    lista({ zpet: "#/", nadpis: txt(kat.nazev, jazyk()), vpravo: tlacitkoOblibene(kat) }),
     filtrEl, // filtr nahoře, „Vyber si téma“ pod ním (D-031)
     h("p", { class: "lead lead-center lead-ikona" }, ikonaKategorie(kat, "lead-ico"), h("span", { text: t("temata.vyberTema") })),
     h("div", { class: "cards" }, karty),

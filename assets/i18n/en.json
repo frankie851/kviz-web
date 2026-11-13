@@ -525,5 +525,22 @@
       "text": "Get at least 70 % right in a round and the next level opens. Below 70 % it stays locked for good in that topic – so focus!",
       "tip": "You can practise your mistakes any time in History – it doesn't change your stars."
     }
+  },
+  "oblibene": {
+    "pripnout": "Pin to favourites",
+    "odepnout": "Unpin from favourites",
+    "pripnuto": "★ Category pinned – it will be first on Home",
+    "odepnuto": "Category unpinned",
+    "oznaceni": "favourite"
+  },
+  "domuNastaveni": {
+    "nadpis": "What to show on Home",
+    "popis": "Categories, Badges, History and Statistics are always on Home. Pin favourite categories with the ☆ in a category's header.",
+    "pruh": "Strip with streak, stars and score",
+    "postup": "Level and weekly goal",
+    "pokracuj": "Continue",
+    "vyzva": "Daily challenge",
+    "nahoda": "Surprise me",
+    "nova": "New topics"
   }
 }
