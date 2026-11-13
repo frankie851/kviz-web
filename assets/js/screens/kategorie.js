@@ -8,31 +8,32 @@ import { hvezdyKategorie, hvezdyTematu, uzavrenaVKategorii } from "../progress.j
 
 export const ID = "kategorie";
 
-// Barvy dlaždic (D-029, nahrazuje D-024): každá kategorie má barvy podle tématu (od nejvhodnější), ostatní
-// kategorie dostanou první barvu z palety. Bez černé a béžové; všechny barvy mají bílý text (kontrast ≥ 5 : 1)
-// a odliší se od světlého (≥ 4,7 : 1) i tmavého pozadí (≈ 3 : 1). Barva se přiděluje postupně podle pořadí
+// Barvy dlaždic (D-029, světlé odstíny D-030): každá kategorie má barvy podle tématu (od nejvhodnější), ostatní
+// kategorie dostanou první barvu z palety. Bez černé, bílé a béžové; světlé odstíny s tmavým textem (≥ 8,7 : 1),
+// jemně odlišené od světlého pozadí (≈ 1,7–2 : 1) a výrazně od tmavého. Barva se přiděluje postupně podle pořadí
 // kategorií tak, aby se neopakovala u 3 předchozích dlaždic (sousedé vedle i nad sebou ve 2 i 3 sloupcích)
 // a aby ani podobný odstín (stejná „rodina“) nebyl hned vedle nebo nad. Styly .tile-c-<barva> jsou v CSS.
-const PALETA = ["malina", "zelena", "modra", "oranzova", "fialova", "tyrkys", "cervena", "indigo", "hneda"];
-const RODINA = { malina: "cervena", cervena: "cervena", oranzova: "oranzova", hneda: "hneda", zelena: "zelena", tyrkys: "zelena", modra: "modra", indigo: "modra", fialova: "fialova" };
+// indigo vyřazeno (ve světlém odstínu splývá s fialovou); hnědá je ve světlém odstínu blízko oranžové → stejná rodina
+const PALETA = ["malina", "zelena", "modra", "oranzova", "fialova", "tyrkys", "cervena", "hneda"];
+const RODINA = { malina: "cervena", cervena: "cervena", oranzova: "oranzova", hneda: "oranzova", zelena: "zelena", tyrkys: "zelena", modra: "modra", fialova: "fialova" };
 const BARVY_TEMAT = {
-  historie: ["hneda", "cervena", "indigo"],
+  historie: ["hneda", "cervena"],
   zemepis: ["modra", "tyrkys", "zelena"],
   "priroda-a-zvirata": ["zelena", "tyrkys"],
   "umeni-a-literatura": ["fialova", "malina"],
   sport: ["oranzova", "zelena", "cervena"],
   kuriozity: ["fialova", "malina", "modra"],
-  "veda-a-technika": ["tyrkys", "modra", "indigo"],
+  "veda-a-technika": ["tyrkys", "modra"],
   "film-a-tv": ["cervena", "malina", "fialova"],
   "jidlo-a-piti": ["oranzova", "cervena", "hneda"],
-  hudba: ["malina", "fialova", "indigo"],
+  hudba: ["malina", "fialova"],
   "lidske-telo": ["cervena", "malina", "oranzova", "tyrkys"],
-  "mytologie-a-nabozenstvi": ["indigo", "fialova"],
-  "jazyk-a-slova": ["tyrkys", "modra", "fialova", "hneda"],
+  "mytologie-a-nabozenstvi": ["fialova", "modra"],
+  "jazyk-a-slova": ["tyrkys", "hneda", "fialova", "modra"],
   cesko: ["zelena", "tyrkys", "modra"], // vlajka je červeno-modro-bílá – na červené nebo modré by splývala
-  vesmir: ["indigo", "modra", "fialova"],
-  "ekonomika-a-penize": ["zelena", "hneda"],
-  vynalezy: ["modra", "indigo", "fialova", "tyrkys"],
+  vesmir: ["modra", "fialova"],
+  "ekonomika-a-penize": ["zelena", "hneda", "oranzova"],
+  vynalezy: ["modra", "fialova", "tyrkys"],
 };
 
 let barvy = { index: null, mapa: new Map() };
