@@ -1,7 +1,7 @@
 // 7. Výsledek kola – skóre, 0–5 hvězd (po půlkách), odemčení, nové odznaky.
 // Tlačítka: Další obtížnost (když se odemkla) / Prohlédnout odpovědi / Zpět na témata. Kolo se neopakuje (D-013).
 // Oslava jen při prvním zobrazení (cerstvy): hvězdy naskakují se zvukem jedna po druhé, pak zvuk
-// podle výsledku, nové odznaky a při 100 % (5 ★) konfety. Obnovení stránky už oslavu neopakuje.
+// podle výsledku, nové odznaky a od 90 % (4,5 ★) konfety (D-027). Obnovení stránky už oslavu neopakuje.
 import { t, jazyk } from "../i18n.js";
 import { h, hvezdicky, prefersReducedMotion } from "../ui.js";
 import { najdiTema, txt } from "../data.js";
@@ -9,6 +9,8 @@ import { nacti, uloz } from "../storage.js";
 import { odznak, nazevOdznaku } from "../badges.js";
 import { zvuk, vibrace } from "../feedback.js";
 import { konfety, zastavKonfety } from "../oslavy.js";
+
+const KONFETY_OD = 9; // půlhvězdy: 90 % = 4,5 ★ – původní „konfety při ★★★“ (★★★ = od 90 %), D-027
 
 // časování musí sedět s CSS (.stars-big .star: začátek --res-d0, rozestup --res-krok)
 const ZACATEK = 0.3;
@@ -101,6 +103,6 @@ function oslava(v, noveOdznaky) {
     casovace.push(setTimeout(() => vibrace("odznak"), (konec + 0.8) * 1000));
     zvuk("odznak", {}, konec + 0.8);
   }
-  if (v.pul >= 10) casovace.push(setTimeout(() => konfety(), Math.max(0, konec - 0.2) * 1000));
+  if (v.pul >= KONFETY_OD) casovace.push(setTimeout(() => konfety(), Math.max(0, konec - 0.2) * 1000));
   return casovace;
 }

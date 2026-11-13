@@ -82,7 +82,8 @@
       "few": "…a ještě {n} další – upřesni hledání.",
       "many": "…a ještě {n} dalšího – upřesni hledání.",
       "other": "…a ještě {n} dalších – upřesni hledání."
-    }
+    },
+    "vsechnyHint": "🔎 i hledání témat"
   },
   "kategorie": {
     "nadpis": "Kategorie",
@@ -202,17 +203,13 @@
       "nazev": "Rozjetý",
       "popis": "Odpověz v jednom kole správně 5× za sebou."
     },
-    "rada-10": {
-      "nazev": "Neomylný",
-      "popis": "Odpověz v jednom kole správně 10× za sebou."
-    },
     "tezka": {
       "nazev": "Na vrcholu",
       "popis": "Získej aspoň 70 % v Těžké obtížnosti."
     },
     "temata-3": {
       "nazev": "Objevitel",
-      "popis": "Dohraj 3 témata až po Těžkou."
+      "popis": "Dohraj kolo ve 3 různých tématech."
     },
     "tema-hvezdy": {
       "nazev": "Hvězda tématu",
@@ -286,6 +283,10 @@
         "many": "Dohraj {p} % témat v kategorii {kategorie} ({n} tématu).",
         "other": "Dohraj {p} % témat v kategorii {kategorie} ({n} témat)."
       }
+    },
+    "tezka-bez-chyby": {
+      "nazev": "Neomylný",
+      "popis": "Odpověz v Těžké obtížnosti všechno správně."
     }
   },
   "nastaveni": {

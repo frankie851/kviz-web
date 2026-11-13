@@ -76,7 +76,8 @@
     "dalsiVysledky": {
       "one": "…and {n} more – refine your search.",
       "other": "…and {n} more – refine your search."
-    }
+    },
+    "vsechnyHint": "🔎 including topic search"
   },
   "kategorie": {
     "nadpis": "Categories",
@@ -190,17 +191,13 @@
       "nazev": "On a Roll",
       "popis": "Answer 5 in a row correctly in one round."
     },
-    "rada-10": {
-      "nazev": "Unstoppable",
-      "popis": "Answer 10 in a row correctly in one round."
-    },
     "tezka": {
       "nazev": "Summit",
       "popis": "Get at least 70% on Hard."
     },
     "temata-3": {
       "nazev": "Explorer",
-      "popis": "Finish 3 topics all the way to Hard."
+      "popis": "Finish a round in 3 different topics."
     },
     "tema-hvezdy": {
       "nazev": "Topic Star",
@@ -264,6 +261,10 @@
         "one": "Finish {p}% of the topics in {kategorie} ({n} topic).",
         "other": "Finish {p}% of the topics in {kategorie} ({n} topics)."
       }
+    },
+    "tezka-bez-chyby": {
+      "nazev": "Flawless",
+      "popis": "Answer everything correctly at Hard."
     }
   },
   "nastaveni": {
