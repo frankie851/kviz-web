@@ -142,7 +142,11 @@ export function vykresli(_param, app) {
         ],
         hodnota: s.pismo,
         zmena: (v) => aplikujVzhled(zmen({ pismo: v })),
-      })),
+      }),
+      // vysoký kontrast a čitelnější písmo (D-039)
+      vypinac({ id: "nast-kontrast", popis: t("nastaveni.kontrast"), zapnuto: !!s.kontrast, zmena: (v) => aplikujVzhled(zmen({ kontrast: v })) }),
+      vypinac({ id: "nast-citelne", popis: t("nastaveni.citelne"), zapnuto: !!s.citelne, zmena: (v) => aplikujVzhled(zmen({ citelne: v })) }),
+      h("p", { class: "field-hint", text: t("nastaveni.kontrastNapoveda") })),
     h("section", { class: "card settings" },
       h("h2", { class: "settings-h", text: t("tyden.nastaveniNadpis") }),
       prepinac({

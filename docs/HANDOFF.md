@@ -1,8 +1,8 @@
 # HANDOFF – Kvízová webová aplikace
-datum: 2026-11-16 · předává: prompt 01 (D-038 kalendář aktivity a měsíční souhrn, prostředí A) · přebírá: David (sloučit pull request, vyzkoušet)
+datum: 2026-11-16 · předává: prompt 01 (D-039 vysoký kontrast a čitelnější písmo, prostředí A) · přebírá: David (sloučit pull request, vyzkoušet)
 
 ## Stav jednou větou
-Web je online s funkcemi do D-037 (sloučeno). V pull requestu čeká D-038: kalendář aktivity ve Statistikách a měsíční souhrn (Statistiky, Domů 1.–7. den, sdílení).
+Web je online s funkcemi do D-038 (sloučeno). V pull requestu čeká D-039: vysoký kontrast a čitelnější písmo v Nastavení → Vzhled.
 
 ## Stav dat
 - 2026-11-04 – 35 otázek, 1 téma (T001 Chobotnice a další hlavonožci), režim vzorek
@@ -68,6 +68,8 @@ Web je online s funkcemi do D-037 (sloučeno). V pull requestu čeká D-038: kal
 
 - D-038 (2026-11-16): kalendář aktivity a měsíční souhrn; `pruchod.py` 248 kontrol; náhled `docs/nahledy/d038-kalendar-souhrn.png`.
 
+- D-039 (2026-11-16): vysoký kontrast a čitelnější písmo; `pruchod.py` 255 kontrol; náhled `docs/nahledy/d039-kontrast-pismo.png`.
+
 ## Rozpracováno
 - **Štítek „Nové“ uvidí hráči až u témat přidaných po této verzi** – po příštím exportu promptem 03 (prostředí B) ověřit na webu.
 - **Na skutečném telefonu ověří David:** hlas předčítání (čeština záleží na hlasech v telefonu), stažení a nahrání souboru s pokrokem (iPhone: Soubory), otevření odkazu výzvy kamarádovi z WhatsAppu/Messengeru.
@@ -80,10 +82,10 @@ Web je online s funkcemi do D-037 (sloučeno). V pull requestu čeká D-038: kal
 - **Náhled odkazu** ověří až sdílení nasazené adresy (např. poslat si odkaz ve WhatsAppu/Messengeru). Sítě si náhled pamatují – kdyby ukazovaly starou zástupnou stránku, chce to chvíli počkat.
 
 ## Další krok
-1. **David:** sloučit pull request s D-038 a vyzkoušet (Statistiky → Kalendář aktivity a Tvůj listopad zatím → Sdílet souhrn; karta na Domů se ukáže 1.–7. prosince).
+1. **David:** sloučit pull request s D-039 a vyzkoušet (Nastavení → Vzhled → Vysoký kontrast, Čitelnější písmo; i s tmavým režimem).
 2. **Návrhy z 2026-11-12 uzavřené:** 1–8 hotové (D-026–D-032); 9 Instalace na plochu / offline – **David nechce** (2026-11-15), nestavět; 10 Nahlásit chybu v otázce – jen **možnost do budoucna** (viz Nápady na později).
 2b. **Nápady z 2026-11-15** (číslování podle zprávy Davidovi): hotové 11 Výzva kamarádovi, 12 Předčítání, 13 Přenos pokroku (D-033), 14 Úroveň hráče, 15 Týdenní cíl (D-034), 16 Moje sbírka, 17 Štítek „Nové“ (D-035); **vynechané pro teď** (David 2026-11-16): 18 Žolík 50 : 50, 19 Duel dvou hráčů na jednom telefonu, 20 Rychlovka na čas.
-2c. **Nové nápady z 2026-11-16** (číslování podle zprávy Davidovi; hotové 21 Průvodce pravidly (D-036), 22 Oblíbené kategorie a 23 Co ukazovat na Domů (D-037), 26 Kalendář aktivity a 27 Měsíční souhrn (D-038); **David zatím nevybral:** 24 Opakování chyb s rozestupy (1, 3, 7 dní), 25 Odznaky za odpovědi v cizím jazyce, 28 Tisk kvízu (otázky a zvlášť odpovědi), 29 Prezentační režim na televizi/projektor, 30 Vysoký kontrast a čitelnější písmo).
+2c. **Nové nápady z 2026-11-16** (číslování podle zprávy Davidovi; hotové 21 Průvodce pravidly (D-036), 22 Oblíbené kategorie a 23 Co ukazovat na Domů (D-037), 26 Kalendář aktivity a 27 Měsíční souhrn (D-038), 30 Vysoký kontrast a čitelnější písmo (D-039); **David zatím nevybral:** 24 Opakování chyb s rozestupy (1, 3, 7 dní), 25 Odznaky za odpovědi v cizím jazyce, 28 Tisk kvízu (otázky a zvlášť odpovědi), 29 Prezentační režim na televizi/projektor).
 2. **Další témata (kdykoli):** v Excelu označit Web = Ano (u celého tématu stačí list Témata, D-017), uložit, zavřít; pak **prompt 03** v úkolu propojeném s počítačem (prostředí B). Prompt 03 po exportu spustí `python3 tools/pruchod.py`.
 3. Body „K zvážení“ z kontroly: K4 hotovo (D-018), K1 = krok 2, K2 a K3 beze změny (David nic nežádal), K5 jen informace. Kdyby David chtěl K2/K3 přece změnit, udělá to prompt 01.
 
@@ -93,6 +95,7 @@ Web je online s funkcemi do D-037 (sloučeno). V pull requestu čeká D-038: kal
 - `tools/pruchod.py`: 1. běh selhal na varování o preload písem, 2. běh prošel – viz nález D-1.
 
 ## Připomínky Davida (k zapracování)
+- 2026-11-16 – „30“ (vysoký kontrast, čitelnější písmo) → **zapracováno** (D-039).
 - 2026-11-16 – „26 a 27“ (kalendář aktivity, měsíční souhrn) → **zapracováno** (D-038).
 - 2026-11-16 – „22 a 23“ (oblíbené kategorie, co ukazovat na Domů) → **zapracováno** (D-037).
 - 2026-11-16 – „21“ (průvodce pravidly) → **zapracováno** (D-036).

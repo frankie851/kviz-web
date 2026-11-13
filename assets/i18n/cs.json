@@ -320,7 +320,10 @@
     "predcitaniVypnuto": "Vypnuto",
     "predcitaniTlacitko": "Tlačítko 🔊",
     "predcitaniAuto": "Automaticky",
-    "predcitaniUkazka": "Takhle budu číst otázky."
+    "predcitaniUkazka": "Takhle budu číst otázky.",
+    "kontrast": "Vysoký kontrast",
+    "citelne": "Čitelnější písmo",
+    "kontrastNapoveda": "Vysoký kontrast: černý nebo bílý text a výrazné obrysy. Čitelnější písmo: tvary písmen, které se nepletou (I, l, 1 nebo O a 0)."
   },
   "prehled": {
     "nadpis": "Tvoje odpovědi",

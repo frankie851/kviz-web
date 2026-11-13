@@ -298,7 +298,10 @@
     "predcitaniVypnuto": "Off",
     "predcitaniTlacitko": "🔊 button",
     "predcitaniAuto": "Automatically",
-    "predcitaniUkazka": "This is how I will read the questions."
+    "predcitaniUkazka": "This is how I will read the questions.",
+    "kontrast": "High contrast",
+    "citelne": "More legible font",
+    "kontrastNapoveda": "High contrast: black or white text and strong outlines. More legible font: letter shapes that are hard to confuse (I, l, 1 or O and 0)."
   },
   "prehled": {
     "nadpis": "Your answers",
