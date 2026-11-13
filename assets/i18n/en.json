@@ -293,7 +293,12 @@
     "pismo": "Text size",
     "pismoNormalni": "Normal",
     "pismoVetsi": "Larger",
-    "pismoNejvetsi": "Largest"
+    "pismoNejvetsi": "Largest",
+    "predcitani": "Read aloud",
+    "predcitaniVypnuto": "Off",
+    "predcitaniTlacitko": "🔊 button",
+    "predcitaniAuto": "Automatically",
+    "predcitaniUkazka": "This is how I will read the questions."
   },
   "prehled": {
     "nadpis": "Your answers",
@@ -388,5 +393,39 @@
     "kolo": "Oho! {tema} ({obtiznost}): {s}/{c} {hvezdy} – try it too!",
     "zkopirovano": "Copied – paste it anywhere 📋",
     "nelze": "Sharing isn't available here – copy the page address."
+  },
+  "souboj": {
+    "nadpis": "Challenge from a friend",
+    "uvod": "{tema} – your friend got {s} of {n}. Can you beat it?",
+    "ty": "you",
+    "kamarad": "friend",
+    "vyhra": "You win! 🏆",
+    "remiza": "It's a draw! 🤝",
+    "prohra": "Your friend wins this time",
+    "poslatZpet": "Send your result back",
+    "hratTema": "Play this topic",
+    "neplatny": "This challenge link can't be opened – the questions are no longer on the site.",
+    "vyzvat": "Challenge a friend",
+    "pozvanka": "Can you beat me? Oho! {tema} ({obtiznost}) – I got {s}/{c}. Play the same questions:",
+    "odpoved": "Oho! {tema}: I got {s}/{n}, you got {k}/{n}. Try again:"
+  },
+  "predcitani": {
+    "cist": "Read aloud",
+    "bezHlasu": "This device has no voice for {jazyk} – another voice will be used."
+  },
+  "prenos": {
+    "nadpis": "Move your progress",
+    "popis": "Your progress is saved only in this browser. To move it to another phone or computer, save it to a file here and load it there.",
+    "ulozit": "Save progress to a file",
+    "nahrat": "Load progress from a file",
+    "ulozeno": "Your progress file is in your downloads 💾",
+    "chyba": "This file can't be loaded – it isn't saved progress from Oho!.",
+    "potvrditNadpis": "Load progress from the file?",
+    "potvrditText": {
+      "one": "File saved on {datum} ({n} round played). Your current progress on this device will be replaced.",
+      "other": "File saved on {datum} ({n} rounds played). Your current progress on this device will be replaced."
+    },
+    "potvrditAno": "Load and replace",
+    "potvrditNe": "Cancel"
   }
 }

@@ -315,7 +315,12 @@
     "pismo": "Velikost písma",
     "pismoNormalni": "Normální",
     "pismoVetsi": "Větší",
-    "pismoNejvetsi": "Největší"
+    "pismoNejvetsi": "Největší",
+    "predcitani": "Předčítání nahlas",
+    "predcitaniVypnuto": "Vypnuto",
+    "predcitaniTlacitko": "Tlačítko 🔊",
+    "predcitaniAuto": "Automaticky",
+    "predcitaniUkazka": "Takhle budu číst otázky."
   },
   "prehled": {
     "nadpis": "Tvoje odpovědi",
@@ -424,5 +429,41 @@
     "kolo": "Oho! {tema} ({obtiznost}): {s}/{c} {hvezdy} – zkus to taky!",
     "zkopirovano": "Zkopírováno – vlož to, kam chceš 📋",
     "nelze": "Sdílení tu nejde – zkopíruj si adresu stránky."
+  },
+  "souboj": {
+    "nadpis": "Výzva od kamaráda",
+    "uvod": "{tema} – kamarád měl {s} z {n}. Dokážeš víc?",
+    "ty": "ty",
+    "kamarad": "kamarád",
+    "vyhra": "Vyhráváš! 🏆",
+    "remiza": "Remíza! 🤝",
+    "prohra": "Tentokrát kamarád",
+    "poslatZpet": "Poslat výsledek zpět",
+    "hratTema": "Zahrát si téma",
+    "neplatny": "Odkaz na výzvu nejde otevřít – otázky už na webu nejsou.",
+    "vyzvat": "Vyzvat kamaráda",
+    "pozvanka": "Dokážeš víc než já? Oho! {tema} ({obtiznost}) – mám {s}/{c}. Zahraj si stejné otázky:",
+    "odpoved": "Oho! {tema}: mám {s}/{n}, ty {k}/{n}. Zkus to znovu:"
+  },
+  "predcitani": {
+    "cist": "Přečíst",
+    "bezHlasu": "Tohle zařízení nemá hlas pro {jazyk} – přečte se jiným hlasem."
+  },
+  "prenos": {
+    "nadpis": "Přenos pokroku",
+    "popis": "Pokrok je uložený jen v tomto prohlížeči. Do jiného telefonu nebo počítače ho přeneseš souborem: tady ho ulož, tam nahraj.",
+    "ulozit": "Uložit pokrok do souboru",
+    "nahrat": "Nahrát pokrok ze souboru",
+    "ulozeno": "Soubor s pokrokem je uložený ve stažených souborech 💾",
+    "chyba": "Tenhle soubor nejde nahrát – není to uložený pokrok z Oho!.",
+    "potvrditNadpis": "Nahrát pokrok ze souboru?",
+    "potvrditText": {
+      "one": "Soubor uložený {datum} ({n} dohrané kolo). Současný pokrok v tomto zařízení se tím nahradí.",
+      "few": "Soubor uložený {datum} ({n} dohraná kola). Současný pokrok v tomto zařízení se tím nahradí.",
+      "many": "Soubor uložený {datum} ({n} dohraného kola). Současný pokrok v tomto zařízení se tím nahradí.",
+      "other": "Soubor uložený {datum} ({n} dohraných kol). Současný pokrok v tomto zařízení se tím nahradí."
+    },
+    "potvrditAno": "Nahrát a nahradit",
+    "potvrditNe": "Zrušit"
   }
 }
