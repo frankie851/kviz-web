@@ -541,6 +541,63 @@
     "pokracuj": "Continue",
     "vyzva": "Daily challenge",
     "nahoda": "Surprise me",
-    "nova": "New topics"
+    "nova": "New topics",
+    "souhrn": "Monthly summary (first 7 days of a month)"
+  },
+  "kalendar": {
+    "nadpis": "Activity calendar",
+    "aktivit": {
+      "one": "{n} round or challenge",
+      "other": "{n} rounds or challenges"
+    },
+    "nic": "no play",
+    "dni": "Days played in the last {t} weeks: {n}",
+    "aria": "Activity calendar: {n} days played in the last {t} weeks",
+    "mene": "less",
+    "vice": "more",
+    "prazdny": "Nothing here in the last 12 weeks yet – every finished round and daily challenge colours a square."
+  },
+  "mesic": {
+    "nadpis": "Your {mesic}",
+    "nadpisAktualni": "Your {mesic} so far",
+    "kolPopis": {
+      "one": "round finished",
+      "other": "rounds finished"
+    },
+    "otazekPopis": {
+      "one": "question",
+      "other": "questions"
+    },
+    "spravne": "correct",
+    "hvezd": {
+      "one": "{n} star",
+      "other": "{n} stars"
+    },
+    "dni": {
+      "one": "{n} day played",
+      "other": "{n} days played"
+    },
+    "nejlepsi": "Best category",
+    "vyzvy": "Daily challenges",
+    "uroven": "Level",
+    "sdilet": "Share summary",
+    "zavrit": "Hide summary",
+    "kol": {
+      "one": "{n} round",
+      "other": "{n} rounds"
+    },
+    "otazek": {
+      "one": "{n} question",
+      "other": "{n} questions"
+    },
+    "procentSpravne": "{n}% correct",
+    "vyzev": {
+      "one": "{n} daily challenge",
+      "other": "{n} daily challenges"
+    },
+    "sdiletText": "Oho! My {mesic}: {casti}.",
+    "sdiletNejlepsi": "Best category: {kat} ({n}%).",
+    "sdiletUroven": "New level {n}!",
+    "sdiletKonec": "Give it a try!"
   }
 }

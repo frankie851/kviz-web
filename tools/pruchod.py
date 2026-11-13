@@ -1546,6 +1546,102 @@ def scenar_d037(browser, zaklad, hlidac, index, vystup=None):
     ctx.close()
 
 
+def scenar_d038(browser, zaklad, hlidac, index, vystup=None):
+    """D-038: kalendář aktivity (12 týdnů) a měsíční souhrn ve Statistikách, souhrn minulého měsíce na Domů (1.–7. den, ✕), sdílení."""
+    print("Kalendář aktivity a měsíční souhrn (D-038):")
+    kat = [k for k in index["kategorie"] if k["temata"]]
+    if len(kat) < 2 or len(kat[0]["temata"]) < 2:
+        ok("málo témat – kalendář a souhrn se nekontrolují")
+        return
+    A1, A2, B1 = kat[0]["temata"][0]["id"], kat[0]["temata"][1]["id"], kat[1]["temata"][0]["id"]
+    nazev_a = kat[0]["nazev"]["cs"]
+    kolo = lambda s_, d: {"s": s_, "c": 10, "pul": s_, "odpovedi": [], "datum": d, "j": "cs"}
+    pokrok = {"verze": 2, "vysledky": {
+        A1: {"1": kolo(9, "2026-11-05"), "2": kolo(8, "2026-11-05")},
+        B1: {"1": kolo(6, "2026-11-20")},
+        A2: {"1": kolo(7, "2026-10-15"), "2": kolo(10, "2026-12-02")}},
+        "rozehrano": {}, "dny": {"posledni": "2026-12-02", "serie": 1, "nejdelsi": 2}, "stat": {"kol": 5, "nejdelsiRada": 9}, "odznaky": {},
+        "vyzvy": {"2026-11-10": {"ids": [], "odpovedi": [], "spravne": 4, "hotovo": True}}, "vyzvaDny": {"posledni": "2026-11-10", "serie": 1, "nejdelsi": 1}}
+    nast = {"ui": "cs", "otazky": "cs", "preklad": "vypnuto", "zvuky": False, "vibrace": False}
+
+    def kontext(cas, sirka=390, ui="cs"):
+        ctx = browser.new_context(viewport={"width": sirka, "height": 844}, locale="cs-CZ")
+        ctx.add_init_script(SDILENI_MOCK)
+        ctx.clock.set_fixed_time(cas)
+        page = ctx.new_page()
+        page.set_default_timeout(8000)
+        hlidac.pripoj(page)
+        page.goto(zaklad)
+        page.evaluate("([n, p]) => { localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(n)); localStorage.setItem('kviz.v1.pokrok', JSON.stringify(p)); }", [{**nast, "ui": ui}, pokrok])
+        page.reload()
+        return ctx, page
+
+    ctx, page = kontext("2026-12-03T12:00:00")
+    jdi(page, zaklad, "#/statistiky")
+    bunky = page.eval_on_selector_all("[data-test=kalendar-mriz] .kal-c", "els => els.map(e => [e.dataset.datum || '', e.dataset.n || '', e.className])")
+    budouci = [b for b in bunky if "kal-budouci" in b[2]]
+    over(len(bunky) == 84 and len(budouci) == 3, f"kalendář: 12 týdnů × 7 dní = {len(bunky)} čtverečků, 3 budoucí dny (pá–ne) prázdné")
+    barvy = {b[0]: b[2] for b in bunky if b[0]}
+    over("kal-2" in barvy.get("2026-11-05", "") and "kal-1" in barvy.get("2026-11-10", "") and "kal-1" in barvy.get("2026-10-15", "")
+         and "kal-0" in barvy.get("2026-11-06", "") and "kal-dnes" in barvy.get("2026-12-03", ""),
+         "kalendář: 2 kola = sytější zelená, 1 kolo / výzva = světlá, bez hry = prázdný, dnešek orámovaný")
+    over("2026-09-14" in barvy and "2026-09-13" not in barvy, "kalendář začíná pondělím před 12 týdny (14. 9.)")
+    over("5" in page.inner_text("[data-test=kalendar-dni]"), "pod kalendářem: dní s hrou za 12 týdnů = 5")
+    over(page.get_attribute('[data-datum="2026-11-05"]', "title") == "5. 11.: 2 kola nebo výzvy", "čtvereček má popisek s datem a počtem")
+    m = lambda sel: page.inner_text(f"[data-test=mesic-minuly-{sel}]")
+    over(page.inner_text("[data-test=mesic-minuly] h2") == "Tvůj listopad" and m("kol").startswith("3") and m("otazek").startswith("30") and m("procent").startswith("77"),
+         "souhrn listopadu: 3 kola, 30 otázek, 77 % správně")
+    over("11 hvězd" in m("meta") and "3 dny s hrou" in m("meta") and nazev_a in m("nejlepsi") and "85" in m("nejlepsi") and m("uroven").strip().endswith("1 → 3") and m("vyzvy").strip().endswith("1"),
+         f"souhrn listopadu: 11 hvězd, 3 dny, nejlepší {nazev_a} 85 %, úroveň 1 → 3, 1 denní výzva")
+    over(page.inner_text("[data-test=mesic-ted] h2") == "Tvůj prosinec zatím" and page.inner_text("[data-test=mesic-ted-procent]").startswith("100"),
+         "souhrn tohoto měsíce (prosinec zatím): 1 kolo, 100 %")
+    page.click("[data-test=mesic-minuly-sdilet]")
+    page.wait_for_function("window.__sdileno")
+    sd = page.evaluate("window.__sdileno")
+    over(sd["text"].startswith("Oho! Můj listopad: 3 kola, 30 otázek, 77 % správně, 1 denní výzva.") and f"{nazev_a} (85 %)" in sd["text"]
+         and "Nová úroveň 3!" in sd["text"] and sd["url"].endswith("#/"), f"Sdílet souhrn: „{sd['text']}“")
+    bez_chybejicich_textu(page, "Statistiky (D-038)")
+    if vystup:
+        vystup.mkdir(parents=True, exist_ok=True)
+        page.wait_for_timeout(300)
+        page.locator("[data-test=kalendar]").screenshot(path=str(vystup / "d038-kalendar-390.png"))
+        page.locator("[data-test=mesic-minuly]").screenshot(path=str(vystup / "d038-souhrn-390.png"))
+    # Domů 3. prosince: souhrn listopadu, ✕ ho skryje (i po obnovení)
+    jdi(page, zaklad, "#/")
+    over(page.locator("[data-test=mesic-domu]").count() == 1 and page.get_attribute("[data-test=mesic-domu]", "data-mesic") == "2026-11",
+         "Domů 3. 12.: karta „Tvůj listopad“")
+    if vystup:
+        page.wait_for_timeout(300)
+        page.screenshot(path=str(vystup / "d038-domu-390.png"), full_page=True)
+    page.click("[data-test=mesic-domu-zavrit]")
+    page.wait_for_selector("[data-test=mesic-domu]", state="detached")
+    page.reload()
+    jdi(page, zaklad, "#/")
+    over(page.locator("[data-test=mesic-domu]").count() == 0 and page.locator("[data-test=kategorie-domu]").count() == 1, "✕ skryje souhrn na Domů natrvalo (i po obnovení)")
+    jdi(page, zaklad, "#/nastaveni")
+    over(page.locator("#nast-domu-souhrn").count() == 1, "Nastavení → Co ukazovat na Domů: přepínač Měsíční souhrn")
+    ctx.close()
+    # 10. prosince už souhrn na Domů není; 320 px + tmavý režim + největší písmo bez přetékání; anglicky
+    ctx, page = kontext("2026-12-10T12:00:00", sirka=320)
+    jdi(page, zaklad, "#/")
+    over(page.locator("[data-test=mesic-domu]").count() == 0, "Domů 10. 12.: souhrn minulého měsíce už se neukazuje (jen 1.–7. den)")
+    page.evaluate("n => localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(n))", {**nast, "vzhled": "tmavy", "pismo": "nejvetsi"})
+    page.reload()
+    jdi(page, zaklad, "#/statistiky")
+    pr = pretekani(page)
+    over(not pr, "Statistiky 320 px, tmavý režim, největší písmo: kalendář a souhrn nepřetékají" + (f" ({pr[:3]})" if pr else ""))
+    if vystup:
+        page.wait_for_timeout(300)
+        page.locator("[data-test=kalendar]").screenshot(path=str(vystup / "d038-kalendar-tmavy-320.png"))
+    ctx.close()
+    ctx, page = kontext("2026-12-03T12:00:00", ui="en")
+    jdi(page, zaklad, "#/statistiky")
+    over(page.inner_text("[data-test=mesic-minuly] h2") == "Your November" and "Days played" in page.inner_text("[data-test=kalendar-dni]"),
+         "anglicky: „Your November“, „Days played…“")
+    bez_chybejicich_textu(page, "Statistiky EN (D-038)")
+    ctx.close()
+
+
 def kontrola_nahledu_odkazu():
     print("Náhled odkazu (Open Graph) a ikony:")
     html = (KOREN / "index.html").read_text(encoding="utf-8")
@@ -1665,6 +1761,7 @@ def main():
             lambda: scenar_omezit_pohyb(browser, zaklad, hlidac, otazky, tema["id"]),
             lambda: scenar_statistik(browser, zaklad, hlidac, temata),
             lambda: scenar_d037(browser, zaklad, hlidac, index, None if args.bez_screenshotu else Path(args.vystup)),
+            lambda: scenar_d038(browser, zaklad, hlidac, index, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d035(browser, zaklad, hlidac, index, otazky, temata, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d034(browser, zaklad, hlidac, otazky, temata),
             lambda: scenar_d033(browser, zaklad, hlidac, otazky, temata, None if args.bez_screenshotu else Path(args.vystup)),

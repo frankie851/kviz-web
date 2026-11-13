@@ -43,6 +43,7 @@
   --ok-shadow: #A9E2C1; --bad-shadow: #F5B5B5;
   --switch-off: #9C7F8E; --neutral: #C9B3A1;
   --tile-ink: #1A1020;
+  --cal-1: #A3DDBA; --cal-2: #5EC28A; --cal-3: #2E9C60; --cal-4: #136B3D; /* kalendář aktivity (D-038) */
   --tc-malina: #F8C3D6; --tc-zelena: #B5E3C5; --tc-modra: #BDD7F7; --tc-oranzova: #FAD0AE; --tc-fialova: #DDCDFA; --tc-tyrkys: #AEE0D9; --tc-cervena: #F8C2C3; --tc-hneda: #EDB9A2;
   --col: 560px;           /* šířka sloupce na PC */
   --pad: 16px;
@@ -70,6 +71,7 @@
   --switch-off: #6E5A76; --neutral: #6E5A76;
   --trbtn-explain: rgba(255, 255, 255, .12);
   --tile-ink: #FFFFFF;
+  --cal-1: #1E4A33; --cal-2: #24704A; --cal-3: #2FAE68; --cal-4: #7FDCA8;
   --tc-malina: #6E2A44; --tc-zelena: #1F5A3A; --tc-modra: #24466F; --tc-oranzova: #7A4421; --tc-fialova: #4A3577; --tc-tyrkys: #1C5652; --tc-cervena: #702A2E; --tc-hneda: #5E4128;
   --ok-letter-bg: #8FE3B4; --ok-letter-ink: #10291B; --bad-letter-bg: #C9343B;
 }
@@ -95,6 +97,7 @@
     --switch-off: #6E5A76; --neutral: #6E5A76;
       --trbtn-explain: rgba(255, 255, 255, .12);
       --tile-ink: #FFFFFF;
+      --cal-1: #1E4A33; --cal-2: #24704A; --cal-3: #2FAE68; --cal-4: #7FDCA8;
       --tc-malina: #6E2A44; --tc-zelena: #1F5A3A; --tc-modra: #24466F; --tc-oranzova: #7A4421; --tc-fialova: #4A3577; --tc-tyrkys: #1C5652; --tc-cervena: #702A2E; --tc-hneda: #5E4128;
     --ok-letter-bg: #8FE3B4; --ok-letter-ink: #10291B; --bad-letter-bg: #C9343B;
 }
@@ -725,3 +728,25 @@ a.diff:active { transform: translateY(2px); }
   .seg-btn { font-size: calc(14px * var(--pismo, 1)); padding: 6px 4px; }
 }
 @media (hover: none) { .btn-primary:hover { background: var(--primary); } }
+
+/* Kalendář aktivity a měsíční souhrn (D-038) */
+.kal-mriz { display: grid; grid-template-columns: auto repeat(12, minmax(0, 1fr)); gap: 3px; max-width: 440px; margin: 0 auto; align-items: center; }
+.kal-mesic { font-size: calc(11px * var(--pismo, 1)); font-weight: 800; color: var(--muted); white-space: nowrap; overflow: visible; line-height: 1.2; }
+.kal-den { font-size: calc(11px * var(--pismo, 1)); font-weight: 700; color: var(--muted); padding-right: 4px; line-height: 1; }
+.kal-c { display: block; aspect-ratio: 1; border-radius: 4px; background: var(--track); }
+.kal-1 { background: var(--cal-1); } .kal-2 { background: var(--cal-2); } .kal-3 { background: var(--cal-3); } .kal-4 { background: var(--cal-4); }
+.kal-budouci { background: transparent; }
+.kal-dnes { outline: 2px solid var(--ink); outline-offset: 1px; }
+.kal-pata { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 6px 12px; margin-top: 10px; }
+.kal-legenda { display: inline-flex; align-items: center; gap: 3px; color: var(--muted); font-size: calc(12px * var(--pismo, 1)); font-weight: 700; }
+.kal-legenda .kal-c { width: 12px; height: 12px; }
+.kal-legenda span:first-child { margin-right: 3px; } .kal-legenda span:last-child { margin-left: 3px; }
+.mesic-hlava { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+.mesic-hlava .sgroup-h::first-letter { text-transform: uppercase; }
+.mesic-zavrit { flex: none; width: 36px; height: 36px; margin: -6px -6px 0 0; border: 0; border-radius: 50%; background: transparent; color: var(--muted);
+  font-size: calc(18px * var(--pismo, 1)); font-weight: 800; cursor: pointer; }
+.mesic-zavrit:hover { background: var(--btn-hover); color: var(--ink); }
+.mesic-meta { margin: 8px 0 4px; }
+.mesic-karta .recs { margin-top: 4px; }
+.mesic-sdilet { width: 100%; margin-top: 10px; }
+.screen-domu .mesic-karta { margin-bottom: 12px; }
