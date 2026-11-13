@@ -101,6 +101,11 @@ export function uzavrenaVKategorii(kat) {
   return { x: vsech.filter(jeUzavrene).length, t: vsech.length };
 }
 
+/** Počet témat na webu s aspoň jedním dohraným kolem (odznak Objevitel, D-027). */
+export function pocetHranychTemat() {
+  return vsechnaTemata().filter((t) => viditelneObtiznosti(t).some((o) => vysledek(t.id, o))).length;
+}
+
 /** Počet uzavřených témat ve všech kategoriích (stupňový odznak Cestovatel, D-026). */
 export function pocetUzavrenych() {
   return vsechnaTemata().filter(jeUzavrene).length;
@@ -158,7 +163,7 @@ export function pokracovani() {
 /** Funkce pokroku pro podmínky odznaků (badges.js) a jejich postup na obrazovce Odznaky. */
 export const apiOdznaku = {
   jeDohrane, pocetDohranych, hvezdyTematu, hvezdyKategorie,
-  pocetUzavrenych, spravneCelkem, hvezdyCelych, uzavrenaVKategorii, serieDni: () => serieDni(),
+  pocetHranychTemat, pocetUzavrenych, spravneCelkem, hvezdyCelych, uzavrenaVKategorii, serieDni: () => serieDni(),
 };
 
 /** Aktuální série dní (když hráč včera ani dnes nehrál, je přerušená = 0). */

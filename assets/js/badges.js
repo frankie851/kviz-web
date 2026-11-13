@@ -12,9 +12,11 @@ const JEDNOTLIVE = [
   { id: "prvni-kolo", ikona: "🎉", splneno: () => true },
   { id: "bez-chyby", ikona: "💎", splneno: ({ kolo }) => kolo.spravne === kolo.celkem },
   { id: "rada-5", ikona: "🔥", splneno: ({ kolo }) => kolo.nejdelsiRada >= 5 },
-  { id: "rada-10", ikona: "⚡", splneno: ({ kolo }) => kolo.nejdelsiRada >= 10 },
+  // Neomylný: dřív 10 správně za sebou = u kola s 10 otázkami totéž co Bez chyby → nově bez chyby v Těžké (D-027)
+  { id: "tezka-bez-chyby", ikona: "⚡", splneno: ({ kolo }) => String(kolo.obt) === "3" && kolo.spravne === kolo.celkem },
   { id: "tezka", ikona: "🏔️", splneno: ({ kolo }) => String(kolo.obt) === "3" && kolo.odemyka },
-  { id: "temata-3", ikona: "🧭", splneno: ({ api }) => api.pocetDohranych() >= 3 },
+  // Objevitel: aspoň jedno dohrané kolo ve 3 různých tématech (D-027; dřív 3 témata až po Těžkou – těžší než Na vrcholu)
+  { id: "temata-3", ikona: "🧭", splneno: ({ api }) => api.pocetHranychTemat() >= 3 },
   { id: "tema-hvezdy", ikona: "🌟", splneno: ({ info, api }) => plne(api.hvezdyTematu(info.tema)) },
   { id: "kategorie-hvezdy", ikona: "👑", splneno: ({ info, api }) => plne(api.hvezdyKategorie(kategorie(info.kategorie.id))) },
   { id: "polyglot", ikona: "🌍", splneno: ({ kolo }) => kolo.jazykOtazek !== kolo.jazykUi },

@@ -1,6 +1,15 @@
 # DECISIONS – Kvízová webová aplikace
 Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový záznam s odkazem na původní.
 
+## D-027 · 2026-11-13 · Hledání ve Všech kategoriích, filtr ikonami, konfety od 90 %, oprava odznaků Neomylný a Objevitel (Davidovy pokyny a volby)
+- **Hledání témat** přesunuto z Domů na obrazovku **Všechny kategorie** (nahoře pole, výsledky místo dlaždic). Dlaždice „Všechny kategorie (n)“ na Domů má podtitul „🔎 i hledání témat“. Pozn.: dlaždice se ukáže jen při víc než 6 kategoriích (dnes 17); při méně by hledání z Domů nebylo vidět.
+- **Filtr v kategorii ikonami:** Vše (text) · 🚦 Nehrané · 🏃 Rozehrané · 🏁 Hotové, s počty; text je v popisku pro myš a čtečky. Mřížka 4 sloupců – jeden řádek i na 320 px.
+- **Konfety od 90 %** (4,5 ★ a 5 ★) místo jen 100 % – původní SPEC chtěl „konfety při ★★★“ a ★★★ bylo od 90 %. Zlaté paprsky a fanfára zůstávají jen pro 100 %. David konfety v poslední verzi „nezaznamenal“, protože 100 % je vzácné.
+- **Neomylný:** dřív 10 správně za sebou – u kola s 10 otázkami totéž co Bez chyby. Nově **bez chyby v Těžké** (nové id `tezka-bez-chyby`; starý `rada-10` zrušen, kdo ho měl, přijde o něj; upozornění během kola zůstává jen u Rozjetého – 5 za sebou).
+- **Objevitel:** kontrola logiky – chyba v kódu nebyla, ale podmínka „3 témata až po Těžkou“ (aspoň 9 kol a 70 % v Lehké i Střední) je těžší než Na vrcholu (1 téma až po Těžkou s 70 %), takže Na vrcholu logicky přišlo dřív. Nově **Objevitel = dohrané kolo ve 3 různých tématech** (snadný, brzy; dohrávání témat odměňuje Cestovatel). Kdo ho už má, nechá si ho.
+- **Ověření:** `pruchod.py` – Domů bez hledání, hledání ve Všech kategoriích, filtr na 320 px v jednom řádku s ikonami, konfety při 90 %, Neomylný za bez chyby v Těžké, Objevitel za 3 témata; 160 kontrol.
+- **Kdo:** David (pokyny a volby), prompt 01 (provedení)
+
 ## D-026 · 2026-11-12 · Karta Pokračuj, hledání a filtr témat, stupňové odznaky (Davidova volba z návrhů 1–3)
 - **Pokračuj (Domů):** karta nad hledáním. Přednost má naposledy rozehrané kolo s aspoň jednou odpovědí („Lehká · otázka 4 z 10“ + pruh zeleně/červeně), jinak další otevřená obtížnost naposledy hraného tématu („Střední · nová obtížnost“). Bez obojího se karta neukáže. Rozehrané kolo nově ukládá `spravne` a `cas`, výsledek kola `cas` (pořadí „naposledy“); starší záznamy bez času mají nejnižší přednost. `progress.js` `pokracovani()`.
 - **Hledání (Domů):** pole „Hledat téma…“; od 2 znaků se místo dlaždic kategorií ukážou nalezená témata (v obou jazycích názvu, bez ohledu na diakritiku a velká písmena), nejvýš 30 + „…a ještě n dalších“. Dotaz se pamatuje do zavření stránky; Esc nebo smazání vrátí kategorie.

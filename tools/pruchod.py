@@ -367,7 +367,7 @@ def scenar_hry(page, zaklad, otazky, temata, index):
     over(page.inner_text("[data-test=pocitadlo]").startswith("4 /"), "znovu otevřené kolo pokračuje 4. otázkou")
     n3 = zahraj_kolo(page, otazky, spatnych=0)
     over(hvezdy_vysledku(page) == (5, 0), "bez chyby = 5 hvězd")
-    over("rada-10" in pocty(page)["toasty"], "během kola upozornění „Nový odznak: Neomylný“ (10 za sebou)")
+    over("Neomylný" in page.inner_text("[data-test=nove-odznaky]"), "bez chyby v Těžké = nový odznak Neomylný (D-027)")
     try:
         page.wait_for_function("window.__konfety > 0", timeout=4000)
         ok("při 100 % (5 ★) padají konfety")
@@ -844,6 +844,7 @@ def scenar_d026(browser, zaklad, hlidac, index, otazky, vystup=None):
     prazdny = lambda: {"verze": 2, "vysledky": {}, "rozehrano": {}, "dny": {"posledni": None, "serie": 0, "nejdelsi": 0}, "stat": {"kol": 0, "nejdelsiRada": 0}, "odznaky": {}}
 
     ctx = browser.new_context(viewport={"width": 390, "height": 844}, locale="cs-CZ")
+    ctx.add_init_script(SLEDOVANI)
     page = ctx.new_page()
     page.set_default_timeout(8000)
     hlidac.pripoj(page)
@@ -882,20 +883,22 @@ def scenar_d026(browser, zaklad, hlidac, index, otazky, vystup=None):
     over(karta.count() == 1 and karta.get_attribute("href") == f'#/hra/{T1["id"]}/2' and "nová obtížnost" in karta.inner_text(),
          "Pokračuj bez rozehraného kola: další obtížnost naposledy hraného tématu")
 
-    # --- hledání
+    # --- hledání (D-027: na obrazovce Všechny kategorie, na Domů není)
+    over(page.locator("[data-test=hledani]").count() == 0, "Domů: hledání není (je ve Všech kategoriích)")
+    jdi(page, zaklad, "#/kategorie")
     jmeno = T1["nazev"]["cs"]
     slovo = next((w for w in jmeno.split() if len(w) >= 5), jmeno.split()[0])
     dotaz = unicodedata.normalize("NFD", slovo[:5]).encode("ascii", "ignore").decode().lower()  # bez diakritiky
     page.fill("[data-test=hledani]", dotaz)
     page.wait_for_timeout(200)
-    over(page.locator(f'[data-test=vysledky-hledani] .hit[data-tema="{T1["id"]}"]').count() == 1 and not page.is_visible("[data-test=kategorie-domu]"),
+    over(page.locator(f'[data-test=vysledky-hledani] .hit[data-tema="{T1["id"]}"]').count() == 1 and not page.is_visible("[data-test=kategorie-vse]"),
          f"hledání „{dotaz}“ (bez diakritiky) najde „{jmeno}“ a schová kategorie")
     if vystup:
         page.screenshot(path=str(vystup / "d026-hledani-390.png"))
     page.fill("[data-test=hledani]", "qxqxzz")
     over(page.locator("[data-test=nic-nenalezeno]").count() == 1, "nesmyslný dotaz: „Žádné téma tomu neodpovídá“")
     page.fill("[data-test=hledani]", "")
-    over(page.is_visible("[data-test=kategorie-domu]"), "smazané hledání: kategorie zpět")
+    over(page.is_visible("[data-test=kategorie-vse]"), "smazané hledání: kategorie zpět")
 
     # --- filtr v kategorii (kategorie s nejvíc tématy)
     kat = max(index["kategorie"], key=lambda k: len(k["temata"]))
@@ -916,6 +919,13 @@ def scenar_d026(browser, zaklad, hlidac, index, otazky, vystup=None):
         page.click('[data-filtr="nehrane"]')
         over(page.eval_on_selector_all(".topic", "els => els.filter(e => !e.hidden).length") == n - 2, "filtr Nehrané")
         page.click('[data-filtr="vse"]')
+        page.set_viewport_size({"width": 320, "height": 640})
+        horni = page.eval_on_selector_all("[data-filtr]", "els => [...new Set(els.map(e => Math.round(e.getBoundingClientRect().top)))]")
+        ikony = page.eval_on_selector_all("[data-filtr] .chip-ico", "els => els.map(e => e.textContent)")
+        over(len(horni) == 1 and ikony == ["🚦", "🏃", "🏁"], f"filtr na 320 px na jednom řádku, ikony {ikony} (D-027)")
+        p_ = pretekani(page)
+        over(not p_, "filtr na 320 px nepřetéká" + (f": {p_}" if p_ else ""))
+        page.set_viewport_size({"width": 390, "height": 844})
 
     # --- stupňové odznaky: 9 uzavřených témat + 10. uzavřené kolem → Cestovatel – bronz
     if len(viditelna) >= 11:
@@ -925,7 +935,9 @@ def scenar_d026(browser, zaklad, hlidac, index, otazky, vystup=None):
         T10 = viditelna[9][1]["id"]
         zacni_kolo(page, zaklad, T10)
         zahraj_kolo(page, otazky, spatnych=4)  # 60 % → další obtížnost zamčená natrvalo → 10. uzavřené téma
-        over("Cestovatel – bronz" in page.inner_text("[data-test=nove-odznaky]"), "10. dohrané téma: nový odznak „Cestovatel – bronz“")
+        nove = page.inner_text("[data-test=nove-odznaky]")
+        over("Cestovatel – bronz" in nove, "10. dohrané téma: nový odznak „Cestovatel – bronz“")
+        over("Objevitel" in nove, "Objevitel = kolo ve 3 různých tématech (D-027)")
         jdi(page, zaklad, "#/odznaky")
         rada = page.locator('[data-rada="temata"]')
         over(rada.locator('.medal.on[data-odznak="temata-10"]').count() == 1 and "10 / 50 do stříbra" in rada.inner_text(),
@@ -938,6 +950,14 @@ def scenar_d026(browser, zaklad, hlidac, index, otazky, vystup=None):
         if vystup:
             page.wait_for_timeout(600)
             page.screenshot(path=str(vystup / "d026-odznaky-390.png"), full_page=True)
+        T11 = viditelna[10][1]["id"]
+        zacni_kolo(page, zaklad, T11)
+        zahraj_kolo(page, otazky, spatnych=1)  # 90 % → konfety (D-027)
+        try:
+            page.wait_for_function("window.__konfety > 0", timeout=4000)
+            ok("při 90 % (4,5 ★) padají konfety (D-027)")
+        except Exception:
+            chyba("při 90 % (4,5 ★) nejsou konfety")
         jdi(page, zaklad, "#/")
         celkem = 10 + 4 * 3 + 3 * n_kat
         over(page.inner_text("[data-test=odznaky] b").endswith(f"/ {celkem}"), f"Domů: odznaky z celkem {celkem}")

@@ -7,6 +7,8 @@ import { pulV, stav, hvezdyTematu, stavTematu } from "../progress.js";
 
 export const ID = "temata";
 const FILTRY = ["vse", "nehrane", "rozehrane", "hotove"];
+// ikony místo textu, aby se filtr vešel na telefonu na jeden řádek (D-027); text je v title a pro čtečky
+const IKONY_FILTRU = { nehrane: "🚦", rozehrane: "🏃", hotove: "🏁" };
 const MIN_TEMAT_PRO_FILTR = 4;
 const zvolenyFiltr = new Map(); // kategorie → filtr (pamatuje se po dobu otevřené stránky)
 
@@ -44,8 +46,11 @@ export function vykresli([katId]) {
     for (const k of karty) pocty[k.dataset.stavTematu] = (pocty[k.dataset.stavTematu] || 0) + 1;
     const tlacitka = FILTRY.map((f) => h("button", {
       type: "button", class: "chip", "data-filtr": f, "aria-pressed": "false",
+      title: t(`temata.filtr.${f}`), "aria-label": `${t(`temata.filtr.${f}`)} (${pocty[f] || 0})`,
       onclick: () => nastav(f),
-    }, t(`temata.filtr.${f}`), h("span", { class: "chip-n", text: String(pocty[f] || 0) })));
+    },
+    IKONY_FILTRU[f] ? h("span", { class: "chip-ico", "aria-hidden": "true", text: IKONY_FILTRU[f] }) : h("span", { "aria-hidden": "true", text: t(`temata.filtr.${f}`) }),
+    h("span", { class: "chip-n", "aria-hidden": "true", text: String(pocty[f] || 0) })));
     const nastav = (f) => {
       zvolenyFiltr.set(kat.id, f);
       tlacitka.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.filtr === f)));

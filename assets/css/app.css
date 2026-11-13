@@ -168,7 +168,9 @@ p { margin: 0; }
 /* .tile.tile-vse: musí přebít .tile (definované níž) */
 .tile.tile-vse { grid-column: 1 / -1; min-height: 0; flex-direction: row; align-items: center; justify-content: flex-start; gap: 12px;
   background: var(--surface); color: var(--ink); border: 2px dashed #E5CDB7; box-shadow: none; }
-.tile.tile-vse .tile-name { flex: 1; font-size: 18px; }
+.tile.tile-vse .tile-name { font-size: 18px; }
+.tile-vse-body { flex: 1; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.tile-vse-hint { color: var(--muted); font-size: 14px; font-weight: 700; }
 .tile.tile-vse .tile-meta { font-size: 22px; color: var(--primary); }
 .row3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
 .btn-tile { flex-direction: column; gap: 2px; min-height: 72px; padding: 10px 6px; font-size: 16px; text-align: center; overflow-wrap: anywhere; }
@@ -366,10 +368,11 @@ a.diff:active { transform: translateY(2px); }
 .empty-hledani { text-align: center; color: var(--muted); padding: 16px 8px; }
 
 /* ---------- Témata: filtr (D-026) ---------- */
-.chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 14px; }
-.chip { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 6px 14px; border: 2px solid var(--line); border-radius: 999px;
+.chips { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; margin: 0 0 14px; }
+.chip { display: inline-flex; align-items: center; justify-content: center; gap: 4px; min-width: 0; min-height: 48px; padding: 6px 4px; white-space: nowrap; border: 2px solid var(--line); border-radius: 999px;
   background: var(--surface); color: var(--ink); font: inherit; font-weight: 800; font-size: 15px; cursor: pointer; }
-.chip-n { min-width: 24px; padding: 0 6px; border-radius: 999px; background: var(--bg); color: var(--muted); font-size: 13px; text-align: center; }
+.chip-ico { font-size: 20px; line-height: 1; }
+.chip-n { flex: none; min-width: 22px; padding: 0 5px; white-space: nowrap; border-radius: 999px; background: var(--bg); color: var(--muted); font-size: 13px; text-align: center; }
 .chip[aria-pressed="true"] { background: var(--primary); border-color: var(--primary); color: var(--on-primary); }
 .chip[aria-pressed="true"] .chip-n { background: rgba(255, 255, 255, .25); color: #fff; }
 

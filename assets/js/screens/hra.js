@@ -16,7 +16,7 @@ import { oznameniOdznaku, schovejOznameni } from "../oslavy.js";
 export const ID = "hra";
 const PISMENA = ["A", "B", "C", "D", "E", "F"];
 // odznaky, které se dají získat už během kola (série správných odpovědí) – upozornění hned
-const ODZNAKY_SERIE = { 5: "rada-5", 10: "rada-10" };
+const ODZNAKY_SERIE = { 5: "rada-5" };
 
 export async function vykresli([temaId, obt], app) {
   const info = najdiTema(temaId);
