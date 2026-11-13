@@ -131,6 +131,15 @@ export function stavTematu(temaInfo) {
   return hrano ? "rozehrane" : "nehrane";
 }
 
+/** Náhodné téma pro „Překvap mě“ (D-028): nejdřív z nehraných, pak z těch, kde jde hrát dál, jinak z jakéhokoli. */
+export function nahodneTema() {
+  const vse = vsechnaTemata();
+  const nehrane = vse.filter((t) => stavTematu(t) === "nehrane");
+  const dal = vse.filter((t) => viditelneObtiznosti(t).some((o) => stav(t, o) === "otevreno"));
+  const z = nehrane.length ? nehrane : dal.length ? dal : vse;
+  return z.length ? z[Math.floor(Math.random() * z.length)] : null;
+}
+
 /**
  * Karta „Pokračuj“ na Domů (D-026): naposledy rozehrané kolo s aspoň jednou odpovědí, jinak další
  * otevřená obtížnost naposledy hraného tématu. Vrací { info, obt, rozehrane, i, n, spravne } nebo null.
