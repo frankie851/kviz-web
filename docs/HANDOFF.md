@@ -1,8 +1,8 @@
 # HANDOFF – Kvízová webová aplikace
-datum: 2026-11-15 · předává: prompt 01 (D-033 přenos pokroku, výzva kamarádovi, předčítání, prostředí A) · přebírá: David (sloučit pull request, vyzkoušet)
+datum: 2026-11-15 · předává: prompt 01 (D-034 úroveň hráče a týdenní cíl, prostředí A) · přebírá: David (sloučit pull request, vyzkoušet)
 
 ## Stav jednou větou
-Web je online s funkcemi do D-032 (sloučeno). V pull requestu čeká D-033: přenos pokroku souborem, výzva kamarádovi přes odkaz a předčítání otázek nahlas.
+Web je online s funkcemi do D-033 (sloučeno). V pull requestu čeká D-034: úroveň hráče (body za správné odpovědi) a týdenní cíl na Domů.
 
 ## Stav dat
 - 2026-11-04 – 35 otázek, 1 téma (T001 Chobotnice a další hlavonožci), režim vzorek
@@ -58,6 +58,8 @@ Web je online s funkcemi do D-032 (sloučeno). V pull requestu čeká D-033: př
 
 - D-033 (2026-11-15): přenos pokroku, výzva kamarádovi, předčítání; `pruchod.py` 204 kontrol; náhled `docs/nahledy/d033-prenos-souboj-predcitani.png`.
 
+- D-034 (2026-11-15): úroveň hráče a týdenní cíl; `pruchod.py` 209 kontrol; náhled `docs/nahledy/d034-uroven-tyden.png`.
+
 ## Rozpracováno
 - **Na skutečném telefonu ověří David:** hlas předčítání (čeština záleží na hlasech v telefonu), stažení a nahrání souboru s pokrokem (iPhone: Soubory), otevření odkazu výzvy kamarádovi z WhatsAppu/Messengeru.
 - **Sdílení na skutečném telefonu** ověří David (systémová nabídka sdílení se v Chromiu bez hlavy jen napodobí).
@@ -69,9 +71,9 @@ Web je online s funkcemi do D-032 (sloučeno). V pull requestu čeká D-033: př
 - **Náhled odkazu** ověří až sdílení nasazené adresy (např. poslat si odkaz ve WhatsAppu/Messengeru). Sítě si náhled pamatují – kdyby ukazovaly starou zástupnou stránku, chce to chvíli počkat.
 
 ## Další krok
-1. **David:** sloučit pull request s D-033 a vyzkoušet na mobilu (🔊 Přečíst u otázky; po kole Vyzvat kamaráda; Nastavení → Přenos pokroku).
+1. **David:** sloučit pull request s D-034 a vyzkoušet na mobilu (Domů: Úroveň a Týdenní cíl; po kole „+ bodů“; Nastavení → Týdenní cíl).
 2. **Návrhy z 2026-11-12 uzavřené:** 1–8 hotové (D-026–D-032); 9 Instalace na plochu / offline – **David nechce** (2026-11-15), nestavět; 10 Nahlásit chybu v otázce – jen **možnost do budoucna** (viz Nápady na později).
-2b. **Nové nápady z 2026-11-15** (11, 12, 13 hotové – D-033; zbývá): 11 Výzva kamarádovi (stejné otázky přes odkaz), 12 Předčítání otázek nahlas, 13 Přenos pokroku do jiného zařízení, 14 Úroveň hráče, 15 Týdenní cíl, 16 Žolík 50 : 50, 17 Moje sbírka otázek, 18 Duel dvou hráčů na jednom telefonu, 19 Štítek „Nové“ u nových témat, 20 Rychlovka na čas.
+2b. **Nové nápady z 2026-11-15** (11–15 hotové – D-033, D-034; zbývá 16–20): 11 Výzva kamarádovi (stejné otázky přes odkaz), 12 Předčítání otázek nahlas, 13 Přenos pokroku do jiného zařízení, 14 Úroveň hráče, 15 Týdenní cíl, 16 Žolík 50 : 50, 17 Moje sbírka otázek, 18 Duel dvou hráčů na jednom telefonu, 19 Štítek „Nové“ u nových témat, 20 Rychlovka na čas.
 2. **Další témata (kdykoli):** v Excelu označit Web = Ano (u celého tématu stačí list Témata, D-017), uložit, zavřít; pak **prompt 03** v úkolu propojeném s počítačem (prostředí B). Prompt 03 po exportu spustí `python3 tools/pruchod.py`.
 3. Body „K zvážení“ z kontroly: K4 hotovo (D-018), K1 = krok 2, K2 a K3 beze změny (David nic nežádal), K5 jen informace. Kdyby David chtěl K2/K3 přece změnit, udělá to prompt 01.
 
@@ -81,6 +83,7 @@ Web je online s funkcemi do D-032 (sloučeno). V pull requestu čeká D-033: př
 - `tools/pruchod.py`: 1. běh selhal na varování o preload písem, 2. běh prošel – viz nález D-1.
 
 ## Připomínky Davida (k zapracování)
+- 2026-11-15 – „udělej ještě 14 a 15“ (úroveň hráče, týdenní cíl) → **zapracováno** (D-034).
 - 2026-11-15 – „udělej 13, 11 a 12“ (přenos pokroku, výzva kamarádovi, předčítání) → **zapracováno** (D-033).
 - 2026-11-15 – „9 nedělej, 10 zaznamenej jako možnost do budoucna, vymysli dalších 10 nápadů“ → zapsáno (Nápady na později), nápady 11–20 v Dalším kroku.
 - 2026-11-14 – „udělej ještě návrh 7 a 8“ (denní výzva, sdílení výsledku) → **zapracováno** (D-032).

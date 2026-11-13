@@ -69,6 +69,7 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☑ (2026-11-14) D-031 jemnější barvy / tmavé dlaždice v tmavém režimu, Procvičit chyby, „Vyber si téma“ pod filtrem.
 - ☑ (2026-11-14) D-032 denní výzva a sdílení výsledku.
 - ☑ (2026-11-15) D-033 přenos pokroku, výzva kamarádovi, předčítání nahlas.
+- ☑ (2026-11-15) D-034 úroveň hráče a týdenní cíl.
 
 ## Stav
-Poslední aktualizace: 2026-11-15 · Web online (vč. D-032) · Čeká se: sloučení D-033 · Blokováno: nic
+Poslední aktualizace: 2026-11-15 · Web online (vč. D-033) · Čeká se: sloučení D-034 · Blokováno: nic
