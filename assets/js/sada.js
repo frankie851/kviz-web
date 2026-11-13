@@ -6,6 +6,7 @@ import { h, ikonaKategorie } from "./ui.js";
 import { idx, txt } from "./data.js";
 import { nast, jazykPrekladu, PREKLAD } from "./settings.js";
 import { odezva } from "./feedback.js";
+import { tlacitkoPredcitani, textOtazky, mluv, zastav, autoPredcitat } from "./predcitani.js";
 
 const PISMENA = ["A", "B", "C", "D", "E", "F"];
 
@@ -74,7 +75,10 @@ export function sadaOtazek({ polozky, odpovedi0 = [], naOdpoved, naKonec, textPo
     if (rezim === PREKLAD.TUKNUTI && karta.querySelector(".tr")) {
       karta.append(tlacitkoPrekladu(() => [...karta.querySelectorAll(".tr"), ...seznam.querySelectorAll(".tr")]));
     }
+    const mluvOtazku = tlacitkoPredcitani(() => textOtazky(q, jo), jo); // 🔊 (D-033)
+    if (mluvOtazku) karta.append(mluvOtazku);
     telo.replaceChildren(karta, seznam);
+    if (autoPredcitat()) mluv(textOtazky(q, jo), jo);
     stav.q = q;
   }
 
@@ -83,6 +87,7 @@ export function sadaOtazek({ polozky, odpovedi0 = [], naOdpoved, naKonec, textPo
     stav.odpovezeno = true;
     const q = stav.q;
     const ok = k === q.spravne;
+    zastav();
     if (ok) stav.spravne += 1;
     odpovedi.push([q.id, k]);
     naOdpoved?.(q, k, ok, odpovedi.slice());
@@ -109,6 +114,8 @@ export function sadaOtazek({ polozky, odpovedi0 = [], naOdpoved, naKonec, textPo
         h("span", { class: "dyk", text: t("hra.vedeliJste") })),
       h("p", {}, vysv));
     if (rezim === PREKLAD.TUKNUTI && vysv.querySelector(".tr")) panel.append(tlacitkoPrekladu(() => [...vysv.querySelectorAll(".tr")]));
+    const mluvVysv = tlacitkoPredcitani(() => q.vysvetleni?.[jo] || "", jo);
+    if (mluvVysv) panel.append(mluvVysv);
     const posledni = stav.i === n - 1;
     const dalsi = h("button", { type: "button", class: "btn btn-primary btn-big next", "data-test": "dalsi", onclick: () => pokracuj() },
       posledni ? textPosledni || t("procvic.konec") : t("hra.dalsi"), h("span", { "aria-hidden": "true", text: " →" }));
@@ -162,6 +169,6 @@ export function sadaOtazek({ polozky, odpovedi0 = [], naOdpoved, naKonec, textPo
   document.addEventListener("keydown", klavesy);
   return {
     casti: [h("div", { class: "qprogress" }, postup, pocitadlo), tema, telo],
-    uklid: () => document.removeEventListener("keydown", klavesy),
+    uklid: () => { document.removeEventListener("keydown", klavesy); zastav(); },
   };
 }

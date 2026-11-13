@@ -1224,6 +1224,123 @@ def scenar_d032(browser, zaklad, hlidac, otazky, temata, vystup=None):
     ctx.close()
 
 
+MLUVENI_MOCK = """window.__mluv = [];
+  if (window.speechSynthesis) { window.speechSynthesis.speak = (u) => window.__mluv.push({ text: u.text, lang: u.lang }); window.speechSynthesis.cancel = () => {}; }"""
+
+
+def scenar_d033(browser, zaklad, hlidac, otazky, temata, vystup=None):
+    """D-033: přenos pokroku souborem, výzva kamarádovi (stejné otázky přes odkaz), předčítání nahlas."""
+    import tempfile
+    print("Přenos pokroku, výzva kamarádovi, předčítání (D-033):")
+    T = temata[0][1]
+    nast = {"ui": "cs", "otazky": "cs", "preklad": "vypnuto", "zvuky": False, "vibrace": False}
+
+    def kontext(init=None, nastaveni=nast, **kw):
+        ctx = browser.new_context(viewport={"width": 390, "height": 844}, locale="cs-CZ", accept_downloads=True, **kw)
+        for i in ([init] if isinstance(init, str) else init or []):
+            ctx.add_init_script(i)
+        page = ctx.new_page()
+        page.set_default_timeout(8000)
+        hlidac.pripoj(page)
+        page.goto(zaklad)
+        if nastaveni:
+            page.evaluate("n => localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(n))", nastaveni)
+            page.reload()
+            jdi(page, zaklad, "#/")
+        return ctx, page
+
+    # --- výzva kamarádovi + předčítání
+    ctx, page = kontext([SDILENI_MOCK, MLUVENI_MOCK])
+    zacni_kolo(page, zaklad, T["id"])
+    q0 = otazky[page.get_attribute(".qcard", "data-qid")]
+    page.click(".qcard [data-test=predcist]")
+    m = page.evaluate("window.__mluv")
+    over(m and q0["otazka"]["cs"] in m[-1]["text"] and "A: " + q0["moznosti"]["cs"][0] in m[-1]["text"] and m[-1]["lang"] == "cs-CZ",
+         "🔊 Přečíst: otázka i možnosti česky (cs-CZ)")
+    zahraj_kolo(page, otazky, spatnych=3)
+    ids_kola = page.evaluate(f"JSON.parse(localStorage.getItem('kviz.v1.pokrok')).vysledky['{T['id']}']['1'].odpovedi.map(x => x[0])")
+    page.click("[data-test=vyzvat]")
+    page.wait_for_function("window.__sdileno !== null")
+    d = page.evaluate("window.__sdileno")
+    over("/souboj/" in d["url"] and d["url"].endswith("/7") and "7/10" in d["text"], f"Vyzvat kamaráda: odkaz se stejnými otázkami a skóre 7 ({d['url'].split('#')[1][:40]}…)")
+    ctx.close()
+    # kamarád: nový hráč přijde z odkazu → první spuštění → souboj, stejné otázky, nic se mu nezapíše
+    ctx, page = kontext(SDILENI_MOCK, nastaveni=None)
+    page.goto(d["url"])
+    page.wait_for_selector("[data-test=pokracovat]")
+    page.click("[data-test=pokracovat]")
+    page.click('[data-zpusob="muj"]')
+    page.wait_for_selector("[data-test=souboj-uvod]")
+    over("kamarád měl 7 z 10" in page.inner_text("[data-test=souboj-uvod]"), "kamarád z odkazu: po prvním spuštění rovnou výzva „kamarád měl 7 z 10“")
+    hrane = []
+    for _ in range(len(ids_kola)):
+        hrane.append(page.get_attribute(".qcard", "data-qid"))
+        zodpovez(page, otazky, spravne=True)
+        dalsi(page)
+    page.wait_for_selector("[data-test=souboj-konec]")
+    over(hrane == ids_kola, "kamarád hraje stejné otázky ve stejném pořadí")
+    over(page.get_attribute("[data-test=souboj-konec]", "data-verdikt") == "vyhra" and "10 / 10" in page.inner_text("[data-test=souboj-konec]"),
+         "10 : 7 → „Vyhráváš! 🏆“")
+    if vystup:
+        vystup.mkdir(parents=True, exist_ok=True)
+        page.wait_for_timeout(900)
+        page.screenshot(path=str(vystup / "d033-souboj-390.png"))
+    over(not page.evaluate("Object.keys((JSON.parse(localStorage.getItem('kviz.v1.pokrok') || '{}').vysledky) || {}).length"),
+         "výzva od kamaráda nic nezapíše do pokroku")
+    page.click("[data-test=sdilet]")
+    page.wait_for_function("window.__sdileno !== null")
+    over(page.evaluate("window.__sdileno.url").endswith("/10"), "Poslat výsledek zpět: odkaz s mým skóre 10")
+    ctx.close()
+
+    # --- předčítání automaticky / vypnuto
+    ctx, page = kontext(MLUVENI_MOCK, nastaveni={**nast, "predcitani": "auto"})
+    zacni_kolo(page, zaklad, temata[1][1]["id"])
+    page.wait_for_timeout(200)
+    over(len(page.evaluate("window.__mluv")) == 1, "předčítání Automaticky: otázka se přečte sama")
+    zodpovez(page, otazky)
+    page.click(".explain [data-test=predcist]")
+    q = otazky[page.get_attribute(".qcard", "data-qid")]
+    over(page.evaluate("window.__mluv")[-1]["text"] == q["vysvetleni"]["cs"], "🔊 u vysvětlení přečte vysvětlení")
+    ctx.close()
+    ctx, page = kontext(MLUVENI_MOCK, nastaveni={**nast, "predcitani": "vypnuto"})
+    zacni_kolo(page, zaklad, temata[1][1]["id"])
+    over(page.locator("[data-test=predcist]").count() == 0, "předčítání Vypnuto: žádné tlačítko 🔊")
+    ctx.close()
+
+    # --- přenos pokroku: uložit do souboru v jednom „zařízení“, nahrát v druhém
+    ctx, page = kontext()
+    zacni_kolo(page, zaklad, T["id"])
+    zahraj_kolo(page, otazky, spatnych=1)
+    jdi(page, zaklad, "#/")
+    hvezdy_a = page.inner_text("[data-test=hvezdy-celkem] b")
+    jdi(page, zaklad, "#/nastaveni")
+    with page.expect_download() as dl:
+        page.click("[data-test=prenos-ulozit]")
+    soubor = Path(tempfile.mkdtemp()) / dl.value.suggested_filename
+    dl.value.save_as(soubor)
+    obsah = json.loads(soubor.read_text(encoding="utf-8"))
+    over(soubor.name.startswith("oho-pokrok-") and obsah.get("aplikace") == "oho-kviz" and obsah["data"]["pokrok"]["vysledky"].get(T["id"]),
+         f"Uložit pokrok do souboru: {soubor.name} s výsledky")
+    ctx.close()
+    ctx, page = kontext()
+    jdi(page, zaklad, "#/nastaveni")
+    spatny = soubor.with_name("jiny.json")
+    spatny.write_text('{"neco": 1}', encoding="utf-8")
+    page.set_input_files("[data-test=prenos-soubor]", str(spatny))
+    page.wait_for_selector("[data-test=oznameni]")
+    over("nejde nahrát" in page.inner_text("[data-test=oznameni]") and page.locator("[data-test=potvrdit]").count() == 0, "cizí soubor: „nejde nahrát“, nic se nemění")
+    page.set_input_files("[data-test=prenos-soubor]", str(soubor))
+    page.wait_for_selector("[data-test=potvrdit]")
+    over("(1 dohrané kolo)" in page.inner_text("[data-test=potvrdit]"), "potvrzení uvnitř aplikace s popisem souboru („1 dohrané kolo“)")
+    if vystup:
+        page.screenshot(path=str(vystup / "d033-prenos-potvrzeni-390.png"))
+    page.click("[data-test=potvrdit-ano]")
+    page.wait_for_selector("[data-test=domu]")
+    page.wait_for_timeout(300)
+    over(page.inner_text("[data-test=hvezdy-celkem] b") == hvezdy_a, f"po nahrání má druhé zařízení stejné hvězdy ({hvezdy_a})")
+    ctx.close()
+
+
 def kontrola_nahledu_odkazu():
     print("Náhled odkazu (Open Graph) a ikony:")
     html = (KOREN / "index.html").read_text(encoding="utf-8")
@@ -1330,6 +1447,7 @@ def main():
             lambda: scenar_zvuku(page, zaklad, otazky, tema3["id"]),
             lambda: scenar_omezit_pohyb(browser, zaklad, hlidac, otazky, tema["id"]),
             lambda: scenar_statistik(browser, zaklad, hlidac, temata),
+            lambda: scenar_d033(browser, zaklad, hlidac, otazky, temata, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d032(browser, zaklad, hlidac, otazky, temata, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_procvicovani(browser, zaklad, hlidac, temata, otazky, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d028(browser, zaklad, hlidac, index, otazky, temata, None if args.bez_screenshotu else Path(args.vystup)),

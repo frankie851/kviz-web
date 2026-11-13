@@ -35,6 +35,42 @@ export function uloz(klic, hodnota) {
   }
 }
 
+/** Všechno, co hra uložila (klíče kviz.v1.* bez předpony) – pro přenos pokroku do jiného zařízení (D-033). */
+export function vsechnaData() {
+  const vysl = {};
+  try {
+    if (lzeUkladat) {
+      for (let i = 0; i < localStorage.length; i++) {
+        const k = localStorage.key(i);
+        if (k && k.startsWith(PREFIX) && !k.endsWith("__test")) vysl[k.slice(PREFIX.length)] = JSON.parse(localStorage.getItem(k));
+      }
+    } else {
+      for (const [k, raw] of pamet) vysl[k] = JSON.parse(raw);
+    }
+  } catch { /* poškozený záznam vynecháme */ }
+  return vysl;
+}
+
+/** Nahradí všechna uložená data hry daty ze souboru (D-033). Vrátí true, když se uložení povedlo. */
+export function nahradData(data) {
+  try {
+    if (lzeUkladat) {
+      const stare = [];
+      for (let i = 0; i < localStorage.length; i++) {
+        const k = localStorage.key(i);
+        if (k && k.startsWith(PREFIX)) stare.push(k);
+      }
+      stare.forEach((k) => localStorage.removeItem(k));
+    }
+    pamet.clear();
+    let ok = true;
+    for (const [k, v] of Object.entries(data)) ok = uloz(k, v) && ok;
+    return ok || !lzeUkladat;
+  } catch {
+    return false;
+  }
+}
+
 export function ukladaniFunguje() {
   return lzeUkladat;
 }

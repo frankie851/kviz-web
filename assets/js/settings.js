@@ -11,7 +11,7 @@ export function jeNastaveno() {
 }
 
 export function nast() {
-  return { vzhled: VZHLED.AUTO, pismo: PISMO.NORMALNI, ...(nastaveni || { ui: "cs", otazky: "cs", preklad: PREKLAD.VYPNUTO, zvuky: true, vibrace: true }) };
+  return { vzhled: VZHLED.AUTO, pismo: PISMO.NORMALNI, predcitani: "tlacitko", ...(nastaveni || { ui: "cs", otazky: "cs", preklad: PREKLAD.VYPNUTO, zvuky: true, vibrace: true }) };
 }
 
 // Vzhled (D-028): barevný režim podle telefonu / světlý / tmavý a velikost písma. Na <html> se zapíše

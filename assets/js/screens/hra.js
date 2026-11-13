@@ -12,6 +12,7 @@ import { uloz as ulozStorage } from "../storage.js";
 import { odezva, zvuk } from "../feedback.js";
 import { odznak } from "../badges.js";
 import { oznameniOdznaku, schovejOznameni } from "../oslavy.js";
+import { tlacitkoPredcitani, textOtazky, mluv, zastav, autoPredcitat } from "../predcitani.js";
 
 export const ID = "hra";
 const PISMENA = ["A", "B", "C", "D", "E", "F"];
@@ -143,7 +144,10 @@ export async function vykresli([temaId, obt], app) {
     if (rezim === PREKLAD.TUKNUTI && karta.querySelector(".tr")) {
       karta.append(tlacitkoPrekladu(() => [...karta.querySelectorAll(".tr"), ...seznam.querySelectorAll(".tr")]));
     }
+    const mluvOtazku = tlacitkoPredcitani(() => textOtazky(q, jo), jo); // 🔊 (D-033)
+    if (mluvOtazku) karta.append(mluvOtazku);
     telo.replaceChildren(karta, seznam);
+    if (autoPredcitat()) mluv(textOtazky(q, jo), jo);
     stav.tlacitka = tlacitka;
     stav.q = q;
   }
@@ -153,6 +157,7 @@ export async function vykresli([temaId, obt], app) {
     stav.odpovezeno = true;
     const q = stav.q;
     const ok = k === q.spravne;
+    zastav(); // předčítání otázky po odpovědi utichne
     if (ok) {
       stav.spravne += 1;
       stav.rada += 1;
@@ -201,6 +206,8 @@ export async function vykresli([temaId, obt], app) {
     if (rezim === PREKLAD.TUKNUTI && vysv.querySelector(".tr")) {
       panel.append(tlacitkoPrekladu(() => [...vysv.querySelectorAll(".tr")]));
     }
+    const mluvVysv = tlacitkoPredcitani(() => q.vysvetleni?.[jo] || "", jo);
+    if (mluvVysv) panel.append(mluvVysv);
     const dalsi = h("button", {
       type: "button",
       class: "btn btn-primary btn-big next",
@@ -297,5 +304,5 @@ export async function vykresli([temaId, obt], app) {
   uloz();
   otazka();
   document.addEventListener("keydown", klavesy);
-  return { el, titulek: txt(info.tema.nazev, jazyk()), uklid: () => document.removeEventListener("keydown", klavesy) };
+  return { el, titulek: txt(info.tema.nazev, jazyk()), uklid: () => { document.removeEventListener("keydown", klavesy); zastav(); } };
 }
