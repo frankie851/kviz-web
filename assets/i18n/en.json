@@ -503,5 +503,27 @@
       "one": "{n} new topic added",
       "other": "{n} new topics added"
     }
+  },
+  "pruvodce": {
+    "preskocit": "Skip",
+    "dal": "Next",
+    "zpet": "Back",
+    "rozumim": "Got it, let's play!",
+    "otevrit": "How to play",
+    "jednou": {
+      "nadpis": "You play each level only once",
+      "text": "A topic has Easy, Medium and Hard levels. Each is one round of up to 10 questions – and the first result counts, you can't replay it.",
+      "tip": "You can pause a round and carry on later where you left off."
+    },
+    "hvezdy": {
+      "nadpis": "Stars in halves",
+      "text": "Every 10 % of correct answers earns half a star. 10 of 10 = 5 ★, 7 of 10 = 3.5 ★.",
+      "tip": ""
+    },
+    "odemykani": {
+      "nadpis": "70 % unlocks the next level",
+      "text": "Get at least 70 % right in a round and the next level opens. Below 70 % it stays locked for good in that topic – so focus!",
+      "tip": "You can practise your mistakes any time in History – it doesn't change your stars."
+    }
   }
 }

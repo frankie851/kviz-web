@@ -10,6 +10,7 @@ import { viditelneKategorie, txt } from "../data.js";
 import { vsechnyOdznaky } from "../badges.js";
 import { ukladaniFunguje } from "../storage.js";
 import { dlazdiceKategorie } from "./kategorie.js";
+import { pruvodceKdyzTreba } from "../pruvodce.js";
 
 export const ID = "domu";
 const MAX_DLAZDIC = 6; // víc kategorií = prvních 6 (3 plné řady) + široké „Všechny kategorie (n)“ – Domů se neprodlužuje donekonečna
@@ -138,5 +139,6 @@ export function vykresli(_param, app) {
     ),
     ukladaniFunguje() ? null : h("p", { class: "notice", role: "status", text: t("domu.bezUkladani") })
   );
+  pruvodceKdyzTreba(); // nový hráč: 3 kroky s pravidly (D-036)
   return { el, bezFokusu: true };
 }

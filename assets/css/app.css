@@ -487,9 +487,21 @@ a.diff:active { transform: translateY(2px); }
 .souboj-vs { color: var(--muted); font-weight: 800; font-size: calc(18px * var(--pismo, 1)); }
 .prenos-btns { display: grid; gap: 10px; margin-top: 10px; }
 .dialog-pozadi { position: fixed; inset: 0; z-index: 70; display: grid; place-items: center; padding: 16px; background: rgba(28, 18, 32, .55); }
-.dialog { width: min(100%, 420px); display: grid; gap: 10px; text-align: center; }
+.dialog { width: min(100%, 420px); max-height: calc(100vh - 32px); max-height: calc(100dvh - 32px); overflow-y: auto; display: grid; gap: 10px; text-align: center; }
 .dialog-h { font-size: calc(22px * var(--pismo, 1)); }
 .dialog-text { color: var(--muted); margin: 0 0 6px; }
+/* průvodce pravidly (D-036) */
+.pruvodce { position: relative; padding-top: 22px; }
+.pruvodce-preskocit { position: absolute; top: 8px; right: 10px; min-height: 40px; padding: 4px 10px; border: 0; background: none; color: var(--muted);
+  font: inherit; font-weight: 800; font-size: calc(14px * var(--pismo, 1)); cursor: pointer; }
+.pruvodce-obsah { display: grid; gap: 8px; justify-items: center; }
+.pruvodce-ikona { font-size: 48px; line-height: 1; }
+.pruvodce-text { margin: 0; }
+.pruvodce-tip { margin: 0; padding: 8px 12px; border-radius: 14px; background: var(--explain-bg); color: var(--explain-ink); font-size: calc(15px * var(--pismo, 1)); }
+.pruvodce-tecky { display: flex; justify-content: center; gap: 6px; margin: 4px 0; }
+.pruvodce-tecky .tecka { width: 8px; height: 8px; border-radius: 50%; background: var(--track); }
+.pruvodce-tecky .tecka.on { background: var(--primary); width: 22px; border-radius: 999px; }
+.pruvodce-btns { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); gap: 8px; }
 
 /* ---------- Procvičování chyb (D-031) ---------- */
 .procvic-btn { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 12px; margin-bottom: 14px;

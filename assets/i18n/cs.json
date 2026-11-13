@@ -559,5 +559,27 @@
       "many": "Přibylo {n} nového tématu",
       "other": "Přibylo {n} nových témat"
     }
+  },
+  "pruvodce": {
+    "preskocit": "Přeskočit",
+    "dal": "Další",
+    "zpet": "Zpět",
+    "rozumim": "Rozumím, hrát!",
+    "otevrit": "Jak se hraje",
+    "jednou": {
+      "nadpis": "Každou obtížnost hraješ jen jednou",
+      "text": "Téma má Lehkou, Střední a Těžkou obtížnost. Každá je jedno kolo až 10 otázek – a výsledek platí napoprvé, opakovat ho nejde.",
+      "tip": "Rozehrané kolo můžeš přerušit – příště se v něm pokračuje."
+    },
+    "hvezdy": {
+      "nadpis": "Hvězdy po půlkách",
+      "text": "Za každých 10 % správných odpovědí získáš půl hvězdy. 10 z 10 = 5 ★, 7 z 10 = 3,5 ★.",
+      "tip": ""
+    },
+    "odemykani": {
+      "nadpis": "Od 70 % se odemkne další obtížnost",
+      "text": "Když v kole odpovíš správně aspoň na 70 %, otevře se další obtížnost. Pod 70 % zůstane v tomhle tématu zamčená natrvalo – tak se soustřeď!",
+      "tip": "Chyby si můžeš kdykoli procvičit v Historii – hvězdy se tím nemění."
+    }
   }
 }
