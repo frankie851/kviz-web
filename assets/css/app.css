@@ -224,9 +224,9 @@ p { margin: 0; }
 .strip-item { display: inline-flex; align-items: center; gap: 4px; white-space: nowrap; }
 .strip-item b { font-weight: 800; }
 .tiles-home { margin-bottom: 14px; }
-/* .tile.tile-vse: musí přebít .tile (definované níž) */
+/* .tile.tile-vse: musí přebít .tile (definované níž); ohraničení stejné jako karta Pokračuj (D-030) */
 .tile.tile-vse { grid-column: 1 / -1; min-height: 0; flex-direction: row; align-items: center; justify-content: flex-start; gap: 12px;
-  background: var(--surface); color: var(--ink); border: 2px dashed var(--dash); box-shadow: none; }
+  background: var(--surface); color: var(--ink); border: 0; box-shadow: 0 0 0 2px var(--primary) inset, var(--shadow-soft); }
 .tile.tile-vse .tile-name { font-size: calc(18px * var(--pismo, 1)); }
 .tile-vse-body { flex: 1; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
 .tile-vse-hint { color: var(--muted); font-size: calc(14px * var(--pismo, 1)); font-weight: 700; }
@@ -256,17 +256,16 @@ p { margin: 0; }
 .tile-name { font-family: var(--font-h); font-weight: 800; font-size: calc(20px * var(--pismo, 1)); line-height: 1.15; overflow-wrap: anywhere; }
 .tile-meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 8px; font-size: calc(14px * var(--pismo, 1)); font-weight: 700; }
 .tile-stars { white-space: nowrap; }
-/* barvy dlaždic kategorií (D-029): bez černé a béžové, bílý text, přiděluje kategorie.js */
-.tile[class*="tile-c-"] { color: #FFFFFF; }
-.tile-c-malina { background: #C2255C; }
-.tile-c-zelena { background: #15803D; }
-.tile-c-modra { background: #1D63C9; }
-.tile-c-oranzova { background: #C2410C; }
-.tile-c-fialova { background: #7C3AED; }
-.tile-c-tyrkys { background: #0F766E; }
-.tile-c-cervena { background: #C0262D; }
-.tile-c-indigo { background: #4F46E5; }
-.tile-c-hneda { background: #9A4A12; }
+/* barvy dlaždic kategorií (D-029, světlé odstíny D-030): bez černé, bílé a béžové, tmavý text, přiděluje kategorie.js */
+.tile[class*="tile-c-"] { color: #1A1020; }
+.tile-c-malina { background: #F29BBB; }
+.tile-c-zelena { background: #86D3A2; }
+.tile-c-modra { background: #93BEF2; }
+.tile-c-oranzova { background: #F7B27F; }
+.tile-c-fialova { background: #C4AAF6; }
+.tile-c-tyrkys { background: #7FCDC3; }
+.tile-c-cervena { background: #F39A9D; }
+.tile-c-hneda { background: #D9A47A; }
 
 /* ---------- 4. Témata ---------- */
 .cards { display: grid; gap: 12px; }
