@@ -1,12 +1,55 @@
 // 9. Nastavení – jazyky, překlad, zvuky, vibrace, O hře. (Smazat pokrok zrušeno – D-013: každé kolo se hraje jen jednou.)
 import { t, nastavJazyk, JAZYKY_ROZHRANI } from "../i18n.js";
-import { h, lista, prepinac, vypinac } from "../ui.js";
+import { h, lista, prepinac, vypinac, potvrdit } from "../ui.js";
 import { nast, zmen, jazykPrekladu, PREKLAD, VZHLED, PISMO, aplikujVzhled } from "../settings.js";
 import { idx } from "../data.js";
-import { ukladaniFunguje } from "../storage.js";
+import { ukladaniFunguje, vsechnaData, nahradData } from "../storage.js";
+import { lzePredcitat, mluv, PREDCITANI } from "../predcitani.js";
+import { kratkeOznameni } from "../oslavy.js";
+import { dnes } from "../game.js";
 import { zvuk, vibrace } from "../feedback.js";
 
 export const ID = "nastaveni";
+const APLIKACE = "oho-kviz"; // podpis souboru s pokrokem (D-033)
+
+/** Uloží všechna data hry do souboru .json (stáhne se do zařízení). */
+function ulozDoSouboru() {
+  const obsah = { aplikace: APLIKACE, verze: 1, ulozeno: new Date().toISOString(), data: vsechnaData() };
+  const blob = new Blob([JSON.stringify(obsah, null, 1)], { type: "application/json" });
+  const odkaz = h("a", { href: URL.createObjectURL(blob), download: `oho-pokrok-${dnes()}.json`, hidden: true });
+  document.body.append(odkaz);
+  odkaz.click();
+  setTimeout(() => { URL.revokeObjectURL(odkaz.href); odkaz.remove(); }, 1000);
+  kratkeOznameni(t("prenos.ulozeno"));
+}
+
+/** Načte soubor s pokrokem, po potvrzení nahradí data v tomto zařízení a stránku načte znovu. */
+async function nahrajZeSouboru(soubor) {
+  let obsah = null;
+  try {
+    obsah = JSON.parse(await soubor.text());
+  } catch { obsah = null; }
+  const data = obsah?.aplikace === APLIKACE && obsah.data && typeof obsah.data === "object" ? obsah.data : null;
+  if (!data || (data.pokrok && data.pokrok.verze !== 2)) {
+    kratkeOznameni(t("prenos.chyba"));
+    return;
+  }
+  const kol = Object.values(data.pokrok?.vysledky || {}).reduce((n, o) => n + Object.keys(o || {}).length, 0);
+  const datum = obsah.ulozeno ? new Date(obsah.ulozeno).toLocaleDateString(nast().ui === "cs" ? "cs-CZ" : "en-GB") : "?";
+  const ano = await potvrdit({
+    nadpis: t("prenos.potvrditNadpis"),
+    text: t("prenos.potvrditText", { datum, n: kol }),
+    ano: t("prenos.potvrditAno"),
+    ne: t("prenos.potvrditNe"),
+  });
+  if (!ano) return;
+  if (!nahradData(data)) {
+    kratkeOznameni(t("prenos.chyba"));
+    return;
+  }
+  location.hash = "#/";
+  location.reload(); // moduly si pokrok a nastavení načtou znovu
+}
 
 export function vykresli(_param, app) {
   const s = nast();
@@ -57,7 +100,20 @@ export function vykresli(_param, app) {
         hodnota: s.preklad,
         zmena: (r) => zmen({ preklad: r }),
       }),
-      h("p", { class: "field-hint", text: t("nastaveni.prekladNapoveda") })),
+      h("p", { class: "field-hint", text: t("nastaveni.prekladNapoveda") }),
+      lzePredcitat()
+        ? prepinac({
+            id: "nast-predcitani",
+            popis: t("nastaveni.predcitani"),
+            volby: [
+              { hodnota: PREDCITANI.VYPNUTO, text: t("nastaveni.predcitaniVypnuto") },
+              { hodnota: PREDCITANI.TLACITKO, text: t("nastaveni.predcitaniTlacitko") },
+              { hodnota: PREDCITANI.AUTO, text: t("nastaveni.predcitaniAuto") },
+            ],
+            hodnota: s.predcitani,
+            zmena: (v) => { zmen({ predcitani: v }); if (v !== PREDCITANI.VYPNUTO) mluv(t("nastaveni.predcitaniUkazka"), s.ui); },
+          })
+        : null),
     h("section", { class: "card settings" },
       h("h2", { class: "settings-h", text: t("nastaveni.zvukyVibrace") }),
       vypinac({ id: "nast-zvuky", popis: t("nastaveni.zvuky"), zapnuto: s.zvuky, zmena: (v) => { zmen({ zvuky: v }); if (v) zvuk("ukazka"); } }),
@@ -86,6 +142,19 @@ export function vykresli(_param, app) {
         hodnota: s.pismo,
         zmena: (v) => aplikujVzhled(zmen({ pismo: v })),
       })),
+    h("section", { class: "card settings", "data-test": "prenos" },
+      h("h2", { class: "settings-h", text: t("prenos.nadpis") }),
+      h("p", { class: "field-hint", text: t("prenos.popis") }),
+      h("div", { class: "prenos-btns" },
+        h("button", { type: "button", class: "btn btn-sec btn-big", "data-test": "prenos-ulozit", onclick: ulozDoSouboru },
+          h("span", { "aria-hidden": "true", text: "💾 " }), t("prenos.ulozit")),
+        (() => {
+          const vstup = h("input", { type: "file", accept: "application/json,.json", hidden: true, "data-test": "prenos-soubor",
+            onchange: () => { if (vstup.files?.[0]) nahrajZeSouboru(vstup.files[0]); vstup.value = ""; } });
+          return h("label", { class: "btn btn-sec btn-big", "data-test": "prenos-nahrat", tabindex: "0", role: "button",
+            onkeydown: (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); vstup.click(); } } },
+            h("span", { "aria-hidden": "true", text: "📂 " }), t("prenos.nahrat"), vstup);
+        })())),
     h("section", { class: "card settings about" },
       h("h2", { class: "settings-h", text: t("nastaveni.oHre") }),
       h("p", { text: t("nastaveni.oHrePravidla") }),

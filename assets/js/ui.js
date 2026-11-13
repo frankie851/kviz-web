@@ -136,6 +136,30 @@ export function vypinac({ popis, zapnuto, zmena, id }) {
   return h("div", { class: "field field-row" }, h("label", { class: "field-label", for: id, text: popis }), btn);
 }
 
+/** Potvrzení uvnitř aplikace (ne systémový dialog prohlížeče). Vrací Promise<boolean>. */
+export function potvrdit({ nadpis, text, ano, ne }) {
+  return new Promise((hotovo) => {
+    const predtim = document.activeElement;
+    const zavri = (vysl) => {
+      okno.remove();
+      document.removeEventListener("keydown", klavesa);
+      predtim?.focus?.({ preventScroll: true });
+      hotovo(vysl);
+    };
+    const klavesa = (e) => { if (e.key === "Escape") zavri(false); };
+    const tlAno = h("button", { type: "button", class: "btn btn-primary btn-big", "data-test": "potvrdit-ano", onclick: () => zavri(true), text: ano });
+    const okno = h("div", { class: "dialog-pozadi", "data-test": "potvrdit" },
+      h("div", { class: "dialog card", role: "dialog", "aria-modal": "true", "aria-labelledby": "dialog-nadpis" },
+        h("h2", { class: "dialog-h", id: "dialog-nadpis", text: nadpis }),
+        h("p", { class: "dialog-text", text }),
+        tlAno,
+        h("button", { type: "button", class: "btn btn-sec btn-big", "data-test": "potvrdit-ne", onclick: () => zavri(false), text: ne })));
+    document.addEventListener("keydown", klavesa);
+    document.body.append(okno);
+    tlAno.focus();
+  });
+}
+
 export function prefersReducedMotion() {
   return window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
 }
