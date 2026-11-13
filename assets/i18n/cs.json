@@ -83,7 +83,8 @@
       "many": "…a ještě {n} dalšího – upřesni hledání.",
       "other": "…a ještě {n} dalších – upřesni hledání."
     },
-    "vsechnyHint": "🔎 i hledání témat"
+    "vsechnyHint": "🔎 i hledání témat",
+    "nahodne": "Překvap mě – náhodné téma"
   },
   "kategorie": {
     "nadpis": "Kategorie",
@@ -305,7 +306,16 @@
     "oHre": "O hře",
     "oHreSoukromi": "Pokrok se ukládá jen v tomto zařízení a nic nesledujeme.",
     "oHreData": "Otázek ve hře: {n} · aktualizováno {datum}",
-    "oHrePravidla": "Každou obtížnost hraješ jen jednou. Za každých 10 % správných odpovědí získáš půl hvězdy (až 5 ★) a od 70 % se odemkne další obtížnost."
+    "oHrePravidla": "Každou obtížnost hraješ jen jednou. Za každých 10 % správných odpovědí získáš půl hvězdy (až 5 ★) a od 70 % se odemkne další obtížnost.",
+    "vzhled": "Vzhled",
+    "rezim": "Barevný režim",
+    "rezimAuto": "Podle telefonu",
+    "rezimSvetly": "Světlý",
+    "rezimTmavy": "Tmavý",
+    "pismo": "Velikost písma",
+    "pismoNormalni": "Normální",
+    "pismoVetsi": "Větší",
+    "pismoNejvetsi": "Největší"
   },
   "prehled": {
     "nadpis": "Tvoje odpovědi",

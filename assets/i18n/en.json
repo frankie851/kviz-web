@@ -77,7 +77,8 @@
       "one": "…and {n} more – refine your search.",
       "other": "…and {n} more – refine your search."
     },
-    "vsechnyHint": "🔎 including topic search"
+    "vsechnyHint": "🔎 including topic search",
+    "nahodne": "Surprise me – random topic"
   },
   "kategorie": {
     "nadpis": "Categories",
@@ -283,7 +284,16 @@
     "oHre": "About",
     "oHreSoukromi": "Your progress is stored only on this device, and we don't track anything.",
     "oHreData": "Questions in the game: {n} · updated {datum}",
-    "oHrePravidla": "You play each difficulty only once. Every 10% of correct answers earns half a star (up to 5 ★), and 70% unlocks the next difficulty."
+    "oHrePravidla": "You play each difficulty only once. Every 10% of correct answers earns half a star (up to 5 ★), and 70% unlocks the next difficulty.",
+    "vzhled": "Appearance",
+    "rezim": "Colour mode",
+    "rezimAuto": "Like my phone",
+    "rezimSvetly": "Light",
+    "rezimTmavy": "Dark",
+    "pismo": "Text size",
+    "pismoNormalni": "Normal",
+    "pismoVetsi": "Larger",
+    "pismoNejvetsi": "Largest"
   },
   "prehled": {
     "nadpis": "Your answers",

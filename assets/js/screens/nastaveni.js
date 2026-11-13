@@ -1,7 +1,7 @@
 // 9. Nastavení – jazyky, překlad, zvuky, vibrace, O hře. (Smazat pokrok zrušeno – D-013: každé kolo se hraje jen jednou.)
 import { t, nastavJazyk, JAZYKY_ROZHRANI } from "../i18n.js";
 import { h, lista, prepinac, vypinac } from "../ui.js";
-import { nast, zmen, jazykPrekladu, PREKLAD } from "../settings.js";
+import { nast, zmen, jazykPrekladu, PREKLAD, VZHLED, PISMO, aplikujVzhled } from "../settings.js";
 import { idx } from "../data.js";
 import { ukladaniFunguje } from "../storage.js";
 import { zvuk, vibrace } from "../feedback.js";
@@ -62,6 +62,30 @@ export function vykresli(_param, app) {
       h("h2", { class: "settings-h", text: t("nastaveni.zvukyVibrace") }),
       vypinac({ id: "nast-zvuky", popis: t("nastaveni.zvuky"), zapnuto: s.zvuky, zmena: (v) => { zmen({ zvuky: v }); if (v) zvuk("ukazka"); } }),
       vypinac({ id: "nast-vibrace", popis: t("nastaveni.vibrace"), zapnuto: s.vibrace, zmena: (v) => { zmen({ vibrace: v }); if (v) vibrace("ukazka"); } })),
+    h("section", { class: "card settings" },
+      h("h2", { class: "settings-h", text: t("nastaveni.vzhled") }),
+      prepinac({
+        id: "nast-vzhled",
+        popis: t("nastaveni.rezim"),
+        volby: [
+          { hodnota: VZHLED.AUTO, text: t("nastaveni.rezimAuto") },
+          { hodnota: VZHLED.SVETLY, text: t("nastaveni.rezimSvetly") },
+          { hodnota: VZHLED.TMAVY, text: t("nastaveni.rezimTmavy") },
+        ],
+        hodnota: s.vzhled,
+        zmena: (v) => aplikujVzhled(zmen({ vzhled: v })),
+      }),
+      prepinac({
+        id: "nast-pismo",
+        popis: t("nastaveni.pismo"),
+        volby: [
+          { hodnota: PISMO.NORMALNI, text: t("nastaveni.pismoNormalni") },
+          { hodnota: PISMO.VETSI, text: t("nastaveni.pismoVetsi") },
+          { hodnota: PISMO.NEJVETSI, text: t("nastaveni.pismoNejvetsi") },
+        ],
+        hodnota: s.pismo,
+        zmena: (v) => aplikujVzhled(zmen({ pismo: v })),
+      })),
     h("section", { class: "card settings about" },
       h("h2", { class: "settings-h", text: t("nastaveni.oHre") }),
       h("p", { text: t("nastaveni.oHrePravidla") }),

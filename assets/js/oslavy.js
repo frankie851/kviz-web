@@ -5,7 +5,7 @@ import { h, prefersReducedMotion } from "./ui.js";
 import { t } from "./i18n.js";
 import { nazevOdznaku } from "./badges.js";
 
-const BARVY = ["#C2255C", "#FFC53D", "#2B1630", "#FF8FB1", "#1E9E5A", "#FFE3A1"];
+const BARVY = ["#C2255C", "#FFC53D", "#1F6FCB", "#FF8FB1", "#1E9E5A", "#FFE3A1"]; // bez tmavé švestkové – na tmavém pozadí by zmizela (D-028)
 let bezi = null;
 
 /** Spustí konfety; vrátí funkci, která je hned ukončí (např. při odchodu z obrazovky). */
