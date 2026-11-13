@@ -1124,6 +1124,106 @@ def scenar_procvicovani(browser, zaklad, hlidac, temata, otazky, vystup=None):
     ctx.close()
 
 
+SDILENI_MOCK = "window.__sdileno = null; navigator.share = (d) => { window.__sdileno = d; return Promise.resolve(); };"
+BEZ_SDILENI = "try { delete Navigator.prototype.share; } catch (e) {} try { Object.defineProperty(navigator, 'share', { value: undefined }); } catch (e) {}"
+
+
+def scenar_d032(browser, zaklad, hlidac, otazky, temata, vystup=None):
+    """D-032: denní výzva (stejná pro všechny, jeden pokus, pokračování po obnovení, série) a sdílení výsledku."""
+    print("Denní výzva a sdílení (D-032):")
+    nast = {"ui": "cs", "otazky": "cs", "preklad": "vypnuto", "zvuky": False, "vibrace": False}
+
+    def kontext(init=None, pokrok=None, **kw):
+        ctx = browser.new_context(viewport={"width": 390, "height": 844}, locale="cs-CZ", **kw)
+        if init:
+            ctx.add_init_script(init)
+        page = ctx.new_page()
+        page.set_default_timeout(8000)
+        hlidac.pripoj(page)
+        page.goto(zaklad)
+        page.evaluate("([n, p]) => { localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(n)); if (p) localStorage.setItem('kviz.v1.pokrok', JSON.stringify(p)); }", [nast, pokrok])
+        page.reload()
+        jdi(page, zaklad, "#/")
+        return ctx, page
+
+    ids = lambda page: page.evaluate("(() => { const p = JSON.parse(localStorage.getItem('kviz.v1.pokrok')); return Object.values(p.vyzvy)[0].ids; })()")
+
+    # --- A: celá výzva, pokračování po obnovení, jeden pokus
+    ctx, page = kontext(SDILENI_MOCK)
+    over("5 otázek dne" in page.inner_text("[data-test=vyzva]"), "Domů: karta Denní výzva (5 otázek dne)")
+    page.click("[data-test=vyzva]")
+    page.wait_for_selector(".qcard")
+    zodpovez(page, otazky, spravne=False)
+    dalsi(page)
+    zodpovez(page, otazky, spravne=True)
+    page.reload()
+    page.wait_for_selector(".qcard")
+    over(page.inner_text("[data-test=pocitadlo]").replace(" ", "") == "3/5", "po obnovení stránky výzva pokračuje 3. otázkou")
+    for _ in range(3):
+        zodpovez(page, otazky, spravne=True)
+        dalsi(page)
+    page.wait_for_selector("[data-test=vyzva-konec]")
+    konec = page.inner_text("[data-test=vyzva-konec]")
+    over("4 / 5" in konec and "🟥🟩🟩🟩🟩" in konec and "1 den výzev" in konec, "výsledek výzvy: 4 / 5, 🟥🟩🟩🟩🟩, série 1 den")
+    if vystup:
+        vystup.mkdir(parents=True, exist_ok=True)
+        page.screenshot(path=str(vystup / "d032-vyzva-vysledek-390.png"))
+    page.click("[data-test=sdilet]")
+    page.wait_for_function("window.__sdileno !== null")
+    d = page.evaluate("window.__sdileno")
+    over("Denní výzva" in d["text"] and "4/5" in d["text"] and "🟥🟩🟩🟩🟩" in d["text"] and d["url"].endswith("#/vyzva"),
+         f"Sdílet výzvu: systémové sdílení s textem a odkazem ({d['text'][:40]}…)")
+    ids_a = ids(page)
+    vysl_pred = page.evaluate("JSON.parse(localStorage.getItem('kviz.v1.pokrok')).vysledky")
+    over(vysl_pred == {}, "výzva nemění výsledky kol ani hvězdy")
+    jdi(page, zaklad, "#/")
+    over("Dnes hotovo: 4 / 5" in page.inner_text("[data-test=vyzva]"), "Domů: „Dnes hotovo: 4 / 5“")
+    if vystup:
+        page.wait_for_timeout(700)
+        page.screenshot(path=str(vystup / "d032-domu-vyzva-390.png"))
+    jdi(page, zaklad, "#/vyzva")
+    page.wait_for_selector("[data-test=vyzva-konec]")
+    over(page.locator(".qcard").count() == 0, "dnešní výzvu nejde hrát znovu – ukáže se výsledek")
+    jdi(page, zaklad, "#/statistiky")
+    over(page.locator("[data-test=stat-vyzvy]").count() == 1, "Statistiky: řádek Denní výzvy")
+    ctx.close()
+
+    # --- B: jiný hráč má dnes stejné otázky; série pokračuje ze včerejška
+    ctx, page = kontext()
+    vcera = page.evaluate("(() => { const d = new Date(); d.setDate(d.getDate() - 1); const p = (n) => String(n).padStart(2, '0'); return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`; })()")
+    page.evaluate("v => localStorage.setItem('kviz.v1.pokrok', JSON.stringify({ verze: 2, vysledky: {}, rozehrano: {}, odznaky: {}, vyzvy: {}, vyzvaDny: { posledni: v, serie: 4, nejdelsi: 4 } }))", vcera)
+    page.reload()
+    jdi(page, zaklad, "#/vyzva")
+    page.wait_for_selector(".qcard")
+    over(ids(page) == ids_a, "jiný hráč má dnes stejných 5 otázek")
+    for _ in range(5):
+        zodpovez(page, otazky, spravne=True)
+        dalsi(page)
+    page.wait_for_selector("[data-test=vyzva-konec]")
+    over("5 dní výzev" in page.inner_text("[data-test=vyzva-serie]"), "série výzev ze včerejška pokračuje (4 → 5 dní)")
+    ctx.close()
+
+    # --- C: sdílení výsledku kola – systémové sdílení, jinak zkopírování
+    T = temata[0][1]
+    ctx, page = kontext(SDILENI_MOCK)
+    zacni_kolo(page, zaklad, T["id"])
+    zahraj_kolo(page, otazky, spatnych=2)
+    page.click("[data-test=sdilet]")
+    page.wait_for_function("window.__sdileno !== null")
+    d = page.evaluate("window.__sdileno")
+    over(T["nazev"]["cs"] in d["text"] and "★" in d["text"] and d["url"].endswith(f'#/tema/{T["id"]}'), "Sdílet výsledek kola: téma, skóre, hvězdy a odkaz na téma")
+    ctx.close()
+    ctx, page = kontext(BEZ_SDILENI, permissions=["clipboard-read", "clipboard-write"])
+    zacni_kolo(page, zaklad, T["id"])
+    zahraj_kolo(page, otazky, spatnych=2)
+    page.click("[data-test=sdilet]")
+    page.wait_for_selector("[data-test=oznameni]")
+    schranka = page.evaluate("navigator.clipboard.readText()")
+    over("Zkopírováno" in page.inner_text("[data-test=oznameni]") and schranka.strip().endswith(f'#/tema/{T["id"]}'),
+         "bez systémového sdílení: text s odkazem se zkopíruje a ukáže se „Zkopírováno“")
+    ctx.close()
+
+
 def kontrola_nahledu_odkazu():
     print("Náhled odkazu (Open Graph) a ikony:")
     html = (KOREN / "index.html").read_text(encoding="utf-8")
@@ -1230,6 +1330,7 @@ def main():
             lambda: scenar_zvuku(page, zaklad, otazky, tema3["id"]),
             lambda: scenar_omezit_pohyb(browser, zaklad, hlidac, otazky, tema["id"]),
             lambda: scenar_statistik(browser, zaklad, hlidac, temata),
+            lambda: scenar_d032(browser, zaklad, hlidac, otazky, temata, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_procvicovani(browser, zaklad, hlidac, temata, otazky, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d028(browser, zaklad, hlidac, index, otazky, temata, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d026(browser, zaklad, hlidac, index, otazky, None if args.bez_screenshotu else Path(args.vystup)),
