@@ -7,6 +7,7 @@ import { ukladaniFunguje, vsechnaData, nahradData } from "../storage.js";
 import { lzePredcitat, mluv, PREDCITANI } from "../predcitani.js";
 import { kratkeOznameni } from "../oslavy.js";
 import { dnes } from "../game.js";
+import { ukazPruvodce } from "../pruvodce.js";
 import { zvuk, vibrace } from "../feedback.js";
 
 export const ID = "nastaveni";
@@ -167,6 +168,8 @@ export function vykresli(_param, app) {
     h("section", { class: "card settings about" },
       h("h2", { class: "settings-h", text: t("nastaveni.oHre") }),
       h("p", { text: t("nastaveni.oHrePravidla") }),
+      h("button", { type: "button", class: "btn btn-sec btn-big", "data-test": "pruvodce-otevrit", onclick: () => ukazPruvodce() },
+        h("span", { "aria-hidden": "true", text: "❓ " }), t("pruvodce.otevrit")),
       h("p", { text: t("nastaveni.oHreSoukromi") }),
       ukladaniFunguje() ? null : h("p", { class: "notice", text: t("domu.bezUkladani") }),
       h("p", { class: "muted", text: t("nastaveni.oHreData", { n: idx().pocet_otazek || 0, datum }) }))

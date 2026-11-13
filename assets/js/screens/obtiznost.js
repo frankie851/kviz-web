@@ -4,6 +4,7 @@ import { t, jazyk } from "../i18n.js";
 import { h, lista, hvezdicky } from "../ui.js";
 import { najdiTema, viditelneObtiznosti, txt, predNactiTema } from "../data.js";
 import { vysledek, stav, rozehrane, oznacTemaOtevrene } from "../progress.js";
+import { pruvodceKdyzTreba } from "../pruvodce.js";
 
 export const ID = "obtiznost";
 const IKONY = { 1: "🌱", 2: "🌿", 3: "🌳" };
@@ -49,5 +50,6 @@ export function vykresli([temaId]) {
     h("p", { class: "lead lead-center", text: t("obtiznost.vyber") }),
     h("div", { class: "diffs" }, tlacitka)
   );
+  pruvodceKdyzTreba(); // nový hráč přišel odkazem rovnou na téma (D-036)
   return { el, titulek: txt(tema.nazev, jazyk()) };
 }

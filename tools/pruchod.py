@@ -277,6 +277,10 @@ def stav_obtiznosti(page, o):
 
 
 # ---------------------------------------------------------------- scénáře
+BEZ_PRUVODCE = """try { const k = 'kviz.v1.nastaveni'; const n = JSON.parse(localStorage.getItem(k));
+  if (n && !n.pruvodce) { n.pruvodce = true; localStorage.setItem(k, JSON.stringify(n)); } } catch (e) {}"""
+
+
 def scenar_hry(page, zaklad, otazky, temata, index):
     (kat, tema), (kat2, tema2) = temata[0], temata[1]
     T, T2 = tema["id"], tema2["id"]
@@ -289,6 +293,23 @@ def scenar_hry(page, zaklad, otazky, temata, index):
     page.click('[data-zpusob="muj"]')
     page.wait_for_selector("[data-test=domu]")
     over(page.url.endswith("#/"), "po 2 krocích je hráč Domů")
+
+    print("Průvodce pravidly pro nového hráče (D-036):")
+    page.wait_for_selector("[data-test=pruvodce]", timeout=3000)
+    kroky = []
+    for i in range(3):
+        kroky.append(page.inner_text("#pruvodce-nadpis"))
+        if "null" in page.inner_text("[data-test=pruvodce]") or "⟦" in page.inner_text("[data-test=pruvodce]"):
+            chyba(f"průvodce krok {i + 1}: v textu je „null“ nebo chybějící text")
+        over(page.get_attribute("[data-test=pruvodce]", "data-krok") == str(i + 1) and page.is_visible("[data-test=pruvodce-zpet]") == (i > 0),
+             f"průvodce krok {i + 1}: {kroky[-1]}")
+        page.click("[data-test=pruvodce-dal]")
+    over(page.locator("[data-test=pruvodce]").count() == 0 and "jen jednou" in kroky[0] and "půlkách" in kroky[1] and "70" in kroky[2],
+         "průvodce: 3 kroky (jedna hra na obtížnost, půlhvězdy, odemykání od 70 %) a „Rozumím“ zavře")
+    page.reload()
+    page.wait_for_selector("[data-test=domu]")
+    page.wait_for_timeout(700)
+    over(page.locator("[data-test=pruvodce]").count() == 0, "průvodce se podruhé neukáže")
     over(page.inner_text("[data-test=hvezdy-celkem] b").startswith("0"), "na začátku 0 hvězd")
     over(page.inner_text("[data-test=uspesnost] b").startswith("–"), "na začátku úspěšnost „–“")
     bez_chybejicich_textu(page, "Domů")
@@ -1491,6 +1512,10 @@ def scenar_odznaku_a_nastaveni(page, zaklad):
     txt = text_stranky(page)
     over(page.locator("[data-test=smazat]").count() == 0 and "Smazat" not in txt, "Smazat pokrok v Nastavení není")
     over("ověř" not in txt.lower() and "reklam" not in txt.lower(), "O hře: bez textu o ověření faktů a o reklamě")
+    page.click("[data-test=pruvodce-otevrit]")
+    page.wait_for_selector("[data-test=pruvodce]")
+    page.click("[data-test=pruvodce-preskocit]")
+    over(page.locator("[data-test=pruvodce]").count() == 0, "Nastavení → Jak se hraje: průvodce jde znovu otevřít a přeskočit")
 
 
 # ---------------------------------------------------------------- screenshoty
@@ -1560,6 +1585,14 @@ def main():
 
     with sync_playwright() as p:
         browser = spust_prohlizec(p)
+        # průvodce pravidly (D-036) se ukazuje novému hráči jednou – ostatním scénářům by překážel, proto ho
+        # v uloženém nastavení označíme jako viděný; vlastní kontrolu má první spuštění ve scenar_hry
+        puvodni_kontext = browser.new_context
+        def kontext_bez_pruvodce(**kw):
+            ctx_ = puvodni_kontext(**kw)
+            ctx_.add_init_script(BEZ_PRUVODCE)
+            return ctx_
+        browser.new_context = kontext_bez_pruvodce
         ctx = browser.new_context(viewport={"width": 390, "height": 844}, locale="cs-CZ")
         ctx.add_init_script(SLEDOVANI)
         page = ctx.new_page()
