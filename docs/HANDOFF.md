@@ -1,8 +1,8 @@
 # HANDOFF – Kvízová webová aplikace
-datum: 2026-11-13 · předává: prompt 01 (D-028 Překvap mě, tmavý režim, velikost písma, prostředí A) · přebírá: David (sloučit pull request, vyzkoušet)
+datum: 2026-11-14 · předává: prompt 01 (D-029 barvy dlaždic kategorií, prostředí A) · přebírá: David (sloučit pull request, vyzkoušet)
 
 ## Stav jednou větou
-Web je online s 3480 otázkami a funkcemi do D-027 (sloučeno). V pull requestu čeká D-028: tlačítko Překvap mě, tmavý režim (podle telefonu / světlý / tmavý) a volba velikosti písma.
+Web je online s funkcemi do D-028 (sloučeno). V pull requestu čeká D-029: nové barvy dlaždic kategorií podle tématu, bez černé a béžové a bez stejných barev vedle sebe (oprava chyby z D-027, kdy se ztratila pravidla barev z D-024).
 
 ## Stav dat
 - 2026-11-04 – 35 otázek, 1 téma (T001 Chobotnice a další hlavonožci), režim vzorek
@@ -48,6 +48,8 @@ Web je online s 3480 otázkami a funkcemi do D-027 (sloučeno). V pull requestu 
 
 - D-028 (2026-11-13): Překvap mě, tmavý režim, velikost písma; `pruchod.py` 168 kontrol; náhled `docs/nahledy/d028-tmavy-pismo.png`.
 
+- D-029 (2026-11-14): barvy dlaždic kategorií podle tématu, bez opakování vedle sebe; `pruchod.py` 169 kontrol; náhled `docs/nahledy/d029-barvy-kategorii.png`.
+
 ## Rozpracováno
 - ~~Volba barev pruhů~~ – David vybral B (plná zelená a červená), nastaveno (D-023).
 - **Posun k Další na skutečném telefonu** ověří David (v emulaci prošlo; rezerva po D-023 je 6 % výšky / max 40 px – kdyby nestačila nebo byla moc, upravit v `hra.js` `ukazDalsi`).
@@ -57,7 +59,7 @@ Web je online s 3480 otázkami a funkcemi do D-027 (sloučeno). V pull requestu 
 - **Náhled odkazu** ověří až sdílení nasazené adresy (např. poslat si odkaz ve WhatsAppu/Messengeru). Sítě si náhled pamatují – kdyby ukazovaly starou zástupnou stránku, chce to chvíli počkat.
 
 ## Další krok
-1. **David:** sloučit pull request s D-028 a vyzkoušet na mobilu (Překvap mě, Nastavení → Vzhled: tmavý režim a velikost písma; telefon v tmavém režimu by měl hru ukázat tmavě sám).
+1. **David:** sloučit pull request s D-029 a podívat se na barvy kategorií na Domů a ve Všech kategoriích (světle i tmavě).
 2. **Zbylé návrhy z 2026-11-12** (David zatím nevybral): 4 Procvičit chyby; mimo rozsah 1. verze (potřebují souhlas): 7 Denní výzva, 8 Sdílet výsledek, 9 Instalace na plochu / offline; 10 Nahlásit chybu v otázce (potřebuje rozhodnutí o službě – e-mail by zveřejnil adresu, formulář = registrace).
 2. **Další témata (kdykoli):** v Excelu označit Web = Ano (u celého tématu stačí list Témata, D-017), uložit, zavřít; pak **prompt 03** v úkolu propojeném s počítačem (prostředí B). Prompt 03 po exportu spustí `python3 tools/pruchod.py`.
 3. Body „K zvážení“ z kontroly: K4 hotovo (D-018), K1 = krok 2, K2 a K3 beze změny (David nic nežádal), K5 jen informace. Kdyby David chtěl K2/K3 přece změnit, udělá to prompt 01.
@@ -68,6 +70,7 @@ Web je online s 3480 otázkami a funkcemi do D-027 (sloučeno). V pull requestu 
 - `tools/pruchod.py`: 1. běh selhal na varování o preload písem, 2. běh prošel – viz nález D-1.
 
 ## Připomínky Davida (k zapracování)
+- 2026-11-14 – „rozházely se barvy z předchozí verze; černou a béžovou jako pozadí nepoužívat; barvy k tématu, v kontrastu s pozadím a obrázkem, stejné ne vedle sebe“ → **zapracováno** (D-029).
 - 2026-11-13 – „udělej ještě návrh 5 a 6“ (náhodné téma; tmavý režim a velikost písma) → **zapracováno** (D-028).
 - 2026-11-13 – hledání do karty Všechny kategorie; filtr ikonami (start, běžec, cíl) na jeden řádek; konfety po kole nevidí; Neomylný = Bez chyby; Na vrcholu dřív než Objevitel → **zapracováno** (D-027, volby: Neomylný = bez chyby v Těžké, Objevitel zjednodušit, konfety od 90 %).
 - 2026-11-12 – z 10 návrhů vybral 1 (Pokračuj), 2 (hledání a filtr), 3 (víc odznaků po stupních) → **zapracováno** (D-026).
