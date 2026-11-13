@@ -74,6 +74,7 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☑ (2026-11-16) D-036 průvodce pravidly pro nové hráče.
 - ☑ (2026-11-16) D-037 oblíbené kategorie a volba obsahu Domů.
 - ☑ (2026-11-16) D-038 kalendář aktivity a měsíční souhrn.
+- ☑ (2026-11-16) D-039 vysoký kontrast a čitelnější písmo.
 
 ## Stav
-Poslední aktualizace: 2026-11-16 · Web online (vč. D-037) · Čeká se: sloučení D-038 · Blokováno: nic
+Poslední aktualizace: 2026-11-16 · Web online (vč. D-038) · Čeká se: sloučení D-039 · Blokováno: nic
