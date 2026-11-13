@@ -1,8 +1,8 @@
 # HANDOFF – Kvízová webová aplikace
-datum: 2026-11-12 · předává: prompt 01 (D-026 Pokračuj, hledání a filtr, stupňové odznaky, prostředí A) · přebírá: David (sloučit pull request, vyzkoušet)
+datum: 2026-11-13 · předává: prompt 01 (D-027, prostředí A) · přebírá: David (sloučit pull request, vyzkoušet)
 
 ## Stav jednou větou
-Web je online s 3480 otázkami (116 témat, 17 kategorií), D-025 sloučené. V pull requestu čeká D-026: karta Pokračuj, hledání témat, filtr v kategorii a stupňové odznaky (Davidovy návrhy 1–3 z 10).
+Web je online s 3480 otázkami a funkcemi z D-026 (Pokračuj, hledání, filtr, stupňové odznaky). V pull requestu čeká D-027: hledání přesunuté do Všech kategorií, filtr ikonami na jednom řádku, konfety od 90 %, opravené odznaky Neomylný a Objevitel.
 
 ## Stav dat
 - 2026-11-04 – 35 otázek, 1 téma (T001 Chobotnice a další hlavonožci), režim vzorek
@@ -44,6 +44,8 @@ Web je online s 3480 otázkami (116 témat, 17 kategorií), D-025 sloučené. V 
 
 - D-026 (2026-11-12): karta Pokračuj, hledání a filtr témat, stupňové odznaky (73 odznaků); `pruchod.py` 155 kontrol; náhledy `docs/nahledy/d026-*.png`.
 
+- D-027 (2026-11-13): hledání ve Všech kategoriích, filtr ikonami 🚦 🏃 🏁, konfety od 90 %, Neomylný = bez chyby v Těžké, Objevitel = 3 hraná témata; `pruchod.py` 160 kontrol; náhled `docs/nahledy/d027-hledani-filtr.png`.
+
 ## Rozpracováno
 - ~~Volba barev pruhů~~ – David vybral B (plná zelená a červená), nastaveno (D-023).
 - **Posun k Další na skutečném telefonu** ověří David (v emulaci prošlo; rezerva po D-023 je 6 % výšky / max 40 px – kdyby nestačila nebo byla moc, upravit v `hra.js` `ukazDalsi`).
@@ -53,7 +55,7 @@ Web je online s 3480 otázkami (116 témat, 17 kategorií), D-025 sloučené. V 
 - **Náhled odkazu** ověří až sdílení nasazené adresy (např. poslat si odkaz ve WhatsAppu/Messengeru). Sítě si náhled pamatují – kdyby ukazovaly starou zástupnou stránku, chce to chvíli počkat.
 
 ## Další krok
-1. **David:** sloučit pull request s D-026 a vyzkoušet na mobilu (Pokračuj, hledání, filtr v kategorii, Odznaky).
+1. **David:** sloučit pull request s D-027 a vyzkoušet na mobilu (Všechny kategorie s hledáním, filtr, konfety při 90 %, Odznaky).
 2. **Zbylé návrhy z 2026-11-12** (David zatím nevybral): 4 Procvičit chyby, 5 Náhodné téma, 6 Tmavý režim a velikost písma; mimo rozsah 1. verze (potřebují souhlas): 7 Denní výzva, 8 Sdílet výsledek, 9 Instalace na plochu / offline; 10 Nahlásit chybu v otázce (potřebuje rozhodnutí o službě – e-mail by zveřejnil adresu, formulář = registrace).
 2. **Další témata (kdykoli):** v Excelu označit Web = Ano (u celého tématu stačí list Témata, D-017), uložit, zavřít; pak **prompt 03** v úkolu propojeném s počítačem (prostředí B). Prompt 03 po exportu spustí `python3 tools/pruchod.py`.
 3. Body „K zvážení“ z kontroly: K4 hotovo (D-018), K1 = krok 2, K2 a K3 beze změny (David nic nežádal), K5 jen informace. Kdyby David chtěl K2/K3 přece změnit, udělá to prompt 01.
@@ -64,6 +66,7 @@ Web je online s 3480 otázkami (116 témat, 17 kategorií), D-025 sloučené. V 
 - `tools/pruchod.py`: 1. běh selhal na varování o preload písem, 2. běh prošel – viz nález D-1.
 
 ## Připomínky Davida (k zapracování)
+- 2026-11-13 – hledání do karty Všechny kategorie; filtr ikonami (start, běžec, cíl) na jeden řádek; konfety po kole nevidí; Neomylný = Bez chyby; Na vrcholu dřív než Objevitel → **zapracováno** (D-027, volby: Neomylný = bez chyby v Těžké, Objevitel zjednodušit, konfety od 90 %).
 - 2026-11-12 – z 10 návrhů vybral 1 (Pokračuj), 2 (hledání a filtr), 3 (víc odznaků po stupních) → **zapracováno** (D-026).
 - 2026-11-08 – „u statistik kategorií seřazení od nejúspěšnější sestupně“ → **zapracováno** (D-025).
 - 2026-11-08 – „odskok je zbytečně velký“, pruh ve Statistikách zeleně jako u otázek → **zapracováno** (D-023); ukázat variantu A (i zelená s přechodem) a B (obě bez přechodu) → David vybral **B** (obě bez přechodu) → **zapracováno**.

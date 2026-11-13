@@ -62,6 +62,7 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - **⏸ Kontrolní bod:** ☑ (2026-11-08) David vybral barvy pruhů B (plná zelená a červená) → nastaveno.
 - ☑ (2026-11-08) D-025 Statistiky: kategorie od nejúspěšnější.
 - ☑ (2026-11-12) D-026 karta Pokračuj, hledání a filtr témat, stupňové odznaky.
+- ☑ (2026-11-13) D-027 hledání ve Všech kategoriích, filtr ikonami, konfety od 90 %, odznaky Neomylný a Objevitel.
 
 ## Stav
-Poslední aktualizace: 2026-11-12 · Web online s 3480 otázkami, D-025 sloučené · Čeká se: sloučení D-026 · Blokováno: nic
+Poslední aktualizace: 2026-11-13 · Web online (vč. D-026) · Čeká se: sloučení D-027 · Blokováno: nic
