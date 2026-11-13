@@ -375,5 +375,28 @@
       "many": "včetně odpovědí z {n} rozehraného kola",
       "other": "včetně odpovědí z {n} rozehraných kol"
     }
+  },
+  "procvic": {
+    "nadpis": "Procvičování chyb",
+    "tlacitko": "Procvičit chyby",
+    "pocet": {
+      "one": "{n} otázka s chybnou odpovědí",
+      "few": "{n} otázky s chybnou odpovědí",
+      "many": "{n} otázky s chybnou odpovědí",
+      "other": "{n} otázek s chybnou odpovědí"
+    },
+    "zadne": "Žádné chyby k procvičení – skvělé! 🎉",
+    "konec": "Hotovo",
+    "hotovo": "Procvičeno!",
+    "spravne": "správně",
+    "zbyva": {
+      "one": "K procvičení zbývá {n} otázka.",
+      "few": "K procvičení zbývají {n} otázky.",
+      "many": "K procvičení zbývá {n} otázky.",
+      "other": "K procvičení zbývá {n} otázek."
+    },
+    "vseHotovo": "Všechny chyby máš procvičené 🎉",
+    "dalsiKolo": "Procvičit další",
+    "zpet": "Zpět do historie"
   }
 }
