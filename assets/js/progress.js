@@ -17,6 +17,8 @@ const PRAZDNY = () => ({
   procviceno: {}, // id otázky → datum, kdy ji hráč v procvičování zodpověděl správně (D-031)
   vyzvy: {}, // datum → { ids, odpovedi: [[id, volba]], spravne, hotovo } – denní výzva (D-032)
   vyzvaDny: { posledni: null, serie: 0, nejdelsi: 0 },
+  sbirka: {}, // id otázky → { tema, datum } – Moje sbírka (D-035)
+  znamaTemata: {}, // id tématu → { d: datum, n: 1 = nové a ještě neotevřené } (D-035)
 });
 
 let p = normalizuj(nacti("pokrok", null));
@@ -35,6 +37,8 @@ function normalizuj(x) {
     procviceno: obj(x.procviceno, z.procviceno),
     vyzvy: obj(x.vyzvy, z.vyzvy),
     vyzvaDny: { ...z.vyzvaDny, ...obj(x.vyzvaDny, {}) },
+    sbirka: obj(x.sbirka, z.sbirka),
+    znamaTemata: obj(x.znamaTemata, z.znamaTemata),
   };
 }
 
@@ -285,6 +289,64 @@ export function tydenniCil() {
   let serie = hotovo >= cil ? 1 : 0;
   for (let i = 1; i < 520 && kolVTydnu(pondeliPred(i)) >= cil; i++) serie += 1;
   return { hotovo, cil, splneno: hotovo >= cil, serie };
+}
+
+// ---------- Moje sbírka (D-035): otázky, které si hráč uložil hvězdičkou
+export function jeVeSbirce(id) {
+  return !!p.sbirka[id];
+}
+
+/** Přidá / odebere otázku ze sbírky. Vrátí true, když je otázka po změně ve sbírce. */
+export function prepniSbirku(id, temaId) {
+  if (p.sbirka[id]) delete p.sbirka[id];
+  else p.sbirka[id] = { tema: temaId, datum: dnes(), cas: Date.now() };
+  ulozit();
+  return !!p.sbirka[id];
+}
+
+/** Otázky ve sbírce, nejnovější nahoře: [{ id, tema, datum }]. */
+export function sbirka() {
+  return Object.entries(p.sbirka).map(([id, x]) => ({ id, ...x })).sort((a, b) => (b.cas || 0) - (a.cas || 0));
+}
+
+// ---------- nová témata (D-035): co přibylo od hráčovy poslední návštěvy (data datum přidání nemají)
+const NOVE_DNI = 30; // štítek „Nové“ zmizí po otevření tématu, nejpozději po 30 dnech
+
+/** Zaznamená témata v datech: poprvé (prázdný seznam) se všechna jen zapamatují, později jsou nepoznaná „nová“. */
+export function zaznamenejTemata() {
+  const vse = vsechnaTemata();
+  const prvne = !Object.keys(p.znamaTemata).length;
+  let zmena = false;
+  for (const t of vse) {
+    if (!p.znamaTemata[t.id]) {
+      p.znamaTemata[t.id] = { d: dnes(), n: prvne ? 0 : 1 };
+      zmena = true;
+    }
+  }
+  // úplně nový hráč (nic uloženého): seznam se uloží až s prvním pokrokem – start hry tak nic nezapisuje
+  const prazdny = !Object.keys(p.vysledky).length && !Object.keys(p.rozehrano).length && !Object.keys(p.vyzvy).length
+    && !Object.keys(p.odznaky).length && !Object.keys(p.sbirka).length;
+  if (zmena && !(prvne && prazdny)) ulozit();
+}
+
+export function jeNoveTema(id) {
+  const z = p.znamaTemata[id];
+  if (!z?.n) return false;
+  const [r, m, d] = String(z.d).split("-").map(Number);
+  return (Date.now() - new Date(r, m - 1, d).getTime()) / 864e5 <= NOVE_DNI;
+}
+
+/** Nová témata (pro Domů a obrazovku Nová témata): [{ kat, tema }] */
+export function novaTemata() {
+  return viditelneKategorie().flatMap((kat) => viditelnaTemata(kat).filter((t) => jeNoveTema(t.id)).map((tema) => ({ kat, tema })));
+}
+
+/** Hráč téma otevřel – už není „nové“. */
+export function oznacTemaOtevrene(id) {
+  if (p.znamaTemata[id]?.n) {
+    p.znamaTemata[id].n = 0;
+    ulozit();
+  }
 }
 
 /** Funkce pokroku pro podmínky odznaků (badges.js) a jejich postup na obrazovce Odznaky. */

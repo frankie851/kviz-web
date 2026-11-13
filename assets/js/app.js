@@ -2,6 +2,7 @@
 import { nactiTexty, nastavJazyk, t } from "./i18n.js";
 import { nactiIndex } from "./data.js";
 import { jeNastaveno, nast, aplikujVzhled } from "./settings.js";
+import { zaznamenejTemata } from "./progress.js";
 import { h } from "./ui.js";
 import * as uvod from "./screens/uvod.js";
 import * as domu from "./screens/domu.js";
@@ -18,6 +19,8 @@ import * as statistiky from "./screens/statistiky.js";
 import * as procvicovani from "./screens/procvicovani.js";
 import * as vyzva from "./screens/vyzva.js";
 import * as souboj from "./screens/souboj.js";
+import * as sbirka from "./screens/sbirka.js";
+import * as nova from "./screens/nova.js";
 
 const TRASY = [
   [/^\/?$/, domu],
@@ -32,13 +35,15 @@ const TRASY = [
   [/^\/statistiky$/, statistiky],
   [/^\/procvicovani$/, procvicovani],
   [/^\/vyzva$/, vyzva],
+  [/^\/sbirka$/, sbirka],
+  [/^\/nova$/, nova],
   [/^\/souboj\/([\w-]+)\/([1-9])\/([\w.]+)\/(\d+)$/, souboj],
   [/^\/odznaky$/, odznaky],
   [/^\/nastaveni$/, nastaveni],
 ];
 
 // „hloubka“ obrazovky pro směr přechodu: hlouběji = příjezd zprava, zpět = zleva
-const HLOUBKA = new Map([[domu, 0], [uvod, 0], [kategorie, 1], [historie, 1], [statistiky, 1], [procvicovani, 2], [vyzva, 1], [souboj, 1], [odznaky, 1], [nastaveni, 1],
+const HLOUBKA = new Map([[domu, 0], [uvod, 0], [kategorie, 1], [historie, 1], [statistiky, 1], [procvicovani, 2], [vyzva, 1], [souboj, 1], [sbirka, 2], [nova, 1], [odznaky, 1], [nastaveni, 1],
   [temata, 2], [obtiznost, 3], [hra, 4], [vysledek, 5], [prehled, 5]]);
 
 const koren = document.getElementById("app");
@@ -190,6 +195,7 @@ async function start() {
   }
   nastavJazyk(nast().ui);
   aplikujVzhled(); // tmavý režim a velikost písma (D-028)
+  zaznamenejTemata(); // co přibylo od poslední návštěvy → štítek „Nové“ (D-035)
   window.addEventListener("hashchange", vykresli);
   await vykresli();
   document.documentElement.classList.add("ready");

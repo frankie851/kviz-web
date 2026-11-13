@@ -3,7 +3,7 @@
 // Všechny kategorie, kde je i hledání témat), pod nimi Odznaky, Historie a Statistiky.
 import { t, jazyk } from "../i18n.js";
 import { h, logo, wordmark, celeHvezdy, ikonaKategorie } from "../ui.js";
-import { hvezdyCelkem, serieDni, pokrok, uspesnost, pokracovani, nahodneTema, vyzva, serieVyzev, urovenHrace, tydenniCil } from "../progress.js";
+import { hvezdyCelkem, serieDni, pokrok, uspesnost, pokracovani, nahodneTema, vyzva, serieVyzev, urovenHrace, tydenniCil, novaTemata } from "../progress.js";
 import { dnes, dniDoKonceTydne } from "../game.js";
 import { OTAZEK as OTAZEK_VYZVY } from "../vyzva.js";
 import { viditelneKategorie, txt } from "../data.js";
@@ -116,6 +116,11 @@ export function vykresli(_param, app) {
       udaj("★", `${celeHvezdy(hv.pul)} / ${celeHvezdy(hv.max)}`, t("domu.hvezd"), "hvezdy-celkem"),
       udaj("🎯", usp == null ? "–" : t("domu.procent", { n: usp }), t("domu.uspesnost"), "uspesnost"),
       udaj("🏅", `${odz} / ${vse.length}`, t("domu.odznaku"), "odznaky")),
+    (() => {
+      const n = novaTemata().length; // ✨ přibyla nová témata (D-035)
+      return n ? h("a", { class: "card nova-karta", href: "#/nova", "data-test": "nova-temata" },
+        h("span", { "aria-hidden": "true", text: "✨" }), h("span", { text: t("nova.domu", { n }) }), h("span", { class: "hist-go", "aria-hidden": "true", text: "→" })) : null;
+    })(),
     kartaPostupu(),
     kartaPokracuj(),
     kartaVyzvy(),

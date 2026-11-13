@@ -439,6 +439,19 @@ a.diff:active { transform: translateY(2px); }
 .hit-meta { color: var(--muted); font-size: calc(14px * var(--pismo, 1)); font-weight: 700; }
 .empty-hledani { text-align: center; color: var(--muted); padding: 16px 8px; }
 
+/* ---------- Moje sbírka a nová témata (D-035) ---------- */
+.trbtn-sbirka[aria-pressed="true"] { color: var(--streak-ink); background: var(--surface); box-shadow: 0 0 0 2px var(--sun) inset, var(--shadow-soft); }
+.explain .trbtn + .trbtn-sbirka { margin-left: 8px; }
+.sbirka-odpoved { display: flex; gap: 6px; margin: 0 0 10px; padding: 10px 14px; border-radius: var(--r-ans); background: var(--ok-bg); color: var(--ok-ink); font-weight: 800; }
+.sbirka-odebrat { width: 100%; margin-top: 10px; }
+.stitek-nove { display: inline-block; margin-left: 8px; padding: 1px 8px; border-radius: 999px; background: var(--sun); color: #2B1630;
+  font-family: var(--font-t); font-size: calc(12px * var(--pismo, 1)); font-weight: 800; vertical-align: middle; white-space: nowrap; }
+.tile { position: relative; }
+.tile-nove { position: absolute; top: 10px; right: 10px; margin: 0; }
+.nova-karta { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; padding: 12px 16px; text-decoration: none; color: var(--ink); font-weight: 800;
+  box-shadow: 0 0 0 2px var(--sun) inset, var(--shadow-soft); }
+.nova-karta > span:nth-child(2) { flex: 1; }
+
 /* ---------- Úroveň a týdenní cíl (D-034) ---------- */
 .postup-karta { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 14px; align-items: center; margin-bottom: 12px; }
 .uroven { display: flex; flex-direction: column; gap: 4px; min-width: 0; }

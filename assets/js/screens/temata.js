@@ -3,7 +3,7 @@
 import { t, jazyk } from "../i18n.js";
 import { h, lista, hvezdicky, hvezdyText, ikonaKategorie } from "../ui.js";
 import { kategorie, viditelnaTemata, viditelneObtiznosti, txt } from "../data.js";
-import { pulV, stav, hvezdyTematu, stavTematu } from "../progress.js";
+import { pulV, stav, hvezdyTematu, stavTematu, jeNoveTema } from "../progress.js";
 
 export const ID = "temata";
 const FILTRY = ["vse", "nehrane", "rozehrane", "hotove"];
@@ -32,7 +32,8 @@ export function vykresli([katId]) {
       "a",
       { class: "card topic", href: `#/tema/${tema.id}`, "data-tema": tema.id, "data-stav-tematu": stavTematu(tema) },
       h("span", { class: "topic-head" },
-        h("span", { class: "topic-name", text: txt(tema.nazev, jazyk()) }),
+        h("span", { class: "topic-name" }, h("span", { text: txt(tema.nazev, jazyk()) }),
+          jeNoveTema(tema.id) ? h("span", { class: "stitek-nove", "data-test": "tema-nove", text: t("nova.stitek") }) : null),
         h("span", { class: "topic-sum", text: hvezdyText(hv.pul, hv.max) })),
       h("span", { class: "minis" }, ukazatele)
     );

@@ -475,5 +475,33 @@
       "one": "{n} round",
       "other": "{n} rounds"
     }
+  },
+  "sbirka": {
+    "nadpis": "My collection",
+    "ulozit": "Save",
+    "ulozeno": "Saved",
+    "pridano": "⭐ Saved to your collection (History → My collection)",
+    "odebrano": "Removed from your collection",
+    "odebrat": "Remove from collection",
+    "popis": "Interesting questions you saved with the star – with the correct answer and explanation.",
+    "prazdna": "Your collection is empty. Save an interesting question with the ☆ Save button under the explanation.",
+    "tip": "Tip: save an interesting question with the ☆ Save button under the explanation.",
+    "pocet": {
+      "one": "{n} saved question",
+      "other": "{n} saved questions"
+    }
+  },
+  "nova": {
+    "nadpis": "New topics",
+    "stitek": "✨ New",
+    "zadna": "No new topics – you know them all.",
+    "vKategorii": {
+      "one": "✨ {n} new",
+      "other": "✨ {n} new"
+    },
+    "domu": {
+      "one": "{n} new topic added",
+      "other": "{n} new topics added"
+    }
   }
 }

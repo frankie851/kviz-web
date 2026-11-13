@@ -13,6 +13,7 @@ import { odezva, zvuk } from "../feedback.js";
 import { odznak } from "../badges.js";
 import { oznameniOdznaku, schovejOznameni } from "../oslavy.js";
 import { tlacitkoPredcitani, textOtazky, mluv, zastav, autoPredcitat } from "../predcitani.js";
+import { tlacitkoSbirky } from "../sbirka.js";
 
 export const ID = "hra";
 const PISMENA = ["A", "B", "C", "D", "E", "F"];
@@ -208,6 +209,7 @@ export async function vykresli([temaId, obt], app) {
     }
     const mluvVysv = tlacitkoPredcitani(() => q.vysvetleni?.[jo] || "", jo);
     if (mluvVysv) panel.append(mluvVysv);
+    panel.append(tlacitkoSbirky(q, temaId)); // ☆ Uložit do sbírky (D-035)
     const dalsi = h("button", {
       type: "button",
       class: "btn btn-primary btn-big next",
