@@ -1,6 +1,14 @@
 # DECISIONS – Kvízová webová aplikace
 Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový záznam s odkazem na původní.
 
+## D-030 · 2026-11-14 · Světlejší barvy dlaždic s tmavým textem, ohraničení Všech kategorií (Davidův pokyn, upravuje D-029)
+- **Proč:** sytě barevné dlaždice s bílým textem (D-029) byly Davidovi „až moc kontrastní“. Chce světlejší odstíny stejných barev, černý text a barvy odlišné od pozadí – bez černé, bílé a béžové.
+- **Paleta (světlé odstíny, text `#1A1020`):** malinová `#F29BBB`, zelená `#86D3A2`, modrá `#93BEF2`, oranžová `#F7B27F`, fialová `#C4AAF6`, tyrkysová `#7FCDC3`, červená `#F39A9D`, hnědá `#D9A47A`. Kontrast textu 8,7–10,4 : 1; od světlého pozadí jemně odlišené (≈ 1,7–2 : 1), od tmavého výrazně (≈ 9 : 1).
+- **Indigo vyřazeno** (ve světlém odstínu splývá s fialovou); **hnědá patří do stejné „rodiny“ jako oranžová** (ve světlém odstínu jsou si blízko), takže nejsou vedle sebe ani nad sebou. Pravidlo přidělování z D-029 beze změny; upravené pořadí u Mytologie, Jazyka a Ekonomiky, aby Vesmír zůstal modrý.
+- **Dlaždice Všechny kategorie** má stejné ohraničení jako karta Pokračuj (malinová linka 2 px místo přerušované).
+- **Ověření:** `pruchod.py` – dlaždice barevné (ne průhledné, černé, bílé ani béžové), tmavý text, barva se neopakuje u 3 předchozích; 169 kontrol. Náhled `docs/nahledy/d030-svetle-barvy.png`.
+- **Kdo:** David (pokyn), prompt 01 (provedení)
+
 ## D-029 · 2026-11-14 · Barvy dlaždic kategorií podle tématu, bez opakování vedle sebe (Davidův pokyn, nahrazuje D-024)
 - **Proč:** při přesunu hledání (D-027) jsem omylem přepsal `kategorie.js` starší verzí a ztratil pravidla barev z D-024; dlaždice se znovu střídaly podle pořadí a třetí v pořadí odkazovala na zrušenou černou dlaždici, takže zůstala béžová jako pozadí. David zároveň chce: bez černé a béžové, barvy podle tématu, v kontrastu s pozadím i s obrázkem na dlaždici a stejné barvy ne vedle sebe.
 - **Paleta (9 barev, všechny s bílým textem):** malinová `#C2255C`, zelená `#15803D`, modrá `#1D63C9`, oranžová `#C2410C`, fialová `#7C3AED`, tyrkysová `#0F766E`, červená `#C0262D`, indigo `#4F46E5`, hnědá `#9A4A12`. Kontrast s bílým textem ≥ 5,0 : 1, se světlým pozadím ≥ 4,7 : 1, s tmavým pozadím ≈ 3 : 1 (stejné v obou režimech). Petrolejová vyřazena (moc podobná tyrkysové a modré).
