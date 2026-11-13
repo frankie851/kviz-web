@@ -1,6 +1,13 @@
 # DECISIONS – Kvízová webová aplikace
 Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový záznam s odkazem na původní.
 
+## D-035 · 2026-11-15 · Moje sbírka a štítek „Nové“ u témat (Davidova volba nápadů 16 a 17)
+- **Moje sbírka (16):** u každého vysvětlení (hra, procvičování, denní výzva, výzva kamarádovi, přehled odpovědí) tlačítko „☆ Do sbírky“ / „★ Ve sbírce“ (ukládá se jen po odpovědi, takže sbírka nic neprozradí). V Historii pod Procvičit chyby karta „⭐ Moje sbírka – n uložených otázek“ (bez uložených jen tip). Obrazovka `#/sbirka`: nejnovější nahoře, téma a obtížnost, otázka, **správná odpověď**, vysvětlení (překlad podle nastavení, 🔊), „Odebrat ze sbírky“. Uloženo v `pokrok.sbirka`; otázky, které už na webu nejsou, se vynechají.
+- **Nová témata (17):** data **datum přidání tématu nemají**, proto se „nové“ určuje u hráče: hra si pamatuje témata, která už viděla (`pokrok.znamaTemata`). Při první návštěvě s touto verzí se všechna jen zapamatují; témata, která přibudou s dalším exportem (prompt 03), jsou „✨ Nové“ – dokud je hráč neotevře, nejvýš 30 dní. Zobrazení: na Domů karta „✨ Přibyla n nová témata“ → obrazovka `#/nova`, na dlaždici kategorie „✨ n nová“, u tématu v kategorii a ve výsledcích hledání štítek „✨ Nové“. Export ani data se neměnily. U úplně nového hráče se seznam při startu neukládá (uloží se s prvním pokrokem) – start hry tak nic nezapisuje.
+- **Test:** pomocník `jdi()` v `pruchod.py` nově čeká na vykreslení *nové* obrazovky (Statistiky a Historie se vykreslují až po načtení otázek, test občas kontroloval předchozí obrazovku); `pruchod.py` 3× za sebou bez chyby.
+- **Ověření:** `pruchod.py` scénář `scenar_d035` – ☆ uloží a upozorní, ★ i v přehledu, Historie „1 uložená otázka“, sbírka se správnou odpovědí a vysvětlením, odebrání; 2 nová témata (Domů, obrazovka Nová témata, štítek v kategorii), po otevření zbývá 1, první návštěva bez „nových“; 219 kontrol.
+- **Kdo:** David (výběr nápadů 16 a 17), prompt 01 (provedení)
+
 ## D-034 · 2026-11-15 · Úroveň hráče a týdenní cíl (Davidova volba nápadů 14 a 15)
 - **Body:** za každou správnou odpověď v kole Lehká 10, Střední 15, Těžká 20 (i rozehraná kola), denní výzva 10 za správnou odpověď. Procvičování chyb a výzva kamarádovi body **nedávají** (jdou opakovat). Body se **počítají z uložených výsledků**, takže platí i zpětně (`progress.js` `bodyHrace()`), nic navíc se neukládá.
 - **Úrovně:** začátek úrovně n = 50·n·(n−1) bodů (0, 100, 300, 600, 1000, … – každá další o 100 víc); při 3480 otázkách vychází nejvýš kolem úrovně 30. Názvy: 1 Zvědavec, 3 Nadšenec, 5 Znalec, 8 Expert, 12 Mistr, 17 Mudrc, 24 Legenda (`game.js` `uroven()`, `TITULY`).
