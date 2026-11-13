@@ -8,6 +8,8 @@ import { najdiTema, txt } from "../data.js";
 import { nacti, uloz } from "../storage.js";
 import { odznak, nazevOdznaku } from "../badges.js";
 import { sdilej, adresaWebu, hvezdyTextem } from "../sdileni.js";
+import { odkazSouboje } from "./souboj.js";
+import { vysledek as ulozenyVysledek } from "../progress.js";
 import { zvuk, vibrace } from "../feedback.js";
 import { konfety, zastavKonfety } from "../oslavy.js";
 
@@ -77,6 +79,19 @@ export function vykresli() {
           url: adresaWebu(`#/tema/${tema.id}`),
         }),
       }, h("span", { "aria-hidden": "true", text: "📤 " }), t("sdileni.tlacitko")),
+      (() => {
+        // výzva kamarádovi: stejné otázky ve stejném pořadí (D-033)
+        const ids = (ulozenyVysledek(tema.id, v.obt)?.odpovedi || []).map(([id]) => id);
+        return ids.length
+          ? h("button", {
+              type: "button", class: "btn btn-sec btn-big", "data-test": "vyzvat",
+              onclick: () => sdilej({
+                text: t("souboj.pozvanka", { tema: txt(tema.nazev, jazyk()), obtiznost: t(`obtiznost.${v.obt}`), s: v.spravne, c: v.celkem }),
+                url: odkazSouboje(tema.id, v.obt, ids, v.spravne),
+              }),
+            }, h("span", { "aria-hidden": "true", text: "🤝 " }), t("souboj.vyzvat"))
+          : null;
+      })(),
       h("a", { class: "btn btn-sec btn-big", href: `#/kategorie/${kategorie.id}`, "data-test": "zpet-temata" }, t("vysledek.zpetTemata")))
   );
   const casovace = [];
