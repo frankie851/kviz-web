@@ -67,6 +67,7 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☑ (2026-11-14) D-029 barvy dlaždic kategorií podle tématu (oprava ztracených pravidel z D-024).
 - ☑ (2026-11-14) D-030 světlejší barvy dlaždic s černým textem, ohraničení Všech kategorií.
 - ☑ (2026-11-14) D-031 jemnější barvy / tmavé dlaždice v tmavém režimu, Procvičit chyby, „Vyber si téma“ pod filtrem.
+- ☑ (2026-11-14) D-032 denní výzva a sdílení výsledku.
 
 ## Stav
-Poslední aktualizace: 2026-11-14 · Web online (vč. D-030) · Čeká se: sloučení D-031 · Blokováno: nic
+Poslední aktualizace: 2026-11-14 · Web online (vč. D-031) · Čeká se: sloučení D-032 · Blokováno: nic
