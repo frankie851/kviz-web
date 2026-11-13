@@ -1488,6 +1488,64 @@ def scenar_d035(browser, zaklad, hlidac, index, otazky, temata, vystup=None):
     ctx.close()
 
 
+def scenar_d037(browser, zaklad, hlidac, index, vystup=None):
+    """D-037: oblíbené kategorie (☆ v záhlaví kategorie → první na Domů a ve Všech kategoriích) a volba, co ukazovat na Domů."""
+    print("Oblíbené kategorie a obsah Domů (D-037):")
+    vid = [k["id"] for k in index["kategorie"] if any(any(t_["otazek"].get(o, 0) >= 3 for o in "123") for t_ in k["temata"])]
+    if len(vid) < 3:
+        ok("méně než 3 kategorie – oblíbené se nekontrolují")
+        return
+    X, Y = vid[-1], vid[-2]
+    ctx = browser.new_context(viewport={"width": 390, "height": 844}, locale="cs-CZ")
+    page = ctx.new_page()
+    page.set_default_timeout(8000)
+    hlidac.pripoj(page)
+    page.goto(zaklad)
+    page.evaluate("n => localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(n))", {"ui": "cs", "otazky": "cs", "preklad": "vypnuto", "zvuky": False, "vibrace": False})
+    page.reload()
+    poradi = lambda sel: page.eval_on_selector_all(f"{sel} .tile[data-kategorie]", "els => els.map(e => [e.dataset.kategorie, e.dataset.barva])")
+    def bez_sousedu(dl):
+        return all(dl[i][1] not in [b for _, b in dl[max(0, i - 3):i]] for i in range(len(dl)))
+    for kid in (X, Y):
+        jdi(page, zaklad, f"#/kategorie/{kid}")
+        page.click("[data-test=oblibena-prepnout]")
+    over(page.get_attribute("[data-test=oblibena-prepnout]", "aria-pressed") == "true", "☆ v záhlaví kategorie → ★ připnuto")
+    jdi(page, zaklad, "#/")
+    dl = poradi("[data-test=kategorie-domu]")
+    over([d[0] for d in dl[:2]] == [X, Y] and page.locator(f'.tile[data-kategorie="{X}"] [data-test=oblibena]').count() == 1,
+         f"Domů: oblíbené kategorie první v pořadí připnutí ({X}, {Y}) se ★")
+    over(bez_sousedu(dl), "Domů: ani s oblíbenými nejsou stejné barvy vedle sebe")
+    if vystup:
+        vystup.mkdir(parents=True, exist_ok=True)
+        page.wait_for_timeout(700)
+        page.locator("[data-test=kategorie-domu]").screenshot(path=str(vystup / "d037-oblibene-390.png"))
+    jdi(page, zaklad, "#/kategorie")
+    dl = poradi("[data-test=kategorie-vse]")
+    over([d[0] for d in dl[:2]] == [X, Y] and bez_sousedu(dl), "Všechny kategorie: oblíbené první, barvy bez opakování")
+    jdi(page, zaklad, f"#/kategorie/{X}")
+    page.click("[data-test=oblibena-prepnout]")
+    jdi(page, zaklad, "#/")
+    over(poradi("[data-test=kategorie-domu]")[0][0] == Y, "odepnutí: první zůstane jen druhá oblíbená")
+    # co ukazovat na Domů
+    casti = {"vyzva": "[data-test=vyzva]", "nahoda": "[data-test=nahodne]", "postup": "[data-test=postup-karta]", "pruh": ".strip"}
+    over(all(page.locator(sel).count() == 1 for sel in casti.values()), "Domů: výchozí stav – všechny části zapnuté")
+    jdi(page, zaklad, "#/nastaveni")
+    for cast in casti:
+        page.click(f"#nast-domu-{cast}")
+    page.reload()
+    jdi(page, zaklad, "#/")
+    over(all(page.locator(sel).count() == 0 for sel in casti.values()) and page.locator("[data-test=kategorie-domu]").count() == 1,
+         "po vypnutí v Nastavení: Domů bez denní výzvy, Překvap mě, úrovně a pruhu – kategorie zůstávají (i po obnovení)")
+    if vystup:
+        page.wait_for_timeout(700)
+        page.screenshot(path=str(vystup / "d037-domu-zjednodusene-390.png"))
+    jdi(page, zaklad, "#/nastaveni")
+    page.click("#nast-domu-vyzva")
+    jdi(page, zaklad, "#/")
+    over(page.locator("[data-test=vyzva]").count() == 1, "zapnutí zpět: denní výzva se vrátí")
+    ctx.close()
+
+
 def kontrola_nahledu_odkazu():
     print("Náhled odkazu (Open Graph) a ikony:")
     html = (KOREN / "index.html").read_text(encoding="utf-8")
@@ -1606,6 +1664,7 @@ def main():
             lambda: scenar_zvuku(page, zaklad, otazky, tema3["id"]),
             lambda: scenar_omezit_pohyb(browser, zaklad, hlidac, otazky, tema["id"]),
             lambda: scenar_statistik(browser, zaklad, hlidac, temata),
+            lambda: scenar_d037(browser, zaklad, hlidac, index, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d035(browser, zaklad, hlidac, index, otazky, temata, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d034(browser, zaklad, hlidac, otazky, temata),
             lambda: scenar_d033(browser, zaklad, hlidac, otazky, temata, None if args.bez_screenshotu else Path(args.vystup)),
