@@ -374,7 +374,8 @@
       "few": "včetně odpovědí ze {n} rozehraných kol",
       "many": "včetně odpovědí z {n} rozehraného kola",
       "other": "včetně odpovědí z {n} rozehraných kol"
-    }
+    },
+    "vyzvy": "Denní výzvy (nejdelší série)"
   },
   "procvic": {
     "nadpis": "Procvičování chyb",
@@ -398,5 +399,30 @@
     "vseHotovo": "Všechny chyby máš procvičené 🎉",
     "dalsiKolo": "Procvičit další",
     "zpet": "Zpět do historie"
+  },
+  "vyzva": {
+    "nadpis": "Denní výzva",
+    "podnadpis": "{datum} · {n} otázek ze všech témat – dnes pro všechny stejné",
+    "vysledek": "Výsledek",
+    "hotovo": "Výzva splněna!",
+    "perfektni": "Všechno správně! 🎉",
+    "serie": {
+      "one": "🔥 {n} den výzev v řadě",
+      "few": "🔥 {n} dny výzev v řadě",
+      "many": "🔥 {n} dne výzev v řadě",
+      "other": "🔥 {n} dní výzev v řadě"
+    },
+    "zitra": "Další výzva bude zítra.",
+    "domu": "Domů",
+    "domuNova": "{n} otázek dne – pro všechny stejných",
+    "domuRozehrano": "Rozehráno: {i} z {n}",
+    "domuHotovo": "Dnes hotovo: {s} / {n}",
+    "sdiletText": "Oho! Denní výzva {datum}: {s}/{n} {ctverecky} – zkus to taky!"
+  },
+  "sdileni": {
+    "tlacitko": "Sdílet výsledek",
+    "kolo": "Oho! {tema} ({obtiznost}): {s}/{c} {hvezdy} – zkus to taky!",
+    "zkopirovano": "Zkopírováno – vlož to, kam chceš 📋",
+    "nelze": "Sdílení tu nejde – zkopíruj si adresu stránky."
   }
 }

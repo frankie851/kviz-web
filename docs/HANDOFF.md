@@ -1,8 +1,8 @@
 # HANDOFF – Kvízová webová aplikace
-datum: 2026-11-14 · předává: prompt 01 (D-031 barvy, Procvičit chyby, prostředí A) · přebírá: David (sloučit pull request, vyzkoušet)
+datum: 2026-11-14 · předává: prompt 01 (D-032 denní výzva a sdílení, prostředí A) · přebírá: David (sloučit pull request, vyzkoušet)
 
 ## Stav jednou větou
-Web je online s funkcemi do D-030 (sloučeno). V pull requestu čeká D-031: jemnější barvy dlaždic (tmavé v tmavém režimu), Procvičit chyby v Historii a „Vyber si téma“ pod filtrem.
+Web je online s funkcemi do D-031 (sloučeno). V pull requestu čeká D-032: denní výzva (5 otázek dne pro všechny stejných, série výzev) a sdílení výsledku.
 
 ## Stav dat
 - 2026-11-04 – 35 otázek, 1 téma (T001 Chobotnice a další hlavonožci), režim vzorek
@@ -54,7 +54,10 @@ Web je online s funkcemi do D-030 (sloučeno). V pull requestu čeká D-031: jem
 
 - D-031 (2026-11-14): jemnější pastely / tmavé dlaždice v tmavém režimu, Procvičit chyby, „Vyber si téma“ pod filtrem; `pruchod.py` 178 kontrol; náhled `docs/nahledy/d031-barvy-procvicovani.png`.
 
+- D-032 (2026-11-14): denní výzva, sdílení výsledku, společná sada otázek; `pruchod.py` 190 kontrol; náhled `docs/nahledy/d032-vyzva-sdileni.png`.
+
 ## Rozpracováno
+- **Sdílení na skutečném telefonu** ověří David (systémová nabídka sdílení se v Chromiu bez hlavy jen napodobí).
 - ~~Volba barev pruhů~~ – David vybral B (plná zelená a červená), nastaveno (D-023).
 - **Posun k Další na skutečném telefonu** ověří David (v emulaci prošlo; rezerva po D-023 je 6 % výšky / max 40 px – kdyby nestačila nebo byla moc, upravit v `hra.js` `ukazDalsi`).
 - ~~Volba obrazovky Domů~~ – vyřešeno (D-021). Původní poznámka: `design/domu.html` (online `…/kviz-web/design/domu.html` po sloučení), screenshoty `docs/nahledy/domu-varianta-a…d.png`. Každá varianta potřebuje i logiku: A/D karta „Pokračuj“ = poslední rozehrané kolo, jinak další otevřená obtížnost naposledy hraného tématu; B/D týden = dny s dohraným kolem v aktuálním týdnu (dnes se ukládá jen poslední den a délka série, takže je potřeba ukládat i data hraní); B/D nejbližší odznak = nezískaný odznak s největším podílem splnění; C dlaždice kategorií + „Věděli jste?“ jen z už zodpovězených otázek. Po volbě: zapsat do DECISIONS, postavit, rozšířit `pruchod.py`.
@@ -63,8 +66,8 @@ Web je online s funkcemi do D-030 (sloučeno). V pull requestu čeká D-031: jem
 - **Náhled odkazu** ověří až sdílení nasazené adresy (např. poslat si odkaz ve WhatsAppu/Messengeru). Sítě si náhled pamatují – kdyby ukazovaly starou zástupnou stránku, chce to chvíli počkat.
 
 ## Další krok
-1. **David:** sloučit pull request s D-031 a vyzkoušet na mobilu (barvy světle i tmavě, Historie → Procvičit chyby).
-2. **Zbylé návrhy z 2026-11-12** (David zatím nevybral) – mimo rozsah 1. verze (potřebují souhlas): 7 Denní výzva, 8 Sdílet výsledek, 9 Instalace na plochu / offline; 10 Nahlásit chybu v otázce (potřebuje rozhodnutí o službě – e-mail by zveřejnil adresu, formulář = registrace).
+1. **David:** sloučit pull request s D-032 a vyzkoušet na mobilu (Domů → Denní výzva, po dohrání Sdílet výsledek – i u běžného kola).
+2. **Zbylé návrhy z 2026-11-12** (David zatím nevybral; 7 a 8 hotové – D-032) – mimo rozsah 1. verze (potřebují souhlas): 7 Denní výzva, 8 Sdílet výsledek, 9 Instalace na plochu / offline; 10 Nahlásit chybu v otázce (potřebuje rozhodnutí o službě – e-mail by zveřejnil adresu, formulář = registrace).
 2. **Další témata (kdykoli):** v Excelu označit Web = Ano (u celého tématu stačí list Témata, D-017), uložit, zavřít; pak **prompt 03** v úkolu propojeném s počítačem (prostředí B). Prompt 03 po exportu spustí `python3 tools/pruchod.py`.
 3. Body „K zvážení“ z kontroly: K4 hotovo (D-018), K1 = krok 2, K2 a K3 beze změny (David nic nežádal), K5 jen informace. Kdyby David chtěl K2/K3 přece změnit, udělá to prompt 01.
 
@@ -74,6 +77,7 @@ Web je online s funkcemi do D-030 (sloučeno). V pull requestu čeká D-031: jem
 - `tools/pruchod.py`: 1. běh selhal na varování o preload písem, 2. běh prošel – viz nález D-1.
 
 ## Připomínky Davida (k zapracování)
+- 2026-11-14 – „udělej ještě návrh 7 a 8“ (denní výzva, sdílení výsledku) → **zapracováno** (D-032).
 - 2026-11-14 – „ještě méně kontrastu; v tmavém režimu barvy ztmavit a text bílý; návrh 4 procvičení špatných odpovědí s tlačítkem nahoře v Historii; Vyber si téma pod filtry“ → **zapracováno** (D-031).
 - 2026-11-14 – „až moc kontrastní; světlejší odstíny, černý text, bez černé/bílé/béžové; Všechny kategorie ohraničit jako Pokračuj“ → **zapracováno** (D-030).
 - 2026-11-14 – „rozházely se barvy z předchozí verze; černou a béžovou jako pozadí nepoužívat; barvy k tématu, v kontrastu s pozadím a obrázkem, stejné ne vedle sebe“ → **zapracováno** (D-029).

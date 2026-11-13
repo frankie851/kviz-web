@@ -16,6 +16,7 @@ import * as prehled from "./screens/prehled.js";
 import * as historie from "./screens/historie.js";
 import * as statistiky from "./screens/statistiky.js";
 import * as procvicovani from "./screens/procvicovani.js";
+import * as vyzva from "./screens/vyzva.js";
 
 const TRASY = [
   [/^\/?$/, domu],
@@ -29,12 +30,13 @@ const TRASY = [
   [/^\/historie$/, historie],
   [/^\/statistiky$/, statistiky],
   [/^\/procvicovani$/, procvicovani],
+  [/^\/vyzva$/, vyzva],
   [/^\/odznaky$/, odznaky],
   [/^\/nastaveni$/, nastaveni],
 ];
 
 // „hloubka“ obrazovky pro směr přechodu: hlouběji = příjezd zprava, zpět = zleva
-const HLOUBKA = new Map([[domu, 0], [uvod, 0], [kategorie, 1], [historie, 1], [statistiky, 1], [procvicovani, 2], [odznaky, 1], [nastaveni, 1],
+const HLOUBKA = new Map([[domu, 0], [uvod, 0], [kategorie, 1], [historie, 1], [statistiky, 1], [procvicovani, 2], [vyzva, 1], [odznaky, 1], [nastaveni, 1],
   [temata, 2], [obtiznost, 3], [hra, 4], [vysledek, 5], [prehled, 5]]);
 
 const koren = document.getElementById("app");

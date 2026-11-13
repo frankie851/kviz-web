@@ -20,12 +20,12 @@ Veřejná webová aplikace, ve které kdokoli hraje kvízy z Davidových ověře
 
 **Mimo rozsah (záměrně – ale kód a data mají jít později rozšířit bez přestavby):**
 - další typy otázek (Co bylo dřív, Seřaď, Hádanky, Města z letadla),
-- rychlá hra, denní výzva, hra na čas,
+- rychlá hra, ~~denní výzva~~ *(přidána 2026-11-14, D-032)*, hra na čas,
 - účty, žebříčky, synchronizace mezi zařízeními,
 - instalace na plochu / offline (PWA), vlastní doména,
 - reklama, platby, statistiky návštěvnosti,
 - další jazyky než CZ a EN,
-- sdílení výsledku na sociální sítě.
+- ~~sdílení výsledku na sociální sítě~~ *(přidáno 2026-11-14, D-032 – přes systémové sdílení / schránku, bez cizích služeb)*.
 
 ## Obrazovky
 1. **První spuštění** – nejvýš 2 kroky:
