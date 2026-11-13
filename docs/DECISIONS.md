@@ -1,6 +1,14 @@
 # DECISIONS – Kvízová webová aplikace
 Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový záznam s odkazem na původní.
 
+## D-028 · 2026-11-13 · Překvap mě, tmavý režim, velikost písma (Davidova volba návrhů 5 a 6)
+- **Překvap mě (Domů):** tlačítko „🎲 Překvap mě – náhodné téma“ pod kartou Pokračuj otevře náhodné téma (obrazovku Obtížnost). Vybírá z nehraných témat, když žádné není, z témat, kde jde hrát dál, jinak z jakéhokoli. `progress.js` `nahodneTema()`.
+- **Tmavý režim:** Nastavení → Vzhled → Barevný režim **Podle telefonu** (výchozí, `prefers-color-scheme`) / **Světlý** / **Tmavý**. Tmavá paleta je sada CSS proměnných (`:root[data-vzhled="tmavy"]` a stejná v `@media (prefers-color-scheme: dark)` pro „podle telefonu“); barvy, které byly v CSS napevno (ozdobné kruhy, zamčené karty, stíny odpovědí, vypínač, lišty Načítám…/nový odznak…), jsou nově proměnné. Barevné dlaždice kategorií zůstávají, jen růžová a šedá dostaly tmavší odstín s bílým textem. Barva lišty prohlížeče (`theme-color`) se řídí režimem. Konfety bez tmavé švestkové barvy (na tmavém pozadí by zmizela). Kontrast v tmavém režimu ověřen výpočtem: text 13,8 : 1, tlumený 8,3 : 1, překlad 7,2 : 1, tlačítko 4,6 : 1, písmeno správné odpovědi 10,2 : 1 (tmavé písmeno na světle zelené).
+- **Velikost písma:** Nastavení → Vzhled → **Normální / Větší (×1,15) / Největší (×1,3)**. Všechna `font-size` v CSS jsou `calc(Npx * var(--pismo, 1))`; rozložení se nemění, zvětší se jen text. Velké hvězdy na výsledku a medaile u odznaků se nezvětšují (ozdoba, jinak by se na 320 px nevešly); pruh na Domů se při větším písmu zalomí na 2 řádky.
+- **Uložení:** nastavení `vzhled` (`auto` | `svetly` | `tmavy`) a `pismo` (`normalni` | `vetsi` | `nejvetsi`), u starších nastavení se doplní výchozí; `settings.js` `aplikujVzhled()` je zapíše na `<html>` (`data-vzhled`, `data-pismo`).
+- **Ověření:** `pruchod.py` scénář `scenar_d028` – Překvap mě 8× jen nehraná témata, Tmavý / Světlý / Podle telefonu (telefon v tmavém režimu), Největší písmo 22,1 px, obojí přežije obnovení, 320 px + tmavý + největší písmo: otázka, výsledek, Domů, Kategorie, Statistiky, Odznaky, Nastavení, Obtížnost bez přetékání; ručně prohlédnuto i 360 px / Větší a 390 px / Normální.
+- **Kdo:** David (výběr návrhů 5 a 6), prompt 01 (provedení)
+
 ## D-027 · 2026-11-13 · Hledání ve Všech kategoriích, filtr ikonami, konfety od 90 %, oprava odznaků Neomylný a Objevitel (Davidovy pokyny a volby)
 - **Hledání témat** přesunuto z Domů na obrazovku **Všechny kategorie** (nahoře pole, výsledky místo dlaždic). Dlaždice „Všechny kategorie (n)“ na Domů má podtitul „🔎 i hledání témat“. Pozn.: dlaždice se ukáže jen při víc než 6 kategoriích (dnes 17); při méně by hledání z Domů nebylo vidět.
 - **Filtr v kategorii ikonami:** Vše (text) · 🚦 Nehrané · 🏃 Rozehrané · 🏁 Hotové, s počty; text je v popisku pro myš a čtečky. Mřížka 4 sloupců – jeden řádek i na 320 px.
