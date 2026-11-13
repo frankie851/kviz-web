@@ -183,8 +183,18 @@ def pocty(page):
 
 
 def jdi(page, zaklad, hash_):
+    """Přejde na obrazovku a počká, až se vykreslí nová (ne stará – obrazovky jako Statistiky a Historie se
+    vykreslují až po načtení otázek, takže čekat jen na „nějakou“ obrazovku nestačí)."""
+    try:
+        page.evaluate("window.__staraObrazovka = document.querySelector('#app main')")
+    except Exception:
+        pass
     page.goto(zaklad + hash_)
     page.wait_for_selector("#app main", timeout=10000)
+    try:
+        page.wait_for_function("(() => { const m = document.querySelector('#app main'); return m && m !== window.__staraObrazovka; })()", timeout=4000)
+    except Exception:
+        pass  # stejná adresa jako předtím → obrazovka se nepřekreslí, to je v pořádku
     page.wait_for_timeout(150)
 
 
@@ -1385,6 +1395,78 @@ def scenar_d034(browser, zaklad, hlidac, otazky, temata):
     ctx.close()
 
 
+def scenar_d035(browser, zaklad, hlidac, index, otazky, temata, vystup=None):
+    """D-035: Moje sbírka (☆ u vysvětlení → Historie → Moje sbírka) a štítek „Nové“ u témat, která přibyla."""
+    print("Moje sbírka a nová témata (D-035):")
+    nast = {"ui": "cs", "otazky": "cs", "preklad": "vypnuto", "zvuky": False, "vibrace": False}
+    ctx = browser.new_context(viewport={"width": 390, "height": 844}, locale="cs-CZ")
+    page = ctx.new_page()
+    page.set_default_timeout(8000)
+    hlidac.pripoj(page)
+    page.goto(zaklad)
+    page.evaluate("n => localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(n))", nast)
+    page.reload()
+    # --- sbírka
+    T = temata[0][1]["id"]
+    zacni_kolo(page, zaklad, T)
+    zodpovez(page, otazky)
+    qid = page.get_attribute(".qcard", "data-qid")
+    page.click(".explain [data-test=sbirka-prepnout]")
+    over(page.get_attribute(".explain [data-test=sbirka-prepnout]", "aria-pressed") == "true" and "Uloženo do sbírky" in page.inner_text("[data-test=oznameni]"),
+         "☆ Do sbírky u vysvětlení: uloženo, upozornění")
+    dalsi(page)
+    zahraj_kolo(page, otazky, spatnych=0)
+    jdi(page, zaklad, f"#/prehled/{T}/1")
+    over(page.get_attribute(f'.review[data-qid="{qid}"] [data-test=sbirka-prepnout]', "aria-pressed") == "true", "přehled odpovědí: uložená otázka má ★ Ve sbírce")
+    jdi(page, zaklad, "#/historie")
+    page.wait_for_selector("[data-test=sbirka]")
+    over("1 uložená otázka" in page.inner_text("[data-test=sbirka]"), "Historie: „Moje sbírka – 1 uložená otázka“")
+    page.click("[data-test=sbirka]")
+    page.wait_for_selector("[data-test=sbirka-seznam]")
+    q = otazky[qid]
+    karta = page.locator(f'.sbirka-karta[data-qid="{qid}"]')
+    over(karta.count() == 1 and q["moznosti"]["cs"][q["spravne"]] in karta.inner_text() and q["vysvetleni"]["cs"][:30] in karta.inner_text(),
+         "Moje sbírka: otázka se správnou odpovědí a vysvětlením")
+    if vystup:
+        vystup.mkdir(parents=True, exist_ok=True)
+        page.screenshot(path=str(vystup / "d035-sbirka-390.png"))
+    page.click("[data-test=sbirka-odebrat]")
+    over(page.is_visible("[data-test=sbirka-prazdna]"), "Odebrat ze sbírky → sbírka je prázdná")
+    # --- nová témata: hráč zná všechna témata kromě dvou → ta dvě jsou „Nová“
+    vsechna = [t_["id"] for k in index["kategorie"] for t_ in k["temata"] if any(t_["otazek"].get(o, 0) >= 3 for o in "123")]
+    nova = vsechna[-2:]
+    kat_nova = next(k for k in index["kategorie"] if any(t_["id"] == nova[-1] for t_ in k["temata"]))
+    pk = page.evaluate("JSON.parse(localStorage.getItem('kviz.v1.pokrok'))")
+    pk["znamaTemata"] = {tid: {"d": "2026-11-01", "n": 0} for tid in vsechna if tid not in nova}
+    page.evaluate("p => localStorage.setItem('kviz.v1.pokrok', JSON.stringify(p))", pk)
+    page.reload()
+    jdi(page, zaklad, "#/")
+    over("2 nová témata" in page.inner_text("[data-test=nova-temata]"), "Domů: „Přibyla 2 nová témata“")
+    if vystup:
+        page.wait_for_timeout(700)
+        page.screenshot(path=str(vystup / "d035-domu-nova-390.png"))
+    page.click("[data-test=nova-temata]")
+    page.wait_for_selector("[data-test=nova-seznam]")
+    over(sorted(page.eval_on_selector_all("[data-test=nova-seznam] .hit", "els => els.map(e => e.dataset.tema)")) == sorted(nova), "obrazovka Nová témata: přesně ta 2 nová")
+    jdi(page, zaklad, f"#/kategorie/{kat_nova['id']}")
+    over(page.locator(f'.topic[data-tema="{nova[-1]}"] [data-test=tema-nove]').count() == 1, "v kategorii: štítek „✨ Nové“ u nového tématu")
+    jdi(page, zaklad, f"#/tema/{nova[-1]}")
+    jdi(page, zaklad, "#/")
+    over("1 nové téma" in page.inner_text("[data-test=nova-temata]"), "po otevření tématu zbývá „Přibylo 1 nové téma“")
+    ctx.close()
+    # první návštěva s existujícím pokrokem: nic není „nové“
+    ctx = browser.new_context(viewport={"width": 390, "height": 844}, locale="cs-CZ")
+    page = ctx.new_page()
+    hlidac.pripoj(page)
+    page.goto(zaklad)
+    page.evaluate("([n, p]) => { localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(n)); localStorage.setItem('kviz.v1.pokrok', JSON.stringify(p)); }",
+                  [nast, {"verze": 2, "vysledky": {T: {"1": {"s": 8, "c": 10, "pul": 8, "odpovedi": [], "datum": "2026-11-01"}}}, "rozehrano": {}, "odznaky": {}}])
+    page.reload()
+    jdi(page, zaklad, "#/")
+    over(page.locator("[data-test=nova-temata]").count() == 0, "první návštěva po aktualizaci hry: žádná témata nejsou „nová“ (jen se zapamatují)")
+    ctx.close()
+
+
 def kontrola_nahledu_odkazu():
     print("Náhled odkazu (Open Graph) a ikony:")
     html = (KOREN / "index.html").read_text(encoding="utf-8")
@@ -1491,6 +1573,7 @@ def main():
             lambda: scenar_zvuku(page, zaklad, otazky, tema3["id"]),
             lambda: scenar_omezit_pohyb(browser, zaklad, hlidac, otazky, tema["id"]),
             lambda: scenar_statistik(browser, zaklad, hlidac, temata),
+            lambda: scenar_d035(browser, zaklad, hlidac, index, otazky, temata, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d034(browser, zaklad, hlidac, otazky, temata),
             lambda: scenar_d033(browser, zaklad, hlidac, otazky, temata, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d032(browser, zaklad, hlidac, otazky, temata, None if args.bez_screenshotu else Path(args.vystup)),
