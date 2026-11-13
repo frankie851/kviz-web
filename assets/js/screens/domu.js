@@ -10,7 +10,8 @@ import { txt } from "../data.js";
 import { vsechnyOdznaky } from "../badges.js";
 import { ukladaniFunguje } from "../storage.js";
 import { dlazdiceKategorie, poradiKategorii } from "./kategorie.js";
-import { ukazNaDomu } from "../settings.js";
+import { ukazNaDomu, nast, zmen } from "../settings.js";
+import { kartaMesice, mesicKlic } from "../aktivita.js";
 import { pruvodceKdyzTreba } from "../pruvodce.js";
 
 export const ID = "domu";
@@ -80,6 +81,15 @@ function kartaVyzvy() {
     h("span", { class: hotovo ? "vyzva-go-hotovo" : "pokracuj-go", "aria-hidden": "true", text: hotovo ? "→" : "▶" }));
 }
 
+/** Souhrn minulého měsíce (D-038): prvních 7 dní v měsíci, když hráč minulý měsíc hrál; ✕ ho do konce měsíce skryje. */
+function kartaMinulehoMesice(app) {
+  const ted = new Date();
+  if (ted.getDate() > 7) return null;
+  const klic = mesicKlic(ted, -1);
+  if (nast().souhrnSkryty === klic) return null;
+  return kartaMesice(klic, { test: "mesic-domu", kratce: true, zavrit: () => { zmen({ souhrnSkryty: klic }); app.prekresli(); } });
+}
+
 export function vykresli(_param, app) {
   const hv = hvezdyCelkem();
   const dny = serieDni();
@@ -125,6 +135,7 @@ export function vykresli(_param, app) {
     })(),
     // části Domů jdou v Nastavení vypnout (D-037)
     ukazNaDomu("postup") ? kartaPostupu() : null,
+    ukazNaDomu("souhrn") ? kartaMinulehoMesice(app) : null,
     ukazNaDomu("pokracuj") ? kartaPokracuj() : null,
     ukazNaDomu("vyzva") ? kartaVyzvy() : null,
     !ukazNaDomu("nahoda") ? null : h("button", {

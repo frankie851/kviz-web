@@ -71,7 +71,7 @@ export function prepniOblibenou(katId) {
 }
 
 /** Části Domů, které jde vypnout (výchozí všechny zapnuté). */
-export const CASTI_DOMU = ["pruh", "postup", "pokracuj", "vyzva", "nahoda", "nova"];
+export const CASTI_DOMU = ["pruh", "postup", "souhrn", "pokracuj", "vyzva", "nahoda", "nova"];
 export function ukazNaDomu(cast) {
   return (nast().domu || {})[cast] !== false;
 }

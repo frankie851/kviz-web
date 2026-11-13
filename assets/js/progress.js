@@ -349,6 +349,59 @@ export function oznacTemaOtevrene(id) {
   }
 }
 
+// ---------- kalendář aktivity a měsíční souhrn (D-038)
+/** Aktivita po dnech: datum → počet dohraných kol + dokončených denních výzev. */
+export function aktivitaDni() {
+  const m = new Map();
+  for (const obt of Object.values(p.vysledky)) {
+    for (const v of Object.values(obt || {})) if (v?.datum) m.set(v.datum, (m.get(v.datum) || 0) + 1);
+  }
+  for (const [d, v] of Object.entries(p.vyzvy || {})) if (v?.hotovo) m.set(d, (m.get(d) || 0) + 1);
+  return m;
+}
+
+/**
+ * Souhrn měsíce „RRRR-MM“ (jen dohraná kola a výzvy s datem v měsíci), nebo null, když hráč nehrál:
+ * { kol, otazek, spravne, procent, hvezd, dni, vyzev, nejlepsi: { kat, procent } | null, urovenOd, urovenDo }
+ */
+export function souhrnMesice(mesic) {
+  const kola = [];
+  for (const [temaId, obt] of Object.entries(p.vysledky)) {
+    const info = najdiTema(temaId);
+    for (const [o, v] of Object.entries(obt || {})) if (v?.datum?.startsWith(mesic)) kola.push({ info, o, v });
+  }
+  const vyzvy = Object.entries(p.vyzvy || {}).filter(([d, v]) => d.startsWith(mesic) && v?.hotovo);
+  if (!kola.length && !vyzvy.length) return null;
+  const otazek = kola.reduce((a, k) => a + (k.v.c || 0), 0);
+  const spravne = kola.reduce((a, k) => a + (k.v.s || 0), 0);
+  const podleKat = new Map();
+  for (const k of kola) {
+    if (!k.info) continue;
+    const x = podleKat.get(k.info.kategorie.id) || { kat: k.info.kategorie, s: 0, c: 0 };
+    x.s += k.v.s; x.c += k.v.c;
+    podleKat.set(k.info.kategorie.id, x);
+  }
+  const kandidati = [...podleKat.values()];
+  const dost = kandidati.filter((x) => x.c >= 10);
+  const nej = (dost.length ? dost : kandidati).sort((a, b) => b.s / b.c - a.s / a.c || b.c - a.c)[0];
+  // úroveň na začátku a na konci měsíce (z dohraných kol a výzev s datem)
+  const bodyDo = (hranice) => {
+    let b = 0;
+    for (const obt of Object.values(p.vysledky)) for (const [o, v] of Object.entries(obt || {})) if (v?.datum && v.datum < hranice) b += (v.s || 0) * (BODY_ZA_OTAZKU[o] || 10);
+    for (const [d, v] of Object.entries(p.vyzvy || {})) if (v?.hotovo && d < hranice) b += (v.spravne || 0) * BODY_VYZVA;
+    return b;
+  };
+  return {
+    kol: kola.length, otazek, spravne, procent: otazek ? Math.round((spravne / otazek) * 100) : null,
+    hvezd: Math.floor(kola.reduce((a, k) => a + (k.v.pul || 0), 0) / 2),
+    dni: new Set([...kola.map((k) => k.v.datum), ...vyzvy.map(([d]) => d)]).size,
+    vyzev: vyzvy.length,
+    nejlepsi: nej ? { kat: nej.kat, procent: Math.round((nej.s / nej.c) * 100) } : null,
+    urovenOd: uroven(bodyDo(`${mesic}-01`)).uroven,
+    urovenDo: uroven(bodyDo(`${mesic}-99`)).uroven,
+  };
+}
+
 /** Funkce pokroku pro podmínky odznaků (badges.js) a jejich postup na obrazovce Odznaky. */
 export const apiOdznaku = {
   jeDohrane, pocetDohranych, hvezdyTematu, hvezdyKategorie,

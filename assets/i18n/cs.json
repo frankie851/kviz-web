@@ -597,6 +597,79 @@
     "pokracuj": "Pokračuj",
     "vyzva": "Denní výzva",
     "nahoda": "Překvap mě",
-    "nova": "Nová témata"
+    "nova": "Nová témata",
+    "souhrn": "Měsíční souhrn (prvních 7 dní v měsíci)"
+  },
+  "kalendar": {
+    "nadpis": "Kalendář aktivity",
+    "aktivit": {
+      "one": "{n} kolo nebo výzva",
+      "few": "{n} kola nebo výzvy",
+      "many": "{n} kola nebo výzvy",
+      "other": "{n} kol nebo výzev"
+    },
+    "nic": "nehráno",
+    "dni": "Dní s hrou za posledních {t} týdnů: {n}",
+    "aria": "Kalendář aktivity: {n} dní s hrou za posledních {t} týdnů",
+    "mene": "méně",
+    "vice": "více",
+    "prazdny": "Za posledních 12 týdnů tu zatím nic není – každé dohrané kolo a denní výzva obarví jeden čtvereček."
+  },
+  "mesic": {
+    "nadpis": "Tvůj {mesic}",
+    "nadpisAktualni": "Tvůj {mesic} zatím",
+    "kolPopis": {
+      "one": "dohrané kolo",
+      "few": "dohraná kola",
+      "many": "dohraného kola",
+      "other": "dohraných kol"
+    },
+    "otazekPopis": {
+      "one": "otázka",
+      "few": "otázky",
+      "many": "otázky",
+      "other": "otázek"
+    },
+    "spravne": "správně",
+    "hvezd": {
+      "one": "{n} hvězda",
+      "few": "{n} hvězdy",
+      "many": "{n} hvězdy",
+      "other": "{n} hvězd"
+    },
+    "dni": {
+      "one": "{n} den s hrou",
+      "few": "{n} dny s hrou",
+      "many": "{n} dne s hrou",
+      "other": "{n} dní s hrou"
+    },
+    "nejlepsi": "Nejlepší kategorie",
+    "vyzvy": "Denní výzvy",
+    "uroven": "Úroveň",
+    "sdilet": "Sdílet souhrn",
+    "zavrit": "Skrýt souhrn",
+    "kol": {
+      "one": "{n} kolo",
+      "few": "{n} kola",
+      "many": "{n} kola",
+      "other": "{n} kol"
+    },
+    "otazek": {
+      "one": "{n} otázka",
+      "few": "{n} otázky",
+      "many": "{n} otázky",
+      "other": "{n} otázek"
+    },
+    "procentSpravne": "{n} % správně",
+    "vyzev": {
+      "one": "{n} denní výzva",
+      "few": "{n} denní výzvy",
+      "many": "{n} denní výzvy",
+      "other": "{n} denních výzev"
+    },
+    "sdiletText": "Oho! Můj {mesic}: {casti}.",
+    "sdiletNejlepsi": "Nejlepší kategorie: {kat} ({n} %).",
+    "sdiletUroven": "Nová úroveň {n}!",
+    "sdiletKonec": "Zkus to taky!"
   }
 }

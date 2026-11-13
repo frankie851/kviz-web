@@ -1,4 +1,4 @@
-// Statistiky (D-021) – úspěšnost celkem, podle obtížnosti a podle kategorií, hvězdy, rekordy a jazyk otázek.
+// Statistiky (D-021; kalendář aktivity a měsíční souhrn D-038) – úspěšnost celkem, podle obtížnosti a podle kategorií, hvězdy, rekordy a jazyk otázek.
 // Úspěšnost (celkem, obtížnost, kategorie, jazyk), nejlepší téma a nejdelší série počítají i odpovědi
 // z rozehraných kol (D-022); hvězdy, „jak dopadla kola“ a dny hraní jen dohraná kola. Jen témata na webu.
 import { t, jazyk } from "../i18n.js";
@@ -6,6 +6,7 @@ import { h, lista, celeHvezdy, ikonaKategorie } from "../ui.js";
 import { najdiTema, nactiTema, viditelneKategorie, viditelnaTemata, OBTIZNOSTI, txt } from "../data.js";
 import { pokrok, hvezdyCelkem, hvezdyKategorie, uzavrenaVKategorii, serieVyzev, urovenHrace, tydenniCil } from "../progress.js";
 import { ODEMCENI_PULHVEZD, MAX_HVEZD } from "../game.js";
+import { kalendarAktivity, kartaMesice, mesicKlic } from "../aktivita.js";
 
 export const ID = "statistiky";
 
@@ -178,6 +179,9 @@ export async function vykresli() {
 
   const el = h("main", { class: "screen screen-statistiky" },
     lista({ zpet: "#/", nadpis: t("statistiky.nadpis") }),
-    h("div", { class: "cards" }, souhrn, tri, obtiznosti, kategorie, hvezdy, rekordy, jazykSekce));
+    h("div", { class: "cards" }, souhrn, tri,
+      // kalendář aktivity a souhrn tohoto a minulého měsíce (D-038)
+      kalendarAktivity(), kartaMesice(mesicKlic(), { test: "mesic-ted", aktualni: true }), kartaMesice(mesicKlic(new Date(), -1), { test: "mesic-minuly" }),
+      obtiznosti, kategorie, hvezdy, rekordy, jazykSekce));
   return { el, titulek: t("statistiky.nadpis") };
 }
