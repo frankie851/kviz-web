@@ -1,16 +1,20 @@
 // 3. Kategorie – mřížka barevných dlaždic s ikonou, názvem, dohranými tématy (x / t) a hvězdami.
-// Dlaždice se ukazují i přímo na Domů (D-021); tahle obrazovka je pro „Všechny kategorie“.
+// Dlaždice se ukazují i přímo na Domů (D-021); tahle obrazovka je „Všechny kategorie“ a nahoře má
+// hledání témat (D-027, dřív na Domů – D-026): od 2 znaků se místo dlaždic ukážou nalezená témata.
 import { t, jazyk } from "../i18n.js";
 import { h, lista, hvezdyText, ikonaKategorie } from "../ui.js";
-import { viditelneKategorie, txt } from "../data.js";
-import { hvezdyKategorie, uzavrenaVKategorii } from "../progress.js";
+import { viditelneKategorie, viditelnaTemata, txt } from "../data.js";
+import { hvezdyKategorie, hvezdyTematu, uzavrenaVKategorii } from "../progress.js";
 
 export const ID = "kategorie";
-// Barvy dlaždic (D-024): vybrané kategorie mají pevnou barvu, ostatní střídají žlutou, malinovou, růžovou a šedou.
-// Černá se nepoužívá. Styly jsou v CSS (.tile-0 … .tile-4, .tile-zelena, .tile-modra).
-const PEVNE = { sport: "zelena", "priroda-a-zvirata": "zelena", kuriozity: "modra" };
-const STRIDANI = [0, 1, 3, 4]; // žlutá, malinová, růžová, šedá
-const barvaDlazdice = (k, i) => PEVNE[k.id] ?? STRIDANI[i % STRIDANI.length];
+const BARVY = 5; // počet barevných stylů dlaždic v CSS (.tile-0 … .tile-4)
+const MAX_VYSLEDKU = 30;
+const MIN_ZNAKU = 2;
+
+let hledani = ""; // pamatuje se po dobu otevřené stránky – po návratu z tématu je hledání pořád vyplněné
+
+/** Text bez diakritiky a velkých písmen (hledání „pohadky“ najde „Pohádky“). */
+const norm = (s) => String(s || "").normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
 
 /** Dlaždice kategorie: x / t = témata, ve kterých už nejde pokračovat / všechna témata kategorie. */
 export function dlazdiceKategorie(k, i) {
@@ -18,7 +22,7 @@ export function dlazdiceKategorie(k, i) {
   const u = uzavrenaVKategorii(k);
   return h(
     "a",
-    { class: `tile tile-${barvaDlazdice(k, i)}`, href: `#/kategorie/${k.id}`, "data-kategorie": k.id },
+    { class: `tile tile-${i % BARVY}`, href: `#/kategorie/${k.id}`, "data-kategorie": k.id },
     ikonaKategorie(k),
     h("span", { class: "tile-name", text: txt(k.nazev, jazyk()) }),
     h("span", { class: "tile-meta" },
@@ -27,12 +31,57 @@ export function dlazdiceKategorie(k, i) {
   );
 }
 
+/** Výsledky hledání: karty témat (ikona kategorie, název, kategorie · hvězdy). */
+function vysledkyHledani(dotaz) {
+  const q = norm(dotaz.trim());
+  const nalez = [];
+  for (const kat of viditelneKategorie()) {
+    for (const tema of viditelnaTemata(kat)) {
+      if (Object.values(tema.nazev || {}).some((n) => norm(n).includes(q))) nalez.push({ kat, tema });
+    }
+  }
+  if (!nalez.length) return [h("p", { class: "empty-hledani", "data-test": "nic-nenalezeno", text: t("domu.nicNenalezeno") })];
+  const karty = nalez.slice(0, MAX_VYSLEDKU).map(({ kat, tema }) => {
+    const hv = hvezdyTematu(tema);
+    return h("a", { class: "card hit", href: `#/tema/${tema.id}`, "data-tema": tema.id },
+      ikonaKategorie(kat, "hit-ico"),
+      h("span", { class: "hit-body" },
+        h("span", { class: "hit-name", text: txt(tema.nazev, jazyk()) }),
+        h("span", { class: "hit-meta", text: `${txt(kat.nazev, jazyk())} · ${hvezdyText(hv.pul, hv.max)}` })),
+      h("span", { class: "hist-go", "aria-hidden": "true", text: "→" }));
+  });
+  if (nalez.length > MAX_VYSLEDKU) karty.push(h("p", { class: "note", text: t("domu.dalsiVysledky", { n: nalez.length - MAX_VYSLEDKU }) }));
+  return [h("p", { class: "hit-count", "data-test": "pocet-nalezu", text: t("domu.nalezeno", { n: nalez.length }) }), h("div", { class: "cards" }, karty)];
+}
+
 export function vykresli() {
+  const dlazdice = h("div", { class: "tiles", "data-test": "kategorie-vse" }, viditelneKategorie().map(dlazdiceKategorie));
+  const vysledky = h("div", { class: "hledani-vysledky", "data-test": "vysledky-hledani", "aria-live": "polite" });
+  // při psaní se místo dlaždic ukážou nalezená témata (bez překreslení obrazovky – fokus zůstane v poli)
+  const pole = h("input", {
+    type: "search", class: "hledani-pole", id: "hledani", "data-test": "hledani", autocomplete: "off", enterkeyhint: "search",
+    placeholder: t("domu.hledatPlaceholder"), "aria-label": t("domu.hledat"), value: hledani,
+  });
+  const ukaz = () => {
+    hledani = pole.value;
+    const aktivni = norm(hledani.trim()).length >= MIN_ZNAKU;
+    dlazdice.hidden = aktivni;
+    vysledky.hidden = !aktivni;
+    vysledky.replaceChildren(...(aktivni ? vysledkyHledani(hledani) : []));
+  };
+  pole.addEventListener("input", ukaz);
+  pole.addEventListener("keydown", (e) => { if (e.key === "Escape") { pole.value = ""; ukaz(); } });
+  ukaz();
+
   const el = h(
     "main",
     { class: "screen" },
     lista({ zpet: "#/", nadpis: t("kategorie.nadpis") }),
-    h("div", { class: "tiles" }, viditelneKategorie().map(dlazdiceKategorie))
+    h("div", { class: "hledani", role: "search" },
+      h("span", { class: "hledani-ico", "aria-hidden": "true", text: "🔎" }),
+      pole),
+    vysledky,
+    dlazdice
   );
   return { el, titulek: t("kategorie.nadpis") };
 }

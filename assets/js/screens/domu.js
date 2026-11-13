@@ -1,23 +1,16 @@
-// 2. Domů (D-021, varianta C; D-026): malé záhlaví, „Co si dnes zahraješ?“, pruh se sérií dní, hvězdami,
-// úspěšností a odznaky, karta „Pokračuj“, hledání témat, dlaždice kategorií (víc než MAX_DLAZDIC →
-// tlačítko Všechny kategorie), pod nimi Odznaky, Historie a Statistiky.
+// 2. Domů (D-021, varianta C; D-026, D-027): malé záhlaví, „Co si dnes zahraješ?“, pruh se sérií dní,
+// hvězdami, úspěšností a odznaky, karta „Pokračuj“, dlaždice kategorií (víc než MAX_DLAZDIC → tlačítko
+// Všechny kategorie, kde je i hledání témat), pod nimi Odznaky, Historie a Statistiky.
 import { t, jazyk } from "../i18n.js";
-import { h, logo, wordmark, celeHvezdy, hvezdyText, ikonaKategorie } from "../ui.js";
-import { hvezdyCelkem, hvezdyTematu, serieDni, pokrok, uspesnost, pokracovani } from "../progress.js";
-import { viditelneKategorie, viditelnaTemata, txt } from "../data.js";
+import { h, logo, wordmark, celeHvezdy, ikonaKategorie } from "../ui.js";
+import { hvezdyCelkem, serieDni, pokrok, uspesnost, pokracovani } from "../progress.js";
+import { viditelneKategorie, txt } from "../data.js";
 import { vsechnyOdznaky } from "../badges.js";
 import { ukladaniFunguje } from "../storage.js";
 import { dlazdiceKategorie } from "./kategorie.js";
 
 export const ID = "domu";
 const MAX_DLAZDIC = 6; // víc kategorií = prvních 6 (3 plné řady) + široké „Všechny kategorie (n)“ – Domů se neprodlužuje donekonečna
-const MAX_VYSLEDKU = 30;
-const MIN_ZNAKU = 2;
-
-let hledani = ""; // pamatuje se po dobu otevřené stránky – po návratu z tématu je hledání pořád vyplněné
-
-/** Text bez diakritiky a velkých písmen (hledání „pohadky“ najde „Pohádky“). */
-const norm = (s) => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 
 /** Karta „Pokračuj“: rozehrané kolo, nebo další otevřená obtížnost naposledy hraného tématu. */
 function kartaPokracuj() {
@@ -41,29 +34,6 @@ function kartaPokracuj() {
     h("span", { class: "pokracuj-go", "aria-hidden": "true", text: "▶" }));
 }
 
-/** Výsledky hledání: karty témat (ikona kategorie, název, kategorie · hvězdy). */
-function vysledkyHledani(dotaz) {
-  const q = norm(dotaz.trim());
-  const nalez = [];
-  for (const kat of viditelneKategorie()) {
-    for (const tema of viditelnaTemata(kat)) {
-      if (Object.values(tema.nazev || {}).some((n) => norm(n).includes(q))) nalez.push({ kat, tema });
-    }
-  }
-  if (!nalez.length) return [h("p", { class: "empty-hledani", "data-test": "nic-nenalezeno", text: t("domu.nicNenalezeno") })];
-  const karty = nalez.slice(0, MAX_VYSLEDKU).map(({ kat, tema }) => {
-    const hv = hvezdyTematu(tema);
-    return h("a", { class: "card hit", href: `#/tema/${tema.id}`, "data-tema": tema.id },
-      ikonaKategorie(kat, "hit-ico"),
-      h("span", { class: "hit-body" },
-        h("span", { class: "hit-name", text: txt(tema.nazev, jazyk()) }),
-        h("span", { class: "hit-meta", text: `${txt(kat.nazev, jazyk())} · ${hvezdyText(hv.pul, hv.max)}` })),
-      h("span", { class: "hist-go", "aria-hidden": "true", text: "→" }));
-  });
-  if (nalez.length > MAX_VYSLEDKU) karty.push(h("p", { class: "note", text: t("domu.dalsiVysledky", { n: nalez.length - MAX_VYSLEDKU }) }));
-  return [h("p", { class: "hit-count", "data-test": "pocet-nalezu", text: t("domu.nalezeno", { n: nalez.length }) }), h("div", { class: "cards" }, karty)];
-}
-
 export function vykresli() {
   const hv = hvezdyCelkem();
   const dny = serieDni();
@@ -81,27 +51,11 @@ export function vykresli() {
   if (kats.length > MAX_DLAZDIC) {
     dlazdice.push(h("a", { class: "tile tile-vse", href: "#/kategorie", "data-test": "vsechny-kategorie" },
       h("span", { class: "tile-emo", "aria-hidden": "true", text: "🗂️" }),
-      h("span", { class: "tile-name", text: t("domu.vsechnyKategorie", { n: kats.length }) }),
+      h("span", { class: "tile-vse-body" },
+        h("span", { class: "tile-name", text: t("domu.vsechnyKategorie", { n: kats.length }) }),
+        h("span", { class: "tile-vse-hint", text: t("domu.vsechnyHint") })),
       h("span", { class: "tile-meta" }, h("span", { text: "→" }))));
   }
-  const kategorie = h("div", { class: "tiles tiles-home", "data-test": "kategorie-domu" }, dlazdice);
-  const vysledky = h("div", { class: "hledani-vysledky", "data-test": "vysledky-hledani", "aria-live": "polite" });
-
-  // hledání: při psaní se místo dlaždic kategorií ukážou nalezená témata (bez překreslení obrazovky – fokus zůstane v poli)
-  const pole = h("input", {
-    type: "search", class: "hledani-pole", id: "hledani", "data-test": "hledani", autocomplete: "off", enterkeyhint: "search",
-    placeholder: t("domu.hledatPlaceholder"), "aria-label": t("domu.hledat"), value: hledani,
-  });
-  const ukaz = () => {
-    hledani = pole.value;
-    const aktivni = norm(hledani.trim()).length >= MIN_ZNAKU;
-    kategorie.hidden = aktivni;
-    vysledky.hidden = !aktivni;
-    vysledky.replaceChildren(...(aktivni ? vysledkyHledani(hledani) : []));
-  };
-  pole.addEventListener("input", ukaz);
-  pole.addEventListener("keydown", (e) => { if (e.key === "Escape") { pole.value = ""; ukaz(); } });
-  ukaz();
 
   const el = h(
     "main",
@@ -119,11 +73,7 @@ export function vykresli() {
       udaj("🎯", usp == null ? "–" : t("domu.procent", { n: usp }), t("domu.uspesnost"), "uspesnost"),
       udaj("🏅", `${odz} / ${vse.length}`, t("domu.odznaku"), "odznaky")),
     kartaPokracuj(),
-    h("div", { class: "hledani", role: "search" },
-      h("span", { class: "hledani-ico", "aria-hidden": "true", text: "🔎" }),
-      pole),
-    vysledky,
-    kategorie,
+    h("div", { class: "tiles tiles-home", "data-test": "kategorie-domu" }, dlazdice),
     h(
       "nav",
       { class: "row3" },
