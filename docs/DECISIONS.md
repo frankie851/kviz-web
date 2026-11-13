@@ -1,6 +1,13 @@
 # DECISIONS – Kvízová webová aplikace
 Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový záznam s odkazem na původní.
 
+## D-037 · 2026-11-16 · Oblíbené kategorie a volba, co ukazovat na Domů (Davidova volba nápadů 22 a 23)
+- **Oblíbené kategorie (22):** v záhlaví kategorie (obrazovka Témata) vpravo tlačítko ☆ / ★ „Připnout mezi oblíbené“. Připnuté kategorie jsou na Domů i ve Všech kategoriích **první, v pořadí připnutí**, a mají před názvem ★. Na Domů se vejde 6 dlaždic, takže oblíbené jsou vždy po ruce. Uloženo v nastavení (`oblibene`); přenáší se i s pokrokem (D-033).
+- **Barvy dlaždic** se nově přidělují podle skutečného pořadí (s oblíbenými), aby ani po připnutí nebyly stejné barvy vedle sebe (pravidlo D-029/D-030); po připnutí se tak barvy některých dlaždic mohou změnit.
+- **Co ukazovat na Domů (23):** Nastavení → „Co ukazovat na Domů“ – vypínače: Pruh se sérií, hvězdami a úspěšností · Úroveň a týdenní cíl · Pokračuj · Denní výzva · Překvap mě · Nová témata (výchozí vše zapnuto). Kategorie, Odznaky, Historie a Statistiky jsou na Domů vždy. Uloženo v nastavení (`domu`).
+- **Ověření:** `pruchod.py` scénář `scenar_d037` – připnutí dvou kategorií (první v pořadí připnutí se ★ na Domů i ve Všech kategoriích, barvy bez opakování), odepnutí, vypnutí 4 částí Domů (i po obnovení), zapnutí zpět; 233 kontrol.
+- **Kdo:** David (výběr nápadů 22 a 23), prompt 01 (provedení)
+
 ## D-036 · 2026-11-16 · Průvodce pravidly pro nové hráče (Davidova volba nápadu 21)
 - **Proč:** pravidla jsou neobvyklá (každá obtížnost jen jednou, půlhvězdy, pod 70 % natrvalo zamčená další obtížnost) a nový hráč by mohl téma nevědomky „zamknout“.
 - **Co:** po prvním spuštění (na Domů, nebo u tématu, když hráč přišel odkazem) se jednou ukáže okno se 3 kroky: 🎯 „Každou obtížnost hraješ jen jednou“ (+ tip: rozehrané kolo lze přerušit), ⭐ „Hvězdy po půlkách“ (10 z 10 = 5 ★, 7 z 10 = 3,5 ★), 🔓 „Od 70 % se odemkne další obtížnost“ (pod 70 % natrvalo zamčená; tip: chyby jde procvičit v Historii bez vlivu na hvězdy). Tečky postupu, Další / Zpět, „Rozumím, hrát!“, „Přeskočit“, klávesy ← → a Esc. Po zavření se uloží `nastaveni.pruvodce = true`. **Hráčům s dohraným kolem se sám neukáže** (pravidla už znají). Znovu: Nastavení → O hře → „❓ Jak se hraje“. Okno se na malém displeji posouvá (nepřetéká).
