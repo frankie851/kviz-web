@@ -1,5 +1,5 @@
 # HANDOFF – Kvízová webová aplikace
-datum: 2026-11-14 · předává: prompt 01 (D-032 denní výzva a sdílení, prostředí A) · přebírá: David (sloučit pull request, vyzkoušet)
+datum: 2026-11-15 · předává: prompt 01 (rozhodnutí k návrhům 9 a 10, 10 nových nápadů, prostředí A) · přebírá: David (vybrat z nových nápadů)
 
 ## Stav jednou větou
 Web je online s funkcemi do D-031 (sloučeno). V pull requestu čeká D-032: denní výzva (5 otázek dne pro všechny stejných, série výzev) a sdílení výsledku.
@@ -67,7 +67,8 @@ Web je online s funkcemi do D-031 (sloučeno). V pull requestu čeká D-032: den
 
 ## Další krok
 1. **David:** sloučit pull request s D-032 a vyzkoušet na mobilu (Domů → Denní výzva, po dohrání Sdílet výsledek – i u běžného kola).
-2. **Zbylé návrhy z 2026-11-12** (David zatím nevybral; 7 a 8 hotové – D-032) – mimo rozsah 1. verze (potřebují souhlas): 7 Denní výzva, 8 Sdílet výsledek, 9 Instalace na plochu / offline; 10 Nahlásit chybu v otázce (potřebuje rozhodnutí o službě – e-mail by zveřejnil adresu, formulář = registrace).
+2. **Návrhy z 2026-11-12 uzavřené:** 1–8 hotové (D-026–D-032); 9 Instalace na plochu / offline – **David nechce** (2026-11-15), nestavět; 10 Nahlásit chybu v otázce – jen **možnost do budoucna** (viz Nápady na později).
+2b. **Nové nápady z 2026-11-15** (11–20, David zatím nevybral): 11 Výzva kamarádovi (stejné otázky přes odkaz), 12 Předčítání otázek nahlas, 13 Přenos pokroku do jiného zařízení, 14 Úroveň hráče, 15 Týdenní cíl, 16 Žolík 50 : 50, 17 Moje sbírka otázek, 18 Duel dvou hráčů na jednom telefonu, 19 Štítek „Nové“ u nových témat, 20 Rychlovka na čas.
 2. **Další témata (kdykoli):** v Excelu označit Web = Ano (u celého tématu stačí list Témata, D-017), uložit, zavřít; pak **prompt 03** v úkolu propojeném s počítačem (prostředí B). Prompt 03 po exportu spustí `python3 tools/pruchod.py`.
 3. Body „K zvážení“ z kontroly: K4 hotovo (D-018), K1 = krok 2, K2 a K3 beze změny (David nic nežádal), K5 jen informace. Kdyby David chtěl K2/K3 přece změnit, udělá to prompt 01.
 
@@ -77,6 +78,7 @@ Web je online s funkcemi do D-031 (sloučeno). V pull requestu čeká D-032: den
 - `tools/pruchod.py`: 1. běh selhal na varování o preload písem, 2. běh prošel – viz nález D-1.
 
 ## Připomínky Davida (k zapracování)
+- 2026-11-15 – „9 nedělej, 10 zaznamenej jako možnost do budoucna, vymysli dalších 10 nápadů“ → zapsáno (Nápady na později), nápady 11–20 v Dalším kroku.
 - 2026-11-14 – „udělej ještě návrh 7 a 8“ (denní výzva, sdílení výsledku) → **zapracováno** (D-032).
 - 2026-11-14 – „ještě méně kontrastu; v tmavém režimu barvy ztmavit a text bílý; návrh 4 procvičení špatných odpovědí s tlačítkem nahoře v Historii; Vyber si téma pod filtry“ → **zapracováno** (D-031).
 - 2026-11-14 – „až moc kontrastní; světlejší odstíny, černý text, bez černé/bílé/béžové; Všechny kategorie ohraničit jako Pokračuj“ → **zapracováno** (D-030).
@@ -103,6 +105,8 @@ Web je online s funkcemi do D-031 (sloučeno). V pull requestu čeká D-032: den
 - Odznaky Hvězda tématu a Král kategorie vyžadují 100 % ve všech obtížnostech – při pravidle „každá obtížnost jen jednou“ jsou hodně těžké (záměr: vzácné odznaky). Kdyby to Davidovi přišlo moc, jde snížit.
 
 ## Nápady na později (nestavět bez zadání)
+- **Nahlásit chybu v otázce** (návrh 10 z 2026-11-12, David: „zaznamenat jako možnost do budoucna“): hráč u otázky ťukne a popíše chybu. Statický web zprávy sám nepřijme – možnosti: předvyplněný e-mail (zveřejní adresu), formulář cizí služby (registrace – jen s Davidovým souhlasem), nebo odkaz na GitHub issue (hráč potřebuje účet). Rozhodnutí o službě je na Davidovi.
+- ~~Instalace na plochu / offline (PWA)~~ – David nechce (2026-11-15).
 - Tečka u tlačítka Odznaky na Domů, dokud si hráč nový odznak neprohlédne.
 
 ## Jak navázat
