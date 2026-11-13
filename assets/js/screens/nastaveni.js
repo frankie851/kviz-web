@@ -1,7 +1,7 @@
 // 9. Nastavení – jazyky, překlad, zvuky, vibrace, O hře. (Smazat pokrok zrušeno – D-013: každé kolo se hraje jen jednou.)
 import { t, nastavJazyk, JAZYKY_ROZHRANI } from "../i18n.js";
 import { h, lista, prepinac, vypinac, potvrdit } from "../ui.js";
-import { nast, zmen, jazykPrekladu, PREKLAD, VZHLED, PISMO, aplikujVzhled } from "../settings.js";
+import { nast, zmen, jazykPrekladu, PREKLAD, VZHLED, PISMO, aplikujVzhled, CASTI_DOMU, ukazNaDomu } from "../settings.js";
 import { idx } from "../data.js";
 import { ukladaniFunguje, vsechnaData, nahradData } from "../storage.js";
 import { lzePredcitat, mluv, PREDCITANI } from "../predcitani.js";
@@ -152,6 +152,15 @@ export function vykresli(_param, app) {
         hodnota: s.tydenniCil,
         zmena: (n) => zmen({ tydenniCil: Number(n) }),
       })),
+    h("section", { class: "card settings", "data-test": "nast-domu" },
+      h("h2", { class: "settings-h", text: t("domuNastaveni.nadpis") }),
+      h("p", { class: "field-hint", text: t("domuNastaveni.popis") }),
+      CASTI_DOMU.map((cast) => vypinac({
+        id: `nast-domu-${cast}`,
+        popis: t(`domuNastaveni.${cast}`),
+        zapnuto: ukazNaDomu(cast),
+        zmena: (v) => zmen({ domu: { ...(nast().domu || {}), [cast]: v } }),
+      }))),
     h("section", { class: "card settings", "data-test": "prenos" },
       h("h2", { class: "settings-h", text: t("prenos.nadpis") }),
       h("p", { class: "field-hint", text: t("prenos.popis") }),

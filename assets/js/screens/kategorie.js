@@ -4,6 +4,7 @@
 import { t, jazyk } from "../i18n.js";
 import { h, lista, hvezdyText, ikonaKategorie } from "../ui.js";
 import { idx, viditelneKategorie, viditelnaTemata, txt } from "../data.js";
+import { nast, jeOblibena } from "../settings.js";
 import { hvezdyKategorie, hvezdyTematu, uzavrenaVKategorii, jeNoveTema } from "../progress.js";
 
 export const ID = "kategorie";
@@ -36,20 +37,29 @@ const BARVY_TEMAT = {
   vynalezy: ["modra", "fialova", "tyrkys"],
 };
 
-let barvy = { index: null, mapa: new Map() };
-/** id kategorie → barva dlaždice (počítá se jednou pro aktuální data). */
+/** Kategorie v pořadí pro Domů a Všechny kategorie: oblíbené (v pořadí připnutí), pak ostatní (D-037). */
+export function poradiKategorii() {
+  const vse = viditelneKategorie();
+  const oblibene = (nast().oblibene || []).map((id) => vse.find((k) => k.id === id)).filter(Boolean);
+  return [...oblibene, ...vse.filter((k) => !oblibene.includes(k))];
+}
+
+let barvy = { klic: null, mapa: new Map() };
+/** id kategorie → barva dlaždice; počítá se podle skutečného pořadí (s oblíbenými), aby sousedé neměli stejnou barvu. */
 function barvaKategorie(k) {
-  if (barvy.index !== idx()) {
+  const poradi = poradiKategorii();
+  const klic = poradi.map((x) => x.id).join(",");
+  if (barvy.index !== idx() || barvy.klic !== klic) {
     const mapa = new Map();
     const pred = [];
-    for (const kat of viditelneKategorie()) {
+    for (const kat of poradi) {
       const vhodne = [...(BARVY_TEMAT[kat.id] || []), ...PALETA];
       const ok = (b) => !pred.slice(-3).includes(b) && !pred.slice(-2).some((x) => RODINA[x] === RODINA[b]);
       const b = vhodne.find(ok) || vhodne.find((x) => !pred.slice(-1).includes(x)) || PALETA[0];
       mapa.set(kat.id, b);
       pred.push(b);
     }
-    barvy = { index: idx(), mapa };
+    barvy = { index: idx(), klic, mapa };
   }
   return barvy.mapa.get(k.id) || PALETA[0];
 }
@@ -71,7 +81,8 @@ export function dlazdiceKategorie(k) {
     { class: `tile tile-c-${barvaKategorie(k)}`, href: `#/kategorie/${k.id}`, "data-kategorie": k.id, "data-barva": barvaKategorie(k) },
     novych ? h("span", { class: "stitek-nove tile-nove", "data-test": "kategorie-nove", text: t("nova.vKategorii", { n: novych }) }) : null,
     ikonaKategorie(k),
-    h("span", { class: "tile-name", text: txt(k.nazev, jazyk()) }),
+    h("span", { class: "tile-name" }, jeOblibena(k.id) ? h("span", { class: "tile-oblibena", "data-test": "oblibena", "aria-label": t("oblibene.oznaceni"), text: "★ " }) : null,
+      txt(k.nazev, jazyk())),
     h("span", { class: "tile-meta" },
       h("span", { class: "tile-done", "data-test": "dohrano", text: t("kategorie.dohrano", { x: u.x, n: u.t }) }),
       h("span", { class: "tile-stars", text: hvezdyText(hv.pul, hv.max) }))
@@ -105,7 +116,7 @@ function vysledkyHledani(dotaz) {
 }
 
 export function vykresli() {
-  const dlazdice = h("div", { class: "tiles", "data-test": "kategorie-vse" }, viditelneKategorie().map(dlazdiceKategorie));
+  const dlazdice = h("div", { class: "tiles", "data-test": "kategorie-vse" }, poradiKategorii().map(dlazdiceKategorie));
   const vysledky = h("div", { class: "hledani-vysledky", "data-test": "vysledky-hledani", "aria-live": "polite" });
   // při psaní se místo dlaždic ukážou nalezená témata (bez překreslení obrazovky – fokus zůstane v poli)
   const pole = h("input", {

@@ -439,6 +439,12 @@ a.diff:active { transform: translateY(2px); }
 .hit-meta { color: var(--muted); font-size: calc(14px * var(--pismo, 1)); font-weight: 700; }
 .empty-hledani { text-align: center; color: var(--muted); padding: 16px 8px; }
 
+/* ---------- Oblíbené kategorie (D-037) ---------- */
+.iconbtn-oblibena { border: 0; font-size: calc(24px * var(--pismo, 1)); color: var(--muted); cursor: pointer; }
+.iconbtn-oblibena[aria-pressed="true"] { color: #D99A00; }
+.tile-oblibena { font-size: .9em; }
+.settings .field-row + .field-row { margin-top: 10px; }
+
 /* ---------- Moje sbírka a nová témata (D-035) ---------- */
 .trbtn-sbirka[aria-pressed="true"] { color: var(--streak-ink); background: var(--surface); box-shadow: 0 0 0 2px var(--sun) inset, var(--shadow-soft); }
 .explain .trbtn + .trbtn-sbirka { margin-left: 8px; }
