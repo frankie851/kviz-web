@@ -525,5 +525,39 @@
       "many": "{n} kola",
       "other": "{n} kol"
     }
+  },
+  "sbirka": {
+    "nadpis": "Moje sbírka",
+    "ulozit": "Do sbírky",
+    "ulozeno": "Ve sbírce",
+    "pridano": "⭐ Uloženo do sbírky (Historie → Moje sbírka)",
+    "odebrano": "Odebráno ze sbírky",
+    "odebrat": "Odebrat ze sbírky",
+    "popis": "Zajímavé otázky uložené hvězdičkou – i se správnou odpovědí a vysvětlením.",
+    "prazdna": "Sbírka je prázdná. Zajímavou otázku si ulož tlačítkem ☆ Do sbírky u vysvětlení.",
+    "tip": "Tip: zajímavou otázku si ulož tlačítkem ☆ Do sbírky u vysvětlení.",
+    "pocet": {
+      "one": "{n} uložená otázka",
+      "few": "{n} uložené otázky",
+      "many": "{n} uložené otázky",
+      "other": "{n} uložených otázek"
+    }
+  },
+  "nova": {
+    "nadpis": "Nová témata",
+    "stitek": "✨ Nové",
+    "zadna": "Žádná nová témata – všechna už znáš.",
+    "vKategorii": {
+      "one": "✨ {n} nové",
+      "few": "✨ {n} nová",
+      "many": "✨ {n} nového",
+      "other": "✨ {n} nových"
+    },
+    "domu": {
+      "one": "Přibylo {n} nové téma",
+      "few": "Přibyla {n} nová témata",
+      "many": "Přibylo {n} nového tématu",
+      "other": "Přibylo {n} nových témat"
+    }
   }
 }

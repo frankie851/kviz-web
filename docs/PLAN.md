@@ -70,6 +70,7 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☑ (2026-11-14) D-032 denní výzva a sdílení výsledku.
 - ☑ (2026-11-15) D-033 přenos pokroku, výzva kamarádovi, předčítání nahlas.
 - ☑ (2026-11-15) D-034 úroveň hráče a týdenní cíl.
+- ☑ (2026-11-15) D-035 Moje sbírka a štítek „Nové“ u nových témat.
 
 ## Stav
-Poslední aktualizace: 2026-11-15 · Web online (vč. D-033) · Čeká se: sloučení D-034 · Blokováno: nic
+Poslední aktualizace: 2026-11-15 · Web online (vč. D-034) · Čeká se: sloučení D-035 · Blokováno: nic

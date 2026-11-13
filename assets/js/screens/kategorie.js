@@ -4,7 +4,7 @@
 import { t, jazyk } from "../i18n.js";
 import { h, lista, hvezdyText, ikonaKategorie } from "../ui.js";
 import { idx, viditelneKategorie, viditelnaTemata, txt } from "../data.js";
-import { hvezdyKategorie, hvezdyTematu, uzavrenaVKategorii } from "../progress.js";
+import { hvezdyKategorie, hvezdyTematu, uzavrenaVKategorii, jeNoveTema } from "../progress.js";
 
 export const ID = "kategorie";
 
@@ -65,15 +65,28 @@ const norm = (s) => String(s || "").normalize("NFD").replace(/\p{M}/gu, "").toLo
 export function dlazdiceKategorie(k) {
   const hv = hvezdyKategorie(k);
   const u = uzavrenaVKategorii(k);
+  const novych = viditelnaTemata(k).filter((x) => jeNoveTema(x.id)).length;
   return h(
     "a",
     { class: `tile tile-c-${barvaKategorie(k)}`, href: `#/kategorie/${k.id}`, "data-kategorie": k.id, "data-barva": barvaKategorie(k) },
+    novych ? h("span", { class: "stitek-nove tile-nove", "data-test": "kategorie-nove", text: t("nova.vKategorii", { n: novych }) }) : null,
     ikonaKategorie(k),
     h("span", { class: "tile-name", text: txt(k.nazev, jazyk()) }),
     h("span", { class: "tile-meta" },
       h("span", { class: "tile-done", "data-test": "dohrano", text: t("kategorie.dohrano", { x: u.x, n: u.t }) }),
       h("span", { class: "tile-stars", text: hvezdyText(hv.pul, hv.max) }))
   );
+}
+
+/** Karta tématu (hledání, Nová témata): ikona kategorie, název, kategorie · hvězdy, případně „✨ Nové“. */
+export function kartaTematu(kat, tema) {
+  const hv = hvezdyTematu(tema);
+  return h("a", { class: "card hit", href: `#/tema/${tema.id}`, "data-tema": tema.id },
+    ikonaKategorie(kat, "hit-ico"),
+    h("span", { class: "hit-body" },
+      h("span", { class: "hit-name" }, h("span", { text: txt(tema.nazev, jazyk()) }), jeNoveTema(tema.id) ? h("span", { class: "stitek-nove", text: t("nova.stitek") }) : null),
+      h("span", { class: "hit-meta", text: `${txt(kat.nazev, jazyk())} · ${hvezdyText(hv.pul, hv.max)}` })),
+    h("span", { class: "hist-go", "aria-hidden": "true", text: "→" }));
 }
 
 /** Výsledky hledání: karty témat (ikona kategorie, název, kategorie · hvězdy). */
@@ -86,15 +99,7 @@ function vysledkyHledani(dotaz) {
     }
   }
   if (!nalez.length) return [h("p", { class: "empty-hledani", "data-test": "nic-nenalezeno", text: t("domu.nicNenalezeno") })];
-  const karty = nalez.slice(0, MAX_VYSLEDKU).map(({ kat, tema }) => {
-    const hv = hvezdyTematu(tema);
-    return h("a", { class: "card hit", href: `#/tema/${tema.id}`, "data-tema": tema.id },
-      ikonaKategorie(kat, "hit-ico"),
-      h("span", { class: "hit-body" },
-        h("span", { class: "hit-name", text: txt(tema.nazev, jazyk()) }),
-        h("span", { class: "hit-meta", text: `${txt(kat.nazev, jazyk())} · ${hvezdyText(hv.pul, hv.max)}` })),
-      h("span", { class: "hist-go", "aria-hidden": "true", text: "→" }));
-  });
+  const karty = nalez.slice(0, MAX_VYSLEDKU).map(({ kat, tema }) => kartaTematu(kat, tema));
   if (nalez.length > MAX_VYSLEDKU) karty.push(h("p", { class: "note", text: t("domu.dalsiVysledky", { n: nalez.length - MAX_VYSLEDKU }) }));
   return [h("p", { class: "hit-count", "data-test": "pocet-nalezu", text: t("domu.nalezeno", { n: nalez.length }) }), h("div", { class: "cards" }, karty)];
 }

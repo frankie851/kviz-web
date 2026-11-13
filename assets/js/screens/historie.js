@@ -3,7 +3,7 @@
 import { t, jazyk } from "../i18n.js";
 import { h, lista, hvezdicky, ikonaKategorie } from "../ui.js";
 import { najdiTema, txt } from "../data.js";
-import { pokrok, chybneOtazky } from "../progress.js";
+import { pokrok, chybneOtazky, sbirka } from "../progress.js";
 
 export const ID = "historie";
 
@@ -39,11 +39,22 @@ export async function vykresli() {
         h("span", { class: "pokracuj-go", "aria-hidden": "true", text: "▶" }))
     : h("p", { class: "procvic-nic", "data-test": "procvicit-nic", text: t("procvic.zadne") });
 
+  const vSbirce = sbirka().length; // ⭐ Moje sbírka (D-035)
+  const sbirkaKarta = vSbirce
+    ? h("a", { class: "card procvic-btn sbirka-btn", href: "#/sbirka", "data-test": "sbirka" },
+        h("span", { class: "procvic-btn-ico", "aria-hidden": "true", text: "⭐" }),
+        h("span", { class: "procvic-btn-body" },
+          h("span", { class: "procvic-btn-name", text: t("sbirka.nadpis") }),
+          h("span", { class: "procvic-btn-meta", text: t("sbirka.pocet", { n: vSbirce }) })),
+        h("span", { class: "hist-go", "aria-hidden": "true", text: "→" }))
+    : polozky.length ? h("p", { class: "procvic-nic", "data-test": "sbirka-tip", text: t("sbirka.tip") }) : null;
+
   const el = h(
     "main",
     { class: "screen" },
     lista({ zpet: "#/", nadpis: t("historie.nadpis") }),
     procvic,
+    sbirkaKarta,
     polozky.length ? h("p", { class: "lead lead-center", text: t("historie.popis") }) : null,
     obsah
   );

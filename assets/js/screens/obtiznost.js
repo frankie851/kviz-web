@@ -3,7 +3,7 @@
 import { t, jazyk } from "../i18n.js";
 import { h, lista, hvezdicky } from "../ui.js";
 import { najdiTema, viditelneObtiznosti, txt, predNactiTema } from "../data.js";
-import { vysledek, stav, rozehrane } from "../progress.js";
+import { vysledek, stav, rozehrane, oznacTemaOtevrene } from "../progress.js";
 
 export const ID = "obtiznost";
 const IKONY = { 1: "🌱", 2: "🌿", 3: "🌳" };
@@ -13,7 +13,8 @@ export function vykresli([temaId]) {
   if (!info) return { presmeruj: "#/kategorie" };
   const { tema, kategorie } = info;
   const vid = viditelneObtiznosti(tema);
-  predNactiTema(tema.id); // otázky se stahují, zatímco hráč vybírá – kolo pak začne hned (KONTROLA D-2)
+  predNactiTema(tema.id);
+  oznacTemaOtevrene(tema.id); // štítek „Nové“ po otevření tématu zmizí (D-035) // otázky se stahují, zatímco hráč vybírá – kolo pak začne hned (KONTROLA D-2)
 
   const tlacitka = vid.map((o, i) => {
     const s = stav(tema, o);

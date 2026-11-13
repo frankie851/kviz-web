@@ -7,6 +7,7 @@ import { idx, txt } from "./data.js";
 import { nast, jazykPrekladu, PREKLAD } from "./settings.js";
 import { odezva } from "./feedback.js";
 import { tlacitkoPredcitani, textOtazky, mluv, zastav, autoPredcitat } from "./predcitani.js";
+import { tlacitkoSbirky } from "./sbirka.js";
 
 const PISMENA = ["A", "B", "C", "D", "E", "F"];
 
@@ -80,6 +81,7 @@ export function sadaOtazek({ polozky, odpovedi0 = [], naOdpoved, naKonec, textPo
     telo.replaceChildren(karta, seznam);
     if (autoPredcitat()) mluv(textOtazky(q, jo), jo);
     stav.q = q;
+    stav.info = info;
   }
 
   function odpovez(k) {
@@ -116,6 +118,7 @@ export function sadaOtazek({ polozky, odpovedi0 = [], naOdpoved, naKonec, textPo
     if (rezim === PREKLAD.TUKNUTI && vysv.querySelector(".tr")) panel.append(tlacitkoPrekladu(() => [...vysv.querySelectorAll(".tr")]));
     const mluvVysv = tlacitkoPredcitani(() => q.vysvetleni?.[jo] || "", jo);
     if (mluvVysv) panel.append(mluvVysv);
+    panel.append(tlacitkoSbirky(q, stav.info.tema.id)); // ☆ (D-035)
     const posledni = stav.i === n - 1;
     const dalsi = h("button", { type: "button", class: "btn btn-primary btn-big next", "data-test": "dalsi", onclick: () => pokracuj() },
       posledni ? textPosledni || t("procvic.konec") : t("hra.dalsi"), h("span", { "aria-hidden": "true", text: " →" }));

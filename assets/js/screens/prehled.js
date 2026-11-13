@@ -5,6 +5,7 @@ import { h, lista, hvezdicky } from "../ui.js";
 import { najdiTema, nactiTema, idx, txt } from "../data.js";
 import { vysledek } from "../progress.js";
 import { nast, jazykPrekladu, PREKLAD } from "../settings.js";
+import { tlacitkoSbirky } from "../sbirka.js";
 
 export const ID = "prehled";
 const PISMENA = ["A", "B", "C", "D", "E", "F"];
@@ -54,7 +55,8 @@ export async function vykresli([temaId, obt]) {
       h("ol", { class: "answers answers-review" }, moznosti),
       h("div", { class: "explain explain-review" },
         h("p", { class: "dyk", text: t("hra.vedeliJste") }),
-        h("p", {}, dvojice(q.vysvetleni, "explain-t")))
+        h("p", {}, dvojice(q.vysvetleni, "explain-t")),
+        tlacitkoSbirky(q, temaId))
     );
     if (s.preklad === PREKLAD.TUKNUTI && karta.querySelector(".tr")) {
       const btn = h("button", {

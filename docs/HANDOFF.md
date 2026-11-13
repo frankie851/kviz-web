@@ -1,8 +1,8 @@
 # HANDOFF – Kvízová webová aplikace
-datum: 2026-11-15 · předává: prompt 01 (D-034 úroveň hráče a týdenní cíl, prostředí A) · přebírá: David (sloučit pull request, vyzkoušet)
+datum: 2026-11-15 · předává: prompt 01 (D-035 Moje sbírka a nová témata, prostředí A) · přebírá: David (sloučit pull request, vyzkoušet)
 
 ## Stav jednou větou
-Web je online s funkcemi do D-033 (sloučeno). V pull requestu čeká D-034: úroveň hráče (body za správné odpovědi) a týdenní cíl na Domů.
+Web je online s funkcemi do D-034 (sloučeno). V pull requestu čeká D-035: Moje sbírka (☆ u vysvětlení, Historie → Moje sbírka) a štítek „Nové“ u témat, která přibudou s dalším nahráním otázek.
 
 ## Stav dat
 - 2026-11-04 – 35 otázek, 1 téma (T001 Chobotnice a další hlavonožci), režim vzorek
@@ -60,7 +60,10 @@ Web je online s funkcemi do D-033 (sloučeno). V pull requestu čeká D-034: úr
 
 - D-034 (2026-11-15): úroveň hráče a týdenní cíl; `pruchod.py` 209 kontrol; náhled `docs/nahledy/d034-uroven-tyden.png`.
 
+- D-035 (2026-11-15): Moje sbírka, štítek „Nové“ u nových témat (bez změny exportu); `pruchod.py` 219 kontrol; náhled `docs/nahledy/d035-sbirka-nova.png`.
+
 ## Rozpracováno
+- **Štítek „Nové“ uvidí hráči až u témat přidaných po této verzi** – po příštím exportu promptem 03 (prostředí B) ověřit na webu.
 - **Na skutečném telefonu ověří David:** hlas předčítání (čeština záleží na hlasech v telefonu), stažení a nahrání souboru s pokrokem (iPhone: Soubory), otevření odkazu výzvy kamarádovi z WhatsAppu/Messengeru.
 - **Sdílení na skutečném telefonu** ověří David (systémová nabídka sdílení se v Chromiu bez hlavy jen napodobí).
 - ~~Volba barev pruhů~~ – David vybral B (plná zelená a červená), nastaveno (D-023).
@@ -71,9 +74,9 @@ Web je online s funkcemi do D-033 (sloučeno). V pull requestu čeká D-034: úr
 - **Náhled odkazu** ověří až sdílení nasazené adresy (např. poslat si odkaz ve WhatsAppu/Messengeru). Sítě si náhled pamatují – kdyby ukazovaly starou zástupnou stránku, chce to chvíli počkat.
 
 ## Další krok
-1. **David:** sloučit pull request s D-034 a vyzkoušet na mobilu (Domů: Úroveň a Týdenní cíl; po kole „+ bodů“; Nastavení → Týdenní cíl).
+1. **David:** sloučit pull request s D-035 a vyzkoušet na mobilu (☆ Do sbírky u vysvětlení → Historie → Moje sbírka; „Nové“ se ukáže až s dalšími tématy).
 2. **Návrhy z 2026-11-12 uzavřené:** 1–8 hotové (D-026–D-032); 9 Instalace na plochu / offline – **David nechce** (2026-11-15), nestavět; 10 Nahlásit chybu v otázce – jen **možnost do budoucna** (viz Nápady na později).
-2b. **Nové nápady z 2026-11-15** (11–15 hotové – D-033, D-034; zbývá 16–20): 11 Výzva kamarádovi (stejné otázky přes odkaz), 12 Předčítání otázek nahlas, 13 Přenos pokroku do jiného zařízení, 14 Úroveň hráče, 15 Týdenní cíl, 16 Žolík 50 : 50, 17 Moje sbírka otázek, 18 Duel dvou hráčů na jednom telefonu, 19 Štítek „Nové“ u nových témat, 20 Rychlovka na čas.
+2b. **Nové nápady z 2026-11-15** (11–17 hotové – D-033 až D-035; zbývá 18–20): 11 Výzva kamarádovi (stejné otázky přes odkaz), 12 Předčítání otázek nahlas, 13 Přenos pokroku do jiného zařízení, 14 Úroveň hráče, 15 Týdenní cíl, 16 Žolík 50 : 50, 17 Moje sbírka otázek, 18 Duel dvou hráčů na jednom telefonu, 19 Štítek „Nové“ u nových témat, 20 Rychlovka na čas.
 2. **Další témata (kdykoli):** v Excelu označit Web = Ano (u celého tématu stačí list Témata, D-017), uložit, zavřít; pak **prompt 03** v úkolu propojeném s počítačem (prostředí B). Prompt 03 po exportu spustí `python3 tools/pruchod.py`.
 3. Body „K zvážení“ z kontroly: K4 hotovo (D-018), K1 = krok 2, K2 a K3 beze změny (David nic nežádal), K5 jen informace. Kdyby David chtěl K2/K3 přece změnit, udělá to prompt 01.
 
@@ -83,6 +86,7 @@ Web je online s funkcemi do D-033 (sloučeno). V pull requestu čeká D-034: úr
 - `tools/pruchod.py`: 1. běh selhal na varování o preload písem, 2. běh prošel – viz nález D-1.
 
 ## Připomínky Davida (k zapracování)
+- 2026-11-15 – „udělej ještě 16 a 17“ (Moje sbírka, štítek Nové) → **zapracováno** (D-035).
 - 2026-11-15 – „udělej ještě 14 a 15“ (úroveň hráče, týdenní cíl) → **zapracováno** (D-034).
 - 2026-11-15 – „udělej 13, 11 a 12“ (přenos pokroku, výzva kamarádovi, předčítání) → **zapracováno** (D-033).
 - 2026-11-15 – „9 nedělej, 10 zaznamenej jako možnost do budoucna, vymysli dalších 10 nápadů“ → zapsáno (Nápady na později), nápady 11–20 v Dalším kroku.
