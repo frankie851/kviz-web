@@ -350,7 +350,9 @@
       "one": "including answers from {n} round in progress",
       "other": "including answers from {n} rounds in progress"
     },
-    "vyzvy": "Daily challenges (longest streak)"
+    "vyzvy": "Daily challenges (longest streak)",
+    "uroven": "Level",
+    "tyden": "Weekly goal (streak)"
   },
   "procvic": {
     "nadpis": "Practise mistakes",
@@ -427,5 +429,51 @@
     },
     "potvrditAno": "Load and replace",
     "potvrditNe": "Cancel"
+  },
+  "uroven": {
+    "nadpis": "Level {n}",
+    "body": "{b} / {do} points to level {n}",
+    "plusBody": "⭐ +{n} points",
+    "nova": "⬆️ New level {n} – {titul}!",
+    "bodu": {
+      "one": "{n} point",
+      "other": "{n} points"
+    },
+    "titul": {
+      "zvedavec": "Curious",
+      "nadsenec": "Enthusiast",
+      "znalec": "Connoisseur",
+      "expert": "Expert",
+      "mistr": "Master",
+      "mudrc": "Sage",
+      "legenda": "Legend"
+    }
+  },
+  "tyden": {
+    "nadpis": "Weekly goal",
+    "aria": "This week {h} of {c} rounds",
+    "splneno": "Done! 🎉",
+    "serie": {
+      "one": "🔥 {n} week in a row",
+      "other": "🔥 {n} weeks in a row"
+    },
+    "zbyva": {
+      "one": "{n} day left",
+      "other": "{n} days left"
+    },
+    "tydnu": {
+      "one": "{n} week",
+      "other": "{n} weeks"
+    },
+    "splnenVysledek": {
+      "one": "🎯 Weekly goal reached – {n} round!",
+      "other": "🎯 Weekly goal reached – {n} rounds!"
+    },
+    "nastaveniNadpis": "Weekly goal",
+    "nastaveniPopis": "How many rounds you want to finish a week (Monday–Sunday)",
+    "kol": {
+      "one": "{n} round",
+      "other": "{n} rounds"
+    }
   }
 }

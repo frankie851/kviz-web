@@ -1341,6 +1341,50 @@ def scenar_d033(browser, zaklad, hlidac, otazky, temata, vystup=None):
     ctx.close()
 
 
+def scenar_d034(browser, zaklad, hlidac, otazky, temata):
+    """D-034: úroveň hráče (body za správné odpovědi podle obtížnosti + denní výzvy) a týdenní cíl se sérií týdnů."""
+    print("Úroveň hráče a týdenní cíl (D-034):")
+    (_, A), (_, B), (_, C) = temata[:3]
+    ctx = browser.new_context(viewport={"width": 390, "height": 844}, locale="cs-CZ")
+    page = ctx.new_page()
+    page.set_default_timeout(8000)
+    hlidac.pripoj(page)
+    page.goto(zaklad)
+    dny = page.evaluate("""(() => { const f = (d) => { const p = (n) => String(n).padStart(2, '0'); return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`; };
+        const d = new Date(); const po = new Date(d.getFullYear(), d.getMonth(), d.getDate() - (d.getDay() + 6) % 7, 12);
+        return { dnes: f(d), minuly: f(new Date(po.getFullYear(), po.getMonth(), po.getDate() - 7, 12)) }; })()""")
+    v = lambda s_, datum: {"s": s_, "c": 10, "pul": s_, "odpovedi": [], "datum": datum, "j": "cs", "r": 0, "cas": 1}
+    # body: 8×10 + 10×10 + 7×15 + výzva 3×10 = 315 → úroveň 3 (300–600) Nadšenec; tento týden 3 kola
+    pk = {"verze": 2, "rozehrano": {}, "odznaky": {}, "dny": {"posledni": None, "serie": 0, "nejdelsi": 0}, "stat": {"kol": 3, "nejdelsiRada": 0},
+          "vysledky": {A["id"]: {"1": v(8, dny["dnes"])}, B["id"]: {"1": v(10, dny["dnes"]), "2": v(7, dny["dnes"])}},
+          "vyzvy": {"2026-01-01": {"ids": [], "odpovedi": [], "spravne": 3, "hotovo": True}}, "vyzvaDny": {"posledni": None, "serie": 0, "nejdelsi": 0}}
+    nast = {"ui": "cs", "otazky": "cs", "preklad": "vypnuto", "zvuky": False, "vibrace": False}
+    page.evaluate("([n, p]) => { localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(n)); localStorage.setItem('kviz.v1.pokrok', JSON.stringify(p)); }", [nast, pk])
+    page.reload()
+    jdi(page, zaklad, "#/")
+    u = page.inner_text("[data-test=uroven]")
+    over("úroveň 3" in u.lower() and "Nadšenec" in u and "315 / 600 bodů do úrovně 4" in u, "Domů: 315 bodů = Úroveň 3 Nadšenec, „315 / 600 bodů do úrovně 4“")
+    over("3/5" in page.inner_text("[data-test=tyden]") and "zbýv" in page.inner_text("[data-test=tyden]"), "týdenní cíl (výchozí 5 kol): 3/5, kolik dní zbývá")
+    # cíl 3 kola + minulý týden také splněný → série 2 týdny
+    pk["vysledky"][C["id"]] = {"1": v(9, dny["minuly"]), "2": v(9, dny["minuly"]), "3": v(9, dny["minuly"])}
+    page.evaluate("p => localStorage.setItem('kviz.v1.pokrok', JSON.stringify(p))", pk)
+    jdi(page, zaklad, "#/nastaveni")
+    page.click('[aria-labelledby="nast-tyden"] [data-hodnota="3"]')
+    page.reload()
+    jdi(page, zaklad, "#/")
+    over("✓" in page.inner_text("[data-test=tyden]") and "2 týdny v řadě" in page.inner_text("[data-test=tyden]"),
+         "cíl 3 kola: tento týden splněno ✓, s minulým týdnem „2 týdny v řadě“")
+    # výsledek kola: +body (Lehká 9 správně = 90) a nová úroveň, když se překročí hranice
+    T = temata[3][1]["id"] if len(temata) > 3 else None
+    if T:
+        zacni_kolo(page, zaklad, T)
+        zahraj_kolo(page, otazky, spatnych=1)
+        over(page.inner_text("[data-test=body]").strip() == "⭐ +90 bodů", "výsledek kola: „⭐ +90 bodů“ (9 × 10 za Lehkou)")
+        jdi(page, zaklad, "#/statistiky")
+        over(page.locator("[data-test=stat-uroven]").count() == 1 and page.locator("[data-test=stat-tyden]").count() == 1, "Statistiky: řádky Úroveň a Týdenní cíl")
+    ctx.close()
+
+
 def kontrola_nahledu_odkazu():
     print("Náhled odkazu (Open Graph) a ikony:")
     html = (KOREN / "index.html").read_text(encoding="utf-8")
@@ -1447,6 +1491,7 @@ def main():
             lambda: scenar_zvuku(page, zaklad, otazky, tema3["id"]),
             lambda: scenar_omezit_pohyb(browser, zaklad, hlidac, otazky, tema["id"]),
             lambda: scenar_statistik(browser, zaklad, hlidac, temata),
+            lambda: scenar_d034(browser, zaklad, hlidac, otazky, temata),
             lambda: scenar_d033(browser, zaklad, hlidac, otazky, temata, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d032(browser, zaklad, hlidac, otazky, temata, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_procvicovani(browser, zaklad, hlidac, temata, otazky, None if args.bez_screenshotu else Path(args.vystup)),

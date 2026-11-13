@@ -3,8 +3,8 @@
 // Všechny kategorie, kde je i hledání témat), pod nimi Odznaky, Historie a Statistiky.
 import { t, jazyk } from "../i18n.js";
 import { h, logo, wordmark, celeHvezdy, ikonaKategorie } from "../ui.js";
-import { hvezdyCelkem, serieDni, pokrok, uspesnost, pokracovani, nahodneTema, vyzva, serieVyzev } from "../progress.js";
-import { dnes } from "../game.js";
+import { hvezdyCelkem, serieDni, pokrok, uspesnost, pokracovani, nahodneTema, vyzva, serieVyzev, urovenHrace, tydenniCil } from "../progress.js";
+import { dnes, dniDoKonceTydne } from "../game.js";
 import { OTAZEK as OTAZEK_VYZVY } from "../vyzva.js";
 import { viditelneKategorie, txt } from "../data.js";
 import { vsechnyOdznaky } from "../badges.js";
@@ -34,6 +34,28 @@ function kartaPokracuj() {
       h("span", { class: "pokracuj-meta" }, ikonaKategorie(info.kategorie, "pokracuj-ico"), h("span", { text: popis })),
       pruh),
     h("span", { class: "pokracuj-go", "aria-hidden": "true", text: "▶" }));
+}
+
+/** Karta Úroveň a Týdenní cíl (D-034): vlevo úroveň s pruhem do další, vpravo kroužek kol za tento týden. */
+function kartaPostupu() {
+  const u = urovenHrace();
+  const cil = tydenniCil();
+  const podil = Math.round(((u.body - u.od) / (u.do - u.od)) * 100);
+  const kruh = Math.round(Math.min(1, cil.hotovo / cil.cil) * 100);
+  const pod = cil.splneno
+    ? (cil.serie > 1 ? t("tyden.serie", { n: cil.serie }) : t("tyden.splneno"))
+    : t("tyden.zbyva", { n: dniDoKonceTydne() });
+  return h("section", { class: "card postup-karta", "data-test": "postup-karta" },
+    h("div", { class: "uroven", "data-test": "uroven" },
+      h("span", { class: "label", text: t("uroven.nadpis", { n: u.uroven }) }),
+      h("span", { class: "uroven-titul", text: t(`uroven.titul.${u.titul}`) }),
+      h("div", { class: "meter" }, h("i", { class: "m-ok", style: { width: `${podil}%` } })),
+      h("span", { class: "uroven-body", text: t("uroven.body", { b: u.body, do: u.do, n: u.uroven + 1 }) })),
+    h("div", { class: `tyden${cil.splneno ? " is-splneno" : ""}`, "data-test": "tyden" },
+      h("div", { class: "tyden-kruh", style: `--p:${kruh}`, role: "img", "aria-label": t("tyden.aria", { h: cil.hotovo, c: cil.cil }) },
+        h("b", { text: cil.splneno ? "✓" : `${cil.hotovo}/${cil.cil}` })),
+      h("span", { class: "tyden-popis", text: t("tyden.nadpis") }),
+      h("span", { class: "tyden-pod", text: pod })));
 }
 
 /** Karta Denní výzva (D-032): neodehraná / rozehraná / dnes hotová (se čtverečky a sérií). */
@@ -94,6 +116,7 @@ export function vykresli(_param, app) {
       udaj("★", `${celeHvezdy(hv.pul)} / ${celeHvezdy(hv.max)}`, t("domu.hvezd"), "hvezdy-celkem"),
       udaj("🎯", usp == null ? "–" : t("domu.procent", { n: usp }), t("domu.uspesnost"), "uspesnost"),
       udaj("🏅", `${odz} / ${vse.length}`, t("domu.odznaku"), "odznaky")),
+    kartaPostupu(),
     kartaPokracuj(),
     kartaVyzvy(),
     h("button", {
