@@ -331,10 +331,10 @@ def scenar_hry(page, zaklad, otazky, temata, index):
     jdi(page, zaklad, "#/kategorie")
     barvy = page.eval_on_selector_all(".tiles .tile[data-kategorie]", """els => els.map(e => [e.dataset.barva, getComputedStyle(e).backgroundColor, getComputedStyle(e).color])""")
     pozadi_str = page.evaluate("getComputedStyle(document.body).backgroundColor")
-    spatne = [b for b in barvy if b[1] in ("rgba(0, 0, 0, 0)", "transparent", pozadi_str, "rgb(0, 0, 0)", "rgb(43, 22, 48)") or b[2] != "rgb(255, 255, 255)"]
+    spatne = [b for b in barvy if b[1] in ("rgba(0, 0, 0, 0)", "transparent", pozadi_str, "rgb(0, 0, 0)", "rgb(43, 22, 48)", "rgb(255, 255, 255)", "rgb(255, 246, 234)") or b[2] != "rgb(26, 16, 32)"]
     sousede = [i for i in range(len(barvy)) if barvy[i][0] in [b[0] for b in barvy[max(0, i - 3):i]]]
     over(barvy and not spatne and not sousede,
-         f"dlaždice kategorií: {len(barvy)} barevných (bez černé/béžové/průhledné, bílý text), žádná barva u 3 předchozích (D-029)"
+         f"dlaždice kategorií: {len(barvy)} barevných (bez černé/bílé/béžové/průhledné, tmavý text, D-030), žádná barva u 3 předchozích (D-029)"
          + (f" – špatně: {spatne[:3]}, opakování u {sousede}" if spatne or sousede else ""))
     soucty = page.locator(".tile-stars").all_inner_texts()
     over(soucty and all(re.fullmatch(r"\d+ / \d+ ★", x.strip()) for x in soucty), f"součty hvězd u kategorií jen celé (půlky dolů, D-020): {soucty}")
