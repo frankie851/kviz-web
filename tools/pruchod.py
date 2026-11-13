@@ -1642,6 +1642,84 @@ def scenar_d038(browser, zaklad, hlidac, index, vystup=None):
     ctx.close()
 
 
+KONTRAST_JS = """() => {
+    const st = getComputedStyle(document.documentElement);
+    const v = (n) => st.getPropertyValue('--' + n).trim();
+    const lum = (h) => { const c = [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16) / 255).map((x) => (x <= 0.03928 ? x / 12.92 : ((x + 0.055) / 1.055) ** 2.4));
+      return 0.2126 * c[0] + 0.7152 * c[1] + 0.0722 * c[2]; };
+    const r = (a, b) => { const [x, y] = [lum(v(a)), lum(v(b))].sort((p, q) => q - p); return (x + 0.05) / (y + 0.05); };
+    const pary = [['ink', 'bg', 7], ['ink', 'surface', 7], ['muted', 'surface', 7], ['muted', 'bg', 7], ['tr', 'surface', 7], ['on-primary', 'primary', 4.5],
+      ['primary', 'surface', 4.5], ['ok-ink', 'ok-bg', 7], ['bad-ink', 'bad-bg', 7], ['explain-ink', 'explain-bg', 7], ['streak-ink', 'streak-bg', 7],
+      ['letter-ink', 'letter-bg', 4.5], ['ok-letter-ink', 'ok-letter-bg', 4.5], ['bad-on', 'bad-letter-bg', 4.5], ['line', 'surface', 3], ['cal-4', 'surface', 3],
+      ...['malina', 'zelena', 'modra', 'oranzova', 'fialova', 'tyrkys', 'cervena', 'hneda'].map((c) => ['tile-ink', 'tc-' + c, 7])];
+    const vys = pary.map(([a, b, m]) => [a + '/' + b, Math.round(r(a, b) * 100) / 100, m]);
+    return { min: Math.min(...vys.map((x) => x[1]).filter(Number.isFinite)), spatne: vys.filter((x) => !(x[1] >= x[2])), bg: v('bg') };
+}"""
+
+
+def scenar_d039(browser, zaklad, hlidac, otazky, T, vystup=None):
+    """D-039: vysoký kontrast (světlý i tmavý, kontrast textu aspoň 7 : 1) a čitelnější písmo (Atkinson Hyperlegible Next)."""
+    print("Vysoký kontrast a čitelnější písmo (D-039):")
+    nast = {"ui": "cs", "otazky": "cs", "preklad": "vzdy", "zvuky": False, "vibrace": False}
+    ctx = browser.new_context(viewport={"width": 390, "height": 844}, locale="cs-CZ")
+    page = ctx.new_page()
+    page.set_default_timeout(8000)
+    hlidac.pripoj(page)
+    page.goto(zaklad)
+    page.evaluate("n => localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(n))", nast)
+    page.reload()
+    jdi(page, zaklad, "#/nastaveni")
+    over(page.locator("#nast-kontrast").count() == 1 and page.locator("#nast-citelne").count() == 1, "Nastavení → Vzhled: přepínače Vysoký kontrast a Čitelnější písmo")
+    page.click("#nast-kontrast")
+    page.click("#nast-citelne")
+    over(page.evaluate("document.documentElement.dataset.kontrast === 'vysoky' && document.documentElement.dataset.citelne === 'ano'"), "po zapnutí se vzhled změní hned (bez obnovení stránky)")
+    sv = page.evaluate(KONTRAST_JS)
+    over(not sv["spatne"] and sv["bg"].upper() == "#FFFFFF", f"vysoký kontrast světlý: bílé pozadí, všechny dvojice barev splní normu (nejmenší kontrast {sv['min']} : 1)" + (f" – {sv['spatne']}" if sv["spatne"] else ""))
+    page.reload()
+    page.wait_for_function("document.fonts.check('16px \"Atkinson Hyperlegible Next\"') && document.fonts.status === 'loaded'")
+    pismo = page.evaluate("getComputedStyle(document.body).fontFamily")
+    over(pismo.startswith('"Atkinson Hyperlegible Next"') and page.evaluate("[...document.fonts].some((f) => f.family.includes('Atkinson') && f.status === 'loaded')"),
+         "čitelnější písmo: Atkinson Hyperlegible Next načtené z vlastního webu (i po obnovení)")
+    if vystup:
+        vystup.mkdir(parents=True, exist_ok=True)
+        jdi(page, zaklad, "#/")
+        page.wait_for_timeout(500)
+        page.screenshot(path=str(vystup / "d039-domu-kontrast-390.png"))
+        zacni_kolo(page, zaklad, T)
+        zodpovez(page, otazky, spravne=False)
+        page.wait_for_timeout(600)
+        page.screenshot(path=str(vystup / "d039-otazka-kontrast-390.png"), full_page=True)
+    page.evaluate("n => localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(n))", {**nast, "kontrast": True, "citelne": True, "vzhled": "tmavy"})
+    page.reload()
+    jdi(page, zaklad, "#/")
+    tm = page.evaluate(KONTRAST_JS)
+    over(not tm["spatne"] and tm["bg"].upper() == "#000000", f"vysoký kontrast tmavý: černé pozadí, všechny dvojice barev splní normu (nejmenší {tm['min']} : 1)" + (f" – {tm['spatne']}" if tm["spatne"] else ""))
+    if vystup:
+        page.wait_for_timeout(500)
+        page.screenshot(path=str(vystup / "d039-domu-kontrast-tmavy-390.png"))
+    ctx.close()
+    # podle telefonu (tmavý telefon) + 320 px + největší písmo: nic nepřetéká
+    ctx = browser.new_context(viewport={"width": 320, "height": 640}, locale="cs-CZ", color_scheme="dark")
+    page = ctx.new_page()
+    page.set_default_timeout(8000)
+    hlidac.pripoj(page)
+    page.goto(zaklad)
+    page.evaluate("n => localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(n))", {**nast, "kontrast": True, "citelne": True, "pismo": "nejvetsi"})
+    page.reload()
+    jdi(page, zaklad, "#/")
+    over(page.evaluate(KONTRAST_JS)["bg"].upper() == "#000000", "„podle telefonu“ s tmavým telefonem: tmavý vysoký kontrast")
+    pretekajici = []
+    for h_ in ("#/", "#/kategorie", "#/statistiky", "#/nastaveni", f"#/tema/{T}"):
+        jdi(page, zaklad, h_)
+        page.wait_for_timeout(200)
+        pretekajici += [f"{h_}: {x}" for x in pretekani(page)[:2]]
+    zacni_kolo(page, zaklad, T)
+    zodpovez(page, otazky, spravne=True)
+    pretekajici += [f"otázka: {x}" for x in pretekani(page)[:2]]
+    over(not pretekajici, "320 px, vysoký kontrast, čitelné a největší písmo: Domů, kategorie, téma, otázka, Statistiky, Nastavení nepřetékají" + (f" – {pretekajici[:3]}" if pretekajici else ""))
+    ctx.close()
+
+
 def kontrola_nahledu_odkazu():
     print("Náhled odkazu (Open Graph) a ikony:")
     html = (KOREN / "index.html").read_text(encoding="utf-8")
@@ -1762,6 +1840,7 @@ def main():
             lambda: scenar_statistik(browser, zaklad, hlidac, temata),
             lambda: scenar_d037(browser, zaklad, hlidac, index, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d038(browser, zaklad, hlidac, index, None if args.bez_screenshotu else Path(args.vystup)),
+            lambda: scenar_d039(browser, zaklad, hlidac, otazky, tema3["id"], None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d035(browser, zaklad, hlidac, index, otazky, temata, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d034(browser, zaklad, hlidac, otazky, temata),
             lambda: scenar_d033(browser, zaklad, hlidac, otazky, temata, None if args.bez_screenshotu else Path(args.vystup)),

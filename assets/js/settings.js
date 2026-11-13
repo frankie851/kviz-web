@@ -11,14 +11,14 @@ export function jeNastaveno() {
 }
 
 export function nast() {
-  return { vzhled: VZHLED.AUTO, pismo: PISMO.NORMALNI, predcitani: "tlacitko", tydenniCil: 5, oblibene: [], domu: {}, ...(nastaveni || { ui: "cs", otazky: "cs", preklad: PREKLAD.VYPNUTO, zvuky: true, vibrace: true }) };
+  return { vzhled: VZHLED.AUTO, pismo: PISMO.NORMALNI, kontrast: false, citelne: false, predcitani: "tlacitko", tydenniCil: 5, oblibene: [], domu: {}, ...(nastaveni || { ui: "cs", otazky: "cs", preklad: PREKLAD.VYPNUTO, zvuky: true, vibrace: true }) };
 }
 
 // Vzhled (D-028): barevný režim podle telefonu / světlý / tmavý a velikost písma. Na <html> se zapíše
 // data-vzhled a data-pismo; barvy a velikosti řeší CSS (proměnné), „podle telefonu“ přes prefers-color-scheme.
 export const VZHLED = { AUTO: "auto", SVETLY: "svetly", TMAVY: "tmavy" };
 export const PISMO = { NORMALNI: "normalni", VETSI: "vetsi", NEJVETSI: "nejvetsi" };
-const BARVA_LISTY = { svetly: "#FFF6EA", tmavy: "#1C1220" }; // barva lišty prohlížeče = pozadí stránky
+const BARVA_LISTY = { svetly: "#FFF6EA", tmavy: "#1C1220", svetlyKontrast: "#FFFFFF", tmavyKontrast: "#000000" }; // barva lišty prohlížeče = pozadí stránky
 
 export function aplikujVzhled(s = nast()) {
   const html = document.documentElement;
@@ -26,10 +26,16 @@ export function aplikujVzhled(s = nast()) {
   else html.dataset.vzhled = s.vzhled;
   if (s.pismo === PISMO.NORMALNI) delete html.dataset.pismo;
   else html.dataset.pismo = s.pismo;
+  // vysoký kontrast a čitelnější písmo (D-039)
+  if (s.kontrast) html.dataset.kontrast = "vysoky";
+  else delete html.dataset.kontrast;
+  if (s.citelne) html.dataset.citelne = "ano";
+  else delete html.dataset.citelne;
   const tmavy = s.vzhled === VZHLED.TMAVY || (s.vzhled === VZHLED.AUTO && window.matchMedia?.("(prefers-color-scheme: dark)").matches);
+  const barva = (t) => BARVA_LISTY[`${t ? "tmavy" : "svetly"}${s.kontrast ? "Kontrast" : ""}`];
   document.querySelectorAll('meta[name="theme-color"]').forEach((m) => {
-    if (s.vzhled === VZHLED.AUTO) m.setAttribute("content", m.media?.includes("dark") ? BARVA_LISTY.tmavy : BARVA_LISTY.svetly);
-    else m.setAttribute("content", tmavy ? BARVA_LISTY.tmavy : BARVA_LISTY.svetly);
+    if (s.vzhled === VZHLED.AUTO) m.setAttribute("content", barva(m.media?.includes("dark")));
+    else m.setAttribute("content", barva(tmavy));
   });
 }
 
