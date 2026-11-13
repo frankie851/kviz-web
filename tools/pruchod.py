@@ -964,6 +964,90 @@ def scenar_d026(browser, zaklad, hlidac, index, otazky, vystup=None):
     ctx.close()
 
 
+def scenar_d028(browser, zaklad, hlidac, index, otazky, temata, vystup=None):
+    """D-028: Překvap mě (náhodné nehrané téma), tmavý režim (volba i podle telefonu), velikost písma;
+    s největším písmem v tmavém režimu nic nepřetéká ani na 320 px."""
+    print("Překvap mě, tmavý režim a velikost písma (D-028):")
+    nast = {"ui": "cs", "otazky": "cs", "preklad": "vzdy", "zvuky": False, "vibrace": False}
+    v = lambda s_: {"s": s_, "c": 10, "pul": s_, "odpovedi": [], "datum": "2026-11-01", "j": "cs", "r": 0, "cas": 1}
+    hrane = [t_["id"] for _, t_ in temata[:2]]
+    pk = {"verze": 2, "vysledky": {tid: {"1": v(8)} for tid in hrane}, "rozehrano": {}, "dny": {"posledni": None, "serie": 0, "nejdelsi": 0}, "stat": {"kol": 2, "nejdelsiRada": 0}, "odznaky": {}}
+    vsechna = {t_["id"] for k in index["kategorie"] for t_ in k["temata"] if any(t_["otazek"].get(o, 0) >= 3 for o in "123")}
+
+    def kontext(**kw):
+        ctx = browser.new_context(locale="cs-CZ", **{"viewport": {"width": 390, "height": 844}, **kw})
+        page = ctx.new_page()
+        page.set_default_timeout(8000)
+        hlidac.pripoj(page)
+        page.goto(zaklad)
+        page.evaluate("([n, p]) => { localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(n)); localStorage.setItem('kviz.v1.pokrok', JSON.stringify(p)); }", [nast, pk])
+        page.reload()
+        jdi(page, zaklad, "#/")
+        return ctx, page
+
+    pozadi = lambda page: page.evaluate("getComputedStyle(document.body).backgroundColor")
+    SVETLE, TMAVE = "rgb(255, 246, 234)", "rgb(28, 18, 32)"
+
+    # --- Překvap mě
+    ctx, page = kontext()
+    cile = []
+    for _ in range(8):
+        jdi(page, zaklad, "#/")
+        page.click("[data-test=nahodne]")
+        page.wait_for_selector(".diff")
+        cile.append(page.url.split("#/tema/")[-1])
+    over(all(c in vsechna and c not in hrane for c in cile) and len(set(cile)) > 1,
+         f"Překvap mě: 8× náhodné nehrané téma ({len(set(cile))} různých, žádné z hraných)")
+
+    # --- tmavý režim a písmo v Nastavení
+    over(pozadi(page) == SVETLE, "výchozí vzhled (telefon ve světlém režimu): světlé pozadí")
+    jdi(page, zaklad, "#/nastaveni")
+    page.click('[aria-labelledby="nast-vzhled"] [data-hodnota="tmavy"]')
+    page.wait_for_timeout(100)
+    over(pozadi(page) == TMAVE and page.get_attribute("html", "data-vzhled") == "tmavy", "Tmavý: tmavé pozadí hned")
+    page.click('[aria-labelledby="nast-pismo"] [data-hodnota="nejvetsi"]')
+    page.wait_for_timeout(100)
+    over(page.evaluate("getComputedStyle(document.body).fontSize") == "22.1px", "Největší písmo: 17 px × 1,3")
+    page.reload()
+    page.wait_for_selector("[aria-labelledby=nast-vzhled]")
+    over(pozadi(page) == TMAVE and page.evaluate("getComputedStyle(document.body).fontSize") == "22.1px", "vzhled i písmo přežijí obnovení stránky")
+    bez_chybejicich_textu(page, "Nastavení (vzhled)")
+    # 320 px, tmavý režim, největší písmo: nic nepřetéká
+    page.set_viewport_size({"width": 320, "height": 640})
+    T = temata[2][1]["id"]
+    zacni_kolo(page, zaklad, T)
+    zodpovez(page, otazky, spravne=False)
+    page.wait_for_timeout(500)
+    problemy = {}
+    p_ = pretekani(page)
+    if p_:
+        problemy["otázka"] = p_
+    dalsi(page)
+    zahraj_kolo(page, otazky, spatnych=0)
+    page.wait_for_timeout(1500)
+    for nazev, hsh in [("výsledek", None), ("Domů", "#/"), ("Kategorie", "#/kategorie"), ("Statistiky", "#/statistiky"), ("Odznaky", "#/odznaky"), ("Nastavení", "#/nastaveni"), ("Obtížnost", f"#/tema/{T}")]:
+        if hsh:
+            jdi(page, zaklad, hsh)
+            page.wait_for_timeout(500)
+        p_ = pretekani(page)
+        if p_:
+            problemy[nazev] = p_
+        if vystup and nazev in ("Domů", "Odznaky"):
+            vystup.mkdir(parents=True, exist_ok=True)
+            page.screenshot(path=str(vystup / f"d028-tmavy-nejvetsi-{nazev}-320.png"))
+    over(not problemy, "320 px, tmavý režim, největší písmo: nic nepřetéká" + (f": {problemy}" if problemy else ""))
+    ctx.close()
+
+    # --- podle telefonu: telefon v tmavém režimu → tmavě, volba Světlý → světle
+    ctx, page = kontext(color_scheme="dark")
+    over(pozadi(page) == TMAVE, "Podle telefonu: telefon v tmavém režimu → tmavé pozadí")
+    jdi(page, zaklad, "#/nastaveni")
+    page.click('[aria-labelledby="nast-vzhled"] [data-hodnota="svetly"]')
+    page.wait_for_timeout(100)
+    over(pozadi(page) == SVETLE, "volba Světlý přebije tmavý telefon")
+    ctx.close()
+
+
 def kontrola_nahledu_odkazu():
     print("Náhled odkazu (Open Graph) a ikony:")
     html = (KOREN / "index.html").read_text(encoding="utf-8")
@@ -1070,6 +1154,7 @@ def main():
             lambda: scenar_zvuku(page, zaklad, otazky, tema3["id"]),
             lambda: scenar_omezit_pohyb(browser, zaklad, hlidac, otazky, tema["id"]),
             lambda: scenar_statistik(browser, zaklad, hlidac, temata),
+            lambda: scenar_d028(browser, zaklad, hlidac, index, otazky, temata, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d026(browser, zaklad, hlidac, index, otazky, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_razeni_kategorii(browser, zaklad, hlidac, index, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_postupu(browser, zaklad, hlidac, otazky, tema2["id"]),

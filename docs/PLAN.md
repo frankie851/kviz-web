@@ -63,6 +63,7 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☑ (2026-11-08) D-025 Statistiky: kategorie od nejúspěšnější.
 - ☑ (2026-11-12) D-026 karta Pokračuj, hledání a filtr témat, stupňové odznaky.
 - ☑ (2026-11-13) D-027 hledání ve Všech kategoriích, filtr ikonami, konfety od 90 %, odznaky Neomylný a Objevitel.
+- ☑ (2026-11-13) D-028 Překvap mě, tmavý režim, velikost písma.
 
 ## Stav
-Poslední aktualizace: 2026-11-13 · Web online (vč. D-026) · Čeká se: sloučení D-027 · Blokováno: nic
+Poslední aktualizace: 2026-11-13 · Web online (vč. D-027) · Čeká se: sloučení D-028 · Blokováno: nic

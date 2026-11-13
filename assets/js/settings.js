@@ -11,7 +11,26 @@ export function jeNastaveno() {
 }
 
 export function nast() {
-  return nastaveni || { ui: "cs", otazky: "cs", preklad: PREKLAD.VYPNUTO, zvuky: true, vibrace: true };
+  return { vzhled: VZHLED.AUTO, pismo: PISMO.NORMALNI, ...(nastaveni || { ui: "cs", otazky: "cs", preklad: PREKLAD.VYPNUTO, zvuky: true, vibrace: true }) };
+}
+
+// Vzhled (D-028): barevný režim podle telefonu / světlý / tmavý a velikost písma. Na <html> se zapíše
+// data-vzhled a data-pismo; barvy a velikosti řeší CSS (proměnné), „podle telefonu“ přes prefers-color-scheme.
+export const VZHLED = { AUTO: "auto", SVETLY: "svetly", TMAVY: "tmavy" };
+export const PISMO = { NORMALNI: "normalni", VETSI: "vetsi", NEJVETSI: "nejvetsi" };
+const BARVA_LISTY = { svetly: "#FFF6EA", tmavy: "#1C1220" }; // barva lišty prohlížeče = pozadí stránky
+
+export function aplikujVzhled(s = nast()) {
+  const html = document.documentElement;
+  if (s.vzhled === VZHLED.AUTO) delete html.dataset.vzhled;
+  else html.dataset.vzhled = s.vzhled;
+  if (s.pismo === PISMO.NORMALNI) delete html.dataset.pismo;
+  else html.dataset.pismo = s.pismo;
+  const tmavy = s.vzhled === VZHLED.TMAVY || (s.vzhled === VZHLED.AUTO && window.matchMedia?.("(prefers-color-scheme: dark)").matches);
+  document.querySelectorAll('meta[name="theme-color"]').forEach((m) => {
+    if (s.vzhled === VZHLED.AUTO) m.setAttribute("content", m.media?.includes("dark") ? BARVA_LISTY.tmavy : BARVA_LISTY.svetly);
+    else m.setAttribute("content", tmavy ? BARVA_LISTY.tmavy : BARVA_LISTY.svetly);
+  });
 }
 
 export function zmen(zmeny) {

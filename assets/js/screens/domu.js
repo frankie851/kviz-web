@@ -3,7 +3,7 @@
 // Všechny kategorie, kde je i hledání témat), pod nimi Odznaky, Historie a Statistiky.
 import { t, jazyk } from "../i18n.js";
 import { h, logo, wordmark, celeHvezdy, ikonaKategorie } from "../ui.js";
-import { hvezdyCelkem, serieDni, pokrok, uspesnost, pokracovani } from "../progress.js";
+import { hvezdyCelkem, serieDni, pokrok, uspesnost, pokracovani, nahodneTema } from "../progress.js";
 import { viditelneKategorie, txt } from "../data.js";
 import { vsechnyOdznaky } from "../badges.js";
 import { ukladaniFunguje } from "../storage.js";
@@ -34,7 +34,7 @@ function kartaPokracuj() {
     h("span", { class: "pokracuj-go", "aria-hidden": "true", text: "▶" }));
 }
 
-export function vykresli() {
+export function vykresli(_param, app) {
   const hv = hvezdyCelkem();
   const dny = serieDni();
   const usp = uspesnost();
@@ -73,6 +73,10 @@ export function vykresli() {
       udaj("🎯", usp == null ? "–" : t("domu.procent", { n: usp }), t("domu.uspesnost"), "uspesnost"),
       udaj("🏅", `${odz} / ${vse.length}`, t("domu.odznaku"), "odznaky")),
     kartaPokracuj(),
+    h("button", {
+      type: "button", class: "btn btn-sec btn-nahoda", "data-test": "nahodne",
+      onclick: () => { const tema = nahodneTema(); if (tema) app.jdi(`#/tema/${tema.id}`); },
+    }, h("span", { "aria-hidden": "true", text: "🎲" }), t("domu.nahodne")),
     h("div", { class: "tiles tiles-home", "data-test": "kategorie-domu" }, dlazdice),
     h(
       "nav",

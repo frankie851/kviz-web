@@ -1,7 +1,7 @@
 // Start aplikace a navigace přes hash (#/kategorie/...) – GitHub Pages neumí přesměrování na jednu stránku.
 import { nactiTexty, nastavJazyk, t } from "./i18n.js";
 import { nactiIndex } from "./data.js";
-import { jeNastaveno, nast } from "./settings.js";
+import { jeNastaveno, nast, aplikujVzhled } from "./settings.js";
 import { h } from "./ui.js";
 import * as uvod from "./screens/uvod.js";
 import * as domu from "./screens/domu.js";
@@ -183,6 +183,7 @@ async function start() {
     return;
   }
   nastavJazyk(nast().ui);
+  aplikujVzhled(); // tmavý režim a velikost písma (D-028)
   window.addEventListener("hashchange", vykresli);
   await vykresli();
   document.documentElement.classList.add("ready");
