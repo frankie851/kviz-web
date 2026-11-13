@@ -130,6 +130,20 @@ export function oznameniOdznaku(odznak) {
   setTimeout(zavri, 3200);
 }
 
+/** Krátké upozornění nahoře (např. „Zkopírováno“) – stejná lišta jako u nového odznaku (D-032). */
+export function kratkeOznameni(text) {
+  if (!oblast || !oblast.isConnected) {
+    oblast = h("div", { class: "toasts", role: "status", "aria-live": "polite" });
+    document.body.append(oblast);
+  }
+  const toast = h("div", { class: "toast toast-info", "data-test": "oznameni" }, h("span", { class: "toast-name", text }));
+  oblast.append(toast);
+  setTimeout(() => {
+    toast.classList.add("odchod");
+    setTimeout(() => toast.remove(), prefersReducedMotion() ? 0 : 260);
+  }, 2400);
+}
+
 /** Schová upozornění (např. na konci kola). */
 export function schovejOznameni() {
   oblast?.replaceChildren();

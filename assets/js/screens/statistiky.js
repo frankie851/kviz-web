@@ -4,7 +4,7 @@
 import { t, jazyk } from "../i18n.js";
 import { h, lista, celeHvezdy, ikonaKategorie } from "../ui.js";
 import { najdiTema, nactiTema, viditelneKategorie, viditelnaTemata, OBTIZNOSTI, txt } from "../data.js";
-import { pokrok, hvezdyCelkem, hvezdyKategorie, uzavrenaVKategorii } from "../progress.js";
+import { pokrok, hvezdyCelkem, hvezdyKategorie, uzavrenaVKategorii, serieVyzev } from "../progress.js";
 import { ODEMCENI_PULHVEZD, MAX_HVEZD } from "../game.js";
 
 export const ID = "statistiky";
@@ -75,7 +75,8 @@ export async function vykresli() {
       .filter(Boolean).join(" · ");
   };
 
-  if (!vse.length) {
+  const vyzevHotovo = Object.values(pokrok().vyzvy || {}).filter((x) => x?.hotovo).length; // D-032
+  if (!vse.length && !vyzevHotovo) {
     const el = h("main", { class: "screen" },
       lista({ zpet: "#/", nadpis: t("statistiky.nadpis") }),
       h("div", { class: "empty", "data-test": "stat-prazdne" },
@@ -158,6 +159,7 @@ export async function vykresli() {
       zaznam(t("statistiky.nejdelsiRada"), `🔥 ${nejdelsiRada}`, "stat-rada"),
       zaznam(t("statistiky.nejdelsiSerieDni"), t("domu.dni", { n: p.dny.nejdelsi || 0 }), "stat-dny"),
       zaznam(t("statistiky.dniSHrou"), String(dniSHrou), "stat-dni-hra"),
+      zaznam(t("statistiky.vyzvy"), `${vyzevHotovo} · 🔥 ${t("domu.dni", { n: serieVyzev().nejdelsi })}`, "stat-vyzvy"),
       top ? zaznam(t("statistiky.nejlepsiTema"), `${txt(top.info.tema.nazev, jazyk())} · ${pct(procent(top.s, top.c))}`, "stat-top", "rec rec-col") : null));
 
   // 6. jazyk otázek (jen kola, u kterých se jazyk ukládá – od D-021)

@@ -3,7 +3,9 @@
 // Všechny kategorie, kde je i hledání témat), pod nimi Odznaky, Historie a Statistiky.
 import { t, jazyk } from "../i18n.js";
 import { h, logo, wordmark, celeHvezdy, ikonaKategorie } from "../ui.js";
-import { hvezdyCelkem, serieDni, pokrok, uspesnost, pokracovani, nahodneTema } from "../progress.js";
+import { hvezdyCelkem, serieDni, pokrok, uspesnost, pokracovani, nahodneTema, vyzva, serieVyzev } from "../progress.js";
+import { dnes } from "../game.js";
+import { OTAZEK as OTAZEK_VYZVY } from "../vyzva.js";
 import { viditelneKategorie, txt } from "../data.js";
 import { vsechnyOdznaky } from "../badges.js";
 import { ukladaniFunguje } from "../storage.js";
@@ -32,6 +34,26 @@ function kartaPokracuj() {
       h("span", { class: "pokracuj-meta" }, ikonaKategorie(info.kategorie, "pokracuj-ico"), h("span", { text: popis })),
       pruh),
     h("span", { class: "pokracuj-go", "aria-hidden": "true", text: "▶" }));
+}
+
+/** Karta Denní výzva (D-032): neodehraná / rozehraná / dnes hotová (se čtverečky a sérií). */
+function kartaVyzvy() {
+  const v = vyzva(dnes());
+  const { serie } = serieVyzev();
+  const hotovo = v?.hotovo;
+  const popis = hotovo
+    ? t("vyzva.domuHotovo", { s: v.spravne, n: v.ids.length })
+    : v?.odpovedi?.length
+      ? t("vyzva.domuRozehrano", { i: v.odpovedi.length, n: v.ids.length })
+      : t("vyzva.domuNova", { n: OTAZEK_VYZVY });
+  return h("a", { class: `card vyzva-karta${hotovo ? " is-hotovo" : ""}`, href: "#/vyzva", "data-test": "vyzva" },
+    h("span", { class: "vyzva-ico", "aria-hidden": "true", text: hotovo ? "✅" : "📅" }),
+    h("span", { class: "pokracuj-body" },
+      h("span", { class: "label", text: t("vyzva.nadpis") }),
+      h("span", { class: "vyzva-popis", text: popis }),
+      hotovo ? h("span", { class: "vyzva-ctverecky-mini", "aria-hidden": "true", text: v.odpovedi.map(([, , ok]) => (ok ? "🟩" : "🟥")).join("") }) : null,
+      serie > 0 ? h("span", { class: "pokracuj-meta", text: t("vyzva.serie", { n: serie }) }) : null),
+    h("span", { class: hotovo ? "vyzva-go-hotovo" : "pokracuj-go", "aria-hidden": "true", text: hotovo ? "→" : "▶" }));
 }
 
 export function vykresli(_param, app) {
@@ -73,6 +95,7 @@ export function vykresli(_param, app) {
       udaj("🎯", usp == null ? "–" : t("domu.procent", { n: usp }), t("domu.uspesnost"), "uspesnost"),
       udaj("🏅", `${odz} / ${vse.length}`, t("domu.odznaku"), "odznaky")),
     kartaPokracuj(),
+    kartaVyzvy(),
     h("button", {
       type: "button", class: "btn btn-sec btn-nahoda", "data-test": "nahodne",
       onclick: () => { const tema = nahodneTema(); if (tema) app.jdi(`#/tema/${tema.id}`); },

@@ -7,6 +7,7 @@ import { h, hvezdicky, prefersReducedMotion } from "../ui.js";
 import { najdiTema, txt } from "../data.js";
 import { nacti, uloz } from "../storage.js";
 import { odznak, nazevOdznaku } from "../badges.js";
+import { sdilej, adresaWebu, hvezdyTextem } from "../sdileni.js";
 import { zvuk, vibrace } from "../feedback.js";
 import { konfety, zastavKonfety } from "../oslavy.js";
 
@@ -69,6 +70,13 @@ export function vykresli() {
         : null,
       h("a", { class: `btn ${odemceno ? "btn-sec" : "btn-primary"} btn-big`, href: `#/prehled/${tema.id}/${v.obt}`, "data-test": "prehled" },
         h("span", { "aria-hidden": "true", text: "📖 " }), t("vysledek.prehled")),
+      h("button", {
+        type: "button", class: "btn btn-sec btn-big", "data-test": "sdilet",
+        onclick: () => sdilej({
+          text: t("sdileni.kolo", { tema: txt(tema.nazev, jazyk()), obtiznost: t(`obtiznost.${v.obt}`), s: v.spravne, c: v.celkem, hvezdy: hvezdyTextem(v.pul) }),
+          url: adresaWebu(`#/tema/${tema.id}`),
+        }),
+      }, h("span", { "aria-hidden": "true", text: "📤 " }), t("sdileni.tlacitko")),
       h("a", { class: "btn btn-sec btn-big", href: `#/kategorie/${kategorie.id}`, "data-test": "zpet-temata" }, t("vysledek.zpetTemata")))
   );
   const casovace = [];

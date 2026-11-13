@@ -439,6 +439,17 @@ a.diff:active { transform: translateY(2px); }
 .hit-meta { color: var(--muted); font-size: calc(14px * var(--pismo, 1)); font-weight: 700; }
 .empty-hledani { text-align: center; color: var(--muted); padding: 16px 8px; }
 
+/* ---------- Denní výzva a sdílení (D-032) ---------- */
+.vyzva-karta { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 12px; margin-bottom: 12px;
+  text-decoration: none; color: var(--ink); box-shadow: 0 0 0 2px var(--sun) inset, var(--shadow-soft); }
+.vyzva-karta.is-hotovo { box-shadow: 0 0 0 2px var(--ok) inset, var(--shadow-soft); }
+.vyzva-ico { font-size: calc(30px * var(--pismo, 1)); line-height: 1; }
+.vyzva-popis { font-family: var(--font-h); font-weight: 800; font-size: calc(18px * var(--pismo, 1)); line-height: 1.2; overflow-wrap: anywhere; }
+.vyzva-ctverecky-mini { font-size: calc(14px * var(--pismo, 1)); letter-spacing: 1px; }
+.vyzva-go-hotovo { color: var(--primary); font-size: calc(22px * var(--pismo, 1)); font-weight: 800; }
+.vyzva-ctverecky { font-size: 30px; letter-spacing: 4px; margin: 0; }
+.toast-info { cursor: default; min-height: 48px; justify-content: center; text-align: center; }
+
 /* ---------- Procvičování chyb (D-031) ---------- */
 .procvic-btn { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 12px; margin-bottom: 14px;
   text-decoration: none; color: var(--ink); box-shadow: 0 0 0 2px var(--primary) inset, var(--shadow-soft); }

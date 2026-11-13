@@ -344,7 +344,8 @@
     "vcetneRozehranych": {
       "one": "including answers from {n} round in progress",
       "other": "including answers from {n} rounds in progress"
-    }
+    },
+    "vyzvy": "Daily challenges (longest streak)"
   },
   "procvic": {
     "nadpis": "Practise mistakes",
@@ -364,5 +365,28 @@
     "vseHotovo": "You've practised all your mistakes 🎉",
     "dalsiKolo": "Practise more",
     "zpet": "Back to history"
+  },
+  "vyzva": {
+    "nadpis": "Daily challenge",
+    "podnadpis": "{datum} · {n} questions from all topics – the same for everyone today",
+    "vysledek": "Result",
+    "hotovo": "Challenge done!",
+    "perfektni": "All correct! 🎉",
+    "serie": {
+      "one": "🔥 {n} challenge day in a row",
+      "other": "🔥 {n} challenge days in a row"
+    },
+    "zitra": "The next challenge comes tomorrow.",
+    "domu": "Home",
+    "domuNova": "{n} questions of the day – the same for everyone",
+    "domuRozehrano": "In progress: {i} of {n}",
+    "domuHotovo": "Done today: {s} / {n}",
+    "sdiletText": "Oho! Daily challenge {datum}: {s}/{n} {ctverecky} – try it too!"
+  },
+  "sdileni": {
+    "tlacitko": "Share result",
+    "kolo": "Oho! {tema} ({obtiznost}): {s}/{c} {hvezdy} – try it too!",
+    "zkopirovano": "Copied – paste it anywhere 📋",
+    "nelze": "Sharing isn't available here – copy the page address."
   }
 }

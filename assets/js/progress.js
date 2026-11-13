@@ -14,6 +14,8 @@ const PRAZDNY = () => ({
   stat: { kol: 0, nejdelsiRada: 0 },
   odznaky: {},
   procviceno: {}, // id otázky → datum, kdy ji hráč v procvičování zodpověděl správně (D-031)
+  vyzvy: {}, // datum → { ids, odpovedi: [[id, volba]], spravne, hotovo } – denní výzva (D-032)
+  vyzvaDny: { posledni: null, serie: 0, nejdelsi: 0 },
 });
 
 let p = normalizuj(nacti("pokrok", null));
@@ -30,6 +32,8 @@ function normalizuj(x) {
     stat: { ...z.stat, ...obj(x.stat, {}) },
     odznaky: obj(x.odznaky, z.odznaky),
     procviceno: obj(x.procviceno, z.procviceno),
+    vyzvy: obj(x.vyzvy, z.vyzvy),
+    vyzvaDny: { ...z.vyzvaDny, ...obj(x.vyzvaDny, {}) },
   };
 }
 
@@ -202,6 +206,44 @@ export async function chybneOtazky() {
 export function oznacProcviceno(id) {
   p.procviceno[id] = dnes();
   ulozit();
+}
+
+// ---------- denní výzva (D-032): jedna sada 5 otázek na den, jeden pokus, vlastní série dní
+const MAX_ULOZENYCH_VYZEV = 400;
+
+/** Uložená výzva pro datum { ids, odpovedi, spravne, hotovo }, nebo null. */
+export function vyzva(datum = dnes()) {
+  return p.vyzvy[datum] || null;
+}
+
+/** Průběžně uloží rozehranou výzvu (po každé odpovědi). */
+export function ulozVyzvu(datum, ids, odpovedi, spravne) {
+  p.vyzvy[datum] = { ...(p.vyzvy[datum] || {}), ids, odpovedi, spravne, hotovo: false };
+  ulozit();
+}
+
+/** Dokončí výzvu a posune sérii dní výzev. Vrátí aktuální sérii. */
+export function dokonciVyzvu(datum, spravne) {
+  const v = p.vyzvy[datum];
+  if (!v || v.hotovo) return p.vyzvaDny.serie;
+  v.hotovo = true;
+  v.spravne = spravne;
+  const d = p.vyzvaDny;
+  if (d.posledni !== datum) {
+    d.serie = d.posledni === vcera() ? d.serie + 1 : 1;
+    d.posledni = datum;
+    d.nejdelsi = Math.max(d.nejdelsi || 0, d.serie);
+  }
+  const data = Object.keys(p.vyzvy).sort();
+  data.slice(0, Math.max(0, data.length - MAX_ULOZENYCH_VYZEV)).forEach((k) => delete p.vyzvy[k]);
+  ulozit();
+  return d.serie;
+}
+
+/** Aktuální série dní s dokončenou výzvou (přerušená = 0) a nejdelší. */
+export function serieVyzev() {
+  const { posledni, serie, nejdelsi } = p.vyzvaDny;
+  return { serie: posledni === dnes() || posledni === vcera() ? serie : 0, nejdelsi: nejdelsi || 0 };
 }
 
 /** Funkce pokroku pro podmínky odznaků (badges.js) a jejich postup na obrazovce Odznaky. */
