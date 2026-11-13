@@ -42,7 +42,6 @@
   --choice-on: #FFF0F5; --choice-on-shadow: #F3B7CB;
   --ok-shadow: #A9E2C1; --bad-shadow: #F5B5B5;
   --switch-off: #9C7F8E; --neutral: #C9B3A1;
-  --tile-3: #FFD9E5; --tile-3-ink: #2B1630; --tile-4: #D9D3DC; --tile-4-ink: #2B1630;
   --col: 560px;           /* šířka sloupce na PC */
   --pad: 16px;
 }
@@ -67,7 +66,6 @@
   --choice-on: #3E1A2B; --choice-on-shadow: #6B2846;
   --ok-shadow: #1F5A3A; --bad-shadow: #6B2A2D;
   --switch-off: #6E5A76; --neutral: #6E5A76;
-  --tile-3: #8A3A5C; --tile-3-ink: #FFFFFF; --tile-4: #4A3F50; --tile-4-ink: #FFFFFF;
   --trbtn-explain: rgba(255, 255, 255, .12);
   --ok-letter-bg: #8FE3B4; --ok-letter-ink: #10291B; --bad-letter-bg: #C9343B;
 }
@@ -91,8 +89,7 @@
     --choice-on: #3E1A2B; --choice-on-shadow: #6B2846;
     --ok-shadow: #1F5A3A; --bad-shadow: #6B2A2D;
     --switch-off: #6E5A76; --neutral: #6E5A76;
-    --tile-3: #8A3A5C; --tile-3-ink: #FFFFFF; --tile-4: #4A3F50; --tile-4-ink: #FFFFFF;
-    --trbtn-explain: rgba(255, 255, 255, .12);
+      --trbtn-explain: rgba(255, 255, 255, .12);
     --ok-letter-bg: #8FE3B4; --ok-letter-ink: #10291B; --bad-letter-bg: #C9343B;
 }
 }
@@ -259,12 +256,17 @@ p { margin: 0; }
 .tile-name { font-family: var(--font-h); font-weight: 800; font-size: calc(20px * var(--pismo, 1)); line-height: 1.15; overflow-wrap: anywhere; }
 .tile-meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 8px; font-size: calc(14px * var(--pismo, 1)); font-weight: 700; }
 .tile-stars { white-space: nowrap; }
-.tile-0 { background: #FFC53D; color: #2B1630; }
-.tile-1 { background: #C2255C; color: #FFFFFF; }
-.tile-3 { background: var(--tile-3); color: var(--tile-3-ink); }
-.tile-4 { background: var(--tile-4); color: var(--tile-4-ink); }   /* šedá místo bílé (D-024) */
-.tile-zelena { background: #178A4E; color: #FFFFFF; }
-.tile-modra { background: #1F6FCB; color: #FFFFFF; }
+/* barvy dlaždic kategorií (D-029): bez černé a béžové, bílý text, přiděluje kategorie.js */
+.tile[class*="tile-c-"] { color: #FFFFFF; }
+.tile-c-malina { background: #C2255C; }
+.tile-c-zelena { background: #15803D; }
+.tile-c-modra { background: #1D63C9; }
+.tile-c-oranzova { background: #C2410C; }
+.tile-c-fialova { background: #7C3AED; }
+.tile-c-tyrkys { background: #0F766E; }
+.tile-c-cervena { background: #C0262D; }
+.tile-c-indigo { background: #4F46E5; }
+.tile-c-hneda { background: #9A4A12; }
 
 /* ---------- 4. Témata ---------- */
 .cards { display: grid; gap: 12px; }

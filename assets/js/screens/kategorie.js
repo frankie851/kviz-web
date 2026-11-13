@@ -3,11 +3,55 @@
 // hledání témat (D-027, dřív na Domů – D-026): od 2 znaků se místo dlaždic ukážou nalezená témata.
 import { t, jazyk } from "../i18n.js";
 import { h, lista, hvezdyText, ikonaKategorie } from "../ui.js";
-import { viditelneKategorie, viditelnaTemata, txt } from "../data.js";
+import { idx, viditelneKategorie, viditelnaTemata, txt } from "../data.js";
 import { hvezdyKategorie, hvezdyTematu, uzavrenaVKategorii } from "../progress.js";
 
 export const ID = "kategorie";
-const BARVY = 5; // počet barevných stylů dlaždic v CSS (.tile-0 … .tile-4)
+
+// Barvy dlaždic (D-029, nahrazuje D-024): každá kategorie má barvy podle tématu (od nejvhodnější), ostatní
+// kategorie dostanou první barvu z palety. Bez černé a béžové; všechny barvy mají bílý text (kontrast ≥ 5 : 1)
+// a odliší se od světlého (≥ 4,7 : 1) i tmavého pozadí (≈ 3 : 1). Barva se přiděluje postupně podle pořadí
+// kategorií tak, aby se neopakovala u 3 předchozích dlaždic (sousedé vedle i nad sebou ve 2 i 3 sloupcích)
+// a aby ani podobný odstín (stejná „rodina“) nebyl hned vedle nebo nad. Styly .tile-c-<barva> jsou v CSS.
+const PALETA = ["malina", "zelena", "modra", "oranzova", "fialova", "tyrkys", "cervena", "indigo", "hneda"];
+const RODINA = { malina: "cervena", cervena: "cervena", oranzova: "oranzova", hneda: "hneda", zelena: "zelena", tyrkys: "zelena", modra: "modra", indigo: "modra", fialova: "fialova" };
+const BARVY_TEMAT = {
+  historie: ["hneda", "cervena", "indigo"],
+  zemepis: ["modra", "tyrkys", "zelena"],
+  "priroda-a-zvirata": ["zelena", "tyrkys"],
+  "umeni-a-literatura": ["fialova", "malina"],
+  sport: ["oranzova", "zelena", "cervena"],
+  kuriozity: ["fialova", "malina", "modra"],
+  "veda-a-technika": ["tyrkys", "modra", "indigo"],
+  "film-a-tv": ["cervena", "malina", "fialova"],
+  "jidlo-a-piti": ["oranzova", "cervena", "hneda"],
+  hudba: ["malina", "fialova", "indigo"],
+  "lidske-telo": ["cervena", "malina", "oranzova", "tyrkys"],
+  "mytologie-a-nabozenstvi": ["indigo", "fialova"],
+  "jazyk-a-slova": ["tyrkys", "modra", "fialova", "hneda"],
+  cesko: ["zelena", "tyrkys", "modra"], // vlajka je červeno-modro-bílá – na červené nebo modré by splývala
+  vesmir: ["indigo", "modra", "fialova"],
+  "ekonomika-a-penize": ["zelena", "hneda"],
+  vynalezy: ["modra", "indigo", "fialova", "tyrkys"],
+};
+
+let barvy = { index: null, mapa: new Map() };
+/** id kategorie → barva dlaždice (počítá se jednou pro aktuální data). */
+function barvaKategorie(k) {
+  if (barvy.index !== idx()) {
+    const mapa = new Map();
+    const pred = [];
+    for (const kat of viditelneKategorie()) {
+      const vhodne = [...(BARVY_TEMAT[kat.id] || []), ...PALETA];
+      const ok = (b) => !pred.slice(-3).includes(b) && !pred.slice(-2).some((x) => RODINA[x] === RODINA[b]);
+      const b = vhodne.find(ok) || vhodne.find((x) => !pred.slice(-1).includes(x)) || PALETA[0];
+      mapa.set(kat.id, b);
+      pred.push(b);
+    }
+    barvy = { index: idx(), mapa };
+  }
+  return barvy.mapa.get(k.id) || PALETA[0];
+}
 const MAX_VYSLEDKU = 30;
 const MIN_ZNAKU = 2;
 
@@ -17,12 +61,12 @@ let hledani = ""; // pamatuje se po dobu otevřené stránky – po návratu z t
 const norm = (s) => String(s || "").normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
 
 /** Dlaždice kategorie: x / t = témata, ve kterých už nejde pokračovat / všechna témata kategorie. */
-export function dlazdiceKategorie(k, i) {
+export function dlazdiceKategorie(k) {
   const hv = hvezdyKategorie(k);
   const u = uzavrenaVKategorii(k);
   return h(
     "a",
-    { class: `tile tile-${i % BARVY}`, href: `#/kategorie/${k.id}`, "data-kategorie": k.id },
+    { class: `tile tile-c-${barvaKategorie(k)}`, href: `#/kategorie/${k.id}`, "data-kategorie": k.id, "data-barva": barvaKategorie(k) },
     ikonaKategorie(k),
     h("span", { class: "tile-name", text: txt(k.nazev, jazyk()) }),
     h("span", { class: "tile-meta" },
