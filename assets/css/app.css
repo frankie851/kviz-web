@@ -42,6 +42,8 @@
   --choice-on: #FFF0F5; --choice-on-shadow: #F3B7CB;
   --ok-shadow: #A9E2C1; --bad-shadow: #F5B5B5;
   --switch-off: #9C7F8E; --neutral: #C9B3A1;
+  --tile-ink: #1A1020;
+  --tc-malina: #F8C3D6; --tc-zelena: #B5E3C5; --tc-modra: #BDD7F7; --tc-oranzova: #FAD0AE; --tc-fialova: #DDCDFA; --tc-tyrkys: #AEE0D9; --tc-cervena: #F8C2C3; --tc-hneda: #EDB9A2;
   --col: 560px;           /* šířka sloupce na PC */
   --pad: 16px;
 }
@@ -67,6 +69,8 @@
   --ok-shadow: #1F5A3A; --bad-shadow: #6B2A2D;
   --switch-off: #6E5A76; --neutral: #6E5A76;
   --trbtn-explain: rgba(255, 255, 255, .12);
+  --tile-ink: #FFFFFF;
+  --tc-malina: #6E2A44; --tc-zelena: #1F5A3A; --tc-modra: #24466F; --tc-oranzova: #7A4421; --tc-fialova: #4A3577; --tc-tyrkys: #1C5652; --tc-cervena: #702A2E; --tc-hneda: #5E4128;
   --ok-letter-bg: #8FE3B4; --ok-letter-ink: #10291B; --bad-letter-bg: #C9343B;
 }
 @media (prefers-color-scheme: dark) {
@@ -90,6 +94,8 @@
     --ok-shadow: #1F5A3A; --bad-shadow: #6B2A2D;
     --switch-off: #6E5A76; --neutral: #6E5A76;
       --trbtn-explain: rgba(255, 255, 255, .12);
+      --tile-ink: #FFFFFF;
+      --tc-malina: #6E2A44; --tc-zelena: #1F5A3A; --tc-modra: #24466F; --tc-oranzova: #7A4421; --tc-fialova: #4A3577; --tc-tyrkys: #1C5652; --tc-cervena: #702A2E; --tc-hneda: #5E4128;
     --ok-letter-bg: #8FE3B4; --ok-letter-ink: #10291B; --bad-letter-bg: #C9343B;
 }
 }
@@ -256,16 +262,17 @@ p { margin: 0; }
 .tile-name { font-family: var(--font-h); font-weight: 800; font-size: calc(20px * var(--pismo, 1)); line-height: 1.15; overflow-wrap: anywhere; }
 .tile-meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 8px; font-size: calc(14px * var(--pismo, 1)); font-weight: 700; }
 .tile-stars { white-space: nowrap; }
-/* barvy dlaždic kategorií (D-029, světlé odstíny D-030): bez černé, bílé a béžové, tmavý text, přiděluje kategorie.js */
-.tile[class*="tile-c-"] { color: #1A1020; }
-.tile-c-malina { background: #F29BBB; }
-.tile-c-zelena { background: #86D3A2; }
-.tile-c-modra { background: #93BEF2; }
-.tile-c-oranzova { background: #F7B27F; }
-.tile-c-fialova { background: #C4AAF6; }
-.tile-c-tyrkys { background: #7FCDC3; }
-.tile-c-cervena { background: #F39A9D; }
-.tile-c-hneda { background: #D9A47A; }
+/* barvy dlaždic kategorií (D-029, D-030, D-031): bez černé, bílé a béžové; barvy a text z proměnných --tc-* / --tile-ink
+   (světlý režim jemné pastely s tmavým textem, tmavý režim tlumené tmavé odstíny s bílým textem); přiděluje kategorie.js */
+.tile[class*="tile-c-"] { color: var(--tile-ink); }
+.tile-c-malina { background: var(--tc-malina); }
+.tile-c-zelena { background: var(--tc-zelena); }
+.tile-c-modra { background: var(--tc-modra); }
+.tile-c-oranzova { background: var(--tc-oranzova); }
+.tile-c-fialova { background: var(--tc-fialova); }
+.tile-c-tyrkys { background: var(--tc-tyrkys); }
+.tile-c-cervena { background: var(--tc-cervena); }
+.tile-c-hneda { background: var(--tc-hneda); }
 
 /* ---------- 4. Témata ---------- */
 .cards { display: grid; gap: 12px; }
@@ -431,6 +438,20 @@ a.diff:active { transform: translateY(2px); }
 .hit-name { font-family: var(--font-h); font-weight: 800; font-size: calc(18px * var(--pismo, 1)); line-height: 1.2; overflow-wrap: anywhere; }
 .hit-meta { color: var(--muted); font-size: calc(14px * var(--pismo, 1)); font-weight: 700; }
 .empty-hledani { text-align: center; color: var(--muted); padding: 16px 8px; }
+
+/* ---------- Procvičování chyb (D-031) ---------- */
+.procvic-btn { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 12px; margin-bottom: 14px;
+  text-decoration: none; color: var(--ink); box-shadow: 0 0 0 2px var(--primary) inset, var(--shadow-soft); }
+.procvic-btn-ico { font-size: calc(30px * var(--pismo, 1)); line-height: 1; }
+.procvic-btn-body { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.procvic-btn-name { font-family: var(--font-h); font-weight: 800; font-size: calc(19px * var(--pismo, 1)); line-height: 1.15; }
+.procvic-btn-meta { color: var(--muted); font-size: calc(14px * var(--pismo, 1)); font-weight: 700; }
+.procvic-nic { text-align: center; color: var(--muted); font-weight: 700; margin: 0 0 14px; }
+.procvic-tema { display: flex; align-items: center; gap: 6px; margin: 0 0 8px; color: var(--muted); font-size: calc(14px * var(--pismo, 1)); font-weight: 700; }
+.procvic-ico { font-size: calc(16px * var(--pismo, 1)); line-height: 1; }
+.procvic-konec { text-align: center; display: grid; gap: 10px; }
+.procvic-konec .res-title { font-family: var(--font-h); margin: 0; }
+.procvic-zbyva { color: var(--muted); font-weight: 700; margin: 0 0 6px; }
 
 /* ---------- Témata: filtr (D-026) ---------- */
 .chips { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; margin: 0 0 14px; }

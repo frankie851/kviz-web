@@ -2,7 +2,7 @@
 // statistiky a odznaky. Ukládá se jen v prohlížeči. Hvězdy se počítají v půlhvězdách (0–10).
 import { nacti, uloz } from "./storage.js";
 import { pulhvezdy, odemyka, stavObtiznosti, dalsiObtiznost, dnes, vcera, MAX_HVEZD } from "./game.js";
-import { najdiTema, viditelneObtiznosti, viditelnaTemata, viditelneKategorie, vsechnaTemata } from "./data.js";
+import { najdiTema, nactiTema, viditelneObtiznosti, viditelnaTemata, viditelneKategorie, vsechnaTemata } from "./data.js";
 import { vsechnyOdznaky, odznak } from "./badges.js";
 
 const VERZE = 2; // verze 1 (3 hvězdy, opakování kol) se zahazuje – DECISIONS D-013
@@ -13,6 +13,7 @@ const PRAZDNY = () => ({
   dny: { posledni: null, serie: 0, nejdelsi: 0 },
   stat: { kol: 0, nejdelsiRada: 0 },
   odznaky: {},
+  procviceno: {}, // id otázky → datum, kdy ji hráč v procvičování zodpověděl správně (D-031)
 });
 
 let p = normalizuj(nacti("pokrok", null));
@@ -28,6 +29,7 @@ function normalizuj(x) {
     dny: { ...z.dny, ...obj(x.dny, {}) },
     stat: { ...z.stat, ...obj(x.stat, {}) },
     odznaky: obj(x.odznaky, z.odznaky),
+    procviceno: obj(x.procviceno, z.procviceno),
   };
 }
 
@@ -167,6 +169,39 @@ export function pokracovani() {
     if (obt) return { info, obt, rozehrane: false };
   }
   return null;
+}
+
+/**
+ * Procvičování chyb (D-031): otázky, na které hráč odpověděl špatně v dohraných i rozehraných kolech
+ * (témata na webu) a které ještě v procvičování nezodpověděl správně. Vrací [{ q, info }] bez opakování.
+ */
+export async function chybneOtazky() {
+  const odpovedi = []; // [temaId, idOtazky, volba]
+  for (const [temaId, obt] of Object.entries(p.vysledky)) {
+    for (const v of Object.values(obt || {})) for (const [id, k] of v?.odpovedi || []) odpovedi.push([temaId, id, k]);
+  }
+  for (const [klicKola, kolo] of Object.entries(p.rozehrano || {})) {
+    const temaId = klicKola.split("|")[0];
+    for (const [id, k] of kolo?.odpovedi || []) odpovedi.push([temaId, id, k]);
+  }
+  const temata = [...new Set(odpovedi.map(([t]) => t))].filter((t) => najdiTema(t));
+  const data = new Map();
+  await Promise.all(temata.map(async (t) => {
+    try { data.set(t, await nactiTema(t)); } catch { /* téma se nenačetlo – jeho chyby se tentokrát neukážou */ }
+  }));
+  const vysl = new Map();
+  for (const [temaId, id, k] of odpovedi) {
+    if (vysl.has(id) || p.procviceno[id]) continue;
+    const q = data.get(temaId)?.otazky.find((x) => x.id === id);
+    if (q && k !== q.spravne) vysl.set(id, { q, info: najdiTema(temaId) });
+  }
+  return [...vysl.values()];
+}
+
+/** Otázka zodpovězená v procvičování správně – ze seznamu chyb zmizí. */
+export function oznacProcviceno(id) {
+  p.procviceno[id] = dnes();
+  ulozit();
 }
 
 /** Funkce pokroku pro podmínky odznaků (badges.js) a jejich postup na obrazovce Odznaky. */

@@ -1,8 +1,8 @@
 # HANDOFF – Kvízová webová aplikace
-datum: 2026-11-14 · předává: prompt 01 (D-030 světlejší barvy kategorií, prostředí A) · přebírá: David (sloučit pull request, vyzkoušet)
+datum: 2026-11-14 · předává: prompt 01 (D-031 barvy, Procvičit chyby, prostředí A) · přebírá: David (sloučit pull request, vyzkoušet)
 
 ## Stav jednou větou
-Web je online s funkcemi do D-029 (sloučeno). V pull requestu čeká D-030: světlejší barvy dlaždic kategorií s černým textem a ohraničení Všech kategorií jako u Pokračuj.
+Web je online s funkcemi do D-030 (sloučeno). V pull requestu čeká D-031: jemnější barvy dlaždic (tmavé v tmavém režimu), Procvičit chyby v Historii a „Vyber si téma“ pod filtrem.
 
 ## Stav dat
 - 2026-11-04 – 35 otázek, 1 téma (T001 Chobotnice a další hlavonožci), režim vzorek
@@ -52,6 +52,8 @@ Web je online s funkcemi do D-029 (sloučeno). V pull requestu čeká D-030: sv�
 
 - D-030 (2026-11-14): světlejší odstíny dlaždic, černý text, ohraničení Všech kategorií; náhled `docs/nahledy/d030-svetle-barvy.png`.
 
+- D-031 (2026-11-14): jemnější pastely / tmavé dlaždice v tmavém režimu, Procvičit chyby, „Vyber si téma“ pod filtrem; `pruchod.py` 178 kontrol; náhled `docs/nahledy/d031-barvy-procvicovani.png`.
+
 ## Rozpracováno
 - ~~Volba barev pruhů~~ – David vybral B (plná zelená a červená), nastaveno (D-023).
 - **Posun k Další na skutečném telefonu** ověří David (v emulaci prošlo; rezerva po D-023 je 6 % výšky / max 40 px – kdyby nestačila nebo byla moc, upravit v `hra.js` `ukazDalsi`).
@@ -61,8 +63,8 @@ Web je online s funkcemi do D-029 (sloučeno). V pull requestu čeká D-030: sv�
 - **Náhled odkazu** ověří až sdílení nasazené adresy (např. poslat si odkaz ve WhatsAppu/Messengeru). Sítě si náhled pamatují – kdyby ukazovaly starou zástupnou stránku, chce to chvíli počkat.
 
 ## Další krok
-1. **David:** sloučit pull request s D-030 a podívat se na barvy kategorií na Domů a ve Všech kategoriích (světle i tmavě).
-2. **Zbylé návrhy z 2026-11-12** (David zatím nevybral): 4 Procvičit chyby; mimo rozsah 1. verze (potřebují souhlas): 7 Denní výzva, 8 Sdílet výsledek, 9 Instalace na plochu / offline; 10 Nahlásit chybu v otázce (potřebuje rozhodnutí o službě – e-mail by zveřejnil adresu, formulář = registrace).
+1. **David:** sloučit pull request s D-031 a vyzkoušet na mobilu (barvy světle i tmavě, Historie → Procvičit chyby).
+2. **Zbylé návrhy z 2026-11-12** (David zatím nevybral) – mimo rozsah 1. verze (potřebují souhlas): 7 Denní výzva, 8 Sdílet výsledek, 9 Instalace na plochu / offline; 10 Nahlásit chybu v otázce (potřebuje rozhodnutí o službě – e-mail by zveřejnil adresu, formulář = registrace).
 2. **Další témata (kdykoli):** v Excelu označit Web = Ano (u celého tématu stačí list Témata, D-017), uložit, zavřít; pak **prompt 03** v úkolu propojeném s počítačem (prostředí B). Prompt 03 po exportu spustí `python3 tools/pruchod.py`.
 3. Body „K zvážení“ z kontroly: K4 hotovo (D-018), K1 = krok 2, K2 a K3 beze změny (David nic nežádal), K5 jen informace. Kdyby David chtěl K2/K3 přece změnit, udělá to prompt 01.
 
@@ -72,6 +74,7 @@ Web je online s funkcemi do D-029 (sloučeno). V pull requestu čeká D-030: sv�
 - `tools/pruchod.py`: 1. běh selhal na varování o preload písem, 2. běh prošel – viz nález D-1.
 
 ## Připomínky Davida (k zapracování)
+- 2026-11-14 – „ještě méně kontrastu; v tmavém režimu barvy ztmavit a text bílý; návrh 4 procvičení špatných odpovědí s tlačítkem nahoře v Historii; Vyber si téma pod filtry“ → **zapracováno** (D-031).
 - 2026-11-14 – „až moc kontrastní; světlejší odstíny, černý text, bez černé/bílé/béžové; Všechny kategorie ohraničit jako Pokračuj“ → **zapracováno** (D-030).
 - 2026-11-14 – „rozházely se barvy z předchozí verze; černou a béžovou jako pozadí nepoužívat; barvy k tématu, v kontrastu s pozadím a obrázkem, stejné ne vedle sebe“ → **zapracováno** (D-029).
 - 2026-11-13 – „udělej ještě návrh 5 a 6“ (náhodné téma; tmavý režim a velikost písma) → **zapracováno** (D-028).

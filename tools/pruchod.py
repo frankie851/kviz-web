@@ -917,6 +917,8 @@ def scenar_d026(browser, zaklad, hlidac, index, otazky, vystup=None):
         jdi(page, zaklad, f'#/kategorie/{kat["id"]}')
         pocty = {f: page.inner_text(f'[data-filtr="{f}"] .chip-n') for f in ("vse", "nehrane", "rozehrane", "hotove")}
         n = page.locator(".topic").count()
+        over(page.evaluate("document.querySelector('.chips').compareDocumentPosition(document.querySelector('.lead-ikona')) & 4") > 0,
+             "„Vyber si téma“ je pod filtrem (D-031)")
         over(pocty == {"vse": str(n), "nehrane": str(n - 2), "rozehrane": "1", "hotove": "1"}, f"filtr: počty {pocty}")
         page.click('[data-filtr="hotove"]')
         vid = [x for x in page.eval_on_selector_all(".topic", "els => els.filter(e => !e.hidden).map(e => e.dataset.tema)")]
@@ -1012,6 +1014,11 @@ def scenar_d028(browser, zaklad, hlidac, index, otazky, temata, vystup=None):
     page.click('[aria-labelledby="nast-vzhled"] [data-hodnota="tmavy"]')
     page.wait_for_timeout(100)
     over(pozadi(page) == TMAVE and page.get_attribute("html", "data-vzhled") == "tmavy", "Tmavý: tmavé pozadí hned")
+    jdi(page, zaklad, "#/kategorie")
+    dl = page.eval_on_selector_all(".tiles .tile[data-kategorie]", """els => els.map(e => { const c = getComputedStyle(e);
+        const [r, g, b] = c.backgroundColor.match(/\\d+/g).map(Number); return [c.color, (0.2126 * r + 0.7152 * g + 0.0722 * b) / 255]; })""")
+    over(dl and all(c == "rgb(255, 255, 255)" and jas < 0.4 for c, jas in dl), "tmavý režim: dlaždice kategorií tmavé s bílým textem (D-031)")
+    jdi(page, zaklad, "#/nastaveni")
     page.click('[aria-labelledby="nast-pismo"] [data-hodnota="nejvetsi"]')
     page.wait_for_timeout(100)
     over(page.evaluate("getComputedStyle(document.body).fontSize") == "22.1px", "Největší písmo: 17 px × 1,3")
@@ -1052,6 +1059,68 @@ def scenar_d028(browser, zaklad, hlidac, index, otazky, temata, vystup=None):
     page.click('[aria-labelledby="nast-vzhled"] [data-hodnota="svetly"]')
     page.wait_for_timeout(100)
     over(pozadi(page) == SVETLE, "volba Světlý přebije tmavý telefon")
+    ctx.close()
+
+
+def scenar_procvicovani(browser, zaklad, hlidac, temata, otazky, vystup=None):
+    """D-031: Procvičit chyby – z dohraných i rozehraných kol, výsledky se nemění, správné odpovědi ze seznamu zmizí."""
+    print("Procvičování chyb (D-031):")
+    (_, A), (_, B) = temata[0], temata[1]
+    dA = json.loads((KOREN / "data" / A["soubor"]).read_text(encoding="utf-8"))
+    dB = json.loads((KOREN / "data" / B["soubor"]).read_text(encoding="utf-8"))
+    qa = [q for q in dA["otazky"] if str(q["obtiznost"]) == "1"][:3]
+    qb = [q for q in dB["otazky"] if str(q["obtiznost"]) == "1"][:2]
+    spatne = lambda q: (q["spravne"] + 1) % 4
+    pk = {"verze": 2, "rozehrano": {f'{B["id"]}|1': {"poradi": [q["id"] for q in qb], "odpovedi": [[qb[0]["id"], spatne(qb[0])]], "rada": 0, "nejdelsiRada": 0,
+                                                     "prekladOtevren": False, "ziskaneBehem": [], "j": "cs", "spravne": 0, "cas": 1}},
+          "vysledky": {A["id"]: {"1": {"s": 1, "c": 3, "pul": 3, "datum": "2026-11-01", "j": "cs", "r": 1, "cas": 1,
+                                       "odpovedi": [[qa[0]["id"], qa[0]["spravne"]], [qa[1]["id"], spatne(qa[1])], [qa[2]["id"], spatne(qa[2])]]}}},
+          "dny": {"posledni": None, "serie": 0, "nejdelsi": 0}, "stat": {"kol": 1, "nejdelsiRada": 1}, "odznaky": {}}
+    ctx = browser.new_context(viewport={"width": 320, "height": 640}, locale="cs-CZ")
+    page = ctx.new_page()
+    page.set_default_timeout(8000)
+    hlidac.pripoj(page)
+    page.goto(zaklad)
+    page.evaluate("([n, p]) => { localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(n)); localStorage.setItem('kviz.v1.pokrok', JSON.stringify(p)); }",
+                  [{"ui": "cs", "otazky": "cs", "preklad": "vzdy", "zvuky": False, "vibrace": False}, pk])
+    page.reload()
+    jdi(page, zaklad, "#/historie")
+    page.wait_for_selector("[data-test=procvicit]")
+    over("3 otázky s chybnou odpovědí" in page.inner_text("[data-test=procvicit]")
+         and page.evaluate("document.querySelector('[data-test=procvicit]').compareDocumentPosition(document.querySelector('.hist')) & 4") > 0,
+         "Historie: nahoře „Procvičit chyby – 3 otázky“ (2 z dohraného, 1 z rozehraného kola)")
+    vysl_pred = page.evaluate("JSON.parse(localStorage.getItem('kviz.v1.pokrok')).vysledky")
+    page.click("[data-test=procvicit]")
+    page.wait_for_selector(".qcard")
+    ids_chyb = {qa[1]["id"], qa[2]["id"], qb[0]["id"]}
+    vidno = []
+    for i in range(3):
+        vidno.append(page.get_attribute(".qcard", "data-qid"))
+        zodpovez(page, otazky, spravne=(i != 0))  # první špatně, další dvě správně
+        p_ = pretekani(page)
+        if p_:
+            chyba(f"procvičování na 320 px přetéká: {p_}")
+        dalsi(page)
+    page.wait_for_selector("[data-test=procvic-konec]")
+    over(set(vidno) == ids_chyb, "procvičují se přesně chybně zodpovězené otázky")
+    over("2 / 3" in page.inner_text("[data-test=procvic-konec]") and "zbývá 1 otázka" in page.inner_text("[data-test=procvic-zbyva]"),
+         "konec: 2 / 3 správně, k procvičení zbývá 1 otázka")
+    if vystup:
+        vystup.mkdir(parents=True, exist_ok=True)
+        page.screenshot(path=str(vystup / "d031-procvic-konec-320.png"))
+    over(page.evaluate("JSON.parse(localStorage.getItem('kviz.v1.pokrok')).vysledky") == vysl_pred, "výsledky a hvězdy se procvičováním nezměnily")
+    page.click("[data-test=procvic-znovu]")
+    page.wait_for_selector(".qcard")
+    over(page.get_attribute(".qcard", "data-qid") == vidno[0] and page.inner_text("[data-test=pocitadlo]").replace(" ", "") == "1/1",
+         "Procvičit další: zbylá 1 otázka")
+    zodpovez(page, otazky, spravne=True)
+    dalsi(page)
+    page.wait_for_selector("[data-test=procvic-konec]")
+    over("procvičené" in page.inner_text("[data-test=procvic-zbyva]"), "všechny chyby procvičené")
+    jdi(page, zaklad, "#/historie")
+    page.wait_for_selector("[data-test=procvicit-nic]")
+    ok("Historie: „Žádné chyby k procvičení“")
+    bez_chybejicich_textu(page, "Historie (procvičování)")
     ctx.close()
 
 
@@ -1161,6 +1230,7 @@ def main():
             lambda: scenar_zvuku(page, zaklad, otazky, tema3["id"]),
             lambda: scenar_omezit_pohyb(browser, zaklad, hlidac, otazky, tema["id"]),
             lambda: scenar_statistik(browser, zaklad, hlidac, temata),
+            lambda: scenar_procvicovani(browser, zaklad, hlidac, temata, otazky, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d028(browser, zaklad, hlidac, index, otazky, temata, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d026(browser, zaklad, hlidac, index, otazky, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_razeni_kategorii(browser, zaklad, hlidac, index, None if args.bez_screenshotu else Path(args.vystup)),

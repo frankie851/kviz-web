@@ -69,8 +69,8 @@ export function vykresli([katId]) {
     "main",
     { class: "screen" },
     lista({ zpet: "#/", nadpis: txt(kat.nazev, jazyk()) }),
+    filtrEl, // filtr nahoře, „Vyber si téma“ pod ním (D-031)
     h("p", { class: "lead lead-center lead-ikona" }, ikonaKategorie(kat, "lead-ico"), h("span", { text: t("temata.vyberTema") })),
-    filtrEl,
     h("div", { class: "cards" }, karty),
     prazdne
   );

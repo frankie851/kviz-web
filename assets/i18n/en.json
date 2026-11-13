@@ -345,5 +345,24 @@
       "one": "including answers from {n} round in progress",
       "other": "including answers from {n} rounds in progress"
     }
+  },
+  "procvic": {
+    "nadpis": "Practise mistakes",
+    "tlacitko": "Practise mistakes",
+    "pocet": {
+      "one": "{n} question answered wrongly",
+      "other": "{n} questions answered wrongly"
+    },
+    "zadne": "No mistakes to practise – great! 🎉",
+    "konec": "Done",
+    "hotovo": "Practised!",
+    "spravne": "correct",
+    "zbyva": {
+      "one": "{n} question left to practise.",
+      "other": "{n} questions left to practise."
+    },
+    "vseHotovo": "You've practised all your mistakes 🎉",
+    "dalsiKolo": "Practise more",
+    "zpet": "Back to history"
   }
 }

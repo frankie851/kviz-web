@@ -1,12 +1,13 @@
 // Historie – všechna dohraná kola (nejnovější nahoře); každé vede na přehled odpovědí (D-013).
+// Nahoře tlačítko Procvičit chyby s počtem chybně zodpovězených otázek (D-031).
 import { t, jazyk } from "../i18n.js";
 import { h, lista, hvezdicky, ikonaKategorie } from "../ui.js";
 import { najdiTema, txt } from "../data.js";
-import { pokrok } from "../progress.js";
+import { pokrok, chybneOtazky } from "../progress.js";
 
 export const ID = "historie";
 
-export function vykresli() {
+export async function vykresli() {
   const polozky = [];
   for (const [temaId, obtiznosti] of Object.entries(pokrok().vysledky)) {
     const info = najdiTema(temaId);
@@ -28,10 +29,21 @@ export function vykresli() {
         h("p", { text: t("historie.prazdna") }),
         h("a", { class: "btn btn-primary btn-big", href: "#/", text: t("statistiky.hrat") }));
 
+  const chyb = polozky.length || Object.keys(pokrok().rozehrano || {}).length ? (await chybneOtazky()).length : 0;
+  const procvic = !polozky.length && !chyb ? null : chyb
+    ? h("a", { class: "card procvic-btn", href: "#/procvicovani", "data-test": "procvicit" },
+        h("span", { class: "procvic-btn-ico", "aria-hidden": "true", text: "🎯" }),
+        h("span", { class: "procvic-btn-body" },
+          h("span", { class: "procvic-btn-name", text: t("procvic.tlacitko") }),
+          h("span", { class: "procvic-btn-meta", text: t("procvic.pocet", { n: chyb }) })),
+        h("span", { class: "pokracuj-go", "aria-hidden": "true", text: "▶" }))
+    : h("p", { class: "procvic-nic", "data-test": "procvicit-nic", text: t("procvic.zadne") });
+
   const el = h(
     "main",
     { class: "screen" },
     lista({ zpet: "#/", nadpis: t("historie.nadpis") }),
+    procvic,
     polozky.length ? h("p", { class: "lead lead-center", text: t("historie.popis") }) : null,
     obsah
   );
