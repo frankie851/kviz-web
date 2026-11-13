@@ -9,7 +9,7 @@ import { nacti, uloz } from "../storage.js";
 import { odznak, nazevOdznaku } from "../badges.js";
 import { sdilej, adresaWebu, hvezdyTextem } from "../sdileni.js";
 import { odkazSouboje } from "./souboj.js";
-import { vysledek as ulozenyVysledek } from "../progress.js";
+import { vysledek as ulozenyVysledek, urovenHrace } from "../progress.js";
 import { zvuk, vibrace } from "../feedback.js";
 import { konfety, zastavKonfety } from "../oslavy.js";
 
@@ -57,6 +57,12 @@ export function vykresli() {
           h("span", { "aria-hidden": "true", text: "⛔ " }), t("vysledek.natrvalo", { obtiznost: dalsiNazev }))
       : null,
     !v.dalsi ? h("p", { class: "hint", text: t("vysledek.temaHotovo") }) : null,
+    // body, nová úroveň a splněný týdenní cíl (D-034)
+    typeof v.body === "number" ? h("p", { class: "badge-line badge-body", "data-test": "body", text: t("uroven.plusBody", { n: v.body }) }) : null,
+    v.novaUroven
+      ? h("p", { class: "badge-line badge-uroven", "data-test": "nova-uroven", text: t("uroven.nova", { n: v.novaUroven, titul: t(`uroven.titul.${urovenHrace().titul}`) }) })
+      : null,
+    v.tydenSplnen ? h("p", { class: "badge-line badge-tyden", "data-test": "tyden-splnen", text: t("tyden.splnenVysledek", { n: v.tydenSplnen }) }) : null,
     nove.length
       ? h("section", { class: "new-badges", "data-test": "nove-odznaky" },
           h("h2", { text: t("vysledek.noveOdznaky", { n: nove.length }) }),

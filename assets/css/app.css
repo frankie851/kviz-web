@@ -439,6 +439,21 @@ a.diff:active { transform: translateY(2px); }
 .hit-meta { color: var(--muted); font-size: calc(14px * var(--pismo, 1)); font-weight: 700; }
 .empty-hledani { text-align: center; color: var(--muted); padding: 16px 8px; }
 
+/* ---------- Úroveň a týdenní cíl (D-034) ---------- */
+.postup-karta { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 14px; align-items: center; margin-bottom: 12px; }
+.uroven { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.uroven-titul { font-family: var(--font-h); font-weight: 800; font-size: calc(20px * var(--pismo, 1)); line-height: 1.1; }
+.uroven-body { color: var(--muted); font-size: calc(13px * var(--pismo, 1)); font-weight: 700; }
+.tyden { display: flex; flex-direction: column; align-items: center; gap: 2px; text-align: center; min-width: 88px; }
+.tyden-kruh { --p: 0; width: 62px; height: 62px; border-radius: 50%; display: grid; place-items: center;
+  background: radial-gradient(closest-side, var(--surface) 76%, transparent 78% 100%), conic-gradient(var(--ok) calc(var(--p) * 1%), var(--track) 0); }
+.tyden-kruh b { font-family: var(--font-h); font-size: calc(17px * var(--pismo, 1)); line-height: 1; }
+.tyden.is-splneno .tyden-kruh b { color: var(--ok-ink); font-size: calc(24px * var(--pismo, 1)); }
+.tyden-popis { font-weight: 800; font-size: calc(13px * var(--pismo, 1)); line-height: 1.15; }
+.tyden-pod { color: var(--muted); font-size: calc(12px * var(--pismo, 1)); font-weight: 700; line-height: 1.15; }
+.badge-body { background: var(--streak-bg); color: var(--streak-ink); }
+.badge-uroven, .badge-tyden { background: var(--ok-bg); color: var(--ok-ink); }
+
 /* ---------- Denní výzva a sdílení (D-032) ---------- */
 .vyzva-karta { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 12px; margin-bottom: 12px;
   text-decoration: none; color: var(--ink); box-shadow: 0 0 0 2px var(--sun) inset, var(--shadow-soft); }

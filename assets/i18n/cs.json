@@ -380,7 +380,9 @@
       "many": "včetně odpovědí z {n} rozehraného kola",
       "other": "včetně odpovědí z {n} rozehraných kol"
     },
-    "vyzvy": "Denní výzvy (nejdelší série)"
+    "vyzvy": "Denní výzvy (nejdelší série)",
+    "uroven": "Úroveň",
+    "tyden": "Týdenní cíl (série)"
   },
   "procvic": {
     "nadpis": "Procvičování chyb",
@@ -465,5 +467,63 @@
     },
     "potvrditAno": "Nahrát a nahradit",
     "potvrditNe": "Zrušit"
+  },
+  "uroven": {
+    "nadpis": "Úroveň {n}",
+    "body": "{b} / {do} bodů do úrovně {n}",
+    "plusBody": "⭐ +{n} bodů",
+    "nova": "⬆️ Nová úroveň {n} – {titul}!",
+    "bodu": {
+      "one": "{n} bod",
+      "few": "{n} body",
+      "many": "{n} bodu",
+      "other": "{n} bodů"
+    },
+    "titul": {
+      "zvedavec": "Zvědavec",
+      "nadsenec": "Nadšenec",
+      "znalec": "Znalec",
+      "expert": "Expert",
+      "mistr": "Mistr",
+      "mudrc": "Mudrc",
+      "legenda": "Legenda"
+    }
+  },
+  "tyden": {
+    "nadpis": "Týdenní cíl",
+    "aria": "Tento týden {h} z {c} kol",
+    "splneno": "Splněno! 🎉",
+    "serie": {
+      "one": "🔥 {n} týden v řadě",
+      "few": "🔥 {n} týdny v řadě",
+      "many": "🔥 {n} týdne v řadě",
+      "other": "🔥 {n} týdnů v řadě"
+    },
+    "zbyva": {
+      "one": "zbývá {n} den",
+      "few": "zbývají {n} dny",
+      "many": "zbývá {n} dne",
+      "other": "zbývá {n} dní"
+    },
+    "tydnu": {
+      "one": "{n} týden",
+      "few": "{n} týdny",
+      "many": "{n} týdne",
+      "other": "{n} týdnů"
+    },
+    "splnenVysledek": {
+      "one": "🎯 Týdenní cíl splněn – {n} kolo!",
+      "few": "🎯 Týdenní cíl splněn – {n} kola!",
+      "many": "🎯 Týdenní cíl splněn – {n} kola!",
+      "other": "🎯 Týdenní cíl splněn – {n} kol!"
+    },
+    "nastaveniNadpis": "Týdenní cíl",
+    "nastaveniPopis": "Kolik kol chceš dohrát za týden (pondělí–neděle)",
+    "kol": {
+      "one": "{n} kolo",
+      "few": "{n} kola",
+      "many": "{n} kola",
+      "other": "{n} kol"
+    }
   }
 }

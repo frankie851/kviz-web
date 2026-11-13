@@ -1,7 +1,8 @@
 // Pokrok hráče: výsledky (každá obtížnost se hraje jen jednou), rozehraná kola, série dní,
 // statistiky a odznaky. Ukládá se jen v prohlížeči. Hvězdy se počítají v půlhvězdách (0–10).
 import { nacti, uloz } from "./storage.js";
-import { pulhvezdy, odemyka, stavObtiznosti, dalsiObtiznost, dnes, vcera, MAX_HVEZD } from "./game.js";
+import { nast } from "./settings.js";
+import { pulhvezdy, odemyka, stavObtiznosti, dalsiObtiznost, dnes, vcera, MAX_HVEZD, BODY_ZA_OTAZKU, BODY_VYZVA, uroven, pondeli, pondeliPred } from "./game.js";
 import { najdiTema, nactiTema, viditelneObtiznosti, viditelnaTemata, viditelneKategorie, vsechnaTemata } from "./data.js";
 import { vsechnyOdznaky, odznak } from "./badges.js";
 
@@ -246,6 +247,46 @@ export function serieVyzev() {
   return { serie: posledni === dnes() || posledni === vcera() ? serie : 0, nejdelsi: nejdelsi || 0 };
 }
 
+// ---------- úroveň hráče a týdenní cíl (D-034) – počítá se z uložených výsledků, takže platí i zpětně
+/** Body: správné odpovědi v dohraných i rozehraných kolech (podle obtížnosti) + dokončené denní výzvy. */
+export function bodyHrace() {
+  let body = 0;
+  for (const obt of Object.values(p.vysledky)) {
+    for (const [o, v] of Object.entries(obt || {})) body += (v?.s || 0) * (BODY_ZA_OTAZKU[o] || 10);
+  }
+  for (const [k, kolo] of Object.entries(p.rozehrano || {})) {
+    if (typeof kolo?.spravne === "number") body += kolo.spravne * (BODY_ZA_OTAZKU[k.split("|")[1]] || 10);
+  }
+  for (const v of Object.values(p.vyzvy || {})) if (v?.hotovo) body += (v.spravne || 0) * BODY_VYZVA;
+  return body;
+}
+
+export function urovenHrace() {
+  return uroven(bodyHrace());
+}
+
+/** Počet dohraných kol v týdnu začínajícím daným pondělím. */
+function kolVTydnu(pondeliTydne) {
+  const [r, m, d] = pondeliTydne.split("-").map(Number);
+  const nedele = dnes(new Date(r, m - 1, d + 6, 12));
+  let n = 0;
+  for (const obt of Object.values(p.vysledky)) {
+    for (const v of Object.values(obt || {})) if (v?.datum && v.datum >= pondeliTydne && v.datum <= nedele) n += 1;
+  }
+  return n;
+}
+
+export const TYDENNI_CILE = [3, 5, 10];
+
+/** { hotovo, cil, splneno, serie } – série = týdny v řadě se splněným cílem (aktuální se počítá, jen když je splněný). */
+export function tydenniCil() {
+  const cil = TYDENNI_CILE.includes(nast().tydenniCil) ? nast().tydenniCil : 5;
+  const hotovo = kolVTydnu(pondeli());
+  let serie = hotovo >= cil ? 1 : 0;
+  for (let i = 1; i < 520 && kolVTydnu(pondeliPred(i)) >= cil; i++) serie += 1;
+  return { hotovo, cil, splneno: hotovo >= cil, serie };
+}
+
 /** Funkce pokroku pro podmínky odznaků (badges.js) a jejich postup na obrazovce Odznaky. */
 export const apiOdznaku = {
   jeDohrane, pocetDohranych, hvezdyTematu, hvezdyKategorie,
@@ -302,6 +343,7 @@ export function zapisKolo(kolo) {
   if (vysledek(temaId, obt)) return null; // už dohráno – podruhé se nezapisuje
   const pul = pulhvezdy(spravne, celkem);
   const d = dnes();
+  const tydenPred = tydenniCil(); // úroveň „před“ se dopočítá až po zápisu (rozehrané kolo už body průběžně mělo)
 
   p.vysledky[temaId] = {
     ...(p.vysledky[temaId] || {}),
@@ -337,5 +379,8 @@ export function zapisKolo(kolo) {
     dalsiStav: dalsi ? stav(info.tema, dalsi) : null,
     noveOdznaky: nove,
     serieDni: p.dny.serie,
+    body: spravne * (BODY_ZA_OTAZKU[obt] || 10),
+    novaUroven: urovenHrace().uroven > uroven(bodyHrace() - spravne * (BODY_ZA_OTAZKU[obt] || 10)).uroven ? urovenHrace().uroven : null,
+    tydenSplnen: !tydenPred.splneno && tydenniCil().splneno ? tydenniCil().cil : null,
   };
 }

@@ -4,7 +4,7 @@
 import { t, jazyk } from "../i18n.js";
 import { h, lista, celeHvezdy, ikonaKategorie } from "../ui.js";
 import { najdiTema, nactiTema, viditelneKategorie, viditelnaTemata, OBTIZNOSTI, txt } from "../data.js";
-import { pokrok, hvezdyCelkem, hvezdyKategorie, uzavrenaVKategorii, serieVyzev } from "../progress.js";
+import { pokrok, hvezdyCelkem, hvezdyKategorie, uzavrenaVKategorii, serieVyzev, urovenHrace, tydenniCil } from "../progress.js";
 import { ODEMCENI_PULHVEZD, MAX_HVEZD } from "../game.js";
 
 export const ID = "statistiky";
@@ -156,6 +156,8 @@ export async function vykresli() {
   const rekordy = h("section", { class: "card sgroup" },
     h("h2", { class: "sgroup-h", text: t("statistiky.rekordy") }),
     h("ul", { class: "recs" },
+      zaznam(t("statistiky.uroven"), `${urovenHrace().uroven} · ${t(`uroven.titul.${urovenHrace().titul}`)} · ${t("uroven.bodu", { n: urovenHrace().body })}`, "stat-uroven", "rec rec-col"),
+      zaznam(t("statistiky.tyden"), `${tydenniCil().hotovo} / ${tydenniCil().cil} · 🔥 ${t("tyden.tydnu", { n: tydenniCil().serie })}`, "stat-tyden"),
       zaznam(t("statistiky.nejdelsiRada"), `🔥 ${nejdelsiRada}`, "stat-rada"),
       zaznam(t("statistiky.nejdelsiSerieDni"), t("domu.dni", { n: p.dny.nejdelsi || 0 }), "stat-dny"),
       zaznam(t("statistiky.dniSHrou"), String(dniSHrou), "stat-dni-hra"),
