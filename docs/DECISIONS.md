@@ -1,6 +1,14 @@
 # DECISIONS – Kvízová webová aplikace
 Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový záznam s odkazem na původní.
 
+## D-031 · 2026-11-14 · Jemnější barvy dlaždic, tmavé dlaždice v tmavém režimu, Procvičit chyby, „Vyber si téma“ pod filtrem (Davidovy pokyny, upravuje D-030)
+- **Světlý režim – ještě jemnější pastely:** malinová `#F8C3D6`, zelená `#B5E3C5`, modrá `#BDD7F7`, oranžová `#FAD0AE`, fialová `#DDCDFA`, tyrkysová `#AEE0D9`, červená `#F8C2C3`, hnědá → cihlová `#EDB9A2` (světle hnědá by byla béžová). Tmavý text `#1A1020` (≥ 11 : 1), od pozadí odlišené jen jemně (≈ 1,3–1,5 : 1).
+- **Tmavý režim – tlumené tmavé odstíny s bílým textem** (světlé dlaždice v tmavém režimu „zářily“): malinová `#6E2A44`, zelená `#1F5A3A`, modrá `#24466F`, oranžová `#7A4421`, fialová `#4A3577`, tyrkysová `#1C5652`, červená `#702A2E`, hnědá `#5E4128`; bílý text ≥ 7,8 : 1, od tmavého pozadí odlišené ≈ 1,8–2,3 : 1. Barvy jsou CSS proměnné `--tc-*` a `--tile-ink`, přidělování podle tématu a bez opakování (D-029/D-030) beze změny.
+- **Procvičit chyby (návrh 4):** v Historii nahoře karta „🎯 Procvičit chyby – n otázek s chybnou odpovědí“ (obrys jako Pokračuj). Seznam = otázky zodpovězené špatně v dohraných i rozehraných kolech (témata na webu), náhodně nejvýš 10 za sebou; obrazovka jako hra (překlad podle nastavení, vysvětlení, zvuk/vibrace, klávesy, posun k Další), nahoře téma a obtížnost otázky. **Hvězdy, výsledky, série ani odznaky se nemění.** Správně zodpovězená otázka se uloží do `procviceno` a ze seznamu zmizí; na konci „x / n správně“, kolik zbývá, „Procvičit další“ a „Zpět do historie“. Bez chyb: „Žádné chyby k procvičení – skvělé! 🎉“. `progress.js` `chybneOtazky()`, `oznacProcviceno()`, `screens/procvicovani.js` (`#/procvicovani`).
+- **Témata v kategorii:** text „Vyber si téma“ je pod filtrem (filtr hned pod nadpisem).
+- **Ověření:** `pruchod.py` – Procvičit chyby (3 chyby z dohraného i rozehraného kola, přesně tyto otázky, 2 / 3 → zbývá 1, výsledky beze změny, Procvičit další, nakonec „Žádné chyby“, 320 px bez přetékání), tmavé dlaždice s bílým textem v tmavém režimu, „Vyber si téma“ pod filtrem; 178 kontrol. Náhled `docs/nahledy/d031-barvy-procvicovani.png`.
+- **Kdo:** David (pokyny, výběr návrhu 4), prompt 01 (provedení)
+
 ## D-030 · 2026-11-14 · Světlejší barvy dlaždic s tmavým textem, ohraničení Všech kategorií (Davidův pokyn, upravuje D-029)
 - **Proč:** sytě barevné dlaždice s bílým textem (D-029) byly Davidovi „až moc kontrastní“. Chce světlejší odstíny stejných barev, černý text a barvy odlišné od pozadí – bez černé, bílé a béžové.
 - **Paleta (světlé odstíny, text `#1A1020`):** malinová `#F29BBB`, zelená `#86D3A2`, modrá `#93BEF2`, oranžová `#F7B27F`, fialová `#C4AAF6`, tyrkysová `#7FCDC3`, červená `#F39A9D`, hnědá `#D9A47A`. Kontrast textu 8,7–10,4 : 1; od světlého pozadí jemně odlišené (≈ 1,7–2 : 1), od tmavého výrazně (≈ 9 : 1).
