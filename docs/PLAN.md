@@ -77,4 +77,4 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☑ (2026-11-16) D-039 vysoký kontrast a čitelnější písmo.
 
 ## Stav
-Poslední aktualizace: 2026-11-16 · Web online (vč. D-038) · Čeká se: sloučení D-039 · Blokováno: nic
+Poslední aktualizace: 2026-11-18 · Web online (vč. D-039) · Čeká se: Davidův výběr z nápadů 31–40 · Blokováno: nic
