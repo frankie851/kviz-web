@@ -9,6 +9,7 @@ import { nacti, uloz } from "../storage.js";
 import { odznak, nazevOdznaku } from "../badges.js";
 import { sdilej, adresaWebu, hvezdyTextem } from "../sdileni.js";
 import { odkazSouboje } from "./souboj.js";
+import { tlacitkoObrazku } from "../obrazek.js";
 import { vysledek as ulozenyVysledek, urovenHrace } from "../progress.js";
 import { zvuk, vibrace } from "../feedback.js";
 import { konfety, zastavKonfety } from "../oslavy.js";
@@ -63,6 +64,7 @@ export function vykresli() {
       ? h("p", { class: "badge-line badge-uroven", "data-test": "nova-uroven", text: t("uroven.nova", { n: v.novaUroven, titul: t(`uroven.titul.${urovenHrace().titul}`) }) })
       : null,
     v.tydenSplnen ? h("p", { class: "badge-line badge-tyden", "data-test": "tyden-splnen", text: t("tyden.splnenVysledek", { n: v.tydenSplnen }) }) : null,
+    v.katTydneSplnena ? h("p", { class: "badge-line badge-tyden", "data-test": "kat-tydne-splnena", text: t("katTydne.vysledek", { kategorie: txt(kategorie.nazev, jazyk()) }) }) : null,
     nove.length
       ? h("section", { class: "new-badges", "data-test": "nove-odznaky" },
           h("h2", { text: t("vysledek.noveOdznaky", { n: nove.length }) }),
@@ -78,13 +80,17 @@ export function vykresli() {
         : null,
       h("a", { class: `btn ${odemceno ? "btn-sec" : "btn-primary"} btn-big`, href: `#/prehled/${tema.id}/${v.obt}`, "data-test": "prehled" },
         h("span", { "aria-hidden": "true", text: "📖 " }), t("vysledek.prehled")),
-      h("button", {
-        type: "button", class: "btn btn-sec btn-big", "data-test": "sdilet",
-        onclick: () => sdilej({
-          text: t("sdileni.kolo", { tema: txt(tema.nazev, jazyk()), obtiznost: t(`obtiznost.${v.obt}`), s: v.spravne, c: v.celkem, hvezdy: hvezdyTextem(v.pul) }),
-          url: adresaWebu(`#/tema/${tema.id}`),
-        }),
-      }, h("span", { "aria-hidden": "true", text: "📤 " }), t("sdileni.tlacitko")),
+      (() => {
+        // sdílení textem a obrázkem s výsledkem (D-032, D-041)
+        const text = t("sdileni.kolo", { tema: txt(tema.nazev, jazyk()), obtiznost: t(`obtiznost.${v.obt}`), s: v.spravne, c: v.celkem, hvezdy: hvezdyTextem(v.pul) });
+        const url = adresaWebu(`#/tema/${tema.id}`);
+        return h("div", { class: "sdilet-radek" },
+          h("button", { type: "button", class: "btn btn-sec btn-big", "data-test": "sdilet", onclick: () => sdilej({ text, url }) },
+            h("span", { "aria-hidden": "true", text: "📤 " }), t("sdileni.tlacitkoKratce")),
+          tlacitkoObrazku({ text, url, soubor: `oho-${tema.id}-${v.obt}.png`, data: () => ({
+            nadpisMaly: `${txt(kategorie.nazev, jazyk())} · ${t(`obtiznost.${v.obt}`)}`, nadpis: txt(tema.nazev, jazyk()),
+            hvezdy: v.pul, skore: `${v.spravne} / ${v.celkem}`, popisek: t("obrazek.sprav", { n: procento }) }) }));
+      })(),
       (() => {
         // výzva kamarádovi: stejné otázky ve stejném pořadí (D-033)
         const ids = (ulozenyVysledek(tema.id, v.obt)?.odpovedi || []).map(([id]) => id);

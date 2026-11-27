@@ -46,7 +46,7 @@ export function poradiKategorii() {
 
 let barvy = { klic: null, mapa: new Map() };
 /** id kategorie → barva dlaždice; počítá se podle skutečného pořadí (s oblíbenými), aby sousedé neměli stejnou barvu. */
-function barvaKategorie(k) {
+export function barvaKategorie(k) {
   const poradi = poradiKategorii();
   const klic = poradi.map((x) => x.id).join(",");
   if (barvy.index !== idx() || barvy.klic !== klic) {

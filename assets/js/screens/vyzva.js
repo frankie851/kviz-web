@@ -8,6 +8,7 @@ import { vyberVyzvy, polozkyVyzvy } from "../vyzva.js";
 import { sadaOtazek } from "../sada.js";
 import { sdilej, adresaWebu } from "../sdileni.js";
 import { konfety, zastavKonfety } from "../oslavy.js";
+import { tlacitkoObrazku } from "../obrazek.js";
 
 export const ID = "vyzva";
 
@@ -34,9 +35,13 @@ function vysledek(datum, v, polozky) {
     h("p", { class: "vyzva-ctverecky", "aria-hidden": "true", text: radek }),
     h("p", { class: "res-score" }, h("b", { text: `${v.spravne} / ${polozky.length}` }), h("span", { text: t("procvic.spravne") })),
     h("p", { class: "procvic-zbyva", "data-test": "vyzva-serie", text: t("vyzva.serie", { n: serie }) }),
-    h("button", { type: "button", class: "btn btn-primary btn-big", "data-test": "sdilet",
-      onclick: () => sdilej({ text, url: adresaWebu("#/vyzva") }) },
-      h("span", { "aria-hidden": "true", text: "📤 " }), t("sdileni.tlacitko")),
+    h("div", { class: "sdilet-radek" },
+      h("button", { type: "button", class: "btn btn-primary btn-big", "data-test": "sdilet",
+        onclick: () => sdilej({ text, url: adresaWebu("#/vyzva") }) },
+        h("span", { "aria-hidden": "true", text: "📤 " }), t("sdileni.tlacitkoKratce")),
+      tlacitkoObrazku({ text, url: adresaWebu("#/vyzva"), soubor: `oho-vyzva-${datum}.png`, data: () => ({ // D-041
+        nadpisMaly: t("obrazek.vyzvaDen"), nadpis: datumTextem(datum), ctverecky: v.odpovedi.map(([, , ok]) => !!ok),
+        skore: `${v.spravne} / ${polozky.length}`, popisek: t("obrazek.serie", { n: serie }) }) })),
     h("p", { class: "note", text: t("vyzva.zitra") }),
     h("a", { class: "btn btn-sec btn-big", href: "#/", text: t("vyzva.domu") }));
 }

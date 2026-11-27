@@ -46,7 +46,10 @@
   --ok-shadow: #A9E2C1; --bad-shadow: #F5B5B5;
   --switch-off: #9C7F8E; --neutral: #C9B3A1;
   --tile-ink: #1A1020;
-  --cal-1: #A3DDBA; --cal-2: #5EC28A; --cal-3: #2E9C60; --cal-4: #136B3D; /* kalendář aktivity (D-038) */
+  --cal-1: #A3DDBA; --cal-2: #5EC28A; --cal-3: #2E9C60; --cal-4: #136B3D;
+  /* obrázek s výsledkem ke sdílení (D-041) – vždy světlá značka, tmavý režim ani kontrast je nepřepisují */
+  --obr-bg: #FFF6EA; --obr-karta: #FFFFFF; --obr-ink: #2B1630; --obr-muted: #6E5466; --obr-primary: #C2255C; --obr-sun: #FFC53D;
+  --obr-hvezda-off: #EAD7C4; --obr-ok: #1E9E5A; --obr-bad: #D9363E; --obr-deco1: #FFE3A1; --obr-deco2: #FFD9E5; --obr-plocha: #FFF0DD; /* kalendář aktivity (D-038) */
   --tc-malina: #F8C3D6; --tc-zelena: #B5E3C5; --tc-modra: #BDD7F7; --tc-oranzova: #FAD0AE; --tc-fialova: #DDCDFA; --tc-tyrkys: #AEE0D9; --tc-cervena: #F8C2C3; --tc-hneda: #EDB9A2;
   --col: 560px;           /* šířka sloupce na PC */
   --pad: 16px;
@@ -829,3 +832,30 @@ a.diff:active { transform: translateY(2px); }
 .mesic-karta .recs { margin-top: 4px; }
 .mesic-sdilet { width: 100%; margin-top: 10px; }
 .screen-domu .mesic-karta { margin-bottom: 12px; }
+
+/* Kategorie týdne (D-040) */
+.kat-tydne { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 12px; margin-bottom: 12px; text-decoration: none; }
+.kat-tydne[class*="tile-c-"] { color: var(--tile-ink); }
+/* .card je v CSS až za .tile-c-*, proto barva karty zvlášť */
+.card.kat-tydne.tile-c-malina { background: var(--tc-malina); }
+.card.kat-tydne.tile-c-zelena { background: var(--tc-zelena); }
+.card.kat-tydne.tile-c-modra { background: var(--tc-modra); }
+.card.kat-tydne.tile-c-oranzova { background: var(--tc-oranzova); }
+.card.kat-tydne.tile-c-fialova { background: var(--tc-fialova); }
+.card.kat-tydne.tile-c-tyrkys { background: var(--tc-tyrkys); }
+.card.kat-tydne.tile-c-cervena { background: var(--tc-cervena); }
+.card.kat-tydne.tile-c-hneda { background: var(--tc-hneda); }
+.kat-tydne .label { color: inherit; opacity: .85; }
+.kat-tydne-ico { font-size: calc(34px * var(--pismo, 1)); line-height: 1; }
+.kat-tydne-body { display: flex; gap: 4px; margin-top: 6px; }
+.kat-tydne-body i { flex: 1; max-width: 46px; height: 8px; border-radius: 99px; background: var(--surface); opacity: .75; }
+.kat-tydne-body i.on { background: var(--ok); opacity: 1; }
+.kat-tydne-meta { font-size: calc(14px * var(--pismo, 1)); font-weight: 700; margin-top: 2px; }
+.kat-tydne.is-splneno .pokracuj-go { background: var(--ok); color: var(--ok-on); }
+.kat-tydne-stitek { margin: 0 0 12px; padding: 10px 14px; border-radius: 14px; background: var(--ok-bg); color: var(--ok-ink); font-weight: 700; font-size: calc(15px * var(--pismo, 1)); }
+
+/* Obrázek s výsledkem (D-041) */
+.obrazek-nahled { display: block; width: 100%; height: auto; max-width: 340px; margin: 0 auto; border-radius: 18px; box-shadow: 0 0 0 1px var(--line); }
+.obrazek-dialog .btn-big { width: 100%; }
+.sdilet-radek { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.sdilet-radek .btn { width: 100%; padding-left: 8px; padding-right: 8px; }

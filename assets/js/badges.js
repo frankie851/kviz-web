@@ -35,6 +35,7 @@ const RODINY = [
   { rodina: "spravne", ikona: "🎓", prahy: [100, 500, 2000], hodnota: (api) => api.spravneCelkem() },
   { rodina: "hvezdy", ikona: "✨", prahy: [50, 250, 1000], hodnota: (api) => api.hvezdyCelych() },
   { rodina: "dny", ikona: "📅", prahy: [3, 7, 30], ids: ["dny-3", "dny-7", "dny-30"], hodnota: (api) => api.serieDni() },
+  { rodina: "kat-tydne", ikona: "🗓️", prahy: [1, 4, 12], hodnota: (api) => api.pocetTydnuKategorie() }, // D-040
 ];
 
 const PODILY_KATEGORIE = [25, 50, 100]; // % témat kategorie, která už nejde hrát dál (dohráno x / t)

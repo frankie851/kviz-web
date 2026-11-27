@@ -7,6 +7,7 @@ import { txt } from "./data.js";
 import { dnes } from "./game.js";
 import { aktivitaDni, souhrnMesice } from "./progress.js";
 import { sdilej, adresaWebu } from "./sdileni.js";
+import { tlacitkoObrazku } from "./obrazek.js";
 
 export const TYDNU = 12;
 const loc = () => (jazyk() === "cs" ? "cs-CZ" : "en-GB");
@@ -119,7 +120,19 @@ export function kartaMesice(klic, { zavrit, test = "mesic", aktualni = false, kr
       kratce && s.urovenDo > s.urovenOd ? `${t("mesic.uroven")} ${s.urovenOd} → ${s.urovenDo}` : null,
     ].filter(Boolean).join(" · ") }),
     !kratce && radky.length ? h("ul", { class: "recs" }, radky) : null,
-    h("button", { type: "button", class: "btn btn-sec mesic-sdilet", "data-test": `${test}-sdilet`,
-      onclick: () => sdilej({ text: textSouhrnu(klic, s), url: adresaWebu("#/") }) },
-      h("span", { "aria-hidden": "true", text: "📤 " }), t("mesic.sdilet")));
+    h("div", { class: "sdilet-radek mesic-sdilet" },
+      h("button", { type: "button", class: "btn btn-sec", "data-test": `${test}-sdilet`,
+        onclick: () => sdilej({ text: textSouhrnu(klic, s), url: adresaWebu("#/") }) },
+        h("span", { "aria-hidden": "true", text: "📤 " }), t("mesic.sdilet")),
+      tlacitkoObrazku({ text: textSouhrnu(klic, s), url: adresaWebu("#/"), soubor: `oho-${klic}.png`, test: `${test}-obrazek`, trida: "btn btn-sec",
+        data: () => ({ // obrázek se souhrnem (D-041)
+          nadpisMaly: t("obrazek.mesic"), nadpis: t("obrazek.mujMesic", { mesic: nazev }),
+          trojice: [[s.kol, t("mesic.kolPopis", { n: s.kol })], [s.otazek, t("mesic.otazekPopis", { n: s.otazek })],
+            [s.procent == null ? "–" : t("domu.procent", { n: s.procent }), t("mesic.spravne")]],
+          radky: [
+            s.nejlepsi ? `${t("mesic.nejlepsi")}: ${txt(s.nejlepsi.kat.nazev, jazyk())} (${t("domu.procent", { n: s.nejlepsi.procent })})` : null,
+            s.urovenDo > s.urovenOd ? `${t("mesic.uroven")} ${s.urovenOd} → ${s.urovenDo}` : null,
+            `★ ${t("mesic.hvezd", { n: s.hvezd })} · ${t("mesic.dni", { n: s.dni })}`,
+          ].filter(Boolean),
+        }) })));
 }

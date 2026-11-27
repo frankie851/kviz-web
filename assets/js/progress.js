@@ -5,6 +5,7 @@ import { nast } from "./settings.js";
 import { pulhvezdy, odemyka, stavObtiznosti, dalsiObtiznost, dnes, vcera, MAX_HVEZD, BODY_ZA_OTAZKU, BODY_VYZVA, uroven, pondeli, pondeliPred } from "./game.js";
 import { najdiTema, nactiTema, viditelneObtiznosti, viditelnaTemata, viditelneKategorie, vsechnaTemata } from "./data.js";
 import { vsechnyOdznaky, odznak } from "./badges.js";
+import { kategorieTydne, KOL_KATEGORIE_TYDNE } from "./kategorieTydne.js";
 
 const VERZE = 2; // verze 1 (3 hvězdy, opakování kol) se zahazuje – DECISIONS D-013
 const PRAZDNY = () => ({
@@ -19,6 +20,7 @@ const PRAZDNY = () => ({
   vyzvaDny: { posledni: null, serie: 0, nejdelsi: 0 },
   sbirka: {}, // id otázky → { tema, datum } – Moje sbírka (D-035)
   znamaTemata: {}, // id tématu → { d: datum, n: 1 = nové a ještě neotevřené } (D-035)
+  katTydne: {}, // pondělí → id kategorie: týden se splněnou kategorií týdne (D-040)
 });
 
 let p = normalizuj(nacti("pokrok", null));
@@ -39,6 +41,7 @@ function normalizuj(x) {
     vyzvaDny: { ...z.vyzvaDny, ...obj(x.vyzvaDny, {}) },
     sbirka: obj(x.sbirka, z.sbirka),
     znamaTemata: obj(x.znamaTemata, z.znamaTemata),
+    katTydne: obj(x.katTydne, z.katTydne),
   };
 }
 
@@ -291,6 +294,32 @@ export function tydenniCil() {
   return { hotovo, cil, splneno: hotovo >= cil, serie };
 }
 
+// ---------- kategorie týdne (D-040)
+/** Dohraná kola v kategorii od pondělí daného týdne do neděle. */
+export function kolVKategoriiTydne(kat, tyden = pondeli()) {
+  const [r, m, d] = tyden.split("-").map(Number);
+  const konec = dnes(new Date(r, m - 1, d + 7, 12));
+  let n = 0;
+  for (const [temaId, obt] of Object.entries(p.vysledky)) {
+    if (najdiTema(temaId)?.kategorie.id !== kat.id) continue;
+    for (const v of Object.values(obt || {})) if (v?.datum && v.datum >= tyden && v.datum < konec) n += 1;
+  }
+  return n;
+}
+
+/** Stav kategorie týdne pro Domů: { kat, kol, cil, splneno } (null bez kategorií). */
+export function stavKategorieTydne() {
+  const kat = kategorieTydne();
+  if (!kat) return null;
+  const kol = kolVKategoriiTydne(kat);
+  return { kat, kol, cil: KOL_KATEGORIE_TYDNE, splneno: p.katTydne[pondeli()] === kat.id || kol >= KOL_KATEGORIE_TYDNE };
+}
+
+/** Kolik týdnů hráč splnil kategorii týdne (pro odznak a Statistiky). */
+export function pocetTydnuKategorie() {
+  return Object.keys(p.katTydne || {}).length;
+}
+
 // ---------- Moje sbírka (D-035): otázky, které si hráč uložil hvězdičkou
 export function jeVeSbirce(id) {
   return !!p.sbirka[id];
@@ -406,6 +435,7 @@ export function souhrnMesice(mesic) {
 export const apiOdznaku = {
   jeDohrane, pocetDohranych, hvezdyTematu, hvezdyKategorie,
   pocetHranychTemat, pocetUzavrenych, spravneCelkem, hvezdyCelych, uzavrenaVKategorii, serieDni: () => serieDni(),
+  pocetTydnuKategorie: () => pocetTydnuKategorie(),
 };
 
 /** Aktuální série dní (když hráč včera ani dnes nehrál, je přerušená = 0). */
@@ -474,6 +504,13 @@ export function zapisKolo(kolo) {
   p.dny.nejdelsi = Math.max(p.dny.nejdelsi, p.dny.serie);
   p.stat.kol += 1;
   p.stat.nejdelsiRada = Math.max(p.stat.nejdelsiRada, kolo.nejdelsiRada || 0);
+  // kategorie týdne (D-040): 3. kolo v ní během týdne splní týden (zapíše se před kontrolou odznaků)
+  const kt = kategorieTydne();
+  let katTydneSplnena = null;
+  if (kt && info?.kategorie.id === kt.id && !p.katTydne[pondeli()] && kolVKategoriiTydne(kt) >= KOL_KATEGORIE_TYDNE) {
+    p.katTydne[pondeli()] = kt.id;
+    katTydneSplnena = kt.id;
+  }
 
   const ctx = { kolo: { ...kolo, pul, odemyka: odemyka(spravne, celkem) }, info, pokrok: p, api: apiOdznaku };
   // odznaky získané už během kola patří taky mezi „nové“ na výsledku
@@ -497,5 +534,6 @@ export function zapisKolo(kolo) {
     body: spravne * (BODY_ZA_OTAZKU[obt] || 10),
     novaUroven: urovenHrace().uroven > uroven(bodyHrace() - spravne * (BODY_ZA_OTAZKU[obt] || 10)).uroven ? urovenHrace().uroven : null,
     tydenSplnen: !tydenPred.splneno && tydenniCil().splneno ? tydenniCil().cil : null,
+    katTydneSplnena,
   };
 }

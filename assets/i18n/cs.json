@@ -288,6 +288,15 @@
     "tezka-bez-chyby": {
       "nazev": "Neomylný",
       "popis": "Odpověz v Těžké obtížnosti všechno správně."
+    },
+    "rodina-kat-tydne": {
+      "nazev": "Kategorie týdne",
+      "popis": {
+        "one": "Splň kategorii týdne (3 kola v ní během jednoho týdne).",
+        "few": "Splň kategorii týdne {n}krát.",
+        "many": "Splň kategorii týdne {n}krát.",
+        "other": "Splň kategorii týdne {n}krát."
+      }
     }
   },
   "nastaveni": {
@@ -433,7 +442,8 @@
     "tlacitko": "Sdílet výsledek",
     "kolo": "Oho! {tema} ({obtiznost}): {s}/{c} {hvezdy} – zkus to taky!",
     "zkopirovano": "Zkopírováno – vlož to, kam chceš 📋",
-    "nelze": "Sdílení tu nejde – zkopíruj si adresu stránky."
+    "nelze": "Sdílení tu nejde – zkopíruj si adresu stránky.",
+    "tlacitkoKratce": "Sdílet"
   },
   "souboj": {
     "nadpis": "Výzva od kamaráda",
@@ -601,7 +611,8 @@
     "vyzva": "Denní výzva",
     "nahoda": "Překvap mě",
     "nova": "Nová témata",
-    "souhrn": "Měsíční souhrn (prvních 7 dní v měsíci)"
+    "souhrn": "Měsíční souhrn (prvních 7 dní v měsíci)",
+    "katTydne": "Kategorie týdne"
   },
   "kalendar": {
     "nadpis": "Kalendář aktivity",
@@ -649,7 +660,7 @@
     "nejlepsi": "Nejlepší kategorie",
     "vyzvy": "Denní výzvy",
     "uroven": "Úroveň",
-    "sdilet": "Sdílet souhrn",
+    "sdilet": "Sdílet",
     "zavrit": "Skrýt souhrn",
     "kol": {
       "one": "{n} kolo",
@@ -674,5 +685,42 @@
     "sdiletNejlepsi": "Nejlepší kategorie: {kat} ({n} %).",
     "sdiletUroven": "Nová úroveň {n}!",
     "sdiletKonec": "Zkus to taky!"
+  },
+  "katTydne": {
+    "nadpis": "Kategorie týdne",
+    "postup": "Tento týden {h} / {c} kola",
+    "splneno": "Splněno! 🎉",
+    "stitek": "🗓️ Kategorie týdne – dohraj tu do neděle 3 kola ({h} / {c}) a získáš odznak.",
+    "stitekSplneno": "🗓️ Kategorie týdne – tento týden splněno ✓",
+    "vysledek": "🗓️ Kategorie týdne splněna – {kategorie}!",
+    "statistiky": "Kategorie týdne splněna",
+    "tydnu": {
+      "one": "{n} týden",
+      "few": "{n} týdny",
+      "many": "{n} týdne",
+      "other": "{n} týdnů"
+    }
+  },
+  "obrazek": {
+    "tlacitko": "Obrázek",
+    "nadpis": "Obrázek s výsledkem",
+    "alt": "Kartička s výsledkem: logo Oho!, název, hvězdy nebo čtverečky, skóre a adresa webu",
+    "sdilet": "Sdílet obrázek",
+    "stahnout": "Stáhnout obrázek",
+    "zavrit": "Zavřít",
+    "stazeno": "Obrázek se ukládá do stažených souborů 💾",
+    "napovedaSdilet": "Pošli ho do zpráv nebo na sociální síť – kamarádi uvidí výsledek i adresu hry.",
+    "napovedaStahnout": "Ulož si obrázek a pošli ho, kam chceš (zprávy, e-mail, sociální síť).",
+    "vyzva": "Zkus to taky!",
+    "vyzvaDen": "Denní výzva",
+    "sprav": "{n} % správně",
+    "serie": {
+      "one": "Série: {n} den",
+      "few": "Série: {n} dny",
+      "many": "Série: {n} dne",
+      "other": "Série: {n} dní"
+    },
+    "mesic": "Měsíční souhrn",
+    "mujMesic": "Můj {mesic}"
   }
 }

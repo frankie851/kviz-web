@@ -25,6 +25,8 @@ Potřebuje: pip install playwright (v prostředí B je předinstalovaný). Chrom
 nejdřív standardně, pak v /opt/pw-browsers.
 """
 import argparse
+import urllib.parse
+import datetime
 import functools
 import glob
 import http.server
@@ -147,13 +149,16 @@ class Hlidac:
 
     def __init__(self, zaklad):
         self.zaklad = zaklad
+        u = urllib.parse.urlsplit(zaklad)
+        self.puvod = f"{u.scheme}://{u.netloc}"
         self.konzole = []
         self.cizi = []
 
     def pripoj(self, page):
         page.on("console", lambda m: self.konzole.append(f"{m.type}: {m.text}") if m.type in ("error", "warning") else None)
         page.on("pageerror", lambda e: self.konzole.append(f"chyba stránky: {e}"))
-        page.on("request", lambda r: None if r.url.startswith(self.zaklad) or r.url.startswith("data:") else self.cizi.append(r.url))
+        # blob: z vlastní adresy = obrázek vyrobený v prohlížeči (D-041), nic se nestahuje zvenku
+        page.on("request", lambda r: None if r.url.startswith(self.zaklad) or r.url.startswith("data:") or r.url.startswith(f"blob:{self.puvod}/") else self.cizi.append(r.url))
 
 
 # Počítadla pro kontroly, které nejdou vidět ani slyšet: tóny Web Audio, vibrace, upozornění, konfety.
@@ -999,7 +1004,7 @@ def scenar_d026(browser, zaklad, hlidac, index, otazky, vystup=None):
         except Exception:
             chyba("při 90 % (4,5 ★) nejsou konfety")
         jdi(page, zaklad, "#/")
-        celkem = 10 + 4 * 3 + 3 * n_kat
+        celkem = 10 + 5 * 3 + 3 * n_kat  # 5 obecných řad (vč. Kategorie týdne, D-040)
         over(page.inner_text("[data-test=odznaky] b").endswith(f"/ {celkem}"), f"Domů: odznaky z celkem {celkem}")
     ctx.close()
 
@@ -1720,6 +1725,154 @@ def scenar_d039(browser, zaklad, hlidac, otazky, T, vystup=None):
     ctx.close()
 
 
+def scenar_d040(browser, zaklad, hlidac, index, otazky, vystup=None):
+    """D-040: kategorie týdne – stejná po celý týden, jiná příští týden, 3 kola v ní splní týden a dají odznak."""
+    print("Kategorie týdne (D-040):")
+    nast = {"ui": "cs", "otazky": "cs", "preklad": "vypnuto", "zvuky": False, "vibrace": False}
+
+    def kontext(cas, pokrok=None, sirka=390):
+        ctx = browser.new_context(viewport={"width": sirka, "height": 844}, locale="cs-CZ")
+        ctx.clock.set_fixed_time(cas)
+        page = ctx.new_page()
+        page.set_default_timeout(8000)
+        hlidac.pripoj(page)
+        page.goto(zaklad)
+        page.evaluate("([n, p]) => { localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(n)); if (p) localStorage.setItem('kviz.v1.pokrok', JSON.stringify(p)); }", [nast, pokrok])
+        page.reload()
+        jdi(page, zaklad, "#/")
+        return ctx, page
+
+    tydny = {}
+    for cas in ("2026-11-23T09:00:00", "2026-11-29T20:00:00", "2026-12-02T12:00:00", "2026-11-18T12:00:00"):
+        ctx, page = kontext(cas)
+        tydny[cas[:10]] = page.get_attribute("[data-test=kat-tydne]", "data-kategorie")
+        ctx.close()
+    over(tydny["2026-11-23"] and tydny["2026-11-23"] == tydny["2026-11-29"], f"pondělí i neděle téhož týdne: stejná kategorie ({tydny['2026-11-23']})")
+    over(tydny["2026-12-02"] != tydny["2026-11-23"] and tydny["2026-11-18"] != tydny["2026-11-23"], f"předchozí a další týden jiná kategorie ({tydny['2026-11-18']}, {tydny['2026-12-02']})")
+    # týden, jehož kategorie má aspoň 3 témata (výběr spočítá sama aplikace pro dalších 30 týdnů)
+    ctx, page = kontext("2026-11-23T09:00:00")
+    pondeli = [(datetime.date(2026, 11, 23) + datetime.timedelta(weeks=i)) for i in range(30)]
+    kats = page.evaluate("async (dny) => { const m = await import(new URL('assets/js/kategorieTydne.js', location.href)); return dny.map((d) => m.kategorieTydne(new Date(d + 'T12:00:00')).id); }",
+                         [d.isoformat() for d in pondeli])
+    ctx.close()
+    over(kats[0] == tydny["2026-11-23"], "výběr kategorie na Domů = výpočet pro daný týden")
+    temata_kat = {k["id"]: [t_ for t_ in k["temata"] if t_["otazek"].get("1", 0) >= 3] for k in index["kategorie"]}
+    volba = next(((d, k) for d, k in zip(pondeli, kats) if len(temata_kat.get(k, [])) >= 3), None)
+    if not volba:
+        ok("žádná kategorie týdne nemá 3 témata – splnění se nekontroluje")
+        return
+    po, X = volba
+    temata = temata_kat[X]
+    den = lambda n: (po + datetime.timedelta(days=n)).isoformat()
+    kolo = lambda d: {"1": {"s": 8, "c": 10, "pul": 8, "odpovedi": [], "datum": d, "j": "cs"}}
+    pokrok = {"verze": 2, "vysledky": {temata[0]["id"]: kolo(den(0)), temata[1]["id"]: kolo(den(1))},
+              "rozehrano": {}, "dny": {"posledni": den(1), "serie": 2, "nejdelsi": 2}, "stat": {"kol": 2, "nejdelsiRada": 5}, "odznaky": {}}
+    ctx, page = kontext(f"{den(3)}T12:00:00", pokrok)
+    over("2 / 3" in page.inner_text("[data-test=kat-tydne-stav]") and page.locator("[data-test=kat-tydne] .kat-tydne-body i.on").count() == 2,
+         "Domů: karta Kategorie týdne „Tento týden 2 / 3 kola“, 2 dílky z 3")
+    if vystup:
+        vystup.mkdir(parents=True, exist_ok=True)
+        page.wait_for_timeout(300)
+        page.locator("[data-test=kat-tydne]").screenshot(path=str(vystup / "d040-karta-390.png"))
+    page.click("[data-test=kat-tydne]")
+    page.wait_for_selector("[data-test=kat-tydne-stitek]")
+    over("(2 / 3)" in page.inner_text("[data-test=kat-tydne-stitek]"), "kategorie: připomínka „dohraj tu do neděle 3 kola (2 / 3)“")
+    zacni_kolo(page, zaklad, temata[2]["id"])
+    zahraj_kolo(page, otazky, spatnych=1)
+    page.wait_for_selector("[data-test=kat-tydne-splnena]")
+    odz = page.inner_text("[data-test=nove-odznaky]") if page.locator("[data-test=nove-odznaky]").count() else ""
+    over("Kategorie týdne – bronz" in odz, "3. kolo: „Kategorie týdne splněna“ a nový odznak Kategorie týdne – bronz")
+    jdi(page, zaklad, "#/")
+    over("Splněno" in page.inner_text("[data-test=kat-tydne-stav]") and "is-splneno" in page.get_attribute("[data-test=kat-tydne]", "class"), "Domů: karta ukazuje Splněno ✓")
+    if vystup:
+        page.wait_for_timeout(300)
+        page.screenshot(path=str(vystup / "d040-domu-390.png"))
+    jdi(page, zaklad, "#/statistiky")
+    over(page.inner_text("[data-test=stat-tyden-kat]").strip().endswith("1 týden"), "Statistiky: Kategorie týdne splněna 1 týden")
+    jdi(page, zaklad, "#/nastaveni")
+    page.click("#nast-domu-katTydne")
+    jdi(page, zaklad, "#/")
+    over(page.locator("[data-test=kat-tydne]").count() == 0, "Nastavení → Co ukazovat na Domů: Kategorie týdne jde vypnout")
+    ctx.close()
+
+
+def scenar_d041(browser, zaklad, hlidac, otazky, T, vystup=None):
+    """D-041: obrázek s výsledkem – náhled 1080 × 1080, stažení, sdílení souboru (když to telefon umí)."""
+    print("Obrázek s výsledkem ke sdílení (D-041):")
+    nast = {"ui": "cs", "otazky": "cs", "preklad": "vypnuto", "zvuky": False, "vibrace": False, "vzhled": "tmavy"}
+    ctx = browser.new_context(viewport={"width": 360, "height": 780}, locale="cs-CZ", accept_downloads=True)
+    page = ctx.new_page()
+    page.set_default_timeout(8000)
+    hlidac.pripoj(page)
+    page.goto(zaklad)
+    page.evaluate("n => localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(n))", nast)
+    page.reload()
+    zacni_kolo(page, zaklad, T)
+    zahraj_kolo(page, otazky, spatnych=3)
+    page.wait_for_selector("[data-test=obrazek]")
+    over(page.locator(".sdilet-radek [data-test=sdilet]").count() == 1, "výsledek kola: Sdílet a Obrázek vedle sebe")
+    page.click("[data-test=obrazek]")
+    page.wait_for_selector("[data-test=obrazek-okno]")
+    page.wait_for_function("document.querySelector('[data-test=obrazek-nahled]').complete && document.querySelector('[data-test=obrazek-nahled]').naturalWidth > 0")
+    rozmer = page.evaluate("(() => { const i = document.querySelector('[data-test=obrazek-nahled]'); return [i.naturalWidth, i.naturalHeight]; })()")
+    over(rozmer == [1080, 1080], f"náhled obrázku {rozmer[0]} × {rozmer[1]} px")
+    # barvy obrázku: světlá značka i v tmavém režimu, hvězdy žluté (7 z 10 = 3,5 ★)
+    barvy = page.evaluate("""(() => {
+        const i = document.querySelector('[data-test=obrazek-nahled]');
+        const c = document.createElement('canvas'); c.width = 1080; c.height = 1080;
+        const x = c.getContext('2d'); x.drawImage(i, 0, 0);
+        const px = (a, b) => Array.from(x.getImageData(a, b, 1, 1).data.slice(0, 3));
+        return { roh: px(540, 1060) };
+    })()""")
+    over(barvy["roh"] == [255, 246, 234], f"pozadí obrázku je krémové (světlá značka i v tmavém režimu): {barvy['roh']}")
+    pr = pretekani(page)
+    over(not pr, "okno s obrázkem na 360 px nepřetéká" + (f" ({pr[:2]})" if pr else ""))
+    if vystup:
+        vystup.mkdir(parents=True, exist_ok=True)
+        page.wait_for_timeout(300)
+        page.screenshot(path=str(vystup / "d041-okno-360.png"))
+    with page.expect_download() as dl:
+        page.click("[data-test=obrazek-stahnout]")
+    d = dl.value
+    cesta = d.path()
+    data = Path(cesta).read_bytes()
+    over(d.suggested_filename == f"oho-{T}-1.png" and data[:8] == b"\x89PNG\r\n\x1a\n" and int.from_bytes(data[16:20], "big") == 1080,
+         f"Stáhnout obrázek: {d.suggested_filename}, PNG 1080 px, {len(data) // 1024} kB")
+    if vystup:
+        (vystup / "d041-obrazek-kolo.png").write_bytes(data)
+    page.keyboard.press("Escape")
+    over(page.locator("[data-test=obrazek-okno]").count() == 0, "Esc okno zavře")
+    ctx.close()
+    # telefon, který umí sdílet soubory: Sdílet obrázek pošle PNG soubor s textem a odkazem
+    ctx = browser.new_context(viewport={"width": 390, "height": 844}, locale="cs-CZ")
+    ctx.add_init_script("window.__sdileno = null; navigator.canShare = (d) => !!(d && d.files); navigator.share = (d) => { window.__sdileno = { text: d.text, soubory: (d.files || []).map((f) => [f.name, f.type, f.size]) }; return Promise.resolve(); };")
+    page = ctx.new_page()
+    page.set_default_timeout(8000)
+    hlidac.pripoj(page)
+    page.goto(zaklad)
+    page.evaluate("n => localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(n))", {**nast, "vzhled": "svetly"})
+    page.reload()
+    jdi(page, zaklad, "#/vyzva")
+    for _ in range(5):
+        page.click('.ans[data-index="0"]')
+        page.click("[data-test=dalsi]")
+    page.wait_for_selector("[data-test=vyzva-konec] [data-test=obrazek]")
+    page.click("[data-test=obrazek]")
+    page.wait_for_selector("[data-test=obrazek-sdilet]")
+    page.click("[data-test=obrazek-sdilet]")
+    page.wait_for_function("window.__sdileno")
+    sd = page.evaluate("window.__sdileno")
+    over(sd["soubory"] and sd["soubory"][0][1] == "image/png" and sd["soubory"][0][0].startswith("oho-vyzva-") and "#/vyzva" in sd["text"],
+         f"denní výzva: Sdílet obrázek pošle {sd['soubory'][0][0] if sd['soubory'] else '?'} s textem a odkazem")
+    if vystup:
+        page.wait_for_timeout(300)
+        b64 = page.evaluate("""(async () => { const i = document.querySelector('[data-test=obrazek-nahled]'); const r = await fetch(i.src); const b = await r.arrayBuffer();
+            let s = ''; new Uint8Array(b).forEach((x) => (s += String.fromCharCode(x))); return btoa(s); })()""")
+        import base64
+        (vystup / "d041-obrazek-vyzva.png").write_bytes(base64.b64decode(b64))
+    ctx.close()
+
+
 def kontrola_nahledu_odkazu():
     print("Náhled odkazu (Open Graph) a ikony:")
     html = (KOREN / "index.html").read_text(encoding="utf-8")
@@ -1841,6 +1994,8 @@ def main():
             lambda: scenar_d037(browser, zaklad, hlidac, index, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d038(browser, zaklad, hlidac, index, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d039(browser, zaklad, hlidac, otazky, tema3["id"], None if args.bez_screenshotu else Path(args.vystup)),
+            lambda: scenar_d040(browser, zaklad, hlidac, index, otazky, None if args.bez_screenshotu else Path(args.vystup)),
+            lambda: scenar_d041(browser, zaklad, hlidac, otazky, tema2["id"], None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d035(browser, zaklad, hlidac, index, otazky, temata, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d034(browser, zaklad, hlidac, otazky, temata),
             lambda: scenar_d033(browser, zaklad, hlidac, otazky, temata, None if args.bez_screenshotu else Path(args.vystup)),

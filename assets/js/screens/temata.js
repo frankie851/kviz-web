@@ -3,7 +3,7 @@
 import { t, jazyk } from "../i18n.js";
 import { h, lista, hvezdicky, hvezdyText, ikonaKategorie } from "../ui.js";
 import { kategorie, viditelnaTemata, viditelneObtiznosti, txt } from "../data.js";
-import { pulV, stav, hvezdyTematu, stavTematu, jeNoveTema } from "../progress.js";
+import { pulV, stav, hvezdyTematu, stavTematu, jeNoveTema, stavKategorieTydne } from "../progress.js";
 import { jeOblibena, prepniOblibenou } from "../settings.js";
 import { kratkeOznameni } from "../oslavy.js";
 
@@ -91,6 +91,13 @@ export function vykresli([katId]) {
     "main",
     { class: "screen" },
     lista({ zpet: "#/", nadpis: txt(kat.nazev, jazyk()), vpravo: tlacitkoOblibene(kat) }),
+    (() => {
+      // kategorie týdne (D-040): připomínka pod lištou
+      const st = stavKategorieTydne();
+      return st?.kat.id === kat.id
+        ? h("p", { class: "kat-tydne-stitek", "data-test": "kat-tydne-stitek", text: st.splneno ? t("katTydne.stitekSplneno") : t("katTydne.stitek", { h: st.kol, c: st.cil }) })
+        : null;
+    })(),
     filtrEl, // filtr nahoře, „Vyber si téma“ pod ním (D-031)
     h("p", { class: "lead lead-center lead-ikona" }, ikonaKategorie(kat, "lead-ico"), h("span", { text: t("temata.vyberTema") })),
     h("div", { class: "cards" }, karty),

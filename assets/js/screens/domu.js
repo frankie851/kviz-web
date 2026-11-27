@@ -3,13 +3,13 @@
 // Všechny kategorie, kde je i hledání témat), pod nimi Odznaky, Historie a Statistiky.
 import { t, jazyk } from "../i18n.js";
 import { h, logo, wordmark, celeHvezdy, ikonaKategorie } from "../ui.js";
-import { hvezdyCelkem, serieDni, pokrok, uspesnost, pokracovani, nahodneTema, vyzva, serieVyzev, urovenHrace, tydenniCil, novaTemata } from "../progress.js";
+import { hvezdyCelkem, serieDni, pokrok, uspesnost, pokracovani, nahodneTema, vyzva, serieVyzev, urovenHrace, tydenniCil, novaTemata, stavKategorieTydne } from "../progress.js";
 import { dnes, dniDoKonceTydne } from "../game.js";
 import { OTAZEK as OTAZEK_VYZVY } from "../vyzva.js";
 import { txt } from "../data.js";
 import { vsechnyOdznaky } from "../badges.js";
 import { ukladaniFunguje } from "../storage.js";
-import { dlazdiceKategorie, poradiKategorii } from "./kategorie.js";
+import { dlazdiceKategorie, poradiKategorii, barvaKategorie } from "./kategorie.js";
 import { ukazNaDomu, nast, zmen } from "../settings.js";
 import { kartaMesice, mesicKlic } from "../aktivita.js";
 import { pruvodceKdyzTreba } from "../pruvodce.js";
@@ -81,6 +81,23 @@ function kartaVyzvy() {
     h("span", { class: hotovo ? "vyzva-go-hotovo" : "pokracuj-go", "aria-hidden": "true", text: hotovo ? "→" : "▶" }));
 }
 
+/** Kategorie týdne (D-040): barva dlaždice kategorie, postup 0–3 kola tento týden, odkaz do kategorie. */
+function kartaKategorieTydne() {
+  const st = stavKategorieTydne();
+  if (!st) return null;
+  const { kat, kol, cil, splneno } = st;
+  return h("a", { class: `card kat-tydne tile-c-${barvaKategorie(kat)}${splneno ? " is-splneno" : ""}`, href: `#/kategorie/${kat.id}`, "data-test": "kat-tydne", "data-kategorie": kat.id },
+    ikonaKategorie(kat, "kat-tydne-ico"),
+    h("span", { class: "pokracuj-body" },
+      h("span", { class: "label", text: t("katTydne.nadpis") }),
+      h("span", { class: "pokracuj-name", text: txt(kat.nazev, jazyk()) }),
+      h("span", { class: "kat-tydne-body", "aria-hidden": "true" }, Array.from({ length: cil }, (_, i) => h("i", { class: i < Math.min(kol, cil) ? "on" : "" }))),
+      h("span", { class: "kat-tydne-meta", "data-test": "kat-tydne-stav", text: splneno
+        ? t("katTydne.splneno")
+        : `${t("katTydne.postup", { h: kol, c: cil })} · ${t("tyden.zbyva", { n: dniDoKonceTydne() })}` })),
+    h("span", { class: "pokracuj-go", "aria-hidden": "true", text: splneno ? "✓" : "▶" }));
+}
+
 /** Souhrn minulého měsíce (D-038): prvních 7 dní v měsíci, když hráč minulý měsíc hrál; ✕ ho do konce měsíce skryje. */
 function kartaMinulehoMesice(app) {
   const ted = new Date();
@@ -136,6 +153,7 @@ export function vykresli(_param, app) {
     // části Domů jdou v Nastavení vypnout (D-037)
     ukazNaDomu("postup") ? kartaPostupu() : null,
     ukazNaDomu("souhrn") ? kartaMinulehoMesice(app) : null,
+    ukazNaDomu("katTydne") ? kartaKategorieTydne() : null,
     ukazNaDomu("pokracuj") ? kartaPokracuj() : null,
     ukazNaDomu("vyzva") ? kartaVyzvy() : null,
     !ukazNaDomu("nahoda") ? null : h("button", {
