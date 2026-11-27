@@ -716,5 +716,15 @@
     },
     "mesic": "Měsíční souhrn",
     "mujMesic": "Můj {mesic}"
+  },
+  "cesta": {
+    "hraj": "Hraj",
+    "souhrn": "Dohráno {x} z {n} témat",
+    "aria": "Cesta tématy – {kategorie}",
+    "pohled": {
+      "nadpis": "Zobrazení témat",
+      "seznam": "Seznam",
+      "cesta": "Cesta"
+    }
   }
 }

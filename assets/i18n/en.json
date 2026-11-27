@@ -640,5 +640,15 @@
     },
     "mesic": "Monthly summary",
     "mujMesic": "My {mesic}"
+  },
+  "cesta": {
+    "hraj": "Play",
+    "souhrn": "Finished {x} of {n} topics",
+    "aria": "Topic trail – {kategorie}",
+    "pohled": {
+      "nadpis": "Topic view",
+      "seznam": "List",
+      "cesta": "Trail"
+    }
   }
 }

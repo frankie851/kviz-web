@@ -625,7 +625,9 @@ def pretekani(page):
         for (const el of document.querySelectorAll('#app *:not(.sr-only)')) {
           const r = el.getBoundingClientRect();
           if (r.width && (r.right > W + 1 || r.left < -1)) out.push((el.className || el.tagName) + ' ' + Math.round(r.left) + '–' + Math.round(r.right));
-          if (el.scrollWidth > el.clientWidth + 1 && getComputedStyle(el).overflowX !== 'visible' && el.clientWidth) out.push('ořez: ' + (el.className || el.tagName));
+          // zkrácení na pár řádků s „…“ (line-clamp, Cesta tématy D-043) je záměr – výpustka trochu přesahuje šířku
+          const cs = getComputedStyle(el);
+          if (el.scrollWidth > el.clientWidth + 1 && cs.overflowX !== 'visible' && el.clientWidth && (cs.webkitLineClamp || 'none') === 'none') out.push('ořez: ' + (el.className || el.tagName));
         }
         return out.slice(0, 5);
     }""")
@@ -2097,6 +2099,76 @@ def scenar_kontrola_1127_drobne(browser, zaklad, hlidac, otazky, T, T2, kat_id):
     ctx.close()
 
 
+def scenar_d043(browser, zaklad, hlidac, index, vystup=None):
+    """D-043: Cesta tématy – přepínač Seznam / Cesta v kategorii, zastávky ve stavech jako v seznamu, „Hraj“ u další."""
+    print("Cesta tématy (D-043):")
+    kat = next((k for k in index["kategorie"] if len([t_ for t_ in k["temata"] if all(t_["otazek"].get(o, 0) >= 3 for o in "123")]) >= 2 and len(k["temata"]) >= 4), None)
+    if not kat:
+        ok("žádná kategorie se 4 tématy – cesta se nekontroluje")
+        return
+    plna = [t_ for t_ in kat["temata"] if all(t_["otazek"].get(o, 0) >= 3 for o in "123")]
+    A, B = plna[0]["id"], plna[1]["id"]
+    kolo = lambda s_: {"s": s_, "c": 10, "pul": s_, "odpovedi": [], "datum": "2026-11-20", "j": "cs"}
+    pokrok = {"verze": 2, "vysledky": {A: {"1": kolo(9), "2": kolo(8), "3": kolo(10)}, B: {"1": kolo(8)}},
+              "rozehrano": {}, "dny": {}, "stat": {}, "odznaky": {}}
+    nast = {"ui": "cs", "otazky": "cs", "preklad": "vypnuto", "zvuky": False, "vibrace": False}
+
+    def kontext(sirka, n):
+        ctx = browser.new_context(viewport={"width": sirka, "height": 844}, locale="cs-CZ")
+        page = ctx.new_page()
+        page.set_default_timeout(8000)
+        hlidac.pripoj(page)
+        page.goto(zaklad)
+        page.evaluate("([n, p]) => { localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(n)); localStorage.setItem('kviz.v1.pokrok', JSON.stringify(p)); }", [n, pokrok])
+        page.reload()
+        jdi(page, zaklad, f"#/kategorie/{kat['id']}")
+        return ctx, page
+
+    ctx, page = kontext(390, nast)
+    over(page.get_attribute('[data-pohled="seznam"]', "aria-pressed") == "true" and not page.is_visible("[data-test=cesta]") and page.is_visible(".card.topic"),
+         "výchozí zobrazení kategorie: Seznam")
+    seznam = page.eval_on_selector_all(".card.topic", "els => els.map((e) => [e.dataset.tema, e.dataset.stavTematu])")
+    page.click('[data-pohled="cesta"]')
+    page.wait_for_selector("[data-test=cesta]")
+    cesta = page.eval_on_selector_all(".zastavka", "els => els.map((e) => [e.dataset.tema, e.dataset.stavTematu, e.classList.contains('is-dalsi')])")
+    over([c[:2] for c in cesta] == seznam and not page.is_visible(".card.topic") and not page.is_visible("[data-test=filtr]"),
+         f"Cesta: {len(cesta)} zastávek ve stejném pořadí a stavech jako seznam, seznam a filtr schované")
+    dalsi = [c[0] for c in cesta if c[2]]
+    prvni = next((c[0] for c in cesta if c[1] == "rozehrane"), None) or next((c[0] for c in cesta if c[1] == "nehrane"), None)
+    over(dalsi == [prvni] and page.locator(".zastavka.is-dalsi .zastavka-hraj").count() == 1, f"„Hraj“ právě u jedné zastávky – první rozehrané ({prvni})")
+    hot = sum(1 for c in cesta if c[1] == "hotove")
+    over(page.inner_text("[data-test=cesta-souhrn]").strip().startswith(f"Dohráno {hot} z {len(cesta)}"), f"souhrn „Dohráno {hot} z {len(cesta)} témat“")
+    over(page.locator(".cesta-hotovo").count() == (1 if hot else 0) and page.locator(".cesta-zbytek").count() == 1, "dohraná část cesty plnou čarou, zbytek čárkovaně")
+    bez_chybejicich_textu(page, "Cesta tématy")
+    if vystup:
+        vystup.mkdir(parents=True, exist_ok=True)
+        page.wait_for_timeout(400)
+        page.screenshot(path=str(vystup / "d043-cesta-390.png"))
+    page.reload()
+    jdi(page, zaklad, f"#/kategorie/{kat['id']}")
+    over(page.is_visible("[data-test=cesta]") and page.get_attribute('[data-pohled="cesta"]', "aria-pressed") == "true", "volba Cesta se pamatuje i po obnovení stránky")
+    page.click(f'.zastavka[data-tema="{prvni}"]')
+    page.wait_for_function(f"location.hash === '#/tema/{prvni}'")
+    ok("ťuknutí na zastávku otevře téma")
+    jdi(page, zaklad, f"#/kategorie/{kat['id']}")
+    page.click('[data-pohled="seznam"]')
+    over(page.is_visible(".card.topic") and page.is_visible("[data-test=filtr]") and not page.is_visible("[data-test=cesta]"), "zpět na Seznam: karty i filtr")
+    ctx.close()
+    ctx, page = kontext(320, {**nast, "pohledTemat": "cesta", "vzhled": "tmavy", "pismo": "nejvetsi"})
+    page.wait_for_selector("[data-test=cesta]")
+    pr = pretekani(page)
+    over(not pr, "Cesta na 320 px, tmavý režim, největší písmo: nic nepřetéká" + (f" ({pr[:3]})" if pr else ""))
+    # popisky se nepřekrývají
+    prekryv = page.evaluate("""(() => { const r = [...document.querySelectorAll('.zastavka-text')].map((e) => e.getBoundingClientRect());
+        const kruhy = [...document.querySelectorAll('.zastavka-kruh')].map((e) => e.getBoundingClientRect());
+        let n = 0; for (const a of r) for (const b of [...r, ...kruhy]) if (a !== b && a.left < b.right && b.left < a.right && a.top < b.bottom && b.top < a.bottom) n++; return n; })()""")
+    over(prekryv == 0, f"popisky zastávek se nepřekrývají s jinými popisky ani kroužky (320 px, největší písmo): {prekryv}")
+    if vystup:
+        page.wait_for_timeout(400)
+        page.screenshot(path=str(vystup / "d043-cesta-tmavy-320.png"))
+    ctx.close()
+
+
 def kontrola_nahledu_odkazu():
     print("Náhled odkazu (Open Graph) a ikony:")
     html = (KOREN / "index.html").read_text(encoding="utf-8")
@@ -2222,6 +2294,7 @@ def main():
             lambda: scenar_d039(browser, zaklad, hlidac, otazky, tema3["id"], None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d040(browser, zaklad, hlidac, index, otazky, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d041(browser, zaklad, hlidac, otazky, tema2["id"], None if args.bez_screenshotu else Path(args.vystup)),
+            lambda: scenar_d043(browser, zaklad, hlidac, index, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d035(browser, zaklad, hlidac, index, otazky, temata, None if args.bez_screenshotu else Path(args.vystup)),
             lambda: scenar_d034(browser, zaklad, hlidac, otazky, temata),
             lambda: scenar_d033(browser, zaklad, hlidac, otazky, temata, None if args.bez_screenshotu else Path(args.vystup)),
