@@ -75,6 +75,7 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☑ (2026-11-16) D-037 oblíbené kategorie a volba obsahu Domů.
 - ☑ (2026-11-16) D-038 kalendář aktivity a měsíční souhrn.
 - ☑ (2026-11-16) D-039 vysoký kontrast a čitelnější písmo.
+- ☑ (2026-11-27) D-040 kategorie týdne, D-041 obrázek s výsledkem ke sdílení.
 
 ## Stav
-Poslední aktualizace: 2026-11-18 · Web online (vč. D-039) · Čeká se: Davidův výběr z nápadů 31–40 · Blokováno: nic
+Poslední aktualizace: 2026-11-27 · Web online (vč. D-039) · Čeká se: sloučení D-040 a D-041 · Blokováno: nic
