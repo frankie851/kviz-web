@@ -7,7 +7,7 @@ export const OTAZEK = 5;
 const OBTIZNOSTI = ["1", "1", "2", "2", "3"];
 
 /** Generátor náhodných čísel 0–1 ze slova (mulberry32 nad jednoduchým hashem). */
-function nahoda(slovo) {
+export function nahoda(slovo) {
   let a = 2166136261;
   for (const ch of slovo) a = Math.imul(a ^ ch.codePointAt(0), 16777619);
   return () => {

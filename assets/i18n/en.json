@@ -266,6 +266,13 @@
     "tezka-bez-chyby": {
       "nazev": "Flawless",
       "popis": "Answer everything correctly at Hard."
+    },
+    "rodina-kat-tydne": {
+      "nazev": "Category of the week",
+      "popis": {
+        "one": "Complete the category of the week (3 rounds in it within one week).",
+        "other": "Complete the category of the week {n} times."
+      }
     }
   },
   "nastaveni": {
@@ -397,7 +404,8 @@
     "tlacitko": "Share result",
     "kolo": "Oho! {tema} ({obtiznost}): {s}/{c} {hvezdy} – try it too!",
     "zkopirovano": "Copied – paste it anywhere 📋",
-    "nelze": "Sharing isn't available here – copy the page address."
+    "nelze": "Sharing isn't available here – copy the page address.",
+    "tlacitkoKratce": "Share"
   },
   "souboj": {
     "nadpis": "Challenge from a friend",
@@ -545,7 +553,8 @@
     "vyzva": "Daily challenge",
     "nahoda": "Surprise me",
     "nova": "New topics",
-    "souhrn": "Monthly summary (first 7 days of a month)"
+    "souhrn": "Monthly summary (first 7 days of a month)",
+    "katTydne": "Category of the week"
   },
   "kalendar": {
     "nadpis": "Activity calendar",
@@ -583,7 +592,7 @@
     "nejlepsi": "Best category",
     "vyzvy": "Daily challenges",
     "uroven": "Level",
-    "sdilet": "Share summary",
+    "sdilet": "Share",
     "zavrit": "Hide summary",
     "kol": {
       "one": "{n} round",
@@ -602,5 +611,38 @@
     "sdiletNejlepsi": "Best category: {kat} ({n}%).",
     "sdiletUroven": "New level {n}!",
     "sdiletKonec": "Give it a try!"
+  },
+  "katTydne": {
+    "nadpis": "Category of the week",
+    "postup": "This week {h} / {c} rounds",
+    "splneno": "Done! 🎉",
+    "stitek": "🗓️ Category of the week – finish 3 rounds here by Sunday ({h} / {c}) to earn a badge.",
+    "stitekSplneno": "🗓️ Category of the week – done this week ✓",
+    "vysledek": "🗓️ Category of the week completed – {kategorie}!",
+    "statistiky": "Category of the week completed",
+    "tydnu": {
+      "one": "{n} week",
+      "other": "{n} weeks"
+    }
+  },
+  "obrazek": {
+    "tlacitko": "Image",
+    "nadpis": "Result image",
+    "alt": "Result card: Oho! logo, title, stars or squares, score and the game's address",
+    "sdilet": "Share image",
+    "stahnout": "Download image",
+    "zavrit": "Close",
+    "stazeno": "The image is saving to your downloads 💾",
+    "napovedaSdilet": "Send it in a message or post it – friends will see your result and the game's address.",
+    "napovedaStahnout": "Save the image and send it wherever you like (messages, e-mail, social media).",
+    "vyzva": "Give it a try!",
+    "vyzvaDen": "Daily challenge",
+    "sprav": "{n}% correct",
+    "serie": {
+      "one": "Streak: {n} day",
+      "other": "Streak: {n} days"
+    },
+    "mesic": "Monthly summary",
+    "mujMesic": "My {mesic}"
   }
 }

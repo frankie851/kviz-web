@@ -1,8 +1,8 @@
 # HANDOFF – Kvízová webová aplikace
-datum: 2026-11-16 · předává: prompt 01 (D-039 vysoký kontrast a čitelnější písmo, prostředí A) · přebírá: David (sloučit pull request, vyzkoušet)
+datum: 2026-11-27 · předává: prompt 01 (D-040 kategorie týdne, D-041 obrázek s výsledkem, prostředí A) · přebírá: David (sloučit pull request, vyzkoušet)
 
 ## Stav jednou větou
-Web je online s funkcemi do D-038 (sloučeno). V pull requestu čeká D-039: vysoký kontrast a čitelnější písmo v Nastavení → Vzhled.
+Web je online s funkcemi do D-039. V pull requestu čeká D-040 Kategorie týdne a D-041 Obrázek s výsledkem ke sdílení; zbylé nápady 31–40 čekají na Davidův výběr.
 
 ## Stav dat
 - 2026-11-04 – 35 otázek, 1 téma (T001 Chobotnice a další hlavonožci), režim vzorek
@@ -70,6 +70,8 @@ Web je online s funkcemi do D-038 (sloučeno). V pull requestu čeká D-039: vys
 
 - D-039 (2026-11-16): vysoký kontrast a čitelnější písmo; `pruchod.py` 255 kontrol; náhled `docs/nahledy/d039-kontrast-pismo.png`.
 
+- D-040, D-041 (2026-11-27): kategorie týdne, obrázek s výsledkem ke sdílení; `pruchod.py` 271 kontrol; náhled `docs/nahledy/d040-d041-kategorie-tydne-obrazek.png`.
+
 ## Rozpracováno
 - **Štítek „Nové“ uvidí hráči až u témat přidaných po této verzi** – po příštím exportu promptem 03 (prostředí B) ověřit na webu.
 - **Na skutečném telefonu ověří David:** hlas předčítání (čeština záleží na hlasech v telefonu), stažení a nahrání souboru s pokrokem (iPhone: Soubory), otevření odkazu výzvy kamarádovi z WhatsAppu/Messengeru.
@@ -82,10 +84,11 @@ Web je online s funkcemi do D-038 (sloučeno). V pull requestu čeká D-039: vys
 - **Náhled odkazu** ověří až sdílení nasazené adresy (např. poslat si odkaz ve WhatsAppu/Messengeru). Sítě si náhled pamatují – kdyby ukazovaly starou zástupnou stránku, chce to chvíli počkat.
 
 ## Další krok
-1. **David:** sloučit pull request s D-039 a vyzkoušet (Nastavení → Vzhled → Vysoký kontrast, Čitelnější písmo; i s tmavým režimem).
+1. **David:** sloučit pull request s D-040 a D-041 a vyzkoušet (Domů → karta Kategorie týdne; po kole „🖼️ Obrázek“ → stáhnout / sdílet; totéž u denní výzvy a měsíčního souhrnu). **Na telefonu** ověřit, že „Sdílet obrázek“ nabídne WhatsApp/Messenger.
 2. **Návrhy z 2026-11-12 uzavřené:** 1–8 hotové (D-026–D-032); 9 Instalace na plochu / offline – **David nechce** (2026-11-15), nestavět; 10 Nahlásit chybu v otázce – jen **možnost do budoucna** (viz Nápady na později).
 2b. **Nápady z 2026-11-15** (číslování podle zprávy Davidovi): hotové 11 Výzva kamarádovi, 12 Předčítání, 13 Přenos pokroku (D-033), 14 Úroveň hráče, 15 Týdenní cíl (D-034), 16 Moje sbírka, 17 Štítek „Nové“ (D-035); **vynechané pro teď** (David 2026-11-16): 18 Žolík 50 : 50, 19 Duel dvou hráčů na jednom telefonu, 20 Rychlovka na čas.
-2c. **Nové nápady z 2026-11-16** (číslování podle zprávy Davidovi; hotové 21 Průvodce pravidly (D-036), 22 Oblíbené kategorie a 23 Co ukazovat na Domů (D-037), 26 Kalendář aktivity a 27 Měsíční souhrn (D-038), 30 Vysoký kontrast a čitelnější písmo (D-039); **David zatím nevybral:** 24 Opakování chyb s rozestupy (1, 3, 7 dní), 25 Odznaky za odpovědi v cizím jazyce, 28 Tisk kvízu (otázky a zvlášť odpovědi), 29 Prezentační režim na televizi/projektor).
+2c. **Nové nápady z 2026-11-16** (číslování podle zprávy Davidovi; hotové 21 Průvodce pravidly (D-036), 22 Oblíbené kategorie a 23 Co ukazovat na Domů (D-037), 26 Kalendář aktivity a 27 Měsíční souhrn (D-038), 30 Vysoký kontrast a čitelnější písmo (D-039); nevybrané 24, 25, 28, 29 přesunuty do Nápadů na později (David 2026-11-18)).
+2d. **Nápady z 2026-11-18** (číslování podle zprávy Davidovi; hotové 33 Kategorie týdne (D-040) a 37 Obrázek s výsledkem (D-041); ostatní David zatím nevybral): 31 Doporučené téma pro tebe (podle úspěšnosti v kategoriích), 32 Ochrana série (1 den volna za týden, série dní se nepřeruší), 33 Kategorie týdne (každý týden jedna kategorie zvýrazněná na Domů + odznak), 34 Více hráčů na jednom zařízení (profily se jménem a vlastním pokrokem), 35 Cesta tématy (postup v kategorii jako mapa s cestou), 36 Kvíz ze sbírky (mini kvíz z uložených otázek), 37 Obrázek s výsledkem ke sdílení (kartička s hvězdami a logem místo textu), 38 Týdenní výzva (20 otázek napříč kategoriemi, jednou týdně, víc bodů), 39 Nové typy otázek „Co bylo dřív?“ a „Seřaď“ (potřebuje i přípravu dat v prostředí B – David má na ně skilly), 40 Tajné odznaky (skryté, dokud je hráč nezíská).
 2. **Další témata (kdykoli):** v Excelu označit Web = Ano (u celého tématu stačí list Témata, D-017), uložit, zavřít; pak **prompt 03** v úkolu propojeném s počítačem (prostředí B). Prompt 03 po exportu spustí `python3 tools/pruchod.py`.
 3. Body „K zvážení“ z kontroly: K4 hotovo (D-018), K1 = krok 2, K2 a K3 beze změny (David nic nežádal), K5 jen informace. Kdyby David chtěl K2/K3 přece změnit, udělá to prompt 01.
 
@@ -95,6 +98,8 @@ Web je online s funkcemi do D-038 (sloučeno). V pull requestu čeká D-039: vys
 - `tools/pruchod.py`: 1. běh selhal na varování o preload písem, 2. běh prošel – viz nález D-1.
 
 ## Připomínky Davida (k zapracování)
+- 2026-11-27 – „33, 37“ (kategorie týdne, obrázek s výsledkem) → **zapracováno** (D-040, D-041).
+- 2026-11-18 – „Vymysli dalších 10 zlepšení, stávající nepoužité zapiš jako možnost do budoucna“ → 24, 25, 28, 29 v Nápadech na později, nové 31–40 v Dalším kroku (2d).
 - 2026-11-16 – „30“ (vysoký kontrast, čitelnější písmo) → **zapracováno** (D-039).
 - 2026-11-16 – „26 a 27“ (kalendář aktivity, měsíční souhrn) → **zapracováno** (D-038).
 - 2026-11-16 – „22 a 23“ (oblíbené kategorie, co ukazovat na Domů) → **zapracováno** (D-037).
@@ -133,6 +138,12 @@ Web je online s funkcemi do D-038 (sloučeno). V pull requestu čeká D-039: vys
 - **Nahlásit chybu v otázce** (návrh 10 z 2026-11-12, David: „zaznamenat jako možnost do budoucna“): hráč u otázky ťukne a popíše chybu. Statický web zprávy sám nepřijme – možnosti: předvyplněný e-mail (zveřejní adresu), formulář cizí služby (registrace – jen s Davidovým souhlasem), nebo odkaz na GitHub issue (hráč potřebuje účet). Rozhodnutí o službě je na Davidovi.
 - ~~Instalace na plochu / offline (PWA)~~ – David nechce (2026-11-15).
 - Tečka u tlačítka Odznaky na Domů, dokud si hráč nový odznak neprohlédne.
+- **Nevybrané nápady z 2026-11-16** (David 2026-11-18: „zapsat jako možnost do budoucna“):
+  - 24 Opakování chyb s rozestupy – chybná otázka se v Procvičit chyby vrátí po 1, 3 a 7 dnech, dokud ji hráč 3× nezodpoví správně.
+  - 25 Odznaky za odpovědi v cizím jazyce – řada odznaků za správné odpovědi s otázkami v jiném než vlastním jazyce (už se ukládá jazyk kola, D-021).
+  - 28 Tisk kvízu – vytisknout téma a obtížnost: otázky s možnostmi a na zvláštní stránce správné odpovědi (pro školu, oslavu, hospodu).
+  - 29 Prezentační režim – velké písmo pro televizi/projektor, odpověď se odkryje až na tlačítko, ovládání šipkami; pokrok se nezapisuje.
+  - (dříve vynechané 18 Žolík 50 : 50, 19 Duel na jednom telefonu, 20 Rychlovka na čas – viz bod 2b v Dalším kroku.)
 
 ## Jak navázat
 Nejdřív `git fetch origin main` (+ `git merge origin/main`). Pak přečti v tomto pořadí: `CLAUDE.md` → `docs/HANDOFF.md` → `docs/PLAN.md` → `docs/SPEC.md` → `docs/DECISIONS.md` (+ nejnovější `docs/KONTROLA_*.md`, je-li na řadě Fáze 5). Zvolenou značku (D-009) a strukturu dat neměň bez souhlasu Davida.
