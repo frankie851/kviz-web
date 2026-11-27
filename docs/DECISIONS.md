@@ -1,6 +1,14 @@
 # DECISIONS – Kvízová webová aplikace
 Nejnovější nahoře. Každé rozhodnutí jednou; pozdější změna = nový záznam s odkazem na původní.
 
+## D-043 · 2026-11-27 · Cesta tématy (Davidova volba nápadu 35)
+- **Kde:** v kategorii (obrazovka Témata) nahoře přepínač „☰ Seznam“ / „🗺️ Cesta“ (od 2 témat). Výchozí je Seznam (beze změny); volba se pamatuje v nastavení (`pohledTemat`) pro všechny kategorie, i po obnovení stránky. Filtr Nehrané / Rozehrané / Hotové patří k seznamu, na cestě jsou vidět všechna témata.
+- **Cesta:** nahoře „Dohráno x z n témat“ s ukazatelem. Pod tím klikatá cesta odshora dolů: start 🚩 → zastávky (témata v pořadí jako v seznamu, cik-cak vlevo–uprostřed–vpravo) → cíl 🏁. Stavy jako ve filtru (D-026): **hotové** (už nejde hrát dál) = kroužek v barvě dlaždice kategorie se zeleným okrajem a ✓; **rozehrané** = žlutý okraj a 🏃; **nehrané** = číslo zastávky. **Další na řadě** (první rozehrané, jinak první nehrané) má malinový okraj, štítek „Hraj“ a jemně pulzuje (při „omezit pohyb“ ne). Pod kroužkem název (nejvýš 3 řádky, pak „…“), hvězdy x / 15 a případně „✨ Nové“. Ťuknutí na zastávku otevře téma.
+- **Čára:** do poslední hotové zastávky plná zelená, dál čárkovaná. Ze zastávky vede nejdřív do strany a do další vchází shora, aby nešla přes popisky (ty mají navíc podklad v barvě pozadí). Kreslí se jako SVG roztažené na šířku (poloha zastávek v %), výška řádku roste s velikostí písma.
+- **Test:** kontrola přetékání v `pruchod.py` nově nepočítá jako chybu zkrácení textu na pár řádků s „…“ (line-clamp) – výpustka o pár px přesahuje šířku, je to záměr.
+- **Ověření:** `pruchod.py` scénář `scenar_d043` – výchozí Seznam, přepnutí na Cestu (17 zastávek ve stejném pořadí a stavech jako seznam, seznam a filtr schované), „Hraj“ právě u první rozehrané, souhrn, plná a čárkovaná část čáry, volba se pamatuje po obnovení, ťuknutí otevře téma, návrat na Seznam; 320 px + tmavý režim + největší písmo bez přetékání a bez překryvu popisků; 314 kontrol.
+- **Kdo:** David (výběr nápadu 35), prompt 01 (provedení)
+
 ## D-042 · 2026-11-27 · Opravy po kontrole 2026-11-27 (Fáze 5)
 - **S-1 dvojité ťuknutí na Další:** zopakováno (320 × 568: druhé ťuknutí zodpovědělo další otázku 5× z 5). Oprava: odpovědi nové otázky 0,45 s nepřijímají ťuknutí ani kliknutí (`ui.js` `chvilkuBezTuknuti`, CSS `.answers.bez-tuknuti { pointer-events: none }`), v kole (`hra.js`) i v denní výzvě, procvičování a výzvě kamarádovi (`sada.js`). Klávesnice platí hned. Proč 0,45 s: kontrola naměřila dvojťuknutí do 0,35 s; záměrné ťuknutí na odpověď po přečtení otázky trvá déle.
 - **S-3 přiblížení po otočení telefonu:** zopakováno (stránka 344 px místo 320, po otočení měřítko 1,075). Oprava: `#app { overflow-x: clip }` – příjezd obrazovky zprava už stránku nerozšíří. Ne `overflow-x` na `html`: z `body` by se stal posuvný kontejner a přestalo by fungovat přilepené záhlaví.

@@ -78,6 +78,7 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☑ (2026-11-16) D-038 kalendář aktivity a měsíční souhrn.
 - ☑ (2026-11-16) D-039 vysoký kontrast a čitelnější písmo.
 - ☑ (2026-11-27) D-040 kategorie týdne, D-041 obrázek s výsledkem ke sdílení.
+- ☑ (2026-11-27) D-043 Cesta tématy (přepínač Seznam / Cesta v kategorii).
 
 ## Stav
-Poslední aktualizace: 2026-11-27 · Web online (vč. D-041) · Čeká se: sloučení oprav po kontrole (D-042), pak prompt 03 (S-2) a Davidova volba ke „K zvážení“ · Blokováno: nic
+Poslední aktualizace: 2026-11-27 · Web online (vč. D-042) · Čeká se: sloučení D-043, pak prompt 03 (S-2) a Davidova volba ke „K zvážení“ · Blokováno: nic
