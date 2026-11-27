@@ -65,7 +65,7 @@
     "vsechnyKategorie": "All categories ({n})",
     "pokracuj": "Continue",
     "pokracujRozehrane": "{obtiznost} · question {i} of {n}",
-    "pokracujNova": "{obtiznost} · new level",
+    "pokracujNova": "{obtiznost} · newly unlocked",
     "hledat": "Search topics",
     "hledatPlaceholder": "Search topics…",
     "nicNenalezeno": "No topic matches that.",
@@ -82,10 +82,6 @@
   },
   "kategorie": {
     "nadpis": "Categories",
-    "temat": {
-      "one": "{n} topic",
-      "other": "{n} topics"
-    },
     "dohrano": "Done {x} / {n}"
   },
   "temata": {
@@ -162,7 +158,7 @@
     "ziskano": "Earned {datum}",
     "zamceno": "Not earned yet",
     "novy": "New!",
-    "stupne": "Levels",
+    "stupne": "Tiers",
     "jednotlive": "Single badges",
     "znalec": "Category expert",
     "znalecPopis": "Bronze for finishing a quarter of the topics in a category, silver for half, gold for all of them.",
@@ -177,7 +173,7 @@
       "3": "to gold"
     },
     "doStupne": "{x} / {prah} {do}",
-    "vse": "All levels earned 🎉"
+    "vse": "All tiers earned 🎉"
   },
   "odznak": {
     "prvni-kolo": {
@@ -239,7 +235,7 @@
       }
     },
     "rodina-hvezdy": {
-      "nazev": "Star collector",
+      "nazev": "Star Collector",
       "popis": {
         "one": "Collect {n} star.",
         "other": "Collect {n} stars."
@@ -253,7 +249,7 @@
       }
     },
     "dny-30": {
-      "nazev": "Whole month",
+      "nazev": "Whole Month",
       "popis": "Play 30 days in a row."
     },
     "kat": {
@@ -264,11 +260,11 @@
       }
     },
     "tezka-bez-chyby": {
-      "nazev": "Flawless",
+      "nazev": "Infallible",
       "popis": "Answer everything correctly at Hard."
     },
     "rodina-kat-tydne": {
-      "nazev": "Category of the week",
+      "nazev": "Category of the Week",
       "popis": {
         "one": "Complete the category of the week (3 rounds in it within one week).",
         "other": "Complete the category of the week {n} times."
@@ -304,7 +300,7 @@
     "predcitani": "Read aloud",
     "predcitaniVypnuto": "Off",
     "predcitaniTlacitko": "🔊 button",
-    "predcitaniAuto": "Automatically",
+    "predcitaniAuto": "Auto",
     "predcitaniUkazka": "This is how I will read the questions.",
     "kontrast": "High contrast",
     "citelne": "More legible font",
@@ -339,8 +335,8 @@
     "nehrano": "not played yet",
     "hvezdy": "How your rounds went",
     "kolaPlna": "no mistakes",
-    "kolaOdemyka": "70 % or more",
-    "kolaPod": "below 70 %",
+    "kolaOdemyka": "70% or more",
+    "kolaPod": "below 70%",
     "rekordy": "Records",
     "nejdelsiRada": "Longest streak of correct answers",
     "nejdelsiSerieDni": "Longest day streak",
@@ -522,18 +518,18 @@
     "rozumim": "Got it, let's play!",
     "otevrit": "How to play",
     "jednou": {
-      "nadpis": "You play each level only once",
-      "text": "A topic has Easy, Medium and Hard levels. Each is one round of up to 10 questions – and the first result counts, you can't replay it.",
+      "nadpis": "You play each difficulty only once",
+      "text": "A topic has three difficulties: Easy, Medium and Hard. Each is one round of up to 10 questions – and the first result counts, you can't replay it.",
       "tip": "You can pause a round and carry on later where you left off."
     },
     "hvezdy": {
       "nadpis": "Stars in halves",
-      "text": "Every 10 % of correct answers earns half a star. 10 of 10 = 5 ★, 7 of 10 = 3.5 ★.",
+      "text": "Every 10% of correct answers earns half a star. 10 of 10 = 5 ★, 7 of 10 = 3.5 ★.",
       "tip": ""
     },
     "odemykani": {
-      "nadpis": "70 % unlocks the next level",
-      "text": "Get at least 70 % right in a round and the next level opens. Below 70 % it stays locked for good in that topic – so focus!",
+      "nadpis": "70% unlocks the next difficulty",
+      "text": "Get at least 70% right in a round and the next difficulty opens. Below 70% it stays locked for good in that topic – so focus!",
       "tip": "You can practise your mistakes any time in History – it doesn't change your stars."
     }
   },

@@ -16,6 +16,8 @@ upozornění na nový odznak během kola; konfety jen při 100 % a jen poprvé (
 s „omezit pohyb“ žádné animace ani konfety; odkaz na téma u nového hráče vede po prvním spuštění
 na téma; při pomalém stažení tématu hned „Načítám…“; klávesy po rychlém odchodu z načítané otázky
 nic nezodpoví; dlouhé slovo a adresa v otázce, možnostech a vysvětlení nic neroztáhnou (320 px);
+nálezy kontroly 2026-11-27 (dvojité ťuknutí na Další, přechod a otočení telefonu, telefon na šířku,
+plné a poškozené úložiště, poškozená adresa, Zpět v prvním spuštění, kontrast, výška tlačítek, texty);
 náhled odkazu (Open Graph) a ikony; žádné chyby
 v konzoli; žádný síťový požadavek mimo vlastní adresu. Pak screenshoty 9 obrazovek na šířkách 320, 360, 390, 768 a 1280 px
 a kontrola, že nic nepřetéká do stran. Potřebuje aspoň 3 témata se všemi obtížnostmi.
@@ -90,6 +92,13 @@ def kontrola_textu():
         pouzite |= set(re.findall(r"""\bt\(\s*["']([\w.\-]+)["']""", f.read_text(encoding="utf-8")))
     chybi = sorted(x for x in pouzite if x not in k["cs"] and not any(y.startswith(x + ".") for y in k["cs"]))
     over(not chybi, f"všech {len(pouzite)} pevných klíčů z kódu je v textech" + (f" – chybí {chybi}" if chybi else ""))
+    # KONTROLA 2026-11-27 D-5: každý odznak má v každém jazyce vlastní název, anglická procenta bez mezery
+    for j, d in slovniky.items():
+        nazvy = [v["nazev"] for v in d.get("odznak", {}).values() if isinstance(v, dict) and isinstance(v.get("nazev"), str)]
+        dvakrat = sorted({n for n in nazvy if nazvy.count(n) > 1})
+        over(not dvakrat, f"{j}: názvy odznaků se neopakují ({len(nazvy)})" + (f" – {dvakrat}" if dvakrat else ""))
+    en_text = (KOREN / "assets/i18n/en.json").read_text(encoding="utf-8")
+    over(not re.search(r"\d[ \u00a0\u202f]%", en_text), "en: procenta bez mezery (70%)")
 
 
 # ---------------------------------------------------------------- server
@@ -1873,6 +1882,221 @@ def scenar_d041(browser, zaklad, hlidac, otazky, T, vystup=None):
     ctx.close()
 
 
+def _dvojite_tuknuti_na_dalsi(page, otazky, pokusu, prodlevy, kde):
+    """Odpoví ťuknutím, počká na posun k Další a ťukne na Další dvakrát na stejné místo.
+    Vrátí, kolikrát druhé ťuknutí omylem zodpovědělo další otázku (KONTROLA 2026-11-27 S-1)."""
+    omylem = 0
+    for k in range(pokusu):
+        qid = page.get_attribute(".qcard", "data-qid")
+        page.tap(f'.ans[data-index="{otazky[qid]["spravne"]}"]')
+        page.wait_for_selector("[data-test=dalsi]")
+        page.wait_for_timeout(700)  # posun stránky k Další doběhne
+        b = page.locator("[data-test=dalsi]").bounding_box()
+        x, y = b["x"] + b["width"] / 2, b["y"] + b["height"] / 2
+        page.touchscreen.tap(x, y)
+        page.wait_for_timeout(prodlevy[k % len(prodlevy)])
+        page.touchscreen.tap(x, y)
+        page.wait_for_timeout(250)
+        if page.locator(".ans.done").count():
+            omylem += 1
+            page.wait_for_selector("[data-test=dalsi]")
+            page.click("[data-test=dalsi]")
+            page.wait_for_timeout(100)
+    return omylem
+
+
+def scenar_kontrola_1127(browser, zaklad, hlidac, otazky, T, T2):
+    """Nálezy S-1 a S-3 z KONTROLA_2026-11-27: dvojité ťuknutí na Další nesmí zodpovědět další otázku
+    (kolo, denní výzva) a přechod obrazovek nesmí roztáhnout stránku (po otočení telefonu by zůstala přiblížená)."""
+    print("Dvojité ťuknutí na Další (KONTROLA 2026-11-27 S-1):")
+    for w, hgt, rezim, T_ in ((320, 568, "vypnuto", T), (360, 640, "vypnuto", T2), (390, 844, "vzdy", T)):
+        ctx = browser.new_context(viewport={"width": w, "height": hgt}, locale="cs-CZ", has_touch=True, is_mobile=True)
+        page = ctx.new_page()
+        page.set_default_timeout(8000)
+        hlidac.pripoj(page)
+        page.goto(zaklad)
+        page.evaluate("s => localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(s))",
+                      {"ui": "cs", "otazky": "cs", "preklad": rezim, "zvuky": False, "vibrace": False})
+        page.reload()
+        zacni_kolo(page, zaklad, T_)
+        omylem = _dvojite_tuknuti_na_dalsi(page, otazky, 6, (100, 200, 350), f"{w} px")
+        over(omylem == 0, f"{w} × {hgt} ({rezim}): druhé ťuknutí na Další nezodpoví další otázku (6 pokusů, omylem {omylem})")
+        # odpovědi po krátké chvíli zase normálně přijímají ťuknutí
+        page.wait_for_timeout(500)
+        qid = page.get_attribute(".qcard", "data-qid")
+        page.touchscreen.tap(*(lambda b: (b["x"] + b["width"] / 2, b["y"] + b["height"] / 2))(
+            page.locator(f'.ans[data-index="{otazky[qid]["spravne"]}"]').bounding_box()))
+        page.wait_for_timeout(200)
+        over(page.locator(".ans.done").count() == 4, f"{w} px: ťuknutí na odpověď po 0,5 s platí")
+        if w == 360:
+            # denní výzva (sada otázek mimo kolo, sada.js)
+            jdi(page, zaklad, "#/vyzva")
+            page.wait_for_selector(".qcard")
+            omylem = _dvojite_tuknuti_na_dalsi(page, otazky, 3, (150, 300), "výzva")
+            over(omylem == 0, f"denní výzva {w} × {hgt}: druhé ťuknutí na Další nezodpoví další otázku (omylem {omylem})")
+        ctx.close()
+
+    print("Přechod obrazovek a otočení telefonu (KONTROLA 2026-11-27 S-3):")
+    for w, hgt in ((320, 640), (390, 844)):
+        ctx = browser.new_context(viewport={"width": w, "height": hgt}, locale="cs-CZ", has_touch=True, is_mobile=True)
+        page = ctx.new_page()
+        page.set_default_timeout(8000)
+        hlidac.pripoj(page)
+        page.goto(zaklad)
+        page.evaluate("s => localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(s))",
+                      {"ui": "cs", "otazky": "cs", "preklad": "vypnuto", "zvuky": False, "vibrace": False})
+        page.reload()
+        jdi(page, zaklad, f"#/tema/{T2}")
+        page.wait_for_selector(".diff")
+        page.tap('.diff[data-obtiznost="1"]')
+        page.wait_for_selector(".qcard")
+        page.wait_for_timeout(900)  # přechody doběhly, na nic dalšího se nesahá
+        sirka = page.evaluate("[document.documentElement.scrollWidth, document.documentElement.clientWidth]")
+        over(sirka[0] <= sirka[1], f"{w} px: po přechodu na otázku je stránka široká jako okno ({sirka[0]} / {sirka[1]})")
+        page.set_viewport_size({"width": hgt, "height": w})
+        page.wait_for_timeout(500)
+        page.set_viewport_size({"width": w, "height": hgt})
+        page.wait_for_timeout(500)
+        mer = page.evaluate("visualViewport.scale")
+        over(abs(mer - 1) < 0.01, f"{w} px: po otočení na šířku a zpět stránka není přiblížená (měřítko {mer:.3f})")
+        ctx.close()
+
+
+KONTRAST_PRVKU_JS = """(sel) => {
+    const el = document.querySelector(sel);
+    if (!el) return null;
+    const rgb = (c) => (c.match(/[\\d.]+/g) || []).map(Number);
+    const lum = ([r, g, b]) => { const f = (x) => { x /= 255; return x <= 0.03928 ? x / 12.92 : ((x + 0.055) / 1.055) ** 2.4; };
+      return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b); };
+    let bg = null;
+    for (let e = el; e && !bg; e = e.parentElement) { const c = rgb(getComputedStyle(e).backgroundColor); if (c.length === 3 || c[3] === 1) bg = c; }
+    if (!bg) bg = rgb(getComputedStyle(document.body).backgroundColor);
+    const a = lum(rgb(getComputedStyle(el).color)), b = lum(bg);
+    return Math.round(((Math.max(a, b) + 0.05) / (Math.min(a, b) + 0.05)) * 100) / 100;
+}"""
+
+
+def scenar_kontrola_1127_drobne(browser, zaklad, hlidac, otazky, T, T2, kat_id):
+    """Drobné nálezy D-1 až D-8 z KONTROLA_2026-11-27."""
+    print("Drobné nálezy z kontroly 2026-11-27:")
+    nast = {"ui": "cs", "otazky": "cs", "preklad": "tuknuti", "zvuky": False, "vibrace": False}
+    ids = sorted(i for i in otazky if i.startswith(T + "-"))
+    vysl = {"s": 8, "c": 10, "pul": 8, "odpovedi": [[i, 0] for i in ids[:10]], "datum": "2026-11-20"}
+
+    # D-2 kontrast malinových textů v tmavém režimu, D-3 výška menších tlačítek
+    ctx = browser.new_context(viewport={"width": 390, "height": 844}, locale="cs-CZ")
+    page = ctx.new_page()
+    page.set_default_timeout(8000)
+    hlidac.pripoj(page)
+    page.goto(zaklad)
+    page.evaluate("([n, p]) => { localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(n)); localStorage.setItem('kviz.v1.pokrok', JSON.stringify(p)); }",
+                  [{**nast, "vzhled": "tmavy"}, {"verze": 2, "vysledky": {T: {"1": vysl}}}])
+    page.reload()
+    jdi(page, zaklad, f"#/tema/{T}")
+    k1 = page.evaluate(KONTRAST_PRVKU_JS, ".diff-link")
+    jdi(page, zaklad, f"#/kategorie/{kat_id}")
+    k2 = page.evaluate(KONTRAST_PRVKU_JS, ".mini-new")
+    over(k1 and k2 and k1 >= 4.5 and k2 >= 4.5, f"tmavý režim: „Prohlédnout odpovědi“ ({k1} : 1) a „Hraj“ ({k2} : 1) mají kontrast aspoň 4,5 : 1 (D-2)")
+    jdi(page, zaklad, "#/nastaveni")
+    vysky = page.evaluate("[...document.querySelectorAll('.seg-btn')].map((b) => b.getBoundingClientRect().height)")
+    over(vysky and min(vysky) >= 47.5, f"Nastavení: přepínače se segmenty aspoň 48 px (nejnižší {min(vysky or [0]):.0f} px, D-3)")
+    zacni_kolo(page, zaklad, T, "2")
+    v = page.evaluate("[...document.querySelectorAll('.trbtn')].map((b) => b.getBoundingClientRect().height)")
+    over(v and min(v) >= 47.5, f"otázka: „Přeložit“ a „Přečíst“ aspoň 48 px (D-3)")
+    ctx.close()
+
+    # D-4 telefon na šířku: po odpovědi zůstane správná odpověď vidět
+    for w, hgt in ((844, 390), (640, 360)):
+        ctx = browser.new_context(viewport={"width": w, "height": hgt}, locale="cs-CZ", has_touch=True, is_mobile=True)
+        page = ctx.new_page()
+        page.set_default_timeout(8000)
+        hlidac.pripoj(page)
+        page.goto(zaklad)
+        page.evaluate("n => localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(n))", {**nast, "preklad": "vypnuto"})
+        page.reload()
+        zacni_kolo(page, zaklad, T2)
+        viditelne = []
+        for _ in range(3):
+            zodpovez(page, otazky, spravne=False)
+            page.wait_for_timeout(900)
+            r = page.evaluate("(() => { const r = document.querySelector('.ans.ok').getBoundingClientRect(); return [r.top, r.bottom]; })()")
+            viditelne.append(r[0] >= -1 and r[1] <= hgt + 1)
+            dalsi(page)
+            page.wait_for_selector(".qcard")
+        over(all(viditelne), f"{w} × {hgt}: po špatné odpovědi je správná odpověď vidět (D-4)")
+        over(not pretekani(page), f"{w} × {hgt}: odpovědi ve dvou sloupcích nic nepřetéká")
+        ctx.close()
+
+    # D-1 úložiště se zaplní až během hry, D-6 poškozená data, D-7 poškozená adresa
+    ctx = browser.new_context(viewport={"width": 390, "height": 844}, locale="cs-CZ")
+    page = ctx.new_page()
+    page.set_default_timeout(8000)
+    hlidac.pripoj(page)
+    page.goto(zaklad)
+    page.evaluate("n => localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(n))", {**nast, "preklad": "vypnuto"})
+    page.reload()
+    zacni_kolo(page, zaklad, T)
+    zahraj_kolo(page, otazky, spatnych=4)
+    prvni = page.inner_text("[data-test=skore]")
+    page.evaluate("() => { Storage.prototype.setItem = function () { throw new DOMException('plné', 'QuotaExceededError'); }; }")
+    zacni_kolo(page, zaklad, T2)
+    zahraj_kolo(page, otazky, spatnych=0)
+    druhe = page.inner_text("[data-test=skore]")
+    over(prvni != druhe and "10" in druhe.replace(" ", "").split("/")[0], f"plné úložiště během hry: výsledek ukáže právě dohrané kolo ({druhe!r}, dřív {prvni!r}) (D-1)")
+    jdi(page, zaklad, "#/")
+    over("nedovoluje ukládat" in text_stranky(page), "plné úložiště: Domů upozorní, že prohlížeč nedovoluje ukládat")
+    ctx.close()
+
+    ctx = browser.new_context(viewport={"width": 390, "height": 844}, locale="cs-CZ")
+    page = ctx.new_page()
+    page.set_default_timeout(8000)
+    hlidac.pripoj(page)
+    page.goto(zaklad)
+    dnes = page.evaluate("(() => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; })()")
+    vadny = {"verze": 2, "vysledky": {T: {"1": "x", "2": None}, T2: {"1": vysl}}, "rozehrano": {f"{T2}|2": {"poradi": "x"}}, "vyzvy": {dnes: {}}}
+    page.evaluate("([n, p]) => { localStorage.setItem('kviz.v1.nastaveni', JSON.stringify(n)); localStorage.setItem('kviz.v1.pokrok', JSON.stringify(p)); }",
+                  [{**nast, "preklad": "vypnuto"}, vadny])
+    page.reload()
+    for cil, sel in (("#/historie", "main:not(.screen-error)"), ("#/vyzva", ".qcard"), (f"#/hra/{T2}/2", ".qcard"), (f"#/tema/{T}", ".diff")):
+        jdi(page, zaklad, cil)
+        page.wait_for_timeout(300)
+        over(page.locator(".screen-error").count() == 0 and page.locator(sel).count() > 0, f"poškozený uložený pokrok: {cil} se otevře bez chyby (D-6)")
+    jdi(page, zaklad, f"#/tema/{T2}")
+    over(page.get_attribute('.diff[data-obtiznost="1"]', "data-stav") == "dohrano", "poškozený pokrok: platný výsledek jiného tématu zůstal")
+    page.goto(zaklad + "#/%E0%A4%A")
+    page.wait_for_timeout(500)
+    over(page.locator("[data-test=domu]").count() == 1, "poškozená adresa #/%E0%A4%A vede Domů bez chyby (D-7)")
+    ctx.close()
+
+    # D-8 systémové Zpět v kroku 2 prvního spuštění
+    ctx = browser.new_context(viewport={"width": 390, "height": 844}, locale="cs-CZ")
+    page = ctx.new_page()
+    page.set_default_timeout(8000)
+    hlidac.pripoj(page)
+    page.goto(zaklad)
+    page.wait_for_selector("[data-test=pokracovat]")
+    page.click("[data-test=pokracovat]")
+    page.wait_for_selector("[data-zpusob]")
+    page.go_back()
+    page.wait_for_timeout(400)
+    over(page.url.endswith("#/vitej") and page.locator("[data-test=pokracovat]").count() == 1, "první spuštění: systémové Zpět v kroku 2 vrátí na krok 1 (D-8)")
+    page.go_forward()
+    page.wait_for_selector("[data-zpusob]")
+    over(True, "první spuštění: Vpřed vrátí krok 2")
+    page.click(".uvod-top .iconbtn")
+    page.wait_for_selector("[data-test=pokracovat]")
+    page.click("[data-test=pokracovat]")
+    page.wait_for_selector("[data-zpusob]")
+    page.click('[data-zpusob="muj"]')
+    page.wait_for_selector("[data-test=domu]")
+    page.wait_for_timeout(300)
+    over(page.url.endswith("#/"), "první spuštění: po volbě způsobu je hráč Domů")
+    page.go_back()
+    page.wait_for_timeout(400)
+    over(not page.url.startswith(zaklad), f"Zpět z Domů po prvním spuštění odejde ze hry, nevrací úvod ({page.url})")
+    ctx.close()
+
+
 def kontrola_nahledu_odkazu():
     print("Náhled odkazu (Open Graph) a ikony:")
     html = (KOREN / "index.html").read_text(encoding="utf-8")
@@ -1984,6 +2208,8 @@ def main():
         page.set_default_timeout(8000)
         hlidac.pripoj(page)
         kroky = [
+            lambda: scenar_kontrola_1127(browser, zaklad, hlidac, otazky, tema["id"], tema2["id"]),
+            lambda: scenar_kontrola_1127_drobne(browser, zaklad, hlidac, otazky, tema["id"], tema2["id"], kat["id"]),
             lambda: scenar_hry(page, zaklad, otazky, temata, index),
             lambda: scenar_prekladu(page, zaklad, otazky, tema3["id"], tema["id"]),
             lambda: scenar_jazyka(page, zaklad, tema3["id"], tema["id"], kat["id"]),

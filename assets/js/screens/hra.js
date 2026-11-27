@@ -3,7 +3,7 @@
 // Každá obtížnost se hraje jen jednou (D-013): kolo se ukládá po každé odpovědi, takže odchod
 // nebo obnovení stránky ho nezahodí (pokračuje se další otázkou) a dohrané kolo nejde hrát znovu.
 import { t, jazyk } from "../i18n.js";
-import { h } from "../ui.js";
+import { h, chvilkuBezTuknuti, ukazDalsi } from "../ui.js";
 import { najdiTema, nactiTema, idx, txt } from "../data.js";
 import { sestavKolo } from "../game.js";
 import { stav as stavObt, zapisKolo, rozehrane, ulozRozehrane, udelOdznak } from "../progress.js";
@@ -148,6 +148,7 @@ export async function vykresli([temaId, obt], app) {
     const mluvOtazku = tlacitkoPredcitani(() => textOtazky(q, jo), jo); // 🔊 (D-033)
     if (mluvOtazku) karta.append(mluvOtazku);
     telo.replaceChildren(karta, seznam);
+    chvilkuBezTuknuti(seznam); // dvojťuknutí na Další nesmí zodpovědět tuto otázku (S-1)
     if (autoPredcitat()) mluv(textOtazky(q, jo), jo);
     stav.tlacitka = tlacitka;
     stav.q = q;
@@ -218,24 +219,9 @@ export async function vykresli([temaId, obt], app) {
     }, posledni ? t("hra.vysledek") : t("hra.dalsi"), h("span", { "aria-hidden": "true", text: " →" }));
     telo.append(panel, dalsi);
     dalsi.focus({ preventScroll: true });
-    ukazDalsi(dalsi);
+    ukazDalsi(dalsi, stav.tlacitka[q.spravne]);
   }
 
-  /** Posune stránku tak, aby tlačítko Další bylo vidět i s rezervou nad spodní lištou prohlížeče
-   *  (na telefonu ji často překrývá adresní řádek nebo navigace systému – D-022). Zkusí to hned
-   *  a ještě jednou po doběhnutí animací; když už je tlačítko vidět, nic nedělá. */
-  function ukazDalsi(btn) {
-    const reduce = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
-    const posun = () => {
-      if (!btn.isConnected) return;
-      const vyska = window.visualViewport?.height || window.innerHeight;
-      const rezerva = Math.min(40, vyska * 0.06); // malá rezerva nad spodní lištou prohlížeče (D-023: 96 px bylo moc)
-      const navic = btn.getBoundingClientRect().bottom + rezerva - vyska;
-      if (navic > 1) window.scrollTo({ top: window.scrollY + navic, behavior: reduce ? "auto" : "smooth" });
-    };
-    requestAnimationFrame(() => requestAnimationFrame(posun));
-    setTimeout(posun, 450);
-  }
 
   let minulaRada = stav.rada;
   function obnovSerii() {

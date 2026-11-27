@@ -55,7 +55,11 @@ let cilPoUvodu = null; // adresa, kterou nový hráč otevřel před prvním spu
 const ZPOZDENI_NACITANI = 300; // ms – kratší čekání hráč nepostřehne, delší dostane „Načítám…“ (KONTROLA D-2)
 
 function cesta() {
-  return decodeURIComponent(location.hash.replace(/^#/, "")) || "/";
+  try {
+    return decodeURIComponent(location.hash.replace(/^#/, "")) || "/";
+  } catch {
+    return "/"; // poškozená adresa (např. #/%E0%A4%A) → Domů (KONTROLA 2026-11-27 D-7)
+  }
 }
 
 /** Přejde na adresu; nahradit = bez nového záznamu v historii (tlačítko Zpět ho přeskočí). */
@@ -154,10 +158,28 @@ export async function vykresli() {
 
 /** Po prvním spuštění: na adresu, kterou hráč původně otevřel (odkaz na téma), jinak Domů. */
 function poUvodu() {
-  const cil = cilPoUvodu;
+  const cil = cilPoUvodu || "#/";
   cilPoUvodu = null;
-  jdi(cil || "#/", { nahradit: true });
+  if (history.state?.uvod === 2) {
+    // nejdřív zpět na záznam kroku 1 (stejná adresa → jen popstate), ten se pak nahradí cílem
+    poNavratu = cil;
+    history.back();
+    return;
+  }
+  jdi(cil, { nahradit: true });
 }
+
+// Zpět / Vpřed mezi kroky prvního spuštění: adresa se nemění, proto nepřijde hashchange (D-8).
+let poNavratu = null;
+window.addEventListener("popstate", () => {
+  if (poNavratu) {
+    const cil = poNavratu;
+    poNavratu = null;
+    jdi(cil, { nahradit: true });
+  } else if (cesta() === "/vitej" && uvod.krokHistorie() !== uvod.zobrazenyKrok()) {
+    vykresli();
+  }
+});
 
 let nacitani = null;
 function ukazNacitani(moje) {

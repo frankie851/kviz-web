@@ -163,3 +163,32 @@ export function potvrdit({ nadpis, text, ano, ne }) {
 export function prefersReducedMotion() {
   return window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
 }
+
+/** Odpovědi nové otázky chvíli nepřijímají ťuknutí ani kliknutí: druhé ťuknutí rychlého dvojťuknutí
+ *  na „Další“ by jinak dopadlo na odpověď, která se mezitím objevila na stejném místě, a zodpovědělo
+ *  by další otázku (KONTROLA 2026-11-27 S-1). Klávesnice platí hned. */
+export const PRODLEVA_ODPOVEDI = 450;
+export function chvilkuBezTuknuti(el, ms = PRODLEVA_ODPOVEDI) {
+  el.classList.add("bez-tuknuti");
+  setTimeout(() => el.classList.remove("bez-tuknuti"), ms);
+}
+
+/** Po odpovědi posune stránku tak, aby tlačítko Další bylo vidět i s rezervou nad spodní lištou
+ *  prohlížeče (na telefonu ji často překrývá adresní řádek nebo navigace systému – D-022, D-023).
+ *  Na nízkém okně (telefon na šířku) se posune nejvýš tak, aby správná odpověď zůstala vidět nahoře
+ *  (KONTROLA 2026-11-27 D-4). Zkusí to hned a ještě jednou po doběhnutí animací; když už je tlačítko
+ *  vidět, nic nedělá. */
+export function ukazDalsi(btn, spravna) {
+  const reduce = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+  const posun = () => {
+    if (!btn.isConnected) return;
+    const vyska = window.visualViewport?.height || window.innerHeight;
+    const rezerva = Math.min(40, vyska * 0.06); // D-023: 96 px bylo moc
+    let navic = btn.getBoundingClientRect().bottom + rezerva - vyska;
+    if (vyska < NIZKE_OKNO && spravna?.isConnected) navic = Math.min(navic, spravna.getBoundingClientRect().top - 8);
+    if (navic > 1) window.scrollTo({ top: window.scrollY + navic, behavior: reduce ? "auto" : "smooth" });
+  };
+  requestAnimationFrame(() => requestAnimationFrame(posun));
+  setTimeout(posun, 450);
+}
+const NIZKE_OKNO = 480; // px výšky – stejná hranice jako v app.css (odpovědi ve dvou sloupcích)
