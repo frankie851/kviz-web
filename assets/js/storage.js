@@ -31,8 +31,22 @@ export function uloz(klic, hodnota) {
     localStorage.setItem(PREFIX + klic, raw);
     return true;
   } catch {
+    prepniNaPamet(klic, raw);
     return false;
   }
+}
+
+/** Zápis selhal až za běhu (např. plné úložiště): od teď se čte i zapisuje jen v paměti, aby hra
+ *  neukazovala starší hodnoty z úložiště (KONTROLA 2026-11-27 D-1), a Domů ukáže upozornění. */
+function prepniNaPamet(klic, raw) {
+  try {
+    for (let i = 0; i < localStorage.length; i++) {
+      const k = localStorage.key(i);
+      if (k && k.startsWith(PREFIX) && !k.endsWith("__test")) pamet.set(k.slice(PREFIX.length), localStorage.getItem(k));
+    }
+  } catch { /* úložiště nejde ani číst – zůstane, co je v paměti */ }
+  pamet.set(klic, raw);
+  lzeUkladat = false;
 }
 
 /** Všechno, co hra uložila (klíče kviz.v1.* bez předpony) – pro přenos pokroku do jiného zařízení (D-033). */

@@ -2,7 +2,7 @@
 // za nimi červeně špatné), téma otázky, otázka s překladem podle nastavení, odpovědi A–D, vysvětlení, Další.
 // Hvězdy, výsledky kol, série ani odznaky neřeší – to dělá volající přes naOdpoved / naKonec.
 import { t, jazyk } from "./i18n.js";
-import { h, ikonaKategorie } from "./ui.js";
+import { h, ikonaKategorie, chvilkuBezTuknuti, ukazDalsi } from "./ui.js";
 import { idx, txt } from "./data.js";
 import { nast, jazykPrekladu, PREKLAD } from "./settings.js";
 import { odezva } from "./feedback.js";
@@ -79,6 +79,7 @@ export function sadaOtazek({ polozky, odpovedi0 = [], naOdpoved, naKonec, textPo
     const mluvOtazku = tlacitkoPredcitani(() => textOtazky(q, jo), jo); // 🔊 (D-033)
     if (mluvOtazku) karta.append(mluvOtazku);
     telo.replaceChildren(karta, seznam);
+    chvilkuBezTuknuti(seznam); // dvojťuknutí na Další nesmí zodpovědět tuto otázku (S-1)
     if (autoPredcitat()) mluv(textOtazky(q, jo), jo);
     stav.q = q;
     stav.info = info;
@@ -124,21 +125,9 @@ export function sadaOtazek({ polozky, odpovedi0 = [], naOdpoved, naKonec, textPo
       posledni ? textPosledni || t("procvic.konec") : t("hra.dalsi"), h("span", { "aria-hidden": "true", text: " →" }));
     telo.append(panel, dalsi);
     dalsi.focus({ preventScroll: true });
-    ukazDalsi(dalsi);
+    ukazDalsi(dalsi, stav.tlacitka[q.spravne]);
   }
 
-  /** Posune k tlačítku Další s malou rezervou nad spodní lištou prohlížeče (jako ve hře, D-022/D-023). */
-  function ukazDalsi(btn) {
-    const reduce = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
-    const posun = () => {
-      if (!btn.isConnected) return;
-      const vyska = window.visualViewport?.height || window.innerHeight;
-      const navic = btn.getBoundingClientRect().bottom + Math.min(40, vyska * 0.06) - vyska;
-      if (navic > 1) window.scrollTo({ top: window.scrollY + navic, behavior: reduce ? "auto" : "smooth" });
-    };
-    requestAnimationFrame(() => requestAnimationFrame(posun));
-    setTimeout(posun, 450);
-  }
 
   function pokracuj() {
     if (!stav.odpovezeno || stav.hotovo) return;

@@ -88,12 +88,6 @@
   },
   "kategorie": {
     "nadpis": "Kategorie",
-    "temat": {
-      "one": "{n} téma",
-      "few": "{n} témata",
-      "many": "{n} tématu",
-      "other": "{n} témat"
-    },
     "dohrano": "Dohráno {x} / {n}"
   },
   "temata": {
@@ -470,7 +464,7 @@
     "ulozit": "Uložit pokrok do souboru",
     "nahrat": "Nahrát pokrok ze souboru",
     "ulozeno": "Soubor s pokrokem je uložený ve stažených souborech 💾",
-    "chyba": "Tenhle soubor nejde nahrát – není to uložený pokrok z Oho!.",
+    "chyba": "Tenhle soubor nejde nahrát – není to uložený pokrok ze hry Oho!",
     "potvrditNadpis": "Nahrát pokrok ze souboru?",
     "potvrditText": {
       "one": "Soubor uložený {datum} ({n} dohrané kolo). Současný pokrok v tomto zařízení se tím nahradí.",

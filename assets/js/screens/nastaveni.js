@@ -9,6 +9,7 @@ import { kratkeOznameni } from "../oslavy.js";
 import { dnes } from "../game.js";
 import { ukazPruvodce } from "../pruvodce.js";
 import { zvuk, vibrace } from "../feedback.js";
+import { normalizuj } from "../progress.js";
 
 export const ID = "nastaveni";
 const APLIKACE = "oho-kviz"; // podpis souboru s pokrokem (D-033)
@@ -35,6 +36,7 @@ async function nahrajZeSouboru(soubor) {
     kratkeOznameni(t("prenos.chyba"));
     return;
   }
+  if (data.pokrok) data.pokrok = normalizuj(data.pokrok); // vadné záznamy ze souboru zahodit (D-6)
   const kol = Object.values(data.pokrok?.vysledky || {}).reduce((n, o) => n + Object.keys(o || {}).length, 0);
   const datum = obsah.ulozeno ? new Date(obsah.ulozeno).toLocaleDateString(nast().ui === "cs" ? "cs-CZ" : "en-GB") : "?";
   const ano = await potvrdit({

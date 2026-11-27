@@ -5,14 +5,18 @@ import { h, logo, wordmark } from "../ui.js";
 
 export const ID = "uvod";
 
+// Krok 2 má vlastní záznam v historii prohlížeče (stejná adresa, stav { uvod: 2 }), takže systémové
+// Zpět vrátí na krok 1 a neopustí hru (KONTROLA 2026-11-27 D-8).
 let krok = 1;
 let zvoleny = null;
 
+/** Který krok má být podle historie prohlížeče vidět. */
+export const krokHistorie = () => (history.state?.uvod === 2 ? 2 : 1);
+export const zobrazenyKrok = () => krok;
+
 export function vykresli(_param, app) {
-  if (!zvoleny) {
-    zvoleny = jazykProhlizece();
-    krok = 1;
-  }
+  if (!zvoleny) zvoleny = jazykProhlizece();
+  krok = krokHistorie();
   nastavJazyk(zvoleny);
   const el = krok === 1 ? krok1(app) : krok2(app);
   return { el, titulek: t("uvod.titulek"), klic: `krok${krok}` };
@@ -51,7 +55,7 @@ function krok1(app) {
       "data-test": "pokracovat",
       text: t("uvod.pokracovat"),
       onclick: () => {
-        krok = 2;
+        history.pushState({ uvod: 2 }, "", location.hash);
         app.prekresli();
       },
     })
@@ -70,8 +74,7 @@ function krok2(app) {
         onclick: () => {
           zmen({ ui: zvoleny, zvuky: nast().zvuky ?? true, vibrace: nast().vibrace ?? true, ...ZPUSOBY[klic](zvoleny) });
           zvoleny = null;
-          krok = 1;
-          app.poUvodu(); // Domů, nebo na odkaz, se kterým hráč přišel
+          app.poUvodu(); // Domů, nebo na odkaz, se kterým hráč přišel (záznam kroku 2 z historie zmizí)
         },
       },
       h("span", { class: "choice-emo", "aria-hidden": "true", text: emo }),
@@ -83,7 +86,7 @@ function krok2(app) {
     "main",
     { class: "screen screen-uvod" },
     h("div", { class: "uvod-top" },
-      h("button", { type: "button", class: "iconbtn", "aria-label": t("nav.zpet"), onclick: () => { krok = 1; app.prekresli(); } },
+      h("button", { type: "button", class: "iconbtn", "aria-label": t("nav.zpet"), onclick: () => history.back() },
         h("span", { "aria-hidden": "true", text: "←" })),
       h("p", { class: "step", text: t("uvod.krok", { n: 2, z: 2 }) })),
     h("h1", { class: "h-title", text: t("uvod.jakHrat") }),

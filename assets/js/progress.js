@@ -25,22 +25,38 @@ const PRAZDNY = () => ({
 
 let p = normalizuj(nacti("pokrok", null));
 
-function normalizuj(x) {
+/** Načtený pokrok převede na platný tvar. Záznamy špatného tvaru (ručně upravené nebo poškozené úložiště,
+ *  soubor s pokrokem) zahodí po jednom, aby jeden vadný výsledek neshodil Historii, výzvu ani kolo
+ *  (KONTROLA 2026-11-27 D-6). */
+export function normalizuj(x) {
   const z = PRAZDNY();
   if (!x || typeof x !== "object" || x.verze !== VERZE) return z;
-  const obj = (v, d) => (v && typeof v === "object" ? v : d);
+  const jeObj = (v) => !!v && typeof v === "object" && !Array.isArray(v);
+  const obj = (v, d) => (jeObj(v) ? v : d);
+  const vyber = (o, test) => Object.fromEntries(Object.entries(obj(o, {})).filter(([, v]) => test(v)));
+  const odpovediOk = (a) => Array.isArray(a) && a.every((o) => Array.isArray(o) && typeof o[0] === "string" && Number.isInteger(o[1]));
+  const cislo = (v) => typeof v === "number" && Number.isFinite(v);
+  const vysledekOk = (v) => jeObj(v) && cislo(v.s) && cislo(v.c) && v.c > 0 && odpovediOk(v.odpovedi);
+  const vysledky = {};
+  for (const [tema, obt] of Object.entries(obj(x.vysledky, {}))) {
+    const dobre = vyber(obt, vysledekOk);
+    if (Object.keys(dobre).length) vysledky[tema] = dobre;
+  }
+  const rozehranoOk = (v) => jeObj(v) && Array.isArray(v.poradi) && v.poradi.length > 0 && v.poradi.every((id) => typeof id === "string")
+    && odpovediOk(v.odpovedi);
+  const vyzvaOk = (v) => jeObj(v) && Array.isArray(v.ids) && v.ids.every((id) => typeof id === "string") && odpovediOk(v.odpovedi);
   return {
     verze: VERZE,
-    vysledky: obj(x.vysledky, z.vysledky),
-    rozehrano: obj(x.rozehrano, z.rozehrano),
+    vysledky,
+    rozehrano: vyber(x.rozehrano, rozehranoOk),
     dny: { ...z.dny, ...obj(x.dny, {}) },
     stat: { ...z.stat, ...obj(x.stat, {}) },
     odznaky: obj(x.odznaky, z.odznaky),
     procviceno: obj(x.procviceno, z.procviceno),
-    vyzvy: obj(x.vyzvy, z.vyzvy),
+    vyzvy: vyber(x.vyzvy, vyzvaOk),
     vyzvaDny: { ...z.vyzvaDny, ...obj(x.vyzvaDny, {}) },
-    sbirka: obj(x.sbirka, z.sbirka),
-    znamaTemata: obj(x.znamaTemata, z.znamaTemata),
+    sbirka: vyber(x.sbirka, jeObj),
+    znamaTemata: vyber(x.znamaTemata, jeObj),
     katTydne: obj(x.katTydne, z.katTydne),
   };
 }
