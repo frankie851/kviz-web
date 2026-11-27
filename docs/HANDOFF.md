@@ -1,8 +1,8 @@
 # HANDOFF – Kvízová webová aplikace
-datum: 2026-11-27 · předává: prompt 01 (D-040 kategorie týdne, D-041 obrázek s výsledkem, prostředí A) · přebírá: David (sloučit pull request, vyzkoušet)
+datum: 2026-11-27 · předává: prompt 01 (Fáze 5 – opravy po kontrole 2026-11-27, D-042, prostředí A) · přebírá: David (sloučit pull request, pak prompt 03 v prostředí B)
 
 ## Stav jednou větou
-Web je online s funkcemi do D-039. V pull requestu čeká D-040 Kategorie týdne a D-041 Obrázek s výsledkem ke sdílení; zbylé nápady 31–40 čekají na Davidův výběr.
+Web je online s funkcemi do D-041; v pull requestu čekají opravy nálezů z kontroly 2026-11-27 (D-042). Zbývá S-2 (nový export promptem 03), Davidova volba ke „K zvážení“ 1–4 a nápady 31–40.
 
 ## Stav dat
 - 2026-11-04 – 35 otázek, 1 téma (T001 Chobotnice a další hlavonožci), režim vzorek
@@ -70,9 +70,11 @@ Web je online s funkcemi do D-039. V pull requestu čeká D-040 Kategorie týdne
 
 - D-039 (2026-11-16): vysoký kontrast a čitelnější písmo; `pruchod.py` 255 kontrol; náhled `docs/nahledy/d039-kontrast-pismo.png`.
 
-- D-040, D-041 (2026-11-27): kategorie týdne, obrázek s výsledkem ke sdílení; `pruchod.py` 271 kontrol; náhled `docs/nahledy/d040-d041-kategorie-tydne-obrazek.png`.
+- D-040, D-041 (2026-11-27): kategorie týdne, obrázek s výsledkem ke sdílení; `pruchod.py` 271 kontrol; náhled `docs/nahledy/d040-d041-kategorie-tydne-obrazek.png`. Sloučeno (pull request #24), nasazení ověřila kontrola 2026-11-27.
+- Fáze 5 po kontrole 2026-11-27 – D-042: S-1 dvojité ťuknutí na Další a S-3 přiblížení po otočení zopakovány a opraveny, drobné D-1 až D-9 opraveny; obě střední chyby i drobné hlídá `pruchod.py` trvale (304 kontrol, 2× za sebou); náhledy `docs/nahledy/kontrola2-*.png`.
 
 ## Rozpracováno
+- **Telefon na šířku (D-4 z kontroly):** správná odpověď a verdikt zůstanou vidět, „Další“ je někdy potřeba dorolovat; „Pokračovat“ v prvním spuštění na šířku taky jen po posunu (nechávám, je to výjimečný případ).
 - **Štítek „Nové“ uvidí hráči až u témat přidaných po této verzi** – po příštím exportu promptem 03 (prostředí B) ověřit na webu.
 - **Na skutečném telefonu ověří David:** hlas předčítání (čeština záleží na hlasech v telefonu), stažení a nahrání souboru s pokrokem (iPhone: Soubory), otevření odkazu výzvy kamarádovi z WhatsAppu/Messengeru.
 - **Sdílení na skutečném telefonu** ověří David (systémová nabídka sdílení se v Chromiu bez hlavy jen napodobí).
@@ -84,11 +86,11 @@ Web je online s funkcemi do D-039. V pull requestu čeká D-040 Kategorie týdne
 - **Náhled odkazu** ověří až sdílení nasazené adresy (např. poslat si odkaz ve WhatsAppu/Messengeru). Sítě si náhled pamatují – kdyby ukazovaly starou zástupnou stránku, chce to chvíli počkat.
 
 ## Další krok
-0. **Po kontrole 2026-11-27 (prompt 02, `docs/KONTROLA_2026-11-27.md` – Připraveno po opravách: 0 zásadních, 3 střední, 9 drobných, 4 k zvážení):**
-   - **Fáze 5 – prompt 01 v Claude Code** (Cloud environment, repozitář kviz-web): každý střední nález nejdřív zopakovat, pak opravit – **S-1** dvojité ťuknutí na „Další“ omylem zodpoví příští otázku (`hra.js`, `sada.js`), **S-3** po otočení telefonu zůstane stránka přiblížená (přechod `.screen-in-vpred` roztahuje dokument); drobné D-1 až D-9 podle uvážení, neopravené zapsat sem. Obě střední chyby přidat jako trvalé kontroly do `tools/pruchod.py`.
-   - **S-2 opraví prompt 03 v prostředí B, ne stavitel:** 16 otázek má na webu starší znění než `otazky.json` (revize z 13. 11., export je z 8. 11.) – stačí nový `sync` + export.
-   - **David:** rozhodnout body „K zvážení“ 1–4 (plná obrazovka Domů pro nového hráče, délka průvodce, výzva kamarádovi obchází „jen jednou“) a na skutečném telefonu vyzkoušet S-3 (otočit telefon hned po otevření otázky).
-1. **David:** sloučit pull request s D-040 a D-041 a vyzkoušet (Domů → karta Kategorie týdne; po kole „🖼️ Obrázek“ → stáhnout / sdílet; totéž u denní výzvy a měsíčního souhrnu). **Na telefonu** ověřit, že „Sdílet obrázek“ nabídne WhatsApp/Messenger.
+0. **Po kontrole 2026-11-27 (`docs/KONTROLA_2026-11-27.md`):** Fáze 5 hotová (D-042) – opravy čekají v pull requestu.
+   - **David:** sloučit pull request, pak na telefonu vyzkoušet rychlé dvojité ťuknutí na „Další“ a otočení telefonu hned po otevření otázky (v emulaci opraveno, skutečný telefon může reagovat jinak).
+   - **S-2 – prompt 03 v prostředí B** (úkol propojený s počítačem): 16 otázek má na webu starší znění než `otazky.json` (revize z 13. 11., export z 8. 11.) – stačí `sync` + export + test. Do budoucna po každé dávce revizí u témat s Web = Ano pustit prompt 03.
+   - **David rozhodne „K zvážení“ 1–4** z kontroly: (1) Domů pro nového hráče – ukázat Úroveň, týdenní cíl a Kategorii týdne až po prvním dohraném kole? (2) průvodce pravidly zkrátit na jednu obrazovku? (3) výzva kamarádovi a denní výzva prozradí otázky z nehraných kol (i zamčené Těžké) – nechat, nebo omezit na odehraná kola? (4) po opravě S-1 bez akce. Volbu postaví prompt 01.
+1. ~~David: sloučit pull request s D-040 a D-041~~ – sloučeno (#24). **Na telefonu** ještě ověřit, že „Sdílet obrázek“ nabídne WhatsApp/Messenger.
 2. **Návrhy z 2026-11-12 uzavřené:** 1–8 hotové (D-026–D-032); 9 Instalace na plochu / offline – **David nechce** (2026-11-15), nestavět; 10 Nahlásit chybu v otázce – jen **možnost do budoucna** (viz Nápady na později).
 2b. **Nápady z 2026-11-15** (číslování podle zprávy Davidovi): hotové 11 Výzva kamarádovi, 12 Předčítání, 13 Přenos pokroku (D-033), 14 Úroveň hráče, 15 Týdenní cíl (D-034), 16 Moje sbírka, 17 Štítek „Nové“ (D-035); **vynechané pro teď** (David 2026-11-16): 18 Žolík 50 : 50, 19 Duel dvou hráčů na jednom telefonu, 20 Rychlovka na čas.
 2c. **Nové nápady z 2026-11-16** (číslování podle zprávy Davidovi; hotové 21 Průvodce pravidly (D-036), 22 Oblíbené kategorie a 23 Co ukazovat na Domů (D-037), 26 Kalendář aktivity a 27 Měsíční souhrn (D-038), 30 Vysoký kontrast a čitelnější písmo (D-039); nevybrané 24, 25, 28, 29 přesunuty do Nápadů na později (David 2026-11-18)).

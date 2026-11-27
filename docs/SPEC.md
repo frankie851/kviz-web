@@ -68,7 +68,7 @@ Veřejná webová aplikace, ve které kdokoli hraje kvízy z Davidových ověře
 - Data jsou uložená po jazycích (`{"cs": …, "en": …}`), aby šlo později přidat další jazyk bez přestavby.
 
 ## Data
-- **Zdroj pravdy:** `C:\Users\mlcoc\Desktop\AIProjekty\Kvizy\otazky.json`, který spravuje skript `Kvizy\nastroje\kviz_db.py`. `kviz_otazky.xlsx` je jeho přehled, ve kterém David ručně vybírá.
+- **Zdroj pravdy:** `otazky.json` ve složce Kvizy na Davidově počítači, který spravuje skript `Kvizy\nastroje\kviz_db.py`. `kviz_otazky.xlsx` je jeho přehled, ve kterém David ručně vybírá.
 - **Výběr pro web:** nový sloupec **„Web“** (hodnota „Ano“, hned za sloupcem Shorts) na všech listech s otázkami. Přidá se rozšířením `kviz_db.py` (Fáze 0); do JSON se převezme příkazem `kviz_db.py sync`. Vybírá se po jednotlivých otázkách; téma se na webu ukáže, když má aspoň jednu obtížnost se 3 a více vybranými otázkami.
 - **Do aplikace jdou jen otázky** s Web = Ano a stavem ověření „Ověřeno“ nebo „Opraveno po ověření“. Neověřené se přeskočí a vypíšou v hlášení exportu.
 - **Na web jdou jen pole:** ID otázky, ID a název tématu (CZ/EN), kategorie (CZ/EN), obtížnost (1–3), otázka, 4 možnosti, správná možnost, vysvětlení – vše v CZ i EN. Zdroje, stavy ověření, poznámky, sloupce Použít/Shorts ani stav videí ne.

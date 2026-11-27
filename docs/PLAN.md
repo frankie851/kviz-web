@@ -52,6 +52,7 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☑ (2026-11-05) Kompletní ověření a nasazení. – `test_export.py` prošel, `pruchod.py` 2× za sebou 113 kontrol, 7 obrazovek × 5 šířek bez přetékání; pull request #3 sloučený, nasazená verze ověřena přes WebFetch (`app.js`, `app.css` s opravami D-016).
 - ☑ (2026-11-05) Davidova volba z „K zvážení“: na Domů úspěšnost v % místo druhé série dní (D-018); `pruchod.py` 116 kontrol; pull request ke sloučení.
 - ☑ (2026-11-05) Závěrečná zpráva Davidovi + zaškrtnout kritéria přijetí ve SPEC (všech 10).
+- ☑ (2026-11-27) Opravy po druhé kontrole (`KONTROLA_2026-11-27.md`): S-1 a S-3 zopakovány a opraveny, drobné D-1 až D-9 opraveny (D-042); `pruchod.py` 304 kontrol. S-2 (starší znění 16 otázek) čeká na prompt 03 v prostředí B; „K zvážení“ 1–4 čekají na Davida.
 
 ## Po 1. verzi (úpravy podle Davida, prompt 01)
 - ☑ (2026-11-05) D-018 úspěšnost v % na Domů, menší stín pod Hrát.
@@ -79,4 +80,4 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 - ☑ (2026-11-27) D-040 kategorie týdne, D-041 obrázek s výsledkem ke sdílení.
 
 ## Stav
-Poslední aktualizace: 2026-11-27 · Web online (vč. D-039) · Čeká se: sloučení D-040 a D-041 · Blokováno: nic
+Poslední aktualizace: 2026-11-27 · Web online (vč. D-041) · Čeká se: sloučení oprav po kontrole (D-042), pak prompt 03 (S-2) a Davidova volba ke „K zvážení“ · Blokováno: nic
