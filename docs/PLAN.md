@@ -45,6 +45,7 @@ Prostředí: **A** = Claude Code, Cloud environment (jen repozitář) · **B** =
 
 ## Fáze 4 – Kontrola (prompt 02, prostředí B)
 - ☑ (2026-11-05) `docs/KONTROLA_2026-11-05.md` s verdiktem a nálezy – **Připraveno po opravách**: 0 zásadních, 1 střední, 7 drobných, 5 k zvážení; screenshoty v `docs/kontrola-img/`.
+- ☑ (2026-11-27) Druhá kontrola po D-018 až D-041 (116 témat): `docs/KONTROLA_2026-11-27.md` – **Připraveno po opravách**: 0 zásadních, 3 střední, 9 drobných, 4 k zvážení; screenshoty v `docs/kontrola-img/2026-11-27/`.
 
 ## Fáze 5 – Opravy a dokončení (prompt 01, prostředí A)
 - ☑ (2026-11-05) Přečíst nejnovější `docs/KONTROLA_*.md`; každý zásadní a střední nález nejdřív zopakovat, pak opravit; drobné podle uvážení, neopravené zapsat do HANDOFF. – S-1 zopakován a opraven, D-1 až D-7 opraveny (D-016); „K zvážení“ 1–5 čekají na Davida.

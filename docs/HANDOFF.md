@@ -84,6 +84,10 @@ Web je online s funkcemi do D-039. V pull requestu čeká D-040 Kategorie týdne
 - **Náhled odkazu** ověří až sdílení nasazené adresy (např. poslat si odkaz ve WhatsAppu/Messengeru). Sítě si náhled pamatují – kdyby ukazovaly starou zástupnou stránku, chce to chvíli počkat.
 
 ## Další krok
+0. **Po kontrole 2026-11-27 (prompt 02, `docs/KONTROLA_2026-11-27.md` – Připraveno po opravách: 0 zásadních, 3 střední, 9 drobných, 4 k zvážení):**
+   - **Fáze 5 – prompt 01 v Claude Code** (Cloud environment, repozitář kviz-web): každý střední nález nejdřív zopakovat, pak opravit – **S-1** dvojité ťuknutí na „Další“ omylem zodpoví příští otázku (`hra.js`, `sada.js`), **S-3** po otočení telefonu zůstane stránka přiblížená (přechod `.screen-in-vpred` roztahuje dokument); drobné D-1 až D-9 podle uvážení, neopravené zapsat sem. Obě střední chyby přidat jako trvalé kontroly do `tools/pruchod.py`.
+   - **S-2 opraví prompt 03 v prostředí B, ne stavitel:** 16 otázek má na webu starší znění než `otazky.json` (revize z 13. 11., export je z 8. 11.) – stačí nový `sync` + export.
+   - **David:** rozhodnout body „K zvážení“ 1–4 (plná obrazovka Domů pro nového hráče, délka průvodce, výzva kamarádovi obchází „jen jednou“) a na skutečném telefonu vyzkoušet S-3 (otočit telefon hned po otevření otázky).
 1. **David:** sloučit pull request s D-040 a D-041 a vyzkoušet (Domů → karta Kategorie týdne; po kole „🖼️ Obrázek“ → stáhnout / sdílet; totéž u denní výzvy a měsíčního souhrnu). **Na telefonu** ověřit, že „Sdílet obrázek“ nabídne WhatsApp/Messenger.
 2. **Návrhy z 2026-11-12 uzavřené:** 1–8 hotové (D-026–D-032); 9 Instalace na plochu / offline – **David nechce** (2026-11-15), nestavět; 10 Nahlásit chybu v otázce – jen **možnost do budoucna** (viz Nápady na později).
 2b. **Nápady z 2026-11-15** (číslování podle zprávy Davidovi): hotové 11 Výzva kamarádovi, 12 Předčítání, 13 Přenos pokroku (D-033), 14 Úroveň hráče, 15 Týdenní cíl (D-034), 16 Moje sbírka, 17 Štítek „Nové“ (D-035); **vynechané pro teď** (David 2026-11-16): 18 Žolík 50 : 50, 19 Duel dvou hráčů na jednom telefonu, 20 Rychlovka na čas.
